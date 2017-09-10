@@ -1,15 +1,15 @@
 links:
-- text: 'top'
+- text: 'トップに戻る'
   href: '/?page=top'
-- text: '開発日誌（ブログ）'
+- text: '最新の記事'
   href: '/?post'
+- text: '本家サイト'
+  href: 'https://blog.ueda.tech'
 - text: '外部サイト'
   href: './'
   sublinks:
-  - text: '旧bashcms'
-    href: 'http://test.usptomo.com/'
-  - text: '作者ブログ'
-    href: 'https://blog.ueda.tech/'
+  - text: '千葉工大上田研究室'
+    href: 'https://lab.ueda.tech/'
 sociallinks:
 - icon: 'fa-twitter-square'
   href: 'https://twitter.com/ryuichiueda'
