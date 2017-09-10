@@ -1,4 +1,4 @@
-protocol: 'http'
+protocol: 'https'
 host: 'b.ueda.tech'
 twitter:
 - account: 'ryuichiueda'
