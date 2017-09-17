@@ -1,0 +1,316 @@
+# コンピュータとロボット（と生物）2/3
+<h1 style="font-size:180%">コンピュータとロボット<br />（と生物）</h1><br />
+<h2 style="font-size:150%">2/3</h2><br />
+　<br />
+　<br />
+<strong>千葉工業大学 未来ロボティクス学科</strong><br />
+<br />
+<strong>上田 隆一</strong><br />
+<br />
+<!--nextpage--><br />
+<br />
+<h2>Q. もう一度考えましょう</h2><br />
+　<br />
+<ul><br />
+	<li>ロボットや機械におけるコンピュータの役割は？</li><br />
+	<li>生物との違いは？</li><br />
+</ul><br />
+<br />
+<!--nextpage--><br />
+<br />
+<h2>コンピュータ・ロボット</h2><br />
+　<br />
+<ul><br />
+	<li>コンピュータ: センサの情報をモータの動きに変換</li><br />
+	<li>ロボット: センサ・モータ・コンピュータが連携したもの</li><br />
+　<br />
+	<li>生物の神経系・脳と役割は同じ。</li><br />
+	<li>情報の伝達に使うのも電気信号なので同じ。</li><br />
+ <ul><br />
+		<li>もちろん構造は異なる。</li><br />
+ </ul><br />
+　<br />
+	<li>人間の欲望と共に進化中</li><br />
+ <ul><br />
+		<li>（しかし、ロボットが自己増殖し始めたら、<br />どうなるんでしょうね？）</li><br />
+ </ul><br />
+</ul><br />
+<br />
+<br />
+<br />
+<!--nextpage--><br />
+<br />
+<h2>もっとも簡単な<br />「ロボット」</h2><br />
+　<br />
+<ul><br />
+	<li><a href="https://youtu.be/KWoufBRGIls?t=1m5s" target="_blank">自動ドア</a></li><br />
+ <ul><br />
+	<li>単機能ながら洗練されたロボット</li><br />
+	<li>これ、どうなってるんでしょう？</li><br />
+ </ul><br />
+　<br />
+	<li>センサがある。ドアを開くモータがある。</li><br />
+</ul><br />
+<br />
+<!--nextpage--><br />
+<br />
+<h2>単純な回路の例</h2><br />
+<br />
+このままだと色々問題がありますが・・・<br />
+<br />
+<img width="100%" src="https://blog.ueda.asia/wp-content/uploads/2016/03/f368e705bc87cc8ceeb01a8f2f474a5d-1024x484.jpeg" /><br />
+<br />
+<ul><br />
+	<li><a target="_blank" href="https://www.google.co.jp/search?q=%E3%83%AA%E3%83%AC%E3%83%BC&source=lnms&tbm=isch&sa=X&ved=0ahUKEwimlr6nw8HLAhVTA44KHe8kDGoQ_AUIBygB&biw=895&bih=880">リレーって何？</a></li><br />
+</ul><br />
+<br />
+<!--nextpage--><br />
+<br />
+<h2>構成要素</h2><br />
+<br />
+<ul><br />
+	<li>センサ側</li><br />
+	<ul><br />
+		<li>反応すると小さい電流をON/OFF</li><br />
+	</ul><br />
+	<li>モータ側</li><br />
+	<ul><br />
+		<li>リレーのON/OFFでモータに電力を送る・送らない</li><br />
+	</ul><br />
+	<li style="color:red">リレーが自動のスイッチになる</li><br />
+	<ul><br />
+		<li>人の手が介在しないスイッチ</li><br />
+		<li>入力から出力を導く（コンピュータの本質）</li><br />
+	</ul><br />
+</ul><br />
+<br />
+<img width="40%" src="https://blog.ueda.asia/wp-content/uploads/2016/03/f368e705bc87cc8ceeb01a8f2f474a5d-1024x484.jpeg" /><br />
+<br />
+<!--nextpage--><br />
+<br />
+<h2>もっと凝るとどうなる？</h2><br />
+　　　　　　<br />
+<ul><br />
+	<li>人を絶対に挟まないようにセンサを増やそう、等</li><br />
+　<br />
+	<li>バリエーションが増える</li><br />
+	<ul><br />
+		<li>両方反応したらON</li><br />
+		<li>どっちかが反応したらON</li><br />
+	</ul><br />
+　<br />
+	<li>バリエーションを考えてみましょう</li><br />
+	<ul><br />
+		<li>電流の強弱は考えずとりあえずONとOFFだけ考える</li><br />
+		<li style="color:red">ディジタル回路</li><br />
+	</ul><br />
+</ul><br />
+<br />
+<!--nextpage--><br />
+<br />
+<h2>ANDの回路</h2><br />
+　　　　<br />
+<ul><br />
+	<li>両方ONならONの回路</li><br />
+	<ul><br />
+		<li>使用例: 小さな虫に反応しないように二つセンサが反応したらドアを開く</li><br />
+		<li>（センサもスイッチなので話がややこしくなるため、<br />以後、センサとモータを取り払った回路で考えます）</li><br />
+	</ul><br />
+</ul><br />
+<br />
+<img width="100%" src="https://blog.ueda.asia/wp-content/uploads/2016/03/43a4607003e2c01b75d16fc267e7a207.jpeg" /><br />
+<br />
+<!--nextpage--><br />
+<br />
+<h2>ORの回路</h2><br />
+　　　　<br />
+<ul><br />
+	<li>どちらかがONならONの回路</li><br />
+	<ul><br />
+		<li>使用例: ドアの外と内のどちらかのセンサが反応したらドアを開く</li><br />
+	</ul><br />
+</ul><br />
+<br />
+<img width="100%" src="https://blog.ueda.asia/wp-content/uploads/2016/03/f031486ef7ba5daef919bb0698d061c5.jpeg" /><br />
+<br />
+<!--nextpage--><br />
+<br />
+<h2>スイッチを小さく</h2><br />
+　　　　<br />
+<ul><br />
+	<li>リレーでANDやORなどの回路を組み合わせると<br />複数のセンサの反応から様々なモータの動かし方を<br />実現できそう</li><br />
+	<ul><br />
+		<li>回路を横に並べたり縦につないだり</li><br />
+	</ul><br />
+　<br />
+	<li>複雑な回路ではリレーの数が増える</li><br />
+	<li>リレーは大きい、遅い、（昔は）壊れる</li><br />
+</ul><br />
+<br />
+<!--nextpage--><br />
+<br />
+<h2>半導体への置き換え</h2><br />
+　　　　<br />
+<ul><br />
+	<li>より小さく、より低消費電力で、よりON/OFFを速く</li><br />
+	<li>真空管→トランジスタ・電解効果トランジスタ（FET）</li><br />
+　<br />
+	<li><a target="_blank" href="http://pc.watch.impress.co.jp/img/pcw/docs/541/584/html/10.jpg.html">例（MOSFET）</a></li><br />
+</ul><br />
+<br />
+<!--nextpage--><br />
+<br />
+<h2>FET（MOSFET）</h2><br />
+　　　　<br />
+<ul><br />
+	<li>3本線が出ている（左図）</li><br />
+　<br />
+	<li>N型: ゲートに電圧をかけるとスイッチON</li><br />
+	<li>P型: ゲートに電圧をかけるとスイッチOFF</li><br />
+	<li>右図: N型MOSとP型MOSの記号</li><br />
+</ul><br />
+<br />
+<div style="float:left;font-size:20%;line-height:100%;width:30%"><br />
+<a title="By No machine-readable author provided. CyrilB~commonswiki assumed (based on copyright claims). [GFDL (http://www.gnu.org/copyleft/fdl.html), CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC BY-SA 2.5-2.0-1.0 (http://creativecommons.org/licenses/by-sa/2.5-2.0-1.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AD2PAK.JPG"><img alt="D2PAK" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/D2PAK.JPG/512px-D2PAK.JPG"/></a><br />
+By No machine-readable author provided. CyrilB~commonswiki assumed (based on copyright claims). [GFDL (http://www.gnu.org/copyleft/fdl.html), CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC BY-SA 2.5-2.0-1.0 (http://creativecommons.org/licenses/by-sa/2.5-2.0-1.0)], via Wikimedia Commons</div><br />
+<div style="float:left;font-size:20%;width:30%"><br />
+<img src="https://blog.ueda.asia/wp-content/uploads/2016/03/8e54ab680c42972adc3dac868b9d2278.jpeg" /><br />
+</div><br />
+<br />
+<br />
+<!--nextpage--><br />
+<br />
+<h2>MOSFETを使った<br />ディジタル回路</h2><br />
+　　　　<br />
+<ul><br />
+	<li>P型とN型を組み合わせて使う</li><br />
+	<ul><br />
+		<li>complementary MOS, CMOS</li><br />
+	</ul><br />
+	<li>下の例: 入力をひっくり返す回路（NOTゲート）</li><br />
+</ul><br />
+<br />
+<img width="50%" src="https://blog.ueda.asia/wp-content/uploads/2016/03/008b03578b8a92e420d294da7e83b215.jpeg" /><br />
+<br />
+<!--nextpage--><br />
+<br />
+<h2>NOTゲートの電子回路</h2><br />
+<br />
+<iframe frameborder='0' height='448' marginheight='0' marginwidth='0' scrolling='no' src='https://123d.circuits.io/circuits/1713317-not-gate/embed#breadboard' width='650'></iframe><br />
+<br />
+<!--nextpage--><br />
+<br />
+<h2>NANDゲート</h2><br />
+<br />
+<ul><br />
+	<li>組み合わせると入出力のパターンを自在に作成可能</li><br />
+</ul><br />
+<br />
+<img width="100%" src="https://blog.ueda.asia/wp-content/uploads/2016/03/83decebed43c6b3565104403e4eba98c.jpeg" /><br />
+<br />
+<br />
+<!--nextpage--><br />
+<br />
+<h2>NANDゲートの回路</h2><br />
+<br />
+<iframe frameborder='0' height='448' marginheight='0' marginwidth='0' scrolling='no' src='https://123d.circuits.io/circuits/1717541-nand-gate/embed#breadboard' width='650'></iframe><br />
+<br />
+<!--nextpage--><br />
+<br />
+<h2>NANDゲートの汎用性</h2><br />
+　　<br />
+<ul><br />
+	<li>回路がややこしいので次のような記号で表しましょう。</li><br />
+</ul><br />
+<img width="30%" src="https://blog.ueda.asia/wp-content/uploads/2016/03/ac6a7be2066cda06c252afdf6c4236b6.jpeg" /><br />
+<ul><br />
+	<li>NOT, AND, ORが作れる</li><br />
+</ul><br />
+<img width="100%" src="https://blog.ueda.asia/wp-content/uploads/2016/03/acebbc506806de018630fbef767336ca.jpeg" /><br />
+<ul><br />
+	<li>他、過去の入力を覚える機能も作れる（記憶）</li><br />
+</ul><br />
+<br />
+<!--nextpage--><br />
+<br />
+<h2>二進数</h2><br />
+　　　<br />
+<ul><br />
+	<li>ON/OFFも書くのが面倒なので1と0で表しましょう</li><br />
+	<li>ON/OFFを幾つかまとめると数が表現できる</li><br />
+	<ul style="font-size:70%"><br />
+		<li>OFF OFF (00): 0</li><br />
+		<li>OFF ON (01): 1</li><br />
+		<li>ON OFF (10): 2</li><br />
+		<li>ON ON (11): 3</li><br />
+	</ul><br />
+	<li>計算できる（下図: 足し算の回路）</li><br />
+	<ul><br />
+		<li>さらに複雑な入出力が作れる</li><br />
+	</ul><br />
+</ul><br />
+<br />
+<div style="font-size:50%;line-height:100%"><br />
+<a href="https://blog.ueda.asia/wp-content/uploads/2016/03/NandFullAdder.png" rel="attachment wp-att-7981"><img src="https://blog.ueda.asia/wp-content/uploads/2016/03/NandFullAdder.png" alt="NandFullAdder" /></a><br />（public domain）<br />
+</div><br />
+<br />
+<!--nextpage--><br />
+<br />
+<h2>小さく、多く</h2><br />
+　　<br />
+<ul><br />
+	<li>IC, LSI</li><br />
+	<ul><br />
+		<li><a href="https://ja.wikipedia.org/wiki/NAND%E3%82%B2%E3%83%BC%E3%83%88#/media/File:4011_Pinout.svg" target="_blank">NANDゲート4個（ゲート数4）のIC</a></li><br />
+		<li><a href="http://www.electronickitsbychaneyelectronics.com/prodinfo.asp?number=C7514" target="_blank">ICの外見</a></li><br />
+		<li><a href="http://pc.watch.impress.co.jp/docs/2008/0620/vlsi02.htm" target="_blank">ゲート数を増やす研究が日々行われている</a></li><br />
+	</ul><br />
+</ul><br />
+<br />
+<!--nextpage--><br />
+<br />
+<h2>CPU（中央演算装置）</h2><br />
+　　<br />
+<ul><br />
+	<li>入出力関係が複雑になると回路を作るのが大変</li><br />
+	<ul><br />
+		<li>複雑な出力の例: ディスプレイに絵を描く等</li><br />
+	</ul><br />
+	<li>いくつかの汎用的な回路を使い回して様々な出力</li><br />
+	<ul><br />
+		<li>計算の手順を記憶しておく（プログラム）</li><br />
+		<li>少しずつ出力を作っていく</li><br />
+	</ul><br />
+</ul><br />
+<br />
+<div style="text-align:center;font-size:20%;line-height:100%"><br />
+<a title="By smial (Own work) [FAL or GFDL 1.2 (http://www.gnu.org/licenses/old-licenses/fdl-1.2.html)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AIntel_core_i7_940_top_R7309478_wp.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Intel_core_i7_940_top_R7309478_wp.jpg/512px-Intel_core_i7_940_top_R7309478_wp.jpg" width="25%" /></a><br />By smial (Own work) [<a href="http://artlibre.org/licence/lal/en">FAL</a> or <a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.html">GFDL 1.2</a>], <a href="https://commons.wikimedia.org/wiki/File%3AIntel_core_i7_940_top_R7309478_wp.jpg">via Wikimedia Commons</a><br />
+</div><br />
+<br />
+<!--nextpage--><br />
+　<br />
+<h2>このパートのまとめ</h2><br />
+　　　<br />
+<ul><br />
+	<li>人が機械により便利なことをさせようとして<br />コンピュータが進化してきた</li><br />
+	<ul><br />
+		<li>リレー→プログラムできるCPU</li><br />
+		<ul><br />
+			<li><a href="https://github.com/ryuichiueda/NikkeiRaspiMouse/blob/master/201605/agents.py" target="_blank">ロボットのプログラム</a>（講師によるもの）</li><br />
+			<li><a href="https://www.youtube.com/watch?v=nNwKVeCqjus" target="_blank">このプログラムで動いているロボット</a></li><br />
+			<ul><br />
+				<li style="font-size:50%">（今日はロボット自体の話が少なかったですね・・・）</li><br />
+			</ul><br />
+		</ul><br />
+	</ul><br />
+　<br />
+	<li>生物が増殖のために脳を大きくしたのと似ている（？）</li><br />
+	<ul><br />
+		<li>でも基本はスイッチ・センサ・モータである</li><br />
+	</ul><br />
+</ul><br />
+　<br />
+<br />
+<div style="text-align:right;font-size:80%"><br />
+ <footer><a href="/?page_id=7863">戻る</a></footer><br />
+</div>

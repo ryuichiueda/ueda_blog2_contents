@@ -1,0 +1,133 @@
+# 【問題と解答】第25回もう4年もやってんのかシェル芸勉強会
+<h2>イントロ</h2><br />
+<br />
+<a href="https://blog.ueda.asia/?presenpress=%e7%ac%ac25%e5%9b%9e%e3%82%82%e3%81%864%e5%b9%b4%e3%82%82%e3%82%84%e3%81%a3%e3%81%a6%e3%82%93%e3%81%ae%e3%81%8b%e3%82%b7%e3%82%a7%e3%83%ab%e8%8a%b8%e5%8b%89%e5%bc%b7%e4%bc%9a">こちら</a><br />
+<h2>問題で使うファイル等</h2><br />
+GitHubにあります。ファイルは<br />
+<br />
+<a href="https://github.com/ryuichiueda/ShellGeiData/tree/master/vol.24" target="_blank">https://github.com/ryuichiueda/ShellGeiData/tree/master/vol.25</a><br />
+<br />
+にあります。<br />
+<br />
+クローンは以下のようにお願いします。<br />
+<br />
+[bash]<br />
+$ git clone https://github.com/ryuichiueda/ShellGeiData.git<br />
+[/bash]<br />
+<br />
+<h2>環境</h2><br />
+今回はUbuntu Linux 16.04で解答例を作りました。<br />
+<h2>Q1</h2><br />
+www.usptomo.comのIPアドレスだけを出力するワンライナーを考えてみてください。<br />
+<h3>解答</h3><br />
+<br />
+[bash]<br />
+$ dig www.usptomo.com | grep -A1 ANSWER <br />
+| tail -n 1 | awk '{print $NF}'<br />
+157.7.203.188<br />
+$ ping -c1 www.usptomo.com | head -n 1 <br />
+| awk '{print $3}' | tr -d '()'<br />
+157.7.203.188<br />
+[/bash]<br />
+<br />
+<h2>Q2</h2><br />
+次のような出力を作ってください。（<a href="http://togetter.com/li/1041621" target="_blank">出典</a>）<br />
+<br />
+[bash]<br />
+ひらけ！ポンキッキ<br />
+らけ！ポンキッキひ<br />
+け！ポンキッキひら<br />
+！ポンキッキひらけ<br />
+ポンキッキひらけ！<br />
+ンキッキひらけ！ポ<br />
+キッキひらけ！ポン<br />
+ッキひらけ！ポンキ<br />
+キひらけ！ポンキッ<br />
+[/bash]<br />
+<br />
+<h3>解答</h3><br />
+ベタなものを載せておきます。変態的解答はウェブで。<br />
+<br />
+[bash]<br />
+$ a=&quot;ひらけ！ポンキッキ&quot; ; for i in $(seq 2 $(wc -m &lt;&lt;&lt; $a)) ; <br />
+do echo $a ; a=$(sed 's/\\(.\\)\\(.*\\)/\\2\\1/g' &lt;&lt;&lt; $a) ; done<br />
+[/bash]<br />
+<br />
+<h2>Q3</h2><br />
+rbashと打つとリダイレクトが使えなくなります。<br />
+<br />
+この状況で、/etc/passwdからbashをログインシェルにしているユーザのレコードを抽出し、hoge等のファイルに出力してみましょう。様々な方法を考えてみましょう。bashと打ったりexitでもとのbashに戻るのは反則とします。<br />
+<h3>解答</h3><br />
+<br />
+[bash]<br />
+$ grep bash$ /etc/passwd | tee hoge<br />
+$ grep bash$ /etc/passwd | awk '{print $0 &gt; &quot;huge&quot;}'<br />
+$ grep bash$ /etc/passwd | dd of=hohe<br />
+[/bash]<br />
+<br />
+<h2>Q4</h2><br />
+以下のひらがなからワンライナーを始めて、濁点がつく字だけに濁点をつけてみてください。<br />
+<br />
+[bash]<br />
+$ echo すけふぇにんけん<br />
+[/bash]<br />
+<br />
+<h3>解答</h3><br />
+<br />
+[bash]<br />
+$ echo すけふぇにんけん | sed 's/./&amp;゛/g' <br />
+| nkf --katakana | nkf -Z4 <br />
+| nkf --hiragana | sed 's/゛//g'<br />
+ずげぶぇにんげん<br />
+[/bash]<br />
+<br />
+<h2>Q5</h2><br />
+1秒に一つ*が伸びていくアニメーションを作ってください。<br />
+<br />
+[playlist type="video" ids="8740"]<br />
+<h3>解答</h3><br />
+<br />
+[bash]<br />
+$ yes | awk 'BEGIN{a=&quot;*&quot;}{print a;a=a&quot;*&quot;;system(&quot;sleep 1&quot;)}' <br />
+| xargs -I\@ echo -ne \@&quot;\\r&quot; <br />
+[/bash]<br />
+<br />
+<h2>Q6</h2><br />
+日本語のメッセージから作った次の文字列を復元してください。<br />
+<br />
+[bash]<br />
+$ cat crypt <br />
+b730a730eb30b8820a00<br />
+[/bash]<br />
+<br />
+<h3>解答</h3><br />
+0a00あたりがカギになります。<br />
+<br />
+[bash]<br />
+$ cat crypt | xxd -ps -r | iconv -f=ucs-2le -t=utf8<br />
+シェル芸<br />
+$ echo -ne $(sed 's/\\(..\\)\\(..\\)/\\\\U\\2\\1/g' &lt; crypt)<br />
+シェル芸<br />
+[/bash]<br />
+<br />
+<h2>Q7</h2><br />
+本日（2016年10月29日）の範囲の毎秒のUNIX時刻で素数となるものを全て列挙してください。出力はUNIX時刻でなく、何時何分何秒か分かるようにしましょう。世界標準時で考えてください。<br />
+<h3>解答</h3><br />
+<br />
+[bash]<br />
+$ ( date -ud '20161029' +%s ; date -ud '20161030' +%s ) | xargs seq <br />
+| factor | awk 'NF==2{print &quot;\@&quot;$2}' | date -uf - <br />
+[/bash]<br />
+<br />
+<h2>Q8</h2><br />
+次のようにサイン波を描いてください。<br />
+<br />
+<a href="https://blog.ueda.asia/wp-content/uploads/2016/10/b466fc6a3025fb4e2d7d3b98eea47814.png"><img class="aligncenter size-large wp-image-8754" src="https://blog.ueda.asia/wp-content/uploads/2016/10/b466fc6a3025fb4e2d7d3b98eea47814-1024x871.png" alt="%e3%82%b9%e3%82%af%e3%83%aa%e3%83%bc%e3%83%b3%e3%82%b7%e3%83%a7%e3%83%83%e3%83%88-2016-10-27-21-04-17" width="660" height="561" /></a><br />
+<h3>解答</h3><br />
+<br />
+[bash]<br />
+$ seq 1 20 | awk '{a=sin($1/3) * 10 + 10;for(i=0;i&lt;a;i++)printf &quot;\@ &quot;;<br />
+printf &quot;* &quot;;for(i=a;i&lt;20;i++)printf &quot;\@ &quot;;print &quot;&quot;}' <br />
+| rs -t 23 | tr \@ ' ' <br />
+[/bash]<br />
+

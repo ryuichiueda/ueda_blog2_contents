@@ -1,0 +1,142 @@
+# ダイナミックDNSを使わずにシェル芸等々で自宅のサーバへアクセスするシステム作った
+（追記: 早速「VPSに向かってトンネル掘っとけよ！とUSP友の会で尻を突かれております。トンネル掘られそうです。」。あと、cronの頻度が高いと先方のサービスに蹴られる可能性があるのと、かと言って頻度を下げるとケーブルテレビ系だとちと辛いという話になってます。NTT, AUはIPがほとんど変わらないというのが経験上、言えることですが、保証はないです。）<br />
+<br />
+久しぶりにサーバいじりネタ。本当は今週学会1つと講義2つの準備があって、講義の準備が1つ済んでいないが、子供がギャーギャー言っている環境だと趣味ぐらいしか手が動かないので・・・<br />
+<br />
+<h2>やりたいこと</h2><br />
+<br />
+自宅に外からアクセスできるGitサーバ、ファイルサーバが欲しい。個人情報は置かない。自宅には光回線。IPアドレスが変わるがダイナミックDNSを使うほどでもない。<br />
+<br />
+<h2>自作自宅（と言っても仕事用）サーバ</h2><br />
+<br />
+（笑）<br />
+<br />
+<a href="https://blog.ueda.asia/wp-content/uploads/2015/12/1f8ab99fd20d90552cea8cec5339ede9.jpeg" rel="attachment wp-att-7261"><img src="https://blog.ueda.asia/wp-content/uploads/2015/12/1f8ab99fd20d90552cea8cec5339ede9-1024x768.jpeg" alt="ファイル 2015-12-13 20 35 51" width="660" height="495" class="aligncenter size-large wp-image-7261" /></a><br />
+<br />
+ショートが怖いのでラズパイのケースは発注しました・・・。リビングの電話台という、排熱できない環境に置くので耐久テストも兼ねてます。昔は同じ場所にThinkPad x41を置いてCentOSをインストールしてNASにしていましたが、夏場に40度にもなる環境で何年もトラブルなく動いていました。恐るべし<span style="font-size:50%">昔の</span>ThinkPad。<br />
+<br />
+<h2>最低限のセキュリティー</h2><br />
+<br />
+もちろん、デフォルトのラズパイはユーザpiとパスワードraspberryという<span style="color:red">公然のお約束</span>があるので、セキュリティーユルユルです。<br />
+<br />
+とりあえず自分がやった作業を書いておくと、まず次のように自分のアカウントを作り、piユーザを消しました。<br />
+<br />
+[bash]<br />
+$ sudo useradd ueda<br />
+###/etc/gropuのpiユーザを全部uedaに置換###<br />
+$ sudo userdel pi<br />
+$ sudo reboot<br />
+[/bash]<br />
+<br />
+そして、鍵を仕込んだらパスワードで入れないようにしておきました。今回のネタは鍵認証を使いこなせない人はちと難しいので先にそちらをお勉強願います。<br />
+<br />
+[bash]<br />
+$ vi /etc/ssh/sshd_config <br />
+###以下のように変更###<br />
+# Change to no to disable tunnelled clear text passwords<br />
+PasswordAuthentication no<br />
+###説明が面倒くさいのでreboot###<br />
+$ sudo reboot<br />
+[/bash]<br />
+<br />
+で、ルータのグローバルIPとポート番号をラズパイのローカルIPとポート番号と結びつけて転送できるようにします。これは・・・ルータ依存なので説明しませんが、難しいですよね・・・。<br />
+<br />
+設定ができたらルータのグローバルIPを調べて、外からラズパイに向かってsshできるか試しました。<br />
+<br />
+<h2>グローバルIPを調べて某所に転送するスクリプトを書いてcronに登録</h2><br />
+<br />
+で、DDNSが使えないのでこれからどうするかというところですが、とりあえずラズパイから一定時間間隔でグローバルIPを別のインターネット上のサーバ（自分のVPS）に飛ばします。<br />
+<br />
+ルータの持っているグローバルIPをどう調べるかわからなかったので、グーグルで調べたら<a target="_blank" href="http://qiita.com/syrinx05p/items/55060ab2e3dead4a370d">すっきりしたQiitaのエントリー</a>が見つかったので、その通りにしました。<br />
+<br />
+[bash]<br />
+ueda\@raspberrypi ~ $ curl inet-ip.info<br />
+203.0.113.1<br />
+[/bash]<br />
+<br />
+おお。<br />
+<br />
+ということで、次のようなシェルスクリプトを書きました。必須の行は最終行だけで、curlでIPアドレスを調べ、test.example.comに飛ばし、test.example.com側の/tmp/homeipに保存するというワンライナーです。シェルスクリプトですが、シェル芸っぽいです。宣伝ですが、こういう小技がたくさん書いてある<a rel="nofollow" href="http://www.amazon.co.jp/gp/product/4774173444/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4774173444&linkCode=as2&tag=ryuichiueda-22">シェルプログラミング実用テクニック (Software Design plus)（アフィ）</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=ryuichiueda-22&l=as2&o=9&a=4774173444" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />もよろしくお願いいたします（最近、宣伝が少なくて出版社に報いてないので宣伝）。<br />
+<br />
+<br />
+[bash]<br />
+ueda\@raspberrypi ~ $ cat ~/SYS/SENDIP <br />
+#!/bin/bash -vx<br />
+<br />
+exec 2&gt; /tmp/SENDIP.log<br />
+<br />
+curl inet-ip.info | ssh test.example.com 'cat - &gt; /tmp/homeip'<br />
+[/bash]<br />
+<br />
+で、これをcrontabにしかけます。<br />
+<br />
+[bash]<br />
+ueda\@raspberrypi ~ $ crontab -e<br />
+###以下のように1行書く###<br />
+*/10 * * * * /home/ueda/SYS/SENDIP<br />
+[/bash]<br />
+<br />
+で、test.example.comに入って、10分後に更新されているか確認します。<br />
+<br />
+[bash]<br />
+ueda\@test:~$ cat /tmp/homeip <br />
+203.0.113.1<br />
+[/bash]<br />
+<br />
+更新されていなかったら、ラズパイの/tmp/SENDIP.logにログが残っているので、バグがないか確認します。当然、鍵は通してある必要があり、また、（回避の方法を知らなければ）1度だけ最初に手でログインしておく必要があります。<br />
+<br />
+<h2>自分のPCの設定</h2><br />
+<br />
+（追記: Windowsガン無視すいません・・・）<br />
+まず、.ssh/configに次のように書いておきます。IPアドレスはダミーです。<br />
+<br />
+[bash]<br />
+Host home<br />
+ HostName 127.0.0.1<br />
+[/bash]<br />
+<br />
+で、次のようなシェルスクリプトを書きます。sshでtext.example.comにある/tmp/homeipのIPアドレスを読み込んで、sedで.ssh/configを上書きするという乱暴なものです。<br />
+<br />
+[bash]<br />
+uedamb:~ ueda$ cat ~/SYS/HOMEIP <br />
+#!/bin/bash -xv<br />
+<br />
+IP=$(ssh test.example.com 'cat /tmp/homeip')<br />
+<br />
+sed -i.bak &quot;/Host home/,/HostName/s/ HostName.*/ HostName $IP/&quot; ~/.ssh/config<br />
+[/bash]<br />
+<br />
+なかなか一発でバグなくsedの文を書くのは大変ですが、うまくいったら、.ssh/configが次のように書き換わります。<br />
+<br />
+[bash]<br />
+Host home<br />
+ HostName 203.0.113.1<br />
+[/bash]<br />
+<br />
+このシェルスクリプトもcronに仕掛けても良いですが、多分そんなにIPアドレスは変わらないので手動で良いでしょう。<br />
+<br />
+これで自宅にssh接続できるはずです。この作業は自宅でやったので、iPhoneのテザリングに変えてやってみました。<br />
+<br />
+[bash]<br />
+uedamb:~ ueda$ ssh home<br />
+<br />
+The programs included with the Debian GNU/Linux system are free software;<br />
+the exact distribution terms for each program are described in the<br />
+individual files in /usr/share/doc/*/copyright.<br />
+<br />
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent<br />
+permitted by applicable law.<br />
+Last login: Sun Dec 13 12:07:41 2015 from 192.168.0.2<br />
+ueda\@raspberrypi ~ $ <br />
+[/bash]<br />
+<br />
+できました。<br />
+<br />
+<h2>終わりに</h2><br />
+<br />
+サーバをセットしてから通信できるまで1時間くらいですが、手順を書くと結構いろんな小技が必要かなと思いました。別にwebサーバを立てているわけでもないのにDDNSを使っている人は、腕試しに試していただければと。<br />
+<br />
+あと、ハマる点は、外づけHDDの電源がつくタイミングとラズパイが立ち上がるタイミングによってはマウントで止まってしまうので、fstabに情報を書くのはちと危険かもしれません。<br />
+<br />
+<br />
+とりあえずうまくいってよかった。寝る。
