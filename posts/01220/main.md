@@ -1,3 +1,7 @@
+---
+Keywords:nkf,UNIX/Linuxサーバ,シェル芸
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # URLエンコードを元に戻してくれる nkf --url-input
 調べれば調べるほどザクザク出てくるnkfのオプションですが、今日はこんなのを発見しました。<br />
 <br />

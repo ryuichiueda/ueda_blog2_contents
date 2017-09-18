@@ -1,3 +1,7 @@
+---
+Keywords:sicp,sicpと関係ない雑談
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # Structure and Interpretation of Computer Programs読書会33回目メモ書き
 別名、ダジャレを言う会。<br />
 <br />

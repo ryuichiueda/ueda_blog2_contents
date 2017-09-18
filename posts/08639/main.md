@@ -1,3 +1,7 @@
+---
+Keywords:勉強会,シェル芸
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 【問題のみ】第24回◯◯o◯裏番組シェル芸勉強会
 解答は<a href="https://blog.ueda.asia/?p=8592">こちら</a><br />
 <br />

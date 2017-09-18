@@ -1,3 +1,7 @@
+---
+Keywords:ログ,apache,shellshock,USP友の会,勉強会,シェル芸,シェル芸勉強会
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 第16回シェル芸勉強会で使うログ（邪悪なApache ShellShockログ）を公開します
 これは<a href="http://blog.ueda.asia/?p=5620" title="シェル芸が実写化されました">エイプリルフール</a>でもなんでもなく、必要なので公開します。当日公開のほうが盛り上がるかなーと思ったのですが、出し惜しみせずに練習してもらった方がよいかと判断しました。<a href="https://usptomo.doorkeeper.jp/events/22117">第16回シェル芸勉強会のページはこちらです。</a><br />
 <br />

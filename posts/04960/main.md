@@ -1,3 +1,7 @@
+---
+Keywords:プログラミング,GlueLang,where,グルー言語を作る
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # GlueLangでとうとうwhereが使えるように
 週末プログラマー上田Zです。（きもちわるい）<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Keywords:GlueLang,UNIX/Linuxサーバ,作業,寝る
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 自分の英語サイトとGlueLangのサイト
 今日はGlueLangの開発はやらずウェブ環境を整備していました。GlueLangのサイトと、前々職を辞めた際に消滅した英語サイトの再構築です。<br />
 <br />

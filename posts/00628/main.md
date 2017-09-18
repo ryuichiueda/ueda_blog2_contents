@@ -1,3 +1,7 @@
+---
+Keywords:プログラミング,Haskell
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # HaskellでStringを使う場合とByteStringを使う場合の速度比較
 ここ数ヶ月、だれに頼まれたわけでもなく、<a target="_blank" href="https://github.com/usp-engineers-community/Open-usp-Tukubai">open usp Tukubai</a>をPython版からHaskell版に置き換える作業をだらだら続けていますが、最近ようやくHaskellを書くのに不自由さを感じなくなってきました。<br />
 <br />

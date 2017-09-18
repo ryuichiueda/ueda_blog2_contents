@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # 開眼シェルスクリプト2012年3月号
 出典: 技術評論社SoftwareDesign<br />
 <br />

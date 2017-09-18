@@ -1,3 +1,7 @@
+---
+Keywords:どうでもいい,sicp,sicpと関係ない雑談,勉強会,寝る
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # Structure and Interpretation of Computer Programs読書会18回目メモ書き
 会で出た重要発言（嘘）<br />
 <br />

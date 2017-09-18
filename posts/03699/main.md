@@ -1,3 +1,7 @@
+---
+Keywords:コマンド,CLI,Linux,Mac,危険シェル芸,シェル芸
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 危険シェル芸が蔓延して危険
 謎の盛り上がりを見せております。togetterのPV数、ちょっとはこっちのサイトに譲ってもらえはしないだろうか・・・。<br />
 <br />

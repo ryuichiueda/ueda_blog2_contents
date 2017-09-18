@@ -1,3 +1,7 @@
+---
+Keywords:SoftwareDesign,一行感想文,書評,頭の中だだ漏らし
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # SoftwareDesign2015年7月号の一行感想文
 みなさんトークショーご参加有難うございました。もうちょっと笑いをとって腹筋崩壊から失禁に導きたいところでしたが、私の力は出し切ったかと思います。<br />
 <br />

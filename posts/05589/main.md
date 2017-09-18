@@ -1,3 +1,7 @@
+---
+Keywords:どうでもいい,sicp,興奮インタフェース
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # Structure and Interpretation of Computer Programs読書会29回目メモ書き
 O田さん参加ということで急遽実施。本日出た本と関係ない発言をメモ。<br />
 <br />

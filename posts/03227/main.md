@@ -1,3 +1,7 @@
+---
+Keywords:CLI,Linux,Mac,USP友の会,勉強会,ご報告,シェル芸,シェル芸勉強会
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 第11回シェル芸勉強会無事終了
 詳細はここに。<br />
 <br />

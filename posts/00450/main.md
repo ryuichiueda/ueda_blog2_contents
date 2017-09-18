@@ -1,3 +1,7 @@
+---
+Keywords:どうでもいい,写真とった
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 手持ちの写真1
 こんなのがiPhoneに残ってた。<br />
 <br />

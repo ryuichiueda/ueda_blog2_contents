@@ -1,3 +1,7 @@
+---
+Keywords:ゆるい,sicp,勉強会,読書会
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # Structure and Interpretation of Computer Programs読書会23回目メモ書き
 3章突入。拝承。<br />
 <br />

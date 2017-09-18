@@ -1,3 +1,7 @@
+---
+Keywords:シャレにならん,シェルスクリプト,bash,脆弱性
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 先程から騒ぎになっているbashの脆弱性について
 確認しました（苦笑）<br />
 <br />

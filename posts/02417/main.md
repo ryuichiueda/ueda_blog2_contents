@@ -1,3 +1,7 @@
+---
+Keywords:コマンド,CLI,html-xml-utils,hxselect,jq,元ショッカー,シェル芸,エクシェル芸
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # Excelファイルをシェル芸でほじくる。（hxselect編）
 昨日<a href="http://blog.ueda.asia/?p=2398" title="Excelファイルをシェル芸でほじくる。ただしエクセル方眼紙は後日ということで。" target="_blank">これ</a>を書いた後思い出したのですが、実はxmlを捌くのにもっと便利なコマンドがあるので、これを使ってもう一回やってみます。<br />
 <br />

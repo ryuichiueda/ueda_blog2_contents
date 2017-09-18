@@ -1,3 +1,7 @@
+---
+Keywords:どうでもいい,頭の中だだ漏らし
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 本日のじわじわ
 尻の渦が気になる。<br />
 <br />

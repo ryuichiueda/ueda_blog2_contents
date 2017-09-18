@@ -1,3 +1,7 @@
+---
+Keywords:ワンライナー,プログラミング,楽しいお昼休み,シェル芸
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # Rubyでどう書く？：連続した数列を範囲形式にまとめたい．いや，Rubyで書かない．
 <a href="http://builder.japan.zdnet.com/script/sp_ruby-doukaku-panel/20369264/" target="_blank">http://builder.japan.zdnet.com/script/sp_ruby-doukaku-panel/20369264/</a>から．<br />
 <br />

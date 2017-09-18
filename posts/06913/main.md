@@ -1,3 +1,7 @@
+---
+Keywords:プログラミング,LLイベント,Raspberry,日記,焼きそば
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # （昨日の）日記: LL Ring Recursiveでリングに上がってきた
 昨日土曜日は<a href="http://ll.jus.or.jp/2015/" target="_blank">LL Ring Recursive</a>の観戦に。ロボット学会で慣れない長袖を着て体温調節がおかしくなって風邪ひいてしまい、薬でゴマカして少々遅刻気味で参上。<br />
 <br />

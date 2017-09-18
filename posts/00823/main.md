@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # 受賞等
 <!--:ja--><h2>受賞</h2><br />
 <br />

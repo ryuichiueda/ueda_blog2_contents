@@ -1,3 +1,7 @@
+---
+Keywords:どうでもいい,sicp,sicpと関係ない雑談,勉強会
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # Structure and Interpretation of Computer Programs読書会16回目メモ書き
 アップし忘れていた。雑談メモ。<br />
 <br />

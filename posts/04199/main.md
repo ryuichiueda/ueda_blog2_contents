@@ -1,3 +1,7 @@
+---
+Keywords:Family,Kinect,Linux,TurtleBot2
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # TurtleBot2動かしたときのメモ
 後追いになっちまったけど、<a href="http://www.familyrobotics.org/?page_id=86" target="_blank">http://www.familyrobotics.org/?page_id=86</a>の内容をおさらい。文章は内輪向けです。<br />
 <br />

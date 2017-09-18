@@ -1,3 +1,7 @@
+---
+Keywords:sicp,読書会
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # <!--:ja-->Structure and Interpretation of Computer Programs読書会4回目メモ書き<!--:-->
 水曜にやって、やっと本日まとめ。まとめと言ってもまとめてないが・・・<br />
 <br />

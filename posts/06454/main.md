@@ -1,3 +1,7 @@
+---
+Keywords:コマンド,CLI,Linux,Unix,USP友の会,勉強会,シェル芸,シェル芸勉強会
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 【問題のみ】第17回ジュンク堂はシェル芸が乗っ取った勉強会
 <h2>ルール</h2><br />
 <br />

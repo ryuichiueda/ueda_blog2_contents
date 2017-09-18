@@ -1,3 +1,7 @@
+---
+Keywords:AIIT,InfoTalk
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 明日金曜はAIITでInfoTalk#61です。参加者大募集中につきこちらでも。
 皆様こんにちは。上田です。腹風邪で体がくの字になりながらもキーボードから手を離しておりません。<br />
 <br />

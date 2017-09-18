@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # 第27回sedこわいシェル芸勉強会
 <h1 style="font-size: 180%;">第27回sedこわいシェル芸勉強会</h1><br />
 &nbsp;<br />

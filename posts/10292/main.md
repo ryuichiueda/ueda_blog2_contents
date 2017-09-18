@@ -1,3 +1,7 @@
+---
+Keywords:日記,キレる老人,頭の中だだ漏らし
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 雑記（2017年9月4日）
 <h3>シェル芸勉強会 meets バイオインフォマティクス vol. 1</h3><br />
 <br />

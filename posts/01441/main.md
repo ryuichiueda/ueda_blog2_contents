@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # 確率ロボティクス
 <ul><br />
  <li><a href="https://book.mynavi.jp/ec/products/detail/id=37337">販売サイト</a></li><br />

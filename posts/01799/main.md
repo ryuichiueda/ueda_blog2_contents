@@ -1,3 +1,7 @@
+---
+Keywords:CLI,Haskell,USP友の会,シェル芸,シェル芸勉強会
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # シェル芸勉強会に対して自ら敢えてHaskellで他流試合を申し込む
 昨日のシェル芸勉強会に対して、自分で喧嘩を売ってみます。書きなぐりのHaskellコードです。問題はコチラ↓。<br />
 <br />

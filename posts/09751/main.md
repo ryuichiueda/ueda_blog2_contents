@@ -1,3 +1,7 @@
+---
+Keywords:動画,寝る,日記
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 週末の出来事と作業等
 <p style="padding-left: 30px;">今週末のできごとです。</p><br />
 <br />

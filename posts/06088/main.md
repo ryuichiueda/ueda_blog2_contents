@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # USP Magazine 2014年8月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？
 <div class="section" id="haskell"><br />
 <h1>5. シェル芸勉強会後追い企画: Haskellでやってはいかんのか？<a class="headerlink" href="#haskell" title="このヘッドラインへのパーマリンク">¶</a></h1><br />

@@ -1,3 +1,7 @@
+---
+Keywords:TechLION,別のサイトのポインタ
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 今日はこっちに書きました。
 ぜひ一瞥のほど、よろしゅうおねがいします。<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # trajectories with Q-MDP value method
 <h1>trial 1</h1><br />
 <br />

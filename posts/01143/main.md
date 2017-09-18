@@ -1,3 +1,7 @@
+---
+Keywords:||,シェルスクリプト,&amp;&amp;,bash,シェル芸
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # <!--:ja-->シェルの&&||パズル（解答編）<!--:-->
 <!--:ja-->この前、<a href="http://blog.ueda.asia/?p=1094" title="シェルの&&||パズル" target="_blank">ここ</a>で、次の四つのコマンド列の出力を当てるクイズを無責任に出題しましたが、ちゃんと真面目に解答します。<br />
 <br />

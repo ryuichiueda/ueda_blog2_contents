@@ -1,3 +1,7 @@
+---
+Keywords:C++,C/C++,Linux,Raspberry
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # Raspberry Pi MouseをC++で動かすとどうなるか（けっこう楽だった）
 誰か（たぶんNさん）に書けと言われたような気がするので・・・<br />
 <br />

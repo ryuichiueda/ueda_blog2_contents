@@ -1,3 +1,7 @@
+---
+Keywords:CLI,Linux,Mac,Unix,勉強会,シェル芸,シェル芸勉強会
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 【問題と解答例】第13回危険でない方のシェル芸勉強会
 <h2>環境</h2><br />
 <br />

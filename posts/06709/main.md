@@ -1,3 +1,7 @@
+---
+Keywords:どうでもいい,PID制御,上海総合指数,振動,株,頭の中だだ漏らし
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 日記 ---ちうごく株のPID制御
 下のツイートのように <a href="http://nikkei225jp.com/china/" target="_blank">http://nikkei225jp.com/china/</a> で上海総合指数をしばしば確認するのが日課になっており。ちと図を拝借しました。<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Keywords:どうでもいい,西馬込駅,頭の中だだ漏らし,駐輪場
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # <!--:ja-->西馬込駅周辺に駐輪場がないのでえらい迷惑を被った<!--:-->
 <!--:ja-->I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the charinko history of our 西馬込.<br />
 <br />

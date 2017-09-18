@@ -1,3 +1,7 @@
+---
+Keywords:シェルスクリプト,DTP,reSt,reStructuredText,sed,Sphinx,編集者大満足
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # reStの一部の記号を消すシェルスクリプト作ったった
 以前から燻りながら地味にページ数を稼いでいる「<a href="http://blog.ueda.asia/?p=1380" title="出版社に送る原稿には日本語と英単語の間にスペースを入れない方が良いらしいので贖罪のためにシェル芸やります。" target="_blank">これ</a>」と「<a href="http://blog.ueda.asia/?p=1486" title="出版社に送る原稿には日本語と英単語の間にスペースを入れない方が良いらしいのであるが、ではどうしろと？" target="_blank">これ</a>」ですが、あまり引っ張るのもよろしくないので私なりに解決しました。<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Keywords:Raspberry
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # Raspberry Piで学ぶ---の最初の訂正
 出版前に訂正第一号が出てしまいました。<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Keywords:プログラミング,GlueLang
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # GlueLangのwhere句の実装
 　<a href="https://ryuichiueda.github.io/GlueLangDoc_ja/">GlueLang</a>は、その場で使うファイルを次のような書き方で作れます。Haskellから拝借しました。bashの$()がコマンドの引数にあると綺麗に見えないので、whereの中にそういう細かい処理は押し込んでしまおうという意図です。<br />
 <br />

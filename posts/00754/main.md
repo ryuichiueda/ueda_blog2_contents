@@ -1,3 +1,7 @@
+---
+Keywords:プログラミング,シェルスクリプト,&amp;&amp;,昼休みに書いた
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # シェルスクリプトの&&スタイルプログラミング（仮称）<!--&& writing style shell programming-->
 <!--:ja-->また小ネタ。コマンドをパイプでなくて && でつなぐと面白い事ができます。<br />
 <br />

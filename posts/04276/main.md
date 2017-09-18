@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # dash/src/shell.h
 気ままにコメントしております。正確さは・・・周囲の評価に委ねます。<br />
 <br />

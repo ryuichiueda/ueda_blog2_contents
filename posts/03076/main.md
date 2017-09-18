@@ -1,3 +1,7 @@
+---
+Keywords:コマンド,CLI,IE使っている方おつかれさまです,w3m,寝る,シェル芸ではないな・・・
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 【この記事は何の役にも立ちません！】IEを使わずにFirefoxをダウンロードするヒント（当てずっぽう）
 <blockquote class="twitter-tweet" lang="ja"><p>IEを使わずにChromeやFirefoxをインストールする方法をシェル芸でなんとかひとつ</p>&mdash; kentaro yanagida (\@yng13) <a href="https://twitter.com/yng13/statuses/461503780643540992">2014, 4月 30</a></blockquote><br />
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />

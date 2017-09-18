@@ -1,3 +1,7 @@
+---
+Keywords:コマンド,awk,sed,勉強会,シェル芸,シェル芸勉強会
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 【問題と解答】第28回基準値を超えるシェル芸勉強会
 <a href="https://blog.ueda.asia/?p=9602">問題のみのページはこちら</a><br />
 <br />

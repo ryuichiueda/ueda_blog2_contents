@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # 某PFoEの改良（アルゴリズム未発表）
 <br />
 <br />

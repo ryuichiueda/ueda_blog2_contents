@@ -1,3 +1,7 @@
+---
+Keywords:sicp,ニュートン法健忘症,計算機プログラムの構造と解釈,読書会,頭の中だだ漏らし
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # <!--:ja-->Structure and Interpretation of Computer Programs読書会2回目メモ書き<!--:-->
 <!--:ja-->昨日（2013年8月28日）開催しました\@AIIT。本編というより、雑談メモ。<br />
 <br />

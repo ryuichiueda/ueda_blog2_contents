@@ -1,3 +1,7 @@
+---
+Keywords:どうでもいい,写真とった,股割れ人参
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 今日の今日の一枚
 いい短足具合です。<br />
 <br />

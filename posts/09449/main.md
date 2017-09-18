@@ -1,3 +1,7 @@
+---
+Keywords:Raspberry,ROS,執筆
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 「Raspberry Piで学ぶ ROSロボット入門」を安価に楽しむ方法
 先月30日に発売された「<a href="http://www.nikkeibp.co.jp/atclpubmkt/book/17/261040/">Raspberry Piで学ぶ ROSロボット入門</a>」ですが、やっぱりロボットが高くて手が出しにくいという反応をいただいておりますので、なくても楽しめるように、いくつかロボットなしのプランを提示します。ついでに本書の内容もどんなものか匂わせます。<br />
 <br />

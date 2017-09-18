@@ -1,3 +1,7 @@
+---
+Keywords:どうでもいい,sicp,勉強会
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # Structure and Interpretation of Computer Programs読書会21回目メモ書き
 あー疲れた。<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Keywords:コマンド,CLI,Haskell,Mac,Shelly,言語好きは面倒を問題としないのか
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # Haskellでコマンドを使えるShellyというものを試したのでメモ
 始めてこの分野で論文を書くための調査メモです。はいはい、サーベイサーベイ・・・。<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Keywords:どうでもよい,写真とった
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 巧妙な節電
 よへいと読める。が、衛の立場はいかに。<br />
 <br />

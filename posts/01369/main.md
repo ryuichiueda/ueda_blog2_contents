@@ -1,3 +1,7 @@
+---
+Keywords:プログラミング,Mac,Mavericks,Xcode
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # OS X 10.9 で Command Line Tools をインストールする方法
 ↓こちらにありますが、もっと簡単な方法を発見（と言っても1カ所違うだけですが。）。うーん。Xcodeは滅多に使わないのでうれしい。<br />
 <br />

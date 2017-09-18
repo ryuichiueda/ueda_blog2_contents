@@ -1,3 +1,7 @@
+---
+Keywords:ご報告,眠い,シェルスクリプト高速開発手法
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # おかげさまで本が出ました
 前評判で「変態」と誉れ高き評価を受けた本「<a href="http://blog.ueda.asia/?page_id=3237" title="シェルスクリプト高速開発手法入門" target="_blank">シェルスクリプト高速開発手法入門</a>」ですが、本日発売のようです。「のようです。」というのは昨日書店で見かけたとか、<a href="http://ascii.asciimw.jp/books/books/detail/978-4-04-866068-6.shtml" target="_blank">アスキーのページ</a>では2日発売とか、いろいろあってよくわからんからです。<br />
 <br />

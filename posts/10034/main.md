@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # 某PFCの改良（アルゴリズム未発表）
 <h2>ラズパイマウスへの適用例</h2><br />
 <br />

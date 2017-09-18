@@ -1,3 +1,7 @@
+---
+Keywords:ラジオ,どうでもいい,寝る,日曜天国
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 6月15日の日曜天国
 新幹線でradiko聞いてて吹きそうになった。Z会。<br />
 <br />

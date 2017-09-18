@@ -1,3 +1,7 @@
+---
+Keywords:SoftwareDesign,一行感想文,書評,頭の中だだ漏らし
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # SoftwareDesign2014年6月号の一行感想文
 ご無沙汰しております。学会活動が活発化しております。上田です。<br />
 <br />

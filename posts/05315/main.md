@@ -1,3 +1,7 @@
+---
+Keywords:オープンソースカンファレンス,GlueLang,OSC,USP友の会,研究,グルー言語を作る
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # OSCでのGlueLangの発表無事終了
 金曜日にもかかわらず30人くらいに話を聞いていただきました。質問もたくさんありがとうございました。<br />
 <br />

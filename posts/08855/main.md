@@ -1,3 +1,7 @@
+---
+Keywords:Python,ROS
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 【やっつけ】CGIHTTPServer.test()でウェブサーバを立ち上げるROSのノードを作る
 もっと簡単な方法があれば教えてくださーい<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Keywords:シェルスクリプト,bash,bashCMS,Linux,Mac,shellshock,頭の中だだ漏らし
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 個人的現在の状況（ところでshellshockってshに失礼ではないか？）
 <blockquote class="twitter-tweet" lang="ja"><p>うえださん言うてないですwwwwそしてうえださんはいません。bashと一緒に死にました。&gt; <a href="https://twitter.com/mad_p">\@mad_p</a> <a href="https://twitter.com/hashtag/techlion?src=hash">#techlion</a></p>&mdash; Ryuichi UEDA (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/515087195883835393">2014, 9月 25</a></blockquote><br />
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />

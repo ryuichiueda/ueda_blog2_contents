@@ -1,3 +1,7 @@
+---
+Keywords:sicp,勉強会
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # Structure and Interpretation of Computer Programs読書会25回目メモ書き
 毎回意味のない会話メモ。<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Keywords:CLI,USP友の会,勉強会,シェル芸,シェル芸勉強会,難しめ
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 【問題のみ】第14回東京居残りシェル芸勉強会
 <a href="http://blog.ueda.asia/?p=4413" title="【問題と解答例】第14回東京居残りシェル芸勉強会">解答はコッチ</a><br />
 <br />

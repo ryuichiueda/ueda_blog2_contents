@@ -1,3 +1,7 @@
+---
+Keywords:コマンド,ワンライナー,UNIX/Linuxサーバ,小ネタ,シェル芸,シェル芸というには短すぎる
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # ロードアベレージの記録を毎秒つけるワンライナー
 小ネタですが。Ubuntuで検証。<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Keywords:どうでもいい,TINKO,写真とった,帰る,日記,頭の中だだ漏らし
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 日記: Yes. TINKO POWER
 電池の名前が、そういう名前だっただけです。秋月電子で買ったテスターに同封されていました。<br />
 <br />

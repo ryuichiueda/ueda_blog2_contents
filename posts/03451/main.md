@@ -1,3 +1,7 @@
+---
+Keywords:USP,執筆,番号付け,シェル芸
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # rstのファイルでリストに通し番号を入れる（久々にシェル芸）
 USP MagazineのHaskellの記事を書いていて、必要になって久しぶりにシェル芸が炸裂したのでメモ。<br />
 <br />

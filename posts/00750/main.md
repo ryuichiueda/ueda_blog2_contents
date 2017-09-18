@@ -1,3 +1,7 @@
+---
+Keywords:シェルスクリプト,UNIX/Linuxサーバ,小ネタ
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # sshで接続失敗したら別のssh接続を試すシェルスクリプト
 小ネタも小ネタですが・・・。<br />
 <br />

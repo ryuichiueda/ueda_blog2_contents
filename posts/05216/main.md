@@ -1,3 +1,7 @@
+---
+Keywords:eachline,GlueLang,while,寝る,日記,グルー言語を作る
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 日記（実験データ解析にGlueLang投入から慌ててwhileを実装）
 昨日から実験データの解析をしており、締め切りが遠いことから<a href="https://github.com/ryuichiueda/GlueLang" target="_blank">GlueLang</a>を投入してみました。これが記念すべき最初のコードです。書きなぐりなので意味を追って読まないでください。<br />
 <br />

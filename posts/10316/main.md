@@ -1,3 +1,7 @@
+---
+Keywords:日記
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 雑記（2017年9月5日）
 <h3>今日の仕事</h3><br />
 <br />

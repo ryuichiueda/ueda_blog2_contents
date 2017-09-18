@@ -1,3 +1,7 @@
+---
+Keywords:Haskell,Raspberry
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 例のロボットを今度はHaskellで動かした
 今日は某氏が取り仕切る<a href="http://makezine.jp/event/mft2015/" target="_blank">Maker Faire Tokyo 2015</a>に遊びに行きました。大いに啓蒙されたので、帰宅後、俺も何かやろうということで、「Raspberry Pi Mouseはどの言語でも動かせるアピール」の一環としてHaskellでRaspberry Pi Mouseを動かしてみました。<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # コンピュータとロボット（と生物）3/3
 <h1 style="font-size:180%">コンピュータとロボット<br />（と生物）</h1><br />
 <h2 style="font-size:150%">3/3</h2><br />

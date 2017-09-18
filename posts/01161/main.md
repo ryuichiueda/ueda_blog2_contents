@@ -1,3 +1,7 @@
+---
+Keywords:どうでもいい,GoogleMap,本当にどうでもよい,研究,頭の中だだ漏らし
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # <!--:ja-->GoogleMapに変なキーワードを入れて遊ぶ大人げない大人<!--:-->
 <!--:ja-->Facebookで人を笑わすことに貴重な人生を削っている上田です。こんにちは。<br />
 <br />

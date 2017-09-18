@@ -1,3 +1,7 @@
+---
+Keywords:プログラミング,GlueLang,whereが重要,寝る,グルー言語を作る
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 今日のGlueLang開発日誌（シグナル処理、whereでの条件指定等）
 今週末も時間をやりくりしながらGlueLangの開発を進めました。<a href="http://blog.ueda.asia/?p=4960" title="GlueLangでとうとうwhereが使えるように" target="_blank">昨日</a>の作業に加え、今日はシグナル処理を改善して、中間ファイルと作業ディレクトリが残らないようにしました。ただ、何でちゃんと動くのか分からないという有様なので、dashのコードを読んでちゃんと勉強せんといかんなあと思います。<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Keywords:寝る,日記,頭の中だだ漏らし
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 雑記（2017年9月15日）
 <h3>ICRA提出</h3><br />
 <br />

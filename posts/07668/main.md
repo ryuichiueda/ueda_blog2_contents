@@ -1,3 +1,7 @@
+---
+Keywords:GitHub,Hubot,Linux,Slack,UNIX/Linuxサーバ,寝る
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # GitHubのWikiの変更をHubot経由でSlackに通知
 <a href="https://blog.ueda.asia/?p=7608">シェル芸勉強会</a>の次の日でかなり疲れているのですが、「GitHubのWikiを複数人で編集し、その変更をSlackに飛ばしたい」というニッチな需要ができたので工作活動してました。Slackの標準の機能には、GitHubのWikiの更新を受け取る手段が2016年2月14日現在、無いようです。<span style="color:red">（あったらすぐ教えてください！30分くらい探してSlack側に受け口が見つからなくてキレてやっちまいました。）</span>issueやpullリクエストの通知機能はあるんですが・・・。<br />
 <br />

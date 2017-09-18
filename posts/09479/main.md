@@ -1,3 +1,7 @@
+---
+Keywords:プログラミング,確率ロボティクス
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # Jupyter notebookで確率ロボティクスのコードを書いていくプロジェクトを始めた
 <hr /><br />
 <br />

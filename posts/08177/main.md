@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # 第32回CATTOMフォーラム
 <h1 style="font-size:200%">移動ロボットの<br />
 ナビゲーション技術</h1><br />

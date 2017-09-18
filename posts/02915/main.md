@@ -1,3 +1,7 @@
+---
+Keywords:エクセル,CLI,Excel,エクセル方眼紙はこうやって処理する,シェル芸,エクシェル芸
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # unzip -p で真のエクシェル芸が完成したような気がする。
 なんでこんなに眠いのか。<br />
 <br />

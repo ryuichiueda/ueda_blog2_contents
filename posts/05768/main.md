@@ -1,3 +1,7 @@
+---
+Keywords:コマンド,どうでもいい,awk,CLI,OFS,寝る,シェル芸
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # AWKでビール区切りデータ（beer separated values, BSV）を作ってみる
 こんなのを見てしまったばっかりに・・・<br />
 <br />

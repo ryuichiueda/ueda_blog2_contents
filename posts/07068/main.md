@@ -1,3 +1,7 @@
+---
+Keywords:USP友の会,勉強会,シェル芸
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 【問題と解答】第19回シェル芸3周年記念勉強会
 <a href="https://blog.ueda.asia/?p=7146">問題のみのページはこちら。</a><br />
 <br />

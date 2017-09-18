@@ -1,3 +1,7 @@
+---
+Keywords:コマンド,CLI,openssl,UNIX/Linuxサーバ,ファイルの暗号化
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # ファイルをopensslで暗号化し、復号する手順をまとめる。
 こんにつわ。上田です。<br />
 <br />

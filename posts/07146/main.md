@@ -1,3 +1,7 @@
+---
+Keywords:CLI,勉強会,シェル芸
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 【問題】第19回シェル芸3周年記念勉強会
 <a href="https://blog.ueda.asia/?p=7068">解答はこちら。</a><br />
 <br />

@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # JTF2016手順メモ
 <h1 style="font-size:180%">ROS（robot operating system）を触ってみよう</h1><br />
 　<br />

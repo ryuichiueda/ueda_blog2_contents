@@ -1,3 +1,7 @@
+---
+Keywords:日記,未分類,頭の中だだ漏らし
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 雑記（2017年9月2日）
 <h3>シェル芸botの遷宮</h3><br />
 <br />

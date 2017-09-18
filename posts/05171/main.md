@@ -1,3 +1,7 @@
+---
+Keywords:コマンド,CLI,grep,勉強会,シェル芸,シェル芸勉強会
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 【問題】第15回ドキッ！grepだらけのシェル芸勉強会
 <h1>イントロのスライド</h1><br />
 <br />

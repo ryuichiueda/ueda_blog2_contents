@@ -1,3 +1,7 @@
+---
+Keywords:Mastodon,Raspberry,日記,確率ロボティクス
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 日記 --- graph-based SLAMの解説文（書きかけ）、OS不具合尻拭いスクリプト、ますとどん、今週はシェル芸勉強会
 <p style="padding-left: 30px;">今週末のことを重要なことから。</p><br />
 <br />

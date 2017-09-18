@@ -1,3 +1,7 @@
+---
+Keywords:どうでもいい,プログラミング,仁義なきmalloc,頭の中だだ漏らし
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # mallocの分かりやすくない説明
 ある女史がC言語の勉強をしていて「mallocが難しかった」そうなので、次のように説明差し上げた。<br />
 <br />

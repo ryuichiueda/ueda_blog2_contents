@@ -1,3 +1,7 @@
+---
+Keywords:コマンド,シェルスクリプト,Advent,シェル芸
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # SHELQ: 怪しいシェル芸キュレーションサイト
 この記事は<a href="http://qiita.com/advent-calendar/2016/shell-script">Shell Script Advent Calendar 2016</a> 18日目の記事です。<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Keywords:コマンド,CLI,Linux,シェル芸,シェル芸勉強会
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 【問題と解答】jus共催 第30回危念シェル芸勉強会
 <a href="https://blog.ueda.tech/?p=10188">問題のみのページはこちら</a><br />
 <br />

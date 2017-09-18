@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # シェル芸勉強会参加者数
 <h2>サマリー</h2><br />
 <span style="font-size: 30px;">これまでに世に放たれたシェル芸人数:<br />

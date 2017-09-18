@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # ARAIBOムービーまとめ
 歴代のメンバーのみなさんとの共作です。<br />
 <br />

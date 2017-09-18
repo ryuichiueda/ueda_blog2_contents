@@ -1,3 +1,7 @@
+---
+Keywords:はまった,Hadoop,pig,UNIX/Linuxサーバ,辛い
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # Hadoopのpigを使うときに設定ではまったところメモ
 上田です。あいの風とやま鉄道車中です。<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # シェルプログラミング実用テクニック
 <ul><br />
  <li><a href="#purchase">購入はこちらから</a></li><br />

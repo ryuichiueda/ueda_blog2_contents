@@ -1,3 +1,7 @@
+---
+Keywords:どうでもいい,Linux,OSの破壊,rm,UNIX/Linuxサーバ
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # OSを楽しく破壊していたあの頃（rm -Rf / 等々）
 懐かしいものを発見してしまった。<br />
 <br />

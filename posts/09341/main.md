@@ -1,3 +1,7 @@
+---
+Keywords:コマンド,CLI,sed,UNIX/Linuxサーバ,勉強会,シェル芸
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # jus共催第27回シェル芸勉強会のリンク集
 2017年2月11日（土曜日）に<a href="https://www.sakura.ad.jp/" target="_blank">さくらインターネット</a>さんにて開催しました。<a href="https://www.jus.or.jp/" target="_blank">日本UNIXユーザ会</a>（jus）さんとの共催でした。<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Keywords:寝る,日記,頭の中だだ漏らし
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 雑記（2017年9月7日）
 昨晩HTMLをいじってて疲れが出た。<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Keywords:GlueLang
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # GlueLangにループを実装
 　帰省中に少し時間があったので、<a href="https://ryuichiueda.github.io/GlueLangDoc_ja/">GlueLang</a>にループを実装しました。次のように使います。この例は、dateにUnix時刻を吐かせて、5で割り切れる数になったらループを抜ける処理です。testコマンドが0でない終了ステータスを返したのを受けてループが終わって最終行のechoが実行されます。<br />
 <br />

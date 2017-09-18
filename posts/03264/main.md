@@ -1,3 +1,7 @@
+---
+Keywords:sicp
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # Structure and Interpretation of Computer Programs読書会20回目メモ書き
 20回記念大会ということで、近年稀に見る参加者数（4人）。<br />
 <br />

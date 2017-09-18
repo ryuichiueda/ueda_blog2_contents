@@ -1,3 +1,7 @@
+---
+Keywords:xlsx,寝る,エクセル方眼紙もお任せ！,シェル芸,エクシェル芸
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # Excelファイルをシェル芸でほじくる。ただしエクセル方眼紙は後日ということで。
 追記：<a href="http://blog.ueda.asia/?p=2417" title="Excelファイルをシェル芸でほじくる。（hxselect編）" target="_blank">続編書きました</a><br />
 <br />

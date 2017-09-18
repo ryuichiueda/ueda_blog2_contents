@@ -1,3 +1,7 @@
+---
+Keywords:CLI,csv,Excel,Mac,nkf,シェル芸
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # <!--:ja-->Macの端末でcsvを作ってマウスを使わずにExcelで開く手順<!--:-->
 <!--:ja-->上田です．絶賛逃避行動中です．<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Keywords:サブシェル,プログラミング,GlueLang,OR記号,研究
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # GlueLangのif文相当の処理をまたいじったがこれで最後にしたい
 眠いです。<br />
 <br />

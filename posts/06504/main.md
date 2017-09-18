@@ -1,3 +1,7 @@
+---
+Keywords:コマンド,CLI,LaTeX,Linux,Mac,make,Makefile,pLaTeX,sed,執筆,横書きにおけるカンマピリオド問題
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # やっと論文の「, . 」と、その他原稿の「、。 」を使い分ける（自分にとっての）究極の方法を見つけた
 ここ数年の問題が解決しました。こうやれば良かったんです。何故気付かなかったのか。<br />
 <blockquote class="twitter-tweet" lang="ja"><br />

@@ -1,3 +1,7 @@
+---
+Keywords:コマンド,flock,Linux,排他処理
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 排他を実現するコマンドflock(1)の使い方メモ
 排他をかけるコマンドです。Ubuntuので試しました。<br />
 <br />

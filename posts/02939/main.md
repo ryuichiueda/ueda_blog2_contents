@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # 雑誌連載記事の情報
 <ul><br />
 <li><a href="http://blog.ueda.asia/?page_id=2944" title="Haskellでやってはいかんのか？" target="_blank">シェル芸勉強会後追い企画 Haskellでやってはいかんのか？ | USP Magazine</a></li><br />

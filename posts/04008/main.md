@@ -1,3 +1,7 @@
+---
+Keywords:bashCMS,dashcms,Linux,UNIX/Linuxサーバ,シェルスクリプト高速開発手法
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # dashCMS作った
 bashが（今騒いでいる点において）安全と確認されるまでのつなぎです。ubuntu用です。変更はヒアストリング（&lt;&lt;&lt;）をechoにしたのと、シバンを変更しただけです。作業は15分ほどでした。<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # Haskellでやってはいかんのか？ | USP Magazine
 USP Magazineの「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？」の補足ページです。<br />
 <br />

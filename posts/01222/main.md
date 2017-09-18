@@ -1,3 +1,7 @@
+---
+Keywords:プログラミング,sicp
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # <!--:ja-->Structure and Interpretation of Computer Programs読書会3回目メモ書き<!--:-->
 <!--:ja-->昨日、第三回をAIITの某部屋でやりました。1.2節アタマから1.2.3項まで。<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # USP Magazine 2015年2月号「Haskell版Open usp Tukubai完成させるぞ企画: Haskellでやってはいかんのか？」
 <h1>11. Haskell版Open usp Tukubai完成させるぞ企画: Haskellでやってはいかんのか？<a class="headerlink" href="#haskellopen-usp-tukubai-haskell" title="このヘッドラインへのパーマリンク">¶</a></h1><br />
 <p>産業技術大学院大学・USP研究所・USP友の会　上田隆一</p><br />

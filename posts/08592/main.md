@@ -1,3 +1,7 @@
+---
+Keywords:コマンド,勉強会,シェル芸,シェル芸勉強会
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 【問題と解答】第24回◯◯o◯裏番組シェル芸勉強会
 問題のみのページは<a href="https://blog.ueda.asia/?p=8639">こちら</a><br />
 <br />

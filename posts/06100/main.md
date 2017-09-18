@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # USP Magazine 2014年10月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？
 <h1>7. シェル芸勉強会後追い企画: Haskellでやってはいかんのか？<a class="headerlink" href="#haskell" title="このヘッドラインへのパーマリンク">¶</a></h1><br />
 <p>産業技術大学院大学・USP研究所・USP友の会　上田隆一</p><br />

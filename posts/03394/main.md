@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # IAS-13/trajectories with modified Q-MDP
 <h1>trial 1</h1><br />
 <br />

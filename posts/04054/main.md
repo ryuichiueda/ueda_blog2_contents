@@ -1,3 +1,7 @@
+---
+Keywords:テスト,コマンド,シェルスクリプト,Travis,寝る
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # Open usp TukubaiのテストをTravis CIでやってみた
 bash騒ぎが収まってない中ではありますが、とある役得で<a href="https://travis-ci.org/" target="_blank">Travis CI</a>の使い方を覚えたので<a href="https://github.com/ryuichiueda/Open-usp-Tukubai" target="_blank">Open usp Tukubaiを自分のGitHubにフォークして</a>使ってみました。<br />
 <br />

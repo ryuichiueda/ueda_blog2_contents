@@ -1,3 +1,7 @@
+---
+Keywords:SoftwareDesign,インフラエンジニア教本,書評
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # SoftwareDesign別冊「インフラエンジニア教本」がっ！
 <span style="font-size:16pt">・・・分厚い。</span><br />
 <br />

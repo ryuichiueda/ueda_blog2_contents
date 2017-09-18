@@ -1,3 +1,7 @@
+---
+Keywords:Linux,Mac,シェル芸
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 【問題】年末年始シェル芸問題集
 12月の<a href="http://blog.ueda.asia/?p=4671" title="【問題のみ】第14回東京居残りシェル芸勉強会">シェル芸勉強会</a>よりもひどい問題を準備しましたので、時間をかけてお楽しみください。<br />
 <br />

@@ -1,3 +1,7 @@
+---
+Keywords:IT化とは,SIerとは,寝る,エクセル方眼紙,頭の中だだ漏らし
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # SI業界がIT化してないとか酷いことを言ってしまった
 <a href="http://blog.ueda.asia/?p=2179" title="【おじいちゃん消火器持ってきて！】SI業界がIT化してないとか酷いことを言ってしまったので早めに火消しを計る【天ぷら油が！】" target="_blank">続編はこちら</a><br />
 <br />

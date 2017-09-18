@@ -1,3 +1,7 @@
+---
+Keywords:Haskell,Raspberry,シェルプログラミング実用テクニック,寝る,日記,シェル芸,記念日は嫌い
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 日記（ジュンク堂イベントのまとめ等）
 本日はシェル芸ホロン部的なネット工作民でした。<br />
 <blockquote class="twitter-tweet" lang="ja"><br />

@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # Raspberry Piで作ろう お手軽ロボット教室 | 日経Linux
 <h2>各号に関するリンク集</h2><br />
 <br />

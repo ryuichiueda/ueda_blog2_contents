@@ -1,3 +1,7 @@
+---
+Keywords:ロボカップ,RoboCup
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # RoboCup JapanOpen 2013の手伝いをしています
 RoboCup は自律型ロボットのサッカー大会です。日本大会は <a href="http://www.tamagawa.ac.jp/robocup2013/" target="_blank">JapanOpen</a> という名前で毎年ゴールデンウィークにやってます。<br />
 <br />

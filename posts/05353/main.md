@@ -1,3 +1,7 @@
+---
+Keywords:執筆,昔話,確率ロボティクス,頭の中だだ漏らし
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 確率ロボティクス復刊。ドサクサに紛れて昔話2（値段について）
 <iframe marginwidth="0" marginheight="0" src="http://b.hatena.ne.jp/entry.parts?url=https%3A%2F%2Fbook.mynavi.jp%2Fec%2Fproducts%2Fdetail%2Fid%3D37337" scrolling="no" frameborder="0" height="230" width="500"><div class="hatena-bookmark-detail-info"><a href="https://book.mynavi.jp/ec/products/detail/id=37337">【先行予約】確率ロボティクス | マイナビブックス</a><a href="http://b.hatena.ne.jp/entry/s/book.mynavi.jp/ec/products/detail/id=37337">はてなブックマーク - 【先行予約】確率ロボティクス | マイナビブックス</a></div></iframe><br />
 <br />

@@ -1,3 +1,7 @@
+---
+Keywords:Linux,Ubuntu,疑似デバイス
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # Ubuntuで擬似デバイスをなんとかかんとか作って動かした
 <!--:ja-->昨日はファイルシステムの説明で使おうかとUbuntuで擬似デバイス（/dev/nullとか/dev/zeroとかあれです。）を作ることに挑戦しました。やりっぱなしのもの（<a href="http://blog.ueda.asia/?p=2133" title="グルー言語を作る作業を少し進めた" target="_blank">これとか</a>、あと研究）をたくさん差し置いてなんだかなーという感じですが、ちょっと必要になったので・・・<br />
 <br />

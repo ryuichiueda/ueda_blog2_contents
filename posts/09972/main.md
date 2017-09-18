@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # 上田に関する情報
 <h2>インタビューのようなもの</h2><br />
 <br />

@@ -1,3 +1,7 @@
+---
+Keywords:シェルスクリプト,Linux,PPID,/proc/$$/stat,UNIX/Linuxサーバ
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # シェルスクリプトで親のいなくなったプロセスがinitにぶら下がるのを確認してみる
 人に教えなければいけなくてUnderstanding the Linux Kernelという分厚い本をざーっと読んでいます。↓この本です。<br />
 <br />

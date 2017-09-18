@@ -1,3 +1,7 @@
+---
+Keywords:マナティ,どうでもいい
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 仲間を見つけた
 こいつとは友達になれそうである。<br />
 <br />

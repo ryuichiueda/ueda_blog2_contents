@@ -1,3 +1,7 @@
+---
+Keywords:コマンド,CLI,Excel,PowerPoint,Word,勉強会,シェル芸,エクシェル芸,シェル芸勉強会
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 【問題のみ】第26回シェル芸勉強会及びエクシェル芸勉強会
 解答は<a href="https://blog.ueda.asia/?p=8833">コチラ</a><br />
 <br />

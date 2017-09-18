@@ -1,3 +1,7 @@
+---
+Keywords:Linux,Raspberry,執筆,ご報告,寝る,日経Linux,シェル芸,連載
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 新連載の日経Linuxが明後日8日に発売されます
 <span style="color:red">追記（5/6）: 最初「明日8日」って書いてたけど明日は7日じゃまいか！・・・大変申し訳なく・・・orz</span><br />
 <br />

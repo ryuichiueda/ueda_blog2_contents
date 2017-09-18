@@ -1,3 +1,7 @@
+---
+Keywords:帰る,日記,頭の中だだ漏らし
+Copyright: (C) 2017 Ryuichi Ueda
+---
 # 雑記（2017年9月12日）
 <h3>川越にて</h3><br />
 <br />
