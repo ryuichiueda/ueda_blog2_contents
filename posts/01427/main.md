@@ -1,5 +1,5 @@
 ---
-Keywords:おめでとうございます,準優勝,シェル芸
+Keywords: おめでとうございます,準優勝,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

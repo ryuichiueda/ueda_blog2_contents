@@ -1,5 +1,5 @@
 ---
-Keywords:GlueLang,USP友の会,勉強会,シェルを書くという人はレベルが低いらしい
+Keywords: GlueLang,USP友の会,勉強会,シェルを書くという人はレベルが低いらしい
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

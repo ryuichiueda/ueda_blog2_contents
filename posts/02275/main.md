@@ -1,5 +1,5 @@
 ---
-Keywords:Linux,Ubuntu,疑似デバイス
+Keywords: Linux,Ubuntu,疑似デバイス
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

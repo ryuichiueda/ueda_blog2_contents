@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,CLI,ファイル入出力,素数ネタ,シェル芸
+Keywords: コマンド,CLI,ファイル入出力,素数ネタ,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

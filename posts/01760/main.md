@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,dayslash,Haskell,open,寝る,コードが汚い,眠い
+Keywords: コマンド,dayslash,Haskell,open,寝る,コードが汚い,眠い
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

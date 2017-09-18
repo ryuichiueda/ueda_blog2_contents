@@ -1,5 +1,5 @@
 ---
-Keywords:はまった,Hadoop,pig,UNIX/Linuxサーバ,辛い
+Keywords: はまった,Hadoop,pig,UNIX/Linuxサーバ,辛い
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

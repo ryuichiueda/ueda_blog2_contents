@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,プログラミング,ports,pypy,さくらのVPS,寝る
+Keywords: どうでもいい,プログラミング,ports,pypy,さくらのVPS,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,シェルスクリプト,CLI,wordsed,止まらないクリエイティビティー,エクシェル芸,ワードシェル芸
+Keywords: コマンド,シェルスクリプト,CLI,wordsed,止まらないクリエイティビティー,エクシェル芸,ワードシェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

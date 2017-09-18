@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,Haskell,Haskell芸,シェル芸,シェル芸は関数型,頭の中だだ漏らし
+Keywords: コマンド,Haskell,Haskell芸,シェル芸,シェル芸は関数型,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

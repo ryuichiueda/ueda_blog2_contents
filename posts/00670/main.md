@@ -1,5 +1,5 @@
 ---
-Keywords:関わりたく無い,頭の中だだ漏らし
+Keywords: 関わりたく無い,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

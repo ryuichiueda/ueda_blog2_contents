@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,シェルスクリプト,UNIX/Linuxサーバ,VirtualBox,寝る,もっといい方法ないですか？
+Keywords: コマンド,シェルスクリプト,UNIX/Linuxサーバ,VirtualBox,寝る,もっといい方法ないですか？
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

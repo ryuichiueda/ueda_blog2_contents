@@ -1,5 +1,5 @@
 ---
-Keywords:Excel,PowerPoint,Word,シェル芸,エクシェル芸,シェル芸勉強会
+Keywords: Excel,PowerPoint,Word,シェル芸,エクシェル芸,シェル芸勉強会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング
+Keywords: プログラミング
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

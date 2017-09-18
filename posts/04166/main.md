@@ -1,5 +1,5 @@
 ---
-Keywords:書評,研究,ベイズ統計学,頻度主義
+Keywords: 書評,研究,ベイズ統計学,頻度主義
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

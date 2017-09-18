@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,Haskell,SoftwareDesign,執筆,ご報告,記事
+Keywords: プログラミング,Haskell,SoftwareDesign,執筆,ご報告,記事
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

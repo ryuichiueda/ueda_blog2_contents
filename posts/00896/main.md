@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,プログラミング,仁義なきmalloc,頭の中だだ漏らし
+Keywords: どうでもいい,プログラミング,仁義なきmalloc,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

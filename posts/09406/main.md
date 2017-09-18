@@ -1,5 +1,5 @@
 ---
-Keywords:GlueLang
+Keywords: GlueLang
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

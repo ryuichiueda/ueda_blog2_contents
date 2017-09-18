@@ -1,5 +1,5 @@
 ---
-Keywords:シェルスクリプト,USP友の会,書評,書評って読書感想文とどう違うのか？？
+Keywords: シェルスクリプト,USP友の会,書評,書評って読書感想文とどう違うのか？？
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

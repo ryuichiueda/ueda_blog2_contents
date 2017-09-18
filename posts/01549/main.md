@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,Exif,identify,ImageMagick,位置が丸わかり,シェル芸
+Keywords: コマンド,Exif,identify,ImageMagick,位置が丸わかり,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

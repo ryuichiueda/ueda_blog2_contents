@@ -1,5 +1,5 @@
 ---
-Keywords:モノローグ,どうでもいい,寝る
+Keywords: モノローグ,どうでもいい,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

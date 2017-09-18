@@ -1,5 +1,5 @@
 ---
-Keywords:独白,頭の中だだ漏らし
+Keywords: 独白,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

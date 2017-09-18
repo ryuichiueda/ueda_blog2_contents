@@ -1,5 +1,5 @@
 ---
-Keywords:人材は流動すべき,研究,科研費
+Keywords: 人材は流動すべき,研究,科研費
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

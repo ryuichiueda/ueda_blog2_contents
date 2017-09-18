@@ -1,5 +1,5 @@
 ---
-Keywords:事例が無限大,デス研,デスマーチ研究会
+Keywords: 事例が無限大,デス研,デスマーチ研究会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:ロボカップ,RoboCup,寝る,日記
+Keywords: ロボカップ,RoboCup,寝る,日記
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

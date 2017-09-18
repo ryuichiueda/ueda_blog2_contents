@@ -1,5 +1,5 @@
 ---
-Keywords:SoftwareDesign,一行感想文,書評,頭の中だだ漏らし
+Keywords: SoftwareDesign,一行感想文,書評,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

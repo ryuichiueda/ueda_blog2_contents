@@ -1,5 +1,5 @@
 ---
-Keywords:執筆,寝る
+Keywords: 執筆,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

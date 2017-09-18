@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,C言語
+Keywords: プログラミング,C言語
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

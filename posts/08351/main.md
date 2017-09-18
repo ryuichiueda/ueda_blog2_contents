@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,寝る,研究
+Keywords: どうでもいい,寝る,研究
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

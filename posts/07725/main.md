@@ -1,5 +1,5 @@
 ---
-Keywords:マイコン,123D,ディジタル回路,寝る
+Keywords: マイコン,123D,ディジタル回路,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

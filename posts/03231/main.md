@@ -1,5 +1,5 @@
 ---
-Keywords:ラジオ,どうでもいい,寝る,日曜天国
+Keywords: ラジオ,どうでもいい,寝る,日曜天国
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

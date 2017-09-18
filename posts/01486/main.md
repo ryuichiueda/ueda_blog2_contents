@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,DTP,reStructuredText,Sphinx,原稿,スペース問題,執筆
+Keywords: どうでもいい,DTP,reStructuredText,Sphinx,原稿,スペース問題,執筆
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

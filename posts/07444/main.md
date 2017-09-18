@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,デバイスドライバ,Linux,危険ではない
+Keywords: どうでもいい,デバイスドライバ,Linux,危険ではない
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

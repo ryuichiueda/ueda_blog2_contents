@@ -1,5 +1,5 @@
 ---
-Keywords:ごめんなさい,bash,Linux,Mac,pipefail,ご報告,シェルプログラミング実用テクニック,寝る
+Keywords: ごめんなさい,bash,Linux,Mac,pipefail,ご報告,シェルプログラミング実用テクニック,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

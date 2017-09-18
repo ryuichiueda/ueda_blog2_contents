@@ -1,5 +1,5 @@
 ---
-Keywords:GlueLang,UNIX/Linuxサーバ,作業,寝る
+Keywords: GlueLang,UNIX/Linuxサーバ,作業,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

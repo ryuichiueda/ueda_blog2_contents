@@ -1,5 +1,5 @@
 ---
-Keywords:Family,Kinect,Linux,TurtleBot2
+Keywords: Family,Kinect,Linux,TurtleBot2
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

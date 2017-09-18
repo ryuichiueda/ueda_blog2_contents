@@ -1,5 +1,5 @@
 ---
-Keywords:CLI,UNIX/Linuxサーバ,勉強会,シェル芸,シェル芸勉強会
+Keywords: CLI,UNIX/Linuxサーバ,勉強会,シェル芸,シェル芸勉強会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:エディタ,プログラミング,GlueLang,rumin,寝る,グルー言語を作る
+Keywords: エディタ,プログラミング,GlueLang,rumin,寝る,グルー言語を作る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

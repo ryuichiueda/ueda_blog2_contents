@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,シェルスクリプト,&amp;&amp;,昼休みに書いた
+Keywords: プログラミング,シェルスクリプト,&amp;&amp;,昼休みに書いた
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

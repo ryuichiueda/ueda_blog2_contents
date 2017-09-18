@@ -1,5 +1,5 @@
 ---
-Keywords:SoftwareDesign,インフラエンジニア教本,書評
+Keywords: SoftwareDesign,インフラエンジニア教本,書評
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

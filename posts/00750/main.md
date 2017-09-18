@@ -1,5 +1,5 @@
 ---
-Keywords:シェルスクリプト,UNIX/Linuxサーバ,小ネタ
+Keywords: シェルスクリプト,UNIX/Linuxサーバ,小ネタ
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

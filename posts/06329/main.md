@@ -1,5 +1,5 @@
 ---
-Keywords:イベント,シェルプログラミング実用テクニック,寝る
+Keywords: イベント,シェルプログラミング実用テクニック,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

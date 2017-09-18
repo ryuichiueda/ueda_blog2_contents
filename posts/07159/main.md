@@ -1,5 +1,5 @@
 ---
-Keywords:Linux,Raspberry,WiringPi
+Keywords: Linux,Raspberry,WiringPi
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

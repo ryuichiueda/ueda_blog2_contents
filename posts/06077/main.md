@@ -1,5 +1,5 @@
 ---
-Keywords:ロボカップ,RoboCup,福井,頭の中だだ漏らし
+Keywords: ロボカップ,RoboCup,福井,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

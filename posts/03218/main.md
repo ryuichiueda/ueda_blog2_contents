@@ -1,5 +1,5 @@
 ---
-Keywords:bashCMS,UNIX/Linuxサーバ,ご報告
+Keywords: bashCMS,UNIX/Linuxサーバ,ご報告
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

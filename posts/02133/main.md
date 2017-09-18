@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,Haskell,愚痴,グルー言語,グルー言語を作る
+Keywords: プログラミング,Haskell,愚痴,グルー言語,グルー言語を作る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

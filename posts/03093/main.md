@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,ビックカメラさんごめんなさい,写真とった
+Keywords: どうでもいい,ビックカメラさんごめんなさい,写真とった
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

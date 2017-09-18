@@ -1,5 +1,5 @@
 ---
-Keywords:Excel方眼紙,ポインタが悲鳴,シェル芸,エクシェル芸
+Keywords: Excel方眼紙,ポインタが悲鳴,シェル芸,エクシェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

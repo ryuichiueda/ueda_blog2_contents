@@ -1,5 +1,5 @@
 ---
-Keywords:ロボカップ,ARAIBO,RoboCup,研究
+Keywords: ロボカップ,ARAIBO,RoboCup,研究
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

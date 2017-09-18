@@ -1,5 +1,5 @@
 ---
-Keywords:シール,どうでもいい,UNIX/Linuxサーバ,危険シェル芸,危険シェル芸の姐,シェル芸
+Keywords: シール,どうでもいい,UNIX/Linuxサーバ,危険シェル芸,危険シェル芸の姐,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

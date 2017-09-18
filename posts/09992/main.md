@@ -1,5 +1,5 @@
 ---
-Keywords:ブチギレ,執筆,罵倒,頭の中だだ漏らし
+Keywords: ブチギレ,執筆,罵倒,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

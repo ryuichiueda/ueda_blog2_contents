@@ -1,5 +1,5 @@
 ---
-Keywords:sicp,内容と関係ない,勉強会,雑談,頭の中だだ漏らし
+Keywords: sicp,内容と関係ない,勉強会,雑談,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

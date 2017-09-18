@@ -1,5 +1,5 @@
 ---
-Keywords:シャレにならん,シェルスクリプト,bash,脆弱性
+Keywords: シャレにならん,シェルスクリプト,bash,脆弱性
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

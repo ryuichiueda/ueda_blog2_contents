@@ -1,5 +1,5 @@
 ---
-Keywords:SoftwareDesign,ご報告,寝る,書評,シェル芸,シェル芸サブリミナル,かまぷの部屋
+Keywords: SoftwareDesign,ご報告,寝る,書評,シェル芸,シェル芸サブリミナル,かまぷの部屋
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

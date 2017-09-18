@@ -1,5 +1,5 @@
 ---
-Keywords:パーティクルフィルタ,1000,1000eng,RoboCup,ご報告
+Keywords: パーティクルフィルタ,1000,1000eng,RoboCup,ご報告
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

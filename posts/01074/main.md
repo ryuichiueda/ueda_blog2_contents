@@ -1,5 +1,5 @@
 ---
-Keywords:ポインタ,USP友の会
+Keywords: ポインタ,USP友の会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

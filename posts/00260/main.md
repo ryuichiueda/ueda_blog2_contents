@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもよい,写真とった
+Keywords: どうでもよい,写真とった
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:イラストで学ぶ人工知能概論,書評,薄口感想文
+Keywords: イラストで学ぶ人工知能概論,書評,薄口感想文
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

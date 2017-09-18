@@ -1,5 +1,5 @@
 ---
-Keywords:ジジイ,どうでもいい,毒蝮系,蕎麦屋,頭の中だだ漏らし
+Keywords: ジジイ,どうでもいい,毒蝮系,蕎麦屋,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,Mac,Mavericks,Xcode
+Keywords: プログラミング,Mac,Mavericks,Xcode
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

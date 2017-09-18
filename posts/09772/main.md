@@ -1,5 +1,5 @@
 ---
-Keywords:ROS,寝る,日記,研究,確率ロボティクス,頭の中だだ漏らし
+Keywords: ROS,寝る,日記,研究,確率ロボティクス,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

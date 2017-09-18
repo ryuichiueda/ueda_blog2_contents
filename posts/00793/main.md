@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,マイナスゼロとはこれいかに？,Python,round
+Keywords: プログラミング,マイナスゼロとはこれいかに？,Python,round
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

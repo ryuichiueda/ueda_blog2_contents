@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,/dev/random,Haskell,乱数,種無し乱数
+Keywords: プログラミング,/dev/random,Haskell,乱数,種無し乱数
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

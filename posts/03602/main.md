@@ -1,5 +1,5 @@
 ---
-Keywords:うれしい,ご報告,増刷,シェルスクリプト高速開発手法
+Keywords: うれしい,ご報告,増刷,シェルスクリプト高速開発手法
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

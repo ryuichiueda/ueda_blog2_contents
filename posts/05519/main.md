@@ -1,5 +1,5 @@
 ---
-Keywords:サブシェル,GlueLang,OR記号,寝る,研究,グルー言語を作る
+Keywords: サブシェル,GlueLang,OR記号,寝る,研究,グルー言語を作る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

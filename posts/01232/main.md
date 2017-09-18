@@ -1,5 +1,5 @@
 ---
-Keywords:シェルスクリプト,bash,Twitter,UNIX/Linuxサーバ,USP友の会
+Keywords: シェルスクリプト,bash,Twitter,UNIX/Linuxサーバ,USP友の会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

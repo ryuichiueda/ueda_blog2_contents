@@ -1,5 +1,5 @@
 ---
-Keywords:バイナリ,AWKの％c,CLI,jpeg,シェル芸
+Keywords: バイナリ,AWKの％c,CLI,jpeg,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

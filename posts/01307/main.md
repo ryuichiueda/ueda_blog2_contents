@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,西馬込駅,頭の中だだ漏らし,駐輪場
+Keywords: どうでもいい,西馬込駅,頭の中だだ漏らし,駐輪場
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,GNU,grep
+Keywords: コマンド,GNU,grep
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

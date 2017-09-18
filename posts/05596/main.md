@@ -1,5 +1,5 @@
 ---
-Keywords:サブシェル,プログラミング,GlueLang,OR記号,研究
+Keywords: サブシェル,プログラミング,GlueLang,OR記号,研究
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

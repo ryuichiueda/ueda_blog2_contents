@@ -1,5 +1,5 @@
 ---
-Keywords:ワンライナー,プログラミング,楽しいお昼休み,シェル芸
+Keywords: ワンライナー,プログラミング,楽しいお昼休み,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

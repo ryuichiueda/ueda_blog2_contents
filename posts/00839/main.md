@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,SoftwareDesign,執筆,宣伝行為,開眼シェルスクリプト
+Keywords: プログラミング,SoftwareDesign,執筆,宣伝行為,開眼シェルスクリプト
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

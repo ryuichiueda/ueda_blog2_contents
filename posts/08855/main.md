@@ -1,5 +1,5 @@
 ---
-Keywords:Python,ROS
+Keywords: Python,ROS
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

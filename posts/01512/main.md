@@ -1,5 +1,5 @@
 ---
-Keywords:シェルスクリプト,DTP,reSt,reStructuredText,sed,Sphinx,編集者大満足
+Keywords: シェルスクリプト,DTP,reSt,reStructuredText,sed,Sphinx,編集者大満足
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,sicp,糖衣構文
+Keywords: どうでもいい,sicp,糖衣構文
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

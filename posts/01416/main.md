@@ -1,5 +1,5 @@
 ---
-Keywords:sicp
+Keywords: sicp
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

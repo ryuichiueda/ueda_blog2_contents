@@ -1,5 +1,5 @@
 ---
-Keywords:勉強会,シェル芸,シェル芸勉強会,難しめ
+Keywords: 勉強会,シェル芸,シェル芸勉強会,難しめ
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

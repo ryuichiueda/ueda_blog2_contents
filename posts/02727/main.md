@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,受け売り,歯を大切に
+Keywords: どうでもいい,受け売り,歯を大切に
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

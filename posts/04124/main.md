@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,iPhone,LaTeX,Mac,make,寝る,脱キーボード,腰痛持ちに捧ぐ,シェル芸
+Keywords: コマンド,iPhone,LaTeX,Mac,make,寝る,脱キーボード,腰痛持ちに捧ぐ,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

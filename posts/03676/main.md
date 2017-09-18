@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,キミに2000パーセント,C/C++,POSIXスレッド,top,UNIX/Linuxサーバ
+Keywords: コマンド,キミに2000パーセント,C/C++,POSIXスレッド,top,UNIX/Linuxサーバ
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

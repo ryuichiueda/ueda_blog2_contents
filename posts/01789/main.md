@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,写真とった,股割れ人参
+Keywords: どうでもいい,写真とった,股割れ人参
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

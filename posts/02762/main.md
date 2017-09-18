@@ -1,5 +1,5 @@
 ---
-Keywords:勉強会,明るいデスマーチとは,デス研,研究
+Keywords: 勉強会,明るいデスマーチとは,デス研,研究
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

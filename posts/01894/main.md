@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,Linux,OSの破壊,rm,UNIX/Linuxサーバ
+Keywords: どうでもいい,Linux,OSの破壊,rm,UNIX/Linuxサーバ
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

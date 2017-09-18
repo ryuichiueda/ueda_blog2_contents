@@ -1,5 +1,5 @@
 ---
-Keywords:Raspberry,ROS,執筆
+Keywords: Raspberry,ROS,執筆
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

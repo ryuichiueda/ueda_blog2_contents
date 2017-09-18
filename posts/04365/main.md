@@ -1,5 +1,5 @@
 ---
-Keywords:sicp,勉強会
+Keywords: sicp,勉強会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

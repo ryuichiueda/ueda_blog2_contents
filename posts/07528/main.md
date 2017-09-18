@@ -1,5 +1,5 @@
 ---
-Keywords:ロボカップ,RoboCup,執筆,日経Linux
+Keywords: ロボカップ,RoboCup,執筆,日経Linux
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:GlueLang,ブンブンハローYouTube,勉強会,ブンブンハロー（失笑）,寝る,日記,とにかく眠い,シェル芸,シェル芸勉強会
+Keywords: GlueLang,ブンブンハローYouTube,勉強会,ブンブンハロー（失笑）,寝る,日記,とにかく眠い,シェル芸,シェル芸勉強会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

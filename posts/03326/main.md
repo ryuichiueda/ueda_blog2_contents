@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,シェルスクリプト,実験は大切
+Keywords: どうでもいい,シェルスクリプト,実験は大切
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

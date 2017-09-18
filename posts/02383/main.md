@@ -1,5 +1,5 @@
 ---
-Keywords:AIIT,別のサイトのポインタ,読んでね
+Keywords: AIIT,別のサイトのポインタ,読んでね
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

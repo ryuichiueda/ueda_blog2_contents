@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,ワンライナー,UNIX/Linuxサーバ,小ネタ,シェル芸,シェル芸というには短すぎる
+Keywords: コマンド,ワンライナー,UNIX/Linuxサーバ,小ネタ,シェル芸,シェル芸というには短すぎる
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

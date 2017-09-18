@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,Applet,Java,Javaも書くのよ
+Keywords: プログラミング,Applet,Java,Javaも書くのよ
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,Haskell,open
+Keywords: コマンド,Haskell,open
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

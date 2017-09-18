@@ -1,5 +1,5 @@
 ---
-Keywords:SoftwareDesign,執筆,シェルプログラミング実用テクニック,日記,シェル芸本
+Keywords: SoftwareDesign,執筆,シェルプログラミング実用テクニック,日記,シェル芸本
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

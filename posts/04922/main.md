@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,GlueLang,rumin,Vim,動く,動かない,寝る,グルー言語を作る
+Keywords: プログラミング,GlueLang,rumin,Vim,動く,動かない,寝る,グルー言語を作る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

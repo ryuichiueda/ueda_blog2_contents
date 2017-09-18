@@ -1,5 +1,5 @@
 ---
-Keywords:USP友の会,別ブログへのポインタ
+Keywords: USP友の会,別ブログへのポインタ
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

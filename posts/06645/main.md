@@ -1,5 +1,5 @@
 ---
-Keywords:C++,C/C++,Linux,Raspberry
+Keywords: C++,C/C++,Linux,Raspberry
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

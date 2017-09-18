@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,GlueLang,whereが重要,寝る,グルー言語を作る
+Keywords: プログラミング,GlueLang,whereが重要,寝る,グルー言語を作る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

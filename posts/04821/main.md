@@ -1,5 +1,5 @@
 ---
-Keywords:シェル芸
+Keywords: シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

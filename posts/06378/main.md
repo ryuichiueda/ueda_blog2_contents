@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,オジロアシナガゾウムシ,KEIKYU,京急,写真とった,寝る
+Keywords: どうでもいい,オジロアシナガゾウムシ,KEIKYU,京急,写真とった,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:bashCMS,dashcms,Linux,UNIX/Linuxサーバ,シェルスクリプト高速開発手法
+Keywords: bashCMS,dashcms,Linux,UNIX/Linuxサーバ,シェルスクリプト高速開発手法
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

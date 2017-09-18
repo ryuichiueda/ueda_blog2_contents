@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,パーティクルフィルタ,C++,C/C++,Raspberry,研究,確率ロボティクス,自己位置推定
+Keywords: プログラミング,パーティクルフィルタ,C++,C/C++,Raspberry,研究,確率ロボティクス,自己位置推定
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

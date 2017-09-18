@@ -1,5 +1,5 @@
 ---
-Keywords:Raspberry,ROS,寝る
+Keywords: Raspberry,ROS,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

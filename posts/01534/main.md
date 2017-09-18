@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,シェルスクリプト,ls,寝る
+Keywords: コマンド,シェルスクリプト,ls,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

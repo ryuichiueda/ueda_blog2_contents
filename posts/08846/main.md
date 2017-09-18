@@ -1,5 +1,5 @@
 ---
-Keywords:ロボット,KOF,ROS
+Keywords: ロボット,KOF,ROS
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

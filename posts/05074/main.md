@@ -1,5 +1,5 @@
 ---
-Keywords:バックグラウンドジョブ,バックグラウンドプロセス,glue,GlueLang,グルー言語を作る
+Keywords: バックグラウンドジョブ,バックグラウンドプロセス,glue,GlueLang,グルー言語を作る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

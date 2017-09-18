@@ -1,5 +1,5 @@
 ---
-Keywords:ブチギレ,どうでもいい,巻尺,帰る,毒づき
+Keywords: ブチギレ,どうでもいい,巻尺,帰る,毒づき
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

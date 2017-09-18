@@ -1,5 +1,5 @@
 ---
-Keywords:トークショー,bashCMS,ご報告,シェルスクリプト高速開発手法
+Keywords: トークショー,bashCMS,ご報告,シェルスクリプト高速開発手法
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

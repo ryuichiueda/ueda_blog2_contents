@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,どうでもいい,awk,CLI,OFS,寝る,シェル芸
+Keywords: コマンド,どうでもいい,awk,CLI,OFS,寝る,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

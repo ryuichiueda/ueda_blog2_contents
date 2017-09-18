@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,CLI,html-xml-utils,hxselect,jq,元ショッカー,シェル芸,エクシェル芸
+Keywords: コマンド,CLI,html-xml-utils,hxselect,jq,元ショッカー,シェル芸,エクシェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

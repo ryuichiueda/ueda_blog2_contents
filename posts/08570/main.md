@@ -1,5 +1,5 @@
 ---
-Keywords:クラゲ,写真とった,寝る
+Keywords: クラゲ,写真とった,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

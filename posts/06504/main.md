@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,CLI,LaTeX,Linux,Mac,make,Makefile,pLaTeX,sed,執筆,横書きにおけるカンマピリオド問題
+Keywords: コマンド,CLI,LaTeX,Linux,Mac,make,Makefile,pLaTeX,sed,執筆,横書きにおけるカンマピリオド問題
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

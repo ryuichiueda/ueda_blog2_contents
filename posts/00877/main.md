@@ -1,5 +1,5 @@
 ---
-Keywords:Haskell,pmat
+Keywords: Haskell,pmat
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

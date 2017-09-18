@@ -1,5 +1,5 @@
 ---
-Keywords:ご報告,ご挨拶,グルー言語,誕生日,頭の中だだ漏らし
+Keywords: ご報告,ご挨拶,グルー言語,誕生日,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

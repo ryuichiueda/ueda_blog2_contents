@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,CLI,Haskell,Mac,Shelly,言語好きは面倒を問題としないのか
+Keywords: コマンド,CLI,Haskell,Mac,Shelly,言語好きは面倒を問題としないのか
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

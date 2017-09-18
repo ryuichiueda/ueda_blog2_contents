@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,数値計算,行列,頭の中だだ漏らし
+Keywords: プログラミング,数値計算,行列,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

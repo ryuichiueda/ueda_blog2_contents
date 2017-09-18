@@ -1,5 +1,5 @@
 ---
-Keywords:シェルスクリプト,bash,ROS,Ubuntu
+Keywords: シェルスクリプト,bash,ROS,Ubuntu
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

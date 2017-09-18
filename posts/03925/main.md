@@ -1,5 +1,5 @@
 ---
-Keywords:SoftwareDesign,一行感想文
+Keywords: SoftwareDesign,一行感想文
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

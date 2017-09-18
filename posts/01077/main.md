@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,Lightweight,LLまつり,USP友の会,シェル芸
+Keywords: プログラミング,Lightweight,LLまつり,USP友の会,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:CLI,PDFシェル芸,poppler,シェル芸
+Keywords: CLI,PDFシェル芸,poppler,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:CLI,Mac,touch,ファイル名にメモをとる行為
+Keywords: CLI,Mac,touch,ファイル名にメモをとる行為
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

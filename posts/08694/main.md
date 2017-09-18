@@ -1,5 +1,5 @@
 ---
-Keywords:ブチギレ,ICS,Raspberry,Windows,インターネット接続の共有
+Keywords: ブチギレ,ICS,Raspberry,Windows,インターネット接続の共有
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

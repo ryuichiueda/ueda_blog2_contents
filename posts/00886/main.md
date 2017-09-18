@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,Haskell,open,USP友の会,江頭
+Keywords: プログラミング,Haskell,open,USP友の会,江頭
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

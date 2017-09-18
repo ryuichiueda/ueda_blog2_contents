@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,sicp,興奮シュガー
+Keywords: プログラミング,sicp,興奮シュガー
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

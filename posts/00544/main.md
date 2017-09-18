@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,C言語,ulimit,variable
+Keywords: プログラミング,C言語,ulimit,variable
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:ご報告,ご挨拶
+Keywords: ご報告,ご挨拶
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:CLI,Linux,シェルプログラミング実用テクニック,書評,シェル芸,シェル芸本
+Keywords: CLI,Linux,シェルプログラミング実用テクニック,書評,シェル芸,シェル芸本
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

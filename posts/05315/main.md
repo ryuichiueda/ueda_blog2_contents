@@ -1,5 +1,5 @@
 ---
-Keywords:オープンソースカンファレンス,GlueLang,OSC,USP友の会,研究,グルー言語を作る
+Keywords: オープンソースカンファレンス,GlueLang,OSC,USP友の会,研究,グルー言語を作る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

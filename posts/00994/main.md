@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,中年のチャリンコ旅行
+Keywords: どうでもいい,中年のチャリンコ旅行
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

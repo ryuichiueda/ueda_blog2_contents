@@ -1,5 +1,5 @@
 ---
-Keywords:KEIKYU,Raspberry,執筆,ご報告,寝る
+Keywords: KEIKYU,Raspberry,執筆,ご報告,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

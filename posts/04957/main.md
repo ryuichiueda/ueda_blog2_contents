@@ -1,5 +1,5 @@
 ---
-Keywords:ロボット,執筆,ご報告,研究,論文
+Keywords: ロボット,執筆,ご報告,研究,論文
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

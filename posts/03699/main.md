@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,CLI,Linux,Mac,危険シェル芸,シェル芸
+Keywords: コマンド,CLI,Linux,Mac,危険シェル芸,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

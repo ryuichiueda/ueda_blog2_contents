@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,図の描き方,執筆,小ネタすぎる,研究
+Keywords: どうでもいい,図の描き方,執筆,小ネタすぎる,研究
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

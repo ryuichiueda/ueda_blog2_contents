@@ -1,5 +1,5 @@
 ---
-Keywords:ポインタ,TechLION
+Keywords: ポインタ,TechLION
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

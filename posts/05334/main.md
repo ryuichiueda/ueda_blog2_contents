@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,写真とった,鯉がバラストから出てきた
+Keywords: どうでもいい,写真とった,鯉がバラストから出てきた
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

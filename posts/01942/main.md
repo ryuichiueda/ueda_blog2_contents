@@ -1,5 +1,5 @@
 ---
-Keywords:TechLION,頭の中だだ漏らし
+Keywords: TechLION,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

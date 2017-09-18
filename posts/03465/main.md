@@ -1,5 +1,5 @@
 ---
-Keywords:Family,ご報告,新団体（プロレスかよ）
+Keywords: Family,ご報告,新団体（プロレスかよ）
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

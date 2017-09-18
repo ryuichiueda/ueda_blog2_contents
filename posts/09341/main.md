@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,CLI,sed,UNIX/Linuxサーバ,勉強会,シェル芸
+Keywords: コマンド,CLI,sed,UNIX/Linuxサーバ,勉強会,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

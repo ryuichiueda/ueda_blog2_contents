@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,sicp,勉強会,雑談記録
+Keywords: どうでもいい,sicp,勉強会,雑談記録
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

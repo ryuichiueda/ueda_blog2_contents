@@ -1,5 +1,5 @@
 ---
-Keywords:nkf,UNIX/Linuxサーバ,シェル芸
+Keywords: nkf,UNIX/Linuxサーバ,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

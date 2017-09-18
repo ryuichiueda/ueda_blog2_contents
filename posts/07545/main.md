@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,SoftwareDesign,ご報告,寝る
+Keywords: どうでもいい,SoftwareDesign,ご報告,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:USP,USP友の会,俺たちのUSP,寝る,書評
+Keywords: USP,USP友の会,俺たちのUSP,寝る,書評
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

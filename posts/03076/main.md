@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,CLI,IE使っている方おつかれさまです,w3m,寝る,シェル芸ではないな・・・
+Keywords: コマンド,CLI,IE使っている方おつかれさまです,w3m,寝る,シェル芸ではないな・・・
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

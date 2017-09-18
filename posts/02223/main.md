@@ -1,5 +1,5 @@
 ---
-Keywords:子供だからよく分かりません,詳細設計書,頭の中だだ漏らし
+Keywords: 子供だからよく分かりません,詳細設計書,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

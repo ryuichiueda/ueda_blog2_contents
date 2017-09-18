@@ -1,5 +1,5 @@
 ---
-Keywords:マナティ,どうでもいい
+Keywords: マナティ,どうでもいい
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

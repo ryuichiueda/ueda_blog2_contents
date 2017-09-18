@@ -1,5 +1,5 @@
 ---
-Keywords:RoboCup,勉強会,ご報告,シェル芸
+Keywords: RoboCup,勉強会,ご報告,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

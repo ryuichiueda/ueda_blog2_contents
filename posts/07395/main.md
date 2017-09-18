@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,デバイスドライバ,CLI,Linux,危険,危険シェル芸,寝る,シェル芸
+Keywords: どうでもいい,デバイスドライバ,CLI,Linux,危険,危険シェル芸,寝る,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

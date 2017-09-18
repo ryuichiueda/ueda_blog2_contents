@@ -1,5 +1,5 @@
 ---
-Keywords:Haskell,Raspberry,シェルプログラミング実用テクニック,寝る,日記,シェル芸,記念日は嫌い
+Keywords: Haskell,Raspberry,シェルプログラミング実用テクニック,寝る,日記,シェル芸,記念日は嫌い
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

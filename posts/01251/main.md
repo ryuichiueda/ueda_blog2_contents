@@ -1,5 +1,5 @@
 ---
-Keywords:テストサイト,DoS攻撃,UNIX/Linuxサーバ,USP友の会,執筆,シェル芸勉強会
+Keywords: テストサイト,DoS攻撃,UNIX/Linuxサーバ,USP友の会,執筆,シェル芸勉強会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:CLI,シェル芸,集合
+Keywords: CLI,シェル芸,集合
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

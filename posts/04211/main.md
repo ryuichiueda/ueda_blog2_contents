@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,C言語,dash,goto,shell,寝る,紙便利,グルー言語を作る
+Keywords: プログラミング,C言語,dash,goto,shell,寝る,紙便利,グルー言語を作る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

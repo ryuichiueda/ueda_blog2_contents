@@ -1,5 +1,5 @@
 ---
-Keywords:思ったんだからしょうがない,未分類
+Keywords: 思ったんだからしょうがない,未分類
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

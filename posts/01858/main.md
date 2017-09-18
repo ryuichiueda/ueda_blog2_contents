@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,csv2txt.py
+Keywords: コマンド,csv2txt.py
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

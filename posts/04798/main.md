@@ -1,5 +1,5 @@
 ---
-Keywords:パイプライン,GlueLang,グルー言語を作る
+Keywords: パイプライン,GlueLang,グルー言語を作る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

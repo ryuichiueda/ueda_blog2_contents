@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,シェルスクリプト,Linux,寝る,自宅サーバ,シェル芸
+Keywords: コマンド,シェルスクリプト,Linux,寝る,自宅サーバ,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

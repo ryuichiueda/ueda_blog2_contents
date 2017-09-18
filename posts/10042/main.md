@@ -1,5 +1,5 @@
 ---
-Keywords:ご報告,日記,研究,頭の中だだ漏らし
+Keywords: ご報告,日記,研究,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

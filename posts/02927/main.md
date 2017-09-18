@@ -1,5 +1,5 @@
 ---
-Keywords:CLI,docx,シェル芸,エクシェル芸,ワードシェル芸
+Keywords: CLI,docx,シェル芸,エクシェル芸,ワードシェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

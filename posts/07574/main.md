@@ -1,5 +1,5 @@
 ---
-Keywords:寝る,書評,研究
+Keywords: 寝る,書評,研究
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

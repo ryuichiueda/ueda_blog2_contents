@@ -1,5 +1,5 @@
 ---
-Keywords:勉強会,シェル芸
+Keywords: 勉強会,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

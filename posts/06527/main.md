@@ -1,5 +1,5 @@
 ---
-Keywords:TechLION,別のサイトのポインタ,星ファンクラブ
+Keywords: TechLION,別のサイトのポインタ,星ファンクラブ
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

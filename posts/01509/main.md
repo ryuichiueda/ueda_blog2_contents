@@ -1,5 +1,5 @@
 ---
-Keywords:ロックイン,バックアップ,apache,DB,UNIX/Linuxサーバ
+Keywords: ロックイン,バックアップ,apache,DB,UNIX/Linuxサーバ
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

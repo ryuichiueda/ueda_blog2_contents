@@ -1,5 +1,5 @@
 ---
-Keywords:ラズパイマウス,Linux,Raspberry,ROS
+Keywords: ラズパイマウス,Linux,Raspberry,ROS
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

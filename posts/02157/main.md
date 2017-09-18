@@ -1,5 +1,5 @@
 ---
-Keywords:IT化とは,SIerとは,寝る,エクセル方眼紙,頭の中だだ漏らし
+Keywords: IT化とは,SIerとは,寝る,エクセル方眼紙,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

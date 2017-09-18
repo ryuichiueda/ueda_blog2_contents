@@ -1,5 +1,5 @@
 ---
-Keywords:投げっぱなし,シェル芸
+Keywords: 投げっぱなし,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

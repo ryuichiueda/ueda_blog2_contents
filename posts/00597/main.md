@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,年賀状爆発しろ
+Keywords: どうでもいい,年賀状爆発しろ
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

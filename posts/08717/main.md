@@ -1,5 +1,5 @@
 ---
-Keywords:Mac,Raspberry
+Keywords: Mac,Raspberry
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:メモ,プログラミング,Haskell,Real
+Keywords: メモ,プログラミング,Haskell,Real
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

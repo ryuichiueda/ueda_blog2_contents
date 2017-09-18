@@ -1,5 +1,5 @@
 ---
-Keywords:執筆,論文
+Keywords: 執筆,論文
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

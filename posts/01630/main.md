@@ -1,5 +1,5 @@
 ---
-Keywords:TechLION,USP友の会,勉強会,ご報告,寝る,シェル芸
+Keywords: TechLION,USP友の会,勉強会,ご報告,寝る,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

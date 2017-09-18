@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,sicp,オッサンの咆哮
+Keywords: どうでもいい,sicp,オッサンの咆哮
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,glue,GlueLang,シェル芸,グルー言語を作る
+Keywords: コマンド,glue,GlueLang,シェル芸,グルー言語を作る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

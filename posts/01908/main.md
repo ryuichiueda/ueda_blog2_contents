@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,ウコンの力,左近の桜,本当にどうでもよい
+Keywords: どうでもいい,ウコンの力,左近の桜,本当にどうでもよい
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,寝る,本当にどうでもいい
+Keywords: どうでもいい,寝る,本当にどうでもいい
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

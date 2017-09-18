@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,open,TukubaiはTukubaとちゃうんやで〜,シェル芸
+Keywords: コマンド,open,TukubaiはTukubaとちゃうんやで〜,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

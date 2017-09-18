@@ -1,5 +1,5 @@
 ---
-Keywords:Linux,Raspberry,執筆,ご報告,寝る,日経Linux,シェル芸,連載
+Keywords: Linux,Raspberry,執筆,ご報告,寝る,日経Linux,シェル芸,連載
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:USP友の会,家事,日記,シェル芸,シェル芸勉強会,頭の中だだ漏らし
+Keywords: USP友の会,家事,日記,シェル芸,シェル芸勉強会,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

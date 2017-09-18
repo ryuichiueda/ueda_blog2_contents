@@ -1,5 +1,5 @@
 ---
-Keywords:USP,執筆,番号付け,シェル芸
+Keywords: USP,執筆,番号付け,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

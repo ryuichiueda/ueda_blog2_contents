@@ -1,5 +1,5 @@
 ---
-Keywords:CLI,Vim
+Keywords: CLI,Vim
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

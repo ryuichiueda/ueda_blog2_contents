@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,GlueLang
+Keywords: プログラミング,GlueLang
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

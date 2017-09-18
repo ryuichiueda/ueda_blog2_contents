@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,CLI,openssl,UNIX/Linuxサーバ,ファイルの暗号化
+Keywords: コマンド,CLI,openssl,UNIX/Linuxサーバ,ファイルの暗号化
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:Mastodon,Raspberry,日記,確率ロボティクス
+Keywords: Mastodon,Raspberry,日記,確率ロボティクス
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

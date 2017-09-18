@@ -1,5 +1,5 @@
 ---
-Keywords:AIIT,This,別のサイトのポインタ,英語
+Keywords: AIIT,This,別のサイトのポインタ,英語
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:やばい,どうでもいい
+Keywords: やばい,どうでもいい
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

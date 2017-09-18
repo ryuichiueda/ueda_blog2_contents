@@ -1,5 +1,5 @@
 ---
-Keywords:京都,写真とった,散歩,橋がない,町屋,鴨川
+Keywords: 京都,写真とった,散歩,橋がない,町屋,鴨川
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

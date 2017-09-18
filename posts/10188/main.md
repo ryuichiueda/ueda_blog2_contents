@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,CLI,シェル芸,シェル芸勉強会
+Keywords: コマンド,CLI,シェル芸,シェル芸勉強会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 
@@ -60,7 +60,7 @@ posts<br />
 [bash]<br />
 $ cat posts/20170818_bash/main.md <br />
 ---<br />
-Keywords: 嫌がらせ<br />
+Keywords:  嫌がらせ<br />
 Copyright: (C) 2017 Ryuichi Ueda<br />
 ---<br />
 <br />

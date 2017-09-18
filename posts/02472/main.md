@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,プログラミング,FreeBSD10,Python,UNIX/Linuxサーバ,寝る,真似しない方がいいかも
+Keywords: コマンド,プログラミング,FreeBSD10,Python,UNIX/Linuxサーバ,寝る,真似しない方がいいかも
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

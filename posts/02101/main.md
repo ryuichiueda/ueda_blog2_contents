@@ -1,5 +1,5 @@
 ---
-Keywords:Haskell,名前はまだない,グルー言語,グルー言語を作る,おじさん頑張ったよ
+Keywords: Haskell,名前はまだない,グルー言語,グルー言語を作る,おじさん頑張ったよ
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

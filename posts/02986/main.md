@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,シェルスクリプト,CLI,open,シェル芸,エクシェル芸
+Keywords: コマンド,シェルスクリプト,CLI,open,シェル芸,エクシェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

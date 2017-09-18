@@ -1,5 +1,5 @@
 ---
-Keywords:Raspberry,日記,ラズパイマウス本,確率ロボティクス
+Keywords: Raspberry,日記,ラズパイマウス本,確率ロボティクス
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:CLI,こっそり置いておく
+Keywords: CLI,こっそり置いておく
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

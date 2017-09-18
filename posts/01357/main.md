@@ -1,5 +1,5 @@
 ---
-Keywords:SoftwareDesign,執筆,シェル芸,開眼シェルスクリプト
+Keywords: SoftwareDesign,執筆,シェル芸,開眼シェルスクリプト
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

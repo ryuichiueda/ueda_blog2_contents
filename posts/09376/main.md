@@ -1,5 +1,5 @@
 ---
-Keywords:Linux,Raspberry,ROS
+Keywords: Linux,Raspberry,ROS
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

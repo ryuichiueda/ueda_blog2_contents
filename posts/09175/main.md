@@ -1,5 +1,5 @@
 ---
-Keywords:ラズパイマガジン,Software,システム制御情報学会,執筆,研究,シェル芸
+Keywords: ラズパイマガジン,Software,システム制御情報学会,執筆,研究,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

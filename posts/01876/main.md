@@ -1,5 +1,5 @@
 ---
-Keywords:1000,AIIT,勉強会
+Keywords: 1000,AIIT,勉強会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

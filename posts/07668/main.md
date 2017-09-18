@@ -1,5 +1,5 @@
 ---
-Keywords:GitHub,Hubot,Linux,Slack,UNIX/Linuxサーバ,寝る
+Keywords: GitHub,Hubot,Linux,Slack,UNIX/Linuxサーバ,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

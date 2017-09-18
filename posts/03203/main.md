@@ -1,5 +1,5 @@
 ---
-Keywords:Mac,OS,VirtualBox,執筆
+Keywords: Mac,OS,VirtualBox,執筆
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

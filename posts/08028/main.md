@@ -1,5 +1,5 @@
 ---
-Keywords:CLI,シェル芸,シェル芸勉強会
+Keywords: CLI,シェル芸,シェル芸勉強会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

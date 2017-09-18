@@ -1,5 +1,5 @@
 ---
-Keywords:GlueLang,Haskell,グルー言語を作る
+Keywords: GlueLang,Haskell,グルー言語を作る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

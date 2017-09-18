@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,sicp,勉強会
+Keywords: どうでもいい,sicp,勉強会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

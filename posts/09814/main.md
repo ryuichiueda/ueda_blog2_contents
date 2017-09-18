@@ -1,5 +1,5 @@
 ---
-Keywords:bash,SoftwareDesign,UNIX/Linuxサーバ,執筆,シェル芸
+Keywords: bash,SoftwareDesign,UNIX/Linuxサーバ,執筆,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

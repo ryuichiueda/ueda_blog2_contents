@@ -1,5 +1,5 @@
 ---
-Keywords:Sphinx,執筆
+Keywords: Sphinx,執筆
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

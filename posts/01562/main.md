@@ -1,5 +1,5 @@
 ---
-Keywords:AIIT,InfoTalk
+Keywords: AIIT,InfoTalk
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

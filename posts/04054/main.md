@@ -1,5 +1,5 @@
 ---
-Keywords:テスト,コマンド,シェルスクリプト,Travis,寝る
+Keywords: テスト,コマンド,シェルスクリプト,Travis,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

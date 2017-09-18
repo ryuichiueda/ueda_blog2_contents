@@ -1,5 +1,5 @@
 ---
-Keywords:C/C++,ROS,価値反復,動的計画法,寝る
+Keywords: C/C++,ROS,価値反復,動的計画法,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

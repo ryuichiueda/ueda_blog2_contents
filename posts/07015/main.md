@@ -1,5 +1,5 @@
 ---
-Keywords:ご報告,寝る,研究室
+Keywords: ご報告,寝る,研究室
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:1000eng,Family,勉強会,ご報告,シェル芸勉強会
+Keywords: 1000eng,Family,勉強会,ご報告,シェル芸勉強会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

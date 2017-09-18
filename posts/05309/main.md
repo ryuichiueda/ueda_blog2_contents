@@ -1,5 +1,5 @@
 ---
-Keywords:クラス,プログラミング,C++,C/C++,シェル芸
+Keywords: クラス,プログラミング,C++,C/C++,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

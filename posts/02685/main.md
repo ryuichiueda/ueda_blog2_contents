@@ -1,5 +1,5 @@
 ---
-Keywords:TechLION,他の記事へのポインタ,別のサイトのポインタ
+Keywords: TechLION,他の記事へのポインタ,別のサイトのポインタ
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

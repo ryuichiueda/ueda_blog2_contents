@@ -1,5 +1,5 @@
 ---
-Keywords:研究,議論制御工学
+Keywords: 研究,議論制御工学
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

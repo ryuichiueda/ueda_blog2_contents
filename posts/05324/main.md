@@ -1,5 +1,5 @@
 ---
-Keywords:アセンブラ,プログラミング,写真とった,寝る,書評,熱血
+Keywords: アセンブラ,プログラミング,写真とった,寝る,書評,熱血
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:Linux,RoboCup,執筆,ご報告,寝る,日経Linux,日記,研究
+Keywords: Linux,RoboCup,執筆,ご報告,寝る,日経Linux,日記,研究
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

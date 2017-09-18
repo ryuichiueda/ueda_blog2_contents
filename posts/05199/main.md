@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,GlueLang,寝る,日記,グルー言語を作る
+Keywords: プログラミング,GlueLang,寝る,日記,グルー言語を作る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:SIer,SI業界,デス研,頭の中だだ漏らし
+Keywords: SIer,SI業界,デス研,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

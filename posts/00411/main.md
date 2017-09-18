@@ -1,5 +1,5 @@
 ---
-Keywords:エイプリルフール,USP友の会,寝る
+Keywords: エイプリルフール,USP友の会,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

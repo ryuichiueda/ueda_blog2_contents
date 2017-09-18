@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,OpenCV,Python,Travis
+Keywords: プログラミング,OpenCV,Python,Travis
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

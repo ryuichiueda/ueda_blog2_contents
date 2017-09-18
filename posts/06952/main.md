@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,CLI,日記,本当にどうでもいい,目grep,頭の中だだ漏らし
+Keywords: どうでもいい,CLI,日記,本当にどうでもいい,目grep,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:ロボカップ,プログラミング,awk,RoboCup,写真とった,シェルプログラミング実用テクニック,寝る,社長様聖水
+Keywords: ロボカップ,プログラミング,awk,RoboCup,写真とった,シェルプログラミング実用テクニック,寝る,社長様聖水
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

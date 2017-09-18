@@ -1,5 +1,5 @@
 ---
-Keywords:GlueLang,研究,グルー言語を作る
+Keywords: GlueLang,研究,グルー言語を作る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

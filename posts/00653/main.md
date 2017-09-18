@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,Haskell,Haskell中毒
+Keywords: プログラミング,Haskell,Haskell中毒
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

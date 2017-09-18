@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,写真とった,名は体を表す,急坂とは
+Keywords: どうでもいい,写真とった,名は体を表す,急坂とは
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:寝る,日記
+Keywords: 寝る,日記
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

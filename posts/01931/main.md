@@ -1,5 +1,5 @@
 ---
-Keywords:パーティクルフィルタ,POMDP,Q-MDP,研究,確率ロボティクス,自己位置推定,自律ロボット
+Keywords: パーティクルフィルタ,POMDP,Q-MDP,研究,確率ロボティクス,自己位置推定,自律ロボット
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

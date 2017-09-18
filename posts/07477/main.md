@@ -1,5 +1,5 @@
 ---
-Keywords:Raspberry,一行感想文,寝る,書評
+Keywords: Raspberry,一行感想文,寝る,書評
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

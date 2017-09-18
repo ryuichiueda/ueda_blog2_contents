@@ -1,5 +1,5 @@
 ---
-Keywords:CLI,USP友の会,問題,シェル芸,シェル芸勉強会,解答
+Keywords: CLI,USP友の会,問題,シェル芸,シェル芸勉強会,解答
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:マイコン,123D,Arduino
+Keywords: マイコン,123D,Arduino
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

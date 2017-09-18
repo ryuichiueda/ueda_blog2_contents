@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,sicp
+Keywords: どうでもいい,sicp
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

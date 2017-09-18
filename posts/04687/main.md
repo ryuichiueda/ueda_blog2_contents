@@ -1,5 +1,5 @@
 ---
-Keywords:CLI,UNIX/Linuxサーバ,USP友の会,勉強になりました,勉強会,寝る,シェル芸
+Keywords: CLI,UNIX/Linuxサーバ,USP友の会,勉強になりました,勉強会,寝る,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

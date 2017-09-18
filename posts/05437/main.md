@@ -1,5 +1,5 @@
 ---
-Keywords:執筆,独白,研究,確率ロボティクス,赤裸々な
+Keywords: 執筆,独白,研究,確率ロボティクス,赤裸々な
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

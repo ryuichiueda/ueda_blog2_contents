@@ -1,5 +1,5 @@
 ---
-Keywords:USP友の会,冬場は常に眠い,シェル芸,シェル芸勉強会,頭の中だだ漏らし
+Keywords: USP友の会,冬場は常に眠い,シェル芸,シェル芸勉強会,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

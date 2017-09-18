@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,2進数,awk,助けて,シェル芸
+Keywords: コマンド,2進数,awk,助けて,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

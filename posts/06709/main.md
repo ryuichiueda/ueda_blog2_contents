@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,PID制御,上海総合指数,振動,株,頭の中だだ漏らし
+Keywords: どうでもいい,PID制御,上海総合指数,振動,株,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

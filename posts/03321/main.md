@@ -1,5 +1,5 @@
 ---
-Keywords:bashCMS,シェルスクリプト高速開発手法,シェルスクリプト高速開発手法入門
+Keywords: bashCMS,シェルスクリプト高速開発手法,シェルスクリプト高速開発手法入門
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

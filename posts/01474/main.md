@@ -1,5 +1,5 @@
 ---
-Keywords:寝る,シェル芸,クロス集計
+Keywords: 寝る,シェル芸,クロス集計
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

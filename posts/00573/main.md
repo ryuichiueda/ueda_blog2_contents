@@ -1,5 +1,5 @@
 ---
-Keywords:ロボカップ,RoboCup
+Keywords: ロボカップ,RoboCup
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

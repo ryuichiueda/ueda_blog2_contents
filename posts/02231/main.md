@@ -1,5 +1,5 @@
 ---
-Keywords:ITスナック美夢,俺のは炎上じゃねえ,写真とった,写真撮られた,寝る
+Keywords: ITスナック美夢,俺のは炎上じゃねえ,写真とった,写真撮られた,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

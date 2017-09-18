@@ -1,5 +1,5 @@
 ---
-Keywords:シェルスクリプト,Linux,PPID,/proc/$$/stat,UNIX/Linuxサーバ
+Keywords: シェルスクリプト,Linux,PPID,/proc/$$/stat,UNIX/Linuxサーバ
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:原稿,執筆,編集様に気に入られる方法,シェル芸
+Keywords: 原稿,執筆,編集様に気に入られる方法,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

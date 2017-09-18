@@ -1,5 +1,5 @@
 ---
-Keywords:USP友の会,勉強会,シェル芸
+Keywords: USP友の会,勉強会,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

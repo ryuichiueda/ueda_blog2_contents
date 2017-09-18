@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,sicp,勉強会,大概にせいや
+Keywords: どうでもいい,sicp,勉強会,大概にせいや
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

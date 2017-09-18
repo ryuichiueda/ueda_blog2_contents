@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,CLI,sleep,字が・・・字が漏れちゃう・・・,シェル芸,頭の中だだ漏らし
+Keywords: コマンド,CLI,sleep,字が・・・字が漏れちゃう・・・,シェル芸,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

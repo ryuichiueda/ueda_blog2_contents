@@ -1,5 +1,5 @@
 ---
-Keywords:1000,1000eng,AIIT,勉強会,ご報告,英語
+Keywords: 1000,1000eng,AIIT,勉強会,ご報告,英語
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

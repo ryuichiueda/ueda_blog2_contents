@@ -1,5 +1,5 @@
 ---
-Keywords:sicp,寝る,本の中身について全く言及がない
+Keywords: sicp,寝る,本の中身について全く言及がない
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

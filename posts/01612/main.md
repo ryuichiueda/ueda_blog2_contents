@@ -1,5 +1,5 @@
 ---
-Keywords:CLI,csv,Excel,Mac,nkf,シェル芸
+Keywords: CLI,csv,Excel,Mac,nkf,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

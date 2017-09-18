@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,sicp,興奮インタフェース
+Keywords: どうでもいい,sicp,興奮インタフェース
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

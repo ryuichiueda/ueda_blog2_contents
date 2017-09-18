@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,flock,Linux,排他処理
+Keywords: コマンド,flock,Linux,排他処理
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

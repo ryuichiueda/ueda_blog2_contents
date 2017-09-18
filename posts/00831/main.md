@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,Haskell,pmat
+Keywords: プログラミング,Haskell,pmat
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

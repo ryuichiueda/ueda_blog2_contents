@@ -1,5 +1,5 @@
 ---
-Keywords:C++,C/C++,ROS
+Keywords: C++,C/C++,ROS
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

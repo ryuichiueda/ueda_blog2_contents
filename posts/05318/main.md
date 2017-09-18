@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,写真とった,熱海,秘宝
+Keywords: どうでもいい,写真とった,熱海,秘宝
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

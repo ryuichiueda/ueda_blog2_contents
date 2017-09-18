@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,プログラミング,Raspberry,ROS,京急,寝る
+Keywords: どうでもいい,プログラミング,Raspberry,ROS,京急,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

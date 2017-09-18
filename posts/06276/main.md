@@ -1,5 +1,5 @@
 ---
-Keywords:ご報告,シェルプログラミング実用テクニック,電子書籍
+Keywords: ご報告,シェルプログラミング実用テクニック,電子書籍
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

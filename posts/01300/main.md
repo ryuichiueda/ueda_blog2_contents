@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,sicp,中止,読書会
+Keywords: どうでもいい,sicp,中止,読書会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

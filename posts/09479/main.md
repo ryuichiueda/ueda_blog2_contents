@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,確率ロボティクス
+Keywords: プログラミング,確率ロボティクス
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

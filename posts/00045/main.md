@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,Haskell,備忘録
+Keywords: プログラミング,Haskell,備忘録
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:危険シェル芸,寝る,シェル芸,頭の中だだ漏らし
+Keywords: 危険シェル芸,寝る,シェル芸,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

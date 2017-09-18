@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,LLイベント,Raspberry,日記,焼きそば
+Keywords: プログラミング,LLイベント,Raspberry,日記,焼きそば
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

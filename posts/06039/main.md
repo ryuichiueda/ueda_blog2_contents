@@ -1,5 +1,5 @@
 ---
-Keywords:ドレミファインバータ,京急,執筆,若干ネタバレ
+Keywords: ドレミファインバータ,京急,執筆,若干ネタバレ
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

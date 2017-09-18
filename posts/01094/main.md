@@ -1,5 +1,5 @@
 ---
-Keywords:||,シェルスクリプト,&amp;&amp;,bash,UNIX/Linuxサーバ,シェル芸
+Keywords: ||,シェルスクリプト,&amp;&amp;,bash,UNIX/Linuxサーバ,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

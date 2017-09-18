@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,CLI,UNIX/Linuxサーバ,書評,これは書評なのか？,シェル芸,電子書籍便利,頭の中だだ漏らし
+Keywords: コマンド,CLI,UNIX/Linuxサーバ,書評,これは書評なのか？,シェル芸,電子書籍便利,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

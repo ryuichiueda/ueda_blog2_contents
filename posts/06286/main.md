@@ -1,5 +1,5 @@
 ---
-Keywords:ご報告,確率ロボティクス
+Keywords: ご報告,確率ロボティクス
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

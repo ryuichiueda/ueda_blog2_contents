@@ -1,5 +1,5 @@
 ---
-Keywords:auto,C++,C/C++,POSIXスレッド,pthread
+Keywords: auto,C++,C/C++,POSIXスレッド,pthread
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

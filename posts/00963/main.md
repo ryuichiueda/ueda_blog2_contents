@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,嘘,頭の中だだ漏らし,飛行石
+Keywords: どうでもいい,嘘,頭の中だだ漏らし,飛行石
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,CLI,ImageMagick,Linux,Mac
+Keywords: コマンド,CLI,ImageMagick,Linux,Mac
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

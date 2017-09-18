@@ -1,5 +1,5 @@
 ---
-Keywords:sicp,sicpと関係ない雑談
+Keywords: sicp,sicpと関係ない雑談
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

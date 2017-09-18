@@ -1,5 +1,5 @@
 ---
-Keywords:コマンド,CLI,factor,平方数,シェル芸
+Keywords: コマンド,CLI,factor,平方数,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:プログラミング,SoftwareDesign,寝る
+Keywords: プログラミング,SoftwareDesign,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

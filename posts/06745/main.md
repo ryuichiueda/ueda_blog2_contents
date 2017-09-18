@@ -1,5 +1,5 @@
 ---
-Keywords:Haskell,Raspberry
+Keywords: Haskell,Raspberry
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

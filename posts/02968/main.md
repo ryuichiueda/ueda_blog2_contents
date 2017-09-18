@@ -1,5 +1,5 @@
 ---
-Keywords:どうでもいい,sicp,sicpと関係ない雑談,勉強会,寝る
+Keywords: どうでもいい,sicp,sicpと関係ない雑談,勉強会,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords:SoftwareDesign,執筆,ご報告,シェル芸
+Keywords: SoftwareDesign,執筆,ご報告,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

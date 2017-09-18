@@ -1,5 +1,5 @@
 ---
-Keywords:ex,exない,Linux
+Keywords: ex,exない,Linux
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

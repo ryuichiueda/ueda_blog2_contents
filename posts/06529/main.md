@@ -1,5 +1,5 @@
 ---
-Keywords:ロボット,プログラミング,Raspberry,執筆,ご報告,寝る,日経Linux,連載
+Keywords: ロボット,プログラミング,Raspberry,執筆,ご報告,寝る,日経Linux,連載
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 

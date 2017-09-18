@@ -1,5 +1,5 @@
 ---
-Keywords:寝る,シェル芸,シェル芸勉強会,シェル芸の定義
+Keywords: 寝る,シェル芸,シェル芸勉強会,シェル芸の定義
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 
