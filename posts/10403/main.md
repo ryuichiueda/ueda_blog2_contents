@@ -1,7 +1,8 @@
 ---
-Keywords:日記,頭の中だだ漏らし
+Keywords: 日記,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 雑記（2017年9月13日）
 ロボット学会二日目。良い天気でした。<br />
 <br />
