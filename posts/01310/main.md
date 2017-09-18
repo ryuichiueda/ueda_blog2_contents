@@ -2,6 +2,7 @@
 Keywords:どうでもいい,sicp,糖衣構文
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # <!--:ja-->Structure and Interpretation of Computer Programs読書会6回目メモ書き<!--:-->
 <!--:ja-->もう面倒なのでメモだけ。また来週！<br />
 <br />

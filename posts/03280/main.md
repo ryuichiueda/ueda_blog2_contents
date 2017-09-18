@@ -2,6 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
+
 # USP Magazine 2014年4月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？
 出典：<a href="http://www.usp-lab.com/pub.magazine.html" target="_blank">USPマガジン2014年4月号</a><br />
 <br />

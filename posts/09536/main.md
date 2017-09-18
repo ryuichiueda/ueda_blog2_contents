@@ -2,6 +2,7 @@
 Keywords:Raspberry,日記,ラズパイマウス本,確率ロボティクス
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 日記 ---Kindle版ラズパイマウス本、確率ロボティクスのjupyter notebook
 ここ数日の報告を2点。<br />
 <h2>Kindle版ラズパイマウス本</h2><br />

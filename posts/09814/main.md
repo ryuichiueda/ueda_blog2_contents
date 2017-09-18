@@ -2,6 +2,7 @@
 Keywords:bash,SoftwareDesign,UNIX/Linuxサーバ,執筆,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # Software Design7月号未掲載部分
 本日発売です。bashのマニアック機能について<span style="color: #ff0000;">「使うなよ！絶対使うなよ！！」</span>というテイストで書きました。<br />
 <blockquote class="twitter-tweet" data-lang="ja"><br />

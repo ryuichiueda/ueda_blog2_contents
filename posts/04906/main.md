@@ -2,6 +2,7 @@
 Keywords:エディタ,プログラミング,GlueLang,rumin,寝る,グルー言語を作る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # ruminとGlueLangについての日記
 日曜月曜は研究そっちのけでGlueLangの実装をしていました。<br />
 <br />

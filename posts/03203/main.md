@@ -2,6 +2,7 @@
 Keywords:Mac,OS,VirtualBox,執筆
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # OS X 10.9上のVirtualBoxでOS X 10.9を動かすために参考にしたサイト
 本に書いたことを検証するためにまっさらな環境が欲しくて表題のようなことをしました。参考にしたURLのリンクだけ貼付けます。<br />
 <br />

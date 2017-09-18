@@ -2,6 +2,7 @@
 Keywords:Haskell,pmat
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # <!--:ja-->pmat version 0.0020<!--:--><!--:en-->pmat version 0.0020<!--:-->
 <!--:ja-->今日も酔っ払って帰って来てプログラミング。「アンタも好きね」と言われてもしょうがない状態。<br />
 <br />

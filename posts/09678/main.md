@@ -2,6 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
+
 # シェル芸勉強会の動画
 とりあえず午後の部のみです。<br />
 <br />

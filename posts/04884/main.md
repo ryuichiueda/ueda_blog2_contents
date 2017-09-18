@@ -2,6 +2,7 @@
 Keywords:コマンド,glue,GlueLang,シェル芸,グルー言語を作る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # glueで年末年始シェル芸問題集を解いた雑感（Q4まで）
 私以外のコントリビュータも出現し、<a href="http://cordea.hatenadiary.com/entry/2015/01/09/160647" target="_blank">試してくださる方</a>も出て引くに引けない状況の<a href="https://github.com/ryuichiueda/GlueLang" target="_blank">GlueLang</a>ですが、ちょっと使った例と、自分で使ってみたフィードバックが必要かなと思い、自分で出題した<a href="http://blog.ueda.asia/?p=4821" title="【解答】年末年始シェル芸問題集" target="_blank">年末年始シェル芸問題集</a>の問題をGlueLangで解いてみようと思いました。<br />
 <br />
@@ -56,6 +57,7 @@ ub.curl 'http://www.flightradar24.com/_json/airports.php' log&gt; '/dev/null' &g
 <br />
 ログを見るだけなら上の書式にして、標準エラー出力をGlueLang内で積極的に使うときは、fileの後に二つファイルを並べる方式になると思います。<br />
 [hs]<br />
+
 # ファイルオブジェクトfにcurlの標準出力、errにエラー出力が入る<br />
 file f err = ub.curl 'http://www.flightradar24.com/_json/airports.php'<br />
 [/hs]<br />
@@ -107,13 +109,19 @@ while a=$(echo $a | base64 -D) &amp;&amp; echo $a ; do : ; done<br />
 [bash]<br />
 uedambp:GlueLang ueda$ cat ./stdcom/loop-serial <br />
 #!/bin/bash<br />
+
 # loopserial command<br />
+
 # usage: loopserial &lt;commmand&gt; &lt;args...&gt;<br />
+
 # Multiapply trys the command until the command<br />
+
 # is failed, and outputs the output of the last successful trial.<br />
 <br />
+
 # version: &quot;Sat Jan 10 16:58:28 JST 2015&quot;<br />
 <br />
+
 # This command should be rewritten with C/C++.<br />
 <br />
 [ &quot;$#&quot; -lt 1 ] &amp;&amp; exit 1<br />

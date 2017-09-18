@@ -2,6 +2,7 @@
 Keywords:メモ,プログラミング,Haskell,Real
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # <!--:ja-->めも<!--:-->
 <!--:ja-->勉強になります。<br />
 <br />

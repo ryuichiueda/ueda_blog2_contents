@@ -2,6 +2,7 @@
 Keywords:SoftwareDesign,一行感想文,書評
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # SoftwareDesign2014年7月号の一行感想文
 <a href="http://gihyo.jp/magazine/SD/archive/2014/201407" target="_blank">SoftwareDesign2014年7月号</a>、さっきバーガーキングでだーっと読みました。一行感想文をば。<br />
 <br />

@@ -2,6 +2,7 @@
 Keywords:コマンド,シェルスクリプト,UNIX/Linuxサーバ,VirtualBox,寝る,もっといい方法ないですか？
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 【徒労だったか？】VirtualBoxの仮想マシーンのクローン作りをシェルスクリプトでやっちまう
 <h2>あとから追記</h2><br />
 <br />

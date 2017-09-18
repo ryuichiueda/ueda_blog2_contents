@@ -2,6 +2,7 @@
 Keywords:CLI,Linux,シェルプログラミング実用テクニック,書評,シェル芸,シェル芸本
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # grepを読者に300回打たせる「シェルプログラミング実用テクニック」予約開始ということでシェル芸で紹介します。
 <a href="http://blog.ueda.asia/?p=5768" title="AWKでビール区切りデータ（beer separated values, BSV）を作ってみる">ビール区切りデータ</a>で遊んで油断してたら拙著「<a href="http://www.amazon.co.jp/dp/4774173444" target="_blank">シェルプログラミング実用テクニック</a>」の予約がAmazonで始まりました。この本は前作「<a href="http://www.amazon.co.jp/dp/B00LBPGFJS" target="_blank">シェルスクリプト高速開発手法入門</a>」よりも「シェル芸」特化型です。<br />
 <br />

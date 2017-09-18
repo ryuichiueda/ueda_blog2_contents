@@ -2,6 +2,7 @@
 Keywords:ご報告,寝る,研究室
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 日記: 研究室のサイト作った
 <a href="https://lab.ueda.asia">こんなサイト</a>です。<br />
 <br />

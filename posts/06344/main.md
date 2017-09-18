@@ -2,6 +2,7 @@
 Keywords:sicp,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # Structure and Interpretation of Computer Programs読書会32回目メモ書き
 冗談の応酬にヘラヘラ笑いの回となりまひた。<br />
 <br />

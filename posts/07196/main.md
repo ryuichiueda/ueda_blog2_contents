@@ -2,6 +2,7 @@
 Keywords:CLI,UNIX/Linuxサーバ,USP友の会,勉強会,シェル芸,シェル芸勉強会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 【問題と解答】第20回記念、年末年始の浮ついた気分大粉砕シェル芸勉強会
 <a href="https://blog.ueda.asia/?p=7332">問題だけページはコチラ</a><br />
 <br />

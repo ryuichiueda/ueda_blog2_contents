@@ -2,6 +2,7 @@
 Keywords:コマンド,シェルスクリプト,わーどうしましょう,CLI,エクシェル芸,ワードシェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # Word（docx）用sedを改良してしもうた。
 <a href="http://blog.ueda.asia/?p=2931" title="Word（docx）用sedを作ってしもうた。">昨日</a>からの続編です。Word版sedを作る話。<br />
 <br />

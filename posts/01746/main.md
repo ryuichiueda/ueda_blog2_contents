@@ -2,6 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
+
 # 学会等の活動記録
 <h2>現在の仕事</h2><br />
 <br />

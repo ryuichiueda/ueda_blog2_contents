@@ -2,6 +2,7 @@
 Keywords:プログラミング,Haskell,SoftwareDesign,執筆,ご報告,記事
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # SoftwareDesign2月号にHaskellの記事を書いてかなり心臓に悪い。
 もうすぐ月曜日ですね・・・。上田です。<br />
 <br />

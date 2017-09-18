@@ -2,6 +2,7 @@
 Keywords:コマンド,CLI,sleep,字が・・・字が漏れちゃう・・・,シェル芸,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # sleep(1)で標準出力に栓をする
 小ネタです。<a href="https://twitter.com/sleepcommand" target="_blank">私の手抜きbashボットでも活躍中のsleepコマンド</a>のアホな使い方です。<br />
 <br />

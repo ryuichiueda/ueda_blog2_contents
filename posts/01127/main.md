@@ -2,6 +2,7 @@
 Keywords:コマンド,GNU,grep
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # grep -o
 小ネタです。コマンドのオプションで感動するのは、何年シェルを叩いていても起こることで、本日はGNU grepに-oというのがあると知りました。<br />
 <br />

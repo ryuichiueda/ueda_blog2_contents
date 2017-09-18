@@ -2,6 +2,7 @@
 Keywords:bashCMS,UNIX/Linuxサーバ,ご報告
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 本の予告について
 上田です。<br />
 <br />

@@ -2,6 +2,7 @@
 Keywords:どうでもいい,デバイスドライバ,Linux,危険ではない
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 寿司デバイス
 昨日の<a href="https://blog.ueda.asia/?p=7395">コレ</a>が、講義で使うにはあまりにもアレだったので、ちょっとマイルドな「寿司デバイス」も作りました。<br />
 <br />

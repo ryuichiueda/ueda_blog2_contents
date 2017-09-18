@@ -2,6 +2,7 @@
 Keywords:GlueLang,Haskell,グルー言語を作る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # GlueLangをHaskell化していこうと
 <a href="http://blog.ueda.asia/?p=4798" title="パイプラインを実装できた" target="_blank">昨日のGlueLangへのパイプライン実装</a>ですが、実装後、パイプは「>>=」で書いたほうが良いんじゃないかという行き当たりばったりなアイデアを思いついたので、やってみました。<br />
 <br />

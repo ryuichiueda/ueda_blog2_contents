@@ -2,6 +2,7 @@
 Keywords:どうでもいい,sicp,勉強会,大概にせいや
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # Structure and Interpretation of Computer Programs読書会17回目メモ書き
 雑談メモ。<br />
 <br />

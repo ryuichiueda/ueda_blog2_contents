@@ -2,6 +2,7 @@
 Keywords:コマンド,シェルスクリプト,CLI,wordsed,止まらないクリエイティビティー,エクシェル芸,ワードシェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # Word（docx）用sedを作ってしもうた。
 <a href="http://blog.ueda.asia/?p=2957" title="Word（docx）用sedを改良してしもうた。">続編アリ（2014/4/23）</a><br />
 <br />
@@ -19,8 +20,11 @@ Copyright: (C) 2017 Ryuichi Ueda
 <br />
 [bash]<br />
 #!/bin/bash <br />
+
 # wordsed: a string replacement tool for docx<br />
+
 # written by Ryuichi UEDA, Apr. 22, 2014 <br />
+
 # usage: wordsed &lt;from str&gt; &lt;to str&gt; original.docx &gt; newfile.docx<br />
 <br />
 tmp=./tmp-exshell-$$<br />

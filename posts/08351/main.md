@@ -2,6 +2,7 @@
 Keywords:どうでもいい,寝る,研究
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 日記 ---tamiyahack（仮）などなど
 <h2>#tamiyahack（仮称）</h2><br />
 <br />

@@ -2,6 +2,7 @@
 Keywords:1000,1000eng,AIIT,勉強会,ご報告,英語
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # <!--:ja-->1000 Speakers Conference in English 1が無事に終わりましたのでご報告と感想<!--:-->
 <!--:ja-->腹風邪で弱っている胃腸に油とアルコールを流し続けている上田です。こんぬつわ。<br />
 <br />

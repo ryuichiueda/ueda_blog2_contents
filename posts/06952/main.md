@@ -2,6 +2,7 @@
 Keywords:どうでもいい,CLI,日記,本当にどうでもいい,目grep,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # プロンプトを目grep仕様にしたら仕事が捗った。
 やっと新しい大学にも馴染んできました。<br />
 <br />

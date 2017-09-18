@@ -2,6 +2,7 @@
 Keywords:プログラミング,OpenCV,Python,Travis
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # Python2.7でOpenCVを使ったコードをTravis CI（まだUbuntu 14.04）でテストするときの設定
 新年早々ドハマりしたのでメモ。環境はTravisCI標準のUbuntu 14.04（いつになったら16.04になるんでしょうか？！？！？！）。OpenCVはaptで入るバージョンです。<br />
 <br />

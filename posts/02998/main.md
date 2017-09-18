@@ -2,6 +2,7 @@
 Keywords:SIer,SI業界,デス研,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # ハッカーがSIerで働けない理由をとりあえず考える
 どうも。どうしても衝動的に書きたくなって急遽これ書いてます。<br />
 <br />

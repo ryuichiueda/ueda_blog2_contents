@@ -2,6 +2,7 @@
 Keywords:寝る,書評,研究
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # SoftwareDesignで紹介した本の紹介
 本当は仕事したいんだけど眠くて眠くてブログくらいしか書けません（洗濯機待ち）。<a href="http://gihyo.jp/magazine/SD/archive/2016/201602" target="_blank">SoftwareDesignのかまペの部屋</a>で本を3冊紹介したのですが、写真にちっちゃく写っただけなので、ここで紹介しておきます。<br />
 <br />

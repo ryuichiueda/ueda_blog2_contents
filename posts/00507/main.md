@@ -2,6 +2,7 @@
 Keywords:プログラミング,C言語
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # C言語（C99）の variable length array というものを初体験
 こちらを拝読してびっくりしたので検証しました。<br />
 <br />

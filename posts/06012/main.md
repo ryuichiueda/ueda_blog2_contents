@@ -2,6 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
+
 # 近況
 <h2>出没情報</h2><br />
 <br />

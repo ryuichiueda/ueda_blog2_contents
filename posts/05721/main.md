@@ -2,6 +2,7 @@
 Keywords:どうでもいい,sicp,勉強会,雑談記録
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # Structure and Interpretation of Computer Programs読書会30回目メモ書き
 30回記念！テキストの半分超えた！！！<br />
 <br />

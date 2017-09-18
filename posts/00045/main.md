@@ -2,6 +2,7 @@
 Keywords:プログラミング,Haskell,備忘録
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # Macでcabalが使えるようにしたのでメモ
 <!--:ja--><span style="color:red">2013/11/25追記：今は（このときもそうだったかもしれんが）この方がよい．</span><br />
 [bash]<br />

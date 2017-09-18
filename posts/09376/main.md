@@ -2,6 +2,7 @@
 Keywords:Linux,Raspberry,ROS
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 「Raspberry Piで学ぶ ROSロボット入門」という本を書きました
 ロボットにラズパイを載っけてROSで動かすという<strong>流行りもの全部乗せ</strong>の節操のない本を書きました。3月30日に出ます。以前の<a href="https://blog.ueda.asia/?page_id=7166">日経Linuxの連載</a>をまとめて、原型を留めないほどROS化したものです。本日校了ということで、9月から12月までは執筆、1月からは書き直しや校正と、充実した地獄が終わりました。<br />
 <br />

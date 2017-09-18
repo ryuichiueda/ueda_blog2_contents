@@ -2,6 +2,7 @@
 Keywords:プログラミング,sicp,興奮シュガー
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # <!--:ja-->Structure and Interpretation of Computer Programs読書会11回目メモ書き<!--:-->
 <!--:ja-->本日断行いたしました。得られた知見を・・・。しかし、毎回知見が出鱈目なんだが、もし検索で辿り着いた人がいたらどう思うかねこれ？？？<br />
 <br />

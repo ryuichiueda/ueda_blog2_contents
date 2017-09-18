@@ -2,6 +2,7 @@
 Keywords:どうでもいい,総裁,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # <!--:ja-->どっちの総裁ショー<!--:-->
 <!--:ja-->&nbsp;<br><br />
 &nbsp;<br><br />

@@ -2,6 +2,7 @@
 Keywords:Haskell,SoftwareDesign,USP友の会,勉強会,寝る,シェル芸,シェル芸勉強会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 日記（SoftwareDesignとシェル芸勉強会）
 <h2>書いた。SoftwareDesign8月号</h2><br />
 <br />

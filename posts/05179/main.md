@@ -2,6 +2,7 @@
 Keywords:GlueLang,USP友の会,勉強会,シェルを書くという人はレベルが低いらしい
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # GlueLangのLTやった（シェル書いてますが何か？）
 とりいそぎ。シェル芸勉強会については<a href="http://blog.ueda.asia/?p=5093" title="【問題と解答例】第15回ドキッ！grepだらけのシェル芸勉強会">問題をアップ</a>しました。後日まとめます。皆様ありがとうございました。<br />
 <br />

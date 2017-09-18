@@ -2,6 +2,7 @@
 Keywords:SoftwareDesign,執筆,シェル芸,開眼シェルスクリプト
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # <!--:ja-->SoftwareDesign11月号が発売されてます<!--:-->
 <!--:ja-->本屋でどうぞ。<br />
 <br />

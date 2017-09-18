@@ -2,6 +2,7 @@
 Keywords:プログラミング,Haskell,pmat
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # pmat version 0.0012
 気づいたら少し進んでいた。→<a target="_blank" href="https://github.com/ryuichiueda/PMAT/blob/658756a93c0716864bd275ac957bbeb9d9b8f608/pmat.hs" title="pmat.hs">GitHub晒しコード。ちょっとだけ奇麗にした。</a><br />
 <br />

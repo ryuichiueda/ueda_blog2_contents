@@ -2,6 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
+
 # シェル芸
 シェル芸情報ページでございます。<br />
 <br />

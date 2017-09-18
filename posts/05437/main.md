@@ -2,6 +2,7 @@
 Keywords:執筆,独白,研究,確率ロボティクス,赤裸々な
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 確率ロボティクス復刊。ドサクサに紛れて昔話4（売り切れと、関係ないけど失踪と）
 また昨日に引き続き、<a href="https://book.mynavi.jp/ec/products/detail/id=37337">確率ロボティクス復刊記念</a>、自意識過剰独白です。<br />
 <br />

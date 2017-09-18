@@ -2,6 +2,7 @@
 Keywords:コマンド,iPhone,LaTeX,Mac,make,寝る,脱キーボード,腰痛持ちに捧ぐ,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 布団の中でiPhoneを使ってLaTeXの文章を書く手法の提案
 いつまで人類は机に向かってキーボードを叩いているんだ！ということで、布団でLaTeXの原稿を書く方法（Mac + iPhone）を。なんか有料のものもあるらしいですが・・・ここに書いてある方法はダーターです。<br />
 <br />

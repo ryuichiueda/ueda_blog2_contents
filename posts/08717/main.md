@@ -2,6 +2,7 @@
 Keywords:Mac,Raspberry
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # Raspberry Piを有線LANでMacに直結してMac経由でapt-getできるようにするまでの手順
 <a href="https://blog.ueda.asia/?p=8694">さっきの記事</a>のMac版。OS Xです。画面数は減ります。こちらもMacで有線LANと無線LANが両方使える必要があります。<br />
 <br />

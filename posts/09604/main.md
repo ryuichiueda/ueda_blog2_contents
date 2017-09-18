@@ -2,6 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
+
 # 第28回基準値を超えるシェル芸勉強会
 <h1 style="font-size: 180%;">第28回基準値を超える<br />シェル芸勉強会</h1><br />
 &nbsp;<br />

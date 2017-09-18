@@ -2,6 +2,7 @@
 Keywords:コマンド,Haskell,open
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # <!--:ja-->Haskell版のformhame<!--:-->
 <!--:ja-->HTMLのフォームに値をはめ込むというマニアックコマンドformhameをHaskell化しました．<br />
 <br />

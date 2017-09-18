@@ -2,6 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
+
 # シェル芸の歴史
 <h2>2017年</h2><br />
 <br />

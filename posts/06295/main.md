@@ -2,6 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
+
 # 正誤表 | シェルプログラミング実用テクニック
 <h2>第2刷</h2><br />
 <br />

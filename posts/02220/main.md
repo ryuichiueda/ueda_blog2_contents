@@ -2,6 +2,7 @@
 Keywords:どうでもいい,sicp
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # <!--:ja-->Structure and Interpretation of Computer Programs読書会14回目メモ書き<!--:-->
 <!--:ja-->続いてます。例によって役に立つ（？）会話メモ。<br />
 <br />

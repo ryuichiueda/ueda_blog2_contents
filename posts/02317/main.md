@@ -2,6 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
+
 # 外部獲得資金
 <!--:ja--><h2>共同研究</h2><br />
 <br />

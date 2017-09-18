@@ -2,6 +2,7 @@
 Keywords:プログラミング,C言語,ulimit,variable
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # variable length array で配列の要素数の限界を調べた（しかしvariable length arrayあまり関係ない）
 前回の variable length array、なんでそんなに自分が気持ち悪いと感じるのかと考えてみました。結果、WindowsでVisual C++を昔（4.0~6.0あたり）使っていたときに、デフォルトのスタック領域の大きさがそんなに大きくなく、<br />
 <br />

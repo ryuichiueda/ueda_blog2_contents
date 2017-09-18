@@ -2,6 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
+
 # 第30回危念シェル芸勉強会
 <h1 style="font-size: 180%;">第30回危念シェル芸勉強会</h1><br />
 &nbsp;<br />

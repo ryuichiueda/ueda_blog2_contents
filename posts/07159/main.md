@@ -2,6 +2,7 @@
 Keywords:Linux,Raspberry,WiringPi
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 考えたくない人向けWiringPi2導入手順（Raspberry Pi2 Model B, 2015年11月6日現在）
 少しずつ情報が古くて一発で行かなかったので。gpioコマンドを使いたくても、Pythonもろともインストールしてしまった方が手っ取り早いようです。<br />
 <br />

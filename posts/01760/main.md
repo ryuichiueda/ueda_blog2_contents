@@ -2,6 +2,7 @@
 Keywords:コマンド,dayslash,Haskell,open,寝る,コードが汚い,眠い
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # Haskell版dayslash作った
 前回に引き続きOpen usp Tukubaiネタ．dayslash.hsを作りました．日付けをフォーマットしたり，逆に取り除いたりするコマンドです．<br />
 <br />

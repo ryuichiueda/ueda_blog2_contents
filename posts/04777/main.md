@@ -2,6 +2,7 @@
 Keywords:GlueLang,研究,グルー言語を作る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # GlueLangに中間ファイルを変数のように使える機能を実装
 <a href="http://blog.ueda.asia/?p=4719" title="煽られるように開発中の言語（Glue）について説明・・・">GlueLangの開発</a>は休日に行うことにした上田です。おこんばんは。<br />
 <br />
@@ -13,6 +14,7 @@ GlueLangというのは、「次世代シェルスクリプティング言語」
 <br />
 [bash]<br />
 uedambp:GlueLang ueda$ cat TEST/fizzbuzz.glue <br />
+
 # for Mac<br />
 <br />
 file nums = /usr/bin/seq '1' '100'<br />

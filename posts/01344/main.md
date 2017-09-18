@@ -2,6 +2,7 @@
 Keywords:プログラミング,Applet,Java,Javaも書くのよ
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # <!--:ja-->昔のJavaのソース漁り<!--:-->
 <!--:ja-->ずっと科研費書いたり本書いたりで、休み前くらい違う事をやろうということで、昔書いたJavaのコードを眺めています。<br />
 <br />

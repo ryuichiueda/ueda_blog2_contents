@@ -2,6 +2,7 @@
 Keywords:USP友の会,うれしかった事,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 勉強会が子連れOKになった
 <a href="http://www.usptomo.com/PAGE=20130328USPSTUDY" target="_blank">こっち</a>にも書きましたが、わたくしの他のいろんな人が動き回って、とうとうUSP友の会も子連れOKの勉強会を開くことになりました。<br />
 <br />

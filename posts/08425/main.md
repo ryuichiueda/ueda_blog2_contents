@@ -2,6 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
+
 # 第23回梅雨でモワッとしたシェル芸勉強会
 <h1 style="font-size:180%">第23回梅雨でモワッとした<br>シェル芸勉強会</h1><br />
 <br />

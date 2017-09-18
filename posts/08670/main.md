@@ -2,6 +2,7 @@
 Keywords:勉強会,シェル芸,シェル芸勉強会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 第24回◯◯o◯裏番組シェル芸勉強会リンク集
 今回も無事に濃く終了いたしました。<a href="http://www.kddi-webcommunications.co.jp/">KDDIウェブコミュニケーションズ</a>様はお引っ越しということで、麹町での開催は今回が最後となりました。ありがとうございました。<br />
 <br />

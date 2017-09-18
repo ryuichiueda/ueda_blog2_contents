@@ -2,6 +2,7 @@
 Keywords:ラズパイマガジン,Software,システム制御情報学会,執筆,研究,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # Software Design, ラズパイマガジン, システム／制御／情報
 <a href="https://blog.ueda.asia/?p=8862">こちら</a>では悪質な記事を書きましたが、最近立て続けに出版があったので真面目に報告いたします。<br />
 <br />

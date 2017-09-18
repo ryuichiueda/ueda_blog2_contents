@@ -2,6 +2,7 @@
 Keywords:コマンド,awk,CLI,sed,勉強会,シェル芸,シェル芸勉強会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 【問題のみ】第28回基準値を超えるシェル芸勉強会
 <a href="https://blog.ueda.asia/?p=9575">解答例はこちら</a><br />
 <h2>問題で使うファイル等</h2><br />

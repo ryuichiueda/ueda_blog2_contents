@@ -2,6 +2,7 @@
 Keywords:どうでもいい,SoftwareDesign,ご報告,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 私の告白付きSoftwareDesign2月号
 今日発売のSoftwareDesign、何を間違ったか私、インタビューしていただき、晒されております。恥ずかしい。<br />
 <br />

@@ -2,6 +2,7 @@
 Keywords:Excel方眼紙,ポインタが悲鳴,シェル芸,エクシェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # エクセル方眼紙の無駄をエクシェル芸で遠回しに指摘する。
 上田です。<a href="http://kernel.doorkeeper.jp/events/9547" target="_blank">カーネル読書会</a>に潜入中です。<br />
 <br />

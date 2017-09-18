@@ -2,6 +2,7 @@
 Keywords:ex,exない,Linux
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # <!--:ja-->Ubuntuにex(1)がないじゃないか<!--:-->
 <!--:ja-->こんなことで怒る30代はいないと思うが・・・<br />
 <br />

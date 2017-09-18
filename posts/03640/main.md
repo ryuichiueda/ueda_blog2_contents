@@ -2,6 +2,7 @@
 Keywords:auto,C++,C/C++,POSIXスレッド,pthread
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 【お盆の勉強にどうぞ】C++11はもはやLL
 研究のために<a href="https://github.com/ryuichiueda/DP_TOOL2/tree/master/bin" target="_blank">科学計算のコマンド</a>をC++で作ってます。去年もちょっと使いましたが、自分がC++ばっかり書いていた頃（1997年から10年くらい）から何年もたっているので、<br />
 <br />

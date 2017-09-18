@@ -2,6 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
+
 # 研究関係動画
 <h2>某未発表アルゴリズムのデモ</h2><br />
 <ul><br />

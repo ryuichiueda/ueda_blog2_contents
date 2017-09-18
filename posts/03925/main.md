@@ -2,6 +2,7 @@
 Keywords:SoftwareDesign,一行感想文
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # SoftwareDesign2014年10月号の一行感想文
 自分に読書をさせるための強制感想文です。先月は自分のことが書かれているにも関わらずサボりましたが・・・。<br />
 <br />

@@ -2,6 +2,7 @@
 Keywords:コマンド,CLI,factor,平方数,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 平方数かどうかをシェル芸で判定する方法
 <a href="http://d.hatena.ne.jp/hnw/20140503" target="_blank">http://d.hatena.ne.jp/hnw/20140503</a>のエントリーに触発されました。<br />
 <br />

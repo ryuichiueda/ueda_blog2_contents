@@ -2,6 +2,7 @@
 Keywords:sicp
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # Structure and Interpretation of Computer Programs読書会24回目メモ書き
 三週連続私が風邪で中止になりましたがまだ続いてます。例によって読書中の全然sicpに関係ない雑談。<br />
 <br />

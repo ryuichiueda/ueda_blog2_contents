@@ -2,6 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
+
 # dash/src/eval.h, eval.c
 まだ途中。パイプの繋ぎ換えのところの解読が終わった。evalpipe関数の実装の部分は必見。<br />
 <br />

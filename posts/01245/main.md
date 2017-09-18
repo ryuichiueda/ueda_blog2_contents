@@ -2,6 +2,7 @@
 Keywords:プログラミング,SoftwareDesign,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # SoftwareDesign10月号が発売されたようです
 今月も後ろでひっそりと連載してます。AWK, sed, grep, findで文章書きや検索を楽しくする内容です。斜め読み、縦読み、横読み、逆さ読み、裏読み、穿ち読みの程、よろしくお願いします。<br />
 <br />

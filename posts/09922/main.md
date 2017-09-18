@@ -2,6 +2,7 @@
 Keywords:コマンド,CLI,Linux,UNIX/Linuxサーバ,勉強会,シェル芸,シェル芸勉強会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 第29回シェル芸勉強会まとめ
 今回も共催の<a href="https://www.jus.or.jp/">日本UNIXユーザ会</a>様、会場提供の<a href="https://www.sakura.ad.jp/">さくらインターネット</a>様、参加者の皆様のご協力のもと、シェル芸勉強会を開催しました。<br />
 <br />

@@ -2,6 +2,7 @@
 Keywords:Raspberry,一行感想文,寝る,書評
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 日経BP社「ラズパイ超入門」一行感想文
 本日、<a href="http://www.mana-cat.com/" target="_blank">平さん</a>からいただいた本が届きました。↓です。<br />
 <br />

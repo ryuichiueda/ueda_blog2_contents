@@ -2,6 +2,7 @@
 Keywords:シェルスクリプト,GlueLang,研究,グルー言語を作る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 煽られるように開発中の言語（Glue）について説明・・・
 あわわわわ。<br />
 <br />

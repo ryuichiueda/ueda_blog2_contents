@@ -2,6 +2,7 @@
 Keywords:コマンド,CLI,Linux,UNIX/Linuxサーバ,USP友の会,勉強会,シェル芸,シェル芸勉強会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 【問題のみ】第21回未経験者大歓迎！誰でも働けるアットホームな職場ですシェル芸勉強会
 <a href="https://blog.ueda.asia/?p=7608">解答はこちら。</a><br />
 <br />

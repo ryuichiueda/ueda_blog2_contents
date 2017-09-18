@@ -2,6 +2,7 @@
 Keywords:コマンド,シェルスクリプト,Linux,寝る,自宅サーバ,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # ダイナミックDNSを使わずにシェル芸等々で自宅のサーバへアクセスするシステム作った
 （追記: 早速「VPSに向かってトンネル掘っとけよ！とUSP友の会で尻を突かれております。トンネル掘られそうです。」。あと、cronの頻度が高いと先方のサービスに蹴られる可能性があるのと、かと言って頻度を下げるとケーブルテレビ系だとちと辛いという話になってます。NTT, AUはIPがほとんど変わらないというのが経験上、言えることですが、保証はないです。）<br />
 <br />
@@ -37,6 +38,7 @@ $ sudo reboot<br />
 [bash]<br />
 $ vi /etc/ssh/sshd_config <br />
 ###以下のように変更###<br />
+
 # Change to no to disable tunnelled clear text passwords<br />
 PasswordAuthentication no<br />
 ###説明が面倒くさいのでreboot###<br />

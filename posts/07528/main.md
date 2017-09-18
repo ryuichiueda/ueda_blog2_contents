@@ -2,6 +2,7 @@
 Keywords:ロボカップ,RoboCup,執筆,日経Linux
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 日記: 日経Linux, RoboCup, 次のシェル芸勉強会
 <h2>日経Linux2月号</h2><br />
 <br />

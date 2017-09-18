@@ -2,6 +2,7 @@
 Keywords:Sphinx,執筆
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # 【メモ】Sphinxを使ってpLaTeX経由でPDFを作る時にdvipdfmxで「Unknown token "SDict"」と警告が出る場合の対処
 原稿のトップディレクトリで<br />
 [bash]<br />

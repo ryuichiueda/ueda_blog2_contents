@@ -2,6 +2,7 @@
 Keywords:ブチギレ,ICS,Raspberry,Windows,インターネット接続の共有
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # Raspberry Piを有線LANでWindows8に直結してWindows8経由でapt-getできるようにするまでの手順
 講義のために慣れぬWindowsを触り、イライラで血圧が1000くらいになりながら分かった手順をまとめます。Windows8以降ならおそらく手順は同じです。タイトルにあるように、下の写真のようにラズパイとノートPCを接続して、ラズパイからインターネットに出られるようにします。（この写真のノートPCはWindowsではありませんが。）<br />
 <br />

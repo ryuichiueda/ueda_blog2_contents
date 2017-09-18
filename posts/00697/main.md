@@ -2,6 +2,7 @@
 Keywords:プログラミング,Haskell,pmat
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # pmat version 0.001
 この前のこの件（<a href="http://blog.ueda.asia/?p=674" title="こういう行列計算コマンドを考えついた">こういう行列計算コマンドを考えついた</a>）、とりあえずは行動ということで、まだかけ算しかできないもののコードを晒してみました。<br />
 <br />

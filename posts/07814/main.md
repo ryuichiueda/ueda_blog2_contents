@@ -2,6 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
+
 # 自己紹介
 <h1 style="font-size:180%">自己紹介</h1><br />
 　　<br />

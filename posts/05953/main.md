@@ -2,6 +2,7 @@
 Keywords:ごめんなさい,bash,Linux,Mac,pipefail,ご報告,シェルプログラミング実用テクニック,寝る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # bashのpipefailで確実にスクリプトを止める
 <a href="http://gihyo.jp/book/2015/978-4-7741-7344-3" title="シェルプログラミング実用テクニックの目次が公開されました（エクシェル芸、斉藤さん、and 鳩）" target="_blank">シェルプログラミング実用テクニック</a>、出版される前からもう補足ですが、私めがbashのpipefailというオプションをすっかり見落としていたのでフォローしておきます。<br />
 <br />

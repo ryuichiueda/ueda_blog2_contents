@@ -2,6 +2,7 @@
 Keywords:どうでもいい,sicp,オッサンの咆哮
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # Structure and Interpretation of Computer Programs読書会22回目メモ書き
 先週やりました。今週は・・・すいませんすいません。<br />
 <br />

@@ -2,6 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
+
 # シェルスクリプト高速開発手法入門
 <ul><br />
  <li><a href="#news">ニュース</a></li><br />

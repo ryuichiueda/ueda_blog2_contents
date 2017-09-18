@@ -2,6 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
+
 # 正誤表 | シェルスクリプト高速開発技術入門
 通報先: <a href="https://twitter.com/ryuichiueda" target="_blank">\@ryuichiueda</a>まで！<br />
 <br />

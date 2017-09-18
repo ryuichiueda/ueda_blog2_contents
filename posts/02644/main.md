@@ -2,6 +2,7 @@
 Keywords:コマンド,Haskell,Haskell芸,シェル芸,シェル芸は関数型,頭の中だだ漏らし
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # シェル芸とHaskellの対応を考える
 <!--:ja-->どうも上田です。眠気1000%でお送り致します。<br />
 <br />

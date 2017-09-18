@@ -2,6 +2,7 @@
 Keywords:プログラミング,Haskell,pmat
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # <!--:ja-->pmat version 0.0019<!--:--><!--:en-->pmat version 0.0019<!--:-->
 <!--:ja-->飲み会から帰り、酔っ払ってコードをいじっているうちに足し算引き算ができるようになりました。<br />
 <br />

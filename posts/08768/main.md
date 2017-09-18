@@ -2,6 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
+
 # 第25回もう4年もやってんのかシェル芸勉強会
 <h1 style="font-size: 180%;">第25回もう4年もやってんのか<br />
 シェル芸勉強会</h1><br />

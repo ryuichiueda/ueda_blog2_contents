@@ -2,6 +2,7 @@
 Keywords:コマンド,Haskell,open
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # Haskell版のcgi-nameとketa
 Haskell版のOpen usp Tukubaiのコマンド：<a href="https://github.com/usp-engineers-community/Open-usp-Tukubai/blob/master/COMMANDS.HS/cgi-name.hs" target="_blank">cgi-namea.hs</a>と<a href="https://github.com/usp-engineers-community/Open-usp-Tukubai/blob/master/COMMANDS.HS/keta.hs" target="_blank">keta.hs</a>をリリースしましたー。他にやることが山積みですが。<br />
 <br />

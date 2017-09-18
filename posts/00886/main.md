@@ -2,6 +2,7 @@
 Keywords:プログラミング,Haskell,open,USP友の会,江頭
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # <!--:ja-->江頭問題の解決<!--:-->
 <!--:ja-->以前、<br />
 <a href="http://www.usptomo.com/PAGE=20130326HSTARR" target="_blank">http://www.usptomo.com/PAGE=20130326HSTARR</a><br />

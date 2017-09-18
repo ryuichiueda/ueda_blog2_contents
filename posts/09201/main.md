@@ -2,6 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
+
 # 第26回シェル芸勉強会及びエクシェル芸勉強会
 <h1 style="font-size: 180%;">第26回シェル芸勉強会及び<br />
 エクシェル芸勉強会</h1><br />

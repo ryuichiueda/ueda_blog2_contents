@@ -2,6 +2,7 @@
 Keywords:プログラミング,GlueLang,寝る,日記,グルー言語を作る
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # GlueLangが変態言語になるかどうかの瀬戸際である
 本日は久々に<a href="https://github.com/ryuichiueda/GlueLang" target="_blank">GlueLang</a>を作りこんでいました。読んでてもほとんどの人が分からんと思いますが作業日誌です。いや、読んでも分からんとか言ってたら絶対普及しないので、この前LTやったスライドを貼り付けときます。<br />
 <br />

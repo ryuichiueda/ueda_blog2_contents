@@ -2,6 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
+
 # dash/src/main.h, main.c
 dashのmain.hとmain.cに自分のツッコミコメントを入れたもの。gotoやらロングジャンプやら。<br />
 <br />

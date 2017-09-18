@@ -2,6 +2,7 @@
 Keywords:CLI,docx,シェル芸,エクシェル芸,ワードシェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # ワードシェル芸？の方法。
 もう、やり方だけ。環境はUbuntu。hxselectで要素を指定するときに、コロンをエスケープするというのでちょっとはまった。<br />
 <br />

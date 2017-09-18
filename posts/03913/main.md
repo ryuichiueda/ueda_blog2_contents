@@ -2,6 +2,7 @@
 Keywords:シール,どうでもいい,UNIX/Linuxサーバ,危険シェル芸,危険シェル芸の姐,シェル芸
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # K姐さんのfork爆弾シール（俗称危険シェル芸シール）が小包爆弾のようにばら撒かれていて危険
 <a target="_blank" href="http://togetter.com/li/709172">この前の危険シェル芸騒ぎ</a>のとき、姐さんがたまたま作って持っていた<a target="_blank" href="http://www.luyehuizi.com/?p=783">fork爆弾の引き取り先を募集してましたが</a>、どうやらそれが応募した方に届いたようです。Twitterで続々と喜びの声が。<br />
 <br />

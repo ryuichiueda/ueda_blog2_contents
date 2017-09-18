@@ -2,6 +2,7 @@
 Keywords:AIIT,This,別のサイトのポインタ,英語
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # <!--:ja-->明日は1000 Speakers Conference in English 1デス。<!--:-->
 <!--:ja-->上田です。てんやわんやです。明日金曜日は私がローカルオーガナイザー（？）を務める、<br />
 <br />

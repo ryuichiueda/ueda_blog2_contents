@@ -2,6 +2,7 @@
 Keywords:ロックイン,バックアップ,apache,DB,UNIX/Linuxサーバ
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
 # このサイトをミラーリングしてみたが・・・
 WordPressのDBがrsyncでバックアップできないので、別のサーバにクローンを作った。<br />
 <br />
