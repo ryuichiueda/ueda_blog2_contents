@@ -90,7 +90,7 @@ template Keywords:
 <h2>Q2</h2>
 次のHTMLファイルurl.htmlについて、リンクが相対パスになっているものについては頭に/files/をつけて、/から始まっているものとhttpやhttpsから始まっているものはそのままにしてください。できる人は変なところに改行があるものなどに対応できるように、なるべく一般解に近づけましょう。
 
-[html]
+```html
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -106,7 +106,7 @@ template Keywords:
  &lt;/ul&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-[/html]
+```
 
 次が出力例です。
 
