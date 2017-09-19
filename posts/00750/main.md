@@ -11,11 +11,11 @@ Copyright: (C) 2017 Ryuichi Ueda
 ルータとか設定ファイルとかをいじればなんとかなるのかもしれませんが、
 面倒なのでこういうシェルスクリプトを書いてしのいでます。
 
-[bash]
+```bash
 uedamac:SSH ueda$ cat UBUNTU_HOME 
 ssh ueda.aho.example.com -p 12345 ||
 ssh 192.168.0.101 -p 12345
-[/bash]
+```
 
 これで、最初のssh接続が失敗したら次のssh接続が試行されます。
 ||と&&は便利ですね。

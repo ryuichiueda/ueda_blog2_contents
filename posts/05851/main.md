@@ -52,23 +52,23 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ログをとってきましょう。
 
-[bash]
+```bash
 $ wget http://blog.ueda.asia/misc/access_log.nasa.gz
 $ wget http://blog.ueda.asia/wp-content/uploads/2015/04/access.log_.shellshock.gz
-[/bash]
+```
 
 <h2>準備1</h2>
 
 access.log.shellshock.gzとaccess_log.nasa.gzについて、日付と時刻を次のように正規化しておきましょう。
 
-[bash]
+```bash
 ###修正前###
 ueda\@tencore:~/tmp/nasa$ zcat access_log.nasa.gz | head -n 1
 199.72.81.55 - - [01/Jul/1995:00:00:01 -0400] &quot;GET /history/apollo/ HTTP/1.0&quot; 200 6245
 ###修正後###
 ueda\@tencore:~/tmp/nasa$ cat access_log | head -n 1
 19950701 000001 199.72.81.55 - - [01/Jul/1995:00:00:01 -0400] &quot;GET /history/apollo/ HTTP/1.0&quot; 200 6245
-[/bash]
+```
 
 
 <h2>準備2</h2>

@@ -8,21 +8,21 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 例えば5種類についてこれを求めようとすると、次のようにlog($1)/log(2)して、この値を切り上げればよいのですが、awkには切り上げの関数がありません。
 
-[bash]
+```bash
 uedambp:~ ueda$ echo 5 | awk '{print log($1)/log(2)}'
 2.32193
-[/bash]
+```
 
 んで、思いついたのがこれ。要は小数点のピリオドがあったら切り捨てて1足せと。計算というより文字列処理ですな・・・
 
-[bash]
+```bash
 uedambp:~ ueda$ echo 5 | awk '{print log($1)/log(2)}' |
  awk '/\\./{print int($1)+1}!/\\./{print $1}'
 3
 uedambp:~ ueda$ echo 4 | awk '{print log($1)/log(2)}' |
  awk '/\\./{print int($1)+1}!/\\./{print $1}'
 2
-[/bash]
+```
 
 しかし、素直ではない・・・。Tukubaiのmarume使うか・・・。
 

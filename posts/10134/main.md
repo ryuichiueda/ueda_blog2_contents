@@ -15,9 +15,9 @@ GitHubにあります。ファイルは
 
 クローンは以下のようにお願いします。
 
-[bash]
+```bash
 $ git clone https://github.com/ryuichiueda/ShellGeiData.git
-[/bash]
+```
 
 <h2>環境</h2>
 解答例はUbuntu Linux 16.04 で作成。Macの場合はcoreutilsをインストールすると、GNUのコマンドが使えます。BSD系の人は玄人なので各自対応のこと。
@@ -28,7 +28,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 <h2>Q1</h2>
 リポジトリの中に、次のようなディレクトリがあります。
 
-[bash]
+```bash
 $ tree posts
 posts
 ├── 20170806_check_of_webhook
@@ -53,11 +53,11 @@ posts
 │   └── main.md
 └── template
  └── main.md
-[/bash]
+```
 
 この中の、各main.mdは次のようなヘッダ付きのマークダウンです。
 
-[bash]
+```bash
 $ cat posts/20170818_bash/main.md 
 ---
 Keywords:  嫌がらせ
@@ -69,11 +69,11 @@ Copyright: (C) 2017 Ryuichi Ueda
 Keywords: ワッショイ
 Keywords: ワッショイ
 Keywords: ワッショイ
-[/bash]
+```
 
 これらのファイルから、次のような出力を作ってください。なお、Keywordsの行は各ファイルで最初にある行しか抽出しないこととします。
 
-[bash]
+```bash
 20170806_check_of_webhook Keywords: Webhook
 20170810_negi Keywords: ネギ
 20170810_negistagram Keywords: Twitter, Instagram, ネギ
@@ -83,20 +83,20 @@ Keywords: ワッショイ
 20170820_bootstrap Keywords: Bootstrap
 20170820_injection Keywords: injection
 template Keywords: 
-[/bash]
+```
 
 <h3>解答</h3>
 grepの-mオプションを使うと一番最初にマッチした行を取り出せます。
 
-[bash]
+```bash
 $ grep -m 1 '^Keywords:' posts/*/main.md |
  sed 's;posts/;;' | sed 's;/main.md:; ;'
-[/bash]
+```
 
 <h2>Q2</h2>
 次のHTMLファイルurl.htmlについて、リンクが相対パスになっているものについては頭に/files/をつけて、/から始まっているものとhttpやhttpsから始まっているものはそのままにしてください。できる人は変なところに改行があるものなどに対応できるように、なるべく一般解に近づけましょう。
 
-[html]
+```html
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -112,11 +112,11 @@ $ grep -m 1 '^Keywords:' posts/*/main.md |
  &lt;/ul&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-[/html]
+```
 
 次が出力例です。
 
-[html]
+```html
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -132,12 +132,12 @@ $ grep -m 1 '^Keywords:' posts/*/main.md |
  &lt;/ul&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-[/html]
+```
 
 <h3>解答</h3>
 いちおうこれで大丈夫だとは思うのですが、自分でもなんだかよくわかりません・・・。
 
-[bash]
+```bash
 $ cat url.html | sed -r 's;(img src=&quot;|a href=&quot;);&amp;/files/;g' |
  sed -r 's;(href=&quot;|src=&quot;)/files//;\\1/;' |
  sed -r 's;(href=&quot;|src=&quot;)/files/(https://|http://);\\1\\2;g' |
@@ -157,21 +157,21 @@ $ cat url.html | sed -r 's;(img src=&quot;|a href=&quot;);&amp;/files/;g' |
  &lt;/ul&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-[/bash]
+```
 
 <h2>Q3</h2>
 次のファイルについて、
 
-[bash]
+```bash
 $ cat list
 * 妬み
 * 嫉み
 * 僻み
-[/bash]
+```
 
 次のようにHTMLにして、頭にHTTPヘッダをつけてください。インデントは不要ですがタグは1行1個でお願いします。
 
-[html]
+```html
 Content-Type: text/html
 
 &lt;!DOCTYPE html&gt;
@@ -187,36 +187,36 @@ Content-Type: text/html
 &lt;/ul&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-[/html]
+```
 
 すぐできて退屈な人は、インターネット上のサーバでこのHTMLファイルを送信するサーバをワンライナーで立ててください。
 <h3>解答</h3>
 ゴリゴリやってもあまり苦労はしないと思いますが、Pandocの紹介がてら問題を出しました。
 
-[bash]
+```bash
 $ cat list | sed 's/\\* /&lt;li&gt;/' | sed 's;$;&lt;/li&gt;;' |
  sed '1iContent-Type: text/html\\n\\n&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;ul&gt;' |
  sed '$a&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;' | sed 's/&gt;&lt;/&gt;\\n&lt;/g'
 ### Pandocを使う方法 ###
 $ pandoc list -t html5 -s | sed '5,12d' | sed '1iContent-Type: text/html\\n'
-[/bash]
+```
 
 ブラウザからの応答に反応するには、レスポンス行も追加します。（改行は\\r\\nの方がいいかもしれません。）
 
-[bash]
+```bash
 $ pandoc list -t html5 -s | sed '5,12d' |
  sed '1iHTTP/1.1 200 OK\\nContent-Type: text/html\\n' | nc -l 8080
 ### 連続応答 ###
 $ while : ; do pandoc list -t html5 -s | sed '5,12d' |
  sed '1iHTTP/1.1 200 OK\\nContent-Type: text/html\\n' | nc -l 8080 ; done
-[/bash]
+```
 
 <h2>Q4</h2>
 &amp;&amp;や;でコマンドを繋いだワンライナーで、GitHubにリポジトリを作ってそこにテキストファイルを一つ置いてください。
 <h3>解答</h3>
 hubの紹介のための問題でした。
 
-[bash]
+```bash
 $ mkdir hoge &amp;&amp; cd hoge &amp;&amp; git init &amp;&amp; echo aho &gt; aho.txt 
 &amp;&amp; git add -A &amp;&amp; git commit -m &quot;aho&quot; 
 &amp;&amp; hub create ryuichiueda/hoge &amp;&amp; git push origin master
@@ -231,48 +231,48 @@ Writing objects: 100% (3/3), 215 bytes | 0 bytes/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To git\@github.com:ryuichiueda/hoge.git
  * [new branch] master -&gt; master
-[/bash]
+```
 
 <h2>Q5</h2>
 次のファイルの1行目の複素数と2行目の複素数をかけ算してください。
 
-[bash]
+```bash
 $ cat complex 
 1 + 4*i
 3 - 2*i
-[/bash]
+```
 
 <h3>解答</h3>
 Perlを使ってみました。（Perlに慣れていればもっと前処理は簡単になると思います。）
 
-[bash]
+```bash
 $ cat complex | sed 's/^/(/' | sed 's/$/)/' | sed '2,$i*' |
  xargs | tr -d ' ' |
  xargs -I\@ perl -e '{use Math::Complex;print(\@);print &quot;\\n&quot;}'
 11+10i
-[/bash]
+```
 
 <h2>Q6</h2>
 フィボナッチ数列で、6765の4つ前の数を出力してください。
 <h3>解答</h3>
 
-[bash]
+```bash
 $ echo a | awk 'BEGIN{a=1;b=1}{while(1){print a;c=b;b+=a;a=c}}' |
  grep -m 1 -B4 6765 | head -n 1
 987
-[/bash]
+```
 
 <h2>Q7</h2>
 次の数字の列について、00, 01, 02,...,99の数字2つ並びのうち、含まれないものを抽出してください。できる人はループを使わないで抽出してください。
 
-[bash]
+```bash
 cat nums
 1232154916829552629124634124821535923503018381369677458868876877570978993996890718096846698577281037379417474410221480004050608111920262721512985412925301
-[/bash]
+```
 
 <h3>解答</h3>
 
-[bash]
+```bash
 $ seq -w 0 99 | while read n ; do grep -q $n nums || echo $n ; done 
 31
 33
@@ -282,11 +282,11 @@ $ seq -w 0 99 | while read n ; do grep -q $n nums || echo $n ; done
 61
 64
 65
-[/bash]
+```
 
 whileやforを使わない場合はこんな感じで。
 
-[bash]
+```bash
 $ cat nums | sed 's/.\\(.*\\)/\\1\\n&amp;/' | fold -b2 | grep .. | sort -u |
  sort -m - &lt;(seq -w 00 99) | sort | uniq -u
 31
@@ -297,33 +297,33 @@ $ cat nums | sed 's/.\\(.*\\)/\\1\\n&amp;/' | fold -b2 | grep .. | sort -u |
 61
 64
 65
-[/bash]
+```
 
 <h2>Q8</h2>
 次のアルファベットの区間のうち、間に含まれるアルファベットが一番多いものはどれでしょうか。
 
-[bash]
+```bash
 $ cat alphabet 
 a-g
 e-q
 z-v
 r-y
-[/bash]
+```
 
 <h3>解答</h3>
 ブレース展開を使うとこんな感じです。
 
-[bash]
+```bash
 $ cat alphabet |
  awk '{a=$1;gsub(/-/,&quot;..&quot;,a);print &quot;echo&quot;,$1,&quot;{&quot;a&quot;}&quot;}' |
  bash | awk '{print $1,NF}' | sort -k2,2n |
  tail -n 1 | awk '{print $1}'
 e-q
-[/bash]
+```
 
 あとは10進数のasciiコードに変換する方法を示します。
 
-[bash]
+```bash
 $ cat alphabet | xxd -ps | fold -b2| tr a-f A-F |
  sed '1iobase=10;ibase=16;' | bc | xargs -n 4 |
  awk '{print $1-$3}' | tr -d - | awk '{print NR,$1}' |
@@ -335,5 +335,5 @@ $ cat alphabet | tr - ' ' |
  awk '{print NR,$1}' | sort -k2,2n | tail -n 1 |
  awk '{print $1}' | xargs -I\@ sed -n \@p alphabet 
 e-q
-[/bash]
+```
 

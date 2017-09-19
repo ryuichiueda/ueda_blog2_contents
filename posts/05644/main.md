@@ -51,27 +51,27 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ログをとってきましょう。
 
-[bash]
+```bash
 $ wget http://blog.ueda.asia/misc/access_log.nasa.gz
 $ wget http://blog.ueda.asia/wp-content/uploads/2015/04/access.log_.shellshock.gz
-[/bash]
+```
 
 <h2>準備1</h2>
 
 access.log.shellshock.gzとaccess_log.nasa.gzについて、日付と時刻を次のように正規化しておきましょう。
 
-[bash]
+```bash
 ###修正前###
 ueda\@tencore:~/tmp/nasa$ zcat access_log.nasa.gz | head -n 1
 199.72.81.55 - - [01/Jul/1995:00:00:01 -0400] &quot;GET /history/apollo/ HTTP/1.0&quot; 200 6245
 ###修正後###
 ueda\@tencore:~/tmp/nasa$ cat access_log | head -n 1
 19950701 000001 199.72.81.55 - - [01/Jul/1995:00:00:01 -0400] &quot;GET /history/apollo/ HTTP/1.0&quot; 200 6245
-[/bash]
+```
 
 <h2>解答</h2>
 
-[bash]
+```bash
 ueda\@tencore:~/tmp/nasa$ zcat access_log.nasa.gz | awk '{print $4,$0}' |
  sed 's/^\\[//' | awk '{gsub(/[\\/:]/,&quot; &quot;,$1);print}' |
  awk '{$2=$2==&quot;Jul&quot;?&quot;07&quot;:$2;$2=$2==&quot;Aug&quot;?&quot;08&quot;:$2;print}' |
@@ -80,14 +80,14 @@ ueda\@tencore:~/tmp/danger$ zcat access.log.shellshock.gz | awk '{print $4,$0}' 
  sed 's/^\\[//' | awk '{gsub(/[\\/:]/,&quot; &quot;,$1);print}' |
  sed -e 's/Sep/09/' -e 's/Oct/10/' -e 's/Nov/11/' -e 's/Dec/12/' |
  sed 's;^\\(..\\) \\(..\\) \\(....\\) \\(..\\) \\(..\\) \\(..\\);\\3\\2\\1 \\4\\5\\6;' &gt; danger_log
-[/bash]
+```
 
 ちゃんと変換できているか確認する方法は、例えば次の通り。
 
-[bash]
+```bash
 ueda\@tencore:~/tmp/nasa$ awk '{print $1}' access_log | uniq | sort -u | less
 ueda\@tencore:~/tmp/nasa$ awk '{print $2}' access_log | grep -vE '^[0-9]{6}$'
-[/bash]
+```
 
 
 <h2>準備2</h2>
@@ -98,9 +98,9 @@ NASAのログを各日付のファイルに分けておきましょう。ログ�
 
 やり方を知っていれば簡単ですね。
 
-[bash]
+```bash
 ueda\@tencore:~/tmp/nasa$ cat access_log | awk '{print $0 &gt; $1}' 
-[/bash]
+```
 
 
 <h2>Q1</h2>
@@ -111,7 +111,7 @@ NASAのログについて、ステータスコードを抽出して、どのコ�
 
 NASAのログについては、後ろからフィールドを数える方法を使うことに気づけば簡単です。
 
-[bash]
+```bash
 ueda\@tencore:~/tmp/nasa$ awk '{print $(NF-1)}' access_log |
  LANG=C sort | uniq 
 c-3100522 200
@@ -122,7 +122,7 @@ c-3100522 200
  20901 404
  65 500
  41 501
-[/bash]
+```
 
 
 <h2>Q2</h2>
@@ -133,7 +133,7 @@ NASAのログについて、ファイルを開かずに、ログの多い日を�
 
 lsを使ってサイズを見たら開かないでも見当がつきます。
 
-[bash]
+```bash
 ueda\@tencore:~/tmp/nasa$ ls -l 1* | sort -k5,5n | tail 
 -rw-rw-r-- 1 ueda ueda 9897387 4月 17 15:12 19950830
 -rw-rw-r-- 1 ueda ueda 9946946 4月 17 15:12 19950711
@@ -145,7 +145,7 @@ ueda\@tencore:~/tmp/nasa$ ls -l 1* | sort -k5,5n | tail
 -rw-rw-r-- 1 ueda ueda 11777820 4月 17 15:12 19950705
 -rw-rw-r-- 1 ueda ueda 12583986 4月 17 15:12 19950706
 -rw-rw-r-- 1 ueda ueda 16557952 4月 17 15:12 19950713
-[/bash]
+```
 
 
 <h2>Q3</h2>
@@ -158,7 +158,7 @@ Q3-2については高速な方法を考えてみてください。
 
 （Q3-1）次のように木曜日。
 
-[bash]
+```bash
 ueda\@tencore:~/tmp/nasa$ awk '{print $1}' access_log | date -f - &quot;+%w&quot; |
  LANG=C sort | uniq -c | sort -k1,1n
  317276 0
@@ -168,11 +168,11 @@ ueda\@tencore:~/tmp/nasa$ awk '{print $1}' access_log | date -f - &quot;+%w&quot
  556590 2
  574547 3
  667737 4
-[/bash]
+```
 
 （Q3-2）時間をどう切り出すかが鍵です。
 
-[bash]
+```bash
 ueda\@tencore:~/tmp/nasa$ awk '{print substr($2,1,2)}' access_log |
  sort | uniq -c | sort -k1,1nr | head
  230665 15
@@ -217,7 +217,7 @@ ueda\@tencore:~/tmp/nasa$ LANG=C time awk '{a[substr($2,1,2)]++}END{for(v in a){
 09 178664
 17 178443
 08 149193
-[/bash]
+```
 
 <h2>Q4</h2>
 
@@ -225,11 +225,11 @@ ShellShockログ内にあるIPアドレス（IPv4）がすべて192.168.から�
 
 <h2>解答</h2>
 
-[bash]
+```bash
 ueda\@remote:~$ zcat access.log.shellshock.gz | grep -Eo '([0-9]+\\.){3}[0-9]+' |
  awk -F. '{print $1,$2}' | uniq
 192 168
-[/bash]
+```
 
 <h2>Q5</h2>
 
@@ -237,7 +237,7 @@ ShellShockログについて、レスポンスのデータ送信量が大きい�
 
 <h2>解答</h2>
 
-[bash]
+```bash
 ueda\@tencore:~/tmp/danger$ zcat access.log.shellshock.gz |
  sed 's/^\\([0-9]\\+\\.[0-9]\\+\\.[0-9]\\+\\.[0-9]\\+\\) .*&quot; [0-9][0-9][0-9] \\([0-9]\\+\\) &quot;.*$/\\1 \\2/' |
  sort -k2,2nr | head
@@ -251,7 +251,7 @@ ueda\@tencore:~/tmp/danger$ zcat access.log.shellshock.gz |
 192.168.151.207 234
 192.168.151.207 234
 192.168.193.42 234
-[/bash]
+```
 
 <h2>Q6</h2>
 
@@ -260,7 +260,7 @@ NASAのログについて、7月8月のうち、ゼロ件の日を列挙して�
 
 <h2>解答</h2>
 
-[bash]
+```bash
 ###ログの存在しない日（解法1: ツーライナーで）###
 ueda\@tencore:~/tmp/nasa$ seq -w 01 31 | awk '{print &quot;199507&quot; $1;print &quot;199508&quot; $1}' | sort &gt; days
 ueda\@tencore:~/tmp/nasa$ awk '{print $1}' access_log | LANG=C sort -u | cat - days |
@@ -283,7 +283,7 @@ ueda\@tencore:~/tmp/nasa$ awk '{print $1}' access_log | LANG=C sort -u |
 19950730
 19950731
 19950802
-[/bash]
+```
 
 
 <h2>Q7</h2>
@@ -294,7 +294,7 @@ ShellShockのログから、（Q7-1）インジェクションが試みられた
 
 とりあえずこれで読みやすくなりますね。
 
-[bash]
+```bash
 ###Q7-1 コードを抽出###
 ueda\@tencore:~/tmp/danger$ cat danger_log | sed 's/^.*()/()/'
 ###Q7-2 コードの掃除###
@@ -313,7 +313,7 @@ Content-Type: text/plain
 
 XSUCCESS!
 （wgetが失敗するのでCtrl+cで出る。）
-[/bash]
+```
 
 
 

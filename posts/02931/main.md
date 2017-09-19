@@ -18,7 +18,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 この中にシェルスクリプトの「wordsed」というのがあるので、これを使います。動作はMacで確認しています。せっかくなのでコードも晒しておきましょう。標準出力にcdやらzipやらが字を吐くので抑えるのが大変でした・・・。
 
-[bash]
+```bash
 #!/bin/bash 
 
 # wordsed: a string replacement tool for docx
@@ -64,7 +64,7 @@ cd - &gt;&amp;2 &amp;&amp; rm -Rf &quot;$tmp&quot;
 #LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 #THE SOFTWARE.
-[/bash]
+```
 
 使ってみます。下のワードファイルの\@\@\@を名前に変換します。
 
@@ -72,9 +72,9 @@ cd - &gt;&amp;2 &amp;&amp; rm -Rf &quot;$tmp&quot;
 
 コマンド実行！！！
 
-[bash]
+```bash
 uedambp:ShellOfficeTools ueda$ ./wordsed \@\@\@ 山田 ~/letter.docx &gt; out.docx
-[/bash]
+```
 
 out.docxを開いてみます。
 

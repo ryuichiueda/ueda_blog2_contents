@@ -20,9 +20,9 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 クローンは以下のようにお願いします。
 
-[bash]
+```bash
 $ git clone https://github.com/ryuichiueda/ShellGeiData.git
-[/bash]
+```
 
 <h2>環境</h2>
 今回はLinuxで解答例を作りましたので、BSD系、Macな方は以下の表をご参考に・・・。
@@ -60,7 +60,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 <a href="https://github.com/ryuichiueda/ShellGeiData/tree/master/vol.20/Q1" target="_blank">リポジトリ内のvol.20/Q1ディレクトリ</a>には次のように数字が書いてあるファイルが4つ入っています。
 
-[bash]
+```bash
 $ ls 
 file_A-1 file_A-2 file_B-1 file_B-2
 $ head -n 2 *
@@ -79,7 +79,7 @@ $ head -n 2 *
 ==&gt; file_B-2 &lt;==
 912
 3
-[/bash]
+```
 
 file_A-*のグループ、file_B-*のグループからそれぞれ最大の数を探してください。他にfile_C-*、file_D-*、・・・とグループがたくさんあると想定して、1回のワンライナーで両方探すこととします。
 
@@ -93,7 +93,7 @@ file_A-*のグループ、file_B-*のグループからそれぞれ最大の数�
 
 次のファイルについて、奇数を1列目、偶数を2列目に振り分けて、奇数の列を昇順、偶数の列を降順にソートしてください。
 
-[bash]
+```bash
 $ cat Q3
 1
 4
@@ -101,15 +101,15 @@ $ cat Q3
 9
 5
 8
-[/bash]
+```
 
 つまりこうしてください。
 
-[bash]
+```bash
 1 8
 5 4
 9 2
-[/bash]
+```
 
 <h2>Q4</h2>
 
@@ -124,21 +124,21 @@ $ cat Q3
 
 ファイルQ6の中の人の名前について、誰が1列目と2列目の何番めに記述されているかを提示してください。
 
-[bash]
+```bash
 ###スペースは全角###
 $ cat Q6
 山田　上田　吉田　武田
 吉田　武田　上田　山田
-[/bash]
+```
 
 解答例は次のようなものです。
 
-[bash]
+```bash
 吉田 3 1
 山田 1 4
 上田 2 3
 武田 4 2
-[/bash]
+```
 
 <h2>Q7</h2>
 
@@ -149,7 +149,7 @@ $ cat Q6
 次の漢数字をアラビア数字に変換しましょう。
 
 
-[bash]
+```bash
 $ cat Q8 
 五千七百三十五
 四千三
@@ -157,7 +157,7 @@ $ cat Q8
 九万六千二百三十三
 十一
 百十二
-[/bash]
+```
 
 <h2>宣伝</h2>
 

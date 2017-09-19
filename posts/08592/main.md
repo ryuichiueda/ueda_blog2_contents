@@ -23,9 +23,9 @@ GitHubにあります。ファイルは
 
 クローンは以下のようにお願いします。
 
-[bash]
+```bash
 $ git clone https://github.com/ryuichiueda/ShellGeiData.git
-[/bash]
+```
 
 <h2>環境</h2>
 
@@ -33,31 +33,31 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 <h2>Q1</h2>
 
-[bash]
+```bash
 $ cat Q1
 玉子 卵 玉子 玉子 玉子 玉子
 玉子 玉子 卵 卵 卵 玉子
 卵 玉子 卵 玉子 玉子 玉子
 卵 玉子 卵 卵 卵 卵
 玉子 卵 玉子
-[/bash]
+```
 
 上のようなQ1ファイルについて、次のような出力を得てください。
 
 
-[bash]
+```bash
 玉子:5 卵:1 
 玉子:3 卵:3 
 玉子:4 卵:2 
 玉子:1 卵:5 
 玉子:2 卵:1 
-[/bash]
+```
 
 <h3>解答</h3>
 
 AWKの力技になります。力技でない方法を募集。
 
-[bash]
+```bash
 $ cat Q1 |
  awk '{for(i=1;i&lt;=NF;i++){a[$i]++};for(k in a){printf(&quot;%s:%d &quot;,k,a[k]);a[k]=0}print &quot;&quot;}'
 玉子:5 卵:1 
@@ -65,24 +65,24 @@ $ cat Q1 |
 玉子:4 卵:2 
 玉子:1 卵:5 
 玉子:2 卵:1 
-[/bash]
+```
 
 
 <h2>Q2</h2>
 
 次のようなテキストについて、繰り返し出てきた文字の2つ目以降を省いて出力してください。例えばQ2のファイル
 
-[bash]
+```bash
 $ cat Q2
 へのへのもへじ
-[/bash]
+```
 
 の場合、「へのもじ」が正解の出力になります。
 
 
 <h3>解答</h3>
 
-[bash]
+```bash
 $ cat Q2 | grep -o . | nl | sort -k2,2 -k1,1n |
  uniq -f 1 | sort | awk '{printf $2}' | xargs
 へのもじ
@@ -90,23 +90,23 @@ $ cat Q2 | grep -o . | awk '{if(!a[$1]){printf $1};a[$1]=1}END{print &quot;&quot
 へのもじ
 $ &lt; Q2 grep -o . | awk '{if(!a[$1]){printf $1};a[$1]=1}' | xargs
 へのもじ
-[/bash]
+```
 
 
 <h2>Q3</h2>
 
-[bash]
+```bash
 $ cat Q3
 金 日成
 キム ワイプ
 金 正日
 キム タオル
 金 正男
-[/bash]
+```
 
 というデータを、
 
-[bash]
+```bash
 %%
 キム タオル
 キム ワイプ
@@ -115,13 +115,13 @@ $ cat Q3
 金 正日
 金 日成
 %%
-[/bash]
+```
 
 というように第一フィールドをキーにして%%でレコードを区切ってください。awkを使ってできた人は、awkを使わないでやってみてください。
 
 <h3>解答</h3>
 
-[bash]
+```bash
 $ sort Q3 | awk '{if($1!=a){print &quot;%%&quot;;print;a=$1}else{print}}END{print &quot;%%&quot;}'
 %%
 キム タオル
@@ -140,7 +140,7 @@ $ sort Q2 | rev | uniq --group=both -f 1 | rev | sed 's/^$/%%/'
 金 正日
 金 日成
 %%
-[/bash]
+```
 
 <h2>Q4</h2>
 
@@ -150,18 +150,18 @@ Q4.xlsxのA1のセルには数字が書いてあります。その数字を出�
 
 A1のセル（数字の読み方）
 
-[bash]
+```bash
 $ unzip -p Q4.xlsx xl/worksheets/sheet1.xml | sed 's;&lt;/c&gt;;&amp;\\n;g' |
  grep -o '&lt;c.*&lt;/c&gt;' | grep A1 | sed 's;.*&lt;v&gt;;;' | sed 's;&lt;.*;;'
 114514
 $ unzip -p Q4.xlsx xl/worksheets/sheet1.xml | hxselect -s '\\n' c |
  grep A1 | hxselect -c v
 114514
-[/bash]
+```
 
 A2の文字列の読み方。シートには文字列のIDが書いてあるのでこれで文字列のシートを読んで特定。
 
-[bash]
+```bash
 ###これで6番目（0番から始まるので7番目）の文字列とわかる###
 $ unzip -p Q4.xlsx xl/worksheets/sheet1.xml |
  hxselect -s '\\n' c | grep A4
@@ -170,24 +170,24 @@ $ unzip -p Q4.xlsx xl/worksheets/sheet1.xml |
 $ unzip -p Q4.xlsx xl/sharedStrings.xml |
  hxselect -s '\\n' si | awk 'NR==7'
 &lt;si&gt;&lt;t&gt;エクシェル芸&lt;/t&gt;&lt;rPh sb=&quot;5&quot; eb=&quot;6&quot;&gt;&lt;t&gt;ゲ&lt;/t&gt;&lt;/rPh&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
-[/bash]
+```
 
 <h2>Q5</h2>
 
 ファイルQ5について、xに好きな数を代入して各行の式を計算してください。
 
-[bash]
+```bash
 $ cat Q5
 x + x^2
 x + 1/x
 x*x*x
-[/bash]
+```
 
 余裕のある人は、例えばxに2を代入したければ、
 
-[bash]
+```bash
 $ echo 2 | ...
-[/bash]
+```
 
 というようにecho <代入したい数>から始めてワンライナーで解いてみてください。
 
@@ -195,54 +195,54 @@ $ echo 2 | ...
 
 例えばこれで解けます。(-2)のカッコはQ5ファイルでは不要なようです。
 
-[bash]
+```bash
 $ sed 's/x/(-2)/g' Q5 | bc -l
 2
 -2.50000000000000000000
 -8
-[/bash]
+```
 
 echo <数字>からスタートすると、ややこしくなります。
 
-[bash]
+```bash
 $ echo -2 | xargs -I\@ awk -v a=\@ '{gsub(/x/,a,$0);print}' Q5 | bc -l
 2
 -2.50000000000000000000
 -8
-[/bash]
+```
 
 
 <h2>Q6</h2>
 
 「玉子」と「卵」の数を数えて、数が少ない方を数が大きい方で置換してください。
 
-[bash]
+```bash
 $ cat Q6 
 卵卵玉子玉子玉子玉子玉子卵卵卵玉子玉子卵玉子玉子玉子玉子卵卵玉子卵玉子卵卵玉子卵玉子
-[/bash]
+```
 
 <h3>解答</h3>
 
 力技です。
 
-[bash]
+```bash
 $ cat Q6 | grep -oE '(玉子|卵)' | sort | uniq -c |
  sort -n -k1,1n | awk '{print $2}' | xargs |
  awk '{print &quot;s/&quot;$1&quot;/&quot;$2&quot;/g&quot;}' | xargs -I\@ sed \@ Q6
 玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子
-[/bash]
+```
 
 <h2>Q7</h2>
 
 次のseq（あるいはjot等）の出力から、各桁の数字の構成が同じもの（例: 11122と22111等）を重複とみなし、除去してください。
 
-[bash]
+```bash
 $ seq -w 00000 99999
-[/bash]
+```
 
 <h3>解答</h3>
 
-[bash]
+```bash
 ###asortを使う場合###
 $ seq -w 00000 99999 | sed 's/./&amp; /g' |
  awk '{for(i=1;i&lt;=NF;i++)a[i]=$i;asort(a);for(k in a){printf a[k]}print &quot;&quot;}' |
@@ -250,7 +250,7 @@ $ seq -w 00000 99999 | sed 's/./&amp; /g' |
 ###ちょっと気の利いた方法（数字が小さい順に並んでいるものだけ残す）###
 $ seq -w 00000 99999 | sed 's/./&amp; /g' |
  awk '$1&lt;=$2&amp;&amp;$2&lt;=$3&amp;&amp;$3&lt;=$4&amp;&amp;$4&lt;=$5' | tr -d ' ' 
-[/bash]
+```
 
 
 <h2>Q8</h2>
@@ -269,14 +269,14 @@ abcd + efg
 
 1は力技になります。
 
-[bash]
+```bash
 $ seq -w 0000000 9999999 | grep -v [089] |
  grep 1 | grep 2 | grep 3 | grep 4 | grep 5 | grep 6 | grep 7 &gt; tmp
-[/bash]
+```
 
 2は、うまくwhileとfactorを使って求めます。
 
-[bash]
+```bash
 $ cat tmp | sed 's/./&amp; /g' | awk '{print $1$2$3$4$5$6$7,$1*$2*$3*$4+$5*$6*$7}' | while read a b ; do echo $b | factor | awk -v n=$a 'NF==2{gsub(/./,&quot;&amp; &quot;,n);print n,$2}' ; done 
 2 3 4 6 1 5 7 179
 2 3 4 6 1 7 5 179
@@ -288,4 +288,4 @@ $ cat tmp | sed 's/./&amp; /g' | awk '{print $1$2$3$4$5$6$7,$1*$2*$3*$4+$5*$6*$7
 2 3 6 4 1 7 5 179
 2 3 6 4 5 1 7 179
 ...
-[/bash]
+```

@@ -10,20 +10,20 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <h2>Q1（データのフリップ）</h2>
 
-[bash]
+```bash
 uedamac:tmp ueda$ cat q1.hs
 main = getContents &gt;&gt;= putStrLn. unwords . f . words
 f [] = []
 f (a:b:c) = [b,a] ++ f c
 uedamac:tmp ueda$ echo {1..10} | ./q1
 2 1 4 3 6 5 8 7 10 9
-[/bash]
+```
 
 <!--more-->
 
 <h2>Q2（文字列の個数カウント）</h2>
 
-[bash]
+```bash
 uedamac:tmp ueda$ cat q2.hs
 main = getContents &gt;&gt;= print . g. (Count 0 0 0 0)
 data Count = Count Int Int Int Int String deriving Show
@@ -35,11 +35,11 @@ g (Count a b c d ('U':'P':'S':str)) = g (Count a b c (d+1) str)
 g (Count a b c d (_:str)) = g (Count a b c d str)
 uedamac:tmp ueda$ echo ユニゲージユニケージユニゲージUSP友の会USP友の会UPS友の会UPS友の会 | ./q2
 Count 1 2 2 2 &quot;&quot;
-[/bash]
+```
 
 <h2>Q3（一致するファイルの検出）</h2>
 
-[bash]
+```bash
 uedamac:tmp ueda$ cat q3.hs
 main = do a &lt;- readFile &quot;file1&quot;
  b &lt;- readFile &quot;file2&quot;
@@ -57,12 +57,12 @@ file1 file3
 
 
 
-[/bash]
+```
 
 
 <h2>Q4（変則ソート）</h2>
 
-[bash]
+```bash
 uedamac:tmp ueda$ cat q4.hs
 main = getContents &gt;&gt;= print . f. map (\\x -&gt; read x :: Int) . words
 
@@ -71,11 +71,11 @@ f ns = odd ++ eve
  eve = filter (\\x -&gt; x `mod` 2 == 1) ns
 uedamac:tmp ueda$ echo 3 8 2 10 1 8 9 | ./q4
 [8,2,10,8,3,1,9]
-[/bash]
+```
 
 <h2>Q5（ランレングス圧縮の一種）</h2>
 
-[bash]
+```bash
 uedamac:tmp ueda$ cat q5.hs 
 main = getContents &gt;&gt;= putStrLn . unwords . f . filter (\\x -&gt; x == '0' || x == '1')
 f (a:ss) = f' (a:ss) a
@@ -87,11 +87,11 @@ f' str a = (a:lng) : f' (dropWhile (== a) str) c
 
 uedamac:tmp ueda$ echo 000001111111111001010 | ./q5 
 05 110 02 1 0 1 0
-[/bash]
+```
 
 <h2>Q6（連続した数字の省略）</h2>
 
-[bash]
+```bash
 uedamac:tmp ueda$ cat q6.hs
 import Data.List.Split
 main = getContents &gt;&gt;= putStrLn . unwords . g . splitWhen (== -1). f . map (\\x -&gt; read x :: Int) . words
@@ -107,11 +107,11 @@ h as = if a == b then a else a ++ &quot;-&quot; ++ b
  b = show $ last as
 uedamac:tmp ueda$ echo 1 2 3 5 6 8 10 11 12 15 | ./q6
 1-3 5-6 8 10-12 15
-[/bash]
+```
 
 <h2>Q7（パスワード破り）</h2>
 
-[bash]
+```bash
 uedamac:tmp ueda$ cat q7.hs
 import Data.Digest.Pure.MD5
 import qualified Data.ByteString.Lazy.Char8 as B
@@ -129,12 +129,12 @@ f (n:ns)
  | otherwise = (n,(md5 $ B.pack (show n))) : f ns
 uedamac:tmp ueda$ ./q7 
 456
-[/bash]
+```
 
 <h2>Q8（しりとり）</h2>
 
 sort -R はインチキっぽいが、ソートしなくても一応できるので・・・
-[bash]
+```bash
 uedamac:tmp ueda$ cat q8.hs
 main = getContents &gt;&gt;= putStrLn . unlines . f. f. f . lines 
 
@@ -145,6 +145,6 @@ f (a:b:lns)
  | otherwise = f lns
 uedamac:tmp ueda$ gsort -R /usr/share/dict/words | ./q8
 rhombogenic-&gt;cattiness-&gt;sarkar-&gt;rhamnaceous-&gt;swishing-&gt;geneticism-&gt;ministryship-&gt;pleonastical
-[/bash]
+```
 
 <strong style="color:red;font-size:24pt">できた〜〜〜〜！！！</strong>けどやっぱりシェルワンライナーの方が気楽だ・・・

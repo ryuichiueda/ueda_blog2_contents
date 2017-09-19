@@ -41,16 +41,16 @@ Macで解答を作ったのでLinuxな方は次のようにコマンドの読み
 
 まず、次のようにファイルを作ってください。
 
-[bash]
+```bash
 $ touch apple avocado banana cinnamon melon
 $ ls
 apple avocado banana cinnamon melon
-[/bash]
+```
 
 「a,b,c,m」というディレクトリを作って、1文字目が対応するファイルをそれぞれのディレクトリに移動してください。
 
 
-[bash]
+```bash
 ###こうなったらOK###
 $ ls *
 a:
@@ -64,10 +64,10 @@ cinnamon
  
 m:
 melon
-[/bash]
+```
 
 <h3>解答</h3>
-[bash]
+```bash
 $ ls | while read f ; do mkdir -p &quot;${f:0:1}&quot; ;
  mv $f &quot;${f:0:1}&quot; ; done
 uedambp:20140214USPSTUDY ueda$ ls *
@@ -86,43 +86,43 @@ melon
 uedambp:20140214USPSTUDY ueda$ ls |
  awk '{print substr($1,1,1),$1}' |
  awk '{print &quot;mkdir -p&quot;,$1, &quot;;mv&quot;,$2,$1}' | sh
-[/bash]
+```
 
 <h2>第2問</h2>
 
 まず、次のように名前にスペースが入ったファイルを作ります。
 
-[bash]
+```bash
 $ touch &quot;私は 蟹&quot; &quot;オシャレな 蟹&quot; &quot;足が 10本&quot;
 $ ls -l
 total 0
 -rw-r--r-- 1 ueda staff 0 2 14 11:22 私は 蟹
 -rw-r--r-- 1 ueda staff 0 2 14 11:22 足が 10本
 -rw-r--r-- 1 ueda staff 0 2 14 11:22 オシャレな 蟹
-[/bash]
+```
 
 このままでは何かと扱いづらいので、間にアンダーバーを入れて次のように名前を変更してください。
 
-[bash]
+```bash
 $ ls -l
 total 0
 -rw-r--r-- 1 ueda staff 0 2 14 11:25 私は_蟹
 -rw-r--r-- 1 ueda staff 0 2 14 11:25 足が_10本
 -rw-r--r-- 1 ueda staff 0 2 14 11:25 オシャレな_蟹
-[/bash]
+```
 
 <h2>解答</h2>
 
 エスケープを正しく理解しているかがミソ。
 
-[bash]
+```bash
 $ ls | while read f ;
  do mv &quot;$f&quot; &quot;$(echo $f | sed 's/ /_/g')&quot; ; done
 ###別解###
 $ ls |
  awk '{f=&quot;\\&quot;&quot; $0 &quot;\\&quot;&quot;;t=gensub(/ /,&quot;_&quot;,$0);print &quot;mv&quot;,f,t}' |
  sh
-[/bash]
+```
 
 <h2>第3問</h2>
 
@@ -130,7 +130,7 @@ $ ls |
 
 （ワンライナーが思いつかない場合は、とりあえず手作業でやってみてください。）
 
-[bash]
+```bash
 ###こんな感じでどうぞ###
 uedambp:20140214USPSTUDY ueda$ ls -l | head
 total 1460
@@ -145,11 +145,11 @@ total 1460
 -rw-r--r-- 1 ueda staff 28 2 14 10:23 20140109
 uedambp:20140214USPSTUDY ueda$ cat 20140101
 水 1 1 00:00:00 JST 2014
-[/bash]
+```
 
 <h3>解答</h3>
 
-[bash]
+```bash
 uedambp:20140214USPSTUDY ueda$ d=20140101 ;
  while [ $d -lt 20150101 ] ;
  do echo $d; d=$(gdate -d &quot;$d 1 day&quot; +%Y%m%d) ; done |
@@ -158,14 +158,14 @@ uedambp:20140214USPSTUDY ueda$ d=20140101 ;
 uedambp:20140214USPSTUDY ueda$ for d
  in $(mdate -e 20140101 20141231) ;
  do gdate -d $d &gt; $d ; done 
-[/bash]
+```
 
 
 <h2>第4問</h2>
 
 次のように4個ファイルを作って、a_ramenとa_curry、b_appleとb_tomatoのファイルの中身を入れ替えてください。
 
-[bash]
+```bash
 $ echo カレー &gt; a_ramen
 $ echo ラーメン &gt; a_curry
 $ echo トマト &gt; b_apple
@@ -176,11 +176,11 @@ a_curry:ラーメン
 a_ramen:カレー
 b_apple:トマト
 b_tomato:リンゴ
-[/bash]
+```
 
 <h3>解答</h3>
 
-[bash]
+```bash
 $ grep &quot;&quot; * | tr ':' ' ' | xargs -n 4 |
  awk '{print $1,$4,$3,$2}' |
  xargs -n 2 | awk '{print &quot;echo&quot;,$2,&quot;&gt;&quot;,$1}' | sh
@@ -199,32 +199,32 @@ a_ramen:ラーメン
 b_apple:リンゴ
 b_tomato:トマト
 tmp:トマト
-[/bash]
+```
 
 <h2>第5問</h2>
 
 各月ごとにtar.gzファイルにしてください。
 
-[bash]
+```bash
 ###こんな感じで###
 uedambp:20140214USPSTUDY ueda$ ls *.tar.gz
 201401.tar.gz 201404.tar.gz 201407.tar.gz 201410.tar.gz
 201402.tar.gz 201405.tar.gz 201408.tar.gz 201411.tar.gz
 201403.tar.gz 201406.tar.gz 201409.tar.gz 201412.tar.gz
-[/bash]
+```
 
 <h3>解答</h3>
 
-[bash]
+```bash
 uedambp:20140214USPSTUDY ueda$ seq 201401 201412 |
  while read m ; do tar zcvf $m.tar.gz $m* ; done
-[/bash]
+```
 
 <h2>第6問</h2>
 
 次のようなディレクトリ・ファイル操作を行って下さい。
 
-[bash]
+```bash
 ###小問1: ディレクトリを作る###
  ~/a/a/a/.../a/a/ （aが百個）
 ###小問2: ファイルを作る###
@@ -235,11 +235,11 @@ uedambp:a ueda$ pwd
 /a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a
 /a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a
 /a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a
-[/bash]
+```
 
 <h3>解答</h3>
 
-[bash]
+```bash
 ###小問1### 
 uedambp:~ ueda$ seq 1 100 | awk '{print &quot;a&quot;}' | tr '\\n' '/' |
  xargs mkdir -p
@@ -261,14 +261,14 @@ uedambp:a ueda$ pwd
 ###参考: サブシェルを起動すると移動できない###
 uedambp:~ ueda$ seq 1 100 | while read n ; do cd a ; done
 uedambp:~ ueda$ 
-[/bash]
+```
 
 <h2>第7問</h2>
 
 先ほど作ったファイルbを、50番目のaディレクトリに移動して下さい。
 
 ↓うまくできたかどうかの確認方法
-[bash]
+```bash
 ###~から50番目のaに移動###
 uedambp:~ ueda$ for a in {1..50} ; do cd a ; done
 ###bがあるか確認###
@@ -289,14 +289,14 @@ uedambp:a ueda$ pwd
 ###なにもない###
 uedambp:a ueda$ ls
 uedambp:a ueda$ 
-[/bash]
+```
 
 <h3>解問</h3>
-[bash]
+```bash
 uedambp:~ ueda$ seq 1 150 | xargs | gsed 's/100 /100\\n/g' |
  sed 's/[0-9][0-9]*/a/g' | tr ' ' '/' |
  awk 'BEGIN{print &quot;mv&quot;}{print $0 &quot;/b&quot;}' | xargs | sh
-[/bash]
+```
 
 <h2>第8問</h2>
 
@@ -304,11 +304,11 @@ uedambp:~ ueda$ seq 1 150 | xargs | gsed 's/100 /100\\n/g' |
 
 <h3>解答</h3>
 
-[bash]
+```bash
 uedambp:~ ueda$ seq 1 100 |
  awk '{for(i=0;i&lt;$1;i++){printf &quot;a/&quot;};print &quot;&quot;}' | tail -r |
  while read d ; do rm -f $d/b ; rmdir $d ; done
 uedambp:~ ueda$ ls a
 gls: cannot access a: No such file or directory
-[/bash]
+```
 <!--:-->

@@ -14,7 +14,7 @@ dashのmain.hとmain.cに自分のツッコミコメントを入れたもの。g
 
 <h2>main.h</h2>
 
-[c]
+```c
 /*-
  * Copyright (c) 1991, 1993
  *	The Regents of the University of California. All rights reserved.
@@ -90,11 +90,11 @@ int dotcmd(int, char **);
 int exitcmd(int, char **);
 /* ↑内部コマンドに相当する関数には必ず末尾にcmdとついています。
 ただ、ちょっと例外がありそうな予感・・・。 */
-[/c]
+```
 
 
 <h2>main.c</h2>
-[c]
+```c
 /*-
  * Copyright (c) 1991, 1993
  *	The Regents of the University of California. All rights reserved.
@@ -546,4 +546,4 @@ exitcmd(int argc, char **argv)
 	/* NOTREACHED */
 }
 
-[/c]
+```

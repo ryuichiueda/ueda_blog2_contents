@@ -13,17 +13,17 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 まず、MacからDropBoxにLaTeX原稿一式を置きます。<span style="color:red">もう、研究者仲間には何を書いているのかバレバレですね。</span>
 
-[bash]
+```bash
 uedambp:Dropbox ueda$ ls -d H27_KAKEN/
 H27_KAKEN/
 uedambp:Dropbox ueda$ ls H27_KAKEN/*.tex
 H27_KAKEN/blahblah.tex H27_KAKEN/kiban_c_08_past_funds.tex
 ...
-[/bash]
+```
 
 このディレクトリの中にMakefileを準備します。ポイントは、platexのオプションに-halt-on-errorを書いておく事です。これが無いとエラーがあったらiPhone側からはどうする事もできません。
 
-[bash]
+```bash
 uedambp:Dropbox ueda$ cat H27_KAKEN/Makefile 
 h27_kiban_c.pdf: h27_kiban_c.dvi
 	dvipdfmx h27_kiban_c.dvi
@@ -35,16 +35,16 @@ h27_kiban_c.dvi: *.tex
 clean:
 
 	rm -f *.dvi *.aux
-[/bash]
+```
 
 ここでシェル芸。5秒に一回makeします。
 
-[bash]
+```bash
 uedambp:Dropbox ueda$ cd H27_KAKEN/
 uedambp:H27_KAKEN ueda$ while sleep 5 ; do make ;done
 make: `h27_kiban_c.pdf' is up to date.
 make: `h27_kiban_c.pdf' is up to date.
-[/bash]
+```
 
 あとは、<a href="https://itunes.apple.com/jp/app/plaintext-2/id769101727?mt=8" target="_blank">PlainText 2</a>か何かでtexファイルを編集します。pdfはiPhoneのDropBoxで確認すればよいでしょう。あ、iPhone側にもDropBoxが必要ですね。
 

@@ -49,14 +49,14 @@ Linuxで解答を作ったのでMacな方は次のようにコマンドの読み
 
 次の数字の列を足し算してください。（できる人はなるべく変態的に）
 
-[bash]
+```bash
 $ echo 2 5 9 8 1 3 7 4
 2 5 9 8 1 3 7 4
-[/bash]
+```
 
 <h2>A1</h2>
 
-[bash]
+```bash
 $ echo 2 5 9 8 1 3 7 4 | tr ' ' '+' | bc
 39
 $ echo 2 5 9 8 1 3 7 4 | awk '{for(i=1;i&lt;=NF;i++){a+=$i}}END{print a}'
@@ -66,13 +66,13 @@ $ echo 2 5 9 8 1 3 7 4 | tr ' ' '\\n' | awk '{a+=$1}END{print a}'
 ###Tukubai###
 $ echo 2 5 9 8 1 3 7 4 | ysum
 2 5 9 8 1 3 7 4 39
-[/bash]
+```
 
 <h2>Q2</h2>
 
 スペースと数字と改行を使って次のようなファイルを作り、書いた数を足し算してください。
 
-[bash]
+```bash
 $ cat nums 
  1
 
@@ -81,37 +81,37 @@ $ cat nums
  6 7
 
 8 9
-[/bash]
+```
 
 <h2>A2</h2>
 
-[bash]
+```bash
 $ cat nums | tr ' ' '\\n' | awk 'NF==1' | awk '{a+=$1}END{print a}'
 45
 ueda\@remote:~$ cat nums | xargs | tr ' ' '+' | bc
 45
 ueda\@remote:~$ cat nums | xargs | ysum
 1 2 3 4 5 6 7 8 9 45
-[/bash]
+```
 
 
 <h2>Q3</h2>
 
 文字数を数えてください。改行記号は数えないでください。
 
-[bash]
+```bash
 ueda\@remote:~$ cat genkou
 筆者は朝、目玉焼きを食べた。
 昼、著者は卵がけごはんを食べた。
 そして夜、著者はマンハッタンの夜景を
 見ながらゆで玉子を食べた。
-[/bash]
+```
 
 <h2>A3</h2>
 
 （注意：ロケールで出力が違うことがあります。）
 
-[bash]
+```bash
 ###これはNG###
 ueda\@remote:~$ wc -m genkou
 65 genkou
@@ -121,20 +121,20 @@ ueda\@remote:~$ sed 's/./&amp;\\n/g' genkou | awk 'NF==1' | wc -l
 61
 ueda\@remote:~$ cat genkou | awk '{a+=length($1)}END{print a}'
 61
-[/bash]
+```
 
 <h2>Q4</h2>
 
 次のようなファイルを作り、ファイルの中に三個存在する文字を出力してください。
 
-[bash]
+```bash
 ueda\@remote:~$ cat hoge
 aabbcdabbcccdd
-[/bash]
+```
 
 <h2>A4</h2>
 
-[bash]
+```bash
 ueda\@remote:~$ cat hoge | sed 's/./&amp;\\n/g' | awk 'NF==1' |
  sort | uniq -c | awk '$1==3{print $2}'
 a
@@ -148,14 +148,14 @@ ueda\@remote:~$ cat hoge | sed 's/./&amp; /g' |
  awk '$2==3{print $1}'
 a
 d
-[/bash]
+```
 
 
 <h2>Q5</h2>
 
 次のようなファイル、ディレクトリを作ってください。そして、file1, file2, file3をカレントディレクトリに移動してください。
 
-[bash]
+```bash
 $ mkdir -p a/b/c
 $ touch a/file1 a/b/file2 a/b/c/file3
 $ tree
@@ -168,11 +168,11 @@ $ tree
  └── file1
 
 3 directories, 3 files
-[/bash]
+```
 
 <h2>A5</h2>
 
-[bash]
+```bash
 $ find . -type f | while read f ; do mv $f ./ ; done
 $ tree
 .
@@ -186,24 +186,24 @@ $ tree
 3 directories, 3 files
 ###別解###
 $ find . -type f | xargs -I\@ mv \@ ./
-[/bash]
+```
 
 <h2>Q6</h2>
 
 次のようにファイルとディレクトリを作り、hogeと書いてあるファイルをディレクトリa、
 それ以外のファイルをディレクトリbに振り分けてください。
 
-[bash]
+```bash
 $ echo hoge &gt; file1
 $ echo huge &gt; file2
 $ echo hoge &gt; file3
 $ echo hoge &gt; file4
 $ mkdir a b
-[/bash]
+```
 
 <h2>A6</h2>
 
-[bash]
+```bash
 ###2ライナーで###
 $ ls file* | while read f ; do grep -q hoge $f &amp;&amp; mv $f ./a ; done
 $ ls file* | while read f ; do grep -qv hoge $f &amp;&amp; mv $f ./b ; done
@@ -221,21 +221,21 @@ $ tree
 
 2 directories, 4 files
 $ for f in file* ; do grep -q hoge $f &amp;&amp; mv $f ./a || mv $f ./b ; done
-[/bash]
+```
 
 <h2>Q7</h2>
 
 以下の9つのファイルについて、二つのファイルの組み合わせを全て列挙してください。ただし、重複してはいけません。
 
-[bash]
+```bash
 uedambp:~ ueda$ touch file{1..9}
 uedambp:~ ueda$ ls file{1..9}
 file1 file2 file3 file4 file5 file6 file7 file8 file9
-[/bash]
+```
 
 出力例
 
-[bash]
+```bash
 file1 file2
 file1 file3
 file1 file4
@@ -249,11 +249,11 @@ file2 file4
 file2 file5
 file2 file6
 ...
-[/bash]
+```
 
 <h2>A7</h2>
 
-[bash]
+```bash
 $ ls | while read f ; do echo $f file* ; done | awk '{for(i=2;i&lt;=NF;i++){print $1,$i}}' | sort | awk '$1&lt;$2'
 ###別解1###
 $ echo file{1..9} | awk '{for(i=1;i&lt;=9;i++){for(j=i+1;j&lt;=9;j++){{print $i,$j}}}}' 
@@ -262,7 +262,7 @@ ueda\@remote:~$ echo file{1..9} | awk '{for(i=1;i&lt;=9;i++){for(j=1;j&lt;=9;j++
 ###ツーライナーになるが・・・###
 ueda\@remote:~$ ls file{1..9} &gt; hoge
 ueda\@remote:~$ loopx hoge hoge | awk '$1&lt;$2'
-[/bash]
+```
 
 <h2>Q8</h2>
 
@@ -270,8 +270,8 @@ ueda\@remote:~$ loopx hoge hoge | awk '$1&lt;$2'
 
 <h2>A8</h2>
 
-[bash]
+```bash
 ueda\@remote:~$ cat /dev/urandom | tr -dc '0-9' | fold -b6 | sed 's/^0*//'
 ###Macだとgtrとgfoldを使わないとコケる###
 uedambp:~ ueda$ cat /dev/urandom | gtr -dc '0-9' | gfold -b6 | sed 's/^0*//'
-[/bash]<!--:-->
+```<!--:-->

@@ -12,7 +12,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 コードは汚いけど，便利なんです．
 
-[bash]
+```bash
 uedamac:COMMANDS.HS ueda$ ghc dayslash.hs 
 [1 of 1] Compiling Main ( dayslash.hs, dayslash.o )
 Linking dayslash ...
@@ -24,7 +24,7 @@ uedamac:COMMANDS.HS ueda$ echo &quot;10時12分14秒&quot; | ./dayslash -r &quot
 101214
 uedamac:COMMANDS.HS ueda$ echo 1970/12/20:12:34:50 | ./dayslash -r &quot;yyyy/mm/dd/HH/MM/SS&quot; 1
 19701220123450
-[/bash]
+```
 
 
 寝る！

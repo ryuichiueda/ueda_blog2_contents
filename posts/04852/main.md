@@ -9,9 +9,9 @@ Copyright: (C) 2017 Ryuichi Ueda
 追記: <a href="http://blog.ueda.asia/?p=4821" title="【解答】年末年始シェル芸問題集" target="_blank">解答はコチラ</a>
 
 解答はMacで作りました。ただし、Coreutilsが必要なので、
-[bash]
+```bash
 $ brew install coreutils
-[/bash]
+```
 をお願いします。Q1以外の解答は1/2頃に公開します（Q1は便利なので早めに公開しておきます）。解答はハッシュタグ「#シェル芸」でワイワイやっていただければと。
 
 良いお年を。
@@ -30,7 +30,7 @@ $ brew install coreutils
 
 注意: 時間がかかるかもしれません。とりあえずsortの前に一度ファイルに出した方がよいかもしれません。
 
-[bash]
+```bash
 ###出力で1列目の数が同じものが重複の疑いのあるものです###
 uedambp:~ ueda$ find ~/ -type f | grep -i '\\.jpg$' | sed 's/.*/&quot;&amp;&quot;/' |
 xargs -n 1 gmd5sum | LANG=C sort -s -k1,1 |
@@ -47,7 +47,7 @@ f1c3a09b784cc5a55bb820aaa873c79f /home/ueda/GIT/SD_BOOK/IMAGE/noodle.jpg
 ###Open usp Tukubai使用###
 ueda\@remote:~$ sudo find / -type f | grep -i '\\.jpg$' | sed 's/.*/&quot;&amp;&quot;/' | 
 sudo xargs -n 1 md5sum | LANG=C sort -s -k1,1 | yarr num=1 | awk 'NF&gt;2'
-[/bash]
+```
 
 <h1>Q2</h1>
 
@@ -77,9 +77,9 @@ sudo xargs -n 1 md5sum | LANG=C sort -s -k1,1 | yarr num=1 | awk 'NF&gt;2'
 8128が完全数であることを確認してください。
 
 私はギブアップしてますが、挑戦したい人は
-[bash]
+```bash
 14474011154664524427946373126085988481573677491474835889066354349131199152128
-[/bash]
+```
 が完全数であることを確認してください。（解けても商品は出ないのでほどほどに・・・）
 
 
@@ -89,7 +89,7 @@ sudo xargs -n 1 md5sum | LANG=C sort -s -k1,1 | yarr num=1 | awk 'NF&gt;2'
 
 ちなみに私は以下の解答で力尽きましたので、何か良いアイデアがあれば。
 
-[bash]
+```bash
 uedambp:~ ueda$ w3m -dump 'https://twitter.com/search?f=realtime&amp;q=%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8&amp;src=typd' |
 sed -n '/ 1\\./,$p' | sed -n '1,/^No Tweet/p'
-[/bash]
+```

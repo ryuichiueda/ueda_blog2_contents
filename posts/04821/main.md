@@ -19,7 +19,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 注意: 時間がかかるかもしれません。とりあえずsortの前に一度ファイルに出した方がよいかもしれません。
 
-[bash]
+```bash
 ###出力で1列目の数が同じものが重複の疑いのあるものです###
 uedambp:~ ueda$ find ~/ -type f | grep -i '\\.jpg$' | sed 's/.*/&quot;&amp;&quot;/' |
 xargs -n 1 gmd5sum | LANG=C sort -s -k1,1 |
@@ -36,7 +36,7 @@ f1c3a09b784cc5a55bb820aaa873c79f /home/ueda/GIT/SD_BOOK/IMAGE/noodle.jpg
 ###Open usp Tukubai使用###
 ueda\@remote:~$ sudo find / -type f | grep -i '\\.jpg$' | sed 's/.*/&quot;&amp;&quot;/' | 
 sudo xargs -n 1 md5sum | LANG=C sort -s -k1,1 | yarr num=1 | awk 'NF&gt;2'
-[/bash]
+```
 
 <h1>Q2</h1>
 
@@ -48,7 +48,7 @@ sudo xargs -n 1 md5sum | LANG=C sort -s -k1,1 | yarr num=1 | awk 'NF&gt;2'
 
 <a href="http://blog.cykey.ca/post/88174516880/analyzing-flightradar24s-internal-api-structure" target="_blank">こちらを参考にしました。</a>
 
-[bash]
+```bash
 uedambp:~ ueda$ curl http://www.flightradar24.com/_json/airports.php 2&gt; /dev/null | 
 jq . | grep -C 6 HND
  &quot;lon&quot;: &quot;15.082770&quot;,
@@ -64,7 +64,7 @@ jq . | grep -C 6 HND
  &quot;country&quot;: &quot;Japan&quot;,
  &quot;alt&quot;: &quot;21&quot;
  },
-[/bash]
+```
 
 <h1>Q3</h1>
 
@@ -77,13 +77,13 @@ jq . | grep -C 6 HND
 
 もっと簡単な解答がありそうですが。1/(0!)の項が抜けるので最後に1を足さなければいけないのが残念。
 
-[bash]
+```bash
 uedambp:~ ueda$ seq 1 1000 |
 awk '{for(i=1;i&lt;=$1;i++){printf(&quot;%d &quot;,i)}{print &quot;&quot;}}' |
 tr ' ' '*' | sed 's/\\*$/)/' | sed 's:^:1/(:' | bc -l | 
 tr '\\n' '+' | sed 's/$/1/' | bc -l 
 2.71828182845904523526
-[/bash]
+```
 
 <h1>Q4</h1>
 
@@ -92,7 +92,7 @@ tr '\\n' '+' | sed 's/$/1/' | bc -l
 
 <h1>解答</h1>
 
-[bash]
+```bash
 uedambp:~ ueda$ a=$(curl http://blog.ueda.asia/misc/message2015.txt) ; 
 while a=$(echo $a | base64 -D) &amp;&amp; echo $a ; do : ; done 
 ...
@@ -100,7 +100,7 @@ T2lncGV6b2dmQ0E2SUNaOU96b0sK
 OigpezogfCA6ICZ9OzoK
 :(){: | : &amp;};:
 Invalid character in input stream.
-[/bash]
+```
 
 <h1>Q5</h1>
 
@@ -110,7 +110,7 @@ Invalid character in input stream.
 
 モンテカルロ法でささっと（なにがささっとだか・・・）。
 
-[bash]
+```bash
 uedambp:~ ueda$ cat /dev/urandom | gtr -dc '0-9' |
 gfold -b10 | sed 's/^/0./' | sed 's/$/5/' |
 awk 'NR%2==0{print $1}NR%2!=0{printf($1 &quot; &quot;)}' |
@@ -125,7 +125,7 @@ awk '{x=$1-0.5;y=$2-0.5;r=sqrt(x^2 + y^2);if(r &lt; 0.5){n++};print NR, 4*n/NR}'
 729084 3.14094
 ...
 ###だんだん収束していきます###
-[/bash]
+```
 
 <h1>Q6</h1>
 
@@ -133,10 +133,10 @@ awk '{x=$1-0.5;y=$2-0.5;r=sqrt(x^2 + y^2);if(r &lt; 0.5){n++};print NR, 4*n/NR}'
 
 <h1>解答</h1>
 
-[bash]
+```bash
 uedambp:~ ueda$ echo {,a}{,b}{,c}{,d}{,e}
 e d de c ce cd cde b be bd bde bc bce bcd bcde a ae ad ade ac ace acd acde ab abe abd abde abc abce abcd abcde
-[/bash]
+```
 
 <h1>Q7</h1>
 
@@ -144,7 +144,7 @@ e d de c ce cd cde b be bd bde bc bce bcd bcde a ae ad ade ac ace acd acde ab ab
 
 <h1>解答</h1>
 
-[bash]
+```bash
 uedambp:~ ueda$ seq 2 8128 | awk '{print 8128/$1}' | grep -Fv . | numsum
 8128
-[/bash]
+```

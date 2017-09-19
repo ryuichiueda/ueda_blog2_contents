@@ -30,7 +30,7 @@ catした時にタブとスペースは区別がつきません。これがシ�
 
 夕飯。<!--:--><!--more--><!--:ja-->
 
-[bash]uedambp:~ ueda$ cat hoge.sp
+```bashuedambp:~ ueda$ cat hoge.sp
 a b c
 d e f
 uedambp:~ ueda$ tarr hoge.sp 
@@ -59,7 +59,7 @@ IndexError: list assignment index out of range
 uedambp:~ ueda$ self 2 hoge.tab 
 b
 e
-[/bash]
+```
 
 ということはスペースを入れたかったらアンダースコアなどを代替せねばなりません。これがcsvにしろとか、tsv（タブ区切り）にしろとか、いろいろ言われる原因になってるわけです。普通に聞いてくれるならいいのですが、こちらが聞いてもないのに滔々と持論を並べる人がたまにいるものですから、うるさいと口に出してしまって互いに血まみれになり、汗まみれになり、友情が生まれることがあるわけです。ない。
 

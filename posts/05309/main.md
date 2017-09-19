@@ -12,19 +12,19 @@ Gitのリポジトリの
 
 <h1>基本クラスの抽出</h1>
 
-[bash]
+```bash
 uedambp:SRC ueda$ grep -h class *.h | grep -v ';' |
  grep -v '{' | awk 'NF==2'
 class Data
 class Element
 class Environment
 class Feeder
-[/bash]
+```
 
 
 <h1>各基本クラスから派生したクラスを調査</h1>
 
-[bash]
+```bash
 uedambp:SRC ueda$ grep -h class *.h | grep -v ';' |
  grep -v '{' | awk 'NF==5{print $NF,$2}' | sort
 Arg ArgExtCom
@@ -38,17 +38,17 @@ Data DataJob
 Data DataProc
 Data DataStr
 ...
-[/bash]
+```
 
 Tukubaiのコマンドを使うとこんなリストもできる。
 
-[bash]
+```bash
 uedambp:SRC ueda$ grep -h class *.h | grep -v ';' | grep -v '{' | awk 'NF==5{print $NF,$2}' | sort | yarr num=1 | sed 's/ /:/'
 Arg:ArgExtCom ArgIntCom ArgProc ArgVariable ArrayVariable Literal
 Data:DataFile DataJob DataProc DataStr
 Element:Arg DefCond DefFile DefProc DefStr Exe IfBlock Import Job Pipeline Script Where
 Exe:ExeEachline ExeExtCom ExeIntCom ExeProc ExeString
-[/bash]
+```
 
 ただし、複数のクラスを継承しているとやり方を変えないといかん。
 

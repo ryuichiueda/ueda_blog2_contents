@@ -6,7 +6,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 # GlueLangにループを実装
 　帰省中に少し時間があったので、<a href="https://ryuichiueda.github.io/GlueLangDoc_ja/">GlueLang</a>にループを実装しました。次のように使います。この例は、dateにUnix時刻を吐かせて、5で割り切れる数になったらループを抜ける処理です。testコマンドが0でない終了ステータスを返したのを受けてループが終わって最終行のechoが実行されます。
 
-[bash]
+```bash
 $ cat hoge.glue 
 import PATH
 
@@ -17,11 +17,11 @@ loop
  sleep 1
 
 echo 'end'
-[/bash]
+```
 
 　実行すると、ちゃんと動きます。これはMacで動かしましたが同じコードでLinuxでも動きます。
 
-[bash]
+```bash
 $ glue ./hoge.glue 
 1
 2
@@ -29,12 +29,12 @@ $ glue ./hoge.glue
 4
 0
 end
-[/bash]
+```
 
 <h2>shのwhileのように書くには</h2>
 　shやbashのように、 while &lt;コマンド&gt; ; do &lt;処理&gt; ; done と書く場合、つまりコマンドの終了ステータスで処理を実行するかしないかを決めるときは、1段ネストが深くなりますが、次のように記述できます。
 
-[bash]
+```bash
 $ cat hoge2.glue 
 import PATH
 
@@ -45,13 +45,13 @@ loop
  sleep 1
 
 echo 'end'
-[/bash]
+```
 
 　ネストが2段になりますが、shやbashのwhileよりも長く条件となるコマンドが書けます。だいたい、while hogehoge ; do ...という書き方が、hogehogeという部分をコマンドだと気づかない初心者を量産しており悪い影響を与えているので、踏襲するわけにはいけません。
 <h2>文法エラーの時に止める</h2>
 で、シェルでループを作るとCtrl+Cやスクリプトにエラーが思うように止まらない場合がありますが、GlueLangでは止められるように工夫をしました。次の例は、コマンドが見つからない時にすぐにループを止めて、最終行の echo 'end' が実行されないことを確かめる例です。
 
-[bash]
+```bash
 $ cat hoge3.glue 
 import PATH
 
@@ -62,11 +62,11 @@ loop
  test t -ne 0
 
 echo 'end' #これは実行されない
-[/bash]
+```
 
 　GlueLangでは（まだ実装が中途半端ですが）<span style="color: #ff0000;">「コマンドが実行されて返ってくる終了ステータス」と「コマンドが見つからない、あるいはGlueLangのスクリプト自体が出すエラー」を区別する</span>ことにしました。技術的には可能ですし、これは普通のシェルよりもエラーへの対応がかなりスマートになるのではないかと考えています。
 
-[bash]
+```bash
 $ glue ./hoge3.glue 
 
 Parse error at line 2, char 1
@@ -96,6 +96,6 @@ Execution error at line 3, char 1
 	exit_status 2
 	pid 30837
 ###echo 'end'が実行されずに終わる###
-[/bash]
+```
 
 　ただ、現状で先ほどのように2段にネストした場合、止まらないのでまた来週末あたり改良します。また、readも実装しないといけません・・・。

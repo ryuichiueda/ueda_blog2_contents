@@ -8,13 +8,13 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 manを読むと次のようにあります。
 
-[bash]
+```bash
  -o, --only-matching
  Prints only the matching part of the lines.
-[/bash]
+```
 
 試してみましょう。
-[bash]
+```bash
 uedamac:~ ueda$ cat hoge.html
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -42,7 +42,7 @@ uedamac:~ ueda$ curl http://www.yahoo.co.jp | nkf -wLux | grep -o '&lt;a href=[^
 &lt;a href=&quot;r/c12&quot;&gt;ニュース 
 &lt;a href=&quot;r/c13&quot;&gt;天気 
 &lt;a href=&quot;r/c14&quot;&gt;スポーツ 
-[/bash]
+```
 
 便利。以上。
 

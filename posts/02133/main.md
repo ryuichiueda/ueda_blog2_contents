@@ -31,7 +31,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 今のところ、コードの本体は新言語をbashに変換するものですが、作ったbashを変換プログラムから直接起動することを試みた残骸がlangToBash.hsに残っています。
 
-[hs]
+```hs
 main' :: [String] -&gt; IO ()
 main' (scr:as) = do cs &lt;- readF scr
  pn &lt;- getProgName
@@ -49,7 +49,7 @@ The amount of buffer is small.
  hClose stdin
  putStr =&lt;&lt; hGetContents stdout
 --}
-[/hs]
+```
 
 この部分、動くことには動くのですが、標準入力をbashのコードに投げて、bashのコードから標準出力をもらうところが同時に動かないので使い物になりません。ちゃんとファイル記述子を操作しないとあかんのでありましょう。
 

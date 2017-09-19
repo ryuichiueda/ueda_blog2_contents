@@ -26,16 +26,16 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 とりあえず自分がやった作業を書いておくと、まず次のように自分のアカウントを作り、piユーザを消しました。
 
-[bash]
+```bash
 $ sudo useradd ueda
 ###/etc/gropuのpiユーザを全部uedaに置換###
 $ sudo userdel pi
 $ sudo reboot
-[/bash]
+```
 
 そして、鍵を仕込んだらパスワードで入れないようにしておきました。今回のネタは鍵認証を使いこなせない人はちと難しいので先にそちらをお勉強願います。
 
-[bash]
+```bash
 $ vi /etc/ssh/sshd_config 
 ###以下のように変更###
 
@@ -43,7 +43,7 @@ $ vi /etc/ssh/sshd_config
 PasswordAuthentication no
 ###説明が面倒くさいのでreboot###
 $ sudo reboot
-[/bash]
+```
 
 で、ルータのグローバルIPとポート番号をラズパイのローカルIPとポート番号と結びつけて転送できるようにします。これは・・・ルータ依存なので説明しませんが、難しいですよね・・・。
 
@@ -55,39 +55,39 @@ $ sudo reboot
 
 ルータの持っているグローバルIPをどう調べるかわからなかったので、グーグルで調べたら<a target="_blank" href="http://qiita.com/syrinx05p/items/55060ab2e3dead4a370d">すっきりしたQiitaのエントリー</a>が見つかったので、その通りにしました。
 
-[bash]
+```bash
 ueda\@raspberrypi ~ $ curl inet-ip.info
 203.0.113.1
-[/bash]
+```
 
 おお。
 
 ということで、次のようなシェルスクリプトを書きました。必須の行は最終行だけで、curlでIPアドレスを調べ、test.example.comに飛ばし、test.example.com側の/tmp/homeipに保存するというワンライナーです。シェルスクリプトですが、シェル芸っぽいです。宣伝ですが、こういう小技がたくさん書いてある<a rel="nofollow" href="http://www.amazon.co.jp/gp/product/4774173444/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4774173444&linkCode=as2&tag=ryuichiueda-22">シェルプログラミング実用テクニック (Software Design plus)（アフィ）</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=ryuichiueda-22&l=as2&o=9&a=4774173444" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />もよろしくお願いいたします（最近、宣伝が少なくて出版社に報いてないので宣伝）。
 
 
-[bash]
+```bash
 ueda\@raspberrypi ~ $ cat ~/SYS/SENDIP 
 #!/bin/bash -vx
 
 exec 2&gt; /tmp/SENDIP.log
 
 curl inet-ip.info | ssh test.example.com 'cat - &gt; /tmp/homeip'
-[/bash]
+```
 
 で、これをcrontabにしかけます。
 
-[bash]
+```bash
 ueda\@raspberrypi ~ $ crontab -e
 ###以下のように1行書く###
 */10 * * * * /home/ueda/SYS/SENDIP
-[/bash]
+```
 
 で、test.example.comに入って、10分後に更新されているか確認します。
 
-[bash]
+```bash
 ueda\@test:~$ cat /tmp/homeip 
 203.0.113.1
-[/bash]
+```
 
 更新されていなかったら、ラズパイの/tmp/SENDIP.logにログが残っているので、バグがないか確認します。当然、鍵は通してある必要があり、また、（回避の方法を知らなければ）1度だけ最初に手でログインしておく必要があります。
 
@@ -96,34 +96,34 @@ ueda\@test:~$ cat /tmp/homeip
 （追記: Windowsガン無視すいません・・・）
 まず、.ssh/configに次のように書いておきます。IPアドレスはダミーです。
 
-[bash]
+```bash
 Host home
  HostName 127.0.0.1
-[/bash]
+```
 
 で、次のようなシェルスクリプトを書きます。sshでtext.example.comにある/tmp/homeipのIPアドレスを読み込んで、sedで.ssh/configを上書きするという乱暴なものです。
 
-[bash]
+```bash
 uedamb:~ ueda$ cat ~/SYS/HOMEIP 
 #!/bin/bash -xv
 
 IP=$(ssh test.example.com 'cat /tmp/homeip')
 
 sed -i.bak &quot;/Host home/,/HostName/s/ HostName.*/ HostName $IP/&quot; ~/.ssh/config
-[/bash]
+```
 
 なかなか一発でバグなくsedの文を書くのは大変ですが、うまくいったら、.ssh/configが次のように書き換わります。
 
-[bash]
+```bash
 Host home
  HostName 203.0.113.1
-[/bash]
+```
 
 このシェルスクリプトもcronに仕掛けても良いですが、多分そんなにIPアドレスは変わらないので手動で良いでしょう。
 
 これで自宅にssh接続できるはずです。この作業は自宅でやったので、iPhoneのテザリングに変えてやってみました。
 
-[bash]
+```bash
 uedamb:~ ueda$ ssh home
 
 The programs included with the Debian GNU/Linux system are free software;
@@ -134,7 +134,7 @@ Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
 permitted by applicable law.
 Last login: Sun Dec 13 12:07:41 2015 from 192.168.0.2
 ueda\@raspberrypi ~ $ 
-[/bash]
+```
 
 できました。
 

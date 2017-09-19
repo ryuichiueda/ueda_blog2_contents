@@ -12,7 +12,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 MacやLinuxには/dev/randomというランダムなバイナリを吐き出すスペシャルファイルがあるので，これを使います．次のように延々とデタラメなバイナリを吐き出してくれるので，こいつを使うとプロセスをまたいだ乱数が作れます．
 
-[bash]
+```bash
 uedamac:ETC ueda$ cat /dev/random | od | head -n 2 
 0000000 106344 044756 023733 140260 177213 027315 062304 067526
 0000020 052530 027013 035715 141650 152404 061057 000501 017266
@@ -22,12 +22,12 @@ uedamac:ETC ueda$ cat /dev/random | od | head -n 2
 uedamac:ETC ueda$ cat /dev/random | od | head -n 2 
 0000000 061522 052751 052150 000712 132344 173433 106103 141366
 0000020 100136 104107 024231 007442 110045 104074 171547 155126
-[/bash]
+```
 
 んで，Haskellのコード．getUniformRandsは3バイトずつ/dev/randomの内容を読み込んで0以上1未満の数に直し，無限にリストを吐き出し続けます．mainの方は使いたいだけ乱数をtakeすればいいのですが，このコードでは10個だけ読んで表示しています．
 
 
-[hs]
+```hs
 uedamac:ETC ueda$ cat random_gen.hs 
 import System.Environment
 import System.IO
@@ -44,11 +44,11 @@ getUniformRands bs = d : getUniformRands (BS.drop 3 bs)
  where f (a:b:c:bs) = (ord a) * 256 * 256 + (ord b) * 256 + (ord c)
  n = f (BS.unpack bs)
  d = (fromIntegral n :: Double) / (256*256*256)
-[/hs]
+```
 
 出力です．検証していませんが，よさげです．
 
-[bash]
+```bash
 uedamac:ETC ueda$ ./random_gen 
 0.3938910961151123
 0.5829044580459595
@@ -71,7 +71,7 @@ uedamac:ETC ueda$ ./random_gen
 0.19904005527496338
 4.157662391662598e-2
 0.6634286642074585
-[/bash]
+```
 
 シミュレーションでは，こいつを12個ずつ足して6を引き，正規分布に従う乱数を作って使用する予定．
 

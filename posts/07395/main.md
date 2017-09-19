@@ -29,14 +29,14 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 UNIX屋さんなら何か調査するときに、デバイスファイルを次のように使ったりします。
 
-[bash]
+```bash
 ###コマンドの性能を測る（画面に文字を出して遅くならないように/dev/nullを使う）###
 $ time grep -r hoge ~/ &gt; /dev/null
 ###128バイトの大きさのファイルを作る###
 uedamb:~ ueda$ head -c 128 /dev/urandom &gt; a
 uedamb:~ ueda$ ls -l a
 -rw-r--r-- 1 ueda staff 128 1 1 22:32 a
-[/bash]
+```
 
 要はデータを吸い込んだり、生成したりする特別なファイルということになります。なぜコマンドやデーモンによるサービスの体裁を取らないかというと、ファイルの方がcatやリダイレクトで簡単に使えるからです。データハンドリングはファイルシステムで、というのはUNIXがUNIXであるための大前提のようなものです。<a href="https://blog.ueda.asia/?page_id=5983" target="_blank">日経Linuxの去年の連載</a>では、「ロボットでも基本はファイル入出力で」というテーマで執筆したのですが、それもこういうUNIXの考え方を意識したものでした。
 
@@ -54,41 +54,41 @@ uedamb:~ ueda$ ls -l a
 
 今のところ、Ubuntu Linux 14.04でしか動作確認してません。今日作り始めたので当たり前ですが・・・。ということで、以下の操作をUnbuntuか、もし試していただけるなら別のLinux環境で行います。apt-getでgitとかmakeとかをインストールする必要があります。また、Linuxのヘッダファイルがないとコンパイルできないので、もしかしたらそれもapt-getする必要があるかもしれません。私はサーバ版でコンパイルしましたが、ヘッダはすでにあったのでapt-getする必要はありませんでした。
 
-[bash]
+```bash
 $ git clone https://github.com/ryuichiueda/KikenShellGeiDevice.git
 $ cd KikenShellGeiDevice/
 $ make
-[/bash]
+```
 
 次のように「kiken.ko」というファイルができていたらOK。
 
-[bash]
+```bash
 $ ls kiken.ko
 kiken.ko
-[/bash]
+```
 
 デバイスドライバは、insmodというコマンドでカーネルに組み込みます。
 
-[bash]
+```bash
 $ sudo insmod kiken.ko
 ###カーネルから外したかったら以下のように###
 $ sudo rmmod kiken 
-[/bash]
+```
 
 次のように、「/dev/kiken0」というファイルができているはずです。
 
-[bash]
+```bash
 $ ls -l /dev/kiken0 
 crw------- 1 root root 249, 0 1月 1 23:03 /dev/kiken0
 ###読み込みできるようにしておきましょう###
 $ sudo chmod +r /dev/kiken0 
-[/bash]
+```
 
 <h2>使う（危険）</h2>
 
 なんだか薄くて真面目な解説になっちまってましたがここからが本番です。headで打ち切ってますが、アレなワンライナーがランダムに出続けます。ネタは<a href="http://togetter.com/li/709172" target="_blank">ココ</a>から。
 
-[bash]
+```bash
 $ cat /dev/kiken0 | head
 sudo yum -y remove python*
 sudo yum -y remove python*
@@ -100,7 +100,7 @@ for x in `seq 1 1 10000`; do wall '我はroot。神だ' ; done
 crontab -r
 echo {a..z}{a..z}{a..z}{a..z}{a..z}{a..z}{a..z}{a..z}{a..z}{a..z}{a..z}{a..z}{a..z}
 rsync -av --delete /tmp/ ~/
-[/bash]
+```
 
 危険極まりない。本当に何を考えているんだ。
 
@@ -108,9 +108,9 @@ rsync -av --delete /tmp/ ~/
 
 とりあえず、<span style="color:red">自分のマシンを壊していいのなら</span>、次のような使い方が標準になると思います。何の標準か知らんけど。
 
-[bash]
+```bash
 $ cat /dev/kiken0 | sudo bash
-[/bash]
+```
 
 試さない方が良いです。何の責任も取れないことはGPLのライセンスの中に書いてあリ・・・。
 
@@ -118,9 +118,9 @@ $ cat /dev/kiken0 | sudo bash
 
 かと言って何も試さないのも面白くないので、次のワンライナーを提示しておきます。grepにつけた-aは、grepがバイナリとして危険シェル芸を扱ってしまうので、文字列として扱ってくれと明示的に指示するためのオプションです。
 
-[bash]
+```bash
 $ cat /dev/kiken0 | grep -a 高須 | bash 
-[/bash]
+```
 
 <h2>今後</h2>
 

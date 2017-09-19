@@ -14,7 +14,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 あとは、importの後の空行にスペースを入れるとちゃんとパースしてくれませんね・・・。
 
-[hs]
+```hs
 import /usr/bin/ as ub
 import /usr/local/bin/ as ulb
 
@@ -24,14 +24,14 @@ ub.sed 's/.*/&quot;&amp;&quot;/' &gt;&gt;=
 ub.xargs '-n' '1' '/usr/local/bin/gmd5sum' &gt;&gt;=
 ub.sort '-s' '-k1,1' &gt;&gt;=
 ulb.awk '{if(a==$1){print b;print $0}a=$1;b=$0}'
-[/hs]
+```
 
 パスやその他環境変数については、
 
-[hs]
+```hs
 import PATH
 import LANG
-[/hs]
+```
 
 というように簡単に読み込めるようにしようかと思います。
 
@@ -42,31 +42,31 @@ import LANG
 
 ワンライナーなのでほとんど普通のシェルスクリプトと変わりません。しかし、標準エラー出力の制御を今のところ実装していないというのはやはり使いづらい。
 
-[hs]
+```hs
 import /usr/local/bin/ as ulb
 import /usr/bin/ as ub
 
 ub.curl 'http://www.flightradar24.com/_json/airports.php' &gt;&gt;=
 ulb.jq '.' &gt;&gt;= ub.grep '-C' '6' 'HND'
-[/hs]
+```
 
 エラーは普通にリダイレクトでとれるようにしておけば良いか・・・。次のような感じで。
-[hs]
+```hs
 ub.curl 'http://www.flightradar24.com/_json/airports.php' log&gt; '/dev/null' &gt;&gt;= ...
-[/hs]
+```
 
 ログを見るだけなら上の書式にして、標準エラー出力をGlueLang内で積極的に使うときは、fileの後に二つファイルを並べる方式になると思います。
-[hs]
+```hs
 
 # ファイルオブジェクトfにcurlの標準出力、errにエラー出力が入る
 file f err = ub.curl 'http://www.flightradar24.com/_json/airports.php'
-[/hs]
+```
 
 <h1>Q3</h1>
 
 基本的にはワンライナーをGlueLangの方法に書き換えるだけです。
 
-[hs]
+```hs
 import /usr/local/bin/ as ulb
 import /usr/bin/ as ub
 
@@ -79,7 +79,7 @@ ub.bc '-l' &gt;&gt;=
 ub.tr '\\n' '+' &gt;&gt;=
 ub.sed 's/$/1/' &gt;&gt;=
 ub.bc '-l' 
-[/hs]
+```
 
 しかし、もとがワンライナーなので意味不明なのは、GlueLangの宣伝としてはどうなのか？？
 
@@ -91,22 +91,22 @@ ub.bc '-l'
 
 はい。
 
-[hs]
+```hs
 /usr/local/bin/clisp '-x' '(! 2015)' '-q'
-[/hs]
+```
 
 <h1>Q4</h1>
 
 このbashのワンライナーを書き直せばよいのですが・・・
 
-[bash]
+```bash
 uedambp:~ ueda$ a=$(curl http://blog.ueda.asia/misc/message2015.txt) ; 
 while a=$(echo $a | base64 -D) &amp;&amp; echo $a ; do : ; done
-[/bash]
+```
 
 ・・・さて、whileがないGlueLangでどうやって処理しよう・・・。コマンド作っちゃえ。ということで、次のようなGlueLang用のコマンドを作りました。
 
-[bash]
+```bash
 uedambp:GlueLang ueda$ cat ./stdcom/loop-serial 
 #!/bin/bash
 
@@ -138,11 +138,11 @@ cat $tmp-out
 
 rm -f $tmp-*
 exit 0
-[/bash]
+```
 
 んで、Glueで使ってみます。
 
-[hs]
+```hs
 uedambp:SHELL_GEI_2015SP ueda$ cat Q4.mac.glue 
 import /usr/bin/ as ub
 import /bin/ as b
@@ -150,14 +150,14 @@ import /Users/ueda/GIT/GlueLang/stdcom/ as std
 
 ub.curl 'http://blog.ueda.asia/misc/message2015.txt' &gt;&gt;=
 std.loop-serial '/usr/bin/base64' '-D'
-[/hs]
+```
 
 はい実行。
 
-[hs]
+```hs
 uedambp:SHELL_GEI_2015SP ueda$ ../../glue Q4.mac.glue 2&gt; /dev/null
 :(){: | : &amp;};:
-[/hs]
+```
 
 bashで書いているコマンドを実行していることで他力本願極まりないですが、bashで書いたコマンドをCで書き直して、GlueLangの付属コマンドにしてしまうつもりです。GlueLangを作るにあたり、もともと制御構文をなくしたいという動機があったので、これでいいんでないかと思います。
 

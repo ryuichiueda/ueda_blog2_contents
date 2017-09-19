@@ -12,7 +12,7 @@ GlueLangというのは、「次世代シェルスクリプティング言語」
 
 現在、一行にー個コマンドを書いていくと順に実行できるようになっています。パイプはまだ使えません。FizzBuzzのコードを例として示しておきます。あ、コードは<a target="_blank" href="https://github.com/ryuichiueda/GlueLang">ココ</a>にあります。
 
-[bash]
+```bash
 uedambp:GlueLang ueda$ cat TEST/fizzbuzz.glue 
 
 # for Mac
@@ -24,18 +24,18 @@ file buzz = /usr/local/bin/gsed '5~5s/.*/Buzz/' nums
 
 #output
 /usr/local/bin/gsed '3~3s/[0-9]*/Fizz/' buzz
-[/bash]
+```
 
 ちゃんと動きます。
 
-[bash]
+```bash
 uedambp:GlueLang ueda$ ./main TEST/fizzbuzz.glue | head -n 5
 1
 2
 Fizz
 4
 Buzz
-[/bash]
+```
 
 Glueのコードを見てのとおり、パスを通してなく見づらくてすいません。その代わり、「file nums」というように、変数のように中間ファイルが使えるところまで実装できました。Glueではベタにファイル変数と呼ぶことにします。
 

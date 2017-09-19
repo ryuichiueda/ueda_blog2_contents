@@ -19,9 +19,9 @@ Copyright: (C) 2017 Ryuichi Ueda
 <li>制限を与えると力が生まれる。春ですね。</li>
 <li>
 
-[bash]
+```bash
 $ echo 1 1 1 2 3 4 5 5 | tarr | uniq -d
-[/bash]
+```
 
 </li>
 

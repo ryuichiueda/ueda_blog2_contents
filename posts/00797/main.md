@@ -10,7 +10,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 スカラと行列のかけ算を実装しました。スカラと行列の積は、
 
-[bash]
+```bash
 ueda\@ubuntuX201:~$ ghci
 ...
 Prelude&gt; import Numeric.LinearAlgebra
@@ -21,7 +21,7 @@ Prelude Numeric.LinearAlgebra&gt; m * 3.14
 (2&gt;&lt;2)
  [ 3.14, 6.28
  , 9.42, 12.56 ]
-[/bash]
+```
 
 というように * で演算できるはずなんですが、ghcでコンパイルすると怒られます。
 
@@ -29,7 +29,7 @@ Prelude Numeric.LinearAlgebra&gt; m * 3.14
 
 実行してみます。
 
-[bash]
+```bash
 ueda\@ubuntuX201:~/GIT/PMAT$ cat data 
 A 1 2 3
 A 1 2 3
@@ -47,7 +47,7 @@ C 1.1 2.2 3.3000000000000003
 D -3.14
 D 3.14
 D 3.14
-[/bash]
+```
 
 全然話違いますけど、パーサ書きの師匠がほしいなあ・・・。
 

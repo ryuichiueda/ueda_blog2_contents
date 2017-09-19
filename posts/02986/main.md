@@ -19,7 +19,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 はいできました。
 
-[bash]
+```bash
 uedambp:ShellOfficeTools ueda$ ./exread sheet1 ~/Desktop/wada.xlsx 
 A 1 熱い
 A 2 ヤバい
@@ -35,7 +35,7 @@ uedambp:ShellOfficeTools ueda$ ./exread sheet1 ~/Desktop/wada.xlsx |
 2 ヤバい 0 0
 3 間違いない 0 0
 4 懲役 14 年
-[/bash]
+```
 
 <span style="color:red">今週末はLet's エクシェル芸!!</span>（なんかかっこ悪い）
 

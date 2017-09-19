@@ -15,9 +15,9 @@ GitHubにあります。ファイルは
 
 クローンは以下のようにお願いします。
 
-[bash]
+```bash
 $ git clone https://github.com/ryuichiueda/ShellGeiData.git
-[/bash]
+```
 
 <h2>環境</h2>
 
@@ -35,7 +35,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 解凍すると、一つのディレクトリに収まってなく、その場にいくつかのファイルが展開されるので厄介です。ファイルの置き場所と展開する場所を分けましょう。
 
-[bash]
+```bash
 $ mkdir ~/tmp
 $ cd ~/tmp
 ###tmpの下に置かずに解凍###
@@ -72,7 +72,7 @@ ueda\@remote:~/tmp$ tree
 10 directories, 14 files
 ###再圧縮したファイルも別のディレクトリに作ると事故が少ない###
 ueda\@remote:~/tmp$ zip -r ../hoge.xlsx ./
-[/bash]
+```
 
 
 <h2>Q2</h2>
@@ -81,19 +81,19 @@ ueda\@remote:~/tmp$ zip -r ../hoge.xlsx ./
 
 <h3>解答</h3>
 
-[bash]
+```bash
 $ unzip ~/ShellGeiData/vol.26/20141019OSC_LT.pptx ;
 grep -o 危険 ppt/slides/slide* | wc -l
 17
-[/bash]
+```
 
 unzipは-pオプションで必要なファイルだけcatすることができます。ということで次のようにすると完全にワンライナーになります。
 
-[bash]
+```bash
 $ unzip -p ~/ShellGeiData/vol.26/20141019OSC_LT.pptx 'ppt/slides/slide*' |
  grep -o 危険 | wc -l
 17
-[/bash]
+```
 
 
 <h2>Q3</h2>
@@ -102,16 +102,16 @@ $ unzip -p ~/ShellGeiData/vol.26/20141019OSC_LT.pptx 'ppt/slides/slide*' |
 
 <h3>解答</h3>
 
-[bash]
+```bash
 $ unzip ~/ShellGeiData/vol.26/20141019OSC_LT.pptx ;
  zip -r media.zip ./ppt/media/
-[/bash]
+```
 
 <h2>Q4</h2>
 
 20141019OSC_LT.pptxのスライドの7ページ目のテキストをスクレイピングしましょう。以下が出力の例です。
 
-[bash]
+```bash
 戦果（？）
 初日だけで見知らぬ方のマシン3台轟沈
 その他自爆者多数
@@ -119,12 +119,12 @@ Docker上で試したらホストマシン沈黙の報告
 自分の本がサイト経由で1冊だけ売れた
 フォロワーが1人減った
 （以下、フッタ等の文字列が混ざっても可とします）
-[/bash]
+```
 
 
 <h3>解答</h3>
 
-[bash]
+```bash
 $ unzip -p ~/ShellGeiData/vol.26/20141019OSC_LT.pptx ppt/slides/slide7.xml |
  xmllint --format - | grep '&lt;a:[pt]&gt;' | sed 's;&lt;/.*;;' |
  sed 's;&lt;.*&gt;;;' | awk 'NF==0{print &quot;\@\@\@&quot;}{print}' |
@@ -138,11 +138,11 @@ Docker上で試したらホストマシン沈黙の報告
 2014/10/19
 OSCTokyo/Fall2014
 7
-[/bash]
+```
 
-[bash]
+```bash
 
-[/bash]
+```
 
 <h2>Q5</h2>
 
@@ -151,7 +151,7 @@ graph.xlsxの2列の数字を抜き出して端末にSSV形式のデータ（CSV
 
 <h3>解答</h3>
 
-[bash]
+```bash
 ###スペース区切り###
 $ unzip ~/ShellGeiData/vol.26/graph.xlsx;
  cat xl/worksheets/sheet1.xml |
@@ -161,11 +161,11 @@ $ unzip ~/ShellGeiData/vol.26/graph.xlsx;
 $ unzip -p ~/ShellGeiData/vol.26/graph.xlsx xl/worksheets/sheet1.xml |
  sed 's;&lt;/row&gt;;\\n;g' | sed 's;&lt;/v&gt;.*&lt;v&gt;; ;' |
  sed 's;.*&lt;v&gt;;;' | sed 's;&lt;/v&gt;.*;;' | grep -v &quot;^&lt;&quot;
-[/bash]
+```
 
 もっとスマートに行うには、html-xml-utilsとlibxml2-utilsをインストールしてhxselectコマンドやxmllintを使います。
 
-[bash]
+```bash
 $ sudo apt install html-xml-utils
 $ sudo apt install libxml2-utils
 ###番号と値のリスト###
@@ -175,7 +175,7 @@ $ unzip -p ~/ShellGeiData/vol.26/graph.xlsx xl/worksheets/sheet1.xml |
 $ unzip -p ~/ShellGeiData/vol.26/graph.xlsx xl/worksheets/sheet1.xml |
  xmllint --format - | grep -e '&lt;c r=' -e '&lt;v&gt;' | xargs |
  sed 's;&lt;/v&gt;;\\n;g' | sed 's/.*=//' | sed 's/&gt;.*&gt;/ /'
-[/bash]
+```
 
 もっと便利なツールもあるという噂ですが、とりあえず私からこれくらいで・・・
 
@@ -188,7 +188,7 @@ hanshin.xlsxのシートについてQ2と同様SSV形式か、セルの番号と
 
 文字列は展開したファイルのxl/sharedStrings.xmlに順番に入っています。
 
-[bash]
+```bash
 $ unzip ~/GIT/ShellGeiData/vol.26/hanshin.xlsx 
 $ xmllint --format xl/sharedStrings.xml | head
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
@@ -201,22 +201,22 @@ $ xmllint --format xl/sharedStrings.xml | head
  &lt;phoneticPr fontId=&quot;1&quot;/&gt;
  &lt;/si&gt;
  &lt;si&gt;
-[/bash]
+```
 
 読みのデータが邪魔なので、消去した上でリストを作っておきます。
 
-[bash]
+```bash
 $ unzip -p ~/GIT/ShellGeiData/vol.26/hanshin.xlsx xl/sharedStrings.xml |
  hxselect si -s '\\n' | awk -F'[&lt;&gt;]' '{print NR-1,$5}' &gt; strings
 $ head -n 3 strings 
 0 真弓
 1 弘田
 2 バース
-[/bash]
+```
 
 次に、シートのデータを加工していきます。文字列のセルには「t="s"」という属性があるので、これで文字列のセルと数字のセルを分けます。文字列のセルのv要素にある数字は、sharedStrings.xmlの何番目の文字列がこのセルに入るかを意味します。（sharedStrings.xmlはXMLファイルなのにデータの並び順で文字列を管理しているという・・・）
 
-[bash]
+```bash
 $ unzip -p ~/GIT/ShellGeiData/vol.26/hanshin.xlsx xl/worksheets/sheet1.xml |
  hxselect c -s '\\n' | grep '&lt;v&gt;' |
  awk -F'[&lt;&gt; &quot;]' '/t=&quot;s&quot;/{print $4,&quot;s&quot;,$(NF-4)}!/t=&quot;s&quot;/{print $4,&quot;n&quot;,$(NF-4)}'
@@ -231,11 +231,11 @@ C3 s 9
 A4 n 3
 B4 s 2
 ...
-[/bash]
+```
 
 ここまでできたら、awkで無理やり文字列のファイルとデータのファイルを混ぜて答えを出します。この例ではFILENAMEという変数を使っています。
 
-[bash]
+```bash
 $ unzip -p ~/GIT/ShellGeiData/vol.26/hanshin.xlsx xl/worksheets/sheet1.xml |
  hxselect c -s '\\n' | grep '&lt;v&gt;' |
  awk -F'[&lt;&gt; &quot;]' '/t=&quot;s&quot;/{print $4,&quot;s&quot;,$(NF-4)}!/t=&quot;s&quot;/{print $4,&quot;n&quot;,$(NF-4)}' |
@@ -270,7 +270,7 @@ C9 永尾
 A10 9
 B10 ゲイル
 C10 池田
-[/bash]
+```
 
 <h2>Q7</h2>
 
@@ -280,35 +280,35 @@ certificate.docxファイルを開いて確認し、人の名前が入るとこ�
 
 ホームの下にtmp等の一時ディレクトリを作ってそこで試しましょう。-iオプションは、BSD系のsedの場合-i.bakと言うように拡張子をつけてバックアップファイルを作らなければなりませんが、その場合はバックアップファイルを消してから再圧縮します。
 
-[bash]
+```bash
 ###~/tmp/で作業すると仮定します###
 $ unzip ~/ShellGeiData/vol.26/certificate.docx ; 
 sed -i 's/WINNER/しぇる芸のオッサン/' word/document.xml ; 
 zip -r ../hoge.docx ./
 ###ワーニングが出ますが開けます###
-[/bash]
+```
 
 <h2>Q8</h2>
 
 Q7を応用し、次のリストlist.txtで、複数の表彰状を作ってみましょう。
 
-[bash]
+```bash
 $ cat list.txt 
 シェル芸おじさん
 シェル芸野郎
 変態シェル芸豚野郎
-[/bash]
+```
 
 <h3>解答</h3>
 
 unzipに-o（overwrite）オプションをつけると便利です。
 
-[bash]
+```bash
 $ cat ~/ShellGeiData/vol.26/list.txt | 
 while read name ; do unzip -o ~/ShellGeiData/vol.26/certificate.docx ;
  sed -i &quot;s/WINNER/$name/&quot; word/document.xml ;
  zip -r ../$name.docx ./ ; done
-[/bash]
+```
 
 
 

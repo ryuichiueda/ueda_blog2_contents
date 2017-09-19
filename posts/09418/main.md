@@ -8,7 +8,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 今日は、bashの次のような処理を<a href="https://ryuichiueda.github.io/GlueLangDoc_ja/">GlueLang</a>に実装しました。
 
-[bash]
+```bash
 ###こんなスクリプト###
 $ cat hoge.bash 
 #!/bin/bash
@@ -22,11 +22,11 @@ $ ./hoge.bash
 \@ 1
 \@ 2
 \@ 3
-[/bash]
+```
 
 GlueLangだと次のようになります。標準入力から1行ごとに配列argvに文字列が読み込まれ、foreachの下に書いた処理が繰り返されます。
 
-[bash]
+```bash
 ###こんなスクリプト###
 $ cat hoge.glue 
 import PATH
@@ -38,7 +38,7 @@ $ glue ./hoge.glue
 \@ 1
 \@ 2
 \@ 3
-[/bash]
+```
 
 
 こんな感じです。寝る。

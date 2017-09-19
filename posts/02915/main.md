@@ -12,7 +12,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <!--more-->
 
-[bash]
+```bash
 ueda\@remote:~$ unzip -p book1.xlsx xl/worksheets/sheet1.xml 
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
 &lt;worksheet xmlns=&quot;http://schemas.openxmlformats.org/spreadsheetml/2006/main&quot; 
@@ -32,17 +32,17 @@ footer=&quot;0.3&quot;/&gt;&lt;extLst&gt;&lt;ext uri=&quot;{64002731-A6B0-56B0-2
 xmlns:mx=&quot;http://schemas.microsoft.com/office/mac/excel/2008/main&quot;&gt;&lt;mx:PLV 
 Mode=&quot;0&quot; OnePage=&quot;0&quot; WScale=&quot;0&quot;/&gt;&lt;/ext&gt;&lt;/extLst&gt;&lt;/worksheet&gt;ueda\@remote:~$ 
 
-[/bash]
+```
 
 ということで、xlsxからワンライナーでデータをすっぱ抜くワンライナーが完成です。
-[bash]
+```bash
 ueda\@remote:~$ unzip -p book1.xlsx xl/worksheets/sheet1.xml |
  hxselect c | sed 's;&lt;/c&gt;;&amp;\\n;g'
 &lt;c r=&quot;A1&quot;&gt;&lt;v&gt;1&lt;/v&gt;&lt;/c&gt;
 &lt;c r=&quot;A2&quot;&gt;&lt;v&gt;2&lt;/v&gt;&lt;/c&gt;
 &lt;c r=&quot;A3&quot;&gt;&lt;v&gt;3&lt;/v&gt;&lt;/c&gt;
 &lt;c r=&quot;A4&quot;&gt;&lt;v&gt;-4.2300000000000004&lt;/v&gt;&lt;/c&gt;
-[/bash]
+```
 
 
 
@@ -52,7 +52,7 @@ ueda\@remote:~$ unzip -p book1.xlsx xl/worksheets/sheet1.xml |
 
 ところで、zipしたままファイル名が見たければ、unzip -lすれば見れます。これもご活用を。
 
-[bash]
+```bash
 ueda\@remote:~$ unzip -l book1.xlsx
 Archive: book1.xlsx
  Length Date Time Name
@@ -69,6 +69,6 @@ Archive: book1.xlsx
  803 1980-01-01 00:00 docProps/app.xml
 --------- -------
  31089 10 files
-[/bash]
+```
 
 昼寝する。

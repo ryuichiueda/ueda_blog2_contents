@@ -19,14 +19,14 @@ Copyright: (C) Ryuichi Ueda
  <ul>
 
  <li>誤: 
-[bash]
+```bash
 xargs grep -l &quot;$word&quot;
-[/bash]
+```
  </li>
  <li>正: 
-[bash]
+```bash
 xargs grep -l -- &quot;$word&quot;
-[/bash]
+```
  </li>
  </ul>
  </li>
@@ -34,14 +34,14 @@ xargs grep -l -- &quot;$word&quot;
 <p>同上</p>
  <ul>
  <li>誤: 
-[bash]
+```bash
 xargs grep -lF &quot;$word&quot;
-[/bash]
+```
  </li>
  <li>正: 
-[bash]
+```bash
 xargs grep -lF -- &quot;$word&quot;
-[/bash]
+```
  </li>
  </ul>
  </li>
@@ -49,14 +49,14 @@ xargs grep -lF -- &quot;$word&quot;
 <p>余計なスペースが入っており、つい最近までは動いていたのについ最近ダメになった。（本書発売日と同日の7/1？ひどい・・・。いや、悪いのは自分だが・・・）</p>
  <ul>
  <li>誤: 
-[bash]
+```bash
 curl -H &quot;Authorization : OAuth
-[/bash]
+```
  </li> 
  <li>正: 
-[bash]
+```bash
 curl -H &quot;Authorization: OAuth
-[/bash]
+```
  </li> 
  <li>発見者: <a href="https://twitter.com/kanariya0922" target="_blank">かなりや</a>さん</li>
  </ul>

@@ -8,7 +8,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 
 これがサンプルスクリプトです。
-[hs]
+```hs
 uedambp:TEST ueda$ cat pipeline_mac4.glue 
 /usr/bin/seq '1' '5' &gt;&gt;=
 /usr/bin/tail '-r' &gt;&gt;=
@@ -17,13 +17,13 @@ uedambp:TEST ueda$ cat pipeline_mac4.glue
 ###実行###
 uedambp:TEST ueda$ ../main pipeline_mac4.glue 
 5 4 3 2 1 
-[/hs]
+```
 
 <span style="color:red">うん、「, . 」よりも見やすい（主観）。</span>
 
 ということで、READMEのサンプルコードも次のように書き直しました。Haskellもどきです。<a href="https://github.com/ryuichiueda/GlueLang#gluelang" target="_blank">READMEはGitHub</a>で読めます。READMEには、コンパイルして試す方法も追記しましたので、ちょっと試していただけたらと。
 
-[hs]
+```hs
 import /bin/ as b
 import /usr/bin/ as ub
 
@@ -32,7 +32,7 @@ main infile = do
  b.cat tmp
 
 cattac file = b.cat file &gt;&gt;= ub.tail '-r'
-[/hs]
+```
 
 型の考え方も、テーブルの列数とかちょっとしたデータの縛りを作るのに利用できそうです。
 

@@ -11,7 +11,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 思いっきりsed芸になってしまいました・・・
 
-[bash]
+```bash
 #!/bin/bash
 
 usage () {
@@ -63,12 +63,12 @@ exit 0
 #LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 #THE SOFTWARE.
-[/bash]
+```
 
 
 使ってみます。
 
-[bash]
+```bash
 ###昔の実験データ###
 uedambp:ShellOfficeTools ueda$ ./exread-sheet sheet1 ./results.xlsx | head
 A 1 s 0
@@ -90,7 +90,7 @@ uedambp:ShellOfficeTools ueda$ time ./exread-sheet sheet1 ./results.xlsx &gt; /d
 real	0m0.099s
 user	0m0.230s
 sys	0m0.017s
-[/bash]
+```
 
 セルと何のセルか「数値 or 文字列」、そして値（文字列の場合は文字列シートの参照番号）が入ってます。
 

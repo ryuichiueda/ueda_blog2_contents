@@ -12,24 +12,24 @@ Copyright: (C) 2017 Ryuichi Ueda
 <h1>whereの使い方</h1>
 
 例えばシェルスクリプトでこう書いたとします。ファイルaとbを作って、diffで比べています。
-[bash]
+```bash
 seq 8 &gt; a
 seq 10 &gt; b
 
 diff a b
-[/bash]
+```
 
 <!--more-->
 
 しかし、aとbをdiffでしか使わないとしたら、aとbをdiffのためだけに作っているようにコードを見せたほうがよいということで、Glueでは次のように書けます。
 
-[hs]
+```hs
 import PATH
 
 ? diff a b
  where file a = seq 8
  file b = seq 10
-[/hs]
+```
 
 これならコードの他の部分を読んでいるときに目障りなaとbが視界に入りません（いや、右目にちょっと入るが・・・）。まだ実装してませんが、名前もローカルで定義でき、diffの処理が終わったらaとbの実体（中間ファイル）を消すこともでき、事故も減ります。<span style="color:red">ローカルスコープにするのも中間ファイルを消すのもまだ実装してませんが・・・。</span>
 
@@ -39,23 +39,23 @@ import PATH
 
 そして、上の例でも使いましたが、「import PATH」と書くと環境変数のパスを全部読み込んでくれるようにしました。
 
-[hs]
+```hs
 import PATH
 
 echo 'もうフルパス指定もprefixも不要。'
 echo 'ただ、指定して書いたほうが厳密なので指定した方がいいかも。'
-[/hs]
+```
 
 <h1>MacとLinuxのパスの違いも吸収できるようにした</h1>
 
 もう一つimportの規制緩和ですが、異なるパスに同じprefixをつけることができるようになりました。例えばawkはMacだと/usr/local/bin/、Linuxだと/usr/bin/にありますが、次のように書いておけばどっちでも動きます。
 
-[hs]
+```hs
 import /usr/local/bin/ as sys
 import /usr/bin/ as sys
 
 sys.awk 'BEGIN{print &quot;hoge&quot;}'
-[/hs]
+```
 
 
 ようやく言語っぽくなってきました。

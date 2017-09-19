@@ -15,9 +15,9 @@ GitHubにあります。ファイルは
 
 クローンは以下のようにお願いします。
 
-[bash]
+```bash
 $ git clone https://github.com/ryuichiueda/ShellGeiData.git
-[/bash]
+```
 
 <h2>環境</h2>
 
@@ -44,7 +44,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 20141019OSC_LT.pptxのスライドの7ページ目のテキストをスクレイピングしましょう。以下が出力の例です。
 
-[bash]
+```bash
 戦果（？）
 初日だけで見知らぬ方のマシン3台轟沈
 その他自爆者多数
@@ -52,7 +52,7 @@ Docker上で試したらホストマシン沈黙の報告
 自分の本がサイト経由で1冊だけ売れた
 フォロワーが1人減った
 （以下、フッタ等の文字列が混ざっても可とします）
-[/bash]
+```
 
 
 <h2>Q5</h2>
@@ -73,12 +73,12 @@ certificate.docxファイルを開いて確認し、人の名前が入るとこ�
 
 Q7を応用し、次のリストlist.txtで、複数の表彰状を作ってみましょう。
 
-[bash]
+```bash
 $ cat list.txt 
 シェル芸おじさん
 シェル芸野郎
 変態シェル芸豚野郎
-[/bash]
+```
 
 
 

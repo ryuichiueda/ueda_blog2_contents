@@ -21,25 +21,25 @@ Copyright: (C) 2017 Ryuichi Ueda
 <h2>原因</h2>
 自分のPCやラズパイでは1回目のcatkin_makeはエラーを出すものの.msgの処理を完了できて、一方Travis CIの場合は完了できないということは、非同期処理のズレだろうというのがまず思いつきました。そして、Travis CIのエラーに
 
-[bash]
+```bash
 Invoking &quot;make -j2 -l2&quot; failed
-[/bash]
+```
 
 とあったので、たぶんズレはコア数の違いで起こるんだろうと思いました。（makeのjオプションは、何並列で処理をするかを指定するオプションです。）
 
 ということで、手元で
 
-[bash]
+```bash
 $ catkin_make -j2 
-[/bash]
+```
 
 を繰り返したら、何回catkin_makeしても失敗するという、Travis CIで起きたのと同じ現象が起こりました。ちなみにPCのCPUのコア数は8、ラズパイでも4だったので、Travis CIの方が少ないということになります。
 <h2>解決（超小手先）</h2>
 ということで、Travis CIでcatkin_makeするシェルスクリプトの行を
 
-[bash]
+```bash
 catkin_make -j8 || catkin_make -j8 #CPU2個だけど8並列頑張ってね。しかも1回目コケたらもう一回やってね。
-[/bash]
+```
 
 というように変更したらテストにパスしました。
 
@@ -54,10 +54,10 @@ catkin_make -j8 || catkin_make -j8 #CPU2個だけど8並列頑張ってね。し
 
 （もっと短い書き方がありそうですが）とりあえずベタにCMakeLists.txtに以下のように書いたら一回のcatkin_make（オプションなし）で通りました。
 
-[bash]
+```bash
 add_dependencies(leds ${TARGET_NAME} ${PROJECT_NAME}_generate_messages_cpp)
 add_dependencies(buttons ${TARGET_NAME} ${PROJECT_NAME}_generate_messages_cpp)
 add_dependencies(lightsensors ${TARGET_NAME} ${PROJECT_NAME}_generate_messages_cpp)
-[/bash]
+```
 
 ありがとうございました！！！

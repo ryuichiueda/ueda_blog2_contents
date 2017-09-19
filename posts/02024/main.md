@@ -34,18 +34,18 @@ Macで解答を作ったのでLinuxな方は次のようにコマンドの読み
 
 まず、次のようにファイルを作ってください。
 
-[bash]
+```bash
 $ touch apple avocado banana cinnamon melon
 $ ls
 apple avocado banana cinnamon melon
 
-[/bash]
+```
 
 <!--more-->
 
 「a,b,c,m」というディレクトリを作って、1文字目が対応するファイルをそれぞれのディレクトリに移動してください。
 
-[bash]
+```bash
 ###こうなったらOK###
 $ ls *
 a:
@@ -59,29 +59,29 @@ cinnamon
  
 m:
 melon
-[/bash]
+```
 <h2>第2問</h2>
 
 まず、次のように名前にスペースが入ったファイルを作ります。
 
-[bash]
+```bash
 $ touch &quot;私は 蟹&quot; &quot;オシャレな 蟹&quot; &quot;足が 10本&quot;
 $ ls -l
 total 0
 -rw-r--r-- 1 ueda staff 0 2 14 11:22 私は 蟹
 -rw-r--r-- 1 ueda staff 0 2 14 11:22 足が 10本
 -rw-r--r-- 1 ueda staff 0 2 14 11:22 オシャレな 蟹
-[/bash]
+```
 
 このままでは何かと扱いづらいので、間にアンダーバーを入れて次のように名前を変更してください。
 
-[bash]
+```bash
 $ ls -l
 total 0
 -rw-r--r-- 1 ueda staff 0 2 14 11:25 私は_蟹
 -rw-r--r-- 1 ueda staff 0 2 14 11:25 足が_10本
 -rw-r--r-- 1 ueda staff 0 2 14 11:25 オシャレな_蟹
-[/bash]
+```
 
 <h2>第3問</h2>
 
@@ -89,7 +89,7 @@ total 0
 
 （ワンライナーが思いつかない場合は、とりあえず手作業でやってみてください。）
 
-[bash]
+```bash
 ###こんな感じでどうぞ###
 uedambp:20140214USPSTUDY ueda$ ls -l | head
 total 1460
@@ -104,13 +104,13 @@ total 1460
 -rw-r--r-- 1 ueda staff 28 2 14 10:23 20140109
 uedambp:20140214USPSTUDY ueda$ cat 20140101
 水 1 1 00:00:00 JST 2014
-[/bash]
+```
 
 <h2>第4問</h2>
 
 次のように4個ファイルを作って、a_ramenとa_curry、b_appleとb_tomatoのファイルの中身を入れ替えてください。
 
-[bash]
+```bash
 $ echo カレー &gt; a_ramen
 $ echo ラーメン &gt; a_curry
 $ echo トマト &gt; b_apple
@@ -121,26 +121,26 @@ a_curry:ラーメン
 a_ramen:カレー
 b_apple:トマト
 b_tomato:リンゴ
-[/bash]
+```
 
 
 <h2>第5問</h2>
 
 各月ごとにtar.gzファイルにしてください。
 
-[bash]
+```bash
 ###こんな感じで###
 uedambp:20140214USPSTUDY ueda$ ls *.tar.gz
 201401.tar.gz 201404.tar.gz 201407.tar.gz 201410.tar.gz
 201402.tar.gz 201405.tar.gz 201408.tar.gz 201411.tar.gz
 201403.tar.gz 201406.tar.gz 201409.tar.gz 201412.tar.gz
-[/bash]
+```
 
 <h2>第6問</h2>
 
 次のようなディレクトリ・ファイル操作を行って下さい。
 
-[bash]
+```bash
 ###小問1: ディレクトリを作る###
  ~/a/a/a/.../a/a/ （aが百個）
 ###小問2: ファイルを作る###
@@ -151,7 +151,7 @@ uedambp:a ueda$ pwd
 /a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a
 /a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a
 /a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a
-[/bash]
+```
 
 
 
@@ -160,7 +160,7 @@ uedambp:a ueda$ pwd
 先ほど作ったファイルbを、50番目のaディレクトリに移動して下さい。
 
 ↓うまくできたかどうかの確認方法
-[bash]
+```bash
 ###~から50番目のaに移動###
 uedambp:~ ueda$ for a in {1..50} ; do cd a ; done
 ###bがあるか確認###
@@ -181,7 +181,7 @@ uedambp:a ueda$ pwd
 ###なにもない###
 uedambp:a ueda$ ls
 uedambp:a ueda$ 
-[/bash]
+```
 
 <h2>第8問</h2>
 

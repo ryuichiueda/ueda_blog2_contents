@@ -10,12 +10,12 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 環境はMac．たぶんもうちょっと短くなる．
 
-[bash]
+```bash
 $ echo 1 2 3 5 7 8 | tr ' ' '\\n' |\\
 awk '{if(a==$1-1){printf(&quot; %d&quot;,$1)}else{printf(&quot;\\n%d&quot;,$1)}a=$1}' |\\
 awk 'NF&gt;1{print $1&quot;-&quot;$NF}NF&lt;=1{print $1}' | tr '\\n' ',' | gsed 's/,$/\\n/g'
 1-3,5,7-8
-[/bash]
+```
 
 gsedはLinuxだとsedでやります．
 

@@ -9,13 +9,13 @@ Copyright: (C) 2017 Ryuichi Ueda
 <hr />
 こういうふうに、ファイル名でメモとる人います？？
 
-[bash]
+```bash
 $ ls -l
 total 104
 -rwxr-xr-x 1 ueda staff 39887 2 17 10:17 20140301会合.xlsx
 -rw-r--r-- 1 ueda staff 58368 2 17 10:09 ○×会告Ver2.doc
 -rw-r--r-- 1 ueda staff 0 2 17 10:21 memo.参加費用は1万
-[/bash]
+```
 
 <hr />
 
@@ -32,12 +32,12 @@ total 104
 
 ちなみにやり方ですが、
 
-[bash]
+```bash
 uedambp:SCI2014 ueda$ touch &quot;3月14日まで6ページか8ページ&quot;
 uedambp:SCI2014 ueda$ ls
 3月14日まで6ページか8ページ sci.sty sci2014.dvi sci2014.pdf
 Makefile sci2014.aux sci2014.log sci2014.tex
-[/bash]
+```
 
 と、touchコマンドを使うのが普通かと。
 

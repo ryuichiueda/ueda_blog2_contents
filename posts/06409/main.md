@@ -49,65 +49,65 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 次のようなデータを
 
-[bash]
+```bash
 $ cat data1
 a 1
 b 4
 a 2
 a 3
 b 5
-[/bash]
+```
 
 次のように変換してみましょう。
 
-[bash]
+```bash
 a 1 2 3
 b 4 5
-[/bash]
+```
 
 余力のある人は次のようなJSON形式にしてみましょう。
 
-[bash]
+```bash
 {a:[1,2,3],b:[4,5]}
-[/bash]
+```
 
 <h2>解答</h2>
 
 連想配列にデータを追記していって最後に出力するのが楽な方法です。
 
-[bash]
+```bash
 $ cat data1 | awk '{d[$1]=d[$1]&quot; &quot;$2}END{for(k in d){print k d[k]}}' 
 a 1 2 3
 b 4 5
-[/bash]
+```
 
 JSONにするには力技（しか思い浮かばなかった）。
 
-[bash]
+```bash
 $ cat data1 | awk '{d[$1]=d[$1]&quot; &quot;$2}END{for(k in d){print k d[k]}}' |
  awk -v q='&quot;' '{printf q$1q&quot;:[&quot;;for(i=2;i&lt;=NF;i++){printf $i&quot;,&quot;};print &quot;]&quot;}' |
  xargs | tr ' ' ',' | awk '{print &quot;{&quot;$0&quot;}&quot;}' | sed 's/,]/]/g'
 {a:[1,2,3],b:[4,5]}
-[/bash]
+```
 
 <h2>Q2</h2>
 
 以下の数字のファイルから同じレコード（行）があるかないかを調べ、ある場合には何行目と何行目にあるのか出力しましょう。
 
-[bash]
+```bash
 $ cat data
 0.5937836043 0.4644710001
 0.3637036697 0.5593602512
 0.5655269331 0.6793148112
 0.7804610574 0.2905477797
 0.3637036697 0.5593602512
-[/bash]
+```
 
 <h2>解答</h2>
 
-[bash]
+```bash
 $ cat data | awk 'a[$0]{print a[$0],NR,$0}{a[$0]=NR}'
-[/bash]
+```
 
 1千万行でも10秒くらいで答えが出ることを確認済みです。もっと大きなレコード数で行う場合はもう一捻り必要です。
 
@@ -116,16 +116,16 @@ $ cat data | awk 'a[$0]{print a[$0],NR,$0}{a[$0]=NR}'
 
 次のJSONのデータについて、aに対応づけられた配列内の数字の合計とbに対応づけられた配列内の数字の合計を求めましょう。
 
-[bash]
+```bash
 $ cat data
 {&quot;a&quot;:[1,2,3],&quot;b&quot;:[4,5]}
-[/bash]
+```
 
 <h2>解答</h2>
 
 きれいな方法が思い浮かばないので力技で。
 
-[bash]
+```bash
 $ grep -o '&quot;[ab]&quot;:\\[[^\\[]*\\]' data | tr '&quot;:[],' ' ' |
  awk '{n=0;for(i=2;i&lt;=NF;i++){n+=$i};print $1,n}'
 a 6
@@ -138,21 +138,21 @@ b 9
 $ cat data | jq 'reduce .a[] as $n (0; . + $n),reduce .b[] as $n (0; . + $n)'
 6
 9
-[/bash]
+```
 
 <h2>Q4</h2>
 
 次のようなIPv6アドレスをechoした後にパイプでコマンドをつなぎ、「::」で省略されているセクションに0を補ってください。
 
-[bash]
+```bash
 $ echo 2001:db8::9abc
-[/bash]
+```
 
 ただし、同じワンライナーが
 
-[bash]
+```bash
 ::1
-[/bash]
+```
 
 でも使えるようにしてください。
 
@@ -160,7 +160,7 @@ $ echo 2001:db8::9abc
 
 whileを使ってNFが8になるまでフィールドを補ってから処理してやると素直な処理になります。初めてシェル芸勉強会でawkのwhileを使いました・・・。
 
-[bash]
+```bash
 $ echo 2001:db8::9abc |
  awk -F: '{while(NF!=8){gsub(/::/,&quot;:0::&quot;,$0)};for(i=1;i&lt;=8;i++){$i=$i!=&quot;&quot;?$i:0};print}' |
  tr ' ' ':'
@@ -173,4 +173,4 @@ $ echo ::1 |
 $ echo 2001:db8::9abc |
  awk -F: '{while(NF!=8){gsub(/::/,&quot;:0::&quot;,$0)}print}' |
  tr ':' '\\n' | awk '!NF{print 0}NF{print}' | xargs | tr ' ' ':'
-[/bash]
+```

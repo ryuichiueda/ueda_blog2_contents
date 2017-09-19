@@ -16,7 +16,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <!--more-->
 
-[bash]
+```bash
 ###false | true###でfalseが終了ステータス1を返すが・・・###
 uedambp:~ ueda$ cat hoge.bash 
 #!/bin/bash -e
@@ -26,11 +26,11 @@ echo do not stop
 ###-eがあるにもかかわらずechoが実行される###
 uedambp:~ ueda$ ./hoge.bash 
 do not stop
-[/bash]
+```
 
 が、次のようにpipefailというオプションをセットしておくと（シバンの横には引数を一個しか渡せないと考えた方がよいので、下でsetを使って指定する）、次のように止まります。あらびっくり。
 
-[bash]
+```bash
 uedambp:~ ueda$ cat pipefail.bash 
 #!/bin/bash -e
 
@@ -40,13 +40,13 @@ false | true
 echo do not stop
 uedambp:~ ueda$ ./pipefail.bash 
 uedambp:~ ueda$ &lt;- echoは実行されない
-[/bash]
+```
 
 執筆する前にもうちょっとちゃんとmanをしっかり読んでおけよと自分に鋭いツッコミを入れましたが、bashの文法解説書というよりはコマンドの使い方解説書という感じで書いていたのでちょっと手薄になっておりました・・・。
 
 manにはこう書いてあります。（Linuxだとmanの出力はパイプに渡せます。）
 
-[bash]
+```bash
 ueda\@ubuntu:~$ man bash 2&gt; /dev/null | grep -A 3 pipefail$
  pipefail
  設定されている場合、パイプラインの返り値は、 0 以外のステータスで終了した最後の
@@ -57,7 +57,7 @@ ueda\@ubuntu:~$ LANG=C man bash 2&gt; /dev/null | grep -A 3 pipefail$
  If set, the return value of a pipeline is the value of the last (rightmost)
  command to exit with a non-zero status, or zero if all commands in the pipeline
  exit successfully. This option is disabled by default.
-[/bash]
+```
 
 <span style="color:red">しっかし、これ読んでも一回で正しい意味を読み取れるかどうか自信はありませぬ・・・。</span>
 
@@ -69,7 +69,7 @@ ueda\@ubuntu:~$ LANG=C man bash 2&gt; /dev/null | grep -A 3 pipefail$
 
 trapと組み合わると、後始末ができてしまいます・・・。
 
-[bash]
+```bash
 uedambp:~ ueda$ cat pipefail_error.bash 
 #!/bin/bash -e
 
@@ -90,17 +90,17 @@ false | true
 
 ###これ以後は実行されない###
 echo do not stop
-[/bash]
+```
 
 やってみましょう。
 
-[bash]
+```bash
 uedambp:~ ueda$ ./pipefail_error.bash 
 ERROR
 ###ファイルが消えている###
 uedambp:~ ueda$ ls hoge
 gls: cannot access hoge: No such file or directory
-[/bash]
+```
 
 ああああアホでした。自分で気がついてよかった。
 

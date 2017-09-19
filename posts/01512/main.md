@@ -11,7 +11,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 Python書かなくても、私については次のようなシェルスクリプトを原稿のディレクトリに置いておけば事足ります。reStの*前後の空白を*ごと潰し、2連バッククォートを取り去って標準出力に出します。適当ですが、何かあったらまた改造すりゃいいだけの話です。
 
-[bash]
+```bash
 uedamac:pub ueda$ cat remove_space 
 #!/bin/bash
 
@@ -20,15 +20,15 @@ sed 's/\\* //g'	|
 sed 's/^\\*//'	|
 sed 's/\\*$//'	|
 sed 's/ *`` *//g'
-[/bash]
+```
 
 つかってみましょう。
 
-[bash]
+```bash
 uedamac:pub ueda$ echo '``だっ`` *ふん* だ' | ./remove_space &gt; ./for_pub.txt
 uedamac:pub ueda$ cat for_pub.txt
 だっふんだ
-[/bash]
+```
 
 for_pub.txtとSphinxで作ったHTMLを編集様に送る事にします。数ヶ月後に、1ページにデカデカと「だっふんだ」と書かれた雑誌が出版されます。南無阿弥陀仏。
 

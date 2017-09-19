@@ -11,32 +11,32 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 まず、とりあえず要素をechoしてみます。
 
-[bash]
+```bash
 uedambp:~ ueda$ echo a b c d
 a b c d
-[/bash]
+```
 
 次にこうやって・・・
 
 <!--more-->
 
-[bash]
+```bash
 uedambp:~ ueda$ echo a b c d | gsed 's;[^ ]*;\\{,&amp;\\},;g' | tr -d ' ' |
  awk '{print &quot;echo&quot;,$0}'
 echo {,a},{,b},{,c},{,d},
-[/bash]
+```
 
 bashに突っ込みます。
 
-[bash]
+```bash
 uedambp:~ ueda$ echo a b c d | gsed 's;[^ ]*;\\{,&amp;\\},;g' | tr -d ' ' |
  awk '{print &quot;echo&quot;,$0}' | bash
 ,,,, ,,,d, ,,c,, ,,c,d, ,b,,, ,b,,d, ,b,c,, ,b,c,d, a,,,, a,,,d, a,,c,, a,,c,d, a,b,,, a,b,,d, a,b,c,, a,b,c,d,
-[/bash]
+```
 
 あとは適当に整形して終わり。
 
-[bash]
+```bash
 uedambp:~ ueda$ echo a b c d | gsed 's;[^ ]*;\\{,&amp;\\},;g' | tr -d ' ' | awk '{print &quot;echo&quot;,$0}' | bash | sed 's/,,*/,/g' | tr ' ' '\\n' | sed 's/,$/}/' | sed 's/^/{/'
 {}
 {,d}
@@ -54,7 +54,7 @@ uedambp:~ ueda$ echo a b c d | gsed 's;[^ ]*;\\{,&amp;\\},;g' | tr -d ' ' | awk 
 {a,b,d}
 {a,b,c}
 {a,b,c,d}
-[/bash]
+```
 
 なーんかもっと簡単な方法があるように思うのですが、思いつきません。シェル芸的にはできたからいいんですけど、もし別解があれば教えていただきたく。
 

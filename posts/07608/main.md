@@ -16,9 +16,9 @@ GitHubにあります。ファイルは
 
 クローンは以下のようにお願いします。
 
-[bash]
+```bash
 $ git clone https://github.com/ryuichiueda/ShellGeiData.git
-[/bash]
+```
 
 <h2>環境</h2>
 今回はUbuntu Linuxで解答例を作りましたので、BSD系、Macな方は以下の表をご参考に・・・。
@@ -68,7 +68,7 @@ ShellGeiData/vol.21/Q1のbba.pdfからテキストを抽出して標準出力に
 
 例題のファイルの日本語にはFlateDecodeという圧縮がかかっていますが、これを解凍する一般的なコマンドは見つかりませんでした。ですのでpdf用のコマンドを紹介するだけで・・・。FlateDecodeの解凍コマンドはzlibを使うと自作はできる模様。
 
-[bash]
+```bash
 ###poppler-utilsをインストール###
 $ sudo apt-get install poppler-utils
 ###あとはlessとかpdftotextとか###
@@ -84,20 +84,20 @@ $ pdftotext -q bba.pdf -
 
 hoge.txt[2016/02/09 22:30:32]
 
-[/bash]
+```
 
 <h2>Q2</h2>
 
 次のデータはShift JIS（cp932）の固定長データです。
 
-[bash]
+```bash
 $ cat anydata.cp932 
 00000001??ӹ޷?ݺ?*******214413051100000002ʰ????ݸ*********114413018800000003???ӷ?ݺ?********210413093100000004??ݷ?ݺ?*********234413000800000005???ް??׳??޷?ݺ?331413090000000006??Э????ݾ޲??ݺ?1234130981
-[/bash]
+```
 
 次のようなUTF-8のテキストに変換してください。
 
-[bash]
+```bash
 00000001ﾊﾅﾓｹﾞｷﾞﾝｺｳ*******2144130511
 00000002ﾊｰﾄﾞﾊﾞﾝｸ*********1144130188
 00000003ｺﾄﾞﾓｷﾞﾝｺｳ********2104130931
@@ -106,11 +106,11 @@ $ cat anydata.cp932
 00000006ﾊﾞﾐｭｰﾀﾞﾒﾝｾﾞｲｷﾞﾝｺｳ1234130981
 
 
-[/bash]
+```
 
 <h3>解答</h3>
 
-[bash]
+```bash
 ###Shift JISの半角は1バイトなのでUTF-8に変換する前に折り返すと楽です。###
 $ cat anydata.cp932 | fold -b35 | nkf -wLux
 00000001ﾊﾅﾓｹﾞｷﾞﾝｺｳ*******2144130511
@@ -131,7 +131,7 @@ $ cat anydata.cp932 | sed 's/[0-9]\\{10\\}/&amp;\\n/g' |
 35
 1
 1
-[/bash]
+```
 
 
 <h2>Q3</h2>
@@ -142,7 +142,7 @@ $ cat anydata.cp932 | sed 's/[0-9]\\{10\\}/&amp;\\n/g' |
 
 GNU dateの-fを使うと楽です。
 
-[bash]
+```bash
 $ seq 20160101 20161231 | date -f - 2&gt; /dev/null | grep 日曜日
 2016年 1月 3日 日曜日 00:00:00 JST
 2016年 1月 10日 日曜日 00:00:00 JST
@@ -158,48 +158,48 @@ $ mdate -e 20160101 20161231 | tr ' ' '\\n' | yobi 1 | awk '$2==0'
 ...
 20161218 0
 20161225 0
-[/bash]
+```
 
 
 <h2>Q4</h2>
 
 次のデータファイル
 
-[bash]
+```bash
 001 あみだばばあ
 002 砂かけばばあ
 003 ******
 004 尾崎んちのババア
-[/bash]
+```
 
 に、次の新しいデータ
-[bash]
+```bash
 002 *******
 003 群馬のシャブばばあ
 005 純愛ババア学園
-[/bash]
+```
 を反映して
 
-[bash]
+```bash
 001 あみだばばあ
 002 *******
 003 群馬のシャブばばあ
 004 尾崎んちのババア
 005 純愛ババア学園
-[/bash]
+```
 というデータを出力してください。
 
 
 <h3>解答</h3>
 
-[bash]
+```bash
 $ sort -ms -k1,1 newdata data | uniq -w 3
 001 あみだばばあ
 002 *******
 003 群馬のシャブばばあ
 004 尾崎んちのババア
 005 純愛ババア学園
-[/bash]
+```
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">Q4$ cat newdata data | sort -snuk1,1 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a></p>&mdash; 石井　久治 (\@hisaharu) <a href="https://twitter.com/hisaharu/status/698388070589018112">2016, 2月 13</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hisaharu">\@hisaharu</a> <br>sort -u -k1,1 newdata data<br>でしたねー！勉強になります</p>&mdash; mollinaca (\@syoutin) <a href="https://twitter.com/syoutin/status/698392272677654528">2016, 2月 13</a></blockquote>
@@ -208,7 +208,7 @@ $ sort -ms -k1,1 newdata data | uniq -w 3
 <h2>Q5</h2>
 GitHubのvol.21/Q5にある次の二つのシェルスクリプトのデバッグをしてください。
 
-[bash]
+```bash
 $ cat ./a.bash 
 #!/bin/bash
 
@@ -224,13 +224,13 @@ ls ˜/
 ###ホームディレクトリが表示されない###
 $ ./b.bash 
 ls: ˜/ にアクセスできません: そのようなファイルやディレクトリはありません
-[/bash]
+```
 
 <h3>解答</h3>
 
 a.bashについては「BOM付きUTF-8」という凶悪なフォーマットなので発見はバイナリの理解が大きな助けになります。が、とりあえずnkfに通せばBOMは取れます。たまにWindowsからやってきます。
 
-[bash]
+```bash
 ###調べるとUTF-8と出るので発見が遅れる。###
 $ nkf -g a.bash 
 UTF-8
@@ -242,17 +242,17 @@ $ nkf -wLux a.bash &gt; a
 $ chmod +x a
 $ ./a
 Hell
-[/bash]
+```
 
 b.bashは、チルダがUTF-8のマルチバイト文字になっていて、~/がホームディレクトリに変換されません。このスクリプトには他にマルチバイト文字がないので、次のようなワンライナーでチルダがおかしいことを発見できます。
 
-[bash]
+```bash
 $ iconv -c -f utf-8 -t ascii b.bash | diff - b.bash 
 3c3
 &lt; ls /
 ---
 &gt; ls ˜/
-[/bash]
+```
 
 
 
@@ -260,22 +260,22 @@ $ iconv -c -f utf-8 -t ascii b.bash | diff - b.bash
 
 次の拡張正規表現をワンライナーで基本正規表現に変換してください。括弧の中の数字は数字の回数の文字列の繰り返しに展開してください。
 
-[bash]
+```bash
 $ cat extended 
 a+h{5}(ho){10}[0-9]+
-[/bash]
+```
 
 <h3>解答</h3>
 
 ゴリゴリです。
 
-[bash]
+```bash
 $ cat extended | sed 's/[+}]/&amp;\\n/g' | sed 's/\\(.*\\)+/\\1\\1*/' |
  tr '{}()' ' ' |
  awk 'NF==2{for(i=1;i&lt;=$2;i++){printf $1};print &quot;&quot;}NF==1' |
  tr -d '\\n' | xargs
 aa*hhhhhhohohohohohohohohoho[0-9][0-9]*
-[/bash]
+```
 
 <h2>Q7</h2>
 
@@ -285,14 +285,14 @@ GitHubのvol.21/Q7にあるテキストについて、各段落の文字数を�
 
 改行をとって数える対象を1行にまとめる方針が簡単です。解答例はロケールが日本語で、awkがgawkである等、いろいろ制約がありますが・・・。
 
-[bash]
+```bash
 $ cat text | tr -d '\\n' | sed 's/　/\\n/g' |
  awk '{print length($1),$1}'
 0 
 15 恥の多い生涯を送って来ました。
 353 自分には、人間の生活というものが、...にわかに興が覚めました。
 103 また、自分は子供の頃、...とばかり思っていました。
-[/bash]
+```
 
 
 
@@ -304,7 +304,7 @@ GitHubのvol.21/Q8にある1350369599.Vfc03I4682c8M940114.remoteから添付フ�
 
 まず、何行目から何行目までがデータなのか調べます。
 
-[bash]
+```bash
 $ grep -n -C 1 -- -- 1350369599.Vfc03I4682c8M940114.remote 
 （略）
 59:--047d7b621ee6cf83c604cc276bb3
@@ -316,11 +316,11 @@ $ grep -n -C 1 -- -- 1350369599.Vfc03I4682c8M940114.remote
 --
 77341-xk9On61jS6VNFJqFxdoIZYbWK6QALsnJbBjHYcc4GT2IHJrGhUevkZ1MNypPuf/Z
 77342:--047d7b621ee6cf83c604cc276bb3--
-[/bash]
+```
 
 で、その範囲を抽出して変換します。一つめの画像の切り出しの例だけ示しておきます。
 
-[bash]
+```bash
 ###出力の範囲を見ながらデータを切り出す###
 $ sed -n '60,665p' 1350369599.Vfc03I4682c8M940114.remote |
  sed -n '6,$p' | base64 -d &gt; a.jpg
@@ -329,7 +329,7 @@ ueda\@remote:~/GIT/ShellGeiData/vol.21/Q5$ identify a.jpg
 a.jpg JPEG 261x261 261x261+0+0 8-bit DirectClass 34.2KB 0.010u 0:00.019
 ###さらにavplayで画像を見る###
 $ avplay a.jpg
-[/bash]
+```
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">Q8 % uudeview -i 1350369599.Vfc03I4682c8M940114.remote<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a></p>&mdash; eban (\@eban) <a href="https://twitter.com/eban/status/698408677804347392">2016, 2月 13</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

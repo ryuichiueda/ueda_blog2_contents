@@ -13,7 +13,7 @@ roslaunchでウェブサーバを立ち上げたい。roslaunchを終わらせ�
 
 次のようなスクリプトwebserver.pyを書いて、scriptsディレクトリに置く。
 
-[python]
+```python
 #!/usr/bin/env python
 import rospy, os
 import CGIHTTPServer
@@ -25,16 +25,16 @@ os.chdir(os.path.dirname(__file__))
 rospy.init_node(&quot;webserver&quot;)
 rospy.on_shutdown(kill)
 CGIHTTPServer.test()
-[/python]
+```
 
 
 launchファイルにノードを次のように書く。
 
-[html]
+```html
 &lt;launch&gt;
  &lt;node pkg=&quot;hoge_webserver&quot; name=&quot;webserver&quot; type=&quot;webserver.py&quot; required=&quot;true&quot; args=&quot;8080&quot; /&gt;
 &lt;/launch&gt;
-[/html]
+```
 
 
 <h2>解説</h2>

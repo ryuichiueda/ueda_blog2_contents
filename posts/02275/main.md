@@ -33,7 +33,7 @@ baibai.cとMakefileが必要なファイルの全てです。あとはmakeとか
 
 動かしてみましょう。入力した数字を倍にして返します。ただ、このデバイスは少々不機嫌なのでちょっとでも入力がイレギュラーだと0を返してきます。あ、事故ってもごめんなさいしか言えませんのでご容赦ください。
 
-[bash]
+```bash
 ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ make
 make -C /usr/src/linux-headers-`uname -r` M=`pwd` V=1 modules
 make[1]: ディレクトリ `/usr/src/linux-headers-3.2.0-53-generic' に入ります
@@ -60,6 +60,6 @@ ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ cat /dev/baibai
 ###後始末（慎重に）make uninstallでもできます###
 ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ sudo rmmod ./baibai
 ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ sudo rm -f /dev/baibai
-[/bash]
+```
 
 このエントリーでは動かすお手伝いをしたまでで、あとは上のURLのサイトに親切な解説があるので、そちらをご参考に。私も勉強になりましたので、感謝申し上げます。<!--:-->

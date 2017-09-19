@@ -10,14 +10,14 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 lsはけしからんコマンドです。何がけしからんか。余計なことをしすぎです。例えば、普通にディレクトリをlsすると、次のようにファイル名を横に並べます。
 
-[bash]
+```bash
 ueda\@remote:~/work$ ls
 agent calendar.tbl ip referer request status time
-[/bash]
+```
 
 と出てきますが、これをパイプにつなげると、
 
-[bash]
+```bash
 ueda\@remote:~/work$ ls | cat
 agent
 calendar.tbl
@@ -26,24 +26,24 @@ referer
 request
 status
 time
-[/bash]
+```
 
 と縦に出てきます。私はここらへんは詳しく無いですが、lsは出力か端末に何か変な細工をしているわけです。まあこれは分からんでもありません。他のコマンドに通せば細工は消えるようですし。
 
 そして、こっちの方が問題だと思うのですが、lsはファイル名を出力するときに、頼みもしないのにソートしくさります。これも端末で人が使うならば分かる気もしますが、ディレクトリにファイルがたくさんある場合に初心者を苦しめます。100万個ファイルを作ってlsしてみましょう。
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ seq 1 1000000 | xargs touch
 ueda\@remote:~/tmp$ ls
 ^C
 
-[/bash]
+```
 
 これ、Ctrl+cやってもなかなか返ってきません。ファイルシステムが絡むとすぐ中断できないことがあるのです。
 
 ちなみにちゃんと最後までやると39秒もかかります（Ubuntu 12.04 on さくらのVPS 1G）。いや、昔なら終わらなかったので39秒で終わるの凄いというところですが・・・。
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ time ls 
 （中略）
 189997 279997 369997 459997 549997 639997 729997 819997 909997 999998
@@ -52,26 +52,26 @@ ueda\@remote:~/tmp$ time ls
 real	0m39.805s
 user	0m9.233s
 sys	0m11.809s
-[/bash]
+```
 
 ディレクトリにファイルがたくさんある状態が、すでにあまりよい状態ではありませんが、いつもUNIXを弄っているような現場だと結構あります。さてどうしたものか。
 
 もったいぶらないでさっさと答えを言うと、まず、lsの結果をファイルに出力すると速くなります。端末に表示する方は、別に表示に手間取っているわけではありません。それにしては時間がかかり過ぎです。
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ time ls &gt; ~/output
 
 real	0m6.474s
 user	0m5.976s
 sys	0m0.496s
-[/bash]
+```
 
 出力先が端末とファイルの場合で挙動が変わるなんて最低です。
 
 さらに速くしたいときは、ls -fかls -Uです。これでソートが切れます。ls -fだと「.」と「..」も出力されます。
 ls -Uだと「.」と「..」は出力されません。
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ time ls -f &gt; ~/output
 
 real	0m0.620s
@@ -104,21 +104,21 @@ ueda\@remote:~/tmp$ head ~/output
 51703
 275023
 594034
-[/bash]
+```
 
 ソートしたけりゃsortすればいいんです。
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ time ls -U | LANG=C sort &gt; ~/output
 
 real	0m1.331s
 user	0m1.068s
 sys	0m0.380s
-[/bash]
+```
 
 なんだかls -fよりls -Uの方が使い勝手がよさそうですが、ところがどっこい、<span style="color:red">端末上ではls -Uは遅いので注意してください</span>。
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ time ls -U
 ...
 766920 230084 666666 934457 725634 803393 94237 773567 592212 504359
@@ -134,7 +134,7 @@ ueda\@remote:~/tmp$ time ls -f
 real	0m16.343s
 user	0m1.300s
 sys	0m1.016s
-[/bash]
+```
 
 こういう挙動不審のコマンドはあまりよろしくありません。
 

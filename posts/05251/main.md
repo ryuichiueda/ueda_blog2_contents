@@ -19,7 +19,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 一個だけ、スクレイピングに使ったシェルスクリプトが差し障りなさそうなので、掲載しておきます。<span style="color:red">読まないでください。</span>
 
-[bash]
+```bash
 #!/bin/bash -xv
 
 dir=$(echo $1 | sed 's;/[^/]*$;;')
@@ -50,7 +50,7 @@ sed 's;^[^ ]*/;;' |
 sed 's/\\.html//' |
 sed 's/_/ /' |
 tee $dir/TYPE_ALL
-[/bash]
+```
 
 gsedとsedが入り混じってますが、単に私がいい加減にやってるだけです。深い意味はありません。あと、シェルスクリプトはシェル芸ではありませんが、これはワンライナーの延長ということで。しかし、<a href="http://blog.ueda.asia/?cat=457">glue</a>でやればよかった・・・。
 
@@ -59,7 +59,7 @@ gsedとsedが入り混じってますが、単に私がいい加減にやって�
 
 あ、これも掲載しても良さそうです。パワポに画像をグレースケールにして貼って、一部文言を差し替えるシェルスクリプトです。テンプレートになるパワポファイルは予めunzipしてあって、そいつのxml等を書き換えてzipしてパワポのファイルに戻すということをやってます。
 
-[bash]
+```bash
 #!/bin/bash -e
 
 #$1: filename $2: IMAGE $3: COURSE
@@ -79,7 +79,7 @@ mv new.xml ./$3/ppt/slides/slide1.xml
 
 mv slide1.xml ./$3/ppt/slides/slide1.xml
 rm $grayimg
-[/bash]
+```
 
 <del>ね、簡単でしょ。</del>
 

@@ -10,9 +10,9 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ・・・で、次のようにクローンが作れると分かりました。
 
-[bash]
+```bash
 uedambp:VirtualBox VMs ueda$ VBoxManage clonevm コピー元 --mode machine --name コピー先 --register
-[/bash]
+```
 
 とりあえずVMのクローンが作りたくてここを訪れた人はこれでお願いします。
 
@@ -40,14 +40,14 @@ uedambp:VirtualBox VMs ueda$ VBoxManage clonevm コピー元 --mode machine --na
 
 <!--more-->
 
-[bash]
+```bash
 uedambp:VirtualBox VMs ueda$ ls *Virgin.tar.gz
 Ubuntu14.04DesktopVirgin.tar.gz Ubuntu14.04ServerVirgin.tar.gz
-[/bash]
+```
 
 んで、次のようなシェルスクリプトでtar.gzファイルを展開することにしました。$1に展開したいtar.gzファイル、$2に新しい名前を指定します。単に解凍するだけだと二つ以上クローンしたときにUUIDがバッティングするので、UUIDを改ざんしています。エラー処理もショボく、力技なので解説するほどのものでもないですが、面白い所では、uuidgenコマンドでしょうか。あと、VirtualBox付属のVBoxManageコマンド。
 
-[bash]
+```bash
 uedambp:VirtualBox VMs ueda$ cat vmcp 
 #!/bin/bash -xv
 
@@ -76,22 +76,22 @@ sed -i.bak2 &quot;s;$OLDUUID;$NEWUUID;g&quot; &quot;$2.vbox&quot;
 OLDUUID=$(cat $2.vbox | grep &quot;Machine uuid&quot; | sed 's/^.*{//' | sed 's/}.*//')
 NEWUUID=$(uuidgen)
 sed -i.bak3 &quot;s;$OLDUUID;$NEWUUID;g&quot; &quot;$2.vbox&quot;
-[/bash]
+```
 
 理屈はいらねえ使ってみやがれということで、使います。
 
-[bash]
+```bash
 uedambp:VirtualBox VMs ueda$ ./vmcp Ubuntu14.04ServerVirgin.tar.gz hoge
 uedambp:VirtualBox VMs ueda$ ./vmcp Ubuntu14.04ServerVirgin.tar.gz huga
-[/bash]
+```
 
 両方立ち上げてみましょう。
 
-[bash]
+```bash
 ###Macの場合、こうやって開く###
 uedambp:VirtualBox VMs ueda$ open hoge/hoge.vbox
 uedambp:VirtualBox VMs ueda$ open huga/huga.vbox
-[/bash]
+```
 
 実行！
 

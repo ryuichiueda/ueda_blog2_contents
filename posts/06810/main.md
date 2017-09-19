@@ -15,7 +15,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ロボットは次のような地図を持っています。ロードした地図をテキストで描画する確認用プログラムの出力を示します。シェル芸でしょうか。いいえ、C++です。
 
-[bash]
+```bash
 uedambp:map ueda$ ./main ./map | head -n 15
 +---+---+---+---+
 | | | 
@@ -26,7 +26,7 @@ uedambp:map ueda$ ./main ./map | head -n 15
 +---+ +---+---+
 | | | 
 +---+---+---+---+
-[/bash]
+```
 
 <span style="color:red">この出力をFacebookに貼りつけたら「Rogueみたい」というコメントを書き込むおじさまがたがたくさん釣れた</span>んですが、さあなんのことやら。
 

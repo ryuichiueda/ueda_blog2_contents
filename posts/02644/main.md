@@ -16,7 +16,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <ul>
  <li>n行のテキストデータ = Haskellのリスト（要素数n）に相当。
-[bash]
+```bash
 ###以下の「list」が等価###
 $ cat list
 a
@@ -25,10 +25,10 @@ c
 Prelude&gt; let list = [&quot;a&quot;,&quot;b&quot;,&quot;c&quot;]
 Prelude&gt; list
 [&quot;a&quot;,&quot;b&quot;,&quot;c&quot;]
-[/bash]
+```
  </li>
  <li>n行m個のテキストデータ = m要素のリストがn個入っているリスト。
-[bash]
+```bash
 ###以下の「mat」が等価###
 uedambp:~ ueda$ cat mat
 a b
@@ -36,7 +36,7 @@ c d
 Prelude&gt; let mat = [[&quot;a&quot;,&quot;b&quot;],[&quot;c&quot;,&quot;d&quot;]]
 Prelude&gt; mat
 [[&quot;a&quot;,&quot;b&quot;],[&quot;c&quot;,&quot;d&quot;]]
-[/bash]
+```
  </li>
 </ul>
 

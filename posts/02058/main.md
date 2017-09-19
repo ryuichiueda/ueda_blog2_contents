@@ -30,7 +30,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 文法に矛盾があるかもしれませんが、ひとつだけ例を。例えば、こんなbashのコードを考えます（動作未確認）。
 
-[bash]
+```bash
 #!/bin/bash
 tmp=/tmp/$$
 
@@ -41,11 +41,11 @@ cat ./file1 |
 grep -v 'huge' &gt; $tmp-2
 
 cat $tmp-1 $tmp-2 &gt; ./file2
-[/bash]
+```
 
 これをこんな風に書けないかと。型にfileとmemがあり、それぞれファイルと、シェル変数に相当します。型というより入れ物ですが。データはすべて文字列にするつもりですが、必要ならばint型とか作る可能性もあります。
 
-[python]
+```python
 import coreutils
 
 def main():
@@ -60,7 +60,7 @@ def main():
 def proc1(mem w,file f):
  cat $f
  grep -v $w
-[/python]
+```
 
 なぜこう書くかという意図ですがいろいろあって、
 

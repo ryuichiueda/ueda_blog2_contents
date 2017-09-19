@@ -22,12 +22,12 @@ Macな人はbrewでGNU grep（ggrep）をインストールすると良かれ悪
 
 次のようにファイルを作ります。
 
-[bash]
+```bash
 $ seq 2 5 &gt; a
 $ seq 1 9 &gt; b
 $ seq 5 11 &gt; c
 $ seq 3 6 &gt; d
-[/bash]
+```
 
 1という文字を含まないファイルを列挙してください（aとdですね）。
 
@@ -35,9 +35,9 @@ $ seq 3 6 &gt; d
 
 作業ディレクトリを作り、その下に次のようにfile.1〜file.10000というファイルを作ります。
 
-[bash]
+```bash
 $ seq 1 10000 | xargs -I\@ touch file.\@
-[/bash]
+```
 
 以下の数字を持つファイルだけ残して後のファイルを消去してください。
 
@@ -53,12 +53,12 @@ $ seq 1 10000 | xargs -I\@ touch file.\@
 次のテキストから、「-v」、「-f」、「awk」の数をカウントしてください。gawk、nawkは避けてください（awkの数としてカウントしない）。できる人はgrepは1個で。さらにできる人は拡張正規表現を使わないでやってみましょう。
 
 
-[bash]
+```bash
 $ cat text1 
 awk -v v=&quot;hoge&quot; 'BEGIN{print v}'
 echo 'BEGIN{print 1}' | gawk -f -
 nawk 'BEGIN{print &quot; BEGIN{print x}&quot;}' | awk -v x=3 -f -
-[/bash]
+```
 
 
 <h1>Q4</h1>
@@ -70,7 +70,7 @@ nawk 'BEGIN{print &quot; BEGIN{print x}&quot;}' | awk -v x=3 -f -
 
 日本語やギリシャ文字のある行を除去してください。
 
-[bash]
+```bash
 $ cat text2 
 A pen is a pen?
 日本語でおk
@@ -78,18 +78,18 @@ A pen is a pen?
 Randy W. Bass
 env x='() { :;}; echo vulnerable' bash -c &quot;echo this is a test&quot;
 #危険シェル芸
-[/bash]
+```
 
 
 <h1>Q6</h1>
 
 次のようにファイルa, b, cを作ります。
 
-[bash]
+```bash
 $ echo 1 2 3 4 &gt; a
 $ echo 2 3 4 5 &gt; b
 $ echo 1 4 5 &gt; c
-[/bash]
+```
 
 ファイルの中の数字を足して10になるファイルを挙げてください。
 
@@ -101,7 +101,7 @@ psコマンドを打って（オプションは任意）、そのpsコマンド�
 
 seqとfactorの出力の後ろにgrepだけをいくつかつなげて、「素数の一つ前の数で、かつ10以上の数」を列挙してください。
 
-[bash]
+```bash
 $ seq 10 1000 | factor | ...(grepだけ)
-[/bash]
+```
 

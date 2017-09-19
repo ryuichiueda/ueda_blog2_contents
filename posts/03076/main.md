@@ -19,25 +19,25 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 まず、Cygwinにw3mが存在している場合、こうすればFirefoxのサイトが見られるはずです。
 
-[bash]
+```bash
 ueda\@remote:~$ w3m http://www.mozilla.org/ja/firefox/new/
-[/bash]
+```
 
 こんな画面が出ます。
 
 <a href="スクリーンショット-2014-04-30-23.11.30.png"><img src="スクリーンショット-2014-04-30-23.11.30-687x1024.png" alt="スクリーンショット 2014-04-30 23.11.30" width="625" height="931" class="aligncenter size-large wp-image-3077" /></a>
 
 で、カーソルを
-[bash]
+```bash
 Firefox のダウンロード — 日本語
  • Windows
-[/bash]
+```
 の所にあわせてEnterを押します。
 
 それで、ダウンロードが始まります。画面下に、
-[bash]
+```bash
 (Download)Save file to: Firefox%20Setup%20Stub%2029.0.exe
-[/bash]
+```
 と出るはずです。
 
 あとは、このファイルを検索で探し出してインストールすればよろしいかと。念のためもう一度言っておきますが、Windowsでは検証しておりません。
@@ -47,8 +47,8 @@ Firefox のダウンロード — 日本語
 
 <h2>追記: じゃあCygwinどうやってダウンロードするんだよ？（注意: これもダメ）</h2>
 
-[bash]
+```bash
 $ wget http://cygwin.com/setup-x86_64.exe
-[/bash]
+```
 
 でいいんですが・・・。wgetがないという・・・。みんな不便なもの使ってるな・・・

@@ -21,9 +21,9 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 クローンは以下のようにお願いします。
 
-[bash]
+```bash
 $ git clone https://github.com/ryuichiueda/ShellGeiData.git
-[/bash]
+```
 
 <h2>環境</h2>
 今回はLinuxで解答例を作りましたので、BSD系、Macな方は以下の表をご参考に・・・。
@@ -59,7 +59,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 次のファイルは1列目がキー、2列目が値ですが、「オトン」と「オカン」の両方の値があるキーを探してください。
 
-[bash]
+```bash
 $ cat text 
 001 オトン
 001 オトン
@@ -72,22 +72,22 @@ $ cat text
 005 オトン
 005 ミカン
 005 アカン
-[/bash]
+```
 
 <h2>解答</h2>
 
 値がオトンとオカンのレコードを抽出してuniqで1列目が重複しているレコードを探します（解答例の出力の2列目は無視で）。
 
-[bash]
+```bash
 $ grep -e オトン -e オカン text | sort -u | uniq -w 3 -d
 003 オカン
-[/bash]
+```
 
 <h2>Q2</h2>
 
 次の２つのファイルについて、aだけにあるレコード、bだけにあるレコード、両方にあるレコードを分類して、
 
-[bash]
+```bash
 $ cat a 
 谷保
 鹿島田
@@ -98,24 +98,24 @@ $ cat b
 谷保
 登戸
 南多摩
-[/bash]
+```
 
 次のような出力を作ってください。
 
-[bash]
+```bash
 a 鹿島田
 a 川崎
 b 登戸
 b 南多摩
 c 谷保
 c 分倍河原
-[/bash]
+```
 
 <h2>解答</h2>
 
 commを使ってみたかっただけです。
 
-[bash]
+```bash
 $ comm &lt;(sort a) &lt;(sort b) | sed 's/^/\\t/' |
 sed 's/\\t\\t\\t/c /' | sed 's/\\t\\t/b /' | sed 's/\\t/a /' | sort
 a 鹿島田
@@ -135,13 +135,13 @@ b 南多摩
 c 谷保
 c 分倍河原
 
-[/bash]
+```
 
 <h2>Q3</h2>
 
 次の３つのファイルについて、それぞれ書いてある数字の合計値を求めましょう。
 
-[bash]
+```bash
 $ cat a
 1 2
 3 4 5
@@ -152,13 +152,13 @@ $ cat c
 7
 8
 9
-[/bash]
+```
 
 <h2>解答</h2>
 
 どうやってファイル名と値の2列のデータにするかが鍵。
 
-[bash]
+```bash
 $ grep -o &quot;[0-9]*&quot; * |
 awk -F: '{x[$1]+=$2}END{for(k in x){print k,x[k]}}'
 a 15
@@ -169,13 +169,13 @@ $ grep -o &quot;[0-9]*&quot; * | tr : ' ' | sm2 1 1 2 2
 a 15
 b 6
 c 24
-[/bash]
+```
 
 <h2>Q4</h2>
 
 次のデータについて、
 
-[bash]
+```bash
 $ cat cross
 _abcdef
 a_x____
@@ -184,14 +184,14 @@ c______
 d______
 e______
 f___x__
-[/bash]
+```
 
 次のような出力を作ってください。
 
-[bash]
+```bash
 a-b
 f-d
-[/bash]
+```
 
 つまり、xのついている場所の縦軸と横軸の記号を出力するワンライナーを考えてください。
 
@@ -199,7 +199,7 @@ f-d
 
 ベタにAWKを使うか、Tukubaiを使うか。
 
-[bash]
+```bash
 $ sed 's/./&amp; /g' cross |
 awk 'NR==1{split($0,a,&quot; &quot;)}
 /x/{for(i=1;i&lt;=7;i++){if($i==&quot;x&quot;){print $1 &quot;-&quot; a[i]}}}'
@@ -207,13 +207,13 @@ awk 'NR==1{split($0,a,&quot; &quot;)}
 $ sed 's/./&amp; /g' cross | unmap num=1 |
 awk '/x/{print $1 &quot;-&quot; $2}'
 
-[/bash]
+```
 
 <h2>Q5</h2>
 
 次のテキストから空白行の重複だけ除去してください。つまり、2行以上の空白行を1行にまとめてください。
 
-[bash]
+```bash
 あ
 あ
 
@@ -232,13 +232,13 @@ awk '/x/{print $1 &quot;-&quot; $2}'
 お お
 お
 お
-[/bash]
+```
 
 <h2>解答</h2>
 
 文字のある行にだけ番号をつけてuniqすればよいですね。
 
-[bash]
+```bash
 $ grep -n '' text | sed 's/.*:$//' | uniq | sed 's/.*://'
 あ
 あ
@@ -257,7 +257,7 @@ $ grep -n '' text | sed 's/.*:$//' | uniq | sed 's/.*://'
 $ awk '$1{print NR,$0}!$1' text | uniq | sed 's/^[0-9]* //'
 ###ebanさんを始めオプションを知っている人の答え（恐れ入りました）###
 $ cat -s text
-[/bash]
+```
 
 <h2>Q6</h2>
 
@@ -269,25 +269,25 @@ $ cat -s text
 
 PGM形式で画像を作るのが一番簡単です。
 
-[bash]
+```bash
 $ yes '0 1 0 1 0 1 0 1' |
 head -n 8 | sed '1~2s/0 1/1 0/g' | cat &lt;(echo &quot;P2 8 8 1&quot;) - &gt; a.pgm
 ###AWKを使う場合###
 $ seq 1 64 | awk '{print ($1 + int((NR-1)/8))%2}' |
 xargs -n 8 | awk 'BEGIN{print &quot;P2&quot;,8,8,1}{print}' &gt; a.pgm
-[/bash]
+```
 
 pgmが見れない。あるいは8x8ピクセルだとヤダという場合はImageMagickで変換を。
 
-[bash]
+```bash
 $ convert -scale 400 a.pgm a.png
-[/bash]
+```
 
 <h2>Q7</h2>
 
 次のファイルには1組だけ同じ文字が含まれていますが、何行目と何行目にあるでしょうか？
 
-[bash]
+```bash
 $ cat chinese_characters 
 㔀㔁㔂㔃㔄㔅㔆㔇㔈㔉㔊㔋㔌㔍㔎㔏
 㔐㔑㔒㔓㔔㔕㔖㔗㔘㔙㔚㔛㔜㔝㔞㔟
@@ -305,28 +305,28 @@ $ cat chinese_characters
 㗐㗑㗒㗓㗔㗕㗖㗗㗘㗙㗚㗛㗜㗝㗞㗟
 㗠㗡㗢㗣㗤㗥㗦㗧㗨㗩㗪㗫㗬㗭㗮㗯
 㗰㗱㗲㗳㗴㗵㗶㗷㗸㗹㗺㗻㗼㗽㗾㗿
-[/bash]
+```
 
 
 <h2>解答</h2>
 
 同じファイルをワンライナーで二回読み込みます。
 
-[bash]
+```bash
 $ grep -o . chinese_characters | LANG=C sort | 
 LANG=C uniq -d | grep -f - -n chinese_characters 
 6:㕐㕑㕒㕓㕔㕕㕖㕗㕘㕙㕚㕛㕜㕝㕞㕟
 13:㗀㗁㗂㗃㗄㗅㗆㗇㗈㗉㕐㗊㗋㗌㗍㗎
-[/bash]
+```
 
 LANG=Cをちゃんと付けないとダメなようです。
 
-[bash]
+```bash
 ###間違い###
 $ grep -o . chinese_characters | sort |
 uniq -d | grep -f - -n chinese_characters 
 1:㔀㔁㔂㔃㔄㔅㔆㔇㔈㔉㔊㔋㔌㔍㔎㔏
-[/bash]
+```
 
 
 
@@ -334,17 +334,17 @@ uniq -d | grep -f - -n chinese_characters
 
 次のファイルの中に、複数回登場する数字の並びがいくつかありますが、その中で最長のものはどれでしょうか？例えば「23」という数字の並びは4つありますが、それより長い数字の列で、2回以上登場するものが存在します。
 
-[bash]
+```bash
 $ cat number 
 8264611130023148519839960536022802096895154738213681101003238003191122723922378922942503388843815799
-[/bash]
+```
 
 
 <h2>解答</h2>
 
 どうやって数字の並びを全通り出力するかがミソです。以下の出力のように003と922が正解です。
 
-[bash]
+```bash
 $ cat number |
 awk '{for(j=1;j&lt;length($1);j++)for(i=1;i&lt;=length($1)-j+1;i++){print substr($1,i,j)}}' |
 sort | uniq -d | awk '{print length($1),$1}' | sort -k1,1n
@@ -352,4 +352,4 @@ sort | uniq -d | awk '{print length($1),$1}' | sort -k1,1n
 2 99
 3 003
 3 922
-[/bash]
+```

@@ -14,10 +14,10 @@ Macでこんなワンライナーを書いて実行してしまい・・・
 
 <!--more-->
 
-[bash]
+```bash
 $ echo ソーセージ 餃子 シメのラーメン |
  awk -v OFS=&quot;\\xF0\\x9f\\x8d\\xba&quot; '{print $1,$2,$3}'
-[/bash]
+```
 
 
 こんな出力を得ました。
@@ -28,10 +28,10 @@ $ echo ソーセージ 餃子 シメのラーメン |
 
 さらに・・・
 
-[bash]
+```bash
 $ echo ソーセージ 餃子 シメのラーメン | sed p | sed p | sed p |
  awk -v OFS=&quot;\\xF0\\x9f\\x8d\\xba&quot; '{print $1,$2,$3}'
-[/bash]
+```
 
 <a href="スクリーンショット-2015-04-12-23.04.52.png"><img src="スクリーンショット-2015-04-12-23.04.52-300x181.png" alt="スクリーンショット 2015-04-12 23.04.52" width="300" height="181" class="aligncenter size-medium wp-image-5777" /></a>
 

@@ -45,16 +45,16 @@ Linuxで解答を作ったのでMacな方は次のようにコマンドの読み
 
 次の数字の列を足し算してください。（できる人はなるべく変態的に）
 
-[bash]
+```bash
 $ echo 2 5 9 8 1 3 7 4
 2 5 9 8 1 3 7 4
-[/bash]
+```
 
 <h2>Q2</h2>
 
 スペースと数字と改行を使って次のようなファイルを作り、書いた数を足し算してください。
 
-[bash]
+```bash
 $ cat nums 
  1
 
@@ -63,35 +63,35 @@ $ cat nums
  6 7
 
 8 9
-[/bash]
+```
 
 <h2>Q3</h2>
 
 文字数を数えてください。改行記号は数えないでください。
 
-[bash]
+```bash
 ueda\@remote:~$ cat genkou
 筆者は朝、目玉焼きを食べた。
 昼、著者は卵がけごはんを食べた。
 そして夜、著者はマンハッタンの夜景を
 見ながらゆで玉子を食べた。
-[/bash]
+```
 
 
 <h2>Q4</h2>
 
 次のようなファイルを作り、ファイルの中に三個存在する文字を出力してください。
 
-[bash]
+```bash
 ueda\@remote:~$ cat hoge
 aabbcdabbcccdd
-[/bash]
+```
 
 <h2>Q5</h2>
 
 次のようなファイル、ディレクトリを作ってください。そして、file1, file2, file3をカレントディレクトリに移動してください。
 
-[bash]
+```bash
 $ mkdir -p a/b/c
 $ touch a/file1 a/b/file2 a/b/c/file3
 $ tree
@@ -104,34 +104,34 @@ $ tree
  └── file1
 
 3 directories, 3 files
-[/bash]
+```
 
 <h2>Q6</h2>
 
 次のようにファイルとディレクトリを作り、hogeと書いてあるファイルをディレクトリa、
 それ以外のファイルをディレクトリbに振り分けてください。
 
-[bash]
+```bash
 $ echo hoge &gt; file1
 $ echo huge &gt; file2
 $ echo hoge &gt; file3
 $ echo hoge &gt; file4
 $ mkdir a b
-[/bash]
+```
 
 <h2>Q7</h2>
 
 以下の9つのファイルについて、二つのファイルの組み合わせを全て列挙してください。ただし、重複してはいけません。
 
-[bash]
+```bash
 uedambp:~ ueda$ touch file{1..9}
 uedambp:~ ueda$ ls file{1..9}
 file1 file2 file3 file4 file5 file6 file7 file8 file9
-[/bash]
+```
 
 出力例
 
-[bash]
+```bash
 file1 file2
 file1 file3
 file1 file4
@@ -145,7 +145,7 @@ file2 file4
 file2 file5
 file2 file6
 ...
-[/bash]
+```
 
 <h2>Q8</h2>
 

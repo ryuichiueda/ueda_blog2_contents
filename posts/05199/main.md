@@ -12,7 +12,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 今まではechoを書かないとファイルや文字列に文字が入って行きませんでしたが、要らなくなりました。
 
-[hs]
+```hs
 uedambp:GlueLang ueda$ cat fuge.glue 
 import PATH
 
@@ -21,30 +21,30 @@ str s = 'cde'
 
 cat f
 echo s
-[/hs]
+```
 
 <!--more-->
 
 実行するとこの通りに機能します。
 
-[hs]
+```hs
 uedambp:GlueLang ueda$ ./glue fuge.glue 
 abc
 cde
-[/hs]
+```
 
 たぶん今後、Pythonみたいに文字列をいじれるように改良すると思います。こんなふうに。
 
-[hs]
+```hs
 file f = 'ab%sc%d' % 'hoge' 1234
-[/hs]
+```
 
 
 <h1>リテラルの文字列の改行に対応</h1>
 
 ということは、ヒアドキュメントは不要ということで、こんなふうにAWKのコードを書くことができます。
 
-[hs]
+```hs
 uedambp:GlueLang ueda$ cat fuga.glue 
 import PATH
 
@@ -54,13 +54,13 @@ file code = '
 '
 
 seq 1 10 &gt;&gt;= gfactor &gt;&gt;= awk -f code
-[/hs]
+```
 
 <span style="color:red">これでglue自体には文字列処理を実装する必要がないなーと思ったり思わなかったり。</span>
 
 一応実行しときます。
 
-[hs]
+```hs
 uedambp:GlueLang ueda$ ./glue fuga.glue 
 素数じゃねえ
 素数 2
@@ -72,11 +72,11 @@ uedambp:GlueLang ueda$ ./glue fuga.glue
 素数じゃねえ
 素数じゃねえ
 素数じゃねえ
-[/hs]
+```
 
 whereを使うとワンライナーにawkの長いコードをぶち込むことができます。しかしちょっと分かりにくいかなあ・・・
 
-[hs]
+```hs
 uedambp:GlueLang ueda$ cat fuge.glue 
 import PATH
 
@@ -85,13 +85,13 @@ seq 1 10 &gt;&gt;= gfactor &gt;&gt;= awk -f awkcode
 		NF==2{print &quot;素数&quot;,$2}
 		NF!=2{print &quot;素数じゃねえ&quot;}
 		'
-[/hs]
+```
 
 <h1>procをサブシェル化</h1>
 
 変数やimportの情報を引き継げるようになりました。ということで、上のコード（fuge.glue）は次のように書き直すことができます。awkのパスが通ります。
 
-[hs]
+```hs
 uedambp:GlueLang ueda$ cat fuge.glue 
 import PATH
 
@@ -101,13 +101,13 @@ proc awkcode = awk '
 	'
 
 seq 1 10 &gt;&gt;= gfactor &gt;&gt;= this.awkcode
-[/hs]
+```
 
 <h1>文字列をそのままパイプラインに投入できるように</h1>
 
 最後に変態機能について。次のように文字列をパイプラインに送り込めるようにしました。
 
-[hs]
+```hs
 uedambp:GlueLang ueda$ cat hoge.glue 
 import PATH
 
@@ -119,11 +119,11 @@ uedambp:GlueLang ueda$ ./glue hoge.glue
 cba
 fed
 ihg
-[/hs]
+```
 
 改行がちょっと格好悪いので、リストで渡すこともできます。ただ、単に改行でjoinして渡すだけなので、紛らわしいかもしれません。
 
-[hs]
+```hs
 uedambp:GlueLang ueda$ cat hoge2.glue 
 import PATH
 
@@ -133,7 +133,7 @@ uedambp:GlueLang ueda$ ./glue hoge2.glue
 cba
 fed
 ihg
-[/hs]
+```
 
 だんだん変態フレーバーが漂い始めたような気がしないでもない。
 

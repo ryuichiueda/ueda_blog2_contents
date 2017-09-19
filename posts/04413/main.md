@@ -53,7 +53,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <h1>解答</h1>
 
-[bash]
+```bash
 ueda\@remote:~$ seq 100 | xargs | tr ' ' '*' | bc
 93326215443944152681699238856266700490715968264381621468592963895217\\
 59999322991560894146397615651828625369792082722375825118521091686400\\
@@ -65,14 +65,14 @@ ueda\@remote:~$ echo `seq 100` &quot;`yes '*' | head -99`&quot; p | dc
 933262154439441526816992388562667004907159682643816214685929638952175\\
 999932299156089414639761565182862536979208272237582511852109168640000\\
 00000000000000000000
-[/bash]
+```
 
 
 <h1>Q2</h1>
 
 次のseqからsed（と言ってもgsed）だけでfizzbuzzを完成させてください。
 
-[bash]
+```bash
 ueda\@remote:~$ seq 100 | sed ...
 1
 2
@@ -95,49 +95,49 @@ Fizz
 19
 Buzz
 ...
-[/bash]
+```
 
 <h1>解答</h1>
 
-[bash]
+```bash
 ueda\@remote:~$ seq 100 | sed '5~5s/.*/Buzz/' | sed '3~3s/[0-9]*/Fizz/'
-[/bash]
+```
 
 
 <h1>Q3</h1>
 
 このうち素数はどれでしょうか？
 
-[bash]
+```bash
 ueda\@remote:~$ echo 0xaf 0x13 0x0d 0x24 0x58
-[/bash]
+```
 
 <h1>解答</h1>
 
-[bash]
+```bash
 ueda\@remote:~$ echo 0xaf 0x13 0x0d 0x24 0x58 | xargs printf &quot;%d\\n&quot; |
  factor | awk 'NF==2{print $2}' | xargs printf &quot;0x%02x\\n&quot;
 0x13
 0x0d
-[/bash]
+```
 
 <h1>Q4</h1>
 
 次の16進数（UTF-8）で書かれたメッセージを復元してください。
 
-[bash]
+```bash
 e89fb9e3818ce9a39fe381b9e3819fe38184
-[/bash]
+```
 
 <h1>解答</h1>
 
-[bash]
+```bash
 ueda\@remote:~$ echo e89fb9e3818ce9a39fe381b9e3819fe38184 | xxd -p -r
 蟹が食べたいueda\@remote:~$
 ueda\@remote:~$ echo e89fb9e3818ce9a39fe381b9e3819fe38184 | fold -b2 |
  sed 's/^/0x/' | xargs printf '%d\\n' | LANG=C awk '{printf(&quot;%c&quot;,$1)}'
 蟹が食べたいueda\@remote:~$ 
-[/bash]
+```
 
 
 <h1>Q5</h1>
@@ -145,18 +145,18 @@ ueda\@remote:~$ echo e89fb9e3818ce9a39fe381b9e3819fe38184 | fold -b2 |
 次のようなファイルを作ってください。
 （catするとahoとだけ出て、容量は1GB。）
 
-[bash]
+```bash
 ueda\@remote:~$ cat hoge
 aho
 ueda\@remote:~$ ls -l hoge
 -rw-r--r-- 1 ueda ueda 1000000000 12月 7 14:53 hoge
-[/bash]
+```
 
 <h1>解答</h1>
 
-[bash]
+```bash
 $ cat /dev/zero | head -c 999999996 | cat &lt;(echo &quot;aho&quot;) - &gt; hoge
-[/bash]
+```
 
 
 <h1>Q6</h1>
@@ -167,7 +167,7 @@ $ cat /dev/zero | head -c 999999996 | cat &lt;(echo &quot;aho&quot;) - &gt; hoge
 
 <h1>解答</h1>
 
-[bash]
+```bash
 ueda\@remote:~$ curl http://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E5%B1%B1%E4%B8%80%E8%A6%A7_%28%E9%AB%98%E3%81%95%E9%A0%86%29 | 
 sed -n '/&lt;table class=&quot;sortable&quot;/,$p' | sed -n '1,/&lt;\\/table&gt;/p' | 
 grep '^&lt;td&gt;' | grep -v jpg | sed 's/&lt;\\/*small&gt;//g' | sed 's/&lt;\\/.*$//' |
@@ -184,19 +184,19 @@ grep '^&lt;td&gt;' | grep -v jpg | sed 's/&lt;\\/*small&gt;//g' | sed 's/&lt;\\/
 9 北穂高岳 3,106
 10 大喰岳 3,101
 ...
-[/bash]
+```
 
 <h1>Q7</h1>
 
 分数で正確に答えを求めてください。できれば約分してください。
 
-[bash]
+```bash
 echo '1/4 + 2/5 + 7/16 - 5/9'
-[/bash]
+```
 
 <h1>解答</h1>
 
-[bash]
+```bash
 ueda\@remote:~$ echo '1/4 + 2/5 + 7/16 - 5/9' | sed 's/[+-]/\\n&amp;/g' |
  tr '/' ' ' | sed 's/^+ //' | sed 's/- /-/' |
  awk 'BEGIN{n=0;d=1}{n=n*$2+d*$1;d=d*$2}END{print n,d}'
@@ -219,17 +219,17 @@ ueda\@remote:~$ echo '1/4 + 2/5 + 7/16 - 5/9' | sed 's/\\([+-]\\) /\\1/g' |
  awk '{print &quot;from fractions import Fraction ; a = &quot;,$0,&quot;;print a&quot;}' |
  python 
 383/720
-[/bash]
+```
 
 <h1>Q8</h1>
 
-[bash]
+```bash
 *****************************************************************
-[/bash]
+```
 
 をポキポキ折ってください。
 
-[bash]
+```bash
 ###例###
 ************************
  *
@@ -245,11 +245,11 @@ ueda\@remote:~$ echo '1/4 + 2/5 + 7/16 - 5/9' | sed 's/\\([+-]\\) /\\1/g' |
  **
  *
  ***
-[/bash]
+```
 
 <h1>解答</h1>
 
-[bash]
+```bash
 ueda\@remote:~$ echo '*****************************************************************' |
  grep -o . | awk '{r=int(rand()*10);if(r&lt;1){print}else{printf($1)}}' |
  sed '1~2n;s/./&amp;\\n/g' | awk 'NF' |
@@ -268,4 +268,4 @@ ueda\@remote:~$ echo '**********************************************************
  **
  *
  ***
-[/bash]
+```

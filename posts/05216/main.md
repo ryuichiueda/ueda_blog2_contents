@@ -8,7 +8,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <!--more-->
 
-[hs]
+```hs
 #!/usr/local/bin/glue
 import PATH
 
@@ -39,7 +39,7 @@ find './results/'
 #274752 18 36 1 1 32 14167 193095.34
 &gt;&gt;= awk '{avg = $8/$7;print $1,$2,$3,$4,$5,$6,avg}'
 &gt;&gt;= sort '-k1,1n'
-[/hs]
+```
 
 全部パイプなのでbashとたいして変わらんと言えば変わらんのですが、<span style="color:red;font-size:36px">自分の作った言語で実験のコード書くの楽しい</span>という自己満足に浸ることができました。
 
@@ -51,7 +51,7 @@ find './results/'
 
 例を一個のっけておきます。（<span style="color:red">まだちょっと引数の受け渡しにバグがあるようで、このコードをちょっと変えたら変なファイル名のファイルができました。ファイルを作るときは安全なディレクトリで試してみてください。</span>）
 
-[hs]
+```hs
 uedambp:~ ueda$ cat hoge.glue 
 #!/usr/local/bin/glue
 import PATH
@@ -68,11 +68,11 @@ seq 1 10
 
 # 1 2 \\n 3 4 \\n ...
 &gt;&gt;= eachline this.hoge
-[/hs]
+```
 
 動かしてみます。
 
-[hs]
+```hs
 ###シバンにある通り/usr/local/bin/glueにインストールしたglueを使うのでスクリプトをそのまま実行###
 uedambp:~ ueda$ ./hoge.glue 
 ###ファイルができる###
@@ -83,7 +83,7 @@ uedambp:~ ueda$ cat 10
 9 egoh
 uedambp:~ ueda$ cat 2
 1 egoh
-[/hs]
+```
 
 もうかなりC++のコードが構造化されていたので実装は30分くらいで済みましたが、引数を渡すときにメモリの確保を忘れてバグを作ってしまい、そいつを取るのに30分かかってしまいました。メモリリーク怖いっす。
 

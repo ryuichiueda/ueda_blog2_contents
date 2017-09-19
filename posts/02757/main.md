@@ -6,7 +6,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 # ロードアベレージの記録を毎秒つけるワンライナー
 小ネタですが。Ubuntuで検証。
 
-[bash]
+```bash
 hoge\@hoge:~$ while sleep 1 ; do echo $(date &quot;+%Y%m%d %H%M%S&quot;) $(cat /proc/loadavg) ; done 
 20140414 143624 0.00 0.01 0.05 1/133 8622
 20140414 143625 0.00 0.01 0.05 1/133 8625
@@ -15,11 +15,11 @@ hoge\@hoge:~$ while sleep 1 ; do echo $(date &quot;+%Y%m%d %H%M%S&quot;) $(cat /
 20140414 143628 0.00 0.01 0.05 1/133 8634
 ...
 （Ctrl+cで止める。）
-[/bash]
+```
 
 ファイルに溜めたきゃdoneの後ろでリダイレクト。
 
-[bash]
+```bash
 hoge\@hoge:~$ while sleep 1 ; do echo $(date &quot;+%Y%m%d %H%M%S&quot;) $(cat /proc/loadavg) ;\\
  done &gt; loadavg
 （Ctrl+cで止める。）
@@ -28,7 +28,7 @@ hoge\@hoge:~$ cat loadavg
 20140414 143100 0.00 0.01 0.05 1/133 8589
 20140414 143101 0.00 0.01 0.05 1/133 8592
 20140414 143102 0.00 0.01 0.05 1/133 8595
-[/bash]
+```
 
 
 では。

@@ -15,9 +15,9 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 まず、value_iterationというノードを立ち上げます。これがソルバです。
 
-[bash]
+```bash
 $ rosrun simple_value_iteration_ros value_iteration 
-[/bash]
+```
 
 で立ち上がります。
 
@@ -55,7 +55,7 @@ $ rosrun simple_value_iteration_ros value_iteration
 
 です。実行してみます。すぐ収束してしまいますが、価値関数が収束して適切な方策が得られます。
 
-[bash]
+```bash
 $ rosrun simple_value_iteration_ros sample.py 
 ### sweep 1 ###
 values:
@@ -78,7 +78,7 @@ policy:
  0 right 1 right 2 null 
  3 up 4 up 5 up 
  6 up 7 up 8 up 
-[/bash]
+```
 
 
 ・・・もっと詳しい説明が必要なんだけど・・・

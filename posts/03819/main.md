@@ -16,24 +16,24 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 試すのはMacの上です。Haskell入ってない場合は<a href="http://blog.ueda.asia/?page_id=2944" target="_blank">ここ</a>を参考に。
 
-[bash]
+```bash
 uedambp:~ ueda$ cabal install shelly
 （中略）
 In-place registering shelly-1.5.5...
 Installing library in /Users/ueda/.cabal/lib/shelly-1.5.5/ghc-7.6.3
 Registering shelly-1.5.5...
 Installed shelly-1.5.5
-[/bash]
+```
 
 <h2>とりあえずほぼ最小のものを書いてみる</h2>
 
 シェルの
-[bash]
+```bash
 $ echo aho
-[/bash]
+```
 に相当するものを書いてみました。テキストをしかるべき型に変換しないと使えません。これは面倒だ。面倒というよりわけが分からなかったので<a target="_blank" href="http://stackoverflow.com/questions/21715781/shelly-convert-string-to-shelly-filepath">これ</a>を参考にしました。
 
-[hs]
+```hs
 uedambp:~ ueda$ cat echo.hs 
 import Shelly
 import Data.Text hiding (map)
@@ -41,22 +41,22 @@ import Data.Text hiding (map)
 main = shelly $ do run echo args
  where echo = (fromText . pack) &quot;echo&quot;
  args = map pack [&quot;aho&quot;]
-[/hs]
+```
 
 はいはい、実行実行。
 
-[bash]
+```bash
 uedambp:~ ueda$ ghc echo.hs 
 [1 of 1] Compiling Main ( echo.hs, echo.o )
 Linking echo ...
 uedambp:~ ueda$ ./echo 
 aho
-[/bash]
+```
 
 
 <h2>引数をコマンドラインから読み込めるようにする</h2>
 
-[hs]
+```hs
 uedambp:~ ueda$ cat echo-args.hs 
 import System.Environment
 import Shelly
@@ -67,15 +67,15 @@ main = main' =&lt;&lt; getArgs
 main' as = shelly $ do run echo args
  where echo = (fromText . pack) &quot;echo&quot;
  args = map pack as
-[/hs]
+```
 
 
 はい実行。
 
-[bash]
+```bash
 uedambp:~ ueda$ ./echo-args This is a pen.
 This is a pen.
-[/bash]
+```
 
 <h2>感想</h2>
 
@@ -91,7 +91,7 @@ This is a pen.
 
 プラグマ芸ですな・・・。
 
-[hs]
+```hs
 uedambp:~ ueda$ cat echo-args.hs 
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE ExtendedDefaultRules #-}
@@ -105,7 +105,7 @@ default (T.Text)
 main = main' =&lt;&lt; getArgs
 
 main' as = shelly $ do run &quot;echo&quot; (map T.pack as)
-[/hs]
+```
 
 関数はスッキリします。ヘッダが・・・。
 

@@ -5,9 +5,9 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 # Macでcabalが使えるようにしたのでメモ
 <!--:ja--><span style="color:red">2013/11/25追記：今は（このときもそうだったかもしれんが）この方がよい．</span>
-[bash]
+```bash
 $ brew install haskell-platform
-[/bash]
+```
 
 <span style="color:red">以上．</span>
 <hr />
@@ -18,7 +18,7 @@ $ brew install haskell-platform
 
 コンパイルしたいのは次のコードですが・・・
 
-[hs]
+```hs
 uedamac:~ ueda$ cat cat.hs
 import qualified Data.ByteString.Lazy.Char8 as BS
 import Codec.Binary.UTF8.String as CBUS
@@ -31,23 +31,23 @@ main = do BS.getContents &amp;gt;&amp;gt;= putBSLines
 --UTF-8の出力のお約束
 putBSLines :: BS.ByteString -&amp;gt; IO ()
 putBSLines = putStr . CBUS.decodeString . BS.unpack
-[/hs]
+```
 
 素のghcだと次のように叱られます。これが通らないと、このプロジェクトは頓挫します。どうしましょう。<span style="color: #ff0000;">（ちなみに、コードを説明してと言われても、今のところ、無理。）</span>
 
-[bash]
+```bash
 uedamac:~ ueda$ ghc cat.hs
 
 cat.hs:2:8:
  Could not find module `Codec.Binary.UTF8.String'
  Use -v to see a list of the files searched for.
-[/bash]
+```
 
 というわけで、次のサイトを参考に、もうちょっと環境を整えました。
 <ul>
 	<li><a href="http://fp.okeefecreations.com/2011/02/homebrew-for-haskell.html" target="_blank"><span style="line-height: 1.714285714; font-size: 1rem;">http://fp.okeefecreations.com/2011/02/homebrew-for-haskell.html</span></a></li>
 </ul>
-[bash]
+```bash
 ### brew install ghc は終わっている。
 $ brew install haskell-platform
 ==&amp;gt; Downloading http://lambda.haskell.org/platform/download/2012.4.0.0/haskell-p
@@ -80,14 +80,14 @@ Installing executable(s) in /Users/ueda/.cabal/bin
 uedamac:~ ueda$ cabal install utf8-string
 （略）
 uedamac:~ ueda$ ghc cat.hs
-[/bash]
+```
 
 <span style="color: #ff0000;">通りました。</span>
 
-[bash]
+```bash
 uedamac:~ ueda$ echo へのへのもへじ | ./cat
 へのへのもへじ
-[/bash]
+```
 
 実行もできた。よかったよかった。
 
@@ -99,7 +99,7 @@ uedamac:~ ueda$ echo へのへのもへじ | ./cat
 
 コンパイルしたいのは次のコードですが・・・
 
-[hs]
+```hs
 uedamac:~ ueda$ cat cat.hs
 import qualified Data.ByteString.Lazy.Char8 as BS
 import Codec.Binary.UTF8.String as CBUS
@@ -112,23 +112,23 @@ main = do BS.getContents &amp;gt;&amp;gt;= putBSLines
 --UTF-8の出力のお約束
 putBSLines :: BS.ByteString -&amp;gt; IO ()
 putBSLines = putStr . CBUS.decodeString . BS.unpack
-[/hs]
+```
 
 素のghcだと次のように叱られます。これが通らないと、このプロジェクトは頓挫します。どうしましょう。<span style="color: #ff0000;">（ちなみに、コードを説明してと言われても、今のところ、無理。）</span>
 
-[bash]
+```bash
 uedamac:~ ueda$ ghc cat.hs
 
 cat.hs:2:8:
  Could not find module `Codec.Binary.UTF8.String'
  Use -v to see a list of the files searched for.
-[/bash]
+```
 
 というわけで、次のサイトを参考に、もうちょっと環境を整えました。
 <ul>
 	<li><a href="http://fp.okeefecreations.com/2011/02/homebrew-for-haskell.html" target="_blank"><span style="line-height: 1.714285714; font-size: 1rem;">http://fp.okeefecreations.com/2011/02/homebrew-for-haskell.html</span></a></li>
 </ul>
-[bash]
+```bash
 ### brew install ghc は終わっている。
 $ brew install haskell-platform
 ==&amp;gt; Downloading http://lambda.haskell.org/platform/download/2012.4.0.0/haskell-p
@@ -161,14 +161,14 @@ Installing executable(s) in /Users/ueda/.cabal/bin
 uedamac:~ ueda$ cabal install utf8-string
 （略）
 uedamac:~ ueda$ ghc cat.hs
-[/bash]
+```
 
 <span style="color: #ff0000;">通りました。</span>
 
-[bash]
+```bash
 uedamac:~ ueda$ echo へのへのもへじ | ./cat
 へのへのもへじ
-[/bash]
+```
 
 実行もできた。よかったよかった。
 

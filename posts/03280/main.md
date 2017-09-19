@@ -42,14 +42,14 @@ Copyright: (C) Ryuichi Ueda
 <div><tt class="docutils literal"><span class="pre">/etc/passwd</span></tt> から、ユーザ名を抽出したリストを作ってください。</div></blockquote>
 
 <p>シェルのワンライナーだと簡単ですね。</p>
-[bash]
+```bash
 ueda\@ubuntu:~$ cat /etc/passwd | awk &amp;quot;-F:&amp;quot; &amp;#39;{print $1}&amp;#39;
 ...
 sshd
 ueda
 mysql
 postfix
-[/bash]
+```
 
 <p>等、さらっとできます。さあこれをHaskellでやりましょう（脚注：今、とても面倒くさいという気分です。）。</p>
 
@@ -58,14 +58,14 @@ Macがおすすめです。</p>
 
 <p>Ubuntuの場合、次のコマンド一発でHaskellの環境がインストールできます。</p>
 
-[bash]
+```bash
 ueda\@ubuntu:~$ sudo apt-get install haskell-platform
-[/bash]
+```
 
 <p>Macの場合は、</p>
-[bash]
+```bash
 uedamac:~ ueda$ brew install ghc
-[/bash]
+```
 <p>でコンパイラをインストールできます。</p>
 <div class="section" id="id3">
 
@@ -73,18 +73,18 @@ uedamac:~ ueda$ brew install ghc
 <p>では、解いて行きます。最初なので、Haskellのコードを書いてコンパイルすることから始めます。</p>
 
 <p>まず、次のようなファイルを準備してください。1行のHaskellのプログラムです。</p>
-[hs]
+```hs
 ueda\@ubuntu:~$ cat q1_1.hs
 main = getContents &amp;gt;&amp;gt;= putStr
-[/hs]
+```
 <p>これを次のように <tt class="docutils literal"><span class="pre">ghc</span></tt> （The Glasgow Haskell Compiler）
 （脚注：GCC?、DHC?、いいえGHCです。）
 でコンパイルします。</p>
-[bash]
+```bash
 ueda\@ubuntu:~$ ghc q1_1.hs
 [1 of 1] Compiling Main ( q1_1.hs, q1_1.o )
 Linking q1_1 ...
-[/bash]
+```
 <p>すると次のように <tt class="docutils literal"><span class="pre">q1_1</span></tt> というファイルができているはずです。</p>
 <div class="highlight-none"><div class="highlight"><pre>ueda\@ubuntu:~$ ls q1_1*
 q1_1 q1_1.hi q1_1.hs q1_1.o
@@ -107,18 +107,18 @@ postfix:x:105:112::/var/spool/postfix:/bin/false
 <ul class="simple">
 <li>図1: 加筆した <tt class="docutils literal"><span class="pre">q1_1.hs</span></tt></li>
 </ul>
-[hs]
+```hs
 ueda\@ubuntu:~$ cat q1_1.hs
 main = getContents &amp;gt;&amp;gt;= putStr . main&amp;#39;
 
 main&amp;#39; :: String -&amp;gt; String
 main&amp;#39; cs = head ( lines cs )
-[/hs]
+```
 <p>コンパイルして <tt class="docutils literal"><span class="pre">/etc/passwd</span></tt> の内容を入力すると、次のように最初の行が改行無しで出力されます。</p>
-[bash]
+```bash
 ueda\@ubuntu:~$ cat /etc/passwd | ./q1_1
 root:x:0:0:root:/root:/bin/hsueda\@remote:~$
-[/bash]
+```
 <p>さて、コードの説明をしていきます。まず、図1の4,5行目から。Haskellは「関数型言語」というだけあって、関数を並べてプログラムしていきますが、この4,5行目は関数 <tt class="docutils literal"><span class="pre">main'</span></tt> の定義です。2行目の <tt class="docutils literal"><span class="pre">main</span></tt> も関数ですが、ちと事情がややこしいのでかなり後から説明をします。</p>
 
 <p>4行目は、関数 <tt class="docutils literal"><span class="pre">main'</span></tt> で「何が入力されて何が出力されるか」
@@ -204,15 +204,15 @@ head . lines :: String -&gt; String
 <ul class="simple">
 <li>図2: 問題1の解答</li>
 </ul>
-[hs]
+```hs
 ueda\@remote:~$ cat q1_1.hs
 main = getContents &amp;gt;&amp;gt;= putStr . main&amp;#39;
 
 main&amp;#39; :: String -&amp;gt; String
 main&amp;#39; cs = unlines $ map ( takeWhile (/= &amp;#39;:&amp;#39;) ) ( lines cs )
-[/hs]
+```
 <p>実行してみましょう。</p>
-[bash]
+```bash
 ueda\@remote:~$ ghc q1_1.hs
 [1 of 1] Compiling Main ( q1_1.hs, q1_1.o )
 Linking q1_1 ...
@@ -221,7 +221,7 @@ ueda\@remote:~$ cat /etc/passwd | ./q1_1
 ueda
 mysql
 postfix
-[/bash]
+```
 
 
 <p>できました。さて、難しいものがまた出てきましたので、解説を・・・えっ？もうページが足りない？？なんと。では、次回ということで・・・。</p>

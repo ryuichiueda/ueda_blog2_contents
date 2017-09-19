@@ -15,7 +15,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ということで、これらの不具合を回避しながらカーネルをアップデートするためのシェルスクリプトをGitHubの<a href="https://github.com/ryuichiueda/raspimouse_book_ubuntu_init">ryuichiueda/raspimouse_book_ubuntu_init</a>に置きました。このリポジトリにある <a href="https://github.com/ryuichiueda/raspimouse_book_ubuntu_init/blob/master/after_os_install.bash">after_os_install.bash</a>です。ここにも同じコードを貼りつけておきます。 <a href="https://wiki.ubuntu.com/ARM/RaspberryPi">https://wiki.ubuntu.com/ARM/RaspberryPi</a>のイメージをmicroSDに書き込んでOSを立ち上げてsshでログインし、すぐに適用します。
 
-[bash]
+```bash
 #!/bin/bash
 
 # (c) 2017 Ryuichi Ueda
@@ -48,7 +48,7 @@ sudo apt -y upgrade
 sudo apt -y install wireless-tools wpasupplicant
 
 sudo reboot
-[/bash]
+```
 
 このコードを読むと分かりますが、ファームウェアの自動アップデートを止めていますのでご注意ください。このリポジトリにある他のシェルスクリプトは、<a href="http://amzn.to/2oDns9H">ラズパイマウス本</a>の各パートのコードをラズパイにインストールして、各章を飛ばしてしまうためのチート的なものです。
 <h2>ますとどん</h2>

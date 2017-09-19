@@ -31,7 +31,7 @@ AWK User会（たぶんさいとうさん）もやってます。
 
 例えば、くんすとさんのところのデータ：
 
-[bash]
+```bash
 A Ice 130
 A Ice 180
 B Juice 120
@@ -39,30 +39,30 @@ B Ice 130
 I OREO 210
 I OREO 210
 I OREO 210
-[/bash]
+```
 （空白はタブではなくスペースです。）
 
 をクロス集計したければ、次のようにコマンドを使います。
 
 まずsm2という集計のコマンドで、同じキーを持つレコードを足し算します。
 
-[bash]
+```bash
 uedamac:~ ueda$ cat data | sort | sm2 1 2 3 3 
 A Ice 310
 B Ice 130
 B Juice 120
 I OREO 630
-[/bash]
+```
 
 さて、これで1列目を縦軸、2列目を横軸に持って行きたいわけですが、mapというコマンドで一発です。
 
-[bash]
+```bash
 uedamac:~ ueda$ cat data | sort | sm2 1 2 3 3 | map num=1
 * Ice Juice OREO
 A 310 0 0
 B 130 120 0
 I 0 0 630
-[/bash]
+```
 
 <h2>おわりに</h2>
 

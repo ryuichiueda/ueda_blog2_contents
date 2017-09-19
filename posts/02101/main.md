@@ -16,19 +16,19 @@ Copyright: (C) 2017 Ryuichi Ueda
  <li>新言語のコード（関数みたいなもの一個だけ書いたもの）</li>
 </ul>
 
-[python]
+```python
 uedambp:GlueLang ueda$ cat PROTOTYPE/SAMPLE_SCRIPTS/findfilename.glue 
 uedambp:PROTOTYPE ueda$ cat SAMPLE_SCRIPTS/findfilename.glue 
 filter main word dir:
 	find dir 
 	grep word
-[/python]
+```
 
 dirで指定したディレクトリをfindして、その出力をwordで指定した文字列で検索するフィルタという意味です。
 
 これを次のように変換するコマンド（langToBash）を作りました。
 
-[bash]
+```bash
 uedambp:PROTOTYPE ueda$ ./langToBash ./SAMPLE_SCRIPTS/findfilename.glue 
 #!/bin/bash -e
 
@@ -36,11 +36,11 @@ function main(){
 	find $2 | 	grep $1
 }
 main &quot;$1&quot; &quot;$2&quot;
-[/bash]
+```
 
 ちゃんと動きます。
 
-[bash]
+```bash
 uedambp:PROTOTYPE ueda$ ./langToBash ./SAMPLE_SCRIPTS/findfilename.glue &gt; hoge.bash
 uedambp:PROTOTYPE ueda$ chmod +x hoge.bash 
 uedambp:PROTOTYPE ueda$ ./hoge.bash &quot;lang&quot; &quot;.&quot; 
@@ -48,7 +48,7 @@ uedambp:PROTOTYPE ueda$ ./hoge.bash &quot;lang&quot; &quot;.&quot;
 ./langToBash.hi
 ./langToBash.hs
 ./langToBash.o
-[/bash]
+```
 
 
 <h2>書いたコード</h2>
@@ -57,7 +57,7 @@ uedambp:PROTOTYPE ueda$ ./hoge.bash &quot;lang&quot; &quot;.&quot;
 
 <a href="https://github.com/ryuichiueda/GlueLang/tree/develop" target="_blank">GitHubではここに置いてます。</a>
 
-[hs]
+```hs
 import System.Environment
 import System.IO
 import Text.Parsec
@@ -136,7 +136,7 @@ langSpace = oneOf &quot; \\t&quot;
 langFilterCode = do ln &lt;- many (noneOf &quot;\\n&quot;)
  char '\\n'
  return ln
-[/hs]
+```
 
 以後はこのコードをピカピカにする一方、新言語の文法についてくどくど考察するつもりです。しかし、勤め人としてはちょっと休止せざるをえない事情がありまして、しばらく冬眠します・・・。
 

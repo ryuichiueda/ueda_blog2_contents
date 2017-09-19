@@ -8,26 +8,26 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 {}で囲ったグループコマンドについてはシェルスクリプト本体と同じプロセスで動作するという記述がmanにあります。
 
-[bash]
+```bash
 ueda\@remote:~$ man bash
 ...
  { list; }
  list is simply executed in the current shell environment. 
 ...
-[/bash]
+```
 
 <!--more-->
 
 私の場合、グループコマンドはパイプに複数のコマンドを渡すときに使います。こんな感じで。
 
-[bash]
+```bash
 {
  echo ファイルのヘッダだよーん
  cat file
  echo ファイルのフッタだよーん
 } |
 cat -n 
-[/bash]
+```
 
 ただ、こういうときはmanのとおりの同じプロセスでは動いていないんじゃないかと。なぜなら、パイプでグループコマンドをつなぐときに、別プロセスにする方がパイプを楽に繋げることができるからです。
 
@@ -35,7 +35,7 @@ cat -n
 
 <h2>パイプでつながない場合</h2>
 
-[bash]
+```bash
 ueda\@remote:~$ cat hoge.bash 
 #!/bin/bash
 
@@ -44,19 +44,19 @@ echo 親: $BASHPID
 {
 	echo 子: $BASHPID
 }
-[/bash]
+```
 
-[bash]
+```bash
 ueda\@remote:~$ ./hoge.bash 
 親: 1671
 子: 1671
-[/bash]
+```
 
 同じプロセスです。
 
 <h2>パイプでつなぐ場合</h2>
 
-[bash]
+```bash
 ueda\@remote:~$ cat hoge2.bash 
 #!/bin/bash
 
@@ -65,19 +65,19 @@ echo 親: $BASHPID
 {
 	echo 子: $BASHPID
 } | cat
-[/bash]
+```
 
-[bash]
+```bash
 ueda\@remote:~$ ./hoge2.bash 
 親: 1706
 子: 1707
-[/bash]
+```
 
 <span style="color:red">サブシェルですね。</span>
 
 ということは、次のように子供で定義した変数は親から見えません。こんな使い方しませんが、一応気をつけておいた方が良さそうです。
 
-[bash]
+```bash
 ueda\@remote:~$ cat hoge2-2.bash 
 #!/bin/bash
 
@@ -94,12 +94,12 @@ ueda\@remote:~$ ./hoge2-2.bash
 子: 1837
  &lt;- aaaと出てこない
 
-[/bash]
+```
 <h2>丸括弧だと</h2>
 
 次のようにデフォルトでサブシェルです。
 
-[bash]
+```bash
 ueda\@remote:~$ cat hoge3.bash 
 #!/bin/bash
 
@@ -108,13 +108,13 @@ echo 親: $BASHPID
 (
 	echo 子: $BASHPID
 ) 
-[/bash]
+```
 
-[bash]
+```bash
 ueda\@remote:~$ ./hoge3.bash 
 親: 1758
 子: 1759
-[/bash]
+```
 
 <h2>ご相談</h2>
 

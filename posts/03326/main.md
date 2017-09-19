@@ -18,7 +18,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 私のUbuntuのaliasです。
 
-[bash]
+```bash
 ueda\@remote:~$ alias
 alias alert='notify-send --urgency=low -i &quot;$([ $? = 0 ] &amp;&amp; echo terminal || echo error)&quot; &quot;$(history|tail -n1|sed -e '\\''s/^\\s*[0-9]\\+\\s*//;s/[;&amp;|]\\s*alert$//'\\'')&quot;'
 alias egrep='egrep --color=auto'
@@ -28,32 +28,32 @@ alias l='ls -CF'
 alias la='ls -A'
 alias ll='ls -alF'
 alias ls='ls --color=auto'
-[/bash]
+```
 
 lと打つとこんな出力が。
 
-[bash]
+```bash
 ueda\@remote:~$ l
 123456789012.eps db/ id_rsa.pub takashi tmpvisit
 123456789012.png death_hato.bash* ipv6 test.bash* trackback.cgi*
 GIT/ dummy.pdf kenpinsiru.bash* test2.bash* ueda.png
 TESTDATA.gz env.bash komakai_suuji tmp/ usppub
-[/bash]
+```
 
 これをシェルスクリプトで起動してみます。
 
-[bash]
+```bash
 ueda\@remote:~$ cat hoge.bash 
 #!/bin/bash 
 
 l
-[/bash]
+```
 
 このようにエラーが出ます。
-[bash]
+```bash
 ueda\@remote:~$ ./hoge.bash 
 ./hoge.bash: 行 3: l: コマンドが見つかりません
-[/bash]
+```
 
 
 私の方に勘違いがあるかもしれません。あとまあ、人のコードを試すときはバックアップは必須です。と言いますか、バックアップはいつも必須です。

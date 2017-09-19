@@ -12,7 +12,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 こんなコードを書いて・・・
 
-[c]
+```c
 uedamac:~ ueda$ cat hoge.c
 #include
 
@@ -31,23 +31,23 @@ int main(int argc, char const* argv[])
 	kidding_me(4);
 	return 0;
 }
-[/c]
+```
 
 こんぴゃーるして実行。-std=c99 というオプションが必要なのか？
 
-[bash]
+```bash
 uedamac:~ ueda$ gcc ./hoge.c
 ./hoge.c: In function ‘kidding_me’:
 ./hoge.c:7: error: ‘for’ loop initial declaration used outside C99 mode
 uedamac:~ ueda$ gcc -std=c99 ./hoge.c
 uedamac:~ ueda$
-[/bash]
+```
 
 あ、サイズが可変なことより、for(int ...の方が怒られているのね。<span style="color: #ff0000;">もしかしてオプション要らないんじゃないか？</span>
 
 書き直してコンパイル・・・と。
 
-[bash]
+```bash
 uedamac:~ ueda$ cat hoge.c
 #include
 
@@ -73,7 +73,7 @@ uedamac:~ ueda$ ./a.out
 1
 2
 3
-[/bash]
+```
 
 特に技術的にごちゃごちゃ書く元気はありませんが、一言言わせてください。
 

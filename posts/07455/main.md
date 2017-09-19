@@ -10,14 +10,14 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 バージョンはこれです。Macでやってます。
 
-[bash]
+```bash
 $ convert --version
 Version: ImageMagick 6.9.2-3 Q16 x86_64 2015-10-06 http://www.imagemagick.org
 Copyright: Copyright (C) 1999-2015 ImageMagick Studio LLC
 License: http://www.imagemagick.org/script/license.php
 Features: Cipher DPC Modules 
 Delegates (built-in): bzlib freetype jng jpeg ltdl lzma png tiff xml zlib
-[/bash]
+```
 
 この5枚を合成します。これもImageMagickで連結しました。（$ convert +append *.png ../a.png）
 
@@ -25,9 +25,9 @@ Delegates (built-in): bzlib freetype jng jpeg ltdl lzma png tiff xml zlib
 
 実行。maxのほかにmeanとかminとかあります。
 
-[bash]
+```bash
 uedamb:tmp ueda$ convert *.png -evaluate-sequence max ../a.png
-[/bash]
+```
 
 できたのがこれ。
 

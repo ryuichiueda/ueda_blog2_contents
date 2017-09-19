@@ -19,7 +19,7 @@ platex rsj2015.tex
 
 しかし考えてみたら、論文は必ずpLaTeXで書いてmakeしているので、上のツイートのようにMakefileに変換を仕込んでおけばよかったと。なぜ今の今まで考えつかなかったのかと。ということでMakefileを晒しておきます。コンパイル対象のファイル名を変えたらMacとかLinuxとかBSDとかで普通に使えると思います。
 
-[bash]
+```bash
 uedambp:RSJ2015 ueda$ cat Makefile 
 rsj2015.pdf: rsj2015.dvi
 	dvipdfmx -p a4 rsj2015.dvi
@@ -33,7 +33,7 @@ rsj2015.dvi: *.tex
 
 clean:
 	rm -f *.aux *.log *.dvi *.bbl *.blg *.pdf *.ilg *.idx *.toc *.ind
-[/bash]
+```
 
 6行目のsedで、-i.bakで「ファイルの中身を出力で入れ替えて、拡張子.bakのバックアップファイルを作る」という意味になります。Vimから:!makeした場合だと、コンパイルが終わったらVimが「編集中にファイルが変わっちまった」とワーニングを出すので、再ロードして変更を読み込みます。
 

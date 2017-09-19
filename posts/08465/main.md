@@ -16,9 +16,9 @@ GitHubにあります。ファイルは
 
 クローンは以下のようにお願いします。
 
-[bash]
+```bash
 $ git clone https://github.com/ryuichiueda/ShellGeiData.git
-[/bash]
+```
 
 <h2>環境</h2>
 今回はUbuntu Linuxで解答例を作りましたので、BSD系、Macな方は以下の表をご参考に・・・。
@@ -58,14 +58,14 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 まず、次のように、気象庁の毎月の台風の上陸数に関するデータをダウンロードし、landing.csvというファイルに保存してください。<span style="color:red">UTF-8に見えてもExcelから作ったCSVはBOM付きだったりするので、ネットから入手したデータは最初にnkfに通す癖を。</span>
 
-[bash]
+```bash
 $ $ curl http://www.data.jma.go.jp/fcd/yoho/typhoon/statistics/landing/landing.csv |
  nkf -wLux &gt; landing.csv
-[/bash]
+```
 
 次にこのデータを、以下のようなデータ（ファイル名: monthly_typhoon）に変換してください。第1フィールドが年月、第2フィールドが台風の上陸頻度です。
 
-[bash]
+```bash
 $ head monthly_typhoon 
 195101 0
 195102 0
@@ -88,7 +88,7 @@ $ tail monthly_typhoon
 201510 0
 201511 0
 201512 0
-[/bash]
+```
 
 <h2>Q2</h2>
 
@@ -111,7 +111,7 @@ monthly_typhoonから年ごとの台風の上陸頻度を集計し、元のlandi
 
 まず、<a href="http://www.city.osaka.lg.jp/shimin/page/0000298810.html" target="_blank">大阪市のページ</a>から、「平成27年 大阪市の犯罪発生情報 ひったくり」のデータを次のようにダウンロードして整形してください。<span style="color:red">なお、大阪を選んだ理由は2016年6月現在、ちゃんとテキストでこのようなデータを提供している大都市が他に見つからないからであり、他の意図があるわけではありません。</span>また、なぜか女性の被害者のデータしかないのですが、気にしないことにします。
 
-[bash]
+```bash
 $ curl http://www.city.osaka.lg.jp/shimin/cmsfiles/contents/0000298/298810/006hittakuri2015.csv |
  nkf -wLux | tr , ' ' | tail -n +2 &gt; hittakuri
 $ head -n 5 hittakuri 
@@ -120,7 +120,7 @@ $ head -n 5 hittakuri
 大阪市北区 曾根崎 ２丁目付近 窃盗 既遂 ひったくり 自動二輪 2015年 4月 13日 3時頃 女性 20代
 大阪市北区 曾根崎 ２丁目付近 窃盗 既遂 ひったくり 自動二輪 2015年 4月 13日 2時頃 女性 40代
 大阪市北区 角田町 付近 窃盗 既遂 ひったくり 自動二輪 2015年 4月 7日 3時頃 女性 20代
-[/bash]
+```
 
 データは、大阪市からクリエイティブコモンズライセンスCC-BYで提供されているものです。
 

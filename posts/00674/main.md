@@ -8,7 +8,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 これで解決？
 
-[bash]
+```bash
 $ cat inputfile
 A 1 2
 A 3 4
@@ -28,7 +28,7 @@ B 4 3
 B 2 1
 C 8 5
 C 20 13
-[/bash]
+```
 
 地味に便利。自分には・・・
 

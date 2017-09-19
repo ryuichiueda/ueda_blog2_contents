@@ -18,13 +18,13 @@ iPhoneで写真を見ていると、地図に写真が張り付いているの�
 
 んで、この情報はImageMagickをインストールすると読めます。<span style="color:red">別にGUIで読めるけどCLIで読みたいんです私は。</span>Macでbrewだとこんな感じ。
 
-[bash]
+```bash
 uedamac:~ ueda$ brew install imagemagick
-[/bash]
+```
 
 ImageMagickのidentifyというコマンドを使うと読めます。私のiPhoneで撮った写真から・・・。緯度経度が丸わかりです。
 
-[bash]
+```bash
 uedamac:~ ueda$ identify -verbose ~/Pictures/iPhone/IMG_0005.JPG | head
 Image: /Users/ueda/Pictures/iPhone/IMG_0005.JPG
  Format: JPEG (Joint Photographic Experts Group JFIF format)
@@ -43,13 +43,13 @@ uedamac:~ ueda$ identify -verbose ~/Pictures/iPhone/IMG_0005.JPG | grep GPS
  exif:GPSLongitude: 139/1, 4540/100, 0/1
  exif:GPSLongitudeRef: E
  exif:GPSTimeStamp: 21/1, 0/1, 5899/100
-[/bash]
+```
 
 緯度がGPSLatitudeとGPSLatitudeRefで北緯35度39.89分0秒、経度がGPSLongitudeとGPSLongitudeRefで東経139度45.4分0度と分かります。これ、思いっきり新橋の緯度経度です。<span style="color:red">写真は新橋で飲んで酔っ払っている写真なので掲載不可</span>。
 
 これだと単にコマンドの紹介になっちまいますので、シェル芸で写真の名前と緯度経度を並べてお茶を濁します。うーん。新橋に行って、その後鎌倉に行ったことが丸わかりです（数字見ただけでは分からんが）。
 
-[bash]
+```bash
 uedamac:~ ueda$ for f in ~/Pictures/iPhone/IMG_* ; do echo $f ; identify -verbose $f | grep -E ':GPS(Latitude|Longitude):' ; done | awk '/\\/Users/{print &quot;&quot;;printf $0}/^ /{printf $0}' 
 
 /Users/ueda/Pictures/iPhone/IMG_0002.JPG exif:GPSLatitude: 35/1, 3989/100, 0/1 exif:GPSLongitude: 139/1, 4540/100, 0/1
@@ -58,11 +58,11 @@ uedamac:~ ueda$ for f in ~/Pictures/iPhone/IMG_* ; do echo $f ; identify -verbos
 /Users/ueda/Pictures/iPhone/IMG_0008.JPG exif:GPSLatitude: 35/1, 1873/100, 0/1 exif:GPSLongitude: 139/1, 3213/100, 0/1
 /Users/ueda/Pictures/iPhone/IMG_0009.JPG exif:GPSLatitude: 35/1, 1873/100, 0/1 exif:GPSLongitude: 139/1, 3211/100, 0/1
 /Users/ueda/Pictures/iPhone/IMG_0010.JPG exif:GPSLatitude: 35/1, 1874/100, 0/1 exif:GPSLongitude: 139/1, 3212/100, 0/1
-[/bash]
+```
 
 この情報を除去するにはImageMagickのconvertコマンドを使い、-stripオプションを指定します。
 
-[bash]
+```bash
 uedamac:~ ueda$ cp ~/Pictures/iPhone/IMG_0005.JPG ~/hoge.jpg
 uedamac:~ ueda$ identify -verbose hoge.jpg | grep GPS
  exif:GPSInfo: 568
@@ -74,13 +74,13 @@ uedamac:~ ueda$ identify -verbose hoge.jpg | grep GPS
 uedamac:~ ueda$ convert -strip hoge.jpg foo.jpg &lt;- Exif情報を抜いたfoo.jpgを作る
 uedamac:~ ueda$ identify -verbose foo.jpg | grep GPS
 uedamac:~ ueda$ &lt;- 何も表示されない
-[/bash]
+```
 
 面倒な人はどこかにディレクトリを掘って、次のようにワンライナーで全部stripしちゃえという感じです。ストリップしちゃいなよ。
 
-[bash]
+```bash
 uedamac:safe ueda$ for f in ~/Pictures/iPhone/*.JPG ; do convert -strip $f ./safe/$(basename $f) ; done
-[/bash]
+```
 
 
 さいなら。

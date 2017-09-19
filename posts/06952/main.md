@@ -19,10 +19,10 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 プロンプトの変え方ですが、Macでbashの場合はホームの.bash_profileに次のように1行足してPS1という変数をいじってやります。Linuxなら.bashrc。
 
-[bash]
+```bash
 $ tail -n 1 ~/.bash_profile 
 export PS1=&quot;目 &quot;
-[/bash]
+```
 
 端末立ち上げると、この通り。<s>不毛だ。</s>
 
@@ -30,24 +30,24 @@ export PS1=&quot;目 &quot;
 
 まずは目grep。いや、正確には目grepではないのだが・・・
 
-[bash]
+```bash
 目 grep &quot;Linux&quot; *.tex | head
 contents.tex:		\\item Linuxのデバイスドライバ
 contents.tex:\\frametitle{Linuxのデバイスドライバ}
 contents.tex:Version: Linux version 4.1.6-v7+ (root\@raspberrypi) (gcc version 4.6.3
-[/bash]
+```
 
 
 目make。メメイク。「目makeなんてup to dateね。」っていうワーニング出た（超妄想訳）。
 
-[bash]
+```bash
 目 make
 make: `robosys_2015_10.pdf' is up to date.
-[/bash]
+```
 
 目ギットプル。目レッドブルではない。
 
-[bash]
+```bash
 目 git pull
 remote: Counting objects: 7, done.
 remote: Compressing objects: 100% (6/6), done.
@@ -60,12 +60,12 @@ Fast-forward
  util/{kernel_update_for_RPi2.bash =&gt; kernel_build_RPi2.bash} | 3 +++
  1 file changed, 3 insertions(+)
  rename util/{kernel_update_for_RPi2.bash =&gt; kernel_build_RPi2.bash} (80%)
-[/bash]
+```
 
 
 はっきり言ってつまらないので、次は大技。Raspberry Piシャットダウン後に流れるように目プロンプトに帰還。通信が切れた後、おもむろに一言「<a href="https://ja.wikipedia.org/wiki/%E3%82%81%E7%B5%84%E3%81%AE%E3%81%B2%E3%81%A8">目</a>」と出てきます。まるでラッツアンドスターです。
 
-[bash]
+```bash
 pi\@raspberrypi ~/RPiM $ sudo shutdown -h now
 
 Broadcast message from root\@raspberrypi (pts/0) (Sat Aug 22 17:25:19 2015):
@@ -73,17 +73,17 @@ The system is going down for system halt NOW!
 pi\@raspberrypi ~/RPiM $ Connection to 192.168.2.100 closed by remote host.
 Connection to 192.168.2.100 closed.
 目 
-[/bash]
+```
 
 次は目というファイルを作って操作してみました。英文法のSVO感が出ています。しかも主語と目的語が一緒。「目 rm 目」には「目には目を」というハンムラビ法典の一文を思わせる力強さがあります。
 
-[bash]
+```bash
 目 touch 目
 目 ls 目
 目 rm 目
 目 ls 目
 gls: cannot access 目: No such file or directory
-[/bash]
+```
 
 「准教授にもなって何やってんですか？」というツッコミはいけませんいけません。人間、立場で行動を変えてはいけません。大学ではさっそく学生と間違われて事務方を大混乱に陥れておりますが、今後も夜露死苦ちゃんという感じです。
 

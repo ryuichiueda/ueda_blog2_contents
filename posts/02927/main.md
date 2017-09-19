@@ -6,7 +6,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 # ワードシェル芸？の方法。
 もう、やり方だけ。環境はUbuntu。hxselectで要素を指定するときに、コロンをエスケープするというのでちょっとはまった。
 
-[bash]
+```bash
 ###docxことzipファイルの中はこんな感じ。###
 ###文章の内容はword/document.xml###
 ###画像はjpegがそのまま入っている###
@@ -42,7 +42,7 @@ ueda\@remote:~$ unzip -p self_introduction.docx word/document.xml | hxselect 'w\
 ueda\@remote:~$ unzip self_introduction.docx word/media/image1.jpeg
 Archive: self_introduction.docx
  extracting: word/media/image1.jpeg 
-[/bash]
+```
 
 
 以上。わーどうしましょう。

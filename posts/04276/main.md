@@ -11,7 +11,7 @@ Copyright: (C) Ryuichi Ueda
 
 <a href="http://blog.ueda.asia/?page_id=4219" title="dashのコード解読メモ">「dashのコード解読メモ」に戻る</a>
 
-[c]
+```c
 /*-
  * Copyright (c) 1991, 1993
  *	The Regents of the University of California. All rights reserved.
@@ -146,4 +146,4 @@ static inline int max_int_length(int bytes)
 {
 	return (bytes * 8 - 1) * 0.30102999566398119521 + 14;
 }
-[/c]
+```

@@ -7,9 +7,9 @@ Copyright: (C) 2017 Ryuichi Ueda
 <h2>問題はこんなものでした</h2>
 以下のように1から100まで数字が書いてあるansというファイルを作り、ansの中から素数でない数をワンライナーだけで消し去ってください。（ansの中身を書き換えるということです。forもwhileもなしで、コマンドはパイプでつないで。）
 
-[bash]
+```bash
 ueda\@ubuntu:~/tmp$ seq 1 100 &gt; ans
-[/bash]
+```
 
 <h2>問題の意図</h2>
 
@@ -42,12 +42,12 @@ ueda\@ubuntu:~/tmp$ seq 1 100 &gt; ans
 
 平たく書くとこんな感じ。
 
-[bash]
+```bash
 ###spongeコマンドをインストールする###
 ueda\@ubuntu:~/tmp$ sudo apt-get install moreutils
 ###使う###
 ueda\@ubuntu:~/tmp$ cat ans | factor | awk 'NF==2{print $2}' | sponge ans
-[/bash]
+```
 
 sponge(1)というコマンドを使います。名前の通り、入力された字を吸い取っていき、吸い取ってから引数に指定したファイルに書き込みます。ということで、上に挙げた「入力と出力を時間的に完全に分離する」が守られています。
 
@@ -61,14 +61,14 @@ ebanさんはどんな方法でも解いてくるので本当にすごいなあ�
 
 解説をしておくと、まずansをオープンした後にansを消してから処理してansに書き出すという処理になっています。「rm ans」の時点では、ansが開いているので実体（iノード）はまだ消去されません。ansという名前だけ消えます。んで、その後に「factor ... > ans」となっているので、ansという名前の別のiノードができます。確認しておきましょう。
 
-[bash]
+```bash
 ueda\@web:~/tmp$ seq 1 10 &gt; ans
 ueda\@web:~/tmp$ ls -i ans
 2363953 ans
 ueda\@web:~/tmp$ (rm ans; factor | awk 'NF==2{print $2}' &gt; ans) &lt; ans
 ueda\@web:~/tmp$ ls -i ans
 2364013 ans
-[/bash]
+```
 
 実はこの挙動、<a href="http://www.amazon.co.jp/gp/product/4048660683/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=4048660683&linkCode=as2&tag=ryuichiueda-22">フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門</a><img src="http://ir-jp.amazon-adsystem.com/e/ir?t=ryuichiueda-22&l=as2&o=9&a=4048660683" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />で少し説明しています。ただ、「具体的な使い道が分からん」という言葉と共に書いたので、今、使い道が分かりました。しかし、こんなコードは普通書かないので「使い道」なのかどうかは定かではありません。
 

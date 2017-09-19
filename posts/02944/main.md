@@ -34,12 +34,12 @@ USP Magazineの「シェル芸勉強会後追い企画 Haskellでやってはい
 <h2>tips</h2>
 <h3>Haskell Platformのインストール</h3>
 
-[bash]
+```bash
 ###Ubuntu###
 ueda\@ubuntu:~$ sudo apt-get install haskell-platform
 ###Mac###
 uedamac:~ ueda$ brew install haskell-platform
-[/bash]
+```
 
 <h2>コードの公開</h2>
 

@@ -14,9 +14,9 @@ GitHubにあります。ファイルは
 
 クローンは以下のようにお願いします。
 
-[bash]
+```bash
 $ git clone https://github.com/ryuichiueda/ShellGeiData.git
-[/bash]
+```
 
 <h2>環境</h2>
 解答例はUbuntu Linux 16.04 で作成。Macの場合はcoreutilsをインストールの上、gsedをつかいましょう。BSD系の人は玄人なので各自対応のこと。
@@ -36,12 +36,12 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 <h3>Q1.2</h3>
 次のようなリストを作ってください。
 
-[bash]
+```bash
 世界座標系とロボットの姿勢 ./figs/coordinate.eps
 計測値 ./figs/observation.eps
 ランドマークの計測値から2点の相対姿勢を求める ./figs/two_poses.eps
 ランドマークの計測値の不確かさを表す共分散行列 ./figs/observation_noise.eps
-[/bash]
+```
 
 <h2>Q2</h2>
 \\sectionから始まる部分を章としたとき、第2章の第1文を抽出してみましょう。ただし、各行の%以降はコメントアウトされた文なので無視してください。
@@ -58,7 +58,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 <h2>Q8</h2>
 contents.texについて、次のように章節項のリストを作ってください。
 
-[bash]
+```bash
 1 はじめに
 2 問題
 2.1 ロボットの姿勢と座標系
@@ -77,5 +77,5 @@ contents.texについて、次のように章節項のリストを作ってく�
 3.2.2 最適化する式
 3.3 $\\V{e}_{c,t,t'}$の勾配を求める
 3.4 問題を解く
-[/bash]
+```
 

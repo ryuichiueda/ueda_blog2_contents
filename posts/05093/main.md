@@ -22,12 +22,12 @@ Macな人はbrewでGNU grep（ggrep）をインストールすると良かれ悪
 
 次のようにファイルを作ります。
 
-[bash]
+```bash
 $ seq 2 5 &gt; a
 $ seq 1 9 &gt; b
 $ seq 5 11 &gt; c
 $ seq 3 6 &gt; d
-[/bash]
+```
 
 1という文字を含まないファイルを列挙してください（aとdですね）。
 
@@ -35,7 +35,7 @@ $ seq 3 6 &gt; d
 
 <h1>解答</h1>
 
-[bash]
+```bash
 $ grep -L 1 {a..d}
 a
 d
@@ -43,15 +43,15 @@ d
 $ grep -c 1 {a..d} | awk -F: '$2==0'
 a:0
 d:0
-[/bash]
+```
 
 <h1>Q2</h1>
 
 作業ディレクトリを作り、その下に次のようにfile.1〜file.10000というファイルを作ります。
 
-[bash]
+```bash
 $ seq 1 10000 | xargs -I\@ touch file.\@
-[/bash]
+```
 
 以下の数字を持つファイルだけ残して後のファイルを消去してください。
 
@@ -66,7 +66,7 @@ $ seq 1 10000 | xargs -I\@ touch file.\@
 
 <h1>解答</h1>
 
-[bash]
+```bash
 $ ls -f | grep -v &quot;file\\..$&quot; | grep -v &quot;file\\..0$&quot; | grep -v &quot;file\\..*00$&quot; | xargs rm
 rm: cannot remove ‘.’: Is a directory
 rm: cannot remove ‘..’: Is a directory
@@ -97,23 +97,23 @@ file.200 file.3600 file.5000 file.6700 file.8100 file.9800
 file.2000 file.3700 file.5100 file.6800 file.8200 file.9900
 file.2100 file.3800 file.5200 file.6900 file.8300
 file.2200 file.3900 file.5300 file.7 file.8400
-[/bash]
+```
 
 <h1>Q3</h1>
 
 次のテキストから、「-v」、「-f」、「awk」の数をそれぞれカウントしてください。gawk、nawkは避けてください（awkの数としてカウントしない）。できる人はgrepは1個で。さらにできる人は拡張正規表現を使わないでやってみましょう。
 
 
-[bash]
+```bash
 $ cat text1 
 awk -v v=&quot;hoge&quot; 'BEGIN{print v}'
 echo 'BEGIN{print 1}' | gawk -f -
 nawk 'BEGIN{print &quot; BEGIN{print x}&quot;}' | awk -v x=3 -f -
-[/bash]
+```
 
 <h1>解答</h1>
 
-[bash]
+```bash
 ###ベタな感じ（これでも全然問題ありません）###
 $ grep -oE '(-[a-z]|[a-z]?awk)' text1 | grep -v '[ng]awk' | sort | uniq 
 c- 2 -f
@@ -129,7 +129,7 @@ $ grep -wo -e &quot;-[a-z]&quot; -e &quot;awk&quot; text1 | sort | uniq
 c- 2 -f
  2 -v
  2 awk
-[/bash]
+```
 
 <h1>Q4</h1>
 
@@ -139,20 +139,20 @@ c- 2 -f
 
 一例です。set -eと記述があるものが33、無いものが75となります。
 
-[bash]
+```bash
 $ sudo grep -l '#!/bin/sh' /etc/ -R | sudo xargs grep -c 'set -e' |
  sed 's/.*://' | awk '{if($1==0){print 0}else{print 1}}' | sort | uniq 
 c-grep: /etc/alternatives/ghostscript-current/Resource/CIDFSubst/DroidSansFallback.ttf: No such file or directory
 grep: /etc/blkid.tab: No such file or directory
  75 0
  33 1
-[/bash]
+```
 
 <h1>Q5</h1>
 
 日本語やギリシャ文字のある行を除去してください。
 
-[bash]
+```bash
 $ cat text2 
 A pen is a pen?
 日本語でおk
@@ -160,32 +160,32 @@ A pen is a pen?
 Randy W. Bass
 env x='() { :;}; echo vulnerable' bash -c &quot;echo this is a test&quot;
 #危険シェル芸
-[/bash]
+```
 
 <h1>解答</h1>
 
 別解求む。
 
-[bash]
+```bash
 $ LANG=C grep &quot;^[[:print:]]*$&quot; text2
-[/bash]
+```
 
 
 <h1>Q6</h1>
 
 次のようにファイルa, b, cを作ります。
 
-[bash]
+```bash
 $ echo 1 2 3 4 &gt; a
 $ echo 2 3 4 5 &gt; b
 $ echo 1 4 5 &gt; c
-[/bash]
+```
 
 ファイルの中の数字を足して10になるファイルを挙げてください。
 
 <h1>解答</h1>
 
-[bash]
+```bash
 ###grepを使わなくてもいけますが・・・###
 $ for i in a b c ; do [ 10 -eq $(numsum -r $i) ] &amp;&amp; echo $i ; done
 ###grepでリストを作る###
@@ -193,7 +193,7 @@ $ grep &quot;&quot; * | tr ':' ' ' |
 awk '{for(i=2;i&lt;=NF;i++){a+=$i};print $1,a;a=0}' | grep &quot; 10$&quot;
 ###Tukubaiを利用###
 $ grep &quot;&quot; * | tr ':' ' ' | ysum num=1 | grep &quot; 10$&quot;
-[/bash]
+```
 
 <h1>Q7</h1>
 
@@ -203,28 +203,28 @@ psコマンドを打って（オプションは任意）、そのpsコマンド�
 
 すごくいい加減な気がしないでもありませんが・・・
 
-[bash]
+```bash
 $ ps -eo ppid,pid,command &gt; f ; grep &quot;ps -eo&quot; f | grep -v grep |
  awk '{print &quot; &quot;$1&quot; &quot;;print &quot; &quot;$2&quot; &quot;}' | grep -f - f |
  awk '{print &quot; &quot;$1&quot; &quot;;print &quot; &quot;$2&quot; &quot;}' | grep -f - f
  5696 5767 sshd: ueda\@pts/6 
  5767 5768 -bash
  5768 8806 ps -eo ppid,pid,command
-[/bash]
+```
 
 <h1>Q8</h1>
 
 seqとfactorの出力の後ろにgrepだけをいくつかつなげて、「素数の一つ前の数で、かつ10以上の数」を列挙してください。
 
-[bash]
+```bash
 $ seq 10 1000 | factor | ...(grepだけ)
-[/bash]
+```
 
 <h1>解答</h1>
 
-[bash]
+```bash
 $ seq 10 1000 | factor | grep -EB 1 '^[^ ]+ [^ ]+$' |
  grep -Eo '^[0-9]+[02468]:' | grep -Eo '^[0-9]+'
-[/bash]
+```
 
 

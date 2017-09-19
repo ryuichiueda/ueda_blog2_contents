@@ -17,18 +17,18 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 こんな風に適当なディレクトリに置いてください。
 
-[bash]
+```bash
 uedambp:tmp ueda$ pwd
 /Users/ueda/tmp
 uedambp:tmp ueda$ ls 
 book.xlsx
-[/bash]
+```
 
 次にやるのは「解凍」です。実は.xlsxはzipファイルです。
 
 <!--more-->
 
-[bash]
+```bash
 uedambp:tmp ueda$ unzip book.xlsx 
 Archive: book.xlsx
  inflating: [Content_Types].xml 
@@ -41,11 +41,11 @@ Archive: book.xlsx
  inflating: xl/worksheets/sheet1.xml 
  inflating: docProps/core.xml 
  inflating: docProps/app.xml 
-[/bash]
+```
 
 解凍するとこんなディレクトリツリーが出現します。エロいですね。（何が？）
 
-[bash]
+```bash
 uedambp:tmp ueda$ tree
 .
 ├── [Content_Types].xml
@@ -66,11 +66,11 @@ uedambp:tmp ueda$ tree
  └── sheet1.xml
 
 6 directories, 10 files
-[/bash]
+```
 
 sheet1.xmlを見てみましょう。
 
-[bash]
+```bash
 uedambp:tmp ueda$ cat xl/worksheets/sheet1.xml 
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
 &lt;worksheet 
@@ -92,7 +92,7 @@ bottom=&quot;0.75&quot; header=&quot;0.3&quot; footer=&quot;0.3&quot;/&gt;&lt;ex
 xmlns:mx=&quot;http://schemas.microsoft.com/office/mac/excel/2008/main&quot;&gt;
 &lt;mx:PLV Mode=&quot;0&quot; OnePage=&quot;0&quot; WScale=&quot;0&quot;/&gt;&lt;/ext&gt;&lt;/extLst&gt;
 &lt;/worksheet&gt;uedambp:tmp ueda$ 
-[/bash]
+```
 
 <del>嫌がらせ</del>容量の抑制のために改行ナッシングです。
 
@@ -100,25 +100,25 @@ xmlns:mx=&quot;http://schemas.microsoft.com/office/mac/excel/2008/main&quot;&gt;
 
 数字はcという名前の要素に入っています。抽出してみましょう。POSIXにうるさい方々には叱られそうですが・・・。
 
-[bash]
+```bash
 uedambp:tmp ueda$ cat xl/worksheets/sheet1.xml |
  grep -o '&lt;c [^&lt;]*&gt;&lt;v&gt;[^&lt;]*&lt;/v&gt;&lt;/c&gt;'
 &lt;c r=&quot;A1&quot;&gt;&lt;v&gt;1&lt;/v&gt;&lt;/c&gt;
 &lt;c r=&quot;A2&quot;&gt;&lt;v&gt;2&lt;/v&gt;&lt;/c&gt;
 &lt;c r=&quot;A3&quot;&gt;&lt;v&gt;3&lt;/v&gt;&lt;/c&gt;
 &lt;c r=&quot;A4&quot;&gt;&lt;v&gt;-4.2300000000000004&lt;/v&gt;&lt;/c&gt;
-[/bash]
+```
 
 あとは余計な記号を除去してセルの番号と数字を取り出します。
 
-[bash]
+```bash
 uedambp:tmp ueda$ cat xl/worksheets/sheet1.xml |
  grep -o '&lt;c [^&lt;]*&gt;&lt;v&gt;[^&lt;]*&lt;/v&gt;&lt;/c&gt;' | tr '&gt;&lt;&quot;' ' ' | awk '{print $3,$5}'
 A1 1
 A2 2
 A3 3
 A4 -4.2300000000000004
-[/bash]
+```
 
 ぜひやってみてください。案外使える技かもしれません。
 

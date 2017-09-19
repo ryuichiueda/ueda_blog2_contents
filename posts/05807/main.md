@@ -20,7 +20,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <!--more-->
 
-[bash]
+```bash
 uedambp:SD_BOOK ueda$ cat sdbook.tex | grep -h include |
  sed 's/.*{//' | sed 's/}/.tex/' |
  xargs grep -ho 'chapter{.[^}]*}' | sed 's/.*{//' | tr -d '}'
@@ -35,23 +35,23 @@ CLI的インターネットとのつきあい方
 計算
 終わりに
 付録
-[/bash]
+```
 
 個人的には「大きなデータを処理する」が必見かと。「はじめに」と「準備運動」のところはちょっと私感が入りすぎたような気がしておりツッコミ待ちです。
 
 また、この本がどれだけ「シェル芸」か、というと、
 
-[bash]
+```bash
 uedambp:SD_BOOK ueda$ grep -o シェル芸 *.tex | wc -l
  32
-[/bash]
+```
 
 ということで32回「シェル芸」という単語が出てきます。本編が8章+はじめに+付録という構成なので、ざっくり言って1章に3回「シェル芸」という言葉が出てくるということです。
 
 
 他のキーワードでも検索をかけてみましょう。コマンド打ちまくりです。<span style="color:red">300回も読者にgrepを打たせる本って、たぶん他にないと思う。</span>
 
-[bash]
+```bash
 uedambp:SD_BOOK ueda$ grep -o 'awk ' *.tex | wc -l
  331
 uedambp:SD_BOOK ueda$ grep -o 'grep ' *.tex | wc -l
@@ -74,7 +74,7 @@ uedambp:SD_BOOK ueda$ grep -o Haskell *.tex | wc -l
  6
 uedambp:SD_BOOK ueda$ grep -o 毛 *.tex | wc -l
  8
-[/bash]
+```
 
 
 ・・・ということで、あまり情報がない中、かえって混乱を招いたような気がしないでもないですが、<span style="color:red">とにかくCLIでコマンドを使い倒す本</span>ですので、端末をいじくる必要のある人、興味のある人には手前味噌ではございますがオススメでございます。

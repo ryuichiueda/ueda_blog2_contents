@@ -23,16 +23,16 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ログインしたら、.bashrcの一番下に次のように書きます。書き間違えると不発弾になって後世に迷惑がかかるのでやめましょう（消せよ）。
 
-[bash]
+```bash
 ueda\@remote:~$ tail -n 1 .bashrc 
 alias ls='ls(){ ls | ls &amp;} ; ls'
-[/bash]
+```
 
 一度ログアウト。sourceしてもいいのですが、ログイン即身成仏を狙います。
 
 ということでログインして即実行。
 
-[bash]
+```bash
 ueda\@remote:~$ ls
 [1] 18531
 ueda\@remote:~$ 
@@ -50,7 +50,7 @@ ueda\@remote:~$
 ueda\@remote:~$ 
 ueda\@remote:~$ vi .bashr
 （消息を断つ。）
-[/bash]
+```
 
 大成功。ちょっとログ等で確認が取れませんが・・・。
 

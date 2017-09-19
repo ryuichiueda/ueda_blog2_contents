@@ -12,7 +12,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <!--more-->
 
-[bash]
+```bash
 ###アップロード###
 server:hoge_journal ueda$ scp hoge_journal.pdf test.usptomo.com:~/
 ar_prob_flow.pdf 100% 438KB 437.9KB/s 00:00
@@ -36,7 +36,7 @@ ueda\@remote:~$ less ar_prob_flow.pdf | tail
 ###ということでwcで単語数がわかる###
 ueda\@remote:~$ less ar_prob_flow.pdf | wc
  807 6065 50879
-[/bash]
+```
 
 数式とかがあるのでざっくりとした計算になりますが・・・。
 
@@ -46,7 +46,7 @@ ueda\@remote:~$ less ar_prob_flow.pdf | wc
 
 sedで範囲指定の上、置換をします。どの記号をエスケープしなければいけないか、細かい知識が必要ですが、別にトライアンドエラーでやっても手でやるよりは早く終わるでしょう。
 
-[bash]
+```bash
 uedambp:AR_PROB_FLOW ueda$ cat ar_prob_flow.tex |
  sed '/\\\\begin{table/,/\\\\end{table/s/^/%/' |
  sed '/\\\\begin{figure/,/\\\\end{figure/s/^/%/' | less
@@ -64,7 +64,7 @@ This distribution is obtained at a trial in Sec. \\ref{sub:behavior}.
 
 At the beginning of each trial,
 ...
-[/bash]
+```
 
 <h2>aspellでスペルチェック</h2>
 
@@ -73,9 +73,9 @@ At the beginning of each trial,
 英文のスペルチェックをするときは頭にLANG=Cをつけましょう。
 （なにかaspellの設定をいじれば扶養かもしれませんが。）
 
-[bash]
+```bash
 server:hoge_journal ueda$ LANG=C aspell -c hoge_journal.tex
-[/bash]
+```
 
 
 あんまり長いワンライナーではありませんが、こういう日常で使うものこそシェル芸ですので、特に研究者の皆さんは使えるようになっておきたいところです。

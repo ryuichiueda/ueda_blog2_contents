@@ -39,7 +39,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 次のようなコードを入力すると・・・
 
-[hs]
+```hs
 import /bin/ as b
 import /usr/bin/ as ub
 
@@ -50,11 +50,11 @@ proc main file:
 func cattac file:
 	b.cat $file
 	ub.tail -r
-[/hs]
+```
 
 次のようなbashのコードに変換して実行するトランスレータを作ったところです。
 
-[bash]
+```bash
 ERROR_EXIT(){
 	rm -f /tmp/$$-*
 	exit 1
@@ -95,20 +95,20 @@ main &quot;$1&quot;
 ERROR_CHECK
 
 rm -f /tmp/$$-*
-[/bash]
+```
 
 やっていることは簡単で、単に「cat | tail -r」をしているだけです。
 
 ちょっと動かしてみます。「./glue SAMPLE_SCRIPTS/io.glue」が変換前のスクリプトで、内部でbashに変換されて実行されます。（久しぶりに動かすので、ドキドキしましたがちゃんと動きました。）
 
-[bash]
+```bash
 uedambp:PROTOTYPE ueda$ seq 5 | ./glue SAMPLE_SCRIPTS/io.glue
 5
 4
 3
 2
 1
-[/bash]
+```
 
 
 <h2>仕様等</h2>
@@ -116,7 +116,7 @@ uedambp:PROTOTYPE ueda$ seq 5 | ./glue SAMPLE_SCRIPTS/io.glue
 もう一度、新言語のスクリプトを示します。だいたいこのコードにやりたいことが凝縮されています。
 
 
-[hs]
+```hs
 import /bin/ as b
 import /usr/bin/ as ub
 
@@ -127,15 +127,15 @@ proc main file:
 func cattac file:
 	b.cat $file
 	ub.tail -r
-[/hs]
+```
 
 <h3>PATHに代わるimport</h3>
 
 まず、importですが、これはPATHに代わる仕組みです。この例では、/bin/下のコマンドに「b.」、/usr/bin/下のコマンドに「ub.」とつけています。これは移植性の改善を狙ってのことで、将来的には
 
-[hs]
+```hs
 import /usr/local/bin/posix/ as posix
-[/hs]
+```
 
 というように、「移植性が本当に必要ならばPOSIX準拠のコマンドを置いてそれしか使わないようにすればいいんじゃないの？」ということができるようにしたいと。そんなコマンドあるんかということですが、作るしかありません。そしてそういうコマンドのパッケージが、この言語のライブラリに相当するものになるわけです。
 
@@ -158,7 +158,7 @@ import /usr/local/bin/posix/ as posix
 
 別の例で、str.glueというコードを示します。基本的にはfileの代わりにstrと書けば、その変数にコマンドの出力が格納されます。日頃言っているように変数あんまり使ったらいけませんが。
 
-[hs]
+```hs
 import /bin/ as b
 import /usr/bin/ as ub
 
@@ -169,7 +169,7 @@ proc main:
 func cattac file:
 	b.cat $file
 	ub.tail -r
-[/hs]
+```
 
 シェルの場合、変数は文字列しかないのでこれで十分です。他の型を作るつもりはありません。コマンドは字を出し入れするから分かりやすいのであって、別のものがあったら変換しないといけなくなり、ややこしくなります。ただ、作るかも・・・（どっちや）。
 
@@ -189,7 +189,7 @@ funcでは縦に並べたコマンドがパイプラインで接続されます�
 
 2段インデント禁止と微妙に矛盾しますが、今のところifは次のように書きます。testというブロックを作ると、こいつが終了ステータスを返してくるので、それをprocでHaskell風に使っています。ただ、if文にもいろんなパターンがあるので、これで済まないんじゃないかなーとか悩んでますが。
 
-[hs]
+```hs
 import /bin/ as b
 import /usr/bin/ as ub
 import /usr/local/bin/ as ulb
@@ -203,7 +203,7 @@ proc main file num:
 	b.echo &quot;OK&quot;
 | othewise:
 	b.false
-[/hs]
+```
 
 <h3>.glueファイル同士のインクルード等</h3>
 

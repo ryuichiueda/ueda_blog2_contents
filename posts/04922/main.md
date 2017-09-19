@@ -26,24 +26,24 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 まず、git cloneしてvim-glueディレクトリに入ります。
 
-[bash]
+```bash
 uedambp:GIT ueda$ git clone https://github.com/CORDEA/vim-glue.git
 uedambp:GIT ueda$ cd vim-glue/
-[/bash]
+```
 
 そして地味にrsync。ディレクトリの後ろのスラッシュを忘れないでください。
 
-[bash]
+```bash
 uedambp:vim-glue ueda$ rsync -av ftdetect/ ~/.vim/ftdetect/
 uedambp:vim-glue ueda$ rsync -av indent/ ~/.vim/indent/
 uedambp:vim-glue ueda$ rsync -av syntax/ ~/.vim/syntax/
-[/bash]
+```
 
 ・・・そしてglueのサンプルスクリプトを開くと
 
-[bash]
+```bash
 uedambp:GIT ueda$ vi ~/GIT/GlueLang/EXAMPLE/SHELL_GEI_2015SP/Q1.mac.glue 
-[/bash]
+```
 
 
 <a href="スクリーンショット-2015-01-13-23.15.34.png"><img src="スクリーンショット-2015-01-13-23.15.34-1024x408.png" alt="スクリーンショット 2015-01-13 23.15.34" width="625" height="249" class="aligncenter size-large wp-image-4925" /></a>

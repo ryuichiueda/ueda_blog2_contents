@@ -57,7 +57,7 @@ posts
 
 この中の、各main.mdは次のようなヘッダ付きのマークダウンです。
 
-[bash]
+```bash
 $ cat posts/20170818_bash/main.md 
 ---
 Keywords:  嫌がらせ
@@ -69,11 +69,11 @@ Copyright: (C) 2017 Ryuichi Ueda
 Keywords: ワッショイ
 Keywords: ワッショイ
 Keywords: ワッショイ
-[/bash]
+```
 
 これらのファイルから、次のような出力を作ってください。なお、Keywordsの行は各ファイルで最初にある行しか抽出しないこととします。
 
-[bash]
+```bash
 20170806_check_of_webhook Keywords: Webhook
 20170810_negi Keywords: ネギ
 20170810_negistagram Keywords: Twitter, Instagram, ネギ
@@ -83,7 +83,7 @@ Keywords: ワッショイ
 20170820_bootstrap Keywords: Bootstrap
 20170820_injection Keywords: injection
 template Keywords: 
-[/bash]
+```
 
 
 
@@ -110,7 +110,7 @@ template Keywords:
 
 次が出力例です。
 
-[html]
+```html
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -126,21 +126,21 @@ template Keywords:
  &lt;/ul&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-[/html]
+```
 
 <h2>Q3</h2>
 次のファイルについて、
 
-[bash]
+```bash
 $ cat list
 * 妬み
 * 嫉み
 * 僻み
-[/bash]
+```
 
 次のようにHTMLにして、頭にHTTPヘッダをつけてください。インデントは不要ですがタグは1行1個でお願いします。
 
-[html]
+```html
 Content-Type: text/html
 
 &lt;!DOCTYPE html&gt;
@@ -156,7 +156,7 @@ Content-Type: text/html
 &lt;/ul&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-[/html]
+```
 
 すぐできて退屈な人は、インターネット上のサーバでこのHTMLファイルを送信するサーバをワンライナーで立ててください。
 
@@ -167,11 +167,11 @@ Content-Type: text/html
 <h2>Q5</h2>
 次のファイルの1行目の複素数と2行目の複素数をかけ算してください。
 
-[bash]
+```bash
 $ cat complex 
 1 + 4*i
 3 - 2*i
-[/bash]
+```
 
 <h2>Q6</h2>
 フィボナッチ数列で、6765の4つ前の数を出力してください。
@@ -179,20 +179,20 @@ $ cat complex
 <h2>Q7</h2>
 次の数字の列について、00, 01, 02,...,99の数字2つ並びのうち、含まれないものを抽出してください。できる人はループを使わないで抽出してください。
 
-[bash]
+```bash
 cat nums
 1232154916829552629124634124821535923503018381369677458868876877570978993996890718096846698577281037379417474410221480004050608111920262721512985412925301
-[/bash]
+```
 
 
 <h2>Q8</h2>
 次のアルファベットの区間のうち、間に含まれるアルファベットが一番多いものはどれでしょうか。
 
-[bash]
+```bash
 $ cat alphabet 
 a-g
 e-q
 z-v
 r-y
-[/bash]
+```
 

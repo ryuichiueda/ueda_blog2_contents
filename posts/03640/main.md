@@ -17,7 +17,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 こんなふうに使います。
 
-[cpp]
+```cpp
 #そーす
 uedambp:tmp ueda$ cat hoge.cc 
 #include &lt;iostream&gt;
@@ -34,22 +34,22 @@ int main(int argc, char const* argv[])
 
 	return 0;
 }
-[/cpp]
+```
 
 実行すると、xの型はdoubleになっていることが分かります。
 
-[cpp]
+```cpp
 #こんぴゃーるして実行
 uedambp:tmp ueda$ g++ -O3 -std=c++11 hoge.cc -o hoge
 uedambp:tmp ueda$ ./hoge 
 型:d 値:5
-[/cpp]
+```
 
 要はHaskellみたいに型推論してくれるということかと。
 
 んで、これだと型に慣れている人はあまり有り難がらないと思いますが、私が感動したのはこういう書き方ができるということです。
 
-[cpp]
+```cpp
 int main(int argc, char const* argv[])
 {
 	vector&lt;string&gt; str;
@@ -65,7 +65,7 @@ int main(int argc, char const* argv[])
 	for(vector&lt;string&gt;::iterator i=str.begin();i&lt;str.end();i++)
 		cout &lt;&lt; *i &lt;&lt; endl;
 }
-[/cpp]
+```
 
 「vector&lt;string&gt;::iterator」を初心者に教える自信は全くなく、そして何年もブランクのある今、私もなにがなんだか分からないし、書き方を忘れていて調べてしまったのですが、autoはそんな人々を温かく出迎えてくれます。
 
@@ -75,7 +75,7 @@ STLを使えばポインタやデストラクタでいろいろ悩むことも�
 
 んで、今私の書いている「価値反復」というアルゴリズムは、排他なしで並列処理ができます。できるということは並列化しないと笑われるので泣く泣くPOSIXスレッドの立て方を復習していたのですが、これもC++11だとすごく簡単ということが分かりました。threadというクラスのインスタンスを作るだけです。
 
-[cpp]
+```cpp
 ueda\@ubuntu:~$ cat multi.cc 
 #include &lt;iostream&gt;
 #include &lt;thread&gt;
@@ -99,10 +99,10 @@ int main(int argc, char const* argv[])
 	th2.join();
 	th3.join();
 }
-[/cpp]
+```
 
 実行して途中の出力を見てみます。th1,2,3入り乱れています。
-[cpp]
+```cpp
 ueda\@ubuntu:~$ g++ -O3 -std=c++11 -pthread multi.cc -o multi
 ueda\@ubuntu:~$ ./multi | head -n 10000 | tail 
 th1: 5102
@@ -115,7 +115,7 @@ th3: 2607
 th1: 5105
 th3: 2608
 th3: 2609
-[/cpp]
+```
 
 実行中にtopで見ると、CPUの使用率が300%近くになってます。
 
@@ -123,13 +123,13 @@ th3: 2609
 
 ちなみに時間はこんなもん。30000000回の足し算と標準出力への吐き出しですが、なんかもうちょっと速いような気もしないでもありません。もし何かヘマをしていたら教えていただきたく。CPUの周波数は2.5GHzです。
 
-[cpp]
+```cpp
 ueda\@ubuntu:~$ time ./multi &gt; /dev/null
 
 real	0m24.254s
 user	0m34.824s
 sys	0m32.161s
-[/cpp]
+```
 
 Macでもちゃんと動作しますが、topの出力がいまいちよく分からなかったのでUbuntuで実験しました。
 

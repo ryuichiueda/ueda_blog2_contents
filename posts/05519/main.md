@@ -11,7 +11,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 <!--more-->
 今までGlueにはカッコがなかったのですが、bash同様にコマンドをまとめられるようにしました。次の例は２つのechoの出力をrevに渡しているものです。
 
-[bash]
+```bash
 uedambp:SRC ueda$ cat hoge 
 #!/usr/local/bin/glue
 import PATH
@@ -23,13 +23,13 @@ import PATH
 uedambp:SRC ueda$ ./hoge 
 cba
 fed
-[/bash]
+```
 
 <h2>機能追加2: OR</h2>
 
 もう一つ、ORを表す「!>」という記号を作ってみました。もともとAND演算子「>>」がありますが、「!>」はその逆で、左側のコマンドがエラーを起こしたときだけ右側以降のコマンドが実行されます。例を示します。最初のecho 'a'とfalseの右側のecho 'b'だけ実行されます。echo 'b'が成功してしまうので、echo 'c'は実行されません。
 
-[bash]
+```bash
 uedambp:SRC ueda$ cat hoge 
 #!/usr/local/bin/glue
 import PATH
@@ -38,11 +38,11 @@ echo 'a' &gt;&gt; false !&gt; echo 'b' !&gt; echo 'c'
 uedambp:SRC ueda$ ./hoge 
 a
 b
-[/bash]
+```
 
 diffやgrepのように正常でも終了ステータス1を返してくるコマンドでスクリプトが止まらないようにする用途にも使えます。
 
-[bash]
+```bash
 uedambp:GlueLang ueda$ cat hoge 
 #!/usr/local/bin/glue
 import PATH
@@ -54,24 +54,24 @@ diff a b !&gt; true
 uedambp:GlueLang ueda$ ./hoge 
 3d2
 &lt; 3
-[/bash]
+```
 
 <h2>ifをわざわざ作らなくてもよくなった</h2>
 
 んで面白いことに、上の２つの拡張のお陰でif文が不要になったので思い切って削除しました。今までは、
 
-[hs]
+```hs
 ? false
  echo 'hoge'
 | true
  echo 'foo'
 | otherwise
  echo 'bar'
-[/hs]
+```
 
 という書き方にしていましたが複合コマンドとORで、
 
-[hs]
+```hs
 #!/usr/local/bin/glue
 import PATH
 
@@ -83,20 +83,20 @@ import PATH
 } !&gt; {
 	echo 'bar'
 }
-[/hs]
+```
 
 でif文みたいになります。実行すると、最初のカッコでfalseがエラーを出すので、二番目のカッコの中に処理が移ります。最後のカッコは２番目のカッコが正常終了するので実行されません。
 
-[bash]
+```bash
 uedambp:SRC ueda$ ./hoge 
 foo
-[/bash]
+```
 
 カッコ内でコマンドがエラーを起こすと次のカッコに処理が移ります。カッコ内で全コマンドが正常終了すれば、!>でつながっている後ろのカッコ内は実行されません。
 
 少し癖があるのは、{}内のコマンド全てがif文の条件判定として扱われてしまうことでしょうか。そして、if文でエラーが起きてもそれまでの出力は出てしまいます。
 
-[bash]
+```bash
 uedambp:SRC ueda$ cat hoge 
 #!/usr/local/bin/glue
 import PATH
@@ -114,11 +114,11 @@ cat x
 uedambp:SRC ueda$ ./hoge 
 aaa
 ccc
-[/bash]
+```
 
 これを回避したい場合は、こんな書き方をするんでしょうか。もうちょっとうまい書き方があるかもしれません。
 
-[bash]
+```bash
 uedambp:SRC ueda$ cat hoge 
 #!/usr/local/bin/glue
 import PATH
@@ -134,7 +134,7 @@ file x = {
 cat x
 uedambp:SRC ueda$ ./hoge 
 ccc
-[/bash]
+```
 
 
 眠いので寝る。

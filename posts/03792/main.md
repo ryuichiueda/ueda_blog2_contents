@@ -39,24 +39,24 @@ Macで解答を作ったのでLinuxな方は次のようにコマンドの読み
 
 次のようにShift JISのファイルを作り、Shift JISで「きく」と書いてあるファイルを探すワンライナーを考えてください。（答えは「b」ですね。）
 
-[bash]
+```bash
 uedambp:q1 ueda$ echo あいうえお | nkf -xLws &gt; a
 uedambp:q1 ueda$ echo かきくけこ | nkf -xLws &gt; b
 uedambp:q1 ueda$ echo さしすせそ | nkf -xLws &gt; c
-[/bash]
+```
 
 <h2>解答</h2>
 
-[bash]
+```bash
 uedambp:q1 ueda$ for f in * ; do nkf -w $f | grep -q きく &amp;&amp; echo $f ; done
 b
-[/bash]
+```
 
 <h2>Q2</h2>
 
 次のようにディレクトリa,b,c,dに1,2,...,9というファイルがあります。各ディレクトリ内のファイル数をワンライナーで数えてください。
 
-[bash]
+```bash
 uedambp:q2 ueda$ tree
 .
 ├── a
@@ -72,11 +72,11 @@ uedambp:q2 ueda$ tree
  ├── 7
  ├── 8
  └── 9
-[/bash]
+```
 
 <h2>解答</h2>
 
-[bash]
+```bash
 uedambp:q2 ueda$ find . | tr / ' ' | awk 'NF==3{print $2}' | uniq 
 c- 3 a
  2 b
@@ -104,13 +104,13 @@ a 3
 b 2
 c 0
 d 4
-[/bash]
+```
 
 <h2>Q3</h2>
 
 今度は次のような配置でファイル1,2,...,9が置かれているときに、ワンライナーでa、cの下のファイルの総数をカウントしてください（ディレクトリを除く）。つまりaなら5個、cなら4個が正解です。
 
-[bash]
+```bash
 uedambp:q3 ueda$ tree
 .
 ├── a
@@ -126,22 +126,22 @@ uedambp:q3 ueda$ tree
  ├── 7
  ├── 8
  └── 9
-[/bash]
+```
 
 <h2>解答</h2>
 
-[bash]
+```bash
 uedambp:q3 ueda$ find . -type f | awk -F/ '{print $2}' | uniq 
 c- 5 a
  4 c
-[/bash]
+```
 
 
 <h2>Q4</h2>
 
 まず、次のように8桁日付のファイルを作ります。
 
-[bash]
+```bash
 uedambp:q4 ueda$ seq -w 1 31 | xargs -I\@ touch 201401\@
 uedambp:q4 ueda$ ls
 20140101 20140107 20140113 20140119 20140125 20140131
@@ -150,25 +150,25 @@ uedambp:q4 ueda$ ls
 20140104 20140110 20140116 20140122 20140128
 20140105 20140111 20140117 20140123 20140129
 20140106 20140112 20140118 20140124 20140130
-[/bash]
+```
 
 曜日別にディレクトリを作り、その中に当該するファイルを放り込んでください。
 
 <h2>解答</h2>
 
-[bash]
+```bash
 uedambp:q4 ueda$ ls | gdate -f - '+%Y%m%d %a' |
 while read d w ; do mkdir -p $w ; mv $d $w ; done
 ###英語のディレクトリにする###
 uedambp:q4 ueda$ ls | LANG=C gdate -f - '+%Y%m%d %a' |
 while read d w ; do mkdir -p $w ; mv $d $w ; done
-[/bash]
+```
 
 <h2>Q5</h2>
 
 以下のようにa,b,cというディレクトリを作り、その下に「{a,b,c}数字」というファイルを作ります。ファイル名の1文字目とディレクトリ名が一致するようにファイルを移動してください。
 
-[bash]
+```bash
 uedambp:q5 ueda$ tree
 .
 ├── a
@@ -180,11 +180,11 @@ uedambp:q5 ueda$ tree
 │   └── c01
 └── c
  └── a04
-[/bash]
+```
 
 <h2>解答</h2>
 
-[bash]
+```bash
 uedambp:q5 ueda$ find . -type f |
 awk '{print &quot;mv&quot;,$1,substr($1,5,1)}' | sh
 mv: ./a/a01 and a/a01 are identical ←エラーが出るけど大丈夫
@@ -199,14 +199,14 @@ uedambp:q5 ueda$ tree
 │   └── b01
 └── c
  └── c01
-[/bash]
+```
 
 
 <h2>Q6</h2>
 
 次のようにディレクトリa, b, cの下に、8桁日付のファイルをいくつか置きます。
 
-[bash]
+```bash
 uedambp:q6 ueda$ tree
 .
 ├── a
@@ -220,13 +220,13 @@ uedambp:q6 ueda$ tree
  ├── 20110202
  ├── 20130224
  └── 20141224
-[/bash]
+```
 
 各ディレクトリの最新日付のファイルをカレントディレクトリ（a,b,cのあるディレクトリ）にコピーしてください。各ディレクトリの最新ファイルの日付はそれぞれ違い、コピーの際に衝突しないこととします。
 
 <h2>解答</h2>
 
-[bash]
+```bash
 uedambp:q6 ueda$ for d in * ; do ls $d | tail -n 1 |
  xargs -n 1 -I\@ cp $d/\@ ./ ; done
 ###確認###
@@ -238,7 +238,7 @@ uedambp:q6 ueda$ find . -type f | tr '/' ' ' |
 ###Tukubai等###
 uedambp:q6 ueda$ find . -type f | tr '/' ' ' | sort | getlast 1 2 |
  tr '/' ' ' | awk '{print &quot;cp&quot;, &quot;./&quot; $2 &quot;/&quot; $3 &quot; ./&quot;}' | sh
-[/bash]
+```
 
 
 <h2>Q7</h2>
@@ -247,17 +247,17 @@ Q6について、適当にファイルをtouchします。今度はタイムス�
 
 <h2>解答</h2>
 
-[bash]
+```bash
 uedambp:q7 ueda$ for d in * ; do ls -t $d | head -n 1 |
  xargs -I\@ -n 1 cp -p $d/\@ ./ ; done
-[/bash]
+```
 
 
 <h2>Q8</h2>
 
 次のように5個ファイルを作ります。file1をfile2, file2をfile3, file3をfile4, file4をfile5, file5をfile1にmvしてください。
 
-[bash]
+```bash
 uedambp:q8 ueda$ for i in 1 2 3 4 5 ; do echo $i &gt; file$i ; done
 uedambp:q8 ueda$ head *
 ==&gt; file1 &lt;==
@@ -274,11 +274,11 @@ uedambp:q8 ueda$ head *
 
 ==&gt; file5 &lt;==
 5
-[/bash]
+```
 
 <h2>解答</h2>
 
-[bash]
+```bash
 uedambp:q8 ueda$ ls | 
 awk 'BEGIN{a=&quot;tmp&quot;}{print a,$1;a=$1}END{print a,&quot;tmp&quot;}' | 
 tail -r | awk '{print &quot;mv&quot;,$1,$2}' | sh
@@ -297,5 +297,5 @@ uedambp:q8 ueda$ head *
 
 ==&gt; file5 &lt;==
 4
-[/bash]
+```
 

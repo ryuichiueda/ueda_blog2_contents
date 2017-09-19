@@ -15,9 +15,9 @@ GitHubにあります。ファイルは
 
 クローンは以下のようにお願いします。
 
-[bash]
+```bash
 $ git clone https://github.com/ryuichiueda/ShellGeiData.git
-[/bash]
+```
 
 <h2>イントロ</h2>
 
@@ -33,9 +33,9 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 次のechoの出力について、偶数番目の文字だけ大文字にしてください。できたら、奇数番目の文字だけ大文字にしてください。
 
-[bash]
+```bash
 $ echo abcdefghijklmn
-[/bash]
+```
 
 
 <h2>Q2</h2>
@@ -47,16 +47,16 @@ seq 1 100から始めてsedだけでFizzBuzzをやってみましょう。
 
 次の出力について、3行目を7行目の下に移動してください。
 
-[bash]
+```bash
 $ seq 1 10
-[/bash]
+```
 
 
 <h2>Q4</h2>
 
 次のコードのmainとahoの位置を入れ替えてください。
 
-[bash]
+```bash
 $ cat aho.cc 
 #include &lt;iostream&gt;
 using namespace std;
@@ -71,14 +71,14 @@ void aho(void)
 {
 	cout &lt;&lt; &quot;aho&quot; &lt;&lt; endl;
 }
-[/bash]
+```
 
 
 <h2>Q5</h2>
 
 seq 1 10 | から始めて次のような出力を作ってください。
 
-[bash]
+```bash
 2
 1
 4
@@ -89,14 +89,14 @@ seq 1 10 | から始めて次のような出力を作ってください。
 7
 10
 9
-[/bash]
+```
 
 
 <h2>Q6</h2>
 
 echo 1から始めて次のような出力を作ってください。
 
-[bash]
+```bash
 1
 11
 111
@@ -107,7 +107,7 @@ echo 1から始めて次のような出力を作ってください。
 11111111
 111111111
 1111111111
-[/bash]
+```
 
 
 <h2>Q7</h2>
@@ -121,7 +121,7 @@ aというファイルをtouch等で作り、次の縛りでa1, a2, a3, ..., a10
 
 echo 1 | から始めて、あとはsedだけで次のような出力を得てください。
 
-[bash]
+```bash
 1
 11
 111
@@ -132,6 +132,6 @@ echo 1 | から始めて、あとはsedだけで次のような出力を得て�
 111
 11
 1
-[/bash]
+```
 
 

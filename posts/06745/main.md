@@ -46,7 +46,7 @@ Raspberry PiでHaskellを使うときはsudo apt-get install ghcします。
 
 forwardとreadSensorを動かしているのはmain関数のにあるforkIOで、これが非同期に上記2つの関数を実行します。watchSensor関数はmainで呼ばれ、refの値を監視してTrueだったらforwardの処理を止め、そうでなかったら再度自分自身を呼び出しています。refの型はMVar Boolで、これは非同期で動くスレッド間で安全に読み書きできるそうです。間違ってたらアレなので、その筋の方のブログや書籍を参考にどうぞ。
 
-[hs]
+```hs
 import Control.Concurrent
 import Control.Monad
 import System.Posix.Unistd
@@ -82,7 +82,7 @@ main = do
  _ &lt;- forkIO $ readSensor ref
 
  watchSensor ref w
-[/hs]
+```
 
 この部分だけ見ると、Haskellなのに手続き的なのですが、ここにもっと高度な処理を関数で書いていけるのならば、Haskellで書くメリットも出てくるかもしれません。個人的にはシミュレーションで書いたHaskellの関数が使るという確実なメリットが。
 

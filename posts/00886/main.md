@@ -12,7 +12,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 まず、だめな例。
 
-[bash]
+```bash
 bsd /home/ueda$ cat egashira.hs 
 import System.Environment
 import System.IO
@@ -23,11 +23,11 @@ main = BS.getContents &gt;&gt;= BS.putStrLn . BS.unwords . BS.words
 
 bsd /home/ueda$ echo &quot;栃木 江頭 江頭 栃木&quot; | ./egashira 
 ? ?木 江? ? 江? ? ? ?木
-[/bash]
+```
 
 以下が小手先の修正。
 
-[bash]
+```bash
 bsd /home/ueda$ cat egashira.hs
 import System.Environment
 import System.IO
@@ -40,7 +40,7 @@ egaWords :: BS.ByteString -&gt; [BS.ByteString]
 egaWords str = split ' ' str
 bsd /home/ueda$ echo &quot;栃木 江頭 江頭 栃木&quot; | ./egashira 
 栃木 江頭 江頭 栃木
-[/bash]
+```
 
 
 うーん。open usp Tukubai についてはとりあえずこれでいいか・・・。Python版をHaskell版のコマンドに置き換える作業、やる気がでてきた。<!--:-->

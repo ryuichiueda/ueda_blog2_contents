@@ -52,7 +52,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 次のseqからsed（と言ってもgsed）だけでfizzbuzzを完成させてください。
 
-[bash]
+```bash
 ueda\@remote:~$ seq 100 | sed ...
 1
 2
@@ -75,35 +75,35 @@ Fizz
 19
 Buzz
 ...
-[/bash]
+```
 
 <h1>Q3</h1>
 
 このうち素数はどれでしょうか？
 
-[bash]
+```bash
 ueda\@remote:~$ echo 0xaf 0x13 0x0d 0x24 0x58
-[/bash]
+```
 
 <h1>Q4</h1>
 
 次の16進数（UTF-8）で書かれたメッセージを復元してください。
 
-[bash]
+```bash
 e89fb9e3818ce9a39fe381b9e3819fe38184
-[/bash]
+```
 
 <h1>Q5</h1>
 
 次のようなファイルを作ってください。
 （catするとahoとだけ出て、容量は1GB。）
 
-[bash]
+```bash
 ueda\@remote:~$ cat hoge
 aho
 ueda\@remote:~$ ls -l hoge
 -rw-r--r-- 1 ueda ueda 1000000000 12月 7 14:53 hoge
-[/bash]
+```
 
 <h1>Q6</h1>
 
@@ -116,16 +116,16 @@ ueda\@remote:~$ ls -l hoge
 
 分数で正確に答えを求めてください。できれば約分してください。
 
-[bash]
+```bash
 echo '1/4 + 2/5 + 7/16 - 5/9'
-[/bash]
+```
 
 
 <h1>Q8</h1>
 
-[bash]
+```bash
 *****************************************************************
-[/bash]
+```
 
 をポキポキ折ってください。
 

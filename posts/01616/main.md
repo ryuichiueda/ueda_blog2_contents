@@ -21,7 +21,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 まず，バイナリをテキストにして閲覧するのに使うodというコマンドにJPEGの画像を通します．od -xとやると16進数になります．
 
-[bash]
+```bash
 uedamac:~ ueda$ cat IMG_0007.JPG | od -x | head
 0000000 d8ff e1ff a028 7845 6669 0000 4d4d 2a00
 0000020 0000 0800 0b00 0f01 0200 0000 0600 0000
@@ -33,13 +33,13 @@ uedamac:~ ueda$ cat IMG_0007.JPG | od -x | head
 0000160 1400 0000 b200 1302 0300 0000 0100 0100
 0000200 0000 6987 0400 0000 0100 0000 c600 2588
 0000220 0400 0000 0100 0000 3802 0000 0203 7041
-[/bash]
+```
 
 ところでJPEGは最初 0xffd8から始まるのですが，odの吐くテキストはひっくり返って0d8ffと出してしまいます．次の0xe1ffも本当は0xffe1です．詳しい話は省きますが，「エンディアン」というのがキーワードになります．
 
 それを踏まえて，バイナリを1バイトごとに順番に並べてみます．
 
-[bash]
+```bash
 uedamac:~ ueda$ cat IMG_0007.JPG | od -x | sed 's/^[0-9]*//' | tr ' ' '\\n' | 
 awk 'NF==1' | awk '{print substr($1,3,2),substr($1,1,2)}' | head
 ff d8
@@ -52,7 +52,7 @@ ff e1
 00 2a
 00 00
 00 08
-[/bash]
+```
 
 こんな感じで2列に並べてみました．
 
@@ -60,26 +60,26 @@ ff e1
 
 それはいつの日にかの目標にして，ここではこのテキストを一度保存しましょう．<span style="color:red">あ，忘れていましたが，odは出力が同じ行に＊を入れて省略する悪い癖があるので，かならずオプションvを指定してこの機能を消します．</span>
 
-[bash]
+```bash
 uedamac:~ ueda$ cat IMG_0007.JPG | od -xv | sed 's/^[0-9]*//' | 
 tr ' ' '\\n' | awk 'NF==1' | 
 awk '{print substr($1,3,2),substr($1,1,2)}' &gt; text
-[/bash]
+```
 
 今度はtextからjpegを復元します．このワンライナーですが，sedで16進数の頭に0xをつけ，次のgawkで16進数を10進数に変換し，最後のgawkで10進数をバイナリで出力します．gawkの%cがミソです．
 
-[bash]
+```bash
 uedamac:~ ueda$ cat text | sed 's/ / 0x/g' | sed 's/^/0x/' | 
 gawk '{print strtonum($1),strtonum($2)}' | 
 LANG=C gawk '{printf(&quot;%c%c&quot;,$1,$2)}' &gt; hoge.jpg 
-[/bash]
+```
 
 もとの画像と比較してみましょう．
 
-[bash]
+```bash
 uedamac:~ ueda$ cmp IMG_0007.JPG hoge.jpg 
 uedamac:~ ueda$ 
-[/bash]
+```
 
 大丈夫そうです．最後に，一度テキストに化けたJPEGを貼付けておきます．御犬様，テキストにしちゃってすいませんでした．
 

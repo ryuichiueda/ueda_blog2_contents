@@ -27,18 +27,18 @@ bash騒ぎが収まってない中ではありますが、とある役得で<a h
 
 リポジトリの下に.travis.ymlを作って、何をどうテストするか書きます。こんな感じです。使いたいPythonのバージョンを指定して、テストスクリプトをshで呼び出すだけです。
 
-[ruby]
+```ruby
 language: python
 python:
  - &quot;2.7&quot;
  - &quot;2.6&quot;
 script: 
  - sh -e ./TEST/test.at.travis
-[/ruby]
+```
 
 Travis CIのために書いたテストはこちら。regress.allでは各Pythonのバージョンでの調査手続きが入っていましたが、それが不要なので新たに書き直しました。ただただ、各コマンドのテストスクリプトを順に並べただけです。for文使えとか言われるかもしれませんが、for使うくらいならベタに並べた方がよいというUSP流に従います。今の今だと、for文使ってないことよりもbashが並んでいることの方が刺激的かもしれませんが。
 
-[bash]
+```bash
 uedambp:Open-usp-Tukubai ueda$ head TEST/test.at.travis 
 PATH=$PATH:./COMMANDS
 
@@ -51,7 +51,7 @@ bash ./TEST/count.test COMMANDS &quot;&quot;
 bash ./TEST/getlast.test COMMANDS &quot;&quot;
 bash ./TEST/getfirst.test COMMANDS &quot;&quot;
 ###以後ひたすらベタにコマンドが並ぶ###
-[/bash]
+```
 
 .travis.ymlでshに-eを指定しているので、並べたスクリプトのどれかがコケたら終了してテスト失敗と相成ります。1行目はテスト内でOpen usp Tukubaiを使うので、それのパス通しです。ディレクトリは、とりあえずリポジトリのディレクトリがカレントディレクトリとなるようです。
 

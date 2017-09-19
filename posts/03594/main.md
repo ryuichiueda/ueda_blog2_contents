@@ -16,9 +16,9 @@ Copyright: (C) 2017 Ryuichi Ueda
 <!--more-->
 
 しかし、ほんとみんな素数大好きですね・・・いちお、書いておくとシェル芸で素数を出すときはこれで十分です。
-[bash]
+```bash
 ueda\@remote:~$ yes | awk '{print NR}' | factor | awk '$NF==2{print $1}'
-[/bash]
+```
 
 <blockquote class="twitter-tweet" lang="ja"><p>これで素数が出るらしい。変態すぎる。<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> <a href="http://t.co/1eUh4e8363">pic.twitter.com/1eUh4e8363</a></p>&mdash; Ryuichi UEDA (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/statuses/495494677366202368">2014, 8月 2</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

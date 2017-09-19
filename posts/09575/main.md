@@ -15,9 +15,9 @@ GitHubにあります。ファイルは
 
 クローンは以下のようにお願いします。
 
-[bash]
+```bash
 $ git clone https://github.com/ryuichiueda/ShellGeiData.git
-[/bash]
+```
 
 
 <h2>環境</h2>
@@ -46,17 +46,17 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 次のようなリストを作ってください。
 
-[bash]
+```bash
 世界座標系とロボットの姿勢 ./figs/coordinate.eps
 計測値 ./figs/observation.eps
 ランドマークの計測値から2点の相対姿勢を求める ./figs/two_poses.eps
 ランドマークの計測値の不確かさを表す共分散行列 ./figs/observation_noise.eps
-[/bash]
+```
 
 <h3>解答</h3>
 
 Q1.1については、次のようにsedの範囲指定を使います。
-[bash]
+```bash
 $ cat contents.tex | sed -n '/\\\\begin{figure}/,/\\\\end{figure}/p'
 \\begin{figure}[htbp]
 	\\begin{center}
@@ -73,11 +73,11 @@ $ cat contents.tex | sed -n '/\\\\begin{figure}/,/\\\\end{figure}/p'
 		\\label{fig:observation_noise}
 	\\end{center}
 \\end{figure}
-[/bash]
+```
 
 Q1.2については、不要なデータを削って最後に並び替えます。
 
-[bash]
+```bash
 $ cat contents.tex | sed -n '/\\\\begin{figure}/,/\\\\end{figure}/p' |
  grep -e include -e caption | sed 's/.*{//' |
  xargs -n 2 | tr -d '}' | awk '{print $2,$1}'
@@ -85,7 +85,7 @@ $ cat contents.tex | sed -n '/\\\\begin{figure}/,/\\\\end{figure}/p' |
 計測値 ./figs/observation.eps
 ランドマークの計測値から2点の相対姿勢を求める ./figs/two_poses.eps
 ランドマークの計測値の不確かさを表す共分散行列 ./figs/observation_noise.eps
-[/bash]
+```
 
 
 <h2>Q2</h2>
@@ -96,14 +96,14 @@ $ cat contents.tex | sed -n '/\\\\begin{figure}/,/\\\\end{figure}/p' |
 
 最初に段落番号をつけると簡単になります。
 
-[bash]
+```bash
 $ awk '/\\\\section/{a+=1}{print a,$0}' contents.tex | grep ^2 |
  grep -v '\\\\section' | grep -v '%.*' | sed 's/^..//' |
  sed -n '1,/。/p' | sed 's/。.*/。/'
 
 平面上を移動し、向きを持ち、カメラでランドマーク観測ができるロボットで
 graph-based SLAMを実行する方法を考える。
-[/bash]
+```
 
 
 
@@ -115,23 +115,23 @@ graph-based SLAMを実行する方法を考える。
 
 まずは脚注の終わりが必ず「。」で終わっているのを利用したズル解答から。grep -Pの最短一致を使います。
 
-[bash]
+```bash
 $ tr -d '\\n' &lt; contents.tex | grep -oP '(\\\\footnote{.+?。})'
 \\footnote{この仮定は実用上強すぎるが、実際には、後の計算式から分かるように、2つの姿勢間での値$\\psi_{c,t}, \\psi_{c,t'}$の差だけが分かれば良い。例えば、2点間で得られた画像の向きを画像処理から割り出すなどの処理で、この差は得られる。}
 \\footnote{$「10$[\\%]」は変数にすべきだが、記号が増えて理解の妨げになるので固定値として説明する。}
 \\footnote{おそらく$\\psi$は$\\theta$で置き換えられるので$\\psi$を使わない実装もできるが、まだ自分自身では検証していない。}
 \\footnote{小さい角度なので、$\\sin(3\\pi/180)$は$3\\pi/180$に近似しても良い。}
 \\footnote{固定しないと世界座標系が決まらない。}
-[/bash]
+```
 
 そうでない解は、インデントをつけてから抽出する方法しか、今のところ思いついていません。
 
-[bash]
+```bash
 $ tr -d '\\n' &lt; contents.tex | sed 's/[{}]/\\n&amp;\\n/g' | sed 's/\\\\footnote/\\n&amp;/' |
  awk '{for(a=0;a&lt;i;a++)printf &quot; &quot;}/{/{i+=1}/}/{i-=1}{print}' |
  sed -n '/\\\\footnote/,/^ }/p' | tr -d '\\n' | sed 's/\\\\footnote/\\n&amp;/g' |
  sed 's/ *} */}/g' | sed 's/ *{ */{/g' | awk '{print}'
-[/bash]
+```
 
 
 <h2>Q4</h2>
@@ -140,14 +140,14 @@ $ tr -d '\\n' &lt; contents.tex | sed 's/[{}]/\\n&amp;\\n/g' | sed 's/\\\\footno
 
 <h3>解答</h3>
 
-[bash]
+```bash
 $ cat contents.tex |
  awk '/\\\\section/{f=gensub(/ /,&quot;_&quot;,&quot;g&quot;,$0);gsub(/\\\\section{/,&quot;&quot;,f);
 gsub(/}$/,&quot;&quot;,f)}{print $0 &gt; f}'
 ###このようにファイルができます###
 $ ls
 contents.tex graph-based_SLAMの実装例 はじめに 問題
-[/bash]
+```
 
 
 <h2>Q5</h2>
@@ -156,7 +156,7 @@ contents.tex graph-based_SLAMの実装例 はじめに 問題
 
 <h3>解答</h3>
 
-[bash]
+```bash
 $ grep 座標系 contents.tex | mecab -O wakati |
  grep -oE '[^ あ-ん]+ 座標 系' | sort -u | tr -d &quot; &quot;
 ロボット座標系
@@ -166,7 +166,7 @@ $ grep 座標系 contents.tex | grep -oE '[^ あ-ん{、「]+座標系' | sort -
 ロボット座標系
 計測座標系
 世界座標系
-[/bash]
+```
 
 <h2>Q6</h2>
 
@@ -176,11 +176,11 @@ $ grep 座標系 contents.tex | grep -oE '[^ あ-ん{、「]+座標系' | sort -
 
 空行を見つけてフラグを立て、普通の文頭かどうか判断して全角スペースを差し込みます。
 
-[bash]
+```bash
 $ cat contents.tex |
  awk '/^ *$/{f=1}
 {if(f &amp;&amp; !/^ *$|section|begin|end|^%/){print &quot;　&quot;$0;f=0}else{print}}'
-[/bash]
+```
 
 
 <h2>Q7</h2>
@@ -191,20 +191,20 @@ $ cat contents.tex |
 
 q6の出力から続ける例を示します。ゴリ押しです。
 
-[bash]
+```bash
 $ cat q6 | sed 's/^%.*//' |
  awk '/begin/{if(!stop)print &quot;&quot;;stop+=1}
  !stop &amp;&amp; !/section/{printf($0)}
  stop || /section/{print}/end/{stop-=1}' |
  sed 's/　 /n　 /' | sed 's/\\\\[sub]*section/\\n\\n&amp;/' 
-[/bash]
+```
 
 <h2>Q8</h2>
 
 contents.texについて、次のように章節項のリストを作ってください。
 
 
-[bash]
+```bash
 1 はじめに
 2 問題
 2.1 ロボットの姿勢と座標系
@@ -223,7 +223,7 @@ contents.texについて、次のように章節項のリストを作ってく�
 3.2.2 最適化する式
 3.3 $\\V{e}_{c,t,t'}$の勾配を求める
 3.4 問題を解く
-[/bash]
+```
 
 
 <h3>解答</h3>
@@ -231,7 +231,7 @@ contents.texについて、次のように章節項のリストを作ってく�
 awkで章節項のカウンタを作ってうまく制御するのが一番素直な方法です。（二番目以降は思いつきませんが。）
 
 
-[bash]
+```bash
 $ grep section contents.tex | sed 's/{/ /' | grep -v ^% |
  sed 's/\\\\label.*//' | sed 's/}$//' |
  awk '/^\\\\se/{s+=1;$1=s;ss=0;print}/\\\\subse/{ss+=1;$1=s&quot;.&quot;ss;sss=0;print}/
@@ -254,4 +254,4 @@ $ grep section contents.tex | sed 's/{/ /' | grep -v ^% |
 3.2.2 最適化する式
 3.3 $\\V{e}_{c,t,t'}$の勾配を求める
 3.4 問題を解く
-[/bash]
+```

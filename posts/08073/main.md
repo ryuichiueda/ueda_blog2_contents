@@ -20,9 +20,9 @@ GitHubにあります。ファイルは
 
 クローンは以下のようにお願いします。
 
-[bash]
+```bash
 $ git clone https://github.com/ryuichiueda/ShellGeiData.git
-[/bash]
+```
 
 <h2>環境</h2>
 今回はUbuntu Linuxで解答例を作りましたので、BSD系、Macな方は以下の表をご参考に・・・。
@@ -58,7 +58,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 次のファイルの中身について、「cat <ファイル名>」から初めて、同じワンライナーでそれぞれ中央値を求めてください。データの数が偶数の場合は、中央の二つの値の平均を中央値とします。
 
-[bash]
+```bash
 ueda\@remote:~/GIT/ShellGeiData/vol.22/Q1$ cat a
 1
 3
@@ -74,33 +74,33 @@ ueda\@remote:~/GIT/ShellGeiData/vol.22/Q1$ cat b
 4242
 -4
 -5
-[/bash]
+```
 
 
 <h2>Q2</h2>
 
 次のような出力から初めて、
 
-[bash]
+```bash
 ueda\@remote:~$ echo カレーライス 醤油ラーメン | ...
-[/bash]
+```
 
 次のような出力を得てください（表示がずれてますが、「ー」のところで文字列をクロスさせています）。最初のパイプより右側はマルチバイト文字を使わないようにしてみましょう。「ー」が何文字目にあるか等の情報は何でも使って結構です。
 
-[bash]
+```bash
  カ
  レ
 醤油ラーメン
  ラ
  イ
  ス
-[/bash]
+```
 
 <h2>Q3</h2>
 
 次のデータについて、
 
-[bash]
+```bash
 ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q3
 aaabbb
 bababa
@@ -108,15 +108,15 @@ aaabbb
 aaabbb
 bababa
 bbbbba
-[/bash]
+```
 
 次のような出力を得てください。
 
-[bash]
+```bash
 bababa 2 5
 aaabbb 1 3 4
 bbbbba 6
-[/bash]
+```
 
 次に、得られた答えから元のデータを復元してください。Q3の答えはQ3.ansにあります。
 
@@ -126,7 +126,7 @@ bbbbba 6
 
 次のファイルについて、素数行目に存在するりんごとみかんをそれぞれ数えてください。できる人は素数の行を2,3,5,7と明示的に指定しないでやってみてください。
 
-[bash]
+```bash
 ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q4
 りんご
 りんご
@@ -136,24 +136,24 @@ ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q4
 みかん
 りんご
 りんご
-[/bash]
+```
 
 
 <h2>Q5</h2>
 
 足して10になる並びを全て見つけてみましょう。
 
-[bash]
+```bash
 ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q5
 1 3 4 4 2 3 5 6 7 9 1 4
-[/bash]
+```
 
 
 <h2>Q6</h2>
 
 次のファイルQ6_1のX,Y,Zに、
 
-[bash]
+```bash
 ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q6_1 
 所謂いわゆる「Z」というものにだって、
 もっと何か表情なり印象なりがあるものだろうに、
@@ -163,16 +163,16 @@ YのからだにXでもくっつけたなら、
 ぞっとさせ、いやな気持にさせるのだ。
 私はこれまで、こんな不思議な男の顔を見た事が、
 やはり、いちども無かった。
-[/bash]
+```
 
 Q6_2に書いてある文字列を当てはめてください。
 
-[bash]
+```bash
 ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q6_2
 X 駄馬の首
 Y 人間
 Z 死相
-[/bash]
+```
 
 
 <h2>Q7</h2>
@@ -184,7 +184,7 @@ Z 死相
 
 次のC++のコードに関数プロトタイプをくっつけてください。
 
-[bash]
+```bash
 ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q8.cc 
 #include &lt;iostream&gt;
 #include &lt;string&gt;
@@ -205,11 +205,11 @@ int main(int argc, char const* argv[])
 	aho();
 	return 0;
 }
-[/bash]
+```
 
 つまりこういう出力を作ります。
 
-[bash]
+```bash
 ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q8.ans.cc 
 #include &lt;iostream&gt;
 #include &lt;string&gt;
@@ -232,6 +232,6 @@ int main(int argc, char const* argv[])
 	aho();
 	return 0;
 }
-[/bash]
+```
 
 

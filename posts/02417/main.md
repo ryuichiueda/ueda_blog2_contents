@@ -9,17 +9,17 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 
 まず、こんなふうにhtml-xml-utilsをインストールします。
-[bash]
+```bash
 ###Mac###
 uedambp:~ ueda$ brew install html-xml-utils
 ###Ubuntu###
 root\@remote:~# apt-get install html-xml-utils
-[/bash]
+```
 
 <!--more-->
 
 んで、昨日の記事では「c」という要素を無理矢理grepで引っ張りだしてましたが、hxselectというコマンドを使うと脳みその負荷が大幅に減ります。
-[bash]
+```bash
 ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c
 &lt;c r=&quot;A1&quot;&gt;&lt;v&gt;1&lt;/v&gt;&lt;/c&gt;&lt;c r=&quot;A2&quot;&gt;&lt;v&gt;2&lt;/v&gt;&lt;/c&gt;&lt;c r=&quot;A3&quot;&gt;&lt;v&gt;3&lt;/v&gt;&lt;/c&gt;&lt;c 
 r=&quot;A4&quot;&gt;&lt;v&gt;-4.2300000000000004&lt;/v&gt;&lt;/c&gt;ueda\@remote:~/tmp$
@@ -29,7 +29,7 @@ ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c |
 &lt;c r=&quot;A2&quot;&gt;&lt;v&gt;2&lt;/v&gt;&lt;/c&gt;
 &lt;c r=&quot;A3&quot;&gt;&lt;v&gt;3&lt;/v&gt;&lt;/c&gt;
 &lt;c r=&quot;A4&quot;&gt;&lt;v&gt;-4.2300000000000004&lt;/v&gt;&lt;/c&gt;
-[/bash]
+```
 もう、どれだけビールを飲んでも仕事できそうなくらい簡単です（本当か？）。
 
 あとは<a href="http://blog.ueda.asia/?p=2398" title="Excelファイルをシェル芸でほじくる。ただしエクセル方眼紙は後日ということで。" target="_blank">昨日の記事</a>をご参考に。

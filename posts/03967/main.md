@@ -7,11 +7,11 @@ Copyright: (C) 2017 Ryuichi Ueda
 確認しました（苦笑）
 
 （追記: envを抜いてましたが、それだとCシェル系で確認できないので加えました）
-[bash]
+```bash
 ueda\@remote:~$ env x='() { :;}; echo vulnerable' bash -c 'echo this is a test'
 vulnerable
 this is a test
-[/bash]
+```
 
 <!--more-->
 
@@ -23,12 +23,12 @@ bashの文法ではシングルクォートで囲んだ中のものは何がど�
 
 あんまりローレベルのところを知っているわけでもないのですが、文法からすれば実装ミスです（いや、そうとも言えないかも。ということで今は疑いのあるものは止めてます。）。文法自体の問題ではないので、パッチがすぐに出ているようです。パッチを当てるとこうなります。
 
-[bash]
+```bash
 [ueda\@centos ~]$ x='() { :;}; echo vulnerable' bash -c 'echo this is a test'
 bash: warning: x: ignoring function definition attempt
 bash: error importing function definition for `x'
 this is a test
-[/bash]
+```
 
 文字列なんだからワーニング出すのどうなんだと思いますが、とりあえずはアップデートを。（あのディストリビューションがまだなんですけど・・・なんとかなりませんかね？？？みんな寝てるんですかね？？？地球の裏側は昼ですよね？？？）
 
@@ -42,7 +42,7 @@ this is a test
 
 あとちょっと分かりませんが、shでも環境によっては？？？ちょっとこれは分かりません。あ、分かった。後ろのbashですね。失礼しました。
 
-[bash]
+```bash
 freebsd10 /home/ueda$ sh
 $ x='() { :;}; echo vulnerable' bash -c &amp;amp;amp;amp;amp;amp;quot;echo this is a test&amp;amp;amp;amp;amp;amp;quot; #&amp;amp;amp;amp;amp;amp;lt;-bashじゃんかwww（ごめんなさい）
 vulnerable
@@ -51,11 +51,11 @@ this is a test
 freebsd10 /home/ueda$ sh
 $ x='() { :;}; echo vulnerable' sh -c &amp;amp;amp;amp;amp;amp;quot;echo this&amp;amp;amp;amp;amp;amp;quot;
 this
-[/bash]
+```
 
 dashも？？？と思ったけどこれもbashを後ろで呼び出しているからでした。アホです。
 
-[bash]
+```bash
 ueda\@ubuntu:~$ dash
 $ x='() { :;}; echo vulnerable' bash -c &amp;amp;amp;amp;amp;amp;quot;echo this is a test&amp;amp;amp;amp;amp;amp;quot; 
 vulnerable
@@ -64,6 +64,6 @@ this is a test
 ueda\@ubuntu:~$ dash
 $ x='() { :;}; echo vulnerable' sh -c &amp;amp;amp;amp;amp;amp;quot;echo this&amp;amp;amp;amp;amp;amp;quot;
 this
-[/bash]
+```
 
 取り急ぎ。眠い。

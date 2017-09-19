@@ -21,13 +21,13 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 必要なものを上のサイトを参考にインストール後、適当なディレクトリ（自分の場合は~/HUBOT/GITHUB）を作り、その下で次のコマンドを打ちます。
 
-[bash]
+```bash
 yo hubot
-[/bash]
+```
 
 すると、こんな感じで根掘り葉掘り聞かれます。<del>AAがアホっぽいです。</del>いや、なんでもありません。
 
-[bash]
+```bash
 $ yo hubot
  _____________________________ 
  / \\ 
@@ -48,12 +48,12 @@ $ yo hubot
 ? Bot name github
 ? Description A simple notifier for GitHub wiki
 ? Bot adapter (campfire) slack
-[/bash]
+```
 
 間違えてはいけないのは
-[bash]
+```bash
 ? Bot adapter (campfire) slack
-[/bash]
+```
 の一箇所です。
 
 
@@ -69,10 +69,10 @@ $ yo hubot
 <h2>各種設定</h2>
 
 上のスクリプトで次のようになっているところは、自分の環境に合わせて書き換える必要があります。
-[bash]
+```bash
 export HUBOT_SLACK_TOKEN=xxxxxx
 export HUBOT_GITHUB_SECRET=yyyyyyy
-[/bash]
+```
 
 HUBOT_SLACK_TOKENはSlackのHubotの設定ページに、次のようにトークンが表示されているはずなので、これをコピペして使います。
 
@@ -83,10 +83,10 @@ HUBOT_GITHUB_SECRETは、GitHubの連携したいリポジトリのWebhookの設
 <a href="1455450001.jpg" rel="attachment wp-att-7686"><img src="1455450001.jpg" alt="1455450001" width="501" height="218" class="aligncenter size-full wp-image-7686" /></a>
 
 私は次のような感じで作りました。
-[bash]
+```bash
 $ cat /etc/* | md5sum 2&gt; /dev/null
 b720a34fb302c401e5146cefe1ae656d -
-[/bash]
+```
 
 Secretの二つ上にある「Payload URL」は、http://<Hubotを置いたサーバのURL>:<ポート番号>/github/webhookにしておきます。このURLの「github」というのはHubotの名前です。
 
@@ -99,9 +99,9 @@ Secretの二つ上にある「Payload URL」は、http://<Hubotを置いたサ�
 <script src="https://gist.github.com/ryuichiueda/f7ae2b58c3f6b788dd87.js"></script>
 
 次の部分（19行目）がSlackにデータを投げている部分です。「lab-github」というのは、Slackのチャンネルですので、用途に合わせて変更しましょう。毎度ハードコーティングで申し訳なく・・・
-[bash]
+```bash
 robot.messageRoom 'lab-github', message
-[/bash]
+```
 
 スクリプト自体はパースされたJSONのデータを切った貼ったしているだけなので、なんとなく分かる人なら、どんどんいじっていけると思います。GitHubが送ってくるJSONの実物は、さっきのGitHubのリポジトリwebhook設定ページにあります。
 

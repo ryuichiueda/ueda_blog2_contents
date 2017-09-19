@@ -16,9 +16,9 @@ GitHubにあります。ファイルは
 
 クローンは以下のようにお願いします。
 
-[bash]
+```bash
 $ git clone https://github.com/ryuichiueda/ShellGeiData.git
-[/bash]
+```
 
 <h2>環境</h2>
 今回はUbuntu Linuxで解答例を作りましたので、BSD系、Macな方は以下の表をご参考に・・・。
@@ -60,14 +60,14 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 まず、次のように、気象庁の毎月の台風の上陸数に関するデータをダウンロードし、landing.csvというファイルに保存してください。<span style="color:red">UTF-8に見えてもExcelから作ったCSVはBOM付きだったりするので、ネットから入手したデータは最初にnkfに通す癖を。</span>
 
-[bash]
+```bash
 $ curl http://www.data.jma.go.jp/fcd/yoho/typhoon/statistics/landing/landing.csv |
  nkf -wLux &gt; landing.csv
-[/bash]
+```
 
 次にこのデータを、以下のようなデータ（ファイル名: monthly_typhoon）に変換してください。第1フィールドが年月、第2フィールドが台風の上陸頻度です。
 
-[bash]
+```bash
 $ head monthly_typhoon 
 195101 0
 195102 0
@@ -90,15 +90,15 @@ $ tail monthly_typhoon
 201510 0
 201511 0
 201512 0
-[/bash]
+```
 
 <h3>解答</h3>
 
-[bash]
+```bash
 $ cat landing.csv | awk -F, '{for(i=2;i&lt;=13;i++){print $1,$i}}' |
  grep -v 年 | awk '{print $1 sprintf(&quot;%02d&quot;,(NR-1)%12+1),$2}' |
  awk 'NF==1{print $1,0}NF!=1' &gt; monthly_typhoon
-[/bash]
+```
 
 <h2>Q2</h2>
 
@@ -108,12 +108,12 @@ monthly_typhoonから年ごとの台風の上陸頻度を集計し、元のlandi
 
 次のように書いて出力がなければ整合性が取れています。
 
-[bash]
+```bash
 $ cat monthly_typhoon |
  awk '{a[substr($1,1,4)]+=$2}END{for(k in a)print k,a[k]}' |
  sort | paste - &lt;(tail -n +2 landing.csv | sed 's/,$/,0/') |
  tr , ' ' | awk '$1!=$3 || $2!=$NF'
-[/bash]
+```
 
 <h2>Q3</h2>
 
@@ -121,7 +121,7 @@ $ cat monthly_typhoon |
 
 <h3>解答</h3>
 
-[bash]
+```bash
 $ cat monthly_typhoon | sed 's/^....//' |
  awk '$2==0{a[$1]++}$2!=0{b[$1]++}END{for(k in a){print k,b[k]/(a[k]+b[k])}}' |
  sort
@@ -137,7 +137,7 @@ $ cat monthly_typhoon | sed 's/^....//' |
 10 0.2
 11 0.0153846
 12 0
-[/bash]
+```
 
 <h2>Q4</h2>
 
@@ -147,13 +147,13 @@ $ cat monthly_typhoon | sed 's/^....//' |
 
 まずこうすると各年で何月だったか分かります。
 
-[bash]
+```bash
 $ sed 's/^..../&amp; /' monthly_typhoon | grep -v ' 0$' | uniq -w4
-[/bash]
+```
 
 何月が何回だったかは次の通り。
 
-[bash]
+```bash
 $ sed 's/^..../&amp; /' monthly_typhoon | grep -v ' 0$' | uniq -w4 |
  awk '{print $2}' | sort | uniq 
 c- 1 04
@@ -163,7 +163,7 @@ c- 1 04
  19 08
  7 09
  2 10
-[/bash]
+```
 
 <h2>Q5</h2>
 
@@ -171,20 +171,20 @@ c- 1 04
 
 <h3>解答</h3>
 
-[bash]
+```bash
 $ cat monthly_typhoon | sed 's/.. / /' | grep ' 0$' |
  uniq -c | awk '$1==12{print $2}'
 1984
 1986
 2000
 2008
-[/bash]
+```
 
 <h2>Q6</h2>
 
 まず、<a href="http://www.city.osaka.lg.jp/shimin/page/0000298810.html" target="_blank">大阪市のページ</a>から、「平成27年 大阪市の犯罪発生情報 ひったくり」のデータを次のようにダウンロードして整形してください。<span style="color:red">なお、大阪を選んだ理由は2016年6月現在、ちゃんとテキストでこのようなデータを提供している大都市が他に見つからないからであり、他の意図があるわけではありません。</span>また、なぜか女性の被害者のデータしかないのですが、気にしないことにします。
 
-[bash]
+```bash
 $ curl http://www.city.osaka.lg.jp/shimin/cmsfiles/contents/0000298/298810/006hittakuri2015.csv |
  nkf -wLux | tr , ' ' | tail -n +2 &gt; hittakuri
 $ head -n 5 hittakuri 
@@ -193,7 +193,7 @@ $ head -n 5 hittakuri
 大阪市北区 曾根崎 ２丁目付近 窃盗 既遂 ひったくり 自動二輪 2015年 4月 13日 3時頃 女性 20代
 大阪市北区 曾根崎 ２丁目付近 窃盗 既遂 ひったくり 自動二輪 2015年 4月 13日 2時頃 女性 40代
 大阪市北区 角田町 付近 窃盗 既遂 ひったくり 自動二輪 2015年 4月 7日 3時頃 女性 20代
-[/bash]
+```
 
 データは、大阪市からクリエイティブコモンズライセンスCC-BYで提供されているものです。
 
@@ -203,7 +203,7 @@ $ head -n 5 hittakuri
 
 データの確認のため、あえて簡単にしてみました。
 
-[bash]
+```bash
 $ awk '{print $1}' hittakuri | sort | uniq 
 c- 19 大阪市阿倍野区
  8 大阪市旭区
@@ -229,7 +229,7 @@ c- 19 大阪市阿倍野区
  53 大阪市北区
  31 大阪市淀川区
  22 大阪市浪速区
-[/bash]
+```
 
 <h2>Q7</h2>
 
@@ -239,11 +239,11 @@ c- 19 大阪市阿倍野区
 
 指数表記になるとちゃんとソート順が変わる等面倒なので気をつけましょう。
 
-[bash]
+```bash
 $ awk '{print $1}' hittakuri | sort | uniq -c |
  awk '{print $2,$1}' | LANG=C sort | join - &lt;(LANG=C sort population_h27sep) |
  awk '{printf(&quot;%s %7f\\n&quot;,$1,$2/$3)}' | sort -k2,2nr
-[/bash]
+```
 
 <h2>Q8</h2>
 
@@ -251,12 +251,12 @@ $ awk '{print $1}' hittakuri | sort | uniq -c |
 
 <h3>解答</h3>
 
-[bash]
+```bash
 $ cat hittakuri | awk '{print $1$2$3,$8,$9,$10}' | sort | uniq -d
 大阪市北区角田町付近 2015年 11月 4日
 大阪市北区曾根崎２丁目付近 2015年 4月 13日
 大阪市淀川区十三本町１丁目付近 2015年 4月 16日
-[/bash]
+```
 
 <h2>Q9</h2>
 
@@ -264,11 +264,11 @@ $ cat hittakuri | awk '{print $1$2$3,$8,$9,$10}' | sort | uniq -d
 
 <h3>解答</h3>
 
-[bash]
+```bash
 $ awk '{print $5,$7}' hittakuri | awk '$1==&quot;既遂&quot;{a[$2]++}{b[$2]++}END{for(k in a){print k,a[k]/b[k]}}'
 徒歩 0.942308
 自動車 0.904762
 自転車 0.92053
 自動二輪 0.954225
-[/bash]
+```
 

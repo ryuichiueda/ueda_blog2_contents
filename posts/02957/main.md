@@ -22,7 +22,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 あと、コマンドらしくヘルプを追加したりtrapをしかけたり。
 
 こんな感じです。
-[bash]
+```bash
 ###標準入力からdocxを受ける###
 server:ShellOfficeTools ueda$ cat ~/Desktop/letter.docx |
  ./wordsed 's/\@\@*/ボケ/g' &gt; out.docx
@@ -35,7 +35,7 @@ Copyright (C) 2014 Ryuichi UEDA
 
 usage1: cat original.docx | wordsed &lt;sed command&gt; &gt; newfile.docx
 usage2: wordsed &lt;sed command&gt; original.docx &gt; newfile.docx
-[/bash]
+```
 
 試してませんが多段でパイプに繋ぐことも可能となりました。
 

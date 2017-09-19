@@ -47,7 +47,7 @@ Linuxで解答を作ったのでMacな方は次のようにコマンドの読み
 
 次のように、画面にバッテンを描いてください。（この出力例の大きさは21x21です。）
 
-[bash]
+```bash
 x x
  x x 
  x x 
@@ -69,40 +69,40 @@ x x
  x x 
  x x 
 x x
-[/bash]
+```
 
 <h2>解答</h2>
 
-[bash]
+```bash
 ueda\@remote:~$ yes | head -n 21 |
 awk '{for(i=1;i&lt;=21;i++){
 if(i==NR || 22-i==NR){printf &quot;x&quot;}else{printf &quot; &quot;}}
 print &quot;&quot;}'
-[/bash]
+```
 
 
 <h2>Q2</h2>
 
 小問1. 次のechoの出力から回文を完成させてください。
 
-[bash]
+```bash
 ueda\@remote:~$ echo たけやぶ
 ###このようにワンライナーで出力を作る###
 ueda\@remote:~$ echo たけやぶ | ...
 たけやぶやけた
-[/bash]
+```
 
 小問2. 次のファイルの各行について回文を完成させてください。
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ cat kaibun 
 たけやぶ
 わたしまけ
-[/bash]
+```
 
 <h2>解答</h2>
 
-[bash]
+```bash
 ###小問1###
 ueda\@remote:~$ echo たけやぶ | 
 while read s ; do echo $s ; rev &lt;&lt;&lt; $s ; done | 
@@ -118,7 +118,7 @@ echo たけやぶ | ( read s ; echo $s ; rev &lt;&lt;&lt; $s ) | xargs | sed 's/
 ueda\@remote:~/tmp$ rev kaibun | paste kaibun - | sed 's/.\\t//'
 たけやぶやけた
 わたしまけましたわ
-[/bash]
+```
 
 <h2>Q3</h2>
 
@@ -126,31 +126,31 @@ ueda\@remote:~/tmp$ rev kaibun | paste kaibun - | sed 's/.\\t//'
 
 <h2>解答</h2>
 
-[bash]
+```bash
 ueda\@remote:~$ curl http://ja.wikipedia.org/wiki/%E5%8D%97%E6%AD%A6%E7%B7%9A | 
 sed -n '/南武線新旧 快速停車駅/,$p' | sed -n '/川崎/,$p' | 
 sed -n '1,/立川/p' | sed 's/&lt;[^&lt;]*&gt;//g'
 ueda\@remote:~$ curl 'http://express.heartrails.com/api/json?method=getStations&amp;line=JR南武線' |
  jq . | grep '&quot;name&quot;' | awk '{print $2}' | tr -d '&quot;,'
-[/bash]
+```
 
 <h2>Q4</h2>
 
 北から順（正確には都道府県番号順）に並べてください。
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ cat pref 
 鹿児島県
 青森県
 大阪府
 群馬県
-[/bash]
+```
 
 <h2>解答</h2>
 
 Webを利用します。
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ curl http://elze.tanosii.net/d/kenmei.htm |
 nkf -wLux | grep &quot;[都道府県]&quot; |
 grep -f ./pref | sed 's/[^&gt;]*&gt;//' | sed 's/(.*//'
@@ -158,21 +158,21 @@ grep -f ./pref | sed 's/[^&gt;]*&gt;//' | sed 's/(.*//'
 群馬県
 大阪府
 鹿児島県
-[/bash]
+```
 
 <h2>Q5</h2>
 
 各行の数字を大きい順にソートしてください。
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ cat input 
 A 31 1234 -42 4
 B 10 31.1 -34 94
-[/bash]
+```
 
 <h2>解答</h2>
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ cat input | 
 awk '{for(i=2;i&lt;=NF;i++){print $1,$i}}' | 
 sort -k1,1 -k2,2nr | 
@@ -185,44 +185,44 @@ ueda\@remote:~/tmp$ cat input | tarr num=1 |
 sort -k1,1 -k2,2nr | yarr num=1
 A 1234 31 4 -42
 B 94 31.1 10 -34
-[/bash]
+```
 
 <h2>Q6</h2>
 
 次のファイルについてグラフを作ってください。
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ cat num 
 5
 3
 4
 10
 2
-[/bash]
+```
 
 このような出力を作ります。
 
-[bash]
+```bash
  5 *****
  3 ***
  4 ****
 10 **********
  2 **
-[/bash]
+```
 
 <h2>解答</h2>
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ cat num | 
 awk '{printf(&quot;%2d &quot;,$1);for(i=0;i&lt;$1;i++){printf &quot;*&quot;}print &quot;&quot;}'
-[/bash]
+```
 
 <h2>Q7</h2>
 
 Q6のグラフを次のように縦にしてください。
 （多少ズレてもよしとします。）
 
-[bash]
+```bash
  * 
  * 
  * 
@@ -234,11 +234,11 @@ Q6のグラフを次のように縦にしてください。
 * * * * *
 * * * * *
 5 3 4 10 2
-[/bash]
+```
 
 <h2>解答</h2>
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ cat num | 
 awk '{printf $1&quot; &quot;;for(i=0;i&lt;$1;i++){printf &quot;* &quot;}
 for(i=$1;i&lt;=15;i++){printf &quot;_ &quot;};print &quot;&quot;}' |
@@ -252,24 +252,24 @@ awk '{printf $1&quot; &quot;;
 for(i=0;i&lt;$1;i++){printf &quot;* &quot;}
 for(i=$1;i&lt;=15;i++){printf &quot;_ &quot;};print &quot;&quot;}' |
  tateyoko | tac | keta | sed -n '/\\*/,$p' | tr _ ' '
-[/bash]
+```
 
 <h2>Q8</h2>
 
 次のデータは、何かの試合の結果ですが、各チームが何勝何敗だったかを集計してください。引き分けは無いと仮定して構いません。
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ cat result 
 A-B 1-2
 B-A 3-1
 C-A 1-0
 B-C 5-4
 C-B 2-1
-[/bash]
+```
 
 <h2>解答</h2>
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ cat result | tr '-' ' ' | 
 awk '{print $1,$2,($3&gt;$4)?&quot;W L&quot;:&quot;L W&quot;}' | 
 awk '{print $1,$3;print $2,$4}' | 
@@ -290,7 +290,7 @@ sort | count 1 2 | map num=1
 A 3 0
 B 1 3
 C 1 2
-[/bash]
+```
 
 
 

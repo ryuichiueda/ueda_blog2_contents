@@ -46,53 +46,53 @@ Program Filesのフォルダ（私の環境だとC:\\Program Files (x86)\\terate
 
 すると、次のようにホームにid_rsa.pubが存在しているはずです。
 
-[bash]
+```bash
 ueda\@becky:~$ ls id_rsa.pub
 id_rsa.pub
-[/bash]
+```
 
 <h3>.ssh/authorized_keysが存在している場合</h3>
 
 次のようにすでに.ssh/authorized_keysが存在している場合は、
 
-[bash]
+```bash
 ueda\@becky:~$ ls ~/.ssh/authorized_keys
 /home/ueda/.ssh/authorized_keys
-[/bash]
+```
 
 次の操作を行います。
 
-[bash]
+```bash
 ueda\@becky:~$ cat id_rsa.pub &gt;&gt; .ssh/authorized_keys
-[/bash]
+```
 
 <h3>.sshディレクトリが存在しているが、authorized_keysが存在していない場合</h3>
 
 次のように.sshディレクトリがホームにあるのにauthorized_keysがない場合は、
 
-[bash]
+```bash
 ueda\@becky:~$ ls -d ~/.ssh
 /home/ueda/.ssh
-[/bash]
+```
 
 次のようにします。
 
-[bash]
+```bash
 ueda\@becky:~$ cat id_rsa.pub &gt;&gt; .ssh/authorized_keys
 ueda\@becky:~$ chmod 644 .ssh/authorized_keys
-[/bash]
+```
 
 
 <h3>.sshディレクトリすら存在していない場合</h3>
 
 次のように打ちます。
 
-[bash]
+```bash
 ueda\@becky:~$ mkdir .ssh
 ueda\@becky:~$ chmod 700 .ssh
 ueda\@becky:~$ cat id_rsa.pub &gt;&gt; .ssh/authorized_keys
 ueda\@becky:~$ chmod 644 .ssh/authorized_keys
-[/bash]
+```
 
 <h2>ログイン</h2>
 

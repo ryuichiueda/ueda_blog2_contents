@@ -12,21 +12,21 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 端末からgccを打つと・・・
 
-[bash]
+```bash
 uedamac:~ ueda$ gcc
 xcode-select: note: no developer tools were found at '/Applications/Xcode.app', 
 requesting install. Choose an option in the dialog to download the command line 
 developer tools.
-[/bash]
+```
 
 なんかダイアログ出た！迷わずインストール。
 
 <a href="スクリーンショット-2013-10-27-12.16.18.png"><img src="スクリーンショット-2013-10-27-12.16.18-300x120.png" alt="スクリーンショット 2013-10-27 12.16.18" width="300" height="120" class="aligncenter size-medium wp-image-1372" /></a>
 
-[bash]
+```bash
 uedamac:~ ueda$ gcc
 clang: error: no input files
-[/bash]
+```
 
 大丈夫です。
 

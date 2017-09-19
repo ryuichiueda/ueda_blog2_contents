@@ -24,20 +24,20 @@ Excelと言えば、最近、<a href="http://itpro.nikkeibp.co.jp/article/Watche
 
 さて、解凍してみます。文字列はxl/sharedStrings.xmlに入っています。
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ unzip *
 ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;&lt;/si&gt;;&amp;\\n;g'
 &lt;si&gt;&lt;t&gt;ﾀﾞｧｼｴﾘｲｪｽ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
 &lt;si&gt;&lt;t&gt;ﾀﾞｯ・・・ｧｼｴﾘｲｪｽ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
-[/bash]
+```
 
 このファイルのsi要素に、上から0,1番と番号を振り、それをsheet1.xmlで参照しています。
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;&lt;/c&gt;;&amp;\\n;g'
 &lt;c r=&quot;A1&quot; t=&quot;s&quot;&gt;&lt;v&gt;0&lt;/v&gt;&lt;/c&gt;
 &lt;c r=&quot;A2&quot; t=&quot;s&quot;&gt;&lt;v&gt;1&lt;/v&gt;&lt;/c&gt;
-[/bash]
+```
 
 <a href="http://blog.ueda.asia/?p=2398" title="Excelファイルをシェル芸でほじくる。ただしエクセル方眼紙は後日ということで。" target="_blank">数字のときはv要素の中に数字が入っていましたが</a>、文字列のセルの場合はc要素にt="s"という目印を付けた上でv要素の中にポインタが入っています。
 
@@ -45,12 +45,12 @@ ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;&lt;/c&gt
 
 さて、この文字列を表現するのにどれだけデータがあるか数えてみましょう。
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | wc 
 c-146
 ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | wc 
 c-56
-[/bash]
+```
 
 合計202バイトです。テキストだと改行コードを入れて68バイトなので、3倍くらい容量があります。まあ、便利さと引き換えにするとそんなべらぼうでもありません。ただ、Excelファイル全体では26232バイトもあるわけですが、まあ今時そんなに目くじらを立てるほどのものでもありません。XMLだしシェル芸で読めるのでそんなに怒る必要もないかと。
 
@@ -63,7 +63,7 @@ c-56
 
 sharedStrings.xmlとsheet1.xmlから文字の部分を引っ張りだしてみましょう。
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ unzip *
 ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;&lt;/si&gt;;&amp;\\n;g'
 &lt;si&gt;&lt;t&gt;ﾀ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
@@ -100,22 +100,22 @@ ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;&lt;/c&gt
 &lt;c r=&quot;K2&quot; t=&quot;s&quot;&gt;&lt;v&gt;6&lt;/v&gt;&lt;/c&gt;
 &lt;c r=&quot;L2&quot; t=&quot;s&quot;&gt;&lt;v&gt;7&lt;/v&gt;&lt;/c&gt;
 &lt;c r=&quot;M2&quot; t=&quot;s&quot;&gt;&lt;v&gt;8&lt;/v&gt;&lt;/c&gt;
-[/bash]
+```
 
 <span style="color:red;font-size:40px">うわああああああああああああ！！！！</span>と興奮することもないですが、結構前立腺肥大しています。サイズは、と・・・
 
-[bash]
+```bash
 ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | wc 
 c-449
 ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | wc 
 c-619
-[/bash]
+```
 
 1kB超えてますね。たかがﾀﾞｧｼｴﾘｲｪｯｽに1kB超です。
 
 しかし、サイズについてはいいんです。1kBくらいどうってことありません。<span style="color:red">しかし何が悲しいかというと、エクセルがsheet1.xmlに文字列を埋め込まずに別にXMLを準備して文字列を格納し、それをsheet1.xmlからポインタで参照する構造にしているのに、そのポインタが巨大化してかえって全体として肥大化しているということです。</span>
 
-[bash]
+```bash
 #マイクロソフトのもくろみではこの構造の方が節約できる
 &lt;c r=&quot;A1&quot; t=&quot;s&quot;&gt;&lt;v&gt;0&lt;/v&gt;&lt;/c&gt;
 &lt;c r=&quot;A2&quot; t=&quot;s&quot;&gt;&lt;v&gt;0&lt;/v&gt;&lt;/c&gt;
@@ -123,7 +123,7 @@ c-619
 #でもこうした方が小さいという・・・
 &lt;c r=&quot;A1&quot;&gt;&lt;v&gt;ﾀ&lt;/v&gt;&lt;/c&gt;
 &lt;c r=&quot;A2&quot;&gt;&lt;v&gt;ﾀ&lt;/v&gt;&lt;/c&gt;
-[/bash]
+```
 ポインタの方がでかいという・・・。
 
 M社のデータ構造の想定の遥かに上を行くExcel方眼紙こわいということで、この話はおしまいにします。・・・あなたのPCにも、こんなXMLが・・・

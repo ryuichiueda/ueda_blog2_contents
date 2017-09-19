@@ -17,45 +17,45 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 まず、bashを使うなら自分のユーザの.bashrcにこう書いてパスを通しておく。（書いたらsourceするか一度ログアウト、ログインを）。
 
-[bash]
+```bash
 export JAVA_HOME=/usr/java/jdk1.7.0_75/
 ###PIG_CLASSPATHはこれ、不要か間違ってるかもしれません###
 export PIG_CLASSPATH=/etc/hadoop/conf.cluster/
-[/bash]
+```
 
 んで、sudo -Eu hdfs <コマンド> で作業。sudo -Eで今いじっているユーザの環境変数を引き継げます。
 
-[bash]
+```bash
 [usp\@boabs005 ~]$ sudo -Eu hdfs hdfs dfs -ls
 Found 9 items
 drwxr-xr-x - hdfs hadoop 0 2015-02-28 04:12 input
 drwxr-xr-x - hdfs hadoop 0 2015-02-28 04:19 output
 -rw-r--r-- 3 hdfs hadoop 427 2015-04-04 02:01 tenline
 ...
-[/bash]
+```
 
 面倒なので、こんなスクリプトを書きました。
 
-[bash]
+```bash
 [usp\@boabs005 ueda]$ cat ./do-pig 
 #!/bin/bash
 
 sudo -Eu hdfs ./pig-0.12.0-cdh5.3.1/bin/pig $1
-[/bash]
+```
 
 
 <h2>cdhのバージョンがpigとhadoopで合ってないといけないらしい</h2>
 
 yumで入れたのが違う・・・
 
-[bash]
+```bash
 [usp\@boabs005 ueda]$ hadoop version
 Hadoop 2.5.0-cdh5.3.1
 ...
 [usp\@boabs005 ueda]$ pig --version
 Apache Pig version 0.8.1-cdh3u6 (rexported) 
 compiled Mar 20 2013, 13:45:59
-[/bash]
+```
 
 ということで、<a href="http://www.cloudera.com/content/cloudera/en/documentation/core/latest/topics/cdh_vd_cdh_package_previous.html#concept_cb1_dhz_dr_unique_2">ココ</a>からpigをダウソロードして解凍しました。解凍したところのbin/pigを起動したら普通に使えました。
 

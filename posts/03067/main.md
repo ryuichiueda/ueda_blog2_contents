@@ -8,7 +8,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <span style="color:red">（追記：cal 2014でいいじゃないか！！！！知らなかったじゃないか！！！！ということでpaste芸＆ <( )芸をお楽しみください。）</span>
 
-[bash]
+```bash
 ueda\@remote:~$ cat caly 
 #!/bin/bash
 
@@ -16,7 +16,7 @@ paste &lt;(cal 1 &quot;$1&quot;) &lt;(cal 2 &quot;$1&quot;) &lt;(cal 3 &quot;$1&
 paste &lt;(cal 4 &quot;$1&quot;) &lt;(cal 5 &quot;$1&quot;) &lt;(cal 6 &quot;$1&quot;)
 paste &lt;(cal 7 &quot;$1&quot;) &lt;(cal 8 &quot;$1&quot;) &lt;(cal 9 &quot;$1&quot;)
 paste &lt;(cal 10 &quot;$1&quot;) &lt;(cal 11 &quot;$1&quot;) &lt;(cal 12 &quot;$1&quot;)
-[/bash]
+```
 
 制御構文使えよってくらいのベタ書きであるが・・・
 

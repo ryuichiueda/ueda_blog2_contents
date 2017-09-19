@@ -10,7 +10,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 んで、さっきdelfというコマンド内部で扱う文字列を String から ByteString （Data.ByteString.Lazy.Char8）に変更したので、スピードを計ってみました。delf は、こんなコマンドです。
 
-[bash]
+```bash
 bsd /home/ueda$ head -n 3 ~/TESTDATA 
 2377 高知県 -9,987,759 2001年1月5日
 2910 鹿児島県 5,689,492 1992年5月6日
@@ -20,13 +20,13 @@ bsd /home/ueda$ head -n 3 ~/TESTDATA | delf 2
 2377 -9,987,759 2001年1月5日
 2910 5,689,492 1992年5月6日
 8458 1,099,824 2010年2月22日
-[/bash]
+```
 
 便利でしょ？え？使いみちが分からない？分かれば便利なんです。
 
 delfが便利かどうかはおいておいて、String版（delf.normal）とByteString版（delf.bs）を作ったので、比較してみます。ByteString 版は<a target="_blank" href="https://github.com/usp-engineers-community/Open-usp-Tukubai/blob/master/COMMANDS.HS/delf.hs">ココ</a>にアップしてあります。
 
-[bash]
+```bash
 ###python版###
 bsd /home/ueda/tmp$ time head -n 100000 ~/TESTDATA | delf 2 &gt; /dev/null
 
@@ -45,13 +45,13 @@ bsd /home/ueda/tmp$ time head -n 100000 ~/TESTDATA | ./delf.bs 2 &gt; /dev/null
 real	0m0.773s
 user	0m0.741s
 sys	0m0.083s
-[/bash]
+```
 
 おー。二倍以上。
 
 これは仕事用ハイスペックマッシーンでやったらもっと速いに違いない。・・・ということで仕事用のサーバ（CentOS5.9）で try。
 
-[bash]
+```bash
 [usp\@demo1 ueda]$ uname -a
 Linux demo1 2.6.18-308.8.1.el5 #1 SMP Tue May 29 14:57:25 EDT 2012 x86_64 x86_64 x86_64 GNU/Linux
 ###有償ビジネス版###
@@ -72,7 +72,7 @@ sys	0m0.096s
 real	0m13.397s
 user	0m13.406s
 sys	0m0.075s
-[/bash]
+```
 
 <strong style="color:red">あれれれれ？？？？遅いやんけ！！！</strong>何回やっても遅い。
 
@@ -83,7 +83,7 @@ sys	0m0.075s
 bsdなら一発コンパイルだったのに、CentOS 5.9でコンパイルしようと思ったらめちゃくちゃ叱られたので、以下のようにコンパイル。
 なんか遅い原因はここらへんに関係するのか？どうなのか？
 
-[bash]
+```bash
 [usp\@demo1 ueda]$ cat /etc/redhat-release 
 CentOS release 5.9 (Final)
 [root\@demo1 ~]# cabal install parsec
@@ -91,4 +91,4 @@ CentOS release 5.9 (Final)
 [usp\@demo1 ueda]$ ghc delf.bs.hs 
 [usp\@demo1 ueda]$ ghc --make -o delf.normal delf.normal.hs
 Linking delf.normal ...
-[/bash]
+```

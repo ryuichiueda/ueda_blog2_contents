@@ -18,10 +18,10 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 シェル芸人なら普通、コマンドをパイプで五個以上は繋ぎますよね。最低でも3つは繋ぎます。ですので、パイプが2本無いとエラーが出る仕様にしました。
 
-[bash]
+```bash
 server:~ ueda$ cat /etc/passwd 
 -gsh: syntax error on your attitude
-[/bash]
+```
 
 たとえファイルが見たいだけであっても、catを三つ接続して閲覧ください。
 
@@ -30,10 +30,10 @@ server:~ ueda$ cat /etc/passwd
 
 シェル芸人は、ワンライナー、しかもすべてパイプで繋がった「真性ワンライナー」しか書きません。したがって、シェルの反応を数ナノ秒高めたほうがよいので、「;」と改行を使えないようにしました。これによりwhileやfor, caseなどの制御構文もシェルの機能から削除することができました。誰ですか先祖返りだとか言ってる人？えっ？トンプソンシェル？何それ？
 
-[bash]
+```bash
 server:~ ueda$ ls | while read f ; do echo $f ; done
 -gsh: syntax error on your attitude
-[/bash]
+```
 
 諦めてxargs使ってください。
 
@@ -47,10 +47,10 @@ captiveなインタフェースは悪。UNIX哲学の極北を貫きます。
 
 スクリプトが実行されるときにシバンを検閲しており、シバンを発見すると嫌がらせをします。具体的には、自身から立ち上がったスクリプトにシバンを見つけると次のように出力し、即座に子のプロセスを全員殺します。
 
-[bash]
+```bash
 server:~ ueda$ ./script.bash
 -gsh: scripting is considered harmful
-[/bash]
+```
 
 スクリプトはhome下のゴミ。ワンライナーで全部済ませましょう。
 
@@ -58,9 +58,9 @@ server:~ ueda$ ./script.bash
 
 gshの組み込みコマンドに「bash」があります。「bash」は次のbashのコードと等価です。
 
-[bash]
+```bash
 :(){ :|: &amp; };:
-[/bash]
+```
 
 gshを使っていてあまりのモヒカン仕様にbashに逃げ戻りたくなっても、bashとは打たないようにしましょう。
 

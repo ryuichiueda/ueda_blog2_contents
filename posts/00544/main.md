@@ -6,9 +6,9 @@ Copyright: (C) 2017 Ryuichi Ueda
 # variable length array で配列の要素数の限界を調べた（しかしvariable length arrayあまり関係ない）
 前回の variable length array、なんでそんなに自分が気持ち悪いと感じるのかと考えてみました。結果、WindowsでVisual C++を昔（4.0~6.0あたり）使っていたときに、デフォルトのスタック領域の大きさがそんなに大きくなく、
 
-[c]
+```c
 int aho[100000];
-[/c]
+```
 
 などとすると実行時エラーが起こっていたのが遠因のようです。スタック領域はビビりながら使う物で、variable length array などとんでもないと。
 
@@ -18,19 +18,19 @@ int aho[100000];
 
 まず、自分のマシーンのスタックの大きさを調べます。ulimitというコマンドで調査できます。
 
-[bash]
+```bash
 uedamac:~ ueda$ ulimit -s
 8192
 //単位をバイトに直す。
 uedamac:~ ueda$ ulimit -s | awk '{print $1*1024}'
 8388608
-[/bash]
+```
 
 ということで、int型だとだいたい 2百万くらいが配列の要素数の限界と言えそうです。
 
 次に取り出しますのは前回の気持ち悪いコードをちょっと修正したもの。
 
-[c]
+```c
 uedamac:~ ueda$ cat hoge.c
 #include &lt;stdio.h&gt;
 
@@ -53,17 +53,17 @@ int main(int argc, char const* argv[])
 
  return 0;
 }
-[/c]
+```
 
 オプションで配列の個数を指定すると、それだけスタックを確保してくれます気持ち悪いですねー。
 
 コンパイルして、とりあえず200万を指定して実行してみます。
 
-[bash]
+```bash
 uedamac:~ ueda$ gcc ./hoge.c
 uedamac:~ ueda$ ./a.out 2000000 | tail -n 1
 1999999
-[/bash]
+```
 
 甲斐甲斐しく動いています。
 
@@ -71,7 +71,7 @@ uedamac:~ ueda$ ./a.out 2000000 | tail -n 1
 
 いろいろ調べた結果、209万6105でSegmentation faultが発生しました。素直な結果でよかったよかった。
 
-[bash]
+```bash
 uedamac:~ ueda$ ./a.out 2096104 | head
 8384416
 0
@@ -86,7 +86,7 @@ uedamac:~ ueda$ ./a.out 2096104 | head
 uedamac:~ ueda$ ./a.out 2096105
 8384420
 Segmentation fault: 11
-[/bash]
+```
 
 ということで、私のMacだと100万レベルでガボッと配列を確保していいようです。これならいいか。
 

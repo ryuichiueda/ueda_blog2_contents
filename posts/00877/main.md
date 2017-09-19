@@ -13,7 +13,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 が、コードがもはやわけがわからん・・・。
 
-[bash]
+```bash
 uedamac:PMAT ueda$ cat data 
 A 0 1
 A 1 0
@@ -31,7 +31,7 @@ B 0.0 2.0
 B 2.0 0.0
 C 2.0 3.0
 C 3.0 2.0
-[/bash]
+```
 
 壁にぶつかっているかもしれん。ていうかコメント入れようぜ俺。
 

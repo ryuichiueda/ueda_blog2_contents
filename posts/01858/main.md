@@ -12,7 +12,7 @@ CSVをスペース区切りのデータにするコマンドを自作して持�
 
 どんな入出力かは、Excelで作ったCSVを通してみてご確認を・・・というのは不親切なので、2つだけ例を。
 
-[bash]
+```bash
 ueda\@remote:~$ cat file2.csv 
 &quot;apple&quot;,&quot;ban,ana&quot;,melon
 &quot;apple&quot;,melon
@@ -35,7 +35,7 @@ ap&quot;ple&quot; ban,\\nana melon
 ap&quot;ple melon
 melon apple ban\\n,ana
 ban,ana apple
-[/bash]
+```
 
 あ、Shift JISのデータの場合、このコマンドの前にパイプでnkf -wLuxをつないでください。
 

@@ -9,7 +9,7 @@ Copyright: (C) Ryuichi Ueda
 <a href="http://blog.ueda.asia/?page_id=4219" title="dashのコード解読メモ">「dashのコード解読メモ」に戻る</a>
 
 <h2>eval.h</h2>
-[c]
+```c
 /*-
  * Copyright (c) 1991, 1993
  *	The Regents of the University of California. All rights reserved.
@@ -81,12 +81,12 @@ extern int evalskip;
 #define SKIPBREAK	(1 &lt;&lt; 0)
 #define SKIPCONT	(1 &lt;&lt; 1)
 #define SKIPFUNC	(1 &lt;&lt; 2)
-[/c]
+```
 
 
 <h2>eval.c</h2>
 
-[c]
+```c
 /*-
  * Copyright (c) 1993
  *	The Regents of the University of California. All rights reserved.
@@ -1419,4 +1419,4 @@ eprintlist(struct output *out, struct strlist *sp, int sep)
 
 	return sep;
 }
-[/c]
+```
