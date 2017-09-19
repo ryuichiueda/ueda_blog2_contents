@@ -28,7 +28,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 <h2>Q1</h2>
 リポジトリの中に、次のようなディレクトリがあります。
 
-[bash]
+```bash
 $ tree posts
 posts
 ├── 20170806_check_of_webhook
@@ -53,7 +53,7 @@ posts
 │   └── main.md
 └── template
  └── main.md
-[/bash]
+```
 
 この中の、各main.mdは次のようなヘッダ付きのマークダウンです。
 
