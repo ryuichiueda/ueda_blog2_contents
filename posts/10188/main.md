@@ -15,7 +15,7 @@ GitHubにあります。ファイルは
 
 クローンは以下のようにお願いします。
 
-```{.bash .numberLines startFrom="1"}
+```bash
 $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 ```
 
