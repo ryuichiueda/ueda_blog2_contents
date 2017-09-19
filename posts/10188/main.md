@@ -15,7 +15,7 @@ GitHubにあります。ファイルは
 
 クローンは以下のようにお願いします。
 
-```sh
+```bash
 $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 ```
 
@@ -28,7 +28,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 <h2>Q1</h2>
 リポジトリの中に、次のようなディレクトリがあります。
 
-```sh
+```bash
 $ tree posts
 posts
 ├── 20170806_check_of_webhook
