@@ -4,10 +4,10 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 確率ロボティクス復刊。ドサクサに紛れて昔話
-<p>長らく休刊状態で懺悔状態だった確率ロボティクスがとうとう復活しました。ご関係者の方、大変ありがとうございました。</p><p>事前には知ってました。が、呑んでる最中に公式アナウンスが来たのでビックリしてビールを鼻から噴射しました。</p><br />
-<br />
-<blockquote class="twitter-tweet" lang="ja"><p>【4/2発売予定】ロボットや自動車の自立走行システムの研究者の必読書「Probabilistic Robotics」の日本語翻訳版、オンデマンドと電子版で待望の復刊です！！！【先行予約】確率ロボティクス | マイナビブックス <a href="https://t.co/3HBtAtMcwG">https://t.co/3HBtAtMcwG</a></p>— マイナビ電子書籍 (\@MYNAVI_eBooks) <a href="https://twitter.com/MYNAVI_eBooks/status/576313605253033984">2015, 3月 13</a></blockquote> <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br />
-<!--more--><br />
-<br />
+<p>長らく休刊状態で懺悔状態だった確率ロボティクスがとうとう復活しました。ご関係者の方、大変ありがとうございました。</p><p>事前には知ってました。が、呑んでる最中に公式アナウンスが来たのでビックリしてビールを鼻から噴射しました。</p>
+
+<blockquote class="twitter-tweet" lang="ja"><p>【4/2発売予定】ロボットや自動車の自立走行システムの研究者の必読書「Probabilistic Robotics」の日本語翻訳版、オンデマンドと電子版で待望の復刊です！！！【先行予約】確率ロボティクス | マイナビブックス <a href="https://t.co/3HBtAtMcwG">https://t.co/3HBtAtMcwG</a></p>— マイナビ電子書籍 (\@MYNAVI_eBooks) <a href="https://twitter.com/MYNAVI_eBooks/status/576313605253033984">2015, 3月 13</a></blockquote> <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<!--more-->
+
 <p>この本、お値段が高いとか、二千部で休刊したとか、翻訳が悪いとか、挙句の果てには「上田、東大やめるってよ」で私がアカデミアから失踪した等、いろいろ余計な話題があるので、その当時の裏事情を少し書いていこうかと思います。かなり前のことなので前後関係がおかしいかもしれません。</p><p><span style="line-height: normal; -webkit-text-size-adjust: auto; background-color: rgba(255, 255, 255, 0);">（翻訳についての批判はごめんなさいなんですが、それを書いたAmazonのレビューの日本語が少し変という自爆テロ状態なので、未だになんともいたたまれない気持ちでおり。読んでもないのに鵜呑みにしてた知人もいるので勘弁して欲しいところです。）</span></p><p>私がパーティクルフィルタでロボット（AIBO）を動かし始めたのは2001年3〜7月頃です。3月はまだB4でした。卒論終わってロボカップに使うAIBOがERS-1100からERS-210に変わるので、C++のサッカープログラムを全部書きなおしていました。先輩が歩様とヘディング動作、起き上がり動作、フォワードの行動ルールを作り、私はフレームワークと画像処理、自己位置推定、キーパーの行動ルールを作ってました。（今思うと数万行のプログラムを数ヶ月で2人で全部書き直したB4とM1って...）</p><p><br></p><p>その頃に論文読みながら少々手抜きしてさっさとパーティクルフィルタを実装したのが[Ueda et al. ICRA2002]です。だから最初のICRAはやっつけ仕事だったという...</p><p><br></p><p>そのときのERS-1100の話がまだ残ってました↓。私はメルボルンには行ってませんが。</p><p><a href="http://www.robot.t.u-tokyo.ac.jp/~arai/msg/msg-robocup1.html">http://www.robot.t.u-tokyo.ac.jp/~arai/msg/msg-robocup1.html</a></p><p>翻訳まで6年半前の出来事でした。ということで、長くなるので中断。</p><p>なんかここから書くと長くなりそうなので、次は一気に飛ばして値段がどう決まったかを書きます。</p><p><br></p><p>寝る。</p>

@@ -4,130 +4,130 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # エクセル方眼紙の無駄をエクシェル芸で遠回しに指摘する。
-上田です。<a href="http://kernel.doorkeeper.jp/events/9547" target="_blank">カーネル読書会</a>に潜入中です。<br />
-<br />
-ここ2日、連続でExcelファイルをシェル芸でほじる記事を書きましたが、副会長から、<span style="color:red">エクシェル芸</span>という名称をいただきました。使わせていただきます。有り難うございます。<br />
-<br />
-<blockquote class="twitter-tweet" lang="ja"><p>シェル芸拡張 エクシェル芸が誕生した瞬間 <a href="https://twitter.com/search?q=%23%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8&amp;src=hash">#シェル芸</a> <a href="https://twitter.com/search?q=%23usptomo&amp;src=hash">#usptomo</a> <a href="http://t.co/llzq8qTM5w">http://t.co/llzq8qTM5w</a></p>&mdash; (っ´A｀)っ ゃー (\@nullpopopo) <a href="https://twitter.com/nullpopopo/statuses/448832135101968384">2014, 3月 26</a></blockquote><br />
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br />
-<br />
-<br />
-Excelと言えば、最近、<a href="http://itpro.nikkeibp.co.jp/article/Watcher/20140321/545102/" target="_blank">これ</a>とか<a href="http://wol.nikkeibp.co.jp/article/column/20130523/153361/" target="_blank">これ</a>とか、エクセル方眼紙が話題になっています。<br />
-<br />
-<!--more--><br />
-<br />
-なぜエクセル方眼紙がいけないのか。データとレイアウトと操作が一緒くたになっているとか、別のアプリからデータが使えず再利用性に問題とか、貴重な労働時間が削減されるとか、いろいろありますが、そういう話は他の人に任せて、ここ二日で紹介した<a href="http://blog.ueda.asia/?p=2398" title="Excelファイルをシェル芸でほじくる。ただしエクセル方眼紙は後日ということで。" target="_blank">Excelをunzipして中のXMLファイルをほじくる手法</a>でエクセル方眼紙を観察してみます。<span style="color:red">非常に遠回しですが、やはり「エクセル方眼紙は無駄だ！！」という結論が得られております。</span><br />
-<br />
-まず、方眼紙でないファイルを用意しました。下の図のようなものです。少々ネタが古いです。<br />
-<br />
-<a href="スクリーンショット-2014-03-28-19.29.45.png"><img src="スクリーンショット-2014-03-28-19.29.45-282x300.png" alt="スクリーンショット 2014-03-28 19.29.45" width="282" height="300" class="aligncenter size-medium wp-image-2455" /></a><br />
-<br />
-さて、解凍してみます。文字列はxl/sharedStrings.xmlに入っています。<br />
-<br />
-[bash]<br />
-ueda\@remote:~/tmp$ unzip *<br />
-ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;&lt;/si&gt;;&amp;\\n;g'<br />
-&lt;si&gt;&lt;t&gt;ﾀﾞｧｼｴﾘｲｪｽ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;<br />
-&lt;si&gt;&lt;t&gt;ﾀﾞｯ・・・ｧｼｴﾘｲｪｽ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;<br />
-[/bash]<br />
-<br />
-このファイルのsi要素に、上から0,1番と番号を振り、それをsheet1.xmlで参照しています。<br />
-<br />
-[bash]<br />
-ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;&lt;/c&gt;;&amp;\\n;g'<br />
-&lt;c r=&quot;A1&quot; t=&quot;s&quot;&gt;&lt;v&gt;0&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;A2&quot; t=&quot;s&quot;&gt;&lt;v&gt;1&lt;/v&gt;&lt;/c&gt;<br />
-[/bash]<br />
-<br />
-<a href="http://blog.ueda.asia/?p=2398" title="Excelファイルをシェル芸でほじくる。ただしエクセル方眼紙は後日ということで。" target="_blank">数字のときはv要素の中に数字が入っていましたが</a>、文字列のセルの場合はc要素にt="s"という目印を付けた上でv要素の中にポインタが入っています。<br />
-<br />
-<span style="color:red">しかし、sharedStrings.xml、si要素にidを付けずに順序で番号をつけるとは・・・。</span>そんなにファイルを小さくしたいか？<br />
-<br />
-さて、この文字列を表現するのにどれだけデータがあるか数えてみましょう。<br />
-<br />
-[bash]<br />
-ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | wc <br />
-c-146<br />
-ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | wc <br />
-c-56<br />
-[/bash]<br />
-<br />
-合計202バイトです。テキストだと改行コードを入れて68バイトなので、3倍くらい容量があります。まあ、便利さと引き換えにするとそんなべらぼうでもありません。ただ、Excelファイル全体では26232バイトもあるわけですが、まあ今時そんなに目くじらを立てるほどのものでもありません。XMLだしシェル芸で読めるのでそんなに怒る必要もないかと。<br />
-<br />
-<br />
-んで次に、方眼紙バージョンです。<br />
-<br />
-<a href="スクリーンショット-2014-03-28-19.23.56.png"><img src="スクリーンショット-2014-03-28-19.23.56-300x272.png" alt="スクリーンショット 2014-03-28 19.23.56" width="300" height="272" class="aligncenter size-medium wp-image-2452" /></a><br />
-<br />
-あ、発狂しないでください発狂しないでください。<span style="color:red">発狂するのはまだ早いわ！</span><br />
-<br />
-sharedStrings.xmlとsheet1.xmlから文字の部分を引っ張りだしてみましょう。<br />
-<br />
-[bash]<br />
-ueda\@remote:~/tmp$ unzip *<br />
-ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;&lt;/si&gt;;&amp;\\n;g'<br />
-&lt;si&gt;&lt;t&gt;ﾀ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;<br />
-&lt;si&gt;&lt;t&gt;ﾞ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;<br />
-&lt;si&gt;&lt;t&gt;ｧ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;<br />
-&lt;si&gt;&lt;t&gt;ｼ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;<br />
-&lt;si&gt;&lt;t&gt;ｴ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;<br />
-&lt;si&gt;&lt;t&gt;ﾘ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;<br />
-&lt;si&gt;&lt;t&gt;ｲ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;<br />
-&lt;si&gt;&lt;t&gt;ｪ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;<br />
-&lt;si&gt;&lt;t&gt;ｽ&lt;/t&gt;&lt;/si&gt;<br />
-&lt;si&gt;&lt;t&gt;ｯ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;<br />
-&lt;si&gt;&lt;t&gt;・&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;<br />
-ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;&lt;/c&gt;;&amp;\\n;g'<br />
-&lt;c r=&quot;A1&quot; t=&quot;s&quot;&gt;&lt;v&gt;0&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;B1&quot; t=&quot;s&quot;&gt;&lt;v&gt;1&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;C1&quot; t=&quot;s&quot;&gt;&lt;v&gt;2&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;D1&quot; t=&quot;s&quot;&gt;&lt;v&gt;3&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;E1&quot; t=&quot;s&quot;&gt;&lt;v&gt;4&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;F1&quot; t=&quot;s&quot;&gt;&lt;v&gt;5&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;G1&quot; t=&quot;s&quot;&gt;&lt;v&gt;6&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;H1&quot; t=&quot;s&quot;&gt;&lt;v&gt;7&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;I1&quot; t=&quot;s&quot;&gt;&lt;v&gt;8&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;A2&quot; t=&quot;s&quot;&gt;&lt;v&gt;0&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;B2&quot; t=&quot;s&quot;&gt;&lt;v&gt;1&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;C2&quot; t=&quot;s&quot;&gt;&lt;v&gt;9&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;D2&quot; t=&quot;s&quot;&gt;&lt;v&gt;10&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;E2&quot; t=&quot;s&quot;&gt;&lt;v&gt;10&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;F2&quot; t=&quot;s&quot;&gt;&lt;v&gt;10&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;G2&quot; t=&quot;s&quot;&gt;&lt;v&gt;2&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;H2&quot; t=&quot;s&quot;&gt;&lt;v&gt;3&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;I2&quot; t=&quot;s&quot;&gt;&lt;v&gt;4&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;J2&quot; t=&quot;s&quot;&gt;&lt;v&gt;5&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;K2&quot; t=&quot;s&quot;&gt;&lt;v&gt;6&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;L2&quot; t=&quot;s&quot;&gt;&lt;v&gt;7&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;M2&quot; t=&quot;s&quot;&gt;&lt;v&gt;8&lt;/v&gt;&lt;/c&gt;<br />
-[/bash]<br />
-<br />
-<span style="color:red;font-size:40px">うわああああああああああああ！！！！</span>と興奮することもないですが、結構前立腺肥大しています。サイズは、と・・・<br />
-<br />
-[bash]<br />
-ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | wc <br />
-c-449<br />
-ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | wc <br />
-c-619<br />
-[/bash]<br />
-<br />
-1kB超えてますね。たかがﾀﾞｧｼｴﾘｲｪｯｽに1kB超です。<br />
-<br />
-しかし、サイズについてはいいんです。1kBくらいどうってことありません。<span style="color:red">しかし何が悲しいかというと、エクセルがsheet1.xmlに文字列を埋め込まずに別にXMLを準備して文字列を格納し、それをsheet1.xmlからポインタで参照する構造にしているのに、そのポインタが巨大化してかえって全体として肥大化しているということです。</span><br />
-<br />
-[bash]<br />
-#マイクロソフトのもくろみではこの構造の方が節約できる<br />
-&lt;c r=&quot;A1&quot; t=&quot;s&quot;&gt;&lt;v&gt;0&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;A2&quot; t=&quot;s&quot;&gt;&lt;v&gt;0&lt;/v&gt;&lt;/c&gt;<br />
-&lt;si&gt;&lt;t&gt;ﾀ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;<br />
-#でもこうした方が小さいという・・・<br />
-&lt;c r=&quot;A1&quot;&gt;&lt;v&gt;ﾀ&lt;/v&gt;&lt;/c&gt;<br />
-&lt;c r=&quot;A2&quot;&gt;&lt;v&gt;ﾀ&lt;/v&gt;&lt;/c&gt;<br />
-[/bash]<br />
-ポインタの方がでかいという・・・。<br />
-<br />
-M社のデータ構造の想定の遥かに上を行くExcel方眼紙こわいということで、この話はおしまいにします。・・・あなたのPCにも、こんなXMLが・・・<br />
-<br />
-<br />
-おしまい。<br />
+上田です。<a href="http://kernel.doorkeeper.jp/events/9547" target="_blank">カーネル読書会</a>に潜入中です。
+
+ここ2日、連続でExcelファイルをシェル芸でほじる記事を書きましたが、副会長から、<span style="color:red">エクシェル芸</span>という名称をいただきました。使わせていただきます。有り難うございます。
+
+<blockquote class="twitter-tweet" lang="ja"><p>シェル芸拡張 エクシェル芸が誕生した瞬間 <a href="https://twitter.com/search?q=%23%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8&amp;src=hash">#シェル芸</a> <a href="https://twitter.com/search?q=%23usptomo&amp;src=hash">#usptomo</a> <a href="http://t.co/llzq8qTM5w">http://t.co/llzq8qTM5w</a></p>&mdash; (っ´A｀)っ ゃー (\@nullpopopo) <a href="https://twitter.com/nullpopopo/statuses/448832135101968384">2014, 3月 26</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+Excelと言えば、最近、<a href="http://itpro.nikkeibp.co.jp/article/Watcher/20140321/545102/" target="_blank">これ</a>とか<a href="http://wol.nikkeibp.co.jp/article/column/20130523/153361/" target="_blank">これ</a>とか、エクセル方眼紙が話題になっています。
+
+<!--more-->
+
+なぜエクセル方眼紙がいけないのか。データとレイアウトと操作が一緒くたになっているとか、別のアプリからデータが使えず再利用性に問題とか、貴重な労働時間が削減されるとか、いろいろありますが、そういう話は他の人に任せて、ここ二日で紹介した<a href="http://blog.ueda.asia/?p=2398" title="Excelファイルをシェル芸でほじくる。ただしエクセル方眼紙は後日ということで。" target="_blank">Excelをunzipして中のXMLファイルをほじくる手法</a>でエクセル方眼紙を観察してみます。<span style="color:red">非常に遠回しですが、やはり「エクセル方眼紙は無駄だ！！」という結論が得られております。</span>
+
+まず、方眼紙でないファイルを用意しました。下の図のようなものです。少々ネタが古いです。
+
+<a href="スクリーンショット-2014-03-28-19.29.45.png"><img src="スクリーンショット-2014-03-28-19.29.45-282x300.png" alt="スクリーンショット 2014-03-28 19.29.45" width="282" height="300" class="aligncenter size-medium wp-image-2455" /></a>
+
+さて、解凍してみます。文字列はxl/sharedStrings.xmlに入っています。
+
+[bash]
+ueda\@remote:~/tmp$ unzip *
+ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;&lt;/si&gt;;&amp;\\n;g'
+&lt;si&gt;&lt;t&gt;ﾀﾞｧｼｴﾘｲｪｽ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
+&lt;si&gt;&lt;t&gt;ﾀﾞｯ・・・ｧｼｴﾘｲｪｽ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
+[/bash]
+
+このファイルのsi要素に、上から0,1番と番号を振り、それをsheet1.xmlで参照しています。
+
+[bash]
+ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;&lt;/c&gt;;&amp;\\n;g'
+&lt;c r=&quot;A1&quot; t=&quot;s&quot;&gt;&lt;v&gt;0&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;A2&quot; t=&quot;s&quot;&gt;&lt;v&gt;1&lt;/v&gt;&lt;/c&gt;
+[/bash]
+
+<a href="http://blog.ueda.asia/?p=2398" title="Excelファイルをシェル芸でほじくる。ただしエクセル方眼紙は後日ということで。" target="_blank">数字のときはv要素の中に数字が入っていましたが</a>、文字列のセルの場合はc要素にt="s"という目印を付けた上でv要素の中にポインタが入っています。
+
+<span style="color:red">しかし、sharedStrings.xml、si要素にidを付けずに順序で番号をつけるとは・・・。</span>そんなにファイルを小さくしたいか？
+
+さて、この文字列を表現するのにどれだけデータがあるか数えてみましょう。
+
+[bash]
+ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | wc 
+c-146
+ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | wc 
+c-56
+[/bash]
+
+合計202バイトです。テキストだと改行コードを入れて68バイトなので、3倍くらい容量があります。まあ、便利さと引き換えにするとそんなべらぼうでもありません。ただ、Excelファイル全体では26232バイトもあるわけですが、まあ今時そんなに目くじらを立てるほどのものでもありません。XMLだしシェル芸で読めるのでそんなに怒る必要もないかと。
+
+
+んで次に、方眼紙バージョンです。
+
+<a href="スクリーンショット-2014-03-28-19.23.56.png"><img src="スクリーンショット-2014-03-28-19.23.56-300x272.png" alt="スクリーンショット 2014-03-28 19.23.56" width="300" height="272" class="aligncenter size-medium wp-image-2452" /></a>
+
+あ、発狂しないでください発狂しないでください。<span style="color:red">発狂するのはまだ早いわ！</span>
+
+sharedStrings.xmlとsheet1.xmlから文字の部分を引っ張りだしてみましょう。
+
+[bash]
+ueda\@remote:~/tmp$ unzip *
+ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;&lt;/si&gt;;&amp;\\n;g'
+&lt;si&gt;&lt;t&gt;ﾀ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
+&lt;si&gt;&lt;t&gt;ﾞ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
+&lt;si&gt;&lt;t&gt;ｧ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
+&lt;si&gt;&lt;t&gt;ｼ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
+&lt;si&gt;&lt;t&gt;ｴ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
+&lt;si&gt;&lt;t&gt;ﾘ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
+&lt;si&gt;&lt;t&gt;ｲ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
+&lt;si&gt;&lt;t&gt;ｪ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
+&lt;si&gt;&lt;t&gt;ｽ&lt;/t&gt;&lt;/si&gt;
+&lt;si&gt;&lt;t&gt;ｯ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
+&lt;si&gt;&lt;t&gt;・&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
+ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;&lt;/c&gt;;&amp;\\n;g'
+&lt;c r=&quot;A1&quot; t=&quot;s&quot;&gt;&lt;v&gt;0&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;B1&quot; t=&quot;s&quot;&gt;&lt;v&gt;1&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;C1&quot; t=&quot;s&quot;&gt;&lt;v&gt;2&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;D1&quot; t=&quot;s&quot;&gt;&lt;v&gt;3&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;E1&quot; t=&quot;s&quot;&gt;&lt;v&gt;4&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;F1&quot; t=&quot;s&quot;&gt;&lt;v&gt;5&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;G1&quot; t=&quot;s&quot;&gt;&lt;v&gt;6&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;H1&quot; t=&quot;s&quot;&gt;&lt;v&gt;7&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;I1&quot; t=&quot;s&quot;&gt;&lt;v&gt;8&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;A2&quot; t=&quot;s&quot;&gt;&lt;v&gt;0&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;B2&quot; t=&quot;s&quot;&gt;&lt;v&gt;1&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;C2&quot; t=&quot;s&quot;&gt;&lt;v&gt;9&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;D2&quot; t=&quot;s&quot;&gt;&lt;v&gt;10&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;E2&quot; t=&quot;s&quot;&gt;&lt;v&gt;10&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;F2&quot; t=&quot;s&quot;&gt;&lt;v&gt;10&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;G2&quot; t=&quot;s&quot;&gt;&lt;v&gt;2&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;H2&quot; t=&quot;s&quot;&gt;&lt;v&gt;3&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;I2&quot; t=&quot;s&quot;&gt;&lt;v&gt;4&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;J2&quot; t=&quot;s&quot;&gt;&lt;v&gt;5&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;K2&quot; t=&quot;s&quot;&gt;&lt;v&gt;6&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;L2&quot; t=&quot;s&quot;&gt;&lt;v&gt;7&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;M2&quot; t=&quot;s&quot;&gt;&lt;v&gt;8&lt;/v&gt;&lt;/c&gt;
+[/bash]
+
+<span style="color:red;font-size:40px">うわああああああああああああ！！！！</span>と興奮することもないですが、結構前立腺肥大しています。サイズは、と・・・
+
+[bash]
+ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | wc 
+c-449
+ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | wc 
+c-619
+[/bash]
+
+1kB超えてますね。たかがﾀﾞｧｼｴﾘｲｪｯｽに1kB超です。
+
+しかし、サイズについてはいいんです。1kBくらいどうってことありません。<span style="color:red">しかし何が悲しいかというと、エクセルがsheet1.xmlに文字列を埋め込まずに別にXMLを準備して文字列を格納し、それをsheet1.xmlからポインタで参照する構造にしているのに、そのポインタが巨大化してかえって全体として肥大化しているということです。</span>
+
+[bash]
+#マイクロソフトのもくろみではこの構造の方が節約できる
+&lt;c r=&quot;A1&quot; t=&quot;s&quot;&gt;&lt;v&gt;0&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;A2&quot; t=&quot;s&quot;&gt;&lt;v&gt;0&lt;/v&gt;&lt;/c&gt;
+&lt;si&gt;&lt;t&gt;ﾀ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
+#でもこうした方が小さいという・・・
+&lt;c r=&quot;A1&quot;&gt;&lt;v&gt;ﾀ&lt;/v&gt;&lt;/c&gt;
+&lt;c r=&quot;A2&quot;&gt;&lt;v&gt;ﾀ&lt;/v&gt;&lt;/c&gt;
+[/bash]
+ポインタの方がでかいという・・・。
+
+M社のデータ構造の想定の遥かに上を行くExcel方眼紙こわいということで、この話はおしまいにします。・・・あなたのPCにも、こんなXMLが・・・
+
+
+おしまい。
 <!--:-->

@@ -4,40 +4,40 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # pmat version 0.0012
-気づいたら少し進んでいた。→<a target="_blank" href="https://github.com/ryuichiueda/PMAT/blob/658756a93c0716864bd275ac957bbeb9d9b8f608/pmat.hs" title="pmat.hs">GitHub晒しコード。ちょっとだけ奇麗にした。</a><br />
-<br />
-イコールで行列の名前を指示できるようになりました。これでパイプを使う利点が説明できます。<br />
-<br />
-[bash]<br />
-ueda\@ubuntuonmac:~/GIT/PMAT$ cat data <br />
-A 1 2 3<br />
-A 1 2 3<br />
-B -1 2 3.0<br />
-B 1 -2 3.1<br />
-B 1 2 -3.2<br />
-ueda\@ubuntuonmac:~/GIT/PMAT$ cat data | ./pmat &quot;C=B*B&quot; |<br />
-./pmat &quot;D=A*B&quot; | ./pmat &quot;E=D*C&quot;<br />
-A 1 2 3<br />
-A 1 2 3<br />
-B -1 2 3.0<br />
-B 1 -2 3.1<br />
-B 1 2 -3.2<br />
-C 6.0 0.0 -6.400000000000001<br />
-C 0.10000000000000009 12.2 -13.120000000000001<br />
-C -2.2 -8.4 19.44<br />
-D 4.0 4.0 -0.40000000000000213<br />
-D 4.0 4.0 -0.40000000000000213<br />
-E 25.280000000000005 52.16000000000002 -85.85600000000005<br />
-E 25.280000000000005 52.16000000000002 -85.85600000000005<br />
-[/bash]<br />
-<br />
-どんどん行列が増えていきますが、必要なものは grep か awk で取り出せます。そして消せます。便利。<br />
-<br />
-[bash]<br />
-ueda\@ubuntuonmac:~/GIT/PMAT$ cat data | ./pmat &quot;C=B*B&quot; <br />
-| ./pmat &quot;D=A*B&quot; | ./pmat &quot;E=D*C&quot; | grep &quot;^E &quot;<br />
-E 25.280000000000005 52.16000000000002 -85.85600000000005<br />
-E 25.280000000000005 52.16000000000002 -85.85600000000005<br />
-[/bash]<br />
-<br />
+気づいたら少し進んでいた。→<a target="_blank" href="https://github.com/ryuichiueda/PMAT/blob/658756a93c0716864bd275ac957bbeb9d9b8f608/pmat.hs" title="pmat.hs">GitHub晒しコード。ちょっとだけ奇麗にした。</a>
+
+イコールで行列の名前を指示できるようになりました。これでパイプを使う利点が説明できます。
+
+[bash]
+ueda\@ubuntuonmac:~/GIT/PMAT$ cat data 
+A 1 2 3
+A 1 2 3
+B -1 2 3.0
+B 1 -2 3.1
+B 1 2 -3.2
+ueda\@ubuntuonmac:~/GIT/PMAT$ cat data | ./pmat &quot;C=B*B&quot; |
+./pmat &quot;D=A*B&quot; | ./pmat &quot;E=D*C&quot;
+A 1 2 3
+A 1 2 3
+B -1 2 3.0
+B 1 -2 3.1
+B 1 2 -3.2
+C 6.0 0.0 -6.400000000000001
+C 0.10000000000000009 12.2 -13.120000000000001
+C -2.2 -8.4 19.44
+D 4.0 4.0 -0.40000000000000213
+D 4.0 4.0 -0.40000000000000213
+E 25.280000000000005 52.16000000000002 -85.85600000000005
+E 25.280000000000005 52.16000000000002 -85.85600000000005
+[/bash]
+
+どんどん行列が増えていきますが、必要なものは grep か awk で取り出せます。そして消せます。便利。
+
+[bash]
+ueda\@ubuntuonmac:~/GIT/PMAT$ cat data | ./pmat &quot;C=B*B&quot; 
+| ./pmat &quot;D=A*B&quot; | ./pmat &quot;E=D*C&quot; | grep &quot;^E &quot;
+E 25.280000000000005 52.16000000000002 -85.85600000000005
+E 25.280000000000005 52.16000000000002 -85.85600000000005
+[/bash]
+
 続く。
