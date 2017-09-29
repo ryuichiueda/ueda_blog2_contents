@@ -44,12 +44,12 @@ this is a test
 
 ```bash
 freebsd10 /home/ueda$ sh
-$ x='() { :;}; echo vulnerable' bash -c &amp;amp;amp;amp;quot;echo this is a test&amp;amp;amp;amp;quot; #&amp;amp;amp;amp;lt;-bashじゃんかwww（ごめんなさい）
+$ x='() { :;}; echo vulnerable' bash -c &amp;amp;amp;quot;echo this is a test&amp;amp;amp;quot; #&amp;amp;amp;lt;-bashじゃんかwww（ごめんなさい）
 vulnerable
 this is a test
 ###大丈夫###
 freebsd10 /home/ueda$ sh
-$ x='() { :;}; echo vulnerable' sh -c &amp;amp;amp;amp;quot;echo this&amp;amp;amp;amp;quot;
+$ x='() { :;}; echo vulnerable' sh -c &amp;amp;amp;quot;echo this&amp;amp;amp;quot;
 this
 ```
 
@@ -57,12 +57,12 @@ dashも？？？と思ったけどこれもbashを後ろで呼び出している
 
 ```bash
 ueda\@ubuntu:~$ dash
-$ x='() { :;}; echo vulnerable' bash -c &amp;amp;amp;amp;quot;echo this is a test&amp;amp;amp;amp;quot; 
+$ x='() { :;}; echo vulnerable' bash -c &amp;amp;amp;quot;echo this is a test&amp;amp;amp;quot; 
 vulnerable
 this is a test
 ###これも大丈夫です###
 ueda\@ubuntu:~$ dash
-$ x='() { :;}; echo vulnerable' sh -c &amp;amp;amp;amp;quot;echo this&amp;amp;amp;amp;quot;
+$ x='() { :;}; echo vulnerable' sh -c &amp;amp;amp;quot;echo this&amp;amp;amp;quot;
 this
 ```
 
