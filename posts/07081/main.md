@@ -25,7 +25,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ```bash
 ueda\@remote:~$ tail -n 1 .bashrc 
-alias ls='ls(){ ls | ls &amp;} ; ls'
+alias ls='ls(){ ls | ls &} ; ls'
 ```
 
 一度ログアウト。sourceしてもいいのですが、ログイン即身成仏を狙います。

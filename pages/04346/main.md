@@ -14,7 +14,7 @@ Copyright: (C) Ryuichi Ueda
  * Copyright (c) 1991, 1993
  *	The Regents of the University of California. All rights reserved.
  * Copyright (c) 1997-2005
- *	Herbert Xu <herbert\@gondor.apana.org.au&gt;. All rights reserved.
+ *	Herbert Xu <herbert\@gondor.apana.org.au>. All rights reserved.
  *
  * This code is derived from software contributed to Berkeley by
  * Kenneth Almquist.
@@ -91,7 +91,7 @@ extern int evalskip;
  * Copyright (c) 1993
  *	The Regents of the University of California. All rights reserved.
  * Copyright (c) 1997-2005
- *	Herbert Xu <herbert\@gondor.apana.org.au&gt;. All rights reserved.
+ *	Herbert Xu <herbert\@gondor.apana.org.au>. All rights reserved.
  *
  * This code is derived from software contributed to Berkeley by
  * Kenneth Almquist.
@@ -121,36 +121,36 @@ extern int evalskip;
  * SUCH DAMAGE.
  */
 
-#include <stdlib.h&gt;
-#include <signal.h&gt;
-#include <unistd.h&gt;
-#include <sys/types.h&gt;
+#include <stdlib.h>
+#include <signal.h>
+#include <unistd.h>
+#include <sys/types.h>
 
 /*
  * Evaluate a command.
  */
 
-#include &quot;shell.h&quot;
-#include &quot;nodes.h&quot;
-#include &quot;syntax.h&quot;
-#include &quot;expand.h&quot;
-#include &quot;parser.h&quot;
-#include &quot;jobs.h&quot;
-#include &quot;eval.h&quot;
-#include &quot;builtins.h&quot;
-#include &quot;options.h&quot;
-#include &quot;exec.h&quot;
-#include &quot;redir.h&quot;
-#include &quot;input.h&quot;
-#include &quot;output.h&quot;
-#include &quot;trap.h&quot;
-#include &quot;var.h&quot;
-#include &quot;memalloc.h&quot;
-#include &quot;error.h&quot;
-#include &quot;show.h&quot;
-#include &quot;mystring.h&quot;
+#include "shell.h"
+#include "nodes.h"
+#include "syntax.h"
+#include "expand.h"
+#include "parser.h"
+#include "jobs.h"
+#include "eval.h"
+#include "builtins.h"
+#include "options.h"
+#include "exec.h"
+#include "redir.h"
+#include "input.h"
+#include "output.h"
+#include "trap.h"
+#include "var.h"
+#include "memalloc.h"
+#include "error.h"
+#include "show.h"
+#include "mystring.h"
 #ifndef SMALL
-#include &quot;myhistedit.h&quot;
+#include "myhistedit.h"
 #endif
 
 
@@ -173,7 +173,7 @@ int back_exitstatus;		/* exit status of backquoted command */
 
 /* ↓これは今のgccを使っていればstaticがくっつくということでOKか？
  * nrというのはおそらくnot return。*/
-#if !defined(__alpha__) || (defined(__GNUC__) &amp;&amp; __GNUC__ &gt;= 3)
+#if !defined(__alpha__) || (defined(__GNUC__) && __GNUC__ >= 3)
 STATIC
 #endif
 void evaltreenr(union node *, int) __attribute__ ((__noreturn__));
@@ -230,7 +230,7 @@ STATIC const struct builtincmd bltin = {
  * 理解するにはもうちょっと読む必要が。*/
 
 #ifdef mkinit
-INCLUDE &quot;eval.h&quot;
+INCLUDE "eval.h"
 
 RESET {
 	evalskip = 0;
@@ -252,9 +252,9 @@ static int evalcmd(int argc, char **argv, int flags)
  char *concat;
  char **ap;
 
- if (argc &gt; 1) {
+ if (argc > 1) {
  p = argv[1];
- if (argc &gt; 2) {
+ if (argc > 2) {
  STARTSTACKSTR(concat);
  ap = argv + 2;
  for (;;) {
@@ -263,10 +263,10 @@ static int evalcmd(int argc, char **argv, int flags)
  break;
  STPUTC(' ', concat);
  }
- STPUTC('&#92;&#48;', concat);
+ STPUTC('\0', concat);
  p = grabstackstr(concat);
  }
- return evalstring(p, flags &amp; EV_TESTED);
+ return evalstring(p, flags & EV_TESTED);
  }
  return 0;
 }
@@ -284,13 +284,13 @@ evalstring(char *s, int flags)
 	int status;
 
 	setinputstring(s);
-	setstackmark(&amp;smark);
+	setstackmark(&smark);
 
 	status = 0;
 	while ((n = parsecmd(0)) != NEOF) {
-		evaltree(n, flags &amp; ~(parser_eof() ? 0 : EV_EXIT));
+		evaltree(n, flags & ~(parser_eof() ? 0 : EV_EXIT));
 		status = exitstatus;
-		popstackmark(&amp;smark);
+		popstackmark(&smark);
 		if (evalskip)
 			break;
 	}
@@ -318,23 +318,23 @@ evaltree(union node *n, int flags)
 	unsigned isor;
 	int status;
 	if (n == NULL) {
-		TRACE((&quot;evaltree(NULL) called\\n&quot;));
+		TRACE(("evaltree(NULL) called\\n"));
 		goto out;
 	}
 #ifndef SMALL
 	displayhist = 1;	/* show history substitutions done with fc */
 #endif
-	TRACE((&quot;pid %d, evaltree(%p: %d, %d) called\\n&quot;,
-	getpid(), n, n-&gt;type, flags));
+	TRACE(("pid %d, evaltree(%p: %d, %d) called\\n",
+	getpid(), n, n->type, flags));
 
 /* ↓ノードに何が入っているかで場合分け
  * ノードには関数からコマンドまでいろんなものが */
-	switch (n-&gt;type) {
+	switch (n->type) {
 /* ↓デバッグ用
  * デバッグでなければ素通り */
 	default:
 #ifdef DEBUG
-		out1fmt(&quot;Node type = %d\\n&quot;, n-&gt;type);
+		out1fmt("Node type = %d\\n", n->type);
 #ifndef USE_GLIBC_STDIO
 		flushout(out1);
 #endif
@@ -343,37 +343,37 @@ evaltree(union node *n, int flags)
 /* ↓!が頭についているとき */
 	case NNOT:
 		/* そのまま評価して終了ステータスをひっくり返す */
-		evaltree(n-&gt;nnot.com, EV_TESTED);
+		evaltree(n->nnot.com, EV_TESTED);
 		status = !exitstatus;
 		goto setstatus;
 /* ↓リダイレクト付きのコマンド列*/
 	case NREDIR:
 		/* 行番号を収めるerrlinnoはerror.h,
 		* linenoはvar.hで定義されている */
-		errlinno = lineno = n-&gt;nredir.linno;
+		errlinno = lineno = n->nredir.linno;
 		/* 関数の中だったら関数の中での行数にする */
 		if (funcline)
 			lineno -= funcline - 1;
 		/*ノードの中にリダイレクト先やリダイレクト元の指令がある
 		*のでその指示をexpredirに渡す */
-		expredir(n-&gt;nredir.redirect);
+		expredir(n->nredir.redirect);
 		/* redir.cにある関数何かの初期化をやっているようだがわからん */
-		pushredir(n-&gt;nredir.redirect);
+		pushredir(n->nredir.redirect);
 		/* （おそらく）リダイレクトを仕掛けてすぐ帰ってくる */
-		status = redirectsafe(n-&gt;nredir.redirect, REDIR_PUSH);
+		status = redirectsafe(n->nredir.redirect, REDIR_PUSH);
 		if (!status) {
 			/* 下のノード（リダイレクトされている中身）の実行 */
-			evaltree(n-&gt;nredir.n, flags &amp; EV_TESTED);
+			evaltree(n->nredir.n, flags & EV_TESTED);
 			status = exitstatus;
 		}
 		/*わからんちん*/
-		if (n-&gt;nredir.redirect)
+		if (n->nredir.redirect)
 			popredir(0);
 		goto setstatus;
 /* ↓ 単純な、リダイレクトされていないコマンド */
 	case NCMD:
 #ifdef notyet
-		if (eflag &amp;&amp; !(flags &amp; EV_TESTED))
+		if (eflag && !(flags & EV_TESTED))
 			checkexit = ~0;
 		evalcommand(n, flags, (struct backcmd *)NULL);
 		break;
@@ -383,7 +383,7 @@ checkexit:
 		/* -eオプションが指定されていたら
 		* checkexitを1111...にセットしてエラーで終わるようにする
 		* ただし、EV_TESTEDフラグが立っていたら終わらない。 */
-		if (eflag &amp;&amp; !(flags &amp; EV_TESTED))
+		if (eflag && !(flags & EV_TESTED))
 			checkexit = ~0;
 		goto calleval;
 #endif
@@ -409,7 +409,7 @@ checkexit:
 	case NCASE:
 		evalfn = evalcase;
 		goto calleval;
-/* &amp;&amp;、||、; */
+/* &&、||、; */
 	case NAND:
 	case NOR:
 	case NSEMI:
@@ -421,12 +421,12 @@ checkexit:
 #error NOR + 1 != NSEMI
 #endif
 		/* 真面目に考えていないが、orだとisorフラグが立つ模様 */
-		isor = n-&gt;type - NAND;
+		isor = n->type - NAND;
 		/* 左側を評価 */
 		evaltree(
-			n-&gt;nbinary.ch1,
+			n->nbinary.ch1,
 			/* わからん。 */
-			(flags | ((isor &gt;&gt; 1) - 1)) &amp; EV_TESTED
+			(flags | ((isor >> 1) - 1)) & EV_TESTED
 		);
 		/* このif文が真になる場合: isorが1で終了ステータスが0 */
 		/* isorが0で終了ステータスが1 */
@@ -434,7 +434,7 @@ checkexit:
 			break;
 		/* さっきの条件がOKでcontinue等されていなければ右側を評価 */
 		if (!evalskip) {
-			n = n-&gt;nbinary.ch2;
+			n = n->nbinary.ch2;
 evaln:
 			evalfn = evaltree;
 calleval:
@@ -445,20 +445,20 @@ calleval:
 /* if */
 	case NIF:
 		/* ifの右側に書いてあるコマンドの評価 */
-		evaltree(n-&gt;nif.test, EV_TESTED);
+		evaltree(n->nif.test, EV_TESTED);
 		/* break等で飛ばすことになっていたら飛ばす。
 		* あれ？if文に書いてあるコマンドは評価するんか？？？ */
 		if (evalskip)
 			break;
 		/* if文が真ならifに書いてある処理を実行 */
 		if (exitstatus == 0) {
-			n = n-&gt;nif.ifpart;
+			n = n->nif.ifpart;
 			goto evaln;
 		/* そうでなければelseに書いてある処理を実行 */
 		/* elifはパースのところでifとelseに分解されていると思われる。
 		* （未確認） */
-		} else if (n-&gt;nif.elsepart) {
-			n = n-&gt;nif.elsepart;
+		} else if (n->nif.elsepart) {
+			n = n->nif.elsepart;
 			goto evaln;
 		}
 		/* elseがない場合、コマンドの成否を終了ステータスに反映させない */
@@ -479,7 +479,7 @@ out:
 	/* checkexitが11111111...
 	* なら終了ステータスをチェックして、
 	* 0でなければ出る */
-	if (checkexit &amp; exitstatus)
+	if (checkexit & exitstatus)
 		goto exexit;
 
 	/* pendingsigsはtrap.hで定義されている。
@@ -488,7 +488,7 @@ out:
 		dotrap();
 
 	/* EV_EXITフラグが立っていたら出る*/
-	if (flags &amp; EV_EXIT) {
+	if (flags & EV_EXIT) {
 exexit:
 		/* 例外を出す */
 		exraise(EXEXIT);
@@ -497,7 +497,7 @@ exexit:
 
 
 /* treeを評価して帰ってこない関数 */
-#if !defined(__alpha__) || (defined(__GNUC__) &amp;&amp; __GNUC__ &gt;= 3)
+#if !defined(__alpha__) || (defined(__GNUC__) && __GNUC__ >= 3)
 STATIC
 #endif
 void evaltreenr(union node *n, int flags)
@@ -505,7 +505,7 @@ void evaltreenr(union node *n, int flags)
 /* __attribute__ ... 使ったことなし。
  * evaltree関数の別名としてevaltreenrを定義するという意味になるらしい。
  * しかし、これではnot returnにならないんじゃないのか？分かりません！*/
-	__attribute__ ((alias(&quot;evaltree&quot;)));
+	__attribute__ ((alias("evaltree")));
 #else
 {
 /* __attribute__が使えなければevaltreenrのなかでevaltree関数を呼び出す*/
@@ -525,23 +525,23 @@ evalloop(union node *n, int flags)
 	/* ネストのカウンタを一個増やす */
 	loopnest++;
 	status = 0;
-	flags &amp;= EV_TESTED;
+	flags &= EV_TESTED;
 	for (;;) {
 		int i;
 
 		/* これは条件のチェックだろうか */
-		evaltree(n-&gt;nbinary.ch1, EV_TESTED);
+		evaltree(n->nbinary.ch1, EV_TESTED);
 		/* これはbreakやcontinueの処理 */
 		if (evalskip) {
 			/*continueの場合、カウントがマイナスになれば
 			* 0に戻してスキップ解除。インデントずれてたので修正。 */ 
-skipping:	if (evalskip == SKIPCONT &amp;&amp; --skipcount <= 0) {
+skipping:	if (evalskip == SKIPCONT && --skipcount <= 0) {
 				evalskip = 0;
 				continue;
 			}
 			/*breakの場合、カウントがマイナスになれば解除。
 			* インデントずれてたので修正。 */ 
-			if (evalskip == SKIPBREAK &amp;&amp; --skipcount <= 0)
+			if (evalskip == SKIPBREAK && --skipcount <= 0)
 				evalskip = 0;
 			/* このbreakがシェルスクリプトに書く
 			* breakに対応しているので感慨深い。 */
@@ -551,14 +551,14 @@ skipping:	if (evalskip == SKIPCONT &amp;&amp; --skipcount <= 0) {
 		/* 条件判定 */
 		i = exitstatus;
 		/* untilならひっくり返す */
-		if (n-&gt;type != NWHILE)
+		if (n->type != NWHILE)
 			i = !i;
 		/* 条件に合わなければ出る。 */
 		if (i != 0)
 			break;
 
 		/* ループの中身の処理 */
-		evaltree(n-&gt;nbinary.ch2, flags);
+		evaltree(n->nbinary.ch2, flags);
 		status = exitstatus;
 		if (evalskip)
 			goto skipping;
@@ -582,18 +582,18 @@ evalfor(union node *n, int flags)
 	struct stackmark smark;
 
 	/* 行番号のリスト */
-	errlinno = lineno = n-&gt;nfor.linno;
+	errlinno = lineno = n->nfor.linno;
 	/* 関数なら関数内の行番号に補正 */
 	if (funcline)
 		lineno -= funcline - 1;
 
 	/* setstackmarkはmemalloc.hで定義されている */
-	setstackmark(&amp;smark);
+	setstackmark(&smark);
 	/* forで一個ずつ処理する変数の文字列を展開する。
  	* 展開のついでにnodeからarglistに変数を移す。*/
-	arglist.lastp = &amp;arglist.list;
-	for (argp = n-&gt;nfor.args ; argp ; argp = argp-&gt;narg.next) {
-		expandarg(argp, &amp;arglist, EXP_FULL | EXP_TILDE);
+	arglist.lastp = &arglist.list;
+	for (argp = n->nfor.args ; argp ; argp = argp->narg.next) {
+		expandarg(argp, &arglist, EXP_FULL | EXP_TILDE);
 		/* たぶん、このときにbreakがあるとどうなるのか動作が
 		* 未定義でとりあえず出るということにしていると思われる。*/
 		/* XXX */
@@ -604,27 +604,27 @@ evalfor(union node *n, int flags)
 
 	exitstatus = 0;
 	loopnest++;
-	flags &amp;= EV_TESTED;
+	flags &= EV_TESTED;
 	/* for文でぐるぐる処理を回すパート */
-	for (sp = arglist.list ; sp ; sp = sp-&gt;next) {
+	for (sp = arglist.list ; sp ; sp = sp->next) {
 		/* 変数セット */
-		setvar(n-&gt;nfor.var, sp-&gt;text, 0);
+		setvar(n->nfor.var, sp->text, 0);
 		/* 評価 */
-		evaltree(n-&gt;nfor.body, flags);
+		evaltree(n->nfor.body, flags);
 		/* continue, breakの処理 */
 		if (evalskip) {
-			if (evalskip == SKIPCONT &amp;&amp; --skipcount <= 0) {
+			if (evalskip == SKIPCONT && --skipcount <= 0) {
 				evalskip = 0;
 				continue;
 			}
-			if (evalskip == SKIPBREAK &amp;&amp; --skipcount <= 0)
+			if (evalskip == SKIPBREAK && --skipcount <= 0)
 				evalskip = 0;
 			break;
 		}
 	}
 	loopnest--;
 out:
-	popstackmark(&amp;smark);
+	popstackmark(&smark);
 }
 
 
@@ -638,23 +638,23 @@ evalcase(union node *n, int flags)
 	struct stackmark smark;
 
 	/* 行番号 */
-	errlinno = lineno = n-&gt;ncase.linno;
+	errlinno = lineno = n->ncase.linno;
 	if (funcline)
 		lineno -= funcline - 1;
 
 	/* 場合分け対象の文字列を展開してarglistに入れる */
-	setstackmark(&amp;smark);
-	arglist.lastp = &amp;arglist.list;
-	expandarg(n-&gt;ncase.expr, &amp;arglist, EXP_TILDE);
+	setstackmark(&smark);
+	arglist.lastp = &arglist.list;
+	expandarg(n->ncase.expr, &arglist, EXP_TILDE);
 	exitstatus = 0;
 	/* caseを一個ずつ試す */
-	for (cp = n-&gt;ncase.cases ; cp &amp;&amp; evalskip == 0 ; cp = cp-&gt;nclist.next) {
+	for (cp = n->ncase.cases ; cp && evalskip == 0 ; cp = cp->nclist.next) {
 		/* パターンは複数持てるのかな？あまりcaseを使わないからよく分からない。 */
-		for (patp = cp-&gt;nclist.pattern ; patp ; patp = patp-&gt;narg.next) {
+		for (patp = cp->nclist.pattern ; patp ; patp = patp->narg.next) {
 			/* マッチしたら中身を実行 */
-			if (casematch(patp, arglist.list-&gt;text)) {
+			if (casematch(patp, arglist.list->text)) {
 				if (evalskip == 0) {
-					evaltree(cp-&gt;nclist.body, flags);
+					evaltree(cp->nclist.body, flags);
 				}
 				/* シェルのcase文は下に突き抜けないので素直に出る。*/
 				goto out;
@@ -662,7 +662,7 @@ evalcase(union node *n, int flags)
 		}
 	}
 out:
-	popstackmark(&amp;smark);
+	popstackmark(&smark);
 }
 
 
@@ -678,19 +678,19 @@ evalsubshell(union node *n, int flags)
 	/* ジョブ */
 	struct job *jp;
 	/* バックグラウンド起動かどうか */
-	int backgnd = (n-&gt;type == NBACKGND);
+	int backgnd = (n->type == NBACKGND);
 	int status;
 
 	/* ここら辺は今のセンスだと関数に括り出してほしいなあ */
-	errlinno = lineno = n-&gt;nredir.linno;
+	errlinno = lineno = n->nredir.linno;
 	if (funcline)
 		lineno -= funcline - 1;
 
 	/* リダイレクトの処理 */
-	expredir(n-&gt;nredir.redirect);
+	expredir(n->nredir.redirect);
 	/* バックグラウンドでない、-eがセットされている、トラップがない
  	* というよく分からん条件のときはフォークしない */
-	if (!backgnd &amp;&amp; flags &amp; EV_EXIT &amp;&amp; !have_traps())
+	if (!backgnd && flags & EV_EXIT && !have_traps())
 		goto nofork;
 	/* 割り込み受け付けない区間 */
 	INTOFF;
@@ -704,11 +704,11 @@ evalsubshell(union node *n, int flags)
 		/* ここらへんの終了条件の理解についてはサボります・・・*/
 		flags |= EV_EXIT;
 		if (backgnd)
-			flags &amp;=~ EV_TESTED;
+			flags &=~ EV_TESTED;
 nofork:
 		/* リダイレクト処理してexec。戻ってこない */
-		redirect(n-&gt;nredir.redirect, 0);
-		evaltreenr(n-&gt;nredir.n, flags);
+		redirect(n->nredir.redirect, 0);
+		evaltreenr(n->nredir.n, flags);
 		/* never returns */
 	}
 	/* ここはfork元（親シェル）の処理 */
@@ -735,27 +735,27 @@ expredir(union node *n)
 	union node *redir;
 
 	/* 入力元やら出力先やら、複数のファイルをさばくわけです。たぶん。 */
-	for (redir = n ; redir ; redir = redir-&gt;nfile.next) {
+	for (redir = n ; redir ; redir = redir->nfile.next) {
 		struct arglist fn;
-		fn.lastp = &amp;fn.list;
-		switch (redir-&gt;type) {
+		fn.lastp = &fn.list;
+		switch (redir->type) {
 		case NFROMTO:
 		case NFROM:
 		case NTO:
 		case NCLOBBER:
 		case NAPPEND:
 			/* 要はファイルの場合 */
-			expandarg(redir-&gt;nfile.fname, &amp;fn, EXP_TILDE | EXP_REDIR);
-			redir-&gt;nfile.expfname = fn.list-&gt;text;
+			expandarg(redir->nfile.fname, &fn, EXP_TILDE | EXP_REDIR);
+			redir->nfile.expfname = fn.list->text;
 			break;
 		case NFROMFD:
 		case NTOFD:
 			/* 要はファイル記述子の場合 */
-			if (redir-&gt;ndup.vname) {
-				expandarg(redir-&gt;ndup.vname, &amp;fn, EXP_FULL | EXP_TILDE);
+			if (redir->ndup.vname) {
+				expandarg(redir->ndup.vname, &fn, EXP_FULL | EXP_TILDE);
 				/* parser.cで定義されている。
 				* ノードにファイル記述子の情報を書く。*/
-				fixredir(redir, fn.list-&gt;text, 1);
+				fixredir(redir, fn.list->text, 1);
 			}
 			break;
 		}
@@ -783,10 +783,10 @@ evalpipe(union node *n, int flags)
 	/* ピップエレキバン。ではなくてパイプのファイル記述子が入る。*/
 	int pip[2];
 
-	TRACE((&quot;evalpipe(0x%lx) called\\n&quot;, (long)n));
+	TRACE(("evalpipe(0x%lx) called\\n", (long)n));
 	pipelen = 0;
 	/* 数えます*/
-	for (lp = n-&gt;npipe.cmdlist ; lp ; lp = lp-&gt;next)
+	for (lp = n->npipe.cmdlist ; lp ; lp = lp->next)
 		pipelen++;
 	/* これはおそらくパイプ途中のコマンドが死んだらアボートさせる処理。
  	* ただ、コマンド途中のコマンドは-eで止めることができないのとどういう関係が
@@ -798,29 +798,29 @@ evalpipe(union node *n, int flags)
 	jp = makejob(n, pipelen);
 	prevfd = -1;
 	/* コマンドがつながっているだけ繰り返し */
-	for (lp = n-&gt;npipe.cmdlist ; lp ; lp = lp-&gt;next) {
+	for (lp = n->npipe.cmdlist ; lp ; lp = lp->next) {
 		/* パスの解決や関数のルックアップ処理 */
-		prehash(lp-&gt;n);
+		prehash(lp->n);
 		pip[1] = -1;
-		if (lp-&gt;next) {
+		if (lp->next) {
 			/* ここで次のコマンドと接続するためのパイプを作る*/
 			/* pipeができんかったらエラー */
 			if (pipe(pip) < 0) {
 				close(prevfd);
-				sh_error(&quot;Pipe call failed&quot;);
+				sh_error("Pipe call failed");
 			}
 		}
  /*
- * --&gt; prevfd <-- pip[0]
+ * --> prevfd <-- pip[0]
  * 親 |
  * --- pip[1]
  * */
  
 		/* 今扱っているコマンドのためのフォーク */
-		if (forkshell(jp, lp-&gt;n, n-&gt;npipe.backgnd) == 0) {
+		if (forkshell(jp, lp->n, n->npipe.backgnd) == 0) {
 			/* 子プロセスの方 */
  /*
- * --&gt; prevfd pip[0] <-----&gt; pip[0] <-- prevfd
+ * --> prevfd pip[0] <-----> pip[0] <-- prevfd
  * 子 | 親
  * pip[1] ------- pip[1]
  * 			*/
@@ -828,44 +828,44 @@ evalpipe(union node *n, int flags)
 			/* 割り込み許可 */
 			INTON;
 			/* 書き出し用があったら読み込み用を閉じる */
-			if (pip[1] &gt;= 0) {
+			if (pip[1] >= 0) {
 				close(pip[0]);
 			}
 			/*
- * --&gt; prevfd ---&gt; pip[0] <-- prevfd
+ * --> prevfd ---> pip[0] <-- prevfd
  * 子 | 親
  * pip[1] ------- pip[1]
  * */
 
-			if (prevfd &gt; 0) {
+			if (prevfd > 0) {
 				dup2(prevfd, 0);
 				close(prevfd);
 			}
 			/*
- * --&gt; 0 ---&gt; pip[0] <-- prevfd
+ * --> 0 ---> pip[0] <-- prevfd
  * 子 | 親
  * pip[1] ------- pip[1]
  * 			*/
 
 			/* 書き出しを標準出力に移す */
-			if (pip[1] &gt; 1) {
+			if (pip[1] > 1) {
 				dup2(pip[1], 1);
 				close(pip[1]);
 			}
 			/*
- * --&gt; 0 ---&gt; pip[0] <-- prevfd
+ * --> 0 ---> pip[0] <-- prevfd
  * 子 | 親
  * 1 ------- pip[1]
  * 			*/
 
-			evaltreenr(lp-&gt;n, flags);
+			evaltreenr(lp->n, flags);
 			/* never returns */
 		}
 		/* 親の処理 */
-		if (prevfd &gt;= 0)
+		if (prevfd >= 0)
 			close(prevfd);
 		/*
- * --&gt; 0 ---&gt; pip[0] 
+ * --> 0 ---> pip[0] 
  * 子 | 親
  * 1 ------- pip[1]
  * 		*/
@@ -873,7 +873,7 @@ evalpipe(union node *n, int flags)
 		prevfd = pip[0];
 		/*
  * (prevfd)
- * --&gt; 0 ---&gt; pip[0] 
+ * --> 0 ---> pip[0] 
  * 子 | 親
  * 1 ------- pip[1]
  * 		*/
@@ -882,15 +882,15 @@ evalpipe(union node *n, int flags)
 		close(pip[1]);
 		/*
  * (prevfd)
- * --&gt; 0 ---&gt; pip[0] 
+ * --> 0 ---> pip[0] 
  * 子 | 親
  * 1 ----
  * 		*/
 	}
 	/* バックグラウンドでなければパイプラインの処理を待つ */
-	if (n-&gt;npipe.backgnd == 0) {
+	if (n->npipe.backgnd == 0) {
 		exitstatus = waitforjob(jp);
-		TRACE((&quot;evalpipe: job done exit status %d\\n&quot;, exitstatus));
+		TRACE(("evalpipe: job done exit status %d\\n", exitstatus));
 	}
 	INTON;
 }
@@ -916,17 +916,17 @@ evalbackcmd(union node *n, struct backcmd *result)
 	int pip[2];
 	struct job *jp;
 
-	result-&gt;fd = -1;
-	result-&gt;buf = NULL;
-	result-&gt;nleft = 0;
-	result-&gt;jp = NULL;
+	result->fd = -1;
+	result->buf = NULL;
+	result->nleft = 0;
+	result->jp = NULL;
 	if (n == NULL) {
 		goto out;
 	}
 
 	/* 内部コマンドでもパイプは開くらしい。*/
 	if (pipe(pip) < 0)
-		sh_error(&quot;Pipe call failed&quot;);
+		sh_error("Pipe call failed");
 	jp = makejob(n, 1);
 	/* FORK_NOJOBはjobs.cで取り扱われる*/
 	if (forkshell(jp, n, FORK_NOJOB) == 0) {
@@ -948,12 +948,12 @@ evalbackcmd(union node *n, struct backcmd *result)
 	/* 子につながっている出力先を閉じる */
 	close(pip[1]);
 	/* 子からの受け入れ口をresultに入れる */
-	result-&gt;fd = pip[0];
-	result-&gt;jp = jp;
+	result->fd = pip[0];
+	result->jp = jp;
 
 out:
-	TRACE((&quot;evalbackcmd done: fd=%d buf=0x%x nleft=%d jp=0x%x\\n&quot;,
-		result-&gt;fd, result-&gt;buf, result-&gt;nleft, result-&gt;jp));
+	TRACE(("evalbackcmd done: fd=%d buf=0x%x nleft=%d jp=0x%x\\n",
+		result->fd, result->buf, result->nleft, result->jp));
 }
 
 static char **
@@ -969,7 +969,7 @@ parse_command_args(char **argv, const char **path)
 			break;
 		if (!(c = *cp++))
 			break;
-		if (c == '-' &amp;&amp; !*cp) {
+		if (c == '-' && !*cp) {
 			if (!*++argv)
 				return 0;
 			break;
@@ -1022,66 +1022,66 @@ evalcommand(union node *cmd, int flags)
 	int status;
 	char **nargv;
 
-	errlinno = lineno = cmd-&gt;ncmd.linno;
+	errlinno = lineno = cmd->ncmd.linno;
 	if (funcline)
 		lineno -= funcline - 1;
 
 	/* First expand the arguments. */
-	TRACE((&quot;evalcommand(0x%lx, %d) called\\n&quot;, (long)cmd, flags));
-	setstackmark(&amp;smark);
+	TRACE(("evalcommand(0x%lx, %d) called\\n", (long)cmd, flags));
+	setstackmark(&smark);
 	localvar_stop = pushlocalvars();
 	back_exitstatus = 0;
 
 	cmdentry.cmdtype = CMDBUILTIN;
-	cmdentry.u.cmd = &amp;bltin;
-	varlist.lastp = &amp;varlist.list;
+	cmdentry.u.cmd = &bltin;
+	varlist.lastp = &varlist.list;
 	*varlist.lastp = NULL;
-	arglist.lastp = &amp;arglist.list;
+	arglist.lastp = &arglist.list;
 	*arglist.lastp = NULL;
 
 	argc = 0;
-	for (argp = cmd-&gt;ncmd.args; argp; argp = argp-&gt;narg.next) {
+	for (argp = cmd->ncmd.args; argp; argp = argp->narg.next) {
 		struct strlist **spp;
 
 		spp = arglist.lastp;
-		expandarg(argp, &amp;arglist, EXP_FULL | EXP_TILDE);
-		for (sp = *spp; sp; sp = sp-&gt;next)
+		expandarg(argp, &arglist, EXP_FULL | EXP_TILDE);
+		for (sp = *spp; sp; sp = sp->next)
 			argc++;
 	}
 
 	/* Reserve one extra spot at the front for shellexec. */
 	nargv = stalloc(sizeof (char *) * (argc + 2));
 	argv = ++nargv;
-	for (sp = arglist.list ; sp ; sp = sp-&gt;next) {
-		TRACE((&quot;evalcommand arg: %s\\n&quot;, sp-&gt;text));
-		*nargv++ = sp-&gt;text;
+	for (sp = arglist.list ; sp ; sp = sp->next) {
+		TRACE(("evalcommand arg: %s\\n", sp->text));
+		*nargv++ = sp->text;
 	}
 	*nargv = NULL;
 
 	lastarg = NULL;
-	if (iflag &amp;&amp; funcline == 0 &amp;&amp; argc &gt; 0)
+	if (iflag && funcline == 0 && argc > 0)
 		lastarg = nargv[-1];
 
 	preverrout.fd = 2;
-	expredir(cmd-&gt;ncmd.redirect);
-	redir_stop = pushredir(cmd-&gt;ncmd.redirect);
-	status = redirectsafe(cmd-&gt;ncmd.redirect, REDIR_PUSH|REDIR_SAVEFD2);
+	expredir(cmd->ncmd.redirect);
+	redir_stop = pushredir(cmd->ncmd.redirect);
+	status = redirectsafe(cmd->ncmd.redirect, REDIR_PUSH|REDIR_SAVEFD2);
 
 	path = vpath.text;
-	for (argp = cmd-&gt;ncmd.assign; argp; argp = argp-&gt;narg.next) {
+	for (argp = cmd->ncmd.assign; argp; argp = argp->narg.next) {
 		struct strlist **spp;
 		char *p;
 
 		spp = varlist.lastp;
-		expandarg(argp, &amp;varlist, EXP_VARTILDE);
+		expandarg(argp, &varlist, EXP_VARTILDE);
 
-		mklocal((*spp)-&gt;text);
+		mklocal((*spp)->text);
 
 		/*
 		* Modify the command lookup path, if a PATH= assignment
 		* is present
 		*/
-		p = (*spp)-&gt;text;
+		p = (*spp)->text;
 		if (varequal(p, path))
 			path = p;
 	}
@@ -1091,7 +1091,7 @@ evalcommand(union node *cmd, int flags)
 		struct output *out;
 		int sep;
 
-		out = &amp;preverrout;
+		out = &preverrout;
 		outstr(expandstr(ps4val()), out);
 		sep = 0;
 		sep = eprintlist(out, varlist.list, sep);
@@ -1113,11 +1113,11 @@ evalcommand(union node *cmd, int flags)
 		path += 5;
 		oldpath = path;
 		for (;;) {
-			find_command(argv[0], &amp;cmdentry, cmd_flag, path);
+			find_command(argv[0], &cmdentry, cmd_flag, path);
 			if (cmdentry.cmdtype == CMDUNKNOWN) {
 				status = 127;
 #ifdef FLUSHERR
-				flushout(&amp;errout);
+				flushout(&errout);
 #endif
 				goto bail;
 			}
@@ -1127,7 +1127,7 @@ evalcommand(union node *cmd, int flags)
 				break;
 			if (spclbltin < 0)
 				spclbltin = 
-					cmdentry.u.cmd-&gt;flags &amp;
+					cmdentry.u.cmd->flags &
 					BUILTIN_SPECIAL
 				;
 			if (cmdentry.u.cmd == EXECCMD)
@@ -1136,7 +1136,7 @@ evalcommand(union node *cmd, int flags)
 				break;
 
 			path = oldpath;
-			nargv = parse_command_args(argv, &amp;path);
+			nargv = parse_command_args(argv, &path);
 			if (!nargv)
 				break;
 			argc -= nargv - argv;
@@ -1150,7 +1150,7 @@ bail:
 		exitstatus = status;
 
 		/* We have a redirection error. */
-		if (spclbltin &gt; 0)
+		if (spclbltin > 0)
 			exraise(EXERROR);
 
 		goto out;
@@ -1160,7 +1160,7 @@ bail:
 	switch (cmdentry.cmdtype) {
 	default:
 		/* Fork off a child process if necessary. */
-		if (!(flags &amp; EV_EXIT) || have_traps()) {
+		if (!(flags & EV_EXIT) || have_traps()) {
 			INTOFF;
 			jp = makejob(cmd, 1);
 			if (forkshell(jp, cmd, FORK_FG) != 0) {
@@ -1175,9 +1175,9 @@ bail:
 		/* NOTREACHED */
 
 	case CMDBUILTIN:
-		if (spclbltin &gt; 0 || argc == 0) {
+		if (spclbltin > 0 || argc == 0) {
 			poplocalvars(1);
-			if (execcmd &amp;&amp; argc &gt; 1)
+			if (execcmd && argc > 1)
 				listsetvar(varlist.list, VEXPORT);
 		}
 		if (evalbltin(cmdentry.u.cmd, argc, argv, flags)) {
@@ -1191,9 +1191,9 @@ bail:
 			status = (i == EXINT) ? SIGINT + 128 : 2;
 			exitstatus = status;
 
-			if (i == EXINT || spclbltin &gt; 0) {
+			if (i == EXINT || spclbltin > 0) {
 raise:
-				longjmp(handler-&gt;loc, 1);
+				longjmp(handler->loc, 1);
 			}
 			FORCEINTON;
 		}
@@ -1207,7 +1207,7 @@ raise:
 	}
 
 out:
-	if (cmd-&gt;ncmd.redirect)
+	if (cmd->ncmd.redirect)
 		popredir(execcmd);
 	unwindredir(redir_stop);
 	unwindlocalvars(localvar_stop);
@@ -1216,8 +1216,8 @@ out:
 		* '_' in 'vi' command mode during line editing...
 		* However I implemented that within libedit itself.
 		*/
-		setvar(&quot;_&quot;, lastarg, 0);
-	popstackmark(&amp;smark);
+		setvar("_", lastarg, 0);
+	popstackmark(&smark);
 }
 
 /* evalcommandでだけ使われている */
@@ -1234,14 +1234,14 @@ evalbltin(const struct builtincmd *cmd, int argc, char **argv, int flags)
 	savehandler = handler;
 	if ((i = setjmp(jmploc.loc)))
 		goto cmddone;
-	handler = &amp;jmploc;
+	handler = &jmploc;
 	commandname = argv[0];
 	argptr = argv + 1;
 	optptr = NULL;			/* initialize nextopt */
 	if (cmd == EVALCMD)
 		status = evalcmd(argc, argv, flags);
 	else
-		status = (*cmd-&gt;builtin)(argc, argv);
+		status = (*cmd->builtin)(argc, argv);
 	flushall();
 	status |= outerr(out1);
 	exitstatus = status;
@@ -1269,27 +1269,27 @@ evalfun(struct funcnode *func, int argc, char **argv, int flags)
 		goto funcdone;
 	}
 	INTOFF;
-	handler = &amp;jmploc;
+	handler = &jmploc;
 	shellparam.malloc = 0;
-	func-&gt;count++;
-	funcline = func-&gt;n.ndefun.linno;
+	func->count++;
+	funcline = func->n.ndefun.linno;
 	INTON;
 	shellparam.nparam = argc - 1;
 	shellparam.p = argv + 1;
 	shellparam.optind = 1;
 	shellparam.optoff = -1;
 	pushlocalvars();
-	evaltree(func-&gt;n.ndefun.body, flags &amp; EV_TESTED);
+	evaltree(func->n.ndefun.body, flags & EV_TESTED);
 	poplocalvars(0);
 funcdone:
 	INTOFF;
 	funcline = savefuncline;
 	freefunc(func);
-	freeparam(&amp;shellparam);
+	freeparam(&shellparam);
 	shellparam = saveparam;
 	handler = savehandler;
 	INTON;
-	evalskip &amp;= ~SKIPFUNC;
+	evalskip &= ~SKIPFUNC;
 	return e;
 }
 
@@ -1297,7 +1297,7 @@ funcdone:
 /*
  * Search for a command. This is called before we fork so that the
  * location of the command will be available in the parent as well as
- * the child. The check for &quot;goodname&quot; is an overly conservative
+ * the child. The check for "goodname" is an overly conservative
  * check that the name will not be subject to expansion.
  */
 
@@ -1306,9 +1306,9 @@ prehash(union node *n)
 {
 	struct cmdentry entry;
 
-	if (n-&gt;type == NCMD &amp;&amp; n-&gt;ncmd.args)
-		if (goodname(n-&gt;ncmd.args-&gt;narg.text))
-			find_command(n-&gt;ncmd.args-&gt;narg.text, &amp;entry, 0,
+	if (n->type == NCMD && n->ncmd.args)
+		if (goodname(n->ncmd.args->narg.text))
+			find_command(n->ncmd.args->narg.text, &entry, 0,
 				pathval());
 }
 
@@ -1348,13 +1348,13 @@ bltincmd(int argc, char **argv)
 int
 breakcmd(int argc, char **argv)
 {
-	int n = argc &gt; 1 ? number(argv[1]) : 1;
+	int n = argc > 1 ? number(argv[1]) : 1;
 
 	if (n <= 0)
 		badnum(argv[1]);
-	if (n &gt; loopnest)
+	if (n > loopnest)
 		n = loopnest;
-	if (n &gt; 0) {
+	if (n > 0) {
 		evalskip = (**argv == 'c')? SKIPCONT : SKIPBREAK;
 		skipcount = n;
 	}
@@ -1395,7 +1395,7 @@ truecmd(int argc, char **argv)
 int
 execcmd(int argc, char **argv)
 {
-	if (argc &gt; 1) {
+	if (argc > 1) {
 		iflag = 0;		/* exit on error */
 		mflag = 0;
 		optschanged();
@@ -1411,10 +1411,10 @@ eprintlist(struct output *out, struct strlist *sp, int sep)
 	while (sp) {
 		const char *p;
 
-		p = &quot; %s&quot; + (1 - sep);
+		p = " %s" + (1 - sep);
 		sep |= 1;
-		outfmt(out, p, sp-&gt;text);
-		sp = sp-&gt;next;
+		outfmt(out, p, sp->text);
+		sp = sp->next;
 	}
 
 	return sep;

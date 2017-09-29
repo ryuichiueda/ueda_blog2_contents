@@ -160,8 +160,8 @@ this is a test
 
 これだけなら「ふーん」という感じですが、CGIでbashが立ち上がるようになっていると話は別です。webサーバがGETで送られてきた文字列を変数に保存しますので、そのときに<strong>文字列に仕込んだコマンドが実行される</strong>ことになって非常に危険です。次の例は、騒ぎの中、私のウェブサーバに飛んできたリクエストのログです。パスワードファイルを盗み見しようとしています。
 ```bash
-xxx.yyy.zzz.aaa - - [25/Sep/2014:08:32:26 +0900] &quot;GET / HTTP/1.1&quot; 302 208
- &quot;-&quot; &quot;() { :;}; echo Content-type:text/plain;echo;/bin/cat /etc/passwd&quot;
+xxx.yyy.zzz.aaa - - [25/Sep/2014:08:32:26 +0900] "GET / HTTP/1.1" 302 208
+ "-" "() { :;}; echo Content-type:text/plain;echo;/bin/cat /etc/passwd"
 ```
 
 ところで、「CGIでbashが立ち上がるなんて、<a href="https://www.amazon.co.jp/dp/4048660683">こんな本</a>を書いたお前のところだけだろ」という声も聞こえて来そうなんですが、<strong>CGIスクリプトからコマンドを読んでおり、shと打つとbashが代わりに立ち上がる環境でウェブサーバが動作している</strong>という場合、知らないうちにbashが立ち上がっていますので、ご注意ください。当然、最新のbashではこのバグは潰されています。
@@ -178,7 +178,7 @@ xxx.yyy.zzz.aaa - - [25/Sep/2014:08:32:26 +0900] &quot;GET / HTTP/1.1&quot; 302 
 次のように実行できます。
 
 ```bash
-takeda\@jooy:~$ base64 -d hoge | gunzip &gt; a ; chmod +x a ; ./a
+takeda\@jooy:~$ base64 -d hoge | gunzip > a ; chmod +x a ; ./a
 うんこ
 ```
 

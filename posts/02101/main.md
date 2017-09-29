@@ -35,15 +35,15 @@ uedambp:PROTOTYPE ueda$ ./langToBash ./SAMPLE_SCRIPTS/findfilename.glue
 function main(){
 	find $2 | 	grep $1
 }
-main &quot;$1&quot; &quot;$2&quot;
+main "$1" "$2"
 ```
 
 ちゃんと動きます。
 
 ```bash
-uedambp:PROTOTYPE ueda$ ./langToBash ./SAMPLE_SCRIPTS/findfilename.glue &gt; hoge.bash
+uedambp:PROTOTYPE ueda$ ./langToBash ./SAMPLE_SCRIPTS/findfilename.glue > hoge.bash
 uedambp:PROTOTYPE ueda$ chmod +x hoge.bash 
-uedambp:PROTOTYPE ueda$ ./hoge.bash &quot;lang&quot; &quot;.&quot; 
+uedambp:PROTOTYPE ueda$ ./hoge.bash "lang" "." 
 ./langToBash
 ./langToBash.hi
 ./langToBash.hs
@@ -67,8 +67,8 @@ import qualified Data.Text as D
 
 showUsage :: IO ()
 showUsage = do System.IO.hPutStr stderr
- (&quot;Usage : langToBash <file&gt;\\n&quot; ++
-		&quot;Sun Feb 16 15:55:08 JST 2014\\n&quot; )
+ ("Usage : langToBash <file>\\n" ++
+		"Sun Feb 16 15:55:08 JST 2014\\n" )
 
 
 type FilterName = String
@@ -80,45 +80,45 @@ data Script = Script [Filter] | Err String deriving Show
 main :: IO()
 main = do args <- getArgs
  case args of
- [] -&gt; showUsage
- [f] -&gt; readF f &gt;&gt;= putStr . toBash . parseGlueLang
- _ -&gt; showUsage
+ [] -> showUsage
+ [f] -> readF f >>= putStr . toBash . parseGlueLang
+ _ -> showUsage
 
-toBash :: Script -&gt; String
+toBash :: Script -> String
 toBash (Script fs) = unlines (header:(map toOneLiner fs) ++ [footer])
- where header = &quot;#!/bin/bash -e\\n&quot;
- footer = &quot;main &quot; ++ mainArgs fs
+ where header = "#!/bin/bash -e\\n"
+ footer = "main " ++ mainArgs fs
 
-mainArgs :: [Filter] -&gt; String
-mainArgs ((Filter &quot;main&quot; args _):fs) = unwords $ [ &quot;\\&quot;&quot; ++ ('$':(show n)) ++ &quot;\\&quot;&quot; | n <- [1..len]]
+mainArgs :: [Filter] -> String
+mainArgs ((Filter "main" args _):fs) = unwords $ [ "\\"" ++ ('$':(show n)) ++ "\\"" | n <- [1..len]]
  where len = length args
-mainArgs _ = &quot;&quot;
+mainArgs _ = ""
 
-toOneLiner :: Filter -&gt; String
-toOneLiner (Filter fname opts codes) = func fname ++ &quot;\\n&quot;
- ++ (pipeCon $ map (convArgs opts) codes) ++ &quot;}&quot;
- where func fname = &quot;function &quot; ++ fname ++ &quot;(){&quot;
+toOneLiner :: Filter -> String
+toOneLiner (Filter fname opts codes) = func fname ++ "\\n"
+ ++ (pipeCon $ map (convArgs opts) codes) ++ "}"
+ where func fname = "function " ++ fname ++ "(){"
 
-pipeCon :: [String] -&gt; String
-pipeCon [s] = s ++ &quot;\\n&quot;
-pipeCon (s:ss) = s ++ &quot; | &quot; ++ pipeCon ss
+pipeCon :: [String] -> String
+pipeCon [s] = s ++ "\\n"
+pipeCon (s:ss) = s ++ " | " ++ pipeCon ss
 
-convArgs :: [FilterArgs] -&gt; FilterCode -&gt; String
+convArgs :: [FilterArgs] -> FilterCode -> String
 convArgs [] str = str
 convArgs ((n,op):ops) str = convArgs ops $ D.unpack (D.replace (D.pack op) (D.pack $ ('$':show n)) (D.pack str))
 
-readF :: String -&gt; IO String
-readF &quot;-&quot; = getContents
+readF :: String -> IO String
+readF "-" = getContents
 readF f = readFile f
 
-parseGlueLang :: String -&gt; Script
-parseGlueLang str = case parse code &quot;&quot; str of
- Right scr -&gt; scr 
- Left err -&gt; Err ( show err )
+parseGlueLang :: String -> Script
+parseGlueLang str = case parse code "" str of
+ Right scr -> scr 
+ Left err -> Err ( show err )
 
-code = many1 langFilter &gt;&gt;= return . Script
+code = many1 langFilter >>= return . Script
 
-langFilter = do string &quot;filter &quot;
+langFilter = do string "filter "
  nm <- langWord
 		args <- many langWord
  many langSpace
@@ -127,13 +127,13 @@ langFilter = do string &quot;filter &quot;
  lns <- many1 langFilterCode
  return $ Filter nm (zip [1..] args) lns
 
-langWord = do w <- many1 (noneOf &quot; :\\n\\t&quot;)
+langWord = do w <- many1 (noneOf " :\\n\\t")
  many langSpace
  return w
 
-langSpace = oneOf &quot; \\t&quot;
+langSpace = oneOf " \\t"
 
-langFilterCode = do ln <- many (noneOf &quot;\\n&quot;)
+langFilterCode = do ln <- many (noneOf "\\n")
  char '\\n'
  return ln
 ```

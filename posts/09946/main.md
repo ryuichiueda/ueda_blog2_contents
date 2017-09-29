@@ -22,7 +22,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 自分のPCやラズパイでは1回目のcatkin_makeはエラーを出すものの.msgの処理を完了できて、一方Travis CIの場合は完了できないということは、非同期処理のズレだろうというのがまず思いつきました。そして、Travis CIのエラーに
 
 ```bash
-Invoking &quot;make -j2 -l2&quot; failed
+Invoking "make -j2 -l2" failed
 ```
 
 とあったので、たぶんズレはコア数の違いで起こるんだろうと思いました。（makeのjオプションは、何並列で処理をするかを指定するオプションです。）

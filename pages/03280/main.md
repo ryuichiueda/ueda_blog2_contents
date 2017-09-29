@@ -43,7 +43,7 @@ Copyright: (C) Ryuichi Ueda
 
 <p>シェルのワンライナーだと簡単ですね。</p>
 ```bash
-ueda\@ubuntu:~$ cat /etc/passwd | awk &amp;quot;-F:&amp;quot; &amp;#39;{print $1}&amp;#39;
+ueda\@ubuntu:~$ cat /etc/passwd | awk "-F:" &#39;{print $1}&#39;
 ...
 sshd
 ueda
@@ -75,7 +75,7 @@ uedamac:~ ueda$ brew install ghc
 <p>まず、次のようなファイルを準備してください。1行のHaskellのプログラムです。</p>
 ```hs
 ueda\@ubuntu:~$ cat q1_1.hs
-main = getContents &amp;gt;&amp;gt;= putStr
+main = getContents >>= putStr
 ```
 <p>これを次のように <tt class="docutils literal"><span class="pre">ghc</span></tt> （The Glasgow Haskell Compiler）
 （脚注：GCC?、DHC?、いいえGHCです。）
@@ -109,10 +109,10 @@ postfix:x:105:112::/var/spool/postfix:/bin/false
 </ul>
 ```hs
 ueda\@ubuntu:~$ cat q1_1.hs
-main = getContents &amp;gt;&amp;gt;= putStr . main&amp;#39;
+main = getContents >>= putStr . main&#39;
 
-main&amp;#39; :: String -&amp;gt; String
-main&amp;#39; cs = head ( lines cs )
+main&#39; :: String -> String
+main&#39; cs = head ( lines cs )
 ```
 <p>コンパイルして <tt class="docutils literal"><span class="pre">/etc/passwd</span></tt> の内容を入力すると、次のように最初の行が改行無しで出力されます。</p>
 ```bash
@@ -206,10 +206,10 @@ head . lines :: String -&gt; String
 </ul>
 ```hs
 ueda\@remote:~$ cat q1_1.hs
-main = getContents &amp;gt;&amp;gt;= putStr . main&amp;#39;
+main = getContents >>= putStr . main&#39;
 
-main&amp;#39; :: String -&amp;gt; String
-main&amp;#39; cs = unlines $ map ( takeWhile (/= &amp;#39;:&amp;#39;) ) ( lines cs )
+main&#39; :: String -> String
+main&#39; cs = unlines $ map ( takeWhile (/= &#39;:&#39;) ) ( lines cs )
 ```
 <p>実行してみましょう。</p>
 ```bash

@@ -15,7 +15,7 @@ $ cat hoge.bash
 
 seq 1 3 |
 while read a ; do
-	echo &quot;\@&quot; $a
+	echo "\@" $a
 done
 ###こんな出力###
 $ ./hoge.bash
@@ -31,7 +31,7 @@ GlueLangだと次のようになります。標準入力から1行ごとに配�
 $ cat hoge.glue 
 import PATH
 
-seq 1 3 &gt;&gt;= foreach
+seq 1 3 >>= foreach
  echo '\@' argv[1]
 ###こんな出力###
 $ glue ./hoge.glue 

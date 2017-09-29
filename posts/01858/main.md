@@ -14,25 +14,25 @@ CSVをスペース区切りのデータにするコマンドを自作して持�
 
 ```bash
 ueda\@remote:~$ cat file2.csv 
-&quot;apple&quot;,&quot;ban,ana&quot;,melon
-&quot;apple&quot;,melon
-melon,&quot;apple&quot;,&quot;ban,ana&quot;
-&quot;ban,ana&quot;,&quot;apple&quot;
+"apple","ban,ana",melon
+"apple",melon
+melon,"apple","ban,ana"
+"ban,ana","apple"
 ueda\@remote:~$ cat file2.csv | python csv2txt.py 
 apple ban,ana melon
 apple melon
 melon apple ban,ana
 ban,ana apple
 ueda\@remote:~$ cat file3.csv 
-&quot;ap&quot;&quot;ple&quot;&quot;&quot;,&quot;ban,
-ana&quot;,melon
-&quot;ap&quot;&quot;ple&quot;,melon
-melon,&quot;apple&quot;,&quot;ban
-,ana&quot;
-&quot;ban,ana&quot;,&quot;apple&quot;
+"ap""ple""","ban,
+ana",melon
+"ap""ple",melon
+melon,"apple","ban
+,ana"
+"ban,ana","apple"
 ueda\@remote:~$ cat file3.csv | python csv2txt.py 
-ap&quot;ple&quot; ban,\\nana melon
-ap&quot;ple melon
+ap"ple" ban,\\nana melon
+ap"ple melon
 melon apple ban\\n,ana
 ban,ana apple
 ```

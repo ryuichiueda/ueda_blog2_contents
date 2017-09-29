@@ -64,11 +64,11 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 例えばbashであれば、シェルスクリプトではaliasが無効になることを利用できます。
 
 ```bash
-$ alias hoge='echo 1ppm' &amp;&amp; hoge 2&gt; /dev/null || echo 40ppm
+$ alias hoge='echo 1ppm' && hoge 2> /dev/null || echo 40ppm
 1ppm
 ###シェルスクリプトにすると挙動が変わる###
 $ cat a
-alias hoge='echo 1ppm' &amp;&amp; hoge 2&gt; /dev/null || echo 40ppm
+alias hoge='echo 1ppm' && hoge 2> /dev/null || echo 40ppm
 $ ./a
 40ppm
 ```
@@ -103,7 +103,7 @@ $ echo 1 4 | while read a b ; do seq $a $b | tac ; seq $a $b ; done | uniq
 3
 4
 ###whileを使わない例###
-$ echo 1 4 | xargs -n 2 seq | xargs | awk '{for(i=NF;i&gt;=1;i--)print $i;print}' | xargs -n 1 | uniq
+$ echo 1 4 | xargs -n 2 seq | xargs | awk '{for(i=NF;i>=1;i--)print $i;print}' | xargs -n 1 | uniq
 4
 3
 2
@@ -126,10 +126,10 @@ Macだと最初の答えば000や00が0に削られてうまく動かないよ�
 ```bash
 $ echo 1234567890{000..999} {0..9}1234567890{00..99}
  {00..99}1234567890{0..9} {000..999}1234567890 | tr ' ' '\\n' 
-$ seq -w 000 999 | sed 's/./&amp; /g' |
- awk '{a=&quot;1234567890&quot;; print $1$2$3a; print $1$2a$3; print $1a$2$3; print a$1$2$3}'
+$ seq -w 000 999 | sed 's/./& /g' |
+ awk '{a="1234567890"; print $1$2$3a; print $1$2a$3; print $1a$2$3; print a$1$2$3}'
 $ seq -w 000 999 |
- awk '{a=&quot;1234567890&quot;;for(i=0;i<=3;i++)print substr($1,1,i)a substr($1,1+i)}'
+ awk '{a="1234567890";for(i=0;i<=3;i++)print substr($1,1,i)a substr($1,1+i)}'
 ```
 
 <h2>Q4</h2>
@@ -179,8 +179,8 @@ sed 's/す\@*っ\@*と\@*こ\@*ど\@*っ\@*こ\@*い/朴念仁/g' | tr \@ '\\n' 
 
 ```bash
 $ curl https://blog.ueda.asia/?page_id=7123 |
- grep -o '<img src=&quot;data:[^&gt;]*/&gt;' | sed 's/^.*,//' |
- sed 's;&quot;/&gt;$;;' | base64 -d &gt; chinjyu.png
+ grep -o '<img src="data:[^>]*/>' | sed 's/^.*,//' |
+ sed 's;"/>$;;' | base64 -d > chinjyu.png
 ```
 
 <h2>Q6</h2>
@@ -197,7 +197,7 @@ $ cat Q6
 一例です。
 
 ```bash
-$ echo -n &quot;obase=16;ibase=2;&quot; | cat - Q6 | sed 's/$/;\\n/' |
+$ echo -n "obase=16;ibase=2;" | cat - Q6 | sed 's/$/;\\n/' |
  bc | tr -d '\\\\\\n' | xxd -r -ps | nkf
 各地に多種多様な賭博が存在する。
 特に有名なものは野球賭博である。
@@ -212,7 +212,7 @@ bashでは変数SHLVLに、今使っているbashの深さ（子シェル:2, 孫
 自身を呼び出すシェルスクリプトを使って実行するのが一つの方法です。
 
 ```bash
-$ echo 'echo $SHLVL &amp;&amp; [ $SHLVL -lt 100 ] &amp;&amp; ./a' &gt; a ; chmod +x a ; ./a
+$ echo 'echo $SHLVL && [ $SHLVL -lt 100 ] && ./a' > a ; chmod +x a ; ./a
 ###\@papironさんの答え###
 $ yes 'bash' | head -n 98 | (cat; echo 'echo $SHLVL') | bash
 ```
@@ -222,7 +222,7 @@ $ yes 'bash' | head -n 98 | (cat; echo 'echo $SHLVL') | bash
 以下のワンライナーに加筆して、1000プロセスぐらい立ち上げた後で止めてみてください。<span style="color:red">壊しても良い環境で行ってください。</span>
 
 ```bash
-$ : (){ : | : &amp; }; :
+$ : (){ : | : & }; :
 ```
 
 <h3>解答</h3>
@@ -231,7 +231,7 @@ $ : (){ : | : &amp; }; :
 
 ```bash
 ###wc -l < aをwc -l aとすると止まらないので注意###
-$ : (){ echo a &gt;&gt; a ; [ &quot;$(wc -l < a)&quot; -gt 1000 ] &amp;&amp; exit 0; : | : &amp; }; :
+$ : (){ echo a >> a ; [ "$(wc -l < a)" -gt 1000 ] && exit 0; : | : & }; :
 ```
 
 

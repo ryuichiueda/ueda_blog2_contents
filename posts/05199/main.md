@@ -49,11 +49,11 @@ uedambp:GlueLang ueda$ cat fuga.glue
 import PATH
 
 file code = '
-	NF==2{print &quot;素数&quot;,$2}
-	NF!=2{print &quot;素数じゃねえ&quot;}
+	NF==2{print "素数",$2}
+	NF!=2{print "素数じゃねえ"}
 '
 
-seq 1 10 &gt;&gt;= gfactor &gt;&gt;= awk -f code
+seq 1 10 >>= gfactor >>= awk -f code
 ```
 
 <span style="color:red">これでglue自体には文字列処理を実装する必要がないなーと思ったり思わなかったり。</span>
@@ -80,10 +80,10 @@ whereを使うとワンライナーにawkの長いコードをぶち込むこと
 uedambp:GlueLang ueda$ cat fuge.glue 
 import PATH
 
-seq 1 10 &gt;&gt;= gfactor &gt;&gt;= awk -f awkcode
+seq 1 10 >>= gfactor >>= awk -f awkcode
 	where file awkcode = '
-		NF==2{print &quot;素数&quot;,$2}
-		NF!=2{print &quot;素数じゃねえ&quot;}
+		NF==2{print "素数",$2}
+		NF!=2{print "素数じゃねえ"}
 		'
 ```
 
@@ -96,11 +96,11 @@ uedambp:GlueLang ueda$ cat fuge.glue
 import PATH
 
 proc awkcode = awk '
-	NF==2{print &quot;素数&quot;,$2}
-	NF!=2{print &quot;素数じゃねえ&quot;}
+	NF==2{print "素数",$2}
+	NF!=2{print "素数じゃねえ"}
 	'
 
-seq 1 10 &gt;&gt;= gfactor &gt;&gt;= this.awkcode
+seq 1 10 >>= gfactor >>= this.awkcode
 ```
 
 <h1>文字列をそのままパイプラインに投入できるように</h1>
@@ -113,7 +113,7 @@ import PATH
 
 'abc
 def
-ghi' &gt;&gt;= rev
+ghi' >>= rev
 ### 実行 ###
 uedambp:GlueLang ueda$ ./glue hoge.glue 
 cba
@@ -127,7 +127,7 @@ ihg
 uedambp:GlueLang ueda$ cat hoge2.glue 
 import PATH
 
-['abc','def','ghi'] &gt;&gt;= rev
+['abc','def','ghi'] >>= rev
 ###結果は同じ###
 uedambp:GlueLang ueda$ ./glue hoge2.glue 
 cba

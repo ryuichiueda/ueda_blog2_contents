@@ -12,7 +12,7 @@ import PATH
 #passwdファイルの一番下のユーザの名前でpasswdファイルをgrepする
 grep re '/etc/passwd'
  where
- str re = tail -n 1 '/etc/passwd' &gt;&gt;= awk '-F:' '{print $1}'
+ str re = tail -n 1 '/etc/passwd' >>= awk '-F:' '{print $1}'
 ```
 
 bashだとこうなります。

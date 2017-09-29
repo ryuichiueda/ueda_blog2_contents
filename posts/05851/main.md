@@ -64,10 +64,10 @@ access.log.shellshock.gzとaccess_log.nasa.gzについて、日付と時刻を�
 ```bash
 ###修正前###
 ueda\@tencore:~/tmp/nasa$ zcat access_log.nasa.gz | head -n 1
-199.72.81.55 - - [01/Jul/1995:00:00:01 -0400] &quot;GET /history/apollo/ HTTP/1.0&quot; 200 6245
+199.72.81.55 - - [01/Jul/1995:00:00:01 -0400] "GET /history/apollo/ HTTP/1.0" 200 6245
 ###修正後###
 ueda\@tencore:~/tmp/nasa$ cat access_log | head -n 1
-19950701 000001 199.72.81.55 - - [01/Jul/1995:00:00:01 -0400] &quot;GET /history/apollo/ HTTP/1.0&quot; 200 6245
+19950701 000001 199.72.81.55 - - [01/Jul/1995:00:00:01 -0400] "GET /history/apollo/ HTTP/1.0" 200 6245
 ```
 
 

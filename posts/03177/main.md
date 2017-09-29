@@ -51,31 +51,31 @@ Ubuntu14.04DesktopVirgin.tar.gz Ubuntu14.04ServerVirgin.tar.gz
 uedambp:VirtualBox VMs ueda$ cat vmcp 
 #!/bin/bash -xv
 
-ORG=$(echo &quot;$1&quot; | sed 's;^./;;' | sed 's;\\.tar\\.gz$;;' | tr -d '/')
+ORG=$(echo "$1" | sed 's;^./;;' | sed 's;\\.tar\\.gz$;;' | tr -d '/')
 
-tar zxvf &quot;$1&quot;
+tar zxvf "$1"
 
 ###ディレクトリ名の変更###
-mv &quot;$ORG&quot; &quot;$2&quot; || exit 1
-cd &quot;$2&quot; || exit 1
+mv "$ORG" "$2" || exit 1
+cd "$2" || exit 1
 
 ###ファイル名の変更###
-ls &quot;$ORG&quot;* |
+ls "$ORG"* |
 while read f; do
- newfile=$(echo $f | sed &quot;s;$ORG;$2;&quot;)
- mv &quot;$f&quot; &quot;$newfile&quot;
+ newfile=$(echo $f | sed "s;$ORG;$2;")
+ mv "$f" "$newfile"
 done
-sed -i.bak1 &quot;s;$ORG;$2;g&quot; &quot;$2&quot;.vbox
+sed -i.bak1 "s;$ORG;$2;g" "$2".vbox
 
 ###HDDのUUID変更###
-OLDUUID=$(cat $2.vbox | grep &quot;HardDisk uuid&quot; | sed 's/^.*{//' | sed 's/}.*//')
-NEWUUID=$(VBoxManage internalcommands sethduuid &quot;$2.vdi&quot; | awk '{print $NF}')
-sed -i.bak2 &quot;s;$OLDUUID;$NEWUUID;g&quot; &quot;$2.vbox&quot;
+OLDUUID=$(cat $2.vbox | grep "HardDisk uuid" | sed 's/^.*{//' | sed 's/}.*//')
+NEWUUID=$(VBoxManage internalcommands sethduuid "$2.vdi" | awk '{print $NF}')
+sed -i.bak2 "s;$OLDUUID;$NEWUUID;g" "$2.vbox"
 
 ###本体のUUID変更###
-OLDUUID=$(cat $2.vbox | grep &quot;Machine uuid&quot; | sed 's/^.*{//' | sed 's/}.*//')
+OLDUUID=$(cat $2.vbox | grep "Machine uuid" | sed 's/^.*{//' | sed 's/}.*//')
 NEWUUID=$(uuidgen)
-sed -i.bak3 &quot;s;$OLDUUID;$NEWUUID;g&quot; &quot;$2.vbox&quot;
+sed -i.bak3 "s;$OLDUUID;$NEWUUID;g" "$2.vbox"
 ```
 
 理屈はいらねえ使ってみやがれということで、使います。

@@ -55,23 +55,23 @@ import System.Posix.Unistd
 forward :: IO ()
 forward = do
  -- 車輪を400Hzで0.1秒回す
- writeFile &quot;/dev/rtmotor0&quot; &quot;400 400 100&quot;
+ writeFile "/dev/rtmotor0" "400 400 100"
  -- 無限ループ（・・・という言い方は不適切か？）
  forward
 
 -- 距離センサを読み出す
-readSensor :: MVar Bool -&gt; IO ()
+readSensor :: MVar Bool -> IO ()
 readSensor ref = do
  -- センサを休める
  threadDelay 200000
- cs <- readFile &quot;/dev/rtlightsensor0&quot;
+ cs <- readFile "/dev/rtlightsensor0"
  -- 4つのセンサの値を合計
  let v = sum [ read w :: Int | w <- words cs ]
  -- センサが反応していなかったら再度計測
- if v &gt; 1000 then putMVar ref True else readSensor ref
+ if v > 1000 then putMVar ref True else readSensor ref
 
 -- センサに何か反応したらモータのスレッドを止める
-watchSensor :: MVar Bool -&gt; ThreadId -&gt; IO ()
+watchSensor :: MVar Bool -> ThreadId -> IO ()
 watchSensor ref w = do
  tf <- takeMVar ref
  if tf then killThread w else watchSensor ref w

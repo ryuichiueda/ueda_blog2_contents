@@ -16,32 +16,32 @@ manを読むと次のようにあります。
 試してみましょう。
 ```bash
 uedamac:~ ueda$ cat hoge.html
-<!DOCTYPE html&gt;
-<html&gt;
- <body&gt;
- <a href=&quot;http://aho.aho&quot; target=&quot;_blank&quot;&gt;あほ</a&gt;
- <img src=&quot;aho.jpg&quot; alt=&quot;aho&quot;&gt;エロい画像</a&gt;
- </body&gt;
-</html&gt;
-uedamac:~ ueda$ cat hoge.html | grep -o 'href=&quot;[^&quot;]*&quot;'
-href=&quot;http://aho.aho&quot;
-uedamac:~ ueda$ cat hoge.html | grep -o -E '(src|href)=&quot;[^&quot;]*&quot;'
-href=&quot;http://aho.aho&quot;
-src=&quot;aho.jpg&quot;
+<!DOCTYPE html>
+<html>
+ <body>
+ <a href="http://aho.aho" target="_blank">あほ</a>
+ <img src="aho.jpg" alt="aho">エロい画像</a>
+ </body>
+</html>
+uedamac:~ ueda$ cat hoge.html | grep -o 'href="[^"]*"'
+href="http://aho.aho"
+uedamac:~ ueda$ cat hoge.html | grep -o -E '(src|href)="[^"]*"'
+href="http://aho.aho"
+src="aho.jpg"
 uedamac:~ ueda$ curl http://www.yahoo.co.jp | nkf -wLux | grep -o '<a href=[^<]*' | head
  % Total % Received % Xferd Average Speed Time Time Time Current
  Dload Upload Total Spent Left Speed
 100 24930 0 24930 0 0 235k 0 --:--:-- --:--:-- --:--:-- 316k
-<a href=&quot;r/mht&quot;&gt;
-<a href=s/192087&gt;募金受付「ふなっしーがチャリティーラン」 
-<a href=s/189191&gt;遺伝子検査キットで、かかりやすい病気を知る 
-<a href=s/192334&gt;期間限定、人気中古車を総額込み特別価格で 
-<a href=&quot;r/c1&quot;&gt;ショッピング 
-<a href=&quot;r/c2&quot;&gt;ヤフオク!
-<a href=&quot;r/c5&quot;&gt;旅行、ホテル予約 
-<a href=&quot;r/c12&quot;&gt;ニュース 
-<a href=&quot;r/c13&quot;&gt;天気 
-<a href=&quot;r/c14&quot;&gt;スポーツ 
+<a href="r/mht">
+<a href=s/192087>募金受付「ふなっしーがチャリティーラン」 
+<a href=s/189191>遺伝子検査キットで、かかりやすい病気を知る 
+<a href=s/192334>期間限定、人気中古車を総額込み特別価格で 
+<a href="r/c1">ショッピング 
+<a href="r/c2">ヤフオク!
+<a href="r/c5">旅行、ホテル予約 
+<a href="r/c12">ニュース 
+<a href="r/c13">天気 
+<a href="r/c14">スポーツ 
 ```
 
 便利。以上。

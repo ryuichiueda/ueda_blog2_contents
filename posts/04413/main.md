@@ -61,7 +61,7 @@ ueda\@remote:~$ seq 100 | xargs | tr ' ' '*' | bc
 ueda\@remote:~$ python -c 'import math;print math.factorial(100)'
 93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000
 ###中央大の飯尾先生から###
-ueda\@remote:~$ echo `seq 100` &quot;`yes '*' | head -99`&quot; p | dc
+ueda\@remote:~$ echo `seq 100` "`yes '*' | head -99`" p | dc
 933262154439441526816992388562667004907159682643816214685929638952175\\
 999932299156089414639761565182862536979208272237582511852109168640000\\
 00000000000000000000
@@ -115,8 +115,8 @@ ueda\@remote:~$ echo 0xaf 0x13 0x0d 0x24 0x58
 <h1>解答</h1>
 
 ```bash
-ueda\@remote:~$ echo 0xaf 0x13 0x0d 0x24 0x58 | xargs printf &quot;%d\\n&quot; |
- factor | awk 'NF==2{print $2}' | xargs printf &quot;0x%02x\\n&quot;
+ueda\@remote:~$ echo 0xaf 0x13 0x0d 0x24 0x58 | xargs printf "%d\\n" |
+ factor | awk 'NF==2{print $2}' | xargs printf "0x%02x\\n"
 0x13
 0x0d
 ```
@@ -135,7 +135,7 @@ e89fb9e3818ce9a39fe381b9e3819fe38184
 ueda\@remote:~$ echo e89fb9e3818ce9a39fe381b9e3819fe38184 | xxd -p -r
 蟹が食べたいueda\@remote:~$
 ueda\@remote:~$ echo e89fb9e3818ce9a39fe381b9e3819fe38184 | fold -b2 |
- sed 's/^/0x/' | xargs printf '%d\\n' | LANG=C awk '{printf(&quot;%c&quot;,$1)}'
+ sed 's/^/0x/' | xargs printf '%d\\n' | LANG=C awk '{printf("%c",$1)}'
 蟹が食べたいueda\@remote:~$ 
 ```
 
@@ -155,7 +155,7 @@ ueda\@remote:~$ ls -l hoge
 <h1>解答</h1>
 
 ```bash
-$ cat /dev/zero | head -c 999999996 | cat <(echo &quot;aho&quot;) - &gt; hoge
+$ cat /dev/zero | head -c 999999996 | cat <(echo "aho") - > hoge
 ```
 
 
@@ -169,9 +169,9 @@ $ cat /dev/zero | head -c 999999996 | cat <(echo &quot;aho&quot;) - &gt; hoge
 
 ```bash
 ueda\@remote:~$ curl http://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E5%B1%B1%E4%B8%80%E8%A6%A7_%28%E9%AB%98%E3%81%95%E9%A0%86%29 | 
-sed -n '/<table class=&quot;sortable&quot;/,$p' | sed -n '1,/<\\/table&gt;/p' | 
-grep '^<td&gt;' | grep -v jpg | sed 's/<\\/*small&gt;//g' | sed 's/<\\/.*$//' |
- sed 's/.*&gt;//' | awk '/^[0-9][0-9]*$/{print &quot;&quot;}{printf(&quot;%s &quot;,$0)}' |
+sed -n '/<table class="sortable"/,$p' | sed -n '1,/<\\/table>/p' | 
+grep '^<td>' | grep -v jpg | sed 's/<\\/*small>//g' | sed 's/<\\/.*$//' |
+ sed 's/.*>//' | awk '/^[0-9][0-9]*$/{print ""}{printf("%s ",$0)}' |
  awk 'NF{print $1,$2,$4}'
 1 富士山 3,775.6
 2 北岳 3,193.2
@@ -197,17 +197,17 @@ echo '1/4 + 2/5 + 7/16 - 5/9'
 <h1>解答</h1>
 
 ```bash
-ueda\@remote:~$ echo '1/4 + 2/5 + 7/16 - 5/9' | sed 's/[+-]/\\n&amp;/g' |
+ueda\@remote:~$ echo '1/4 + 2/5 + 7/16 - 5/9' | sed 's/[+-]/\\n&/g' |
  tr '/' ' ' | sed 's/^+ //' | sed 's/- /-/' |
  awk 'BEGIN{n=0;d=1}{n=n*$2+d*$1;d=d*$2}END{print n,d}'
 1532 2880
 ###約分（死ぬ）###
-ueda\@remote:~$ echo '1/4 + 2/5 + 7/16 - 5/9' | sed 's/[+-]/\\n&amp;/g' |
+ueda\@remote:~$ echo '1/4 + 2/5 + 7/16 - 5/9' | sed 's/[+-]/\\n&/g' |
  tr '/' ' ' | sed 's/^+ //' | sed 's/- /-/' |
  awk 'BEGIN{n=0;d=1}{n=n*$2+d*$1;d=d*$2}END{print n,d}' | factor |
- awk 'NR==1{$1=&quot;a&quot;;print}NR==2{$1=&quot;b&quot;;print}' | tarr num=1 |
+ awk 'NR==1{$1="a";print}NR==2{$1="b";print}' | tarr num=1 |
  count 1 2 | self 2 1 3 | sort | yarr num=1 |
- awk 'NF==5{if($3&gt;$5){print $1,$2,$3-$5}else{print $1,$4,$5-$3}}NF!=5{print}'
+ awk 'NF==5{if($3>$5){print $1,$2,$3-$5}else{print $1,$4,$5-$3}}NF!=5{print}'
  | grep -v ' 0$' | self 2 1 3 | sort |
  awk '{a=1;for(i=0;i<$3;i++){a*=$2};print $1,a}' | yarr num=1 |
  awk '{a=1;for(i=2;i<=NF;i++){a*=$i};print $1,a}'
@@ -216,7 +216,7 @@ b 720
 ###素直に（？）Python使いましょう###
 ueda\@remote:~$ echo '1/4 + 2/5 + 7/16 - 5/9' | sed 's/\\([+-]\\) /\\1/g' |
  sed 's;\\([+-]*[0-9]*\\)/\\([0-9]*\\);+ Fraction(\\1,\\2);g' |
- awk '{print &quot;from fractions import Fraction ; a = &quot;,$0,&quot;;print a&quot;}' |
+ awk '{print "from fractions import Fraction ; a = ",$0,";print a"}' |
  python 
 383/720
 ```
@@ -252,8 +252,8 @@ ueda\@remote:~$ echo '1/4 + 2/5 + 7/16 - 5/9' | sed 's/\\([+-]\\) /\\1/g' |
 ```bash
 ueda\@remote:~$ echo '*****************************************************************' |
  grep -o . | awk '{r=int(rand()*10);if(r<1){print}else{printf($1)}}' |
- sed '1~2n;s/./&amp;\\n/g' | awk 'NF' |
- awk '{for(i=0;i<a;i++){printf(&quot; &quot;)}print}length($1)&gt;1{a+=length($1)-1}'
+ sed '1~2n;s/./&\\n/g' | awk 'NF' |
+ awk '{for(i=0;i<a;i++){printf(" ")}print}length($1)>1{a+=length($1)-1}'
 ************************
  *
  *

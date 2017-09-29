@@ -17,8 +17,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 ```bash
 uedamb:~ ueda$ ifconfig
 ...
-bridge100: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST&gt; mtu 1500
-	options=23<RXCSUM,TXCSUM,TSO4&gt;
+bridge100: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=23<RXCSUM,TXCSUM,TSO4>
 	ether aa:66:7f:f0:af:64 
 	inet 192.168.3.1 netmask 0xffffff00 broadcast 192.168.3.255
 ...

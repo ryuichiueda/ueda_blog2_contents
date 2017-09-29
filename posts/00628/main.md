@@ -28,19 +28,19 @@ delfが便利かどうかはおいておいて、String版（delf.normal）とBy
 
 ```bash
 ###python版###
-bsd /home/ueda/tmp$ time head -n 100000 ~/TESTDATA | delf 2 &gt; /dev/null
+bsd /home/ueda/tmp$ time head -n 100000 ~/TESTDATA | delf 2 > /dev/null
 
 real	0m3.804s
 user	0m3.814s
 sys	0m0.031s
 ###string版###
-bsd /home/ueda/tmp$ time head -n 100000 ~/TESTDATA | ./delf.normal 2 &gt; /dev/null
+bsd /home/ueda/tmp$ time head -n 100000 ~/TESTDATA | ./delf.normal 2 > /dev/null
 
 real	0m1.661s
 user	0m1.627s
 sys	0m0.079s
 ###ByteString版###
-bsd /home/ueda/tmp$ time head -n 100000 ~/TESTDATA | ./delf.bs 2 &gt; /dev/null
+bsd /home/ueda/tmp$ time head -n 100000 ~/TESTDATA | ./delf.bs 2 > /dev/null
 
 real	0m0.773s
 user	0m0.741s
@@ -55,19 +55,19 @@ sys	0m0.083s
 [usp\@demo1 ueda]$ uname -a
 Linux demo1 2.6.18-308.8.1.el5 #1 SMP Tue May 29 14:57:25 EDT 2012 x86_64 x86_64 x86_64 GNU/Linux
 ###有償ビジネス版###
-[usp\@demo1 ueda]$ time head -n 1000000 TESTDATA | delf 2 &gt; /dev/null
+[usp\@demo1 ueda]$ time head -n 1000000 TESTDATA | delf 2 > /dev/null
 
 real	0m0.448s
 user	0m0.482s
 sys	0m0.085s
 ###String版###
-[usp\@demo1 ueda]$ time head -n 1000000 TESTDATA | ./delf.normal 2 &gt; /dev/null
+[usp\@demo1 ueda]$ time head -n 1000000 TESTDATA | ./delf.normal 2 > /dev/null
 
 real	0m5.465s
 user	0m5.476s
 sys	0m0.096s
 ###ByteString版###
-[usp\@demo1 ueda]$ time head -n 1000000 TESTDATA | ./delf.bs 2 &gt; /dev/null
+[usp\@demo1 ueda]$ time head -n 1000000 TESTDATA | ./delf.bs 2 > /dev/null
 
 real	0m13.397s
 user	0m13.406s

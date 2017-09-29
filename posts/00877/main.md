@@ -17,14 +17,14 @@ Copyright: (C) 2017 Ryuichi Ueda
 uedamac:PMAT ueda$ cat data 
 A 0 1
 A 1 0
-uedamac:PMAT ueda$ cat data | ./pmat &quot;B=A*2&quot; | ./pmat &quot;C=B+2*A+A*A*A&quot;
+uedamac:PMAT ueda$ cat data | ./pmat "B=A*2" | ./pmat "C=B+2*A+A*A*A"
 A 0 1
 A 1 0
 B 0.0 2.0
 B 2.0 0.0
 C 0.0 5.0
 C 5.0 0.0
-uedamac:PMAT ueda$ cat data | ./pmat &quot;B=A*2&quot; | ./pmat &quot;C=B+2*A*A+A*A*A&quot;
+uedamac:PMAT ueda$ cat data | ./pmat "B=A*2" | ./pmat "C=B+2*A*A+A*A*A"
 A 0 1
 A 1 0
 B 0.0 2.0

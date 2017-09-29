@@ -23,22 +23,22 @@ file size = '{
 }'
 
 find './results/'
-&gt;&gt;= grep 'comp_'
-&gt;&gt;= xargs 'grep' -H ''
-&gt;&gt;= tr ':_' ' '
-&gt;&gt;= self '2/6' 'NF' 8
-&gt;&gt;= awk '$6~/suc|bro|tim/'
+>>= grep 'comp_'
+>>= xargs 'grep' -H ''
+>>= tr ':_' ' '
+>>= self '2/6' 'NF' 8
+>>= awk '$6~/suc|bro|tim/'
 #18 1 144 1 32 success 24.88
-&gt;&gt;= grep -v 'success 0$'
-&gt;&gt;= awk '{if($6==&quot;broken&quot;){$7=100};print}'
-&gt;&gt;= sm2 '+count' 1 5 7 7
+>>= grep -v 'success 0$'
+>>= awk '{if($6=="broken"){$7=100};print}'
+>>= sm2 '+count' 1 5 7 7
 #18 1 144 1 32 100 24.88
-&gt;&gt;= sort
-&gt;&gt;= sm2 1 5 6 7
-&gt;&gt;= awk -f size
+>>= sort
+>>= sm2 1 5 6 7
+>>= awk -f size
 #274752 18 36 1 1 32 14167 193095.34
-&gt;&gt;= awk '{avg = $8/$7;print $1,$2,$3,$4,$5,$6,avg}'
-&gt;&gt;= sort '-k1,1n'
+>>= awk '{avg = $8/$7;print $1,$2,$3,$4,$5,$6,avg}'
+>>= sort '-k1,1n'
 ```
 
 全部パイプなのでbashとたいして変わらんと言えば変わらんのですが、<span style="color:red;font-size:36px">自分の作った言語で実験のコード書くの楽しい</span>という自己満足に浸ることができました。
@@ -58,16 +58,16 @@ import PATH
 
 proc hoge =
 	# eachlineで受け取った引数の1番目をhogeとともにひっくり返す
-	file f = echo 'hoge' argv[1] &gt;&gt;= rev
+	file f = echo 'hoge' argv[1] >>= rev
 	# 二番目の引数をファイル名にして中間ファイルfをカレントディレクトリにmv
 	mv f argv[2]
 	
 
 seq 1 10
-&gt;&gt;= xargs -n 2
+>>= xargs -n 2
 
 # 1 2 \\n 3 4 \\n ...
-&gt;&gt;= eachline this.hoge
+>>= eachline this.hoge
 ```
 
 動かしてみます。

@@ -50,11 +50,11 @@ ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ sudo chmod 0666 /dev/baibai
 ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ sudo insmod ./baibai.ko
 ###使ってみる###
 ###入力###
-ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ echo 12345 &gt; /dev/baibai 
+ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ echo 12345 > /dev/baibai 
 ###出力###
 ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ cat /dev/baibai 
 24690
-ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ echo abc &gt; /dev/baibai 
+ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ echo abc > /dev/baibai 
 ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ cat /dev/baibai 
 0
 ###後始末（慎重に）make uninstallでもできます###

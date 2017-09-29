@@ -93,7 +93,7 @@ $ cat data
 
 ```bash
 $ cat data
-{&quot;a&quot;:[1,2,3],&quot;b&quot;:[4,5]}
+{"a":[1,2,3],"b":[4,5]}
 ```
 
 

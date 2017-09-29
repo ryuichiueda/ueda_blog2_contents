@@ -23,10 +23,10 @@ Macな人はbrewでGNU grep（ggrep）をインストールすると良かれ悪
 次のようにファイルを作ります。
 
 ```bash
-$ seq 2 5 &gt; a
-$ seq 1 9 &gt; b
-$ seq 5 11 &gt; c
-$ seq 3 6 &gt; d
+$ seq 2 5 > a
+$ seq 1 9 > b
+$ seq 5 11 > c
+$ seq 3 6 > d
 ```
 
 1という文字を含まないファイルを列挙してください（aとdですね）。
@@ -67,12 +67,12 @@ $ seq 1 10000 | xargs -I\@ touch file.\@
 <h1>解答</h1>
 
 ```bash
-$ ls -f | grep -v &quot;file\\..$&quot; | grep -v &quot;file\\..0$&quot; | grep -v &quot;file\\..*00$&quot; | xargs rm
+$ ls -f | grep -v "file\\..$" | grep -v "file\\..0$" | grep -v "file\\..*00$" | xargs rm
 rm: cannot remove ‘.’: Is a directory
 rm: cannot remove ‘..’: Is a directory
 ###こんな書き方も###
 $ ls -f | 
-grep -v -e &quot;file\\..$&quot; -e &quot;file\\..0$&quot; -e &quot;file\\..*00$&quot; |
+grep -v -e "file\\..$" -e "file\\..0$" -e "file\\..*00$" |
 xargs rm
 rm: cannot remove ‘.’: Is a directory
 rm: cannot remove ‘..’: Is a directory
@@ -106,9 +106,9 @@ file.2200 file.3900 file.5300 file.7 file.8400
 
 ```bash
 $ cat text1 
-awk -v v=&quot;hoge&quot; 'BEGIN{print v}'
+awk -v v="hoge" 'BEGIN{print v}'
 echo 'BEGIN{print 1}' | gawk -f -
-nawk 'BEGIN{print &quot; BEGIN{print x}&quot;}' | awk -v x=3 -f -
+nawk 'BEGIN{print " BEGIN{print x}"}' | awk -v x=3 -f -
 ```
 
 <h1>解答</h1>
@@ -120,12 +120,12 @@ c- 2 -f
  2 -v
  2 awk
 ###最小手順（と思われる方法）###
-$ grep -wEo &quot;(-[a-z]|awk)&quot; text1 | sort | uniq 
+$ grep -wEo "(-[a-z]|awk)" text1 | sort | uniq 
 c- 2 -f
  2 -v
  2 awk
 ###拡張正規表現を使わない###
-$ grep -wo -e &quot;-[a-z]&quot; -e &quot;awk&quot; text1 | sort | uniq 
+$ grep -wo -e "-[a-z]" -e "awk" text1 | sort | uniq 
 c- 2 -f
  2 -v
  2 awk
@@ -158,7 +158,7 @@ A pen is a pen?
 日本語でおk
 ΩΩπ<Ω< na nandatte!!
 Randy W. Bass
-env x='() { :;}; echo vulnerable' bash -c &quot;echo this is a test&quot;
+env x='() { :;}; echo vulnerable' bash -c "echo this is a test"
 #危険シェル芸
 ```
 
@@ -167,7 +167,7 @@ env x='() { :;}; echo vulnerable' bash -c &quot;echo this is a test&quot;
 別解求む。
 
 ```bash
-$ LANG=C grep &quot;^[[:print:]]*$&quot; text2
+$ LANG=C grep "^[[:print:]]*$" text2
 ```
 
 
@@ -176,9 +176,9 @@ $ LANG=C grep &quot;^[[:print:]]*$&quot; text2
 次のようにファイルa, b, cを作ります。
 
 ```bash
-$ echo 1 2 3 4 &gt; a
-$ echo 2 3 4 5 &gt; b
-$ echo 1 4 5 &gt; c
+$ echo 1 2 3 4 > a
+$ echo 2 3 4 5 > b
+$ echo 1 4 5 > c
 ```
 
 ファイルの中の数字を足して10になるファイルを挙げてください。
@@ -187,12 +187,12 @@ $ echo 1 4 5 &gt; c
 
 ```bash
 ###grepを使わなくてもいけますが・・・###
-$ for i in a b c ; do [ 10 -eq $(numsum -r $i) ] &amp;&amp; echo $i ; done
+$ for i in a b c ; do [ 10 -eq $(numsum -r $i) ] && echo $i ; done
 ###grepでリストを作る###
-$ grep &quot;&quot; * | tr ':' ' ' | 
-awk '{for(i=2;i<=NF;i++){a+=$i};print $1,a;a=0}' | grep &quot; 10$&quot;
+$ grep "" * | tr ':' ' ' | 
+awk '{for(i=2;i<=NF;i++){a+=$i};print $1,a;a=0}' | grep " 10$"
 ###Tukubaiを利用###
-$ grep &quot;&quot; * | tr ':' ' ' | ysum num=1 | grep &quot; 10$&quot;
+$ grep "" * | tr ':' ' ' | ysum num=1 | grep " 10$"
 ```
 
 <h1>Q7</h1>
@@ -204,9 +204,9 @@ psコマンドを打って（オプションは任意）、そのpsコマンド�
 すごくいい加減な気がしないでもありませんが・・・
 
 ```bash
-$ ps -eo ppid,pid,command &gt; f ; grep &quot;ps -eo&quot; f | grep -v grep |
- awk '{print &quot; &quot;$1&quot; &quot;;print &quot; &quot;$2&quot; &quot;}' | grep -f - f |
- awk '{print &quot; &quot;$1&quot; &quot;;print &quot; &quot;$2&quot; &quot;}' | grep -f - f
+$ ps -eo ppid,pid,command > f ; grep "ps -eo" f | grep -v grep |
+ awk '{print " "$1" ";print " "$2" "}' | grep -f - f |
+ awk '{print " "$1" ";print " "$2" "}' | grep -f - f
  5696 5767 sshd: ueda\@pts/6 
  5767 5768 -bash
  5768 8806 ps -eo ppid,pid,command

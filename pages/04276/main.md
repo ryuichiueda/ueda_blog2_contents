@@ -16,7 +16,7 @@ Copyright: (C) Ryuichi Ueda
  * Copyright (c) 1991, 1993
  *	The Regents of the University of California. All rights reserved.
  * Copyright (c) 1997-2005
- *	Herbert Xu <herbert\@gondor.apana.org.au&gt;. All rights reserved.
+ *	Herbert Xu <herbert\@gondor.apana.org.au>. All rights reserved.
  *
  * This code is derived from software contributed to Berkeley by
  * Kenneth Almquist.
@@ -50,8 +50,8 @@ Copyright: (C) Ryuichi Ueda
 
 /*
  * The follow should be set to reflect the type of system you have:
- *	JOBS -&gt; 1 if you have Berkeley job control, 0 otherwise.
- *	SHORTNAMES -&gt; 1 if your linker cannot handle long names.
+ *	JOBS -> 1 if you have Berkeley job control, 0 otherwise.
+ *	SHORTNAMES -> 1 if your linker cannot handle long names.
  *	define BSD if you are running 4.2 BSD or later.
  *	define SYSV if you are running under System V.
  *	define DEBUG=1 to compile in debugging ('set -o debug' to turn on)
@@ -63,7 +63,7 @@ Copyright: (C) Ryuichi Ueda
  * a quit signal will generate a core dump.
  */
 
-#include <sys/param.h&gt;
+#include <sys/param.h>
 
 /* ↓JOBSとBSDはmakeのときに変わるのかなあ？
 とか思ってLinuxでもmakeしてみたけど変わりませんでした。 */
@@ -77,7 +77,7 @@ Copyright: (C) Ryuichi Ueda
 /* ↓C++屋でほとんどマクロ使わないから分からんが、
 インデントはしないのだろうか？できないんだっけか？ */
 #ifndef DO_SHAREDVFORK
-#if __NetBSD_Version__ &gt;= 104000000
+#if __NetBSD_Version__ >= 104000000
 #define DO_SHAREDVFORK
 #endif
 #endif
@@ -118,13 +118,13 @@ trace paramとコマンドみたいになっているが、
 #endif
 
 /* ↓可変長の引数を扱うためにva_*というマクロがあるらしい。*/
-#if defined(__GNUC__) &amp;&amp; __GNUC__ < 3
+#if defined(__GNUC__) && __GNUC__ < 3
 #define va_copy __va_copy
 #endif
 
 /* ↓分岐予測のためのものだそうです。expected_valueに
 xがとる確率が高い値を入れておくと速くなる。へえ。 */
-#if !defined(__GNUC__) || (__GNUC__ == 2 &amp;&amp; __GNUC_MINOR__ < 96)
+#if !defined(__GNUC__) || (__GNUC__ == 2 && __GNUC_MINOR__ < 96)
 #define __builtin_expect(x, expected_value) (x)
 #endif
 

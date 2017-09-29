@@ -18,7 +18,7 @@ B -1
 B 1
 B 1
 C 2 3
-ueda\@ubuntuX201:~/GIT/PMAT$ cat data | ./pmat &quot;D=A*B*C*A&quot;
+ueda\@ubuntuX201:~/GIT/PMAT$ cat data | ./pmat "D=A*B*C*A"
 A 1 2 3
 A 1 2 3
 B -1
@@ -27,7 +27,7 @@ B 1
 C 2 3
 D 20.0 40.0 60.0
 D 20.0 40.0 60.0
-ueda\@ubuntuX201:~/GIT/PMAT$ cat data | ./pmat &quot;D=2*A*B*C*A&quot;
+ueda\@ubuntuX201:~/GIT/PMAT$ cat data | ./pmat "D=2*A*B*C*A"
 A 1 2 3
 A 1 2 3
 B -1
@@ -36,7 +36,7 @@ B 1
 C 2 3
 D 40.0 80.0 120.0
 D 40.0 80.0 120.0
-ueda\@ubuntuX201:~/GIT/PMAT$ cat data | ./pmat &quot;D=A*B*C*A&quot; | ./pmat &quot;E=2*D&quot;
+ueda\@ubuntuX201:~/GIT/PMAT$ cat data | ./pmat "D=A*B*C*A" | ./pmat "E=2*D"
 A 1 2 3
 A 1 2 3
 B -1

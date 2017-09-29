@@ -159,13 +159,13 @@ $ cat c
 どうやってファイル名と値の2列のデータにするかが鍵。
 
 ```bash
-$ grep -o &quot;[0-9]*&quot; * |
+$ grep -o "[0-9]*" * |
 awk -F: '{x[$1]+=$2}END{for(k in x){print k,x[k]}}'
 a 15
 b 6
 c 24
 ###Tukubaiを使うと楽。###
-$ grep -o &quot;[0-9]*&quot; * | tr : ' ' | sm2 1 1 2 2
+$ grep -o "[0-9]*" * | tr : ' ' | sm2 1 1 2 2
 a 15
 b 6
 c 24
@@ -200,12 +200,12 @@ f-d
 ベタにAWKを使うか、Tukubaiを使うか。
 
 ```bash
-$ sed 's/./&amp; /g' cross |
-awk 'NR==1{split($0,a,&quot; &quot;)}
-/x/{for(i=1;i<=7;i++){if($i==&quot;x&quot;){print $1 &quot;-&quot; a[i]}}}'
+$ sed 's/./& /g' cross |
+awk 'NR==1{split($0,a," ")}
+/x/{for(i=1;i<=7;i++){if($i=="x"){print $1 "-" a[i]}}}'
 ###Tukubai使用###
-$ sed 's/./&amp; /g' cross | unmap num=1 |
-awk '/x/{print $1 &quot;-&quot; $2}'
+$ sed 's/./& /g' cross | unmap num=1 |
+awk '/x/{print $1 "-" $2}'
 
 ```
 
@@ -271,10 +271,10 @@ PGM形式で画像を作るのが一番簡単です。
 
 ```bash
 $ yes '0 1 0 1 0 1 0 1' |
-head -n 8 | sed '1~2s/0 1/1 0/g' | cat <(echo &quot;P2 8 8 1&quot;) - &gt; a.pgm
+head -n 8 | sed '1~2s/0 1/1 0/g' | cat <(echo "P2 8 8 1") - > a.pgm
 ###AWKを使う場合###
 $ seq 1 64 | awk '{print ($1 + int((NR-1)/8))%2}' |
-xargs -n 8 | awk 'BEGIN{print &quot;P2&quot;,8,8,1}{print}' &gt; a.pgm
+xargs -n 8 | awk 'BEGIN{print "P2",8,8,1}{print}' > a.pgm
 ```
 
 pgmが見れない。あるいは8x8ピクセルだとヤダという場合はImageMagickで変換を。

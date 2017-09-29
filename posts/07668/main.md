@@ -44,7 +44,7 @@ $ yo hubot
  | //| +===+ 
  \\// |xx| 
 
-? Owner Ryuichi UEDA <aho\@gmail.com&gt;
+? Owner Ryuichi UEDA <aho\@gmail.com>
 ? Bot name github
 ? Description A simple notifier for GitHub wiki
 ? Bot adapter (campfire) slack
@@ -84,7 +84,7 @@ HUBOT_GITHUB_SECRETは、GitHubの連携したいリポジトリのWebhookの設
 
 私は次のような感じで作りました。
 ```bash
-$ cat /etc/* | md5sum 2&gt; /dev/null
+$ cat /etc/* | md5sum 2> /dev/null
 b720a34fb302c401e5146cefe1ae656d -
 ```
 

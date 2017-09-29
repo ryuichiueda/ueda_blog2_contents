@@ -69,9 +69,9 @@ ueda\@raspberrypi ~ $ curl inet-ip.info
 ueda\@raspberrypi ~ $ cat ~/SYS/SENDIP 
 #!/bin/bash -vx
 
-exec 2&gt; /tmp/SENDIP.log
+exec 2> /tmp/SENDIP.log
 
-curl inet-ip.info | ssh test.example.com 'cat - &gt; /tmp/homeip'
+curl inet-ip.info | ssh test.example.com 'cat - > /tmp/homeip'
 ```
 
 で、これをcrontabにしかけます。
@@ -109,7 +109,7 @@ uedamb:~ ueda$ cat ~/SYS/HOMEIP
 
 IP=$(ssh test.example.com 'cat /tmp/homeip')
 
-sed -i.bak &quot;/Host home/,/HostName/s/ HostName.*/ HostName $IP/&quot; ~/.ssh/config
+sed -i.bak "/Host home/,/HostName/s/ HostName.*/ HostName $IP/" ~/.ssh/config
 ```
 
 なかなか一発でバグなくsedの文を書くのは大変ですが、うまくいったら、.ssh/configが次のように書き換わります。

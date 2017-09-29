@@ -20,7 +20,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ```cpp
 #そーす
 uedambp:tmp ueda$ cat hoge.cc 
-#include <iostream&gt;
+#include <iostream>
 using namespace std;
 
 int main(int argc, char const* argv[])
@@ -30,7 +30,7 @@ int main(int argc, char const* argv[])
 
 	//doubleとintのかけ算
 	auto x = v*n;
-	cout << &quot;型:&quot; << typeid(x).name() << &quot; 値:&quot; << x << endl;
+	cout << "型:" << typeid(x).name() << " 値:" << x << endl;
 
 	return 0;
 }
@@ -52,17 +52,17 @@ uedambp:tmp ueda$ ./hoge
 ```cpp
 int main(int argc, char const* argv[])
 {
-	vector<string&gt; str;
-	str.push_back(&quot;abc&quot;);
-	str.push_back(&quot;あいう&quot;);
-	str.push_back(&quot;!?*&quot;);
+	vector<string> str;
+	str.push_back("abc");
+	str.push_back("あいう");
+	str.push_back("!?*");
 
 	//こう書ける
 	for(auto i=str.begin();i<str.end();i++)
 		cout << *i << endl;
 
 	//昔の書き方（STLの便利さが90%減）
-	for(vector<string&gt;::iterator i=str.begin();i<str.end();i++)
+	for(vector<string>::iterator i=str.begin();i<str.end();i++)
 		cout << *i << endl;
 }
 ```
@@ -77,23 +77,23 @@ STLを使えばポインタやデストラクタでいろいろ悩むことも�
 
 ```cpp
 ueda\@ubuntu:~$ cat multi.cc 
-#include <iostream&gt;
-#include <thread&gt;
+#include <iostream>
+#include <thread>
 using namespace std;
 
 void tfunc(string name)
 {
 	int num = 0;
 	for(int i=0;i<10000000;i++){//ひたすら足し算
-		fprintf(stdout,&quot;\\n%s: %d&quot;,name.c_str(),num++);
+		fprintf(stdout,"\\n%s: %d",name.c_str(),num++);
 	}
 }
 
 int main(int argc, char const* argv[])
 {
-	thread th1(tfunc,&quot;th1&quot;);//実行したい関数と、その関数に渡したい引数を指定
-	thread th2(tfunc,&quot;th2&quot;);
-	thread th3(tfunc,&quot;th3&quot;);
+	thread th1(tfunc,"th1");//実行したい関数と、その関数に渡したい引数を指定
+	thread th2(tfunc,"th2");
+	thread th3(tfunc,"th3");
 
 	th1.join();//これで終わるのを待つ
 	th2.join();
@@ -124,7 +124,7 @@ th3: 2609
 ちなみに時間はこんなもん。30000000回の足し算と標準出力への吐き出しですが、なんかもうちょっと速いような気もしないでもありません。もし何かヘマをしていたら教えていただきたく。CPUの周波数は2.5GHzです。
 
 ```cpp
-ueda\@ubuntu:~$ time ./multi &gt; /dev/null
+ueda\@ubuntu:~$ time ./multi > /dev/null
 
 real	0m24.254s
 user	0m34.824s

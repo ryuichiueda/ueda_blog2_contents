@@ -26,10 +26,10 @@ import System.Environment
 import System.IO
 
 main :: IO ()
-main = do BS.getContents &amp;gt;&amp;gt;= putBSLines
+main = do BS.getContents >>= putBSLines
 
 --UTF-8の出力のお約束
-putBSLines :: BS.ByteString -&amp;gt; IO ()
+putBSLines :: BS.ByteString -> IO ()
 putBSLines = putStr . CBUS.decodeString . BS.unpack
 ```
 
@@ -50,12 +50,12 @@ cat.hs:2:8:
 ```bash
 ### brew install ghc は終わっている。
 $ brew install haskell-platform
-==&amp;gt; Downloading http://lambda.haskell.org/platform/download/2012.4.0.0/haskell-p
+==> Downloading http://lambda.haskell.org/platform/download/2012.4.0.0/haskell-p
 ######################################################################## 100.0%
-==&amp;gt; ./configure --prefix=/usr/local/Cellar/haskell-platform/2012.4.0.0 --enable-
-==&amp;gt; make install
+==> ./configure --prefix=/usr/local/Cellar/haskell-platform/2012.4.0.0 --enable-
+==> make install
 ### 注：すげー時間がかかる。
-==&amp;gt; Caveats
+==> Caveats
 Run `cabal update` to initialize the package list.
 
 If you are replacing a previous version of haskell-platform, you may want
@@ -64,7 +64,7 @@ packages using:
  ghc-pkg check --simple-output
 You can uninstall them using:
  ghc-pkg check --simple-output | xargs -n 1 ghc-pkg unregister --force
-==&amp;gt; Summary
+==> Summary
 uedamac:~ ueda$ cabal update
 ### 注：またすげー時間がかかる。
 ### おや、夕食ができたようだ・・・。早く席につかないとシバかれる・・・
@@ -107,10 +107,10 @@ import System.Environment
 import System.IO
 
 main :: IO ()
-main = do BS.getContents &amp;gt;&amp;gt;= putBSLines
+main = do BS.getContents >>= putBSLines
 
 --UTF-8の出力のお約束
-putBSLines :: BS.ByteString -&amp;gt; IO ()
+putBSLines :: BS.ByteString -> IO ()
 putBSLines = putStr . CBUS.decodeString . BS.unpack
 ```
 
@@ -131,12 +131,12 @@ cat.hs:2:8:
 ```bash
 ### brew install ghc は終わっている。
 $ brew install haskell-platform
-==&amp;gt; Downloading http://lambda.haskell.org/platform/download/2012.4.0.0/haskell-p
+==> Downloading http://lambda.haskell.org/platform/download/2012.4.0.0/haskell-p
 ######################################################################## 100.0%
-==&amp;gt; ./configure --prefix=/usr/local/Cellar/haskell-platform/2012.4.0.0 --enable-
-==&amp;gt; make install
+==> ./configure --prefix=/usr/local/Cellar/haskell-platform/2012.4.0.0 --enable-
+==> make install
 ### 注：すげー時間がかかる。
-==&amp;gt; Caveats
+==> Caveats
 Run `cabal update` to initialize the package list.
 
 If you are replacing a previous version of haskell-platform, you may want
@@ -145,7 +145,7 @@ packages using:
  ghc-pkg check --simple-output
 You can uninstall them using:
  ghc-pkg check --simple-output | xargs -n 1 ghc-pkg unregister --force
-==&amp;gt; Summary
+==> Summary
 uedamac:~ ueda$ cabal update
 ### 注：またすげー時間がかかる。
 ### おや、夕食ができたようだ・・・。早く席につかないとシバかれる・・・

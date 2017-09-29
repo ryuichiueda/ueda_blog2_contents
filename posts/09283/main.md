@@ -77,7 +77,7 @@ $ seq 1 10 | sed '3h;3d;7G'
 
 ```bash
 $ cat aho.cc 
-#include <iostream&gt;
+#include <iostream>
 using namespace std;
 
 int main(int argc, char const* argv[])
@@ -88,7 +88,7 @@ int main(int argc, char const* argv[])
 
 void aho(void)
 {
-	cout << &quot;aho&quot; << endl;
+	cout << "aho" << endl;
 }
 ```
 
@@ -97,13 +97,13 @@ mainの部分をホールドスペースに入れる→消す→ファイルの�
 
 ```bash
 $ cat aho.cc | sed '/int/,/}/H;/int/,/}/d;$G'
-#include <iostream&gt;
+#include <iostream>
 using namespace std;
 
 
 void aho(void)
 {
-	cout << &quot;aho&quot; << endl;
+	cout << "aho" << endl;
 }
 
 int main(int argc, char const* argv[])
@@ -117,7 +117,7 @@ $ cat aho.cc | sed '/int/,/}/{H;d};$G'
 $ cat aho.cc | sed '/ main(/,/^}/{H;d};$G'
 ###そのままコンパイルして実行###
 $ cat aho.cc | sed '/int/,/}/H;/int/,/}/d;$G' |
- g++ -x c++ - &amp;&amp; ./a.out
+ g++ -x c++ - && ./a.out
 aho
 ```
 
@@ -173,7 +173,7 @@ echo 1から始めて次のような出力を作ってください。
 ラベルを使います。
 
 ```bash
-$ echo 1 | sed ':LOOP p;s/./&amp;&amp;/;b LOOP' | head
+$ echo 1 | sed ':LOOP p;s/./&&/;b LOOP' | head
 1
 11
 111
@@ -185,7 +185,7 @@ $ echo 1 | sed ':LOOP p;s/./&amp;&amp;/;b LOOP' | head
 111111111
 1111111111
 ###分岐を使う###
-$ echo 1 | sed ':LOOP p;s/./&amp;&amp;/;/1\\{10\\}/!b LOOP'
+$ echo 1 | sed ':LOOP p;s/./&&/;/1\\{10\\}/!b LOOP'
 ```
 
 <h2>Q7</h2>
@@ -199,16 +199,16 @@ aというファイルをtouch等で作り、次の縛りでa1, a2, a3, ..., a10
 ```bash
 ###縛り1###
 $ touch a
-$ seq 1 10 | sed 's/./cp a a&amp;/e'
+$ seq 1 10 | sed 's/./cp a a&/e'
 $ ls a a? a10
 a a1 a10 a2 a3 a4 a5 a6 a7 a8 a9
 ###縛り2###
-$ yes | sed -n '=' | head | sed 's/./cp a a&amp;/e'
+$ yes | sed -n '=' | head | sed 's/./cp a a&/e'
 ###両方###
-$ sed ':a ;p;s/./&amp;&amp;/;/........../!b a' <<< y |
+$ sed ':a ;p;s/./&&/;/........../!b a' <<< y |
  sed -n = | sed 's/^/cp a a/e'
 ###（おまけ）ファイルaをsedで作る###
-$ sed 'w a' <<< &quot;abc&quot;
+$ sed 'w a' <<< "abc"
 abc
 $ cat a
 abc
@@ -233,7 +233,7 @@ echo 1 | から始めて、あとはsedだけで次のような出力を得て�
 <h3>解答</h3>
 
 ```bash
-$ echo 1 | sed ':LOOP p;s/./&amp;&amp;/;/1\\{5\\}/!b LOOP' | sed 'p;1!G;h;$!d'
+$ echo 1 | sed ':LOOP p;s/./&&/;/1\\{5\\}/!b LOOP' | sed 'p;1!G;h;$!d'
 1
 11
 111

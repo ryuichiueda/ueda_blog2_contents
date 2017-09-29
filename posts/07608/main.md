@@ -121,7 +121,7 @@ $ cat anydata.cp932 | fold -b35 | nkf -wLux
 00000006ﾊﾞﾐｭｰﾀﾞﾒﾝｾﾞｲｷﾞﾝｺｳ1234130981
 
 ###1行の長さを調べるときは仕様書を見るか、規則性を見つけて折り返して長さを調べる###
-$ cat anydata.cp932 | sed 's/[0-9]\\{10\\}/&amp;\\n/g' |
+$ cat anydata.cp932 | sed 's/[0-9]\\{10\\}/&\\n/g' |
  LANG=C awk '{print length($0)}'
 35
 35
@@ -143,7 +143,7 @@ $ cat anydata.cp932 | sed 's/[0-9]\\{10\\}/&amp;\\n/g' |
 GNU dateの-fを使うと楽です。
 
 ```bash
-$ seq 20160101 20161231 | date -f - 2&gt; /dev/null | grep 日曜日
+$ seq 20160101 20161231 | date -f - 2> /dev/null | grep 日曜日
 2016年 1月 3日 日曜日 00:00:00 JST
 2016年 1月 10日 日曜日 00:00:00 JST
 2016年 1月 17日 日曜日 00:00:00 JST
@@ -238,7 +238,7 @@ UTF-8
 $ xxd -ps a.bash 
 efbbbf23212f62696e2f626173680a0a6563686f2048656c6c0a
 ###ただし、見なくてもnkfで除去できる。###
-$ nkf -wLux a.bash &gt; a
+$ nkf -wLux a.bash > a
 $ chmod +x a
 $ ./a
 Hell
@@ -251,7 +251,7 @@ $ iconv -c -f utf-8 -t ascii b.bash | diff - b.bash
 3c3
 < ls /
 ---
-&gt; ls ˜/
+> ls ˜/
 ```
 
 
@@ -270,9 +270,9 @@ a+h{5}(ho){10}[0-9]+
 ゴリゴリです。
 
 ```bash
-$ cat extended | sed 's/[+}]/&amp;\\n/g' | sed 's/\\(.*\\)+/\\1\\1*/' |
+$ cat extended | sed 's/[+}]/&\\n/g' | sed 's/\\(.*\\)+/\\1\\1*/' |
  tr '{}()' ' ' |
- awk 'NF==2{for(i=1;i<=$2;i++){printf $1};print &quot;&quot;}NF==1' |
+ awk 'NF==2{for(i=1;i<=$2;i++){printf $1};print ""}NF==1' |
  tr -d '\\n' | xargs
 aa*hhhhhhohohohohohohohohoho[0-9][0-9]*
 ```
@@ -308,11 +308,11 @@ GitHubのvol.21/Q8にある1350369599.Vfc03I4682c8M940114.remoteから添付フ�
 $ grep -n -C 1 -- -- 1350369599.Vfc03I4682c8M940114.remote 
 （略）
 59:--047d7b621ee6cf83c604cc276bb3
-60-Content-Type: image/jpeg; name=&quot;CHINJYU.JPG&quot;
+60-Content-Type: image/jpeg; name="CHINJYU.JPG"
 --
 665-0000000000000000000000000000001//9k=
 666:--047d7b621ee6cf83c604cc276bb3
-667-Content-Type: image/jpeg; name=&quot;IMG_0965.JPG&quot;
+667-Content-Type: image/jpeg; name="IMG_0965.JPG"
 --
 77341-xk9On61jS6VNFJqFxdoIZYbWK6QALsnJbBjHYcc4GT2IHJrGhUevkZ1MNypPuf/Z
 77342:--047d7b621ee6cf83c604cc276bb3--
@@ -323,7 +323,7 @@ $ grep -n -C 1 -- -- 1350369599.Vfc03I4682c8M940114.remote
 ```bash
 ###出力の範囲を見ながらデータを切り出す###
 $ sed -n '60,665p' 1350369599.Vfc03I4682c8M940114.remote |
- sed -n '6,$p' | base64 -d &gt; a.jpg
+ sed -n '6,$p' | base64 -d > a.jpg
 ###ImageMagickのidentifyコマンドでちゃんと画像になっているか確認###
 ueda\@remote:~/GIT/ShellGeiData/vol.21/Q5$ identify a.jpg 
 a.jpg JPEG 261x261 261x261+0+0 8-bit DirectClass 34.2KB 0.010u 0:00.019

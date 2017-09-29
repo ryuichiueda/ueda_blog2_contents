@@ -44,8 +44,8 @@ uedambp:rumin ueda$ rake
 
 ```bash
 Command failed with status (1): [clang -Iruntime/include src/rumin.c runtim...]
-/Users/ueda/GIT/rumin/Rakefile:29:in `block in <top (required)&gt;'
-Tasks: TOP =&gt; default =&gt; build =&gt; rumin
+/Users/ueda/GIT/rumin/Rakefile:29:in `block in <top (required)>'
+Tasks: TOP => default => build => rumin
 (See full trace by running task with --trace)
 ```
 
@@ -98,8 +98,8 @@ ueda\@remote:~/rumin$ rake
 fatal: destination path 'runtime' already exists and is not an empty directory.
 rake aborted!
 Command failed with status (128): [git clone https://github.com/mruby/mruby.g...]
-/home/ueda/rumin/Rakefile:10:in `block in <top (required)&gt;'
-Tasks: TOP =&gt; default =&gt; mruby
+/home/ueda/rumin/Rakefile:10:in `block in <top (required)>'
+Tasks: TOP => default => mruby
 (See full trace by running task with --trace)
 ```
 
@@ -121,10 +121,10 @@ import /bin/ as b
 ###procに処理を書くと子供のプロセスで動く###
 proc turn90 =
  import /usr/bin/ as ub
- ub.rev &gt;&gt;= ub.grep -o '.' #-oにクォート不要
+ ub.rev >>= ub.grep -o '.' #-oにクォート不要
 
 ###インデントの終わりがprocの終わり###
-b.echo 'ウコンの力' &gt;&gt;= this.turn90
+b.echo 'ウコンの力' >>= this.turn90
 ```
 
 procについては、proc <名前> = の後ろにインデントつきで処理を書くと、インデントを取り去って中間ファイルに保存し、別のglueを立ち上げてそいつにファイルを渡して処理させるという、超手抜きな実装になってます。外から突っつかれたら弱いのですが、ある意味UNIXらしい潔さがあるとも言え。proc宣言の次の行のインデントの数をオフサイドラインにしています。
@@ -157,8 +157,8 @@ uedambp:GlueLang ueda$ ./glue hoge.glue う こ ん
 uedambp:GlueLang ueda$ cat hoge.glue 
 import /bin/ as b
 
-###echoを「&gt;&gt;」でつなぐ###
-str mojiretu = b.echo 'お前は' &gt;&gt; b.echo 'もう' &gt;&gt; b.echo 'すでに' &gt;&gt; b.echo '死んでいる'
+###echoを「>>」でつなぐ###
+str mojiretu = b.echo 'お前は' >> b.echo 'もう' >> b.echo 'すでに' >> b.echo '死んでいる'
 
 b.echo mojiretu
 ###実行###

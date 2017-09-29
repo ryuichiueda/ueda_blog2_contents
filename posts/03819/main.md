@@ -39,8 +39,8 @@ import Shelly
 import Data.Text hiding (map)
 
 main = shelly $ do run echo args
- where echo = (fromText . pack) &quot;echo&quot;
- args = map pack [&quot;aho&quot;]
+ where echo = (fromText . pack) "echo"
+ args = map pack ["aho"]
 ```
 
 はいはい、実行実行。
@@ -65,7 +65,7 @@ import Data.Text hiding (map)
 main = main' =<< getArgs
 
 main' as = shelly $ do run echo args
- where echo = (fromText . pack) &quot;echo&quot;
+ where echo = (fromText . pack) "echo"
  args = map pack as
 ```
 
@@ -104,7 +104,7 @@ default (T.Text)
 
 main = main' =<< getArgs
 
-main' as = shelly $ do run &quot;echo&quot; (map T.pack as)
+main' as = shelly $ do run "echo" (map T.pack as)
 ```
 
 関数はスッキリします。ヘッダが・・・。

@@ -13,9 +13,9 @@ uedamac:~ ueda$ cat hoge.hs
 import System.IO
 
 main :: IO ()
-main = getContents &gt;&gt;= putStrLn . firstWord
+main = getContents >>= putStrLn . firstWord
 
-firstWord :: String -&gt; String
+firstWord :: String -> String
 firstWord cs = head $ words cs
 ```
 
@@ -40,11 +40,11 @@ uedamac:~ ueda$ cat hoge2.hs
 import System.IO
 
 main :: IO ()
-main = getContents &gt;&gt;= putStrLn . firstWord
+main = getContents >>= putStrLn . firstWord
 
-firstWord :: String -&gt; String
+firstWord :: String -> String
 firstWord cs = if (length $ words cs) == 0
- then error &quot;no words&quot;
+ then error "no words"
  else head $ words cs
 ```
 
@@ -67,7 +67,7 @@ uedamac:~ ueda$ echo $?
 んで、このerror関数を使うなとかなんだとかいろいろ議論はあるんですが、面白いのは型で、こんな定義になってます。
 
 ```hs
-error :: [Char] -&gt; a
+error :: [Char] -> a
 ```
 
 出力が任意の型（a）になってるので、型のチェックに通るワケですね・・・。しかし、ずるいことにa型を返すと言いつつこいつは何も返しません。この関数が呼ばれると、他の処理を全部破棄して何も恐れるものの無い状態にしてからエラーを吐くだけなので、処理上、特に問題ないようです。

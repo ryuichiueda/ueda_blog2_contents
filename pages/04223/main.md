@@ -19,7 +19,7 @@ dashのmain.hとmain.cに自分のツッコミコメントを入れたもの。g
  * Copyright (c) 1991, 1993
  *	The Regents of the University of California. All rights reserved.
  * Copyright (c) 1997-2005
- *	Herbert Xu <herbert\@gondor.apana.org.au&gt;. All rights reserved.
+ *	Herbert Xu <herbert\@gondor.apana.org.au>. All rights reserved.
  *
  * This code is derived from software contributed to Berkeley by
  * Kenneth Almquist.
@@ -51,7 +51,7 @@ dashのmain.hとmain.cに自分のツッコミコメントを入れたもの。g
  *	\@(#)main.h	8.2 (Berkeley) 5/4/95
  */
 
-#include <errno.h&gt;
+#include <errno.h>
 
 /* pid of main shell */
 extern int rootpid; 
@@ -99,7 +99,7 @@ int exitcmd(int, char **);
  * Copyright (c) 1991, 1993
  *	The Regents of the University of California. All rights reserved.
  * Copyright (c) 1997-2005
- *	Herbert Xu <herbert\@gondor.apana.org.au&gt;. All rights reserved.
+ *	Herbert Xu <herbert\@gondor.apana.org.au>. All rights reserved.
  *
  * This code is derived from software contributed to Berkeley by
  * Kenneth Almquist.
@@ -129,37 +129,37 @@ int exitcmd(int, char **);
  * SUCH DAMAGE.
  */
 
-#include <stdio.h&gt;
-#include <signal.h&gt;
-#include <sys/stat.h&gt;
-#include <unistd.h&gt;
-#include <fcntl.h&gt;
+#include <stdio.h>
+#include <signal.h>
+#include <sys/stat.h>
+#include <unistd.h>
+#include <fcntl.h>
 
 /* ↓こいつらを一通り読まないと全貌が見えないわけです。
 ただ言えるのは、bashより量は少ない。 */
-#include &quot;shell.h&quot;
-#include &quot;main.h&quot;
-#include &quot;mail.h&quot;
-#include &quot;options.h&quot;
-#include &quot;output.h&quot;
-#include &quot;parser.h&quot;
-#include &quot;nodes.h&quot;
-#include &quot;expand.h&quot;
-#include &quot;eval.h&quot;
-#include &quot;jobs.h&quot;
-#include &quot;input.h&quot;
-#include &quot;trap.h&quot;
-#include &quot;var.h&quot;
-#include &quot;show.h&quot;
-#include &quot;memalloc.h&quot;
-#include &quot;error.h&quot;
-#include &quot;init.h&quot;
-#include &quot;mystring.h&quot;
-#include &quot;exec.h&quot;
-#include &quot;cd.h&quot;
+#include "shell.h"
+#include "main.h"
+#include "mail.h"
+#include "options.h"
+#include "output.h"
+#include "parser.h"
+#include "nodes.h"
+#include "expand.h"
+#include "eval.h"
+#include "jobs.h"
+#include "input.h"
+#include "trap.h"
+#include "var.h"
+#include "show.h"
+#include "memalloc.h"
+#include "error.h"
+#include "init.h"
+#include "mystring.h"
+#include "exec.h"
+#include "cd.h"
 
 #ifdef HETIO
-#include &quot;hetio.h&quot;
+#include "hetio.h"
 #endif
 
 #define PROFILE 0
@@ -183,7 +183,7 @@ int main(int, char **);
  * Main routine. We initialize things, parse the arguments, execute
  * profiles if we're a login shell, and then call cmdloop to execute
  * commands. The setjmp call sets up the location to jump to when an
- * exception occurs. When an exception occurs the variable &quot;state&quot;
+ * exception occurs. When an exception occurs the variable "state"
  * is used to figure out how far we had gotten.
  */
 
@@ -252,7 +252,7 @@ resetが呼ばれているものと。しっかし、関数がどこで定義さ
 /* ↓ATTYなんすか？？なんのことですか？端末か何かですか？*/
 		if (e == EXINT
 #if ATTY
-		&amp;&amp; (! attyset() || equal(termval(), &quot;emacs&quot;))
+		&& (! attyset() || equal(termval(), "emacs"))
 #endif
 		) {
 			out2c('\\n');
@@ -263,7 +263,7 @@ resetが呼ばれているものと。しっかし、関数がどこで定義さ
 /* ↑とりあえずCtrl+c押されたらバッファに溜まった何かを出すということは理解。
 ただし、この解釈は間違っている可能性が大いにあり。 */
 
-		popstackmark(&amp;smark);
+		popstackmark(&smark);
 /* ↑どこかでpushされているらしい */
 		FORCEINTON;				/* enable interrupts */
 /* ↑割り込み許可。 */
@@ -279,31 +279,31 @@ resetが呼ばれているものと。しっかし、関数がどこで定義さ
 		else
 			goto state4;
 	}
-	handler = &amp;jmploc;
+	handler = &jmploc;
 /* ↑このhandlerは、少なくともmain.cでは使われていません。*/
 
 #ifdef DEBUG
 	opentrace();
-	trputs(&quot;Shell args: &quot;); trargs(argv);
+	trputs("Shell args: "); trargs(argv);
 #endif
 
 /* ここから初期化が続く */
 	rootpid = getpid();
 	init();
 /* ↓ここでスタックになにか積まれる。何かが。 */
-	setstackmark(&amp;smark);
+	setstackmark(&smark);
 
 /* ↓ここら辺はシェルをそこそこ使う人ならなんとなくわかるかと。
 つまり、私もなんとなくしかわかってません。*/
 	login = procargs(argc, argv);
 	if (login) {
 		state = 1;
-		read_profile(&quot;/etc/profile&quot;);
+		read_profile("/etc/profile");
 /*↓こういうところにラベルがあるということは、
 やはり初期化が中断されたときにさっきのgotoが使われるということか */
 state1:
 		state = 2;
-		read_profile(&quot;$HOME/.profile&quot;);
+		read_profile("$HOME/.profile");
 	}
 state2:
 	state = 3;
@@ -311,21 +311,21 @@ state2:
 /* ↓これはlinuxでないと面倒臭いという解釈でよろしい？iflagは-iつまり、
 インタラクティブに使うとき。つまり端末から使うとき。 */
 #ifndef linux
-		getuid() == geteuid() &amp;&amp; getgid() == getegid() &amp;&amp;
+		getuid() == geteuid() && getgid() == getegid() &&
 #endif
 		iflag
 	) {
-		if ((shinit = lookupvar(&quot;ENV&quot;)) != NULL &amp;&amp; *shinit != '&#92;&#48;') {
+		if ((shinit = lookupvar("ENV")) != NULL && *shinit != '\0') {
 			read_profile(shinit);
 		}
 	}
 /* ↓本当に何に使うんだろう？（というコメントを残しておくと、
 あとからわかったときに削除して回らなければいけない予感・・・）*/
-	popstackmark(&amp;smark);
+	popstackmark(&smark);
 state3:
 	state = 4;
 /* ↓このminuscというのは、「マイナスc」、つまり-cオプションのこと。
--cが指定されているとbash -c &quot;引数&quot;とすると引数に書いたコマンドが実行できる。
+-cが指定されているとbash -c "引数"とすると引数に書いたコマンドが実行できる。
 そういう場合の話。しかし、イレギュラーなのでmain.cにあるのは邪魔だ。邪魔。*/
 	if (minusc)
 		evalstring(minusc, sflag ? 0 : EV_EXIT);
@@ -335,7 +335,7 @@ state3:
 フラグを見なくてよいからという解釈でよいような気がする。
 cmdloopに入るとしばらく出てこない。cmdloopはこの下に定義されています。*/
 	if (sflag || minusc == NULL) {
-state4:	/* XXX ??? - why isn't this before the &quot;if&quot; statement */
+state4:	/* XXX ??? - why isn't this before the "if" statement */
 		cmdloop(1);
 	}
 #if PROFILE
@@ -359,7 +359,7 @@ state4:	/* XXX ??? - why isn't this before the &quot;if&quot; statement */
 
 
 /*
- * Read and execute commands. &quot;Top&quot; is nonzero for the top level command
+ * Read and execute commands. "Top" is nonzero for the top level command
  * loop; it turns on prompting if the shell is interactive.
  */
 
@@ -375,26 +375,26 @@ cmdloop(int top)
 	int status = 0;
 	int numeof = 0;
 
-	TRACE((&quot;cmdloop(%d) called\\n&quot;, top));
+	TRACE(("cmdloop(%d) called\\n", top));
 
 /* ↓HETIOってなんじゃい。たぶん、-iでトップのときに初期化されるので、
 インタラクティブな何か。あんまり興味ない。*/
 #ifdef HETIO
-	if(iflag &amp;&amp; top)
+	if(iflag && top)
 		hetio_init();
 #endif
 /* ↓回って回って回って回る。 */
 	for (;;) {
 		int skip;
 
-		setstackmark(&amp;smark);
+		setstackmark(&smark);
 		if (jobctl)
 			showjobs(out2, SHOW_CHANGED);
 		inter = 0;
 
 /* ↓インタラクティブなとき。メールがあるとか教えてくれるアレです。
 inter変数は今の所なにに使うか不明。*/
-		if (iflag &amp;&amp; top) {
+		if (iflag && top) {
 			inter++;
 			chkmail();
 		}
@@ -407,13 +407,13 @@ dashはスクリプトを全部読み込まずに、スクリプトを読みな�
 NEOFにぶつかるということは処理が全部終わったということに相当。
 インタラクティブならプロンプトを出して待つことになる。 */
 		if (n == NEOF) {
-			if (!top || numeof &gt;= 50)
+			if (!top || numeof >= 50)
 				break;
 			if (!stoppedjobs()) {
 /*↓ Iflagは-I（インタラクティブなときにEOFを無視する）に対応。 */
 				if (!Iflag)
 					break;
-				out2str(&quot;\\nUse \\&quot;exit\\&quot; to leave shell.\\n&quot;);
+				out2str("\\nUse \\"exit\\" to leave shell.\\n");
 			}
 			numeof++;
 		} else if (nflag == 0) {
@@ -425,13 +425,13 @@ NEOFにぶつかるということは処理が全部終わったということ�
 			evaltree(n, 0);
 			status = exitstatus;
 		}
-		popstackmark(&amp;smark);
+		popstackmark(&smark);
 
 /* ↓このevalskipはbreakやreturn、continueのとき等に設定される。
 skipのフラグが立っていれば無限ループを出て下のreturn statusでこの関数が終わる。*/
 		skip = evalskip;
 		if (skip) {
-			evalskip &amp;= ~SKIPFUNC;
+			evalskip &= ~SKIPFUNC;
 			break;
 		}
 	}
@@ -495,8 +495,8 @@ find_dot_file(char *basename)
 	if (strchr(basename, '/'))
 		return basename;
 
-	while ((fullname = padvance(&amp;path, basename)) != NULL) {
-		if ((stat(fullname, &amp;statb) == 0) &amp;&amp; S_ISREG(statb.st_mode)) {
+	while ((fullname = padvance(&path, basename)) != NULL) {
+		if ((stat(fullname, &statb) == 0) && S_ISREG(statb.st_mode)) {
 			/*
 			* Don't bother freeing here, since it will
 			* be freed by the caller.
@@ -507,7 +507,7 @@ find_dot_file(char *basename)
 	}
 
 	/* not found in the PATH */
-	sh_error(&quot;%s: not found&quot;, basename);
+	sh_error("%s: not found", basename);
 	/* NOTREACHED */
 }
 
@@ -518,7 +518,7 @@ dotcmd(int argc, char **argv)
 {
 	int status = 0;
 
-	if (argc &gt;= 2) {		/* That's what SVR2 does */
+	if (argc >= 2) {		/* That's what SVR2 does */
 		char *fullname;
 
 		fullname = find_dot_file(argv[1]);
@@ -540,7 +540,7 @@ exitcmd(int argc, char **argv)
 {
 	if (stoppedjobs())
 		return 0;
-	if (argc &gt; 1)
+	if (argc > 1)
 		exitstatus = number(argv[1]);
 	exraise(EXEXIT);
 	/* NOTREACHED */

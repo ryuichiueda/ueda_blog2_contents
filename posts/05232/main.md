@@ -58,7 +58,7 @@ sed -e 's/ff/0/' -e 's/00/1/' -e 's/01/2/' -e 's/02/3/' | uniq | LANG=C sort -u
 ```bash
 uedambp:dat ueda$ xxd -ps policy.dat | gfold -b2 |
  sed -e 's/ff/0/' -e 's/00/1/' -e 's/01/2/' -e 's/02/3/' |
- awk 'NR%4==0{print $1}NR%4!=0{printf $1&quot; &quot;}' | head
+ awk 'NR%4==0{print $1}NR%4!=0{printf $1" "}' | head
 0 0 0 0
 0 0 0 0
 0 0 0 0
@@ -76,7 +76,7 @@ uedambp:dat ueda$ xxd -ps policy.dat | gfold -b2 |
 ```bash
 uedambp:dat ueda$ xxd -ps policy.dat | gfold -b2 |
  sed -e 's/ff/0/' -e 's/00/1/' -e 's/01/2/' -e 's/02/3/' |
- awk 'NR%4==0{print $1}NR%4!=0{printf $1&quot; &quot;}' | awk '{print $1 + $2*4 + $3*16 + $4*64}' | less
+ awk 'NR%4==0{print $1}NR%4!=0{printf $1" "}' | awk '{print $1 + $2*4 + $3*16 + $4*64}' | less
 ...
 0
 0
@@ -97,8 +97,8 @@ uedambp:dat ueda$ xxd -ps policy.dat | gfold -b2 |
 ```bash
 uedambp:dat ueda$ xxd -ps policy.dat | gfold -b2 |
  sed -e 's/ff/0/' -e 's/00/1/' -e 's/01/2/' -e 's/02/3/' |
- awk 'NR%4==0{print $1}NR%4!=0{printf $1&quot; &quot;}' |
- awk '{print $1 + $2*4 + $3*16 + $4*64}' | gawk '{printf(&quot;%02x&quot;,$1)}' | head -c 200
+ awk 'NR%4==0{print $1}NR%4!=0{printf $1" "}' |
+ awk '{print $1 + $2*4 + $3*16 + $4*64}' | gawk '{printf("%02x",$1)}' | head -c 200
 000000000000000000000000000000000000000000000000000000805098600200000000000000006a6a
 8554816a05a006150000040050645050000000001014a4059a0628aaa89a2a90aa1a900615a056000000
 00000000000000000000000000000000uedambp:dat ueda$
@@ -109,9 +109,9 @@ uedambp:dat ueda$ xxd -ps policy.dat | gfold -b2 |
 ```bash
 uedambp:dat ueda$ xxd -ps policy.dat | gfold -b2 |
  sed -e 's/ff/0/' -e 's/00/1/' -e 's/01/2/' -e 's/02/3/' |
- awk 'NR%4==0{print $1}NR%4!=0{printf $1&quot; &quot;}' |
- awk '{print $1 + $2*4 + $3*16 + $4*64}' | gawk '{printf(&quot;%02x&quot;,$1)}' |
- xxd -r -ps &gt; policy.bin 
+ awk 'NR%4==0{print $1}NR%4!=0{printf $1" "}' |
+ awk '{print $1 + $2*4 + $3*16 + $4*64}' | gawk '{printf("%02x",$1)}' |
+ xxd -r -ps > policy.bin 
 ```
 
 ・・・たぶんこれでOKか・・・。8ビットに戻してからパックしているので、データ読み出すときに<a href="http://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%B3%E3%83%87%E3%82%A3%E3%82%A2%E3%83%B3" target="_blank">バイトオーダ</a>はたぶん気にしなくてよいだろう。たぶん。

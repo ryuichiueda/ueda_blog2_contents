@@ -22,7 +22,7 @@ uedamac:MEMO ueda$ cat hoge
 まず，nkfでShift_JISにしてファイルに書き出します．拡張子はcsvにします．
 
 ```bash
-uedamac:MEMO ueda$ cat hoge | nkf -sLwx &gt; hoge.csv
+uedamac:MEMO ueda$ cat hoge | nkf -sLwx > hoge.csv
 ```
 
 次に，openします．

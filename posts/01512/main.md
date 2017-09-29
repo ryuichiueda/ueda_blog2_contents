@@ -25,7 +25,7 @@ sed 's/ *`` *//g'
 つかってみましょう。
 
 ```bash
-uedamac:pub ueda$ echo '``だっ`` *ふん* だ' | ./remove_space &gt; ./for_pub.txt
+uedamac:pub ueda$ echo '``だっ`` *ふん* だ' | ./remove_space > ./for_pub.txt
 uedamac:pub ueda$ cat for_pub.txt
 だっふんだ
 ```

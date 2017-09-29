@@ -9,7 +9,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 たぶん、ワンライナーで平方数を求めるのは、これでOKというか面白いかと。高速かどうかは分かりませんが・・・。素直にawkでsqrtするのは芸がなく（これはシェル芸とは考え方が相反するか）。単なる手遊びですね。
 
 ```bash
-$ factor <調べたい数字&gt; | sed 's/^.*://' | xargs -n 1 | 
+$ factor <調べたい数字> | sed 's/^.*://' | xargs -n 1 | 
 awk 'NF!=0' | uniq -c | awk '$1%2!=0'
 ```
 

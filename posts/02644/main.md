@@ -22,9 +22,9 @@ $ cat list
 a
 b
 c
-Prelude&gt; let list = [&quot;a&quot;,&quot;b&quot;,&quot;c&quot;]
-Prelude&gt; list
-[&quot;a&quot;,&quot;b&quot;,&quot;c&quot;]
+Prelude> let list = ["a","b","c"]
+Prelude> list
+["a","b","c"]
 ```
  </li>
  <li>n行m個のテキストデータ = m要素のリストがn個入っているリスト。
@@ -33,9 +33,9 @@ Prelude&gt; list
 uedambp:~ ueda$ cat mat
 a b
 c d
-Prelude&gt; let mat = [[&quot;a&quot;,&quot;b&quot;],[&quot;c&quot;,&quot;d&quot;]]
-Prelude&gt; mat
-[[&quot;a&quot;,&quot;b&quot;],[&quot;c&quot;,&quot;d&quot;]]
+Prelude> let mat = [["a","b"],["c","d"]]
+Prelude> mat
+[["a","b"],["c","d"]]
 ```
  </li>
 </ul>

@@ -35,11 +35,11 @@ import Data.Char
 import qualified Data.ByteString.Lazy.Char8 as BS (drop,unpack,readFile,ByteString)
 
 main :: IO () 
-main = do rs <- BS.readFile &quot;/dev/random&quot;
+main = do rs <- BS.readFile "/dev/random"
  putStr $ unlines $ map show (take 10 $ getUniformRands rs)
 
 -- 0以上1未満の乱数列発生関数 --
-getUniformRands :: BS.ByteString -&gt; [Double]
+getUniformRands :: BS.ByteString -> [Double]
 getUniformRands bs = d : getUniformRands (BS.drop 3 bs)
  where f (a:b:c:bs) = (ord a) * 256 * 256 + (ord b) * 256 + (ord c)
  n = f (BS.unpack bs)

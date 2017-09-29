@@ -13,7 +13,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 そこで、<a href="http://blog.ueda.asia/?page_id=1434" target="_blank">定義のページ</a>を作りました。引用はここからしていただけると有り難く。 せっかくなので、シェル芸でシェル芸の定義を取り出す方法を書いておきます。
 
 ```bash
-$ curl http://blog.ueda.asia/?page_id=1434 2&gt; /dev/null | grep -A 1 h2 | tail -n 1 | sed 's;;;g' | tr -d '[:space:]' | awk '{print}'
+$ curl http://blog.ueda.asia/?page_id=1434 2> /dev/null | grep -A 1 h2 | tail -n 1 | sed 's;;;g' | tr -d '[:space:]' | awk '{print}'
 マウスも使わず、ソースコードも残さず、GUIツールを立ち上げる間もなく、あらゆる調査・計算・テキスト処理をCLI端末へのコマンド入力一撃で終わらすこと。
 ```
 

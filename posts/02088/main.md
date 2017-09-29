@@ -33,7 +33,7 @@ total 104
 ちなみにやり方ですが、
 
 ```bash
-uedambp:SCI2014 ueda$ touch &quot;3月14日まで6ページか8ページ&quot;
+uedambp:SCI2014 ueda$ touch "3月14日まで6ページか8ページ"
 uedambp:SCI2014 ueda$ ls
 3月14日まで6ページか8ページ sci.sty sci2014.dvi sci2014.pdf
 Makefile sci2014.aux sci2014.log sci2014.tex

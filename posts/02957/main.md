@@ -25,7 +25,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ```bash
 ###標準入力からdocxを受ける###
 server:ShellOfficeTools ueda$ cat ~/Desktop/letter.docx |
- ./wordsed 's/\@\@*/ボケ/g' &gt; out.docx
+ ./wordsed 's/\@\@*/ボケ/g' > out.docx
 ###へるぷを出す###
 server:ShellOfficeTools ueda$ ./wordsed -h
 WordSed 1.0: a string replacement tool for docx
@@ -33,8 +33,8 @@ Wed Apr 23 19:24:28 JST 2014
 
 Copyright (C) 2014 Ryuichi UEDA
 
-usage1: cat original.docx | wordsed <sed command&gt; &gt; newfile.docx
-usage2: wordsed <sed command&gt; original.docx &gt; newfile.docx
+usage1: cat original.docx | wordsed <sed command> > newfile.docx
+usage2: wordsed <sed command> original.docx > newfile.docx
 ```
 
 試してませんが多段でパイプに繋ぐことも可能となりました。

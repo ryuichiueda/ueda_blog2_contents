@@ -20,12 +20,12 @@ Copyright: (C) Ryuichi Ueda
 
  <li>誤: 
 ```bash
-xargs grep -l &quot;$word&quot;
+xargs grep -l "$word"
 ```
  </li>
  <li>正: 
 ```bash
-xargs grep -l -- &quot;$word&quot;
+xargs grep -l -- "$word"
 ```
  </li>
  </ul>
@@ -35,12 +35,12 @@ xargs grep -l -- &quot;$word&quot;
  <ul>
  <li>誤: 
 ```bash
-xargs grep -lF &quot;$word&quot;
+xargs grep -lF "$word"
 ```
  </li>
  <li>正: 
 ```bash
-xargs grep -lF -- &quot;$word&quot;
+xargs grep -lF -- "$word"
 ```
  </li>
  </ul>
@@ -50,12 +50,12 @@ xargs grep -lF -- &quot;$word&quot;
  <ul>
  <li>誤: 
 ```bash
-curl -H &quot;Authorization : OAuth
+curl -H "Authorization : OAuth
 ```
  </li> 
  <li>正: 
 ```bash
-curl -H &quot;Authorization: OAuth
+curl -H "Authorization: OAuth
 ```
  </li> 
  <li>発見者: <a href="https://twitter.com/kanariya0922" target="_blank">かなりや</a>さん</li>

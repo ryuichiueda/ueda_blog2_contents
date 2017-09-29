@@ -13,10 +13,10 @@ uedamac:~ ueda$ cat hoge.sh
 #!/bin/bash -xv
 
 #ダミーのファイル
-echo aaa &gt; hoge
+echo aaa > hoge
 
 #新しいデータを作って差し替える
-echo bbb &gt; hoge.new
+echo bbb > hoge.new
 #絶対にhogeファイルを壊したくない
 cp -p hoge hoge.org
 mv hoge.new hoge
@@ -30,10 +30,10 @@ uedamac:~ ueda$ cat hoge2.sh
 #!/bin/bash -xv
 
 #ダミーのファイル
-echo aaa &gt; hoge
+echo aaa > hoge
 
 #この hoge.new を hogeに置き換えたい
-echo bbb &gt; hoge.new
+echo bbb > hoge.new
 [ $? -eq 0 ] || exit 1
 #絶対にhogeファイルを壊したくない
 cp -p hoge hoge.org
@@ -50,12 +50,12 @@ uedamac:~ ueda$ cat hoge3.sh
 #!/bin/bash -xv
 
 #ダミーのファイル
-echo aaa &gt; hoge
+echo aaa > hoge
 
 #この hoge.new を hogeに置き換えたい
-echo bbb &gt; hoge.new &amp;&amp;
+echo bbb > hoge.new &&
 #絶対にhogeファイルを壊したくない
-cp -p hoge hoge.org &amp;&amp;
+cp -p hoge hoge.org &&
 mv hoge.new hoge
 [ $? -eq 0 ] || exit 1
 ```
@@ -69,13 +69,13 @@ uedamac:~ ueda$ ./hoge3.sh
 #!/bin/bash -xv
 
 #ダミーのファイル
-echo aaa &gt; hoge
+echo aaa > hoge
 + echo aaa
 
 #この hoge.new を hogeに置き換えたい
-echo bbb &gt; hoge.new &amp;&amp;
+echo bbb > hoge.new &&
 #絶対に失敗したくない
-cp -p huge hoge.org &amp;&amp;
+cp -p huge hoge.org &&
 mv hoge.new hoge
 + echo bbb
 + cp -p huge hoge.org
@@ -101,10 +101,10 @@ uedamac:~ ueda$ cat hoge.sh
 #!/bin/bash -xv
 
 #hoge is a dummy file
-echo aaa &gt; hoge
+echo aaa > hoge
 
 #I want to change the contents in the hoge file.
-echo bbb &gt; hoge.new
+echo bbb > hoge.new
 cp -p hoge hoge.org
 #this mv should be executed only when the previous commands got successful.
 mv hoge.new hoge
@@ -117,9 +117,9 @@ we can use "||" operator.
 uedamac:~ ueda$ cat hoge2.sh
 #!/bin/bash -xv
 
-echo aaa &gt; hoge
+echo aaa > hoge
 
-echo bbb &gt; hoge.new || exit 1
+echo bbb > hoge.new || exit 1
 cp -p hoge hoge.org || exit 1
 mv hoge.new hoge || exit 1
 ```
@@ -130,10 +130,10 @@ But I prefer to use && like this. When this sequence of commands is longer than 
 uedamac:~ ueda$ cat hoge3.sh 
 #!/bin/bash -xv
 
-echo aaa &gt; hoge
+echo aaa > hoge
 
-echo bbb &gt; hoge.new &amp;&amp;
-cp -p hoge hoge.org &amp;&amp;
+echo bbb > hoge.new &&
+cp -p hoge hoge.org &&
 mv hoge.new hoge
 [ $? -eq 0 ] || exit 1
 ```
@@ -146,12 +146,12 @@ Pipe is not the only one that connect commands.
 uedamac:~ ueda$ ./hoge3.sh 
 #!/bin/bash -xv
 
-echo aaa &gt; hoge
+echo aaa > hoge
 + echo aaa
 
-echo bbb &gt; hoge.new &amp;&amp;z
+echo bbb > hoge.new &&z
 #misspelling
-cp -p huge hoge.org &amp;&amp;
+cp -p huge hoge.org &&
 mv hoge.new hoge
 + echo bbb
 + cp -p huge hoge.org

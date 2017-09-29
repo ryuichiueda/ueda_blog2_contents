@@ -54,7 +54,7 @@ $ ping -c1 www.usptomo.com | head -n 1
 ベタなものを載せておきます。変態的解答はウェブで。
 
 ```bash
-$ a=&quot;ひらけ！ポンキッキ&quot; ; for i in $(seq 2 $(wc -m <<< $a)) ; 
+$ a="ひらけ！ポンキッキ" ; for i in $(seq 2 $(wc -m <<< $a)) ; 
 do echo $a ; a=$(sed 's/\\(.\\)\\(.*\\)/\\2\\1/g' <<< $a) ; done
 ```
 
@@ -66,7 +66,7 @@ rbashと打つとリダイレクトが使えなくなります。
 
 ```bash
 $ grep bash$ /etc/passwd | tee hoge
-$ grep bash$ /etc/passwd | awk '{print $0 &gt; &quot;huge&quot;}'
+$ grep bash$ /etc/passwd | awk '{print $0 > "huge"}'
 $ grep bash$ /etc/passwd | dd of=hohe
 ```
 
@@ -80,7 +80,7 @@ $ echo すけふぇにんけん
 <h3>解答</h3>
 
 ```bash
-$ echo すけふぇにんけん | sed 's/./&amp;゛/g' 
+$ echo すけふぇにんけん | sed 's/./&゛/g' 
 | nkf --katakana | nkf -Z4 
 | nkf --hiragana | sed 's/゛//g'
 ずげぶぇにんげん
@@ -93,8 +93,8 @@ $ echo すけふぇにんけん | sed 's/./&amp;゛/g'
 <h3>解答</h3>
 
 ```bash
-$ yes | awk 'BEGIN{a=&quot;*&quot;}{print a;a=a&quot;*&quot;;system(&quot;sleep 1&quot;)}' 
-| xargs -I\@ echo -ne \@&quot;\\r&quot; 
+$ yes | awk 'BEGIN{a="*"}{print a;a=a"*";system("sleep 1")}' 
+| xargs -I\@ echo -ne \@"\\r" 
 ```
 
 <h2>Q6</h2>
@@ -121,7 +121,7 @@ $ echo -ne $(sed 's/\\(..\\)\\(..\\)/\\\\U\\2\\1/g' < crypt)
 
 ```bash
 $ ( date -ud '20161029' +%s ; date -ud '20161030' +%s ) | xargs seq 
-| factor | awk 'NF==2{print &quot;\@&quot;$2}' | date -uf - 
+| factor | awk 'NF==2{print "\@"$2}' | date -uf - 
 ```
 
 <h2>Q8</h2>
@@ -131,8 +131,8 @@ $ ( date -ud '20161029' +%s ; date -ud '20161030' +%s ) | xargs seq
 <h3>解答</h3>
 
 ```bash
-$ seq 1 20 | awk '{a=sin($1/3) * 10 + 10;for(i=0;i<a;i++)printf &quot;\@ &quot;;
-printf &quot;* &quot;;for(i=a;i<20;i++)printf &quot;\@ &quot;;print &quot;&quot;}' 
+$ seq 1 20 | awk '{a=sin($1/3) * 10 + 10;for(i=0;i<a;i++)printf "\@ ";
+printf "* ";for(i=a;i<20;i++)printf "\@ ";print ""}' 
 | rs -t 23 | tr \@ ' ' 
 ```
 

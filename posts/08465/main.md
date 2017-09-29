@@ -60,7 +60,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 ```bash
 $ $ curl http://www.data.jma.go.jp/fcd/yoho/typhoon/statistics/landing/landing.csv |
- nkf -wLux &gt; landing.csv
+ nkf -wLux > landing.csv
 ```
 
 次にこのデータを、以下のようなデータ（ファイル名: monthly_typhoon）に変換してください。第1フィールドが年月、第2フィールドが台風の上陸頻度です。
@@ -113,7 +113,7 @@ monthly_typhoonから年ごとの台風の上陸頻度を集計し、元のlandi
 
 ```bash
 $ curl http://www.city.osaka.lg.jp/shimin/cmsfiles/contents/0000298/298810/006hittakuri2015.csv |
- nkf -wLux | tr , ' ' | tail -n +2 &gt; hittakuri
+ nkf -wLux | tr , ' ' | tail -n +2 > hittakuri
 $ head -n 5 hittakuri 
 大阪市北区 曾根崎 １丁目付近 窃盗 既遂 ひったくり 自動二輪 2015年 1月 24日 2時頃 女性 20代
 大阪市北区 兎我野町 付近 窃盗 既遂 ひったくり 自動二輪 2015年 2月 11日 20時頃 女性 20代

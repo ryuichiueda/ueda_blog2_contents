@@ -32,11 +32,11 @@ $ brew install coreutils
 
 ```bash
 ###出力で1列目の数が同じものが重複の疑いのあるものです###
-uedambp:~ ueda$ find ~/ -type f | grep -i '\\.jpg$' | sed 's/.*/&quot;&amp;&quot;/' |
+uedambp:~ ueda$ find ~/ -type f | grep -i '\\.jpg$' | sed 's/.*/"&"/' |
 xargs -n 1 gmd5sum | LANG=C sort -s -k1,1 |
 awk '{if(a==$1){print b;print $0}a=$1;b=$0}'
 ###Linuxの場合（さらにルートから検索をかけてみる）###
-ueda\@remote:~$ sudo find / -type f | grep -i '\\.jpg$' | sed 's/.*/&quot;&amp;&quot;/' | 
+ueda\@remote:~$ sudo find / -type f | grep -i '\\.jpg$' | sed 's/.*/"&"/' | 
 sudo xargs -n 1 md5sum | LANG=C sort -s -k1,1 | 
 awk '{if(a==$1){print b;print $0}a=$1;b=$0}'
 ...
@@ -45,8 +45,8 @@ c2979e8ed193969aa9e6c2a1438b696b /home/ueda/chinjyu.jpg
 f1c3a09b784cc5a55bb820aaa873c79f /var/tmp/GIT/SD_BOOK/IMAGE/noodle.jpg
 f1c3a09b784cc5a55bb820aaa873c79f /home/ueda/GIT/SD_BOOK/IMAGE/noodle.jpg
 ###Open usp Tukubai使用###
-ueda\@remote:~$ sudo find / -type f | grep -i '\\.jpg$' | sed 's/.*/&quot;&amp;&quot;/' | 
-sudo xargs -n 1 md5sum | LANG=C sort -s -k1,1 | yarr num=1 | awk 'NF&gt;2'
+ueda\@remote:~$ sudo find / -type f | grep -i '\\.jpg$' | sed 's/.*/"&"/' | 
+sudo xargs -n 1 md5sum | LANG=C sort -s -k1,1 | yarr num=1 | awk 'NF>2'
 ```
 
 <h1>Q2</h1>
@@ -90,6 +90,6 @@ sudo xargs -n 1 md5sum | LANG=C sort -s -k1,1 | yarr num=1 | awk 'NF&gt;2'
 ちなみに私は以下の解答で力尽きましたので、何か良いアイデアがあれば。
 
 ```bash
-uedambp:~ ueda$ w3m -dump 'https://twitter.com/search?f=realtime&amp;q=%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8&amp;src=typd' |
+uedambp:~ ueda$ w3m -dump 'https://twitter.com/search?f=realtime&q=%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8&src=typd' |
 sed -n '/ 1\\./,$p' | sed -n '1,/^No Tweet/p'
 ```

@@ -13,8 +13,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 例えばシェルスクリプトでこう書いたとします。ファイルaとbを作って、diffで比べています。
 ```bash
-seq 8 &gt; a
-seq 10 &gt; b
+seq 8 > a
+seq 10 > b
 
 diff a b
 ```
@@ -54,7 +54,7 @@ echo 'ただ、指定して書いたほうが厳密なので指定した方が�
 import /usr/local/bin/ as sys
 import /usr/bin/ as sys
 
-sys.awk 'BEGIN{print &quot;hoge&quot;}'
+sys.awk 'BEGIN{print "hoge"}'
 ```
 
 

@@ -64,19 +64,19 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 $ ls 
 file_A-1 file_A-2 file_B-1 file_B-2
 $ head -n 2 *
-==&gt; file_A-1 <==
+==> file_A-1 <==
 1
 31351
 
-==&gt; file_A-2 <==
+==> file_A-2 <==
 11
 35
 
-==&gt; file_B-1 <==
+==> file_B-1 <==
 -32
 12
 
-==&gt; file_B-2 <==
+==> file_B-2 <==
 912
 3
 ```
@@ -133,8 +133,8 @@ $ paste <(awk '$1%2' Q3 | sort) <(awk '$1%2==0' Q3 | sort -r) | tr '\\t' ' '
 1 8
 5 4
 9 2
-$ cat Q3 | sed 's/.*[02468]$/-&amp;/' | sort | xargs |
-awk '{for(i=NF/2;i&gt;=1;i--){print $(NF-i+1),-$i}}'
+$ cat Q3 | sed 's/.*[02468]$/-&/' | sort | xargs |
+awk '{for(i=NF/2;i>=1;i--){print $(NF-i+1),-$i}}'
 1 8
 5 4
 9 2
@@ -150,7 +150,7 @@ awk '{for(i=NF/2;i&gt;=1;i--){print $(NF-i+1),-$i}}'
 
 ```bash
 ueda\@remote:~$ a=$(tty | sed 's;/dev/;;') ; ps aux |
-awk '$7~/pts\\/[0-9]*/' | awk -v &quot;t=$a&quot; '$7!=t' |
+awk '$7~/pts\\/[0-9]*/' | awk -v "t=$a" '$7!=t' |
 awk '{print $2}' | xargs sudo kill 
 ```
 
@@ -163,13 +163,13 @@ awk '{print $2}' | xargs sudo kill
 
 ```bash
 ueda\@remote:~$ echo 45 126 |
-awk '{while($1*$2!=0){if($1&gt;$2){$1=$1-$2}else{$2=$2-$1}print}}' |
+awk '{while($1*$2!=0){if($1>$2){$1=$1-$2}else{$2=$2-$1}print}}' |
 awk 'END{print $1}'
 9
 ###Tukubai使用（こっちの方が長いが・・・）###
 ueda\@remote:~$ echo 60 9 | factor | tarr num=1 | tr -d : | 
 self 2 1 | sort | count 1 2 | self 1 3 | yarr num=1 |
-awk 'NF&gt;2' | awk '{print $1,$2<$3?$2:$3}' |
+awk 'NF>2' | awk '{print $1,$2<$3?$2:$3}' |
 awk 'BEGIN{a=1}{a*=$1**$2}END{print a}'
 ```
 
@@ -214,7 +214,7 @@ sort -k1,2 | awk '{print $1,$3}' | xargs -n 4 | awk '{print $1,$2,$4}'
 あくまで一例で一部分ですが・・・
 
 ```bash
-$ seq 39770 40058 | xargs printf &quot;&amp;#x%x;&quot; | nkf --numchar-input 
+$ seq 39770 40058 | xargs printf "&#x%x;" | nkf --numchar-input 
 ```
 
 <h2>Q8</h2>

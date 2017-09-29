@@ -19,7 +19,7 @@ uedambp:GlueLang ueda$ cat TEST/fizzbuzz.glue
 
 file nums = /usr/bin/seq '1' '100'
 
-#gsed can be installed by &quot;brew install coreutils&quot;
+#gsed can be installed by "brew install coreutils"
 file buzz = /usr/local/bin/gsed '5~5s/.*/Buzz/' nums
 
 #output

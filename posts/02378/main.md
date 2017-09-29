@@ -117,7 +117,7 @@ ueda\@remote:~$ wc -m genkou
 65 genkou
 ueda\@remote:~$ cat genkou | tr -d '\\n' | wc -m
 61
-ueda\@remote:~$ sed 's/./&amp;\\n/g' genkou | awk 'NF==1' | wc -l
+ueda\@remote:~$ sed 's/./&\\n/g' genkou | awk 'NF==1' | wc -l
 61
 ueda\@remote:~$ cat genkou | awk '{a+=length($1)}END{print a}'
 61
@@ -135,15 +135,15 @@ aabbcdabbcccdd
 <h2>A4</h2>
 
 ```bash
-ueda\@remote:~$ cat hoge | sed 's/./&amp;\\n/g' | awk 'NF==1' |
+ueda\@remote:~$ cat hoge | sed 's/./&\\n/g' | awk 'NF==1' |
  sort | uniq -c | awk '$1==3{print $2}'
 a
 d
-ueda\@remote:~$ cat hoge | sed 's/./&amp;\\n/g' | sort |
+ueda\@remote:~$ cat hoge | sed 's/./&\\n/g' | sort |
  awk 'NF==1' | count 1 1 | awk '$2==3{print $1}'
 a
 d
-ueda\@remote:~$ cat hoge | sed 's/./&amp; /g' |
+ueda\@remote:~$ cat hoge | sed 's/./& /g' |
  awk '{for(i=1;i<=NF;i++){x[$i]++};for(k in x){print k,x[k]}}' |
  awk '$2==3{print $1}'
 a
@@ -194,10 +194,10 @@ $ find . -type f | xargs -I\@ mv \@ ./
 それ以外のファイルをディレクトリbに振り分けてください。
 
 ```bash
-$ echo hoge &gt; file1
-$ echo huge &gt; file2
-$ echo hoge &gt; file3
-$ echo hoge &gt; file4
+$ echo hoge > file1
+$ echo huge > file2
+$ echo hoge > file3
+$ echo hoge > file4
 $ mkdir a b
 ```
 
@@ -205,11 +205,11 @@ $ mkdir a b
 
 ```bash
 ###2ライナーで###
-$ ls file* | while read f ; do grep -q hoge $f &amp;&amp; mv $f ./a ; done
-$ ls file* | while read f ; do grep -qv hoge $f &amp;&amp; mv $f ./b ; done
+$ ls file* | while read f ; do grep -q hoge $f && mv $f ./a ; done
+$ ls file* | while read f ; do grep -qv hoge $f && mv $f ./b ; done
 ###エクストリームな方法###
 $ ls file* | while read f ;¥
- do grep -q hoge $f &amp;&amp; mv $f ./a || mv $f ./b ; done
+ do grep -q hoge $f && mv $f ./a || mv $f ./b ; done
 $ tree
 .
 ├── a
@@ -220,7 +220,7 @@ $ tree
  └── file2
 
 2 directories, 4 files
-$ for f in file* ; do grep -q hoge $f &amp;&amp; mv $f ./a || mv $f ./b ; done
+$ for f in file* ; do grep -q hoge $f && mv $f ./a || mv $f ./b ; done
 ```
 
 <h2>Q7</h2>
@@ -260,7 +260,7 @@ $ echo file{1..9} | awk '{for(i=1;i<=9;i++){for(j=i+1;j<=9;j++){{print $i,$j}}}}
 ###別解2###
 ueda\@remote:~$ echo file{1..9} | awk '{for(i=1;i<=9;i++){for(j=1;j<=9;j++){{print $i,$j}}}}' | awk '$1<$2'
 ###ツーライナーになるが・・・###
-ueda\@remote:~$ ls file{1..9} &gt; hoge
+ueda\@remote:~$ ls file{1..9} > hoge
 ueda\@remote:~$ loopx hoge hoge | awk '$1<$2'
 ```
 

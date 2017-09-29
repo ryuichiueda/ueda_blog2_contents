@@ -20,7 +20,7 @@ import PATH
 {
 	echo 'abc'
 	echo 'def'
-} &gt;&gt;= rev
+} >>= rev
 uedambp:SRC ueda$ ./hoge 
 cba
 fed
@@ -36,7 +36,7 @@ import PATH
 do
 	echo 'abc'
 	echo 'def'
-&gt;&gt;= rev
+>>= rev
 uedambp:GlueLang ueda$ ./huge.glue 
 cba
 fed
@@ -56,7 +56,7 @@ proc hoge = do
 	echo 'abc'
 	echo 'def'
 
-hoge &gt;&gt;= rev
+hoge >>= rev
 uedambp:GlueLang ueda$ ./hoge.glue 
 cba
 fed
@@ -73,9 +73,9 @@ import PATH
 {
 	false
 	echo 'hoge'
-} !&gt; {
+} !> {
 	echo 'foo'
-} !&gt; {
+} !> {
 	echo 'bar'
 }
 ```
@@ -90,9 +90,9 @@ import PATH
 do
 	false
 	echo 'hoge'
-!&gt; do
+!> do
 	echo 'foo'
-!&gt; do
+!> do
 	echo 'bar'
 ```
 
@@ -108,10 +108,10 @@ import PATH
 test 1 -eq 2 ? do
 	echo 'first subshell'
 	echo '1 = 2'
-!&gt; test 1 -eq 1 ? do
+!> test 1 -eq 1 ? do
 	echo 'second subshell'
 	echo '1 = 1'
-!&gt; echo 'third command'
+!> echo 'third command'
 ###実行###
 uedambp:GlueLang ueda$ ./if1.glue 
 second subshell
@@ -126,8 +126,8 @@ uedambp:GlueLang ueda$ cat if2.glue
 import PATH
 
 test 1 -eq 2 ? echo '1 = 2'
-!&gt; test 1 -eq 1 ? echo '1 = 1'
-!&gt; echo 'third command'
+!> test 1 -eq 1 ? echo '1 = 1'
+!> echo 'third command'
 ```
 
 となります。ちょっとスッキリしませんが、if文自体あんまり使うことは無いはずなので、これでよしとしたいです。
@@ -139,7 +139,7 @@ uedambp:GlueLang ueda$ cat if3.glue
 #!/usr/local/bin/glue
 import PATH
 
-test 1 -eq 2 ? echo '1 = 2' !&gt; test 1 -eq 1 ? echo '1 = 1' !&gt; echo 'third command'
+test 1 -eq 2 ? echo '1 = 2' !> test 1 -eq 1 ? echo '1 = 1' !> echo 'third command'
 ```
 
 と書いても動きますが、さすがにインデント入れないと可読性皆無になりますね。

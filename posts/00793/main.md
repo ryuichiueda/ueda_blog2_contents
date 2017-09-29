@@ -9,10 +9,10 @@ Copyright: (C) 2017 Ryuichi Ueda
 ```bash
 Python 2.7.2 (default, Oct 11 2012, 20:14:37) 
 [GCC 4.2.1 Compatible Apple Clang 4.0 (tags/Apple/clang-418.0.60)] on darwin
-Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
-&gt;&gt;&gt; round(-1.1,-1)
+Type "help", "copyright", "credits" or "license" for more information.
+>>> round(-1.1,-1)
 -0.0
-&gt;&gt;&gt; round(-1.1,-1)*1.0
+>>> round(-1.1,-1)*1.0
 -0.0
 ```
 

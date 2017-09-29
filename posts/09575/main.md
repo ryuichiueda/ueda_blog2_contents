@@ -127,9 +127,9 @@ $ tr -d '\\n' < contents.tex | grep -oP '(\\\\footnote{.+?。})'
 そうでない解は、インデントをつけてから抽出する方法しか、今のところ思いついていません。
 
 ```bash
-$ tr -d '\\n' < contents.tex | sed 's/[{}]/\\n&amp;\\n/g' | sed 's/\\\\footnote/\\n&amp;/' |
- awk '{for(a=0;a<i;a++)printf &quot; &quot;}/{/{i+=1}/}/{i-=1}{print}' |
- sed -n '/\\\\footnote/,/^ }/p' | tr -d '\\n' | sed 's/\\\\footnote/\\n&amp;/g' |
+$ tr -d '\\n' < contents.tex | sed 's/[{}]/\\n&\\n/g' | sed 's/\\\\footnote/\\n&/' |
+ awk '{for(a=0;a<i;a++)printf " "}/{/{i+=1}/}/{i-=1}{print}' |
+ sed -n '/\\\\footnote/,/^ }/p' | tr -d '\\n' | sed 's/\\\\footnote/\\n&/g' |
  sed 's/ *} */}/g' | sed 's/ *{ */{/g' | awk '{print}'
 ```
 
@@ -142,8 +142,8 @@ $ tr -d '\\n' < contents.tex | sed 's/[{}]/\\n&amp;\\n/g' | sed 's/\\\\footnote/
 
 ```bash
 $ cat contents.tex |
- awk '/\\\\section/{f=gensub(/ /,&quot;_&quot;,&quot;g&quot;,$0);gsub(/\\\\section{/,&quot;&quot;,f);
-gsub(/}$/,&quot;&quot;,f)}{print $0 &gt; f}'
+ awk '/\\\\section/{f=gensub(/ /,"_","g",$0);gsub(/\\\\section{/,"",f);
+gsub(/}$/,"",f)}{print $0 > f}'
 ###このようにファイルができます###
 $ ls
 contents.tex graph-based_SLAMの実装例 はじめに 問題
@@ -158,7 +158,7 @@ contents.tex graph-based_SLAMの実装例 はじめに 問題
 
 ```bash
 $ grep 座標系 contents.tex | mecab -O wakati |
- grep -oE '[^ あ-ん]+ 座標 系' | sort -u | tr -d &quot; &quot;
+ grep -oE '[^ あ-ん]+ 座標 系' | sort -u | tr -d " "
 ロボット座標系
 計測座標系
 世界座標系
@@ -179,7 +179,7 @@ $ grep 座標系 contents.tex | grep -oE '[^ あ-ん{、「]+座標系' | sort -
 ```bash
 $ cat contents.tex |
  awk '/^ *$/{f=1}
-{if(f &amp;&amp; !/^ *$|section|begin|end|^%/){print &quot;　&quot;$0;f=0}else{print}}'
+{if(f && !/^ *$|section|begin|end|^%/){print "　"$0;f=0}else{print}}'
 ```
 
 
@@ -193,10 +193,10 @@ q6の出力から続ける例を示します。ゴリ押しです。
 
 ```bash
 $ cat q6 | sed 's/^%.*//' |
- awk '/begin/{if(!stop)print &quot;&quot;;stop+=1}
- !stop &amp;&amp; !/section/{printf($0)}
+ awk '/begin/{if(!stop)print "";stop+=1}
+ !stop && !/section/{printf($0)}
  stop || /section/{print}/end/{stop-=1}' |
- sed 's/　 /n　 /' | sed 's/\\\\[sub]*section/\\n\\n&amp;/' 
+ sed 's/　 /n　 /' | sed 's/\\\\[sub]*section/\\n\\n&/' 
 ```
 
 <h2>Q8</h2>
@@ -234,8 +234,8 @@ awkで章節項のカウンタを作ってうまく制御するのが一番素�
 ```bash
 $ grep section contents.tex | sed 's/{/ /' | grep -v ^% |
  sed 's/\\\\label.*//' | sed 's/}$//' |
- awk '/^\\\\se/{s+=1;$1=s;ss=0;print}/\\\\subse/{ss+=1;$1=s&quot;.&quot;ss;sss=0;print}/
-\\\\subsub/{sss+=1;$1=s&quot;.&quot;ss&quot;.&quot;sss;print}'
+ awk '/^\\\\se/{s+=1;$1=s;ss=0;print}/\\\\subse/{ss+=1;$1=s"."ss;sss=0;print}/
+\\\\subsub/{sss+=1;$1=s"."ss"."sss;print}'
 1 はじめに
 2 問題
 2.1 ロボットの姿勢と座標系

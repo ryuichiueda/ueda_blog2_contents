@@ -19,7 +19,7 @@ import PATH
 {
 	echo 'abc'
 	echo 'def'
-} &gt;&gt;= rev
+} >>= rev
 uedambp:SRC ueda$ ./hoge 
 cba
 fed
@@ -34,7 +34,7 @@ uedambp:SRC ueda$ cat hoge
 #!/usr/local/bin/glue
 import PATH
 
-echo 'a' &gt;&gt; false !&gt; echo 'b' !&gt; echo 'c'
+echo 'a' >> false !> echo 'b' !> echo 'c'
 uedambp:SRC ueda$ ./hoge 
 a
 b
@@ -50,7 +50,7 @@ import PATH
 file a = seq 1 3
 file b = seq 1 2
 
-diff a b !&gt; true
+diff a b !> true
 uedambp:GlueLang ueda$ ./hoge 
 3d2
 < 3
@@ -78,9 +78,9 @@ import PATH
 {
 	false
 	echo 'hoge'
-} !&gt; {
+} !> {
 	echo 'foo'
-} !&gt; {
+} !> {
 	echo 'bar'
 }
 ```
@@ -105,7 +105,7 @@ file x = {
 	echo 'aaa'
 	false
 	echo 'bbb'
-} !&gt; {
+} !> {
 	echo 'ccc'
 }
 
@@ -124,10 +124,10 @@ uedambp:SRC ueda$ cat hoge
 import PATH
 
 file x = {
-	file y = echo 'aaa' &gt;&gt; false
+	file y = echo 'aaa' >> false
 	cat y
 	echo 'bbb'
-} !&gt; {
+} !> {
 	echo 'ccc'
 }
 

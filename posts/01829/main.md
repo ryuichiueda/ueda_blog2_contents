@@ -27,7 +27,7 @@ Linking cgi-name ...
 cgi-nameは、GETやPOSTで投げられた文字列をキーバリューの形式に整形するコマンドです。
 
 ```bash
-uedamac:COMMANDS.HS ueda$ echo &quot;https://www.google.co.jp/search?q=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&amp;oq=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&amp;aqs=chrome..69i57j0l5.1951j0j4&amp;sourceid=chrome&amp;espv=210&amp;es_sm=91&amp;ie=UTF-8&quot; | sed 's/.*?//' | ./cgi-name 
+uedamac:COMMANDS.HS ueda$ echo "https://www.google.co.jp/search?q=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&oq=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&aqs=chrome..69i57j0l5.1951j0j4&sourceid=chrome&espv=210&es_sm=91&ie=UTF-8" | sed 's/.*?//' | ./cgi-name 
 q ナリタタイシン
 oq ナリタタイシン
 aqs chrome..69i57j0l5.1951j0j4
@@ -41,7 +41,7 @@ ketaは桁揃えするコマンドで、端末で手作業でデータいじり�
 
 ```bash
 ###右揃え###
-uedamac:COMMANDS.HS ueda$ echo &quot;https://www.google.co.jp/search?q=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&amp;oq=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&amp;aqs=chrome..69i57j0l5.1951j0j4&amp;sourceid=chrome&amp;espv=210&amp;es_sm=91&amp;ie=UTF-8&quot; | 
+uedamac:COMMANDS.HS ueda$ echo "https://www.google.co.jp/search?q=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&oq=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&aqs=chrome..69i57j0l5.1951j0j4&sourceid=chrome&espv=210&es_sm=91&ie=UTF-8" | 
 sed 's/.*?//' | ./cgi-name | ./keta
  q ナリタタイシン
  oq ナリタタイシン
@@ -51,7 +51,7 @@ sourceid chrome
  es_sm 91
  ie UTF-8
 ###左揃え###
-uedamac:COMMANDS.HS ueda$ echo &quot;https://www.google.co.jp/search?q=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&amp;oq=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&amp;aqs=chrome..69i57j0l5.1951j0j4&amp;sourceid=chrome&amp;espv=210&amp;es_sm=91&amp;ie=UTF-8&quot; | 
+uedamac:COMMANDS.HS ueda$ echo "https://www.google.co.jp/search?q=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&oq=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&aqs=chrome..69i57j0l5.1951j0j4&sourceid=chrome&espv=210&es_sm=91&ie=UTF-8" | 
 sed 's/.*?//' | ./cgi-name | ./keta --
 q ナリタタイシン 
 oq ナリタタイシン 
@@ -61,11 +61,11 @@ espv 210
 es_sm 91 
 ie UTF-8 
 ###桁揃えに必要な桁数を求める###
-uedamac:COMMANDS.HS ueda$ echo &quot;https://www.google.co.jp/search?q=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&amp;oq=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&amp;aqs=chrome..69i57j0l5.1951j0j4&amp;sourceid=chrome&amp;espv=210&amp;es_sm=91&amp;ie=UTF-8&quot; | 
+uedamac:COMMANDS.HS ueda$ echo "https://www.google.co.jp/search?q=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&oq=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&aqs=chrome..69i57j0l5.1951j0j4&sourceid=chrome&espv=210&es_sm=91&ie=UTF-8" | 
 sed 's/.*?//' | ./cgi-name | ./keta -v
 8 26
 ###1列目を8文字で右揃え、2列目を26文字で左揃え###
-uedamac:COMMANDS.HS ueda$ echo &quot;https://www.google.co.jp/search?q=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&amp;oq=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&amp;aqs=chrome..69i57j0l5.1951j0j4&amp;sourceid=chrome&amp;espv=210&amp;es_sm=91&amp;ie=UTF-8&quot; | 
+uedamac:COMMANDS.HS ueda$ echo "https://www.google.co.jp/search?q=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&oq=%E3%83%8A%E3%83%AA%E3%82%BF%E3%82%BF%E3%82%A4%E3%82%B7%E3%83%B3&aqs=chrome..69i57j0l5.1951j0j4&sourceid=chrome&espv=210&es_sm=91&ie=UTF-8" | 
 sed 's/.*?//' | ./cgi-name | ./keta 8 -26
  q ナリタタイシン 
  oq ナリタタイシン 

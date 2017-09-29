@@ -40,15 +40,15 @@ Macで解答を作ったのでLinuxな方は次のようにコマンドの読み
 次のようにShift JISのファイルを作り、Shift JISで「きく」と書いてあるファイルを探すワンライナーを考えてください。（答えは「b」ですね。）
 
 ```bash
-uedambp:q1 ueda$ echo あいうえお | nkf -xLws &gt; a
-uedambp:q1 ueda$ echo かきくけこ | nkf -xLws &gt; b
-uedambp:q1 ueda$ echo さしすせそ | nkf -xLws &gt; c
+uedambp:q1 ueda$ echo あいうえお | nkf -xLws > a
+uedambp:q1 ueda$ echo かきくけこ | nkf -xLws > b
+uedambp:q1 ueda$ echo さしすせそ | nkf -xLws > c
 ```
 
 <h2>解答</h2>
 
 ```bash
-uedambp:q1 ueda$ for f in * ; do nkf -w $f | grep -q きく &amp;&amp; echo $f ; done
+uedambp:q1 ueda$ for f in * ; do nkf -w $f | grep -q きく && echo $f ; done
 b
 ```
 
@@ -92,14 +92,14 @@ a 3
 b 2
 c 0
 d 4
-uedambp:q2 ueda$ ls * | xargs | gsed 's/.:/\\n&amp;/g' | awk '{print $1,NF-1}'
+uedambp:q2 ueda$ ls * | xargs | gsed 's/.:/\\n&/g' | awk '{print $1,NF-1}'
  -1
 a: 3
 b: 2
 c: 0
 d: 4
 uedambp:q2 ueda$ ls -d * |
-while read d ; do echo -n $d&quot; &quot; ; ls $d | gyo ; done
+while read d ; do echo -n $d" " ; ls $d | gyo ; done
 a 3
 b 2
 c 0
@@ -186,7 +186,7 @@ uedambp:q5 ueda$ tree
 
 ```bash
 uedambp:q5 ueda$ find . -type f |
-awk '{print &quot;mv&quot;,$1,substr($1,5,1)}' | sh
+awk '{print "mv",$1,substr($1,5,1)}' | sh
 mv: ./a/a01 and a/a01 are identical ←エラーが出るけど大丈夫
 uedambp:q5 ueda$ tree
 .
@@ -237,7 +237,7 @@ uedambp:q6 ueda$ find . -type f | tr '/' ' ' |
  tr ' ' '/' | xargs -n 1 -I\@ cp \@ ./
 ###Tukubai等###
 uedambp:q6 ueda$ find . -type f | tr '/' ' ' | sort | getlast 1 2 |
- tr '/' ' ' | awk '{print &quot;cp&quot;, &quot;./&quot; $2 &quot;/&quot; $3 &quot; ./&quot;}' | sh
+ tr '/' ' ' | awk '{print "cp", "./" $2 "/" $3 " ./"}' | sh
 ```
 
 
@@ -258,21 +258,21 @@ uedambp:q7 ueda$ for d in * ; do ls -t $d | head -n 1 |
 次のように5個ファイルを作ります。file1をfile2, file2をfile3, file3をfile4, file4をfile5, file5をfile1にmvしてください。
 
 ```bash
-uedambp:q8 ueda$ for i in 1 2 3 4 5 ; do echo $i &gt; file$i ; done
+uedambp:q8 ueda$ for i in 1 2 3 4 5 ; do echo $i > file$i ; done
 uedambp:q8 ueda$ head *
-==&gt; file1 <==
+==> file1 <==
 1
 
-==&gt; file2 <==
+==> file2 <==
 2
 
-==&gt; file3 <==
+==> file3 <==
 3
 
-==&gt; file4 <==
+==> file4 <==
 4
 
-==&gt; file5 <==
+==> file5 <==
 5
 ```
 
@@ -280,22 +280,22 @@ uedambp:q8 ueda$ head *
 
 ```bash
 uedambp:q8 ueda$ ls | 
-awk 'BEGIN{a=&quot;tmp&quot;}{print a,$1;a=$1}END{print a,&quot;tmp&quot;}' | 
-tail -r | awk '{print &quot;mv&quot;,$1,$2}' | sh
+awk 'BEGIN{a="tmp"}{print a,$1;a=$1}END{print a,"tmp"}' | 
+tail -r | awk '{print "mv",$1,$2}' | sh
 uedambp:q8 ueda$ head *
-==&gt; file1 <==
+==> file1 <==
 5
 
-==&gt; file2 <==
+==> file2 <==
 1
 
-==&gt; file3 <==
+==> file3 <==
 2
 
-==&gt; file4 <==
+==> file4 <==
 3
 
-==&gt; file5 <==
+==> file5 <==
 4
 ```
 

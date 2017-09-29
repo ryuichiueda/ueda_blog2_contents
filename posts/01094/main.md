@@ -9,8 +9,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 解説は後日。
 
 ```bash
-$ false &amp;&amp; true || true &amp;&amp; echo OK <- 1
-$ true &amp;&amp; true || false || echo OK <- 2
-$ true || true || true &amp;&amp; echo OK <- 3
-$ false &amp;&amp; true || false || echo OK <- 4
+$ false && true || true && echo OK <- 1
+$ true && true || false || echo OK <- 2
+$ true || true || true && echo OK <- 3
+$ false && true || false || echo OK <- 4
 ```<!--:-->

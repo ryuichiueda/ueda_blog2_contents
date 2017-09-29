@@ -16,7 +16,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ```bash
 [root\@freebsd10 /usr/ports/lang/python26]# make clean install
-make: &amp;amp;amp;amp;amp;amp;quot;/usr/ports/Mk/bsd.python.mk&amp;amp;amp;amp;amp;amp;quot; line 558: Malformed conditional (${PYTHON_REL} &amp;amp;amp;amp;amp;amp;gt;= 320 &amp;amp;amp;amp;amp;amp;amp;&amp;amp;amp;amp;amp;amp;amp; defined(PYTHON_PY3K_PLIST_HACK))
+make: &amp;amp;amp;amp;quot;/usr/ports/Mk/bsd.python.mk&amp;amp;amp;amp;quot; line 558: Malformed conditional (${PYTHON_REL} &amp;amp;amp;amp;gt;= 320 &amp;amp;amp;amp;amp;&amp;amp;amp;amp;amp; defined(PYTHON_PY3K_PLIST_HACK))
 make: Fatal errors encountered -- cannot continue
 make: stopped in /usr/ports/lang/python26
 ```
@@ -42,8 +42,8 @@ freebsd10 /home/ueda$ sudo -s
 [root\@freebsd10 /usr/home/ueda]# python
 Python 2.4.5 (#2, May 9 2012, 13:34:32) 
 [GCC 4.2.1 20070831 patched [FreeBSD]] on freebsd10
-Type &amp;amp;amp;amp;amp;amp;quot;help&amp;amp;amp;amp;amp;amp;quot;, &amp;amp;amp;amp;amp;amp;quot;copyright&amp;amp;amp;amp;amp;amp;quot;, &amp;amp;amp;amp;amp;amp;quot;credits&amp;amp;amp;amp;amp;amp;quot; or &amp;amp;amp;amp;amp;amp;quot;license&amp;amp;amp;amp;amp;amp;quot; for more information.
-&amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;gt; 
+Type &amp;amp;amp;amp;quot;help&amp;amp;amp;amp;quot;, &amp;amp;amp;amp;quot;copyright&amp;amp;amp;amp;quot;, &amp;amp;amp;amp;quot;credits&amp;amp;amp;amp;quot; or &amp;amp;amp;amp;quot;license&amp;amp;amp;amp;quot; for more information.
+&amp;amp;amp;amp;gt;&amp;amp;amp;amp;gt;&amp;amp;amp;amp;gt; 
 ```
 
 なんかもう無理矢理2.7に戻します。
@@ -54,8 +54,8 @@ Type &amp;amp;amp;amp;amp;amp;quot;help&amp;amp;amp;amp;amp;amp;quot;, &amp;amp;
 [root\@freebsd10 /usr/home/ueda]# python
 Python 2.7.6 (default, Feb 28 2014, 16:10:49) 
 [GCC 4.2.1 Compatible FreeBSD Clang 3.3 (tags/RELEASE_33/final 183502)] on freebsd10
-Type &amp;amp;amp;amp;amp;amp;quot;help&amp;amp;amp;amp;amp;amp;quot;, &amp;amp;amp;amp;amp;amp;quot;copyright&amp;amp;amp;amp;amp;amp;quot;, &amp;amp;amp;amp;amp;amp;quot;credits&amp;amp;amp;amp;amp;amp;quot; or &amp;amp;amp;amp;amp;amp;quot;license&amp;amp;amp;amp;amp;amp;quot; for more information.
-&amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;gt; 
+Type &amp;amp;amp;amp;quot;help&amp;amp;amp;amp;quot;, &amp;amp;amp;amp;quot;copyright&amp;amp;amp;amp;quot;, &amp;amp;amp;amp;quot;credits&amp;amp;amp;amp;quot; or &amp;amp;amp;amp;quot;license&amp;amp;amp;amp;quot; for more information.
+&amp;amp;amp;amp;gt;&amp;amp;amp;amp;gt;&amp;amp;amp;amp;gt; 
 ```
 
 Linuxだったらpythonに依存しているので大騒ぎですが、FreeBSDなのでおそらく大丈夫でしょう（超適当）。
@@ -87,11 +87,11 @@ python3.1 ./COMMANDS/dayslash OK
 python3.1 ./COMMANDS/filehame OK
 python3.1 ./COMMANDS/formhame OK
 0a1,5
-&amp;amp;amp;amp;amp;amp;gt; 浜地______ F
-&amp;amp;amp;amp;amp;amp;gt; 鈴田______ F
-&amp;amp;amp;amp;amp;amp;gt; 江頭______ F
-&amp;amp;amp;amp;amp;amp;gt; 白土______ M
-&amp;amp;amp;amp;amp;amp;gt; 崎村______ F
+&amp;amp;amp;amp;gt; 浜地______ F
+&amp;amp;amp;amp;gt; 鈴田______ F
+&amp;amp;amp;amp;gt; 江頭______ F
+&amp;amp;amp;amp;gt; 白土______ M
+&amp;amp;amp;amp;gt; 崎村______ F
 TEST1 error
 python3.1 ./COMMANDS/self NG
 ```

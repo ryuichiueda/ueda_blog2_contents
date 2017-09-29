@@ -20,7 +20,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ```bash
 ueda\@remote:~$ alias
-alias alert='notify-send --urgency=low -i &quot;$([ $? = 0 ] &amp;&amp; echo terminal || echo error)&quot; &quot;$(history|tail -n1|sed -e '\\''s/^\\s*[0-9]\\+\\s*//;s/[;&amp;|]\\s*alert$//'\\'')&quot;'
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\\''s/^\\s*[0-9]\\+\\s*//;s/[;&|]\\s*alert$//'\\'')"'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias grep='grep --color=auto'

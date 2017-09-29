@@ -11,7 +11,7 @@ $ cat hoge.glue
 import PATH
 
 loop
- str t = date '+%s' &gt;&gt;= awk '{print $1%5}'
+ str t = date '+%s' >>= awk '{print $1%5}'
  echo t
  test t -ne 0
  sleep 1
@@ -39,8 +39,8 @@ $ cat hoge2.glue
 import PATH
 
 loop
- str t = date '+%s' &gt;&gt;= awk '{print $1%5}' #この行と
- test t -ne 0 &gt;&gt; do #この行のdoの前までが条件
+ str t = date '+%s' >>= awk '{print $1%5}' #この行と
+ test t -ne 0 >> do #この行のdoの前までが条件
  echo t #doのあとが繰り返したい処理
  sleep 1
 
@@ -56,7 +56,7 @@ $ cat hoge3.glue
 import PATH
 
 loop
- str t = date '+%s' &gt;&gt;= awk '{print $1%5}'
+ str t = date '+%s' >>= awk '{print $1%5}'
  eho t #ここでエラーが起こって処理全体が止まる
  sleep 1
  test t -ne 0
@@ -84,7 +84,7 @@ Parse error at line 2, char 1
 Execution error at line 3, char 1
 	line3: loop
 	^
-	line4: str t = date '+%s' &gt;&gt;= awk '{print $1%5}'
+	line4: str t = date '+%s' >>= awk '{print $1%5}'
 	line5: eho t
 	line6: sleep 1
 	line7: test t -ne 0

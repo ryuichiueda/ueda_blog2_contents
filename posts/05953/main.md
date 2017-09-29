@@ -47,12 +47,12 @@ uedambp:~ ueda$ <- echoは実行されない
 manにはこう書いてあります。（Linuxだとmanの出力はパイプに渡せます。）
 
 ```bash
-ueda\@ubuntu:~$ man bash 2&gt; /dev/null | grep -A 3 pipefail$
+ueda\@ubuntu:~$ man bash 2> /dev/null | grep -A 3 pipefail$
  pipefail
  設定されている場合、パイプラインの返り値は、 0 以外のステータスで終了した最後の
  (一番右の) コマンドの値になります。 パイプラインの全てのコマンドが成功の状態で
  終了すると 0 になります。 このオプションは、デフォルトで無効です。
-ueda\@ubuntu:~$ LANG=C man bash 2&gt; /dev/null | grep -A 3 pipefail$
+ueda\@ubuntu:~$ LANG=C man bash 2> /dev/null | grep -A 3 pipefail$
  pipefail
  If set, the return value of a pipeline is the value of the last (rightmost)
  command to exit with a non-zero status, or zero if all commands in the pipeline
@@ -76,7 +76,7 @@ uedambp:~ ueda$ cat pipefail_error.bash
 set -o pipefail
 
 error () {
-	echo &quot;ERROR&quot;
+	echo "ERROR"
 	#うまくエラーをトラップできればhogeが消える###
 	rm hoge
 }

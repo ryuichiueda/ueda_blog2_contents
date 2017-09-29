@@ -21,11 +21,11 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ```bash
 ###出力で1列目の数が同じものが重複の疑いのあるものです###
-uedambp:~ ueda$ find ~/ -type f | grep -i '\\.jpg$' | sed 's/.*/&quot;&amp;&quot;/' |
+uedambp:~ ueda$ find ~/ -type f | grep -i '\\.jpg$' | sed 's/.*/"&"/' |
 xargs -n 1 gmd5sum | LANG=C sort -s -k1,1 |
 awk '{if(a==$1){print b;print $0}a=$1;b=$0}'
 ###Linuxの場合（さらにルートから検索をかけてみる）###
-ueda\@remote:~$ sudo find / -type f | grep -i '\\.jpg$' | sed 's/.*/&quot;&amp;&quot;/' | 
+ueda\@remote:~$ sudo find / -type f | grep -i '\\.jpg$' | sed 's/.*/"&"/' | 
 sudo xargs -n 1 md5sum | LANG=C sort -s -k1,1 | 
 awk '{if(a==$1){print b;print $0}a=$1;b=$0}'
 ...
@@ -34,8 +34,8 @@ c2979e8ed193969aa9e6c2a1438b696b /home/ueda/chinjyu.jpg
 f1c3a09b784cc5a55bb820aaa873c79f /var/tmp/GIT/SD_BOOK/IMAGE/noodle.jpg
 f1c3a09b784cc5a55bb820aaa873c79f /home/ueda/GIT/SD_BOOK/IMAGE/noodle.jpg
 ###Open usp Tukubai使用###
-ueda\@remote:~$ sudo find / -type f | grep -i '\\.jpg$' | sed 's/.*/&quot;&amp;&quot;/' | 
-sudo xargs -n 1 md5sum | LANG=C sort -s -k1,1 | yarr num=1 | awk 'NF&gt;2'
+ueda\@remote:~$ sudo find / -type f | grep -i '\\.jpg$' | sed 's/.*/"&"/' | 
+sudo xargs -n 1 md5sum | LANG=C sort -s -k1,1 | yarr num=1 | awk 'NF>2'
 ```
 
 <h1>Q2</h1>
@@ -49,20 +49,20 @@ sudo xargs -n 1 md5sum | LANG=C sort -s -k1,1 | yarr num=1 | awk 'NF&gt;2'
 <a href="http://blog.cykey.ca/post/88174516880/analyzing-flightradar24s-internal-api-structure" target="_blank">こちらを参考にしました。</a>
 
 ```bash
-uedambp:~ ueda$ curl http://www.flightradar24.com/_json/airports.php 2&gt; /dev/null | 
+uedambp:~ ueda$ curl http://www.flightradar24.com/_json/airports.php 2> /dev/null | 
 jq . | grep -C 6 HND
- &quot;lon&quot;: &quot;15.082770&quot;,
- &quot;country&quot;: &quot;Sweden&quot;,
- &quot;alt&quot;: &quot;1503&quot;
+ "lon": "15.082770",
+ "country": "Sweden",
+ "alt": "1503"
  },
  {
- &quot;name&quot;: &quot;Tokyo Haneda International Airport&quot;,
- &quot;iata&quot;: &quot;HND&quot;,
- &quot;icao&quot;: &quot;RJTT&quot;,
- &quot;lat&quot;: &quot;35.552250&quot;,
- &quot;lon&quot;: &quot;139.779602&quot;,
- &quot;country&quot;: &quot;Japan&quot;,
- &quot;alt&quot;: &quot;21&quot;
+ "name": "Tokyo Haneda International Airport",
+ "iata": "HND",
+ "icao": "RJTT",
+ "lat": "35.552250",
+ "lon": "139.779602",
+ "country": "Japan",
+ "alt": "21"
  },
 ```
 
@@ -79,7 +79,7 @@ jq . | grep -C 6 HND
 
 ```bash
 uedambp:~ ueda$ seq 1 1000 |
-awk '{for(i=1;i<=$1;i++){printf(&quot;%d &quot;,i)}{print &quot;&quot;}}' |
+awk '{for(i=1;i<=$1;i++){printf("%d ",i)}{print ""}}' |
 tr ' ' '*' | sed 's/\\*$/)/' | sed 's:^:1/(:' | bc -l | 
 tr '\\n' '+' | sed 's/$/1/' | bc -l 
 2.71828182845904523526
@@ -94,11 +94,11 @@ tr '\\n' '+' | sed 's/$/1/' | bc -l
 
 ```bash
 uedambp:~ ueda$ a=$(curl http://blog.ueda.asia/misc/message2015.txt) ; 
-while a=$(echo $a | base64 -D) &amp;&amp; echo $a ; do : ; done 
+while a=$(echo $a | base64 -D) && echo $a ; do : ; done 
 ...
 T2lncGV6b2dmQ0E2SUNaOU96b0sK
 OigpezogfCA6ICZ9OzoK
-:(){: | : &amp;};:
+:(){: | : &};:
 Invalid character in input stream.
 ```
 
@@ -113,7 +113,7 @@ Invalid character in input stream.
 ```bash
 uedambp:~ ueda$ cat /dev/urandom | gtr -dc '0-9' |
 gfold -b10 | sed 's/^/0./' | sed 's/$/5/' |
-awk 'NR%2==0{print $1}NR%2!=0{printf($1 &quot; &quot;)}' |
+awk 'NR%2==0{print $1}NR%2!=0{printf($1 " ")}' |
 awk '{x=$1-0.5;y=$2-0.5;r=sqrt(x^2 + y^2);if(r < 0.5){n++};print NR, 4*n/NR}'
 ...
 729078 3.14094

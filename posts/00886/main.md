@@ -19,9 +19,9 @@ import System.IO
 import Data.ByteString.Lazy.Char8 as BS hiding (length,take,drop,filter,head)
 
 main :: IO ()
-main = BS.getContents &gt;&gt;= BS.putStrLn . BS.unwords . BS.words
+main = BS.getContents >>= BS.putStrLn . BS.unwords . BS.words
 
-bsd /home/ueda$ echo &quot;栃木 江頭 江頭 栃木&quot; | ./egashira 
+bsd /home/ueda$ echo "栃木 江頭 江頭 栃木" | ./egashira 
 ? ?木 江? ? 江? ? ? ?木
 ```
 
@@ -34,11 +34,11 @@ import System.IO
 import Data.ByteString.Lazy.Char8 as BS hiding (length,take,drop,filter,head)
 
 main :: IO ()
-main = BS.getContents &gt;&gt;= BS.putStr . BS.unwords . egaWords
+main = BS.getContents >>= BS.putStr . BS.unwords . egaWords
 
-egaWords :: BS.ByteString -&gt; [BS.ByteString]
+egaWords :: BS.ByteString -> [BS.ByteString]
 egaWords str = split ' ' str
-bsd /home/ueda$ echo &quot;栃木 江頭 江頭 栃木&quot; | ./egashira 
+bsd /home/ueda$ echo "栃木 江頭 江頭 栃木" | ./egashira 
 栃木 江頭 江頭 栃木
 ```
 

@@ -76,7 +76,7 @@ b 4 5
 連想配列にデータを追記していって最後に出力するのが楽な方法です。
 
 ```bash
-$ cat data1 | awk '{d[$1]=d[$1]&quot; &quot;$2}END{for(k in d){print k d[k]}}' 
+$ cat data1 | awk '{d[$1]=d[$1]" "$2}END{for(k in d){print k d[k]}}' 
 a 1 2 3
 b 4 5
 ```
@@ -84,9 +84,9 @@ b 4 5
 JSONにするには力技（しか思い浮かばなかった）。
 
 ```bash
-$ cat data1 | awk '{d[$1]=d[$1]&quot; &quot;$2}END{for(k in d){print k d[k]}}' |
- awk -v q='&quot;' '{printf q$1q&quot;:[&quot;;for(i=2;i<=NF;i++){printf $i&quot;,&quot;};print &quot;]&quot;}' |
- xargs | tr ' ' ',' | awk '{print &quot;{&quot;$0&quot;}&quot;}' | sed 's/,]/]/g'
+$ cat data1 | awk '{d[$1]=d[$1]" "$2}END{for(k in d){print k d[k]}}' |
+ awk -v q='"' '{printf q$1q":[";for(i=2;i<=NF;i++){printf $i","};print "]"}' |
+ xargs | tr ' ' ',' | awk '{print "{"$0"}"}' | sed 's/,]/]/g'
 {a:[1,2,3],b:[4,5]}
 ```
 
@@ -118,7 +118,7 @@ $ cat data | awk 'a[$0]{print a[$0],NR,$0}{a[$0]=NR}'
 
 ```bash
 $ cat data
-{&quot;a&quot;:[1,2,3],&quot;b&quot;:[4,5]}
+{"a":[1,2,3],"b":[4,5]}
 ```
 
 <h2>解答</h2>
@@ -126,7 +126,7 @@ $ cat data
 きれいな方法が思い浮かばないので力技で。
 
 ```bash
-$ grep -o '&quot;[ab]&quot;:\\[[^\\[]*\\]' data | tr '&quot;:[],' ' ' |
+$ grep -o '"[ab]":\\[[^\\[]*\\]' data | tr '":[],' ' ' |
  awk '{n=0;for(i=2;i<=NF;i++){n+=$i};print $1,n}'
 a 6
 b 9
@@ -162,15 +162,15 @@ whileを使ってNFが8になるまでフィールドを補ってから処理し
 
 ```bash
 $ echo 2001:db8::9abc |
- awk -F: '{while(NF!=8){gsub(/::/,&quot;:0::&quot;,$0)};for(i=1;i<=8;i++){$i=$i!=&quot;&quot;?$i:0};print}' |
+ awk -F: '{while(NF!=8){gsub(/::/,":0::",$0)};for(i=1;i<=8;i++){$i=$i!=""?$i:0};print}' |
  tr ' ' ':'
 2001:db8:0:0:0:0:0:9abc
 $ echo ::1 |
- awk -F: '{while(NF!=8){gsub(/::/,&quot;:0::&quot;,$0)};for(i=1;i<=8;i++){$i=$i!=&quot;&quot;?$i:0};print}' |
+ awk -F: '{while(NF!=8){gsub(/::/,":0::",$0)};for(i=1;i<=8;i++){$i=$i!=""?$i:0};print}' |
  tr ' ' ':'
 0:0:0:0:0:0:0:1
 ###別解###
 $ echo 2001:db8::9abc |
- awk -F: '{while(NF!=8){gsub(/::/,&quot;:0::&quot;,$0)}print}' |
+ awk -F: '{while(NF!=8){gsub(/::/,":0::",$0)}print}' |
  tr ':' '\\n' | awk '!NF{print 0}NF{print}' | xargs | tr ' ' ':'
 ```

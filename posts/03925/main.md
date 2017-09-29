@@ -44,11 +44,11 @@ CoreOSは・・・これは結局ホストにつかうのかコンテナ側で�
 <h2>今ふたたびのJava</h2>
 
 ```java
-List<String&gt;&gt;
+List<String>>
 ```
 と書けるのか。C++だと、
 ```cpp
-List<String&gt; &gt;
+List<String> >
 ```
 とスペースがいるが。
 

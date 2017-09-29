@@ -65,7 +65,7 @@ melon
 まず、次のように名前にスペースが入ったファイルを作ります。
 
 ```bash
-$ touch &quot;私は 蟹&quot; &quot;オシャレな 蟹&quot; &quot;足が 10本&quot;
+$ touch "私は 蟹" "オシャレな 蟹" "足が 10本"
 $ ls -l
 total 0
 -rw-r--r-- 1 ueda staff 0 2 14 11:22 私は 蟹
@@ -111,12 +111,12 @@ uedambp:20140214USPSTUDY ueda$ cat 20140101
 次のように4個ファイルを作って、a_ramenとa_curry、b_appleとb_tomatoのファイルの中身を入れ替えてください。
 
 ```bash
-$ echo カレー &gt; a_ramen
-$ echo ラーメン &gt; a_curry
-$ echo トマト &gt; b_apple
-$ echo リンゴ &gt; b_tomato
+$ echo カレー > a_ramen
+$ echo ラーメン > a_curry
+$ echo トマト > b_apple
+$ echo リンゴ > b_tomato
 ###（余談）各ファイルと中身は次のようにgrepで確認できる###
-$ grep &quot;&quot; *
+$ grep "" *
 a_curry:ラーメン
 a_ramen:カレー
 b_apple:トマト

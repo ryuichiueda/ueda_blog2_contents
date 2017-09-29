@@ -19,7 +19,7 @@ A 1 2 3
 B -1 2 3.0
 B 1 -2 3.1
 B 1 2 -3.2
-ueda\@ubuntuonmac:~/GIT/PMAT$ cat data | ./pmat &quot;式はまだパースしないよーん&quot;
+ueda\@ubuntuonmac:~/GIT/PMAT$ cat data | ./pmat "式はまだパースしないよーん"
 A 1 2 3
 A 1 2 3
 B -1 2 3.0

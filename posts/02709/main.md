@@ -12,7 +12,7 @@ ueda\@remote:~$ cat child.bash
 #!/bin/bash
 
 for i in {1..10000} ; do
-	echo $$ &gt;&gt; hoge 
+	echo $$ >> hoge 
 done
 ```
 
@@ -24,7 +24,7 @@ ueda\@remote:~$ cat parent.bash
 #!/bin/bash
 
 for i in {1..100} ; do
-	flock /home/ueda/lock ./child.bash &amp;
+	flock /home/ueda/lock ./child.bash &
 done
 ```
 
@@ -61,7 +61,7 @@ ueda\@remote:~$ cat child.bash
 #!/bin/bash
 
 for i in {1..10000} ; do
-	echo $$ &gt;&gt; hoge &amp; 
+	echo $$ >> hoge & 
 done
 ```
 hogeを一度消去して再実行！

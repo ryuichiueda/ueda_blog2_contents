@@ -21,23 +21,23 @@ a b c d
 <!--more-->
 
 ```bash
-uedambp:~ ueda$ echo a b c d | gsed 's;[^ ]*;\\{,&amp;\\},;g' | tr -d ' ' |
- awk '{print &quot;echo&quot;,$0}'
+uedambp:~ ueda$ echo a b c d | gsed 's;[^ ]*;\\{,&\\},;g' | tr -d ' ' |
+ awk '{print "echo",$0}'
 echo {,a},{,b},{,c},{,d},
 ```
 
 bashに突っ込みます。
 
 ```bash
-uedambp:~ ueda$ echo a b c d | gsed 's;[^ ]*;\\{,&amp;\\},;g' | tr -d ' ' |
- awk '{print &quot;echo&quot;,$0}' | bash
+uedambp:~ ueda$ echo a b c d | gsed 's;[^ ]*;\\{,&\\},;g' | tr -d ' ' |
+ awk '{print "echo",$0}' | bash
 ,,,, ,,,d, ,,c,, ,,c,d, ,b,,, ,b,,d, ,b,c,, ,b,c,d, a,,,, a,,,d, a,,c,, a,,c,d, a,b,,, a,b,,d, a,b,c,, a,b,c,d,
 ```
 
 あとは適当に整形して終わり。
 
 ```bash
-uedambp:~ ueda$ echo a b c d | gsed 's;[^ ]*;\\{,&amp;\\},;g' | tr -d ' ' | awk '{print &quot;echo&quot;,$0}' | bash | sed 's/,,*/,/g' | tr ' ' '\\n' | sed 's/,$/}/' | sed 's/^/{/'
+uedambp:~ ueda$ echo a b c d | gsed 's;[^ ]*;\\{,&\\},;g' | tr -d ' ' | awk '{print "echo",$0}' | bash | sed 's/,,*/,/g' | tr ' ' '\\n' | sed 's/,$/}/' | sed 's/^/{/'
 {}
 {,d}
 {,c}

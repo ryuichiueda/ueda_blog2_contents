@@ -195,11 +195,11 @@ $ cat ./nyaan.html | ...
 ```bash
 $ cat shellgei 
  m 
- &quot;&quot;m m &quot;m # # # # 
- mm # # #mmm&quot;&quot;&quot; m&quot; 
- &quot; m&quot; mmm&quot;&quot; # # # m&quot; # mm&quot;&quot;m 
- m&quot; #mm m&quot; # m&quot; &quot; # # 
- &quot;mm&quot;&quot; &quot;&quot;&quot;&quot; &quot; m&quot; #&quot; m&quot; # 
+ ""m m "m # # # # 
+ mm # # #mmm""" m" 
+ " m" mmm"" # # # m" # mm""m 
+ m" #mm m" # m" " # # 
+ "mm"" """" " m" #" m" # 
  
  
 ```
@@ -208,10 +208,10 @@ $ cat shellgei
 
 ```bash
  m 
- &quot;&quot;m m &quot;m # # # #
-mm # # #mmm&quot;&quot;&quot; m&quot; 
- &quot; m&quot; mmm&quot;&quot; # # # m&quot; # mm&quot;&quot;m 
- m&quot; #mm m&quot; # m&quot; &quot; # # 
-&quot;mm&quot;&quot; &quot;&quot;&quot;&quot; &quot;m&quot; #&quot; m&quot; # 
+ ""m m "m # # # #
+mm # # #mmm""" m" 
+ " m" mmm"" # # # m" # mm""m 
+ m" #mm m" # m" " # # 
+"mm"" """" "m" #" m" # 
 ```
 

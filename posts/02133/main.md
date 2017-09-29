@@ -32,18 +32,18 @@ Copyright: (C) 2017 Ryuichi Ueda
 今のところ、コードの本体は新言語をbashに変換するものですが、作ったbashを変換プログラムから直接起動することを試みた残骸がlangToBash.hsに残っています。
 
 ```hs
-main' :: [String] -&gt; IO ()
+main' :: [String] -> IO ()
 main' (scr:as) = do cs <- readF scr
  pn <- getProgName
- let scrname = scr ++ &quot;.bash&quot;
+ let scrname = scr ++ ".bash"
  writeFile scrname $ (Bash.toBash . parseGlueLang) cs
 {--
 an attempt of automatic execution of the generated bash script
 This function doesn't work well since
 the standard input is buffered before on memory. 
 The amount of buffer is small.
- let opts = [&quot;-evx&quot;,scrname] ++ as
- (stdin, stdout, stderr ,procHandle) <- runInteractiveProcess &quot;bash&quot; opts Nothing Nothing
+ let opts = ["-evx",scrname] ++ as
+ (stdin, stdout, stderr ,procHandle) <- runInteractiveProcess "bash" opts Nothing Nothing
  hPutStr stdin =<< getContents
  hFlush stdin
  hClose stdin

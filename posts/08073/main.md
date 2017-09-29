@@ -186,8 +186,8 @@ Z 死相
 
 ```bash
 ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q8.cc 
-#include <iostream&gt;
-#include <string&gt;
+#include <iostream>
+#include <string>
 using namespace std;
 
 void aho(void)
@@ -197,7 +197,7 @@ void aho(void)
 
 string nazo(void)
 {
-	return &quot;謎&quot;;
+	return "謎";
 }
 
 int main(int argc, char const* argv[])
@@ -211,8 +211,8 @@ int main(int argc, char const* argv[])
 
 ```bash
 ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q8.ans.cc 
-#include <iostream&gt;
-#include <string&gt;
+#include <iostream>
+#include <string>
 using namespace std;
 void aho(void);
 string nazo(void);
@@ -224,7 +224,7 @@ void aho(void)
 
 string nazo(void)
 {
-	return &quot;謎&quot;;
+	return "謎";
 }
 
 int main(int argc, char const* argv[])

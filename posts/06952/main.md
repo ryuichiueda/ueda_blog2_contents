@@ -21,7 +21,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ```bash
 $ tail -n 1 ~/.bash_profile 
-export PS1=&quot;目 &quot;
+export PS1="目 "
 ```
 
 端末立ち上げると、この通り。<s>不毛だ。</s>
@@ -31,7 +31,7 @@ export PS1=&quot;目 &quot;
 まずは目grep。いや、正確には目grepではないのだが・・・
 
 ```bash
-目 grep &quot;Linux&quot; *.tex | head
+目 grep "Linux" *.tex | head
 contents.tex:		\\item Linuxのデバイスドライバ
 contents.tex:\\frametitle{Linuxのデバイスドライバ}
 contents.tex:Version: Linux version 4.1.6-v7+ (root\@raspberrypi) (gcc version 4.6.3
@@ -54,12 +54,12 @@ remote: Compressing objects: 100% (6/6), done.
 remote: Total 7 (delta 2), reused 5 (delta 1), pack-reused 0
 Unpacking objects: 100% (7/7), done.
 From https://github.com/ryuichiueda/NikkeiRaspiMouse
- f42960d..6defb52 master -&gt; origin/master
+ f42960d..6defb52 master -> origin/master
 Updating f42960d..6defb52
 Fast-forward
- util/{kernel_update_for_RPi2.bash =&gt; kernel_build_RPi2.bash} | 3 +++
+ util/{kernel_update_for_RPi2.bash => kernel_build_RPi2.bash} | 3 +++
  1 file changed, 3 insertions(+)
- rename util/{kernel_update_for_RPi2.bash =&gt; kernel_build_RPi2.bash} (80%)
+ rename util/{kernel_update_for_RPi2.bash => kernel_build_RPi2.bash} (80%)
 ```
 
 

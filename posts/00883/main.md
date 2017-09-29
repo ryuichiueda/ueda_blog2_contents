@@ -11,7 +11,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 コードの合理化、逆行列・ベキ乗の実装と一気に進んだのでバージョンを0.02に引き上げ。しかし、ポカをやっちまったので現在0.021。
 
 ```bash
-uedamac:PMAT ueda$ cat data | ./pmat &quot;B=A^-1&quot; | ./pmat &quot;B^2*A^2+A&quot; | marume 2.1 3.1 4.1
+uedamac:PMAT ueda$ cat data | ./pmat "B=A^-1" | ./pmat "B^2*A^2+A" | marume 2.1 3.1 4.1
 A 1.0 2.0 1.0
 A 2.0 1.0 0.0
 A 1.0 1.0 2.0

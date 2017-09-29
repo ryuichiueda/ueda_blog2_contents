@@ -19,10 +19,10 @@ import rospy, os
 import CGIHTTPServer
 
 def kill():
- os.system(&quot;kill -KILL &quot; + str(os.getpid()))
+ os.system("kill -KILL " + str(os.getpid()))
 
 os.chdir(os.path.dirname(__file__))
-rospy.init_node(&quot;webserver&quot;)
+rospy.init_node("webserver")
 rospy.on_shutdown(kill)
 CGIHTTPServer.test()
 ```
@@ -31,9 +31,9 @@ CGIHTTPServer.test()
 launchファイルにノードを次のように書く。
 
 ```html
-<launch&gt;
- <node pkg=&quot;hoge_webserver&quot; name=&quot;webserver&quot; type=&quot;webserver.py&quot; required=&quot;true&quot; args=&quot;8080&quot; /&gt;
-</launch&gt;
+<launch>
+ <node pkg="hoge_webserver" name="webserver" type="webserver.py" required="true" args="8080" />
+</launch>
 ```
 
 

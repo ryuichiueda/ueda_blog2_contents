@@ -9,7 +9,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 <a href="https://github.com/ryuichiueda/PMAT/blob/c71f5b9488c363b2bba5f9e370bf645c9e7c334a/pmat.hs">https://github.com/ryuichiueda/PMAT/blob/c71f5b9488c363b2bba5f9e370bf645c9e7c334a/pmat.hs</a>
 
 ```bash
-uedamac:PMAT ueda$ cat data | ./pmat &quot;B=A+A&quot; | ./pmat &quot;C=B+A&quot; | ./pmat &quot;D=B-A&quot;
+uedamac:PMAT ueda$ cat data | ./pmat "B=A+A" | ./pmat "C=B+A" | ./pmat "D=B-A"
 A 0 1
 A 1 0
 B 0.0 2.0

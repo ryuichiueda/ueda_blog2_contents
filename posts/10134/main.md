@@ -97,66 +97,66 @@ $ grep -m 1 '^Keywords:' posts/*/main.md |
 次のHTMLファイルurl.htmlについて、リンクが相対パスになっているものについては頭に/files/をつけて、/から始まっているものとhttpやhttpsから始まっているものはそのままにしてください。できる人は変なところに改行があるものなどに対応できるように、なるべく一般解に近づけましょう。
 
 ```html
-<!DOCTYPE html&gt;
-<html&gt;
-<head&gt;
- <meta charset=&quot;utf-8&quot;&gt;
-</head&gt;
-<body&gt;
- <ul&gt;
- <li&gt;<a href=&quot;./hoge.html&quot;&gt;ほげ</a&gt;</li&gt;
- <li&gt;<img src=&quot;ayasii.jpg&quot; alt=&quot;怪しい&quot; /&gt;</li&gt;
- <li&gt;<a href=&quot;https://blog.ueda.tech/&quot;&gt;クソブログ</a&gt;<a href=&quot;huge.html&quot;&gt;ふげ</a&gt;</li&gt;
- <li&gt;<a href=&quot;/root.jpg&quot;&gt;</a&gt;これはそのまま</li&gt;
- <li&gt;<a href=&quot;http://www.usptomo.com/&quot;&gt;更新してない</a&gt;</li&gt;
- </ul&gt;
-</body&gt;
-</html&gt;
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+</head>
+<body>
+ <ul>
+ <li><a href="./hoge.html">ほげ</a></li>
+ <li><img src="ayasii.jpg" alt="怪しい" /></li>
+ <li><a href="https://blog.ueda.tech/">クソブログ</a><a href="huge.html">ふげ</a></li>
+ <li><a href="/root.jpg"></a>これはそのまま</li>
+ <li><a href="http://www.usptomo.com/">更新してない</a></li>
+ </ul>
+</body>
+</html>
 ```
 
 次が出力例です。
 
 ```html
-<!DOCTYPE html&gt;
-<html&gt;
-<head&gt;
- <meta charset=&quot;utf-8&quot;&gt;
-</head&gt;
-<body&gt;
- <ul&gt;
- <li&gt;<a href=&quot;/files/hoge.html&quot;&gt;ほげ</a&gt;</li&gt;
- <li&gt;<img src=&quot;/files/ayasii.jpg&quot; alt=&quot;怪しい&quot; /&gt;</li&gt;
- <li&gt;<a href=&quot;https://blog.ueda.tech/&quot;&gt;クソブログ</a&gt;<a href=&quot;/files/huge.html&quot;&gt;ふげ</a&gt;</li&gt;
- <li&gt;<a href=&quot;/root.jpg&quot;&gt;</a&gt;これはそのまま</li&gt;
- <li&gt;<a href=&quot;http://www.usptomo.com/&quot;&gt;更新してない</a&gt;</li&gt;
- </ul&gt;
-</body&gt;
-</html&gt;
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+</head>
+<body>
+ <ul>
+ <li><a href="/files/hoge.html">ほげ</a></li>
+ <li><img src="/files/ayasii.jpg" alt="怪しい" /></li>
+ <li><a href="https://blog.ueda.tech/">クソブログ</a><a href="/files/huge.html">ふげ</a></li>
+ <li><a href="/root.jpg"></a>これはそのまま</li>
+ <li><a href="http://www.usptomo.com/">更新してない</a></li>
+ </ul>
+</body>
+</html>
 ```
 
 <h3>解答</h3>
 いちおうこれで大丈夫だとは思うのですが、自分でもなんだかよくわかりません・・・。
 
 ```bash
-$ cat url.html | sed -r 's;(img src=&quot;|a href=&quot;);&amp;/files/;g' |
- sed -r 's;(href=&quot;|src=&quot;)/files//;\\1/;' |
- sed -r 's;(href=&quot;|src=&quot;)/files/(https://|http://);\\1\\2;g' |
+$ cat url.html | sed -r 's;(img src="|a href=");&/files/;g' |
+ sed -r 's;(href="|src=")/files//;\\1/;' |
+ sed -r 's;(href="|src=")/files/(https://|http://);\\1\\2;g' |
  sed 's;/./;/;g'
-<!DOCTYPE html&gt;
-<html&gt;
-<head&gt;
- <meta charset=&quot;utf-8&quot;&gt;
-</head&gt;
-<body&gt;
- <ul&gt;
- <li&gt;<a href=&quot;/files/hoge.html&quot;&gt;ほげ</a&gt;</li&gt;
- <li&gt;<img src=&quot;/files/ayasii.jpg&quot; alt=&quot;怪しい&quot; /&gt;</li&gt;
- <li&gt;<a href=&quot;https://blog.ueda.tech/&quot;&gt;クソブログ</a&gt;<a href=&quot;/files/huge.html&quot;&gt;ふげ</a&gt;</li&gt;
- <li&gt;<a href=&quot;/root.jpg&quot;&gt;</a&gt;これはそのまま</li&gt;
- <li&gt;<a href=&quot;http://www.usptomo.com/&quot;&gt;更新してない</a&gt;</li&gt;
- </ul&gt;
-</body&gt;
-</html&gt;
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+</head>
+<body>
+ <ul>
+ <li><a href="/files/hoge.html">ほげ</a></li>
+ <li><img src="/files/ayasii.jpg" alt="怪しい" /></li>
+ <li><a href="https://blog.ueda.tech/">クソブログ</a><a href="/files/huge.html">ふげ</a></li>
+ <li><a href="/root.jpg"></a>これはそのまま</li>
+ <li><a href="http://www.usptomo.com/">更新してない</a></li>
+ </ul>
+</body>
+</html>
 ```
 
 <h2>Q3</h2>
@@ -174,19 +174,19 @@ $ cat list
 ```html
 Content-Type: text/html
 
-<!DOCTYPE html&gt;
-<html&gt;
-<head&gt;
- <meta charset=&quot;utf-8&quot;&gt;
-</head&gt;
-<body&gt;
-<ul&gt;
-<li&gt;妬み</li&gt;
-<li&gt;嫉み</li&gt;
-<li&gt;僻み</li&gt;
-</ul&gt;
-</body&gt;
-</html&gt;
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+</head>
+<body>
+<ul>
+<li>妬み</li>
+<li>嫉み</li>
+<li>僻み</li>
+</ul>
+</body>
+</html>
 ```
 
 すぐできて退屈な人は、インターネット上のサーバでこのHTMLファイルを送信するサーバをワンライナーで立ててください。
@@ -194,9 +194,9 @@ Content-Type: text/html
 ゴリゴリやってもあまり苦労はしないと思いますが、Pandocの紹介がてら問題を出しました。
 
 ```bash
-$ cat list | sed 's/\\* /<li&gt;/' | sed 's;$;</li&gt;;' |
- sed '1iContent-Type: text/html\\n\\n<!DOCTYPE html&gt;<html&gt;<head&gt;<meta charset=&quot;utf-8&quot;&gt;</head&gt;<body&gt;<ul&gt;' |
- sed '$a</ul&gt;</body&gt;</html&gt;' | sed 's/&gt;</&gt;\\n</g'
+$ cat list | sed 's/\\* /<li>/' | sed 's;$;</li>;' |
+ sed '1iContent-Type: text/html\\n\\n<!DOCTYPE html><html><head><meta charset="utf-8"></head><body><ul>' |
+ sed '$a</ul></body></html>' | sed 's/></>\\n</g'
 ### Pandocを使う方法 ###
 $ pandoc list -t html5 -s | sed '5,12d' | sed '1iContent-Type: text/html\\n'
 ```
@@ -217,9 +217,9 @@ $ while : ; do pandoc list -t html5 -s | sed '5,12d' |
 hubの紹介のための問題でした。
 
 ```bash
-$ mkdir hoge &amp;&amp; cd hoge &amp;&amp; git init &amp;&amp; echo aho &gt; aho.txt 
-&amp;&amp; git add -A &amp;&amp; git commit -m &quot;aho&quot; 
-&amp;&amp; hub create ryuichiueda/hoge &amp;&amp; git push origin master
+$ mkdir hoge && cd hoge && git init && echo aho > aho.txt 
+&& git add -A && git commit -m "aho" 
+&& hub create ryuichiueda/hoge && git push origin master
 Initialized empty Git repository in /home/ueda/hoge/hoge/hoge/.git/
 [master (root-commit) 76206c8] aho
  1 file changed, 1 insertion(+)
@@ -230,7 +230,7 @@ Counting objects: 3, done.
 Writing objects: 100% (3/3), 215 bytes | 0 bytes/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To git\@github.com:ryuichiueda/hoge.git
- * [new branch] master -&gt; master
+ * [new branch] master -> master
 ```
 
 <h2>Q5</h2>
@@ -248,7 +248,7 @@ Perlを使ってみました。（Perlに慣れていればもっと前処理は
 ```bash
 $ cat complex | sed 's/^/(/' | sed 's/$/)/' | sed '2,$i*' |
  xargs | tr -d ' ' |
- xargs -I\@ perl -e '{use Math::Complex;print(\@);print &quot;\\n&quot;}'
+ xargs -I\@ perl -e '{use Math::Complex;print(\@);print "\\n"}'
 11+10i
 ```
 
@@ -287,7 +287,7 @@ $ seq -w 0 99 | while read n ; do grep -q $n nums || echo $n ; done
 whileやforを使わない場合はこんな感じで。
 
 ```bash
-$ cat nums | sed 's/.\\(.*\\)/\\1\\n&amp;/' | fold -b2 | grep .. | sort -u |
+$ cat nums | sed 's/.\\(.*\\)/\\1\\n&/' | fold -b2 | grep .. | sort -u |
  sort -m - <(seq -w 00 99) | sort | uniq -u
 31
 33
@@ -315,7 +315,7 @@ r-y
 
 ```bash
 $ cat alphabet |
- awk '{a=$1;gsub(/-/,&quot;..&quot;,a);print &quot;echo&quot;,$1,&quot;{&quot;a&quot;}&quot;}' |
+ awk '{a=$1;gsub(/-/,"..",a);print "echo",$1,"{"a"}"}' |
  bash | awk '{print $1,NF}' | sort -k2,2n |
  tail -n 1 | awk '{print $1}'
 e-q

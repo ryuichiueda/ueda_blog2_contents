@@ -62,7 +62,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 ```bash
 $ curl http://www.data.jma.go.jp/fcd/yoho/typhoon/statistics/landing/landing.csv |
- nkf -wLux &gt; landing.csv
+ nkf -wLux > landing.csv
 ```
 
 次にこのデータを、以下のようなデータ（ファイル名: monthly_typhoon）に変換してください。第1フィールドが年月、第2フィールドが台風の上陸頻度です。
@@ -96,8 +96,8 @@ $ tail monthly_typhoon
 
 ```bash
 $ cat landing.csv | awk -F, '{for(i=2;i<=13;i++){print $1,$i}}' |
- grep -v 年 | awk '{print $1 sprintf(&quot;%02d&quot;,(NR-1)%12+1),$2}' |
- awk 'NF==1{print $1,0}NF!=1' &gt; monthly_typhoon
+ grep -v 年 | awk '{print $1 sprintf("%02d",(NR-1)%12+1),$2}' |
+ awk 'NF==1{print $1,0}NF!=1' > monthly_typhoon
 ```
 
 <h2>Q2</h2>
@@ -148,13 +148,13 @@ $ cat monthly_typhoon | sed 's/^....//' |
 まずこうすると各年で何月だったか分かります。
 
 ```bash
-$ sed 's/^..../&amp; /' monthly_typhoon | grep -v ' 0$' | uniq -w4
+$ sed 's/^..../& /' monthly_typhoon | grep -v ' 0$' | uniq -w4
 ```
 
 何月が何回だったかは次の通り。
 
 ```bash
-$ sed 's/^..../&amp; /' monthly_typhoon | grep -v ' 0$' | uniq -w4 |
+$ sed 's/^..../& /' monthly_typhoon | grep -v ' 0$' | uniq -w4 |
  awk '{print $2}' | sort | uniq 
 c- 1 04
  2 05
@@ -186,7 +186,7 @@ $ cat monthly_typhoon | sed 's/.. / /' | grep ' 0$' |
 
 ```bash
 $ curl http://www.city.osaka.lg.jp/shimin/cmsfiles/contents/0000298/298810/006hittakuri2015.csv |
- nkf -wLux | tr , ' ' | tail -n +2 &gt; hittakuri
+ nkf -wLux | tr , ' ' | tail -n +2 > hittakuri
 $ head -n 5 hittakuri 
 大阪市北区 曾根崎 １丁目付近 窃盗 既遂 ひったくり 自動二輪 2015年 1月 24日 2時頃 女性 20代
 大阪市北区 兎我野町 付近 窃盗 既遂 ひったくり 自動二輪 2015年 2月 11日 20時頃 女性 20代
@@ -242,7 +242,7 @@ c- 19 大阪市阿倍野区
 ```bash
 $ awk '{print $1}' hittakuri | sort | uniq -c |
  awk '{print $2,$1}' | LANG=C sort | join - <(LANG=C sort population_h27sep) |
- awk '{printf(&quot;%s %7f\\n&quot;,$1,$2/$3)}' | sort -k2,2nr
+ awk '{printf("%s %7f\\n",$1,$2/$3)}' | sort -k2,2nr
 ```
 
 <h2>Q8</h2>
@@ -265,7 +265,7 @@ $ cat hittakuri | awk '{print $1$2$3,$8,$9,$10}' | sort | uniq -d
 <h3>解答</h3>
 
 ```bash
-$ awk '{print $5,$7}' hittakuri | awk '$1==&quot;既遂&quot;{a[$2]++}{b[$2]++}END{for(k in a){print k,a[k]/b[k]}}'
+$ awk '{print $5,$7}' hittakuri | awk '$1=="既遂"{a[$2]++}{b[$2]++}END{for(k in a){print k,a[k]/b[k]}}'
 徒歩 0.942308
 自動車 0.904762
 自転車 0.92053

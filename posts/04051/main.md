@@ -40,9 +40,9 @@ Macで解答を作ったのでLinuxな方は次のようにコマンドの読み
 次のようにShift JISのファイルを作り、Shift JISで「きく」と書いてあるファイルを探すワンライナーを考えてください。（答えは「b」ですね。）
 
 ```bash
-uedambp:q1 ueda$ echo あいうえお | nkf -xLws &gt; a
-uedambp:q1 ueda$ echo かきくけこ | nkf -xLws &gt; b
-uedambp:q1 ueda$ echo さしすせそ | nkf -xLws &gt; c
+uedambp:q1 ueda$ echo あいうえお | nkf -xLws > a
+uedambp:q1 ueda$ echo かきくけこ | nkf -xLws > b
+uedambp:q1 ueda$ echo さしすせそ | nkf -xLws > c
 ```
 
 <h2>Q2</h2>
@@ -157,21 +157,21 @@ Q6について、適当にファイルをtouchします。今度はタイムス�
 次のように5個ファイルを作ります。file1をfile2, file2をfile3, file3をfile4, file4をfile5, file5をfile1にmvしてください。
 
 ```bash
-uedambp:q8 ueda$ for i in 1 2 3 4 5 ; do echo $i &gt; file$i ; done
+uedambp:q8 ueda$ for i in 1 2 3 4 5 ; do echo $i > file$i ; done
 uedambp:q8 ueda$ head *
-==&gt; file1 <==
+==> file1 <==
 1
 
-==&gt; file2 <==
+==> file2 <==
 2
 
-==&gt; file3 <==
+==> file3 <==
 3
 
-==&gt; file4 <==
+==> file4 <==
 4
 
-==&gt; file5 <==
+==> file5 <==
 5
 ```
 

@@ -112,10 +112,10 @@ $ tree
 それ以外のファイルをディレクトリbに振り分けてください。
 
 ```bash
-$ echo hoge &gt; file1
-$ echo huge &gt; file2
-$ echo hoge &gt; file3
-$ echo hoge &gt; file4
+$ echo hoge > file1
+$ echo huge > file2
+$ echo hoge > file3
+$ echo hoge > file4
 $ mkdir a b
 ```
 

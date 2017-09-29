@@ -26,17 +26,17 @@ Excelと言えば、最近、<a href="http://itpro.nikkeibp.co.jp/article/Watche
 
 ```bash
 ueda\@remote:~/tmp$ unzip *
-ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;</si&gt;;&amp;\\n;g'
-<si&gt;<t&gt;ﾀﾞｧｼｴﾘｲｪｽ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
-<si&gt;<t&gt;ﾀﾞｯ・・・ｧｼｴﾘｲｪｽ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
+ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;</si>;&\\n;g'
+<si><t>ﾀﾞｧｼｴﾘｲｪｽ</t><phoneticPr fontId="1"/></si>
+<si><t>ﾀﾞｯ・・・ｧｼｴﾘｲｪｽ</t><phoneticPr fontId="1"/></si>
 ```
 
 このファイルのsi要素に、上から0,1番と番号を振り、それをsheet1.xmlで参照しています。
 
 ```bash
-ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;</c&gt;;&amp;\\n;g'
-<c r=&quot;A1&quot; t=&quot;s&quot;&gt;<v&gt;0</v&gt;</c&gt;
-<c r=&quot;A2&quot; t=&quot;s&quot;&gt;<v&gt;1</v&gt;</c&gt;
+ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;</c>;&\\n;g'
+<c r="A1" t="s"><v>0</v></c>
+<c r="A2" t="s"><v>1</v></c>
 ```
 
 <a href="http://blog.ueda.asia/?p=2398" title="Excelファイルをシェル芸でほじくる。ただしエクセル方眼紙は後日ということで。" target="_blank">数字のときはv要素の中に数字が入っていましたが</a>、文字列のセルの場合はc要素にt="s"という目印を付けた上でv要素の中にポインタが入っています。
@@ -65,41 +65,41 @@ sharedStrings.xmlとsheet1.xmlから文字の部分を引っ張りだしてみ�
 
 ```bash
 ueda\@remote:~/tmp$ unzip *
-ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;</si&gt;;&amp;\\n;g'
-<si&gt;<t&gt;ﾀ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
-<si&gt;<t&gt;ﾞ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
-<si&gt;<t&gt;ｧ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
-<si&gt;<t&gt;ｼ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
-<si&gt;<t&gt;ｴ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
-<si&gt;<t&gt;ﾘ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
-<si&gt;<t&gt;ｲ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
-<si&gt;<t&gt;ｪ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
-<si&gt;<t&gt;ｽ</t&gt;</si&gt;
-<si&gt;<t&gt;ｯ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
-<si&gt;<t&gt;・</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
-ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;</c&gt;;&amp;\\n;g'
-<c r=&quot;A1&quot; t=&quot;s&quot;&gt;<v&gt;0</v&gt;</c&gt;
-<c r=&quot;B1&quot; t=&quot;s&quot;&gt;<v&gt;1</v&gt;</c&gt;
-<c r=&quot;C1&quot; t=&quot;s&quot;&gt;<v&gt;2</v&gt;</c&gt;
-<c r=&quot;D1&quot; t=&quot;s&quot;&gt;<v&gt;3</v&gt;</c&gt;
-<c r=&quot;E1&quot; t=&quot;s&quot;&gt;<v&gt;4</v&gt;</c&gt;
-<c r=&quot;F1&quot; t=&quot;s&quot;&gt;<v&gt;5</v&gt;</c&gt;
-<c r=&quot;G1&quot; t=&quot;s&quot;&gt;<v&gt;6</v&gt;</c&gt;
-<c r=&quot;H1&quot; t=&quot;s&quot;&gt;<v&gt;7</v&gt;</c&gt;
-<c r=&quot;I1&quot; t=&quot;s&quot;&gt;<v&gt;8</v&gt;</c&gt;
-<c r=&quot;A2&quot; t=&quot;s&quot;&gt;<v&gt;0</v&gt;</c&gt;
-<c r=&quot;B2&quot; t=&quot;s&quot;&gt;<v&gt;1</v&gt;</c&gt;
-<c r=&quot;C2&quot; t=&quot;s&quot;&gt;<v&gt;9</v&gt;</c&gt;
-<c r=&quot;D2&quot; t=&quot;s&quot;&gt;<v&gt;10</v&gt;</c&gt;
-<c r=&quot;E2&quot; t=&quot;s&quot;&gt;<v&gt;10</v&gt;</c&gt;
-<c r=&quot;F2&quot; t=&quot;s&quot;&gt;<v&gt;10</v&gt;</c&gt;
-<c r=&quot;G2&quot; t=&quot;s&quot;&gt;<v&gt;2</v&gt;</c&gt;
-<c r=&quot;H2&quot; t=&quot;s&quot;&gt;<v&gt;3</v&gt;</c&gt;
-<c r=&quot;I2&quot; t=&quot;s&quot;&gt;<v&gt;4</v&gt;</c&gt;
-<c r=&quot;J2&quot; t=&quot;s&quot;&gt;<v&gt;5</v&gt;</c&gt;
-<c r=&quot;K2&quot; t=&quot;s&quot;&gt;<v&gt;6</v&gt;</c&gt;
-<c r=&quot;L2&quot; t=&quot;s&quot;&gt;<v&gt;7</v&gt;</c&gt;
-<c r=&quot;M2&quot; t=&quot;s&quot;&gt;<v&gt;8</v&gt;</c&gt;
+ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;</si>;&\\n;g'
+<si><t>ﾀ</t><phoneticPr fontId="1"/></si>
+<si><t>ﾞ</t><phoneticPr fontId="1"/></si>
+<si><t>ｧ</t><phoneticPr fontId="1"/></si>
+<si><t>ｼ</t><phoneticPr fontId="1"/></si>
+<si><t>ｴ</t><phoneticPr fontId="1"/></si>
+<si><t>ﾘ</t><phoneticPr fontId="1"/></si>
+<si><t>ｲ</t><phoneticPr fontId="1"/></si>
+<si><t>ｪ</t><phoneticPr fontId="1"/></si>
+<si><t>ｽ</t></si>
+<si><t>ｯ</t><phoneticPr fontId="1"/></si>
+<si><t>・</t><phoneticPr fontId="1"/></si>
+ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;</c>;&\\n;g'
+<c r="A1" t="s"><v>0</v></c>
+<c r="B1" t="s"><v>1</v></c>
+<c r="C1" t="s"><v>2</v></c>
+<c r="D1" t="s"><v>3</v></c>
+<c r="E1" t="s"><v>4</v></c>
+<c r="F1" t="s"><v>5</v></c>
+<c r="G1" t="s"><v>6</v></c>
+<c r="H1" t="s"><v>7</v></c>
+<c r="I1" t="s"><v>8</v></c>
+<c r="A2" t="s"><v>0</v></c>
+<c r="B2" t="s"><v>1</v></c>
+<c r="C2" t="s"><v>9</v></c>
+<c r="D2" t="s"><v>10</v></c>
+<c r="E2" t="s"><v>10</v></c>
+<c r="F2" t="s"><v>10</v></c>
+<c r="G2" t="s"><v>2</v></c>
+<c r="H2" t="s"><v>3</v></c>
+<c r="I2" t="s"><v>4</v></c>
+<c r="J2" t="s"><v>5</v></c>
+<c r="K2" t="s"><v>6</v></c>
+<c r="L2" t="s"><v>7</v></c>
+<c r="M2" t="s"><v>8</v></c>
 ```
 
 <span style="color:red;font-size:40px">うわああああああああああああ！！！！</span>と興奮することもないですが、結構前立腺肥大しています。サイズは、と・・・
@@ -117,12 +117,12 @@ c-619
 
 ```bash
 #マイクロソフトのもくろみではこの構造の方が節約できる
-<c r=&quot;A1&quot; t=&quot;s&quot;&gt;<v&gt;0</v&gt;</c&gt;
-<c r=&quot;A2&quot; t=&quot;s&quot;&gt;<v&gt;0</v&gt;</c&gt;
-<si&gt;<t&gt;ﾀ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
+<c r="A1" t="s"><v>0</v></c>
+<c r="A2" t="s"><v>0</v></c>
+<si><t>ﾀ</t><phoneticPr fontId="1"/></si>
 #でもこうした方が小さいという・・・
-<c r=&quot;A1&quot;&gt;<v&gt;ﾀ</v&gt;</c&gt;
-<c r=&quot;A2&quot;&gt;<v&gt;ﾀ</v&gt;</c&gt;
+<c r="A1"><v>ﾀ</v></c>
+<c r="A2"><v>ﾀ</v></c>
 ```
 ポインタの方がでかいという・・・。
 

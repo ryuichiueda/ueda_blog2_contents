@@ -14,11 +14,11 @@ make all-pdf-ja
 ```
 すると、
 ```bash
-dvipdfmx:warning: Unknown token &quot;SDict&quot;
+dvipdfmx:warning: Unknown token "SDict"
 dvipdfmx:warning: Interpreting PS code failed!!! Output might be broken!!!
 dvipdfmx:warning: Interpreting special command ps: (ps:) failed.
-dvipdfmx:warning: &gt;&gt; at page=&quot;10&quot; position=&quot;(72, 586.048)&quot; (in PDF)
-dvipdfmx:warning: &gt;&gt; xxx &quot;ps:SDict begin [/View [/XYZ H.V]/Dest (section.1.3) cvn /DES...&quot;
+dvipdfmx:warning: >> at page="10" position="(72, 586.048)" (in PDF)
+dvipdfmx:warning: >> xxx "ps:SDict begin [/View [/XYZ H.V]/Dest (section.1.3) cvn /DES..."
 （延々と続く）
 ```
 という風にガーッとエラーが出ておっそい。

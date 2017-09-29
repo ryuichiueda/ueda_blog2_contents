@@ -76,8 +76,8 @@ x x
 ```bash
 ueda\@remote:~$ yes | head -n 21 |
 awk '{for(i=1;i<=21;i++){
-if(i==NR || 22-i==NR){printf &quot;x&quot;}else{printf &quot; &quot;}}
-print &quot;&quot;}'
+if(i==NR || 22-i==NR){printf "x"}else{printf " "}}
+print ""}'
 ```
 
 
@@ -108,8 +108,8 @@ ueda\@remote:~$ echo たけやぶ |
 while read s ; do echo $s ; rev <<< $s ; done | 
 xargs | sed 's/ .//'
 たけやぶやけた
-ueda\@remote:~$ echo たけやぶ | sed 's/./&amp; /g' |
-awk '{printf $0;for(i=NF-1;i&gt;=1;i--){printf $i};print &quot;&quot;}' |
+ueda\@remote:~$ echo たけやぶ | sed 's/./& /g' |
+awk '{printf $0;for(i=NF-1;i>=1;i--){printf $i};print ""}' |
 tr -d ' '
 たけやぶやけた
 ###鳥海さん解答###
@@ -129,9 +129,9 @@ ueda\@remote:~/tmp$ rev kaibun | paste kaibun - | sed 's/.\\t//'
 ```bash
 ueda\@remote:~$ curl http://ja.wikipedia.org/wiki/%E5%8D%97%E6%AD%A6%E7%B7%9A | 
 sed -n '/南武線新旧 快速停車駅/,$p' | sed -n '/川崎/,$p' | 
-sed -n '1,/立川/p' | sed 's/<[^<]*&gt;//g'
-ueda\@remote:~$ curl 'http://express.heartrails.com/api/json?method=getStations&amp;line=JR南武線' |
- jq . | grep '&quot;name&quot;' | awk '{print $2}' | tr -d '&quot;,'
+sed -n '1,/立川/p' | sed 's/<[^<]*>//g'
+ueda\@remote:~$ curl 'http://express.heartrails.com/api/json?method=getStations&line=JR南武線' |
+ jq . | grep '"name"' | awk '{print $2}' | tr -d '",'
 ```
 
 <h2>Q4</h2>
@@ -152,8 +152,8 @@ Webを利用します。
 
 ```bash
 ueda\@remote:~/tmp$ curl http://elze.tanosii.net/d/kenmei.htm |
-nkf -wLux | grep &quot;[都道府県]&quot; |
-grep -f ./pref | sed 's/[^&gt;]*&gt;//' | sed 's/(.*//'
+nkf -wLux | grep "[都道府県]" |
+grep -f ./pref | sed 's/[^>]*>//' | sed 's/(.*//'
 青森県
 群馬県
 大阪府
@@ -176,7 +176,7 @@ B 10 31.1 -34 94
 ueda\@remote:~/tmp$ cat input | 
 awk '{for(i=2;i<=NF;i++){print $1,$i}}' | 
 sort -k1,1 -k2,2nr | 
-awk '{if(a==$1){printf &quot; &quot;$2}else{print &quot;&quot;;printf $0;a=$1}}' | 
+awk '{if(a==$1){printf " "$2}else{print "";printf $0;a=$1}}' | 
 awk 'NF!=0'
 A 1234 31 4 -42
 B 94 31.1 10 -34
@@ -214,7 +214,7 @@ ueda\@remote:~/tmp$ cat num
 
 ```bash
 ueda\@remote:~/tmp$ cat num | 
-awk '{printf(&quot;%2d &quot;,$1);for(i=0;i<$1;i++){printf &quot;*&quot;}print &quot;&quot;}'
+awk '{printf("%2d ",$1);for(i=0;i<$1;i++){printf "*"}print ""}'
 ```
 
 <h2>Q7</h2>
@@ -240,17 +240,17 @@ Q6のグラフを次のように縦にしてください。
 
 ```bash
 ueda\@remote:~/tmp$ cat num | 
-awk '{printf $1&quot; &quot;;for(i=0;i<$1;i++){printf &quot;* &quot;}
-for(i=$1;i<=15;i++){printf &quot;_ &quot;};print &quot;&quot;}' |
+awk '{printf $1" ";for(i=0;i<$1;i++){printf "* "}
+for(i=$1;i<=15;i++){printf "_ "};print ""}' |
  awk '{for(i=1;i<=NF;i++){a[NR,i]=$i}}
 END{for(i=1;i<=15;i++)
-{for(j=1;j<=NR;j++){printf a[j,i]&quot; &quot;}print &quot;&quot;}}' | 
+{for(j=1;j<=NR;j++){printf a[j,i]" "}print ""}}' | 
 tac | sed -n '/\\*/,$p' | tr _ ' '
 ###tukubai使用###
 ueda\@remote:~/tmp$ cat num | 
-awk '{printf $1&quot; &quot;;
-for(i=0;i<$1;i++){printf &quot;* &quot;}
-for(i=$1;i<=15;i++){printf &quot;_ &quot;};print &quot;&quot;}' |
+awk '{printf $1" ";
+for(i=0;i<$1;i++){printf "* "}
+for(i=$1;i<=15;i++){printf "_ "};print ""}' |
  tateyoko | tac | keta | sed -n '/\\*/,$p' | tr _ ' '
 ```
 
@@ -271,10 +271,10 @@ C-B 2-1
 
 ```bash
 ueda\@remote:~/tmp$ cat result | tr '-' ' ' | 
-awk '{print $1,$2,($3&gt;$4)?&quot;W L&quot;:&quot;L W&quot;}' | 
+awk '{print $1,$2,($3>$4)?"W L":"L W"}' | 
 awk '{print $1,$3;print $2,$4}' | 
-awk '$2==&quot;L&quot;{L[$1]++}$2==&quot;W&quot;{W[$1]++}
-END{for(w in W){print w,W[w]&quot;勝&quot;};for(l in L){print l,L[l]&quot;負&quot;}}' |
+awk '$2=="L"{L[$1]++}$2=="W"{W[$1]++}
+END{for(w in W){print w,W[w]"勝"};for(l in L){print l,L[l]"負"}}' |
  sort
 A 3負
 B 1負
@@ -283,8 +283,8 @@ C 1負
 C 2勝
 ###tukubai###
 ueda\@remote:~/tmp$ cat result | tr '-' ' ' | 
-awk '{if($3&gt;$4){print $1,&quot;W&quot;;print $2,&quot;L&quot;}
-else{print $2,&quot;W&quot;;print $1,&quot;L&quot;}}' | 
+awk '{if($3>$4){print $1,"W";print $2,"L"}
+else{print $2,"W";print $1,"L"}}' | 
 sort | count 1 2 | map num=1
 * L W
 A 3 0

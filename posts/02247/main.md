@@ -50,9 +50,9 @@ d	e	f
 ###delfは即死（ちゃんとエラー処理を実装しないといけないとは思いつつ・・・放置！）###
 uedambp:~ ueda$ delf 2 hoge.tab 
 Traceback (most recent call last):
- File &amp;quot;/usr/local/bin/delf&amp;quot;, line 149, in &amp;lt;module&amp;gt;
+ File "/usr/local/bin/delf", line 149, in <module>
  op.output(tokens)
- File &amp;quot;/usr/local/bin/delf&amp;quot;, line 80, in output
+ File "/usr/local/bin/delf", line 80, in output
  tokens[i] = None
 IndexError: list assignment index out of range
 ###ただしselfだけはタブを受け付けるという・・・（未定義動作）###

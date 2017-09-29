@@ -26,25 +26,25 @@ dir=$(echo $1 | sed 's;/[^/]*$;;')
 
 cat $1 |
 nkf -wLux |
-gsed 's/&gt;/&gt;\\n/g' |
-gsed -n '/<table/,/<\\/table&gt;/p' |
+gsed 's/>/>\\n/g' |
+gsed -n '/<table/,/<\\/table>/p' |
 tr -d '\\n' |
-gsed 's;</li&gt;;&amp;\\n;g' |
-gsed 's/<a[^<]*&gt;//g' |
-gsed 's/.*<td&gt;/%%\\n/' |
-gsed 's/<ul&gt;/\\n/g' |
-gsed 's/<br&gt;/\\n/g' |
+gsed 's;</li>;&\\n;g' |
+gsed 's/<a[^<]*>//g' |
+gsed 's/.*<td>/%%\\n/' |
+gsed 's/<ul>/\\n/g' |
+gsed 's/<br>/\\n/g' |
 gsed 's/\\[.*\\]//g' |
-gsed 's/<img src=&quot;//g' |
-gsed 's/&quot;&gt;//' |
+gsed 's/<img src="//g' |
+gsed 's/">//' |
 sed 's/→.*//' |
 sed 's/[《》]/ /g' |
 sed 's/ */ /g' |
-sed 's/<[^<]*&gt;//g' |
-awk -v d=&quot;$1&quot; '{
- if(/%%/){k=&quot;&quot;;rank++;}
- else if(k==&quot;&quot;){k=$1}
- else{print d,k,&quot;RANK&quot;rank,$0}
+sed 's/<[^<]*>//g' |
+awk -v d="$1" '{
+ if(/%%/){k="";rank++;}
+ else if(k==""){k=$1}
+ else{print d,k,"RANK"rank,$0}
 }' |
 sed 's;^[^ ]*/;;' |
 sed 's/\\.html//' |
@@ -64,18 +64,18 @@ gsedとsedが入り混じってますが、単に私がいい加減にやって�
 
 #$1: filename $2: IMAGE $3: COURSE
 
-cp &quot;$2&quot; &quot;$2.png&quot;
+cp "$2" "$2.png"
 
-grayimg=gray.$(basename &quot;$2.png&quot;)
+grayimg=gray.$(basename "$2.png")
 
-convert -type GrayScale &quot;$2.png&quot; $grayimg
+convert -type GrayScale "$2.png" $grayimg
 cp $grayimg ./$3/ppt/media/image1.png
 
 cp ./$3/ppt/slides/slide1.xml slide1.xml
-sed &quot;s/\@/$1/&quot; ./$3/ppt/slides/slide1.xml &gt; new.xml
+sed "s/\@/$1/" ./$3/ppt/slides/slide1.xml > new.xml
 mv new.xml ./$3/ppt/slides/slide1.xml
 
-( cd ./$3/ &amp;&amp; zip -r ../../$1.$3.pptx ./)
+( cd ./$3/ && zip -r ../../$1.$3.pptx ./)
 
 mv slide1.xml ./$3/ppt/slides/slide1.xml
 rm $grayimg

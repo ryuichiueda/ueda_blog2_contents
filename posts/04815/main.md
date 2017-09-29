@@ -10,9 +10,9 @@ Copyright: (C) 2017 Ryuichi Ueda
 これがサンプルスクリプトです。
 ```hs
 uedambp:TEST ueda$ cat pipeline_mac4.glue 
-/usr/bin/seq '1' '5' &gt;&gt;=
-/usr/bin/tail '-r' &gt;&gt;=
-/usr/bin/tr '\\n' ' ' &gt;&gt;=
+/usr/bin/seq '1' '5' >>=
+/usr/bin/tail '-r' >>=
+/usr/bin/tr '\\n' ' ' >>=
 /usr/local/bin/awk '{print}'
 ###実行###
 uedambp:TEST ueda$ ../main pipeline_mac4.glue 
@@ -31,7 +31,7 @@ main infile = do
  file tmp = cattac infile 
  b.cat tmp
 
-cattac file = b.cat file &gt;&gt;= ub.tail '-r'
+cattac file = b.cat file >>= ub.tail '-r'
 ```
 
 型の考え方も、テーブルの列数とかちょっとしたデータの縛りを作るのに利用できそうです。

@@ -50,7 +50,7 @@ uedamac:~ ueda$ identify -verbose ~/Pictures/iPhone/IMG_0005.JPG | grep GPS
 これだと単にコマンドの紹介になっちまいますので、シェル芸で写真の名前と緯度経度を並べてお茶を濁します。うーん。新橋に行って、その後鎌倉に行ったことが丸わかりです（数字見ただけでは分からんが）。
 
 ```bash
-uedamac:~ ueda$ for f in ~/Pictures/iPhone/IMG_* ; do echo $f ; identify -verbose $f | grep -E ':GPS(Latitude|Longitude):' ; done | awk '/\\/Users/{print &quot;&quot;;printf $0}/^ /{printf $0}' 
+uedamac:~ ueda$ for f in ~/Pictures/iPhone/IMG_* ; do echo $f ; identify -verbose $f | grep -E ':GPS(Latitude|Longitude):' ; done | awk '/\\/Users/{print "";printf $0}/^ /{printf $0}' 
 
 /Users/ueda/Pictures/iPhone/IMG_0002.JPG exif:GPSLatitude: 35/1, 3989/100, 0/1 exif:GPSLongitude: 139/1, 4540/100, 0/1
 /Users/ueda/Pictures/iPhone/IMG_0005.JPG exif:GPSLatitude: 35/1, 3989/100, 0/1 exif:GPSLongitude: 139/1, 4540/100, 0/1

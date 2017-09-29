@@ -35,12 +35,12 @@ Copyright: (C) 2017 Ryuichi Ueda
 tmp=/tmp/$$
 
 cat ./file1 |
-grep -v 'hoge' &gt; $tmp-1
+grep -v 'hoge' > $tmp-1
 
 cat ./file1 |
-grep -v 'huge' &gt; $tmp-2
+grep -v 'huge' > $tmp-2
 
-cat $tmp-1 $tmp-2 &gt; ./file2
+cat $tmp-1 $tmp-2 > ./file2
 ```
 
 これをこんな風に書けないかと。型にfileとmemがあり、それぞれファイルと、シェル変数に相当します。型というより入れ物ですが。データはすべて文字列にするつもりですが、必要ならばint型とか作る可能性もあります。
@@ -49,13 +49,13 @@ cat $tmp-1 $tmp-2 &gt; ./file2
 import coreutils
 
 def main():
- file file1 = &quot;./file1&quot;
+ file file1 = "./file1"
 
  tmpfile tmp1 = proc1 'hoge' file1
  tmpfile tmp2 = proc1 'huge' file1
  tmpfile ans = cat tmp1 tmp2
 
- commit ans &quot;./file2&quot;
+ commit ans "./file2"
  
 def proc1(mem w,file f):
  cat $f

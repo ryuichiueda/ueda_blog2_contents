@@ -70,7 +70,7 @@ kkk 12
 ```bash
 uedambp:USPMAG ueda$ grep '^\\* リスト' 201410.rst |
  sed 's/\\* リスト//' | sed 's/:.*//' | awk '{print $1,NR}' |
- sed 's;^;s/;' | tr ' ' '/' | sed 's;$;/g;' &gt; hoge.sed
+ sed 's;^;s/;' | tr ' ' '/' | sed 's;$;/g;' > hoge.sed
 uedambp:USPMAG ueda$ cat hoge.sed 
 s/bbb/1/g
 s/bbc/2/g

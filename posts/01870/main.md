@@ -15,10 +15,10 @@ Copyright: (C) 2017 Ryuichi Ueda
 ```bash
 ###秘密鍵を作る###
 $ openssl genrsa -out seckey.pem -aes256 2048
-<パスフレーズを入力&gt;
+<パスフレーズを入力>
 ###公開鍵を作る###
 $ openssl rsa -in seckey.pem -pubout -out pubkey.pem
-<パスフレーズを入力&gt;
+<パスフレーズを入力>
 ###できた###
 $ ls
 pubkey.pem seckey.pem
@@ -35,14 +35,14 @@ $ cat himitsu
 $ openssl rsautl -pubin -inkey ./tmp/pubkey.pem -in himitsu -encrypt -out himitsu.secret
 ###暗号化される###
 $ cat himitsu.secret 
-?R??rj&gt;4ޣ+?K???:?v?K?&amp;?\\&amp;???M	+)?HE...
+?R??rj>4ޣ+?K???:?v?K?&?\\&???M	+)?HE...
 ```
 
 <h2>復号（秘密鍵を使う）</h2>
 
 ```bash
 $ cat himitsu.secret | openssl rsautl -decrypt -inkey ./tmp/seckey.pem 
-<パスフレーズを入力&gt;
+<パスフレーズを入力>
 ここだけの話、部長の鼻毛、
 付け鼻毛らしいよ。
 ```

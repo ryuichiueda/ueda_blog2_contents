@@ -59,7 +59,7 @@ AWKの力技になります。力技でない方法を募集。
 
 ```bash
 $ cat Q1 |
- awk '{for(i=1;i<=NF;i++){a[$i]++};for(k in a){printf(&quot;%s:%d &quot;,k,a[k]);a[k]=0}print &quot;&quot;}'
+ awk '{for(i=1;i<=NF;i++){a[$i]++};for(k in a){printf("%s:%d ",k,a[k]);a[k]=0}print ""}'
 玉子:5 卵:1 
 玉子:3 卵:3 
 玉子:4 卵:2 
@@ -86,7 +86,7 @@ $ cat Q2
 $ cat Q2 | grep -o . | nl | sort -k2,2 -k1,1n |
  uniq -f 1 | sort | awk '{printf $2}' | xargs
 へのもじ
-$ cat Q2 | grep -o . | awk '{if(!a[$1]){printf $1};a[$1]=1}END{print &quot;&quot;}'
+$ cat Q2 | grep -o . | awk '{if(!a[$1]){printf $1};a[$1]=1}END{print ""}'
 へのもじ
 $ < Q2 grep -o . | awk '{if(!a[$1]){printf $1};a[$1]=1}' | xargs
 へのもじ
@@ -122,7 +122,7 @@ $ cat Q3
 <h3>解答</h3>
 
 ```bash
-$ sort Q3 | awk '{if($1!=a){print &quot;%%&quot;;print;a=$1}else{print}}END{print &quot;%%&quot;}'
+$ sort Q3 | awk '{if($1!=a){print "%%";print;a=$1}else{print}}END{print "%%"}'
 %%
 キム タオル
 キム ワイプ
@@ -151,8 +151,8 @@ Q4.xlsxのA1のセルには数字が書いてあります。その数字を出�
 A1のセル（数字の読み方）
 
 ```bash
-$ unzip -p Q4.xlsx xl/worksheets/sheet1.xml | sed 's;</c&gt;;&amp;\\n;g' |
- grep -o '<c.*</c&gt;' | grep A1 | sed 's;.*<v&gt;;;' | sed 's;<.*;;'
+$ unzip -p Q4.xlsx xl/worksheets/sheet1.xml | sed 's;</c>;&\\n;g' |
+ grep -o '<c.*</c>' | grep A1 | sed 's;.*<v>;;' | sed 's;<.*;;'
 114514
 $ unzip -p Q4.xlsx xl/worksheets/sheet1.xml | hxselect -s '\\n' c |
  grep A1 | hxselect -c v
@@ -165,11 +165,11 @@ A2の文字列の読み方。シートには文字列のIDが書いてあるの�
 ###これで6番目（0番から始まるので7番目）の文字列とわかる###
 $ unzip -p Q4.xlsx xl/worksheets/sheet1.xml |
  hxselect -s '\\n' c | grep A4
-<c r=&quot;A4&quot; t=&quot;s&quot;&gt;<v&gt;6</v&gt;</c&gt;
+<c r="A4" t="s"><v>6</v></c>
 ###抽出###
 $ unzip -p Q4.xlsx xl/sharedStrings.xml |
  hxselect -s '\\n' si | awk 'NR==7'
-<si&gt;<t&gt;エクシェル芸</t&gt;<rPh sb=&quot;5&quot; eb=&quot;6&quot;&gt;<t&gt;ゲ</t&gt;</rPh&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
+<si><t>エクシェル芸</t><rPh sb="5" eb="6"><t>ゲ</t></rPh><phoneticPr fontId="1"/></si>
 ```
 
 <h2>Q5</h2>
@@ -228,7 +228,7 @@ $ cat Q6
 ```bash
 $ cat Q6 | grep -oE '(玉子|卵)' | sort | uniq -c |
  sort -n -k1,1n | awk '{print $2}' | xargs |
- awk '{print &quot;s/&quot;$1&quot;/&quot;$2&quot;/g&quot;}' | xargs -I\@ sed \@ Q6
+ awk '{print "s/"$1"/"$2"/g"}' | xargs -I\@ sed \@ Q6
 玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子
 ```
 
@@ -244,12 +244,12 @@ $ seq -w 00000 99999
 
 ```bash
 ###asortを使う場合###
-$ seq -w 00000 99999 | sed 's/./&amp; /g' |
- awk '{for(i=1;i<=NF;i++)a[i]=$i;asort(a);for(k in a){printf a[k]}print &quot;&quot;}' |
+$ seq -w 00000 99999 | sed 's/./& /g' |
+ awk '{for(i=1;i<=NF;i++)a[i]=$i;asort(a);for(k in a){printf a[k]}print ""}' |
  sort -u
 ###ちょっと気の利いた方法（数字が小さい順に並んでいるものだけ残す）###
-$ seq -w 00000 99999 | sed 's/./&amp; /g' |
- awk '$1<=$2&amp;&amp;$2<=$3&amp;&amp;$3<=$4&amp;&amp;$4<=$5' | tr -d ' ' 
+$ seq -w 00000 99999 | sed 's/./& /g' |
+ awk '$1<=$2&&$2<=$3&&$3<=$4&&$4<=$5' | tr -d ' ' 
 ```
 
 
@@ -271,13 +271,13 @@ abcd + efg
 
 ```bash
 $ seq -w 0000000 9999999 | grep -v [089] |
- grep 1 | grep 2 | grep 3 | grep 4 | grep 5 | grep 6 | grep 7 &gt; tmp
+ grep 1 | grep 2 | grep 3 | grep 4 | grep 5 | grep 6 | grep 7 > tmp
 ```
 
 2は、うまくwhileとfactorを使って求めます。
 
 ```bash
-$ cat tmp | sed 's/./&amp; /g' | awk '{print $1$2$3$4$5$6$7,$1*$2*$3*$4+$5*$6*$7}' | while read a b ; do echo $b | factor | awk -v n=$a 'NF==2{gsub(/./,&quot;&amp; &quot;,n);print n,$2}' ; done 
+$ cat tmp | sed 's/./& /g' | awk '{print $1$2$3$4$5$6$7,$1*$2*$3*$4+$5*$6*$7}' | while read a b ; do echo $b | factor | awk -v n=$a 'NF==2{gsub(/./,"& ",n);print n,$2}' ; done 
 2 3 4 6 1 5 7 179
 2 3 4 6 1 7 5 179
 2 3 4 6 5 1 7 179

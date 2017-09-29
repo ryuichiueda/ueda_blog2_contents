@@ -61,7 +61,7 @@ ERROR_EXIT(){
 }
 
 ERROR_CHECK(){
-	[ &quot;$(tr -d ' 0' <<< ${PIPESTATUS[\@]})&quot; = &quot;&quot; ] &amp;&amp; return
+	[ "$(tr -d ' 0' <<< ${PIPESTATUS[\@]})" = "" ] && return
 	ERROR_EXIT
 }
 
@@ -70,7 +70,7 @@ trap ERROR_EXIT 1 2 3 15
 foreach(){
 
 	while read line ; do
-		&quot;$1&quot; $line
+		"$1" $line
 		ERROR_CHECK
 	done
 }
@@ -83,7 +83,7 @@ cattac(){
 main(){
 	f=$(mktemp /tmp/$$-f)
 ERROR_CHECK
- cattac $1 &gt; $f
+ cattac $1 > $f
 ERROR_CHECK
 
 	/bin/cat $f
@@ -91,7 +91,7 @@ ERROR_CHECK
 
 }
 
-main &quot;$1&quot;
+main "$1"
 ERROR_CHECK
 
 rm -f /tmp/$$-*
@@ -196,11 +196,11 @@ import /usr/local/bin/ as ulb
 
 test checkColnum a b:
 	str c = ulb.retu < $a
-	b.test &quot;$c&quot; = &quot;$b&quot;
+	b.test "$c" = "$b"
 
 proc main file num:
 | checkColnum $file $num:
-	b.echo &quot;OK&quot;
+	b.echo "OK"
 | othewise:
 	b.false
 ```

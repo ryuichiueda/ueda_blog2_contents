@@ -64,19 +64,19 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 $ ls 
 file_A-1 file_A-2 file_B-1 file_B-2
 $ head -n 2 *
-==&gt; file_A-1 <==
+==> file_A-1 <==
 1
 31351
 
-==&gt; file_A-2 <==
+==> file_A-2 <==
 11
 35
 
-==&gt; file_B-1 <==
+==> file_B-1 <==
 -32
 12
 
-==&gt; file_B-2 <==
+==> file_B-2 <==
 912
 3
 ```

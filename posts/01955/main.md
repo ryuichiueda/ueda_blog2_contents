@@ -68,8 +68,8 @@ melon
 
 <h3>解答</h3>
 ```bash
-$ ls | while read f ; do mkdir -p &quot;${f:0:1}&quot; ;
- mv $f &quot;${f:0:1}&quot; ; done
+$ ls | while read f ; do mkdir -p "${f:0:1}" ;
+ mv $f "${f:0:1}" ; done
 uedambp:20140214USPSTUDY ueda$ ls *
 a:
 apple avocado
@@ -85,7 +85,7 @@ melon
 ###別解###
 uedambp:20140214USPSTUDY ueda$ ls |
  awk '{print substr($1,1,1),$1}' |
- awk '{print &quot;mkdir -p&quot;,$1, &quot;;mv&quot;,$2,$1}' | sh
+ awk '{print "mkdir -p",$1, ";mv",$2,$1}' | sh
 ```
 
 <h2>第2問</h2>
@@ -93,7 +93,7 @@ uedambp:20140214USPSTUDY ueda$ ls |
 まず、次のように名前にスペースが入ったファイルを作ります。
 
 ```bash
-$ touch &quot;私は 蟹&quot; &quot;オシャレな 蟹&quot; &quot;足が 10本&quot;
+$ touch "私は 蟹" "オシャレな 蟹" "足が 10本"
 $ ls -l
 total 0
 -rw-r--r-- 1 ueda staff 0 2 14 11:22 私は 蟹
@@ -117,10 +117,10 @@ total 0
 
 ```bash
 $ ls | while read f ;
- do mv &quot;$f&quot; &quot;$(echo $f | sed 's/ /_/g')&quot; ; done
+ do mv "$f" "$(echo $f | sed 's/ /_/g')" ; done
 ###別解###
 $ ls |
- awk '{f=&quot;\\&quot;&quot; $0 &quot;\\&quot;&quot;;t=gensub(/ /,&quot;_&quot;,$0);print &quot;mv&quot;,f,t}' |
+ awk '{f="\\"" $0 "\\"";t=gensub(/ /,"_",$0);print "mv",f,t}' |
  sh
 ```
 
@@ -152,12 +152,12 @@ uedambp:20140214USPSTUDY ueda$ cat 20140101
 ```bash
 uedambp:20140214USPSTUDY ueda$ d=20140101 ;
  while [ $d -lt 20150101 ] ;
- do echo $d; d=$(gdate -d &quot;$d 1 day&quot; +%Y%m%d) ; done |
- while read d ; do gdate -d $d &gt; $d ; done
+ do echo $d; d=$(gdate -d "$d 1 day" +%Y%m%d) ; done |
+ while read d ; do gdate -d $d > $d ; done
 ###Tukubaiのmdateを使う###
 uedambp:20140214USPSTUDY ueda$ for d
  in $(mdate -e 20140101 20141231) ;
- do gdate -d $d &gt; $d ; done 
+ do gdate -d $d > $d ; done 
 ```
 
 
@@ -166,12 +166,12 @@ uedambp:20140214USPSTUDY ueda$ for d
 次のように4個ファイルを作って、a_ramenとa_curry、b_appleとb_tomatoのファイルの中身を入れ替えてください。
 
 ```bash
-$ echo カレー &gt; a_ramen
-$ echo ラーメン &gt; a_curry
-$ echo トマト &gt; b_apple
-$ echo リンゴ &gt; b_tomato
+$ echo カレー > a_ramen
+$ echo ラーメン > a_curry
+$ echo トマト > b_apple
+$ echo リンゴ > b_tomato
 ###（余談）各ファイルと中身は次のようにgrepで確認できる###
-$ grep &quot;&quot; *
+$ grep "" *
 a_curry:ラーメン
 a_ramen:カレー
 b_apple:トマト
@@ -181,19 +181,19 @@ b_tomato:リンゴ
 <h3>解答</h3>
 
 ```bash
-$ grep &quot;&quot; * | tr ':' ' ' | xargs -n 4 |
+$ grep "" * | tr ':' ' ' | xargs -n 4 |
  awk '{print $1,$4,$3,$2}' |
- xargs -n 2 | awk '{print &quot;echo&quot;,$2,&quot;&gt;&quot;,$1}' | sh
-$ grep &quot;&quot; *
+ xargs -n 2 | awk '{print "echo",$2,">",$1}' | sh
+$ grep "" *
 a_curry:カレー
 a_ramen:ラーメン
 b_apple:リンゴ
 b_tomato:トマト
 ###別解###
 $ echo * | gsed 's/b_/\\nb_/' |
- while read f1 f2 ; do cat $f1 &gt; tmp ;
- cat $f2 &gt; $f1 ; cat tmp &gt; $f2 ; done
-$ grep &quot;&quot; *
+ while read f1 f2 ; do cat $f1 > tmp ;
+ cat $f2 > $f1 ; cat tmp > $f2 ; done
+$ grep "" *
 a_curry:カレー
 a_ramen:ラーメン
 b_apple:リンゴ
@@ -241,15 +241,15 @@ uedambp:a ueda$ pwd
 
 ```bash
 ###小問1### 
-uedambp:~ ueda$ seq 1 100 | awk '{print &quot;a&quot;}' | tr '\\n' '/' |
+uedambp:~ ueda$ seq 1 100 | awk '{print "a"}' | tr '\\n' '/' |
  xargs mkdir -p
 ###小問2### 
-uedambp:~ ueda$ seq 1 100 | awk '{print &quot;a&quot;}END{print &quot;b&quot;}' |
+uedambp:~ ueda$ seq 1 100 | awk '{print "a"}END{print "b"}' |
  xargs | tr ' ' '/' | xargs touch
 ###小問1,2を一気に###
-uedambp:~ ueda$ seq 1 100 | awk '{print &quot;a&quot;}' |
+uedambp:~ ueda$ seq 1 100 | awk '{print "a"}' |
  tr '\\n' '/' | sed '1p' |
- awk 'NR==1{print &quot;mkdir -p&quot;,$0}NR==2{print &quot;touch&quot;,$0 &quot;b&quot;}' |
+ awk 'NR==1{print "mkdir -p",$0}NR==2{print "touch",$0 "b"}' |
  sh
 ###小問3###
 uedambp:~ ueda$ for x in {1..100} ; do cd a ; done
@@ -295,7 +295,7 @@ uedambp:a ueda$
 ```bash
 uedambp:~ ueda$ seq 1 150 | xargs | gsed 's/100 /100\\n/g' |
  sed 's/[0-9][0-9]*/a/g' | tr ' ' '/' |
- awk 'BEGIN{print &quot;mv&quot;}{print $0 &quot;/b&quot;}' | xargs | sh
+ awk 'BEGIN{print "mv"}{print $0 "/b"}' | xargs | sh
 ```
 
 <h2>第8問</h2>
@@ -306,7 +306,7 @@ uedambp:~ ueda$ seq 1 150 | xargs | gsed 's/100 /100\\n/g' |
 
 ```bash
 uedambp:~ ueda$ seq 1 100 |
- awk '{for(i=0;i<$1;i++){printf &quot;a/&quot;};print &quot;&quot;}' | tail -r |
+ awk '{for(i=0;i<$1;i++){printf "a/"};print ""}' | tail -r |
  while read d ; do rm -f $d/b ; rmdir $d ; done
 uedambp:~ ueda$ ls a
 gls: cannot access a: No such file or directory

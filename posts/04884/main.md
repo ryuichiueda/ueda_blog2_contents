@@ -18,11 +18,11 @@ Copyright: (C) 2017 Ryuichi Ueda
 import /usr/bin/ as ub
 import /usr/local/bin/ as ulb
 
-ub.find '/Users/ueda/' '-type' 'f' &gt;&gt;=
-ub.grep '-i' '\\.jpg$' &gt;&gt;=
-ub.sed 's/.*/&quot;&amp;&quot;/' &gt;&gt;=
-ub.xargs '-n' '1' '/usr/local/bin/gmd5sum' &gt;&gt;=
-ub.sort '-s' '-k1,1' &gt;&gt;=
+ub.find '/Users/ueda/' '-type' 'f' >>=
+ub.grep '-i' '\\.jpg$' >>=
+ub.sed 's/.*/"&"/' >>=
+ub.xargs '-n' '1' '/usr/local/bin/gmd5sum' >>=
+ub.sort '-s' '-k1,1' >>=
 ulb.awk '{if(a==$1){print b;print $0}a=$1;b=$0}'
 ```
 
@@ -46,13 +46,13 @@ import LANG
 import /usr/local/bin/ as ulb
 import /usr/bin/ as ub
 
-ub.curl 'http://www.flightradar24.com/_json/airports.php' &gt;&gt;=
-ulb.jq '.' &gt;&gt;= ub.grep '-C' '6' 'HND'
+ub.curl 'http://www.flightradar24.com/_json/airports.php' >>=
+ulb.jq '.' >>= ub.grep '-C' '6' 'HND'
 ```
 
 エラーは普通にリダイレクトでとれるようにしておけば良いか・・・。次のような感じで。
 ```hs
-ub.curl 'http://www.flightradar24.com/_json/airports.php' log&gt; '/dev/null' &gt;&gt;= ...
+ub.curl 'http://www.flightradar24.com/_json/airports.php' log> '/dev/null' >>= ...
 ```
 
 ログを見るだけなら上の書式にして、標準エラー出力をGlueLang内で積極的に使うときは、fileの後に二つファイルを並べる方式になると思います。
@@ -70,14 +70,14 @@ file f err = ub.curl 'http://www.flightradar24.com/_json/airports.php'
 import /usr/local/bin/ as ulb
 import /usr/bin/ as ub
 
-ub.seq '1' '1000' &gt;&gt;=
-ulb.awk '{for(i=1;i<=$1;i++){printf(&quot;%d &quot;,i)}{print &quot;&quot;}}' &gt;&gt;=
-ub.tr ' ' '*' &gt;&gt;=
-ub.sed 's/\\*$/)/' &gt;&gt;=
-ub.sed 's:^:1/(:' &gt;&gt;=
-ub.bc '-l' &gt;&gt;= 
-ub.tr '\\n' '+' &gt;&gt;=
-ub.sed 's/$/1/' &gt;&gt;=
+ub.seq '1' '1000' >>=
+ulb.awk '{for(i=1;i<=$1;i++){printf("%d ",i)}{print ""}}' >>=
+ub.tr ' ' '*' >>=
+ub.sed 's/\\*$/)/' >>=
+ub.sed 's:^:1/(:' >>=
+ub.bc '-l' >>= 
+ub.tr '\\n' '+' >>=
+ub.sed 's/$/1/' >>=
 ub.bc '-l' 
 ```
 
@@ -101,7 +101,7 @@ ub.bc '-l'
 
 ```bash
 uedambp:~ ueda$ a=$(curl http://blog.ueda.asia/misc/message2015.txt) ; 
-while a=$(echo $a | base64 -D) &amp;&amp; echo $a ; do : ; done
+while a=$(echo $a | base64 -D) && echo $a ; do : ; done
 ```
 
 ・・・さて、whileがないGlueLangでどうやって処理しよう・・・。コマンド作っちゃえ。ということで、次のようなGlueLang用のコマンドを作りました。
@@ -112,26 +112,26 @@ uedambp:GlueLang ueda$ cat ./stdcom/loop-serial
 
 # loopserial command
 
-# usage: loopserial <commmand&gt; <args...&gt;
+# usage: loopserial <commmand> <args...>
 
 # Multiapply trys the command until the command
 
 # is failed, and outputs the output of the last successful trial.
 
 
-# version: &quot;Sat Jan 10 16:58:28 JST 2015&quot;
+# version: "Sat Jan 10 16:58:28 JST 2015"
 
 
 # This command should be rewritten with C/C++.
 
-[ &quot;$#&quot; -lt 1 ] &amp;&amp; exit 1
+[ "$#" -lt 1 ] && exit 1
 
 tmp=/tmp/$$
-&quot;$\@&quot; &gt; $tmp-keep
+"$\@" > $tmp-keep
 
 while [ $? -eq 0 ] ; do
 	mv $tmp-keep $tmp-out
-	cat $tmp-out | &quot;$\@&quot; &gt; $tmp-keep 2&gt; /dev/null
+	cat $tmp-out | "$\@" > $tmp-keep 2> /dev/null
 done
 
 cat $tmp-out
@@ -148,15 +148,15 @@ import /usr/bin/ as ub
 import /bin/ as b
 import /Users/ueda/GIT/GlueLang/stdcom/ as std
 
-ub.curl 'http://blog.ueda.asia/misc/message2015.txt' &gt;&gt;=
+ub.curl 'http://blog.ueda.asia/misc/message2015.txt' >>=
 std.loop-serial '/usr/bin/base64' '-D'
 ```
 
 はい実行。
 
 ```hs
-uedambp:SHELL_GEI_2015SP ueda$ ../../glue Q4.mac.glue 2&gt; /dev/null
-:(){: | : &amp;};:
+uedambp:SHELL_GEI_2015SP ueda$ ../../glue Q4.mac.glue 2> /dev/null
+:(){: | : &};:
 ```
 
 bashで書いているコマンドを実行していることで他力本願極まりないですが、bashで書いたコマンドをCで書き直して、GlueLangの付属コマンドにしてしまうつもりです。GlueLangを作るにあたり、もともと制御構文をなくしたいという動機があったので、これでいいんでないかと思います。

@@ -23,10 +23,10 @@ Macな人はbrewでGNU grep（ggrep）をインストールすると良かれ悪
 次のようにファイルを作ります。
 
 ```bash
-$ seq 2 5 &gt; a
-$ seq 1 9 &gt; b
-$ seq 5 11 &gt; c
-$ seq 3 6 &gt; d
+$ seq 2 5 > a
+$ seq 1 9 > b
+$ seq 5 11 > c
+$ seq 3 6 > d
 ```
 
 1という文字を含まないファイルを列挙してください（aとdですね）。
@@ -55,9 +55,9 @@ $ seq 1 10000 | xargs -I\@ touch file.\@
 
 ```bash
 $ cat text1 
-awk -v v=&quot;hoge&quot; 'BEGIN{print v}'
+awk -v v="hoge" 'BEGIN{print v}'
 echo 'BEGIN{print 1}' | gawk -f -
-nawk 'BEGIN{print &quot; BEGIN{print x}&quot;}' | awk -v x=3 -f -
+nawk 'BEGIN{print " BEGIN{print x}"}' | awk -v x=3 -f -
 ```
 
 
@@ -76,7 +76,7 @@ A pen is a pen?
 日本語でおk
 ΩΩπ<Ω< na nandatte!!
 Randy W. Bass
-env x='() { :;}; echo vulnerable' bash -c &quot;echo this is a test&quot;
+env x='() { :;}; echo vulnerable' bash -c "echo this is a test"
 #危険シェル芸
 ```
 
@@ -86,9 +86,9 @@ env x='() { :;}; echo vulnerable' bash -c &quot;echo this is a test&quot;
 次のようにファイルa, b, cを作ります。
 
 ```bash
-$ echo 1 2 3 4 &gt; a
-$ echo 2 3 4 5 &gt; b
-$ echo 1 4 5 &gt; c
+$ echo 1 2 3 4 > a
+$ echo 2 3 4 5 > b
+$ echo 1 4 5 > c
 ```
 
 ファイルの中の数字を足して10になるファイルを挙げてください。

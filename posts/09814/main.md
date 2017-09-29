@@ -57,7 +57,7 @@ bash
 ```bash
 bash-4.4$ case $SHELL in *bash ) echo bash ;; * ) echo defalut ;; esac
 bash
-bash-4.4$ case $SHELL in *bash ) echo bash ;;&amp; * ) echo defalut ;; esac
+bash-4.4$ case $SHELL in *bash ) echo bash ;;& * ) echo defalut ;; esac
 bash
 defalut
 ```

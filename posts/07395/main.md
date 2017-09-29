@@ -31,9 +31,9 @@ UNIX屋さんなら何か調査するときに、デバイスファイルを次�
 
 ```bash
 ###コマンドの性能を測る（画面に文字を出して遅くならないように/dev/nullを使う）###
-$ time grep -r hoge ~/ &gt; /dev/null
+$ time grep -r hoge ~/ > /dev/null
 ###128バイトの大きさのファイルを作る###
-uedamb:~ ueda$ head -c 128 /dev/urandom &gt; a
+uedamb:~ ueda$ head -c 128 /dev/urandom > a
 uedamb:~ ueda$ ls -l a
 -rw-r--r-- 1 ueda staff 128 1 1 22:32 a
 ```
@@ -92,8 +92,8 @@ $ sudo chmod +r /dev/kiken0
 $ cat /dev/kiken0 | head
 sudo yum -y remove python*
 sudo yum -y remove python*
-echo '部長はヅラ' &gt;&gt; /etc/motd
-echo ログ集計乙wwwww&gt;&gt; /var/log/httpd/access_log
+echo '部長はヅラ' >> /etc/motd
+echo ログ集計乙wwwww>> /var/log/httpd/access_log
 rsync -av --delete /tmp/ ~/
 yes | xargs -P 0 yes
 for x in `seq 1 1 10000`; do wall '我はroot。神だ' ; done

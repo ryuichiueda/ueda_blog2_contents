@@ -13,12 +13,12 @@ Copyright: (C) 2017 Ryuichi Ueda
 ```bash
 ueda\@ubuntuX201:~$ ghci
 ...
-Prelude&gt; import Numeric.LinearAlgebra
+Prelude> import Numeric.LinearAlgebra
 ...
-Prelude Numeric.LinearAlgebra&gt; let m = (2&gt;<2) [1,2,3,4]
+Prelude Numeric.LinearAlgebra> let m = (2><2) [1,2,3,4]
 ...
-Prelude Numeric.LinearAlgebra&gt; m * 3.14
-(2&gt;<2)
+Prelude Numeric.LinearAlgebra> m * 3.14
+(2><2)
  [ 3.14, 6.28
  , 9.42, 12.56 ]
 ```
@@ -36,7 +36,7 @@ A 1 2 3
 B -1
 B 1
 B 1
-ueda\@ubuntuX201:~/GIT/PMAT$ cat data | ./pmat &quot;C=A*1.1&quot; | ./pmat &quot;D=B*3.14&quot;
+ueda\@ubuntuX201:~/GIT/PMAT$ cat data | ./pmat "C=A*1.1" | ./pmat "D=B*3.14"
 A 1 2 3
 A 1 2 3
 B -1

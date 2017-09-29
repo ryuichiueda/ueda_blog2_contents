@@ -31,7 +31,7 @@ sudo apt -y purge cloud-init
 cat /boot/firmware/config.txt |
 sudo tee /boot/firmware/config.txt.org |
 sed 's/device_tree_address=0x100/device_tree_address=0x02008000/' |
-sed 's/device_tree_end=0x8000/#&amp;amp;/'					|
+sed 's/device_tree_end=0x8000/#&/'					|
 sudo tee $tmp-config 
 
 sudo mv $tmp-config /boot/firmware/config.txt

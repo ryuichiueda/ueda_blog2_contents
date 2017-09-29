@@ -14,34 +14,34 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ```bash
 ueda\@remote:~$ unzip -p book1.xlsx xl/worksheets/sheet1.xml 
-<?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
-<worksheet xmlns=&quot;http://schemas.openxmlformats.org/spreadsheetml/2006/main&quot; 
-xmlns:r=&quot;http://schemas.openxmlformats.org/officeDocument/2006/relationshi
-ps&quot; xmlns:mc=&quot;http://schemas.openxmlformats.org/markup-compatibility/2006&quot;
- mc:Ignorable=&quot;x14ac&quot; 
-xmlns:x14ac=&quot;http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac&quot;&gt;
-<dimension ref=&quot;A1:A4&quot;/&gt;<sheetViews&gt;<sheetView tabSelected=&quot;1&quot; 
-workbookViewId=&quot;0&quot;&gt;<selection activeCell=&quot;A5&quot; sqref=&quot;A5&quot;/&gt;</sheetView&gt;
-</sheetViews&gt;<sheetFormatPr baseColWidth=&quot;12&quot; defaultRowHeight=&quot;18&quot; 
-x14ac:dyDescent=&quot;0&quot;/&gt;<sheetData&gt;<row r=&quot;1&quot; spans=&quot;1:1&quot;&gt;<c r=&quot;A1&quot;&gt;<v&gt;1</v&gt;
-</c&gt;</row&gt;<row r=&quot;2&quot; spans=&quot;1:1&quot;&gt;<c r=&quot;A2&quot;&gt;<v&gt;2</v&gt;</c&gt;</row&gt;<row r=&quot;3&quot; 
-spans=&quot;1:1&quot;&gt;<c r=&quot;A3&quot;&gt;<v&gt;3</v&gt;</c&gt;</row&gt;<row r=&quot;4&quot; spans=&quot;1:1&quot;&gt;<c r=&quot;A4&quot;&gt;
-<v&gt;-4.2300000000000004</v&gt;</c&gt;</row&gt;</sheetData&gt;<phoneticPr fontId=&quot;1&quot;/&gt;
-<pageMargins left=&quot;0.7&quot; right=&quot;0.7&quot; top=&quot;0.75&quot; bottom=&quot;0.75&quot; header=&quot;0.3&quot; 
-footer=&quot;0.3&quot;/&gt;<extLst&gt;<ext uri=&quot;{64002731-A6B0-56B0-2670-7721B7C09600}&quot; 
-xmlns:mx=&quot;http://schemas.microsoft.com/office/mac/excel/2008/main&quot;&gt;<mx:PLV 
-Mode=&quot;0&quot; OnePage=&quot;0&quot; WScale=&quot;0&quot;/&gt;</ext&gt;</extLst&gt;</worksheet&gt;ueda\@remote:~$ 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" 
+xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationshi
+ps" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ mc:Ignorable="x14ac" 
+xmlns:x14ac="http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac">
+<dimension ref="A1:A4"/><sheetViews><sheetView tabSelected="1" 
+workbookViewId="0"><selection activeCell="A5" sqref="A5"/></sheetView>
+</sheetViews><sheetFormatPr baseColWidth="12" defaultRowHeight="18" 
+x14ac:dyDescent="0"/><sheetData><row r="1" spans="1:1"><c r="A1"><v>1</v>
+</c></row><row r="2" spans="1:1"><c r="A2"><v>2</v></c></row><row r="3" 
+spans="1:1"><c r="A3"><v>3</v></c></row><row r="4" spans="1:1"><c r="A4">
+<v>-4.2300000000000004</v></c></row></sheetData><phoneticPr fontId="1"/>
+<pageMargins left="0.7" right="0.7" top="0.75" bottom="0.75" header="0.3" 
+footer="0.3"/><extLst><ext uri="{64002731-A6B0-56B0-2670-7721B7C09600}" 
+xmlns:mx="http://schemas.microsoft.com/office/mac/excel/2008/main"><mx:PLV 
+Mode="0" OnePage="0" WScale="0"/></ext></extLst></worksheet>ueda\@remote:~$ 
 
 ```
 
 ということで、xlsxからワンライナーでデータをすっぱ抜くワンライナーが完成です。
 ```bash
 ueda\@remote:~$ unzip -p book1.xlsx xl/worksheets/sheet1.xml |
- hxselect c | sed 's;</c&gt;;&amp;\\n;g'
-<c r=&quot;A1&quot;&gt;<v&gt;1</v&gt;</c&gt;
-<c r=&quot;A2&quot;&gt;<v&gt;2</v&gt;</c&gt;
-<c r=&quot;A3&quot;&gt;<v&gt;3</v&gt;</c&gt;
-<c r=&quot;A4&quot;&gt;<v&gt;-4.2300000000000004</v&gt;</c&gt;
+ hxselect c | sed 's;</c>;&\\n;g'
+<c r="A1"><v>1</v></c>
+<c r="A2"><v>2</v></c>
+<c r="A3"><v>3</v></c>
+<c r="A4"><v>-4.2300000000000004</v></c>
 ```
 
 

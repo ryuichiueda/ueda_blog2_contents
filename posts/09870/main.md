@@ -89,7 +89,7 @@ $ cat attend6
 ```bash
 $ tr , '\\n' < attend6 | sort | sed 's/$/ 出/' |
  join -a 1 attend - |
- awk 'NF==3{print $0&quot;欠&quot;}NF==4{print $1,$2,$3$4}'
+ awk 'NF==3{print $0"欠"}NF==4{print $1,$2,$3$4}'
 ```
 
 <h2>Q3</h2>
@@ -175,7 +175,7 @@ $ echo -1 +4 5 2 42 421 44 311 -9 -11
 
 ```bash
 $ echo -1 4 5 2 42 421 44 311 -9 -11 | xargs -n 1 | sort -n |
- awk 'length(a) != length($1){print &quot;&quot;}{printf(&quot;%d &quot;,$1);a=$1}' |
+ awk 'length(a) != length($1){print ""}{printf("%d ",$1);a=$1}' |
  awk 'NF'
 -11 
 -9 -1 
@@ -190,7 +190,7 @@ awk内で1をかけると+符号が外れるので、符号を外して桁数を
 
 ```bash
 $ echo -1 +4 5 2 42 421 44 311 -9 -11 | xargs -n 1 | sort -n |
- awk 'length(a*1) != length($1*1){print &quot;&quot;}{printf(&quot;%s &quot;,$1);a=$1}' |
+ awk 'length(a*1) != length($1*1){print ""}{printf("%s ",$1);a=$1}' |
  awk 'NF'
 -11 
 -9 -1 
@@ -258,7 +258,7 @@ $ cat prime
 ```bash
 $ cat prime | xargs -n 1 | cat - <(seq 1 100 | factor |
  awk 'NF==2{print $2}') | sort -n | xargs |
- awk '{for(i=1;i<NF;i+=2){if($i==$(i+1)){printf(&quot;%d &quot;,$i)}else{print &quot;&quot;;i-=1}}}' |
+ awk '{for(i=1;i<NF;i+=2){if($i==$(i+1)){printf("%d ",$i)}else{print "";i-=1}}}' |
  awk 'NF'
 2 3 5 7 11 13 17 19 
 31 37 41 43 47 53 59 
@@ -280,7 +280,7 @@ $ cat ./nyaan.html | ...
 
 ```bash
 $ cat ./nyaan.html | nkf --numchar-input |
- sed 's/<[^<]*&gt;//g' | sed 's/&amp;quot;/&quot;/g'
+ sed 's/<[^<]*>//g' | sed 's/"/"/g'
 ```
 
 
@@ -291,11 +291,11 @@ $ cat ./nyaan.html | nkf --numchar-input |
 ```bash
 $ cat shellgei 
  m 
- &quot;&quot;m m &quot;m # # # # 
- mm # # #mmm&quot;&quot;&quot; m&quot; 
- &quot; m&quot; mmm&quot;&quot; # # # m&quot; # mm&quot;&quot;m 
- m&quot; #mm m&quot; # m&quot; &quot; # # 
- &quot;mm&quot;&quot; &quot;&quot;&quot;&quot; &quot; m&quot; #&quot; m&quot; # 
+ ""m m "m # # # # 
+ mm # # #mmm""" m" 
+ " m" mmm"" # # # m" # mm""m 
+ m" #mm m" # m" " # # 
+ "mm"" """" " m" #" m" # 
  
  
 ```
@@ -304,27 +304,27 @@ $ cat shellgei
 
 ```bash
  m 
- &quot;&quot;m m &quot;m # # # #
-mm # # #mmm&quot;&quot;&quot; m&quot; 
- &quot; m&quot; mmm&quot;&quot; # # # m&quot; # mm&quot;&quot;m 
- m&quot; #mm m&quot; # m&quot; &quot; # # 
-&quot;mm&quot;&quot; &quot;&quot;&quot;&quot; &quot;m&quot; #&quot; m&quot; # 
+ ""m m "m # # # #
+mm # # #mmm""" m" 
+ " m" mmm"" # # # m" # mm""m 
+ m" #mm m" # m" " # # 
+"mm"" """" "m" #" m" # 
 ```
 
 <h3>解答</h3>
 
 ```bash
-$ cat shellgei | sed 's/ /\@/g' | sed 's/./&amp; /g' |
- awk '{for(i=1;i<=NF;i++){if($i!=&quot;\@&quot;)a[i]=$i}}END{for(i=1;i<=NF;i++){b=a[i]==&quot;&quot;?&quot;x&quot;:&quot; &quot;;printf b}}END{print &quot;&quot;}' |
+$ cat shellgei | sed 's/ /\@/g' | sed 's/./& /g' |
+ awk '{for(i=1;i<=NF;i++){if($i!="\@")a[i]=$i}}END{for(i=1;i<=NF;i++){b=a[i]==""?"x":" ";printf b}}END{print ""}' |
  cat - shellgei |
- awk 'NR==1{a=$0}{for(i=1;i<=length($0);i++){if(substr(a,i,1)!=&quot;x&quot;)printf substr($0,i,1)};print &quot;&quot;}'
+ awk 'NR==1{a=$0}{for(i=1;i<=length($0);i++){if(substr(a,i,1)!="x")printf substr($0,i,1)};print ""}'
  
  m 
- &quot;&quot;m m &quot;m # # # #
-mm # # #mmm&quot;&quot;&quot; m&quot; 
- &quot; m&quot; mmm&quot;&quot; # # # m&quot; # mm&quot;&quot;m 
- m&quot; #mm m&quot; # m&quot; &quot; # # 
-&quot;mm&quot;&quot; &quot;&quot;&quot;&quot; &quot;m&quot; #&quot; m&quot; # 
+ ""m m "m # # # #
+mm # # #mmm""" m" 
+ " m" mmm"" # # # m" # mm""m 
+ m" #mm m" # m" " # # 
+"mm"" """" "m" #" m" # 
  
  
 ```

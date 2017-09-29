@@ -32,23 +32,23 @@ uedamac:~ ueda$ ulimit -s | awk '{print $1*1024}'
 
 ```c
 uedamac:~ ueda$ cat hoge.c
-#include <stdio.h&gt;
+#include <stdio.h>
 
 void kidding_me(size_t size)
 {
 	int nums[size];//気持ち悪い
 
 	int i;
-	for(i=0;i&amp;amp;lt;size;i++){
+	for(i=0;i<size;i++){
 		nums[i] = i;
-		printf(&quot;%d\\n&quot;,nums[i]);
+		printf("%d\\n",nums[i]);
 	}
 }
 
 int main(int argc, char const* argv[])
 {
  int num = atoi(argv[1]);
- printf(&quot;%ld\\n&quot;,num*sizeof(int));
+ printf("%ld\\n",num*sizeof(int));
  kidding_me(num);
 
  return 0;

@@ -49,7 +49,7 @@ ueda\@remote:~/tmp$ cat parent.bash
 #!/bin/bash
 
 echo PARENT_ID: $$
-./child.bash &amp;
+./child.bash &
 
 sleep 5
 ueda\@remote:~/tmp$ cat child.bash 

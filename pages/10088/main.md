@@ -63,7 +63,7 @@ ueda\@becky:~$ ls ~/.ssh/authorized_keys
 次の操作を行います。
 
 ```bash
-ueda\@becky:~$ cat id_rsa.pub &gt;&gt; .ssh/authorized_keys
+ueda\@becky:~$ cat id_rsa.pub >> .ssh/authorized_keys
 ```
 
 <h3>.sshディレクトリが存在しているが、authorized_keysが存在していない場合</h3>
@@ -78,7 +78,7 @@ ueda\@becky:~$ ls -d ~/.ssh
 次のようにします。
 
 ```bash
-ueda\@becky:~$ cat id_rsa.pub &gt;&gt; .ssh/authorized_keys
+ueda\@becky:~$ cat id_rsa.pub >> .ssh/authorized_keys
 ueda\@becky:~$ chmod 644 .ssh/authorized_keys
 ```
 
@@ -90,7 +90,7 @@ ueda\@becky:~$ chmod 644 .ssh/authorized_keys
 ```bash
 ueda\@becky:~$ mkdir .ssh
 ueda\@becky:~$ chmod 700 .ssh
-ueda\@becky:~$ cat id_rsa.pub &gt;&gt; .ssh/authorized_keys
+ueda\@becky:~$ cat id_rsa.pub >> .ssh/authorized_keys
 ueda\@becky:~$ chmod 644 .ssh/authorized_keys
 ```
 

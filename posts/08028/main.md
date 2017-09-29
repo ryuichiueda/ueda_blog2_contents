@@ -115,7 +115,7 @@ ueda\@remote:~$ echo カレーライス 醤油ラーメン | ...
 
 ```bash
 ueda\@remote:~$ echo カレーライス 醤油ラーメン |
- awk '{print $2;gsub(/./,&quot; &amp;\\n&quot;,$1);print $1}' |
+ awk '{print $2;gsub(/./," &\\n",$1);print $1}' |
  awk 'NR==1{a=$1}NR!=1{print $1==substr(a,4,1)?a:$0}'
  カ
  レ
@@ -159,7 +159,7 @@ bbbbba 6
 
 ```bash
 ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q3 |
-awk '{a[$1]=a[$1]&quot; &quot;NR}END{for(k in a){print k,a[k]}}' 
+awk '{a[$1]=a[$1]" "NR}END{for(k in a){print k,a[k]}}' 
 bababa 2 5
 aaabbb 1 3 4
 bbbbba 6
@@ -223,7 +223,7 @@ ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q5
 ```bash
 ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q5 |
  awk '{for(len=1;len<=NF;len++)for(shift=1;shift<=NF-len+1;shift++)
-{for(i=shift;i<shift+len;i++){printf $i&quot; &quot;};print &quot;&quot;}}' |
+{for(i=shift;i<shift+len;i++){printf $i" "};print ""}}' |
  awk '{a=0;for(i=1;i<=NF;i++)a+=$i;print $0,a}' | awk '$NF==10'
 9 1 10
 4 4 2 10
@@ -300,8 +300,8 @@ uedamb:~ ueda$
 
 ```bash
 ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q8.cc 
-#include <iostream&gt;
-#include <string&gt;
+#include <iostream>
+#include <string>
 using namespace std;
 
 void aho(void)
@@ -311,7 +311,7 @@ void aho(void)
 
 string nazo(void)
 {
-	return &quot;謎&quot;;
+	return "謎";
 }
 
 int main(int argc, char const* argv[])
@@ -325,8 +325,8 @@ int main(int argc, char const* argv[])
 
 ```bash
 ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q8.ans.cc 
-#include <iostream&gt;
-#include <string&gt;
+#include <iostream>
+#include <string>
 using namespace std;
 void aho(void);
 string nazo(void);
@@ -338,7 +338,7 @@ void aho(void)
 
 string nazo(void)
 {
-	return &quot;謎&quot;;
+	return "謎";
 }
 
 int main(int argc, char const* argv[])
@@ -353,7 +353,7 @@ int main(int argc, char const* argv[])
 ```bash
 ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q8.cc | grep ')$' |
  grep -v '^int main' | sed 's/$/;/' |
- awk 'BEGIN{a=0}FILENAME==&quot;-&quot;{a=1}{print a,$0}/using/{a+=2}' Q8.cc - |
+ awk 'BEGIN{a=0}FILENAME=="-"{a=1}{print a,$0}/using/{a+=2}' Q8.cc - |
  sort -s -k1,1 | sed 's/^..//'
 ```
 

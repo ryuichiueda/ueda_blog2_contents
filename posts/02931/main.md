@@ -25,30 +25,30 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 # written by Ryuichi UEDA, Apr. 22, 2014 
 
-# usage: wordsed <from str&gt; <to str&gt; original.docx &gt; newfile.docx
+# usage: wordsed <from str> <to str> original.docx > newfile.docx
 
 tmp=./tmp-exshell-$$
-mkdir &quot;$tmp&quot; || exit 1
+mkdir "$tmp" || exit 1
 
-cd &quot;$tmp&quot; &amp;&amp;
-unzip &quot;$3&quot; &gt;&amp;2 || exit 1
+cd "$tmp" &&
+unzip "$3" >&2 || exit 1
 
-FROM=$(echo &quot;$1&quot; | sed 's;/;\\/;g')
-TO=$(echo &quot;$2&quot; | sed 's;/;\\/;g')
+FROM=$(echo "$1" | sed 's;/;\\/;g')
+TO=$(echo "$2" | sed 's;/;\\/;g')
 
-sed &quot;s/$FROM/$TO/g&quot; word/document.xml &gt; tmp &amp;&amp;
+sed "s/$FROM/$TO/g" word/document.xml > tmp &&
 mv tmp word/document.xml
 
-zip -r tmp.docx * &gt;&amp;2 &amp;&amp; cat tmp.docx
+zip -r tmp.docx * >&2 && cat tmp.docx
 
-cd - &gt;&amp;2 &amp;&amp; rm -Rf &quot;$tmp&quot;
+cd - >&2 && rm -Rf "$tmp"
 
 #The MIT License
 #
 #Copyright (C) Ryuichi UEDA
 #
 #Permission is hereby granted, free of charge, to any person obtaining a copy
-#of this software and associated documentation files (the &quot;Software&quot;), to deal
+#of this software and associated documentation files (the "Software"), to deal
 #in the Software without restriction, including without limitation the rights
 #to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 #copies of the Software, and to permit persons to whom the Software is
@@ -57,7 +57,7 @@ cd - &gt;&amp;2 &amp;&amp; rm -Rf &quot;$tmp&quot;
 #The above copyright notice and this permission notice shall be included in
 #all copies or substantial portions of the Software.
 #
-#THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+#THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 #IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 #FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 #AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -73,7 +73,7 @@ cd - &gt;&amp;2 &amp;&amp; rm -Rf &quot;$tmp&quot;
 コマンド実行！！！
 
 ```bash
-uedambp:ShellOfficeTools ueda$ ./wordsed \@\@\@ 山田 ~/letter.docx &gt; out.docx
+uedambp:ShellOfficeTools ueda$ ./wordsed \@\@\@ 山田 ~/letter.docx > out.docx
 ```
 
 out.docxを開いてみます。

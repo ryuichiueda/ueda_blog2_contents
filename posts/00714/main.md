@@ -15,8 +15,8 @@ A 1 2 3
 B -1 2 3.0
 B 1 -2 3.1
 B 1 2 -3.2
-ueda\@ubuntuonmac:~/GIT/PMAT$ cat data | ./pmat &quot;C=B*B&quot; |
-./pmat &quot;D=A*B&quot; | ./pmat &quot;E=D*C&quot;
+ueda\@ubuntuonmac:~/GIT/PMAT$ cat data | ./pmat "C=B*B" |
+./pmat "D=A*B" | ./pmat "E=D*C"
 A 1 2 3
 A 1 2 3
 B -1 2 3.0
@@ -34,8 +34,8 @@ E 25.280000000000005 52.16000000000002 -85.85600000000005
 どんどん行列が増えていきますが、必要なものは grep か awk で取り出せます。そして消せます。便利。
 
 ```bash
-ueda\@ubuntuonmac:~/GIT/PMAT$ cat data | ./pmat &quot;C=B*B&quot; 
-| ./pmat &quot;D=A*B&quot; | ./pmat &quot;E=D*C&quot; | grep &quot;^E &quot;
+ueda\@ubuntuonmac:~/GIT/PMAT$ cat data | ./pmat "C=B*B" 
+| ./pmat "D=A*B" | ./pmat "E=D*C" | grep "^E "
 E 25.280000000000005 52.16000000000002 -85.85600000000005
 E 25.280000000000005 52.16000000000002 -85.85600000000005
 ```

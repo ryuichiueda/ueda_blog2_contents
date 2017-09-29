@@ -30,8 +30,8 @@ bash騒ぎが収まってない中ではありますが、とある役得で<a h
 ```ruby
 language: python
 python:
- - &quot;2.7&quot;
- - &quot;2.6&quot;
+ - "2.7"
+ - "2.6"
 script: 
  - sh -e ./TEST/test.at.travis
 ```
@@ -42,14 +42,14 @@ Travis CIのために書いたテストはこちら。regress.allでは各Python
 uedambp:Open-usp-Tukubai ueda$ head TEST/test.at.travis 
 PATH=$PATH:./COMMANDS
 
-bash ./TEST/calclock.test COMMANDS &quot;&quot;
-bash ./TEST/cjoin0.test COMMANDS &quot;&quot;
-bash ./TEST/cjoin1.test COMMANDS &quot;&quot;
-bash ./TEST/cjoin2.test COMMANDS &quot;&quot;
-bash ./TEST/ctail.test COMMANDS &quot;&quot;
-bash ./TEST/count.test COMMANDS &quot;&quot;
-bash ./TEST/getlast.test COMMANDS &quot;&quot;
-bash ./TEST/getfirst.test COMMANDS &quot;&quot;
+bash ./TEST/calclock.test COMMANDS ""
+bash ./TEST/cjoin0.test COMMANDS ""
+bash ./TEST/cjoin1.test COMMANDS ""
+bash ./TEST/cjoin2.test COMMANDS ""
+bash ./TEST/ctail.test COMMANDS ""
+bash ./TEST/count.test COMMANDS ""
+bash ./TEST/getlast.test COMMANDS ""
+bash ./TEST/getfirst.test COMMANDS ""
 ###以後ひたすらベタにコマンドが並ぶ###
 ```
 

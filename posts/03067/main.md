@@ -12,10 +12,10 @@ Copyright: (C) 2017 Ryuichi Ueda
 ueda\@remote:~$ cat caly 
 #!/bin/bash
 
-paste <(cal 1 &quot;$1&quot;) <(cal 2 &quot;$1&quot;) <(cal 3 &quot;$1&quot;)
-paste <(cal 4 &quot;$1&quot;) <(cal 5 &quot;$1&quot;) <(cal 6 &quot;$1&quot;)
-paste <(cal 7 &quot;$1&quot;) <(cal 8 &quot;$1&quot;) <(cal 9 &quot;$1&quot;)
-paste <(cal 10 &quot;$1&quot;) <(cal 11 &quot;$1&quot;) <(cal 12 &quot;$1&quot;)
+paste <(cal 1 "$1") <(cal 2 "$1") <(cal 3 "$1")
+paste <(cal 4 "$1") <(cal 5 "$1") <(cal 6 "$1")
+paste <(cal 7 "$1") <(cal 8 "$1") <(cal 9 "$1")
+paste <(cal 10 "$1") <(cal 11 "$1") <(cal 12 "$1")
 ```
 
 制御構文使えよってくらいのベタ書きであるが・・・

@@ -63,7 +63,7 @@ ff e1
 ```bash
 uedamac:~ ueda$ cat IMG_0007.JPG | od -xv | sed 's/^[0-9]*//' | 
 tr ' ' '\\n' | awk 'NF==1' | 
-awk '{print substr($1,3,2),substr($1,1,2)}' &gt; text
+awk '{print substr($1,3,2),substr($1,1,2)}' > text
 ```
 
 今度はtextからjpegを復元します．このワンライナーですが，sedで16進数の頭に0xをつけ，次のgawkで16進数を10進数に変換し，最後のgawkで10進数をバイナリで出力します．gawkの%cがミソです．
@@ -71,7 +71,7 @@ awk '{print substr($1,3,2),substr($1,1,2)}' &gt; text
 ```bash
 uedamac:~ ueda$ cat text | sed 's/ / 0x/g' | sed 's/^/0x/' | 
 gawk '{print strtonum($1),strtonum($2)}' | 
-LANG=C gawk '{printf(&quot;%c%c&quot;,$1,$2)}' &gt; hoge.jpg 
+LANG=C gawk '{printf("%c%c",$1,$2)}' > hoge.jpg 
 ```
 
 もとの画像と比較してみましょう．

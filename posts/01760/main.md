@@ -16,13 +16,13 @@ Copyright: (C) 2017 Ryuichi Ueda
 uedamac:COMMANDS.HS ueda$ ghc dayslash.hs 
 [1 of 1] Compiling Main ( dayslash.hs, dayslash.o )
 Linking dayslash ...
-uedamac:COMMANDS.HS ueda$ echo 20130101 | ./dayslash &quot;yyyy/mm/dd&quot; 1
+uedamac:COMMANDS.HS ueda$ echo 20130101 | ./dayslash "yyyy/mm/dd" 1
 2013/01/01
-uedamac:COMMANDS.HS ueda$ echo 20130101 | ./dayslash &quot;yyyy/m/d&quot; 1
+uedamac:COMMANDS.HS ueda$ echo 20130101 | ./dayslash "yyyy/m/d" 1
 2013/1/1
-uedamac:COMMANDS.HS ueda$ echo &quot;10時12分14秒&quot; | ./dayslash -r &quot;H時M分S秒&quot; 1
+uedamac:COMMANDS.HS ueda$ echo "10時12分14秒" | ./dayslash -r "H時M分S秒" 1
 101214
-uedamac:COMMANDS.HS ueda$ echo 1970/12/20:12:34:50 | ./dayslash -r &quot;yyyy/mm/dd/HH/MM/SS&quot; 1
+uedamac:COMMANDS.HS ueda$ echo 1970/12/20:12:34:50 | ./dayslash -r "yyyy/mm/dd/HH/MM/SS" 1
 19701220123450
 ```
 
