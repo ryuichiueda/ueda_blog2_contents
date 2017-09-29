@@ -77,7 +77,7 @@ $ seq 1 10 | sed '3h;3d;7G'
 
 ```bash
 $ cat aho.cc 
-#include &lt;iostream&gt;
+#include <iostream&gt;
 using namespace std;
 
 int main(int argc, char const* argv[])
@@ -88,7 +88,7 @@ int main(int argc, char const* argv[])
 
 void aho(void)
 {
-	cout &lt;&lt; &quot;aho&quot; &lt;&lt; endl;
+	cout << &quot;aho&quot; << endl;
 }
 ```
 
@@ -97,13 +97,13 @@ mainの部分をホールドスペースに入れる→消す→ファイルの�
 
 ```bash
 $ cat aho.cc | sed '/int/,/}/H;/int/,/}/d;$G'
-#include &lt;iostream&gt;
+#include <iostream&gt;
 using namespace std;
 
 
 void aho(void)
 {
-	cout &lt;&lt; &quot;aho&quot; &lt;&lt; endl;
+	cout << &quot;aho&quot; << endl;
 }
 
 int main(int argc, char const* argv[])
@@ -205,10 +205,10 @@ a a1 a10 a2 a3 a4 a5 a6 a7 a8 a9
 ###縛り2###
 $ yes | sed -n '=' | head | sed 's/./cp a a&amp;/e'
 ###両方###
-$ sed ':a ;p;s/./&amp;&amp;/;/........../!b a' &lt;&lt;&lt; y |
+$ sed ':a ;p;s/./&amp;&amp;/;/........../!b a' <<< y |
  sed -n = | sed 's/^/cp a a/e'
 ###（おまけ）ファイルaをsedで作る###
-$ sed 'w a' &lt;&lt;&lt; &quot;abc&quot;
+$ sed 'w a' <<< &quot;abc&quot;
 abc
 $ cat a
 abc

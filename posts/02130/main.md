@@ -28,7 +28,7 @@ ueda\@ubuntu0000:~$ ls -l /usr/bin/vim.basic
 ueda\@ubuntu0000:~$ find / 2&gt; /dev/null | grep '/ex$' 
 /etc/alternatives/ex
 /usr/bin/ex
-/var/lib/dpkg/alternatives/ex &lt;- これもvimだった
+/var/lib/dpkg/alternatives/ex <- これもvimだった
 ```
 
 ・・・うーん。ないないない。<!--:-->

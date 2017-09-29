@@ -59,7 +59,7 @@ AWKの力技になります。力技でない方法を募集。
 
 ```bash
 $ cat Q1 |
- awk '{for(i=1;i&lt;=NF;i++){a[$i]++};for(k in a){printf(&quot;%s:%d &quot;,k,a[k]);a[k]=0}print &quot;&quot;}'
+ awk '{for(i=1;i<=NF;i++){a[$i]++};for(k in a){printf(&quot;%s:%d &quot;,k,a[k]);a[k]=0}print &quot;&quot;}'
 玉子:5 卵:1 
 玉子:3 卵:3 
 玉子:4 卵:2 
@@ -88,7 +88,7 @@ $ cat Q2 | grep -o . | nl | sort -k2,2 -k1,1n |
 へのもじ
 $ cat Q2 | grep -o . | awk '{if(!a[$1]){printf $1};a[$1]=1}END{print &quot;&quot;}'
 へのもじ
-$ &lt; Q2 grep -o . | awk '{if(!a[$1]){printf $1};a[$1]=1}' | xargs
+$ < Q2 grep -o . | awk '{if(!a[$1]){printf $1};a[$1]=1}' | xargs
 へのもじ
 ```
 
@@ -151,8 +151,8 @@ Q4.xlsxのA1のセルには数字が書いてあります。その数字を出�
 A1のセル（数字の読み方）
 
 ```bash
-$ unzip -p Q4.xlsx xl/worksheets/sheet1.xml | sed 's;&lt;/c&gt;;&amp;\\n;g' |
- grep -o '&lt;c.*&lt;/c&gt;' | grep A1 | sed 's;.*&lt;v&gt;;;' | sed 's;&lt;.*;;'
+$ unzip -p Q4.xlsx xl/worksheets/sheet1.xml | sed 's;</c&gt;;&amp;\\n;g' |
+ grep -o '<c.*</c&gt;' | grep A1 | sed 's;.*<v&gt;;;' | sed 's;<.*;;'
 114514
 $ unzip -p Q4.xlsx xl/worksheets/sheet1.xml | hxselect -s '\\n' c |
  grep A1 | hxselect -c v
@@ -165,11 +165,11 @@ A2の文字列の読み方。シートには文字列のIDが書いてあるの�
 ###これで6番目（0番から始まるので7番目）の文字列とわかる###
 $ unzip -p Q4.xlsx xl/worksheets/sheet1.xml |
  hxselect -s '\\n' c | grep A4
-&lt;c r=&quot;A4&quot; t=&quot;s&quot;&gt;&lt;v&gt;6&lt;/v&gt;&lt;/c&gt;
+<c r=&quot;A4&quot; t=&quot;s&quot;&gt;<v&gt;6</v&gt;</c&gt;
 ###抽出###
 $ unzip -p Q4.xlsx xl/sharedStrings.xml |
  hxselect -s '\\n' si | awk 'NR==7'
-&lt;si&gt;&lt;t&gt;エクシェル芸&lt;/t&gt;&lt;rPh sb=&quot;5&quot; eb=&quot;6&quot;&gt;&lt;t&gt;ゲ&lt;/t&gt;&lt;/rPh&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
+<si&gt;<t&gt;エクシェル芸</t&gt;<rPh sb=&quot;5&quot; eb=&quot;6&quot;&gt;<t&gt;ゲ</t&gt;</rPh&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
 ```
 
 <h2>Q5</h2>
@@ -245,11 +245,11 @@ $ seq -w 00000 99999
 ```bash
 ###asortを使う場合###
 $ seq -w 00000 99999 | sed 's/./&amp; /g' |
- awk '{for(i=1;i&lt;=NF;i++)a[i]=$i;asort(a);for(k in a){printf a[k]}print &quot;&quot;}' |
+ awk '{for(i=1;i<=NF;i++)a[i]=$i;asort(a);for(k in a){printf a[k]}print &quot;&quot;}' |
  sort -u
 ###ちょっと気の利いた方法（数字が小さい順に並んでいるものだけ残す）###
 $ seq -w 00000 99999 | sed 's/./&amp; /g' |
- awk '$1&lt;=$2&amp;&amp;$2&lt;=$3&amp;&amp;$3&lt;=$4&amp;&amp;$4&lt;=$5' | tr -d ' ' 
+ awk '$1<=$2&amp;&amp;$2<=$3&amp;&amp;$3<=$4&amp;&amp;$4<=$5' | tr -d ' ' 
 ```
 
 

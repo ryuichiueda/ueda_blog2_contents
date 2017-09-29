@@ -26,17 +26,17 @@ Excelと言えば、最近、<a href="http://itpro.nikkeibp.co.jp/article/Watche
 
 ```bash
 ueda\@remote:~/tmp$ unzip *
-ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;&lt;/si&gt;;&amp;\\n;g'
-&lt;si&gt;&lt;t&gt;ﾀﾞｧｼｴﾘｲｪｽ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
-&lt;si&gt;&lt;t&gt;ﾀﾞｯ・・・ｧｼｴﾘｲｪｽ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
+ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;</si&gt;;&amp;\\n;g'
+<si&gt;<t&gt;ﾀﾞｧｼｴﾘｲｪｽ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
+<si&gt;<t&gt;ﾀﾞｯ・・・ｧｼｴﾘｲｪｽ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
 ```
 
 このファイルのsi要素に、上から0,1番と番号を振り、それをsheet1.xmlで参照しています。
 
 ```bash
-ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;&lt;/c&gt;;&amp;\\n;g'
-&lt;c r=&quot;A1&quot; t=&quot;s&quot;&gt;&lt;v&gt;0&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;A2&quot; t=&quot;s&quot;&gt;&lt;v&gt;1&lt;/v&gt;&lt;/c&gt;
+ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;</c&gt;;&amp;\\n;g'
+<c r=&quot;A1&quot; t=&quot;s&quot;&gt;<v&gt;0</v&gt;</c&gt;
+<c r=&quot;A2&quot; t=&quot;s&quot;&gt;<v&gt;1</v&gt;</c&gt;
 ```
 
 <a href="http://blog.ueda.asia/?p=2398" title="Excelファイルをシェル芸でほじくる。ただしエクセル方眼紙は後日ということで。" target="_blank">数字のときはv要素の中に数字が入っていましたが</a>、文字列のセルの場合はc要素にt="s"という目印を付けた上でv要素の中にポインタが入っています。
@@ -65,41 +65,41 @@ sharedStrings.xmlとsheet1.xmlから文字の部分を引っ張りだしてみ�
 
 ```bash
 ueda\@remote:~/tmp$ unzip *
-ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;&lt;/si&gt;;&amp;\\n;g'
-&lt;si&gt;&lt;t&gt;ﾀ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
-&lt;si&gt;&lt;t&gt;ﾞ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
-&lt;si&gt;&lt;t&gt;ｧ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
-&lt;si&gt;&lt;t&gt;ｼ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
-&lt;si&gt;&lt;t&gt;ｴ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
-&lt;si&gt;&lt;t&gt;ﾘ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
-&lt;si&gt;&lt;t&gt;ｲ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
-&lt;si&gt;&lt;t&gt;ｪ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
-&lt;si&gt;&lt;t&gt;ｽ&lt;/t&gt;&lt;/si&gt;
-&lt;si&gt;&lt;t&gt;ｯ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
-&lt;si&gt;&lt;t&gt;・&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
-ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;&lt;/c&gt;;&amp;\\n;g'
-&lt;c r=&quot;A1&quot; t=&quot;s&quot;&gt;&lt;v&gt;0&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;B1&quot; t=&quot;s&quot;&gt;&lt;v&gt;1&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;C1&quot; t=&quot;s&quot;&gt;&lt;v&gt;2&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;D1&quot; t=&quot;s&quot;&gt;&lt;v&gt;3&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;E1&quot; t=&quot;s&quot;&gt;&lt;v&gt;4&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;F1&quot; t=&quot;s&quot;&gt;&lt;v&gt;5&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;G1&quot; t=&quot;s&quot;&gt;&lt;v&gt;6&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;H1&quot; t=&quot;s&quot;&gt;&lt;v&gt;7&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;I1&quot; t=&quot;s&quot;&gt;&lt;v&gt;8&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;A2&quot; t=&quot;s&quot;&gt;&lt;v&gt;0&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;B2&quot; t=&quot;s&quot;&gt;&lt;v&gt;1&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;C2&quot; t=&quot;s&quot;&gt;&lt;v&gt;9&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;D2&quot; t=&quot;s&quot;&gt;&lt;v&gt;10&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;E2&quot; t=&quot;s&quot;&gt;&lt;v&gt;10&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;F2&quot; t=&quot;s&quot;&gt;&lt;v&gt;10&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;G2&quot; t=&quot;s&quot;&gt;&lt;v&gt;2&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;H2&quot; t=&quot;s&quot;&gt;&lt;v&gt;3&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;I2&quot; t=&quot;s&quot;&gt;&lt;v&gt;4&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;J2&quot; t=&quot;s&quot;&gt;&lt;v&gt;5&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;K2&quot; t=&quot;s&quot;&gt;&lt;v&gt;6&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;L2&quot; t=&quot;s&quot;&gt;&lt;v&gt;7&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;M2&quot; t=&quot;s&quot;&gt;&lt;v&gt;8&lt;/v&gt;&lt;/c&gt;
+ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;</si&gt;;&amp;\\n;g'
+<si&gt;<t&gt;ﾀ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
+<si&gt;<t&gt;ﾞ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
+<si&gt;<t&gt;ｧ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
+<si&gt;<t&gt;ｼ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
+<si&gt;<t&gt;ｴ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
+<si&gt;<t&gt;ﾘ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
+<si&gt;<t&gt;ｲ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
+<si&gt;<t&gt;ｪ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
+<si&gt;<t&gt;ｽ</t&gt;</si&gt;
+<si&gt;<t&gt;ｯ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
+<si&gt;<t&gt;・</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
+ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;</c&gt;;&amp;\\n;g'
+<c r=&quot;A1&quot; t=&quot;s&quot;&gt;<v&gt;0</v&gt;</c&gt;
+<c r=&quot;B1&quot; t=&quot;s&quot;&gt;<v&gt;1</v&gt;</c&gt;
+<c r=&quot;C1&quot; t=&quot;s&quot;&gt;<v&gt;2</v&gt;</c&gt;
+<c r=&quot;D1&quot; t=&quot;s&quot;&gt;<v&gt;3</v&gt;</c&gt;
+<c r=&quot;E1&quot; t=&quot;s&quot;&gt;<v&gt;4</v&gt;</c&gt;
+<c r=&quot;F1&quot; t=&quot;s&quot;&gt;<v&gt;5</v&gt;</c&gt;
+<c r=&quot;G1&quot; t=&quot;s&quot;&gt;<v&gt;6</v&gt;</c&gt;
+<c r=&quot;H1&quot; t=&quot;s&quot;&gt;<v&gt;7</v&gt;</c&gt;
+<c r=&quot;I1&quot; t=&quot;s&quot;&gt;<v&gt;8</v&gt;</c&gt;
+<c r=&quot;A2&quot; t=&quot;s&quot;&gt;<v&gt;0</v&gt;</c&gt;
+<c r=&quot;B2&quot; t=&quot;s&quot;&gt;<v&gt;1</v&gt;</c&gt;
+<c r=&quot;C2&quot; t=&quot;s&quot;&gt;<v&gt;9</v&gt;</c&gt;
+<c r=&quot;D2&quot; t=&quot;s&quot;&gt;<v&gt;10</v&gt;</c&gt;
+<c r=&quot;E2&quot; t=&quot;s&quot;&gt;<v&gt;10</v&gt;</c&gt;
+<c r=&quot;F2&quot; t=&quot;s&quot;&gt;<v&gt;10</v&gt;</c&gt;
+<c r=&quot;G2&quot; t=&quot;s&quot;&gt;<v&gt;2</v&gt;</c&gt;
+<c r=&quot;H2&quot; t=&quot;s&quot;&gt;<v&gt;3</v&gt;</c&gt;
+<c r=&quot;I2&quot; t=&quot;s&quot;&gt;<v&gt;4</v&gt;</c&gt;
+<c r=&quot;J2&quot; t=&quot;s&quot;&gt;<v&gt;5</v&gt;</c&gt;
+<c r=&quot;K2&quot; t=&quot;s&quot;&gt;<v&gt;6</v&gt;</c&gt;
+<c r=&quot;L2&quot; t=&quot;s&quot;&gt;<v&gt;7</v&gt;</c&gt;
+<c r=&quot;M2&quot; t=&quot;s&quot;&gt;<v&gt;8</v&gt;</c&gt;
 ```
 
 <span style="color:red;font-size:40px">うわああああああああああああ！！！！</span>と興奮することもないですが、結構前立腺肥大しています。サイズは、と・・・
@@ -117,12 +117,12 @@ c-619
 
 ```bash
 #マイクロソフトのもくろみではこの構造の方が節約できる
-&lt;c r=&quot;A1&quot; t=&quot;s&quot;&gt;&lt;v&gt;0&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;A2&quot; t=&quot;s&quot;&gt;&lt;v&gt;0&lt;/v&gt;&lt;/c&gt;
-&lt;si&gt;&lt;t&gt;ﾀ&lt;/t&gt;&lt;phoneticPr fontId=&quot;1&quot;/&gt;&lt;/si&gt;
+<c r=&quot;A1&quot; t=&quot;s&quot;&gt;<v&gt;0</v&gt;</c&gt;
+<c r=&quot;A2&quot; t=&quot;s&quot;&gt;<v&gt;0</v&gt;</c&gt;
+<si&gt;<t&gt;ﾀ</t&gt;<phoneticPr fontId=&quot;1&quot;/&gt;</si&gt;
 #でもこうした方が小さいという・・・
-&lt;c r=&quot;A1&quot;&gt;&lt;v&gt;ﾀ&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;A2&quot;&gt;&lt;v&gt;ﾀ&lt;/v&gt;&lt;/c&gt;
+<c r=&quot;A1&quot;&gt;<v&gt;ﾀ</v&gt;</c&gt;
+<c r=&quot;A2&quot;&gt;<v&gt;ﾀ</v&gt;</c&gt;
 ```
 ポインタの方がでかいという・・・。
 

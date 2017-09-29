@@ -91,41 +91,41 @@ template Keywords:
 次のHTMLファイルurl.htmlについて、リンクが相対パスになっているものについては頭に/files/をつけて、/から始まっているものとhttpやhttpsから始まっているものはそのままにしてください。できる人は変なところに改行があるものなどに対応できるように、なるべく一般解に近づけましょう。
 
 ```html
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
- &lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href=&quot;./hoge.html&quot;&gt;ほげ&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;img src=&quot;ayasii.jpg&quot; alt=&quot;怪しい&quot; /&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href=&quot;https://blog.ueda.tech/&quot;&gt;クソブログ&lt;/a&gt;&lt;a href=&quot;huge.html&quot;&gt;ふげ&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href=&quot;/root.jpg&quot;&gt;&lt;/a&gt;これはそのまま&lt;/li&gt;
- &lt;li&gt;&lt;a href=&quot;http://www.usptomo.com/&quot;&gt;更新してない&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html&gt;
+<html&gt;
+<head&gt;
+ <meta charset=&quot;utf-8&quot;&gt;
+</head&gt;
+<body&gt;
+ <ul&gt;
+ <li&gt;<a href=&quot;./hoge.html&quot;&gt;ほげ</a&gt;</li&gt;
+ <li&gt;<img src=&quot;ayasii.jpg&quot; alt=&quot;怪しい&quot; /&gt;</li&gt;
+ <li&gt;<a href=&quot;https://blog.ueda.tech/&quot;&gt;クソブログ</a&gt;<a href=&quot;huge.html&quot;&gt;ふげ</a&gt;</li&gt;
+ <li&gt;<a href=&quot;/root.jpg&quot;&gt;</a&gt;これはそのまま</li&gt;
+ <li&gt;<a href=&quot;http://www.usptomo.com/&quot;&gt;更新してない</a&gt;</li&gt;
+ </ul&gt;
+</body&gt;
+</html&gt;
 ```
 
 次が出力例です。
 
 ```html
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
- &lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href=&quot;/files/hoge.html&quot;&gt;ほげ&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;img src=&quot;/files/ayasii.jpg&quot; alt=&quot;怪しい&quot; /&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href=&quot;https://blog.ueda.tech/&quot;&gt;クソブログ&lt;/a&gt;&lt;a href=&quot;/files/huge.html&quot;&gt;ふげ&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href=&quot;/root.jpg&quot;&gt;&lt;/a&gt;これはそのまま&lt;/li&gt;
- &lt;li&gt;&lt;a href=&quot;http://www.usptomo.com/&quot;&gt;更新してない&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html&gt;
+<html&gt;
+<head&gt;
+ <meta charset=&quot;utf-8&quot;&gt;
+</head&gt;
+<body&gt;
+ <ul&gt;
+ <li&gt;<a href=&quot;/files/hoge.html&quot;&gt;ほげ</a&gt;</li&gt;
+ <li&gt;<img src=&quot;/files/ayasii.jpg&quot; alt=&quot;怪しい&quot; /&gt;</li&gt;
+ <li&gt;<a href=&quot;https://blog.ueda.tech/&quot;&gt;クソブログ</a&gt;<a href=&quot;/files/huge.html&quot;&gt;ふげ</a&gt;</li&gt;
+ <li&gt;<a href=&quot;/root.jpg&quot;&gt;</a&gt;これはそのまま</li&gt;
+ <li&gt;<a href=&quot;http://www.usptomo.com/&quot;&gt;更新してない</a&gt;</li&gt;
+ </ul&gt;
+</body&gt;
+</html&gt;
 ```
 
 <h2>Q3</h2>
@@ -143,19 +143,19 @@ $ cat list
 ```html
 Content-Type: text/html
 
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
- &lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;ul&gt;
-&lt;li&gt;妬み&lt;/li&gt;
-&lt;li&gt;嫉み&lt;/li&gt;
-&lt;li&gt;僻み&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html&gt;
+<html&gt;
+<head&gt;
+ <meta charset=&quot;utf-8&quot;&gt;
+</head&gt;
+<body&gt;
+<ul&gt;
+<li&gt;妬み</li&gt;
+<li&gt;嫉み</li&gt;
+<li&gt;僻み</li&gt;
+</ul&gt;
+</body&gt;
+</html&gt;
 ```
 
 すぐできて退屈な人は、インターネット上のサーバでこのHTMLファイルを送信するサーバをワンライナーで立ててください。

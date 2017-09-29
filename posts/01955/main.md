@@ -306,7 +306,7 @@ uedambp:~ ueda$ seq 1 150 | xargs | gsed 's/100 /100\\n/g' |
 
 ```bash
 uedambp:~ ueda$ seq 1 100 |
- awk '{for(i=0;i&lt;$1;i++){printf &quot;a/&quot;};print &quot;&quot;}' | tail -r |
+ awk '{for(i=0;i<$1;i++){printf &quot;a/&quot;};print &quot;&quot;}' | tail -r |
  while read d ; do rm -f $d/b ; rmdir $d ; done
 uedambp:~ ueda$ ls a
 gls: cannot access a: No such file or directory

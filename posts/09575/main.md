@@ -116,7 +116,7 @@ graph-based SLAMを実行する方法を考える。
 まずは脚注の終わりが必ず「。」で終わっているのを利用したズル解答から。grep -Pの最短一致を使います。
 
 ```bash
-$ tr -d '\\n' &lt; contents.tex | grep -oP '(\\\\footnote{.+?。})'
+$ tr -d '\\n' < contents.tex | grep -oP '(\\\\footnote{.+?。})'
 \\footnote{この仮定は実用上強すぎるが、実際には、後の計算式から分かるように、2つの姿勢間での値$\\psi_{c,t}, \\psi_{c,t'}$の差だけが分かれば良い。例えば、2点間で得られた画像の向きを画像処理から割り出すなどの処理で、この差は得られる。}
 \\footnote{$「10$[\\%]」は変数にすべきだが、記号が増えて理解の妨げになるので固定値として説明する。}
 \\footnote{おそらく$\\psi$は$\\theta$で置き換えられるので$\\psi$を使わない実装もできるが、まだ自分自身では検証していない。}
@@ -127,8 +127,8 @@ $ tr -d '\\n' &lt; contents.tex | grep -oP '(\\\\footnote{.+?。})'
 そうでない解は、インデントをつけてから抽出する方法しか、今のところ思いついていません。
 
 ```bash
-$ tr -d '\\n' &lt; contents.tex | sed 's/[{}]/\\n&amp;\\n/g' | sed 's/\\\\footnote/\\n&amp;/' |
- awk '{for(a=0;a&lt;i;a++)printf &quot; &quot;}/{/{i+=1}/}/{i-=1}{print}' |
+$ tr -d '\\n' < contents.tex | sed 's/[{}]/\\n&amp;\\n/g' | sed 's/\\\\footnote/\\n&amp;/' |
+ awk '{for(a=0;a<i;a++)printf &quot; &quot;}/{/{i+=1}/}/{i-=1}{print}' |
  sed -n '/\\\\footnote/,/^ }/p' | tr -d '\\n' | sed 's/\\\\footnote/\\n&amp;/g' |
  sed 's/ *} */}/g' | sed 's/ *{ */{/g' | awk '{print}'
 ```

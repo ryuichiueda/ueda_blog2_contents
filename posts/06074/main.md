@@ -65,7 +65,7 @@ ebanさんはどんな方法でも解いてくるので本当にすごいなあ�
 ueda\@web:~/tmp$ seq 1 10 &gt; ans
 ueda\@web:~/tmp$ ls -i ans
 2363953 ans
-ueda\@web:~/tmp$ (rm ans; factor | awk 'NF==2{print $2}' &gt; ans) &lt; ans
+ueda\@web:~/tmp$ (rm ans; factor | awk 'NF==2{print $2}' &gt; ans) < ans
 ueda\@web:~/tmp$ ls -i ans
 2364013 ans
 ```

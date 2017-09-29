@@ -61,7 +61,7 @@ ERROR_EXIT(){
 }
 
 ERROR_CHECK(){
-	[ &quot;$(tr -d ' 0' &lt;&lt;&lt; ${PIPESTATUS[\@]})&quot; = &quot;&quot; ] &amp;&amp; return
+	[ &quot;$(tr -d ' 0' <<< ${PIPESTATUS[\@]})&quot; = &quot;&quot; ] &amp;&amp; return
 	ERROR_EXIT
 }
 
@@ -195,7 +195,7 @@ import /usr/bin/ as ub
 import /usr/local/bin/ as ulb
 
 test checkColnum a b:
-	str c = ulb.retu &lt; $a
+	str c = ulb.retu < $a
 	b.test &quot;$c&quot; = &quot;$b&quot;
 
 proc main file num:

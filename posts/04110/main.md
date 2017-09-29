@@ -11,7 +11,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 [root\@localhost httpd]# cat /var/www/html/index.php 
 #!/usr/bin/env php
 
-&lt;?php
+<?php
 	system('date');
 ?&gt;
 ```
@@ -62,7 +62,7 @@ apache:x:48:48:Apache:/var/www:/sbin/nologin
 今度はhttpd.confから追記部分をもう一度削り、index.phpを次のように書き換える。
 ```bash
 [root\@localhost httpd]# cat /var/www/html/index.php 
-&lt;?php
+<?php
 	system('date');
 ?&gt;
 ```
@@ -79,7 +79,7 @@ Fri Oct 3 20:27:38 JST 2014
 [root\@localhost httpd]# cat /var/www/html/index.php 
 #!/usr/bin/php
 
-&lt;?php
+<?php
 	print(&quot;hoge\\n&quot;);
 ?&gt;
 ```
@@ -96,7 +96,7 @@ hoge
 [root\@localhost httpd]# cat /var/www/html/index.php 
 #!/usr/bin/php
 
-&lt;?php
+<?php
 	system(&quot;date&quot;);
 ?&gt;
 ```

@@ -58,7 +58,7 @@ $ seq 1 10
 
 ```bash
 $ cat aho.cc 
-#include &lt;iostream&gt;
+#include <iostream&gt;
 using namespace std;
 
 int main(int argc, char const* argv[])
@@ -69,7 +69,7 @@ int main(int argc, char const* argv[])
 
 void aho(void)
 {
-	cout &lt;&lt; &quot;aho&quot; &lt;&lt; endl;
+	cout << &quot;aho&quot; << endl;
 }
 ```
 

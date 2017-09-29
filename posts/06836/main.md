@@ -116,7 +116,7 @@ c 分倍河原
 commを使ってみたかっただけです。
 
 ```bash
-$ comm &lt;(sort a) &lt;(sort b) | sed 's/^/\\t/' |
+$ comm <(sort a) <(sort b) | sed 's/^/\\t/' |
 sed 's/\\t\\t\\t/c /' | sed 's/\\t\\t/b /' | sed 's/\\t/a /' | sort
 a 鹿島田
 a 川崎
@@ -202,7 +202,7 @@ f-d
 ```bash
 $ sed 's/./&amp; /g' cross |
 awk 'NR==1{split($0,a,&quot; &quot;)}
-/x/{for(i=1;i&lt;=7;i++){if($i==&quot;x&quot;){print $1 &quot;-&quot; a[i]}}}'
+/x/{for(i=1;i<=7;i++){if($i==&quot;x&quot;){print $1 &quot;-&quot; a[i]}}}'
 ###Tukubai使用###
 $ sed 's/./&amp; /g' cross | unmap num=1 |
 awk '/x/{print $1 &quot;-&quot; $2}'
@@ -271,7 +271,7 @@ PGM形式で画像を作るのが一番簡単です。
 
 ```bash
 $ yes '0 1 0 1 0 1 0 1' |
-head -n 8 | sed '1~2s/0 1/1 0/g' | cat &lt;(echo &quot;P2 8 8 1&quot;) - &gt; a.pgm
+head -n 8 | sed '1~2s/0 1/1 0/g' | cat <(echo &quot;P2 8 8 1&quot;) - &gt; a.pgm
 ###AWKを使う場合###
 $ seq 1 64 | awk '{print ($1 + int((NR-1)/8))%2}' |
 xargs -n 8 | awk 'BEGIN{print &quot;P2&quot;,8,8,1}{print}' &gt; a.pgm
@@ -346,7 +346,7 @@ $ cat number
 
 ```bash
 $ cat number |
-awk '{for(j=1;j&lt;length($1);j++)for(i=1;i&lt;=length($1)-j+1;i++){print substr($1,i,j)}}' |
+awk '{for(j=1;j<length($1);j++)for(i=1;i<=length($1)-j+1;i++){print substr($1,i,j)}}' |
 sort | uniq -d | awk '{print length($1),$1}' | sort -k1,1n
 ...
 2 99

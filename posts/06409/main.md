@@ -85,7 +85,7 @@ JSONにするには力技（しか思い浮かばなかった）。
 
 ```bash
 $ cat data1 | awk '{d[$1]=d[$1]&quot; &quot;$2}END{for(k in d){print k d[k]}}' |
- awk -v q='&quot;' '{printf q$1q&quot;:[&quot;;for(i=2;i&lt;=NF;i++){printf $i&quot;,&quot;};print &quot;]&quot;}' |
+ awk -v q='&quot;' '{printf q$1q&quot;:[&quot;;for(i=2;i<=NF;i++){printf $i&quot;,&quot;};print &quot;]&quot;}' |
  xargs | tr ' ' ',' | awk '{print &quot;{&quot;$0&quot;}&quot;}' | sed 's/,]/]/g'
 {a:[1,2,3],b:[4,5]}
 ```
@@ -127,7 +127,7 @@ $ cat data
 
 ```bash
 $ grep -o '&quot;[ab]&quot;:\\[[^\\[]*\\]' data | tr '&quot;:[],' ' ' |
- awk '{n=0;for(i=2;i&lt;=NF;i++){n+=$i};print $1,n}'
+ awk '{n=0;for(i=2;i<=NF;i++){n+=$i};print $1,n}'
 a 6
 b 9
 $ cat data | jq . | tr -dc '[:alnum:]\\n' |
@@ -162,11 +162,11 @@ whileを使ってNFが8になるまでフィールドを補ってから処理し
 
 ```bash
 $ echo 2001:db8::9abc |
- awk -F: '{while(NF!=8){gsub(/::/,&quot;:0::&quot;,$0)};for(i=1;i&lt;=8;i++){$i=$i!=&quot;&quot;?$i:0};print}' |
+ awk -F: '{while(NF!=8){gsub(/::/,&quot;:0::&quot;,$0)};for(i=1;i<=8;i++){$i=$i!=&quot;&quot;?$i:0};print}' |
  tr ' ' ':'
 2001:db8:0:0:0:0:0:9abc
 $ echo ::1 |
- awk -F: '{while(NF!=8){gsub(/::/,&quot;:0::&quot;,$0)};for(i=1;i&lt;=8;i++){$i=$i!=&quot;&quot;?$i:0};print}' |
+ awk -F: '{while(NF!=8){gsub(/::/,&quot;:0::&quot;,$0)};for(i=1;i<=8;i++){$i=$i!=&quot;&quot;?$i:0};print}' |
  tr ' ' ':'
 0:0:0:0:0:0:0:1
 ###別解###

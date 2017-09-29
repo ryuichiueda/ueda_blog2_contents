@@ -53,7 +53,7 @@ file b = seq 1 2
 diff a b !&gt; true
 uedambp:GlueLang ueda$ ./hoge 
 3d2
-&lt; 3
+< 3
 ```
 
 <h2>ifをわざわざ作らなくてもよくなった</h2>

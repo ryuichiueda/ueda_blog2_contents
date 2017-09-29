@@ -19,7 +19,7 @@ dashのmain.hとmain.cに自分のツッコミコメントを入れたもの。g
  * Copyright (c) 1991, 1993
  *	The Regents of the University of California. All rights reserved.
  * Copyright (c) 1997-2005
- *	Herbert Xu &lt;herbert\@gondor.apana.org.au&gt;. All rights reserved.
+ *	Herbert Xu <herbert\@gondor.apana.org.au&gt;. All rights reserved.
  *
  * This code is derived from software contributed to Berkeley by
  * Kenneth Almquist.
@@ -51,7 +51,7 @@ dashのmain.hとmain.cに自分のツッコミコメントを入れたもの。g
  *	\@(#)main.h	8.2 (Berkeley) 5/4/95
  */
 
-#include &lt;errno.h&gt;
+#include <errno.h&gt;
 
 /* pid of main shell */
 extern int rootpid; 
@@ -99,7 +99,7 @@ int exitcmd(int, char **);
  * Copyright (c) 1991, 1993
  *	The Regents of the University of California. All rights reserved.
  * Copyright (c) 1997-2005
- *	Herbert Xu &lt;herbert\@gondor.apana.org.au&gt;. All rights reserved.
+ *	Herbert Xu <herbert\@gondor.apana.org.au&gt;. All rights reserved.
  *
  * This code is derived from software contributed to Berkeley by
  * Kenneth Almquist.
@@ -129,11 +129,11 @@ int exitcmd(int, char **);
  * SUCH DAMAGE.
  */
 
-#include &lt;stdio.h&gt;
-#include &lt;signal.h&gt;
-#include &lt;sys/stat.h&gt;
-#include &lt;unistd.h&gt;
-#include &lt;fcntl.h&gt;
+#include <stdio.h&gt;
+#include <signal.h&gt;
+#include <sys/stat.h&gt;
+#include <unistd.h&gt;
+#include <fcntl.h&gt;
 
 /* ↓こいつらを一通り読まないと全貌が見えないわけです。
 ただ言えるのは、bashより量は少ない。 */
@@ -451,7 +451,7 @@ read_profile(const char *name)
 {
 	name = expandstr(name);
 /* ↓このsetinputfileに入れたファイルがシェルスクリプトとして解釈されるらしい。 */
-	if (setinputfile(name, INPUT_PUSH_FILE | INPUT_NOFILE_OK) &lt; 0)
+	if (setinputfile(name, INPUT_PUSH_FILE | INPUT_NOFILE_OK) < 0)
 		return;
 /* ↓トップでないループ処理に入って設定ファイルを解釈。 */
 	cmdloop(0);

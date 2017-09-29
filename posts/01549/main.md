@@ -71,9 +71,9 @@ uedamac:~ ueda$ identify -verbose hoge.jpg | grep GPS
  exif:GPSLongitude: 139/1, 4540/100, 0/1
  exif:GPSLongitudeRef: E
  exif:GPSTimeStamp: 21/1, 0/1, 5899/100
-uedamac:~ ueda$ convert -strip hoge.jpg foo.jpg &lt;- Exif情報を抜いたfoo.jpgを作る
+uedamac:~ ueda$ convert -strip hoge.jpg foo.jpg <- Exif情報を抜いたfoo.jpgを作る
 uedamac:~ ueda$ identify -verbose foo.jpg | grep GPS
-uedamac:~ ueda$ &lt;- 何も表示されない
+uedamac:~ ueda$ <- 何も表示されない
 ```
 
 面倒な人はどこかにディレクトリを掘って、次のようにワンライナーで全部stripしちゃえという感じです。ストリップしちゃいなよ。

@@ -32,7 +32,7 @@ uedamac:~ ueda$ ulimit -s | awk '{print $1*1024}'
 
 ```c
 uedamac:~ ueda$ cat hoge.c
-#include &lt;stdio.h&gt;
+#include <stdio.h&gt;
 
 void kidding_me(size_t size)
 {

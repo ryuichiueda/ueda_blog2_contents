@@ -31,9 +31,9 @@ CGIHTTPServer.test()
 launchファイルにノードを次のように書く。
 
 ```html
-&lt;launch&gt;
- &lt;node pkg=&quot;hoge_webserver&quot; name=&quot;webserver&quot; type=&quot;webserver.py&quot; required=&quot;true&quot; args=&quot;8080&quot; /&gt;
-&lt;/launch&gt;
+<launch&gt;
+ <node pkg=&quot;hoge_webserver&quot; name=&quot;webserver&quot; type=&quot;webserver.py&quot; required=&quot;true&quot; args=&quot;8080&quot; /&gt;
+</launch&gt;
 ```
 
 

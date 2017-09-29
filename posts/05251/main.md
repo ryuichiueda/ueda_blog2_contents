@@ -27,20 +27,20 @@ dir=$(echo $1 | sed 's;/[^/]*$;;')
 cat $1 |
 nkf -wLux |
 gsed 's/&gt;/&gt;\\n/g' |
-gsed -n '/&lt;table/,/&lt;\\/table&gt;/p' |
+gsed -n '/<table/,/<\\/table&gt;/p' |
 tr -d '\\n' |
-gsed 's;&lt;/li&gt;;&amp;\\n;g' |
-gsed 's/&lt;a[^&lt;]*&gt;//g' |
-gsed 's/.*&lt;td&gt;/%%\\n/' |
-gsed 's/&lt;ul&gt;/\\n/g' |
-gsed 's/&lt;br&gt;/\\n/g' |
+gsed 's;</li&gt;;&amp;\\n;g' |
+gsed 's/<a[^<]*&gt;//g' |
+gsed 's/.*<td&gt;/%%\\n/' |
+gsed 's/<ul&gt;/\\n/g' |
+gsed 's/<br&gt;/\\n/g' |
 gsed 's/\\[.*\\]//g' |
-gsed 's/&lt;img src=&quot;//g' |
+gsed 's/<img src=&quot;//g' |
 gsed 's/&quot;&gt;//' |
 sed 's/→.*//' |
 sed 's/[《》]/ /g' |
 sed 's/ */ /g' |
-sed 's/&lt;[^&lt;]*&gt;//g' |
+sed 's/<[^<]*&gt;//g' |
 awk -v d=&quot;$1&quot; '{
  if(/%%/){k=&quot;&quot;;rank++;}
  else if(k==&quot;&quot;){k=$1}

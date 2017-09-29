@@ -155,7 +155,7 @@ ueda\@remote:~$ ls -l hoge
 <h1>解答</h1>
 
 ```bash
-$ cat /dev/zero | head -c 999999996 | cat &lt;(echo &quot;aho&quot;) - &gt; hoge
+$ cat /dev/zero | head -c 999999996 | cat <(echo &quot;aho&quot;) - &gt; hoge
 ```
 
 
@@ -169,8 +169,8 @@ $ cat /dev/zero | head -c 999999996 | cat &lt;(echo &quot;aho&quot;) - &gt; hoge
 
 ```bash
 ueda\@remote:~$ curl http://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E5%B1%B1%E4%B8%80%E8%A6%A7_%28%E9%AB%98%E3%81%95%E9%A0%86%29 | 
-sed -n '/&lt;table class=&quot;sortable&quot;/,$p' | sed -n '1,/&lt;\\/table&gt;/p' | 
-grep '^&lt;td&gt;' | grep -v jpg | sed 's/&lt;\\/*small&gt;//g' | sed 's/&lt;\\/.*$//' |
+sed -n '/<table class=&quot;sortable&quot;/,$p' | sed -n '1,/<\\/table&gt;/p' | 
+grep '^<td&gt;' | grep -v jpg | sed 's/<\\/*small&gt;//g' | sed 's/<\\/.*$//' |
  sed 's/.*&gt;//' | awk '/^[0-9][0-9]*$/{print &quot;&quot;}{printf(&quot;%s &quot;,$0)}' |
  awk 'NF{print $1,$2,$4}'
 1 富士山 3,775.6
@@ -209,8 +209,8 @@ ueda\@remote:~$ echo '1/4 + 2/5 + 7/16 - 5/9' | sed 's/[+-]/\\n&amp;/g' |
  count 1 2 | self 2 1 3 | sort | yarr num=1 |
  awk 'NF==5{if($3&gt;$5){print $1,$2,$3-$5}else{print $1,$4,$5-$3}}NF!=5{print}'
  | grep -v ' 0$' | self 2 1 3 | sort |
- awk '{a=1;for(i=0;i&lt;$3;i++){a*=$2};print $1,a}' | yarr num=1 |
- awk '{a=1;for(i=2;i&lt;=NF;i++){a*=$i};print $1,a}'
+ awk '{a=1;for(i=0;i<$3;i++){a*=$2};print $1,a}' | yarr num=1 |
+ awk '{a=1;for(i=2;i<=NF;i++){a*=$i};print $1,a}'
 a 383
 b 720
 ###素直に（？）Python使いましょう###
@@ -251,9 +251,9 @@ ueda\@remote:~$ echo '1/4 + 2/5 + 7/16 - 5/9' | sed 's/\\([+-]\\) /\\1/g' |
 
 ```bash
 ueda\@remote:~$ echo '*****************************************************************' |
- grep -o . | awk '{r=int(rand()*10);if(r&lt;1){print}else{printf($1)}}' |
+ grep -o . | awk '{r=int(rand()*10);if(r<1){print}else{printf($1)}}' |
  sed '1~2n;s/./&amp;\\n/g' | awk 'NF' |
- awk '{for(i=0;i&lt;a;i++){printf(&quot; &quot;)}print}length($1)&gt;1{a+=length($1)-1}'
+ awk '{for(i=0;i<a;i++){printf(&quot; &quot;)}print}length($1)&gt;1{a+=length($1)-1}'
 ************************
  *
  *

@@ -14,7 +14,7 @@ Copyright: (C) Ryuichi Ueda
  * Copyright (c) 1991, 1993
  *	The Regents of the University of California. All rights reserved.
  * Copyright (c) 1997-2005
- *	Herbert Xu &lt;herbert\@gondor.apana.org.au&gt;. All rights reserved.
+ *	Herbert Xu <herbert\@gondor.apana.org.au&gt;. All rights reserved.
  *
  * This code is derived from software contributed to Berkeley by
  * Kenneth Almquist.
@@ -78,9 +78,9 @@ void evalbackcmd(union node *, struct backcmd *);
 extern int evalskip;
 
 /* reasons for skipping commands (see comment on breakcmd routine) */
-#define SKIPBREAK	(1 &lt;&lt; 0)
-#define SKIPCONT	(1 &lt;&lt; 1)
-#define SKIPFUNC	(1 &lt;&lt; 2)
+#define SKIPBREAK	(1 << 0)
+#define SKIPCONT	(1 << 1)
+#define SKIPFUNC	(1 << 2)
 ```
 
 
@@ -91,7 +91,7 @@ extern int evalskip;
  * Copyright (c) 1993
  *	The Regents of the University of California. All rights reserved.
  * Copyright (c) 1997-2005
- *	Herbert Xu &lt;herbert\@gondor.apana.org.au&gt;. All rights reserved.
+ *	Herbert Xu <herbert\@gondor.apana.org.au&gt;. All rights reserved.
  *
  * This code is derived from software contributed to Berkeley by
  * Kenneth Almquist.
@@ -121,10 +121,10 @@ extern int evalskip;
  * SUCH DAMAGE.
  */
 
-#include &lt;stdlib.h&gt;
-#include &lt;signal.h&gt;
-#include &lt;unistd.h&gt;
-#include &lt;sys/types.h&gt;
+#include <stdlib.h&gt;
+#include <signal.h&gt;
+#include <unistd.h&gt;
+#include <sys/types.h&gt;
 
 /*
  * Evaluate a command.
@@ -535,13 +535,13 @@ evalloop(union node *n, int flags)
 		if (evalskip) {
 			/*continueの場合、カウントがマイナスになれば
 			* 0に戻してスキップ解除。インデントずれてたので修正。 */ 
-skipping:	if (evalskip == SKIPCONT &amp;&amp; --skipcount &lt;= 0) {
+skipping:	if (evalskip == SKIPCONT &amp;&amp; --skipcount <= 0) {
 				evalskip = 0;
 				continue;
 			}
 			/*breakの場合、カウントがマイナスになれば解除。
 			* インデントずれてたので修正。 */ 
-			if (evalskip == SKIPBREAK &amp;&amp; --skipcount &lt;= 0)
+			if (evalskip == SKIPBREAK &amp;&amp; --skipcount <= 0)
 				evalskip = 0;
 			/* このbreakがシェルスクリプトに書く
 			* breakに対応しているので感慨深い。 */
@@ -613,11 +613,11 @@ evalfor(union node *n, int flags)
 		evaltree(n-&gt;nfor.body, flags);
 		/* continue, breakの処理 */
 		if (evalskip) {
-			if (evalskip == SKIPCONT &amp;&amp; --skipcount &lt;= 0) {
+			if (evalskip == SKIPCONT &amp;&amp; --skipcount <= 0) {
 				evalskip = 0;
 				continue;
 			}
-			if (evalskip == SKIPBREAK &amp;&amp; --skipcount &lt;= 0)
+			if (evalskip == SKIPBREAK &amp;&amp; --skipcount <= 0)
 				evalskip = 0;
 			break;
 		}
@@ -805,13 +805,13 @@ evalpipe(union node *n, int flags)
 		if (lp-&gt;next) {
 			/* ここで次のコマンドと接続するためのパイプを作る*/
 			/* pipeができんかったらエラー */
-			if (pipe(pip) &lt; 0) {
+			if (pipe(pip) < 0) {
 				close(prevfd);
 				sh_error(&quot;Pipe call failed&quot;);
 			}
 		}
  /*
- * --&gt; prevfd &lt;-- pip[0]
+ * --&gt; prevfd <-- pip[0]
  * 親 |
  * --- pip[1]
  * */
@@ -820,7 +820,7 @@ evalpipe(union node *n, int flags)
 		if (forkshell(jp, lp-&gt;n, n-&gt;npipe.backgnd) == 0) {
 			/* 子プロセスの方 */
  /*
- * --&gt; prevfd pip[0] &lt;-----&gt; pip[0] &lt;-- prevfd
+ * --&gt; prevfd pip[0] <-----&gt; pip[0] <-- prevfd
  * 子 | 親
  * pip[1] ------- pip[1]
  * 			*/
@@ -832,7 +832,7 @@ evalpipe(union node *n, int flags)
 				close(pip[0]);
 			}
 			/*
- * --&gt; prevfd ---&gt; pip[0] &lt;-- prevfd
+ * --&gt; prevfd ---&gt; pip[0] <-- prevfd
  * 子 | 親
  * pip[1] ------- pip[1]
  * */
@@ -842,7 +842,7 @@ evalpipe(union node *n, int flags)
 				close(prevfd);
 			}
 			/*
- * --&gt; 0 ---&gt; pip[0] &lt;-- prevfd
+ * --&gt; 0 ---&gt; pip[0] <-- prevfd
  * 子 | 親
  * pip[1] ------- pip[1]
  * 			*/
@@ -853,7 +853,7 @@ evalpipe(union node *n, int flags)
 				close(pip[1]);
 			}
 			/*
- * --&gt; 0 ---&gt; pip[0] &lt;-- prevfd
+ * --&gt; 0 ---&gt; pip[0] <-- prevfd
  * 子 | 親
  * 1 ------- pip[1]
  * 			*/
@@ -925,7 +925,7 @@ evalbackcmd(union node *n, struct backcmd *result)
 	}
 
 	/* 内部コマンドでもパイプは開くらしい。*/
-	if (pipe(pip) &lt; 0)
+	if (pipe(pip) < 0)
 		sh_error(&quot;Pipe call failed&quot;);
 	jp = makejob(n, 1);
 	/* FORK_NOJOBはjobs.cで取り扱われる*/
@@ -1125,7 +1125,7 @@ evalcommand(union node *cmd, int flags)
 			/* implement bltin and command here */
 			if (cmdentry.cmdtype != CMDBUILTIN)
 				break;
-			if (spclbltin &lt; 0)
+			if (spclbltin < 0)
 				spclbltin = 
 					cmdentry.u.cmd-&gt;flags &amp;
 					BUILTIN_SPECIAL
@@ -1350,7 +1350,7 @@ breakcmd(int argc, char **argv)
 {
 	int n = argc &gt; 1 ? number(argv[1]) : 1;
 
-	if (n &lt;= 0)
+	if (n <= 0)
 		badnum(argv[1]);
 	if (n &gt; loopnest)
 		n = loopnest;

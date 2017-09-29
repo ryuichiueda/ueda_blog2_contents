@@ -95,7 +95,7 @@ $ tail monthly_typhoon
 <h3>解答</h3>
 
 ```bash
-$ cat landing.csv | awk -F, '{for(i=2;i&lt;=13;i++){print $1,$i}}' |
+$ cat landing.csv | awk -F, '{for(i=2;i<=13;i++){print $1,$i}}' |
  grep -v 年 | awk '{print $1 sprintf(&quot;%02d&quot;,(NR-1)%12+1),$2}' |
  awk 'NF==1{print $1,0}NF!=1' &gt; monthly_typhoon
 ```
@@ -111,7 +111,7 @@ monthly_typhoonから年ごとの台風の上陸頻度を集計し、元のlandi
 ```bash
 $ cat monthly_typhoon |
  awk '{a[substr($1,1,4)]+=$2}END{for(k in a)print k,a[k]}' |
- sort | paste - &lt;(tail -n +2 landing.csv | sed 's/,$/,0/') |
+ sort | paste - <(tail -n +2 landing.csv | sed 's/,$/,0/') |
  tr , ' ' | awk '$1!=$3 || $2!=$NF'
 ```
 
@@ -241,7 +241,7 @@ c- 19 大阪市阿倍野区
 
 ```bash
 $ awk '{print $1}' hittakuri | sort | uniq -c |
- awk '{print $2,$1}' | LANG=C sort | join - &lt;(LANG=C sort population_h27sep) |
+ awk '{print $2,$1}' | LANG=C sort | join - <(LANG=C sort population_h27sep) |
  awk '{printf(&quot;%s %7f\\n&quot;,$1,$2/$3)}' | sort -k2,2nr
 ```
 

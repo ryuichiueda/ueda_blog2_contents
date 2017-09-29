@@ -15,13 +15,13 @@ Copyright: (C) 2017 Ryuichi Ueda
 #!/bin/bash
 
 usage () {
-	cat &lt;&lt;- FIN &gt;&amp;2
+	cat <<- FIN &gt;&amp;2
 	ExRead Sheet 1.0: read of an excel sheet
 	Wed Apr 23 23:34:39 JST 2014
 
 	Copyright (C) 2014 Ryuichi UEDA
 
-	usage: exread &lt;sheet&gt; original.xlsx
+	usage: exread <sheet&gt; original.xlsx
 	FIN
 
 	exit 1
@@ -31,13 +31,13 @@ usage () {
 [ &quot;$1&quot; = &quot;--help&quot; ] &amp;&amp; usage
 
 unzip -p &quot;$2&quot; &quot;xl/worksheets/$1.xml&quot;		|
-grep -o '&lt;c [^&lt;]*&gt;[^v]*&lt;v&gt;[^&lt;]*&lt;/v&gt;&lt;/c&gt;'	|
-sed 's;&gt;&lt;f&gt;[^&lt;]*&lt;/f&gt;; t=&quot;n&quot;&gt;;'			|
-sed 's;&lt;c \\(r=&quot;[A-Z]*[0-9]*&quot;\\)&gt;;&lt;c \\1 t=&quot;n&quot;&gt;;'	|
-sed 's;^&lt;c ;;'					|
-sed 's;&lt;/v&gt;&lt;/c&gt;;;'				|
+grep -o '<c [^<]*&gt;[^v]*<v&gt;[^<]*</v&gt;</c&gt;'	|
+sed 's;&gt;<f&gt;[^<]*</f&gt;; t=&quot;n&quot;&gt;;'			|
+sed 's;<c \\(r=&quot;[A-Z]*[0-9]*&quot;\\)&gt;;<c \\1 t=&quot;n&quot;&gt;;'	|
+sed 's;^<c ;;'					|
+sed 's;</v&gt;</c&gt;;;'				|
 sed 's;[frt]=;;g'				|
-sed 's;&gt;&lt;v&gt;; ;'					|
+sed 's;&gt;<v&gt;; ;'					|
 tr -d '&quot;'					|
 sed 's/^[A-Z]*/&amp; /'
 

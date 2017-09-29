@@ -75,7 +75,7 @@ x x
 
 ```bash
 ueda\@remote:~$ yes | head -n 21 |
-awk '{for(i=1;i&lt;=21;i++){
+awk '{for(i=1;i<=21;i++){
 if(i==NR || 22-i==NR){printf &quot;x&quot;}else{printf &quot; &quot;}}
 print &quot;&quot;}'
 ```
@@ -105,7 +105,7 @@ ueda\@remote:~/tmp$ cat kaibun
 ```bash
 ###小問1###
 ueda\@remote:~$ echo たけやぶ | 
-while read s ; do echo $s ; rev &lt;&lt;&lt; $s ; done | 
+while read s ; do echo $s ; rev <<< $s ; done | 
 xargs | sed 's/ .//'
 たけやぶやけた
 ueda\@remote:~$ echo たけやぶ | sed 's/./&amp; /g' |
@@ -113,7 +113,7 @@ awk '{printf $0;for(i=NF-1;i&gt;=1;i--){printf $i};print &quot;&quot;}' |
 tr -d ' '
 たけやぶやけた
 ###鳥海さん解答###
-echo たけやぶ | ( read s ; echo $s ; rev &lt;&lt;&lt; $s ) | xargs | sed 's/. //'
+echo たけやぶ | ( read s ; echo $s ; rev <<< $s ) | xargs | sed 's/. //'
 ###小問2###
 ueda\@remote:~/tmp$ rev kaibun | paste kaibun - | sed 's/.\\t//'
 たけやぶやけた
@@ -129,7 +129,7 @@ ueda\@remote:~/tmp$ rev kaibun | paste kaibun - | sed 's/.\\t//'
 ```bash
 ueda\@remote:~$ curl http://ja.wikipedia.org/wiki/%E5%8D%97%E6%AD%A6%E7%B7%9A | 
 sed -n '/南武線新旧 快速停車駅/,$p' | sed -n '/川崎/,$p' | 
-sed -n '1,/立川/p' | sed 's/&lt;[^&lt;]*&gt;//g'
+sed -n '1,/立川/p' | sed 's/<[^<]*&gt;//g'
 ueda\@remote:~$ curl 'http://express.heartrails.com/api/json?method=getStations&amp;line=JR南武線' |
  jq . | grep '&quot;name&quot;' | awk '{print $2}' | tr -d '&quot;,'
 ```
@@ -174,7 +174,7 @@ B 10 31.1 -34 94
 
 ```bash
 ueda\@remote:~/tmp$ cat input | 
-awk '{for(i=2;i&lt;=NF;i++){print $1,$i}}' | 
+awk '{for(i=2;i<=NF;i++){print $1,$i}}' | 
 sort -k1,1 -k2,2nr | 
 awk '{if(a==$1){printf &quot; &quot;$2}else{print &quot;&quot;;printf $0;a=$1}}' | 
 awk 'NF!=0'
@@ -214,7 +214,7 @@ ueda\@remote:~/tmp$ cat num
 
 ```bash
 ueda\@remote:~/tmp$ cat num | 
-awk '{printf(&quot;%2d &quot;,$1);for(i=0;i&lt;$1;i++){printf &quot;*&quot;}print &quot;&quot;}'
+awk '{printf(&quot;%2d &quot;,$1);for(i=0;i<$1;i++){printf &quot;*&quot;}print &quot;&quot;}'
 ```
 
 <h2>Q7</h2>
@@ -240,17 +240,17 @@ Q6のグラフを次のように縦にしてください。
 
 ```bash
 ueda\@remote:~/tmp$ cat num | 
-awk '{printf $1&quot; &quot;;for(i=0;i&lt;$1;i++){printf &quot;* &quot;}
-for(i=$1;i&lt;=15;i++){printf &quot;_ &quot;};print &quot;&quot;}' |
- awk '{for(i=1;i&lt;=NF;i++){a[NR,i]=$i}}
-END{for(i=1;i&lt;=15;i++)
-{for(j=1;j&lt;=NR;j++){printf a[j,i]&quot; &quot;}print &quot;&quot;}}' | 
+awk '{printf $1&quot; &quot;;for(i=0;i<$1;i++){printf &quot;* &quot;}
+for(i=$1;i<=15;i++){printf &quot;_ &quot;};print &quot;&quot;}' |
+ awk '{for(i=1;i<=NF;i++){a[NR,i]=$i}}
+END{for(i=1;i<=15;i++)
+{for(j=1;j<=NR;j++){printf a[j,i]&quot; &quot;}print &quot;&quot;}}' | 
 tac | sed -n '/\\*/,$p' | tr _ ' '
 ###tukubai使用###
 ueda\@remote:~/tmp$ cat num | 
 awk '{printf $1&quot; &quot;;
-for(i=0;i&lt;$1;i++){printf &quot;* &quot;}
-for(i=$1;i&lt;=15;i++){printf &quot;_ &quot;};print &quot;&quot;}' |
+for(i=0;i<$1;i++){printf &quot;* &quot;}
+for(i=$1;i<=15;i++){printf &quot;_ &quot;};print &quot;&quot;}' |
  tateyoko | tac | keta | sed -n '/\\*/,$p' | tr _ ' '
 ```
 

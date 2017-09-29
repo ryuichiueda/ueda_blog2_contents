@@ -64,22 +64,22 @@ readSensor :: MVar Bool -&gt; IO ()
 readSensor ref = do
  -- センサを休める
  threadDelay 200000
- cs &lt;- readFile &quot;/dev/rtlightsensor0&quot;
+ cs <- readFile &quot;/dev/rtlightsensor0&quot;
  -- 4つのセンサの値を合計
- let v = sum [ read w :: Int | w &lt;- words cs ]
+ let v = sum [ read w :: Int | w <- words cs ]
  -- センサが反応していなかったら再度計測
  if v &gt; 1000 then putMVar ref True else readSensor ref
 
 -- センサに何か反応したらモータのスレッドを止める
 watchSensor :: MVar Bool -&gt; ThreadId -&gt; IO ()
 watchSensor ref w = do
- tf &lt;- takeMVar ref
+ tf <- takeMVar ref
  if tf then killThread w else watchSensor ref w
 
 main = do
- ref &lt;- newMVar False
- w &lt;- forkIO $ forward
- _ &lt;- forkIO $ readSensor ref
+ ref <- newMVar False
+ w <- forkIO $ forward
+ _ <- forkIO $ readSensor ref
 
  watchSensor ref w
 ```

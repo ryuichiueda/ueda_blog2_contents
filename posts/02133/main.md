@@ -33,8 +33,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ```hs
 main' :: [String] -&gt; IO ()
-main' (scr:as) = do cs &lt;- readF scr
- pn &lt;- getProgName
+main' (scr:as) = do cs <- readF scr
+ pn <- getProgName
  let scrname = scr ++ &quot;.bash&quot;
  writeFile scrname $ (Bash.toBash . parseGlueLang) cs
 {--
@@ -43,11 +43,11 @@ This function doesn't work well since
 the standard input is buffered before on memory. 
 The amount of buffer is small.
  let opts = [&quot;-evx&quot;,scrname] ++ as
- (stdin, stdout, stderr ,procHandle) &lt;- runInteractiveProcess &quot;bash&quot; opts Nothing Nothing
- hPutStr stdin =&lt;&lt; getContents
+ (stdin, stdout, stderr ,procHandle) <- runInteractiveProcess &quot;bash&quot; opts Nothing Nothing
+ hPutStr stdin =<< getContents
  hFlush stdin
  hClose stdin
- putStr =&lt;&lt; hGetContents stdout
+ putStr =<< hGetContents stdout
 --}
 ```
 

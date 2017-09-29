@@ -71,7 +71,7 @@ PARENT_ID: 619
 619
 619
 619
-ueda\@remote:~/tmp$ 1 &lt;- parent.bashが終わる
+ueda\@remote:~/tmp$ 1 <- parent.bashが終わる
 1
 1
 1

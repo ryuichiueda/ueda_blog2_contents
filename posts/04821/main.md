@@ -79,7 +79,7 @@ jq . | grep -C 6 HND
 
 ```bash
 uedambp:~ ueda$ seq 1 1000 |
-awk '{for(i=1;i&lt;=$1;i++){printf(&quot;%d &quot;,i)}{print &quot;&quot;}}' |
+awk '{for(i=1;i<=$1;i++){printf(&quot;%d &quot;,i)}{print &quot;&quot;}}' |
 tr ' ' '*' | sed 's/\\*$/)/' | sed 's:^:1/(:' | bc -l | 
 tr '\\n' '+' | sed 's/$/1/' | bc -l 
 2.71828182845904523526
@@ -114,7 +114,7 @@ Invalid character in input stream.
 uedambp:~ ueda$ cat /dev/urandom | gtr -dc '0-9' |
 gfold -b10 | sed 's/^/0./' | sed 's/$/5/' |
 awk 'NR%2==0{print $1}NR%2!=0{printf($1 &quot; &quot;)}' |
-awk '{x=$1-0.5;y=$2-0.5;r=sqrt(x^2 + y^2);if(r &lt; 0.5){n++};print NR, 4*n/NR}'
+awk '{x=$1-0.5;y=$2-0.5;r=sqrt(x^2 + y^2);if(r < 0.5){n++};print NR, 4*n/NR}'
 ...
 729078 3.14094
 729079 3.14094

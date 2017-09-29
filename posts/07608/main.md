@@ -249,7 +249,7 @@ Hell
 ```bash
 $ iconv -c -f utf-8 -t ascii b.bash | diff - b.bash 
 3c3
-&lt; ls /
+< ls /
 ---
 &gt; ls ˜/
 ```
@@ -272,7 +272,7 @@ a+h{5}(ho){10}[0-9]+
 ```bash
 $ cat extended | sed 's/[+}]/&amp;\\n/g' | sed 's/\\(.*\\)+/\\1\\1*/' |
  tr '{}()' ' ' |
- awk 'NF==2{for(i=1;i&lt;=$2;i++){printf $1};print &quot;&quot;}NF==1' |
+ awk 'NF==2{for(i=1;i<=$2;i++){printf $1};print &quot;&quot;}NF==1' |
  tr -d '\\n' | xargs
 aa*hhhhhhohohohohohohohohoho[0-9][0-9]*
 ```

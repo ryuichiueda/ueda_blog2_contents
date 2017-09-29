@@ -71,7 +71,7 @@ import /usr/local/bin/ as ulb
 import /usr/bin/ as ub
 
 ub.seq '1' '1000' &gt;&gt;=
-ulb.awk '{for(i=1;i&lt;=$1;i++){printf(&quot;%d &quot;,i)}{print &quot;&quot;}}' &gt;&gt;=
+ulb.awk '{for(i=1;i<=$1;i++){printf(&quot;%d &quot;,i)}{print &quot;&quot;}}' &gt;&gt;=
 ub.tr ' ' '*' &gt;&gt;=
 ub.sed 's/\\*$/)/' &gt;&gt;=
 ub.sed 's:^:1/(:' &gt;&gt;=
@@ -112,7 +112,7 @@ uedambp:GlueLang ueda$ cat ./stdcom/loop-serial
 
 # loopserial command
 
-# usage: loopserial &lt;commmand&gt; &lt;args...&gt;
+# usage: loopserial <commmand&gt; <args...&gt;
 
 # Multiapply trys the command until the command
 

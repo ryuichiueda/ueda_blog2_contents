@@ -20,7 +20,7 @@ void kidding_me(size_t size)
 {
 	int nums[size];
 
-	for(int i=0;i&lt;size;i++){
+	for(int i=0;i<size;i++){
 		nums[i] = i;
 		printf(&quot;%d\\n&quot;,nums[i]);
 	}
@@ -56,7 +56,7 @@ void kidding_me(size_t size)
 	int nums[size];
 
 	int i=0;
-	for(i=0;i&lt;size;i++){
+	for(i=0;i<size;i++){
 		nums[i] = i;
 		printf(&quot;%d\\n&quot;,nums[i]);
 	}

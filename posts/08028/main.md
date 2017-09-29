@@ -169,7 +169,7 @@ bbbbba 6
 
 ```bash
 ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q3.ans |
- awk '{for(i=2;i&lt;=NF;i++)print $1,$i}' |
+ awk '{for(i=2;i<=NF;i++)print $1,$i}' |
  sort -k2,2n | awk '{print $1}'
 aaabbb
 bababa
@@ -222,9 +222,9 @@ ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q5
 
 ```bash
 ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q5 |
- awk '{for(len=1;len&lt;=NF;len++)for(shift=1;shift&lt;=NF-len+1;shift++)
-{for(i=shift;i&lt;shift+len;i++){printf $i&quot; &quot;};print &quot;&quot;}}' |
- awk '{a=0;for(i=1;i&lt;=NF;i++)a+=$i;print $0,a}' | awk '$NF==10'
+ awk '{for(len=1;len<=NF;len++)for(shift=1;shift<=NF-len+1;shift++)
+{for(i=shift;i<shift+len;i++){printf $i&quot; &quot;};print &quot;&quot;}}' |
+ awk '{a=0;for(i=1;i<=NF;i++)a+=$i;print $0,a}' | awk '$NF==10'
 9 1 10
 4 4 2 10
 2 3 5 10
@@ -300,13 +300,13 @@ uedamb:~ ueda$
 
 ```bash
 ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q8.cc 
-#include &lt;iostream&gt;
-#include &lt;string&gt;
+#include <iostream&gt;
+#include <string&gt;
 using namespace std;
 
 void aho(void)
 {
-	cout &lt;&lt; nazo() &lt;&lt; endl;
+	cout << nazo() << endl;
 }
 
 string nazo(void)
@@ -325,15 +325,15 @@ int main(int argc, char const* argv[])
 
 ```bash
 ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q8.ans.cc 
-#include &lt;iostream&gt;
-#include &lt;string&gt;
+#include <iostream&gt;
+#include <string&gt;
 using namespace std;
 void aho(void);
 string nazo(void);
 
 void aho(void)
 {
-	cout &lt;&lt; nazo() &lt;&lt; endl;
+	cout << nazo() << endl;
 }
 
 string nazo(void)

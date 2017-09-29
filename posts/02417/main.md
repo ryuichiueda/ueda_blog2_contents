@@ -21,14 +21,14 @@ root\@remote:~# apt-get install html-xml-utils
 んで、昨日の記事では「c」という要素を無理矢理grepで引っ張りだしてましたが、hxselectというコマンドを使うと脳みその負荷が大幅に減ります。
 ```bash
 ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c
-&lt;c r=&quot;A1&quot;&gt;&lt;v&gt;1&lt;/v&gt;&lt;/c&gt;&lt;c r=&quot;A2&quot;&gt;&lt;v&gt;2&lt;/v&gt;&lt;/c&gt;&lt;c r=&quot;A3&quot;&gt;&lt;v&gt;3&lt;/v&gt;&lt;/c&gt;&lt;c 
-r=&quot;A4&quot;&gt;&lt;v&gt;-4.2300000000000004&lt;/v&gt;&lt;/c&gt;ueda\@remote:~/tmp$
+<c r=&quot;A1&quot;&gt;<v&gt;1</v&gt;</c&gt;<c r=&quot;A2&quot;&gt;<v&gt;2</v&gt;</c&gt;<c r=&quot;A3&quot;&gt;<v&gt;3</v&gt;</c&gt;<c 
+r=&quot;A4&quot;&gt;<v&gt;-4.2300000000000004</v&gt;</c&gt;ueda\@remote:~/tmp$
 ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c |
- sed 's;&lt;/c&gt;;&amp;\\n;g'
-&lt;c r=&quot;A1&quot;&gt;&lt;v&gt;1&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;A2&quot;&gt;&lt;v&gt;2&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;A3&quot;&gt;&lt;v&gt;3&lt;/v&gt;&lt;/c&gt;
-&lt;c r=&quot;A4&quot;&gt;&lt;v&gt;-4.2300000000000004&lt;/v&gt;&lt;/c&gt;
+ sed 's;</c&gt;;&amp;\\n;g'
+<c r=&quot;A1&quot;&gt;<v&gt;1</v&gt;</c&gt;
+<c r=&quot;A2&quot;&gt;<v&gt;2</v&gt;</c&gt;
+<c r=&quot;A3&quot;&gt;<v&gt;3</v&gt;</c&gt;
+<c r=&quot;A4&quot;&gt;<v&gt;-4.2300000000000004</v&gt;</c&gt;
 ```
 もう、どれだけビールを飲んでも仕事できそうなくらい簡単です（本当か？）。
 

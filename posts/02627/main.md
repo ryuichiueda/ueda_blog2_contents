@@ -140,7 +140,7 @@ file1 file6
 file1 file7
 file1 file8
 file1 file9
-file2 file3 &lt;- file2 file1 の組み合わせは既出なので出力しない
+file2 file3 <- file2 file1 の組み合わせは既出なので出力しない
 file2 file4
 file2 file5
 file2 file6

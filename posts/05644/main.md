@@ -271,14 +271,14 @@ ueda\@tencore:~/tmp/nasa$ awk '{print $1}' access_log | LANG=C sort -u | cat - d
 19950802
 ###Tukubaiでワンライナー###
 ueda\@tencore:~/tmp/nasa$ awk '{print $1}' access_log | LANG=C sort -u |
- cat - &lt;(mdate -e 19950701 19950831)| tarr | sort | uniq -u
+ cat - <(mdate -e 19950701 19950831)| tarr | sort | uniq -u
 19950729
 19950730
 19950731
 19950802
 ###ガチでワンライナー###
 ueda\@tencore:~/tmp/nasa$ awk '{print $1}' access_log | LANG=C sort -u |
- cat - &lt;(echo 19950{7,8}{01..31}) | tr ' ' '\\n' | sort | uniq -u
+ cat - <(echo 19950{7,8}{01..31}) | tr ' ' '\\n' | sort | uniq -u
 19950729
 19950730
 19950731

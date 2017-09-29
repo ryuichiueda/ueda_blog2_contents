@@ -156,7 +156,7 @@ grep: /etc/blkid.tab: No such file or directory
 $ cat text2 
 A pen is a pen?
 日本語でおk
-ΩΩπ&lt;Ω&lt; na nandatte!!
+ΩΩπ<Ω< na nandatte!!
 Randy W. Bass
 env x='() { :;}; echo vulnerable' bash -c &quot;echo this is a test&quot;
 #危険シェル芸
@@ -190,7 +190,7 @@ $ echo 1 4 5 &gt; c
 $ for i in a b c ; do [ 10 -eq $(numsum -r $i) ] &amp;&amp; echo $i ; done
 ###grepでリストを作る###
 $ grep &quot;&quot; * | tr ':' ' ' | 
-awk '{for(i=2;i&lt;=NF;i++){a+=$i};print $1,a;a=0}' | grep &quot; 10$&quot;
+awk '{for(i=2;i<=NF;i++){a+=$i};print $1,a;a=0}' | grep &quot; 10$&quot;
 ###Tukubaiを利用###
 $ grep &quot;&quot; * | tr ':' ' ' | ysum num=1 | grep &quot; 10$&quot;
 ```

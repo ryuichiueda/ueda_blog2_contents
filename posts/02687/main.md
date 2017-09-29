@@ -92,7 +92,7 @@ echo $A
 ueda\@remote:~$ ./hoge2-2.bash 
 親: 1836
 子: 1837
- &lt;- aaaと出てこない
+ <- aaaと出てこない
 
 ```
 <h2>丸括弧だと</h2>

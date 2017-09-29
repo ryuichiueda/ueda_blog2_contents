@@ -41,10 +41,10 @@ Count 1 2 2 2 &quot;&quot;
 
 ```bash
 uedamac:tmp ueda$ cat q3.hs
-main = do a &lt;- readFile &quot;file1&quot;
- b &lt;- readFile &quot;file2&quot;
- c &lt;- readFile &quot;file3&quot;
- d &lt;- readFile &quot;file4&quot;
+main = do a <- readFile &quot;file1&quot;
+ b <- readFile &quot;file2&quot;
+ c <- readFile &quot;file3&quot;
+ d <- readFile &quot;file4&quot;
  g [(&quot;file1&quot;,a),(&quot;file2&quot;,b),(&quot;file3&quot;,c),(&quot;file4&quot;,d)]
 
 g [] = return ()
@@ -124,8 +124,8 @@ g ((n,a):as) = (if t `B.isPrefixOf` aa then print n else return () ) &gt;&gt; g 
 
 f [] = []
 f (n:ns) 
- | n &lt; 10 = (n,(md5 $ B.pack (&quot;00&quot; ++ (show n)))) : f ns
- | n &lt; 100 = (n,(md5 $ B.pack (&quot;0&quot; ++ (show n)))) : f ns
+ | n < 10 = (n,(md5 $ B.pack (&quot;00&quot; ++ (show n)))) : f ns
+ | n < 100 = (n,(md5 $ B.pack (&quot;0&quot; ++ (show n)))) : f ns
  | otherwise = (n,(md5 $ B.pack (show n))) : f ns
 uedamac:tmp ueda$ ./q7 
 456

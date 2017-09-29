@@ -74,7 +74,7 @@ nawk 'BEGIN{print &quot; BEGIN{print x}&quot;}' | awk -v x=3 -f -
 $ cat text2 
 A pen is a pen?
 日本語でおk
-ΩΩπ&lt;Ω&lt; na nandatte!!
+ΩΩπ<Ω< na nandatte!!
 Randy W. Bass
 env x='() { :;}; echo vulnerable' bash -c &quot;echo this is a test&quot;
 #危険シェル芸

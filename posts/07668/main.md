@@ -44,7 +44,7 @@ $ yo hubot
  | //| +===+ 
  \\// |xx| 
 
-? Owner Ryuichi UEDA &lt;aho\@gmail.com&gt;
+? Owner Ryuichi UEDA <aho\@gmail.com&gt;
 ? Bot name github
 ? Description A simple notifier for GitHub wiki
 ? Bot adapter (campfire) slack

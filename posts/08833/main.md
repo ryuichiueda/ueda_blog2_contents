@@ -126,8 +126,8 @@ Docker上で試したらホストマシン沈黙の報告
 
 ```bash
 $ unzip -p ~/ShellGeiData/vol.26/20141019OSC_LT.pptx ppt/slides/slide7.xml |
- xmllint --format - | grep '&lt;a:[pt]&gt;' | sed 's;&lt;/.*;;' |
- sed 's;&lt;.*&gt;;;' | awk 'NF==0{print &quot;\@\@\@&quot;}{print}' |
+ xmllint --format - | grep '<a:[pt]&gt;' | sed 's;</.*;;' |
+ sed 's;<.*&gt;;;' | awk 'NF==0{print &quot;\@\@\@&quot;}{print}' |
  xargs | sed 's/\@\@*/\\n/g' | awk 'NF' | tr -d ' '
 戦果（？）
 初日だけで見知らぬ方のマシン3台轟沈
@@ -155,12 +155,12 @@ graph.xlsxの2列の数字を抜き出して端末にSSV形式のデータ（CSV
 ###スペース区切り###
 $ unzip ~/ShellGeiData/vol.26/graph.xlsx;
  cat xl/worksheets/sheet1.xml |
- sed 's;&lt;/row&gt;;\\n;g' | sed 's;&lt;/v&gt;.*&lt;v&gt;; ;' |
- sed 's;.*&lt;v&gt;;;' | sed 's;&lt;/v&gt;.*;;' | grep -v &quot;^&lt;&quot;
+ sed 's;</row&gt;;\\n;g' | sed 's;</v&gt;.*<v&gt;; ;' |
+ sed 's;.*<v&gt;;;' | sed 's;</v&gt;.*;;' | grep -v &quot;^<&quot;
 ###スペース区切り・ワンライナーバージョン###
 $ unzip -p ~/ShellGeiData/vol.26/graph.xlsx xl/worksheets/sheet1.xml |
- sed 's;&lt;/row&gt;;\\n;g' | sed 's;&lt;/v&gt;.*&lt;v&gt;; ;' |
- sed 's;.*&lt;v&gt;;;' | sed 's;&lt;/v&gt;.*;;' | grep -v &quot;^&lt;&quot;
+ sed 's;</row&gt;;\\n;g' | sed 's;</v&gt;.*<v&gt;; ;' |
+ sed 's;.*<v&gt;;;' | sed 's;</v&gt;.*;;' | grep -v &quot;^<&quot;
 ```
 
 もっとスマートに行うには、html-xml-utilsとlibxml2-utilsをインストールしてhxselectコマンドやxmllintを使います。
@@ -171,10 +171,10 @@ $ sudo apt install libxml2-utils
 ###番号と値のリスト###
 $ unzip -p ~/ShellGeiData/vol.26/graph.xlsx xl/worksheets/sheet1.xml |
  hxselect c -s '\\n' | sed 's;[^=]*=&quot;;;' |
- sed 's;&quot;.*&lt;v&gt;; ;' | sed 's;&lt;.*;;'
+ sed 's;&quot;.*<v&gt;; ;' | sed 's;<.*;;'
 $ unzip -p ~/ShellGeiData/vol.26/graph.xlsx xl/worksheets/sheet1.xml |
- xmllint --format - | grep -e '&lt;c r=' -e '&lt;v&gt;' | xargs |
- sed 's;&lt;/v&gt;;\\n;g' | sed 's/.*=//' | sed 's/&gt;.*&gt;/ /'
+ xmllint --format - | grep -e '<c r=' -e '<v&gt;' | xargs |
+ sed 's;</v&gt;;\\n;g' | sed 's/.*=//' | sed 's/&gt;.*&gt;/ /'
 ```
 
 もっと便利なツールもあるという噂ですが、とりあえず私からこれくらいで・・・
@@ -191,23 +191,23 @@ hanshin.xlsxのシートについてQ2と同様SSV形式か、セルの番号と
 ```bash
 $ unzip ~/GIT/ShellGeiData/vol.26/hanshin.xlsx 
 $ xmllint --format xl/sharedStrings.xml | head
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
-&lt;sst xmlns=&quot;http://schemas.openxmlformats.org/spreadsheetml/2006/main&quot; count=&quot;18&quot; uniqueCount=&quot;15&quot;&gt;
- &lt;si&gt;
- &lt;t&gt;真弓&lt;/t&gt;
- &lt;rPh sb=&quot;0&quot; eb=&quot;2&quot;&gt;
- &lt;t&gt;マユミ&lt;/t&gt;
- &lt;/rPh&gt;
- &lt;phoneticPr fontId=&quot;1&quot;/&gt;
- &lt;/si&gt;
- &lt;si&gt;
+<?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+<sst xmlns=&quot;http://schemas.openxmlformats.org/spreadsheetml/2006/main&quot; count=&quot;18&quot; uniqueCount=&quot;15&quot;&gt;
+ <si&gt;
+ <t&gt;真弓</t&gt;
+ <rPh sb=&quot;0&quot; eb=&quot;2&quot;&gt;
+ <t&gt;マユミ</t&gt;
+ </rPh&gt;
+ <phoneticPr fontId=&quot;1&quot;/&gt;
+ </si&gt;
+ <si&gt;
 ```
 
 読みのデータが邪魔なので、消去した上でリストを作っておきます。
 
 ```bash
 $ unzip -p ~/GIT/ShellGeiData/vol.26/hanshin.xlsx xl/sharedStrings.xml |
- hxselect si -s '\\n' | awk -F'[&lt;&gt;]' '{print NR-1,$5}' &gt; strings
+ hxselect si -s '\\n' | awk -F'[<&gt;]' '{print NR-1,$5}' &gt; strings
 $ head -n 3 strings 
 0 真弓
 1 弘田
@@ -218,8 +218,8 @@ $ head -n 3 strings
 
 ```bash
 $ unzip -p ~/GIT/ShellGeiData/vol.26/hanshin.xlsx xl/worksheets/sheet1.xml |
- hxselect c -s '\\n' | grep '&lt;v&gt;' |
- awk -F'[&lt;&gt; &quot;]' '/t=&quot;s&quot;/{print $4,&quot;s&quot;,$(NF-4)}!/t=&quot;s&quot;/{print $4,&quot;n&quot;,$(NF-4)}'
+ hxselect c -s '\\n' | grep '<v&gt;' |
+ awk -F'[<&gt; &quot;]' '/t=&quot;s&quot;/{print $4,&quot;s&quot;,$(NF-4)}!/t=&quot;s&quot;/{print $4,&quot;n&quot;,$(NF-4)}'
 B1 n 42522
 C1 n 42561
 A2 n 1
@@ -237,8 +237,8 @@ B4 s 2
 
 ```bash
 $ unzip -p ~/GIT/ShellGeiData/vol.26/hanshin.xlsx xl/worksheets/sheet1.xml |
- hxselect c -s '\\n' | grep '&lt;v&gt;' |
- awk -F'[&lt;&gt; &quot;]' '/t=&quot;s&quot;/{print $4,&quot;s&quot;,$(NF-4)}!/t=&quot;s&quot;/{print $4,&quot;n&quot;,$(NF-4)}' |
+ hxselect c -s '\\n' | grep '<v&gt;' |
+ awk -F'[<&gt; &quot;]' '/t=&quot;s&quot;/{print $4,&quot;s&quot;,$(NF-4)}!/t=&quot;s&quot;/{print $4,&quot;n&quot;,$(NF-4)}' |
  awk 'FILENAME==&quot;strings&quot;{s[$1]=$2}FILENAME==&quot;-&quot;&amp;&amp;
 $2==&quot;s&quot;{print $1,s[$3]}$2==&quot;n&quot;{print $1,$3}' strings -
 B1 42522

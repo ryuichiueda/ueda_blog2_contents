@@ -129,7 +129,7 @@ $ echo 1234567890{000..999} {0..9}1234567890{00..99}
 $ seq -w 000 999 | sed 's/./&amp; /g' |
  awk '{a=&quot;1234567890&quot;; print $1$2$3a; print $1$2a$3; print $1a$2$3; print a$1$2$3}'
 $ seq -w 000 999 |
- awk '{a=&quot;1234567890&quot;;for(i=0;i&lt;=3;i++)print substr($1,1,i)a substr($1,1+i)}'
+ awk '{a=&quot;1234567890&quot;;for(i=0;i<=3;i++)print substr($1,1,i)a substr($1,1+i)}'
 ```
 
 <h2>Q4</h2>
@@ -179,7 +179,7 @@ sed 's/す\@*っ\@*と\@*こ\@*ど\@*っ\@*こ\@*い/朴念仁/g' | tr \@ '\\n' 
 
 ```bash
 $ curl https://blog.ueda.asia/?page_id=7123 |
- grep -o '&lt;img src=&quot;data:[^&gt;]*/&gt;' | sed 's/^.*,//' |
+ grep -o '<img src=&quot;data:[^&gt;]*/&gt;' | sed 's/^.*,//' |
  sed 's;&quot;/&gt;$;;' | base64 -d &gt; chinjyu.png
 ```
 
@@ -230,8 +230,8 @@ $ : (){ : | : &amp; }; :
 変数を起動するたびにファイルに1行追記してやって条件を判定すれば、安心してください。止まりますよ。（失敗すると止まらないけど。）
 
 ```bash
-###wc -l &lt; aをwc -l aとすると止まらないので注意###
-$ : (){ echo a &gt;&gt; a ; [ &quot;$(wc -l &lt; a)&quot; -gt 1000 ] &amp;&amp; exit 0; : | : &amp; }; :
+###wc -l < aをwc -l aとすると止まらないので注意###
+$ : (){ echo a &gt;&gt; a ; [ &quot;$(wc -l < a)&quot; -gt 1000 ] &amp;&amp; exit 0; : | : &amp; }; :
 ```
 
 

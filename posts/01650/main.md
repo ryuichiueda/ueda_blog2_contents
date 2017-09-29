@@ -35,7 +35,7 @@ import Data.Char
 import qualified Data.ByteString.Lazy.Char8 as BS (drop,unpack,readFile,ByteString)
 
 main :: IO () 
-main = do rs &lt;- BS.readFile &quot;/dev/random&quot;
+main = do rs <- BS.readFile &quot;/dev/random&quot;
  putStr $ unlines $ map show (take 10 $ getUniformRands rs)
 
 -- 0以上1未満の乱数列発生関数 --

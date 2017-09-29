@@ -11,7 +11,7 @@ Copyright: (C) Ryuichi Ueda
 Macの端末（coreutilsインストール済み）とUbuntu 14.04.1 LTSで動作確認済み。
 
 ```bash
-$ curl 'https://blog.ueda.tech/?page_id=5567' 2&gt; /dev/null | sed -n '/&lt;table/,/&lt;\\/table/p' | grep -A 3 '&lt;tr&gt;' | grep -A 2 '&lt;td&gt;[0-9]*回&lt;/td&gt;' | awk 'NR%4==3' | tr -cd '0-9\\n' | numsum
+$ curl 'https://blog.ueda.tech/?page_id=5567' 2&gt; /dev/null | sed -n '/<table/,/<\\/table/p' | grep -A 3 '<tr&gt;' | grep -A 2 '<td&gt;[0-9]*回</td&gt;' | awk 'NR%4==3' | tr -cd '0-9\\n' | numsum
 ```
 
 <h2>各回の参加者数</h2>

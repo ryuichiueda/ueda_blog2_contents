@@ -25,7 +25,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 # written by Ryuichi UEDA, Apr. 22, 2014 
 
-# usage: wordsed &lt;from str&gt; &lt;to str&gt; original.docx &gt; newfile.docx
+# usage: wordsed <from str&gt; <to str&gt; original.docx &gt; newfile.docx
 
 tmp=./tmp-exshell-$$
 mkdir &quot;$tmp&quot; || exit 1

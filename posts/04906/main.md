@@ -44,7 +44,7 @@ uedambp:rumin ueda$ rake
 
 ```bash
 Command failed with status (1): [clang -Iruntime/include src/rumin.c runtim...]
-/Users/ueda/GIT/rumin/Rakefile:29:in `block in &lt;top (required)&gt;'
+/Users/ueda/GIT/rumin/Rakefile:29:in `block in <top (required)&gt;'
 Tasks: TOP =&gt; default =&gt; build =&gt; rumin
 (See full trace by running task with --trace)
 ```
@@ -98,7 +98,7 @@ ueda\@remote:~/rumin$ rake
 fatal: destination path 'runtime' already exists and is not an empty directory.
 rake aborted!
 Command failed with status (128): [git clone https://github.com/mruby/mruby.g...]
-/home/ueda/rumin/Rakefile:10:in `block in &lt;top (required)&gt;'
+/home/ueda/rumin/Rakefile:10:in `block in <top (required)&gt;'
 Tasks: TOP =&gt; default =&gt; mruby
 (See full trace by running task with --trace)
 ```

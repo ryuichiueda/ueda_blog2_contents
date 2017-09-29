@@ -39,7 +39,7 @@ set -o pipefail
 false | true
 echo do not stop
 uedambp:~ ueda$ ./pipefail.bash 
-uedambp:~ ueda$ &lt;- echoは実行されない
+uedambp:~ ueda$ <- echoは実行されない
 ```
 
 執筆する前にもうちょっとちゃんとmanをしっかり読んでおけよと自分に鋭いツッコミを入れましたが、bashの文法解説書というよりはコマンドの使い方解説書という感じで書いていたのでちょっと手薄になっておりました・・・。

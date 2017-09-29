@@ -64,19 +64,19 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 $ ls 
 file_A-1 file_A-2 file_B-1 file_B-2
 $ head -n 2 *
-==&gt; file_A-1 &lt;==
+==&gt; file_A-1 <==
 1
 31351
 
-==&gt; file_A-2 &lt;==
+==&gt; file_A-2 <==
 11
 35
 
-==&gt; file_B-1 &lt;==
+==&gt; file_B-1 <==
 -32
 12
 
-==&gt; file_B-2 &lt;==
+==&gt; file_B-2 <==
 912
 3
 ```
@@ -129,7 +129,7 @@ $ cat Q3
 <h3>解答</h3>
 
 ```bash
-$ paste &lt;(awk '$1%2' Q3 | sort) &lt;(awk '$1%2==0' Q3 | sort -r) | tr '\\t' ' '
+$ paste <(awk '$1%2' Q3 | sort) <(awk '$1%2==0' Q3 | sort -r) | tr '\\t' ' '
 1 8
 5 4
 9 2
@@ -169,7 +169,7 @@ awk 'END{print $1}'
 ###Tukubai使用（こっちの方が長いが・・・）###
 ueda\@remote:~$ echo 60 9 | factor | tarr num=1 | tr -d : | 
 self 2 1 | sort | count 1 2 | self 1 3 | yarr num=1 |
-awk 'NF&gt;2' | awk '{print $1,$2&lt;$3?$2:$3}' |
+awk 'NF&gt;2' | awk '{print $1,$2<$3?$2:$3}' |
 awk 'BEGIN{a=1}{a*=$1**$2}END{print a}'
 ```
 
@@ -197,7 +197,7 @@ $ cat Q6
 <h3>解答</h3>
 
 ```bash
-$ cat Q6 | sed 's/　/ /g' | awk '{for(i=1;i&lt;=NF;i++){print $i,NR,i}}' |
+$ cat Q6 | sed 's/　/ /g' | awk '{for(i=1;i<=NF;i++){print $i,NR,i}}' |
 sort -k1,2 | awk '{print $1,$3}' | xargs -n 4 | awk '{print $1,$2,$4}'
 吉田 3 1
 山田 1 4

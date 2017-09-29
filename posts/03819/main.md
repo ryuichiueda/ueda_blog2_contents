@@ -62,7 +62,7 @@ import System.Environment
 import Shelly
 import Data.Text hiding (map)
 
-main = main' =&lt;&lt; getArgs
+main = main' =<< getArgs
 
 main' as = shelly $ do run echo args
  where echo = (fromText . pack) &quot;echo&quot;
@@ -102,7 +102,7 @@ import Shelly
 import qualified Data.Text as T
 default (T.Text)
 
-main = main' =&lt;&lt; getArgs
+main = main' =<< getArgs
 
 main' as = shelly $ do run &quot;echo&quot; (map T.pack as)
 ```

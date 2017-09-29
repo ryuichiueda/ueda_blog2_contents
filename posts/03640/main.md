@@ -20,7 +20,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ```cpp
 #そーす
 uedambp:tmp ueda$ cat hoge.cc 
-#include &lt;iostream&gt;
+#include <iostream&gt;
 using namespace std;
 
 int main(int argc, char const* argv[])
@@ -30,7 +30,7 @@ int main(int argc, char const* argv[])
 
 	//doubleとintのかけ算
 	auto x = v*n;
-	cout &lt;&lt; &quot;型:&quot; &lt;&lt; typeid(x).name() &lt;&lt; &quot; 値:&quot; &lt;&lt; x &lt;&lt; endl;
+	cout << &quot;型:&quot; << typeid(x).name() << &quot; 値:&quot; << x << endl;
 
 	return 0;
 }
@@ -52,18 +52,18 @@ uedambp:tmp ueda$ ./hoge
 ```cpp
 int main(int argc, char const* argv[])
 {
-	vector&lt;string&gt; str;
+	vector<string&gt; str;
 	str.push_back(&quot;abc&quot;);
 	str.push_back(&quot;あいう&quot;);
 	str.push_back(&quot;!?*&quot;);
 
 	//こう書ける
-	for(auto i=str.begin();i&lt;str.end();i++)
-		cout &lt;&lt; *i &lt;&lt; endl;
+	for(auto i=str.begin();i<str.end();i++)
+		cout << *i << endl;
 
 	//昔の書き方（STLの便利さが90%減）
-	for(vector&lt;string&gt;::iterator i=str.begin();i&lt;str.end();i++)
-		cout &lt;&lt; *i &lt;&lt; endl;
+	for(vector<string&gt;::iterator i=str.begin();i<str.end();i++)
+		cout << *i << endl;
 }
 ```
 
@@ -77,14 +77,14 @@ STLを使えばポインタやデストラクタでいろいろ悩むことも�
 
 ```cpp
 ueda\@ubuntu:~$ cat multi.cc 
-#include &lt;iostream&gt;
-#include &lt;thread&gt;
+#include <iostream&gt;
+#include <thread&gt;
 using namespace std;
 
 void tfunc(string name)
 {
 	int num = 0;
-	for(int i=0;i&lt;10000000;i++){//ひたすら足し算
+	for(int i=0;i<10000000;i++){//ひたすら足し算
 		fprintf(stdout,&quot;\\n%s: %d&quot;,name.c_str(),num++);
 	}
 }

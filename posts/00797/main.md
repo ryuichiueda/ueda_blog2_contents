@@ -15,10 +15,10 @@ ueda\@ubuntuX201:~$ ghci
 ...
 Prelude&gt; import Numeric.LinearAlgebra
 ...
-Prelude Numeric.LinearAlgebra&gt; let m = (2&gt;&lt;2) [1,2,3,4]
+Prelude Numeric.LinearAlgebra&gt; let m = (2&gt;<2) [1,2,3,4]
 ...
 Prelude Numeric.LinearAlgebra&gt; m * 3.14
-(2&gt;&lt;2)
+(2&gt;<2)
  [ 3.14, 6.28
  , 9.42, 12.56 ]
 ```

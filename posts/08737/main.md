@@ -54,8 +54,8 @@ $ ping -c1 www.usptomo.com | head -n 1
 ベタなものを載せておきます。変態的解答はウェブで。
 
 ```bash
-$ a=&quot;ひらけ！ポンキッキ&quot; ; for i in $(seq 2 $(wc -m &lt;&lt;&lt; $a)) ; 
-do echo $a ; a=$(sed 's/\\(.\\)\\(.*\\)/\\2\\1/g' &lt;&lt;&lt; $a) ; done
+$ a=&quot;ひらけ！ポンキッキ&quot; ; for i in $(seq 2 $(wc -m <<< $a)) ; 
+do echo $a ; a=$(sed 's/\\(.\\)\\(.*\\)/\\2\\1/g' <<< $a) ; done
 ```
 
 <h2>Q3</h2>
@@ -111,7 +111,7 @@ b730a730eb30b8820a00
 ```bash
 $ cat crypt | xxd -ps -r | iconv -f=ucs-2le -t=utf8
 シェル芸
-$ echo -ne $(sed 's/\\(..\\)\\(..\\)/\\\\U\\2\\1/g' &lt; crypt)
+$ echo -ne $(sed 's/\\(..\\)\\(..\\)/\\\\U\\2\\1/g' < crypt)
 シェル芸
 ```
 
@@ -131,8 +131,8 @@ $ ( date -ud '20161029' +%s ; date -ud '20161030' +%s ) | xargs seq
 <h3>解答</h3>
 
 ```bash
-$ seq 1 20 | awk '{a=sin($1/3) * 10 + 10;for(i=0;i&lt;a;i++)printf &quot;\@ &quot;;
-printf &quot;* &quot;;for(i=a;i&lt;20;i++)printf &quot;\@ &quot;;print &quot;&quot;}' 
+$ seq 1 20 | awk '{a=sin($1/3) * 10 + 10;for(i=0;i<a;i++)printf &quot;\@ &quot;;
+printf &quot;* &quot;;for(i=a;i<20;i++)printf &quot;\@ &quot;;print &quot;&quot;}' 
 | rs -t 23 | tr \@ ' ' 
 ```
 

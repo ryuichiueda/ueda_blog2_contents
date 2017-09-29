@@ -159,19 +159,19 @@ Q6について、適当にファイルをtouchします。今度はタイムス�
 ```bash
 uedambp:q8 ueda$ for i in 1 2 3 4 5 ; do echo $i &gt; file$i ; done
 uedambp:q8 ueda$ head *
-==&gt; file1 &lt;==
+==&gt; file1 <==
 1
 
-==&gt; file2 &lt;==
+==&gt; file2 <==
 2
 
-==&gt; file3 &lt;==
+==&gt; file3 <==
 3
 
-==&gt; file4 &lt;==
+==&gt; file4 <==
 4
 
-==&gt; file5 &lt;==
+==&gt; file5 <==
 5
 ```
 

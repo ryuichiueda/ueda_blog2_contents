@@ -67,7 +67,7 @@ import qualified Data.Text as D
 
 showUsage :: IO ()
 showUsage = do System.IO.hPutStr stderr
- (&quot;Usage : langToBash &lt;file&gt;\\n&quot; ++
+ (&quot;Usage : langToBash <file&gt;\\n&quot; ++
 		&quot;Sun Feb 16 15:55:08 JST 2014\\n&quot; )
 
 
@@ -78,7 +78,7 @@ data Filter = Filter FilterName [FilterArgs] [FilterCode] deriving Show
 data Script = Script [Filter] | Err String deriving Show
 
 main :: IO()
-main = do args &lt;- getArgs
+main = do args <- getArgs
  case args of
  [] -&gt; showUsage
  [f] -&gt; readF f &gt;&gt;= putStr . toBash . parseGlueLang
@@ -90,7 +90,7 @@ toBash (Script fs) = unlines (header:(map toOneLiner fs) ++ [footer])
  footer = &quot;main &quot; ++ mainArgs fs
 
 mainArgs :: [Filter] -&gt; String
-mainArgs ((Filter &quot;main&quot; args _):fs) = unwords $ [ &quot;\\&quot;&quot; ++ ('$':(show n)) ++ &quot;\\&quot;&quot; | n &lt;- [1..len]]
+mainArgs ((Filter &quot;main&quot; args _):fs) = unwords $ [ &quot;\\&quot;&quot; ++ ('$':(show n)) ++ &quot;\\&quot;&quot; | n <- [1..len]]
  where len = length args
 mainArgs _ = &quot;&quot;
 
@@ -119,21 +119,21 @@ parseGlueLang str = case parse code &quot;&quot; str of
 code = many1 langFilter &gt;&gt;= return . Script
 
 langFilter = do string &quot;filter &quot;
- nm &lt;- langWord
-		args &lt;- many langWord
+ nm <- langWord
+		args <- many langWord
  many langSpace
  char ':'
  many1 ( char '\\n' )
- lns &lt;- many1 langFilterCode
+ lns <- many1 langFilterCode
  return $ Filter nm (zip [1..] args) lns
 
-langWord = do w &lt;- many1 (noneOf &quot; :\\n\\t&quot;)
+langWord = do w <- many1 (noneOf &quot; :\\n\\t&quot;)
  many langSpace
  return w
 
 langSpace = oneOf &quot; \\t&quot;
 
-langFilterCode = do ln &lt;- many (noneOf &quot;\\n&quot;)
+langFilterCode = do ln <- many (noneOf &quot;\\n&quot;)
  char '\\n'
  return ln
 ```

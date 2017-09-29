@@ -87,7 +87,7 @@ $ cat attend6
 <h3>解答</h3>
 
 ```bash
-$ tr , '\\n' &lt; attend6 | sort | sed 's/$/ 出/' |
+$ tr , '\\n' < attend6 | sort | sed 's/$/ 出/' |
  join -a 1 attend - |
  awk 'NF==3{print $0&quot;欠&quot;}NF==4{print $1,$2,$3$4}'
 ```
@@ -256,9 +256,9 @@ $ cat prime
 
 
 ```bash
-$ cat prime | xargs -n 1 | cat - &lt;(seq 1 100 | factor |
+$ cat prime | xargs -n 1 | cat - <(seq 1 100 | factor |
  awk 'NF==2{print $2}') | sort -n | xargs |
- awk '{for(i=1;i&lt;NF;i+=2){if($i==$(i+1)){printf(&quot;%d &quot;,$i)}else{print &quot;&quot;;i-=1}}}' |
+ awk '{for(i=1;i<NF;i+=2){if($i==$(i+1)){printf(&quot;%d &quot;,$i)}else{print &quot;&quot;;i-=1}}}' |
  awk 'NF'
 2 3 5 7 11 13 17 19 
 31 37 41 43 47 53 59 
@@ -280,7 +280,7 @@ $ cat ./nyaan.html | ...
 
 ```bash
 $ cat ./nyaan.html | nkf --numchar-input |
- sed 's/&lt;[^&lt;]*&gt;//g' | sed 's/&amp;quot;/&quot;/g'
+ sed 's/<[^<]*&gt;//g' | sed 's/&amp;quot;/&quot;/g'
 ```
 
 
@@ -315,9 +315,9 @@ mm # # #mmm&quot;&quot;&quot; m&quot;
 
 ```bash
 $ cat shellgei | sed 's/ /\@/g' | sed 's/./&amp; /g' |
- awk '{for(i=1;i&lt;=NF;i++){if($i!=&quot;\@&quot;)a[i]=$i}}END{for(i=1;i&lt;=NF;i++){b=a[i]==&quot;&quot;?&quot;x&quot;:&quot; &quot;;printf b}}END{print &quot;&quot;}' |
+ awk '{for(i=1;i<=NF;i++){if($i!=&quot;\@&quot;)a[i]=$i}}END{for(i=1;i<=NF;i++){b=a[i]==&quot;&quot;?&quot;x&quot;:&quot; &quot;;printf b}}END{print &quot;&quot;}' |
  cat - shellgei |
- awk 'NR==1{a=$0}{for(i=1;i&lt;=length($0);i++){if(substr(a,i,1)!=&quot;x&quot;)printf substr($0,i,1)};print &quot;&quot;}'
+ awk 'NR==1{a=$0}{for(i=1;i<=length($0);i++){if(substr(a,i,1)!=&quot;x&quot;)printf substr($0,i,1)};print &quot;&quot;}'
  
  m 
  &quot;&quot;m m &quot;m # # # #

@@ -33,8 +33,8 @@ Wed Apr 23 19:24:28 JST 2014
 
 Copyright (C) 2014 Ryuichi UEDA
 
-usage1: cat original.docx | wordsed &lt;sed command&gt; &gt; newfile.docx
-usage2: wordsed &lt;sed command&gt; original.docx &gt; newfile.docx
+usage1: cat original.docx | wordsed <sed command&gt; &gt; newfile.docx
+usage2: wordsed <sed command&gt; original.docx &gt; newfile.docx
 ```
 
 試してませんが多段でパイプに繋ぐことも可能となりました。

@@ -59,7 +59,7 @@ $ echo 2 5 9 8 1 3 7 4
 ```bash
 $ echo 2 5 9 8 1 3 7 4 | tr ' ' '+' | bc
 39
-$ echo 2 5 9 8 1 3 7 4 | awk '{for(i=1;i&lt;=NF;i++){a+=$i}}END{print a}'
+$ echo 2 5 9 8 1 3 7 4 | awk '{for(i=1;i<=NF;i++){a+=$i}}END{print a}'
 39
 $ echo 2 5 9 8 1 3 7 4 | tr ' ' '\\n' | awk '{a+=$1}END{print a}'
 39
@@ -144,7 +144,7 @@ ueda\@remote:~$ cat hoge | sed 's/./&amp;\\n/g' | sort |
 a
 d
 ueda\@remote:~$ cat hoge | sed 's/./&amp; /g' |
- awk '{for(i=1;i&lt;=NF;i++){x[$i]++};for(k in x){print k,x[k]}}' |
+ awk '{for(i=1;i<=NF;i++){x[$i]++};for(k in x){print k,x[k]}}' |
  awk '$2==3{print $1}'
 a
 d
@@ -244,7 +244,7 @@ file1 file6
 file1 file7
 file1 file8
 file1 file9
-file2 file3 &lt;- file2 file1 の組み合わせは既出なので出力しない
+file2 file3 <- file2 file1 の組み合わせは既出なので出力しない
 file2 file4
 file2 file5
 file2 file6
@@ -254,14 +254,14 @@ file2 file6
 <h2>A7</h2>
 
 ```bash
-$ ls | while read f ; do echo $f file* ; done | awk '{for(i=2;i&lt;=NF;i++){print $1,$i}}' | sort | awk '$1&lt;$2'
+$ ls | while read f ; do echo $f file* ; done | awk '{for(i=2;i<=NF;i++){print $1,$i}}' | sort | awk '$1<$2'
 ###別解1###
-$ echo file{1..9} | awk '{for(i=1;i&lt;=9;i++){for(j=i+1;j&lt;=9;j++){{print $i,$j}}}}' 
+$ echo file{1..9} | awk '{for(i=1;i<=9;i++){for(j=i+1;j<=9;j++){{print $i,$j}}}}' 
 ###別解2###
-ueda\@remote:~$ echo file{1..9} | awk '{for(i=1;i&lt;=9;i++){for(j=1;j&lt;=9;j++){{print $i,$j}}}}' | awk '$1&lt;$2'
+ueda\@remote:~$ echo file{1..9} | awk '{for(i=1;i<=9;i++){for(j=1;j<=9;j++){{print $i,$j}}}}' | awk '$1<$2'
 ###ツーライナーになるが・・・###
 ueda\@remote:~$ ls file{1..9} &gt; hoge
-ueda\@remote:~$ loopx hoge hoge | awk '$1&lt;$2'
+ueda\@remote:~$ loopx hoge hoge | awk '$1<$2'
 ```
 
 <h2>Q8</h2>

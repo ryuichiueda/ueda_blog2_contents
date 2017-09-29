@@ -233,7 +233,7 @@ uedambp:q6 ueda$ for d in * ; do ls $d | tail -n 1 |
 uedambp:q6 ueda$ ls
 20140202 20141021 20141224 a b c
 uedambp:q6 ueda$ find . -type f | tr '/' ' ' |
- awk '{f[$2]=f[$2]&lt;$3?$3:f[$2]}END{for(k in f){print k,f[k]}}' |
+ awk '{f[$2]=f[$2]<$3?$3:f[$2]}END{for(k in f){print k,f[k]}}' |
  tr ' ' '/' | xargs -n 1 -I\@ cp \@ ./
 ###Tukubai等###
 uedambp:q6 ueda$ find . -type f | tr '/' ' ' | sort | getlast 1 2 |
@@ -260,19 +260,19 @@ uedambp:q7 ueda$ for d in * ; do ls -t $d | head -n 1 |
 ```bash
 uedambp:q8 ueda$ for i in 1 2 3 4 5 ; do echo $i &gt; file$i ; done
 uedambp:q8 ueda$ head *
-==&gt; file1 &lt;==
+==&gt; file1 <==
 1
 
-==&gt; file2 &lt;==
+==&gt; file2 <==
 2
 
-==&gt; file3 &lt;==
+==&gt; file3 <==
 3
 
-==&gt; file4 &lt;==
+==&gt; file4 <==
 4
 
-==&gt; file5 &lt;==
+==&gt; file5 <==
 5
 ```
 
@@ -283,19 +283,19 @@ uedambp:q8 ueda$ ls |
 awk 'BEGIN{a=&quot;tmp&quot;}{print a,$1;a=$1}END{print a,&quot;tmp&quot;}' | 
 tail -r | awk '{print &quot;mv&quot;,$1,$2}' | sh
 uedambp:q8 ueda$ head *
-==&gt; file1 &lt;==
+==&gt; file1 <==
 5
 
-==&gt; file2 &lt;==
+==&gt; file2 <==
 1
 
-==&gt; file3 &lt;==
+==&gt; file3 <==
 2
 
-==&gt; file4 &lt;==
+==&gt; file4 <==
 3
 
-==&gt; file5 &lt;==
+==&gt; file5 <==
 4
 ```
 
