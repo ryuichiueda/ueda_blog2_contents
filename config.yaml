@@ -7,8 +7,6 @@ hatena: '@'
 pocket: '@'
 line: '@'
 links:
-- text: 'トップに戻る'
-  href: '/?page=top'
 - text: '最新の記事'
   href: '/?post'
 - text: '自己紹介など'
@@ -89,8 +87,6 @@ links:
     href: '/?page=04346'
   - text: 'おはようございますの世紀'
     href: '/?page=01980'
-- text: '質問はここへ'
-  href: 'http://ask.fm/ryuichiueda'
 - text: '書籍の情報'
   href: '/?page=05535'
   sublinks:
@@ -143,3 +139,5 @@ sociallinks:
   href: 'https://www.instagram.com/ryuichiueda/'
 - icon: 'fa-graduation-cap'
   href: 'https://www.researchgate.net/profile/Ryuichi_Ueda'
+- text: 'fa-question'
+  href: 'http://ask.fm/ryuichiueda'
