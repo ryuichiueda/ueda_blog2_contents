@@ -3,9 +3,7 @@ Keywords: 近況
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 
-# 
-
-## 近況
+# 近況 
 
 執筆で死んでます。
 
