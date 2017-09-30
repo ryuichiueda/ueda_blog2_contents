@@ -1,0 +1,6 @@
+---
+Keywords: 寝る,頭の中だだ漏らし,日記
+Copyright: (C) 2017 Ryuichi Ueda
+---
+
+# 雑記（20年月日）
