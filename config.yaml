@@ -11,17 +11,8 @@ links:
   href: '/?page=top'
 - text: '最新の記事'
   href: '/?post'
-- text: '本家サイト'
-  href: 'https://blog.ueda.tech'
-- text: '外部サイト'
-  href: './'
-  sublinks:
-  - text: '千葉工大上田研究室'
-    href: 'https://lab.ueda.tech/'
 - text: '自己紹介など'
   href: '/?page=09972'
-- text: '研究室サイト'
-  href: 'https://lab.ueda.tech'
 - text: '映像集'
   href: './'
   sublinks:
@@ -64,6 +55,10 @@ links:
 - text: '関連ページ'
   href: '/?page=00811'
   sublinks:
+  - text: '旧サイト'
+    href: 'https://blog.ueda.tech'
+  - text: '千葉工大上田研究室'
+    href: 'https://lab.ueda.tech/'
   - text: 'USP友の会'
     href: 'http://www.usptomo.com'
   - text: 'Team ARAIBO'
