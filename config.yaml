@@ -1,5 +1,6 @@
 protocol: 'https:'
 host: 'b.ueda.tech'
+sitetitle: '上田ブログ'
 twitter:
 - account: 'ryuichiueda'
 facebook: '@'
