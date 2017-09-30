@@ -93,6 +93,12 @@ links:
 - text: 'misc'
   href: '/?page=01242'
   sublinks:
+  - text: '資料室'
+    href: '/?page=07879'
+  - text: '- Tera TermをWindowsにインストールしてからssh接続するまで'
+    href: '/?page=10067'
+  - text: '- Tera Termで鍵を作って鍵認証でサーバにログインするまで'
+    href: '/?page=10088'
   - text: 'dashのコード解読メモ'
     href: '/?page=04219'
   - text: '- dash/src/main.h, main.c'
@@ -103,13 +109,6 @@ links:
     href: '/?page=04346'
   - text: 'おはようございますの世紀'
     href: '/?page=01980'
-- text: '資料室'
-  href: '/?page=07879'
-  sublinks:
-  - text: 'Tera TermをWindowsにインストールしてからssh接続するまで'
-    href: '/?page=10067'
-  - text: 'Tera Termで鍵を作って鍵認証でサーバにログインするまで'
-    href: '/?page=10088'
 sociallinks:
 - icon: 'fa-twitter-square'
   href: 'https://twitter.com/ryuichiueda'
