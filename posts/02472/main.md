@@ -16,7 +16,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ```bash
 [root\@freebsd10 /usr/ports/lang/python26]# make clean install
-make: &quot;/usr/ports/Mk/bsd.python.mk&quot; line 558: Malformed conditional (${PYTHON_REL} &gt;= 320 && defined(PYTHON_PY3K_PLIST_HACK))
+make: "/usr/ports/Mk/bsd.python.mk" line 558: Malformed conditional (${PYTHON_REL} >= 320 && defined(PYTHON_PY3K_PLIST_HACK))
 make: Fatal errors encountered -- cannot continue
 make: stopped in /usr/ports/lang/python26
 ```
@@ -42,8 +42,8 @@ freebsd10 /home/ueda$ sudo -s
 [root\@freebsd10 /usr/home/ueda]# python
 Python 2.4.5 (#2, May 9 2012, 13:34:32) 
 [GCC 4.2.1 20070831 patched [FreeBSD]] on freebsd10
-Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
-&gt;&gt;&gt; 
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
 ```
 
 なんかもう無理矢理2.7に戻します。
@@ -54,8 +54,8 @@ Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;licen
 [root\@freebsd10 /usr/home/ueda]# python
 Python 2.7.6 (default, Feb 28 2014, 16:10:49) 
 [GCC 4.2.1 Compatible FreeBSD Clang 3.3 (tags/RELEASE_33/final 183502)] on freebsd10
-Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
-&gt;&gt;&gt; 
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
 ```
 
 Linuxだったらpythonに依存しているので大騒ぎですが、FreeBSDなのでおそらく大丈夫でしょう（超適当）。
@@ -87,11 +87,11 @@ python3.1 ./COMMANDS/dayslash OK
 python3.1 ./COMMANDS/filehame OK
 python3.1 ./COMMANDS/formhame OK
 0a1,5
-&gt; 浜地______ F
-&gt; 鈴田______ F
-&gt; 江頭______ F
-&gt; 白土______ M
-&gt; 崎村______ F
+> 浜地______ F
+> 鈴田______ F
+> 江頭______ F
+> 白土______ M
+> 崎村______ F
 TEST1 error
 python3.1 ./COMMANDS/self NG
 ```
