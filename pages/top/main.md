@@ -1,8 +1,12 @@
 ---
-Keywords: diary
+Keywords: 近況
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 
-# 日記のサイト
+# 近況
 
-試験運用中
+執筆で死んでます。
+
+# 情報
+
+* [自己紹介など](/?page=09972)
