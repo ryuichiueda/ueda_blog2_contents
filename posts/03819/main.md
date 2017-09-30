@@ -14,7 +14,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <h2>いんすとーる</h2>
 
-試すのはMacの上です。Haskell入ってない場合は<a href="http://blog.ueda.asia/?page_id=2944" target="_blank">ここ</a>を参考に。
+試すのはMacの上です。Haskell入ってない場合は<a href="/?page=02944" target="_blank">ここ</a>を参考に。
 
 ```bash
 uedambp:~ ueda$ cabal install shelly

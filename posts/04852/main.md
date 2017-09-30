@@ -4,9 +4,9 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 【問題】年末年始シェル芸問題集
-12月の<a href="http://blog.ueda.asia/?p=4671" title="【問題のみ】第14回東京居残りシェル芸勉強会">シェル芸勉強会</a>よりもひどい問題を準備しましたので、時間をかけてお楽しみください。
+12月の<a href="/?post=04671" title="【問題のみ】第14回東京居残りシェル芸勉強会">シェル芸勉強会</a>よりもひどい問題を準備しましたので、時間をかけてお楽しみください。
 
-追記: <a href="http://blog.ueda.asia/?p=4821" title="【解答】年末年始シェル芸問題集" target="_blank">解答はコチラ</a>
+追記: <a href="/?post=04821" title="【解答】年末年始シェル芸問題集" target="_blank">解答はコチラ</a>
 
 解答はMacで作りました。ただし、Coreutilsが必要なので、
 ```bash
@@ -62,7 +62,7 @@ sudo xargs -n 1 md5sum | LANG=C sort -s -k1,1 | yarr num=1 | awk 'NF>2'
 
 <h1>Q4</h1>
 
-<a href="http://blog.ueda.asia/misc/message2015.txt" target="_blank">http://blog.ueda.asia/misc/message2015.txt</a>は、あるメッセージにbase64を多重にかけたものです。解読してください。ワンライナーでなくても構いません。
+<a href="/misc/message2015.txt" target="_blank">/misc/message2015.txt</a>は、あるメッセージにbase64を多重にかけたものです。解読してください。ワンライナーでなくても構いません。
 
 <h1>Q5</h1>
 

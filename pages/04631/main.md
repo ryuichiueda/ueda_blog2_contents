@@ -335,7 +335,7 @@ HTMLから狙ったところをワンライナーで切り出してみましょ�
 6
 7
 8
-9</pre></div></td><td class="code"><div class="highlight"><pre>uedamac:~ ueda<span class="nv">$ </span>curl http://blog.ueda.asia | less
+9</pre></div></td><td class="code"><div class="highlight"><pre>uedamac:~ ueda<span class="nv">$ </span>curl  | less
 （略）
 &lt;pre <span class="nv">class</span><span class="o">=</span><span class="s2">&quot;brush: bash; title: ; notranslate&quot;</span> <span class="nv">title</span><span class="o">=</span><span class="s2">&quot;&quot;</span>&gt;
 Python 2.7.2 <span class="o">(</span>default, Oct 11 2012, 20:14:37<span class="o">)</span>
@@ -367,7 +367,7 @@ Python 2.7.2 <span class="o">(</span>default, Oct 11 2012, 20:14:37<span class="
 13
 14
 15</pre></div></td><td class="code"><div class="highlight"><pre>...
-uedamac:~ ueda<span class="nv">$ </span>curl http://blog.ueda.asia 2&gt; /dev/null |
+uedamac:~ ueda<span class="nv">$ </span>curl  2&gt; /dev/null |
 nkf -wLux | gsed -n <span class="s1">&#39;/&lt;pre/,/&lt;\\/pre/p&#39;</span> &gt; ans
 uedamac:~ ueda<span class="nv">$ </span>less ans
 （略）
@@ -531,7 +531,7 @@ s/&amp;gt;/&gt;/g
 s/&amp;quot;/&quot;/g
 s/&amp;amp;/\\&amp;/g
 s/&amp;nbsp;/ /g
-uedamac:~ ueda$ curl http://blog.ueda.asia 2&gt; /dev/null |
+uedamac:~ ueda$ curl  2&gt; /dev/null |
 sed -n &#39;/&lt;pre/,/&lt;\\/pre/p&#39; | gsed -n &#39;1,/&lt;\\/pre/p&#39; |
 sed -f ./ref.sed
 &lt;pre class=&quot;brush: bash; title: ; notranslate&quot; title=&quot;&quot;&gt;

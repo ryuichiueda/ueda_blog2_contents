@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 【問題のみ】第20回記念、年末年始の浮ついた気分大粉砕シェル芸勉強会
-<a href="https://blog.ueda.asia/?p=7196">解答例はコチラ</a>
+<a href="/?post=07196">解答例はコチラ</a>
 
 <h2>イントロ</h2>
 

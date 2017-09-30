@@ -112,7 +112,7 @@ Tasks: TOP => default => mruby
 
 <h1>今週末のGlueLang作業日誌</h1>
 
-では次。ちゃんと動くやつ。次世代シェルスクリプティング言語（？）GlueLangはとうとうbashの関数に相当するものが実装できました。また、<a href="http://blog.ueda.asia/?p=4884" title="glueで年末年始シェル芸問題集を解いた雑感（Q4まで）" target="_blank">この事態</a>を受けてコマンドのオプションの一部はシングルクォートを省略できるようにしました。具体的にはこんな感じ。
+では次。ちゃんと動くやつ。次世代シェルスクリプティング言語（？）GlueLangはとうとうbashの関数に相当するものが実装できました。また、<a href="/?post=04884" title="glueで年末年始シェル芸問題集を解いた雑感（Q4まで）" target="_blank">この事態</a>を受けてコマンドのオプションの一部はシングルクォートを省略できるようにしました。具体的にはこんな感じ。
 
 ```bash
 uedambp:GlueLang ueda$ cat hoge.glue 

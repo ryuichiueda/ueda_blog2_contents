@@ -72,7 +72,7 @@ ifs.close();
 比較実験はしませんが、FILE型を使うよりはかなり楽で、確か3,4倍くらいFILE型を使うより遅くて済むというくらいのトレードオフだったと記憶しています。また、ファイル処理以外はC言語と比べて最悪でも2倍くらいの減速で済みます。
 
 
-あと、並列化が必要なら、<a href="http://blog.ueda.asia/?p=3640">新しいC++だとPOSIXスレッドがけっこう簡単に使える</a>ので、それも変に凝った言語を使うより（慣れていれば）C++で十分だよなあと思います。たぶん、Raspberry Piのデフォルトのg++は古いので、<a href="https://solarianprogrammer.com/2015/01/13/raspberry-pi-raspbian-install-gcc-compile-cpp-14-programs/" target="_blank">ココ</a>等を参考に新しいバージョンのgccをインストールして使いましょう。
+あと、並列化が必要なら、<a href="/?post=03640">新しいC++だとPOSIXスレッドがけっこう簡単に使える</a>ので、それも変に凝った言語を使うより（慣れていれば）C++で十分だよなあと思います。たぶん、Raspberry Piのデフォルトのg++は古いので、<a href="https://solarianprogrammer.com/2015/01/13/raspberry-pi-raspbian-install-gcc-compile-cpp-14-programs/" target="_blank">ココ</a>等を参考に新しいバージョンのgccをインストールして使いましょう。
 
 もちろん、<a href="https://github.com/ryuichiueda/RPiM/blob/master/201507/bz_auto.py" target="_blank">Pythonの例もGitHubに置いている</a>ように、特にシェルスクリプトにこだわる必要はなく、研究用の実験をしないならC++にこだわる必要もありません。むしろ言語を選べるように「デバイスファイルで字を読み書きする」という仕様にしましたので、みなさんもいろんな言語でロボットを動かしてみていただければと。個人的にはHaskell希望です。
 

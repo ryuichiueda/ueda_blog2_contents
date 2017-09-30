@@ -42,7 +42,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <h3>raspimouse_ros_2の手直し</h3>
 
-本日<a href="https://github.com/ryuichiueda/raspimouse_ros_2">raspimouse_ros_2</a>（ラズパイマウスをROSで使うときの基本パッケージ）にプルリクエストをいただいて、<a href="https://blog.ueda.tech/?p=10115">この前のハッカソン</a>で作りっぱなしでテストが通っていないことを発見。tf2をTravisの環境にインストールしないといけなかったらしく、テストの環境構築スクリプトに1行追加。無事通った。
+本日<a href="https://github.com/ryuichiueda/raspimouse_ros_2">raspimouse_ros_2</a>（ラズパイマウスをROSで使うときの基本パッケージ）にプルリクエストをいただいて、<a href="/?post=10115">この前のハッカソン</a>で作りっぱなしでテストが通っていないことを発見。tf2をTravisの環境にインストールしないといけなかったらしく、テストの環境構築スクリプトに1行追加。無事通った。
 
 
 早く寝たい。

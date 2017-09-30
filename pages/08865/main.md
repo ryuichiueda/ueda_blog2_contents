@@ -23,13 +23,13 @@ Copyright: (C) Ryuichi Ueda
 
 <tr>
 <td>4月22日</td>
-<td><a href="/?p=9632">jus共催第28回シェル芸勉強会</a></td>
+<td><a href="/?post=09632">jus共催第28回シェル芸勉強会</a></td>
 <td>某講師、自分で作って来た問題が難しすぎて解けないという失態。LTで「ロードアベレージ6万」、「Javascriptワンライナー」、「ゾンビプロセスが11561個」、「FORK爆弾24時間熟成」など不穏なキーワードが乱れ飛ぶ。</td>
 </tr>
 
 <tr>
 <td>2月11日</td>
-<td><a href="/?p=9341">jus共催第27回シェル芸勉強会</a></td>
+<td><a href="/?post=09341">jus共催第27回シェル芸勉強会</a></td>
 <td><a href="https://togetter.com/li/1080646">Vimシェル芸</a>が<a href="https://twitter.com/robokinoko">\@robokinoko</a>氏によってブームに。鳥海さんがドラゴン曲線ワンライナーからPythonを取り除き、端末に曲線を描くことに成功。</td>
 </tr>
 
@@ -86,7 +86,7 @@ Copyright: (C) Ryuichi Ueda
 
 <tr>
 <td>4月30日</td>
-<td><a href="https://blog.ueda.asia/?p=8118">jus共催、第22回ゴールデンウィークの存在疑惑シェル芸勉強会</a></td>
+<td><a href="/?post=08118">jus共催、第22回ゴールデンウィークの存在疑惑シェル芸勉強会</a></td>
 <td>鳥海さんが<pre>alias eval='eval eval'</pre>という危険シェル芸を発明。鳥海さんがワンライナーで<a href="https://youtu.be/e3UPHCrOmzE">ヒルベルト曲線</a>とドラゴン曲線を描く。</td>
 </tr>
 
@@ -133,7 +133,7 @@ Copyright: (C) Ryuichi Ueda
 
 <tr>
 <td>5月15日</td>
-<td><a href="https://blog.ueda.asia/?page_id=5787">シェルプログラミング実用テクニック発売</a></td>
+<td><a href="/?page=05787">シェルプログラミング実用テクニック発売</a></td>
 <td>よりシェル芸っぽい本。</td>
 </tr>
 
@@ -161,7 +161,7 @@ Copyright: (C) Ryuichi Ueda
 </tr>
 <tr>
 <td>9月25日</td>
-<td><a href="https://blog.ueda.asia/?p=3967">ShellShockが起きる</a></td>
+<td><a href="/?post=03967">ShellShockが起きる</a></td>
 <td>なぜか「bashなんかなくなれ」と上田が罵声を浴びる on Twitter。</td>
 </tr>
 <tr>
@@ -184,7 +184,7 @@ Copyright: (C) Ryuichi Ueda
 
 <tr>
 <td>7月2日</td>
-<td><a href="https://blog.ueda.asia/?page_id=3237">シェルスクリプト高速開発手法入門</a>が発売される</td>
+<td><a href="/?page=03237">シェルスクリプト高速開発手法入門</a>が発売される</td>
 <td>表紙に「シェル芸を極めよ」と書いてあって失禁。</td>
 </tr>
 

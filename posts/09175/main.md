@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # Software Design, ラズパイマガジン, システム／制御／情報
-<a href="https://blog.ueda.asia/?p=8862">こちら</a>では悪質な記事を書きましたが、最近立て続けに出版があったので真面目に報告いたします。
+<a href="/?post=08862">こちら</a>では悪質な記事を書きましたが、最近立て続けに出版があったので真面目に報告いたします。
 
 <h2>Software Design 2017年1月号</h2>
 

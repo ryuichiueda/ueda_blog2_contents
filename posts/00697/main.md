@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # pmat version 0.001
-この前のこの件（<a href="http://blog.ueda.asia/?p=674" title="こういう行列計算コマンドを考えついた">こういう行列計算コマンドを考えついた</a>）、とりあえずは行動ということで、まだかけ算しかできないもののコードを晒してみました。
+この前のこの件（<a href="/?post=00674" title="こういう行列計算コマンドを考えついた">こういう行列計算コマンドを考えついた</a>）、とりあえずは行動ということで、まだかけ算しかできないもののコードを晒してみました。
 
 <a target="_blank" href="https://github.com/ryuichiueda/PMAT/blob/a56e77cf8416da50b0f75a9bfddcfe1e48989c1d/pmat.hs" title="pmat.hs">GitHubに晒したコード。荒削り風味。</a>
 

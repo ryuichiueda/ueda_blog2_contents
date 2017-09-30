@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 【問題のみ】第27回sedこわいシェル芸勉強会
-解答例は<a href="https://blog.ueda.asia/?p=9283">こちら</a>。
+解答例は<a href="/?post=09283">こちら</a>。
 
 <h2>問題で使うファイル等</h2>
 GitHubにあります。ファイルは
@@ -22,7 +22,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 <h2>イントロ</h2>
 
 <ul>
- <li><a target="_blank" href="https://blog.ueda.asia/?post_type=presenpress&p=9312">スライド</a></li>
+ <li><a target="_blank" href="/?post_type=presenpress&p=9312">スライド</a></li>
 </ul>
 
 <h2>環境</h2>

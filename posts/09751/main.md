@@ -13,7 +13,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 &nbsp;
 <h2>ビデオの整理</h2>
-学部生のときから撮りためてある<a href="https://blog.ueda.tech/?page_id=9712">研究関係のビデオ</a>、<a href="https://blog.ueda.tech/?page_id=9678">シェル芸勉強会のビデオ</a>、<a href="https://blog.ueda.tech/?page_id=9663">ラズパイマウス関係のビデオ</a>を整理して一部をYoutubeにアップ。また、以前から置いてあった<a href="https://blog.ueda.tech/?page_id=851">Team ARAIBOの動画</a>も、メニューの「映像集」から行けるようにしました。
+学部生のときから撮りためてある<a href="/?page=09712">研究関係のビデオ</a>、<a href="/?page=09678">シェル芸勉強会のビデオ</a>、<a href="/?page=09663">ラズパイマウス関係のビデオ</a>を整理して一部をYoutubeにアップ。また、以前から置いてあった<a href="/?page=00851">Team ARAIBOの動画</a>も、メニューの「映像集」から行けるようにしました。
 
 研究関係のビデオについては古いのは2001年のものがありました。初代AIBOでサッカーやってるお宝動画が出てきましたが、自分がまだペーペーだったこともあって今回は掲載を自重しました。
 <h2>Amazonの本の売上ランキング</h2>

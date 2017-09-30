@@ -6,7 +6,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 # バイナリをテキストに直してまたバイナリに戻すワンライナー
 本当にたくさん働いている人は忙しいなんて自分から言いません．上田です．忙しい．
 
-いつもお世話になっている\@hasegawさんから<a href="http://blog.ueda.asia/?p=1549" target="_blank">http://blog.ueda.asia/?p=1549</a>の記事について，
+いつもお世話になっている\@hasegawさんから<a href="/?post=01549" target="_blank">/?p=1549</a>の記事について，
 
 <blockquote class="twitter-tweet" lang="ja"><p>ImageMagickとか使わずにシェル芸でEXIF除去ネタキター！と思ったけど普通に使ってた。。。。。。</p>&mdash; Takeshi HASEGAWA (\@hasegaw) <a href="https://twitter.com/hasegaw/statuses/403387610220871681">2013, 11月 21</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

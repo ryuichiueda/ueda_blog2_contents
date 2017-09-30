@@ -12,18 +12,18 @@ USP Magazineの「シェル芸勉強会後追い企画 Haskellでやってはい
 <span style="color:red">注意: 校正前の原稿を貼付けているだけです。</span>
 
 <ul>
- <li><a href="http://blog.ueda.asia/?page_id=3280" title="USP Magazine 2014年4月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？">2014年4月号</a></li> 
- <li><a href="http://blog.ueda.asia/?page_id=3582" title="USP Magazine 2014年5月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？">2014年5月号</a></li>
- <li><a href="http://blog.ueda.asia/?page_id=4378" title="USP Magazine 2014年6月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？">2014年6月号</a></li>
- <li><a href="http://blog.ueda.asia/?page_id=4389" title="USP Magazine 2014年7月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？">2014年7月号</a></li>
- <li><a href="http://blog.ueda.asia/?page_id=6088" title="USP Magazine 2014年8月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？">2014年8月号</a></li>
- <li><a href="http://blog.ueda.asia/?page_id=6095" title="USP Magazine 2014年9月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？">2014年9月号</a></li>
- <li><a href="http://blog.ueda.asia/?page_id=6100" title="USP Magazine 2014年10月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？">2014年10月号</a></li>
- <li><a href="http://blog.ueda.asia/?page_id=6104" title="USP Magazine 2014年11月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？">2014年11月号</a></li>
- <li><a href="http://blog.ueda.asia/?page_id=6108" title="USP Magazine 2014年12月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？">2014年12月号</a></li>
- <li><a href="http://blog.ueda.asia/?page_id=6113" title="USP Magazine 2015年1月号「シェル芸勉強会後追い企画: Haskellでやってはいかんのか？」">2015年1月号</a></li>
- <li><a href="http://blog.ueda.asia/?page_id=6118" title="USP Magazine 2015年2月号「Haskell版Open usp Tukubai完成させるぞ企画: Haskellでやってはいかんのか？」">2015年2月号</a></li>
- <li><a href="http://blog.ueda.asia/?page_id=6121" title="USP Magazine 2015年3月号「Haskell版Open usp Tukubai完成させるぞ企画: Haskellでやってはいかんのか？」">2015年3月号</a></li>
+ <li><a href="/?page=03280" title="USP Magazine 2014年4月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？">2014年4月号</a></li> 
+ <li><a href="/?page=03582" title="USP Magazine 2014年5月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？">2014年5月号</a></li>
+ <li><a href="/?page=04378" title="USP Magazine 2014年6月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？">2014年6月号</a></li>
+ <li><a href="/?page=04389" title="USP Magazine 2014年7月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？">2014年7月号</a></li>
+ <li><a href="/?page=06088" title="USP Magazine 2014年8月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？">2014年8月号</a></li>
+ <li><a href="/?page=06095" title="USP Magazine 2014年9月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？">2014年9月号</a></li>
+ <li><a href="/?page=06100" title="USP Magazine 2014年10月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？">2014年10月号</a></li>
+ <li><a href="/?page=06104" title="USP Magazine 2014年11月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？">2014年11月号</a></li>
+ <li><a href="/?page=06108" title="USP Magazine 2014年12月号「シェル芸勉強会後追い企画 Haskellでやってはいかんのか？">2014年12月号</a></li>
+ <li><a href="/?page=06113" title="USP Magazine 2015年1月号「シェル芸勉強会後追い企画: Haskellでやってはいかんのか？」">2015年1月号</a></li>
+ <li><a href="/?page=06118" title="USP Magazine 2015年2月号「Haskell版Open usp Tukubai完成させるぞ企画: Haskellでやってはいかんのか？」">2015年2月号</a></li>
+ <li><a href="/?page=06121" title="USP Magazine 2015年3月号「Haskell版Open usp Tukubai完成させるぞ企画: Haskellでやってはいかんのか？」">2015年3月号</a></li>
  <li>2015年4月号</li>
  <li>2015年5月号</li>
  <li>2015年6月号</li>

@@ -4,9 +4,9 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 【問題と解答例】第12回本当は怖くないシェル芸勉強会
-<a href="http://blog.ueda.asia/?page_id=684" target="_blank">過去問はこちら</a>
+<a href="/?page=00684" target="_blank">過去問はこちら</a>
 
-<a href="http://blog.ueda.asia/?p=3569">問題のみのページはこちら</a>
+<a href="/?post=03569">問題のみのページはこちら</a>
 
 <h2>イントロ</h2>
 

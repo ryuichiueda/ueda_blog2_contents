@@ -14,7 +14,7 @@ Copyright: (C) Ryuichi Ueda
 
 自分のブログのログから採取。IPアドレスの頭２つを192.168に変換してあります。
 
-<a href="access.log_.shellshock.gz">http://blog.ueda.asia/wp-content/uploads/2015/04/access.log_.shellshock.gz</a>
+<a href="access.log_.shellshock.gz">/wp-content/uploads/2015/04/access.log_.shellshock.gz</a>
 
 <h3>NASAのApacheログ</h3>
 

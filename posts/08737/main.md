@@ -6,7 +6,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 # 【問題と解答】第25回もう4年もやってんのかシェル芸勉強会
 <h2>イントロ</h2>
 
-<a href="https://blog.ueda.asia/?presenpress=%e7%ac%ac25%e5%9b%9e%e3%82%82%e3%81%864%e5%b9%b4%e3%82%82%e3%82%84%e3%81%a3%e3%81%a6%e3%82%93%e3%81%ae%e3%81%8b%e3%82%b7%e3%82%a7%e3%83%ab%e8%8a%b8%e5%8b%89%e5%bc%b7%e4%bc%9a">こちら</a>
+<a href="/?presenpress=%e7%ac%ac25%e5%9b%9e%e3%82%82%e3%81%864%e5%b9%b4%e3%82%82%e3%82%84%e3%81%a3%e3%81%a6%e3%82%93%e3%81%ae%e3%81%8b%e3%82%b7%e3%82%a7%e3%83%ab%e8%8a%b8%e5%8b%89%e5%bc%b7%e4%bc%9a">こちら</a>
 <h2>問題で使うファイル等</h2>
 GitHubにあります。ファイルは
 

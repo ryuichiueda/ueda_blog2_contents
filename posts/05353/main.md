@@ -7,7 +7,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 <iframe marginwidth="0" marginheight="0" src="http://b.hatena.ne.jp/entry.parts?url=https%3A%2F%2Fbook.mynavi.jp%2Fec%2Fproducts%2Fdetail%2Fid%3D37337" scrolling="no" frameborder="0" height="230" width="500"><div class="hatena-bookmark-detail-info"><a href="https://book.mynavi.jp/ec/products/detail/id=37337">【先行予約】確率ロボティクス | マイナビブックス</a><a href="http://b.hatena.ne.jp/entry/s/book.mynavi.jp/ec/products/detail/id=37337">はてなブックマーク - 【先行予約】確率ロボティクス | マイナビブックス</a></div></iframe>
 
 
-昨日から始めた昔話（<a href="http://blog.ueda.asia/?p=5337" title="確率ロボティクス復刊。ドサクサに紛れて昔話">昨日のポエム</a>）ですが、数年後、確か27歳くらいのときの話から。なぜ8000円（当時）になったかという話（は少しでほとんどポエムなのかエッセイなのかという文章ですが・・・）。
+昨日から始めた昔話（<a href="/?post=05337" title="確率ロボティクス復刊。ドサクサに紛れて昔話">昨日のポエム</a>）ですが、数年後、確か27歳くらいのときの話から。なぜ8000円（当時）になったかという話（は少しでほとんどポエムなのかエッセイなのかという文章ですが・・・）。
 
 <!--more-->
 

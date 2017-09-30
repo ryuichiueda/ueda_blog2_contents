@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # パイプラインを実装できた
-<a href="https://github.com/ryuichiueda/GlueLang" target="_blank">GlueLang</a>の作業、休日にやるという禁を破って金曜日にやっちまいました。当初かなり難航することを覚悟していたのですが、<a href="http://blog.ueda.asia/?page_id=4346" title="dash/src/eval.h, eval.c" target="_blank">dashのコード読み</a>のおかげで、機械的に書いたら動きました。
+<a href="https://github.com/ryuichiueda/GlueLang" target="_blank">GlueLang</a>の作業、休日にやるという禁を破って金曜日にやっちまいました。当初かなり難航することを覚悟していたのですが、<a href="/?page=04346" title="dash/src/eval.h, eval.c" target="_blank">dashのコード読み</a>のおかげで、機械的に書いたら動きました。
 
 こういうのを入力すると、
 ```bash

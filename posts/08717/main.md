@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # Raspberry Piを有線LANでMacに直結してMac経由でapt-getできるようにするまでの手順
-<a href="https://blog.ueda.asia/?p=8694">さっきの記事</a>のMac版。OS Xです。画面数は減ります。こちらもMacで有線LANと無線LANが両方使える必要があります。
+<a href="/?post=08694">さっきの記事</a>のMac版。OS Xです。画面数は減ります。こちらもMacで有線LANと無線LANが両方使える必要があります。
 
 まず、「システム環境設定」->「共有」に行き、「インターネット共有」の文字を押して、下のように「共通する通信経路」をWi-Fi、相手のコンピュータでのポートを有線LANのものにします。
 

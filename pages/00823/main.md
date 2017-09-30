@@ -20,7 +20,7 @@ Copyright: (C) Ryuichi Ueda
 <ul>
 <li>
 株式会社翔泳社<a href="http://www.shoeisha.co.jp/campaign/award/result" target="_blank">ITエンジニアに読んでほしい！技術書・ビジネス書大賞2015</a>技術書部門ベスト10
-（<a href="http://blog.ueda.asia/?page_id=3237" target="_blank">上田隆一, 後藤大地（著）, USP研究所（監修）: フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門, KADOKAWA/アスキー・メディアワークス, 2014.</a> に対して）
+（<a href="/?page=03237" target="_blank">上田隆一, 後藤大地（著）, USP研究所（監修）: フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門, KADOKAWA/アスキー・メディアワークス, 2014.</a> に対して）
 </li>
 </ul>
 

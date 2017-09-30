@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # Excelファイルをシェル芸でほじくる。（hxselect編）
-昨日<a href="http://blog.ueda.asia/?p=2398" title="Excelファイルをシェル芸でほじくる。ただしエクセル方眼紙は後日ということで。" target="_blank">これ</a>を書いた後思い出したのですが、実はxmlを捌くのにもっと便利なコマンドがあるので、これを使ってもう一回やってみます。
+昨日<a href="/?post=02398" title="Excelファイルをシェル芸でほじくる。ただしエクセル方眼紙は後日ということで。" target="_blank">これ</a>を書いた後思い出したのですが、実はxmlを捌くのにもっと便利なコマンドがあるので、これを使ってもう一回やってみます。
 
 
 
@@ -32,7 +32,7 @@ ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c |
 ```
 もう、どれだけビールを飲んでも仕事できそうなくらい簡単です（本当か？）。
 
-あとは<a href="http://blog.ueda.asia/?p=2398" title="Excelファイルをシェル芸でほじくる。ただしエクセル方眼紙は後日ということで。" target="_blank">昨日の記事</a>をご参考に。
+あとは<a href="/?post=02398" title="Excelファイルをシェル芸でほじくる。ただしエクセル方眼紙は後日ということで。" target="_blank">昨日の記事</a>をご参考に。
 
 似たようなものに、JSON形式を捌く<a href="http://stedolan.github.io/jq/" target="_blank">jqというコマンド</a>もありますので、ウェブな方もぜひシェル芸を極めていただきたく。
 

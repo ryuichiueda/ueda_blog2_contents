@@ -10,6 +10,6 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 先生、問題、ひどすぎます・・・。
 
-なお、難しく無い（？）過去問は<a target="_blank" href="http://blog.ueda.asia/?page_id=684">こちらです。</a>
+なお、難しく無い（？）過去問は<a target="_blank" href="/?page=00684">こちらです。</a>
 
 <a href="http://ll.jus.or.jp/2013/ticket.html" target="_blank">チケットはこちら。</a>ご参加乞う。<!--:-->

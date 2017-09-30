@@ -8,7 +8,7 @@ Copyright: (C) Ryuichi Ueda
  <li><a href="#purchase">購入はこちらから</a></li>
  <li><a href="#practice">練習道具</a></li>
  <li><a href="#supplement">補遺</a></li>
- <li><a href="https://blog.ueda.asia/?page_id=6295" target="_blank">正誤表</a></li>
+ <li><a href="/?page=06295" target="_blank">正誤表</a></li>
 
 </ul>
 
@@ -47,8 +47,8 @@ Copyright: (C) Ryuichi Ueda
 
 <h2>電子版</h2>
 
-<a href="http://blog.ueda.asia/?p=6276">http://blog.ueda.asia/?p=6276</a>
+<a href="/?post=06276">/?p=6276</a>
 
 <h2 id="#suppriment">補遺</h2>
 
-bashのpipefailについて本書で触れられなかったので補足: <a href="http://blog.ueda.asia/?p=5953" title="bashのpipefailで確実にスクリプトを止める">bashのpipefailでスクリプトを止める</a>
+bashのpipefailについて本書で触れられなかったので補足: <a href="/?post=05953" title="bashのpipefailで確実にスクリプトを止める">bashのpipefailでスクリプトを止める</a>

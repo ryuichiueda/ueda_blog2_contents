@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 【問題と解答】第23回梅雨でモワッとしたシェル芸勉強会
-問題だけのページは<a href="https://blog.ueda.asia/?p=8465">こちら</a>
+問題だけのページは<a href="/?post=08465">こちら</a>
 
 <h2>問題で使うファイル等</h2>
 
@@ -53,7 +53,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 <h2>イントロ</h2>
 
-<a href="https://blog.ueda.asia/?presenpress=%e7%ac%ac23%e5%9b%9e%e6%a2%85%e9%9b%a8%e3%81%a7%e3%83%a2%e3%83%af%e3%83%83%e3%81%a8%e3%81%97%e3%81%9f%e3%82%b7%e3%82%a7%e3%83%ab%e8%8a%b8%e5%8b%89%e5%bc%b7%e4%bc%9a">スライド</a>
+<a href="/?presenpress=%e7%ac%ac23%e5%9b%9e%e6%a2%85%e9%9b%a8%e3%81%a7%e3%83%a2%e3%83%af%e3%83%83%e3%81%a8%e3%81%97%e3%81%9f%e3%82%b7%e3%82%a7%e3%83%ab%e8%8a%b8%e5%8b%89%e5%bc%b7%e4%bc%9a">スライド</a>
 
 
 <h2>Q1</h2>

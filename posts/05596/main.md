@@ -10,7 +10,7 @@ GlueLangのif文及びその周辺、またいじりました。
 
 <h1>やっぱり波括弧やめた</h1>
 
-<a href="http://blog.ueda.asia/?p=5519" title="GlueLangのif文相当の処理をガラッと変えてみた">前回</a>、複合コマンドをこんなふうに書くようにしましたが・・・
+<a href="/?post=05519" title="GlueLangのif文相当の処理をガラッと変えてみた">前回</a>、複合コマンドをこんなふうに書くようにしましたが・・・
 
 ```bash
 uedambp:SRC ueda$ cat hoge 

@@ -8,7 +8,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <a href="https://www.usptomo.com/PAGE=20141214USPSTUDY" target="_blank">公式の勉強会報告はこちらです。</a>
 
-<a href="http://blog.ueda.asia/?p=4671" title="【問題のみ】第14回東京居残りシェル芸勉強会">問題はこちら</a>
+<a href="/?post=04671" title="【問題のみ】第14回東京居残りシェル芸勉強会">問題はこちら</a>
 
 <blockquote class="twitter-tweet" lang="ja"><p>シェル芸初参加だがみんな変態すぎて&#10;まるで追いつけない。&#10;&#10;<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a></p>&mdash; YOUG (\@YOUG_XX) <a href="https://twitter.com/YOUG_XX/status/543652746105065472">2014, 12月 13</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

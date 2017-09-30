@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 【問題と解答】第19回シェル芸3周年記念勉強会
-<a href="https://blog.ueda.asia/?p=7146">問題のみのページはこちら。</a>
+<a href="/?post=07146">問題のみのページはこちら。</a>
 
 <h2>イントロ</h2>
 
@@ -172,7 +172,7 @@ sed 's/す\@*っ\@*と\@*こ\@*ど\@*っ\@*こ\@*い/朴念仁/g' | tr \@ '\\n' 
 
 <h2>Q5</h2>
 
-<a href="https://blog.ueda.asia/?page_id=7123" target="_blank">https://blog.ueda.asia/?page_id=7123</a>
+<a href="/?page=07123" target="_blank">/?page_id=7123</a>
 から、画像を抜き出して保存しましょう。
 
 <h3>解答</h3>

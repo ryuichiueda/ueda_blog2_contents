@@ -6,7 +6,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 # 例のロボットを今度はHaskellで動かした
 今日は某氏が取り仕切る<a href="http://makezine.jp/event/mft2015/" target="_blank">Maker Faire Tokyo 2015</a>に遊びに行きました。大いに啓蒙されたので、帰宅後、俺も何かやろうということで、「Raspberry Pi Mouseはどの言語でも動かせるアピール」の一環としてHaskellでRaspberry Pi Mouseを動かしてみました。
 
-Raspberry Pi Mouseというのは日経Linuxの連載「<a href="https://blog.ueda.asia/?page_id=5983" target="_blank">Raspberry Piで始めるかんたんロボット製作</a>」で作っているロボットです。よく「パソコンのカーソル動かす方のマウス」と間違われるのですが、ここで言っている「マウス」というのはロボット競技のマイクロマウスの「マウス」です。
+Raspberry Pi Mouseというのは日経Linuxの連載「<a href="/?page=05983" target="_blank">Raspberry Piで始めるかんたんロボット製作</a>」で作っているロボットです。よく「パソコンのカーソル動かす方のマウス」と間違われるのですが、ここで言っている「マウス」というのはロボット競技のマイクロマウスの「マウス」です。
 
 
 このロボットをHaskellで動かすわけですが、そのためにはセンサの読み込みとモータの動作を非同期で行う必要があります。私みたいな阿呆でも分かる解説を探していたところ、
@@ -91,6 +91,6 @@ main = do
 
 <h2>参考: Raspberry Pi Mouseって何？</h2>
 
-<a href="https://blog.ueda.asia/?page_id=5983">こちらのページで。</a>
+<a href="/?page=05983">こちらのページで。</a>
 
 

@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 【解答】年末年始シェル芸問題集
-<a href="http://blog.ueda.asia/?p=4852" title="【問題】年末年始シェル芸問題集" target="_blank">年末出したシェル芸の問題</a>の私の解答です。ただ、挑戦した皆さんの解答の方が面白いし鋭いので、「シェル芸」で検索してみてください。あとで下の方に皆さんの解答例を掲載していこうと思います。
+<a href="/?post=04852" title="【問題】年末年始シェル芸問題集" target="_blank">年末出したシェル芸の問題</a>の私の解答です。ただ、挑戦した皆さんの解答の方が面白いし鋭いので、「シェル芸」で検索してみてください。あとで下の方に皆さんの解答例を掲載していこうと思います。
 
 <h1>Q1</h1>
 
@@ -87,7 +87,7 @@ tr '\\n' '+' | sed 's/$/1/' | bc -l
 
 <h1>Q4</h1>
 
-<a href="http://blog.ueda.asia/misc/message2015.txt" target="_blank">http://blog.ueda.asia/misc/message2015.txt</a>は、あるメッセージにbase64を多重にかけたものです。解読してください。ワンライナーでなくても構いません。
+<a href="/misc/message2015.txt" target="_blank">/misc/message2015.txt</a>は、あるメッセージにbase64を多重にかけたものです。解読してください。ワンライナーでなくても構いません。
 
 
 <h1>解答</h1>

@@ -41,7 +41,7 @@ Copyright: (C) Ryuichi Ueda
 <p style="font-size: 250%;">以上。</p>
 <!--nextpage-->
 <h2>シェル芸とは</h2>
-<a href="https://blog.ueda.asia/?page_id=1434" target="_blank">マウスも使わず、ソースコードも残さず、GUIツールを立ち上げる間もなく、あらゆる調査・計算・テキスト処理をCLI端末へのコマンド入力一撃で終わらすこと。あるいはそのときのコマンド入力のこと。</a>
+<a href="/?page=01434" target="_blank">マウスも使わず、ソースコードも残さず、GUIツールを立ち上げる間もなく、あらゆる調査・計算・テキスト処理をCLI端末へのコマンド入力一撃で終わらすこと。あるいはそのときのコマンド入力のこと。</a>
 
 <!--nextpage-->
 <h2>今回の問題</h2>

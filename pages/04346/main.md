@@ -6,7 +6,7 @@ Copyright: (C) Ryuichi Ueda
 # dash/src/eval.h, eval.c
 まだ途中。パイプの繋ぎ換えのところの解読が終わった。evalpipe関数の実装の部分は必見。
 
-<a href="http://blog.ueda.asia/?page_id=4219" title="dashのコード解読メモ">「dashのコード解読メモ」に戻る</a>
+<a href="/?page=04219" title="dashのコード解読メモ">「dashのコード解読メモ」に戻る</a>
 
 <h2>eval.h</h2>
 ```c

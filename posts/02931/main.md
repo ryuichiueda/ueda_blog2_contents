@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # Word（docx）用sedを作ってしもうた。
-<a href="http://blog.ueda.asia/?p=2957" title="Word（docx）用sedを改良してしもうた。">続編アリ（2014/4/23）</a>
+<a href="/?post=02957" title="Word（docx）用sedを改良してしもうた。">続編アリ（2014/4/23）</a>
 
 クリエイチビチーが止まりません。上田です。
 

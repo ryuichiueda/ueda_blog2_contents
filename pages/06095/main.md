@@ -447,7 +447,7 @@ doesDirectoryExist :: FilePath -&gt; IO Bool
 <table class="docutils footnote" frame="void" id="id14" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id6">[4]</a></td><td>問題は <tt class="docutils literal"><span class="pre">http://blog.ueda.asia/?page_id=684</span></tt> から。</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id6">[4]</a></td><td>問題は <tt class="docutils literal"><span class="pre">/?page_id=684</span></tt> から。</td></tr>
 </tbody>
 </table>
 </div>

@@ -10,7 +10,7 @@ Copyright: (C) Ryuichi Ueda
 
 
 
-<a href="http://blog.ueda.asia/?page_id=2944">各号の一覧へ</a>
+<a href="/?page=02944">各号の一覧へ</a>
 
 <h1>4. シェル芸勉強会後追い企画: Haskellでやってはいかんのか？</h1>
 <div class="section" id="id2">
@@ -31,7 +31,7 @@ Copyright: (C) Ryuichi Ueda
 。
 まず一つご報告ですが、
 Haskellのインストール等の情報を私のサイトにまとめました。</p>
-<p><tt class="docutils literal"><span class="pre">http://blog.ueda.asia/?page_id=2944</span></tt></p>
+<p><tt class="docutils literal"><span class="pre">/?page_id=2944</span></tt></p>
 <p>にあります。続きはWebで。面会は刑務所で。</p>
 </div>
 <div class="section" id="id6">

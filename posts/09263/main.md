@@ -14,11 +14,11 @@ Copyright: (C) 2017 Ryuichi Ueda
 <iframe src="https://www.youtube.com/embed/9YqPYuztJTM" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 <h2>イントロ</h2>
 
-<a href="https://blog.ueda.asia/?presenpress=%e7%ac%ac26%e5%9b%9e%e3%82%b7%e3%82%a7%e3%83%ab%e8%8a%b8%e5%8b%89%e5%bc%b7%e4%bc%9a%e5%8f%8a%e3%81%b3%e3%82%a8%e3%82%af%e3%82%b7%e3%82%a7%e3%83%ab%e8%8a%b8%e5%8b%89%e5%bc%b7%e4%bc%9a">第26回シェル芸勉強会及びエクシェル芸勉強会</a>
+<a href="/?presenpress=%e7%ac%ac26%e5%9b%9e%e3%82%b7%e3%82%a7%e3%83%ab%e8%8a%b8%e5%8b%89%e5%bc%b7%e4%bc%9a%e5%8f%8a%e3%81%b3%e3%82%a8%e3%82%af%e3%82%b7%e3%82%a7%e3%83%ab%e8%8a%b8%e5%8b%89%e5%bc%b7%e4%bc%9a">第26回シェル芸勉強会及びエクシェル芸勉強会</a>
 &nbsp;
 <h2></h2>
 <h2>問題</h2>
-<a href="https://blog.ueda.asia/?p=8833">こちら</a>
+<a href="/?post=08833">こちら</a>
 <h2>まとめ</h2>
 <blockquote class="twitter-tweet" data-lang="ja">
 <p dir="ltr" lang="ja">.<a href="https://twitter.com/ryuichiueda">\@ryuichiueda</a>さんの「jus共催 第8回初心者の方角に向いて講師が喋るシェル勉強会（初心者向けとは言ってない）/第26回シェ..」が伸びてるみたい。みんなに届けぇ〜 <a href="https://t.co/kHZXnWohL4">https://t.co/kHZXnWohL4</a></p>

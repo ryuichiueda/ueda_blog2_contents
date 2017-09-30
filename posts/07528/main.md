@@ -6,7 +6,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 # 日記: 日経Linux, RoboCup, 次のシェル芸勉強会
 <h2>日経Linux2月号</h2>
 
-「<a href="https://blog.ueda.asia/?page_id=7166" target="_blank">Raspberry Piで作ろう　お手軽ロボット教室</a>」の第二回が掲載されています。よろしくお願いいたします。今回はラズパイのカメラを使うというお題で、CGIで画像を表示するプログラムです。ハードからウェブまでフルスタック！（口から泡）
+「<a href="/?page=07166" target="_blank">Raspberry Piで作ろう　お手軽ロボット教室</a>」の第二回が掲載されています。よろしくお願いいたします。今回はラズパイのカメラを使うというお題で、CGIで画像を表示するプログラムです。ハードからウェブまでフルスタック！（口から泡）
 
 [amazonjs asin="B018R7G4XY" locale="JP" title="日経Linux(リナックス)2016年2月号"]
 

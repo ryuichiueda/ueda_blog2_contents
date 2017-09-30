@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 【問題のみ】第16回春だからログ解析するぞシェル芸勉強会
-<a href="http://blog.ueda.asia/?p=5644" title="【問題と解答例】第16回春だからログ解析するぞシェル芸勉強会">解答はコチラ</a>
+<a href="/?post=05644" title="【問題と解答例】第16回春だからログ解析するぞシェル芸勉強会">解答はコチラ</a>
 
 <h1>始める前に</h1>
 
@@ -14,7 +14,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <h2>使用するログ</h2>
 
-<a href="http://blog.ueda.asia/?page_id=5649" target="_blank">http://blog.ueda.asia/?page_id=5649</a>内の、access.log_.shellshock.gzとaccess_log.nasa.gzです。
+<a href="/?page=05649" target="_blank">/?page_id=5649</a>内の、access.log_.shellshock.gzとaccess_log.nasa.gzです。
 
 <!--more--> 
 

@@ -10,7 +10,7 @@ Copyright: (C) Ryuichi Ueda
 
 <iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=ryuichiueda-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4904807081" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 
-<a href="http://blog.ueda.asia/?page_id=2944">各号の一覧へ</a>
+<a href="/?page=02944">各号の一覧へ</a>
 
 <h1>1. シェル芸勉強会後追い企画: Haskellでやってはいかんのか？</h1>
 <p>産業技術大学院・USP研究所・USP友の会　上田隆一
@@ -29,7 +29,7 @@ Copyright: (C) Ryuichi Ueda
 <div class="section" id="id1">
 
 <h2>1.1. Haskellで何やりましょう？</h2>
-<p>んで、Haskellで何をやるのか。モナドとか高階関数とかややこしい言葉を使って煙に巻くのか。いや、理屈より先に手を動かした方がよいでしょう。ということで、これまでやってきたシェル芸勉強会（脚注：<a class="reference external" href="http://blog.ueda.asia/?page_id=684">http://blog.ueda.asia/?page_id=684</a>）の問題を、順に淡々と解いて行くことにしましょう。（脚注：これなら毎回ネタを考えないで済むという黒い判断。）</p>
+<p>んで、Haskellで何をやるのか。モナドとか高階関数とかややこしい言葉を使って煙に巻くのか。いや、理屈より先に手を動かした方がよいでしょう。ということで、これまでやってきたシェル芸勉強会（脚注：<a class="reference external" href="/?page=00684">/?page_id=684</a>）の問題を、順に淡々と解いて行くことにしましょう。（脚注：これなら毎回ネタを考えないで済むという黒い判断。）</p>
 
 </div>
 <div class="section" id="id2">
@@ -228,4 +228,4 @@ postfix
 
 <p>さいならさいなら。</p>
 
-<a href="http://blog.ueda.asia/?page_id=2944">各号の一覧へ</a>
+<a href="/?page=02944">各号の一覧へ</a>

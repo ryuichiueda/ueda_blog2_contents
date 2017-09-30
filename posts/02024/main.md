@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 【問題集】第9回寒中シェル芸勉強会
-<span style="size:32px"><a href="http://blog.ueda.asia/?p=1955" target="_blank">解答はコッチ</a></span>
+<span style="size:32px"><a href="/?post=01955" target="_blank">解答はコッチ</a></span>
 
 <h2>環境</h2>
 

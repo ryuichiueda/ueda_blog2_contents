@@ -6,7 +6,7 @@ Copyright: (C) Ryuichi Ueda
 # シェルスクリプト高速開発手法入門
 <ul>
  <li><a href="#news">ニュース</a></li>
- <li><a href="http://blog.ueda.asia/?page_id=3344" title="正誤表 | シェルスクリプト高速開発技術入門">正誤表</a></li>
+ <li><a href="/?page=03344" title="正誤表 | シェルスクリプト高速開発技術入門">正誤表</a></li>
  <li><a href="#code">ソースコードの公開場所</a></li>
  <li><a href="#buy">買えるところ</a></li>
  <li><a href="#link">その他リンク</a></li>

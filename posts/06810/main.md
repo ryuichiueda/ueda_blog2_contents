@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 日記 ---自己位置推定の実機実装
-必要に迫られ、およそ10年数ぶりに実機用のパーティクルフィルタのコードを書いています。売るものではないので公開してますが、ロボットの場合、ハードウェアが違うとコードがそのまま使えないのであまり反響はありません・・・が、ロボットは日経Linuxの連載で使っている<a href="https://blog.ueda.asia/?page_id=5983" target="_blank">Raspberry Pi Mouse</a>で市販品なので、ちゃんとお化粧して教科書書いて<s>小銭を稼ぐ</s>使ってもらうのが目標です。
+必要に迫られ、およそ10年数ぶりに実機用のパーティクルフィルタのコードを書いています。売るものではないので公開してますが、ロボットの場合、ハードウェアが違うとコードがそのまま使えないのであまり反響はありません・・・が、ロボットは日経Linuxの連載で使っている<a href="/?page=05983" target="_blank">Raspberry Pi Mouse</a>で市販品なので、ちゃんとお化粧して教科書書いて<s>小銭を稼ぐ</s>使ってもらうのが目標です。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">Raspberry Pi Mouseの自己位置推定コードをゴリッゴリに開発中。&#10;&#10;自己位置推定のコードをひと通り作ってログを使って動作確認済み。週明け実機でオンラインで実験。&#10;&#10;日経Linuxの連載もどうぞ。&#10;&#10;<a href="https://t.co/sRjfBYVfod">https://t.co/sRjfBYVfod</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/630338662790660096">August 9, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

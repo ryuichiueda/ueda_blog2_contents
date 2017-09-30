@@ -72,7 +72,7 @@ gshは、存在しているならば<a href="http://ja.wikipedia.org/wiki/WTFPL"
 
 <h2>余談</h2>
 
-あ、真面目にやっている<a href="http://blog.ueda.asia/?p=2133" title="グルー言語を作る作業を少し進めた" target="_blank">コレ</a>は、正式な研究プロジェクトとして取り組むことになりましたので、こちらは嘘にならんようにがんばります！
+あ、真面目にやっている<a href="/?post=02133" title="グルー言語を作る作業を少し進めた" target="_blank">コレ</a>は、正式な研究プロジェクトとして取り組むことになりましたので、こちらは嘘にならんようにがんばります！
 
 <a href="http://usptomo.doorkeeper.jp/events/9648" target="_blank">シェル芸勉強会</a>も今週末なのでよろしゅう。
 <!--:-->

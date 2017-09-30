@@ -25,7 +25,7 @@ Copyright: (C) Ryuichi Ueda
  <tr>
  <td>いろんなところ</td>
  <td>bashのpipefailオプションをガン無視している</td>
- <td><a href="http://blog.ueda.asia/?p=5953" target="_blank">こちらに解説</a></td>
+ <td><a href="/?post=05953" target="_blank">こちらに解説</a></td>
  <td>上田</td>
  <td>すいません。存在を見落としておりました。</td>
  </tr>

@@ -10,7 +10,7 @@ Copyright: (C) Ryuichi Ueda
 
 <iframe src="http://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=ryuichiueda-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=4904807073" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 
-<a href="http://blog.ueda.asia/?page_id=2944">各号の一覧へ</a>
+<a href="/?page=02944">各号の一覧へ</a>
 
 <h1>2. シェル芸勉強会後追い企画: Haskellでやってはいかんのか？</h1>
 <p>産業技術大学院・USP研究所・USP友の会　上田隆一
@@ -326,5 +326,5 @@ f :: <span class="o">[</span>String<span class="o">]</span> -&gt; String
 </div>
 
 
-<a href="http://blog.ueda.asia/?page_id=2944">各号の一覧へ</a>
+<a href="/?page=02944">各号の一覧へ</a>
 

@@ -9,7 +9,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 （確か、学会があまりにもつまらない場合、怒りに任せてJavaのコードを書くというルールを設けていたような気がする。）
 
 <a href="https://github.com/ryuichiueda/PerceptronTest" target="_blank">アプレットになってるニューラルネットワーク&サポートベクターマシーンのコード</a>があったので、
-<a href="http://blog.ueda.asia/?page_id=1333" title="http://blog.ueda.asia/?page_id=1333" target="_blank">http://blog.ueda.asia/?page_id=1333</a>
+<a href="/?page=01333" title="/?page_id=1333" target="_blank">/?page_id=1333</a>
 にアプレットをアップしました。しかし、何かに使えるわけではありません。観賞用です。
 
 ところで、ChromeはもうJavaアプレットサポートしないのね。Firefoxもすごい警告を出します。アプレット哀れ。

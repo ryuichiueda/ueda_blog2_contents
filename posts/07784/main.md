@@ -275,5 +275,5 @@ Copyright: (C) Ryuichi Ueda
 
 
 <div style="text-align:right;font-size:80%">
- <footer><a href="/?page_id=7863">戻る</a></footer>
+ <footer><a href="/?page=07863">戻る</a></footer>
 </div>

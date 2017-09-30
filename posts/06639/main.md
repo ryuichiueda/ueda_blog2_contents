@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 日記 ---またくだらないまとめを作ってしまった
-去年の<a href="/?p=3699">危険シェル芸</a>ほどではありませんが・・・。なんかネタが雑極まりない。
+去年の<a href="/?post=03699">危険シェル芸</a>ほどではありませんが・・・。なんかネタが雑極まりない。
 
 <span class="hatena-bookmark-title"><a href="http://togetter.com/li/851933">今、伝えたい、UNIXの知恵 シェルしぐさ - Togetterまとめ</a></span> 
 

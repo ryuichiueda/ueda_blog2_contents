@@ -39,7 +39,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tf3dRVlmbcs" frameborder="0" allowfullscreen></iframe>
 
-<a href="https://blog.ueda.asia/?p=8073">問題はこちら。</a>
+<a href="/?post=08073">問題はこちら。</a>
 
 <h2>懇親会・LT</h2>
 

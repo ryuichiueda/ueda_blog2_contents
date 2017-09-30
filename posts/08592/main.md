@@ -4,12 +4,12 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 【問題と解答】第24回◯◯o◯裏番組シェル芸勉強会
-問題のみのページは<a href="https://blog.ueda.asia/?p=8639">こちら</a>
+問題のみのページは<a href="/?post=08639">こちら</a>
 
 <h2>イントロ</h2>
 
 <ul>
-	<li><a href="https://blog.ueda.asia/?presenpress=%e7%ac%ac24%e5%9b%9e%e2%97%af%e2%97%afo%e2%97%af%e8%a3%8f%e7%95%aa%e7%b5%84%e3%82%b7%e3%82%a7%e3%83%ab%e8%8a%b8%e5%8b%89%e5%bc%b7%e4%bc%9a">スライドのリンク</a></li>
+	<li><a href="/?presenpress=%e7%ac%ac24%e5%9b%9e%e2%97%af%e2%97%afo%e2%97%af%e8%a3%8f%e7%95%aa%e7%b5%84%e3%82%b7%e3%82%a7%e3%83%ab%e8%8a%b8%e5%8b%89%e5%bc%b7%e4%bc%9a">スライドのリンク</a></li>
 </ul>
 
 

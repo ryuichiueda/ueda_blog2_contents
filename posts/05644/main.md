@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 【問題と解答例】第16回春だからログ解析するぞシェル芸勉強会
-<a href="http://blog.ueda.asia/?p=5851" title="【問題のみ】第16回春だからログ解析するぞシェル芸勉強会">問題のみのページはコチラ</a>
+<a href="/?post=05851" title="【問題のみ】第16回春だからログ解析するぞシェル芸勉強会">問題のみのページはコチラ</a>
 
 <h1>始める前に</h1>
 
@@ -15,7 +15,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 <!--more-->
 <h2>使用するログ</h2>
 
-<a href="http://blog.ueda.asia/?page_id=5649" target="_blank">http://blog.ueda.asia/?page_id=5649</a>内の、access.log_.shellshock.gzとaccess_log.nasa.gzです。
+<a href="/?page=05649" target="_blank">/?page_id=5649</a>内の、access.log_.shellshock.gzとaccess_log.nasa.gzです。
 
 <h2>環境</h2>
 今回はLinuxで解答例を作りましたので、BSD系、Macな方は以下の表をご参考に・・・。

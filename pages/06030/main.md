@@ -23,7 +23,7 @@ Copyright: (C) Ryuichi Ueda
 [amazonjs asin="B00XKU53U4" locale="JP" title="シェルプログラミング実用テクニック"]
 <h3>2014</h3>
 <ul>
- 	<li><a href="http://blog.ueda.asia/?page_id=3237" target="_blank" rel="noopener">上田隆一, 後藤大地（著）, USP研究所（監修）: フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門, KADOKAWA/アスキー・メディアワークス, 2014. </a>
+ 	<li><a href="/?page=03237" target="_blank" rel="noopener">上田隆一, 後藤大地（著）, USP研究所（監修）: フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門, KADOKAWA/アスキー・メディアワークス, 2014. </a>
 <ul>
  	<li><a href="http://www.shoeisha.co.jp/campaign/award/result" target="_blank" rel="noopener">ITエンジニアに読んでほしい！技術書・ビジネス書大賞2015技術書部門ベスト10</a></li>
 </ul>

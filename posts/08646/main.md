@@ -22,7 +22,7 @@ Copyright: (C) Ryuichi Ueda
 <h2>近況1</h2>
 &nbsp;
 <ul>
- 	<li><a href="https://blog.ueda.asia/?page_id=7166" target="_blank">日経Linuxの連載</a>が一区切り</li>
+ 	<li><a href="/?page=07166" target="_blank">日経Linuxの連載</a>が一区切り</li>
  	<li>堂々とシェル芸で連載したい
 <ul>
  	<li>声がかからない</li>
@@ -45,7 +45,7 @@ Copyright: (C) Ryuichi Ueda
 
 <!--nextpage-->
 <h2>シェル芸とは</h2>
-<a href="https://blog.ueda.asia/?page_id=1434" target="_blank">マウスも使わず、ソースコードも残さず、GUIツールを立ち上げる間もなく、あらゆる調査・計算・テキスト処理をCLI端末へのコマンド入力一撃で終わらすこと。あるいはそのときのコマンド入力のこと。</a>
+<a href="/?page=01434" target="_blank">マウスも使わず、ソースコードも残さず、GUIツールを立ち上げる間もなく、あらゆる調査・計算・テキスト処理をCLI端末へのコマンド入力一撃で終わらすこと。あるいはそのときのコマンド入力のこと。</a>
 
 <!--nextpage-->
 <h2>進め方</h2>
@@ -67,6 +67,6 @@ Copyright: (C) Ryuichi Ueda
 <!--nextpage-->
 <h2>ということで開始</h2>
 <ul>
- 	<li><a href="https://blog.ueda.asia/?p=8639">問題</a></li>
- 	<li><a href="https://blog.ueda.asia/?p=8592">解答</a></li>
+ 	<li><a href="/?post=08639">問題</a></li>
+ 	<li><a href="/?post=08592">解答</a></li>
 </ul>

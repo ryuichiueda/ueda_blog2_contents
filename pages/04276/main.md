@@ -9,7 +9,7 @@ Copyright: (C) Ryuichi Ueda
 このファイルにはC言語らしいテクニックがいくつか。
 
 
-<a href="http://blog.ueda.asia/?page_id=4219" title="dashのコード解読メモ">「dashのコード解読メモ」に戻る</a>
+<a href="/?page=04219" title="dashのコード解読メモ">「dashのコード解読メモ」に戻る</a>
 
 ```c
 /*-

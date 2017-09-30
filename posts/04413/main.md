@@ -6,7 +6,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 # 【問題と解答例】第14回東京居残りシェル芸勉強会
 <ul>
  <li>
-<a href="http://blog.ueda.asia/?p=4671" title="【問題のみ】第14回東京居残りシェル芸勉強会">問題だけ見たい人はコッチ</a></li>
+<a href="/?post=04671" title="【問題のみ】第14回東京居残りシェル芸勉強会">問題だけ見たい人はコッチ</a></li>
  <li><a href="http://togetter.com/li/757291" target="_blank">まとめと別解はコッチ</a></li>
 </ul>
 

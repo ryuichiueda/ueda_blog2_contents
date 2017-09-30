@@ -7,7 +7,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 <p style="padding-left: 30px;">今週末のことを重要なことから。</p>
 
 <h2>graph-based SLAMの解説書</h2>
-<a href="http://amzn.to/2nRJyXl">確率ロボティクス</a>の日本語ドキュメント・サンプル充実プロジェクトとして、先週は<a href="https://blog.ueda.asia/?p=9479">コードのサンプルをjupyter notebookに書く</a>ということをやっていましたが、今週は<a href="https://github.com/ryuichiueda/commentary_on_graph-based_slam">数式で解説するための文章</a>を書いてました。うん。10年仕事が遅い。
+<a href="http://amzn.to/2nRJyXl">確率ロボティクス</a>の日本語ドキュメント・サンプル充実プロジェクトとして、先週は<a href="/?post=09479">コードのサンプルをjupyter notebookに書く</a>ということをやっていましたが、今週は<a href="https://github.com/ryuichiueda/commentary_on_graph-based_slam">数式で解説するための文章</a>を書いてました。うん。10年仕事が遅い。
 
 まだ書きかけで粗いですが、世界で一番簡単に理解できるようにするつもりです。
 <h2>Raspberry Pi3にUbuntu 16.04 Serverをインストールするときの便利スクリプト</h2>

@@ -6,7 +6,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 # <!--:ja-->【本番資料】第10回シェル芸勉強会<!--:-->
 <!--:ja--><h2>他の回の問題はこちら</h2>
 
-<a href="http://blog.ueda.asia/?page_id=684">シェル芸勉強会スライド一覧</a>
+<a href="/?page=00684">シェル芸勉強会スライド一覧</a>
 
 <h2>イントロ</h2>
 

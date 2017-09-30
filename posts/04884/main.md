@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # glueで年末年始シェル芸問題集を解いた雑感（Q4まで）
-私以外のコントリビュータも出現し、<a href="http://cordea.hatenadiary.com/entry/2015/01/09/160647" target="_blank">試してくださる方</a>も出て引くに引けない状況の<a href="https://github.com/ryuichiueda/GlueLang" target="_blank">GlueLang</a>ですが、ちょっと使った例と、自分で使ってみたフィードバックが必要かなと思い、自分で出題した<a href="http://blog.ueda.asia/?p=4821" title="【解答】年末年始シェル芸問題集" target="_blank">年末年始シェル芸問題集</a>の問題をGlueLangで解いてみようと思いました。
+私以外のコントリビュータも出現し、<a href="http://cordea.hatenadiary.com/entry/2015/01/09/160647" target="_blank">試してくださる方</a>も出て引くに引けない状況の<a href="https://github.com/ryuichiueda/GlueLang" target="_blank">GlueLang</a>ですが、ちょっと使った例と、自分で使ってみたフィードバックが必要かなと思い、自分で出題した<a href="/?post=04821" title="【解答】年末年始シェル芸問題集" target="_blank">年末年始シェル芸問題集</a>の問題をGlueLangで解いてみようと思いました。
 
 答えはMac用です。
 

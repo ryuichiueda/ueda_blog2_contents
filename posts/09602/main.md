@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 【問題のみ】第28回基準値を超えるシェル芸勉強会
-<a href="https://blog.ueda.asia/?p=9575">解答例はこちら</a>
+<a href="/?post=09575">解答例はこちら</a>
 <h2>問題で使うファイル等</h2>
 GitHubにあります。ファイルは
 
@@ -25,7 +25,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 <h2>イントロ</h2>
 
 <ul>
-	<li><a href="https://blog.ueda.asia/?presenpress=%e7%ac%ac28%e5%9b%9e%e5%9f%ba%e6%ba%96%e5%80%a4%e3%82%92%e8%b6%85%e3%81%88%e3%82%8b%e3%82%b7%e3%82%a7%e3%83%ab%e8%8a%b8%e5%8b%89%e5%bc%b7%e4%bc%9a">こちら</a></li>
+	<li><a href="/?presenpress=%e7%ac%ac28%e5%9b%9e%e5%9f%ba%e6%ba%96%e5%80%a4%e3%82%92%e8%b6%85%e3%81%88%e3%82%8b%e3%82%b7%e3%82%a7%e3%83%ab%e8%8a%b8%e5%8b%89%e5%bc%b7%e4%bc%9a">こちら</a></li>
 </ul>
 
 

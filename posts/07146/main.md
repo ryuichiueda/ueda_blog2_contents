@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 【問題】第19回シェル芸3周年記念勉強会
-<a href="https://blog.ueda.asia/?p=7068">解答はこちら。</a>
+<a href="/?post=07068">解答はこちら。</a>
 
 <h2>イントロ</h2>
 
@@ -105,7 +105,7 @@ $ cat Q4
 
 <h2>Q5</h2>
 
-<a href="https://blog.ueda.asia/?page_id=7123" target="_blank">https://blog.ueda.asia/?page_id=7123</a>
+<a href="/?page=07123" target="_blank">/?page_id=7123</a>
 から、画像を抜き出して保存しましょう。
 
 <h2>Q6</h2>

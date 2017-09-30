@@ -4,11 +4,11 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 【問題のみ】第22回ゴールデンウィークの存在疑惑シェル芸勉強会
-- <a href="https://blog.ueda.asia/?p=8028">解答はこちら</a>
+- <a href="/?post=08028">解答はこちら</a>
 
 <h2>イントロのプレゼン資料</h2>
 
-- <a href="https://blog.ueda.asia/?presenpress=%e7%ac%ac22%e5%9b%9e%e3%82%b4%e3%83%bc%e3%83%ab%e3%83%87%e3%83%b3%e3%82%a6%e3%82%a3%e3%83%bc%e3%82%af%e3%81%ae%e5%ad%98%e5%9c%a8%e7%96%91%e6%83%91%e3%82%b7%e3%82%a7%e3%83%ab%e8%8a%b8%e5%8b%89%e5%bc%b7" target="_blank">ここです。</a>
+- <a href="/?presenpress=%e7%ac%ac22%e5%9b%9e%e3%82%b4%e3%83%bc%e3%83%ab%e3%83%87%e3%83%b3%e3%82%a6%e3%82%a3%e3%83%bc%e3%82%af%e3%81%ae%e5%ad%98%e5%9c%a8%e7%96%91%e6%83%91%e3%82%b7%e3%82%a7%e3%83%ab%e8%8a%b8%e5%8b%89%e5%bc%b7" target="_blank">ここです。</a>
 
 <h2>問題で使うファイル等</h2>
 

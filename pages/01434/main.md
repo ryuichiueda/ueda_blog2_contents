@@ -13,8 +13,8 @@ Copyright: (C) Ryuichi Ueda
 <h2>サイト内コンテンツ</h2>
 
 <ul>
- <li><a href="http://blog.ueda.asia/?page_id=5567" title="シェル芸勉強会参加者数">シェル芸勉強会参加者数</a></li>
- <li><a href="http://blog.ueda.asia/?page_id=684" title="シェル芸勉強会スライド一覧">シェル芸勉強会スライド一覧</a></li>
- <li><a href="http://blog.ueda.asia/?page_id=3752" title="危険シェル芸の定義（笑）">危険シェル芸の定義（笑）</a></li>
- <li><a href="http://blog.ueda.asia/?page_id=5649" title="シェル芸練習用データ集">シェル芸練習用データ集</a></li>
+ <li><a href="/?page=05567" title="シェル芸勉強会参加者数">シェル芸勉強会参加者数</a></li>
+ <li><a href="/?page=00684" title="シェル芸勉強会スライド一覧">シェル芸勉強会スライド一覧</a></li>
+ <li><a href="/?page=03752" title="危険シェル芸の定義（笑）">危険シェル芸の定義（笑）</a></li>
+ <li><a href="/?page=05649" title="シェル芸練習用データ集">シェル芸練習用データ集</a></li>
 </ul>

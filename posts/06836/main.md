@@ -4,8 +4,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 【問題と解答】第18回ニンニク入れますかシェル芸勉強会
-問題だけのページはこちら: <a href="https://blog.ueda.asia/?p=6877">https://blog.ueda.asia/?p=6877</a>
-過去問はこちら: <a href="https://blog.ueda.asia/?page_id=684">https://blog.ueda.asia/?page_id=684</a>
+問題だけのページはこちら: <a href="/?post=06877">/?p=6877</a>
+過去問はこちら: <a href="/?page=00684">/?page_id=684</a>
 
 <h2>オープニングスライド（悪い冗談）</h2>
 

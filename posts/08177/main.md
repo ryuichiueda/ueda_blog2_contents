@@ -28,7 +28,7 @@ Copyright: (C) Ryuichi Ueda
 <p>ソフトウェアでロボットを動かす人</p>
 　
 <ul>
-	<li><a href="https://blog.ueda.asia/?presenpress=%e8%87%aa%e5%b7%b1%e7%b4%b9%e4%bb%8b" target="_blank">自己紹介</a></li>
+	<li><a href="/?presenpress=%e8%87%aa%e5%b7%b1%e7%b4%b9%e4%bb%8b" target="_blank">自己紹介</a></li>
 </ul>
 
 

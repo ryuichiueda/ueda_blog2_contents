@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 【問題のみ】jus共催 第30回危念シェル芸勉強会
-<a href="https://blog.ueda.tech/?p=10134">解答はこちら</a>
+<a href="/?post=10134">解答はこちら</a>
 
 <h2>問題で使うファイル等</h2>
 GitHubにあります。ファイルは
@@ -23,7 +23,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 解答例はUbuntu Linux 16.04 で作成。Macの場合はcoreutilsをインストールすると、GNUのコマンドが使えます。BSD系の人は玄人なので各自対応のこと。
 <h2>イントロ</h2>
 
-<a href="https://blog.ueda.tech/?presenpress=%E7%AC%AC30%E5%9B%9E%E5%8D%B1%E5%BF%B5%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8%E5%8B%89%E5%BC%B7%E4%BC%9A#/">スライド</a>
+<a href="/?presenpress=%E7%AC%AC30%E5%9B%9E%E5%8D%B1%E5%BF%B5%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8%E5%8B%89%E5%BC%B7%E4%BC%9A#/">スライド</a>
 
 <h2>Q1</h2>
 リポジトリの中に、次のようなディレクトリがあります。

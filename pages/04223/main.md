@@ -8,7 +8,7 @@ dashのmain.hとmain.cに自分のツッコミコメントを入れたもの。g
 
 「dash精読sh行」の一環です。いちお、シェルの研究関連の意味ある活動で、何かの原理主義ではございません。。
 
-<a href="http://blog.ueda.asia/?page_id=4219" title="dashのコード解読メモ">「dashのコード解読メモ」に戻る</a>
+<a href="/?page=04219" title="dashのコード解読メモ">「dashのコード解読メモ」に戻る</a>
 
 20141104追記: <a href="http://blog.bsdhack.org/" target="_blank">\@bsdhack氏</a>からコメントのコメントをいただきましたので書き入れてます。
 

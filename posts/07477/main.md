@@ -11,7 +11,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 [amazonjs asin="4822236080" locale="JP" title="ラズパイ超入門(日経BPパソコンベストムック)"]
 
 
-<span style="color:red">「IoT言うな！！」</span>という、「<a target="_blank" href="https://blog.ueda.asia/?p=7196">シェル芸</a>言うな！！」と反撃されそうな個人的な心情はさておき、面白かったので一行感想文を書きます。
+<span style="color:red">「IoT言うな！！」</span>という、「<a target="_blank" href="/?post=07196">シェル芸</a>言うな！！」と反撃されそうな個人的な心情はさておき、面白かったので一行感想文を書きます。
 
 <h2>一行（実際は3〜10行）感想文</h2>
 

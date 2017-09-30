@@ -6,12 +6,12 @@ Copyright: (C) Ryuichi Ueda
 # 研究関係動画
 <h2>某未発表アルゴリズムのデモ</h2>
 <ul>
- 	<li><a href="https://blog.ueda.tech/?page_id=10021">こちら</a></li>
+ 	<li><a href="/?page=10021">こちら</a></li>
 </ul>
 
 <h2>別の某未発表アルゴリズムのデモ</h2>
 <ul>
- 	<li><a href="https://blog.ueda.tech/?page_id=10034">こちら</a></li>
+ 	<li><a href="/?page=10034">こちら</a></li>
 </ul>
 
 <h2>ロボットの簡単な学習</h2>

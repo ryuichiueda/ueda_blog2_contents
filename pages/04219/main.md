@@ -17,17 +17,17 @@ Copyright: (C) Ryuichi Ueda
  <th>補足</th>
  </tr>
  <tr>
- <td><a href="http://blog.ueda.asia/?page_id=4223">main.h, main.c</a></td>
+ <td><a href="/?page=04223">main.h, main.c</a></td>
  <td>main関数がいる</td>
  <td>gotoがひでえ</td>
  </tr>
  <tr>
- <td><a href="http://blog.ueda.asia/?page_id=4276">shell.h</a></td>
+ <td><a href="/?page=04276">shell.h</a></td>
  <td>全体で使う定義等が書いてある</td>
  <td>defineの嵐</td>
  </tr>
  <tr>
- <td><a href="http://blog.ueda.asia/?page_id=4346" title="dash/src/eval.h, eval.c">eval.h, eval.c</a></td>
+ <td><a href="/?page=04346" title="dash/src/eval.h, eval.c">eval.h, eval.c</a></td>
  <td>main.cのcmdloop関数から呼ばれ、評価して実行する部分。</td>
  <td>重要。</td>
  </tr>

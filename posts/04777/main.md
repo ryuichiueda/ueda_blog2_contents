@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # GlueLangに中間ファイルを変数のように使える機能を実装
-<a href="http://blog.ueda.asia/?p=4719" title="煽られるように開発中の言語（Glue）について説明・・・">GlueLangの開発</a>は休日に行うことにした上田です。おこんばんは。
+<a href="/?post=04719" title="煽られるように開発中の言語（Glue）について説明・・・">GlueLangの開発</a>は休日に行うことにした上田です。おこんばんは。
 
 GlueLangというのは、「次世代シェルスクリプティング言語」と勝手に銘打って勝手に作っている素敵なサムシングです。<a target="_blank" href="https://github.com/ryuichiueda/GlueLang">リポジトリはこちら。</a>
 

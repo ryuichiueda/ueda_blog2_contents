@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 【問題のみ】第29回激しいシェル芸勉強会
-<a href="https://blog.ueda.tech/?p=9870">解答のページはこちら</a>
+<a href="/?post=09870">解答のページはこちら</a>
 
 <h2>問題で使うファイル等</h2>
 GitHubにあります。ファイルは
@@ -26,7 +26,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 <h2>イントロ</h2>
 <ul>
 
-	<li><a href="https://blog.ueda.tech/?presenpress=%E7%AC%AC29%E5%9B%9E%E6%BF%80%E3%81%97%E3%81%84%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8%E5%8B%89%E5%BC%B7%E4%BC%9A#/">こちら</a></li></ul>
+	<li><a href="/?presenpress=%E7%AC%AC29%E5%9B%9E%E6%BF%80%E3%81%97%E3%81%84%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8%E5%8B%89%E5%BC%B7%E4%BC%9A#/">こちら</a></li></ul>
 
 
 <h2>Q1</h2>
