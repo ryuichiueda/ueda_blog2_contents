@@ -3,7 +3,7 @@ Keywords: 近況
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 
-# 上田ブログ
+# 
 
 ## 近況
 
