@@ -29,13 +29,13 @@ Copyright: (C) Ryuichi Ueda
 
 <h3>ジュンク堂書店様</h3>
 
-<a href="http://www.junkudo.co.jp/mj/products/list.php?zssearch_genre=&search_2=1&search_1=0&search_text=%E4%B8%8A%E7%94%B0%E9%9A%86%E4%B8%80">ネットストアはこちら。</a>
+[ネットストアはこちら。](http://www.junkudo.co.jp/mj/products/list.php?zssearch_genre=&search_2=1&search_1=0&search_text=%E4%B8%8A%E7%94%B0%E9%9A%86%E4%B8%80")
 
 <a href="http://www.junkudo.co.jp/mj/store/store_detail.php?store_id=1" target="_blank">池袋店</a>にお邪魔して素人popを書いてきましたので、お店で探してみていただけたら幸いです。
 
-<a href="-2015-04-13-11-50-24-e1428917126756.jpg"><img src="-2015-04-13-11-50-24-e1428917126756-225x300.jpg" alt="写真 2015-04-13 11 50 24" width="225" height="300" class="aligncenter size-medium wp-image-5794" /></a>
+<a href="2015-04-13-11-50-24-e1428917126756.jpg"><img src="2015-04-13-11-50-24-e1428917126756-225x300.jpg" alt="写真 2015-04-13 11 50 24" width="225" height="300" class="aligncenter size-medium wp-image-5794" /></a>
 
-<a href="写真-2015-04-13-11-50-55.jpg"><img src="写真-2015-04-13-11-50-55-300x225.jpg" alt="写真 2015-04-13 11 50 55" width="300" height="225" class="aligncenter size-medium wp-image-5795" /></a>
+<a href="2015-04-13-11-50-55.jpg"><img src="2015-04-13-11-50-55-300x225.jpg" alt="写真 2015-04-13 11 50 55" width="300" height="225" class="aligncenter size-medium wp-image-5795" /></a>
 
 <span style="color:red">字がアレなのは小学生時分から悩みなので傷に塩を塗らないでください。</span>
 
