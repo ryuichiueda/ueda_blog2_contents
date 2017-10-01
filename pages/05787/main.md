@@ -33,7 +33,7 @@ Copyright: (C) Ryuichi Ueda
 
 <a href="http://www.junkudo.co.jp/mj/store/store_detail.php?store_id=1" target="_blank">池袋店</a>にお邪魔して素人popを書いてきましたので、お店で探してみていただけたら幸いです。
 
-<a href="2015-04-13-11-50-24-e1428917126756.jpg"><img src="2015-04-13-11-50-24-e1428917126756-225x300.jpg" alt="写真 2015-04-13 11 50 24" width="225" height="300" class="aligncenter size-medium wp-image-5794" /></a>
+<a href="2015-04-13-11-50-24-300x225.jpg"><img src="2015-04-13-11-50-24-300x225.jpg" alt="写真 2015-04-13 11 50 24" width="225" height="300" class="aligncenter size-medium wp-image-5794" /></a>
 
 <a href="2015-04-13-11-50-55.jpg"><img src="2015-04-13-11-50-55-300x225.jpg" alt="写真 2015-04-13 11 50 55" width="300" height="225" class="aligncenter size-medium wp-image-5795" /></a>
 
