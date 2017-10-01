@@ -6,6 +6,8 @@ Copyright: (C) Ryuichi Ueda
 # シェル芸勉強会問題一覧
 シェル芸についてもっと<del>深みに嵌りたい</del>知りたいならば・・・シェルプログラミング実用テクニックをどうぞ。（宣伝）
 
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774173444/ryuichiueda-22/" target="_blank" ><img src="https://images-fe.ssl-images-amazon.com/images/I/51RK9eRR0PL._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774173444/ryuichiueda-22/" target="_blank" >シェルプログラミング実用テクニック (Software Design plus)</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">上田 隆一 技術評論社 2015-05-15    </div></div><div class="booklink-footer" style="clear: left"></div></div>
+
 <h2>第30回</h2>
 <ul>
  	<li><a href="/?post=10188">問題のみ</a></li>
