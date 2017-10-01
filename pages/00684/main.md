@@ -6,7 +6,9 @@ Copyright: (C) Ryuichi Ueda
 # シェル芸勉強会問題一覧
 シェル芸についてもっと<del>深みに嵌りたい</del>知りたいならば・・・シェルプログラミング実用テクニックをどうぞ。（宣伝）
 
+
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_top&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=ryuichiueda-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4774173444&linkId=2a8bca2d16271d48b5f7c15c0ee25845"></iframe>
+
 
 <h2>第30回</h2>
 <ul>
