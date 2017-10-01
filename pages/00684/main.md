@@ -6,7 +6,7 @@ Copyright: (C) Ryuichi Ueda
 # シェル芸勉強会問題一覧
 シェル芸についてもっと<del>深みに嵌りたい</del>知りたいならば・・・シェルプログラミング実用テクニックをどうぞ。（宣伝）
 
-<div data-role="amazonjs" data-asin="4774173444" data-locale="JP" data-tmpl="" data-img-size="" class="asin_4774173444_JP_ amazonjs_item"><div class="amazonjs_indicator"><span class="amazonjs_indicator_img"></span><a class="amazonjs_indicator_title" href="https://www.amazon.co.jp/%E3%82%B7%E3%82%A7%E3%83%AB%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E5%AE%9F%E7%94%A8%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF-Software-Design-plus-%E4%B8%8A%E7%94%B0/dp/4774173444?SubscriptionId=AKIAJG2LX7IUECW3UXMQ&tag=ryuichiueda-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=4774173444">シェルプログラミング実用テクニック (Software Design plus)</a><span class="amazonjs_indicator_footer"></span></div></div>
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_top&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=ryuichiueda-22&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4774173444&linkId=2a8bca2d16271d48b5f7c15c0ee25845"></iframe>
 
 <h2>第30回</h2>
 <ul>
