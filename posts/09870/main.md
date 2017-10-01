@@ -314,8 +314,8 @@ mm # # #mmm""" m"
 <h3>解答</h3>
 
 ```bash
-$ cat shellgei | sed 's/ /\@/g' | sed 's/./& /g' |
- awk '{for(i=1;i<=NF;i++){if($i!="\@")a[i]=$i}}END{for(i=1;i<=NF;i++){b=a[i]==""?"x":" ";printf b}}END{print ""}' |
+$ cat shellgei | sed 's/ /@/g' | sed 's/./& /g' |
+ awk '{for(i=1;i<=NF;i++){if($i!="@")a[i]=$i}}END{for(i=1;i<=NF;i++){b=a[i]==""?"x":" ";printf b}}END{print ""}' |
  cat - shellgei |
  awk 'NR==1{a=$0}{for(i=1;i<=length($0);i++){if(substr(a,i,1)!="x")printf substr($0,i,1)};print ""}'
  
@@ -331,5 +331,5 @@ mm # # #mmm""" m"
 
 もっと良い解答。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> <a href="https://twitter.com/hashtag/%E7%A6%8F%E5%B2%A1?src=hash">#福岡</a> Q8解答<br>$ cat shellgei | tr &#39; &#39; &#39;-&#39; | sed &#39;s/./&amp; /g;s/ $//&#39; | rs -T | grep -v &#39;^[- ]*$&#39; | rs -T | tr -d &#39; &#39; | tr - &#39; &#39;</p>&mdash; ぱぴろんちゃん👓 (\@papiron) <a href="https://twitter.com/papiron/status/881038102998810626">2017年7月1日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> <a href="https://twitter.com/hashtag/%E7%A6%8F%E5%B2%A1?src=hash">#福岡</a> Q8解答<br>$ cat shellgei | tr &#39; &#39; &#39;-&#39; | sed &#39;s/./&amp; /g;s/ $//&#39; | rs -T | grep -v &#39;^[- ]*$&#39; | rs -T | tr -d &#39; &#39; | tr - &#39; &#39;</p>&mdash; ぱぴろんちゃん👓 (@papiron) <a href="https://twitter.com/papiron/status/881038102998810626">2017年7月1日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

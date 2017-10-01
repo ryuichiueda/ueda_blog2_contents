@@ -67,7 +67,7 @@ Copyright: (C) Ryuichi Ueda
 18
 19
 20</pre></div></td><td class="code"><div class="highlight"><pre>###こんなコード###
-ueda\@remote:~/GIT/UspMagazineHaskell/Study1_Q3$ cat q1_3_2.hs
+ueda@remote:~/GIT/UspMagazineHaskell/Study1_Q3$ cat q1_3_2.hs
 import System.Directory
 
 main = ls &quot;/etc/&quot; &gt;&gt;= putStr . unlines
@@ -75,7 +75,7 @@ main = ls &quot;/etc/&quot; &gt;&gt;= putStr . unlines
 ls :: String -&gt; IO [FilePath]
 ls dir = getDirectoryContents dir &gt;&gt;= return . filter (`notElem` [&quot;.&quot;,&quot;..&quot;])
 ###実行!!###
-ueda\@remote:~/GIT/UspMagazineHaskell/Study1_Q3$ ./q1_3_2 | head
+ueda@remote:~/GIT/UspMagazineHaskell/Study1_Q3$ ./q1_3_2 | head
 insserv
 blkid.tab
 tidy.conf
@@ -119,7 +119,7 @@ dhcp
 15
 16
 17
-18</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/UspMagazineHaskell/Study1_Q3$ cat q1_3_3.hs
+18</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/UspMagazineHaskell/Study1_Q3$ cat q1_3_3.hs
 import System.Directory
 
 main = digdir &quot;/etc&quot; &gt;&gt;= putStr . unlines
@@ -131,7 +131,7 @@ digdir :: FilePath -&gt; IO [FilePath]
 digdir dir = ls dir
  &gt;&gt;= mapM (\\x -&gt; return $ dir ++ &quot;/&quot; ++ x)
 ###実行してみましょう。/etc/、ついてますね###
-ueda\@remote:~/GIT/UspMagazineHaskell/Study1_Q3$ ./q1_3_3
+ueda@remote:~/GIT/UspMagazineHaskell/Study1_Q3$ ./q1_3_3
 /etc/insserv
 /etc/blkid.tab
 /etc/tidy.conf
@@ -267,7 +267,7 @@ f <span class="nv">x</span> <span class="o">=</span> 1 + x
 27
 28
 29
-30</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/UspMagazineHaskell/Study1_Q3$ cat q1_3_4.hs
+30</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/UspMagazineHaskell/Study1_Q3$ cat q1_3_4.hs
 import System.Directory
 
 main = digdir &quot;/etc&quot; &gt;&gt;= putStr . unlines
@@ -285,7 +285,7 @@ digdir&#39; :: FilePath -&gt; IO [FilePath]
 digdir&#39; path = do b &lt;- doesDirectoryExist path
  if b then digdir path else return [path]
 ###実行!!!（rootになってください）###
-ueda\@remote:~/GIT/UspMagazineHaskell/Study1_Q3$ sudo ./q1_3_4
+ueda@remote:~/GIT/UspMagazineHaskell/Study1_Q3$ sudo ./q1_3_4
 /etc/blkid.tab
 /etc/tidy.conf
 /etc/logrotate.conf
@@ -321,16 +321,16 @@ ueda\@remote:~/GIT/UspMagazineHaskell/Study1_Q3$ sudo ./q1_3_4
  8
  9
 10
-11</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">UspMagazineHaskell</span><span class="o">/</span><span class="kt">Study1_Q3</span><span class="o">$</span> <span class="n">cat</span> <span class="n">bind</span><span class="o">.</span><span class="n">hs</span>
+11</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">UspMagazineHaskell</span><span class="o">/</span><span class="kt">Study1_Q3</span><span class="o">$</span> <span class="n">cat</span> <span class="n">bind</span><span class="o">.</span><span class="n">hs</span>
 <span class="nf">main</span> <span class="ow">::</span> <span class="kt">IO</span> <span class="nb">()</span>
 <span class="nf">main</span> <span class="ow">=</span> <span class="n">getContents</span> <span class="o">&gt;&gt;=</span> <span class="n">putStr</span>
-<span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">UspMagazineHaskell</span><span class="o">/</span><span class="kt">Study1_Q3</span><span class="o">$</span> <span class="n">cat</span> <span class="kr">do</span><span class="o">.</span><span class="n">hs</span>
+<span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">UspMagazineHaskell</span><span class="o">/</span><span class="kt">Study1_Q3</span><span class="o">$</span> <span class="n">cat</span> <span class="kr">do</span><span class="o">.</span><span class="n">hs</span>
 <span class="nf">main</span> <span class="ow">::</span> <span class="kt">IO</span> <span class="nb">()</span>
 <span class="nf">main</span> <span class="ow">=</span> <span class="kr">do</span> <span class="n">str</span> <span class="ow">&lt;-</span> <span class="n">getContents</span>
  <span class="n">putStr</span> <span class="n">str</span>
-<span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">UspMagazineHaskell</span><span class="o">/</span><span class="kt">Study1_Q3</span><span class="o">$</span> <span class="n">echo</span> <span class="n">aho</span> <span class="o">|</span> <span class="o">./</span><span class="n">bind</span>
+<span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">UspMagazineHaskell</span><span class="o">/</span><span class="kt">Study1_Q3</span><span class="o">$</span> <span class="n">echo</span> <span class="n">aho</span> <span class="o">|</span> <span class="o">./</span><span class="n">bind</span>
 <span class="nf">aho</span>
-<span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">UspMagazineHaskell</span><span class="o">/</span><span class="kt">Study1_Q3</span><span class="o">$</span> <span class="n">echo</span> <span class="n">aho</span> <span class="o">|</span> <span class="o">./</span><span class="kr">do</span>
+<span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">UspMagazineHaskell</span><span class="o">/</span><span class="kt">Study1_Q3</span><span class="o">$</span> <span class="n">echo</span> <span class="n">aho</span> <span class="o">|</span> <span class="o">./</span><span class="kr">do</span>
 <span class="nf">aho</span>
 </pre></div>
 </td></tr></table></div>

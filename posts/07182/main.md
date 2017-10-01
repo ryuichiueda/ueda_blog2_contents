@@ -8,13 +8,13 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <h2>RobuCupチームの立ち上げ</h2>
 
-\@Homeリーグに再来年くらい参加できればいいなあ・・・とか考えてたら周りの人がよってたかって手を動かし出して2016年3月のJapanOpenに出ることになりました。
+@Homeリーグに再来年くらい参加できればいいなあ・・・とか考えてたら周りの人がよってたかって手を動かし出して2016年3月のJapanOpenに出ることになりました。
 
 私はおなかの空いた学生と牛丼に行ったりウェブサイトを作ったりして周囲をチョロチョロしております。
 
 ウェブサイトの日本語のページには、まず最初に寄付のページを作りました。このページを見せて<del>たかる</del>ご協力を仰ぐ次第です。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">コンテンツはこれから何年もかけて・・・&#10;&#10;<a href="https://t.co/3iDGE0slU6">https://t.co/3iDGE0slU6</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/670805154996682755">November 29, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">コンテンツはこれから何年もかけて・・・&#10;&#10;<a href="https://t.co/3iDGE0slU6">https://t.co/3iDGE0slU6</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/670805154996682755">November 29, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <h2>12/26にシェル芸勉強会を行います</h2>

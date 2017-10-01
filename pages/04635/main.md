@@ -266,7 +266,7 @@ sed <span class="s1">&#39;s/。.*/。/&#39;</span> | sort -u
 <span class="nv">death</span><span class="o">=</span><span class="s2">&quot;です。|ます。|でしょう。|ません。&quot;</span>
 <span class="nv">da</span><span class="o">=</span><span class="s2">&quot;だ。|である。|ない。|か。&quot;</span>
 
-gawk <span class="s1">&#39;{print FILENAME &quot;:&quot; FNR &quot;:&quot; ,$0}&#39;</span> <span class="s2">&quot;$\@&quot;</span> |
+gawk <span class="s1">&#39;{print FILENAME &quot;:&quot; FNR &quot;:&quot; ,$0}&#39;</span> <span class="s2">&quot;$@&quot;</span> |
 gawk -v <span class="nv">death</span><span class="o">=</span><span class="nv">$death</span> -v <span class="nv">da</span><span class="o">=</span><span class="nv">$da</span> <span class="se">\\</span>
  <span class="s1">&#39;$0~death{print &quot;+&quot;,$0}$0~da{print &quot;-&quot;,$0}&#39;</span>
 </pre></div>
@@ -419,13 +419,13 @@ pipe, -a
 10
 11
 12</pre></div></td><td class="code"><div class="highlight"><pre>uedamac:SD_GENKOU ueda<span class="nv">$ </span><span class="nb">echo</span> <span class="s2">&quot;All your base are berong to us.&quot;</span> | <span class="nv">LANG</span><span class="o">=</span>C aspell -a
-\@<span class="o">(</span><span class="c">#) International Ispell Version 3.1.20 (but really Aspell 0.60.6.1)</span>
+@<span class="o">(</span><span class="c">#) International Ispell Version 3.1.20 (but really Aspell 0.60.6.1)</span>
 （略）
 *
 &amp; berong 25 18: Bering, bronc, belong, Behring, bearing, （略）
 //--dont-suggestを指定すると、候補が出てきません。
 uedamac:SD_GENKOU ueda<span class="nv">$ </span><span class="nb">echo</span> <span class="s2">&quot;All your base are berong to us.&quot;</span> | <span class="nv">LANG</span><span class="o">=</span>C aspell -a --dont-suggest
-\@<span class="o">(</span><span class="c">#) International Ispell Version 3.1.20 (but really Aspell 0.60.6.1)</span>
+@<span class="o">(</span><span class="c">#) International Ispell Version 3.1.20 (but really Aspell 0.60.6.1)</span>
 （略）
 *
 <span class="c"># berong 18</span>
@@ -456,7 +456,7 @@ aspellはバッククォートなどの記号類にも反応する事があり�
 7</pre></div></td><td class="code"><div class="highlight"><pre>uedamac:SD_GENKOU ueda<span class="nv">$ </span>cat ./bin/henspell-list
 <span class="c">#!/bin/bash</span>
 
-sed <span class="s2">&quot;s/[^a-zA-Z0-9&#39;]/ /g&quot;</span> <span class="s2">&quot;$\@&quot;</span> |
+sed <span class="s2">&quot;s/[^a-zA-Z0-9&#39;]/ /g&quot;</span> <span class="s2">&quot;$@&quot;</span> |
 <span class="nv">LANG</span><span class="o">=</span>C aspell -a --dont-suggest |
 awk <span class="s1">&#39;/^#/{print $2}&#39;</span> |
 sort -u
@@ -528,7 +528,7 @@ Gancarz
 
 <span class="nv">dict</span><span class="o">=</span><span class="k">$(</span>dirname <span class="nv">$0</span><span class="k">)</span>/dict
 
-sed <span class="s2">&quot;s/[^a-zA-Z0-9&#39;]/ /g&quot;</span> <span class="s2">&quot;$\@&quot;</span> |
+sed <span class="s2">&quot;s/[^a-zA-Z0-9&#39;]/ /g&quot;</span> <span class="s2">&quot;$@&quot;</span> |
 <span class="nv">LANG</span><span class="o">=</span>C aspell -p <span class="s2">&quot;$dict&quot;</span> -a --dont-suggest |
 awk <span class="s1">&#39;/^#/{print $2}&#39;</span> |
 sort -u
@@ -583,8 +583,8 @@ zA
  <span class="k">$(</span>dirname <span class="nv">$0</span><span class="k">)</span>/henspell-list &gt; <span class="nv">$tmp</span>-list
  grep -w -n -f <span class="nv">$tmp</span>-list &lt; <span class="nv">$tmp</span>-stdin
 <span class="k">else</span>
- <span class="k">$(</span>dirname <span class="nv">$0</span><span class="k">)</span>/henspell-list <span class="s2">&quot;$\@&quot;</span> &gt; <span class="nv">$tmp</span>-list
- grep -w -n -f <span class="nv">$tmp</span>-list <span class="s2">&quot;$\@&quot;</span>
+ <span class="k">$(</span>dirname <span class="nv">$0</span><span class="k">)</span>/henspell-list <span class="s2">&quot;$@&quot;</span> &gt; <span class="nv">$tmp</span>-list
+ grep -w -n -f <span class="nv">$tmp</span>-list <span class="s2">&quot;$@&quot;</span>
 <span class="k">fi</span>
 
 rm <span class="nv">$tmp</span>-*

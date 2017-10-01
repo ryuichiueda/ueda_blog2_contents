@@ -80,12 +80,12 @@ file1とfile2を突き合わせると、マスタ台帳にある項目が、
  8
  9
 10
-11</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>ueda\@sakura 201206<span class="o">]</span><span class="nv">$ </span>cat file1
+11</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>ueda@sakura 201206<span class="o">]</span><span class="nv">$ </span>cat file1
 01 たらこ
 02 いくら
 03 キャビア
 04 カラスミ
-<span class="o">[</span>ueda\@sakura 201206<span class="o">]</span><span class="nv">$ </span>cat file2
+<span class="o">[</span>ueda@sakura 201206<span class="o">]</span><span class="nv">$ </span>cat file2
 20120104 01 10
 20120104 02 321
 20120104 03 13
@@ -194,10 +194,10 @@ UPS友の会には、会を取り仕切る「スタッフ」がいます。
 3
 4
 5</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span>cat STAFF
-S001 上田 ueda\@hogehoge.com
-S002 濱田 hamada\@nullnull.com
-S003 鎌田 kamata\@x-japan.com
-S004 松浦 matura\@superstrongmachine.com
+S001 上田 ueda@hogehoge.com
+S002 濱田 hamada@nullnull.com
+S003 鎌田 kamata@x-japan.com
+S004 松浦 matura@superstrongmachine.com
 </pre></div>
 </td></tr></table></div>
 <p>見れば分かるように、第一フィールドが通し番号（スタッフ番号）、
@@ -217,16 +217,16 @@ S004 松浦 matura\@superstrongmachine.com
  9
 10
 11</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span>cat MEMBER
-M001 上田 ueda\@hogehoge.com
-M002 濱田 hamada\@nullnull.com
-M003 武田 takeda\@takenaka.com
-M004 竹中 takenaka\@takeda.com
-M005 田中 tanaka\@hogehogeho.jp
-M006 鎌田 kamata\@x-japan.com
-M007 田上 tanoue\@tanoue.co.jp
-M008 武山 takeyama\@zzz.com
-M009 山本 yamamoto\@bash.co.jp
-M010 山口 yamaguchi\@daioujyou.com
+M001 上田 ueda@hogehoge.com
+M002 濱田 hamada@nullnull.com
+M003 武田 takeda@takenaka.com
+M004 竹中 takenaka@takeda.com
+M005 田中 tanaka@hogehogeho.jp
+M006 鎌田 kamata@x-japan.com
+M007 田上 tanoue@tanoue.co.jp
+M008 武山 takeyama@zzz.com
+M009 山本 yamamoto@bash.co.jp
+M010 山口 yamaguchi@daioujyou.com
 </pre></div>
 </td></tr></table></div>
 <p>会員にもスタッフにも住所は聞いていないので、個人の識別はメールアドレスで行っています。</p>
@@ -242,14 +242,14 @@ M010 山口 yamaguchi\@daioujyou.com
 7
 8
 9</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span>cat STUDY.201206
-takeda\@takenaka.com 武田
-yamakura\@hogehogeho.jp 山倉
-hamada\@nullnull.com 濱田
-tanoue\@tanoue.co.jp 田上
-ueda\@hogehoge.com 上田
-sinozuka\@zzz.com 篠塚
-yamaguchi\@daioujyou.com 山口
-yamamoto\@bash.co.jp 山本
+takeda@takenaka.com 武田
+yamakura@hogehogeho.jp 山倉
+hamada@nullnull.com 濱田
+tanoue@tanoue.co.jp 田上
+ueda@hogehoge.com 上田
+sinozuka@zzz.com 篠塚
+yamaguchi@daioujyou.com 山口
+yamamoto@bash.co.jp 山本
 </pre></div>
 </td></tr></table></div>
 <p>　では、この3個のファイルに対して、リレーショナルな演算をしてみましょう。</p>
@@ -271,14 +271,14 @@ yamamoto\@bash.co.jp 山本
 <span class="nv">$ </span>self 3 1 2 STAFF | sort &gt; staff
 <span class="nv">$ </span>head -n 3 member <span class="nv">staff</span>
 <span class="o">==</span>&gt; member &lt;<span class="o">==</span>
-hamada\@nullnull.com M002 濱田
-kamata\@x-japan.com M006 鎌田
-takeda\@takenaka.com M003 武田
+hamada@nullnull.com M002 濱田
+kamata@x-japan.com M006 鎌田
+takeda@takenaka.com M003 武田
 
 <span class="o">==</span>&gt; staff &lt;<span class="o">==</span>
-hamada\@nullnull.com S002 濱田
-kamata\@x-japan.com S003 鎌田
-matura\@superstrongmachine.com S004 松浦
+hamada@nullnull.com S002 濱田
+kamata@x-japan.com S003 鎌田
+matura@superstrongmachine.com S004 松浦
 </pre></div>
 </div>
 <p>　トランザクションにあって、マスタにあるもの／ないものの抽出は、join0で行います。
@@ -286,12 +286,12 @@ matura\@superstrongmachine.com S004 松浦
 <div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>join0 +ng <span class="nv">key</span><span class="o">=</span>1 member staff &gt; staff_member 2&gt; staff_nonmember
 <span class="c"># 会員かつスタッフ</span>
 <span class="nv">$ </span>cat staff_member
-hamada\@nullnull.com S002 濱田
-kamata\@x-japan.com S003 鎌田
-ueda\@hogehoge.com S001 上田
+hamada@nullnull.com S002 濱田
+kamata@x-japan.com S003 鎌田
+ueda@hogehoge.com S001 上田
 <span class="c"># 会員でないスタッフ</span>
 <span class="nv">$ </span>cat staff_nonmember
-matura\@superstrongmachine.com S004 松浦
+matura@superstrongmachine.com S004 松浦
 </pre></div>
 </div>
 <p>はい。あぶり出しました。松浦さんには、入会案内と請求書が送られることになります。</p>
@@ -311,46 +311,46 @@ UPS友の会の勉強会では、飲み物やお菓子代程度の会費を集�
 <p>　まず、ソートから。</p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>sort STUDY.201206 &gt; study
 <span class="nv">$ </span>head -n 3 study
-hamada\@nullnull.com 濱田
-sinozuka\@zzz.com 篠塚
-takeda\@takenaka.com 武田
+hamada@nullnull.com 濱田
+sinozuka@zzz.com 篠塚
+takeda@takenaka.com 武田
 </pre></div>
 </div>
 <p>次に、順にマスタ情報をくっつけていきます。
 レコードが落ちてはいけませんから、join2を使います。</p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>cat study | join2 <span class="nv">key</span><span class="o">=</span>1 member - | join2 <span class="nv">key</span><span class="o">=</span>1 staff - | head -n 3
-hamada\@nullnull.com S002 濱田 M002 濱田 濱田
-sinozuka\@zzz.com **** **** **** **** 篠塚
-takeda\@takenaka.com **** **** M003 武田 武田
+hamada@nullnull.com S002 濱田 M002 濱田 濱田
+sinozuka@zzz.com **** **** **** **** 篠塚
+takeda@takenaka.com **** **** M003 武田 武田
 </pre></div>
 </div>
 <p>必要なフィールドだけ取り出して、数を数えます。</p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="c">#必要なフィールド：スタッフ番号、会員番号の頭のアルファベット</span>
-<span class="nv">$ </span>cat study | join2 <span class="nv">key</span><span class="o">=</span>1 member | join2 <span class="nv">key</span><span class="o">=</span>1 staff | self 2.1.1 4.1.1 | tr <span class="s1">&#39;*&#39;</span> <span class="s1">&#39;\@&#39;</span>
+<span class="nv">$ </span>cat study | join2 <span class="nv">key</span><span class="o">=</span>1 member | join2 <span class="nv">key</span><span class="o">=</span>1 staff | self 2.1.1 4.1.1 | tr <span class="s1">&#39;*&#39;</span> <span class="s1">&#39;@&#39;</span>
 <span class="nv">$ </span>cat tmp
 S M
-\@ \@
-\@ M
-\@ M
+@ @
+@ M
+@ M
 S M
-\@ M
-\@ \@
-\@ M
+@ M
+@ @
+@ M
 <span class="c">#どの区分の人が何人いるか？</span>
 <span class="nv">$ </span>sort tmp | count 1 2
-\@ \@ 2
-\@ M 4
+@ @ 2
+@ M 4
 S M 2
 </pre></div>
 </div>
 <p>これくらい簡単な話であればあとは手で計算すれば十分ですが、
 次のように最後まで計算を進めることができます。</p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="c">#awkで金額を出す。</span>
-<span class="nv">$ </span>sort tmp | count 1 2 | awk <span class="s1">&#39;/\@ \@/{print $3*500}/\@ M/{print $3*300}&#39;</span>
+<span class="nv">$ </span>sort tmp | count 1 2 | awk <span class="s1">&#39;/@ @/{print $3*500}/@ M/{print $3*300}&#39;</span>
 1000
 1200
 <span class="c">#sm2（Tukubaiコマンド）で合計</span>
-<span class="nv">$ </span>sort tmp | count 1 2 | awk <span class="s1">&#39;/\@ \@/{print $3*500}/\@ M/{print $3*300}&#39;</span> | sm2 0 0 1 1
+<span class="nv">$ </span>sort tmp | count 1 2 | awk <span class="s1">&#39;/@ @/{print $3*500}/@ M/{print $3*300}&#39;</span> | sm2 0 0 1 1
 2200
 </pre></div>
 </div>
@@ -415,14 +415,14 @@ sm2はTukubaiコマンドで、以下のように使います。
 キーをソートしてからjoin0の+ngオプションで非会員を抽出します。</p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>sort STUDY.201206 &gt; study
 <span class="nv">$ </span>head -n 3 study
-hamada\@nullnull.com 濱田
-sinozuka\@zzz.com 篠塚
-takeda\@takenaka.com 武田
+hamada@nullnull.com 濱田
+sinozuka@zzz.com 篠塚
+takeda@takenaka.com 武田
 <span class="nv">$ </span>self 3 MEMBER | sort | join0 +ng <span class="nv">key</span><span class="o">=</span>1 - study &gt; /dev/null 2&gt; tmp
 <span class="nv">$ </span>self 2 1 tmp &gt; newmember
 <span class="nv">$ </span>cat newmember
-篠塚 sinozuka\@zzz.com
-山倉 yamakura\@hogehogeho.jp
+篠塚 sinozuka@zzz.com
+山倉 yamakura@hogehogeho.jp
 </pre></div>
 </div>
 <p>次のように一気に書くこともできますので一応示しておきますが、
@@ -431,26 +431,26 @@ takeda\@takenaka.com 武田
 <tt class="docutils literal"><span class="pre">&lt;()</span></tt> は、括弧内の処理をファイルのようにコマンドに入力するための記号ですが、
 処理の流れが一方通行でなくなるので筆者の場合は滅多に使いません。</p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>self 3 MEMBER | sort | join0 +ng <span class="nv">key</span><span class="o">=</span>1 - &lt;<span class="o">(</span>sort STUDY.201206<span class="o">)</span> 2&gt;&amp;1 &gt; /dev/null | self 2 1
-篠塚 sinozuka\@zzz.com
-山倉 yamakura\@hogehogeho.jp
+篠塚 sinozuka@zzz.com
+山倉 yamakura@hogehogeho.jp
 </pre></div>
 </div>
 <p>あとはファイルをくっつけて番号を打ち直せば新しいリストができます。
 次の方法も一気にやっていますが、いちいち出力を見ながら書いて行ったものです。</p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>sed <span class="s1">&#39;s/^M0*//&#39;</span> MEMBER | cat - newmember | awk <span class="s1">&#39;{if(NF==3){n=$1;print}else{print ++n,$0}}&#39;</span> | awk <span class="s1">&#39;{print sprintf(&quot;M%03d&quot;,$1),$2,$3}&#39;</span> &gt; MEMBER.new
 <span class="nv">$ </span>cat MEMBER.new
-M001 上田 ueda\@hogehoge.com
-M002 濱田 hamada\@nullnull.com
-M003 武田 takeda\@takenaka.com
-M004 竹中 takenaka\@takeda.com
-M005 田中 tanaka\@hogehogeho.jp
-M006 鎌田 kamata\@x-japan.com
-M007 田上 tanoue\@tanoue.co.jp
-M008 武山 takeyama\@zzz.com
-M009 山本 yamamoto\@bash.co.jp
-M010 山口 yamaguchi\@daioujyou.com
-M011 篠塚 sinozuka\@zzz.com
-M012 山倉 yamakura\@hogehogeho.jp
+M001 上田 ueda@hogehoge.com
+M002 濱田 hamada@nullnull.com
+M003 武田 takeda@takenaka.com
+M004 竹中 takenaka@takeda.com
+M005 田中 tanaka@hogehogeho.jp
+M006 鎌田 kamata@x-japan.com
+M007 田上 tanoue@tanoue.co.jp
+M008 武山 takeyama@zzz.com
+M009 山本 yamamoto@bash.co.jp
+M010 山口 yamaguchi@daioujyou.com
+M011 篠塚 sinozuka@zzz.com
+M012 山倉 yamakura@hogehogeho.jp
 </pre></div>
 </div>
 <p>　ところで、このような端末操作は常に間違いがつきまといます。
@@ -458,8 +458,8 @@ M012 山倉 yamakura\@hogehogeho.jp
 少なくとも、diffには必ず通します。</p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>diff MEMBER MEMBER.new
 10a11,12
-&gt; M011 篠塚 sinozuka\@zzz.com
-&gt; M012 山倉 yamakura\@hogehogeho.jp
+&gt; M011 篠塚 sinozuka@zzz.com
+&gt; M012 山倉 yamakura@hogehogeho.jp
 </pre></div>
 </div>
 <p>もっとレコード数が大きくて目で確認するのが大変なときは、

@@ -10,7 +10,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 この前とったアンケート。違います。
 
-<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">私の主宰する研究室は</p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/677502473729212416">2015, 12月 17</a></blockquote>
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">私の主宰する研究室は</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/677502473729212416">2015, 12月 17</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 正式名称は<a href="https://lab.ueda.asia/" target="_blank">コレ</a>ですので宜しくお願い致します。
@@ -67,7 +67,7 @@ ueda 720 0.0 0.0 2434836 756 s001 S+ 11:42PM 0:00.01 grep js
 とか書いてたら、なんだよ、解決しとったんかいというツイートを見つけてしまった・・・。いや、解決したならいいんですけど。
 
 
-<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">【速報】Creative CloudデスクトップアプリケーションのHot Fixがリリースされました。MacOS環境でプロセスのCPU使用率が増大する問題を修正しています。大変ご迷惑をおかけしました。詳細はフォーラムをご覧ください。<a href="https://t.co/iYMlBTpza1">https://t.co/iYMlBTpza1</a></p>&mdash; アドビ サポート担当 (\@AdobeSupportJ) <a href="https://twitter.com/AdobeSupportJ/status/676210177289269249">2015, 12月 14</a></blockquote>
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">【速報】Creative CloudデスクトップアプリケーションのHot Fixがリリースされました。MacOS環境でプロセスのCPU使用率が増大する問題を修正しています。大変ご迷惑をおかけしました。詳細はフォーラムをご覧ください。<a href="https://t.co/iYMlBTpza1">https://t.co/iYMlBTpza1</a></p>&mdash; アドビ サポート担当 (@AdobeSupportJ) <a href="https://twitter.com/AdobeSupportJ/status/676210177289269249">2015, 12月 14</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 

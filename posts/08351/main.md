@@ -8,7 +8,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 研究室やその周辺で、タミヤの模型を改造して安価なロボットのレシピを公開するという企画に取り組んでおり。普通、小さくても5万以上はする自律ロボットが1万円以内で調達できれば楽で、しかも既製品で乱暴な少年相手の実績が極めて豊富なタミヤ製ならメンテがいらんなあというノリ。第一弾ができました。ただ、ちゃんとレシピを公開するまでは完成とは言えません。いや、GitHubに公開してプルリクエストが来るようになってやっと完成かと。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">タミヤの壁伝いネズミの改造 <a href="https://t.co/huXlpR1W3g">https://t.co/huXlpR1W3g</a></p>&mdash; CIT未ロボ上田研 (\@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/738930716897988608">June 4, 2016</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">タミヤの壁伝いネズミの改造 <a href="https://t.co/huXlpR1W3g">https://t.co/huXlpR1W3g</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/738930716897988608">June 4, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 これは電子回路の教育用ですが、PCから指令を送れるのにも別の学生さんが取り組んでおります。

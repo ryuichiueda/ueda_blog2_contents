@@ -22,7 +22,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 この手の電車のヘッドマークは自分の持っている感覚と全くそぐわない（あり得ないほど悪いデザインに見える）ので、逆に面白くてよく写真を撮る。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">日本語の超えられない壁 <a href="https://t.co/KZvaLX8s8f">pic.twitter.com/KZvaLX8s8f</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/908124021098549249">2017年9月14日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">日本語の超えられない壁 <a href="https://t.co/KZvaLX8s8f">pic.twitter.com/KZvaLX8s8f</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/908124021098549249">2017年9月14日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 やっぱり鉄道って、↓こういうのじゃいけないような気がするんだけど、それは主観。
 

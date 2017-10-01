@@ -17,7 +17,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ⁉︎
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/rm%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%83%81%E3%82%AD%E3%83%B3%E3%83%AC%E3%83%BC%E3%82%B9?src=hash">#rmコマンドチキンレース</a> のルールと「競技用rmコマンド」の仕様が概ね決まってきました。感謝です！！ <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> <a href="https://twitter.com/hashtag/saizeriya_meetup?src=hash">#saizeriya_meetup</a></p>&mdash; くんすと\@埼玉両日 (\@kunst1080) <a href="https://twitter.com/kunst1080/status/913017099672461312">2017年9月27日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/rm%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%83%81%E3%82%AD%E3%83%B3%E3%83%AC%E3%83%BC%E3%82%B9?src=hash">#rmコマンドチキンレース</a> のルールと「競技用rmコマンド」の仕様が概ね決まってきました。感謝です！！ <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> <a href="https://twitter.com/hashtag/saizeriya_meetup?src=hash">#saizeriya_meetup</a></p>&mdash; くんすと@埼玉両日 (@kunst1080) <a href="https://twitter.com/kunst1080/status/913017099672461312">2017年9月27日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 やばそう。
 

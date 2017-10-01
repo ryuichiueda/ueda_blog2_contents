@@ -35,7 +35,7 @@ $ yo hubot
  ////\\ _____ | self-replication process |
  //////\\ /_____\\ \\ / 
  ======= |[^_/\\_]| /---------------------------- 
- | | _|___\@\@__|__ 
+ | | _|___@@__|__ 
  +===+/ /// \\_\\ 
  | |_\\ /// HUBOT/\\\\ 
  |___/\\// / \\\\ 
@@ -44,7 +44,7 @@ $ yo hubot
  | //| +===+ 
  \\// |xx| 
 
-? Owner Ryuichi UEDA <aho\@gmail.com>
+? Owner Ryuichi UEDA <aho@gmail.com>
 ? Bot name github
 ? Description A simple notifier for GitHub wiki
 ? Bot adapter (campfire) slack

@@ -74,7 +74,7 @@ x x
 <h2>解答</h2>
 
 ```bash
-ueda\@remote:~$ yes | head -n 21 |
+ueda@remote:~$ yes | head -n 21 |
 awk '{for(i=1;i<=21;i++){
 if(i==NR || 22-i==NR){printf "x"}else{printf " "}}
 print ""}'
@@ -86,16 +86,16 @@ print ""}'
 小問1. 次のechoの出力から回文を完成させてください。
 
 ```bash
-ueda\@remote:~$ echo たけやぶ
+ueda@remote:~$ echo たけやぶ
 ###このようにワンライナーで出力を作る###
-ueda\@remote:~$ echo たけやぶ | ...
+ueda@remote:~$ echo たけやぶ | ...
 たけやぶやけた
 ```
 
 小問2. 次のファイルの各行について回文を完成させてください。
 
 ```bash
-ueda\@remote:~/tmp$ cat kaibun 
+ueda@remote:~/tmp$ cat kaibun 
 たけやぶ
 わたしまけ
 ```
@@ -104,18 +104,18 @@ ueda\@remote:~/tmp$ cat kaibun
 
 ```bash
 ###小問1###
-ueda\@remote:~$ echo たけやぶ | 
+ueda@remote:~$ echo たけやぶ | 
 while read s ; do echo $s ; rev <<< $s ; done | 
 xargs | sed 's/ .//'
 たけやぶやけた
-ueda\@remote:~$ echo たけやぶ | sed 's/./& /g' |
+ueda@remote:~$ echo たけやぶ | sed 's/./& /g' |
 awk '{printf $0;for(i=NF-1;i>=1;i--){printf $i};print ""}' |
 tr -d ' '
 たけやぶやけた
 ###鳥海さん解答###
 echo たけやぶ | ( read s ; echo $s ; rev <<< $s ) | xargs | sed 's/. //'
 ###小問2###
-ueda\@remote:~/tmp$ rev kaibun | paste kaibun - | sed 's/.\\t//'
+ueda@remote:~/tmp$ rev kaibun | paste kaibun - | sed 's/.\\t//'
 たけやぶやけた
 わたしまけましたわ
 ```
@@ -127,10 +127,10 @@ ueda\@remote:~/tmp$ rev kaibun | paste kaibun - | sed 's/.\\t//'
 <h2>解答</h2>
 
 ```bash
-ueda\@remote:~$ curl http://ja.wikipedia.org/wiki/%E5%8D%97%E6%AD%A6%E7%B7%9A | 
+ueda@remote:~$ curl http://ja.wikipedia.org/wiki/%E5%8D%97%E6%AD%A6%E7%B7%9A | 
 sed -n '/南武線新旧 快速停車駅/,$p' | sed -n '/川崎/,$p' | 
 sed -n '1,/立川/p' | sed 's/<[^<]*>//g'
-ueda\@remote:~$ curl 'http://express.heartrails.com/api/json?method=getStations&line=JR南武線' |
+ueda@remote:~$ curl 'http://express.heartrails.com/api/json?method=getStations&line=JR南武線' |
  jq . | grep '"name"' | awk '{print $2}' | tr -d '",'
 ```
 
@@ -139,7 +139,7 @@ ueda\@remote:~$ curl 'http://express.heartrails.com/api/json?method=getStations&
 北から順（正確には都道府県番号順）に並べてください。
 
 ```bash
-ueda\@remote:~/tmp$ cat pref 
+ueda@remote:~/tmp$ cat pref 
 鹿児島県
 青森県
 大阪府
@@ -151,7 +151,7 @@ ueda\@remote:~/tmp$ cat pref
 Webを利用します。
 
 ```bash
-ueda\@remote:~/tmp$ curl http://elze.tanosii.net/d/kenmei.htm |
+ueda@remote:~/tmp$ curl http://elze.tanosii.net/d/kenmei.htm |
 nkf -wLux | grep "[都道府県]" |
 grep -f ./pref | sed 's/[^>]*>//' | sed 's/(.*//'
 青森県
@@ -165,7 +165,7 @@ grep -f ./pref | sed 's/[^>]*>//' | sed 's/(.*//'
 各行の数字を大きい順にソートしてください。
 
 ```bash
-ueda\@remote:~/tmp$ cat input 
+ueda@remote:~/tmp$ cat input 
 A 31 1234 -42 4
 B 10 31.1 -34 94
 ```
@@ -173,7 +173,7 @@ B 10 31.1 -34 94
 <h2>解答</h2>
 
 ```bash
-ueda\@remote:~/tmp$ cat input | 
+ueda@remote:~/tmp$ cat input | 
 awk '{for(i=2;i<=NF;i++){print $1,$i}}' | 
 sort -k1,1 -k2,2nr | 
 awk '{if(a==$1){printf " "$2}else{print "";printf $0;a=$1}}' | 
@@ -181,7 +181,7 @@ awk 'NF!=0'
 A 1234 31 4 -42
 B 94 31.1 10 -34
 ###tukubai使用###
-ueda\@remote:~/tmp$ cat input | tarr num=1 | 
+ueda@remote:~/tmp$ cat input | tarr num=1 | 
 sort -k1,1 -k2,2nr | yarr num=1
 A 1234 31 4 -42
 B 94 31.1 10 -34
@@ -192,7 +192,7 @@ B 94 31.1 10 -34
 次のファイルについてグラフを作ってください。
 
 ```bash
-ueda\@remote:~/tmp$ cat num 
+ueda@remote:~/tmp$ cat num 
 5
 3
 4
@@ -213,7 +213,7 @@ ueda\@remote:~/tmp$ cat num
 <h2>解答</h2>
 
 ```bash
-ueda\@remote:~/tmp$ cat num | 
+ueda@remote:~/tmp$ cat num | 
 awk '{printf("%2d ",$1);for(i=0;i<$1;i++){printf "*"}print ""}'
 ```
 
@@ -239,7 +239,7 @@ Q6のグラフを次のように縦にしてください。
 <h2>解答</h2>
 
 ```bash
-ueda\@remote:~/tmp$ cat num | 
+ueda@remote:~/tmp$ cat num | 
 awk '{printf $1" ";for(i=0;i<$1;i++){printf "* "}
 for(i=$1;i<=15;i++){printf "_ "};print ""}' |
  awk '{for(i=1;i<=NF;i++){a[NR,i]=$i}}
@@ -247,7 +247,7 @@ END{for(i=1;i<=15;i++)
 {for(j=1;j<=NR;j++){printf a[j,i]" "}print ""}}' | 
 tac | sed -n '/\\*/,$p' | tr _ ' '
 ###tukubai使用###
-ueda\@remote:~/tmp$ cat num | 
+ueda@remote:~/tmp$ cat num | 
 awk '{printf $1" ";
 for(i=0;i<$1;i++){printf "* "}
 for(i=$1;i<=15;i++){printf "_ "};print ""}' |
@@ -259,7 +259,7 @@ for(i=$1;i<=15;i++){printf "_ "};print ""}' |
 次のデータは、何かの試合の結果ですが、各チームが何勝何敗だったかを集計してください。引き分けは無いと仮定して構いません。
 
 ```bash
-ueda\@remote:~/tmp$ cat result 
+ueda@remote:~/tmp$ cat result 
 A-B 1-2
 B-A 3-1
 C-A 1-0
@@ -270,7 +270,7 @@ C-B 2-1
 <h2>解答</h2>
 
 ```bash
-ueda\@remote:~/tmp$ cat result | tr '-' ' ' | 
+ueda@remote:~/tmp$ cat result | tr '-' ' ' | 
 awk '{print $1,$2,($3>$4)?"W L":"L W"}' | 
 awk '{print $1,$3;print $2,$4}' | 
 awk '$2=="L"{L[$1]++}$2=="W"{W[$1]++}
@@ -282,7 +282,7 @@ B 3勝
 C 1負
 C 2勝
 ###tukubai###
-ueda\@remote:~/tmp$ cat result | tr '-' ' ' | 
+ueda@remote:~/tmp$ cat result | tr '-' ' ' | 
 awk '{if($3>$4){print $1,"W";print $2,"L"}
 else{print $2,"W";print $1,"L"}}' | 
 sort | count 1 2 | map num=1

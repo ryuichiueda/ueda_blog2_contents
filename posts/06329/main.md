@@ -3,10 +3,10 @@ Keywords: イベント,シェルプログラミング実用テクニック,寝�
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 
-# 6/18\@ジュンク堂のイベント「本屋で第17回シェル芸勉強会やっちまえ」（タイトル違う）を改めて告知（他、いろいろ告知）
-6/18\@ジュンク堂のイベント「AWK&Shell テキスト処理ブーム再来について熱くなる夜。」ですが、人と話すのが苦手な我々に立ちはだかる電話予約をもろともせず、半分以上埋まっております。ありがとうございます。
+# 6/18@ジュンク堂のイベント「本屋で第17回シェル芸勉強会やっちまえ」（タイトル違う）を改めて告知（他、いろいろ告知）
+6/18@ジュンク堂のイベント「AWK&Shell テキスト処理ブーム再来について熱くなる夜。」ですが、人と話すのが苦手な我々に立ちはだかる電話予約をもろともせず、半分以上埋まっております。ありがとうございます。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">【再掲】イベント情報：2015/6/18(木)19:30〜『シェルプログラミング実用テクニック』『AWK実践入門』刊行記念「AWK&amp;Shell テキスト処理ブーム再来について熱くなる夜。」上田隆一氏×中島雅弘氏×富永浩之氏 定員40名 お申込みは店頭かお電話で0359566111</p>&mdash; ジュンク堂書店池袋本店/PC書 (\@junkudo_ike_pc) <a href="https://twitter.com/junkudo_ike_pc/status/605963861754150912">June 3, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">【再掲】イベント情報：2015/6/18(木)19:30〜『シェルプログラミング実用テクニック』『AWK実践入門』刊行記念「AWK&amp;Shell テキスト処理ブーム再来について熱くなる夜。」上田隆一氏×中島雅弘氏×富永浩之氏 定員40名 お申込みは店頭かお電話で0359566111</p>&mdash; ジュンク堂書店池袋本店/PC書 (@junkudo_ike_pc) <a href="https://twitter.com/junkudo_ike_pc/status/605963861754150912">June 3, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 後半がシェル芸勉強会なので、ノートPC持参でぜひご参加を。このページのタイトルのように、イベントの一部ですが正式に第17回シェル芸勉強会といたします。
@@ -40,7 +40,7 @@ Kindle版の「シェルプログラミング実用テクニック」が、こ�
 
 あと、英語のイベントもやってます。こちらは6/12です。毎月やってますので6月だめなら7月で。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">こちらも参加者募集中！| 1000 Speakers Conference in English 18 <a href="https://twitter.com/hashtag/1000eng?src=hash">#1000eng</a> (06月12日) <a href="https://twitter.com/hashtag/1000eng?src=hash">#1000eng</a> <a href="https://t.co/w8bRFB02kd">https://t.co/w8bRFB02kd</a> <a href="https://twitter.com/hashtag/1000eng?src=hash">#1000eng</a></p>&mdash; 上田隆一\@本のレビューこわい (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/606085922992459776">June 3, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">こちらも参加者募集中！| 1000 Speakers Conference in English 18 <a href="https://twitter.com/hashtag/1000eng?src=hash">#1000eng</a> (06月12日) <a href="https://twitter.com/hashtag/1000eng?src=hash">#1000eng</a> <a href="https://t.co/w8bRFB02kd">https://t.co/w8bRFB02kd</a> <a href="https://twitter.com/hashtag/1000eng?src=hash">#1000eng</a></p>&mdash; 上田隆一@本のレビューこわい (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/606085922992459776">June 3, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 こんなところでしょうか。あとは言えないことがいろいろありますが・・・。言いません。

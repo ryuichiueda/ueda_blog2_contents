@@ -10,7 +10,7 @@ dashのmain.hとmain.cに自分のツッコミコメントを入れたもの。g
 
 <a href="/?page=04219" title="dashのコード解読メモ">「dashのコード解読メモ」に戻る</a>
 
-20141104追記: <a href="http://blog.bsdhack.org/" target="_blank">\@bsdhack氏</a>からコメントのコメントをいただきましたので書き入れてます。
+20141104追記: <a href="http://blog.bsdhack.org/" target="_blank">@bsdhack氏</a>からコメントのコメントをいただきましたので書き入れてます。
 
 <h2>main.h</h2>
 
@@ -19,7 +19,7 @@ dashのmain.hとmain.cに自分のツッコミコメントを入れたもの。g
  * Copyright (c) 1991, 1993
  *	The Regents of the University of California. All rights reserved.
  * Copyright (c) 1997-2005
- *	Herbert Xu <herbert\@gondor.apana.org.au>. All rights reserved.
+ *	Herbert Xu <herbert@gondor.apana.org.au>. All rights reserved.
  *
  * This code is derived from software contributed to Berkeley by
  * Kenneth Almquist.
@@ -48,7 +48,7 @@ dashのmain.hとmain.cに自分のツッコミコメントを入れたもの。g
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	\@(#)main.h	8.2 (Berkeley) 5/4/95
+ *	@(#)main.h	8.2 (Berkeley) 5/4/95
  */
 
 #include <errno.h>
@@ -99,7 +99,7 @@ int exitcmd(int, char **);
  * Copyright (c) 1991, 1993
  *	The Regents of the University of California. All rights reserved.
  * Copyright (c) 1997-2005
- *	Herbert Xu <herbert\@gondor.apana.org.au>. All rights reserved.
+ *	Herbert Xu <herbert@gondor.apana.org.au>. All rights reserved.
  *
  * This code is derived from software contributed to Berkeley by
  * Kenneth Almquist.
@@ -226,7 +226,7 @@ C言語の何かなので、わからん人は集英社にお問い合わせし�
 longjmp（飛び降り自殺に近い行為）すると、ここに戻ってきます。
 今のところ、setjmpできなかったらこのif文の中身が実行されると解釈。
 
-\@bsdhack氏からコメント:
+@bsdhack氏からコメント:
 「setjmp()できなかったら」ではなく「longjump() から飛んできたら」
 */
 		int e;
@@ -344,7 +344,7 @@ state4:	/* XXX ??? - why isn't this before the "if" statement */
 #if GPROF
 /* ↓わけわかめ。ただ、重要そうではない。
 
-\@bsdhack氏: プロファイル用
+@bsdhack氏: プロファイル用
 */
 	{
 		extern void _mcleanup(void);

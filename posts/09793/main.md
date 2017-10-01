@@ -6,7 +6,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 # 巻尺は死語？
 研究室で「巻尺誰か持ってない？貸して？」と言ったら「なんですかそれ？」と一人に言われ、他の人に「メジャーのことですか？」と聞かれて驚愕したので、アンケートをとってみました。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今日、若者相手に「巻尺」と言ったら「なんですかそれ？」「メジャーのことですか？」と聞き返されたんですが、巻尺って死語になりつつあるんですか？</p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/872718124289622016">2017年6月8日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今日、若者相手に「巻尺」と言ったら「なんですかそれ？」「メジャーのことですか？」と聞き返されたんですが、巻尺って死語になりつつあるんですか？</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/872718124289622016">2017年6月8日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ということで「使わない」が多数派を占めたので、今後なくなっていく単語のようです。猿股とか大八車とかと同じくらいの死にゆく単語なんでしょうか。

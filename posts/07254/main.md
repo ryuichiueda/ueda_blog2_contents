@@ -56,7 +56,7 @@ $ sudo reboot
 ルータの持っているグローバルIPをどう調べるかわからなかったので、グーグルで調べたら<a target="_blank" href="http://qiita.com/syrinx05p/items/55060ab2e3dead4a370d">すっきりしたQiitaのエントリー</a>が見つかったので、その通りにしました。
 
 ```bash
-ueda\@raspberrypi ~ $ curl inet-ip.info
+ueda@raspberrypi ~ $ curl inet-ip.info
 203.0.113.1
 ```
 
@@ -66,7 +66,7 @@ ueda\@raspberrypi ~ $ curl inet-ip.info
 
 
 ```bash
-ueda\@raspberrypi ~ $ cat ~/SYS/SENDIP 
+ueda@raspberrypi ~ $ cat ~/SYS/SENDIP 
 #!/bin/bash -vx
 
 exec 2> /tmp/SENDIP.log
@@ -77,7 +77,7 @@ curl inet-ip.info | ssh test.example.com 'cat - > /tmp/homeip'
 で、これをcrontabにしかけます。
 
 ```bash
-ueda\@raspberrypi ~ $ crontab -e
+ueda@raspberrypi ~ $ crontab -e
 ###以下のように1行書く###
 */10 * * * * /home/ueda/SYS/SENDIP
 ```
@@ -85,7 +85,7 @@ ueda\@raspberrypi ~ $ crontab -e
 で、test.example.comに入って、10分後に更新されているか確認します。
 
 ```bash
-ueda\@test:~$ cat /tmp/homeip 
+ueda@test:~$ cat /tmp/homeip 
 203.0.113.1
 ```
 
@@ -133,7 +133,7 @@ individual files in /usr/share/doc/*/copyright.
 Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
 permitted by applicable law.
 Last login: Sun Dec 13 12:07:41 2015 from 192.168.0.2
-ueda\@raspberrypi ~ $ 
+ueda@raspberrypi ~ $ 
 ```
 
 できました。

@@ -94,7 +94,7 @@ $ echo すけふぇにんけん | sed 's/./&゛/g'
 
 ```bash
 $ yes | awk 'BEGIN{a="*"}{print a;a=a"*";system("sleep 1")}' 
-| xargs -I\@ echo -ne \@"\\r" 
+| xargs -I@ echo -ne @"\\r" 
 ```
 
 <h2>Q6</h2>
@@ -121,7 +121,7 @@ $ echo -ne $(sed 's/\\(..\\)\\(..\\)/\\\\U\\2\\1/g' < crypt)
 
 ```bash
 $ ( date -ud '20161029' +%s ; date -ud '20161030' +%s ) | xargs seq 
-| factor | awk 'NF==2{print "\@"$2}' | date -uf - 
+| factor | awk 'NF==2{print "@"$2}' | date -uf - 
 ```
 
 <h2>Q8</h2>
@@ -131,8 +131,8 @@ $ ( date -ud '20161029' +%s ; date -ud '20161030' +%s ) | xargs seq
 <h3>解答</h3>
 
 ```bash
-$ seq 1 20 | awk '{a=sin($1/3) * 10 + 10;for(i=0;i<a;i++)printf "\@ ";
-printf "* ";for(i=a;i<20;i++)printf "\@ ";print ""}' 
-| rs -t 23 | tr \@ ' ' 
+$ seq 1 20 | awk '{a=sin($1/3) * 10 + 10;for(i=0;i<a;i++)printf "@ ";
+printf "* ";for(i=a;i<20;i++)printf "@ ";print ""}' 
+| rs -t 23 | tr @ ' ' 
 ```
 

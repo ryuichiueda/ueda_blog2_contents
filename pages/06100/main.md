@@ -70,7 +70,7 @@ Haskellをやってみまっしょい。問題はこれ。</p>
 14
 15
 16
-17</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">UspMagazineHaskell</span><span class="o">/</span><span class="kt">Study1_Q3</span><span class="o">$</span> <span class="n">cat</span> <span class="o">./</span><span class="n">q1_3_4</span><span class="o">.</span><span class="n">hs</span>
+17</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">UspMagazineHaskell</span><span class="o">/</span><span class="kt">Study1_Q3</span><span class="o">$</span> <span class="n">cat</span> <span class="o">./</span><span class="n">q1_3_4</span><span class="o">.</span><span class="n">hs</span>
 <span class="kr">import</span> <span class="nn">System.Directory</span>
 
 <span class="nf">main</span> <span class="ow">=</span> <span class="n">digdir</span> <span class="s">&quot;/etc&quot;</span> <span class="o">&gt;&gt;=</span> <span class="n">putStr</span> <span class="o">.</span> <span class="n">unlines</span>
@@ -100,7 +100,7 @@ Haskellをやってみまっしょい。問題はこれ。</p>
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
 3
-4</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/UspMagazineHaskell/Study1_Q3<span class="nv">$ </span>sudo ./q1_3_4 | head -n 3
+4</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/UspMagazineHaskell/Study1_Q3<span class="nv">$ </span>sudo ./q1_3_4 | head -n 3
 /etc/blkid.tab
 /etc/tidy.conf
 /etc/logrotate.conf
@@ -136,7 +136,7 @@ Haskellをやってみまっしょい。問題はこれ。</p>
 17
 18
 19
-20</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">UspMagazineHaskell</span><span class="o">/</span><span class="kt">Study1_Q3</span><span class="o">$</span> <span class="n">cat</span> <span class="kt">FileTools</span><span class="o">.</span><span class="n">hs</span>
+20</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">UspMagazineHaskell</span><span class="o">/</span><span class="kt">Study1_Q3</span><span class="o">$</span> <span class="n">cat</span> <span class="kt">FileTools</span><span class="o">.</span><span class="n">hs</span>
 <span class="kr">module</span> <span class="nn">FileTools</span> <span class="p">(</span>
 <span class="nf">find</span><span class="p">,</span>
 <span class="nf">ls</span>
@@ -185,7 +185,7 @@ Haskellをやってみまっしょい。問題はこれ。</p>
 <div class="highlight-hs"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
 3
-4</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">UspMagazineHaskell</span><span class="o">/</span><span class="kt">Study1_Q3</span><span class="o">$</span> <span class="n">cat</span> <span class="n">q1_3_5</span><span class="o">.</span><span class="n">hs</span>
+4</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">UspMagazineHaskell</span><span class="o">/</span><span class="kt">Study1_Q3</span><span class="o">$</span> <span class="n">cat</span> <span class="n">q1_3_5</span><span class="o">.</span><span class="n">hs</span>
 <span class="kr">import</span> <span class="nn">FileTools</span>
 
 <span class="nf">main</span> <span class="ow">=</span> <span class="n">find</span> <span class="s">&quot;/etc&quot;</span> <span class="o">&gt;&gt;=</span> <span class="n">putStr</span> <span class="o">.</span> <span class="n">unlines</span>
@@ -205,12 +205,12 @@ Haskellをやってみまっしょい。問題はこれ。</p>
 6
 7
 8
-9</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/UspMagazineHaskell/Study1_Q3<span class="nv">$ </span>ghc q1_3_5.hs
+9</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/UspMagazineHaskell/Study1_Q3<span class="nv">$ </span>ghc q1_3_5.hs
 <span class="o">[</span>1 of 2<span class="o">]</span> Compiling FileTools <span class="o">(</span> FileTools.hs, FileTools.o <span class="o">)</span>
 <span class="o">[</span>2 of 2<span class="o">]</span> Compiling Main <span class="o">(</span> q1_3_5.hs, q1_3_5.o <span class="o">)</span>
 Linking q1_3_5 ...
 <span class="c">###実行!!!###</span>
-ueda\@remote:~/GIT/UspMagazineHaskell/Study1_Q3<span class="nv">$ </span>sudo ./q1_3_5 | head -n 3
+ueda@remote:~/GIT/UspMagazineHaskell/Study1_Q3<span class="nv">$ </span>sudo ./q1_3_5 | head -n 3
 /etc/blkid.tab
 /etc/tidy.conf
 /etc/logrotate.conf
@@ -229,7 +229,7 @@ ueda\@remote:~/GIT/UspMagazineHaskell/Study1_Q3<span class="nv">$ </span>sudo ./
 6
 7
 8</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">###モジュールのあるところでGHCiを起動###</span>
-ueda\@remote:~/GIT/UspMagazineHaskell/Study1_Q3<span class="nv">$ </span>ghci
+ueda@remote:~/GIT/UspMagazineHaskell/Study1_Q3<span class="nv">$ </span>ghci
 Prelude&gt; :load FileTools
 Prelude FileTools&gt; ls <span class="s2">&quot;.&quot;</span>
 <span class="o">[</span><span class="s2">&quot;q1_3_5.hi&quot;</span>,<span class="s2">&quot;q1_3_2&quot;</span>,<span class="s2">&quot;q1_3_2.hs&quot;</span>,<span class="s2">&quot;do.hs&quot;</span>,<span class="s2">&quot;FileTools.o&quot;</span>,<span class="s2">&quot;bind&quot;</span>
@@ -262,7 +262,7 @@ Prelude FileTools&gt; ls <span class="s2">&quot;.&quot;</span>
 11
 12
 13
-14</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/UspMagazineHaskell/Study1_Q3$ cat FileTools.hs
+14</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/UspMagazineHaskell/Study1_Q3$ cat FileTools.hs
 module FileTools (
 find,
 ls,
@@ -309,7 +309,7 @@ cat file = catchIOError (B.readFile file) (\\e -&gt; return $ B.pack [])
 <div class="highlight-hs"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
 3
-4</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">UspMagazineHaskell</span><span class="o">/</span><span class="kt">Study1_Q3</span><span class="o">$</span> <span class="n">ghci</span>
+4</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">UspMagazineHaskell</span><span class="o">/</span><span class="kt">Study1_Q3</span><span class="o">$</span> <span class="n">ghci</span>
 <span class="kt">Prelude</span><span class="o">&gt;</span> <span class="kr">import</span> <span class="k">qualified</span> <span class="nn">Data.ByteString.Lazy.Char8</span> <span class="k">as</span> <span class="n">B</span>
 <span class="kt">Prelude</span> <span class="kt">B</span><span class="o">&gt;</span> <span class="kt">:</span><span class="n">t</span> <span class="kt">B</span><span class="o">.</span><span class="n">readFile</span>
 <span class="kt">B</span><span class="o">.</span><span class="n">readFile</span> <span class="ow">::</span> <span class="kt">FilePath</span> <span class="ow">-&gt;</span> <span class="kt">IO</span> <span class="kt">B</span><span class="o">.</span><span class="kt">ByteString</span>
@@ -327,7 +327,7 @@ cat file = catchIOError (B.readFile file) (\\e -&gt; return $ B.pack [])
 <div class="highlight-hs"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
 3
-4</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">UspMagazineHaskell</span><span class="o">/</span><span class="kt">Study1_Q3</span><span class="o">$</span> <span class="n">ghci</span>
+4</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">UspMagazineHaskell</span><span class="o">/</span><span class="kt">Study1_Q3</span><span class="o">$</span> <span class="n">ghci</span>
 <span class="kt">Prelude</span><span class="o">&gt;</span> <span class="kr">import</span> <span class="nn">System.IO.Error</span>
 <span class="kt">Prelude</span> <span class="kt">System</span><span class="o">.</span><span class="kt">IO</span><span class="o">.</span><span class="kt">Error</span><span class="o">&gt;</span> <span class="kt">:</span><span class="n">t</span> <span class="n">catchIOError</span>
 <span class="nf">catchIOError</span> <span class="ow">::</span> <span class="kt">IO</span> <span class="n">a</span> <span class="ow">-&gt;</span> <span class="p">(</span><span class="kt">IOError</span> <span class="ow">-&gt;</span> <span class="kt">IO</span> <span class="n">a</span><span class="p">)</span> <span class="ow">-&gt;</span> <span class="kt">IO</span> <span class="n">a</span>
@@ -354,7 +354,7 @@ cat file = catchIOError (B.readFile file) (\\e -&gt; return $ B.pack [])
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
 3
-4</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~<span class="nv">$ </span>ghci
+4</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~<span class="nv">$ </span>ghci
 Prelude&gt; import qualified Data.ByteString.Lazy.Char8 as B
 Prelude B&gt; :t B.pack
 B.pack :: <span class="o">[</span>Char<span class="o">]</span> -&gt; B.ByteString
@@ -377,7 +377,7 @@ B.pack :: <span class="o">[</span>Char<span class="o">]</span> -&gt; B.ByteStrin
 6
 7
 8
-9</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/UspMagazineHaskell/Study1_Q3<span class="nv">$ </span>cat q1_3_6.hs
+9</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/UspMagazineHaskell/Study1_Q3<span class="nv">$ </span>cat q1_3_6.hs
 import FileTools
 import qualified Data.ByteString.Lazy.Char8 as B
 
@@ -408,18 +408,18 @@ bashのシバン
 10
 11
 12
-13</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/UspMagazineHaskell/Study1_Q3<span class="nv">$ </span>sudo ./q1_3_6 | tr <span class="s1">&#39;)&#39;</span> <span class="s1">&#39;\\n&#39;</span> | head -n 3
+13</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/UspMagazineHaskell/Study1_Q3<span class="nv">$ </span>sudo ./q1_3_6 | tr <span class="s1">&#39;)&#39;</span> <span class="s1">&#39;\\n&#39;</span> | head -n 3
 <span class="o">[(</span><span class="s2">&quot;/etc/blkid.tab&quot;</span>,False
 ,<span class="o">(</span><span class="s2">&quot;/etc/tidy.conf&quot;</span>,False
 ,<span class="o">(</span><span class="s2">&quot;/etc/logrotate.conf&quot;</span>,False
 <span class="c">###どうやら4個bashのスクリプトが存在###</span>
-ueda\@remote:~/GIT/UspMagazineHaskell/Study1_Q3<span class="nv">$ </span>sudo ./q1_3_6 | tr <span class="s1">&#39;)&#39;</span> <span class="s1">&#39;\\n&#39;</span> | grep True
+ueda@remote:~/GIT/UspMagazineHaskell/Study1_Q3<span class="nv">$ </span>sudo ./q1_3_6 | tr <span class="s1">&#39;)&#39;</span> <span class="s1">&#39;\\n&#39;</span> | grep True
 ,<span class="o">(</span><span class="s2">&quot;/etc/alternatives/fakeroot&quot;</span>,True
 ,<span class="o">(</span><span class="s2">&quot;/etc/alternatives/lzfgrep&quot;</span>,True
 ,<span class="o">(</span><span class="s2">&quot;/etc/alternatives/lzmore&quot;</span>,True
 ,<span class="o">(</span><span class="s2">&quot;/etc/alternatives/lzdiff&quot;</span>,True
 <span class="c">###覗き見###</span>
-ueda\@remote:~/GIT/UspMagazineHaskell/Study1_Q3<span class="nv">$ </span>head -n 1 /etc/alternatives/fakeroot
+ueda@remote:~/GIT/UspMagazineHaskell/Study1_Q3<span class="nv">$ </span>head -n 1 /etc/alternatives/fakeroot
 <span class="c">#!/bin/bash</span>
 </pre></div>
 </td></tr></table></div>

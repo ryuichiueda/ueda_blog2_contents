@@ -7,7 +7,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 <h3>シェル芸勉強会の募集開始</h3>
 開始。夜中に公開するとボットが深夜に反応して、あまり不用意に拡散されないということを発見。ボットが拡散するとドタキャンが増えたりいつも来てる人が登録遅れたりするので今後この方法で。贅沢な悩みだが。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">募集開始しました<br>〜 | jus共催 第31回朝からだと疲れるから午後からでええじゃろシェル芸勉強会 #シェル芸勉強会<a href="https://t.co/hsWpCtvIGM">https://t.co/hsWpCtvIGM</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/910339134270480389">2017年9月20日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">募集開始しました<br>〜 | jus共催 第31回朝からだと疲れるから午後からでええじゃろシェル芸勉強会 #シェル芸勉強会<a href="https://t.co/hsWpCtvIGM">https://t.co/hsWpCtvIGM</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/910339134270480389">2017年9月20日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <h3>講義</h3>

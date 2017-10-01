@@ -52,22 +52,22 @@ sys	0m0.083s
 これは仕事用ハイスペックマッシーンでやったらもっと速いに違いない。・・・ということで仕事用のサーバ（CentOS5.9）で try。
 
 ```bash
-[usp\@demo1 ueda]$ uname -a
+[usp@demo1 ueda]$ uname -a
 Linux demo1 2.6.18-308.8.1.el5 #1 SMP Tue May 29 14:57:25 EDT 2012 x86_64 x86_64 x86_64 GNU/Linux
 ###有償ビジネス版###
-[usp\@demo1 ueda]$ time head -n 1000000 TESTDATA | delf 2 > /dev/null
+[usp@demo1 ueda]$ time head -n 1000000 TESTDATA | delf 2 > /dev/null
 
 real	0m0.448s
 user	0m0.482s
 sys	0m0.085s
 ###String版###
-[usp\@demo1 ueda]$ time head -n 1000000 TESTDATA | ./delf.normal 2 > /dev/null
+[usp@demo1 ueda]$ time head -n 1000000 TESTDATA | ./delf.normal 2 > /dev/null
 
 real	0m5.465s
 user	0m5.476s
 sys	0m0.096s
 ###ByteString版###
-[usp\@demo1 ueda]$ time head -n 1000000 TESTDATA | ./delf.bs 2 > /dev/null
+[usp@demo1 ueda]$ time head -n 1000000 TESTDATA | ./delf.bs 2 > /dev/null
 
 real	0m13.397s
 user	0m13.406s
@@ -84,11 +84,11 @@ bsdなら一発コンパイルだったのに、CentOS 5.9でコンパイルし�
 なんか遅い原因はここらへんに関係するのか？どうなのか？
 
 ```bash
-[usp\@demo1 ueda]$ cat /etc/redhat-release 
+[usp@demo1 ueda]$ cat /etc/redhat-release 
 CentOS release 5.9 (Final)
-[root\@demo1 ~]# cabal install parsec
+[root@demo1 ~]# cabal install parsec
 ...
-[usp\@demo1 ueda]$ ghc delf.bs.hs 
-[usp\@demo1 ueda]$ ghc --make -o delf.normal delf.normal.hs
+[usp@demo1 ueda]$ ghc delf.bs.hs 
+[usp@demo1 ueda]$ ghc --make -o delf.normal delf.normal.hs
 Linking delf.normal ...
 ```

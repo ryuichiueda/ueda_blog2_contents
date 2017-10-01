@@ -16,7 +16,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 もう1分1枚にこだわらずに1分半で1枚にすることにする。
 
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">「確率ロボティクスの先生だー！」<br>じゃなくて、<br>「いつもTLをうんこで埋め尽くしてる先生だー！」<br>ってなってる。</p>&mdash; Kazumi Kumagai (\@kazumi_kumagai) <a href="https://twitter.com/kazumi_kumagai/status/907811415313997824">2017年9月13日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">「確率ロボティクスの先生だー！」<br>じゃなくて、<br>「いつもTLをうんこで埋め尽くしてる先生だー！」<br>ってなってる。</p>&mdash; Kazumi Kumagai (@kazumi_kumagai) <a href="https://twitter.com/kazumi_kumagai/status/907811415313997824">2017年9月13日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 日頃の行い。
 

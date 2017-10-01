@@ -246,7 +246,7 @@ main&#39; (Right num) cs = header num h_axis &gt;&gt; mapM_ print (splitByKey d)
 ###splitByKey関数を追加###
 splitByKey :: [Line] -&gt; [[Line]]
 splitByKey [] = []
-splitByKey lns\@((key,_,_):_) = a : splitByKey b
+splitByKey lns@((key,_,_):_) = a : splitByKey b
  where a = takeWhile (\\(k,_,_) -&gt; key == k) lns
  b = dropWhile (\\(k,_,_) -&gt; key == k) lns
 </pre></div>
@@ -339,12 +339,12 @@ splitByKey lns\@((key,_,_):_) = a : splitByKey b
 main&#39; (Right num) cs = header num h_axis &gt;&gt; mapM_ (body h_axis) (splitByKey d)
 ###body、body&#39;関数###
 body :: [SubKey] -&gt; [Line] -&gt; IO ()
-body ss lns\@((k,_,_):_) = BS.putStrLn $ BS.unwords (k:(body&#39; ss lns))
+body ss lns@((k,_,_):_) = BS.putStrLn $ BS.unwords (k:(body&#39; ss lns))
 
 body&#39; :: [SubKey] -&gt; [Line] -&gt; [Word]
 body&#39; [] _ = []
 body&#39; subs [] = replicate (length subs) (BS.pack &quot;0&quot;)
-body&#39; (sub:subs) alns\@((_,s,(v:_)):lns)
+body&#39; (sub:subs) alns@((_,s,(v:_)):lns)
  | sub == s = v : body&#39; subs lns
  | otherwise = BS.pack &quot;0&quot; : body&#39; subs alns
 </pre></div>

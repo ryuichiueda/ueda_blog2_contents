@@ -17,13 +17,13 @@ SLAMの動作確認のためにLinuxのGUI環境（普段はそんなもん使�
 
 成果は次の2点でした。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">本日の成果1: ラズパイマウスの基本ROSパッケージのモータノードに/odomのパブリッシュとtfの出力を加えました。 <a href="https://twitter.com/hashtag/rosjp?src=hash">#rosjp</a> <a href="https://twitter.com/hashtag/%E3%83%A9%E3%82%BA%E3%83%91%E3%82%A4%E3%83%9E%E3%82%A6%E3%82%B9?src=hash">#ラズパイマウス</a><a href="https://t.co/k691883wzF">https://t.co/k691883wzF</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/898879017746432001">2017年8月19日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">本日の成果1: ラズパイマウスの基本ROSパッケージのモータノードに/odomのパブリッシュとtfの出力を加えました。 <a href="https://twitter.com/hashtag/rosjp?src=hash">#rosjp</a> <a href="https://twitter.com/hashtag/%E3%83%A9%E3%82%BA%E3%83%91%E3%82%A4%E3%83%9E%E3%82%A6%E3%82%B9?src=hash">#ラズパイマウス</a><a href="https://t.co/k691883wzF">https://t.co/k691883wzF</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/898879017746432001">2017年8月19日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">本日の成果2: ラズパイマウスのgmappingパッケージを公開しました。書籍用のpimouse_rosと違ってこれからいろいろ手を入れていきます。<a href="https://t.co/7VFAkPaT90">https://t.co/7VFAkPaT90</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/898879500728975361">2017年8月19日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">本日の成果2: ラズパイマウスのgmappingパッケージを公開しました。書籍用のpimouse_rosと違ってこれからいろいろ手を入れていきます。<a href="https://t.co/7VFAkPaT90">https://t.co/7VFAkPaT90</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/898879500728975361">2017年8月19日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 終わったあとは主催の皆様と人形町の肉寿司に行きました。こちらも食うのに夢中で写真がありません。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">握られますた。 <a href="https://t.co/6BYdRQMMiZ">pic.twitter.com/6BYdRQMMiZ</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/898881252551303168">2017年8月19日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">握られますた。 <a href="https://t.co/6BYdRQMMiZ">pic.twitter.com/6BYdRQMMiZ</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/898881252551303168">2017年8月19日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 以上、勉強会帰りの人のブログ的なテイストでお送りいたしました。参加側に回るのは本当に久しぶりです。主催者の皆様ありがとうございました！

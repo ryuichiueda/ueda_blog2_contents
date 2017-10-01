@@ -6,7 +6,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 # クラスタリング強化週間
 ちと研究に本格的に使うために先週から今日にかけてクラスタリングのお勉強をしてました。勉強したらアウトプットできないと理解したことにならんので、試しにEMアルゴリズムの解説を書いてみました。（リンク先はPCのブラウザで閲覧ください。）
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">できたよEMアルゴリズムのサンプル<a href="https://t.co/KZMf4DIjar">https://t.co/KZMf4DIjar</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/888748105201352706">2017年7月22日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">できたよEMアルゴリズムのサンプル<a href="https://t.co/KZMf4DIjar">https://t.co/KZMf4DIjar</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/888748105201352706">2017年7月22日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 しかし、今は機械学習の教科書に書いてあって、ライブラリも用意されてて、若い人は効率よく当然のごとく勉強するものでも、自分の場合は抜けてることが多いので、なかなか追っかけるのが大変だなあと思う今日この頃デス。

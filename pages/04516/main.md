@@ -60,11 +60,11 @@ sedやnkfコマンドは上書きができますが、オプションを指定�
 <h3>7.2.1. 準備<a class="headerlink" href="#id5" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <p>　今回は、リスト1の環境でプログラムを組んで動作させます。</p>
 <p>↓リスト1: 環境</p>
-<div class="highlight-bash"><div class="highlight"><pre>ueda\@uedaubuntu:~<span class="nv">$ </span>bash --version | head -n 1
+<div class="highlight-bash"><div class="highlight"><pre>ueda@uedaubuntu:~<span class="nv">$ </span>bash --version | head -n 1
 GNU bash, バージョン 4.2.10<span class="o">(</span>1<span class="o">)</span>-release <span class="o">(</span>i686-pc-linux-gnu<span class="o">)</span>
-ueda\@uedaubuntu:~<span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$LANG</span>
+ueda@uedaubuntu:~<span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$LANG</span>
 ja_JP.UTF-8
-ueda\@uedaubuntu:~<span class="nv">$ </span>lsb_release -a | grep Description
+ueda@uedaubuntu:~<span class="nv">$ </span>lsb_release -a | grep Description
 Description: Ubuntu 11.10
 </pre></div>
 </div>
@@ -93,8 +93,8 @@ Description: Ubuntu 11.10
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
 3</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span>cat newmember
-門田 kadota\@paa-league.net
-香川 kagawa\@dokaben.com
+門田 kadota@paa-league.net
+香川 kagawa@dokaben.com
 </pre></div>
 </td></tr></table></div>
 <p>MEMBERファイルには、次のような既存会員データが記録されています（リスト4）。
@@ -110,11 +110,11 @@ Description: Ubuntu 11.10
 8</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">#1:会員番号 2:氏名（簡略化のため姓のみ） 3:e-mailアドレス</span>
 <span class="c">#4:入会処理日 5:退会処理日</span>
 <span class="nv">$ </span>head -n 5 ./DATA/MEMBER
-10000001 上田 ueda\@hogehoge.com 19720103 -
-10000002 濱田 hamada\@nullnull.com 19831102 -
-10000003 武田 takeda\@takenaka.com 19930815 20120104
-10000004 竹中 takenaka\@takeda.com 19980423 -
-10000005 田中 tanaka\@kakuei.jp 20000111 -
+10000001 上田 ueda@hogehoge.com 19720103 -
+10000002 濱田 hamada@nullnull.com 19831102 -
+10000003 武田 takeda@takenaka.com 19930815 20120104
+10000004 竹中 takenaka@takeda.com 19980423 -
+10000005 田中 tanaka@kakuei.jp 20000111 -
 </pre></div>
 </td></tr></table></div>
 <p>newmemberファイルのデータに会員番号と入会処理日をつけて、
@@ -153,7 +153,7 @@ MEMBERファイルを壊してはいけませんので、
 <span class="nv">tmp</span><span class="o">=</span>/home/ueda/tmp/<span class="nv">$$</span>
 
 CHECK<span class="o">(){</span>
- <span class="o">[</span> -z <span class="s2">&quot;$(echo ${PIPESTATUS[\@]} | tr -d &#39;0 &#39;)&quot;</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="k">return</span>
+ <span class="o">[</span> -z <span class="s2">&quot;$(echo ${PIPESTATUS[@]} | tr -d &#39;0 &#39;)&quot;</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="k">return</span>
 
 <span class="k"> </span><span class="nb">echo</span> <span class="s2">&quot;エラー: $1&quot;</span> &gt;&amp;2
  <span class="nb">echo</span> 処理できませんでした。&gt;&amp;2
@@ -224,14 +224,14 @@ bashではPIPESTATUSという配列に、
 1
 <span class="c">#PIPESTATUSには終了ステータスが順に入る</span>
 <span class="nv">$ </span><span class="nb">true</span> | <span class="nb">true</span> | <span class="nb">true</span> | <span class="nb">true</span>
-<span class="nv">$ </span><span class="nb">echo</span> <span class="k">${</span><span class="nv">PIPESTATUS</span><span class="p">[\@]</span><span class="k">}</span>
+<span class="nv">$ </span><span class="nb">echo</span> <span class="k">${</span><span class="nv">PIPESTATUS</span><span class="p">[@]</span><span class="k">}</span>
 0 0 0 0
 <span class="nv">$ </span><span class="nb">true</span> | <span class="nb">true</span> | <span class="nb">false</span> | <span class="nb">true</span>
-<span class="nv">$ </span><span class="nb">echo</span> <span class="k">${</span><span class="nv">PIPESTATUS</span><span class="p">[\@]</span><span class="k">}</span>
+<span class="nv">$ </span><span class="nb">echo</span> <span class="k">${</span><span class="nv">PIPESTATUS</span><span class="p">[@]</span><span class="k">}</span>
 0 0 1 0
 <span class="c">#コマンドが一個だけでもOK</span>
 <span class="nv">$ </span><span class="nb">true</span>
-<span class="nv">$ </span><span class="nb">echo</span> <span class="k">${</span><span class="nv">PIPESTATUS</span><span class="p">[\@]</span><span class="k">}</span>
+<span class="nv">$ </span><span class="nb">echo</span> <span class="k">${</span><span class="nv">PIPESTATUS</span><span class="p">[@]</span><span class="k">}</span>
 0
 </pre></div>
 </td></tr></table></div>
@@ -389,9 +389,9 @@ CHECK 読み込めません
 <span class="o">[</span> <span class="s2">&quot;$(retu $tmp-file | gyo)&quot;</span> -eq 1 <span class="o">]</span> ; CHECK 列数
 <span class="o">[</span> <span class="s2">&quot;$(retu $tmp-file)&quot;</span> -eq 2 <span class="o">]</span> ; CHECK 列数
 
-<span class="c">###\@が文字列と文字列の間に挟まっていること</span>
+<span class="c">###@が文字列と文字列の間に挟まっていること</span>
 self 2 <span class="nv">$tmp</span>-file |
-grep <span class="s1">&#39;^..*\@..*$&#39;</span> &gt; <span class="nv">$tmp</span>-ok-email
+grep <span class="s1">&#39;^..*@..*$&#39;</span> &gt; <span class="nv">$tmp</span>-ok-email
 <span class="o">[</span> <span class="s2">&quot;$(gyo $tmp-file)&quot;</span> -eq <span class="s2">&quot;$(gyo $tmp-ok-email)&quot;</span> <span class="o">]</span>
 CHECK email
 
@@ -462,7 +462,7 @@ a a
 14
 15
 16</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">#正しい入力</span>
-<span class="nv">$ </span><span class="nb">echo</span> 山田 email\@email | ./ADDMEMBER
+<span class="nv">$ </span><span class="nb">echo</span> 山田 email@email | ./ADDMEMBER
 <span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$?</span>
 0
 <span class="c">#emailがない</span>
@@ -472,7 +472,7 @@ a a
 <span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$?</span>
 1
 <span class="c">#間違えてtwitterアカウントを入力</span>
-<span class="nv">$ </span><span class="nb">echo</span> 山田 \@usptomo | ./ADDMEMBER.CHECK
+<span class="nv">$ </span><span class="nb">echo</span> 山田 @usptomo | ./ADDMEMBER.CHECK
 エラー: email
 処理できませんでした。
 <span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$?</span>
@@ -629,24 +629,24 @@ dirnameコマンドは、このスクリプトのあるディレクトリを出�
 22
 23</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">###更新前</span>
 <span class="nv">$ </span>tail -n 2 ./DATA/MEMBER
-10000009 山本 yamamoto\@bash.co.jp 20101010 -
-10000010 山口 yamaguchi\@daioujyou.com 20120401 -
+10000009 山本 yamamoto@bash.co.jp 20101010 -
+10000010 山口 yamaguchi@daioujyou.com 20120401 -
 <span class="c">###更新実行</span>
 <span class="nv">$ </span>cat newmember | ./SCR/ADDMEMBER
 変更しました
 10a11,12
-&gt; 10000011 門田 kadota\@paa-league.net 20120429 -
-&gt; 10000012 香川 kagawa\@dokaben.com 20120429 -
+&gt; 10000011 門田 kadota@paa-league.net 20120429 -
+&gt; 10000012 香川 kagawa@dokaben.com 20120429 -
 <span class="c">###不正な値を入力してみる</span>
-<span class="nv">$ </span><span class="nb">echo</span> 上田 ueda\@hogehoge.com | ./SCR/ADDMEMBER
+<span class="nv">$ </span><span class="nb">echo</span> 上田 ueda@hogehoge.com | ./SCR/ADDMEMBER
 エラー: email重複
 処理できませんでした。
 <span class="c">###更新後</span>
 <span class="nv">$ </span>tail -n 4 ./DATA/MEMBER
-10000009 山本 yamamoto\@bash.co.jp 20101010 -
-10000010 山口 yamaguchi\@daioujyou.com 20120401 -
-10000011 門田 kadota\@paa-league.net 20120429 -
-10000012 香川 kagawa\@dokaben.com 20120429 -
+10000009 山本 yamamoto@bash.co.jp 20101010 -
+10000010 山口 yamaguchi@daioujyou.com 20120401 -
+10000011 門田 kadota@paa-league.net 20120429 -
+10000012 香川 kagawa@dokaben.com 20120429 -
 <span class="c">###バックアップが作成されている</span>
 <span class="nv">$ </span>ls ./DATA/MEMBER*
 ./DATA/MEMBER ./DATA/MEMBER.20120429.8648

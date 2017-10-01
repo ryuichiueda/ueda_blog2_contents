@@ -60,12 +60,12 @@ CUIのメーラーは便利なものがいろいろあるのに
 5
 6
 7
-8</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>ueda\@mail ~<span class="o">]</span><span class="nv">$ </span>cat /etc/redhat-release
+8</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>ueda@mail ~<span class="o">]</span><span class="nv">$ </span>cat /etc/redhat-release
 CentOS release 6.3 <span class="o">(</span>Final<span class="o">)</span>
-<span class="o">[</span>ueda\@mail ~<span class="o">]</span><span class="nv">$ </span>uname -a
+<span class="o">[</span>ueda@mail ~<span class="o">]</span><span class="nv">$ </span>uname -a
 Linux mail.usptomonokai.jp 2.6.32-279.5.2.el6.x86_64 <span class="c">#1 SMP</span>
  Fri Aug 24 01:07:11 UTC 2012 x86_64 x86_64 x86_64 GNU/Linux
-<span class="o">[</span>ueda\@mail ~<span class="o">]</span><span class="nv">$ </span>bash --version
+<span class="o">[</span>ueda@mail ~<span class="o">]</span><span class="nv">$ </span>bash --version
 GNU bash, version 4.1.2<span class="o">(</span>1<span class="o">)</span>-release <span class="o">(</span>x86_64-redhat-linux-gnu<span class="o">)</span>
 <span class="o">(</span>割愛<span class="o">)</span>
 </pre></div>
@@ -101,7 +101,7 @@ Tukubaiのコマンドについて説明していません。
 2
 3
 4
-5</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>ueda\@mail ~<span class="o">]</span><span class="nv">$ </span>tree -L 1 ~/MAILER/
+5</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>ueda@mail ~<span class="o">]</span><span class="nv">$ </span>tree -L 1 ~/MAILER/
 /home/ueda/MAILER/
 ├── DATA
 ├── FILTERS
@@ -164,7 +164,7 @@ Tukubaiのコマンドについて説明していません。
 <span class="nv">tmp</span><span class="o">=</span>~/tmp/<span class="nv">$$</span>
 
 ERROR_CHECK<span class="o">(){</span>
- <span class="o">[</span> <span class="s2">&quot;$(plus ${PIPESTATUS[\@]})&quot;</span> -eq 0 <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="k">return</span>
+ <span class="o">[</span> <span class="s2">&quot;$(plus ${PIPESTATUS[@]})&quot;</span> -eq 0 <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="k">return</span>
 <span class="k"> </span>rm -f <span class="nv">$tmp</span>-*
  <span class="nb">exit </span>1
 <span class="o">}</span>
@@ -197,11 +197,11 @@ ERROR_CHECK
 4
 5
 6</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">#before</span>
-To: ueda\@xxx.jp, r-ueda &lt;r-ueda\@yyy.com&gt;,
- Ryuichi UEDA &lt;ryuichiueda\@zzz.com&gt;
+To: ueda@xxx.jp, r-ueda &lt;r-ueda@yyy.com&gt;,
+ Ryuichi UEDA &lt;ryuichiueda@zzz.com&gt;
 
 <span class="c">#after</span>
-To: ueda\@xxx.jp, r-ueda &lt;r-ueda\@yyy.com&gt;, Ryuichi UEDA &lt;ryuichiueda\@zzz.com&gt;
+To: ueda@xxx.jp, r-ueda &lt;r-ueda@yyy.com&gt;, Ryuichi UEDA &lt;ryuichiueda@zzz.com&gt;
 </pre></div>
 </td></tr></table></div>
 <p>　 <tt class="docutils literal"><span class="pre">ERROR_CHECK</span></tt> はコマンドやパイプラインの終了ステータスを監視し、
@@ -216,7 +216,7 @@ allは必ずこのメーラーに準備しておきます。</p>
 <p>リスト5: 全部受理する all フィルタ</p>
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
-3</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>ueda\@mail MAILER<span class="o">]</span><span class="nv">$ </span>cat ./FILTERS/all
+3</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>ueda@mail MAILER<span class="o">]</span><span class="nv">$ </span>cat ./FILTERS/all
 <span class="c">#!/bin/bash</span>
 <span class="nb">true</span>
 </pre></div>
@@ -227,10 +227,10 @@ allは必ずこのメーラーに準備しておきます。</p>
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
 3
-4</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>ueda\@mail MAILER<span class="o">]</span><span class="nv">$ </span>cat ./FILTERS/bsd.usptomo.com
+4</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>ueda@mail MAILER<span class="o">]</span><span class="nv">$ </span>cat ./FILTERS/bsd.usptomo.com
 <span class="c">#!/bin/bash</span>
 grep -i <span class="s1">&#39;^from:&#39;</span> &lt; /dev/stdin |
-grep -q -F <span class="s1">&#39;root\@bsd.usptomo.com&#39;</span>
+grep -q -F <span class="s1">&#39;root@bsd.usptomo.com&#39;</span>
 </pre></div>
 </td></tr></table></div>
 <p>　このように、標準入力からメールを読み込んで、
@@ -278,8 +278,8 @@ grep -q -F <span class="s1">&#39;root\@bsd.usptomo.com&#39;</span>
 20</pre></div></td><td class="code"><div class="highlight"><pre><span class="c"># フィルタ #################################</span>
 <span class="nb">cd</span> <span class="s2">&quot;$dir/FILTERS&quot;</span> <span class="o">&amp;&amp;</span> <span class="o">[</span> -e <span class="s2">&quot;all&quot;</span> <span class="o">]</span> ; ERROR_CHECK
 <span class="c"># ファイル名のUNIX時間から年月日、時分秒を計算</span>
-<span class="nv">D</span><span class="o">=</span><span class="k">$(</span>date +%Y%m%d -d <span class="s2">&quot;\@&quot;</span><span class="k">${</span><span class="nv">1</span><span class="p">:</span><span class="nv">0</span><span class="p">:</span><span class="nv">10</span><span class="k">})</span> ; ERROR_CHECK
-<span class="nv">T</span><span class="o">=</span><span class="k">$(</span>date +%H%M%S -d <span class="s2">&quot;\@&quot;</span><span class="k">${</span><span class="nv">1</span><span class="p">:</span><span class="nv">0</span><span class="p">:</span><span class="nv">10</span><span class="k">})</span> ; ERROR_CHECK
+<span class="nv">D</span><span class="o">=</span><span class="k">$(</span>date +%Y%m%d -d <span class="s2">&quot;@&quot;</span><span class="k">${</span><span class="nv">1</span><span class="p">:</span><span class="nv">0</span><span class="p">:</span><span class="nv">10</span><span class="k">})</span> ; ERROR_CHECK
+<span class="nv">T</span><span class="o">=</span><span class="k">$(</span>date +%H%M%S -d <span class="s2">&quot;@&quot;</span><span class="k">${</span><span class="nv">1</span><span class="p">:</span><span class="nv">0</span><span class="p">:</span><span class="nv">10</span><span class="k">})</span> ; ERROR_CHECK
 
 <span class="k">for </span>f in * ; <span class="k">do</span>
  ./<span class="nv">$f</span> &lt; <span class="nv">$tmp</span>-utf <span class="o">||</span> <span class="k">continue</span>
@@ -303,7 +303,7 @@ rm -f <span class="nv">$tmp</span>-*
 時分秒を求めています。前々号で説明したように、
 メールのファイル名の先頭には10桁で1970年1月1日からの秒数がついており、</p>
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span>date -d \@1234567890
+2</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span>date -d @1234567890
 2009年 2月 14日 土曜日 08:31:30 JST
 </pre></div>
 </td></tr></table></div>
@@ -335,8 +335,8 @@ UTF8変換したメールを入力していきます。
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
 3
-4</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>ueda\@mail MAILER<span class="o">]</span><span class="nv">$ </span>./FETCHER 1352657044.Vfc03I468a21M42631.hoge1
-<span class="o">[</span>ueda\@mail MAILER<span class="o">]</span><span class="nv">$ </span>ls ./TRAY/*/new/*.1352657044.Vfc03I468a21M42631.hoge1
+4</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>ueda@mail MAILER<span class="o">]</span><span class="nv">$ </span>./FETCHER 1352657044.Vfc03I468a21M42631.hoge1
+<span class="o">[</span>ueda@mail MAILER<span class="o">]</span><span class="nv">$ </span>ls ./TRAY/*/new/*.1352657044.Vfc03I468a21M42631.hoge1
 ./TRAY/all/new/20121112.030404.1352657044.Vfc03I468a21M42631.hoge1
 ./TRAY/bsd.usptomo.com/new/20121112.030404.1352657044.Vfc03I468a21M42631.hoge1
 </pre></div>
@@ -381,7 +381,7 @@ UTF8変換したメールを入力していきます。
 <span class="nv">dir</span><span class="o">=</span>~/MAILER
 
 ERROR_CHECK<span class="o">(){</span>
- <span class="o">[</span> <span class="s2">&quot;$(plus ${PIPESTATUS[\@]})&quot;</span> -eq 0 <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="k">return</span>
+ <span class="o">[</span> <span class="s2">&quot;$(plus ${PIPESTATUS[@]})&quot;</span> -eq 0 <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="k">return</span>
 <span class="k"> </span>rm -f <span class="nv">$tmp</span>-*
  <span class="nb">exit </span>1
 <span class="o">}</span>
@@ -495,7 +495,7 @@ delf 2
 5
 6
 7
-8</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>ueda\@www5276ue MAILER<span class="o">]</span><span class="nv">$ </span>./VIEWER
+8</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>ueda@www5276ue MAILER<span class="o">]</span><span class="nv">$ </span>./VIEWER
 1 Sun, 25 Nov 07:10 処理エラー
 2 Sun, 25 Nov 06:00 【先着3名】怪しいアレが5000円！【怪しい.com】
 3 Sun, 25 Nov 04:00 Logwatch <span class="k">for </span>mail.usptomonokai.jp <span class="o">(</span>Linux<span class="o">)</span>

@@ -28,7 +28,7 @@ Copyright: (C) Ryuichi Ueda
 <p>↓リスト1: png画像をodで見る。</p>
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
-3</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@uedaubuntu:~<span class="nv">$ </span>od -tx 201204_1.png | head -n 2
+3</pre></div></td><td class="code"><div class="highlight"><pre>ueda@uedaubuntu:~<span class="nv">$ </span>od -tx 201204_1.png | head -n 2
 0000000 474e5089 0a1a0a0d 0d000000 52444849
 0000020 df000000 ad000000 00000608 aa133000
 </pre></div>
@@ -98,17 +98,17 @@ Copyright: (C) Ryuichi Ueda
  9
 10
 11
-12</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@uedaubuntu:~<span class="nv">$ </span>cat /proc/cpuinfo | grep <span class="s2">&quot;model name&quot;</span>
-model name : Celeron<span class="o">(</span>R<span class="o">)</span> Dual-Core CPU T3100 \@ 1.90GHz
-model name : Celeron<span class="o">(</span>R<span class="o">)</span> Dual-Core CPU T3100 \@ 1.90GHz
+12</pre></div></td><td class="code"><div class="highlight"><pre>ueda@uedaubuntu:~<span class="nv">$ </span>cat /proc/cpuinfo | grep <span class="s2">&quot;model name&quot;</span>
+model name : Celeron<span class="o">(</span>R<span class="o">)</span> Dual-Core CPU T3100 @ 1.90GHz
+model name : Celeron<span class="o">(</span>R<span class="o">)</span> Dual-Core CPU T3100 @ 1.90GHz
 <span class="c">#↑補足: CPUはデュアルコアのもの1個</span>
-ueda\@uedaubuntu:~<span class="nv">$ </span>uname -a
+ueda@uedaubuntu:~<span class="nv">$ </span>uname -a
 Linux uedaubuntu 3.0.0-14-generic <span class="c">#23-Ubuntu SMP Mon Nov 21 20:34:47 UTC 2011 i686 i686 i386 GNU/Linux</span>
-ueda\@uedaubuntu:~<span class="nv">$ </span>cat /etc/lsb-release | grep DESCRIPTION
+ueda@uedaubuntu:~<span class="nv">$ </span>cat /etc/lsb-release | grep DESCRIPTION
 <span class="nv">DISTRIB_DESCRIPTION</span><span class="o">=</span><span class="s2">&quot;Ubuntu 11.10&quot;</span>
-ueda\@uedaubuntu:~<span class="nv">$ </span>firefox -v
+ueda@uedaubuntu:~<span class="nv">$ </span>firefox -v
 Mozilla Firefox 9.0.1
-ueda\@uedaubuntu:~<span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$LANG</span>
+ueda@uedaubuntu:~<span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$LANG</span>
 ja_JP.UTF-8
 </pre></div>
 </td></tr></table></div>
@@ -169,7 +169,7 @@ headの下にはさらにmetaとtitleがぶら下がっています。
 ウェブサーバを立ち上げなくてもファイルをダブルクリックすれば見られるはずです。
 環境によっては、次のように端末からfirefoxを立ち上げることもできます。
 （くれぐれもリモートのマシンにssh接続している場合はやらないでください。）</p>
-<div class="highlight-bash"><div class="highlight"><pre>ueda\@uedaubuntu:~<span class="nv">$ </span>firefox hoge.html
+<div class="highlight-bash"><div class="highlight"><pre>ueda@uedaubuntu:~<span class="nv">$ </span>firefox hoge.html
 </pre></div>
 </div>
 <div class="figure">
@@ -198,7 +198,7 @@ CGIスクリプトにすることもできるのですが、それは後日と�
 11
 12
 13
-14</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@uedaubuntu:~/GIHYO<span class="nv">$ </span>cat html.sh
+14</pre></div></td><td class="code"><div class="highlight"><pre>ueda@uedaubuntu:~/GIHYO<span class="nv">$ </span>cat html.sh
 <span class="c">#!/bin/bash</span>
 
 cat <span class="s">&lt;&lt; EOF &gt; ./hoge.html</span>
@@ -248,7 +248,7 @@ HTMLとコードが混ざって汚くなるので、
 3
 4
 5
-6</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@uedaubuntu:~/WEB/GIHYO<span class="nv">$ </span>head -n 5 HOMER
+6</pre></div></td><td class="code"><div class="highlight"><pre>ueda@uedaubuntu:~/WEB/GIHYO<span class="nv">$ </span>head -n 5 HOMER
 順位 選手 本塁打 FROM TO 試合 打数
 1 王　貞治 868 1959 1980 2831 9250
 2 野村　克也 657 1954 1980 3017 10472
@@ -370,7 +370,7 @@ h1の内容がブラウザに描かれるときのフォントの大きさを指
 11
 12
 13
-14</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@uedaubuntu:~/GIHYO<span class="nv">$ </span>cat svg.html
+14</pre></div></td><td class="code"><div class="highlight"><pre>ueda@uedaubuntu:~/GIHYO<span class="nv">$ </span>cat svg.html
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;&lt;meta <span class="nv">charset</span><span class="o">=</span><span class="s2">&quot;UTF-8&quot;</span> /&gt;&lt;/head&gt;
@@ -432,17 +432,17 @@ tempとdataを入力すると、レコードがテンプレートに嵌って出
 13
 14
 15
-16</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@uedaubuntu:~<span class="nv">$ </span>cat temp
+16</pre></div></td><td class="code"><div class="highlight"><pre>ueda@uedaubuntu:~<span class="nv">$ </span>cat temp
 長者番付（秘）
 AAA
 %1位 %2さん 納税額%3円
 AAA
-ueda\@uedaubuntu:~<span class="nv">$ </span>cat data
+ueda@uedaubuntu:~<span class="nv">$ </span>cat data
 1 松浦 12
 2 濱田 8
 3 上田 -5
 4 法林 -110
-ueda\@uedaubuntu:~<span class="nv">$ </span>mojihame -lAAA temp data
+ueda@uedaubuntu:~<span class="nv">$ </span>mojihame -lAAA temp data
 長者番付（秘）
 1位 松浦さん 納税額12円
 2位 濱田さん 納税額8円

@@ -20,10 +20,10 @@ ar_prob_flow.pdf 100% 438KB 437.9KB/s 00:00
 server:hoge_journal ueda$ ssh test.usptomo.com
 Last login: Thu Aug 7 16:33:50 2014 from r.aiit.ac.jp
 ###PDFをlessで読むためにpopplerをインストール###
-ueda\@remote:~$ sudo apt-get install poppler-utils
+ueda@remote:~$ sudo apt-get install poppler-utils
 ###こうするとlessでPDFが読める###
 ###そしてlessの後ろには実はパイプをつけることができる###
-ueda\@remote:~$ less ar_prob_flow.pdf | tail
+ueda@remote:~$ less ar_prob_flow.pdf | tail
  [16] Lenser S, Veloso M. Sensor resetting localization for poorly modelled robots. In: Proc. of IEEE ICRA;
  2000. p. 1225–1232.
  [17] Ueda R, et al. Expansion Resetting for Recovery from Fatal Error in Monte Carlo Localization –
@@ -34,7 +34,7 @@ ueda\@remote:~$ less ar_prob_flow.pdf | tail
 
  15
 ###ということでwcで単語数がわかる###
-ueda\@remote:~$ less ar_prob_flow.pdf | wc
+ueda@remote:~$ less ar_prob_flow.pdf | wc
  807 6065 50879
 ```
 

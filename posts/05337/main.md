@@ -6,7 +6,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 # 確率ロボティクス復刊。ドサクサに紛れて昔話
 <p>長らく休刊状態で懺悔状態だった確率ロボティクスがとうとう復活しました。ご関係者の方、大変ありがとうございました。</p><p>事前には知ってました。が、呑んでる最中に公式アナウンスが来たのでビックリしてビールを鼻から噴射しました。</p>
 
-<blockquote class="twitter-tweet" lang="ja"><p>【4/2発売予定】ロボットや自動車の自立走行システムの研究者の必読書「Probabilistic Robotics」の日本語翻訳版、オンデマンドと電子版で待望の復刊です！！！【先行予約】確率ロボティクス | マイナビブックス <a href="https://t.co/3HBtAtMcwG">https://t.co/3HBtAtMcwG</a></p>— マイナビ電子書籍 (\@MYNAVI_eBooks) <a href="https://twitter.com/MYNAVI_eBooks/status/576313605253033984">2015, 3月 13</a></blockquote> <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="ja"><p>【4/2発売予定】ロボットや自動車の自立走行システムの研究者の必読書「Probabilistic Robotics」の日本語翻訳版、オンデマンドと電子版で待望の復刊です！！！【先行予約】確率ロボティクス | マイナビブックス <a href="https://t.co/3HBtAtMcwG">https://t.co/3HBtAtMcwG</a></p>— マイナビ電子書籍 (@MYNAVI_eBooks) <a href="https://twitter.com/MYNAVI_eBooks/status/576313605253033984">2015, 3月 13</a></blockquote> <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <!--more-->
 

@@ -52,7 +52,7 @@ root以外でも読み込み可能にしてあります。</p>
 3
 4
 5
-6</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>hoge\@sakura LOG<span class="o">]</span><span class="nv">$ </span>ls -ltr access_log* | tail -n 5
+6</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>hoge@sakura LOG<span class="o">]</span><span class="nv">$ </span>ls -ltr access_log* | tail -n 5
 -rw-r--r-- 1 root root 82408 2月 22 03:32 access_log-20120222.gz
 -rw-r--r-- 1 root root 61438 2月 23 03:32 access_log-20120223.gz
 -rw-r--r-- 1 root root 70638 2月 24 03:32 access_log-20120224.gz
@@ -67,7 +67,7 @@ root以外でも読み込み可能にしてあります。</p>
 <p>　作る前に、場所を作りましょう。適当な場所に、
 リスト2のようにディレクトリを掘ってください。</p>
 <p>↓リスト2: ディレクトリ構造</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>hoge\@sakura WWW<span class="o">]</span><span class="nv">$ </span>tree -L 1 WEB_KAISEKI
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>hoge@sakura WWW<span class="o">]</span><span class="nv">$ </span>tree -L 1 WEB_KAISEKI
 WEB_KAISEKI
 |-- HTML <span class="c">#HTMLのテンプレート置き場</span>
 |-- SCR <span class="c">#シェルスクリプト置き場</span>
@@ -108,7 +108,7 @@ Tukubaiのコマンドを使って簡略化してリスト3に再掲します。
 21
 22
 23
-24</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>hoge\@sakura WEB_KAISEKI<span class="o">]</span><span class="nv">$ </span>cat SCR/HTTPD_ACCESS_NORMALIZE
+24</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>hoge@sakura WEB_KAISEKI<span class="o">]</span><span class="nv">$ </span>cat SCR/HTTPD_ACCESS_NORMALIZE
 <span class="c">#!/bin/bash</span>
 
 <span class="nv">logdir</span><span class="o">=</span>/home/hoge/LOG
@@ -170,9 +170,9 @@ abcd <span class="nb">cd </span>12
 6
 7</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">#フィールド数は10列</span>
 <span class="c">#1:年月日 2:時分秒 3:IP 4,5:id 6:リクエスト 7:ステータス 8以降:今回不使用</span>
-<span class="o">[</span>hoge\@sakura WEB_KAISEKI<span class="o">]</span><span class="nv">$ </span>awk <span class="s1">&#39;{print NF}&#39;</span> TMP/ACCESS_LOG | uniq
+<span class="o">[</span>hoge@sakura WEB_KAISEKI<span class="o">]</span><span class="nv">$ </span>awk <span class="s1">&#39;{print NF}&#39;</span> TMP/ACCESS_LOG | uniq
 10
-<span class="o">[</span>hoge\@sakura WEB_KAISEKI<span class="o">]</span><span class="nv">$ </span>tail -n 2 TMP/ACCESS_LOG
+<span class="o">[</span>hoge@sakura WEB_KAISEKI<span class="o">]</span><span class="nv">$ </span>tail -n 2 TMP/ACCESS_LOG
 20120225 221853 72.14.199.225 - - GET_/TOMONOKAI＿CMS/CGI/TOMONOKAI＿CMS.CGI_HTTP/1.1 200 16920 - Feedfetcher-Google;_<span class="o">(</span>略<span class="o">)</span>
 20120225 221946 210.128.183.1 - - GET_/TOMONOKAI＿CMS/HTML/rss20.xml_HTTP/1.0 200 10233 - Mozilla/4.0_<span class="o">(</span>compatible;<span class="o">)</span>
 </pre></div>
@@ -241,7 +241,7 @@ abcd <span class="nb">cd </span>12
 24
 25</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">#!/bin/bash</span>
 <span class="c"># COUNT.HIT_FILE_SITE.HOUR: hit,file,siteの時間別集計</span>
-<span class="c"># written by R.Ueda (r-ueda\@usp-lab.com)</span>
+<span class="c"># written by R.Ueda (r-ueda@usp-lab.com)</span>
 
 <span class="nb">cd</span> /home/hoge/WWW/WEB_KAISEKI/TMP
 
@@ -305,7 +305,7 @@ count 1 2 &gt; SITES.COUNT
 36
 37</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">#!/bin/bash</span>
 <span class="c"># COUNT.HOUR: page,visitの時間別集計</span>
-<span class="c"># written by R.Ueda (r-ueda\@usp-lab.com)</span>
+<span class="c"># written by R.Ueda (r-ueda@usp-lab.com)</span>
 
 <span class="nv">tmp</span><span class="o">=</span>/tmp/<span class="nv">$$</span>
 <span class="nb">cd</span> /home/hoge/WWW/WEB_KAISEKI/TMP
@@ -357,7 +357,7 @@ rm -f <span class="nv">$tmp</span>-*
 12
 13
 14
-15</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>hoge\@sakura TMP<span class="o">]</span><span class="nv">$ </span>tail -n 1 ./*.HOUR
+15</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>hoge@sakura TMP<span class="o">]</span><span class="nv">$ </span>tail -n 1 ./*.HOUR
 <span class="o">==</span>&gt; ./FILES.HOUR &lt;<span class="o">==</span>
 20120225 21 <span class="nv">125</span>
 
@@ -509,7 +509,7 @@ mojihame等を使ってデータをはめ込んでいきます。
 30
 31
 32
-33</pre></div></td><td class="code"><div class="highlight"><pre>[hoge\@sakura WEB_KAISEKI]$ cat HTML/TEMPLATE.HTML
+33</pre></div></td><td class="code"><div class="highlight"><pre>[hoge@sakura WEB_KAISEKI]$ cat HTML/TEMPLATE.HTML
 <span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="nt">&lt;html&gt;</span>
  <span class="nt">&lt;head&gt;&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;UTF-8&quot;</span> <span class="nt">/&gt;&lt;/head&gt;</span>
@@ -574,10 +574,10 @@ mojihame等を使ってデータをはめ込んでいきます。
 27
 28
 29
-30</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>hoge\@sakura WEB_KAISEKI<span class="o">]</span><span class="nv">$ </span>cat ./SCR/HTMLMAKE
+30</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>hoge@sakura WEB_KAISEKI<span class="o">]</span><span class="nv">$ </span>cat ./SCR/HTMLMAKE
 <span class="c">#!/bin/bash</span>
 <span class="c"># HTMLMAKE: 訪問数のグラフを表示するHTMLファイルを作る</span>
-<span class="c"># written by R.Ueda (r-ueda\@usp-lab.com) Feb. 26, 2012</span>
+<span class="c"># written by R.Ueda (r-ueda@usp-lab.com) Feb. 26, 2012</span>
 <span class="nv">tmp</span><span class="o">=</span>/home/hoge/tmp/<span class="nv">$$</span>
 <span class="nv">dir</span><span class="o">=</span>/home/hoge/WWW/WEB_KAISEKI
 

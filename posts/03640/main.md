@@ -76,7 +76,7 @@ STLを使えばポインタやデストラクタでいろいろ悩むことも�
 んで、今私の書いている「価値反復」というアルゴリズムは、排他なしで並列処理ができます。できるということは並列化しないと笑われるので泣く泣くPOSIXスレッドの立て方を復習していたのですが、これもC++11だとすごく簡単ということが分かりました。threadというクラスのインスタンスを作るだけです。
 
 ```cpp
-ueda\@ubuntu:~$ cat multi.cc 
+ueda@ubuntu:~$ cat multi.cc 
 #include <iostream>
 #include <thread>
 using namespace std;
@@ -103,8 +103,8 @@ int main(int argc, char const* argv[])
 
 実行して途中の出力を見てみます。th1,2,3入り乱れています。
 ```cpp
-ueda\@ubuntu:~$ g++ -O3 -std=c++11 -pthread multi.cc -o multi
-ueda\@ubuntu:~$ ./multi | head -n 10000 | tail 
+ueda@ubuntu:~$ g++ -O3 -std=c++11 -pthread multi.cc -o multi
+ueda@ubuntu:~$ ./multi | head -n 10000 | tail 
 th1: 5102
 th3: 2605
 th2: 2282
@@ -124,7 +124,7 @@ th3: 2609
 ちなみに時間はこんなもん。30000000回の足し算と標準出力への吐き出しですが、なんかもうちょっと速いような気もしないでもありません。もし何かヘマをしていたら教えていただきたく。CPUの周波数は2.5GHzです。
 
 ```cpp
-ueda\@ubuntu:~$ time ./multi > /dev/null
+ueda@ubuntu:~$ time ./multi > /dev/null
 
 real	0m24.254s
 user	0m34.824s

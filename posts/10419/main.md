@@ -12,7 +12,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <h3>謎ウォーター</h3>
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr">ACM<a href="https://t.co/6xCaNavcY8">https://t.co/6xCaNavcY8</a> <a href="https://t.co/wbb2XPPl8x">pic.twitter.com/wbb2XPPl8x</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/908263962034135040">2017年9月14日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr">ACM<a href="https://t.co/6xCaNavcY8">https://t.co/6xCaNavcY8</a> <a href="https://t.co/wbb2XPPl8x">pic.twitter.com/wbb2XPPl8x</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/908263962034135040">2017年9月14日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ACMは、たぶんTwitterに貼ったウィキペディアの略語一覧のどれかだろう。Air Combat Manoeuveringがそれっぽい。πは知らん。
 
@@ -21,6 +21,6 @@ ACMは、たぶんTwitterに貼ったウィキペディアの略語一覧のど�
 あとは個人的にこの建物にグッと来た。
 
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">お気に入り <a href="https://t.co/cezOIcXt67">pic.twitter.com/cezOIcXt67</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/908274482908880896">2017年9月14日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">お気に入り <a href="https://t.co/cezOIcXt67">pic.twitter.com/cezOIcXt67</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/908274482908880896">2017年9月14日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 帰宅したが休肝日なので水を飲んでいる。

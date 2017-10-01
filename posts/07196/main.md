@@ -149,7 +149,7 @@ awk '{for(i=NF/2;i>=1;i--){print $(NF-i+1),-$i}}'
 もっと楽な方法がありそうですが・・・。ttyコマンドはオプションに$()で埋め込んでもうまく働きません。（ttyが端末と関係ないプロセスで立ち上がるので）。
 
 ```bash
-ueda\@remote:~$ a=$(tty | sed 's;/dev/;;') ; ps aux |
+ueda@remote:~$ a=$(tty | sed 's;/dev/;;') ; ps aux |
 awk '$7~/pts\\/[0-9]*/' | awk -v "t=$a" '$7!=t' |
 awk '{print $2}' | xargs sudo kill 
 ```
@@ -162,12 +162,12 @@ awk '{print $2}' | xargs sudo kill
 <h3>解答</h3>
 
 ```bash
-ueda\@remote:~$ echo 45 126 |
+ueda@remote:~$ echo 45 126 |
 awk '{while($1*$2!=0){if($1>$2){$1=$1-$2}else{$2=$2-$1}print}}' |
 awk 'END{print $1}'
 9
 ###Tukubai使用（こっちの方が長いが・・・）###
-ueda\@remote:~$ echo 60 9 | factor | tarr num=1 | tr -d : | 
+ueda@remote:~$ echo 60 9 | factor | tarr num=1 | tr -d : | 
 self 2 1 | sort | count 1 2 | self 1 3 | yarr num=1 |
 awk 'NF>2' | awk '{print $1,$2<$3?$2:$3}' |
 awk 'BEGIN{a=1}{a*=$1**$2}END{print a}'

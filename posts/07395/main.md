@@ -6,12 +6,12 @@ Copyright: (C) 2017 Ryuichi Ueda
 # 30億のデバイスで走るとやばい危険シェル芸デバイス作った
 年が明けました。昨年は
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">よんでくだしあ&#10;<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a>&#10;<a href="https://t.co/jtOdNXyMrd">https://t.co/jtOdNXyMrd</a></p>&mdash; ぐれさん (\@grethlen) <a href="https://twitter.com/grethlen/status/680614497028059136">December 26, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">よんでくだしあ&#10;<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a>&#10;<a href="https://t.co/jtOdNXyMrd">https://t.co/jtOdNXyMrd</a></p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/680614497028059136">December 26, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 という騒ぎがありましたが、今年はシェル芸ポリスとして、荒ぶるシェル芸人を取り締まるふりをする所存です。出動！ミニスカポリス。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">シェル芸家って危険人物多いのかな(?)</p>&mdash; Gunzi\@Java勉強中 (\@hebereke2920083) <a href="https://twitter.com/hebereke2920083/status/682868864888094721">January 1, 2016</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">シェル芸家って危険人物多いのかな(?)</p>&mdash; Gunzi@Java勉強中 (@hebereke2920083) <a href="https://twitter.com/hebereke2920083/status/682868864888094721">January 1, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 違います。

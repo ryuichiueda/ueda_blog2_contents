@@ -56,7 +56,7 @@ uniqと数個のawk・sedで済んでしまうことが大半で、
 以下のように放り込んであります。
 ファイルの場所は前回と同じなのですが、
 secureログが前回執筆時より増えています。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>ls
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>ls
 httpd/access_log secure-20111016
 httpd/access_log.1 secure-20111023
 httpd/access_log.2 secure-20111030
@@ -67,7 +67,7 @@ secure-20111012 secure-20111225
 </pre></div>
 </div>
 <p>　まず、恐れ多くも「きれいか汚いか」という観点でログにケチを付けます。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>head -n 1 secure httpd/access_log
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>head -n 1 secure httpd/access_log
 <span class="o">==</span>&gt; secure &lt;<span class="o">==</span>
 Nov 20 09:23:44 cent sshd<span class="o">[</span>20019<span class="o">]</span>: Did not receive identification string from 123.232.118.231
 
@@ -156,10 +156,10 @@ sed -e <span class="s1">&#39;s/^..../&amp; /&#39;</span>
 </pre></div>
 </td></tr></table></div>
 <p>リスト1のスクリプトを実行すると、出力は次のようになります。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent SYS<span class="o">]</span><span class="nv">$ </span>./SECURE_NORMALIZE | head -n 2
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent SYS<span class="o">]</span><span class="nv">$ </span>./SECURE_NORMALIZE | head -n 2
 2011 1012 Sep 11 19:15:23 localhost runuser: pam_un
 2011 1012 Sep 11 19:15:23 localhost runuser: pam_un
-<span class="o">[</span>ueda\@cent SYS<span class="o">]</span><span class="nv">$ </span>./SECURE_NORMALIZE | tail -n 2
+<span class="o">[</span>ueda@cent SYS<span class="o">]</span><span class="nv">$ </span>./SECURE_NORMALIZE | tail -n 2
 2011 1230 Dec 30 13:40:03 cent sshd<span class="o">[</span>31763<span class="o">]</span>: Connect
 2011 1230 Dec 30 13:40:06 cent su: pam_unix<span class="o">(</span>su-l:se
 </pre></div>
@@ -249,7 +249,7 @@ rm -f <span class="nv">$tmp</span>-*
 </pre></div>
 </td></tr></table></div>
 <p>これで、次の出力のように日付が数字で表現できます。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent SYS<span class="o">]</span><span class="nv">$ </span>tail -n 3 ../LOG/SECURE
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent SYS<span class="o">]</span><span class="nv">$ </span>tail -n 3 ../LOG/SECURE
 20111230 13:39:16 cent su: pam_unix<span class="o">(</span>su-l:sessio
 20111230 13:40:03 cent sshd<span class="o">[</span>31763<span class="o">]</span>: Connection
 20111230 13:40:06 cent su: pam_unix<span class="o">(</span>su-l:sessio
@@ -312,13 +312,13 @@ sed -e <span class="s1">&#39;s/でりみた/ /g&#39;</span>
 </pre></div>
 </td></tr></table></div>
 <p>出力は例えば次のようになります。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent SYS<span class="o">]</span><span class="nv">$ </span>./HTTPD_ACCESS_NORMALIZE 2&gt; /dev/null | head -n 1
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent SYS<span class="o">]</span><span class="nv">$ </span>./HTTPD_ACCESS_NORMALIZE 2&gt; /dev/null | head -n 1
 180.76.5.49 - - 13/Nov/2011:05:55:20_+0900 GET_/ueda/profile.htm_HTTP/1.1 200 1841 - Mozilla/5.0_<span class="o">(</span>compatible;_Baiduspider/2.0;_+http://www.baidu.com/search/spider.html<span class="o">)</span>
 </pre></div>
 </div>
 <p>　ちゃんと9フィールドになっているか調べるには、awkを使います。
 NFは、読み込んだレコードのフィールド数が入る変数です。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent SYS<span class="o">]</span><span class="nv">$ </span>./HTTPD_ACCESS_NORMALIZE 2&gt; /dev/null | awk <span class="s1">&#39;{print NF}&#39;</span> | uniq
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent SYS<span class="o">]</span><span class="nv">$ </span>./HTTPD_ACCESS_NORMALIZE 2&gt; /dev/null | awk <span class="s1">&#39;{print NF}&#39;</span> | uniq
 9
 </pre></div>
 </div>
@@ -381,7 +381,7 @@ sort -m -k1,2 -s <span class="nv">$tmp</span>-<span class="o">{</span>1-4,5,6-7,
 こちらの方が空白も残っていて、自分で区切り文字を作る必要もありません。
 ただ、整形したデータをさらにawkで捌こうとするなら、
 データは縦でなく横並びになっていた方が楽ちんです。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent SYS<span class="o">]</span><span class="nv">$ </span>./HTTPD_ACCESS_NORMALIZE.awk | head -n 9
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent SYS<span class="o">]</span><span class="nv">$ </span>./HTTPD_ACCESS_NORMALIZE.awk | head -n 9
 0000000001 1 180.76.5.49
 0000000001 2 -
 0000000001 3 -
@@ -468,7 +468,7 @@ sed <span class="s1">&#39;s/ */ /g&#39;</span> &gt; <span class="nv">$dir</span>
 <span class="nb">exit </span>0
 </pre></div>
 </td></tr></table></div>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent SYS<span class="o">]</span><span class="nv">$ </span>head -n 3 ../LOG/ACCESS_LOG
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent SYS<span class="o">]</span><span class="nv">$ </span>head -n 3 ../LOG/ACCESS_LOG
 20111030 062140 66.249.67.163 - - GET_/robots.txt_HTTP/1.1 4
 20111030 062140 209.85.238.184 - - GET_/paper/ARAIBO<span class="se">\\_</span>Techni
 20111030 072937 123.125.71.72 - - HEAD_/paper/ARAIBO<span class="se">\\_</span>Techni
@@ -487,15 +487,15 @@ sed <span class="s1">&#39;s/ */ /g&#39;</span> &gt; <span class="nv">$dir</span>
 多少コマンドが多くなっても、ファイルにプログラムを書いて動作確認して・・・
 という方法よりは、さっさと終わります。
 慣れないうちは、リダイレクトを使ってファイルにデータを貯めて確認しながら練習しましょう。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>awk <span class="s1">&#39;$4~/^sshd/&#39;</span> SECURE | awk <span class="s1">&#39;$5==&quot;Invalid&quot;&#39;</span> | awk <span class="s1">&#39;$6==&quot;user&quot;&#39;</span> | head -n 3
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>awk <span class="s1">&#39;$4~/^sshd/&#39;</span> SECURE | awk <span class="s1">&#39;$5==&quot;Invalid&quot;&#39;</span> | awk <span class="s1">&#39;$6==&quot;user&quot;&#39;</span> | head -n 3
 20110912 00:57:32 cent sshd<span class="o">[</span>2942<span class="o">]</span>: Invalid user http from 211.233.62.118
 20110912 04:05:35 cent sshd<span class="o">[</span>3386<span class="o">]</span>: Invalid user oracle from 203.236.203.2
 20110912 04:05:37 cent sshd<span class="o">[</span>3388<span class="o">]</span>: Invalid user oracle from 203.236.203.2
 </pre></div>
 </div>
 <p>あとは最後のフィールドのIPアドレスを表示するだけです。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>awk <span class="s1">&#39;$4~/^sshd/&#39;</span> SECURE | awk <span class="s1">&#39;$5==&quot;Invalid&quot;&#39;</span> | awk <span class="s1">&#39;$6==&quot;user&quot;&#39;</span> | awk <span class="s1">&#39;{print $NF}&#39;</span> | sort | uniq &gt; tmp
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>head tmp
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>awk <span class="s1">&#39;$4~/^sshd/&#39;</span> SECURE | awk <span class="s1">&#39;$5==&quot;Invalid&quot;&#39;</span> | awk <span class="s1">&#39;$6==&quot;user&quot;&#39;</span> | awk <span class="s1">&#39;{print $NF}&#39;</span> | sort | uniq &gt; tmp
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>head tmp
 110.234.96.196
 111.92.236.251
 112.65.165.131
@@ -509,7 +509,7 @@ sed <span class="s1">&#39;s/ */ /g&#39;</span> &gt; <span class="nv">$dir</span>
 <li>後のuniq: ソートされたユーザ名の個数をカウント</li>
 </ul>
 <p>しています。最後に使用数の多いものから上に並べて上位5個を表示しています。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>awk <span class="s1">&#39;$4~/^sshd/&#39;</span> SECURE | awk <span class="s1">&#39;$5==&quot;Invalid&quot;&#39;</span> | awk <span class="s1">&#39;$6==&quot;user&quot;{print $7}&#39;</span> | uniq | sort | uniq -c | sort -k1,1nr | head -n 3
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>awk <span class="s1">&#39;$4~/^sshd/&#39;</span> SECURE | awk <span class="s1">&#39;$5==&quot;Invalid&quot;&#39;</span> | awk <span class="s1">&#39;$6==&quot;user&quot;{print $7}&#39;</span> | uniq | sort | uniq -c | sort -k1,1nr | head -n 3
  362 <span class="nb">test</span>
 <span class="nb"> </span>275 oracle
  234 admin
@@ -519,8 +519,8 @@ sed <span class="s1">&#39;s/ */ /g&#39;</span> &gt; <span class="nv">$dir</span>
 まず、一日に何種類のIPアドレスから受信があったかを調べてみましょう。
 下のように、日付とIPの対でuniqして、その後日付だけ残してソートし、
 日付の数を数えます。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>awk <span class="s1">&##39;{print $1,$3}&#39;</span> ACCESS_LOG | sort | uniq | awk <span class="s1">&#39;{print $1}&#39;</span> | uniq -c &gt; tmp
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>cat tmp
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>awk <span class="s1">&##39;{print $1,$3}&#39;</span> ACCESS_LOG | sort | uniq | awk <span class="s1">&#39;{print $1}&#39;</span> | uniq -c &gt; tmp
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>cat tmp
  28 20111009
  24 20111010
  28 20111011
@@ -535,8 +535,8 @@ sed <span class="s1">&#39;s/ */ /g&#39;</span> &gt; <span class="nv">$dir</span>
 パスを抜き出します。
 これはちょっとややこしい操作になっていますので、
 もしかしたらリクエストの文字列はもう少し分解したほうが良いかもしれません。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>awk <span class="s1">&#39;$7==200&amp;&amp;$6~/^GET/{print $6}&#39;</span> ACCESS_LOG | sed <span class="s1">&#39;s/^GET_\\(..*\\)_[^_]*$/\\1/&#39;</span> | sed <span class="s1">&#39;s/?..*//&#39;</span> &gt; tmp
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>head tmp
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>awk <span class="s1">&#39;$7==200&amp;&amp;$6~/^GET/{print $6}&#39;</span> ACCESS_LOG | sed <span class="s1">&#39;s/^GET_\\(..*\\)_[^_]*$/\\1/&#39;</span> | sed <span class="s1">&#39;s/?..*//&#39;</span> &gt; tmp
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>head tmp
 /ueda/profile.htm
 /paper/ARAIBO<span class="se">\\_</span>TechnicalReport2005.pdf
 /
@@ -551,13 +551,13 @@ sed <span class="s1">&#39;s/ */ /g&#39;</span> &gt; <span class="nv">$dir</span>
 </div>
 <p>　次に、ランキング対象の拡張子を引っ張り出したいのですが、
 どんな拡張子があるか確認してみましょう。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>cat tmp | awk -F. <span class="s1">&#39;{print $NF}&#39;</span> | sort | uniq | tr <span class="s1">&#39;\\n&#39;</span> <span class="s1">&#39; &#39;</span>
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>cat tmp | awk -F. <span class="s1">&#39;{print $NF}&#39;</span> | sort | uniq | tr <span class="s1">&#39;\\n&#39;</span> <span class="s1">&#39; &#39;</span>
 / // /haribote/ /ueda/ /usage/ /webalizer/ JPG PNG cgi com/ css gif htm html jar jpg mpeg mpg pdf php png wmv
 </pre></div>
 </div>
 <p>個人サイトにありがちな統一感の無さですが、「/」で終わっているものと、
 cgi、htm、html、phpあたりを対象にしましょう。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>cat tmp | awk -F. <span class="s1">&#39;$NF~/\\/$|^htm|^cgi|^php/&#39;</span> | sort | uniq -c | sort -k1,1nr | sed <span class="s1">&#39;s;\\\\_;_;g&#39;</span> | head
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>cat tmp | awk -F. <span class="s1">&#39;$NF~/\\/$|^htm|^cgi|^php/&#39;</span> | sort | uniq -c | sort -k1,1nr | sed <span class="s1">&#39;s;\\\\_;_;g&#39;</span> | head
  152 /
  78 /haribote/index.php
  78 /updates.html

@@ -8,13 +8,13 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ロボット学会初日。帰り、確率ロボティクスの集まりにお呼ばれしたのでその前に川越を散歩。写真をたくさん撮影。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">雰囲気100点満点建築物 <a href="https://t.co/lsJNOjI4vU">pic.twitter.com/lsJNOjI4vU</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/907539865398534145">September 12, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">雰囲気100点満点建築物 <a href="https://t.co/lsJNOjI4vU">pic.twitter.com/lsJNOjI4vU</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/907539865398534145">September 12, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">なるほど。 <a href="https://t.co/HfIRQYPcvh">pic.twitter.com/HfIRQYPcvh</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/907540419738607616">September 12, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">なるほど。 <a href="https://t.co/HfIRQYPcvh">pic.twitter.com/HfIRQYPcvh</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/907540419738607616">September 12, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ごみをひろるな <a href="https://t.co/WJY7NAVKxp">pic.twitter.com/WJY7NAVKxp</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/907529335501873152">2017年9月12日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ごみをひろるな <a href="https://t.co/WJY7NAVKxp">pic.twitter.com/WJY7NAVKxp</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/907529335501873152">2017年9月12日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 （※ツイートは後からしたのもあるので時系列おかしいです。）

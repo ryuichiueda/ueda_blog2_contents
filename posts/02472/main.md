@@ -15,7 +15,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 でも、FreeBSD10はすでに2.6すら標準で入らない始末です。なにを生き急いでいるのでしょう。
 
 ```bash
-[root\@freebsd10 /usr/ports/lang/python26]# make clean install
+[root@freebsd10 /usr/ports/lang/python26]# make clean install
 make: "/usr/ports/Mk/bsd.python.mk" line 558: Malformed conditional (${PYTHON_REL} >= 320 && defined(PYTHON_PY3K_PLIST_HACK))
 make: Fatal errors encountered -- cannot continue
 make: stopped in /usr/ports/lang/python26
@@ -29,9 +29,9 @@ python26.txz 100% of 8225 kB 1517 kBps 00m05s
 freebsd10 /home/ueda$ fetch ftp.naist.jp/pub/FreeBSD-pkgbeta/freebsd:10:x86:64/2012-05-10/Latest/python25.txz
 freebsd10 /home/ueda$ fetch ftp.naist.jp/pub/FreeBSD-pkgbeta/freebsd:10:x86:64/2012-05-10/Latest/python24.txz
 freebsd10 /home/ueda$ sudo -s
-[root\@freebsd10 /usr/home/ueda]# tar -C / -xvzf python26.txz
-[root\@freebsd10 /usr/home/ueda]# tar -C / -xvzf python25.txz
-[root\@freebsd10 /usr/home/ueda]# tar -C / -xvzf python24.txz
+[root@freebsd10 /usr/home/ueda]# tar -C / -xvzf python26.txz
+[root@freebsd10 /usr/home/ueda]# tar -C / -xvzf python25.txz
+[root@freebsd10 /usr/home/ueda]# tar -C / -xvzf python24.txz
 ```
 
 ・・・大丈夫でしょうか。
@@ -39,7 +39,7 @@ freebsd10 /home/ueda$ sudo -s
 大丈夫でありませんでした。pythonを起動したらこんな風に2.4になってしまいました。
 
 ```bash
-[root\@freebsd10 /usr/home/ueda]# python
+[root@freebsd10 /usr/home/ueda]# python
 Python 2.4.5 (#2, May 9 2012, 13:34:32) 
 [GCC 4.2.1 20070831 patched [FreeBSD]] on freebsd10
 Type "help", "copyright", "credits" or "license" for more information.
@@ -49,9 +49,9 @@ Type "help", "copyright", "credits" or "license" for more information.
 なんかもう無理矢理2.7に戻します。
 
 ```bash
-[root\@freebsd10 /usr/home/ueda]# cd /usr/local/bin/
-[root\@freebsd10 /usr/local/bin]# cp python2.7 python
-[root\@freebsd10 /usr/home/ueda]# python
+[root@freebsd10 /usr/home/ueda]# cd /usr/local/bin/
+[root@freebsd10 /usr/local/bin]# cp python2.7 python
+[root@freebsd10 /usr/home/ueda]# python
 Python 2.7.6 (default, Feb 28 2014, 16:10:49) 
 [GCC 4.2.1 Compatible FreeBSD Clang 3.3 (tags/RELEASE_33/final 183502)] on freebsd10
 Type "help", "copyright", "credits" or "license" for more information.

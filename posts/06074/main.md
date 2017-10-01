@@ -8,7 +8,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 以下のように1から100まで数字が書いてあるansというファイルを作り、ansの中から素数でない数をワンライナーだけで消し去ってください。（ansの中身を書き換えるということです。forもwhileもなしで、コマンドはパイプでつないで。）
 
 ```bash
-ueda\@ubuntu:~/tmp$ seq 1 100 > ans
+ueda@ubuntu:~/tmp$ seq 1 100 > ans
 ```
 
 <h2>問題の意図</h2>
@@ -34,19 +34,19 @@ ueda\@ubuntu:~/tmp$ seq 1 100 > ans
 で、私が想定していた解は、こちらです。
 
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">factor &lt;ans |sed -n &#39;s/^\\([0-9]*\\): *[0-9]*$/\\1/p&#39; |sponge ans&#10;moreutils好き。 <a href="https://t.co/ZdC6JeAfih">https://t.co/ZdC6JeAfih</a></p>&mdash; ふみやす%シェルまおう的なにか\@通販生活 (\@satoh_fumiyasu) <a href="https://twitter.com/satoh_fumiyasu/status/594365570075598848">May 2, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">factor &lt;ans |sed -n &#39;s/^\\([0-9]*\\): *[0-9]*$/\\1/p&#39; |sponge ans&#10;moreutils好き。 <a href="https://t.co/ZdC6JeAfih">https://t.co/ZdC6JeAfih</a></p>&mdash; ふみやす%シェルまおう的なにか@通販生活 (@satoh_fumiyasu) <a href="https://twitter.com/satoh_fumiyasu/status/594365570075598848">May 2, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">% factor &lt; ans | awk &#39;$0*=NF==2&#39; | sponge ans&#10;moreutilsのspongeコマンド <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a></p>&mdash; eban (\@eban) <a href="https://twitter.com/eban/status/594168850821697536">May 1, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">% factor &lt; ans | awk &#39;$0*=NF==2&#39; | sponge ans&#10;moreutilsのspongeコマンド <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a></p>&mdash; eban (@eban) <a href="https://twitter.com/eban/status/594168850821697536">May 1, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 平たく書くとこんな感じ。
 
 ```bash
 ###spongeコマンドをインストールする###
-ueda\@ubuntu:~/tmp$ sudo apt-get install moreutils
+ueda@ubuntu:~/tmp$ sudo apt-get install moreutils
 ###使う###
-ueda\@ubuntu:~/tmp$ cat ans | factor | awk 'NF==2{print $2}' | sponge ans
+ueda@ubuntu:~/tmp$ cat ans | factor | awk 'NF==2{print $2}' | sponge ans
 ```
 
 sponge(1)というコマンドを使います。名前の通り、入力された字を吸い取っていき、吸い取ってから引数に指定したファイルに書き込みます。ということで、上に挙げた「入力と出力を時間的に完全に分離する」が守られています。
@@ -54,7 +54,7 @@ sponge(1)というコマンドを使います。名前の通り、入力され�
 
 「ファイルの実体を分離する」の解もありました。すごい。これは思いつきません。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">% ( rm ans &amp;&amp; factor | awk &#39;$0*=NF==2&#39; &gt; ans ) &lt; ans <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a></p>&mdash; eban (\@eban) <a href="https://twitter.com/eban/status/594165658046214148">May 1, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">% ( rm ans &amp;&amp; factor | awk &#39;$0*=NF==2&#39; &gt; ans ) &lt; ans <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a></p>&mdash; eban (@eban) <a href="https://twitter.com/eban/status/594165658046214148">May 1, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ebanさんはどんな方法でも解いてくるので本当にすごいなあと・・・。
@@ -62,11 +62,11 @@ ebanさんはどんな方法でも解いてくるので本当にすごいなあ�
 解説をしておくと、まずansをオープンした後にansを消してから処理してansに書き出すという処理になっています。「rm ans」の時点では、ansが開いているので実体（iノード）はまだ消去されません。ansという名前だけ消えます。んで、その後に「factor ... > ans」となっているので、ansという名前の別のiノードができます。確認しておきましょう。
 
 ```bash
-ueda\@web:~/tmp$ seq 1 10 > ans
-ueda\@web:~/tmp$ ls -i ans
+ueda@web:~/tmp$ seq 1 10 > ans
+ueda@web:~/tmp$ ls -i ans
 2363953 ans
-ueda\@web:~/tmp$ (rm ans; factor | awk 'NF==2{print $2}' > ans) < ans
-ueda\@web:~/tmp$ ls -i ans
+ueda@web:~/tmp$ (rm ans; factor | awk 'NF==2{print $2}' > ans) < ans
+ueda@web:~/tmp$ ls -i ans
 2364013 ans
 ```
 
@@ -76,7 +76,7 @@ ueda\@web:~/tmp$ ls -i ans
 最後のコマンドに上書きさせる方法は、（私がspongeを教えてもらったのは斉藤さんからなので）解答を禁止したはずの斉藤さんから強烈なものをいただきました。
 
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">最新の gawk の解を gawk だけで。&#10;$ gawk -i inplace &#39;{&quot;factor &quot;$0|getline}NF==2&amp;&amp;$0=$2&#39; ans&#10;<a href="http://t.co/3ALgyyYuUp">http://t.co/3ALgyyYuUp</a>&#10;<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a></p>&mdash; Hirofumi Saito (\@hi_saito) <a href="https://twitter.com/hi_saito/status/594450805765210113">May 2, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">最新の gawk の解を gawk だけで。&#10;$ gawk -i inplace &#39;{&quot;factor &quot;$0|getline}NF==2&amp;&amp;$0=$2&#39; ans&#10;<a href="http://t.co/3ALgyyYuUp">http://t.co/3ALgyyYuUp</a>&#10;<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a></p>&mdash; Hirofumi Saito (@hi_saito) <a href="https://twitter.com/hi_saito/status/594450805765210113">May 2, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 説明は斉藤さんにお任せします。っていうかなんだこれ？？？
@@ -86,18 +86,18 @@ ueda\@web:~/tmp$ ls -i ans
 おれの無いぞという方はぜひご連絡くだしあ。
 
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash">#はてなブログ</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a>&#10;【FreeBSD】入力ファイルに直接リダイレクトして書き込みができるかどうか実験してみた - くんすとの備忘録&#10;<a href="http://t.co/B45Aoo8piL">http://t.co/B45Aoo8piL</a></p>&mdash; くんすとのプレアデス (\@kunst1080) <a href="https://twitter.com/kunst1080/status/594450979728199682">May 2, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash">#はてなブログ</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a>&#10;【FreeBSD】入力ファイルに直接リダイレクトして書き込みができるかどうか実験してみた - くんすとの備忘録&#10;<a href="http://t.co/B45Aoo8piL">http://t.co/B45Aoo8piL</a></p>&mdash; くんすとのプレアデス (@kunst1080) <a href="https://twitter.com/kunst1080/status/594450979728199682">May 2, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">日記書いた! 入力ファイルへのリダイレクト問題 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a>&#10;<a href="http://t.co/LsLYN0H76l">http://t.co/LsLYN0H76l</a></p>&mdash; eban (\@eban) <a href="https://twitter.com/eban/status/594547960282746882">May 2, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">日記書いた! 入力ファイルへのリダイレクト問題 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a>&#10;<a href="http://t.co/LsLYN0H76l">http://t.co/LsLYN0H76l</a></p>&mdash; eban (@eban) <a href="https://twitter.com/eban/status/594547960282746882">May 2, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash">#はてなブログ</a>&#10;ゴールデンウイークシェル芸問題を解きました - くんすとの備忘録&#10;<a href="http://t.co/yO2UVK1aWm">http://t.co/yO2UVK1aWm</a></p>&mdash; くんすとのプレアデス (\@kunst1080) <a href="https://twitter.com/kunst1080/status/595222172357922817">May 4, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash">#はてなブログ</a>&#10;ゴールデンウイークシェル芸問題を解きました - くんすとの備忘録&#10;<a href="http://t.co/yO2UVK1aWm">http://t.co/yO2UVK1aWm</a></p>&mdash; くんすとのプレアデス (@kunst1080) <a href="https://twitter.com/kunst1080/status/595222172357922817">May 4, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ブログでないけど有難うございます。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">GWシェル芸問題、なんか面白いことしたいと思ったらえらいことになりました <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a>&#10;<a href="https://t.co/69qhyMxvms">https://t.co/69qhyMxvms</a></p>&mdash; ひまじん (\@__Himajin) <a href="https://twitter.com/__Himajin/status/594153933716652032">May 1, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">GWシェル芸問題、なんか面白いことしたいと思ったらえらいことになりました <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a>&#10;<a href="https://t.co/69qhyMxvms">https://t.co/69qhyMxvms</a></p>&mdash; ひまじん (@__Himajin) <a href="https://twitter.com/__Himajin/status/594153933716652032">May 1, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 

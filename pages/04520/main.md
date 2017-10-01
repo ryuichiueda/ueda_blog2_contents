@@ -91,8 +91,8 @@ UNIXに実装される前後の経緯やマキルロイとトンプソンら同�
 7
 8</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">#CPUは2個（1個のデュアルコア）</span>
 <span class="nv">$ </span>cat /proc/cpuinfo | grep <span class="s2">&quot;model name&quot;</span>
-model name : Celeron<span class="o">(</span>R<span class="o">)</span> Dual-Core CPU T3100 \@ 1.90GHz
-model name : Celeron<span class="o">(</span>R<span class="o">)</span> Dual-Core CPU T3100 \@ 1.90GHz
+model name : Celeron<span class="o">(</span>R<span class="o">)</span> Dual-Core CPU T3100 @ 1.90GHz
+model name : Celeron<span class="o">(</span>R<span class="o">)</span> Dual-Core CPU T3100 @ 1.90GHz
 <span class="nv">$ </span>uname -a
 Linux uedaubuntu 3.2.0-24-generic <span class="c">#38-Ubuntu SMP Tue May 1 16:18:50 UTC 2012 x86_64 x86_64 x86_64 GNU/Linux</span>
 <span class="nv">$ </span>lsb_release -a 2&gt;/dev/null | grep Description
@@ -413,13 +413,13 @@ CPUが遊ばないように負荷分散されます。
 
 <span class="c">#一個のsedで処理</span>
 <span class="c">#sedで置換ルールを二つ以上指定するときは-eというオプションを使う</span>
-<span class="nv">$ </span><span class="nb">time </span>sed -e <span class="s1">&#39;s\@\\(..\\)/\\(...\\)/\\(....\\)\@ \\1 \\2 \\3\@&#39;</span> -e <span class="s1">&#39;s/:\\(..\\):\\(..\\):\\(..\\)/ \\1\\2\\3/&#39;</span> &lt; log1G &gt; /dev/null
+<span class="nv">$ </span><span class="nb">time </span>sed -e <span class="s1">&#39;s@\\(..\\)/\\(...\\)/\\(....\\)@ \\1 \\2 \\3@&#39;</span> -e <span class="s1">&#39;s/:\\(..\\):\\(..\\):\\(..\\)/ \\1\\2\\3/&#39;</span> &lt; log1G &gt; /dev/null
 
 real 0m29.488s
 user 0m28.994s
 sys 0m0.492s
 <span class="c">#日付の処理と時刻の処理を分割</span>
-<span class="nv">$ </span><span class="nb">time </span>sed -e <span class="s1">&#39;s\@\\(..\\)/\\(...\\)/\\(....\\)\@ \\1 \\2 \\3\@&#39;</span> &lt; log1G | sed -e <span class="s1">&#39;s/:\\(..\\):\\(..\\):\\(..\\)/ \\1\\2\\3/&#39;</span> &gt; /dev/null
+<span class="nv">$ </span><span class="nb">time </span>sed -e <span class="s1">&#39;s@\\(..\\)/\\(...\\)/\\(....\\)@ \\1 \\2 \\3@&#39;</span> &lt; log1G | sed -e <span class="s1">&#39;s/:\\(..\\):\\(..\\):\\(..\\)/ \\1\\2\\3/&#39;</span> &gt; /dev/null
 
 real 0m22.807s
 user 0m32.382s
@@ -442,13 +442,13 @@ sys 0m2.064s
  8
  9
 10
-11</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span><span class="nb">time </span>sed -e <span class="s1">&#39;s\@\\(..\\)/\\(...\\)/\\(....\\)\@ \\1 \\2 \\3\@&#39;</span> -e <span class="s1">&#39;s/:\\(..\\):\\(..\\):\\(..\\)/ \\1\\2\\3/&#39;</span> &lt; log1G &gt; /dev/null
+11</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span><span class="nb">time </span>sed -e <span class="s1">&#39;s@\\(..\\)/\\(...\\)/\\(....\\)@ \\1 \\2 \\3@&#39;</span> -e <span class="s1">&#39;s/:\\(..\\):\\(..\\):\\(..\\)/ \\1\\2\\3/&#39;</span> &lt; log1G &gt; /dev/null
 
 real 0m17.551s
 user 0m17.209s
 sys 0m0.303s
 
-<span class="nv">$ </span><span class="nb">time </span>sed <span class="s1">&#39;s/\\[/&amp; /&#39;</span> &lt; log1G | sed <span class="s1">&#39;s\@/\@ \@&#39;</span> | sed <span class="s1">&#39;s\@/\@ \@&#39;</span> | sed <span class="s1">&#39;s/:/ /&#39;</span> | sed <span class="s1">&#39;s/://&#39;</span> | sed <span class="s1">&#39;s/://&#39;</span> &gt; /dev/null
+<span class="nv">$ </span><span class="nb">time </span>sed <span class="s1">&#39;s/\\[/&amp; /&#39;</span> &lt; log1G | sed <span class="s1">&#39;s@/@ @&#39;</span> | sed <span class="s1">&#39;s@/@ @&#39;</span> | sed <span class="s1">&#39;s/:/ /&#39;</span> | sed <span class="s1">&#39;s/://&#39;</span> | sed <span class="s1">&#39;s/://&#39;</span> &gt; /dev/null
 
 real 0m5.773s
 user 0m17.252s

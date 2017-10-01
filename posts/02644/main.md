@@ -123,7 +123,7 @@ Haskellとシェルワンライナーで対応するものは次のようにな�
  </tr>
 </table>
 
-・・・くっ・・・眠い・・・続きは<del>webで</del>また今度。なんか気づいたら<a href="https://twitter.com/ryuichiueda" target="_blank">\@ryuichiueda</a>まで・・・。謝辞つきで拝借して表に追加します。
+・・・くっ・・・眠い・・・続きは<del>webで</del>また今度。なんか気づいたら<a href="https://twitter.com/ryuichiueda" target="_blank">@ryuichiueda</a>まで・・・。謝辞つきで拝借して表に追加します。
 
 <h2>一応知見を書いておく</h2>
 

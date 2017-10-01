@@ -10,7 +10,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 スライドを作っててなんとか完成させました。ファジー学会の第1回「動きの様相から先を読む」研究会（名古屋工業大学にて）という場でお話しさせていただきます。今回は珍しく「貴様の研究について話してよかろう」と言われましたので、自分の昔の研究とか今の研究とかを遠慮なく吐き出します。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">火曜、ロボカップ勢と入れ替わりで話をしに行きます。<a href="https://t.co/dCAvt3VlCH">https://t.co/dCAvt3VlCH</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/891655161570918401">2017年7月30日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">火曜、ロボカップ勢と入れ替わりで話をしに行きます。<a href="https://t.co/dCAvt3VlCH">https://t.co/dCAvt3VlCH</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/891655161570918401">2017年7月30日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 <h2>簡単な価値反復のサンプル</h2>
@@ -18,7 +18,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 そろそろ後期の講義の準備に取り掛かろうということで作りました。後期に確率ロボティクスという講義を受け持ってるんですけど、ここ2年、数式を書き殴るだけだったのを反省して、Jupyter notebookベースで講義を進めようと準備しています。
 
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">後期の確率ロボティクスの講義に使う一番単純な価値反復のサンプル作った。<a href="https://t.co/eqM1ntqXhr">https://t.co/eqM1ntqXhr</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/891658032362405888">2017年7月30日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">後期の確率ロボティクスの講義に使う一番単純な価値反復のサンプル作った。<a href="https://t.co/eqM1ntqXhr">https://t.co/eqM1ntqXhr</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/891658032362405888">2017年7月30日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <h2>某原稿と某原稿の手直し</h2>
 
@@ -28,7 +28,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 子供が「深海2017～最深研究でせまる“生命”と“地球”～」という特別展に行きたいというので、上野の博物館行ってきました。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">勝手に人間に名前を与えられて困惑のウルトラブンブクとハゲナマコ <a href="https://t.co/KqXbzzIrSl">pic.twitter.com/KqXbzzIrSl</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/891283225003216896">2017年7月29日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">勝手に人間に名前を与えられて困惑のウルトラブンブクとハゲナマコ <a href="https://t.co/KqXbzzIrSl">pic.twitter.com/KqXbzzIrSl</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/891283225003216896">2017年7月29日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 こんなのもいました。深いところにいるんですね。別の生物の説明に、これより深いとタンパク質の分子自体が水圧で壊れてしまうと書いてありました。
 

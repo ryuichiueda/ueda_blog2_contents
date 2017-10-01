@@ -8,7 +8,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ここ2日、連続でExcelファイルをシェル芸でほじる記事を書きましたが、副会長から、<span style="color:red">エクシェル芸</span>という名称をいただきました。使わせていただきます。有り難うございます。
 
-<blockquote class="twitter-tweet" lang="ja"><p>シェル芸拡張 エクシェル芸が誕生した瞬間 <a href="https://twitter.com/search?q=%23%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8&amp;src=hash">#シェル芸</a> <a href="https://twitter.com/search?q=%23usptomo&amp;src=hash">#usptomo</a> <a href="http://t.co/llzq8qTM5w">http://t.co/llzq8qTM5w</a></p>&mdash; (っ´A｀)っ ゃー (\@nullpopopo) <a href="https://twitter.com/nullpopopo/statuses/448832135101968384">2014, 3月 26</a></blockquote>
+<blockquote class="twitter-tweet" lang="ja"><p>シェル芸拡張 エクシェル芸が誕生した瞬間 <a href="https://twitter.com/search?q=%23%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8&amp;src=hash">#シェル芸</a> <a href="https://twitter.com/search?q=%23usptomo&amp;src=hash">#usptomo</a> <a href="http://t.co/llzq8qTM5w">http://t.co/llzq8qTM5w</a></p>&mdash; (っ´A｀)っ ゃー (@nullpopopo) <a href="https://twitter.com/nullpopopo/statuses/448832135101968384">2014, 3月 26</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
@@ -25,8 +25,8 @@ Excelと言えば、最近、<a href="http://itpro.nikkeibp.co.jp/article/Watche
 さて、解凍してみます。文字列はxl/sharedStrings.xmlに入っています。
 
 ```bash
-ueda\@remote:~/tmp$ unzip *
-ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;</si>;&\\n;g'
+ueda@remote:~/tmp$ unzip *
+ueda@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;</si>;&\\n;g'
 <si><t>ﾀﾞｧｼｴﾘｲｪｽ</t><phoneticPr fontId="1"/></si>
 <si><t>ﾀﾞｯ・・・ｧｼｴﾘｲｪｽ</t><phoneticPr fontId="1"/></si>
 ```
@@ -34,7 +34,7 @@ ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;</si>;&\\n;g
 このファイルのsi要素に、上から0,1番と番号を振り、それをsheet1.xmlで参照しています。
 
 ```bash
-ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;</c>;&\\n;g'
+ueda@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;</c>;&\\n;g'
 <c r="A1" t="s"><v>0</v></c>
 <c r="A2" t="s"><v>1</v></c>
 ```
@@ -46,9 +46,9 @@ ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;</c>;&\\n
 さて、この文字列を表現するのにどれだけデータがあるか数えてみましょう。
 
 ```bash
-ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | wc 
+ueda@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | wc 
 c-146
-ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | wc 
+ueda@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | wc 
 c-56
 ```
 
@@ -64,8 +64,8 @@ c-56
 sharedStrings.xmlとsheet1.xmlから文字の部分を引っ張りだしてみましょう。
 
 ```bash
-ueda\@remote:~/tmp$ unzip *
-ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;</si>;&\\n;g'
+ueda@remote:~/tmp$ unzip *
+ueda@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;</si>;&\\n;g'
 <si><t>ﾀ</t><phoneticPr fontId="1"/></si>
 <si><t>ﾞ</t><phoneticPr fontId="1"/></si>
 <si><t>ｧ</t><phoneticPr fontId="1"/></si>
@@ -77,7 +77,7 @@ ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | sed 's;</si>;&\\n;g
 <si><t>ｽ</t></si>
 <si><t>ｯ</t><phoneticPr fontId="1"/></si>
 <si><t>・</t><phoneticPr fontId="1"/></si>
-ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;</c>;&\\n;g'
+ueda@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;</c>;&\\n;g'
 <c r="A1" t="s"><v>0</v></c>
 <c r="B1" t="s"><v>1</v></c>
 <c r="C1" t="s"><v>2</v></c>
@@ -105,9 +105,9 @@ ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | sed 's;</c>;&\\n
 <span style="color:red;font-size:40px">うわああああああああああああ！！！！</span>と興奮することもないですが、結構前立腺肥大しています。サイズは、と・・・
 
 ```bash
-ueda\@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | wc 
+ueda@remote:~/tmp$ cat xl/sharedStrings.xml | hxselect si | wc 
 c-449
-ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | wc 
+ueda@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c | wc 
 c-619
 ```
 

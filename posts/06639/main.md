@@ -17,7 +17,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 <p lang="ja" dir="ltr">シェルしぐさを実践する町人は、その生産性のノンビリさから経営陣の怒りを買い「シェルっ子大虐殺」によりほぼ絶滅した。</p>
  <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E3%81%97%E3%81%90%E3%81%95?src=hash">#シェルしぐさ</a>
 
-— Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/624757888343412737">2015, 7月 25</a></blockquote>
+— Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/624757888343412737">2015, 7月 25</a></blockquote>
 <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 寝る。

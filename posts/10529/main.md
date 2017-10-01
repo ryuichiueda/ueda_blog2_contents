@@ -18,7 +18,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <h3>次女との問答</h3>
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">次女に「イモムシはなんで蝶になるの？」と聞かれ、「遠くに飛べないと結婚相手を探せない」と回答。世知辛い。</p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/911023153366700032">2017年9月22日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">次女に「イモムシはなんで蝶になるの？」と聞かれ、「遠くに飛べないと結婚相手を探せない」と回答。世知辛い。</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/911023153366700032">2017年9月22日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 このツイートの前にFacebookに書いたら反応されまくりで、いろんな人にいろんなことを想起させてしまったので、ネガティブに捉えられても仕方なく、大変申し訳なく。しかし、人間なら結婚するだのしないだのはまだ議論になるが、他の動物が生きている世界は本当にシビアだ。動物たちがどれだけ意識を持っているかは謎だが、人間に例えてしまうと、とてもじゃないけど見れた世界ではない。○○○フレンズとは正反対の世界。

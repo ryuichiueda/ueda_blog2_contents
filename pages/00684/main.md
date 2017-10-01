@@ -110,7 +110,7 @@ Copyright: (C) Ryuichi Ueda
 </ul>
 <h2>第11回</h2>
 <iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px; max-width: 100%;" src="http://www.slideshare.net/slideshow/embed_code/35863341" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
-<div style="margin-bottom: 5px;"><strong> <a title="jus &amp; USP友の会共催 シェルワンライナー勉強会\@関西（第11回シェル芸勉強会）" href="https://www.slideshare.net/ryuichiueda/20140614-jus-uspstudy" target="_blank" rel="noopener">jus &amp; USP友の会共催 シェルワンライナー勉強会\@関西（第11回シェル芸勉強会）</a> </strong> from <strong><a href="http://www.slideshare.net/ryuichiueda" target="_blank" rel="noopener">Ryuichi Ueda</a></strong></div>
+<div style="margin-bottom: 5px;"><strong> <a title="jus &amp; USP友の会共催 シェルワンライナー勉強会@関西（第11回シェル芸勉強会）" href="https://www.slideshare.net/ryuichiueda/20140614-jus-uspstudy" target="_blank" rel="noopener">jus &amp; USP友の会共催 シェルワンライナー勉強会@関西（第11回シェル芸勉強会）</a> </strong> from <strong><a href="http://www.slideshare.net/ryuichiueda" target="_blank" rel="noopener">Ryuichi Ueda</a></strong></div>
 <h2>第10回</h2>
 <ul>
  	<li>問題のみ：<a href="/?post=02627">/?p=2627</a></li>

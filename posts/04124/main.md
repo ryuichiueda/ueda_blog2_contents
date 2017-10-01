@@ -48,7 +48,7 @@ make: `h27_kiban_c.pdf' is up to date.
 
 あとは、<a href="https://itunes.apple.com/jp/app/plaintext-2/id769101727?mt=8" target="_blank">PlainText 2</a>か何かでtexファイルを編集します。pdfはiPhoneのDropBoxで確認すればよいでしょう。あ、iPhone側にもDropBoxが必要ですね。
 
-<s>問題は、「pdfが更新されない」ということからエラーを察知しなければならないことです。初心者には辛いかもしれません。何か改善策があれば\@ryuichiuedaまでご報告を。</s>
+<s>問題は、「pdfが更新されない」ということからエラーを察知しなければならないことです。初心者には辛いかもしれません。何か改善策があれば@ryuichiuedaまでご報告を。</s>
 ↑DropBoxからLaTeXの吐いたログ見ればいいですね。
 
 

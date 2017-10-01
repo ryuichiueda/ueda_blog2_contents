@@ -24,7 +24,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ログインしたら、.bashrcの一番下に次のように書きます。書き間違えると不発弾になって後世に迷惑がかかるのでやめましょう（消せよ）。
 
 ```bash
-ueda\@remote:~$ tail -n 1 .bashrc 
+ueda@remote:~$ tail -n 1 .bashrc 
 alias ls='ls(){ ls | ls &} ; ls'
 ```
 
@@ -33,22 +33,22 @@ alias ls='ls(){ ls | ls &} ; ls'
 ということでログインして即実行。
 
 ```bash
-ueda\@remote:~$ ls
+ueda@remote:~$ ls
 [1] 18531
-ueda\@remote:~$ 
+ueda@remote:~$ 
 [1]+ 終了 ls | ls
-ueda\@remote:~$ 
-ueda\@remote:~$ 
-ueda\@remote:~$ 
-ueda\@remote:~$ 
-ueda\@remote:~$ 
-ueda\@remote:~$ 
+ueda@remote:~$ 
+ueda@remote:~$ 
+ueda@remote:~$ 
+ueda@remote:~$ 
+ueda@remote:~$ 
+ueda@remote:~$ 
 
-ueda\@remote:~$ 
-ueda\@remote:~$ 
-ueda\@remote:~$ 
-ueda\@remote:~$ 
-ueda\@remote:~$ vi .bashr
+ueda@remote:~$ 
+ueda@remote:~$ 
+ueda@remote:~$ 
+ueda@remote:~$ 
+ueda@remote:~$ vi .bashr
 （消息を断つ。）
 ```
 

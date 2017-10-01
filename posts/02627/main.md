@@ -70,7 +70,7 @@ $ cat nums
 文字数を数えてください。改行記号は数えないでください。
 
 ```bash
-ueda\@remote:~$ cat genkou
+ueda@remote:~$ cat genkou
 筆者は朝、目玉焼きを食べた。
 昼、著者は卵がけごはんを食べた。
 そして夜、著者はマンハッタンの夜景を
@@ -83,7 +83,7 @@ ueda\@remote:~$ cat genkou
 次のようなファイルを作り、ファイルの中に三個存在する文字を出力してください。
 
 ```bash
-ueda\@remote:~$ cat hoge
+ueda@remote:~$ cat hoge
 aabbcdabbcccdd
 ```
 

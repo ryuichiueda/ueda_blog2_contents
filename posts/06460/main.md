@@ -11,7 +11,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ソフ◯ップ的な衝立があったので、B級グラビアアイドルの真似をしてみたが、なんとなく不発。
 
-<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">某ソフ○ップ <a href="https://twitter.com/hashtag/junkudo?src=hash">#junkudo</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> <a href="http://t.co/pyje7aiWDF">pic.twitter.com/pyje7aiWDF</a></p>&mdash; Mitzyuki - 転職先絶賛募集中 (\@bsdhack) <a href="https://twitter.com/bsdhack/status/611508630534270977">2015, 6月 18</a></blockquote>
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">某ソフ○ップ <a href="https://twitter.com/hashtag/junkudo?src=hash">#junkudo</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> <a href="http://t.co/pyje7aiWDF">pic.twitter.com/pyje7aiWDF</a></p>&mdash; Mitzyuki - 転職先絶賛募集中 (@bsdhack) <a href="https://twitter.com/bsdhack/status/611508630534270977">2015, 6月 18</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 さて、トークショーの中でも池本さんから話がありましたSoftwareDesign7月号ですが、久々に薄口一行感想文をやってみたいと思います。単なる独り言です。1行です。自己満足です。期待しないでください。

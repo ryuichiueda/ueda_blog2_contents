@@ -36,7 +36,7 @@ uedambp:~ ueda$ find ~/ -type f | grep -i '\\.jpg$' | sed 's/.*/"&"/' |
 xargs -n 1 gmd5sum | LANG=C sort -s -k1,1 |
 awk '{if(a==$1){print b;print $0}a=$1;b=$0}'
 ###Linuxの場合（さらにルートから検索をかけてみる）###
-ueda\@remote:~$ sudo find / -type f | grep -i '\\.jpg$' | sed 's/.*/"&"/' | 
+ueda@remote:~$ sudo find / -type f | grep -i '\\.jpg$' | sed 's/.*/"&"/' | 
 sudo xargs -n 1 md5sum | LANG=C sort -s -k1,1 | 
 awk '{if(a==$1){print b;print $0}a=$1;b=$0}'
 ...
@@ -45,7 +45,7 @@ c2979e8ed193969aa9e6c2a1438b696b /home/ueda/chinjyu.jpg
 f1c3a09b784cc5a55bb820aaa873c79f /var/tmp/GIT/SD_BOOK/IMAGE/noodle.jpg
 f1c3a09b784cc5a55bb820aaa873c79f /home/ueda/GIT/SD_BOOK/IMAGE/noodle.jpg
 ###Open usp Tukubai使用###
-ueda\@remote:~$ sudo find / -type f | grep -i '\\.jpg$' | sed 's/.*/"&"/' | 
+ueda@remote:~$ sudo find / -type f | grep -i '\\.jpg$' | sed 's/.*/"&"/' | 
 sudo xargs -n 1 md5sum | LANG=C sort -s -k1,1 | yarr num=1 | awk 'NF>2'
 ```
 

@@ -10,7 +10,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 [amazonjs asin="B018R7G4XY" locale="JP" title="日経Linux(リナックス)2016年2月号"]
 
-<h2>RoboCup \@Homeに参加するロボットが動きました</h2>
+<h2>RoboCup @Homeに参加するロボットが動きました</h2>
 
 このロボット、名前がまだない。
 

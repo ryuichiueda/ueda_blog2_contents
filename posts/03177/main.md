@@ -25,7 +25,7 @@ uedambp:VirtualBox VMs ueda$ VBoxManage clonevm コピー元 --mode machine --na
 
 こんばんは。シェル芸勉強会でないシェル勉強会に興味シンシンの上田です。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>シェル芸じゃないシェルの勉強会来たけどここ前にシェル芸勉強会やったとこだｗ <a href="https://twitter.com/search?q=%23nanapi_study&amp;src=hash">#nanapi_study</a></p>&mdash; Kei Iwasaki (\@laugh_k) <a href="https://twitter.com/laugh_k/statuses/471959638506602496">May 29, 2014</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>シェル芸じゃないシェルの勉強会来たけどここ前にシェル芸勉強会やったとこだｗ <a href="https://twitter.com/search?q=%23nanapi_study&amp;src=hash">#nanapi_study</a></p>&mdash; Kei Iwasaki (@laugh_k) <a href="https://twitter.com/laugh_k/statuses/471959638506602496">May 29, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ややこしい。

@@ -85,11 +85,11 @@ bsd /home/ueda<span class="nv">$ </span>uname -a
 FreeBSD bsd.hoge.hoge 9.0-RELEASE FreeBSD 9.0-RELEASE <span class="c">#0: (略)</span>
 
 //3. VPS上のUSP友の会サーバ（tomonokai）
-<span class="o">[</span>ueda\@tomonokai ~<span class="o">]</span><span class="nv">$ </span>cat /etc/redhat-release
+<span class="o">[</span>ueda@tomonokai ~<span class="o">]</span><span class="nv">$ </span>cat /etc/redhat-release
 CentOS release 6.3 <span class="o">(</span>Final<span class="o">)</span>
 
 //4. ビジネス版Tukubaiが使えるサーバ（usp）
-<span class="o">[</span>ueda\@usp ~<span class="o">]</span><span class="nv">$ </span>cat /etc/redhat-release
+<span class="o">[</span>ueda@usp ~<span class="o">]</span><span class="nv">$ </span>cat /etc/redhat-release
 CentOS release 5.9 <span class="o">(</span>Final<span class="o">)</span>
 </pre></div>
 </td></tr></table></div>
@@ -146,7 +146,7 @@ ssh接続の鍵認証の方法について触れておきます。
 5</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">#macからUSP友の会のサーバにちょっかいを出す</span>
 uedamac:~ ueda<span class="nv">$ </span><span class="nb">echo </span>aho &gt; /dev/tcp/www.usptomo.com/80
 <span class="c">#USP友の会のサーバのログに記録が残る</span>
-<span class="o">[</span>root\@tomonokai ~<span class="o">]</span><span class="c"># tail -n 1 /var/log/httpd/access_log</span>
+<span class="o">[</span>root@tomonokai ~<span class="o">]</span><span class="c"># tail -n 1 /var/log/httpd/access_log</span>
 123.234.aa.bb - - <span class="o">[</span>03/Mar/2013:00:58:21 +0900<span class="o">]</span> <span class="s2">&quot;aho&quot;</span> 301 231 <span class="s2">&quot;-&quot;</span> <span class="s2">&quot;-&quot;</span>
 </pre></div>
 </td></tr></table></div>
@@ -190,12 +190,12 @@ bashからテキストを投げて、 <tt class="docutils literal"><span class="
 8
 9</pre></div></td><td class="code"><div class="highlight"><pre>//先に nc で受信側のポートを開いておく
 //ncが立ち上がったままになる
-<span class="o">[</span>ueda\@tomonokai ~<span class="o">]</span><span class="nv">$ </span>nc -l 10000 &gt; hoge
+<span class="o">[</span>ueda@tomonokai ~<span class="o">]</span><span class="nv">$ </span>nc -l 10000 &gt; hoge
 
 //データを投げる
 uedamac:~ ueda<span class="nv">$ </span><span class="nb">echo</span> ひえええええ &gt; /dev/tcp/www.usptomo.com/10000
 //ncが終わって、hogeの中に文字列が
-<span class="o">[</span>ueda\@tomonokai ~<span class="o">]</span><span class="nv">$ </span>cat hoge
+<span class="o">[</span>ueda@tomonokai ~<span class="o">]</span><span class="nv">$ </span>cat hoge
 ひえええええ
 </pre></div>
 </td></tr></table></div>
@@ -231,7 +231,7 @@ uedamac:~ ueda<span class="nv">$ </span><span class="nb">echo</span> ひええ�
 25
 26
 27
-28</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>ueda\@tomonokai ~<span class="o">]</span><span class="nv">$ </span>cat file.sh
+28</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>ueda@tomonokai ~<span class="o">]</span><span class="nv">$ </span>cat file.sh
 <span class="c">#!/bin/bash</span>
 
 mkdir -p ./tmp/
@@ -242,15 +242,15 @@ mkdir -p ./tmp/
 <span class="k">done</span>
 
 //立ち上げる
-<span class="o">[</span>ueda\@tomonokai ~<span class="o">]</span><span class="nv">$ </span>./file.sh
+<span class="o">[</span>ueda@tomonokai ~<span class="o">]</span><span class="nv">$ </span>./file.sh
 //送る
 uedamac:~ ueda<span class="nv">$ </span><span class="nb">echo</span> ひえええええ &gt; /dev/tcp/www.usptomo.com/10000
 uedamac:~ ueda<span class="nv">$ </span><span class="nb">echo</span> どひぇー &gt; /dev/tcp/www.usptomo.com/10000
 uedamac:~ ueda<span class="nv">$ </span><span class="nb">echo </span>NOOO! &gt; /dev/tcp/www.usptomo.com/10000
 //Ctrl+cしてファイルができていることを確認
-<span class="o">[</span>ueda\@tomonokai ~<span class="o">]</span><span class="nv">$ </span>./file.sh
+<span class="o">[</span>ueda@tomonokai ~<span class="o">]</span><span class="nv">$ </span>./file.sh
 ^C
-<span class="o">[</span>ueda\@tomonokai ~<span class="o">]</span><span class="nv">$ </span>head ./tmp/<span class="o">{</span>1,2,3<span class="o">}</span>.txt
+<span class="o">[</span>ueda@tomonokai ~<span class="o">]</span><span class="nv">$ </span>head ./tmp/<span class="o">{</span>1,2,3<span class="o">}</span>.txt
 <span class="o">==</span>&gt; ./tmp/1.txt &lt;<span class="o">==</span>
 ひえええええ
 
@@ -326,7 +326,7 @@ user時間はほとんどゼロです。</p>
 6
 7
 8</pre></div></td><td class="code"><div class="highlight"><pre>//受信側で待ち受け
-<span class="o">[</span>ueda\@tomonokai ~<span class="o">]</span><span class="nv">$ </span>nc -l 10000 &gt; TESTDATA
+<span class="o">[</span>ueda@tomonokai ~<span class="o">]</span><span class="nv">$ </span>nc -l 10000 &gt; TESTDATA
 //送信
 bsd /home/ueda<span class="nv">$ </span><span class="nb">time </span>cat TESTDATA &gt; /dev/tcp/www.usptomo.com/10000
 
@@ -357,7 +357,7 @@ sys 10m22.737s
 5
 6
 7</pre></div></td><td class="code"><div class="highlight"><pre>//友の会サーバで10000番ポートからファイルへリダイレクト
-<span class="o">[</span>ueda\@tomonokai ~<span class="o">]</span><span class="nv">$ </span>nc -l 10000 &gt; TESTDATA
+<span class="o">[</span>ueda@tomonokai ~<span class="o">]</span><span class="nv">$ </span>nc -l 10000 &gt; TESTDATA
 //bsdサーバで9999番ポートからの出力をteeでファイルにためながら
 //友の会サーバにリダイレクト
 bsd /home/ueda<span class="nv">$ </span>nc -l 9999 | tee TESTDATA &gt; /dev/tcp/www.usptomo.com/10000

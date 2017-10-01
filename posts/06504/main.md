@@ -12,7 +12,7 @@ sed -i.bak -e 's/。/. /g' -e 's/、/, /g' rsj2015.tex
 platex rsj2015.tex
 ...
 
-— Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/614314872311037952">2015, 6月 26</a></blockquote>
+— Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/614314872311037952">2015, 6月 26</a></blockquote>
 <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 研究者は普通、デフォルトで句読点を「, .」（カンマとピリオド）にしてますが、私のようなエセの場合、学術的な文章とそうでない文章が半々で使い分けないといけません。1日に何度も切り替えるのも馬鹿馬鹿しいので、普段は「、。」で書いて、論文もそのまま「、。」で書いて後でvimで変換してました。ただ、これだと論文を出すときに変換忘れをやらかしそうでなんか落ち着きません。

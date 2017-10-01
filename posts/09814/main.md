@@ -7,7 +7,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 本日発売です。bashのマニアック機能について<span style="color: #ff0000;">「使うなよ！絶対使うなよ！！」</span>というテイストで書きました。
 <blockquote class="twitter-tweet" data-lang="ja">
 <p dir="ltr" lang="ja">本日発売。8ページくらい書きました！！ | Software Design 2017年7月号 <a href="https://twitter.com/hashtag/gihyojp?src=hash">#gihyojp</a> <a href="https://t.co/U3DL5g10Ys">https://t.co/U3DL5g10Ys</a></p>
-— Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/875863176432074752">2017年6月16日</a></blockquote>
+— Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/875863176432074752">2017年6月16日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 で、宣伝部分だと味気ないので、調子に乗って書きすぎて掲載できなかった部分をあまり加工せずに貼り付けておきまっす。bash3.2とbash4.4で挙動の違う例、4.0以降の新機能の例です。

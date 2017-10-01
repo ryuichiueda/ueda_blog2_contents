@@ -8,7 +8,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <!--more-->
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p><a href="https://twitter.com/ryuichiueda">\@ryuichiueda</a> <a href="https://twitter.com/hashtag/rumin?src=hash">#rumin</a> コンピャールスクリプトを直してみました。よろしければcloneをし直して頂くかrake cleanを実行した上でお試しください。(´；ω；｀)&#10;相変わらずインストーラとか無いです。。。</p>&mdash; kazuhide (\@kzhd15med3t) <a href="https://twitter.com/kzhd15med3t/status/554656065938153472">January 12, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p><a href="https://twitter.com/ryuichiueda">@ryuichiueda</a> <a href="https://twitter.com/hashtag/rumin?src=hash">#rumin</a> コンピャールスクリプトを直してみました。よろしければcloneをし直して頂くかrake cleanを実行した上でお試しください。(´；ω；｀)&#10;相変わらずインストーラとか無いです。。。</p>&mdash; kazuhide (@kzhd15med3t) <a href="https://twitter.com/kzhd15med3t/status/554656065938153472">January 12, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ・・・ダメだったのでissue投げておきました。大変でしょうが・・・。とにかく何がきっかけでプロジェクトに勢いがつくか、あるいは勢いがつくきっかけを失うかは、こういうことにかかっていたりするので・・・。
@@ -19,7 +19,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 そして、見落としてたのですがこんな嬉しいツイートがありました。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>GlueLang syntax highlight &amp; indenting plugin for Vim&#10;GlueLangお試し中なので... とりあえず&#10;<a href="https://t.co/phWD6GN4u6">https://t.co/phWD6GN4u6</a> <a href="https://twitter.com/hashtag/gluelang?src=hash">#gluelang</a></p>&mdash; CORDEA (\@_Cordea) <a href="https://twitter.com/_Cordea/status/553081150906720256">January 8, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>GlueLang syntax highlight &amp; indenting plugin for Vim&#10;GlueLangお試し中なので... とりあえず&#10;<a href="https://t.co/phWD6GN4u6">https://t.co/phWD6GN4u6</a> <a href="https://twitter.com/hashtag/gluelang?src=hash">#gluelang</a></p>&mdash; CORDEA (@_Cordea) <a href="https://twitter.com/_Cordea/status/553081150906720256">January 8, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 インストールは<a href="https://github.com/Shougo/neobundle.vim" target="_blank">NeoBundle</a>を使うようですが、ここではマニュアルでのインストール方法を。

@@ -10,7 +10,7 @@ Copyright: (C) Ryuichi Ueda
 <h2>講義資料</h2>
 
 <ul>
-	<li><a href="/?presenpress=jtf2016%e6%89%8b%e9%a0%86%e3%83%a1%e3%83%a2">ROSハンズオン\@JTF2016</a></li>
+	<li><a href="/?presenpress=jtf2016%e6%89%8b%e9%a0%86%e3%83%a1%e3%83%a2">ROSハンズオン@JTF2016</a></li>
 	<ul>
 		<li>2016年7月24日産業技術大学院大学にて</li>
 	</ul>

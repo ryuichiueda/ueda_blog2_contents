@@ -7,11 +7,11 @@ Copyright: (C) 2017 Ryuichi Ueda
 <h3>ソフトウェアデザイン</h3>
 完読を目指していて不意を突かれる。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">な、なんじゃこりゃあ！！！wwwwwww<a href="https://twitter.com/hashtag/gihyosd?src=hash">#gihyosd</a> 10月号 <a href="https://t.co/FxSbJDbTwK">pic.twitter.com/FxSbJDbTwK</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/912290811408113664">2017年9月25日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">な、なんじゃこりゃあ！！！wwwwwww<a href="https://twitter.com/hashtag/gihyosd?src=hash">#gihyosd</a> 10月号 <a href="https://t.co/FxSbJDbTwK">pic.twitter.com/FxSbJDbTwK</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/912290811408113664">2017年9月25日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 小林さんのレポート、名文でした。（またお願いしたいです。）
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">「容赦なく環境を破壊して研究する大阪」 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> <a href="https://twitter.com/hashtag/%E5%A4%A7%E9%98%AA?src=hash">#大阪</a> <a href="https://twitter.com/hashtag/%E7%A0%B4%E5%A3%8A?src=hash">#破壊</a> <a href="https://twitter.com/hashtag/%E5%8D%B1%E9%99%BA?src=hash">#危険</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/912292772555636736">2017年9月25日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">「容赦なく環境を破壊して研究する大阪」 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> <a href="https://twitter.com/hashtag/%E5%A4%A7%E9%98%AA?src=hash">#大阪</a> <a href="https://twitter.com/hashtag/%E7%A0%B4%E5%A3%8A?src=hash">#破壊</a> <a href="https://twitter.com/hashtag/%E5%8D%B1%E9%99%BA?src=hash">#危険</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/912292772555636736">2017年9月25日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ↓買いましょう。
 

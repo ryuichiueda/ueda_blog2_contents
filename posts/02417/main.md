@@ -13,17 +13,17 @@ Copyright: (C) 2017 Ryuichi Ueda
 ###Mac###
 uedambp:~ ueda$ brew install html-xml-utils
 ###Ubuntu###
-root\@remote:~# apt-get install html-xml-utils
+root@remote:~# apt-get install html-xml-utils
 ```
 
 <!--more-->
 
 んで、昨日の記事では「c」という要素を無理矢理grepで引っ張りだしてましたが、hxselectというコマンドを使うと脳みその負荷が大幅に減ります。
 ```bash
-ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c
+ueda@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c
 <c r="A1"><v>1</v></c><c r="A2"><v>2</v></c><c r="A3"><v>3</v></c><c 
-r="A4"><v>-4.2300000000000004</v></c>ueda\@remote:~/tmp$
-ueda\@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c |
+r="A4"><v>-4.2300000000000004</v></c>ueda@remote:~/tmp$
+ueda@remote:~/tmp$ cat xl/worksheets/sheet1.xml | hxselect c |
  sed 's;</c>;&\\n;g'
 <c r="A1"><v>1</v></c>
 <c r="A2"><v>2</v></c>

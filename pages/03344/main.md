@@ -4,7 +4,7 @@ Copyright: (C) Ryuichi Ueda
 
 
 # 正誤表 | シェルスクリプト高速開発技術入門
-通報先: <a href="https://twitter.com/ryuichiueda" target="_blank">\@ryuichiueda</a>まで！
+通報先: <a href="https://twitter.com/ryuichiueda" target="_blank">@ryuichiueda</a>まで！
 
 <ul>
  <li><a href="#code">コードのまずいところ</a></li>
@@ -86,28 +86,28 @@ curl -H "Authorization: OAuth
  <td>38ページの箇条書きの2番目</td>
  <td>● #PasswordAuthentication yes の#を外してno をyes に変更</td>
  <td>● #PasswordAuthentication yes の#を外してyes をno に変更</td>
- <td><a href="https://twitter.com/ttaniguti" target="_blank">\@ttaniguti</a>様</td>
+ <td><a href="https://twitter.com/ttaniguti" target="_blank">@ttaniguti</a>様</td>
  <td>文脈で誤り訂正できると信じております・・・</td>
  </tr>
  <tr>
  <td>136ページの図4-3</td>
  <td>解像度が低い</td>
  <td><a href="index4output.png">こちらでご確認を。</a></td>
- <td><a href="https://twitter.com/mutz0623" target="_blank">\@mutz0623</a>様</td>
+ <td><a href="https://twitter.com/mutz0623" target="_blank">@mutz0623</a>様</td>
  <td>なぜこうなった？</td>
  </tr>
  <tr>
  <td>277ページのconvert -auto-orientの索引</td>
  <td>-outo-orient</td>
  <td>-auto-orient</td>
- <td><a href="https://twitter.com/maripogoda" target="_blank">\@MaripoGoda</a>閣下</td>
+ <td><a href="https://twitter.com/maripogoda" target="_blank">@MaripoGoda</a>閣下</td>
  <td>これはAUTO（文字通り）</td>
  </tr>
  <tr>
  <td>271ページ最下行の「~/list」</td>
  <td>どこにも作った形跡がない</td>
  <td>これは記事のリストなので、「$ cat out | self 1 | sort | uniq > list」で作成します。</td>
- <td><a href="https://twitter.com/papiron" target="_blank">\@papiron</a>さん</td>
+ <td><a href="https://twitter.com/papiron" target="_blank">@papiron</a>さん</td>
  <td>ごめんなさいごめんなさい。</td>
  </tr>
 </table>
@@ -116,7 +116,7 @@ curl -H "Authorization: OAuth
 
 <ul>
  <li>p. 193でリンク切れしていると言及したTwitterクライアント
-<p>作者様（<a href="https://twitter.com/mutuki" target="_blank">\@mutuki</a>さん）より連絡いただきました。現在は下記のURLから閲覧・利用可能です。</p>
+<p>作者様（<a href="https://twitter.com/mutuki" target="_blank">@mutuki</a>さん）より連絡いただきました。現在は下記のURLから閲覧・利用可能です。</p>
  <ul>
  <li><a href="http://mutuki.github.io/Shellscriptter/" target="_blank">http://mutuki.github.io/Shellscriptter/</a></li>
  </ul>

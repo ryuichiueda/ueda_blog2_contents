@@ -36,7 +36,7 @@ USP Magazineの「シェル芸勉強会後追い企画 Haskellでやってはい
 
 ```bash
 ###Ubuntu###
-ueda\@ubuntu:~$ sudo apt-get install haskell-platform
+ueda@ubuntu:~$ sudo apt-get install haskell-platform
 ###Mac###
 uedamac:~ ueda$ brew install haskell-platform
 ```

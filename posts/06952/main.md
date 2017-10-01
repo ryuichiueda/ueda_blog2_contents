@@ -12,7 +12,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 そんな、クソにも役に立たない不特定多数への説教を考えていたところ、飛び込んで来たこのツイート。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">目cat | 目grep</p>&mdash; 多糖類∠120° (\@pectin0x) <a href="https://twitter.com/pectin0x/status/641593686405574656">September 9, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">目cat | 目grep</p>&mdash; 多糖類∠120° (@pectin0x) <a href="https://twitter.com/pectin0x/status/641593686405574656">September 9, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 たぶん、目でファイルを見て目で検索して疲れたという趣旨なんでしょうが、私には「目cat」の部分の「目」がプロンプトに見えたわけです。ならば仕方がない。今日は一日、プロンプトを「目」にしよう。仕方がない。
@@ -34,7 +34,7 @@ export PS1="目 "
 目 grep "Linux" *.tex | head
 contents.tex:		\\item Linuxのデバイスドライバ
 contents.tex:\\frametitle{Linuxのデバイスドライバ}
-contents.tex:Version: Linux version 4.1.6-v7+ (root\@raspberrypi) (gcc version 4.6.3
+contents.tex:Version: Linux version 4.1.6-v7+ (root@raspberrypi) (gcc version 4.6.3
 ```
 
 
@@ -66,11 +66,11 @@ Fast-forward
 はっきり言ってつまらないので、次は大技。Raspberry Piシャットダウン後に流れるように目プロンプトに帰還。通信が切れた後、おもむろに一言「<a href="https://ja.wikipedia.org/wiki/%E3%82%81%E7%B5%84%E3%81%AE%E3%81%B2%E3%81%A8">目</a>」と出てきます。まるでラッツアンドスターです。
 
 ```bash
-pi\@raspberrypi ~/RPiM $ sudo shutdown -h now
+pi@raspberrypi ~/RPiM $ sudo shutdown -h now
 
-Broadcast message from root\@raspberrypi (pts/0) (Sat Aug 22 17:25:19 2015):
+Broadcast message from root@raspberrypi (pts/0) (Sat Aug 22 17:25:19 2015):
 The system is going down for system halt NOW!
-pi\@raspberrypi ~/RPiM $ Connection to 192.168.2.100 closed by remote host.
+pi@raspberrypi ~/RPiM $ Connection to 192.168.2.100 closed by remote host.
 Connection to 192.168.2.100 closed.
 目 
 ```

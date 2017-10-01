@@ -20,7 +20,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 例えばこういうシェルスクリプトを書きます。$$は自分のプロセスIDで、その下のstatというファイルをcatする単純なものです。
 ```bash
-ueda\@remote:~/tmp$ cat hoge.bash
+ueda@remote:~/tmp$ cat hoge.bash
 #!/bin/bash
 
 cat /proc/$$/stat
@@ -28,14 +28,14 @@ cat /proc/$$/stat
 
 動かす前にシェルのプロセスIDを調べてみましょう。
 ```bash
-ueda\@remote:~/tmp$ echo $$
+ueda@remote:~/tmp$ echo $$
 30202
 ```
 30202です。
 
 ではシェルスクリプトを実行してみます。
 ```bash
-ueda\@remote:~/tmp$ ./hoge.bash 
+ueda@remote:~/tmp$ ./hoge.bash 
 32722 (hoge.bash) S 30202 32722 30202 34816 32722 4202496 437 0 0 0 0 0 0 0 20 0 1 0 465549287 12263424 300 18446744073709551615 4194304 5111460 140734168949024 140734168947600 140156932455566 0 65536 4 65538 18446744071579287524 0 0 17 1 0 0 0 0 0
 ```
 4列目に30202がいます。
@@ -45,14 +45,14 @@ ueda\@remote:~/tmp$ ./hoge.bash
 次のような二つのシェルスクリプトを準備します。parent.bashはchild.bashを立ち上げた後、5秒後に終わっちまいます。一方、child.bashは1秒置きに自分のプロセスのstatファイルを監視します。本に書いている通りなら5秒後に親のプロセスIDがinitの1に変化するはずです。
 
 ```bash
-ueda\@remote:~/tmp$ cat parent.bash 
+ueda@remote:~/tmp$ cat parent.bash 
 #!/bin/bash
 
 echo PARENT_ID: $$
 ./child.bash &
 
 sleep 5
-ueda\@remote:~/tmp$ cat child.bash 
+ueda@remote:~/tmp$ cat child.bash 
 #!/bin/bash
 
 for n in {1..10} ; do
@@ -64,20 +64,20 @@ done
 実行！
 
 ```bash
-ueda\@remote:~/tmp$ ./parent.bash 
+ueda@remote:~/tmp$ ./parent.bash 
 PARENT_ID: 619
 619
 619
 619
 619
 619
-ueda\@remote:~/tmp$ 1 <- parent.bashが終わる
+ueda@remote:~/tmp$ 1 <- parent.bashが終わる
 1
 1
 1
 1
 
-ueda\@remote:~/tmp$ 
+ueda@remote:~/tmp$ 
 ```
 
 うまくいった！！！！

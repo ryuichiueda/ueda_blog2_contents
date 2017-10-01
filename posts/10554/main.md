@@ -26,7 +26,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ラゾーナにおいて、イギリスの産んだ鉄道事故と意地悪の頻発する番組である機関車トーマスのトーマスでない何か（我らが川崎球場をフランチャイズとするロッテオリオンズの落合選手と同じ6番）に搭乗。あっという間に200円飲まれる。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">本日は家族サービス辛すぎた。200円払って辱めを甘受 <a href="https://t.co/gMXiHOAvVl">pic.twitter.com/gMXiHOAvVl</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/911942409981853698">2017年9月24日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">本日は家族サービス辛すぎた。200円払って辱めを甘受 <a href="https://t.co/gMXiHOAvVl">pic.twitter.com/gMXiHOAvVl</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/911942409981853698">2017年9月24日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 こんなクソゆるいことをしでかして錯乱状態になってしまったが、今少し仕事をして落ち着きを取り戻したという状況。この漫画を思い出した。
 

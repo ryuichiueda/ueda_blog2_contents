@@ -313,14 +313,14 @@ AWKでは、物の個数はなんでも1から数えます。
  9
 10
 11
-12</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@uedadsk:~/GIT/SD_GENKOU/201303<span class="nv">$ </span>cat file1
+12</pre></div></td><td class="code"><div class="highlight"><pre>ueda@uedadsk:~/GIT/SD_GENKOU/201303<span class="nv">$ </span>cat file1
 001 aaa 123
 003 bbb 234
-ueda\@uedadsk:~/GIT/SD_GENKOU/201303<span class="nv">$ </span>cat file2
+ueda@uedadsk:~/GIT/SD_GENKOU/201303<span class="nv">$ </span>cat file2
 001 AAA
 002 BBB
 004 CCC
-ueda\@uedadsk:~/GIT/SD_GENKOU/201303<span class="nv">$ </span>loopj <span class="nv">num</span><span class="o">=</span>1 file1 file2
+ueda@uedadsk:~/GIT/SD_GENKOU/201303<span class="nv">$ </span>loopj <span class="nv">num</span><span class="o">=</span>1 file1 file2
 001 aaa 123 AAA
 002 0 0 BBB
 003 bbb 234 0

@@ -34,32 +34,32 @@ baibai.cとMakefileが必要なファイルの全てです。あとはmakeとか
 動かしてみましょう。入力した数字を倍にして返します。ただ、このデバイスは少々不機嫌なのでちょっとでも入力がイレギュラーだと0を返してきます。あ、事故ってもごめんなさいしか言えませんのでご容赦ください。
 
 ```bash
-ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ make
+ueda@remote:~/GIT/PseudoDevice/BaiBaiDevice$ make
 make -C /usr/src/linux-headers-`uname -r` M=`pwd` V=1 modules
 make[1]: ディレクトリ `/usr/src/linux-headers-3.2.0-53-generic' に入ります
 （なんかすごいたくさんログ）
  ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.2.0-53-generic/scripts/module-common.lds --build-id -o /home/ueda/GIT/PseudoDevice/BaiBaiDevice/baibai.ko /home/ueda/GIT/PseudoDevice/BaiBaiDevice/baibai.o /home/ueda/GIT/PseudoDevice/BaiBaiDevice/baibai.mod.o
 make[1]: ディレクトリ `/usr/src/linux-headers-3.2.0-53-generic' から出ます
-ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ 
+ueda@remote:~/GIT/PseudoDevice/BaiBaiDevice$ 
 ###make installでも設定できますが手動で###
 ###mknodでデバイスファイルを作る###
-ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ sudo mknod /dev/baibai c 0x0123 0
+ueda@remote:~/GIT/PseudoDevice/BaiBaiDevice$ sudo mknod /dev/baibai c 0x0123 0
 ###読み書きできるように###
-ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ sudo chmod 0666 /dev/baibai
+ueda@remote:~/GIT/PseudoDevice/BaiBaiDevice$ sudo chmod 0666 /dev/baibai
 ###モジュールをロード###
-ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ sudo insmod ./baibai.ko
+ueda@remote:~/GIT/PseudoDevice/BaiBaiDevice$ sudo insmod ./baibai.ko
 ###使ってみる###
 ###入力###
-ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ echo 12345 > /dev/baibai 
+ueda@remote:~/GIT/PseudoDevice/BaiBaiDevice$ echo 12345 > /dev/baibai 
 ###出力###
-ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ cat /dev/baibai 
+ueda@remote:~/GIT/PseudoDevice/BaiBaiDevice$ cat /dev/baibai 
 24690
-ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ echo abc > /dev/baibai 
-ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ cat /dev/baibai 
+ueda@remote:~/GIT/PseudoDevice/BaiBaiDevice$ echo abc > /dev/baibai 
+ueda@remote:~/GIT/PseudoDevice/BaiBaiDevice$ cat /dev/baibai 
 0
 ###後始末（慎重に）make uninstallでもできます###
-ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ sudo rmmod ./baibai
-ueda\@remote:~/GIT/PseudoDevice/BaiBaiDevice$ sudo rm -f /dev/baibai
+ueda@remote:~/GIT/PseudoDevice/BaiBaiDevice$ sudo rmmod ./baibai
+ueda@remote:~/GIT/PseudoDevice/BaiBaiDevice$ sudo rm -f /dev/baibai
 ```
 
 このエントリーでは動かすお手伝いをしたまでで、あとは上のURLのサイトに親切な解説があるので、そちらをご参考に。私も勉強になりましたので、感謝申し上げます。<!--:-->

@@ -16,7 +16,7 @@ Copyright: (C) Ryuichi Ueda
  * Copyright (c) 1991, 1993
  *	The Regents of the University of California. All rights reserved.
  * Copyright (c) 1997-2005
- *	Herbert Xu <herbert\@gondor.apana.org.au>. All rights reserved.
+ *	Herbert Xu <herbert@gondor.apana.org.au>. All rights reserved.
  *
  * This code is derived from software contributed to Berkeley by
  * Kenneth Almquist.
@@ -45,7 +45,7 @@ Copyright: (C) Ryuichi Ueda
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  *
- *	\@(#)shell.h	8.2 (Berkeley) 5/4/95
+ *	@(#)shell.h	8.2 (Berkeley) 5/4/95
  */
 
 /*

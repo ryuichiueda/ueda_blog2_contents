@@ -6,7 +6,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 # シェルプログラミング実用テクニックの目次が公開されました（エクシェル芸、斉藤さん、and 鳩）
 シェルプログラミング実用テクニックの情報が少しずつネット上に出てきました。<a href="http://gihyo.jp/book/2015/978-4-7741-7344-3#toc" style="color:red">本日は目次が大公開（& 表紙も御開帳）</a>ということで、これでもうちょい予約が増えるかな、などど目論んでいます。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>Software Designの人気連載「開眼シェルスクリプト」がブラッシュアップして書籍化されました。5月15日発売です！&#10;書籍案内：シェルプログラミング実用テクニック <a href="https://twitter.com/hashtag/gihyojp?src=hash">#gihyojp</a> <a href="http://t.co/trHwoJWkkT">http://t.co/trHwoJWkkT</a></p>&mdash; Takahiro Yoshioka (\@tyoshi99) <a href="https://twitter.com/tyoshi99/status/591484850672046080">April 24, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>Software Designの人気連載「開眼シェルスクリプト」がブラッシュアップして書籍化されました。5月15日発売です！&#10;書籍案内：シェルプログラミング実用テクニック <a href="https://twitter.com/hashtag/gihyojp?src=hash">#gihyojp</a> <a href="http://t.co/trHwoJWkkT">http://t.co/trHwoJWkkT</a></p>&mdash; Takahiro Yoshioka (@tyoshi99) <a href="https://twitter.com/tyoshi99/status/591484850672046080">April 24, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <!--more-->

@@ -6,7 +6,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 # 日記 ---「ファーストクソリプ」考
 本日は、大人気なくイライラが募り、
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>クソリプというのは、つまるところ人の言ったことに対して自分のコンテキストで無理やりリプライすることだと思う。</p>&mdash; Ryuichi UEDA (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/557823461469716480">January 21, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>クソリプというのは、つまるところ人の言ったことに対して自分のコンテキストで無理やりリプライすることだと思う。</p>&mdash; Ryuichi UEDA (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/557823461469716480">January 21, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 とパブリックな場で言ってしまいました。

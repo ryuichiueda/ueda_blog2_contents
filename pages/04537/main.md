@@ -154,7 +154,7 @@ postfixの置くファイルには、先頭に時刻が入っているようで�
 Linuxのdateコマンドなら、こんなふうに変換できます。</p>
 <p>・リスト6: UNIX時間の変換</p>
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span>date -d \@1339304183
+2</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span>date -d @1339304183
 2012年 6月 10日 日曜日 13:56:23 JST
 </pre></div>
 </td></tr></table></div>
@@ -181,9 +181,9 @@ Linuxのdateコマンドなら、こんなふうに変換できます。</p>
 date <span class="o">(</span>GNU coreutils<span class="o">)</span> 8.13
 （略）
 <span class="nv">$ </span>head -n 3 datefile
-\@1339304183
-\@1339305265
-\@1339306807
+@1339304183
+@1339305265
+@1339306807
 <span class="nv">$ </span>head -n 3 datefile | date -f -
 2012年 6月 10日 日曜日 13:56:23 JST
 2012年 6月 10日 日曜日 14:14:25 JST
@@ -246,7 +246,7 @@ date <span class="o">(</span>GNU coreutils<span class="o">)</span> 8.13
 <span class="nb">echo</span> *.*.* |
 tr <span class="s1">&#39; &#39;</span> <span class="s1">&#39;\\n&#39;</span> |
 <span class="k">while </span><span class="nb">read </span>f ; <span class="k">do</span>
-<span class="k"> </span><span class="nv">UNIXTIME</span><span class="o">=</span><span class="s2">&quot;\@&quot;</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$f</span> | awk -F. <span class="s1">&#39;{print $1}&#39;</span><span class="k">)</span>
+<span class="k"> </span><span class="nv">UNIXTIME</span><span class="o">=</span><span class="s2">&quot;@&quot;</span><span class="k">$(</span><span class="nb">echo</span> <span class="nv">$f</span> | awk -F. <span class="s1">&#39;{print $1}&#39;</span><span class="k">)</span>
  <span class="nv">DATE</span><span class="o">=</span><span class="k">$(</span>date -d <span class="nv">$UNIXTIME</span> <span class="s2">&quot;+%Y%m%d&quot;</span><span class="k">)</span>
 
  <span class="o">[</span> -e <span class="s2">&quot;$ddir/$DATE&quot;</span> <span class="o">]</span> <span class="o">||</span> mkdir <span class="nv">$ddir</span>/<span class="nv">$DATE</span>
@@ -361,11 +361,11 @@ sys 0m43.599s
 <span class="nb">echo</span> *.*.* |
 tr <span class="s1">&#39; &#39;</span> <span class="s1">&#39;\\n&#39;</span> |
 <span class="c">#1:ファイル名</span>
-awk -F. <span class="s1">&#39;{print &quot;\@&quot; $1,$0}&#39;</span> &gt; <span class="nv">$tmp</span>-files
+awk -F. <span class="s1">&#39;{print &quot;@&quot; $1,$0}&#39;</span> &gt; <span class="nv">$tmp</span>-files
 <span class="c">#1:UNIX時間 2:ファイル名</span>
 
 <span class="c"># $tmp-filesの例：</span>
-<span class="c">#\@1348117807 1348117807.Vfc03I4670eaM254446.www5276ue.sakura.ne.jp</span>
+<span class="c">#@1348117807 1348117807.Vfc03I4670eaM254446.www5276ue.sakura.ne.jp</span>
 
 <span class="c">######################################</span>
 <span class="c">#ファイルのリストに年月日をくっつける</span>
@@ -549,9 +549,9 @@ grepしてもメールアドレスが取れません。</p>
 3
 4
 5</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span>cat hoge
-From: Ryuichi UEDA &lt;r-ueda\@usp-lab.com&gt;
+From: Ryuichi UEDA &lt;r-ueda@usp-lab.com&gt;
 To: <span class="o">=</span>?ISO-2022-JP?B?GyRCJCokKiQqJCokKiQqJCokKiEqMjYkTyEmISYhJkMvJEAhQSFBIUEbKEI<span class="o">=</span>?<span class="o">=</span>
- <span class="o">=</span>?ISO-2022-JP?B?GyRCIUEhKSEpISkbKEI<span class="o">=</span>?<span class="o">=</span> &lt;watashiha\@dare.com&gt;
+ <span class="o">=</span>?ISO-2022-JP?B?GyRCIUEhKSEpISkbKEI<span class="o">=</span>?<span class="o">=</span> &lt;watashiha@dare.com&gt;
 Content-Type: text/plain; <span class="nv">charset</span><span class="o">=</span>ISO-2022-JP
 </pre></div>
 </td></tr></table></div>
@@ -562,8 +562,8 @@ Content-Type: text/plain; <span class="nv">charset</span><span class="o">=</span
 2
 3
 4</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span>nkf -w hoge
-From: Ryuichi UEDA &lt;r-ueda\@usp-lab.com&gt;
-To: おおおおおおおお！俺は・・・誰だ〜〜〜〜？？？ &lt;watashiha\@dare.com&gt;
+From: Ryuichi UEDA &lt;r-ueda@usp-lab.com&gt;
+To: おおおおおおおお！俺は・・・誰だ〜〜〜〜？？？ &lt;watashiha@dare.com&gt;
 Content-Type: text/plain; <span class="nv">charset</span><span class="o">=</span>ISO-2022-JP
 </pre></div>
 </td></tr></table></div>
@@ -644,11 +644,11 @@ xargs -n 1 nkf -w --overwrite
 4
 5
 6</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span>grep <span class="s2">&quot;^From:&quot;</span> ????????/* | head -n 2
-20120610/1339304183.Vfc03I46017dM943925.sakura1:From: Ryuichi UEDA &lt;r-ueda\@usp-lab.com&gt;
-20120610/1339305265.Vfc03I46062cM458553.sakura1:From: <span class="o">=</span>?ISO-2022-JP?B?R21haWwgGyRCJUEhPCVgGyhC?<span class="o">=</span> &lt;mail-noreply\@google.com&gt;
+20120610/1339304183.Vfc03I46017dM943925.sakura1:From: Ryuichi UEDA &lt;r-ueda@usp-lab.com&gt;
+20120610/1339305265.Vfc03I46062cM458553.sakura1:From: <span class="o">=</span>?ISO-2022-JP?B?R21haWwgGyRCJUEhPCVgGyhC?<span class="o">=</span> &lt;mail-noreply@google.com&gt;
 <span class="nv">$ </span>grep <span class="s2">&quot;^From:&quot;</span> ????????.utf8/* | head -n 2
-20120610.utf8/1339304183.Vfc03I46017dM943925.sakura1:From: Ryuichi UEDA &lt;r-ueda\@usp-lab.com&gt;
-20120610.utf8/1339305265.Vfc03I46062cM458553.sakura1:From: Gmail チーム &lt;mail-noreply\@google.com&gt;
+20120610.utf8/1339304183.Vfc03I46017dM943925.sakura1:From: Ryuichi UEDA &lt;r-ueda@usp-lab.com&gt;
+20120610.utf8/1339305265.Vfc03I46062cM458553.sakura1:From: Gmail チーム &lt;mail-noreply@google.com&gt;
 </pre></div>
 </td></tr></table></div>
 </div>

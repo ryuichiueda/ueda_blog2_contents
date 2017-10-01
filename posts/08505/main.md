@@ -8,10 +8,10 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 Twitterがたまにつながります。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Tweetdeckが普通に使える <a href="https://twitter.com/hashtag/%E4%B8%8A%E6%B5%B7?src=hash">#上海</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/750518402792382465">2016年7月6日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Tweetdeckが普通に使える <a href="https://twitter.com/hashtag/%E4%B8%8A%E6%B5%B7?src=hash">#上海</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/750518402792382465">2016年7月6日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">上海で見たもの: 1) 地下鉄の中でビラを撒いている子供がいて、もらった客が床に落とす。2) 地下鉄でアクティブな乞食。3) 美人</p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/750516626064236545">2016年7月6日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">上海で見たもの: 1) 地下鉄の中でビラを撒いている子供がいて、もらった客が床に落とす。2) 地下鉄でアクティブな乞食。3) 美人</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/750516626064236545">2016年7月6日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 発表は無事終わりました。パワポが100MB以上あってアップできません。ビデオを埋め込んでいるから？？？

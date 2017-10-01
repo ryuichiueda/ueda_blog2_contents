@@ -16,7 +16,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 [amazonjs asin="4839952981" locale="JP" title="確率ロボティクス (プレミアムブックス版)"]
 
-のアルゴリズムと、本に掲載されていない新しいアルゴリズムをjupyter notebookで記述することです。ご存知の方も多いはずですが、確率ロボティクス関係のコードの例は<a href="https://twitter.com/Atsushi_twi" target="_blank">\@Atsushi_twi</a>さんが<a href="http://myenigma.hatenablog.com/entry/20140628/1403956852">Matlabで書いて</a>いらっしゃるので、見比べて参考にしていただければと。図が似ちゃってすみません。
+のアルゴリズムと、本に掲載されていない新しいアルゴリズムをjupyter notebookで記述することです。ご存知の方も多いはずですが、確率ロボティクス関係のコードの例は<a href="https://twitter.com/Atsushi_twi" target="_blank">@Atsushi_twi</a>さんが<a href="http://myenigma.hatenablog.com/entry/20140628/1403956852">Matlabで書いて</a>いらっしゃるので、見比べて参考にしていただければと。図が似ちゃってすみません。
 <h2>目的</h2>
 <ul>
  	<li>講義で使う（予定があるだけでも大学院の後期の講義、とある中部地方の大学での非常勤講師、五月の<a href="http://www.rsj.or.jp/seminar/s105/" target="_blank">ロボット学会のセミナー</a>と色々）</li>

@@ -17,14 +17,14 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 しかし、ほんとみんな素数大好きですね・・・いちお、書いておくとシェル芸で素数を出すときはこれで十分です。
 ```bash
-ueda\@remote:~$ yes | awk '{print NR}' | factor | awk '$NF==2{print $1}'
+ueda@remote:~$ yes | awk '{print NR}' | factor | awk '$NF==2{print $1}'
 ```
 
-<blockquote class="twitter-tweet" lang="ja"><p>これで素数が出るらしい。変態すぎる。<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> <a href="http://t.co/1eUh4e8363">pic.twitter.com/1eUh4e8363</a></p>&mdash; Ryuichi UEDA (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/statuses/495494677366202368">2014, 8月 2</a></blockquote>
+<blockquote class="twitter-tweet" lang="ja"><p>これで素数が出るらしい。変態すぎる。<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> <a href="http://t.co/1eUh4e8363">pic.twitter.com/1eUh4e8363</a></p>&mdash; Ryuichi UEDA (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/statuses/495494677366202368">2014, 8月 2</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" lang="ja"><p>なんだかもう。&#10;&#10;<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> <a href="http://t.co/LAxdW6hLi8">pic.twitter.com/LAxdW6hLi8</a></p>&mdash; Ryuichi UEDA (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/statuses/495495049900089344">2014, 8月 2</a></blockquote>
+<blockquote class="twitter-tweet" lang="ja"><p>なんだかもう。&#10;&#10;<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> <a href="http://t.co/LAxdW6hLi8">pic.twitter.com/LAxdW6hLi8</a></p>&mdash; Ryuichi UEDA (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/statuses/495495049900089344">2014, 8月 2</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" lang="ja"><p>会場から「あーーーっ」という納得の声があがる。なんだこの人たち。&#10;&#10;<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> <a href="http://t.co/UUiKegvaul">pic.twitter.com/UUiKegvaul</a></p>&mdash; Ryuichi UEDA (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/statuses/495495407183466496">2014, 8月 2</a></blockquote>
+<blockquote class="twitter-tweet" lang="ja"><p>会場から「あーーーっ」という納得の声があがる。なんだこの人たち。&#10;&#10;<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> <a href="http://t.co/UUiKegvaul">pic.twitter.com/UUiKegvaul</a></p>&mdash; Ryuichi UEDA (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/statuses/495495407183466496">2014, 8月 2</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

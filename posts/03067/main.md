@@ -9,7 +9,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 <span style="color:red">（追記：cal 2014でいいじゃないか！！！！知らなかったじゃないか！！！！ということでpaste芸＆ <( )芸をお楽しみください。）</span>
 
 ```bash
-ueda\@remote:~$ cat caly 
+ueda@remote:~$ cat caly 
 #!/bin/bash
 
 paste <(cal 1 "$1") <(cal 2 "$1") <(cal 3 "$1")

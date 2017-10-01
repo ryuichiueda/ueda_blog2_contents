@@ -11,14 +11,14 @@ Copyright: (C) 2017 Ryuichi Ueda
 なんとなく設計がおかしかったのでパーサの部分を大幅に書き換えました。これで多項式や逆行列の計算の実装に取りかかれます。
 
 ```bash
-ueda\@ubuntuX201:~/GIT/PMAT$ cat data 
+ueda@ubuntuX201:~/GIT/PMAT$ cat data 
 A 1 2 3
 A 1 2 3
 B -1
 B 1
 B 1
 C 2 3
-ueda\@ubuntuX201:~/GIT/PMAT$ cat data | ./pmat "D=A*B*C*A"
+ueda@ubuntuX201:~/GIT/PMAT$ cat data | ./pmat "D=A*B*C*A"
 A 1 2 3
 A 1 2 3
 B -1
@@ -27,7 +27,7 @@ B 1
 C 2 3
 D 20.0 40.0 60.0
 D 20.0 40.0 60.0
-ueda\@ubuntuX201:~/GIT/PMAT$ cat data | ./pmat "D=2*A*B*C*A"
+ueda@ubuntuX201:~/GIT/PMAT$ cat data | ./pmat "D=2*A*B*C*A"
 A 1 2 3
 A 1 2 3
 B -1
@@ -36,7 +36,7 @@ B 1
 C 2 3
 D 40.0 80.0 120.0
 D 40.0 80.0 120.0
-ueda\@ubuntuX201:~/GIT/PMAT$ cat data | ./pmat "D=A*B*C*A" | ./pmat "E=2*D"
+ueda@ubuntuX201:~/GIT/PMAT$ cat data | ./pmat "D=A*B*C*A" | ./pmat "E=2*D"
 A 1 2 3
 A 1 2 3
 B -1

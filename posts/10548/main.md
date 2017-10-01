@@ -6,7 +6,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 # 講義資料をTwitterとまとめサイトで作ってみた
 久しぶりに雑記じゃない記事。今日はこういうことをした。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">講義資料をまとめサイトで作ってみたけど世界初だろうか？ | ロボットシステム学で使うRaspberry Piのセットアップ - Togetterまとめ <a href="https://t.co/K7Xjnbzk06">https://t.co/K7Xjnbzk06</a> <a href="https://twitter.com/togetter_jp">\@togetter_jp</a>さんから <a href="https://twitter.com/hashtag/robosys2017?src=hash">#robosys2017</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/911579158911664128">September 23, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">講義資料をまとめサイトで作ってみたけど世界初だろうか？ | ロボットシステム学で使うRaspberry Piのセットアップ - Togetterまとめ <a href="https://t.co/K7Xjnbzk06">https://t.co/K7Xjnbzk06</a> <a href="https://twitter.com/togetter_jp">@togetter_jp</a>さんから <a href="https://twitter.com/hashtag/robosys2017?src=hash">#robosys2017</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/911579158911664128">September 23, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 インストール手順は色々地雷があるのでこのような一本道ツイートだと全部網羅できないけど、質問があったら当該のツイートにリプくれという感じになるので、案外いいかもしれない。変にパワポを作るよりも。もちろんパワポより手間はかかりません。

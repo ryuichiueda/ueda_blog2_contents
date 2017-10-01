@@ -68,14 +68,14 @@ GitHubにアップしてあります <a class="footnote-reference" href="#hh1" i
 18
 19
 20</pre></div></td><td class="code"><div class="highlight"><pre>###agesは0〜109（年齢）をランダムに書いたもの###
-ueda\@remote:~/Study1_Q4/data$ head -n 5 ages
+ueda@remote:~/Study1_Q4/data$ head -n 5 ages
 91
 35
 11
 100
 94
 ###ansはagesの度数分布表###
-ueda\@remote:~/Study1_Q4/data$ cat ans
+ueda@remote:~/Study1_Q4/data$ cat ans
 0〜9 9158
 10〜19 9142
 20〜29 9052
@@ -101,11 +101,11 @@ ueda\@remote:~/Study1_Q4/data$ cat ans
 3
 4
 5
-6</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/Study1_Q4</span><span class="o">$</span> <span class="n">cat</span> <span class="n">q1_4_2</span><span class="o">.</span><span class="n">hs</span>
+6</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/Study1_Q4</span><span class="o">$</span> <span class="n">cat</span> <span class="n">q1_4_2</span><span class="o">.</span><span class="n">hs</span>
 <span class="nf">main</span> <span class="ow">=</span> <span class="kr">do</span> <span class="n">cs</span> <span class="ow">&lt;-</span> <span class="n">getContents</span>
  <span class="n">print</span> <span class="p">[</span> <span class="mi">10</span> <span class="o">*</span> <span class="p">(</span> <span class="p">(</span><span class="n">read</span> <span class="n">c</span> <span class="ow">::</span> <span class="kt">Int</span><span class="p">)</span> <span class="p">`</span><span class="n">div</span><span class="p">`</span> <span class="mi">10</span> <span class="p">)</span> <span class="o">|</span> <span class="n">c</span> <span class="ow">&lt;-</span> <span class="n">lines</span> <span class="n">cs</span> <span class="p">]</span>
-<span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/Study1_Q4</span><span class="o">$</span> <span class="n">ghc</span> <span class="n">q1_4_2</span><span class="o">.</span><span class="n">hs</span>
-<span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/Study1_Q4</span><span class="o">$</span> <span class="n">cat</span> <span class="kr">data</span><span class="o">/</span><span class="n">ages</span> <span class="o">|</span> <span class="o">./</span><span class="n">q1_4_2</span> <span class="o">|</span> <span class="n">head</span> <span class="o">-</span><span class="n">c</span> <span class="mi">20</span>
+<span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/Study1_Q4</span><span class="o">$</span> <span class="n">ghc</span> <span class="n">q1_4_2</span><span class="o">.</span><span class="n">hs</span>
+<span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/Study1_Q4</span><span class="o">$</span> <span class="n">cat</span> <span class="kr">data</span><span class="o">/</span><span class="n">ages</span> <span class="o">|</span> <span class="o">./</span><span class="n">q1_4_2</span> <span class="o">|</span> <span class="n">head</span> <span class="o">-</span><span class="n">c</span> <span class="mi">20</span>
 <span class="p">[</span><span class="mi">90</span><span class="p">,</span><span class="mi">30</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">90</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">7</span>
 </pre></div>
 </td></tr></table></div>
@@ -130,14 +130,14 @@ ueda\@remote:~/Study1_Q4/data$ cat ans
 6
 7
 8
-9</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/Study1_Q4$ cat q1_4_3.hs
+9</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/Study1_Q4$ cat q1_4_3.hs
 import Data.List
 
 main = do cs &lt;- getContents
  print $ sort [ (read c :: Int) `div` 10 | c &lt;- lines cs ]
-ueda\@remote:~/Study1_Q4$ ghc q1_4_3.hs
+ueda@remote:~/Study1_Q4$ ghc q1_4_3.hs
 ###とりあえずdat/agesの先頭の10行を渡してみる###
-ueda\@remote:~/Study1_Q4$ head data/ages | ./q1_4_3
+ueda@remote:~/Study1_Q4$ head data/ages | ./q1_4_3
 [0,1,3,7,9,9,9,10,10,10]
 </pre></div>
 </td></tr></table></div>
@@ -196,7 +196,7 @@ ueda\@remote:~/Study1_Q4$ head data/ages | ./q1_4_3
 13
 14
 15
-16</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/Study1_Q4$ cat q1_4_4.hs
+16</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/Study1_Q4$ cat q1_4_4.hs
 import Data.List
 
 main = do cs &lt;- getContents
@@ -209,8 +209,8 @@ count ns = (h,len) : count d
  len = length $ takeWhile (== h) ns
  d = dropWhile (== h) ns
 ###出力###
-ueda\@remote:~/Study1_Q4$ ghc q1_4_4.hs
-ueda\@remote:~/Study1_Q4$ head data/ages | ./q1_4_4
+ueda@remote:~/Study1_Q4$ ghc q1_4_4.hs
+ueda@remote:~/Study1_Q4$ head data/ages | ./q1_4_4
 [(0,1),(1,1),(3,1),(7,1),(9,3),(10,3)]
 </pre></div>
 </td></tr></table></div>
@@ -230,7 +230,7 @@ ueda\@remote:~/Study1_Q4$ head data/ages | ./q1_4_4
  8
  9
 10
-11</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/Study1_Q4$ ghci
+11</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/Study1_Q4$ ghci
 Prelude&gt; let ns = [0,0,1,2]
 ###takeWhileは関数にマッチするまでの要素を取り出す###
 Prelude&gt; takeWhile (== 0) ns
@@ -280,7 +280,7 @@ takeWhile :: (a -&gt; Bool) -&gt; [a] -&gt; [a]
 15
 16
 17
-18</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/Study1_Q4</span><span class="o">$</span> <span class="n">cat</span> <span class="n">q1_4_5</span><span class="o">.</span><span class="n">hs</span>
+18</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/Study1_Q4</span><span class="o">$</span> <span class="n">cat</span> <span class="n">q1_4_5</span><span class="o">.</span><span class="n">hs</span>
 <span class="kr">import</span> <span class="nn">Data.List</span>
 
 <span class="nf">main</span> <span class="ow">=</span> <span class="kr">do</span> <span class="n">cs</span> <span class="ow">&lt;-</span> <span class="n">getContents</span>
@@ -370,8 +370,8 @@ takeWhile :: (a -&gt; Bool) -&gt; [a] -&gt; [a]
 10
 11
 12
-13</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/Study1_Q4$ ghc q1_4_5.hs
-ueda\@remote:~/Study1_Q4$ cat data/ages | ./q1_4_5
+13</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/Study1_Q4$ ghc q1_4_5.hs
+ueda@remote:~/Study1_Q4$ cat data/ages | ./q1_4_5
 0〜9 9158
 10〜19 9142
 20〜29 9052

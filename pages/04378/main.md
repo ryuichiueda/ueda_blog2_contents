@@ -46,7 +46,7 @@ root権限でやりましょう。</p>
 2
 3
 4</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">###Ubuntu###</span>
-ueda\@ubuntu:~<span class="nv">$ </span>sudo apt-get install haskell-platform
+ueda@ubuntu:~<span class="nv">$ </span>sudo apt-get install haskell-platform
 <span class="c">###Mac###</span>
 uedamac:~ ueda<span class="nv">$ </span>brew install haskell-platform
 </pre></div>
@@ -225,7 +225,7 @@ Prelude&gt; <span class="nb">let </span>getShell <span class="nv">ln</span> <spa
 5
 6
 7
-8</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">USPMAG</span><span class="o">/</span><span class="kt">SRC</span><span class="o">$</span> <span class="n">cat</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">passwd</span> <span class="o">|</span> <span class="o">./</span><span class="n">q1_2_1</span>
+8</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">USPMAG</span><span class="o">/</span><span class="kt">SRC</span><span class="o">$</span> <span class="n">cat</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">passwd</span> <span class="o">|</span> <span class="o">./</span><span class="n">q1_2_1</span>
 <span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="n">bash</span>
 <span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="n">sh</span>
 <span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="n">sh</span>
@@ -287,7 +287,7 @@ Prelude&gt; <span class="nb">let </span>getShell <span class="nv">ln</span> <spa
 <tt class="docutils literal"><span class="pre">undefined</span></tt> と書いておくと</p>
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
-3</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>ghc q1_2_2.hs
+3</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>ghc q1_2_2.hs
 <span class="o">[</span>1 of 1<span class="o">]</span> Compiling Main <span class="o">(</span> q1_2_2.hs, q1_2_2.o <span class="o">)</span>
 Linking q1_2_2 ...
 </pre></div>
@@ -325,7 +325,7 @@ Linking q1_2_2 ...
 15
 16
 17
-18</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">USPMAG</span><span class="o">/</span><span class="kt">SRC</span><span class="o">$</span> <span class="n">cat</span> <span class="n">q1_2_3</span><span class="o">.</span><span class="n">hs</span>
+18</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">USPMAG</span><span class="o">/</span><span class="kt">SRC</span><span class="o">$</span> <span class="n">cat</span> <span class="n">q1_2_3</span><span class="o">.</span><span class="n">hs</span>
 <span class="kr">import</span> <span class="nn">Data.List</span>
 <span class="kr">import</span> <span class="nn">Data.List.Split</span>
 
@@ -361,10 +361,10 @@ Linking q1_2_2 ...
  9
 10
 11
-12</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">USPMAG</span><span class="o">/</span><span class="kt">SRC</span><span class="o">$</span> <span class="n">ghc</span> <span class="n">q1_2_3</span><span class="o">.</span><span class="n">hs</span>
+12</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">USPMAG</span><span class="o">/</span><span class="kt">SRC</span><span class="o">$</span> <span class="n">ghc</span> <span class="n">q1_2_3</span><span class="o">.</span><span class="n">hs</span>
 <span class="p">[</span><span class="mi">1</span> <span class="kr">of</span> <span class="mi">1</span><span class="p">]</span> <span class="kt">Compiling</span> <span class="kt">Main</span> <span class="p">(</span> <span class="n">q1_2_3</span><span class="o">.</span><span class="n">hs</span><span class="p">,</span> <span class="n">q1_2_3</span><span class="o">.</span><span class="n">o</span> <span class="p">)</span>
 <span class="kt">Linking</span> <span class="n">q1_2_3</span> <span class="o">...</span>
-<span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">USPMAG</span><span class="o">/</span><span class="kt">SRC</span><span class="o">$</span> <span class="n">cat</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">passwd</span> <span class="o">|</span> <span class="o">./</span><span class="n">q1_2_3</span>
+<span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">USPMAG</span><span class="o">/</span><span class="kt">SRC</span><span class="o">$</span> <span class="n">cat</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">passwd</span> <span class="o">|</span> <span class="o">./</span><span class="n">q1_2_3</span>
 <span class="mi">1</span> <span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="n">bash</span>
 <span class="mi">1</span> <span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="n">bash</span>
 <span class="mi">1</span> <span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="n">false</span>
@@ -390,7 +390,7 @@ Open usp Tukubaiを使って
 4
 5
 6
-7</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">USPMAG</span><span class="o">/</span><span class="kt">SRC</span><span class="o">$</span> <span class="n">cat</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">passwd</span> <span class="o">|</span> <span class="o">./</span><span class="n">q1_2_3</span> <span class="o">|</span>
+7</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">USPMAG</span><span class="o">/</span><span class="kt">SRC</span><span class="o">$</span> <span class="n">cat</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">passwd</span> <span class="o">|</span> <span class="o">./</span><span class="n">q1_2_3</span> <span class="o">|</span>
  <span class="n">self</span> <span class="mi">2</span> <span class="mi">1</span> <span class="o">|</span> <span class="n">sm2</span> <span class="mi">1</span> <span class="mi">1</span> <span class="mi">2</span> <span class="mi">2</span>
 <span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="n">bash</span> <span class="mi">2</span>
 <span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="n">false</span> <span class="mi">4</span>

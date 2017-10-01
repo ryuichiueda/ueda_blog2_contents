@@ -66,14 +66,14 @@ cd - >&2 && rm -Rf "$tmp"
 #THE SOFTWARE.
 ```
 
-使ってみます。下のワードファイルの\@\@\@を名前に変換します。
+使ってみます。下のワードファイルの@@@を名前に変換します。
 
 <a href="スクリーンショット-2014-04-22-12.51.40.png"><img src="スクリーンショット-2014-04-22-12.51.40-300x226.png" alt="スクリーンショット 2014-04-22 12.51.40" width="300" height="226" class="aligncenter size-medium wp-image-2934" /></a>
 
 コマンド実行！！！
 
 ```bash
-uedambp:ShellOfficeTools ueda$ ./wordsed \@\@\@ 山田 ~/letter.docx > out.docx
+uedambp:ShellOfficeTools ueda$ ./wordsed @@@ 山田 ~/letter.docx > out.docx
 ```
 
 out.docxを開いてみます。

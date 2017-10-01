@@ -103,7 +103,7 @@ gitでギットギトですな。（意味はない）
 
 <h2>セキュリティ実践の基本定石</h2>
 
-このまえの<a href="http://www.slideshare.net/nullpopopo/slide-38746177" target="_blank">一撃勉強会\@さくらインターネット様</a>で自然発生した、USP友の会関係者によるさくらのVPS上での悪さの暴露大会を思い出しました。最凶でした。Yさんの怒りの苦笑いが印象的でした。
+このまえの<a href="http://www.slideshare.net/nullpopopo/slide-38746177" target="_blank">一撃勉強会@さくらインターネット様</a>で自然発生した、USP友の会関係者によるさくらのVPS上での悪さの暴露大会を思い出しました。最凶でした。Yさんの怒りの苦笑いが印象的でした。
 
 <h2>Androidエンジニアからの招待状</h2>
 

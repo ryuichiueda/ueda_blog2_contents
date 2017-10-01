@@ -81,6 +81,6 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 超ごめんなさい！超ごめんください！撤収！
 
-<span style="color:red">元ネタ（<a href="https://twitter.com/supermomonga" target="_blank">\@supermomonga</a>氏のブログ）：<a href="http://blog.supermomonga.com/articles/vim/startdash-with-mac.html" title="http://blog.supermomonga.com/articles/vim/startdash-with-mac.html" target="_blank">Macを購入したら絶対に導入したい！私が3年間で厳選した超オススメアプリ10選！ | かなりすごいブログ</a></span>
+<span style="color:red">元ネタ（<a href="https://twitter.com/supermomonga" target="_blank">@supermomonga</a>氏のブログ）：<a href="http://blog.supermomonga.com/articles/vim/startdash-with-mac.html" title="http://blog.supermomonga.com/articles/vim/startdash-with-mac.html" target="_blank">Macを購入したら絶対に導入したい！私が3年間で厳選した超オススメアプリ10選！ | かなりすごいブログ</a></span>
 
 かなりすごいです。

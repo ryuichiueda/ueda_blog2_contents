@@ -40,7 +40,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <h3>シェル芸を観測</h3>
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">JavaScriptシェル芸 無限ハイラルw<a href="https://twitter.com/hashtag/crossjp?src=hash">#crossjp</a> <a href="https://t.co/j1H9uIZwkX">pic.twitter.com/j1H9uIZwkX</a></p>&mdash; えむにわ (\@m2wasabi) <a href="https://twitter.com/m2wasabi/status/908947527872868353">2017年9月16日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">JavaScriptシェル芸 無限ハイラルw<a href="https://twitter.com/hashtag/crossjp?src=hash">#crossjp</a> <a href="https://t.co/j1H9uIZwkX">pic.twitter.com/j1H9uIZwkX</a></p>&mdash; えむにわ (@m2wasabi) <a href="https://twitter.com/m2wasabi/status/908947527872868353">2017年9月16日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ああ、あの人だ・・・。

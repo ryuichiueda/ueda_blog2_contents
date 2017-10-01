@@ -49,7 +49,7 @@ catkin_make -j8 || catkin_make -j8 #CPU2個だけど8並列頑張ってね。し
 
 ・・・と書いたら教えていただきました。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">同じパッケージ内でC++のターゲットより先にmsgを先に処理したい場合、<br>add_dependencies(${TARGET_NAME} ${PROJECT_NAME}_generate_messages_cpp)<br>などと明示的に依存を指定するといいですよ</p>&mdash; akio (\@__akio__) <a href="https://twitter.com/__akio__/status/883338434919542786">July 7, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">同じパッケージ内でC++のターゲットより先にmsgを先に処理したい場合、<br>add_dependencies(${TARGET_NAME} ${PROJECT_NAME}_generate_messages_cpp)<br>などと明示的に依存を指定するといいですよ</p>&mdash; akio (@__akio__) <a href="https://twitter.com/__akio__/status/883338434919542786">July 7, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 （もっと短い書き方がありそうですが）とりあえずベタにCMakeLists.txtに以下のように書いたら一回のcatkin_make（オプションなし）で通りました。

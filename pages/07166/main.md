@@ -25,7 +25,7 @@ Copyright: (C) Ryuichi Ueda
 ドライバをインストールして使う際は、
 
 ```bash
-pi\@raspberrypi ~ $ sudo raspi-config 
+pi@raspberrypi ~ $ sudo raspi-config 
 ```
 
 を実行して、「 8 Advanced Options Configure advanced settings」を選択し、

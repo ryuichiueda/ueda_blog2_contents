@@ -27,13 +27,13 @@ Milford et al.:
 
 連日のslコマンドの話題で周囲がちょっとしたslコマンドブームである。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>はてなブログに投稿しました&#10;slコマンドの各種オプションを試してみた - くんすとの備忘録&#10;<a href="http://t.co/C9f5X7MLYl">http://t.co/C9f5X7MLYl</a> <a href="http://t.co/yOlsaIenP1">pic.twitter.com/yOlsaIenP1</a></p>&mdash; くんすと\@5th両日ライビュ (\@kunst1080) <a href="https://twitter.com/kunst1080/status/561152690818805760">January 30, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>はてなブログに投稿しました&#10;slコマンドの各種オプションを試してみた - くんすとの備忘録&#10;<a href="http://t.co/C9f5X7MLYl">http://t.co/C9f5X7MLYl</a> <a href="http://t.co/yOlsaIenP1">pic.twitter.com/yOlsaIenP1</a></p>&mdash; くんすと@5th両日ライビュ (@kunst1080) <a href="https://twitter.com/kunst1080/status/561152690818805760">January 30, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>Mac限定、slを止める <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a>&#10;$ (sleep 5 &amp;&amp; screencapture -S /tmp/a.pdf ; sips -s format png /tmp/a.pdf --out /tmp/a.png &amp;&amp; open /tmp/a.png) &amp; sl</p>&mdash; ぐれ (\@grethlen) <a href="https://twitter.com/grethlen/status/561164405946068992">January 30, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>Mac限定、slを止める <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a>&#10;$ (sleep 5 &amp;&amp; screencapture -S /tmp/a.pdf ; sips -s format png /tmp/a.pdf --out /tmp/a.png &amp;&amp; open /tmp/a.png) &amp; sl</p>&mdash; ぐれ (@grethlen) <a href="https://twitter.com/grethlen/status/561164405946068992">January 30, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>「sl | cat; echo」とコマンド入力して[Ctrl-C]すると、任意の場所でSLを止めることが出来るが、今のところキャプチャしたものをファイルに出来ないのが残念(自分のsh力の問題でもあるが)。 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> <a href="http://t.co/qC8hcCm1v3">pic.twitter.com/qC8hcCm1v3</a></p>&mdash; 日柳 光久 (\@mikkun_jp) <a href="https://twitter.com/mikkun_jp/status/561084166213611520">January 30, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>「sl | cat; echo」とコマンド入力して[Ctrl-C]すると、任意の場所でSLを止めることが出来るが、今のところキャプチャしたものをファイルに出来ないのが残念(自分のsh力の問題でもあるが)。 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> <a href="http://t.co/qC8hcCm1v3">pic.twitter.com/qC8hcCm1v3</a></p>&mdash; 日柳 光久 (@mikkun_jp) <a href="https://twitter.com/mikkun_jp/status/561084166213611520">January 30, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 なお、止まった状態のSLをファイルに生け捕りすることに成功した人はまだいない模様。・・・やらなくていいですよ本当に。

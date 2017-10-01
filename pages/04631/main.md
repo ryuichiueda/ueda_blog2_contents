@@ -252,12 +252,12 @@ awk <span class="s1">&#39;{a+=length($0)}END{print a}&#39;</span>
 - 鎌田
  - 略称: <span class="o">(</span>鎌<span class="o">)</span>
  - TEL: 090-1234-xxxx
- - email: kama\@kama.gov
+ - email: kama@kama.gov
 
 - 濱田
  - 略称: <span class="o">(</span>ハ<span class="o">)</span>
  - TEL: 080-5678-xxxx
- - email: ha\@haisyou.ac.jp
+ - email: ha@haisyou.ac.jp
 </pre></div>
 </td></tr></table></div>
 <p>　例えば濱田さんの電話番号が知りたいとします。
@@ -283,7 +283,7 @@ awk <span class="s1">&#39;{a+=length($0)}END{print a}&#39;</span>
 - 濱田
  - 略称: <span class="o">(</span>ハ<span class="o">)</span>
  - TEL: 080-5678-xxxx
- - email: ha\@haisyou.ac.jp
+ - email: ha@haisyou.ac.jp
 </pre></div>
 </td></tr></table></div>
 <p>　逆に、電話番号から人の名前を検索してみましょう。
@@ -309,7 +309,7 @@ uedamac:201310 ueda<span class="nv">$ </span>grep 080-5678-xxxx -B 2 -A 1 addres
 - 濱田
  - 略称: <span class="o">(</span>ハ<span class="o">)</span>
  - TEL: 080-5678-xxxx
- - email: ha\@haisyou.ac.jp
+ - email: ha@haisyou.ac.jp
 </pre></div>
 </td></tr></table></div>
 <p>　次はHTMLファイルを扱ってみましょう。

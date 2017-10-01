@@ -44,7 +44,7 @@ Copyright: (C) Ryuichi Ueda
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
 3
-4</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@X201:~<span class="nv">$ </span>tree .tofubox/
+4</pre></div></td><td class="code"><div class="highlight"><pre>ueda@X201:~<span class="nv">$ </span>tree .tofubox/
 .tofubox/
 ├── TOFUBOX.SUSSTOP
 └── TOFUBOX.SYNC
@@ -53,7 +53,7 @@ Copyright: (C) Ryuichi Ueda
 <p>　サーバ側には、以下のようにシェルスクリプトが一つだけあります。</p>
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
-3</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@tofu:~<span class="nv">$ </span>tree .tofubox/
+3</pre></div></td><td class="code"><div class="highlight"><pre>ueda@tofu:~<span class="nv">$ </span>tree .tofubox/
 .tofubox/
 └── REMOVE.LOCK
 </pre></div>
@@ -105,7 +105,7 @@ Copyright: (C) Ryuichi Ueda
 36
 37
 38
-39</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@X201:~/.tofubox<span class="nv">$ </span>cat TOFUBOX.SYNC
+39</pre></div></td><td class="code"><div class="highlight"><pre>ueda@X201:~/.tofubox<span class="nv">$ </span>cat TOFUBOX.SYNC
 <span class="c">#!/bin/bash -xv</span>
 <span class="c">#</span>
 <span class="c"># TOFUBOX.SYNC</span>
@@ -121,7 +121,7 @@ MESSAGE <span class="o">()</span> <span class="o">{</span>
 <span class="o">}</span>
 
 ERROR_CHECK<span class="o">(){</span>
- <span class="o">[</span> <span class="s2">&quot;$(echo ${PIPESTATUS[\@]} | tr -d &#39; 0&#39;)&quot;</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="k">return</span>
+ <span class="o">[</span> <span class="s2">&quot;$(echo ${PIPESTATUS[@]} | tr -d &#39; 0&#39;)&quot;</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="k">return</span>
 <span class="k"> </span><span class="nv">DISPLAY</span><span class="o">=</span>:0 notify-send <span class="s2">&quot;豆腐: $1&quot;</span>
  <span class="nb">exit </span>1
 <span class="o">}</span>
@@ -165,7 +165,7 @@ ssh -o <span class="nv">ConnectTimeout</span><span class="o">=</span>5 <span cla
 下手すると <tt class="docutils literal"><span class="pre">crontab</span> <span class="pre">-r</span></tt> などと打ってえらいことになります。</p>
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
-3</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@X201:~/.tofubox<span class="nv">$ </span>crontab -l | grep -v <span class="s2">&quot;#&quot;</span>
+3</pre></div></td><td class="code"><div class="highlight"><pre>ueda@X201:~/.tofubox<span class="nv">$ </span>crontab -l | grep -v <span class="s2">&quot;#&quot;</span>
 
 */4 * * * * /home/ueda/.tofubox/TOFUBOX.SYNC
 </pre></div>
@@ -217,12 +217,12 @@ stopがあったら全部殺すだけです。</p>
 29
 30
 31
-32</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@X201:~/.tofubox<span class="nv">$ </span>cat TOFUBOX.INIT
+32</pre></div></td><td class="code"><div class="highlight"><pre>ueda@X201:~/.tofubox<span class="nv">$ </span>cat TOFUBOX.INIT
 <span class="c">#!/bin/bash</span>
 <span class="c">#</span>
 <span class="c"># TOFUBOX.INIT 豆腐ボックスの起動・終了</span>
 <span class="c">#</span>
-<span class="c"># written by R. Ueda (r-ueda\@usp-lab.com)</span>
+<span class="c"># written by R. Ueda (r-ueda@usp-lab.com)</span>
 <span class="nb">exec </span>2&gt; /dev/null
 
 <span class="nv">sys</span><span class="o">=</span>/home/ueda/.tofubox
@@ -261,7 +261,7 @@ crontabの代わりのスクリプトです。</p>
 4
 5
 6
-7</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@X201:~/.tofubox<span class="nv">$ </span>cat TOFUBOX.LOOP
+7</pre></div></td><td class="code"><div class="highlight"><pre>ueda@X201:~/.tofubox<span class="nv">$ </span>cat TOFUBOX.LOOP
 <span class="c">#!/bin/bash -xv</span>
 
 <span class="k">while</span> : ; <span class="k">do</span>
@@ -289,19 +289,19 @@ crontabの代わりのスクリプトです。</p>
 12
 13
 14</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">#起動</span>
-ueda\@X201:~/.tofubox<span class="nv">$ </span>./TOFUBOX.INIT start
+ueda@X201:~/.tofubox<span class="nv">$ </span>./TOFUBOX.INIT start
 <span class="c">#プロセスを確認。</span>
-ueda\@X201:~/.tofubox<span class="nv">$ </span>ps cax | grep TOFU
+ueda@X201:~/.tofubox<span class="nv">$ </span>ps cax | grep TOFU
 26072 pts/5 S 0:00 TOFUBOX.SUSSTOP
 26073 pts/5 S 0:00 TOFUBOX.LOOP
 26075 pts/5 S 0:00 TOFUBOX.SYNC
 <span class="c">#二回目のstartは失敗する。</span>
-ueda\@X201:~/.tofubox<span class="nv">$ </span>./TOFUBOX.INIT start
-ueda\@X201:~/.tofubox<span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$?</span>
+ueda@X201:~/.tofubox<span class="nv">$ </span>./TOFUBOX.INIT start
+ueda@X201:~/.tofubox<span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$?</span>
 1
 <span class="c">#止める。</span>
-ueda\@X201:~/.tofubox<span class="nv">$ </span>./TOFUBOX.INIT stop
-ueda\@X201:~/.tofubox<span class="nv">$ </span>ps cax | grep TOFU
+ueda@X201:~/.tofubox<span class="nv">$ </span>./TOFUBOX.INIT stop
+ueda@X201:~/.tofubox<span class="nv">$ </span>ps cax | grep TOFU
 </pre></div>
 </td></tr></table></div>
 <p>　次に、これを <tt class="docutils literal"><span class="pre">service</span></tt> で叩けるようにします。
@@ -309,8 +309,8 @@ ueda\@X201:~/.tofubox<span class="nv">$ </span>ps cax | grep TOFU
 <p>・リスト5： <tt class="docutils literal"><span class="pre">/etc/init.d</span></tt> にリンクを張る</p>
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
-3</pre></div></td><td class="code"><div class="highlight"><pre>root\@X201:/etc/init.d# ln -s ~/.tofubox/TOFUBOX.INIT tofubox
-root\@X201:/etc/init.d# ls -l tofubox
+3</pre></div></td><td class="code"><div class="highlight"><pre>root@X201:/etc/init.d# ln -s ~/.tofubox/TOFUBOX.INIT tofubox
+root@X201:/etc/init.d# ls -l tofubox
 lrwxrwxrwx 1 root root 32 8月 17 10:08 tofubox -&gt; /home/ueda/.tofubox/TOFUBOX.INIT
 </pre></div>
 </td></tr></table></div>
@@ -326,16 +326,16 @@ lrwxrwxrwx 1 root root 32 8月 17 10:08 tofubox -&gt; /home/ueda/.tofubox/TOFUBO
  7
  8
  9
-10</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@X201:~<span class="nv">$ </span>service tofubox start
-ueda\@X201:~<span class="nv">$ </span>ps cax | grep TOFU
+10</pre></div></td><td class="code"><div class="highlight"><pre>ueda@X201:~<span class="nv">$ </span>service tofubox start
+ueda@X201:~<span class="nv">$ </span>ps cax | grep TOFU
 26433 pts/3 S 0:00 TOFUBOX.SUSSTOP
 26434 pts/3 S 0:00 TOFUBOX.LOOP
 26435 pts/3 S 0:00 TOFUBOX.SYNC
-ueda\@X201:~<span class="nv">$ </span>service tofubox start
-ueda\@X201:~<span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$?</span>
+ueda@X201:~<span class="nv">$ </span>service tofubox start
+ueda@X201:~<span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$?</span>
 1
-ueda\@X201:~<span class="nv">$ </span>service tofubox stop
-ueda\@X201:~<span class="nv">$ </span>ps cax | grep TOFU
+ueda@X201:~<span class="nv">$ </span>service tofubox stop
+ueda@X201:~<span class="nv">$ </span>ps cax | grep TOFU
 </pre></div>
 </td></tr></table></div>
 <p>　ところで、例えばUbuntuなどdebian系のディストリビューションでは
@@ -370,7 +370,7 @@ rootで起動すると、例えばsshのための鍵を <tt class="docutils lite
  7
  8
  9
-10</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@X201:~<span class="nv">$ </span>cat /etc/rc.local
+10</pre></div></td><td class="code"><div class="highlight"><pre>ueda@X201:~<span class="nv">$ </span>cat /etc/rc.local
 <span class="c">#!/bin/sh -e</span>
 <span class="c">#</span>
 <span class="c"># rc.local</span>
@@ -391,9 +391,9 @@ su - ueda -c <span class="s1">&#39;/home/ueda/.tofubox/TOFUBOX.INIT start&#39;</
 2
 3
 4
-5</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@X201:~# reboot
+5</pre></div></td><td class="code"><div class="highlight"><pre>ueda@X201:~# reboot
 ...再起動...
-ueda\@X201:~<span class="nv">$ </span>ps caxu | grep TOFU
+ueda@X201:~<span class="nv">$ </span>ps caxu | grep TOFU
 ueda 1364 0.0 0.0 17472 1460 ? S 10:46 0:00 TOFUBOX.SUSSTOP
 ueda 1366 0.0 0.0 4392 608 ? S 10:46 0:00 TOFUBOX.LOOP
 </pre></div>
@@ -418,7 +418,7 @@ ueda 1366 0.0 0.0 4392 608 ? S 10:46 0:00 TOFUBOX.LOOP
 <p>・リスト9： <tt class="docutils literal"><span class="pre">inotifywait</span></tt> の立ち上げ</p>
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
-3</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@X201:~<span class="nv">$ </span>inotifywait -mr ~/TOFUBOX/
+3</pre></div></td><td class="code"><div class="highlight"><pre>ueda@X201:~<span class="nv">$ </span>inotifywait -mr ~/TOFUBOX/
 Setting up watches. Beware: since -r was given, this may take a <span class="k">while</span>!
 Watches established.
 </pre></div>
@@ -428,9 +428,9 @@ Watches established.
 <p>・リスト10： <tt class="docutils literal"><span class="pre">~/TOFUBOX/</span></tt> にちょっかいを出す。</p>
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
-3</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@X201:~/TOFUBOX<span class="nv">$ </span>touch hoge
-ueda\@X201:~/TOFUBOX<span class="nv">$ </span>rm hoge
-ueda\@X201:~/TOFUBOX<span class="nv">$ </span>cat ~/TESTDATA | head -n 1000 &gt; hoge
+3</pre></div></td><td class="code"><div class="highlight"><pre>ueda@X201:~/TOFUBOX<span class="nv">$ </span>touch hoge
+ueda@X201:~/TOFUBOX<span class="nv">$ </span>rm hoge
+ueda@X201:~/TOFUBOX<span class="nv">$ </span>cat ~/TESTDATA | head -n 1000 &gt; hoge
 </pre></div>
 </td></tr></table></div>
 <p><tt class="docutils literal"><span class="pre">inotifywait</span></tt> を立ち上げた画面には、
@@ -485,7 +485,7 @@ ueda\@X201:~/TOFUBOX<span class="nv">$ </span>cat ~/TESTDATA | head -n 1000 &gt;
 10
 11
 12
-13</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@X201:~/.tofubox<span class="nv">$ </span>cat TOFUBOX.WATCH
+13</pre></div></td><td class="code"><div class="highlight"><pre>ueda@X201:~/.tofubox<span class="nv">$ </span>cat TOFUBOX.WATCH
 <span class="c">#!/bin/bash</span>
 
 <span class="nv">dir</span><span class="o">=</span>/home/usp/TOFUBOX
@@ -584,14 +584,14 @@ rsync が実際にファイルを読み込んでいないのに通知が出る�
 <p>　二行目の <tt class="docutils literal"><span class="pre">rsync</span></tt> には、 <tt class="docutils literal"><span class="pre">i</span></tt> と <tt class="docutils literal"><span class="pre">n</span></tt> というオプションがついています。
 <tt class="docutils literal"><span class="pre">rsync</span></tt> に <tt class="docutils literal"><span class="pre">i</span></tt> を指定すると、以下のように更新のリストが表示されます。</p>
 <div class="highlight-bash"><pre>#iで更新のリストを表示
-ueda\@uedaubuntu:~$ rsync -auzi tofu.usptomonokai.jp:~/hoge ./
+ueda@uedaubuntu:~$ rsync -auzi tofu.usptomonokai.jp:~/hoge ./
 cd+++++++++ hoge/
 &gt;f+++++++++ hoge/file1
 &gt;f+++++++++ hoge/file2
 &gt;f+++++++++ hoge/file3
 #もう一度実行すると、すでに同期済みなのでなにも表示されない
-ueda\@uedaubuntu:~$ rsync -auzi tofu.usptomonokai.jp:~/hoge ./
-ueda\@uedaubuntu:~$</pre>
+ueda@uedaubuntu:~$ rsync -auzi tofu.usptomonokai.jp:~/hoge ./
+ueda@uedaubuntu:~$</pre>
 </div>
 <p>また、 <tt class="docutils literal"><span class="pre">n</span></tt> を指定すると、 <tt class="docutils literal"><span class="pre">rsync</span></tt> は同期処理をしません。
 ドライランというやつです。</p>

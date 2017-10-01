@@ -46,7 +46,7 @@ Copyright: (C) Ryuichi Ueda
 	<ul>
 		<li>ロボットの状態認識・行動決定を研究</li>
 		<li>機械学習も道具として少し扱う</li>
-		<li><a target="_blank" href="http://at-home.cit-brains.net/">RoboCup\@Home</a></li>
+		<li><a target="_blank" href="http://at-home.cit-brains.net/">RoboCup@Home</a></li>
 		<ul>
 			<li>学科で連携。上田研の貢献はまだまだ</li>
 		</ul>
@@ -147,7 +147,7 @@ Copyright: (C) Ryuichi Ueda
 <ul>
 	<li>こちらが詳しいです</li>
 	<ul>
-		<li><a href="http://myenigma.hatenablog.com" target="_blank">MyEnigma | <a href="https://twitter.com/atsushi_twi" target="_blank">\@Atsushi_twi</a></a></li>
+		<li><a href="http://myenigma.hatenablog.com" target="_blank">MyEnigma | <a href="https://twitter.com/atsushi_twi" target="_blank">@Atsushi_twi</a></a></li>
 	</ul>
 	<li><a href="http://myenigma.hatenablog.com/entry/20140628/1403956852" target="_blank">Monte Carlo Locaization</a>（MCL）</li>
 	<li>FastSLAM</li>
@@ -199,7 +199,7 @@ Copyright: (C) Ryuichi Ueda
 </ul>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wFUvBKz9nEY" frameborder="0" allowfullscreen></iframe>
-<p style="font-size:70%">RoboCup\@Homeでの利用<a href="https://github.com/citbrains/citbrains_home/tree/master/installer" target="_blank">（参考: インストーラのコード）</a></p>
+<p style="font-size:70%">RoboCup@Homeでの利用<a href="https://github.com/citbrains/citbrains_home/tree/master/installer" target="_blank">（参考: インストーラのコード）</a></p>
 
 <!--nextpage-->
 
@@ -220,7 +220,7 @@ Copyright: (C) Ryuichi Ueda
 	<ul>
 		<li>記憶や空間情報を扱う</li>
 		<li>移動ロボットのアルゴリズムとの関連性を調査中</li>
-		<li>海馬モデル検討会\@ドワンゴ</li>
+		<li>海馬モデル検討会@ドワンゴ</li>
 	</ul>
 </ul>
 

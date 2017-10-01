@@ -40,9 +40,9 @@ $ mkdir ~/tmp
 $ cd ~/tmp
 ###tmpの下に置かずに解凍###
 $ unzip ~/ShellGeiData/vol.26/graph.xlsx 
-ueda\@remote:~/tmp$ ls
+ueda@remote:~/tmp$ ls
 [Content_Types].xml _rels docProps xl
-ueda\@remote:~/tmp$ tree
+ueda@remote:~/tmp$ tree
 .
 ├── [Content_Types].xml
 ├── _rels
@@ -71,7 +71,7 @@ ueda\@remote:~/tmp$ tree
 
 10 directories, 14 files
 ###再圧縮したファイルも別のディレクトリに作ると事故が少ない###
-ueda\@remote:~/tmp$ zip -r ../hoge.xlsx ./
+ueda@remote:~/tmp$ zip -r ../hoge.xlsx ./
 ```
 
 
@@ -127,8 +127,8 @@ Docker上で試したらホストマシン沈黙の報告
 ```bash
 $ unzip -p ~/ShellGeiData/vol.26/20141019OSC_LT.pptx ppt/slides/slide7.xml |
  xmllint --format - | grep '<a:[pt]>' | sed 's;</.*;;' |
- sed 's;<.*>;;' | awk 'NF==0{print "\@\@\@"}{print}' |
- xargs | sed 's/\@\@*/\\n/g' | awk 'NF' | tr -d ' '
+ sed 's;<.*>;;' | awk 'NF==0{print "@@@"}{print}' |
+ xargs | sed 's/@@*/\\n/g' | awk 'NF' | tr -d ' '
 戦果（？）
 初日だけで見知らぬ方のマシン3台轟沈
 その他自爆者多数

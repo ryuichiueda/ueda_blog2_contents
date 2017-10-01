@@ -14,7 +14,7 @@ Copyright: (C) Ryuichi Ueda
 　　
 <div style="float:left">
 <ul>
-	<li><a href="https://twitter.com/ryuichiueda" target="_blank">\@ryuichiueda</a></li>
+	<li><a href="https://twitter.com/ryuichiueda" target="_blank">@ryuichiueda</a></li>
 	<li>1978年2月、富山県小矢部市生まれ</li>
 	<li>仕事</li>
  <ul>
@@ -84,10 +84,10 @@ Copyright: (C) Ryuichi Ueda
 	<li>主な仕事</li>
  <ul>
 	<li>研究・教育</li>
-	<li>ロボカップ\@Homeリーグに参加</li>
+	<li>ロボカップ@Homeリーグに参加</li>
  	<ul>
 		<li>プレイヤーというよりも監督</li>
-			<li><a href="http://at-home.cit-brains.net/" target="_blank">CIT Brains \@Homeのサイト</a>
+			<li><a href="http://at-home.cit-brains.net/" target="_blank">CIT Brains @Homeのサイト</a>
  	</ul>
 	<li>執筆</li>
  </ul>

@@ -69,16 +69,16 @@ x x
 小問1. 次のechoの出力から回文を完成させてください。
 
 ```bash
-ueda\@remote:~$ echo たけやぶ
+ueda@remote:~$ echo たけやぶ
 ###このようにワンライナーで出力を作る###
-ueda\@remote:~$ echo たけやぶ | ...
+ueda@remote:~$ echo たけやぶ | ...
 たけやぶやけた
 ```
 
 小問2. 次のファイルの各行について回文を完成させてください。
 
 ```bash
-ueda\@remote:~/tmp$ cat kaibun 
+ueda@remote:~/tmp$ cat kaibun 
 たけやぶ
 わたしまけ
 ```
@@ -92,7 +92,7 @@ ueda\@remote:~/tmp$ cat kaibun
 北から順（正確には都道府県番号順）に並べてください。
 
 ```bash
-ueda\@remote:~/tmp$ cat pref 
+ueda@remote:~/tmp$ cat pref 
 鹿児島県
 青森県
 大阪府
@@ -104,7 +104,7 @@ ueda\@remote:~/tmp$ cat pref
 各行の数字を大きい順にソートしてください。
 
 ```bash
-ueda\@remote:~/tmp$ cat input 
+ueda@remote:~/tmp$ cat input 
 A 31 1234 -42 4
 B 10 31.1 -34 94
 ```
@@ -115,7 +115,7 @@ B 10 31.1 -34 94
 次のファイルについてグラフを作ってください。
 
 ```bash
-ueda\@remote:~/tmp$ cat num 
+ueda@remote:~/tmp$ cat num 
 5
 3
 4
@@ -158,7 +158,7 @@ Q6のグラフを次のように縦にしてください。
 次のデータは、何かの試合の結果ですが、各チームが何勝何敗だったかを集計してください。引き分けは無いと仮定して構いません。
 
 ```bash
-ueda\@remote:~/tmp$ cat result 
+ueda@remote:~/tmp$ cat result 
 A-B 1-2
 B-A 3-1
 C-A 1-0

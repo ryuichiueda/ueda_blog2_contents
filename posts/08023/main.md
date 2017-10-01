@@ -19,7 +19,7 @@ Copyright: (C) Ryuichi Ueda
 <p>執筆がいろいろ</p>
 　
 <ul>
-	<li>SoftwareDesign 6月号<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">SoftwareDesign6月号bash島は、リーダー（上田せんせ）、ぐっさん（今泉さん）、ながせ（くつなさん）、まつおか（ごとうだいちさん）、国分（まかべさん）という具合の執筆者布陣。</p>&mdash; SoftwareDesign (\@gihyosd) <a href="https://twitter.com/gihyosd/status/725630847714369536">2016年4月28日</a></blockquote>
+	<li>SoftwareDesign 6月号<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">SoftwareDesign6月号bash島は、リーダー（上田せんせ）、ぐっさん（今泉さん）、ながせ（くつなさん）、まつおか（ごとうだいちさん）、国分（まかべさん）という具合の執筆者布陣。</p>&mdash; SoftwareDesign (@gihyosd) <a href="https://twitter.com/gihyosd/status/725630847714369536">2016年4月28日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 	</li>
@@ -38,11 +38,11 @@ Copyright: (C) Ryuichi Ueda
 <ul>
 	<li>早くも研究室が崩壊の危機
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">研究室でプリキュアの映画を見たいと思います</p>&mdash; ハバタ (\@habatafuture) <a href="https://twitter.com/habatafuture/status/725541256353345537">2016年4月28日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">研究室でプリキュアの映画を見たいと思います</p>&mdash; ハバタ (@habatafuture) <a href="https://twitter.com/habatafuture/status/725541256353345537">2016年4月28日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">プリキュアがんばぇー</p>&mdash; おーかわ (\@masamasa9841) <a href="https://twitter.com/masamasa9841/status/725541360665677828">2016年4月28日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">プリキュアがんばぇー</p>&mdash; おーかわ (@masamasa9841) <a href="https://twitter.com/masamasa9841/status/725541360665677828">2016年4月28日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">うちはキュアエンジニア養成研究室ではない。</p>&mdash; CIT未ロボ上田研 (\@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/725546785855295488">2016年4月28日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">うちはキュアエンジニア養成研究室ではない。</p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/725546785855295488">2016年4月28日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></li>
 </ul>
 

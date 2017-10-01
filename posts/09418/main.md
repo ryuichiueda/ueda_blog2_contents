@@ -15,13 +15,13 @@ $ cat hoge.bash
 
 seq 1 3 |
 while read a ; do
-	echo "\@" $a
+	echo "@" $a
 done
 ###こんな出力###
 $ ./hoge.bash
-\@ 1
-\@ 2
-\@ 3
+@ 1
+@ 2
+@ 3
 ```
 
 GlueLangだと次のようになります。標準入力から1行ごとに配列argvに文字列が読み込まれ、foreachの下に書いた処理が繰り返されます。
@@ -32,12 +32,12 @@ $ cat hoge.glue
 import PATH
 
 seq 1 3 >>= foreach
- echo '\@' argv[1]
+ echo '@' argv[1]
 ###こんな出力###
 $ glue ./hoge.glue 
-\@ 1
-\@ 2
-\@ 3
+@ 1
+@ 2
+@ 3
 ```
 
 

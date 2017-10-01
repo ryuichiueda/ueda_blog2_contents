@@ -87,7 +87,7 @@ This is a pen.
 
 <h2>その後</h2>
 
-<a href="https://twitter.com/ruicc" target="_blank">\@ruicc</a>さんの親切なインストラクションで次のように書けば香具師の型ヌキみたいな酷い目に合わないとのことです。（もっと簡単になるかもしれません。）
+<a href="https://twitter.com/ruicc" target="_blank">@ruicc</a>さんの親切なインストラクションで次のように書けば香具師の型ヌキみたいな酷い目に合わないとのことです。（もっと簡単になるかもしれません。）
 
 プラグマ芸ですな・・・。
 

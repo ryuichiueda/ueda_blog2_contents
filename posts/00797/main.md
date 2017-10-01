@@ -11,7 +11,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 スカラと行列のかけ算を実装しました。スカラと行列の積は、
 
 ```bash
-ueda\@ubuntuX201:~$ ghci
+ueda@ubuntuX201:~$ ghci
 ...
 Prelude> import Numeric.LinearAlgebra
 ...
@@ -30,13 +30,13 @@ Prelude Numeric.LinearAlgebra> m * 3.14
 実行してみます。
 
 ```bash
-ueda\@ubuntuX201:~/GIT/PMAT$ cat data 
+ueda@ubuntuX201:~/GIT/PMAT$ cat data 
 A 1 2 3
 A 1 2 3
 B -1
 B 1
 B 1
-ueda\@ubuntuX201:~/GIT/PMAT$ cat data | ./pmat "C=A*1.1" | ./pmat "D=B*3.14"
+ueda@ubuntuX201:~/GIT/PMAT$ cat data | ./pmat "C=A*1.1" | ./pmat "D=B*3.14"
 A 1 2 3
 A 1 2 3
 B -1

@@ -13,13 +13,13 @@ hmatrixというライブラリを入れるのに一苦労。使いこなすの�
 これから数式のパーサをゴリゴリ書く予定デス。
 
 ```bash
-ueda\@ubuntuonmac:~/GIT/PMAT$ cat data
+ueda@ubuntuonmac:~/GIT/PMAT$ cat data
 A 1 2 3
 A 1 2 3
 B -1 2 3.0
 B 1 -2 3.1
 B 1 2 -3.2
-ueda\@ubuntuonmac:~/GIT/PMAT$ cat data | ./pmat "式はまだパースしないよーん"
+ueda@ubuntuonmac:~/GIT/PMAT$ cat data | ./pmat "式はまだパースしないよーん"
 A 1 2 3
 A 1 2 3
 B -1 2 3.0

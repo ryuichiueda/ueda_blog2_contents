@@ -213,7 +213,7 @@ mv <span class="nv">$tmp</span>.tar.gz <span class="k">${</span><span class="nv"
 #!のことを「シバン」（shebang）と言います。
 インタプリタは、ここではbashなので、bashの置いてある/bin/bashを指定します。</p>
 <p>もし/bin/bashにbashが無い場合は、以下のようにwhichコマンドを使って調べましょう。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent GIHYO<span class="o">]</span><span class="nv">$ </span>which bash
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent GIHYO<span class="o">]</span><span class="nv">$ </span>which bash
 /bin/bash
 </pre></div>
 </div>
@@ -232,8 +232,8 @@ bashが、変数のつもりで書いた文字列をコマンドだと解釈し�
 <p>4, 5行目は、ちょっと難しいことをしています。
 4行目は、tmpという変数に、「/tmp/」と「$$という変数の値」をくっつけた文字列を格納しています。
 これでよく分からなければ、以下のように実際に打ってみましょう。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent GIHYO<span class="o">]</span><span class="nv">$ tmp</span><span class="o">=</span>/tmp/<span class="nv">$$</span>
-<span class="o">[</span>ueda\@cent GIHYO<span class="o">]</span><span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$tmp</span>
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent GIHYO<span class="o">]</span><span class="nv">$ tmp</span><span class="o">=</span>/tmp/<span class="nv">$$</span>
+<span class="o">[</span>ueda@cent GIHYO<span class="o">]</span><span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$tmp</span>
 /tmp/8389
 </pre></div>
 </div>
@@ -242,12 +242,12 @@ tmpはファイル名に使いますが、プロセス番号を入れること�
 <p>変数todayには、dateコマンドから出力される文字列が格納されます。
 これは言葉で説明するより、端末を叩いた方がよいでしょう。</p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="c">#dateコマンドで8桁日付を出力</span>
-<span class="o">[</span>ueda\@cent GIHYO<span class="o">]</span><span class="nv">$ </span>date +%Y%m%d
+<span class="o">[</span>ueda@cent GIHYO<span class="o">]</span><span class="nv">$ </span>date +%Y%m%d
 20111022
 <span class="c">#$()でコマンドを囲うと、</span>
 <span class="c">#コマンドから出力された文字列を変数に代入できる。</span>
-<span class="o">[</span>ueda\@cent GIHYO<span class="o">]</span><span class="nv">$ today</span><span class="o">=</span><span class="k">$(</span>date +%Y%m%d<span class="k">)</span>
-<span class="o">[</span>ueda\@cent GIHYO<span class="o">]</span><span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$today</span>
+<span class="o">[</span>ueda@cent GIHYO<span class="o">]</span><span class="nv">$ today</span><span class="o">=</span><span class="k">$(</span>date +%Y%m%d<span class="k">)</span>
+<span class="o">[</span>ueda@cent GIHYO<span class="o">]</span><span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$today</span>
 20111022
 </pre></div>
 </div>
@@ -261,7 +261,7 @@ tarコマンドの使い方についてはご自身で調べていただきた�
 <p>書いたら早速動かしてみましょう。図1のように、
 実行したときのログが画面に吐き出されるはずです。
 +印の行に、実行されたコマンドが表示されます。</p>
-<div class="highlight-bash"><pre>[ueda\@cent SYS]$ ./WWW.BACKUP
+<div class="highlight-bash"><pre>[ueda@cent SYS]$ ./WWW.BACKUP
 #!/bin/bash -vx
 
 dest=/home/ueda/WWW.BACKUP

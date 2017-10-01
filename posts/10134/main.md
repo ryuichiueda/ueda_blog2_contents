@@ -229,7 +229,7 @@ created repository: ryuichiueda/hoge
 Counting objects: 3, done.
 Writing objects: 100% (3/3), 215 bytes | 0 bytes/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
-To git\@github.com:ryuichiueda/hoge.git
+To git@github.com:ryuichiueda/hoge.git
  * [new branch] master -> master
 ```
 
@@ -248,7 +248,7 @@ Perlを使ってみました。（Perlに慣れていればもっと前処理は
 ```bash
 $ cat complex | sed 's/^/(/' | sed 's/$/)/' | sed '2,$i*' |
  xargs | tr -d ' ' |
- xargs -I\@ perl -e '{use Math::Complex;print(\@);print "\\n"}'
+ xargs -I@ perl -e '{use Math::Complex;print(@);print "\\n"}'
 11+10i
 ```
 
@@ -328,12 +328,12 @@ $ cat alphabet | xxd -ps | fold -b2| tr a-f A-F |
  sed '1iobase=10;ibase=16;' | bc | xargs -n 4 |
  awk '{print $1-$3}' | tr -d - | awk '{print NR,$1}' |
  sort -k2,2n | tail -n 1 | awk '{print $1}' |
- xargs -I\@ sed -n \@p alphabet 
+ xargs -I@ sed -n @p alphabet 
 e-q
 $ cat alphabet | tr - ' ' |
  perl -anle '{print abs(ord($F[0])-ord($F[1]))}' |
  awk '{print NR,$1}' | sort -k2,2n | tail -n 1 |
- awk '{print $1}' | xargs -I\@ sed -n \@p alphabet 
+ awk '{print $1}' | xargs -I@ sed -n @p alphabet 
 e-q
 ```
 

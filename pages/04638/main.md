@@ -68,11 +68,11 @@ crondというのは、cronのデーモンという意味ですね。
 3
 4
 5
-6</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>ueda\@CentOS ~<span class="o">]</span><span class="nv">$ </span>ps aux | grep cron | grep -v grep
+6</pre></div></td><td class="code"><div class="highlight"><pre><span class="o">[</span>ueda@CentOS ~<span class="o">]</span><span class="nv">$ </span>ps aux | grep cron | grep -v grep
 root 1397 0.0 0.0 20408 452 ? Ss Feb04 7:25 crond
 uedamac:OSX ueda<span class="nv">$ </span>ps aux | grep cron | grep -v grep
 root 10058 0.0 0.0 2432784 156 ?? Ss 日03PM 0:00.39 /usr/sbin/cron
-ueda\@Ubuntu:~<span class="nv">$ </span>ps aux | grep cron | grep -v grep
+ueda@Ubuntu:~<span class="nv">$ </span>ps aux | grep cron | grep -v grep
 root 748 0.0 0.0 19112 848 ? Ss Sep18 0:01 cron
 </pre></div>
 </td></tr></table></div>

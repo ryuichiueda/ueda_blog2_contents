@@ -48,4 +48,4 @@ uedamac:~ ueda$ curl http://www.yahoo.co.jp | nkf -wLux | grep -o '<a href=[^<]*
 
 <h3>2013年11月19日追記</h3>
 
-<a href="http://blog.bsdhack.org/" target="_blank">\@bsdhackさんがPOSIXで頑張ってます。</a>知り合いなので敢えてツッコミますが、そこまで頑張る必要あるのかと。
+<a href="http://blog.bsdhack.org/" target="_blank">@bsdhackさんがPOSIXで頑張ってます。</a>知り合いなので敢えてツッコミますが、そこまで頑張る必要あるのかと。

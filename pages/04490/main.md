@@ -72,7 +72,7 @@ access_log は CentOS5.4 のウェブサーバから採取しました。
 のホーム下に「LOG」というディレクトリを作って、
 以下のように放り込んであります。</p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="c">#CentOS6 は古いログに日付が入る。</span>
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>ls
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>ls
 httpd/access_log secure
 httpd/access_log.1 secure-20111030
 httpd/access_log.2 secure-20111106
@@ -84,7 +84,7 @@ httpd/access_log.4 secure-20111120
 ファイルのユーザも変更できます。
 sshd の設定次第ではこの小技は使えませんので、
 普通の方法でコピーしてください。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent ~<span class="o">]</span><span class="nv">$ </span>scp -r root\@localhost:/var/log ./
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent ~<span class="o">]</span><span class="nv">$ </span>scp -r root@localhost:/var/log ./
 </pre></div>
 </div>
 <div class="section" id="id5">
@@ -109,7 +109,7 @@ sshd の設定次第ではこの小技は使えませんので、
 <p>　まずはレコードの抽出から。
 　サンプルの secure ログには次のように sshd と su のログがあります。</p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="c">#レコードの後半は長いので省略</span>
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>tail -n 5 secure
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>tail -n 5 secure
 Nov 23 08:56:13 cent sshd<span class="o">[</span>32743<span class="o">]</span>: pam_unix<span class="o">(</span>sshd:se
 Nov 23 16:34:55 cent su: pam_unix<span class="o">(</span>su-l:auth<span class="o">)</span>: auth
 Nov 23 16:34:59 cent su: pam_unix<span class="o">(</span>su-l:session<span class="o">)</span>: s
@@ -122,7 +122,7 @@ grep を使ってもよいのですが、この際いつも問題になるのは
 関係ないところに sshd や su という文字列が混ざっているかもしれず、
 きっちり抽出できない懸念があることです。</p>
 <p>　awk を使えば、そのような心配なく su のレコードだけ抽出できます。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>cat secure | awk <span class="s1">&#39;$5==&quot;su:&quot;&#39;</span>
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>cat secure | awk <span class="s1">&#39;$5==&quot;su:&quot;&#39;</span>
 Nov 23 16:34:55 cent su: pam_unix<span class="o">(</span>su-l:auth<span class="o">)</span>: auth
 Nov 23 16:34:59 cent su: pam_unix<span class="o">(</span>su-l:session<span class="o">)</span>: s
 Nov 23 16:35:03 cent su: pam_unix<span class="o">(</span>su-l:session<span class="o">)</span>: s
@@ -145,7 +145,7 @@ Nov 23 16:35:05 cent su: pam_unix<span class="o">(</span>su:session<span class="
 <tt class="docutils literal"><span class="pre">[</span></tt>, <tt class="docutils literal"><span class="pre">]</span></tt> は正規表現で使う記号なので、
 <tt class="docutils literal"><span class="pre">[</span></tt>, <tt class="docutils literal"><span class="pre">]</span></tt> という文字そのものを書く時は\\記号でエスケープし、
 <tt class="docutils literal"><span class="pre">\\[</span></tt> や <tt class="docutils literal"><span class="pre">\\]</span></tt> と記述します。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>cat secure | awk <span class="s1">&#39;$5~/sshd\\[[0-9]*\\]:/&#39;</span>
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>cat secure | awk <span class="s1">&#39;$5~/sshd\\[[0-9]*\\]:/&#39;</span>
 Nov 23 08:44:49 cent sshd<span class="o">[</span>32686<span class="o">]</span>: pam_unix<span class="o">(</span>sshd:se
 Nov 23 08:56:13 cent sshd<span class="o">[</span>32743<span class="o">]</span>: Accepted publick
 Nov 23 08:56:13 cent sshd<span class="o">[</span>32743<span class="o">]</span>: pam_unix<span class="o">(</span>sshd:se
@@ -157,7 +157,7 @@ Nov 23 08:56:13 cent sshd<span class="o">[</span>32743<span class="o">]</span>: 
 2つあるうちの後ろのawkで、時刻を文字列として大小比較しています。</p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="c">#いろいろ攻撃されてますが、</span>
 <span class="c">#鍵認証しか許可していないので大丈夫です。多分。</span>
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>cat secure | awk <span class="s1">&#39;$1==&quot;Nov&quot; &amp;&amp; $2==&quot;23&quot;&#39;</span> | awk <span class="s1">&#39;$3&gt;=&quot;08:13:40&quot; &amp;&amp; $3&lt;&quot;08:13:50&quot;&#39;</span>
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>cat secure | awk <span class="s1">&#39;$1==&quot;Nov&quot; &amp;&amp; $2==&quot;23&quot;&#39;</span> | awk <span class="s1">&#39;$3&gt;=&quot;08:13:40&quot; &amp;&amp; $3&lt;&quot;08:13:50&quot;&#39;</span>
 Nov 23 08:13:40 cent sshd<span class="o">[</span>32578<span class="o">]</span>: Invalid user cro
 Nov 23 08:13:40 cent sshd<span class="o">[</span>32579<span class="o">]</span>: Received disconn
 （中略）
@@ -168,10 +168,10 @@ Nov 23 08:13:49 cent sshd<span class="o">[</span>32601<span class="o">]</span>: 
 入力されるテキストは比較対象や演算に合わせて扱いが変わります。
 したがって、以下のように出力に違いが出ます。</p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="c">#9.9は数字88と比較されるので数字扱い。抽出されない。</span>
-<span class="o">[</span>ueda\@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo </span>9.9 | awk <span class="s1">&#39;$1&gt;88&#39;</span>
+<span class="o">[</span>ueda@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo </span>9.9 | awk <span class="s1">&#39;$1&gt;88&#39;</span>
 <span class="c">#9.9は文字列88と比較されるので文字列扱い。</span>
 <span class="c">#辞書順で比較され、抽出される。</span>
-<span class="o">[</span>ueda\@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo </span>9.9 | awk <span class="s1">&#39;$1&gt;&quot;88&quot;&#39;</span>
+<span class="o">[</span>ueda@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo </span>9.9 | awk <span class="s1">&#39;$1&gt;&quot;88&quot;&#39;</span>
 9.9
 </pre></div>
 </div>
@@ -184,10 +184,10 @@ awkをちょっと気の利いたgrepとして使ってみようという気に�
 <p>　次に文字列の置換をしてみましょう。
 例えばsedを使ってNovを11に置換するには、次のように書きます。</p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="c">#置換前</span>
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>tail -n 1 secure
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>tail -n 1 secure
 Nov 23 16:35:05 cent su: pam_unix<span class="o">(</span>su:session<span class="o">)</span>: session （略）
 <span class="c">#置換後</span>
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>tail -n 1 secure | sed <span class="s1">&#39;s/^Nov/11/&#39;</span>
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>tail -n 1 secure | sed <span class="s1">&#39;s/^Nov/11/&#39;</span>
 11 23 16:35:05 cent su: pam_unix<span class="o">(</span>su:session<span class="o">)</span>: session （略）
 </pre></div>
 </div>
@@ -202,9 +202,9 @@ Nov 23 16:35:05 cent su: pam_unix<span class="o">(</span>su:session<span class="
 <p>　正規表現でマッチした文字列を再利用することもできます。
 次の例のように、正規表現にマッチした文字列を&amp;で呼び出したり、
 <tt class="docutils literal"><span class="pre">\\(</span> <span class="pre">\\)</span></tt> で範囲指定して <tt class="docutils literal"><span class="pre">\\1,\\2,\\3,...</span></tt> という記号で呼び出すことができます。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span><span class="nb">echo </span>1140003 | sed <span class="s1">&#39;s/.../〒&amp;-/&#39;</span>
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span><span class="nb">echo </span>1140003 | sed <span class="s1">&#39;s/.../〒&amp;-/&#39;</span>
 〒114-0003
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span><span class="nb">echo </span>09012345678 | sed <span class="s1">&#39;s/^\\(...\\)\\(....\\)/tel:\\1-\\2-/&#39;</span>
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span><span class="nb">echo </span>09012345678 | sed <span class="s1">&#39;s/^\\(...\\)\\(....\\)/tel:\\1-\\2-/&#39;</span>
 tel:090-1234-5678
 </pre></div>
 </div>
@@ -214,22 +214,22 @@ LANGの指定によっては次のように動作が変わります。
 この例では、LANG=C としてマルチバイト文字を意識しないようにすると、
 「大」の先頭1バイトだけが削れてしまいます。</p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="c">#文字コードがUTF-8</span>
-<span class="o">[</span>ueda\@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$LANG</span>
+<span class="o">[</span>ueda@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$LANG</span>
 ja_JP.UTF-8
-<span class="o">[</span>ueda\@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo</span> 大岡山 | sed <span class="s1">&#39;s/^.//g&#39;</span>
+<span class="o">[</span>ueda@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo</span> 大岡山 | sed <span class="s1">&#39;s/^.//g&#39;</span>
 岡山
 <span class="c">#LANGをCとすると動作が変わる。</span>
-<span class="o">[</span>ueda\@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo</span> 大岡山 | <span class="nv">LANG</span><span class="o">=</span>C sed <span class="s1">&#39;s/^.//g&#39;</span>
+<span class="o">[</span>ueda@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo</span> 大岡山 | <span class="nv">LANG</span><span class="o">=</span>C sed <span class="s1">&#39;s/^.//g&#39;</span>
 ��岡山
 </pre></div>
 </div>
 <p>　awk を使っても置換ができます。
 secure ログの Nov を11に置換するには次のように打ちます。</p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="c">#置換の関数 gsub を使う</span>
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>tail -n 1 secure | awk <span class="s1">&#39;{gsub(/Nov/,&quot;11&quot;,$1);print $0}&#39;</span>
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>tail -n 1 secure | awk <span class="s1">&#39;{gsub(/Nov/,&quot;11&quot;,$1);print $0}&#39;</span>
 11 23 16:35:05 cent su: pam_unix<span class="o">(</span>su:session<span class="o">)</span>: session （略）
 <span class="c">#条件文を使う</span>
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>tail -n 1 secure | awk <span class="s1">&#39;{if($1==&quot;Nov&quot;){$1=&quot;11&quot;};print $0}&#39;</span>
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>tail -n 1 secure | awk <span class="s1">&#39;{if($1==&quot;Nov&quot;){$1=&quot;11&quot;};print $0}&#39;</span>
 11 23 16:35:05 cent su: pam_unix<span class="o">(</span>su:session<span class="o">)</span>: session （略）
 </pre></div>
 </div>
@@ -244,16 +244,16 @@ awk の面白いところは、$1や$2を書き換えると$0も変わるとこ�
 この規則のおかげで、端末に書く文字が短くなります。
 以下は例です。</p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="c">#入力された全フィールドをそのまま出力する方法</span>
-<span class="o">[</span>ueda\@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo </span>1 2 3 | awk <span class="s1">&#39;{print $1,$2,$3}&#39;</span>
+<span class="o">[</span>ueda@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo </span>1 2 3 | awk <span class="s1">&#39;{print $1,$2,$3}&#39;</span>
 1 2 3
-<span class="o">[</span>ueda\@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo </span>1 2 3 | awk <span class="s1">&#39;{print $0}&#39;</span>
+<span class="o">[</span>ueda@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo </span>1 2 3 | awk <span class="s1">&#39;{print $0}&#39;</span>
 1 2 3
-<span class="o">[</span>ueda\@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo </span>1 2 3 | awk <span class="s1">&#39;{print}&#39;</span>
+<span class="o">[</span>ueda@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo </span>1 2 3 | awk <span class="s1">&#39;{print}&#39;</span>
 1 2 3
 <span class="c">#フィールドの値の変更</span>
-<span class="o">[</span>ueda\@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo </span>1 2 3 | awk <span class="s1">&#39;{$2=&quot;二&quot;;print $0}&#39;</span>
+<span class="o">[</span>ueda@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo </span>1 2 3 | awk <span class="s1">&#39;{$2=&quot;二&quot;;print $0}&#39;</span>
 1 二 3
-<span class="o">[</span>ueda\@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo </span>1 2 3 | awk <span class="s1">&#39;{$2=&quot;二&quot;;print}&#39;</span>
+<span class="o">[</span>ueda@cent ~<span class="o">]</span><span class="nv">$ </span><span class="nb">echo </span>1 2 3 | awk <span class="s1">&#39;{$2=&quot;二&quot;;print}&#39;</span>
 1 二 3
 </pre></div>
 </div>
@@ -267,12 +267,12 @@ sed や awk を12個つなげばできますが
 （脚注：マルチコアの場合、12個つなぐと並列処理になるのでバカにしてはいけません。）、
 awk や sed のスクリプトを用意することもできます。
 月の変換では、次のMONTHファイルを準備して sed で使えばよいでしょう。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>cat MONTH
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>cat MONTH
 s/^Jan/01/
 s/^Feb/02/
 s/^Mar/03/
 （以下略）
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>sed -f ./MONTH secure | tail -n 1
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>sed -f ./MONTH secure | tail -n 1
 11 23 16:35:05 cent su: pam_unix<span class="o">(</span>su:session<span class="o">)</span>: sess（略）
 </pre></div>
 </div>
@@ -283,9 +283,9 @@ s/^Mar/03/
 次の例では、access_logから第4フィールドを抽出しています。
 ただ、access_logの区切り文字は複雑なので、
 この場合の第4フィールドは単に空白区切りで見たときの4番目のデータということになります。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>head -n 1 httpd/access_log
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>head -n 1 httpd/access_log
 114.80.93.71 - - <span class="o">[</span>20/Nov/2011:06:47:54 +0900<span class="o">]</span> <span class="s2">&quot;GET / HTTP/1.1&quot;</span> 200 1429 （略）
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>cat httpd/access_log | awk <span class="s1">&#39;{print $4}&#39;</span>
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>cat httpd/access_log | awk <span class="s1">&#39;{print $4}&#39;</span>
 <span class="o">[</span>20/Nov/2011:06:47:54
 （以下略）
 </pre></div>
@@ -293,7 +293,7 @@ s/^Mar/03/
 <p>並び替えは、並べたい順にフィールドを指定してprintを適用します。
 例えば前の例に続けて、抽出した日付、時刻のデータを8桁の日付、
 6桁の時刻で正規化するには次のように操作します。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>cat httpd/access_log | awk <span class="s1">&#39;{print $4}&#39;</span> | sed <span class="s1">&#39;s;[:/\\[]; ;g&#39;</span> | awk <span class="s1">&#39;{print $2,$1,$3,$4$5$6}&#39;</span> | sed -f ./MONTH | awk <span class="s1">&#39;{print $3$1$2,$4}&#39;</span>
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>cat httpd/access_log | awk <span class="s1">&#39;{print $4}&#39;</span> | sed <span class="s1">&#39;s;[:/\\[]; ;g&#39;</span> | awk <span class="s1">&#39;{print $2,$1,$3,$4$5$6}&#39;</span> | sed -f ./MONTH | awk <span class="s1">&#39;{print $3$1$2,$4}&#39;</span>
 20111120 064754
 20111120 064805
 （略）
@@ -308,19 +308,19 @@ file2 から file3 への変換では、
 カンマを入れると空白区切りで出力、カンマを入れないと連結して出力という意味になります。
 カンマを入れずに連結する場合は、 <tt class="docutils literal"><span class="pre">$4</span> <span class="pre">$5</span> <span class="pre">$6</span></tt> と間に空白を入れても連結されます。
 あとは月を数字表記に変えて、年月日を連結して目標の出力を得ています。</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>cat httpd/access_log | awk <span class="s1">&#39;{print $4}&#39;</span> | head -n 1 &gt; file1
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>cat file1
+<div class="highlight-bash"><div class="highlight"><pre><span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>cat httpd/access_log | awk <span class="s1">&#39;{print $4}&#39;</span> | head -n 1 &gt; file1
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>cat file1
 <span class="o">[</span>20/Nov/2011:06:47:54
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>cat file1 | sed <span class="s1">&#39;s;[:/\\[]; ;g&#39;</span> &gt; file2
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>cat file2
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>cat file1 | sed <span class="s1">&#39;s;[:/\\[]; ;g&#39;</span> &gt; file2
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>cat file2
  20 Nov 2011 06 47 54
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>cat file2 | awk <span class="s1">&#39;{print $2,$1,$3,$4$5$6}&#39;</span> &gt; file3
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>cat file3
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>cat file2 | awk <span class="s1">&#39;{print $2,$1,$3,$4$5$6}&#39;</span> &gt; file3
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>cat file3
 Nov 20 2011 064754
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>cat file3 | sed -f ./MONTH &gt; file4
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>cat file4
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>cat file3 | sed -f ./MONTH &gt; file4
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>cat file4
 11 20 2011 064754
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>cat file4 | awk <span class="s1">&#39;{print $3$1$2,$4}&#39;</span>
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>cat file4 | awk <span class="s1">&#39;{print $3$1$2,$4}&#39;</span>
 20111120 064754
 </pre></div>
 </div>
@@ -335,14 +335,14 @@ Nov 20 2011 064754
 無理やり年を付加することを想定したものです。</p>
 <div class="highlight-bash"><div class="highlight"><pre><span class="c">#MMDDの4桁で月日を表現</span>
 <span class="c">#3行目で年明け</span>
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>cat hoge
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>cat hoge
 1230
 1231
 0101
 0102
 <span class="c">#データをひっくり返し、年をまたいだら年を一つ減らす。</span>
 <span class="c">#年を入れて8桁にしたら再びデータをひっくり返す。</span>
-<span class="o">[</span>ueda\@cent LOG<span class="o">]</span><span class="nv">$ </span>tac hoge | awk <span class="s1">&#39;BEGIN{y=&#39;</span><span class="k">$(</span>date +%Y<span class="k">)</span><span class="s1">&#39;;md=&#39;</span><span class="k">$(</span>date +%m%d<span class="k">)</span><span class="s1">&#39;}{if(md&lt;$1){y--};md=$1;print y md}&#39;</span> | tac
+<span class="o">[</span>ueda@cent LOG<span class="o">]</span><span class="nv">$ </span>tac hoge | awk <span class="s1">&#39;BEGIN{y=&#39;</span><span class="k">$(</span>date +%Y<span class="k">)</span><span class="s1">&#39;;md=&#39;</span><span class="k">$(</span>date +%m%d<span class="k">)</span><span class="s1">&#39;}{if(md&lt;$1){y--};md=$1;print y md}&#39;</span> | tac
 20111230
 20111231
 20120101

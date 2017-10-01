@@ -389,8 +389,8 @@ HTMLのフォームからPOSTされたデータは、
 </ul>
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
-3</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span><span class="nb">echo</span> <span class="s1">&#39;host=ueda\@www.usptomo.com&amp;port=12345&#39;</span> | cgi-name
-host ueda\@www.usptomo.com
+3</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span><span class="nb">echo</span> <span class="s1">&#39;host=ueda@www.usptomo.com&amp;port=12345&#39;</span> | cgi-name
+host ueda@www.usptomo.com
 port 12345
 </pre></div>
 </td></tr></table></div>
@@ -516,8 +516,8 @@ Ajaxは面倒臭いですけど非同期で使います。</p>
  &lt;head&gt;
  &lt;meta <span class="nv">charset</span><span class="o">=</span><span class="s2">&quot;UTF-8&quot;</span> /&gt;
  &lt;script&gt;
- var <span class="nv">hosts</span> <span class="o">=</span> <span class="o">[</span><span class="s2">&quot;host=ueda\@www.usptomo.com&amp;port=12345&quot;</span>,
- <span class="s2">&quot;host=ueda\@araibo.is-a-geek.com&amp;port=12345&quot;</span><span class="o">]</span>;
+ var <span class="nv">hosts</span> <span class="o">=</span> <span class="o">[</span><span class="s2">&quot;host=ueda@www.usptomo.com&amp;port=12345&quot;</span>,
+ <span class="s2">&quot;host=ueda@araibo.is-a-geek.com&amp;port=12345&quot;</span><span class="o">]</span>;
 
  <span class="k">function </span>check<span class="o">(){</span>
  ldavg<span class="o">(</span>0,<span class="s2">&quot;graph0&quot;</span><span class="o">)</span>;

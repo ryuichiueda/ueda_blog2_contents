@@ -47,19 +47,19 @@ Copyright: (C) Ryuichi Ueda
 15
 16
 17</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">#MAIL/の下には日付のディレクトリ</span>
-ueda\@uedaubuntu:~/MAIL<span class="nv">$ </span>ls
+ueda@uedaubuntu:~/MAIL<span class="nv">$ </span>ls
 20120610
 20120610.utf8
 20120611
 20120611.utf8
 ...
 <span class="c">#日付のディレクトリには、それぞれのメールが置かれる</span>
-ueda\@uedaubuntu:~/MAIL<span class="nv">$ </span>ls 20120610/ | head -n 3
+ueda@uedaubuntu:~/MAIL<span class="nv">$ </span>ls 20120610/ | head -n 3
 1339304183.Vfc03I46017dM943925.abc
 1339305265.Vfc03I46062cM458553.abc
 1339306807.Vfc03I4607c6M993984.abc
 <span class="c">#&lt;日付&gt;.utf8 には、UTF-8化した同名のファイルがある</span>
-ueda\@uedaubuntu:~/MAIL<span class="nv">$ </span>ls 20120610.utf8/ | head -n 3
+ueda@uedaubuntu:~/MAIL<span class="nv">$ </span>ls 20120610.utf8/ | head -n 3
 1339304183.Vfc03I46017dM943925.abc
 1339305265.Vfc03I46062cM458553.abc
 1339306807.Vfc03I4607c6M993984.abc
@@ -124,7 +124,7 @@ grepの出力するファイル名を使ってファイルをどこかにコピ�
 <span class="c"># LOGWATCH: 指定したホストのlogwatchメールを収集</span>
 <span class="c"># usage: ./LOGWATCH &lt;hostname&gt;</span>
 <span class="c">#</span>
-<span class="c"># written by R. Ueda (r-ueda\@usp-lab.com)</span>
+<span class="c"># written by R. Ueda (r-ueda@usp-lab.com)</span>
 
 <span class="o">[</span> <span class="s2">&quot;$1&quot;</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="nb">exit </span>1
 
@@ -136,7 +136,7 @@ grepの出力するファイル名を使ってファイルをどこかにコピ�
 mkdir -p <span class="s2">&quot;$dest&quot;</span> <span class="o">||</span> <span class="nb">exit </span>1
 
 <span class="nb">echo</span> ????????.utf8/* |
-xargs grep -F <span class="s2">&quot;From: logwatch\@$server&quot;</span> |
+xargs grep -F <span class="s2">&quot;From: logwatch@$server&quot;</span> |
 awk -F: <span class="s1">&#39;{print $1,substr($1,1,8)}&#39;</span> |
 <span class="c">#1:ファイル名 2:日付</span>
 awk -v <span class="nv">d</span><span class="o">=</span><span class="s2">&quot;$dest&quot;</span> <span class="s1">&#39;{print $1,d &quot;/&quot; $2}&#39;</span> |
@@ -189,14 +189,14 @@ Logwatchのメールは一日一通来るので、
 5
 6
 7
-8</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@uedaubuntu:~/MAIL<span class="nv">$ </span>./LOGWATCH abc.usptomonokai.jp 2&gt; /dev/null
-ueda\@uedaubuntu:~/MAIL<span class="nv">$ </span>ls LOGWATCH_abc.usptomonokai.jp | head -n 3
+8</pre></div></td><td class="code"><div class="highlight"><pre>ueda@uedaubuntu:~/MAIL<span class="nv">$ </span>./LOGWATCH abc.usptomonokai.jp 2&gt; /dev/null
+ueda@uedaubuntu:~/MAIL<span class="nv">$ </span>ls LOGWATCH_abc.usptomonokai.jp | head -n 3
 20120611
 20120612
 20120613
-ueda\@uedaubuntu:~/MAIL<span class="nv">$ </span>grep <span class="s2">&quot;^From:&quot;</span> ./LOGWATCH_abc.usptomonokai.jp/* | head -n 2
-./LOGWATCH_abc.usptomonokai.jp/20120611:From: logwatch\@abc.usptomonokai.jp
-./LOGWATCH_abc.usptomonokai.jp/20120612:From: logwatch\@abc.usptomonokai.jp
+ueda@uedaubuntu:~/MAIL<span class="nv">$ </span>grep <span class="s2">&quot;^From:&quot;</span> ./LOGWATCH_abc.usptomonokai.jp/* | head -n 2
+./LOGWATCH_abc.usptomonokai.jp/20120611:From: logwatch@abc.usptomonokai.jp
+./LOGWATCH_abc.usptomonokai.jp/20120612:From: logwatch@abc.usptomonokai.jp
 </pre></div>
 </td></tr></table></div>
 <p>　もし複数のサーバからLogwatchのメールを受け取っているならば、
@@ -234,7 +234,7 @@ lessで見るとリスト6のような構造になっているのが分かりま
 11
 12
 13
-14</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@uedaubuntu:~/MAIL<span class="nv">$ </span>less ./20121016/1350369599.xyz.abc
+14</pre></div></td><td class="code"><div class="highlight"><pre>ueda@uedaubuntu:~/MAIL<span class="nv">$ </span>less ./20121016/1350369599.xyz.abc
 （ヘッダ。略）
 Content-Type: multipart/mixed; <span class="nv">boundary</span><span class="o">=</span>047d7b621ee6cf83c604cc276bb3
 
@@ -246,7 +246,7 @@ Content-Type: multipart/mixed; <span class="nv">boundary</span><span class="o">=
 ...ひたすら記号が続く...
 --047d7b621ee6cf83c604cc276bb3--
 <span class="c">#7万7千行もある。</span>
-ueda\@uedaubuntu:~/MAIL<span class="nv">$ </span>wc -l ./20121016/1350369599.xyz.abc
+ueda@uedaubuntu:~/MAIL<span class="nv">$ </span>wc -l ./20121016/1350369599.xyz.abc
 77342 ./20121016/1350369599.xyz.abc
 </pre></div>
 </td></tr></table></div>
@@ -359,7 +359,7 @@ base64という方式でエンコードされています。
 <span class="c">#</span>
 <span class="c"># EXTFILE: メールから添付ファイルを抽出する。</span>
 <span class="c"># usage: EXTFILE &lt;電子メールファイル&gt;</span>
-<span class="c"># written by R. Ueda (r-ueda\@usp-lab.com) Oct. 16, 2012</span>
+<span class="c"># written by R. Ueda (r-ueda@usp-lab.com) Oct. 16, 2012</span>
 
 <span class="o">[</span> <span class="s2">&quot;$1&quot;</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="nb">exit </span>1
 <span class="nv">tmp</span><span class="o">=</span>/home/ueda/tmp/<span class="nv">$$</span>
@@ -417,7 +417,7 @@ rm -f <span class="nv">$tmp</span>-*
 2
 3
 4
-5</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@uedaubuntu:~/MAIL<span class="nv">$ </span>grep -i <span class="s2">&quot;^content-type:&quot;</span> ./*.utf8/* |
+5</pre></div></td><td class="code"><div class="highlight"><pre>ueda@uedaubuntu:~/MAIL<span class="nv">$ </span>grep -i <span class="s2">&quot;^content-type:&quot;</span> ./*.utf8/* |
  awk -F: <span class="s1">&#39;{print $2}&#39;</span> | count 1 1 | sort | sm2 1 1 2 2
 Content-Type 41367
 Content-type 75
@@ -486,16 +486,16 @@ grepの出力から分割したファイル名と添付ファイル名を抽出�
  8
  9
 10
-11</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@uedaubuntu:~/MAIL<span class="nv">$ </span>./EXTFILE ./20121016/1350369599.xyz.abc
+11</pre></div></td><td class="code"><div class="highlight"><pre>ueda@uedaubuntu:~/MAIL<span class="nv">$ </span>./EXTFILE ./20121016/1350369599.xyz.abc
 /home/ueda/MAIL/FILES/1350369599.xyz.abc_CHINJYU.JPG
 /home/ueda/MAIL/FILES/1350369599.xyz.abc_IMG_0965.JPG
 <span class="c">#元のファイルと比較</span>
 <span class="c">#バイナリファイル（テキストも）を比較するときは、diffではなくcmpを使います。</span>
-ueda\@uedaubuntu:~/MAIL<span class="nv">$ </span>cmp ./CHINJYU.JPG ./FILES/1350369599.xyz.abc_CHINJYU.JPG
-ueda\@uedaubuntu:~/MAIL<span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$?</span>
+ueda@uedaubuntu:~/MAIL<span class="nv">$ </span>cmp ./CHINJYU.JPG ./FILES/1350369599.xyz.abc_CHINJYU.JPG
+ueda@uedaubuntu:~/MAIL<span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$?</span>
 0
-ueda\@uedaubuntu:~/MAIL<span class="nv">$ </span>cmp ./IMG_0965.JPG ./FILES/1350369599.xyz.abc_IMG_0965.JPG
-ueda\@uedaubuntu:~/MAIL<span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$?</span>
+ueda@uedaubuntu:~/MAIL<span class="nv">$ </span>cmp ./IMG_0965.JPG ./FILES/1350369599.xyz.abc_IMG_0965.JPG
+ueda@uedaubuntu:~/MAIL<span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$?</span>
 0
 </pre></div>
 </td></tr></table></div>

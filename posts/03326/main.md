@@ -19,7 +19,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 私のUbuntuのaliasです。
 
 ```bash
-ueda\@remote:~$ alias
+ueda@remote:~$ alias
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\\''s/^\\s*[0-9]\\+\\s*//;s/[;&|]\\s*alert$//'\\'')"'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
@@ -33,7 +33,7 @@ alias ls='ls --color=auto'
 lと打つとこんな出力が。
 
 ```bash
-ueda\@remote:~$ l
+ueda@remote:~$ l
 123456789012.eps db/ id_rsa.pub takashi tmpvisit
 123456789012.png death_hato.bash* ipv6 test.bash* trackback.cgi*
 GIT/ dummy.pdf kenpinsiru.bash* test2.bash* ueda.png
@@ -43,7 +43,7 @@ TESTDATA.gz env.bash komakai_suuji tmp/ usppub
 これをシェルスクリプトで起動してみます。
 
 ```bash
-ueda\@remote:~$ cat hoge.bash 
+ueda@remote:~$ cat hoge.bash 
 #!/bin/bash 
 
 l
@@ -51,7 +51,7 @@ l
 
 このようにエラーが出ます。
 ```bash
-ueda\@remote:~$ ./hoge.bash 
+ueda@remote:~$ ./hoge.bash 
 ./hoge.bash: 行 3: l: コマンドが見つかりません
 ```
 

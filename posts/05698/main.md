@@ -26,7 +26,7 @@ export PIG_CLASSPATH=/etc/hadoop/conf.cluster/
 んで、sudo -Eu hdfs <コマンド> で作業。sudo -Eで今いじっているユーザの環境変数を引き継げます。
 
 ```bash
-[usp\@boabs005 ~]$ sudo -Eu hdfs hdfs dfs -ls
+[usp@boabs005 ~]$ sudo -Eu hdfs hdfs dfs -ls
 Found 9 items
 drwxr-xr-x - hdfs hadoop 0 2015-02-28 04:12 input
 drwxr-xr-x - hdfs hadoop 0 2015-02-28 04:19 output
@@ -37,7 +37,7 @@ drwxr-xr-x - hdfs hadoop 0 2015-02-28 04:19 output
 面倒なので、こんなスクリプトを書きました。
 
 ```bash
-[usp\@boabs005 ueda]$ cat ./do-pig 
+[usp@boabs005 ueda]$ cat ./do-pig 
 #!/bin/bash
 
 sudo -Eu hdfs ./pig-0.12.0-cdh5.3.1/bin/pig $1
@@ -49,10 +49,10 @@ sudo -Eu hdfs ./pig-0.12.0-cdh5.3.1/bin/pig $1
 yumで入れたのが違う・・・
 
 ```bash
-[usp\@boabs005 ueda]$ hadoop version
+[usp@boabs005 ueda]$ hadoop version
 Hadoop 2.5.0-cdh5.3.1
 ...
-[usp\@boabs005 ueda]$ pig --version
+[usp@boabs005 ueda]$ pig --version
 Apache Pig version 0.8.1-cdh3u6 (rexported) 
 compiled Mar 20 2013, 13:45:59
 ```

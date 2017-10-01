@@ -10,7 +10,7 @@ Copyright: (C) Ryuichi Ueda
 <tbody>
 <tr>
 <td>6月27日</td>
-<td>ぐれ氏によって<a href="https://twitter.com/minyoruminyon">シェル芸bot</a>と <a href="https://twitter.com/paiza_run">\@paiza_run</a> でツイートを投げ合う無限ループクワインが発見される</td>
+<td>ぐれ氏によって<a href="https://twitter.com/minyoruminyon">シェル芸bot</a>と <a href="https://twitter.com/paiza_run">@paiza_run</a> でツイートを投げ合う無限ループクワインが発見される</td>
 <td>危険</td>
 </tr>
 
@@ -30,7 +30,7 @@ Copyright: (C) Ryuichi Ueda
 <tr>
 <td>2月11日</td>
 <td><a href="/?post=09341">jus共催第27回シェル芸勉強会</a></td>
-<td><a href="https://togetter.com/li/1080646">Vimシェル芸</a>が<a href="https://twitter.com/robokinoko">\@robokinoko</a>氏によってブームに。鳥海さんがドラゴン曲線ワンライナーからPythonを取り除き、端末に曲線を描くことに成功。</td>
+<td><a href="https://togetter.com/li/1080646">Vimシェル芸</a>が<a href="https://twitter.com/robokinoko">@robokinoko</a>氏によってブームに。鳥海さんがドラゴン曲線ワンライナーからPythonを取り除き、端末に曲線を描くことに成功。</td>
 </tr>
 
 </tbody>
@@ -191,14 +191,14 @@ Copyright: (C) Ryuichi Ueda
 
 <tr>
 <td>6月14日</td>
-<td><a href="http://togetter.com/li/680441">jus & USP友の会共催 シェルワンライナー勉強会\@関西（第11回シェル芸勉強会）</a></td>
-<td>大阪で初開催。jusさんと一緒にやるということで「シェル芸」という言葉は控えめに使用。なお2016年現在は(ry。このころ、<a href="https://twitter.com/eban">\@eban</a>さんに捕捉されたっぽい。東京サテライトがあって4人集まったっぽい。</td>
+<td><a href="http://togetter.com/li/680441">jus & USP友の会共催 シェルワンライナー勉強会@関西（第11回シェル芸勉強会）</a></td>
+<td>大阪で初開催。jusさんと一緒にやるということで「シェル芸」という言葉は控えめに使用。なお2016年現在は(ry。このころ、<a href="https://twitter.com/eban">@eban</a>さんに捕捉されたっぽい。東京サテライトがあって4人集まったっぽい。</td>
 </tr>
 
 <tr>
 <td>3月26日</td>
 <td>sed等で強引にエクセルファイルからデータを抜き出す技に「<a href="https://twitter.com/nullpopopo/status/448832135101968384">エクシェル芸</a>」と名前が付く。</td>
-<td><a href="https://twitter.com/nullpopopo">\@nullpopopo</a>氏より。</td>
+<td><a href="https://twitter.com/nullpopopo">@nullpopopo</a>氏より。</td>
 </tr>
 
 <tr>

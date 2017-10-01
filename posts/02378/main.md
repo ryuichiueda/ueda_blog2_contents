@@ -88,9 +88,9 @@ $ cat nums
 ```bash
 $ cat nums | tr ' ' '\\n' | awk 'NF==1' | awk '{a+=$1}END{print a}'
 45
-ueda\@remote:~$ cat nums | xargs | tr ' ' '+' | bc
+ueda@remote:~$ cat nums | xargs | tr ' ' '+' | bc
 45
-ueda\@remote:~$ cat nums | xargs | ysum
+ueda@remote:~$ cat nums | xargs | ysum
 1 2 3 4 5 6 7 8 9 45
 ```
 
@@ -100,7 +100,7 @@ ueda\@remote:~$ cat nums | xargs | ysum
 文字数を数えてください。改行記号は数えないでください。
 
 ```bash
-ueda\@remote:~$ cat genkou
+ueda@remote:~$ cat genkou
 筆者は朝、目玉焼きを食べた。
 昼、著者は卵がけごはんを食べた。
 そして夜、著者はマンハッタンの夜景を
@@ -113,13 +113,13 @@ ueda\@remote:~$ cat genkou
 
 ```bash
 ###これはNG###
-ueda\@remote:~$ wc -m genkou
+ueda@remote:~$ wc -m genkou
 65 genkou
-ueda\@remote:~$ cat genkou | tr -d '\\n' | wc -m
+ueda@remote:~$ cat genkou | tr -d '\\n' | wc -m
 61
-ueda\@remote:~$ sed 's/./&\\n/g' genkou | awk 'NF==1' | wc -l
+ueda@remote:~$ sed 's/./&\\n/g' genkou | awk 'NF==1' | wc -l
 61
-ueda\@remote:~$ cat genkou | awk '{a+=length($1)}END{print a}'
+ueda@remote:~$ cat genkou | awk '{a+=length($1)}END{print a}'
 61
 ```
 
@@ -128,22 +128,22 @@ ueda\@remote:~$ cat genkou | awk '{a+=length($1)}END{print a}'
 次のようなファイルを作り、ファイルの中に三個存在する文字を出力してください。
 
 ```bash
-ueda\@remote:~$ cat hoge
+ueda@remote:~$ cat hoge
 aabbcdabbcccdd
 ```
 
 <h2>A4</h2>
 
 ```bash
-ueda\@remote:~$ cat hoge | sed 's/./&\\n/g' | awk 'NF==1' |
+ueda@remote:~$ cat hoge | sed 's/./&\\n/g' | awk 'NF==1' |
  sort | uniq -c | awk '$1==3{print $2}'
 a
 d
-ueda\@remote:~$ cat hoge | sed 's/./&\\n/g' | sort |
+ueda@remote:~$ cat hoge | sed 's/./&\\n/g' | sort |
  awk 'NF==1' | count 1 1 | awk '$2==3{print $1}'
 a
 d
-ueda\@remote:~$ cat hoge | sed 's/./& /g' |
+ueda@remote:~$ cat hoge | sed 's/./& /g' |
  awk '{for(i=1;i<=NF;i++){x[$i]++};for(k in x){print k,x[k]}}' |
  awk '$2==3{print $1}'
 a
@@ -185,7 +185,7 @@ $ tree
 
 3 directories, 3 files
 ###別解###
-$ find . -type f | xargs -I\@ mv \@ ./
+$ find . -type f | xargs -I@ mv @ ./
 ```
 
 <h2>Q6</h2>
@@ -258,10 +258,10 @@ $ ls | while read f ; do echo $f file* ; done | awk '{for(i=2;i<=NF;i++){print $
 ###別解1###
 $ echo file{1..9} | awk '{for(i=1;i<=9;i++){for(j=i+1;j<=9;j++){{print $i,$j}}}}' 
 ###別解2###
-ueda\@remote:~$ echo file{1..9} | awk '{for(i=1;i<=9;i++){for(j=1;j<=9;j++){{print $i,$j}}}}' | awk '$1<$2'
+ueda@remote:~$ echo file{1..9} | awk '{for(i=1;i<=9;i++){for(j=1;j<=9;j++){{print $i,$j}}}}' | awk '$1<$2'
 ###ツーライナーになるが・・・###
-ueda\@remote:~$ ls file{1..9} > hoge
-ueda\@remote:~$ loopx hoge hoge | awk '$1<$2'
+ueda@remote:~$ ls file{1..9} > hoge
+ueda@remote:~$ loopx hoge hoge | awk '$1<$2'
 ```
 
 <h2>Q8</h2>
@@ -271,7 +271,7 @@ ueda\@remote:~$ loopx hoge hoge | awk '$1<$2'
 <h2>A8</h2>
 
 ```bash
-ueda\@remote:~$ cat /dev/urandom | tr -dc '0-9' | fold -b6 | sed 's/^0*//'
+ueda@remote:~$ cat /dev/urandom | tr -dc '0-9' | fold -b6 | sed 's/^0*//'
 ###Macだとgtrとgfoldを使わないとコケる###
 uedambp:~ ueda$ cat /dev/urandom | gtr -dc '0-9' | gfold -b6 | sed 's/^0*//'
 ```<!--:-->

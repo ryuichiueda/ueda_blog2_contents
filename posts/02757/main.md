@@ -7,7 +7,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 小ネタですが。Ubuntuで検証。
 
 ```bash
-hoge\@hoge:~$ while sleep 1 ; do echo $(date "+%Y%m%d %H%M%S") $(cat /proc/loadavg) ; done 
+hoge@hoge:~$ while sleep 1 ; do echo $(date "+%Y%m%d %H%M%S") $(cat /proc/loadavg) ; done 
 20140414 143624 0.00 0.01 0.05 1/133 8622
 20140414 143625 0.00 0.01 0.05 1/133 8625
 20140414 143626 0.00 0.01 0.05 1/133 8628
@@ -20,10 +20,10 @@ hoge\@hoge:~$ while sleep 1 ; do echo $(date "+%Y%m%d %H%M%S") $(cat /proc/loada
 ファイルに溜めたきゃdoneの後ろでリダイレクト。
 
 ```bash
-hoge\@hoge:~$ while sleep 1 ; do echo $(date "+%Y%m%d %H%M%S") $(cat /proc/loadavg) ;\\
+hoge@hoge:~$ while sleep 1 ; do echo $(date "+%Y%m%d %H%M%S") $(cat /proc/loadavg) ;\\
  done > loadavg
 （Ctrl+cで止める。）
-hoge\@hoge:~$ cat loadavg 
+hoge@hoge:~$ cat loadavg 
 20140414 143059 0.00 0.01 0.05 1/133 8586
 20140414 143100 0.00 0.01 0.05 1/133 8589
 20140414 143101 0.00 0.01 0.05 1/133 8592

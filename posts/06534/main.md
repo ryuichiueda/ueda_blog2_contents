@@ -18,10 +18,10 @@ Haskellを担当して書きましたが、どう考えてもその界隈の方�
 
 こっちは本職なので堂々と。8/29（土）にjusさんと共催でシェル芸勉強会を行います。今回から午前の部を設けました。できれば初心者向けにいろんな方々に講習を担当していただければという考えです。そのうち2日構成にでもしましょうか。オーバーナイトセッション夜の耐久シェル芸勉強会とか。死にますね。死にます。
 
-<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">会長\@友の会 :~$ echo echo USP友の会:7/19（土）日本UNIXユーザ会さんと共催でシェル芸勉強会+α ; curl <a href="https://t.co/tgXAHKEpax">https://t.co/tgXAHKEpax</a> ; echo <a href="https://twitter.com/usptomo">\@usptomo</a>さんから <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a></p>&mdash; 【怒濤の】USP友の会【シェル芸】 (\@usptomo) <a href="https://twitter.com/usptomo/status/622748701681807360">2015, 7月 19</a></blockquote>
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">会長@友の会 :~$ echo echo USP友の会:7/19（土）日本UNIXユーザ会さんと共催でシェル芸勉強会+α ; curl <a href="https://t.co/tgXAHKEpax">https://t.co/tgXAHKEpax</a> ; echo <a href="https://twitter.com/usptomo">@usptomo</a>さんから <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a></p>&mdash; 【怒濤の】USP友の会【シェル芸】 (@usptomo) <a href="https://twitter.com/usptomo/status/622748701681807360">2015, 7月 19</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">やらないか <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> | jus共催勉強会「なぜシェルに仕事をさせてはいけないのか」と第18回ニンニク入れますかシェル芸勉強会。そして第35回アブラマシマシUSP友の会定例会 (08月29日) <a href="https://twitter.com/hashtag/usptomo?src=hash">#usptomo</a> <a href="https://t.co/h5cyH5oXFO">https://t.co/h5cyH5oXFO</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/622583929841651713">July 19, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">やらないか <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> | jus共催勉強会「なぜシェルに仕事をさせてはいけないのか」と第18回ニンニク入れますかシェル芸勉強会。そして第35回アブラマシマシUSP友の会定例会 (08月29日) <a href="https://twitter.com/hashtag/usptomo?src=hash">#usptomo</a> <a href="https://t.co/h5cyH5oXFO">https://t.co/h5cyH5oXFO</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/622583929841651713">July 19, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 

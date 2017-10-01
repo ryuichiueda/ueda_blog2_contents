@@ -37,7 +37,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 いちおう家事もやってます。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">餃子に二郎の切り方でニンニクを入れたら完全にラーメン二郎風味の餃子になた。</p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/863709584560607232">2017年5月14日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">餃子に二郎の切り方でニンニクを入れたら完全にラーメン二郎風味の餃子になた。</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/863709584560607232">2017年5月14日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 

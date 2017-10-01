@@ -34,7 +34,7 @@ Copyright: (C) Ryuichi Ueda
 <blockquote>
 <div>シェルのワンライナーだと以下のとおり。</div></blockquote>
 
-<div class="highlight-none"><div class="highlight"><pre>ueda\@ubuntu:~$ cat /etc/passwd | awk &quot;-F:&quot; &#39;{print $1}&#39;
+<div class="highlight-none"><div class="highlight"><pre>ueda@ubuntu:~$ cat /etc/passwd | awk &quot;-F:&quot; &#39;{print $1}&#39;
 ...
 sshd
 ueda
@@ -49,7 +49,7 @@ postfix
 2
 3
 4
-5</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~$ cat q1_1.hs
+5</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~$ cat q1_1.hs
 main = getContents &gt;&gt;= putStr . main&#39;
 
 main&#39; :: String -&gt; String
@@ -59,10 +59,10 @@ main&#39; cs = unlines $ map ( takeWhile (/= &#39;:&#39;) ) ( lines cs )
 <ul class="simple">
 <li>実行</li>
 </ul>
-<div class="highlight-none"><div class="highlight"><pre>ueda\@remote:~$ ghc q1_1.hs
+<div class="highlight-none"><div class="highlight"><pre>ueda@remote:~$ ghc q1_1.hs
 [1 of 1] Compiling Main ( q1_1.hs, q1_1.o )
 Linking q1_1 ...
-ueda\@remote:~$ cat /etc/passwd | ./q1_1
+ueda@remote:~$ cat /etc/passwd | ./q1_1
 ...
 ueda
 mysql
@@ -120,7 +120,7 @@ GHCiでは、次のように変数を手で打って作ります。</p>
 <p>でけた。
 Haskellにはforがありませんが、こんなふうに使わなくてもスマートにリストをさばく仕掛けがいろいろ用意されています。</p>
 <p>ちなみに、あまり難しい用語を使いたくはないのですが、このような関数を「高階関数」と呼びます。考え方自体はあまり難しいものでもなくて、シェル芸人ならいつもやるような（脚注：国内で2,3人と思われる。）次のようなワンライナーと一緒です。</p>
-<div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre>uedambp:USPMAG ueda<span class="nv">$ </span>find . | xargs -I\@ cp \@ \@.org
+<div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre>uedambp:USPMAG ueda<span class="nv">$ </span>find . | xargs -I@ cp @ @.org
 </pre></div>
 </td></tr></table></div>
 <p><tt class="docutils literal"><span class="pre">find(1)</span></tt>から流れてきたファイル名一つ一つに <tt class="docutils literal"><span class="pre">cp(1)</span></tt>を適用して <tt class="docutils literal"><span class="pre">.org</span></tt> という拡張子でバックアップファイルを作るという処理ですが、Haskellのコードとよく見比べてみると、<tt class="docutils literal"><span class="pre">xargs</span></tt> が <tt class="docutils literal"><span class="pre">map</span></tt> の役割を果たしていることが分かります。</p>

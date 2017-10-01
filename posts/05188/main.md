@@ -22,7 +22,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 それからTogetter。
 
-<blockquote class="twitter-tweet" lang="ja"><p>「第15回ドキッ！grepだらけのシェル芸勉強会&amp;第33回 $ rm -Rf ./tmp/ /* USP友の会定例会 */」をトゥギャりました。 <a href="http://t.co/6JtHTLmxOT">http://t.co/6JtHTLmxOT</a></p>&mdash; 【怒濤の】USP友の会【シェル芸】 (\@usptomo) <a href="https://twitter.com/usptomo/status/562199864864305152">2015, 2月 2</a></blockquote>
+<blockquote class="twitter-tweet" lang="ja"><p>「第15回ドキッ！grepだらけのシェル芸勉強会&amp;第33回 $ rm -Rf ./tmp/ /* USP友の会定例会 */」をトゥギャりました。 <a href="http://t.co/6JtHTLmxOT">http://t.co/6JtHTLmxOT</a></p>&mdash; 【怒濤の】USP友の会【シェル芸】 (@usptomo) <a href="https://twitter.com/usptomo/status/562199864864305152">2015, 2月 2</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 んで、slideshare。

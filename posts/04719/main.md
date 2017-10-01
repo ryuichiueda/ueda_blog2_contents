@@ -6,14 +6,14 @@ Copyright: (C) 2017 Ryuichi Ueda
 # 煽られるように開発中の言語（Glue）について説明・・・
 あわわわわ。
 
-<blockquote class="twitter-tweet" lang="ja"><p><a href="https://twitter.com/okapies">\@okapies</a> 外部コマンドを起動しなくてもいい、マルチコア対応のシェルスクリプトを想定しています。ログ解析とかテキスト加工とか。</p>&mdash; Yukihiro Matsumoto (\@yukihiro_matz) <a href="https://twitter.com/yukihiro_matz/status/543059740473831424">2014, 12月 11</a></blockquote>
+<blockquote class="twitter-tweet" lang="ja"><p><a href="https://twitter.com/okapies">@okapies</a> 外部コマンドを起動しなくてもいい、マルチコア対応のシェルスクリプトを想定しています。ログ解析とかテキスト加工とか。</p>&mdash; Yukihiro Matsumoto (@yukihiro_matz) <a href="https://twitter.com/yukihiro_matz/status/543059740473831424">2014, 12月 11</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 引用するのも何か申し訳ないのですが、ここ数日この件で2,3人の方から感想を求められたので、感想を・・・。
 
 <!--more-->
 
-<blockquote class="twitter-tweet" lang="ja"><p>なるほど</p>&mdash; Ryuichi UEDA (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/544363059586678784">2014, 12月 15</a></blockquote>
+<blockquote class="twitter-tweet" lang="ja"><p>なるほど</p>&mdash; Ryuichi UEDA (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/544363059586678784">2014, 12月 15</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 アホ丸出しです。でも、なるほどです。「そういう解釈になるのかー」と。
@@ -61,7 +61,7 @@ ERROR_EXIT(){
 }
 
 ERROR_CHECK(){
-	[ "$(tr -d ' 0' <<< ${PIPESTATUS[\@]})" = "" ] && return
+	[ "$(tr -d ' 0' <<< ${PIPESTATUS[@]})" = "" ] && return
 	ERROR_EXIT
 }
 
@@ -227,4 +227,4 @@ io.glueを変換したものをご覧いただければ分かりますが、コ�
 
 <h2>最後に</h2>
 
-当然ですが、これからも研究課題として取り扱っていきます。腕利きの\@bsdhackさんあたり、手伝ってくれないかなあ・・・（ボソ）。あ、READMEとか、Streemのものを参考にさせていただいて書き直そうと思います・・・。
+当然ですが、これからも研究課題として取り扱っていきます。腕利きの@bsdhackさんあたり、手伝ってくれないかなあ・・・（ボソ）。あ、READMEとか、Streemのものを参考にさせていただいて書き直そうと思います・・・。

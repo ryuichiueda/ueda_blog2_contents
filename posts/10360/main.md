@@ -35,7 +35,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 大阪のLTの一ファンとしてお待ちしておりました。お忙しそうですので、なるべく楽な感じでお願いいたします。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash">#はてなブログ</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a><br>「第30回シェル芸勉強会　大阪サテライト」レポート - くんすとの備忘録<a href="https://t.co/UtoG8SdYxx">https://t.co/UtoG8SdYxx</a></p>&mdash; くんすと\@埼玉両日 (\@kunst1080) <a href="https://twitter.com/kunst1080/status/907240151222444032">2017年9月11日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash">#はてなブログ</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a><br>「第30回シェル芸勉強会　大阪サテライト」レポート - くんすとの備忘録<a href="https://t.co/UtoG8SdYxx">https://t.co/UtoG8SdYxx</a></p>&mdash; くんすと@埼玉両日 (@kunst1080) <a href="https://twitter.com/kunst1080/status/907240151222444032">2017年9月11日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 東京もシェル芸勉強会特有の伝統的なグダグダ感を大切にしていきたいところです。
 

@@ -65,7 +65,7 @@ Haskellのインストール等の情報を私のサイトにまとめました�
 15
 16
 17
-18</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>cat q1_2_3.hs
+18</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>cat q1_2_3.hs
 import Data.List
 import Data.List.Split
 
@@ -182,7 +182,7 @@ Haskellでは図6のようなコードを書きます。</p>
 3
 4
 5
-6</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/USPMAG/SRC$ cat q1_2_4.hs
+6</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/USPMAG/SRC$ cat q1_2_4.hs
 （中略）
 shellCount&#39; :: [(Int,String)] -&gt; [(Int,String)]
 shellCount&#39; [] = []
@@ -249,7 +249,7 @@ shellCount&#39; shs = shs
 5
 6
 7
-8</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>cat q1_2_5.hs
+8</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>cat q1_2_5.hs
 （中略）
 shellCount<span class="s1">&#39; :: [(Int,String)] -&gt; [(Int,String)]</span>
 <span class="s1">shellCount&#39;</span> <span class="o">[]</span> <span class="o">=</span> <span class="o">[]</span>
@@ -277,7 +277,7 @@ shellCount<span class="s1">&#39; [a] = [a]</span>
 2
 3
 4
-5</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>cat /etc/passwd |
+5</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>cat /etc/passwd |
  ./q1_2_5 | head -n 3
 2 /bin/bash
 1 /bin/bash
@@ -309,7 +309,7 @@ shellCount<span class="s1">&#39; [a] = [a]</span>
 19
 20
 21
-22</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>cat q1_2_6.hs
+22</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>cat q1_2_6.hs
 import Data.List
 import Data.List.Split
 
@@ -356,7 +356,7 @@ Haskellではよく使います。</p>
 3
 4
 5
-6</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>cat /etc/passwd | ./q1_2_6
+6</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>cat /etc/passwd | ./q1_2_6
 3 /bin/bash
 4 /bin/false
 17 /bin/sh
@@ -394,7 +394,7 @@ Haskellではよく使います。</p>
 14
 15
 16
-17</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">USPMAG</span><span class="o">/</span><span class="kt">SRC</span><span class="o">$</span> <span class="n">cat</span> <span class="n">q1_2_7</span><span class="o">.</span><span class="n">hs</span>
+17</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/GIT</span><span class="o">/</span><span class="kt">USPMAG</span><span class="o">/</span><span class="kt">SRC</span><span class="o">$</span> <span class="n">cat</span> <span class="n">q1_2_7</span><span class="o">.</span><span class="n">hs</span>
 <span class="kr">import</span> <span class="nn">Data.List</span>
 <span class="kr">import</span> <span class="nn">Data.List.Split</span>
 
@@ -454,7 +454,7 @@ Haskellではよく使います。</p>
  9
 10
 11
-12</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>cat q1_2_8.hs
+12</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>cat q1_2_8.hs
 import Data.List
 import Data.List.Split
 

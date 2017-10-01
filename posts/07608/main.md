@@ -200,9 +200,9 @@ $ sort -ms -k1,1 newdata data | uniq -w 3
 004 尾崎んちのババア
 005 純愛ババア学園
 ```
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">Q4$ cat newdata data | sort -snuk1,1 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a></p>&mdash; 石井　久治 (\@hisaharu) <a href="https://twitter.com/hisaharu/status/698388070589018112">2016, 2月 13</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">Q4$ cat newdata data | sort -snuk1,1 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a></p>&mdash; 石井　久治 (@hisaharu) <a href="https://twitter.com/hisaharu/status/698388070589018112">2016, 2月 13</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hisaharu">\@hisaharu</a> <br>sort -u -k1,1 newdata data<br>でしたねー！勉強になります</p>&mdash; mollinaca (\@syoutin) <a href="https://twitter.com/syoutin/status/698392272677654528">2016, 2月 13</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hisaharu">@hisaharu</a> <br>sort -u -k1,1 newdata data<br>でしたねー！勉強になります</p>&mdash; mollinaca (@syoutin) <a href="https://twitter.com/syoutin/status/698392272677654528">2016, 2月 13</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <h2>Q5</h2>
@@ -325,11 +325,11 @@ $ grep -n -C 1 -- -- 1350369599.Vfc03I4682c8M940114.remote
 $ sed -n '60,665p' 1350369599.Vfc03I4682c8M940114.remote |
  sed -n '6,$p' | base64 -d > a.jpg
 ###ImageMagickのidentifyコマンドでちゃんと画像になっているか確認###
-ueda\@remote:~/GIT/ShellGeiData/vol.21/Q5$ identify a.jpg 
+ueda@remote:~/GIT/ShellGeiData/vol.21/Q5$ identify a.jpg 
 a.jpg JPEG 261x261 261x261+0+0 8-bit DirectClass 34.2KB 0.010u 0:00.019
 ###さらにavplayで画像を見る###
 $ avplay a.jpg
 ```
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">Q8 % uudeview -i 1350369599.Vfc03I4682c8M940114.remote<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a></p>&mdash; eban (\@eban) <a href="https://twitter.com/eban/status/698408677804347392">2016, 2月 13</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">Q8 % uudeview -i 1350369599.Vfc03I4682c8M940114.remote<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a></p>&mdash; eban (@eban) <a href="https://twitter.com/eban/status/698408677804347392">2016, 2月 13</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

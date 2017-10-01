@@ -8,7 +8,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 （追記: envを抜いてましたが、それだとCシェル系で確認できないので加えました）
 ```bash
-ueda\@remote:~$ env x='() { :;}; echo vulnerable' bash -c 'echo this is a test'
+ueda@remote:~$ env x='() { :;}; echo vulnerable' bash -c 'echo this is a test'
 vulnerable
 this is a test
 ```
@@ -24,7 +24,7 @@ bashの文法ではシングルクォートで囲んだ中のものは何がど�
 あんまりローレベルのところを知っているわけでもないのですが、文法からすれば実装ミスです（いや、そうとも言えないかも。ということで今は疑いのあるものは止めてます。）。文法自体の問題ではないので、パッチがすぐに出ているようです。パッチを当てるとこうなります。
 
 ```bash
-[ueda\@centos ~]$ x='() { :;}; echo vulnerable' bash -c 'echo this is a test'
+[ueda@centos ~]$ x='() { :;}; echo vulnerable' bash -c 'echo this is a test'
 bash: warning: x: ignoring function definition attempt
 bash: error importing function definition for `x'
 this is a test
@@ -34,7 +34,7 @@ this is a test
 
 ↓あのディストリビューション
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>Ubuntu users can do this to fix the exploit:&#10;&#10;sudo apt-get update&#10;sudo apt-get --only-upgrade install bash</p>&mdash; kacy fortner (\@kacyf) <a href="https://twitter.com/kacyf/status/514813590348763136">September 24, 2014</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>Ubuntu users can do this to fix the exploit:&#10;&#10;sudo apt-get update&#10;sudo apt-get --only-upgrade install bash</p>&mdash; kacy fortner (@kacyf) <a href="https://twitter.com/kacyf/status/514813590348763136">September 24, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
@@ -56,12 +56,12 @@ this
 dashも？？？と思ったけどこれもbashを後ろで呼び出しているからでした。アホです。
 
 ```bash
-ueda\@ubuntu:~$ dash
+ueda@ubuntu:~$ dash
 $ x='() { :;}; echo vulnerable' bash -c "echo this is a test" 
 vulnerable
 this is a test
 ###これも大丈夫です###
-ueda\@ubuntu:~$ dash
+ueda@ubuntu:~$ dash
 $ x='() { :;}; echo vulnerable' sh -c "echo this"
 this
 ```

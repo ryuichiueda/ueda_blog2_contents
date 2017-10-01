@@ -25,7 +25,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ```bash
 ###標準入力からdocxを受ける###
 server:ShellOfficeTools ueda$ cat ~/Desktop/letter.docx |
- ./wordsed 's/\@\@*/ボケ/g' > out.docx
+ ./wordsed 's/@@*/ボケ/g' > out.docx
 ###へるぷを出す###
 server:ShellOfficeTools ueda$ ./wordsed -h
 WordSed 1.0: a string replacement tool for docx

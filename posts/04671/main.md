@@ -53,7 +53,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 次のseqからsed（と言ってもgsed）だけでfizzbuzzを完成させてください。
 
 ```bash
-ueda\@remote:~$ seq 100 | sed ...
+ueda@remote:~$ seq 100 | sed ...
 1
 2
 Fizz
@@ -82,7 +82,7 @@ Buzz
 このうち素数はどれでしょうか？
 
 ```bash
-ueda\@remote:~$ echo 0xaf 0x13 0x0d 0x24 0x58
+ueda@remote:~$ echo 0xaf 0x13 0x0d 0x24 0x58
 ```
 
 <h1>Q4</h1>
@@ -99,9 +99,9 @@ e89fb9e3818ce9a39fe381b9e3819fe38184
 （catするとahoとだけ出て、容量は1GB。）
 
 ```bash
-ueda\@remote:~$ cat hoge
+ueda@remote:~$ cat hoge
 aho
-ueda\@remote:~$ ls -l hoge
+ueda@remote:~$ ls -l hoge
 -rw-r--r-- 1 ueda ueda 1000000000 12月 7 14:53 hoge
 ```
 

@@ -8,10 +8,10 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 諸事情により、シェル芸botのお父様のVPSから、ConoHaから提供いただいているUSP友の会のVPSへ。友の会のVPSはCentOSだったがUbuntuに入れ替え。運用停止して様子見状態だったメーリングリストは廃止。ウェブサイトはrsync等を駆使して存続。bash製なので移植は極めて簡単だった。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="zh" dir="ltr">多分遷宮完了！</p>&mdash; ふるつき (\@theoldmoon0602) <a href="https://twitter.com/theoldmoon0602/status/903791744155779073">2017年9月2日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="zh" dir="ltr">多分遷宮完了！</p>&mdash; ふるつき (@theoldmoon0602) <a href="https://twitter.com/theoldmoon0602/status/903791744155779073">2017年9月2日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr">💩<br>💩<br>💩<br>💩<br>💩<br>💩<br>💩<br>💩<br>💩<br>💩 <a href="https://t.co/EN3RCy7Us3">https://t.co/EN3RCy7Us3</a></p>&mdash; シェル芸bot (\@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/903794375393767424">2017年9月2日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr">💩<br>💩<br>💩<br>💩<br>💩<br>💩<br>💩<br>💩<br>💩<br>💩 <a href="https://t.co/EN3RCy7Us3">https://t.co/EN3RCy7Us3</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/903794375393767424">2017年9月2日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 良かったです。
@@ -24,10 +24,10 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <a href="IMG_8479.jpg"><img src="IMG_8479-300x225.jpg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-10267" /></a>
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">謎設備TA <a href="https://twitter.com/hashtag/osc17cb?src=hash">#osc17cb</a> <a href="https://t.co/6Kch3EkVD6">pic.twitter.com/6Kch3EkVD6</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/903888174568443904">2017年9月2日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">謎設備TA <a href="https://twitter.com/hashtag/osc17cb?src=hash">#osc17cb</a> <a href="https://t.co/6Kch3EkVD6">pic.twitter.com/6Kch3EkVD6</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/903888174568443904">2017年9月2日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">とってもヘルシー <a href="https://twitter.com/hashtag/osc17cb?src=hash">#osc17cb</a> <a href="https://t.co/ZED5J2sRBW">pic.twitter.com/ZED5J2sRBW</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/903911411390193665">2017年9月2日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">とってもヘルシー <a href="https://twitter.com/hashtag/osc17cb?src=hash">#osc17cb</a> <a href="https://t.co/ZED5J2sRBW">pic.twitter.com/ZED5J2sRBW</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/903911411390193665">2017年9月2日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 自身の反省はさておき、会はとても良い雰囲気で進みました。お越しいただき有難うございました。

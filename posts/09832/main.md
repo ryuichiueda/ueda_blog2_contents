@@ -19,7 +19,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 本の情報はGitHubに掲載しています。
 <blockquote class="twitter-tweet" data-lang="ja">
 <p dir="ltr" lang="ja">最近質問の書き込みが少ないです・・・<a href="https://t.co/T8u8Wjsi9v">https://t.co/T8u8Wjsi9v</a></p>
-— Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/878950427932237826">2017年6月25日</a></blockquote>
+— Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/878950427932237826">2017年6月25日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 質問お待ちしております！！
@@ -27,13 +27,13 @@ Copyright: (C) 2017 Ryuichi Ueda
 弊研究室の岡崎氏が管理しています。
 <blockquote class="twitter-tweet" data-lang="ja">
 <p dir="ltr" lang="ja">先週公開されたRaspberry Pi Mouse + ROS用ゲームコントローラ接続パッケージですが、研究室内でソーシャルドキュメンテーション中です。増える英語、飛び交うプルリク。<a href="https://t.co/RAjx1mvvkI">https://t.co/RAjx1mvvkI</a></p>
-— CIT未ロボ上田研 (\@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/871707077856567296">2017年6月5日</a></blockquote>
+— CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/871707077856567296">2017年6月5日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <h2 id="hector">Hector SLAM + ナビゲーションのパッケージ</h2>
 同じく岡崎氏作のHector SLAMしながらナビゲーションするパッケージ。千葉工大のOBの前川氏のパッケージからあまりいじっていないそうです。
 <blockquote class="twitter-tweet" data-lang="ja">
-<p dir="ltr" lang="ja">仕事が早いっすね。| ROSを使ったRaspberry Pi Mouseのナビゲーション <a href="https://t.co/616wWmWkOy">https://t.co/616wWmWkOy</a> <a href="https://twitter.com/hashtag/citarlab?src=hash">#citarlab</a> <a href="https://twitter.com/uedalaboratory">\@uedalaboratory</a>さんから</p>
-— CIT未ロボ上田研 (\@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/874259302168412160">2017年6月12日</a></blockquote>
+<p dir="ltr" lang="ja">仕事が早いっすね。| ROSを使ったRaspberry Pi Mouseのナビゲーション <a href="https://t.co/616wWmWkOy">https://t.co/616wWmWkOy</a> <a href="https://twitter.com/hashtag/citarlab?src=hash">#citarlab</a> <a href="https://twitter.com/uedalaboratory">@uedalaboratory</a>さんから</p>
+— CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/874259302168412160">2017年6月12日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 岡崎さんは現在、移動ロボットでは標準的な構成となるgmappingとナビゲーションメタパッケージをラズパイマウスに移植中です。
@@ -41,11 +41,11 @@ Copyright: (C) 2017 Ryuichi Ueda
 終わったものや募集が定員に達したものばかり挙げますが・・・。これからもあるかもしれません。ありがとうございます。
 <blockquote class="twitter-tweet" data-lang="ja">
 <p dir="ltr" lang="ja">ROS Japan UG #12 Raspberry Pi Mouseハッカソン を公開しました！ <a href="https://t.co/9h126BZLiD">https://t.co/9h126BZLiD</a> <a href="https://twitter.com/hashtag/rosjp?src=hash">#rosjp</a></p>
-— Yutaka Kondo (\@youtalk) <a href="https://twitter.com/youtalk/status/874109784168857600">2017年6月12日</a></blockquote>
+— Yutaka Kondo (@youtalk) <a href="https://twitter.com/youtalk/status/874109784168857600">2017年6月12日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <blockquote class="twitter-tweet" data-partner="tweetdeck">
 <p dir="ltr" lang="ja">本日はお疲れ様でした。明日5/23(火)はRaspberry Piで学ぶROSロボット入門勉強会です。初回ためもくもく会の形式となります。興味のある方は是非ご参加ください！ <a href="https://t.co/kY2tpVZHuF">https://t.co/kY2tpVZHuF</a></p>
-— コワーキングスペース秋葉原Weeyble (\@weeyble) <a href="https://twitter.com/weeyble/status/866661840008261634">May 22, 2017</a></blockquote>
+— コワーキングスペース秋葉原Weeyble (@weeyble) <a href="https://twitter.com/weeyble/status/866661840008261634">May 22, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <h2 id="hardware">オプション（ハードウェア）</h2>
 色々開発中のようです。どれがもう売っててどれがまだなのかよくわからんので<a href="http://www.rt-shop.jp/index.php?main_page=product_info&amp;cPath=1295&amp;products_id=3418">アールティさんのページ</a>でご確認を。
@@ -60,7 +60,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 <h2 id="maze">迷路走行用ROSパッケージ</h2>
 <blockquote class="twitter-tweet" data-lang="ja">
 <p dir="ltr" lang="ja">ラズパイマウス本で作るパッケージ「pimouse_ros」の上で動作する迷路走行用パッケージです。<a href="https://t.co/csXDgmRm9s">https://t.co/csXDgmRm9s</a><a href="https://twitter.com/hashtag/%E3%83%A9%E3%82%BA%E3%83%91%E3%82%A4%E3%83%9E%E3%82%A6%E3%82%B9%E6%9C%AC?src=hash">#ラズパイマウス本</a></p>
-— Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/878869543367491584">2017年6月25日</a></blockquote>
+— Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/878869543367491584">2017年6月25日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 こんな感じで走ります。分岐点でどこを曲がるかは、その時のセンサの値次第です。

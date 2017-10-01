@@ -37,10 +37,10 @@ PING 192.168.3.2 (192.168.3.2): 56 data bytes
 で、sshで接続し、外と通信できることを確認します。
 
 ```bash
-uedamb:~ ueda$ ssh pi\@192.168.3.2
+uedamb:~ ueda$ ssh pi@192.168.3.2
 Linux raspberrypi 4.1.10-v7+ #2 SMP PREEMPT Sat Oct 10 09:49:41 UTC 2015 armv7l
 ...
-pi\@raspberrypi ~ $ ping google.com
+pi@raspberrypi ~ $ ping google.com
 PING google.com (216.58.197.206) 56(84) bytes of data.
 64 bytes from nrt13s48-in-f14.1e100.net (216.58.197.206): icmp_req=1 ttl=50 time=4.54 ms
 64 bytes from nrt13s48-in-f14.1e100.net (216.58.197.206): icmp_req=2 ttl=50 time=5.28 ms

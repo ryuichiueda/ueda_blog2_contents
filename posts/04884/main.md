@@ -86,7 +86,7 @@ ub.bc '-l'
 
 ということで、別解をいただきましたので、実装してみたいと思います。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>2015!の階乗はいろいろ試したけど、結局これだけで済むようだ。<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> $ clisp -x &#39;(! 2015)&#39; -q</p>&mdash; 本名 (\@tamago_girai) <a href="https://twitter.com/tamago_girai/status/551668213277138945">January 4, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>2015!の階乗はいろいろ試したけど、結局これだけで済むようだ。<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> $ clisp -x &#39;(! 2015)&#39; -q</p>&mdash; 本名 (@tamago_girai) <a href="https://twitter.com/tamago_girai/status/551668213277138945">January 4, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 はい。
@@ -127,11 +127,11 @@ uedambp:GlueLang ueda$ cat ./stdcom/loop-serial
 [ "$#" -lt 1 ] && exit 1
 
 tmp=/tmp/$$
-"$\@" > $tmp-keep
+"$@" > $tmp-keep
 
 while [ $? -eq 0 ] ; do
 	mv $tmp-keep $tmp-out
-	cat $tmp-out | "$\@" > $tmp-keep 2> /dev/null
+	cat $tmp-out | "$@" > $tmp-keep 2> /dev/null
 done
 
 cat $tmp-out

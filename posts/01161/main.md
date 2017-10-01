@@ -12,7 +12,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 [caption id="attachment_1167" align="aligncenter" width="540"]<a href="1016142_10200994990304170_1679803785_n.jpg"><img src="1016142_10200994990304170_1679803785_n.jpg" alt="発端となった検索結果。もちろん偶然で、特定の誰かに難癖をつける気持ちは毛頭ございません。" width="540" height="960" class="size-full wp-image-1167" /></a> 発端となった検索結果。もちろん偶然で、特定の誰かに難癖をつける気持ちは毛頭ございません。ごめんなさいごめんなさい。でも、面白かったのです。[/caption]
 
 
-１人でプチプチ遊んでいても限界があるので、他に面白いのがあったら、Twitterの <a href="https://twitter.com/ryuichiueda" target="_blank">\@ryuichiueda</a> まで通報お願いします。謝辞と共にまとめます。自分で掲載してリンク教えてくださっても大歓迎。
+１人でプチプチ遊んでいても限界があるので、他に面白いのがあったら、Twitterの <a href="https://twitter.com/ryuichiueda" target="_blank">@ryuichiueda</a> まで通報お願いします。謝辞と共にまとめます。自分で掲載してリンク教えてくださっても大歓迎。
 
 [caption id="attachment_1171" align="aligncenter" width="540"]<a href="1069906_10201143523417405_1872705278_n.jpg"><img src="1069906_10201143523417405_1872705278_n.jpg" alt="悪い冗談はやめてください、GoogleMap殿。" width="540" height="960" class="size-full wp-image-1171" /></a> 悪い冗談はやめてください、GoogleMap殿。[/caption]
 

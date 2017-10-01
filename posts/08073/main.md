@@ -59,7 +59,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 次のファイルの中身について、「cat <ファイル名>」から初めて、同じワンライナーでそれぞれ中央値を求めてください。データの数が偶数の場合は、中央の二つの値の平均を中央値とします。
 
 ```bash
-ueda\@remote:~/GIT/ShellGeiData/vol.22/Q1$ cat a
+ueda@remote:~/GIT/ShellGeiData/vol.22/Q1$ cat a
 1
 3
 4
@@ -68,7 +68,7 @@ ueda\@remote:~/GIT/ShellGeiData/vol.22/Q1$ cat a
 6
 8
 2
-ueda\@remote:~/GIT/ShellGeiData/vol.22/Q1$ cat b
+ueda@remote:~/GIT/ShellGeiData/vol.22/Q1$ cat b
 3.4
 13
 4242
@@ -82,7 +82,7 @@ ueda\@remote:~/GIT/ShellGeiData/vol.22/Q1$ cat b
 次のような出力から初めて、
 
 ```bash
-ueda\@remote:~$ echo カレーライス 醤油ラーメン | ...
+ueda@remote:~$ echo カレーライス 醤油ラーメン | ...
 ```
 
 次のような出力を得てください（表示がずれてますが、「ー」のところで文字列をクロスさせています）。最初のパイプより右側はマルチバイト文字を使わないようにしてみましょう。「ー」が何文字目にあるか等の情報は何でも使って結構です。
@@ -101,7 +101,7 @@ ueda\@remote:~$ echo カレーライス 醤油ラーメン | ...
 次のデータについて、
 
 ```bash
-ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q3
+ueda@remote:~/GIT/ShellGeiData/vol.22$ cat Q3
 aaabbb
 bababa
 aaabbb
@@ -127,7 +127,7 @@ bbbbba 6
 次のファイルについて、素数行目に存在するりんごとみかんをそれぞれ数えてください。できる人は素数の行を2,3,5,7と明示的に指定しないでやってみてください。
 
 ```bash
-ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q4
+ueda@remote:~/GIT/ShellGeiData/vol.22$ cat Q4
 りんご
 りんご
 みかん
@@ -144,7 +144,7 @@ ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q4
 足して10になる並びを全て見つけてみましょう。
 
 ```bash
-ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q5
+ueda@remote:~/GIT/ShellGeiData/vol.22$ cat Q5
 1 3 4 4 2 3 5 6 7 9 1 4
 ```
 
@@ -154,7 +154,7 @@ ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q5
 次のファイルQ6_1のX,Y,Zに、
 
 ```bash
-ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q6_1 
+ueda@remote:~/GIT/ShellGeiData/vol.22$ cat Q6_1 
 所謂いわゆる「Z」というものにだって、
 もっと何か表情なり印象なりがあるものだろうに、
 YのからだにXでもくっつけたなら、
@@ -168,7 +168,7 @@ YのからだにXでもくっつけたなら、
 Q6_2に書いてある文字列を当てはめてください。
 
 ```bash
-ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q6_2
+ueda@remote:~/GIT/ShellGeiData/vol.22$ cat Q6_2
 X 駄馬の首
 Y 人間
 Z 死相
@@ -185,7 +185,7 @@ Z 死相
 次のC++のコードに関数プロトタイプをくっつけてください。
 
 ```bash
-ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q8.cc 
+ueda@remote:~/GIT/ShellGeiData/vol.22$ cat Q8.cc 
 #include <iostream>
 #include <string>
 using namespace std;
@@ -210,7 +210,7 @@ int main(int argc, char const* argv[])
 つまりこういう出力を作ります。
 
 ```bash
-ueda\@remote:~/GIT/ShellGeiData/vol.22$ cat Q8.ans.cc 
+ueda@remote:~/GIT/ShellGeiData/vol.22$ cat Q8.ans.cc 
 #include <iostream>
 #include <string>
 using namespace std;

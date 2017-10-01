@@ -6,8 +6,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 # 日記（ジュンク堂イベントのまとめ等）
 本日はシェル芸ホロン部的なネット工作民でした。
 <blockquote class="twitter-tweet" lang="ja">
-<p lang="ja" dir="ltr">「<a href="https://twitter.com/gihyosd">\@gihyosd</a>さんの本の宣伝からトークイベント\@ジュンク堂さんを経て第17回シェル芸勉強会に至るまでの記録」をトゥギャりました。 <a href="http://t.co/v5YO9Iw8WD">http://t.co/v5YO9Iw8WD</a></p>
-— Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/612504951739191297">2015, 6月 21</a></blockquote>
+<p lang="ja" dir="ltr">「<a href="https://twitter.com/gihyosd">@gihyosd</a>さんの本の宣伝からトークイベント@ジュンク堂さんを経て第17回シェル芸勉強会に至るまでの記録」をトゥギャりました。 <a href="http://t.co/v5YO9Iw8WD">http://t.co/v5YO9Iw8WD</a></p>
+— Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/612504951739191297">2015, 6月 21</a></blockquote>
 <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
@@ -45,9 +45,9 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" lang="ja">
 
-会長\@友の会 :~$ echo USP友の会:6/18（木）トークイベントの中でシェル芸勉強会やりました ;curl <a href="https://t.co/5rmJRNXybS">https://t.co/5rmJRNXybS</a> <a href="https://twitter.com/usptomo">\@usptomo</a>さんから <a href="https://twitter.com/hashtag/usptomo?src=hash">#usptomo</a>
+会長@友の会 :~$ echo USP友の会:6/18（木）トークイベントの中でシェル芸勉強会やりました ;curl <a href="https://t.co/5rmJRNXybS">https://t.co/5rmJRNXybS</a> <a href="https://twitter.com/usptomo">@usptomo</a>さんから <a href="https://twitter.com/hashtag/usptomo?src=hash">#usptomo</a>
 
-— 【怒濤の】USP友の会【シェル芸】 (\@usptomo) <a href="https://twitter.com/usptomo/status/612497977324650496">2015, 6月 21</a>
+— 【怒濤の】USP友の会【シェル芸】 (@usptomo) <a href="https://twitter.com/usptomo/status/612497977324650496">2015, 6月 21</a>
 
 
 

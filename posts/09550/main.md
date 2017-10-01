@@ -54,7 +54,7 @@ sudo reboot
 <h2>ますとどん</h2>
 遊んでます。
 <ul>
- 	<li><a href="https://mstdn.jp/\@ryuichiueda">https://mstdn.jp/\@ryuichiueda</a></li>
+ 	<li><a href="https://mstdn.jp/@ryuichiueda">https://mstdn.jp/@ryuichiueda</a></li>
 </ul>
 <a href="136aed74fd1009042bd6d998ede2e07a.png"><img class="aligncenter size-full wp-image-9561" src="136aed74fd1009042bd6d998ede2e07a.png" alt="" width="630" height="608" /></a>
 

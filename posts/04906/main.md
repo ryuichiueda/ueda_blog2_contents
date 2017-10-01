@@ -69,31 +69,31 @@ uedambp:build ueda$
 <h1>次、Ubuntu</h1>
 
 ```bash
-ueda\@remote:~$ uname -a
+ueda@remote:~$ uname -a
 Linux remote 3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
 ```
 
 まずはrubyのインストールから。（そこからかよ。）
 ```bash
-ueda\@remote:~$ sudo apt-get install ruby
+ueda@remote:~$ sudo apt-get install ruby
 ```
 
 くろーん。
 
 ```bash
-ueda\@remote:~$ git clone https://github.com/ncq/rumin.git
+ueda@remote:~$ git clone https://github.com/ncq/rumin.git
 ...
 ```
 
 はいはい。rakerake。
 
 ```bash
-ueda\@remote:~$ cd rumin/
-ueda\@remote:~/rumin$ rake
+ueda@remote:~$ cd rumin/
+ueda@remote:~/rumin$ rake
 プログラム 'rake' はまだインストールされていません。 次のように入力することでインストールできます:
 sudo apt-get install rake
-ueda\@remote:~/rumin$ sudo apt-get install rake
-ueda\@remote:~/rumin$ rake
+ueda@remote:~/rumin$ sudo apt-get install rake
+ueda@remote:~/rumin$ rake
 ...
 fatal: destination path 'runtime' already exists and is not an empty directory.
 rake aborted!

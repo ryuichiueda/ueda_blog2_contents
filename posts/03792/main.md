@@ -142,7 +142,7 @@ c- 5 a
 まず、次のように8桁日付のファイルを作ります。
 
 ```bash
-uedambp:q4 ueda$ seq -w 1 31 | xargs -I\@ touch 201401\@
+uedambp:q4 ueda$ seq -w 1 31 | xargs -I@ touch 201401@
 uedambp:q4 ueda$ ls
 20140101 20140107 20140113 20140119 20140125 20140131
 20140102 20140108 20140114 20140120 20140126
@@ -228,13 +228,13 @@ uedambp:q6 ueda$ tree
 
 ```bash
 uedambp:q6 ueda$ for d in * ; do ls $d | tail -n 1 |
- xargs -n 1 -I\@ cp $d/\@ ./ ; done
+ xargs -n 1 -I@ cp $d/@ ./ ; done
 ###確認###
 uedambp:q6 ueda$ ls
 20140202 20141021 20141224 a b c
 uedambp:q6 ueda$ find . -type f | tr '/' ' ' |
  awk '{f[$2]=f[$2]<$3?$3:f[$2]}END{for(k in f){print k,f[k]}}' |
- tr ' ' '/' | xargs -n 1 -I\@ cp \@ ./
+ tr ' ' '/' | xargs -n 1 -I@ cp @ ./
 ###Tukubai等###
 uedambp:q6 ueda$ find . -type f | tr '/' ' ' | sort | getlast 1 2 |
  tr '/' ' ' | awk '{print "cp", "./" $2 "/" $3 " ./"}' | sh
@@ -249,7 +249,7 @@ Q6について、適当にファイルをtouchします。今度はタイムス�
 
 ```bash
 uedambp:q7 ueda$ for d in * ; do ls -t $d | head -n 1 |
- xargs -I\@ -n 1 cp -p $d/\@ ./ ; done
+ xargs -I@ -n 1 cp -p $d/@ ./ ; done
 ```
 
 

@@ -72,7 +72,7 @@ convert -type GrayScale "$2.png" $grayimg
 cp $grayimg ./$3/ppt/media/image1.png
 
 cp ./$3/ppt/slides/slide1.xml slide1.xml
-sed "s/\@/$1/" ./$3/ppt/slides/slide1.xml > new.xml
+sed "s/@/$1/" ./$3/ppt/slides/slide1.xml > new.xml
 mv new.xml ./$3/ppt/slides/slide1.xml
 
 ( cd ./$3/ && zip -r ../../$1.$3.pptx ./)

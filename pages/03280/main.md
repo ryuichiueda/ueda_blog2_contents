@@ -43,7 +43,7 @@ Copyright: (C) Ryuichi Ueda
 
 <p>シェルのワンライナーだと簡単ですね。</p>
 ```bash
-ueda\@ubuntu:~$ cat /etc/passwd | awk "-F:" &#39;{print $1}&#39;
+ueda@ubuntu:~$ cat /etc/passwd | awk "-F:" &#39;{print $1}&#39;
 ...
 sshd
 ueda
@@ -59,7 +59,7 @@ Macがおすすめです。</p>
 <p>Ubuntuの場合、次のコマンド一発でHaskellの環境がインストールできます。</p>
 
 ```bash
-ueda\@ubuntu:~$ sudo apt-get install haskell-platform
+ueda@ubuntu:~$ sudo apt-get install haskell-platform
 ```
 
 <p>Macの場合は、</p>
@@ -74,25 +74,25 @@ uedamac:~ ueda$ brew install ghc
 
 <p>まず、次のようなファイルを準備してください。1行のHaskellのプログラムです。</p>
 ```hs
-ueda\@ubuntu:~$ cat q1_1.hs
+ueda@ubuntu:~$ cat q1_1.hs
 main = getContents >>= putStr
 ```
 <p>これを次のように <tt class="docutils literal"><span class="pre">ghc</span></tt> （The Glasgow Haskell Compiler）
 （脚注：GCC?、DHC?、いいえGHCです。）
 でコンパイルします。</p>
 ```bash
-ueda\@ubuntu:~$ ghc q1_1.hs
+ueda@ubuntu:~$ ghc q1_1.hs
 [1 of 1] Compiling Main ( q1_1.hs, q1_1.o )
 Linking q1_1 ...
 ```
 <p>すると次のように <tt class="docutils literal"><span class="pre">q1_1</span></tt> というファイルができているはずです。</p>
-<div class="highlight-none"><div class="highlight"><pre>ueda\@ubuntu:~$ ls q1_1*
+<div class="highlight-none"><div class="highlight"><pre>ueda@ubuntu:~$ ls q1_1*
 q1_1 q1_1.hi q1_1.hs q1_1.o
 </pre></div>
 </div>
 <p>これを実行してみましょう。 <tt class="docutils literal"><span class="pre">/etc/passwd</span></tt>
 を <tt class="docutils literal"><span class="pre">cat</span></tt> してパイプに通します。</p>
-<div class="highlight-none"><div class="highlight"><pre>ueda\@ubuntu:~$ cat /etc/passwd | ./q1_1
+<div class="highlight-none"><div class="highlight"><pre>ueda@ubuntu:~$ cat /etc/passwd | ./q1_1
 ...
 ueda:x:1000:1000:Ryuichi Ueda,,,:/home/ueda:/bin/hs
 mysql:x:104:111:MySQL Server,,,:/nonexistent:/bin/false
@@ -108,7 +108,7 @@ postfix:x:105:112::/var/spool/postfix:/bin/false
 <li>図1: 加筆した <tt class="docutils literal"><span class="pre">q1_1.hs</span></tt></li>
 </ul>
 ```hs
-ueda\@ubuntu:~$ cat q1_1.hs
+ueda@ubuntu:~$ cat q1_1.hs
 main = getContents >>= putStr . main&#39;
 
 main&#39; :: String -> String
@@ -116,8 +116,8 @@ main&#39; cs = head ( lines cs )
 ```
 <p>コンパイルして <tt class="docutils literal"><span class="pre">/etc/passwd</span></tt> の内容を入力すると、次のように最初の行が改行無しで出力されます。</p>
 ```bash
-ueda\@ubuntu:~$ cat /etc/passwd | ./q1_1
-root:x:0:0:root:/root:/bin/hsueda\@remote:~$
+ueda@ubuntu:~$ cat /etc/passwd | ./q1_1
+root:x:0:0:root:/root:/bin/hsueda@remote:~$
 ```
 <p>さて、コードの説明をしていきます。まず、図1の4,5行目から。Haskellは「関数型言語」というだけあって、関数を並べてプログラムしていきますが、この4,5行目は関数 <tt class="docutils literal"><span class="pre">main'</span></tt> の定義です。2行目の <tt class="docutils literal"><span class="pre">main</span></tt> も関数ですが、ちと事情がややこしいのでかなり後から説明をします。</p>
 
@@ -205,7 +205,7 @@ head . lines :: String -&gt; String
 <li>図2: 問題1の解答</li>
 </ul>
 ```hs
-ueda\@remote:~$ cat q1_1.hs
+ueda@remote:~$ cat q1_1.hs
 main = getContents >>= putStr . main&#39;
 
 main&#39; :: String -> String
@@ -213,10 +213,10 @@ main&#39; cs = unlines $ map ( takeWhile (/= &#39;:&#39;) ) ( lines cs )
 ```
 <p>実行してみましょう。</p>
 ```bash
-ueda\@remote:~$ ghc q1_1.hs
+ueda@remote:~$ ghc q1_1.hs
 [1 of 1] Compiling Main ( q1_1.hs, q1_1.o )
 Linking q1_1 ...
-ueda\@remote:~$ cat /etc/passwd | ./q1_1
+ueda@remote:~$ cat /etc/passwd | ./q1_1
 ...
 ueda
 mysql

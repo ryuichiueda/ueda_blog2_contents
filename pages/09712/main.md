@@ -38,7 +38,7 @@ IROS2004等の内容。センサリセットと膨張リセットの組み合わ
 
 <iframe src="https://www.youtube.com/embed/LyrDmNnxM7A" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 <h2>修論のアルゴリズムをRoboCupに投入したもの</h2>
-2003年4月（D1になりたて）のイベント\@パシフィコ横浜
+2003年4月（D1になりたて）のイベント@パシフィコ横浜
 
 <iframe src="https://www.youtube.com/embed/fsQicKXE5AU" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 <h2>自己位置推定アルゴリズムの評価</h2>

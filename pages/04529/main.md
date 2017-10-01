@@ -71,9 +71,9 @@ tofu.usptomonokai.jpのsshのポート番号は22番とします。</p>
 2
 3
 4</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">#A. リモートからローカルマシンへ同期</span>
-ueda\@X201:~<span class="nv">$ </span>rsync -auz --timeout<span class="o">=</span>30 tofu.usptomonokai.jp:/home/ueda/TOFUBOX/ /home/ueda/TOFUBOX/
+ueda@X201:~<span class="nv">$ </span>rsync -auz --timeout<span class="o">=</span>30 tofu.usptomonokai.jp:/home/ueda/TOFUBOX/ /home/ueda/TOFUBOX/
 <span class="c">#B. ローカルマシンからリモートへ同期</span>
-ueda\@X201:~<span class="nv">$ </span>rsync -auz --timeout<span class="o">=</span>30 /home/ueda/TOFUBOX/ tofu.usptomonokai.jp:/home/ueda/TOFUBOX/
+ueda@X201:~<span class="nv">$ </span>rsync -auz --timeout<span class="o">=</span>30 /home/ueda/TOFUBOX/ tofu.usptomonokai.jp:/home/ueda/TOFUBOX/
 </pre></div>
 </td></tr></table></div>
 <p>rsyncは（特に <tt class="docutils literal"><span class="pre">--delete</span></tt> オプションをつけると）
@@ -141,25 +141,25 @@ rsyncは、通信が途絶えてもしばらく立ち上がりっぱなしでリ
 19
 20
 21</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">#ローカルマシンにfile1を作る</span>
-ueda\@X201:~/hoge<span class="nv">$ </span><span class="nb">echo</span> これはファイル１ &gt; file1
+ueda@X201:~/hoge<span class="nv">$ </span><span class="nb">echo</span> これはファイル１ &gt; file1
 <span class="c">#リモートマシンにfile2を作る</span>
-ueda\@tofu:~/hoge<span class="nv">$ </span><span class="nb">echo</span> これはファイル2 &gt; file2
+ueda@tofu:~/hoge<span class="nv">$ </span><span class="nb">echo</span> これはファイル2 &gt; file2
 <span class="c">#ローカルからリモートへコピー</span>
-ueda\@X201:~/hoge<span class="nv">$ </span>rsync -auz ./ tofu.usptomonokai.jp:~/hoge/
+ueda@X201:~/hoge<span class="nv">$ </span>rsync -auz ./ tofu.usptomonokai.jp:~/hoge/
 <span class="c">#リモートにローカルのファイルが転送される</span>
-ueda\@tofu:~/hoge<span class="nv">$ </span>ls
+ueda@tofu:~/hoge<span class="nv">$ </span>ls
 file1 file2
 <span class="c">#今度はdeleteオプション付きでもう一度ローカルからリモートへ</span>
-ueda\@X201:~/hoge<span class="nv">$ </span>rsync -auz --delete ./ tofu.usptomonokai.jp:~/hoge/
+ueda@X201:~/hoge<span class="nv">$ </span>rsync -auz --delete ./ tofu.usptomonokai.jp:~/hoge/
 <span class="c">#ローカルにないfile2が消える</span>
-ueda\@tofu:~/hoge<span class="nv">$ </span>ls
+ueda@tofu:~/hoge<span class="nv">$ </span>ls
 file1
 <span class="c">#リモートでファイルを更新</span>
-ueda\@tofu:~/hoge<span class="nv">$ </span><span class="nb">echo</span> リモートでfile1を作ったよ &gt; file1
+ueda@tofu:~/hoge<span class="nv">$ </span><span class="nb">echo</span> リモートでfile1を作ったよ &gt; file1
 <span class="c">#ローカルからリモートへ同期</span>
-ueda\@X201:~/hoge<span class="nv">$ </span>rsync -auz ./ tofu.usptomonokai.jp:~/hoge/
+ueda@X201:~/hoge<span class="nv">$ </span>rsync -auz ./ tofu.usptomonokai.jp:~/hoge/
 <span class="c">#リモートのfile1の方が新しいので同期しない</span>
-ueda\@tofu:~/hoge<span class="nv">$ </span>cat file1
+ueda@tofu:~/hoge<span class="nv">$ </span>cat file1
 リモートでfile1を作ったよ
 </pre></div>
 </td></tr></table></div>
@@ -201,7 +201,7 @@ rsyncはいくつ同時に行っても多少のことではおかしなことに
 5
 6
 7
-8</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@SL510:~<span class="nv">$ </span>cat locktest.sh
+8</pre></div></td><td class="code"><div class="highlight"><pre>ueda@SL510:~<span class="nv">$ </span>cat locktest.sh
 <span class="c">#!/bin/bash</span>
 
 <span class="nb">exec </span>2&gt; /dev/null
@@ -224,11 +224,11 @@ rsyncはいくつ同時に行っても多少のことではおかしなことに
 3
 4
 5
-6</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@SL510:~<span class="nv">$ </span>./locktest.sh
-ueda\@SL510:~<span class="nv">$ </span>ls ./LOCK <span class="o">&amp;&amp;</span> rm -Rf ./LOCK
+6</pre></div></td><td class="code"><div class="highlight"><pre>ueda@SL510:~<span class="nv">$ </span>./locktest.sh
+ueda@SL510:~<span class="nv">$ </span>ls ./LOCK <span class="o">&amp;&amp;</span> rm -Rf ./LOCK
 1
-ueda\@SL510:~<span class="nv">$ </span>./locktest.sh
-ueda\@SL510:~<span class="nv">$ </span>ls ./LOCK <span class="o">&amp;&amp;</span> rm -Rf ./LOCK
+ueda@SL510:~<span class="nv">$ </span>./locktest.sh
+ueda@SL510:~<span class="nv">$ </span>ls ./LOCK <span class="o">&amp;&amp;</span> rm -Rf ./LOCK
 8
 </pre></div>
 </td></tr></table></div>
@@ -251,7 +251,7 @@ sshコマンドを使ってリモート側にディレクトリを作るよう�
 12
 13
 14
-15</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@SL510:~/.tofubox<span class="nv">$ </span>cat TOFUBOX.SYNC
+15</pre></div></td><td class="code"><div class="highlight"><pre>ueda@SL510:~/.tofubox<span class="nv">$ </span>cat TOFUBOX.SYNC
 <span class="c">#!/bin/bash -xv</span>
 <span class="c"># TOFUBOX.SYNC</span>
 <span class="nb">exec </span>2&gt; /tmp/<span class="k">$(</span>basename <span class="nv">$0</span><span class="k">)</span>
@@ -340,7 +340,7 @@ MESSAGE <span class="o">()</span> <span class="o">{</span>
 <span class="o">}</span>
 
 ERROR_CHECK<span class="o">(){</span>
- <span class="o">[</span> <span class="s2">&quot;$(echo ${PIPESTATUS[\@]} | tr -d &#39; 0&#39;)&quot;</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="k">return</span>
+ <span class="o">[</span> <span class="s2">&quot;$(echo ${PIPESTATUS[@]} | tr -d &#39; 0&#39;)&quot;</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="k">return</span>
 <span class="k"> </span><span class="nv">DISPLAY</span><span class="o">=</span>:0 notify-send <span class="s2">&quot;豆腐: $1&quot;</span>
  <span class="nb">exit </span>1
 <span class="o">}</span>
@@ -394,7 +394,7 @@ date コマンドを使って、リスト9のようなスクリプトを作り�
 13
 14
 15
-16</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@SL510:~/.tofubox<span class="nv">$ </span>cat TOFUBOX.SUSSTOP
+16</pre></div></td><td class="code"><div class="highlight"><pre>ueda@SL510:~/.tofubox<span class="nv">$ </span>cat TOFUBOX.SUSSTOP
 <span class="c">#!/bin/bash</span>
 <span class="c"># TOFUBOX.SUSSTOP</span>
 <span class="c"># written by R. Ueda (USP研究所) Jul. 21, 2012</span>
@@ -438,15 +438,15 @@ date コマンドを使って、リスト9のようなスクリプトを作り�
 16
 17
 18</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">#あるターミナルで SUSSTOP を実行</span>
-ueda\@SL510:~/.tofubox<span class="nv">$ </span>./TOFUBOX.SUSSTOP 2&gt; hoge
+ueda@SL510:~/.tofubox<span class="nv">$ </span>./TOFUBOX.SUSSTOP 2&gt; hoge
 <span class="c">#別のターミナルで SYNC を実行</span>
-ueda\@SL510:~/TOFUBOX<span class="nv">$ </span>~/.tofubox/TOFUBOX.SYNC
+ueda@SL510:~/TOFUBOX<span class="nv">$ </span>~/.tofubox/TOFUBOX.SYNC
 <span class="c">######################################</span>
 <span class="c"># TOFUBOX.SYNCが終わる前にサスペンド -&gt; 復帰</span>
 <span class="c">######################################</span>
 
 <span class="c">#hogeファイルを見ると TOFUBOX.SYNC が止まっている。</span>
-ueda\@SL510:~/.tofubox<span class="nv">$ </span>less hoge
+ueda@SL510:~/.tofubox<span class="nv">$ </span>less hoge
 ...
 + <span class="nv">TO</span><span class="o">=</span>1342317384
 + <span class="nv">DIFF</span><span class="o">=</span>10
@@ -499,7 +499,7 @@ rsyncが終わってからしばらくロックが外れなかったりした場
 18
 19
 20
-21</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@tofu:~<span class="nv">$ </span>cat .tofubox/TOFUBOX.RMLOCK
+21</pre></div></td><td class="code"><div class="highlight"><pre>ueda@tofu:~<span class="nv">$ </span>cat .tofubox/TOFUBOX.RMLOCK
 <span class="c">#!/bin/bash</span>
 <span class="c"># TOFUBOX.RMLOCK</span>
 <span class="c"># written by R. Ueda (USP研究所) Jul. 21, 2012</span>
@@ -526,7 +526,7 @@ rsyncが終わってからしばらくロックが外れなかったりした場
 （脚注：余談ですが、この終わらないスクリプトを間違えてcronにしかけたら、
 ロードアベレージが500を越えました。）</p>
 <p>・リスト12: TOFUBOX.RMLOCKの実行</p>
-<div class="highlight-bash"><div class="highlight"><pre>ueda\@tofu:~<span class="nv">$ </span>~/.tofubox/TOFUBOX.RMLOCK &amp;
+<div class="highlight-bash"><div class="highlight"><pre>ueda@tofu:~<span class="nv">$ </span>~/.tofubox/TOFUBOX.RMLOCK &amp;
 </pre></div>
 </div>
 <p>　 <tt class="docutils literal"><span class="pre">ps</span> <span class="pre">cax</span></tt> のオプションcは、実行中のプロセスをコマンドで表示するときに使います。
@@ -541,14 +541,14 @@ rsyncが終わってからしばらくロックが外れなかったりした場
 6
 7
 8
-9</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@SL510:~/.tofubox<span class="nv">$ </span>ps cax | grep <span class="s2">&quot;vi$&quot;</span>
+9</pre></div></td><td class="code"><div class="highlight"><pre>ueda@SL510:~/.tofubox<span class="nv">$ </span>ps cax | grep <span class="s2">&quot;vi$&quot;</span>
  6032 pts/0 S+ 0:00 vi
  6273 pts/2 S+ 0:00 vi
 <span class="c">#viのプロセスがあると、grepが0を返し、$?に入る。</span>
-ueda\@SL510:~<span class="nv">$ </span>ps cax | grep -q vi<span class="nv">$ </span>; <span class="nb">echo</span> <span class="nv">$?</span>
+ueda@SL510:~<span class="nv">$ </span>ps cax | grep -q vi<span class="nv">$ </span>; <span class="nb">echo</span> <span class="nv">$?</span>
 0
 <span class="c">#ないプロセスをgrepすると、grepが1を返す。</span>
-ueda\@SL510:~<span class="nv">$ </span>ps cax | grep -q hoge<span class="nv">$ </span>; <span class="nb">echo</span> <span class="nv">$?</span>
+ueda@SL510:~<span class="nv">$ </span>ps cax | grep -q hoge<span class="nv">$ </span>; <span class="nb">echo</span> <span class="nv">$?</span>
 1
 </pre></div>
 </td></tr></table></div>
@@ -567,11 +567,11 @@ ueda\@SL510:~<span class="nv">$ </span>ps cax | grep -q hoge<span class="nv">$ <
 4
 5
 6
-7</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@SL510:~<span class="nv">$ </span>~/.tofubox/TOFUBOX.SUSSTOP &amp;
-ueda\@SL510:~<span class="nv">$ </span>crontab -e
+7</pre></div></td><td class="code"><div class="highlight"><pre>ueda@SL510:~<span class="nv">$ </span>~/.tofubox/TOFUBOX.SUSSTOP &amp;
+ueda@SL510:~<span class="nv">$ </span>crontab -e
 <span class="c">#これを加筆</span>
 */3 * * * * /home/ueda/.tofubox/TOFUBOX.SYNC
-ueda\@X201:~<span class="nv">$ </span>crontab -e
+ueda@X201:~<span class="nv">$ </span>crontab -e
 <span class="c">#もう一方のマシンではこれを加筆</span>
 */4 * * * * /home/ueda/.tofubox/TOFUBOX.SYNC
 </pre></div>

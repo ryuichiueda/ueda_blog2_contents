@@ -9,7 +9,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 {}で囲ったグループコマンドについてはシェルスクリプト本体と同じプロセスで動作するという記述がmanにあります。
 
 ```bash
-ueda\@remote:~$ man bash
+ueda@remote:~$ man bash
 ...
  { list; }
  list is simply executed in the current shell environment. 
@@ -36,7 +36,7 @@ cat -n
 <h2>パイプでつながない場合</h2>
 
 ```bash
-ueda\@remote:~$ cat hoge.bash 
+ueda@remote:~$ cat hoge.bash 
 #!/bin/bash
 
 echo 親: $BASHPID
@@ -47,7 +47,7 @@ echo 親: $BASHPID
 ```
 
 ```bash
-ueda\@remote:~$ ./hoge.bash 
+ueda@remote:~$ ./hoge.bash 
 親: 1671
 子: 1671
 ```
@@ -57,7 +57,7 @@ ueda\@remote:~$ ./hoge.bash
 <h2>パイプでつなぐ場合</h2>
 
 ```bash
-ueda\@remote:~$ cat hoge2.bash 
+ueda@remote:~$ cat hoge2.bash 
 #!/bin/bash
 
 echo 親: $BASHPID
@@ -68,7 +68,7 @@ echo 親: $BASHPID
 ```
 
 ```bash
-ueda\@remote:~$ ./hoge2.bash 
+ueda@remote:~$ ./hoge2.bash 
 親: 1706
 子: 1707
 ```
@@ -78,7 +78,7 @@ ueda\@remote:~$ ./hoge2.bash
 ということは、次のように子供で定義した変数は親から見えません。こんな使い方しませんが、一応気をつけておいた方が良さそうです。
 
 ```bash
-ueda\@remote:~$ cat hoge2-2.bash 
+ueda@remote:~$ cat hoge2-2.bash 
 #!/bin/bash
 
 echo 親: $BASHPID
@@ -89,7 +89,7 @@ echo 親: $BASHPID
 } | cat
 
 echo $A
-ueda\@remote:~$ ./hoge2-2.bash 
+ueda@remote:~$ ./hoge2-2.bash 
 親: 1836
 子: 1837
  <- aaaと出てこない
@@ -100,7 +100,7 @@ ueda\@remote:~$ ./hoge2-2.bash
 次のようにデフォルトでサブシェルです。
 
 ```bash
-ueda\@remote:~$ cat hoge3.bash 
+ueda@remote:~$ cat hoge3.bash 
 #!/bin/bash
 
 echo 親: $BASHPID
@@ -111,7 +111,7 @@ echo 親: $BASHPID
 ```
 
 ```bash
-ueda\@remote:~$ ./hoge3.bash 
+ueda@remote:~$ ./hoge3.bash 
 親: 1758
 子: 1759
 ```

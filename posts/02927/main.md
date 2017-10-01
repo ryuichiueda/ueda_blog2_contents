@@ -32,14 +32,14 @@ Archive: self_introduction.docx
 --------- -------
  158340 16 files
 ###おりゃ###
-ueda\@remote:~$ unzip -p self_introduction.docx word/document.xml | hxselect 'w\\:t' | sed 's;</w:t>;&\\n;g'
+ueda@remote:~$ unzip -p self_introduction.docx word/document.xml | hxselect 'w\\:t' | sed 's;</w:t>;&\\n;g'
 <w:t>自己紹介</w:t>
 <w:t xml:space="preserve"> </w:t>
 <w:t>【氏名】漢字）上田　隆一</w:t>
 <w:t xml:space="preserve">　　　　ローマ字）</w:t>
 <w:t>Ryuichi Ueda</w:t>
 ###画像はふつうに抽出###
-ueda\@remote:~$ unzip self_introduction.docx word/media/image1.jpeg
+ueda@remote:~$ unzip self_introduction.docx word/media/image1.jpeg
 Archive: self_introduction.docx
  extracting: word/media/image1.jpeg 
 ```

@@ -57,7 +57,7 @@ HaskellですHaskell。やりましょう。
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
 3
-4</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>cat q1_3_1.hs
+4</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>cat q1_3_1.hs
 import System.Directory
 
 <span class="nv">main</span> <span class="o">=</span> getDirectoryContents <span class="s2">&quot;/etc/&quot;</span> &gt;&gt;<span class="o">=</span> putStr . unlines
@@ -77,13 +77,13 @@ import System.Directory
  7
  8
  9
-10</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>ghc q1_3_1.hs
-ueda\@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>./q1_3_1 | head -n 3
+10</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>ghc q1_3_1.hs
+ueda@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>./q1_3_1 | head -n 3
 insserv
 blkid.tab
 tidy.conf
 <span class="c">###ls -f /etc/と同じ出力###</span>
-ueda\@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>ls -f /etc/ | head -n 3
+ueda@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>ls -f /etc/ | head -n 3
 insserv
 blkid.tab
 tidy.conf
@@ -106,7 +106,7 @@ tidy.conf
 5
 6
 7
-8</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/USPMAG/SRC$ ghci
+8</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/USPMAG/SRC$ ghci
 GHCi, version 7.6.3: http://www.haskell.org/ghc/ :? for help
 （略）
 Prelude&gt; import System.Directory
@@ -285,7 +285,7 @@ unlines :: <span class="o">[</span>String<span class="o">]</span> -&gt; String
 </ul>
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
-3</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>./q1_3_1 | grep <span class="s1">&#39;^\\.\\.*$&#39;</span>
+3</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>./q1_3_1 | grep <span class="s1">&#39;^\\.\\.*$&#39;</span>
 .
 ..
 </pre></div>
@@ -301,7 +301,7 @@ unlines :: <span class="o">[</span>String<span class="o">]</span> -&gt; String
 4
 5
 6
-7</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>cat q1_3_2.hs
+7</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>cat q1_3_2.hs
 import System.Directory
 
 <span class="nv">main</span> <span class="o">=</span> ls <span class="s2">&quot;/etc/&quot;</span> &gt;&gt;<span class="o">=</span> putStr . unlines
@@ -317,8 +317,8 @@ ls <span class="nv">dir</span> <span class="o">=</span> getDirectoryContents dir
 </ul>
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
-3</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>ghc q1_3_2.hs
-ueda\@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>./q1_3_2 | grep <span class="s1">&#39;^\\.&#39;</span>
+3</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>ghc q1_3_2.hs
+ueda@remote:~/GIT/USPMAG/SRC<span class="nv">$ </span>./q1_3_2 | grep <span class="s1">&#39;^\\.&#39;</span>
 .pwd.lock
 </pre></div>
 </td></tr></table></div>

@@ -111,7 +111,7 @@ $ echo 1 4 | xargs -n 2 seq | xargs | awk '{for(i=NF;i>=1;i--)print $i;print}' |
 2
 3
 4
-###\@ebanさんの答え###
+###@ebanさんの答え###
 $ echo 1 4 | (read a b; seq $b -1 $a; seq $[a+1] $b)
 ```
 
@@ -157,8 +157,8 @@ $ cat Q4
 <h3>解答</h3>
 
 ```bash
-$ cat Q4 | tr '\\n' \@ |
-sed 's/す\@*っ\@*と\@*こ\@*ど\@*っ\@*こ\@*い/朴念仁/g' | tr \@ '\\n' | awk '{print}'
+$ cat Q4 | tr '\\n' @ |
+sed 's/す@*っ@*と@*こ@*ど@*っ@*こ@*い/朴念仁/g' | tr @ '\\n' | awk '{print}'
 この
 朴念仁
 すこっと
@@ -213,7 +213,7 @@ bashでは変数SHLVLに、今使っているbashの深さ（子シェル:2, 孫
 
 ```bash
 $ echo 'echo $SHLVL && [ $SHLVL -lt 100 ] && ./a' > a ; chmod +x a ; ./a
-###\@papironさんの答え###
+###@papironさんの答え###
 $ yes 'bash' | head -n 98 | (cat; echo 'echo $SHLVL') | bash
 ```
 

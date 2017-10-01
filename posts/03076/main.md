@@ -4,7 +4,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ---
 
 # 【この記事は何の役にも立ちません！】IEを使わずにFirefoxをダウンロードするヒント（当てずっぽう）
-<blockquote class="twitter-tweet" lang="ja"><p>IEを使わずにChromeやFirefoxをインストールする方法をシェル芸でなんとかひとつ</p>&mdash; kentaro yanagida (\@yng13) <a href="https://twitter.com/yng13/statuses/461503780643540992">2014, 4月 30</a></blockquote>
+<blockquote class="twitter-tweet" lang="ja"><p>IEを使わずにChromeやFirefoxをインストールする方法をシェル芸でなんとかひとつ</p>&mdash; kentaro yanagida (@yng13) <a href="https://twitter.com/yng13/statuses/461503780643540992">2014, 4月 30</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ・・・とお題が出ましたが、手元にWindowsがありません。
@@ -20,7 +20,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 まず、Cygwinにw3mが存在している場合、こうすればFirefoxのサイトが見られるはずです。
 
 ```bash
-ueda\@remote:~$ w3m http://www.mozilla.org/ja/firefox/new/
+ueda@remote:~$ w3m http://www.mozilla.org/ja/firefox/new/
 ```
 
 こんな画面が出ます。

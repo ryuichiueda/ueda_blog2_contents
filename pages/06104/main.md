@@ -53,7 +53,7 @@ Copyright: (C) Ryuichi Ueda
 6
 7
 8
-9</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">\@</span><span class="n">remote</span><span class="kt">:~/Study1_Q3</span><span class="o">$</span> <span class="n">cat</span> <span class="n">q1_3_6</span><span class="o">.</span><span class="n">hs</span>
+9</pre></div></td><td class="code"><div class="highlight"><pre><span class="nf">ueda</span><span class="o">@</span><span class="n">remote</span><span class="kt">:~/Study1_Q3</span><span class="o">$</span> <span class="n">cat</span> <span class="n">q1_3_6</span><span class="o">.</span><span class="n">hs</span>
 <span class="kr">import</span> <span class="nn">FileTools</span>
 <span class="kr">import</span> <span class="k">qualified</span> <span class="nn">Data.ByteString.Lazy.Char8</span> <span class="k">as</span> <span class="n">B</span>
 
@@ -77,7 +77,7 @@ bashスクリプトのリストだけを表示しています。
 2
 3
 4
-5</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/Study1_Q3<span class="nv">$ </span>sudo ./q1_3_6 | tr <span class="s1">&#39;)&#39;</span> <span class="s1">&#39;\\n&#39;</span> | grep True
+5</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/Study1_Q3<span class="nv">$ </span>sudo ./q1_3_6 | tr <span class="s1">&#39;)&#39;</span> <span class="s1">&#39;\\n&#39;</span> | grep True
 ,<span class="o">(</span><span class="s2">&quot;/etc/alternatives/fakeroot&quot;</span>,True
 ,<span class="o">(</span><span class="s2">&quot;/etc/alternatives/lzfgrep&quot;</span>,True
 ,<span class="o">(</span><span class="s2">&quot;/etc/alternatives/lzmore&quot;</span>,True
@@ -108,7 +108,7 @@ bashスクリプトのリストだけを表示しています。
 12
 13
 14
-15</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/Study1_Q3<span class="nv">$ </span>cat q1_3_7.hs
+15</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/Study1_Q3<span class="nv">$ </span>cat q1_3_7.hs
 import FileTools
 import System.FilePath
 import qualified Data.ByteString.Lazy.Char8 as B
@@ -206,7 +206,7 @@ B.writeFile :: FilePath -&gt; B.ByteString -&gt; IO <span class="o">()</span>
 14
 15
 16
-17</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/Study1_Q3<span class="nv">$ </span>cat q1_3_8.hs
+17</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/Study1_Q3<span class="nv">$ </span>cat q1_3_8.hs
 import FileTools
 import System.FilePath
 import qualified Data.ByteString.Lazy.Char8 as B
@@ -256,9 +256,9 @@ handleBashFile <span class="o">(</span>file,True<span class="o">)</span> <span c
 11
 12
 13
-14</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/Study1_Q3<span class="nv">$ </span>sudo ./q1_3_8
-ueda\@remote:~/Study1_Q3<span class="nv">$ </span><span class="nb">cd</span> ~/hoge
-ueda\@remote:~/hoge<span class="nv">$ </span>head -n 1 *
+14</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/Study1_Q3<span class="nv">$ </span>sudo ./q1_3_8
+ueda@remote:~/Study1_Q3<span class="nv">$ </span><span class="nb">cd</span> ~/hoge
+ueda@remote:~/hoge<span class="nv">$ </span>head -n 1 *
 <span class="o">==</span>&gt; fakeroot &lt;<span class="o">==</span>
 <span class="c">#!/usr/local/bin/bash</span>
 
@@ -313,18 +313,18 @@ ueda\@remote:~/hoge<span class="nv">$ </span>head -n 1 *
 22
 23
 24</pre></div></td><td class="code"><div class="highlight"><pre><span class="c">###agesは0〜109（年齢）をランダムに書いたもの###</span>
-ueda\@remote:~/Study1_Q4/data<span class="nv">$ </span><span class="k">while</span> : ; <span class="k">do </span><span class="nb">echo</span> <span class="k">$((</span>RANDOM <span class="o">%</span> <span class="m">110</span><span class="k">))</span> ; <span class="k">done</span> |
+ueda@remote:~/Study1_Q4/data<span class="nv">$ </span><span class="k">while</span> : ; <span class="k">do </span><span class="nb">echo</span> <span class="k">$((</span>RANDOM <span class="o">%</span> <span class="m">110</span><span class="k">))</span> ; <span class="k">done</span> |
  head -n 100000 &gt; ages
-ueda\@remote:~/Study1_Q4/data<span class="nv">$ </span>head -n 5 ages
+ueda@remote:~/Study1_Q4/data<span class="nv">$ </span>head -n 5 ages
 91
 35
 11
 100
 94
 <span class="c">###ansはagesの度数分布表###</span>
-ueda\@remote:~/Study1_Q4/data<span class="nv">$ </span>cat ages | awk <span class="s1">&#39;{print int($1/10)}&#39;</span> |
+ueda@remote:~/Study1_Q4/data<span class="nv">$ </span>cat ages | awk <span class="s1">&#39;{print int($1/10)}&#39;</span> |
  sort -n | count 1 1 | awk <span class="s1">&#39;{print $1*10&quot;〜&quot;$1*10+9,$2}&#39;</span> &gt; ans
-ueda\@remote:~/Study1_Q4/data<span class="nv">$ </span>cat ans
+ueda@remote:~/Study1_Q4/data<span class="nv">$ </span>cat ans
 0〜9 9158
 10〜19 9142
 20〜29 9052
@@ -349,7 +349,7 @@ ueda\@remote:~/Study1_Q4/data<span class="nv">$ </span>cat ans
 </ul>
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
-3</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/GIT/UspMagazineHaskell/Study1_Q4<span class="nv">$ </span>cat q1_4_1.hs
+3</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/GIT/UspMagazineHaskell/Study1_Q4<span class="nv">$ </span>cat q1_4_1.hs
 <span class="nv">main</span> <span class="o">=</span> <span class="k">do </span>cs &lt;- getContents
  print <span class="o">[</span> <span class="nb">read </span>c :: Int | c &lt;- lines cs <span class="o">]</span>
 </pre></div>
@@ -362,7 +362,7 @@ Haskellのプログラム内部で数字のリストになっているのが分�
 <li>リスト10: <tt class="docutils literal"><span class="pre">q1_4_1</span></tt> の出力</li>
 </ul>
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/Study1_Q4<span class="nv">$ </span>cat ./data/ages | ./q1_4_1 | head -c 30
+2</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/Study1_Q4<span class="nv">$ </span>cat ./data/ages | ./q1_4_1 | head -c 30
 <span class="o">[</span>91,35,11,100,94,9,72,105,97,1
 </pre></div>
 </td></tr></table></div>
@@ -391,7 +391,7 @@ Int型にして出力するという意味になります。
 </ul>
 <div class="highlight-bash"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
-3</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@remote:~/Study1_Q4<span class="nv">$ </span>cat q1_4_2.hs
+3</pre></div></td><td class="code"><div class="highlight"><pre>ueda@remote:~/Study1_Q4<span class="nv">$ </span>cat q1_4_2.hs
 <span class="nv">main</span> <span class="o">=</span> <span class="k">do </span>cs &lt;- getContents
  print <span class="o">[</span> 10 * <span class="o">(</span> <span class="o">(</span><span class="nb">read </span>c :: Int<span class="o">)</span> <span class="sb">`</span>div<span class="sb">`</span> 10 <span class="o">)</span> | c &lt;- lines cs <span class="o">]</span>
 </pre></div>

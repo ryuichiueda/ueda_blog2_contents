@@ -102,7 +102,7 @@ Copyright: (C) Ryuichi Ueda
 	<li><a href="http://opensource-robotics.tokyo.jp/?p=480" target="_blank">http://opensource-robotics.tokyo.jp/?p=480</a></li>
 	<li><a href="http://www.honda.co.jp/news/2016/c160712.html" target="_blank">http://www.honda.co.jp/news/2016/c160712.html</a></li>
 　
-	<li><a href="http://at-home.cit-brains.net/?p=365" target="_blank">千葉工大RoboCup\@homeチーム（CIT Brains \@home）</a></li>
+	<li><a href="http://at-home.cit-brains.net/?p=365" target="_blank">千葉工大RoboCup@homeチーム（CIT Brains @home）</a></li>
 </ul>
 
 

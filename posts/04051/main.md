@@ -94,7 +94,7 @@ uedambp:q3 ueda$ tree
 まず、次のように8桁日付のファイルを作ります。
 
 ```bash
-uedambp:q4 ueda$ seq -w 1 31 | xargs -I\@ touch 201401\@
+uedambp:q4 ueda$ seq -w 1 31 | xargs -I@ touch 201401@
 uedambp:q4 ueda$ ls
 20140101 20140107 20140113 20140119 20140125 20140131
 20140102 20140108 20140114 20140120 20140126

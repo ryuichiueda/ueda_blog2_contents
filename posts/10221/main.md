@@ -28,7 +28,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 💩
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">「【まとめたくない】super_unkoリポジトリがスクスク成長【義務感】」をトゥギャりました。 <a href="https://t.co/vNBIqVE9Do">https://t.co/vNBIqVE9Do</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/902511534751879169">2017年8月29日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">「【まとめたくない】super_unkoリポジトリがスクスク成長【義務感】」をトゥギャりました。 <a href="https://t.co/vNBIqVE9Do">https://t.co/vNBIqVE9Do</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/902511534751879169">2017年8月29日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <h3>昨日次女の描いた絵</h3>

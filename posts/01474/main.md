@@ -6,7 +6,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 # すっかりスルー気味でしたが、クロス集計用のコマンドがあります。
 こんにちは。風邪ひき大王です。執筆は最後の生業とどなたかが言っていましたが、私も体が弱っていてここに何か書くくらいしか気力が起きません。
 
-以前ウェブで、\@iktakahiroさんの「コマンドでクロス集計する」というのが反響を呼んでいました。
+以前ウェブで、@iktakahiroさんの「コマンドでクロス集計する」というのが反響を呼んでいました。
 
 <ul>
 <li><a href="http://www.slideshare.net/iktakahiro/bashawk" target="_blank">http://www.slideshare.net/iktakahiro/bashawk</a></li>

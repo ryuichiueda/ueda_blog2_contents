@@ -11,7 +11,7 @@ Copyright: (C) Ryuichi Ueda
  <td>p.163本文下から3行目</td>
  <td>shのオプション</td>
  <td>dayslashのオプション</td>
- <td><a href="https://twitter.com/ypaypaypako" target="_blank">\@ypaypaypako</a> 様</td>
+ <td><a href="https://twitter.com/ypaypaypako" target="_blank">@ypaypaypako</a> 様</td>
  <td>ポカです。</td>
  </tr>
 </table>
@@ -31,30 +31,30 @@ Copyright: (C) Ryuichi Ueda
  </tr>
  <tr>
  <td>p.iv, 吉岡さんのTwitterアカウント</td>
- <td>\@hyoshioka</td>
- <td>\@hyoshiok</td>
- <td><a href="https://twitter.com/hyoshiok" target="_blank">\@hyoshiok</a> 様ご本人</td>
+ <td>@hyoshioka</td>
+ <td>@hyoshiok</td>
+ <td><a href="https://twitter.com/hyoshiok" target="_blank">@hyoshiok</a> 様ご本人</td>
  <td>ゴメンナサイゴメンナサイ！！！</td>
  </tr>
  <tr>
  <td>p.26, コードのコメント</td>
  <td>パーシッション</td>
  <td>パーミッション</td>
- <td><a href="https://twitter.com/6de745" target="_blank">\@6de745</a> 様</td>
+ <td><a href="https://twitter.com/6de745" target="_blank">@6de745</a> 様</td>
  <td></td>
  </tr>
  <tr>
  <td>p.64, コード</td>
- <td>ueda\@remote:~/data$ cat mistery.txt</td>
- <td>ueda\@remote:~$ cat ./data/mistery.txt</td>
- <td><a href="https://twitter.com/yumehachi" target="_blank">\@yumehachi</a> 様</td>
+ <td>ueda@remote:~/data$ cat mistery.txt</td>
+ <td>ueda@remote:~$ cat ./data/mistery.txt</td>
+ <td><a href="https://twitter.com/yumehachi" target="_blank">@yumehachi</a> 様</td>
  <td>ディレクトリが瞬間移動してましたね・・・</td>
  </tr>
  <tr>
  <td>p.120とp.121</td>
  <td>/ver/tmp</td>
  <td>/var/tmp</td>
- <td><a href="https://twitter.com/takkuru98" target="_blank">\@takkuru98</a> 様</td>
+ <td><a href="https://twitter.com/takkuru98" target="_blank">@takkuru98</a> 様</td>
  <td></td>
  </tr>
 </table>

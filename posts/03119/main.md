@@ -21,7 +21,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 本日開催でーす。英語のスピーチ大会です。今回から遠隔で大阪と結びます。
 
-<h2><a href="http://japanunixsociety.doorkeeper.jp/events/10184">jus & USP友の会共催 シェルワンライナー勉強会\@関西（第11回シェル芸勉強会）</a></h2>
+<h2><a href="http://japanunixsociety.doorkeeper.jp/events/10184">jus & USP友の会共催 シェルワンライナー勉強会@関西（第11回シェル芸勉強会）</a></h2>
 
 6/14、大阪でシェル芸です。だんだんシェル芸が一般名詞になっている・・・。どうしよう？あとまだ書けませんが、6月東京でもう一回やるかもしれません。8月は確定です。
 

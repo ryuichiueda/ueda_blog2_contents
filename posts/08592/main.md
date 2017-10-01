@@ -205,7 +205,7 @@ $ sed 's/x/(-2)/g' Q5 | bc -l
 echo <数字>からスタートすると、ややこしくなります。
 
 ```bash
-$ echo -2 | xargs -I\@ awk -v a=\@ '{gsub(/x/,a,$0);print}' Q5 | bc -l
+$ echo -2 | xargs -I@ awk -v a=@ '{gsub(/x/,a,$0);print}' Q5 | bc -l
 2
 -2.50000000000000000000
 -8
@@ -228,7 +228,7 @@ $ cat Q6
 ```bash
 $ cat Q6 | grep -oE '(玉子|卵)' | sort | uniq -c |
  sort -n -k1,1n | awk '{print $2}' | xargs |
- awk '{print "s/"$1"/"$2"/g"}' | xargs -I\@ sed \@ Q6
+ awk '{print "s/"$1"/"$2"/g"}' | xargs -I@ sed @ Q6
 玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子玉子
 ```
 

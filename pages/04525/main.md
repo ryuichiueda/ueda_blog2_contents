@@ -57,7 +57,7 @@ UNIXでも生産工学でも、まずはパイプラインやベルトコンベ�
 3
 4
 5
-6</pre></div></td><td class="code"><div class="highlight"><pre>ueda\@uedaubuntu:~<span class="nv">$ </span>top -n 1 -c | sed -n <span class="s1">&#39;/PID/,$p&#39;</span> | head -n 5
+6</pre></div></td><td class="code"><div class="highlight"><pre>ueda@uedaubuntu:~<span class="nv">$ </span>top -n 1 -c | sed -n <span class="s1">&#39;/PID/,$p&#39;</span> | head -n 5
  PID USER PR NI VIRT RES SHR S %CPU %MEM TIME+ COMMAND
 28700 ueda 20 0 8800 668 400 R 97 0.0 0:11.06 gzip data1
 28701 ueda 20 0 8800 668 400 R 97 0.0 0:09.37 gzip data2
@@ -115,15 +115,15 @@ killというコマンドに「ジョブ番号」を指定して殺します。
 後からでも jobs というコマンドで確認できます。
 実際に止めるときには、リスト3のように <tt class="docutils literal"><span class="pre">kill</span> <span class="pre">%番号</span></tt> で止めます。</p>
 <p>↓リスト3: バックグラウンドプロセスを止める</p>
-<div class="highlight-bash"><pre>ueda\@X201:~/GIT/SD_GENKOU$ sleep 1000 &amp;
+<div class="highlight-bash"><pre>ueda@X201:~/GIT/SD_GENKOU$ sleep 1000 &amp;
 [1] 31487
-ueda\@X201:~/GIT/SD_GENKOU$ jobs
+ueda@X201:~/GIT/SD_GENKOU$ jobs
 [1]+ 実行中 sleep 1000 &amp;
-ueda\@X201:~/GIT/SD_GENKOU$ kill %1
-ueda\@X201:~/GIT/SD_GENKOU$ jobs
+ueda@X201:~/GIT/SD_GENKOU$ kill %1
+ueda@X201:~/GIT/SD_GENKOU$ jobs
 [1]+ Terminated sleep 1000
-ueda\@X201:~/GIT/SD_GENKOU$ jobs
-ueda\@X201:~/GIT/SD_GENKOU$</pre>
+ueda@X201:~/GIT/SD_GENKOU$ jobs
+ueda@X201:~/GIT/SD_GENKOU$</pre>
 </div>
 <p>　余談ですが、普段あまり端末を触らない人はプロセスを殺すことに抵抗があるかもしれませんが、
 別にどれだけバッシバッシ殺してもOSは不安定になりませんので、

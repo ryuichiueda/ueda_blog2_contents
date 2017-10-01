@@ -8,7 +8,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 本日は久々に心に余裕を持った状態で休日を過ごすことができました。心が緩んだのかこんなdisりツイートをしてしまったところ、私のようにシュールなことしかつぶやかない人間には大変珍しいことですが、リツイートの数が10を超えました。誰からも恨まれないようにコソコソと生きようとしているのに、これはいけません。責任をとって弁明いたします。
 
-<blockquote class="twitter-tweet" lang="ja"><p>ITの進んでない分野 = SI業界</p>&mdash; Ryuichi UEDA (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/statuses/442154143071756288">2014, 3月 8</a></blockquote>
+<blockquote class="twitter-tweet" lang="ja"><p>ITの進んでない分野 = SI業界</p>&mdash; Ryuichi UEDA (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/statuses/442154143071756288">2014, 3月 8</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <h2>言い訳</h2>

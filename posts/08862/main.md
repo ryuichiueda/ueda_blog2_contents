@@ -28,11 +28,11 @@ Ubuntu 16.04 LTSのGUI環境で、必要なものをインストールした上�
 このバカバカしい計算間違い体験をどうしてもしたい方は、次のようにシェルとよろしくやっててください。
 
 ```bash
-mery\@welq:~$ mkdir iemo
-mery\@welq:~$ cd !$
+mery@welq:~$ mkdir iemo
+mery@welq:~$ cd !$
 cd hoge
-mery\@welq:~/iemo$ touch +
-mery\@welq:~/iemo$ echo 2 * 3 | bc
+mery@welq:~/iemo$ touch +
+mery@welq:~/iemo$ echo 2 * 3 | bc
 5
 ```
 
@@ -44,17 +44,17 @@ mery\@welq:~/iemo$ echo 2 * 3 | bc
 
 ナニがドーなるか説明しておきます。bashは
 ```bash
-spotlight\@never:~$ echo {0..9}
+spotlight@never:~$ echo {0..9}
 0 1 2 3 4 5 6 7 8 9
 ```
 というふうに、連番を略記して入力すると展開して、コマンド（この場合はecho）に渡してくれる機能があります。コマンドに展開したものを引数として渡すには・・・全部メモリの上で展開する必要があります。これを踏まえて、もう一度9位のコマンドを見てください。<span style="color:red">bashが可哀想に見えます。</span>
 
 このときは、bashだけでなく、次の方々が犠牲になりました。尊い。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/ryuichiueda">\@ryuichiueda</a> bashが大暴走しまつ・・マジで。</p>&mdash; クソッシェル芸エンジニアめ (\@papiron) <a href="https://twitter.com/papiron/status/659026666568617985">2015年10月27日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/ryuichiueda">@ryuichiueda</a> bashが大暴走しまつ・・マジで。</p>&mdash; クソッシェル芸エンジニアめ (@papiron) <a href="https://twitter.com/papiron/status/659026666568617985">2015年10月27日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">また尊い犠牲が・・・ &gt; <a href="https://twitter.com/takion0">\@takion0</a> <a href="https://twitter.com/hashtag/%E5%8D%B1%E9%99%BA%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#危険シェル芸</a></p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/659027630486720512">2015年10月27日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">また尊い犠牲が・・・ &gt; <a href="https://twitter.com/takion0">@takion0</a> <a href="https://twitter.com/hashtag/%E5%8D%B1%E9%99%BA%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#危険シェル芸</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/659027630486720512">2015年10月27日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 尊い。
@@ -72,16 +72,16 @@ spotlight\@never:~$ echo {0..9}
 アム響け！ユーフォニ
 ム響け！ユーフォニア</pre></h2>
 
-第8位は、<a href="https://twitter.com/eban">\@eban</a>さんの<span style="color: #ff0000;"><strong>「響け！ユーフォニアム10段逆スライド方式シェル芸」</strong></span>です。ある日、上の出力のように<a href="http://togetter.com/li/1041621">1文字ずつずらして「響け！ユーフォニアム」という文字列を出力するだけの<del datetime="2016-12-09T13:42:03+00:00">不毛な</del>パズルがTwitter上で<del datetime="2016-12-09T13:46:01+00:00">暇な人たちによって</del>流行ったのですが</a>、みんながワイワイ長いワンライナーを捻り出している時にしれっと氏が出したものです。
+第8位は、<a href="https://twitter.com/eban">@eban</a>さんの<span style="color: #ff0000;"><strong>「響け！ユーフォニアム10段逆スライド方式シェル芸」</strong></span>です。ある日、上の出力のように<a href="http://togetter.com/li/1041621">1文字ずつずらして「響け！ユーフォニアム」という文字列を出力するだけの<del datetime="2016-12-09T13:42:03+00:00">不毛な</del>パズルがTwitter上で<del datetime="2016-12-09T13:46:01+00:00">暇な人たちによって</del>流行ったのですが</a>、みんながワイワイ長いワンライナーを捻り出している時にしれっと氏が出したものです。
 <blockquote class="twitter-tweet" data-lang="ja">
 <p dir="ltr" lang="ja">% echo 響け！ユーフォニアム | sed ':a;p;s/\\(.\\)\\(.*\\)/\\2\\1/;/^ム/!ba'<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a></p>
-— eban (\@eban) <a href="https://twitter.com/eban/status/791624333210759170">2016年10月27日</a></blockquote>
+— eban (@eban) <a href="https://twitter.com/eban/status/791624333210759170">2016年10月27日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 一応、ちゃんと解説をしておくと、これはsed（GNU sed）のbコマンドを用いたものです。sedの部分をsedのスクリプトファイルにしてコメントを入れると、次のようになります。
 
 ```bash
-curazy\@grape:~$ cat ufo.sed 
+curazy@grape:~$ cat ufo.sed 
 #!/bin/sed -f
  
 #aというラベルをつける。「b a」でここに戻る
@@ -102,8 +102,8 @@ s/\\(.\\)\\(.*\\)/\\2\\1/
 実行は次のように行いましょう。
 
 ```bash
-takagi\@buzznews:~$ chmod +x ./ufo.sed
-takagi\@buzznews:~$ echo 響け！ユーフォニアム | ./ufo.sed 
+takagi@buzznews:~$ chmod +x ./ufo.sed
+takagi@buzznews:~$ echo 響け！ユーフォニアム | ./ufo.sed 
 響け！ユーフォニアム
 け！ユーフォニアム響
 ！ユーフォニアム響け
@@ -119,7 +119,7 @@ takagi\@buzznews:~$ echo 響け！ユーフォニアム | ./ufo.sed
 ちなみに、やり出しっぺの人は
 <blockquote class="twitter-tweet" data-lang="ja">
 <p dir="ltr" lang="ja">（今更ながら響け！ユーフォニアムなるものを全く見たことがないなんて言えない。。。）</p>
-— ぐれさん (\@grethlen) <a href="https://twitter.com/grethlen/status/791622617304223744">2016年10月27日</a></blockquote>
+— ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/791622617304223744">2016年10月27日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 だそうです。代わりに謝っておきます。私も見たことも食べたこともありません。ファンの人たちには本当に迷惑な話です。
@@ -130,7 +130,7 @@ takagi\@buzznews:~$ echo 響け！ユーフォニアム | ./ufo.sed
 
 どうなるか？こうなります。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">おいbannerコマンド馬鹿にしてんのか。<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> <a href="https://t.co/d9P3CzhoMs">pic.twitter.com/d9P3CzhoMs</a></p>&mdash; ぐれさん (\@grethlen) <a href="https://twitter.com/grethlen/status/778952287339163649">2016年9月22日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">おいbannerコマンド馬鹿にしてんのか。<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash">#シェル芸</a> <a href="https://t.co/d9P3CzhoMs">pic.twitter.com/d9P3CzhoMs</a></p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/778952287339163649">2016年9月22日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 以上、ぐれさんの<span style="color: #ff0000;"><strong>「コマンドに馬鹿にされるシェル芸」</strong></span>でした。
@@ -144,7 +144,7 @@ takagi\@buzznews:~$ echo 響け！ユーフォニアム | ./ufo.sed
 
 Dockerなら大丈夫だろうと試したらホストまで死んだという報告もあるので、<span style="color:red">試すなよ！絶対試すなよ！</span>
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">危険シェル芸タグのコマンドをdocker上で打ってたらホストまで沈黙してしまった</p>&mdash; んきりも (\@nnikirom) <a href="https://twitter.com/nnikirom/status/502078085798178816">2014年8月20日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">危険シェル芸タグのコマンドをdocker上で打ってたらホストまで沈黙してしまった</p>&mdash; んきりも (@nnikirom) <a href="https://twitter.com/nnikirom/status/502078085798178816">2014年8月20日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <ul>
@@ -170,15 +170,15 @@ xxx.yyy.zzz.aaa - - [25/Sep/2014:08:32:26 +0900] "GET / HTTP/1.1" 302 208
 
 これはワンライナーでなく、ワンライナーで解く対象となる暗号です。<a href="http://togetter.com/li/1027398">なぜかTwitter上でシェル芸暗号解読大会が開催された時</a>に私が考えた<span style="color: #ff0000;"><strong>「Twitterに実行ファイルをエンコーディングして乗っけようとして頑張ってたら乗ってしまったやつ」</strong></span>です。<a href="http://d.hatena.ne.jp/yupo5656/20061112/p2">こちらのサイト</a>からELF（実行バイナリ）を作り、それをzipやbase64で変換したものです。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr">H4sICBmZ4lcAA2VsZgCrd/VxY2RkZIABJgZmBhAvMcBEyIQBAUwYFBhgquCqgWpAVDMUs4I4AgwMjxvbHjdNftw4mQuodgcLUHA3SMvOEKD6XbxA1tmGHSCB3QxgNgCMjcoWgwAAAA==</p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/778604279594491904">2016年9月21日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr">H4sICBmZ4lcAA2VsZgCrd/VxY2RkZIABJgZmBhAvMcBEyIQBAUwYFBhgquCqgWpAVDMUs4I4AgwMjxvbHjdNftw4mQuodgcLUHA3SMvOEKD6XbxA1tmGHSCB3QxgNgCMjcoWgwAAAA==</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/778604279594491904">2016年9月21日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">収まったああああああ</p>&mdash; Ryuichi Ueda (\@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/778604312112930816">2016年9月21日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">収まったああああああ</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/778604312112930816">2016年9月21日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 次のように実行できます。
 
 ```bash
-takeda\@jooy:~$ base64 -d hoge | gunzip > a ; chmod +x a ; ./a
+takeda@jooy:~$ base64 -d hoge | gunzip > a ; chmod +x a ; ./a
 うんこ
 ```
 
@@ -194,7 +194,7 @@ takeda\@jooy:~$ base64 -d hoge | gunzip > a ; chmod +x a ; ./a
 第3位、こちらも古いんですが、あまりにも変態すぎるので未だシェル芸界隈では語り草になっている鳥海師匠の<span style="color: #ff0000;"><strong>「変態素数ワンライナー」</strong></span>です。上のワンライナーをコピペして動かしてみてください。ちゃんと動きます。そして、安心・安全です。
 
 ```bash
-cafy\@upin:~$ （変態すぎてSyntaxhilighterがうまく動かないので省略） | head
+cafy@upin:~$ （変態すぎてSyntaxhilighterがうまく動かないので省略） | head
 2
 3
 5
@@ -220,8 +220,8 @@ $ eval</pre></h2>
 
 端末で行う場合、被害としてはその端末が落ちるだけですので、皆さんもスタバ等でドヤリングする際は、exitの代わりに
 ```bash
-cuta\@findtravel:~$ alias eval='eval eval'
-cuta\@findtravel:~$ eval
+cuta@findtravel:~$ alias eval='eval eval'
+cuta@findtravel:~$ eval
 ```
 と打って（キーボードは強打すること）、かっこよく端末を閉じるグッドプラクティスを身につけてはいかがでしょうか。何が起きても私は責任を取りませんが。
 
@@ -234,7 +234,7 @@ cuta\@findtravel:~$ eval
 
 <iframe src="https://www.youtube.com/embed/e3UPHCrOmzE" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-解説はこちらの<a href="https://twitter.com/hexomino">\@hexomino</a>さんのLT資料にあります。変数に再帰的に経路を埋め込んで行って、最後にPythonに食わせて実行するという手順のようです。ワンライナーもご本人の了承を得て\@hexominoさんの資料から拝借しました。
+解説はこちらの<a href="https://twitter.com/hexomino">@hexomino</a>さんのLT資料にあります。変数に再帰的に経路を埋め込んで行って、最後にPythonに食わせて実行するという手順のようです。ワンライナーもご本人の了承を得て@hexominoさんの資料から拝借しました。
 
 <iframe style="border: 1px solid #CCC; border-width: 1px; margin-bottom: 5px; max-width: 100%;" src="//www.slideshare.net/slideshow/embed_code/key/s46u6fLfVzxkFf" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 <div style="margin-bottom: 5px;"><strong> <a title="本日の怪物曲線 2016/6/18" href="//www.slideshare.net/HexominoHexomino/2016618-63204215" target="_blank">本日の怪物曲線 2016/6/18</a> </strong> from <strong><a href="//www.slideshare.net/HexominoHexomino" target="_blank">Hexomino Hexomino</a></strong></div>
