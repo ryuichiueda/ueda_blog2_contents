@@ -11,6 +11,9 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 羽化。今朝、生まれたミカンの木のところに放された模様。まだあったかいので子孫を残すチャンスはある。
 
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今日は我が家のアゲハチョウが羽化したので、横須賀線とは無縁な人生を送ってほしい。 <a href="https://twitter.com/hashtag/%E8%AC%8E?src=hash&amp;ref_src=twsrc%5Etfw">#謎</a> <a href="https://t.co/2ejn4LsVQJ">pic.twitter.com/2ejn4LsVQJ</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/914638218468851712?ref_src=twsrc%5Etfw">2017年10月1日</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ### 10/7シェル芸勉強会のサテライト
 
 募集が出揃いました。ありがとうございます。
