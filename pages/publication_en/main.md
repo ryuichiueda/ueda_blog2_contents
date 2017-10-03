@@ -6,28 +6,12 @@ Copyright: (C) **Ryuichi Ueda**
 # Publication List
 
 <ul>
- 	<li><a href="#perspective">Perspective and Review (in Japanese only)</a></li>
  	<li><a href="#journals">Journal Papers</a></li>
  	<li><a href="#proceedings">Proceedings</a></li>
- 	<li><a href="#theses">Thesis</a></li>
+ 	<li><a href="#perspective">Perspective and Review (in Japanese only)</a></li>
 </ul>
 
 <hr />
-
-<h2><a name="perspective"></a>Perspective and Review</h2>
-
-### 2016
-
-* **Ryuichi Ueda**: "History of Probabilistic Robotics and Its Perspective,"
-Systems, control and information, Vol. 60, No. 12, pp. 503-508, 2016.
-
-### 2014
-
-* **Ryuichi Ueda**: "Detailed error report of Shellshock," IPSJ Journal, vol. 55, no. 12, pp. 1320-1323, 2014.
-
-### 2011
- 	
-* **Ryuichi Ueda**: "Evolving Probabilistic Robotics," Journal of Robotics Society of Japan, vol. 29, no. 5, pp. 404-407, 2011.
 
 <h2><a name="journals"></a>Jounal Papers</h2>
 
@@ -145,3 +129,21 @@ Journal papers in Japanese are omitted.
 * Takeshi Fukase, Masahiro Yokoi, Yuichi Kobayashi, **Ryuichi Ueda**, Hideo Yuasa and Tamio Arai: "Quadruped Robot Navigation Considering the Observational Cost,"Andreas Birk, Silvia Coradeschi and Satoshi Tadokoro (Eds.), RoboCup 2001: Robot Soccer World Cup V, pp. 350-355, 2002.
 
 * **Ryuichi Ueda**, Takeshi Fukase, Yuichi Kobayashi, Tamio Arai, Hideo Yuasa, and Jun Ota: "Uniform Monte Carlo Localization - Fast and Robust Self-localization Method for Mobile Robots," Proc. of IEEE International Conference on Robotics and Automation, pp. 1353-1358, 2002.
+
+<h2><a name="perspective"></a>Perspective and Review</h2>
+
+All in Japanese
+
+### 2016
+
+* **Ryuichi Ueda**: "History of Probabilistic Robotics and Its Perspective,"
+Systems, control and information, Vol. 60, No. 12, pp. 503-508, 2016.
+
+### 2014
+
+* **Ryuichi Ueda**: "Detailed error report of Shellshock," IPSJ Journal, vol. 55, no. 12, pp. 1320-1323, 2014.
+
+### 2011
+ 	
+* **Ryuichi Ueda**: "Evolving Probabilistic Robotics," Journal of Robotics Society of Japan, vol. 29, no. 5, pp. 404-407, 2011.
+
