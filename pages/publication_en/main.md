@@ -63,7 +63,7 @@ Journal papers in Japanese are omitted.
 
 ### 2014
 
-* Ryuichi UEDA: Generation of Search Behavior by a Modification of Q-MDP Value Method, IAS-13, 2014.
+* **Ryuichi UEDA**: Generation of Search Behavior by a Modification of Q-MDP Value Method, IAS-13, 2014.
 
 
 ### 2009
@@ -92,12 +92,12 @@ Journal papers in Japanese are omitted.
 
 * Yoshiaki Jitsukawa, **Ryuichi Ueda**, Tamio Arai, Kazutaka Takeshita, Yuji Hasegawa, Shota Kase, Takashi Okuzumi, Kazunori Umeda, and Hisashi Osumi: "Fast Decision Making of Autonomous Robot under Dynamic Environment by Sampling Real-Time Q-MDP Value Method," Proc. of IEEE/RSJ International Conference on Intelligent Robots and Systems, pp. 1644-1650, 2007.
 
-* Prachya KAMOL, Stefanos NIKOLAIDIS, Ryuichi UEDA, and Tamio ARAI: "RFID Based Object Localization System using Ceiling Cameras with Particle Filter," Proc. of The 2nd International Symposium on Smart Home (SH'07), 2007.
+* Prachya KAMOL, Stefanos NIKOLAIDIS, **Ryuichi UEDA**, and Tamio ARAI: "RFID Based Object Localization System using Ceiling Cameras with Particle Filter," Proc. of The 2nd International Symposium on Smart Home (SH'07), 2007.
 
 
 ### 2006
 
-* Kazutaka TAKESHITA, Ryuichi UEDA, and Tamio ARAI: "Fast Vector Quantization for State-Action Map Compression," Intelligent Autonomous Systems 9, pp. 694-701, 2006.
+* Kazutaka TAKESHITA, **Ryuichi UEDA**, and Tamio ARAI: "Fast Vector Quantization for State-Action Map Compression," Intelligent Autonomous Systems 9, pp. 694-701, 2006.
 
 * Hisashi Osumi, Shogo Kamiya, Hirokazu Kato, Kazunori Umeda, **Ryuichi Ueda**, and Tamio Arai: "Time Optimal Control for Quadruped Walking Robots," Proc. of IEEE International Conference on Robotics and Automation, pp. 1102-1108, 2006.
 
@@ -107,7 +107,7 @@ Journal papers in Japanese are omitted.
 
 * Natsuki Yamanobe, Tamio Arai, **Ryuichi Ueda**: "Robot Motion Planning by Reusing Multiple Knowledge under Uncertain Conditions," Proc. of IEEE/RSJ International Conference on Intelligent Robots and Systems, pp. 2232-2237, 2006.
 
-* Natsuki YAMANOBE, Koki KAKAMU, Tamio ARAI, Ryuichi UEDA, Atsushi WATANABE, Tetsuaki KATO, Koji NISHI: "Task Allocation for Multi-robot Handling System in Reduced State Space," Proc. of CIRP International Seminar on Assembly Systems (ISAS 2006), 2006.
+* Natsuki YAMANOBE, Koki KAKAMU, Tamio ARAI, **Ryuichi UEDA**, Atsushi WATANABE, Tetsuaki KATO, Koji NISHI: "Task Allocation for Multi-robot Handling System in Reduced State Space," Proc. of CIRP International Seminar on Assembly Systems (ISAS 2006), 2006.
 
 ### 2005
 
@@ -119,7 +119,7 @@ Journal papers in Japanese are omitted.
 
 ### 2004
 
-* Kazunori ASANUMA, Kazunori UMEDA, Ryuichi UEDA and Tamio ARAI: "Development of a Simulator of Environment and Measurement for Autonomous Mobile Robots Considering Camera Characteristics," Daniel Polani, et al. (Eds.), RoboCup 2003: Robot Soccer World Cup VII, pp. 446-457, 2004.
+* Kazunori ASANUMA, Kazunori UMEDA, **Ryuichi UEDA** and Tamio ARAI: "Development of a Simulator of Environment and Measurement for Autonomous Mobile Robots Considering Camera Characteristics," Daniel Polani, et al. (Eds.), RoboCup 2003: Robot Soccer World Cup VII, pp. 446-457, 2004.
 
 * **Ryuichi Ueda**, Toshio Moriya, Trevai Chomchana, and Tamio Arai: "Mobile Robot Control for Composition of Seamless and High-resolution Images in Library," IS&T/SPIE's 16th Annual Symposium on Electronic Imaging, pp. 254-261, 2004.
 
@@ -127,7 +127,7 @@ Journal papers in Japanese are omitted.
 
 * **Ryuichi Ueda** and Tamio Arai: "Value Iteration Under the Constraint of Vector Quantization for Improving Compressed State-Action Maps," Proc. of IEEE International Conference on Robotics and Automation, pp. 4771-4776, 2004.
 
-* Ryuichi UEDA, Tamio ARAI and Kohei SAKAMOTO, Toshifumi KIKUCHI and Shogo KAMIYA: "Expansion Resetting for Recovery from Fatal Error in Monte Carlo Localization --Comparison with Sensor Resetting Methods," Proc. of IEEE/RSJ International Conference on Intelligent Robots and Systems, pp. 2481-2486, 2004.
+* **Ryuichi UEDA**, Tamio ARAI and Kohei SAKAMOTO, Toshifumi KIKUCHI and Shogo KAMIYA: "Expansion Resetting for Recovery from Fatal Error in Monte Carlo Localization --Comparison with Sensor Resetting Methods," Proc. of IEEE/RSJ International Conference on Intelligent Robots and Systems, pp. 2481-2486, 2004.
 
 
 ### 2003
