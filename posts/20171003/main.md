@@ -9,9 +9,10 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ### ryuichiueda/raspimouse_ros_2にプルリクエスト
 
-* https://github.com/ryuichiueda/raspimouse_ros_2/commit/e100f415f751b1d2254f46a41dd65c553ee2b4ba
+この前ハッカソンで雑に追加したところに研究室内部から[ツッコミ](https://github.com/ryuichiueda/raspimouse_ros_2/commit/e100f415f751b1d2254f46a41dd65c553ee2b4ba)が入り、無事、プルリクエストしてもらえた。
 
-研究室から。ありがとうございます。あと、`rosdep install` についてREADMEを書いてくれると大変嬉しい。大変嬉しい。
+
+ありがとうございます。あと、`rosdep install` についてREADMEを書いてくれると大変嬉しい。大変嬉しい。
 
 
 ### 査読
