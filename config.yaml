@@ -30,6 +30,8 @@ links:
 - text: '出版物（publication）'
   href: '/?page=00728'
   sublinks:
+  - text: 'Publication List (English)'
+    href: '/?page=publication_en'
   - text: '出版物リスト（書籍・商業誌等）'
     href: '/?page=06030'
   - text: '出版物リスト（学術誌等）'
