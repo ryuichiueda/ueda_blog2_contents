@@ -7,6 +7,13 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 水疱瘡になった某ご子息の自宅待機に付き合う。集中しにくいので仕事をつまみ食いしていた。メインの仕事は連絡係。
 
+### ryuichiueda/raspimouse_ros_2にプルリクエスト
+
+* https://github.com/ryuichiueda/raspimouse_ros_2/commit/e100f415f751b1d2254f46a41dd65c553ee2b4ba
+
+研究室から。ありがとうございます。あと、`rosdep install` についてREADMEを書いてくれると大変嬉しい。大変嬉しい。
+
+
 ### 査読
 
 秘密。途中で飽きる。夜に終わらせた。
