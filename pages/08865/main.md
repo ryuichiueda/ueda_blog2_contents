@@ -8,7 +8,6 @@ Copyright: (C) Ryuichi Ueda
 * メモ
   * super_unko事件も書く
   * 難読化シェル芸も書く
-*
 
 ## 2017年
 
