@@ -5,11 +5,16 @@ Copyright: (C) Ryuichi Ueda
 
 # シェル芸の歴史
 
+
 ## 2017年
 
-|6月27日          |出来事           |コメント              |
-| --------------: |:---------------:| -------------------- |
-|6月27日          |ぐれ氏によって<a href="https://twitter.com/minyoruminyon">シェル芸bot</a>と <a href="https://twitter.com/paiza_run">@paiza_run</a> でツイートを投げ合う無限ループクワインが発見される|危険|
+<table>
+<tbody>
+<tr>
+<td>6月27日</td>
+<td>ぐれ氏によって<a href="https://twitter.com/minyoruminyon">シェル芸bot</a>と <a href="https://twitter.com/paiza_run">@paiza_run</a> でツイートを投げ合う無限ループクワインが発見される</td>
+<td>危険</td>
+</tr>
 
 
 <tr>
