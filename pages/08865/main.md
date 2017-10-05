@@ -7,9 +7,9 @@ Copyright: (C) Ryuichi Ueda
 
 ## 2017年
 
-|日付           |出来事           |コメント              |
-| ------------: |:---------------------| ------------------------- |
-|6月27日        |ぐれ氏によって<a href="https://twitter.com/minyoruminyon">シェル芸bot</a>と <a href="https://twitter.com/paiza_run">@paiza_run</a> でツイートを投げ合う無限ループクワインが発見される|危険|
+|日付       |出来事           |コメント              |
+| --------- |:-----------------------| --------------------------- |
+|6月27日|ぐれ氏によって<a href="https://twitter.com/minyoruminyon">シェル芸bot</a>と <a href="https://twitter.com/paiza_run">@paiza_run</a> でツイートを投げ合う無限ループクワインが発見される|危険|
 |6月22日        |Twitter上に「<a href="https://twitter.com/minyoruminyon">シェル芸bot</a>」が出現|一瞬でシェル芸人の遊び道具に。|
 |4月22日        |<a href="/?post=09632">jus共催第28回シェル芸勉強会</a>|某講師、自分で作って来た問題が難しすぎて解けないという失態。LTで「ロードアベレージ6万」、「Javascriptワンライナー」、「ゾンビプロセスが11561個」、「FORK爆弾24時間熟成」など不穏なキーワードが乱れ飛ぶ。|
 |2月11日|<a href="/?post=09341">jus共催第27回シェル芸勉強会</a>|<a href="https://togetter.com/li/1080646">Vimシェル芸</a>が<a href="https://twitter.com/robokinoko">@robokinoko</a>氏によってブームに。鳥海さんがドラゴン曲線ワンライナーからPythonを取り除き、端末に曲線を描くことに成功。|
