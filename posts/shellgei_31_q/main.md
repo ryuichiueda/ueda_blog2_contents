@@ -3,7 +3,7 @@ Keywords: プログラミング,勉強会,シェル芸,シェル芸勉強会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 
-# 【問題と解答】jus共催 第31回朝からだと疲れるから午後からでええじゃろシェル芸勉強会
+# 【問題のみ】jus共催 第31回朝からだと疲れるから午後からでええじゃろシェル芸勉強会
 
 * 問題で使われているデータファイルは[GitHub](https://github.com/ryuichiueda/ShellGeiData/tree/master/vol.31)にあります。クローンは以下のようにお願いします。
 
