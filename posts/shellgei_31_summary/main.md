@@ -7,6 +7,11 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 2017年10月7日土曜日、[さくらインターネット](https://www.sakura.ad.jp/)さんにて開催。無事完了しました。ご協力、お手伝いいただいた皆様ありがとうございました。
 
+## 出題
+
+* [問題](/?post=shellgei_31_q)
+* [問題と解答例](/?post=shellgei_31)
+
 ## 当日のまとめ
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">いちおうこれで完成でーす「jus共催 第31回朝からだと疲れるから午後からでええじゃろシェル芸勉強会」 <a href="https://t.co/iQMQvIclIg">https://t.co/iQMQvIclIg</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/916855056447586304?ref_src=twsrc%5Etfw">October 8, 2017</a></blockquote>
