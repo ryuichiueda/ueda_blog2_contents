@@ -32,9 +32,13 @@ Copyright: (C) 2017 Ryuichi Ueda
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">昨日の勉強会で発表したLT資料です。<br>（東京会場のLTが珍しく少なく、飛び入りでいけんじゃね？と思って10分位で作ったやつ）。<br>＞ &quot;突撃! 隣の ~/.bashrc&quot; <a href="https://t.co/hsGszGyaam">https://t.co/hsGszGyaam</a><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; キュアぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/916988398342094849?ref_src=twsrc%5Etfw">October 8, 2017</a></blockquote>
+
 ## ブログ等
 
 お待ちしてまーす。
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 
