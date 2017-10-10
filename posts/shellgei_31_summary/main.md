@@ -45,7 +45,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 お待ちしてまーす。
 
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">第31回シェル芸勉強会解いたぞ <a href="https://t.co/Qrj1swKgBr">https://t.co/Qrj1swKgBr</a><br><br>途中ですが、解いた解答をうｐしますね。 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; しまじゃき (@obknnt) <a href="https://twitter.com/obknnt/status/916686724704563205?ref_src=twsrc%5Etfw">2017年10月7日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
 
