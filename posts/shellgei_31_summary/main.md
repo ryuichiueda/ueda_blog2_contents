@@ -29,7 +29,9 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ## サテライトの様子
 
-お待ちしてまーす。（疲れるので気が向いたらで。）
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <a href="https://twitter.com/hashtag/%E7%A6%8F%E5%B2%A1?src=hash&amp;ref_src=twsrc%5Etfw">#福岡</a> シェル芸勉強会福岡サテライトの開催レポート書きました。 <a href="https://t.co/nGXNYu8WqN">https://t.co/nGXNYu8WqN</a></p>&mdash; ぱぴろんちゃん👓 (@papiron) <a href="https://twitter.com/papiron/status/917345329820852224?ref_src=twsrc%5Etfw">2017年10月9日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">シェル芸大阪サテライトのレポートですー <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><br>「第31回シェル芸勉強会　大阪サテライト」レポート - くんすとの備忘録<a href="https://t.co/8VF0DSelrs">https://t.co/8VF0DSelrs</a></p>&mdash; くんすと@内田彩10/14 (@kunst1080) <a href="https://twitter.com/kunst1080/status/917737400276738048?ref_src=twsrc%5Etfw">2017年10月10日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## LT資料
 
@@ -43,7 +45,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 お待ちしてまーす。
 
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">第31回シェル芸勉強会解いたぞ <a href="https://t.co/Qrj1swKgBr">https://t.co/Qrj1swKgBr</a><br><br>途中ですが、解いた解答をうｐしますね。 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; しまじゃき (@obknnt) <a href="https://twitter.com/obknnt/status/916686724704563205?ref_src=twsrc%5Etfw">2017年10月7日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
 
