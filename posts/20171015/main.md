@@ -28,7 +28,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">実家にいたクマバチ <a href="https://t.co/KxHB0sGZks">pic.twitter.com/KxHB0sGZks</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/919515621859106816?ref_src=twsrc%5Etfw">2017年10月15日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-あと、やたら黄色い花が咲いていてきれいだなーと呑気に見ていたら、外来種のセイタカアワダチソウで、ススキを駆逐しているそうだ。
+あと、やたら黄色い花が咲いていてきれいだなーと呑気に見ていたら、外来種のセイタカアワダチソウで、地面に毒を出してススキを駆逐しているそうだ。ただ、何年もして地面に毒が回ると自滅するらしい。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">新高岡駅前のセイタカアワダチソウと空き地。 <a href="https://twitter.com/hashtag/%E8%A9%A6%E3%81%95%E3%82%8C%E3%82%8B%E5%A4%A7%E5%9C%B0?src=hash&amp;ref_src=twsrc%5Etfw">#試される大地</a> <a href="https://twitter.com/hashtag/%E9%81%95%E3%81%86?src=hash&amp;ref_src=twsrc%5Etfw">#違う</a> <a href="https://t.co/XcYLq5f1Un">pic.twitter.com/XcYLq5f1Un</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/919514948333473792?ref_src=twsrc%5Etfw">2017年10月15日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
