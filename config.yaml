@@ -19,8 +19,6 @@ links:
     href: '/?page=06030'
   - text: '出版物リスト（学術誌等）'
     href: '/?page=06033'
-  - text: '著作物の購入'
-    href: '/?page=mybookstore'
   - text: '書籍の情報'
     href: '/?page=05535'
   - text: '- Raspberry Piで学ぶ ROSロボット入門'
@@ -41,6 +39,8 @@ links:
     href: '/?page=02944'
   - text: '- 開眼シェルスクリプト | SoftwareDesign'
     href: '/?page=02949'
+  - text: '著作物の購入'
+    href: '/?page=mybookstore'
 - text: 'シェル芸'
   href: '/?page=01434'
   sublinks:
