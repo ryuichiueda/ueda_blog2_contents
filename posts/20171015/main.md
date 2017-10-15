@@ -20,6 +20,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">蟹だった。 <a href="https://t.co/EI58uqcCGv">pic.twitter.com/EI58uqcCGv</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/919553973534695424?ref_src=twsrc%5Etfw">2017年10月15日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">寿司でもあった。 <a href="https://t.co/yYMIWG8wGZ">pic.twitter.com/yYMIWG8wGZ</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/919554879563038720?ref_src=twsrc%5Etfw">2017年10月15日</a></blockquote>
+
 あと、イナゴがたくさんだったがこれは富山では食わない。校正をしていたので少しだけだが長女と捕まえて遊んだ。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">へーすぶっくでこれを食えと脅迫されている。 <a href="https://twitter.com/hashtag/%E3%82%A4%E3%83%8A%E3%82%B4?src=hash&amp;ref_src=twsrc%5Etfw">#イナゴ</a> <a href="https://t.co/4i4gvccEHX">pic.twitter.com/4i4gvccEHX</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/919104667874861059?ref_src=twsrc%5Etfw">2017年10月14日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -33,4 +35,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 最後に、新幹線が、早かった（小並感）
 
-<blockquote class="twitter-video" data-lang="ja"><p lang="ja" dir="ltr">ンゴゴゴゴゴゴ <a href="https://t.co/AYgr7L62DC">pic.twitter.com/AYgr7L62DC</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/919476728350654464?ref_src=twsrc%5Etfw">2017年10月15日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ンゴゴゴゴゴゴ <a href="https://t.co/AYgr7L62DC">pic.twitter.com/AYgr7L62DC</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/919476728350654464?ref_src=twsrc%5Etfw">2017年10月15日</a></blockquote>
+
+
+寝る。
