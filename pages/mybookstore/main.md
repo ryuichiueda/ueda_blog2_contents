@@ -7,7 +7,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ## 新着
 
-
+* [ソフトウェアデザイン 2017年11月号](http://amzn.to/2kQ7lpF)
+* [ソフトウェアデザイン 2017年10月号](http://amzn.to/2hHfjws)
 
 ## 書籍
 
