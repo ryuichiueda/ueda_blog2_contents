@@ -1,7 +1,7 @@
 protocol: 'https:'
 host: 'b.ueda.tech'
 sitetitle: '上田ブログ'
-topmessage1: '<a href="/?page=mybookstore">本を買ってくださーい</a>'
+topmessage1: 'ちまちまと自分の<a href="/?page=mybookstore">本</a>を売る'
 twitter:
 - account: 'ryuichiueda'
 facebook: '@'
