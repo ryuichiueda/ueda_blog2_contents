@@ -1,6 +1,7 @@
 protocol: 'https:'
 host: 'b.ueda.tech'
 sitetitle: '上田ブログ'
+subtitle: '上田隆一って人は何がやりたいのかよく分からない'
 topmessage1: 'ちまちまと自分の<a href="/?page=mybookstore">本</a>を売る'
 twitter:
 - account: 'ryuichiueda'
