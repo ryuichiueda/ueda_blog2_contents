@@ -4,7 +4,7 @@ sitetitle: '上田ブログ'
 subtitle: '上田隆一って人は何がやりたいのかよく分からない'
 headline:
 - text: '<a href="/?page=mybookstore">本買ってくださーい</a>'
-- text: '<a href="http://www.robotics.it-chiba.ac.jp/j/?p=168">学科ページにアバンギャルドなインタビュー記事が</a>'
+- text: '<a target="_blank" href="http://www.robotics.it-chiba.ac.jp/j/?p=168">学科ページにアバンギャルドなインタビュー記事が</a>'
 twitter:
 - account: 'ryuichiueda'
 facebook: '@'
