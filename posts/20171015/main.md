@@ -15,7 +15,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ### 実家に帰ってた
 
-蟹がうまかった。この味を知っていると手でむしってて手が臭くなるような蟹は食えない。寿司も食った。地物は甘エビくらいなんだろうが、十分。盆と正月に帰っても新鮮な魚がないので、富山にはオフシーズンに帰省した方が良い。
+蟹がうまかった。この味を知っていると手でむしってて手が臭くなるような蟹は食えない。寿司も食った。地物は蟹と甘エビくらいなんだろうが、十分。盆と正月に帰っても新鮮な魚がないので、富山にはオフシーズンに帰省した方が良い。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">蟹だった。 <a href="https://t.co/EI58uqcCGv">pic.twitter.com/EI58uqcCGv</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/919553973534695424?ref_src=twsrc%5Etfw">2017年10月15日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
