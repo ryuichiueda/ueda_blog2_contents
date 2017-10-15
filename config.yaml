@@ -2,7 +2,8 @@ protocol: 'https:'
 host: 'b.ueda.tech'
 sitetitle: '上田ブログ'
 subtitle: '上田隆一って人は何がやりたいのかよく分からない'
-info1: 'ちまちまと自分の<a href="/?page=mybookstore">本</a>とかを売ってます'
+headline:
+- text: 'ちまちまと自分の<a href="/?page=mybookstore">本</a>とかを売ってます'
 twitter:
 - account: 'ryuichiueda'
 facebook: '@'
