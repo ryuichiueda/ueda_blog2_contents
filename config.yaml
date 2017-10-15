@@ -3,7 +3,7 @@ host: 'b.ueda.tech'
 sitetitle: '上田ブログ'
 subtitle: '上田隆一って人は何がやりたいのかよく分からない'
 headline:
-- text: '<a href="/?page=mybookstore">本買ってくださーい</a>'
+- text: '<a href="/?page=mybookstore#title">本買ってくださーい</a>'
 twitter:
 - account: 'ryuichiueda'
 facebook: '@'
