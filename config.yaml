@@ -13,6 +13,8 @@ links:
 - text: '出版物（publication）'
   href: '/?page=00728'
   sublinks:
+  - text: '上田書店'
+    href: '/?page=mybookstore'
   - text: 'Publication List (English)'
     href: '/?page=publication_en'
   - text: '出版物リスト（書籍・商業誌等）'
@@ -52,6 +54,8 @@ links:
     href: '/?page=05649'
   - text: 'シェル芸勉強会参加者数'
     href: '/?page=05567'
+  - text: 'シェル芸の定義'
+    href: '/?page=01434'
   - text: '危険シェル芸の定義（笑）'
     href: '/?page=03752'
 - text: '映像集'
