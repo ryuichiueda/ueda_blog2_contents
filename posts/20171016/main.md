@@ -14,8 +14,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 おかげで少し上達したっす。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="tr" dir="ltr">$ vim -es /etc/hosts +&#39;:1 :norm ddwrUlrnlrklrojddddddddddd&#39; +%p +q!<br># Unko Database<a href="https://twitter.com/hashtag/Vim%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#Vimシェル芸</a> <a href="https://twitter.com/hashtag/%E3%81%BE%E3%81%9F%E4%B9%97%E3%82%8A%E9%81%8E%E3%81%94%E3%81%99%E3%81%9E%E3%81%93%E3%82%8C?src=hash&amp;ref_src=twsrc%5Etfw">#また乗り過ごすぞこれ</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/919871656352301056?ref_src=twsrc%5Etfw">2017年10月16日</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="de" dir="ltr">$ vim -es /etc/hosts +&#39;:1 :norm jdddddddddddddd ^dwdwdwrylrelrslx rulrnlrkrlrklroldw&#39; +%p +q! | sh | head -n 3<br>unko<br>unko<br>unko<a href="https://twitter.com/hashtag/%E9%9B%A3%E8%AA%AD%E5%8C%96Vim%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#難読化Vimシェル芸</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/919921996024053760?ref_src=twsrc%5Etfw">October 16, 2017</a></blockquote>
+
 
 ### バイオシェル芸勉強会のスライド
 
