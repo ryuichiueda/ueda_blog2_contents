@@ -98,11 +98,10 @@ $ cat indent.txt | awk '/^ /{print ; s = gensub(/[^ ].*$/,"",1)}/^[^ ]/{print s 
 
 ### 解答
 
-もっとうまい方法がありそうですが・・・
+awkのgensubを使うとマッチした回数を使って狙ったところを置換できます。
 
 ```bash
-$ seq 1 20 | factor |
-awk 'NF==1||NF>2{print "********************"}NF==2{for(i=1;i<$2;i++){printf "*"};printf "@";for(i=$2;i<20;i++)printf "*";print ""}'
+seq 20 | factor | awk '{a="********************"}NF!=2{print a}NF==2{print gensub(/./,"@",$2,a)}'
 ```
 
 ## Q4
