@@ -13,10 +13,6 @@ Copyright: (C) 2017 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ヒカリエの写真（昨日） <a href="https://t.co/vYsrO6zbjB">pic.twitter.com/vYsrO6zbjB</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/920945909105508352?ref_src=twsrc%5Etfw">2017年10月19日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## 当日の様子
-
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">昨日のスライドです。| 2017年10月18日 シェル芸勉強会 meets バイオインフォマティクス vol.1 スライド <a href="https://t.co/V7zHdPh4pz">https://t.co/V7zHdPh4pz</a> <a href="https://twitter.com/SlideShare?ref_src=twsrc%5Etfw">@SlideShare</a>さんから <a href="https://twitter.com/hashtag/%E3%83%90%E3%82%A4%E3%82%AA%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#バイオシェル芸</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/920914461858308097?ref_src=twsrc%5Etfw">October 19, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## 自分の発表
 
