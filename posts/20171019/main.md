@@ -24,13 +24,11 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 自分が解答側に回るのは新鮮な気分でしたが、同時になんて疲れるんだと思いました・・・。で、不完全ですが私の解答例を少し示しておきます。
 
-* 問題はこちらです。
+問題はこちらです。
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/yhup0TPQPN95jI" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/EmiHattori1/ss-80854726" title="バイオシェル芸 問題のみ" target="_blank">バイオシェル芸 問題のみ</a> </strong> from <strong><a href="https://www.slideshare.net/EmiHattori1" target="_blank">Emi Hattori</a></strong> </div>
 
-* 私の{珍,正しい,間違った}解答
-
-あえてのVimシェル芸多めで。
+で、私の{珍,正しい,間違った}解答。あえてのVimシェル芸多めで。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">echo Gorilla gorilla | sed -e &#39;s/ori/a/g&#39; | sed &#39;s/a /us /&#39; | sed &#39;s/a$/us/&#39; <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <a href="https://twitter.com/hashtag/%E3%83%90%E3%82%A4%E3%82%AA%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#バイオシェル芸</a> <a href="https://twitter.com/hashtag/%E3%82%B4%E3%83%AA%E3%83%A9%E3%83%81%E3%82%AD%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#ゴリラチキン</a> <a href="https://twitter.com/hashtag/%E3%81%BE%E3%81%9A%E3%81%AF%E6%99%AE%E9%80%9A%E3%81%AB?src=hash&amp;ref_src=twsrc%5Etfw">#まずは普通に</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/920618673462681601?ref_src=twsrc%5Etfw">2017年10月18日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
