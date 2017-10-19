@@ -15,6 +15,11 @@ $ curl 'https://blog.ueda.tech/?page_id=5567' 2> /dev/null | sed -n '/<table/,/<
 ```
 
 <h2>各回の参加者数</h2>
+
+|回       |年月    |人数   |根拠                   |
+|---------|--------|------:|:----------------------|
+|29回     |201706  |55    |東京(33)会計から、[福岡](http://papiro.hatenablog.jp/entry/2017/07/02/020652)(5)（papironさん）、[大阪](http://www.kunst1080.net/entry/2017/07/03/002829)(17)（くんすとさん）|
+
 <table>
 <tbody>
 <tr>
