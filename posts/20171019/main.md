@@ -5,7 +5,13 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 # シェル芸勉強会 meets バイオインフォマティクス vol.1に参加しました
 
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">案内の掲示（昨日） <a href="https://t.co/RI26lJwioM">pic.twitter.com/RI26lJwioM</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/920946342196686850?ref_src=twsrc%5Etfw">2017年10月19日</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 昨日10月18日（水）渋谷ヒカリエのDeNAさんで開催された「シェル芸勉強会 meets バイオインフォマティクス vol.1」に参加して来ました。「シェル芸」と名前がついているとは言え、アウェー感を少し感じながら参加しましたが、勉強会中に振る舞いビールがあったおかげで、結構勉強会中に喋ってしまいました。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ヒカリエの写真（昨日） <a href="https://t.co/vYsrO6zbjB">pic.twitter.com/vYsrO6zbjB</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/920945909105508352?ref_src=twsrc%5Etfw">2017年10月19日</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## 当日の様子
 
