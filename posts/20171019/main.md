@@ -14,6 +14,11 @@ Copyright: (C) 2017 Ryuichi Ueda
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+## 当日のまとめ
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">まとまってますね。| <a href="https://twitter.com/hashtag/%E3%83%90%E3%82%A4%E3%82%AA%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#バイオシェル芸</a> - Togetterまとめ <a href="https://t.co/GR877IRdOS">https://t.co/GR877IRdOS</a> <a href="https://twitter.com/togetter_jp?ref_src=twsrc%5Etfw">@togetter_jp</a>さんから</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/920954404387164160?ref_src=twsrc%5Etfw">October 19, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## 自分の発表
 
 こういう話（？）をしました。一問目でよく手が動いていろんな解法をお見せすることができました。3問目まで来るとアルコールが回ったのでコピペで逃げました。シェル芸って、酒飲むと極端にパフォーマンスが落ちる類の作業だなと改めて思った次第。
