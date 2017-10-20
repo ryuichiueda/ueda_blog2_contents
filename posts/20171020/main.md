@@ -9,10 +9,16 @@ MacBook Proを新調。受け取りに行くときにはしゃいで走ったら
 
 ### ソフトウェアデザインが発売されました
 
-連載絶好調（主観）
+連載「シェル芸人からの挑戦状」絶好調（主観）。連載陣の悪ノリがひどい。
 
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">シェル芸人からの挑戦状、連載中です！シェル芸勉強会より激しい問題が出題されてます！！いいのかそれで？！？！？！  <a href="https://twitter.com/hashtag/gihyosd?src=hash&amp;ref_src=twsrc%5Etfw">#gihyosd</a><a href="https://t.co/h3QOOCyk3G">https://t.co/h3QOOCyk3G</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/921174085291229184?ref_src=twsrc%5Etfw">October 20, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">難しすぎて僕はギブアップしましたが、買ってね！</p>&mdash; くんすと (@kunst1080) <a href="https://twitter.com/kunst1080/status/921211609242001408?ref_src=twsrc%5Etfw">2017年10月20日</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Ciscoルータを使わずに普通のpingを駆使して「にゃーん」を表示して界隈に衝撃を与えた私ですが、今月のソフトウェアデザインの「シェル芸人からの挑戦状」に寄稿しております。<br>pingだけで3ページも使う大暴挙に出てます。本邦初tcpdumpシェル芸でpingをさばきます。是非。 <a href="https://t.co/RqjmTrtfEg">pic.twitter.com/RqjmTrtfEg</a></p>&mdash; キュアぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/921375187366395904?ref_src=twsrc%5Etfw">2017年10月20日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 よろしくお願い申し上げます。中身はまだちゃんと読んでませんので、中身の話についてはまた後日。
