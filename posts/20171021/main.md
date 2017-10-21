@@ -7,6 +7,12 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ### MathJaxでこのサイトに数式を出したい
 
+この[サイト](http://docs.mathjax.org/en/latest/start.html#tex-and-latex-input)の、次のコードをHTMLのhead要素に書くだけ。あと、ドルマーク二つで式を囲むだけ。超簡単。
+
+```html
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+```
+
 $$ y = x^2  $$ $$\text{where } x \in \mathcal{X} $$
 
 
