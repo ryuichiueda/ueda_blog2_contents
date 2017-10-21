@@ -7,8 +7,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ### MathJaxでこのサイトに数式を出したい
 
-$$ y = x^2  $$
-$$\text{where } x \in \mathcal{X}) $$
+$$ y = x^2  $$ $$\text{where } x \in \mathcal{X} $$
 
 
 出た。
