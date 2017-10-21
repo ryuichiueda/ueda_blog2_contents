@@ -13,7 +13,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 ```
 
-$$ P(A|B) = \dfrac{P(B|A)P(A)}{P(B)} = \dfrac{P(B|A)P(A)}{\sum_{A'} P(B|A')P(A')} $$
+$$ P(A|B) = \dfrac{P(B|A)P(A)}{P(B)} = \dfrac{P(B|A)P(A)}{\sum_{A' \in \mathcal{A}} P(B|A')P(A')} $$
 
 
 出た。
