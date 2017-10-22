@@ -1,5 +1,5 @@
 ---
-Keywords: 寝る,頭の中だだ漏らし,日記
+Keywords: 寝る,頭の中だだ漏らし,日記,MathJax,bashcms2
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 
