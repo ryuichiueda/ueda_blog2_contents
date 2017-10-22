@@ -17,6 +17,9 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 iPhoneの件で1時間滞在。面白いおっさんがたくさんいて自分の大好きな典型的川崎で面白かった。ミッキーマウスジャージのおばさん、何を怒っているのか韓国語でまくし立てるおっさん、ぶつかってくるちっこいおっさん。そして某喫茶店に入ったら猛烈な貧乏ゆすりかつ目がイっちゃってるおっさん。目がイっちゃってるおっさんは、店員に絡んでいるところに待ち合わせしたおっさんが来て、多分一緒にパチンコに行ったようだ。
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">みんな大好き銀柳街 &amp; 名前にアンビバレンツ感漂う楽園 <a href="https://t.co/BMKyvBqpJQ">pic.twitter.com/BMKyvBqpJQ</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/922119662082461696?ref_src=twsrc%5Etfw">October 22, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ### ログいじり
 
 某記事の依頼でApacheのログをいじる。3時間くらいで4ページくらい書いたところで壁に当たって実験の連続。やっと書き続けられそうになったところで本日終了。
