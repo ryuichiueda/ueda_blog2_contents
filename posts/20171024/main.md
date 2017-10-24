@@ -1,7 +1,9 @@
 ---
-Keywords: 寝る,頭の中だだ漏らし,日記
+Keywords: 寝る,頭の中だだ漏らし,日記,UCon
 Copyright: (C) 2017 Ryuichi Ueda
 ---
+
+# 雑記（2017年10月24日）
 
 ### UCon
 
