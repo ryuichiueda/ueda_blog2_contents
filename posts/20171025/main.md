@@ -11,7 +11,9 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ラズパイマウスのでかいやつがアールティーさんから発表。事前に喋っていいと言われてたけど関係者以外から見るとリークしてると思われるのでお口チャックマンだった。
 
+<div>
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fyuki.nakagawa.75%2Fposts%2F1693638320707483&width=500" width="500" height="560" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+</div>
 
 自分はCADを見せてもらったときに、センサを乗せやすいようにしてくらはいと直訴いたしましたので、使ってみて「センサ乗せやすいなあ」と思ったら私を偲んでいただければと。
 
