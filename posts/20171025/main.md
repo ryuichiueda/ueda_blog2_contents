@@ -23,7 +23,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ### かとうさんAR
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">かとうさんAR第二弾。いい感じです。| ARによるロボットのセンサ値の可視化 <a href="https://t.co/YkQg0O3pAk">https://t.co/YkQg0O3pAk</a> <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a>さんから</p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/923158216241905664?ref_src=twsrc%5Etfw">October 25, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>o
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 いい感じです。デバイスとかライブラリとか色々ややこしいのですが、早めにコードを公開してください！！！！とこちらも直訴。
 
