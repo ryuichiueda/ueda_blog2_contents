@@ -9,7 +9,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ### ラズパイキャット
 
-ラズパイマウスのでかいやつがアールティーさんから発表。事前に喋っていいと言われてたけど関係者以外から見るとリークしてると思われるのでお口チャックマンだった。
+ラズパイマウスのでかいやつが[アールティー](http://www.rt-net.jp/)さんから発表。事前に喋っていいと言われてたけど関係者以外から見るとリークしてるとしか思われんのでお口チャックマンだった。
 
 <div>
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRaspberryPiMouse%2Fposts%2F1704571092900305&width=500" width="500" height="535" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
