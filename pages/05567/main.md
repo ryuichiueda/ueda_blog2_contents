@@ -4,17 +4,18 @@ Copyright: (C) Ryuichi Ueda
 
 
 # シェル芸勉強会参加者数
-<h2>サマリー</h2>
+## サマリー
 <span style="font-size: 30px;">これまでに世に放たれたシェル芸人数:
-のべ1158人</span>
-<h2>数え方シェル芸</h2>
-Macの端末（coreutilsインストール済み）とUbuntu 14.04.1 LTSで動作確認済み。
+のべ2296人</span>
+
+## 数え方シェル芸
 
 ```bash
-$ curl 'https://blog.ueda.tech/?page_id=5567' 2> /dev/null | sed -n '/<table/,/<\\/table/p' | grep -A 3 '<tr>' | grep -A 2 '<td>[0-9]*回</td>' | awk 'NR%4==3' | tr -cd '0-9\\n' | numsum
+$ w3m 'https://b.ueda.tech/?page=05567' -dump | grep '^[0-9]' | awk '{print $3}' | numsum
 ```
 
-<h2>各回の参加者数</h2>
+## 各回の参加者数
+
 
 |回       |年月    |人数   |根拠                   |
 |---------|--------|------:|:----------------------|
