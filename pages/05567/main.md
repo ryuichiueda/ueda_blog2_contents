@@ -18,6 +18,8 @@ $ curl 'https://blog.ueda.tech/?page_id=5567' 2> /dev/null | sed -n '/<table/,/<
 
 |回       |年月    |人数   |根拠                   |
 |---------|--------|------:|:----------------------|
+|31回     |201710  |37     |東京(25)会計から、[福岡](http://papiro.hatenablog.jp/entry/2017/10/09/200439)(4)（papironさん）、[大阪](http://www.kunst1080.net/entry/2017/10/10/220311)(8)（くんすとさん）|
+|30回     |201708  |46     |東京(26)会計から、[福岡](http://papiro.hatenablog.jp/entry/2017/09/23/234345)(6)（papironさん）、[大阪](http://www.kunst1080.net/entry/2017/09/11/225038)(14)（くんすとさん）|
 |29回     |201706  |55    |東京(33)会計から、[福岡](http://papiro.hatenablog.jp/entry/2017/07/02/020652)(5)（papironさん）、[大阪](http://www.kunst1080.net/entry/2017/07/03/002829)(17)（くんすとさん）|
 
 <table>
