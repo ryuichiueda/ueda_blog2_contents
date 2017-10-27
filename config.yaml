@@ -110,8 +110,6 @@ links:
 - text: '関連ページ'
   href: '/?page=00811'
   sublinks:
-  - text: '旧サイト'
-    href: 'https://blog.ueda.tech'
   - text: '千葉工大上田研究室'
     href: 'https://lab.ueda.tech/'
   - text: 'USP友の会'
