@@ -16,7 +16,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">穴の開いている方のポケットにiPhoneを入れては足首から取り出すという行為をさっきから繰り返しており。</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/923748209196900353?ref_src=twsrc%5Etfw">October 27, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-ちなみにこの一人コントは学食に行った時にやっていたわけであるが、学食で食ったのが唐辛子たっぷりの辛いラーメンであり、これまた一人で顔を歪めながら一人でもんどり打って食うという体たらくであった。自身の人生を振り返って何が間違っていたのかを考えざるを得なくなった。
+この一人コントは昼に学食に行った時にやっていたわけであるが、学食で食ったのが唐辛子たっぷりの辛いラーメンであり、これまた一人で顔を歪めながら一人でもんどり打って食うという有様。自身の人生を振り返って何が間違っていたのかを考察。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今日食った昼飯という名の唐辛子イニシエーション <a href="https://t.co/Z37IEkBHdl">pic.twitter.com/Z37IEkBHdl</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/923930570454732800?ref_src=twsrc%5Etfw">2017年10月27日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
