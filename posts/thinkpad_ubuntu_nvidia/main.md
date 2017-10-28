@@ -3,7 +3,7 @@ Keywords: ThinkPad,Ubuntu,nvidia,UEFI
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 
-# ThinkPadにやっとnvidiaのドライバが入った
+# ThinkPad T450 + Ubuntu環境にやっとnvidiaのドライバが入った
 
 手順のメモです。
 
