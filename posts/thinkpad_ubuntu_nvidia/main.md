@@ -1,0 +1,32 @@
+---
+Keywords: ThinkPad,Ubuntu,nvidia,UEFI
+Copyright: (C) 2017 Ryuichi Ueda
+---
+
+# ThinkPadにやっとnvidiaのドライバが入った
+
+手順のメモです。
+
+### 環境
+
+* ThinkPad T450 (GeForce 940M)
+* Ubuntu 17.04 Desktop
+
+### 手順
+
+* BIOSの画面を開いてUEFIセキュアブートを無効にする
+* 端末で
+
+```bash
+$ sudo apt install nvidia-375
+$ sudo reboot
+```
+
+これで大丈夫っぽい。
+
+### 今までの失敗の理由（？）
+
+UEFIセキュアーブートを切るという試みを今までやってなかった。
+
+
+取り急ぎ。
