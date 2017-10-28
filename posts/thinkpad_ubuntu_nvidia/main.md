@@ -24,6 +24,10 @@ $ sudo reboot
 
 これで大丈夫っぽい。
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ThinkPad T450 + Ubuntu にnvidiaのドライバを入れることについに成功した。2年ごしの悲願・・・（何をやっているのか） <a href="https://t.co/GYdbwYmb2F">pic.twitter.com/GYdbwYmb2F</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/924242794922762240?ref_src=twsrc%5Etfw">October 28, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ### 今までの失敗の理由（？）
 
 UEFIのセキュアーブートを切るという試みを今までやってなかった。
