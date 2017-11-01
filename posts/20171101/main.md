@@ -19,7 +19,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">・ロボットにサッカーをさせる能力<br>・シェル芸<br>・シェルスクリプトでウェブサイトを作る（安全に）<br><br>なんだこの自分の無駄能力は・・・</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/925696911482404864?ref_src=twsrc%5Etfw">2017年11月1日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-aiboとかSONYとかにいろいろ評論している人がいるけど、見守るのが正解だと思う。日本がどうだとかSONYがどうだとか言わないで貴様ががんばってください。
+aiboとかSONYとかにいろいろ評論している人がいるけど、見守るのが正解だと思う。日本がどうだとかSONYがどうだとか言ってないで貴様ががんばってください。
 
 
 ### しぇるげいゔぇんきょうかいこくち
