@@ -1,5 +1,5 @@
 ---
-Keywords: 寝る,頭の中だだ漏らし,日記
+Keywords: 寝る,頭の中だだ漏らし,日記,aibo,シェル芸勉強会
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 
