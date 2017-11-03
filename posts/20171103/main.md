@@ -48,7 +48,7 @@ Probabilistic ROBOTICS出版前で、私の周り（うちわの話でなくRobo
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">なので、私はSLAMの研究はしたことがありません！！！！SLAMの研究者と呼ぶのはやめましょう！！！！１１１</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/926327522224046080?ref_src=twsrc%5Etfw">2017年11月3日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-ということでお願い致します。当時、翻訳の際に重要だと思ったことは、「ロボット工学者はベイズ推論を知っておかないと将来的に色々まずくなる」ということであり、SLAMは二の次でした。ベイズ推論に対する思いは今、正解だったと嫌ほど理解しているんですが、SLAMがこんなに流行るということは予想してませんでした。
+ということでお願い致します。当時、翻訳の際に重要だと思ったことは、「ロボット工学者はベイズ推論を知っておかないと将来的に色々まずくなる」ということであり、SLAMは二の次でした。ベイズ推論に対する思いは今、黄色い本も確率ロボティクス以上に大人気なので正解だったと嫌ほど理解しているんですが、SLAMがこんなに流行るということは予想してませんでした。
 
 
 寝る。
