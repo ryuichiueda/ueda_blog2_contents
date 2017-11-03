@@ -42,5 +42,14 @@ CPUも400MHzだしDRAMも64MBだし。でも、今だったら理論が確立さ
 
 Probabilistic ROBOTICS出版前で、私の周り（うちわの話でなくRoboCup世界大会界隈で）「地図ってどうやって作るんだろう？」と、牧歌的にSLAMに取り組んでいた時代の話でしたとさ。
 
+その後、Probabilistic ROBOTICSの翻訳を手がけることになるわけですが、上記のようにSLAMに挫折しているので、
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">なので、私はSLAMの研究はしたことがありません！！！！SLAMの研究者と呼ぶのはやめましょう！！！！１１１</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/926327522224046080?ref_src=twsrc%5Etfw">2017年11月3日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+ということでお願い致します。当時、翻訳の際に重要だと思ったことは、「ロボット工学者にとってベイズ推論は絶対に知っておかないと取り残される」ということであり、SLAMは二の次でした。ベイズ推論に対する思いは今、嫌ほど正解だったと理解しているんですが、SLAMがこんなに流行るということは予想してませんでした。
+
 
 寝る。
+
