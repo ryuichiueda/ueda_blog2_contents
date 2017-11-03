@@ -33,7 +33,6 @@ CPUも400MHzだしDRAMも64MBだし。でも、今だったら理論が確立さ
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">RoboCup2004のテクニカルチャレンジでAIBOにSLAMやらせるSLAMチャレンジというのがあって、私は確率を扱う者として、（まじめにSLAMをやって目的地に行かず）ランダムウォークの方が点数が取れると合理的な判断を行い・・・</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/926328055957565443?ref_src=twsrc%5Etfw">2017年11月3日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-ということがあり、
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">その年、チームはテクニカルチャレンジを準優勝して世界2位となり、テクニカルレポートでランダムウォークしたことを謝罪しますた。</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/926328267665063936?ref_src=twsrc%5Etfw">2017年11月3日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
