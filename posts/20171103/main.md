@@ -26,6 +26,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">AIBOにSLAMをやらせようとしたけど確率ロボティクス読んでもさっぱりアルゴリズムが思いつかず、俺ってバカなんだなーと思ってたけど、単眼でジャイロも無いから問題としては難しすぎた。</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/926327169688551424?ref_src=twsrc%5Etfw">2017年11月3日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+（注: ちょっと時代が前後してます。当時確率ロボティクスはまだ出てません。）
+
 CPUも400MHzだしDRAMも64MBだし。でも、今だったら理論が確立されてしまったので、graph-based SLAMくらいはできるかもしれない。（理論を確立しなければいけない立場なのでそれでは意味がないんだが。）
 
 で、
