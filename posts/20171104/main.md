@@ -28,6 +28,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 喉が痛いと思って行ったら口内炎だった。スマートなイチジク浣腸みたいな噴霧器で粉を吹き付けるタイプの薬を処方される。
 
+### 本日の会話
+
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">インスタ映えするうんこ 撮り方</p>&mdash; キュアぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/926701174962642944?ref_src=twsrc%5Etfw">November 4, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ぐれさん……</p>&mdash; くんすと@Aqoursファンミ大阪1日目 (@kunst1080) <a href="https://twitter.com/kunst1080/status/926704756302651392?ref_src=twsrc%5Etfw">November 4, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
