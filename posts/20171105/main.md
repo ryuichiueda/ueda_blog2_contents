@@ -31,6 +31,10 @@ fuRoの1台も最速で完走とういうことで千葉工大勢は全部2km走
 
 とネガティブな意見ばかり入手。大きさはジュディーオング的な飾りでカバー、最初の制限時間は猛ダッシュ、雨はサランラップ、電池は超能力でカバーという方針。
 
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">しかし、aiboで出場すれば柵の下も経路になるじゃないか。なんでaiboで出ないのか。 <a href="https://t.co/8aANXSUwRN">https://t.co/8aANXSUwRN</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/927134785012559877?ref_src=twsrc%5Etfw">2017年11月5日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 
 現在、上野東京ラインで帰宅中。
 
