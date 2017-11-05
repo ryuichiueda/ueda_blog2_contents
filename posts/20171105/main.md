@@ -37,6 +37,9 @@ fuRoの1台も最速で完走ということで千葉工大勢は全部2km走り
 
 とネガティブな意見ばかり入手。大きさはジュディーオング的な飾りでカバー、最初の制限時間は猛ダッシュ、雨はサランラップ、電池は超能力でカバーという方針。
 
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">千葉工大の未来ロボティクス学科林原研の二台、fuRoの一台は全部2kmを走りきりました。<br><br>GAPで買い物もしました（嘘）<br><br>上田は来年aiboでどう出場するか頭を悩ませてました（嘘本当） <a href="https://t.co/eRasYuEfeF">pic.twitter.com/eRasYuEfeF</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/927138871644532737?ref_src=twsrc%5Etfw">2017年11月5日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
 
