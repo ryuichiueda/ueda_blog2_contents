@@ -9,7 +9,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-### 木曜の発表資料
+### [木曜](http://www.ieice.org/~sip/symp/2017/?cmd=program#T)の発表資料
 
 慌てて書き出したが間に合うかどうか。まずい。今週は講義資料を作らなくて良いのが救い。
 
