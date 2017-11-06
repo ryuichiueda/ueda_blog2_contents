@@ -1,5 +1,5 @@
 ---
-Keywords: 頭の中だだ漏らし,日記,寝る
+Keywords: 頭の中だだ漏らし,日記
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 
