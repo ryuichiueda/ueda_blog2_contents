@@ -22,7 +22,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">昨日の学生様引き摺り回し高速散歩（35分） <a href="https://t.co/r8UnWvzTMk">pic.twitter.com/r8UnWvzTMk</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/929487894170845184?ref_src=twsrc%5Etfw">2017年11月11日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-地図の中にあるSTUSSYの店には、貧乏学生だった自分の仇を取るかのように今もよく行く。オサレではない。復讐のようなもの。
+地図の中にあるSTUSSYの店には、貧乏学生だった自分の仇を取るかのように今も年に1,2度は行く。オサレではない。復讐のようなもの。
 
 
 ### つくばチャレンジのビデオのモザイクがけ
