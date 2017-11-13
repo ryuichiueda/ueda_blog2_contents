@@ -28,3 +28,13 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 
 ・・・どうやったら直るんですか？？？
+
+### zoomでホワイトボード共有
+
+・・・ができないかという話になって、普通にできた。尚、書いてある内容については全部自分が悪い。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">研究室でミーティング中 <a href="https://t.co/bomY1blww9">pic.twitter.com/bomY1blww9</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/929988410671898624?ref_src=twsrc%5Etfw">November 13, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+一杯飲んで寝る。
