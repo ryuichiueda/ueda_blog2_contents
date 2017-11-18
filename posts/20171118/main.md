@@ -17,7 +17,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">集団生活の学習のためということらしいけど、他人の利害を考えずに集団を強いる人が一番、集団生活ではダメな人なので、相変わらずダメな教育が行われているなあと思いました。</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/931809817831751680?ref_src=twsrc%5Etfw">November 18, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-まず、「集団生活」というのは、互いの意見の違いを、同化はせずに認めることから始まるんだと私は理解しており。また、先生から友達という言葉を多用されてるみたいだが、友達とか友達でないという発想は単なるレッテル貼りなので、人毎に適切な距離感を保つことをしっかり教えたらどうかと考えている。
+まず、「集団生活」というのは、同化はせず、互いの意見の違いを認めることから始まるんだと私は理解しており。また、先生から友達という言葉を多用されてるみたいだが、友達とか友達でないという発想は単なるレッテル貼りなので、人毎に適切な距離感を保つことをしっかり教えたらどうかと考えている。
 
 ### 昔のロボカップチーム飲み
 
