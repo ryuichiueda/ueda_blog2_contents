@@ -25,7 +25,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">次女に大切にされているゴモラ <a href="https://t.co/hE7OGTZ5hR">pic.twitter.com/hE7OGTZ5hR</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/932139429610663936?ref_src=twsrc%5Etfw">2017年11月19日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### このブログが落ちてた
+### このブログが夜中に落ちた
 
 すわ、インジェクションか！！！！！と思ったがバックアップでストレージの使用率が100%になっていて、中間ファイルが作れずに落ちていただけだった。自分でbashで作ったサイトなので人のせいにできないのが辛い。
 
