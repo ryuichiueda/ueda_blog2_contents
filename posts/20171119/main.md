@@ -5,7 +5,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 # 雑記（2017年11月19日）
 
-### Software Desigh 12月号
+### Software Design 12月号
 
 発売されてます。連載してます。
 
