@@ -46,7 +46,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ### プチプチプログラミング
 
-今日はこういうプログラミングもした。指がまじで痛くなった。
+今日はこういうプログラミングもした。産業用マニピュレータのプログラミング。指がまじで痛くなった。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">プログラミングって難しい・・・ <a href="https://t.co/Wp7ebc8LYA">pic.twitter.com/Wp7ebc8LYA</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/932482417041932288?ref_src=twsrc%5Etfw">2017年11月20日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
