@@ -117,7 +117,7 @@ Copyright: (C) Ryuichi Ueda
 * 上田隆一: direct use of particle filters for decision making, 日本知能情報ファジィ学会のベンチャー研究会「動きの様相から先を読む」主催, 第1回「動きの様相から先を読む」研究会, 愛知, 2017.
 
 * 上田隆一: 確率的な自己位置推定・ナビゲーション・SLAM の考え方と利用, 日本ロボット学会第105回ロボット工学セミナー「ロボットに使えるビジョン技術：基礎から応用まで」, 東京, 2017. 
-  * https://www.rsj.or.jp/databox/seminar/2017/Report/s105.pdf
+    * https://www.rsj.or.jp/databox/seminar/2017/Report/s105.pdf
 
 ### 2014
 
