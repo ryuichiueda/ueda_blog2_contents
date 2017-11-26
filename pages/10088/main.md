@@ -33,7 +33,7 @@ Program Filesのフォルダ（私の環境だとC:\\Program Files (x86)\\terate
 
 そして、デスクトップからid_rsaとid_rsa.pubをドロップします。ここで、次のように管理者権限がないと言われますが、「続行」を選択します。
 
-<a href="5371018eab33b30210a8ccbcefee13ab.png"><img src="/wp-content/uploads/2017/08/5371018eab33b30210a8ccbcefee13ab.png" alt="" width="463" height="266" class="aligncenter size-full wp-image-10093" /></a>
+<a href="5371018eab33b30210a8ccbcefee13ab.png"><img src="./5371018eab33b30210a8ccbcefee13ab.png" alt="" width="463" height="266" class="aligncenter size-full wp-image-10093" /></a>
 
 コピー後、フォルダの中にid_rsaとid_rsa.pubがあることを確認してください。
 
