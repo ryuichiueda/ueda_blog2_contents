@@ -22,13 +22,13 @@ Tera Termにはいろいろ系統が存在して、Tera TermとTera Term ProやT
 
 日本語を選択し、次に進みます。
 
-<a href="/wp-content/uploads/2017/08/453bc96d10f981af4516fcbbe445c51f.png"><img src="/wp-content/uploads/2017/08/453bc96d10f981af4516fcbbe445c51f.png" alt="" width="303" height="154" class="aligncenter size-full wp-image-10072" /></a>
+<a href="./453bc96d10f981af4516fcbbe445c51f.png"><img src="./453bc96d10f981af4516fcbbe445c51f.png" alt="" width="303" height="154" class="aligncenter size-full wp-image-10072" /></a>
 
 <h3>使用許諾への同意</h3>
 
 よく読んで同意でよければ同意して次に進みます。
 
-<a href="/wp-content/uploads/2017/08/9ebd6f149e1318e4ade58a01569d1233.png"><img src="/wp-content/uploads/2017/08/9ebd6f149e1318e4ade58a01569d1233.png" alt="" width="503" height="389" class="aligncenter size-full wp-image-10075" /></a>
+<a href="./9ebd6f149e1318e4ade58a01569d1233.png"><img src="./9ebd6f149e1318e4ade58a01569d1233.png" alt="" width="503" height="389" class="aligncenter size-full wp-image-10075" /></a>
 
 <h3>コンポーネントの選択</h3>
 
