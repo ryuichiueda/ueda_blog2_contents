@@ -21,6 +21,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">煽り系倉庫 <a href="https://t.co/YFZNHszXd6">pic.twitter.com/YFZNHszXd6</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/934246267814735873?ref_src=twsrc%5Etfw">2017年11月25日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+旅行中は査読、英語案件のチェック、その他仕事が微妙に進んだ。
 
 ### テレビで全国に晒されるの明日だよ
 
