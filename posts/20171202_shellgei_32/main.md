@@ -5,6 +5,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 # 【問題のみ】jus共催 第32回全くインスタ映えしないシェル芸勉強会
 
+* [解答付きのページはこちら](/?post=20171202_shellgei_32_a)
 * 問題で使われているデータファイルは[GitHub](https://github.com/ryuichiueda/ShellGeiData/tree/master/vol.32)にあります。クローンは以下のようにお願いします。
 
 ```bash
