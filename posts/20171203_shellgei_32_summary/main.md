@@ -30,6 +30,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ahh_H5VtxgQ" frameborder="0" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tNPMju5vlfI" frameborder="0" allowfullscreen></iframe>
 
 ## サテライトの様子
 
