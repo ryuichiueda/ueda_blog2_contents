@@ -8,11 +8,11 @@ Copyright: (C) Ryuichi Ueda
 
 <div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774173444/ryuichiueda-22/" target="_blank" ><img src="https://images-fe.ssl-images-amazon.com/images/I/51RK9eRR0PL._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774173444/ryuichiueda-22/" target="_blank" >シェルプログラミング実用テクニック (Software Design plus)</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">上田 隆一 技術評論社 2015-05-15    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('//img.yomereba.com/simple5.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://www.amazon.co.jp/gp/search?keywords=%E3%82%B7%E3%82%A7%E3%83%AB%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=ryuichiueda-22" target="_blank" >Amazonで調べる</a></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('//img.yomereba.com/simple5.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="https://hb.afl.rakuten.co.jp/hgc/160ef62b.67679dda.160ef62c.1fcc3769/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2582%25B7%25E3%2582%25A7%25E3%2583%25AB%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%259F%25E3%2583%25B3%25E3%2582%25B0%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F" target="_blank" >楽天市場で調べる</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
 
-<!-- ## 第32回
 
-* 問題のみ
-* 解答付き
-    -->
+## 第32回
+
+* [問題のみ](/?post=shellgei_32)
+* [解答付き](/?post=shellgei_32_a)
 
 ## 第31回
 
