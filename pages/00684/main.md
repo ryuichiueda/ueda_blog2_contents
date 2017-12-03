@@ -11,8 +11,8 @@ Copyright: (C) Ryuichi Ueda
 
 ## 第32回
 
-* [問題のみ](/?post=shellgei_32)
-* [解答付き](/?post=shellgei_32_a)
+* [問題のみ](/?post=20171202_shellgei_32)
+* [解答付き](/?post=20171202_shellgei_32_a)
 
 ## 第31回
 
