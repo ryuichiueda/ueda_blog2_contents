@@ -9,8 +9,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ## 出題
 
-* [問題](/?post=20171202_shellgei_31)
-* [問題と解答例](/?post=20171202_shellgei_31_q)
+* [問題](/?post=20171202_shellgei_32)
+* [問題と解答例](/?post=20171202_shellgei_32_q)
 
 ## 当日のまとめ
 
