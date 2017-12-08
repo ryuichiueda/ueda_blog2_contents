@@ -1,9 +1,9 @@
 ---
-Keywords: 頭の中だだ漏らし,日記,確率ロボティクス,シェル芸勉強会
+Keywords: 頭の中だだ漏らし,日記
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 
-# 雑記（2017年12月5日）
+# 雑記（2017年12月8日）
 
 
 ### Robot Web ToolsのCDN
