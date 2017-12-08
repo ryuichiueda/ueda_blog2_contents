@@ -27,3 +27,8 @@ https://static.robotwebtools.org/
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 出版社の方に直接足を運んでいただけるのはありがたいのですが、仕事はTwitterで決まってしまいます・・・。Twitterでアポとって下さる人は、その他のこともフットワーク軽そうですし・・・。
+
+無駄なビジネス慣行が早く無くなりますように・・・
+
+
+寝る。
