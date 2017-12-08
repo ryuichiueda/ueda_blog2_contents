@@ -19,6 +19,13 @@ https://static.robotwebtools.org/
 
 つらひ。
 
+### 講義資料
+
+確率ロボティクスについては多次元正規分布をちゃんとやろうということで資料追加。ロボットシステム学ではとりあえずrosbridge使ってもらおうということで写経的な課題を追加。疲れた。
+
+* https://github.com/ryuichiueda/probrobo2017/blob/master/13.ipynb
+* https://github.com/ryuichiueda/robosys2017/blob/master/13.md
+
 ### 執筆
 
 この件、次の日に某出版社から接触がありました。前に進めます。
