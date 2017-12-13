@@ -23,6 +23,8 @@ qHIXO5B1tmEHSGA3A5gNADcLsIJ9AAAA
 
 ### 解答
 
+* 参考: http://d.hatena.ne.jp/yupo5656/20061112/p2
+
 ```bash
 ### とりあえずファイルに保存 ###
 $ cat unko
@@ -34,11 +36,25 @@ $ cat unko | base64 -d > unko2
 ### unko2はgzファイル ###
 $ file unko2
 unko2: gzip compressed data, was "\360\237\222\251", last modified: Wed Dec 13 00:26:38 2017, from Unix
+### "\360\237\222\251" を解析 ###
+$ echo $'\360\237\222\251'
+💩
+### fileの出力通りにファイル名を復元 ###
+$ mv unko2 💩.gz
+$ gunzip 💩.gz
+### fileで調査するとELF形式のバイナリと分かる ###
+$ file 💩
+💩: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), statically linked, corrupted section header size
+$ chmod +x ./💩
+$ ./💩
+./💩
 ```
 
-## 💩1
+ということで、自己言及型💩であることが判明。
 
-lsをunkoと打ち間違える癖に悩んでいる方も多いと思います。そこで矯正のため、次のようにlsをunkoと打ち間違えると、端末の幅いっぱいにうんこメッセージをスクロールさせるエイリアスを設定してください。
+## 💩2
+
+lsをunkoと打ち間違える癖に悩んでいる諸氏の矯正のため、次のようにlsをunkoと打ち間違えると、端末の幅いっぱいにうんこメッセージをスクロールさせるエイリアスを設定せよ。
 
 <img width="600" src="/pages/advent_calendar_2017/unko_q1.gif" >
 
@@ -51,9 +67,9 @@ lsをunkoと打ち間違える癖に悩んでいる方も多いと思います�
 $ alias unko='echo -ne "@@unko@@yes" | perl -pe "\$_ x= 20" | head -c $(tput cols) | sed "s/@/💩/g" | sed -E ":b;p;s/(.)(.*)/\2\1/;bb" | xargs -i bash -c "sleep 0.2 && echo -ne \\\\r{}"'
 ```
 
-## 💩2
+## 💩3
 
-次のように楽しげに💩を回してください。
+次のように楽しげに💩を回転させよ。
 
 <img width="600" src="/pages/advent_calendar_2017/unko_q2.gif" >
 
@@ -63,9 +79,9 @@ $ alias unko='echo -ne "@@unko@@yes" | perl -pe "\$_ x= 20" | head -c $(tput col
 $ while sleep 0.02 ; do clear ; echo 💩  $(date +%N) | awk '{t=2*3.14*$2/1000000000;c=cos(t)*5+5;s=sin(t)*10+13;for(i=1;i<=c;i++)print "";for(j=1;j<=s;j++)printf " ";print $1}'; done
 ```
 
-## 💩3
+## 💩4
 
-次の文を「う」「ん」「こ」「ー」のみでエンコードして、デコードしてください。
+次の文を「う」「ん」「こ」「ー」のみでエンコードし、デコードせよ。
 
 ```
 2017年はうんこの年でした。うんこうんこ氏のうんこの党がうんこアウフヘーベン発言で頓挫しました。
@@ -113,9 +129,9 @@ $ cat unko_yuriko | sed -e 's/う/0 /g' -e 's/ん/1 /g' -e 's/こ/2 /g' -e 's/�
 2017年はうんこの年でした。うんこうんこ氏のうんこの党がうんこアウフヘーベン発言で頓挫しました。
 ```
 
-## 💩4
+## 💩5
 
-`/dev/urandom`の出力から小文字大文字のアルファベットだけを残し、その中に流れるunkoの平均流速を概算しなさい。なお、大文字小文字は区別しない。
+`/dev/urandom`の出力から小文字大文字のアルファベットだけを残し、その中に流れるunkoの平均流速を概算せよ。なお、大文字小文字は区別しないものとする。
 
 * 例
 
@@ -238,8 +254,7 @@ UNko
 ということで、0.5ウンコパーメガバイトだと分かる。
 
 
-* http://d.hatena.ne.jp/yupo5656/20061112/p2
 
-## 💩8 
+## 💩6 
 
 これを電車の中で人に見られながら作成していた筆者の心境を説明せよ。
