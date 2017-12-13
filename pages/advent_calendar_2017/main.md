@@ -6,7 +6,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 # うんこシェル芸ドリル
 
 * 諸注意
-  * これは[Shell Script Advent Calendar 2017](https://qiita.com/advent-calendar/2017/shellscript)の記事であるが、もし「品位が問われる」みたいな話になるならば、全力でひり出したものではあるが、全力で引っ込める。
+  * これは[Shell Script Advent Calendar 2017](https://qiita.com/advent-calendar/2017/shellscript)の記事である。しかし、万が一「品位が問われる」みたいな話になるならば、全力でひり出したものであり大変残念ではあるが、全力で引っ込める。
   * 解答はMacの端末でUbuntu 16.04にSSH接続して作った。
   * 必要なコマンドは各自インストールのこと。
   * うんこ漢字ドリルではない。
