@@ -25,7 +25,8 @@ f09f92a9
 💩には、大きな素数が含まれるため、大自然の何かを感じざるを得ない。
 
 ```bash
-$ echo -n 💩  | xxd -p | sed 's/^/0x/' | xargs printf "%d" | factor | awk '$1=" "' | xargs -n 1 | sort -n | tail -n 1
+$ echo -n 💩  | xxd -p | sed 's/^/0x/' | xargs printf "%d" | factor |
+awk '$1=" "' | xargs -n 1 | sort -n | tail -n 1
 26385553
 ```
 
@@ -68,7 +69,7 @@ $ ./💩
 ./💩
 ```
 
-ということで、自己言及型💩であることが判明。
+ということで、自己言及型💩であることが判明する。応用としては、二つ💩を出力してそれを再実行し、forkbomb（💩bomb）を起こすという手法が考えられるが、自分のマシンを壊したくないので割愛する。
 
 ## 💩3
 
