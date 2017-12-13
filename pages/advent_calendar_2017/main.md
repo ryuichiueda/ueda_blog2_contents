@@ -24,7 +24,7 @@ f09f92a9
 
 ## 💩2
 
-次のバイナリが何であるか、何が得られるかを解析せよ。
+次の文字列が何であるか、何が得られるかを解析せよ。
 
 ```
 H4sICL5zMFoAA/CfkqkAq3f1cWNkZGSAASYGZgYQLzrARMiEAQ
@@ -99,7 +99,7 @@ awk '$1=" "' | xargs -n 1 | sort -n | tail -n 1
 
 ### 💩2
 
-次のバイナリが何であるか、何が得られるかを解析せよ。
+次の文字列が何であるか、何が得られるかを解析せよ。
 
 ```
 H4sICL5zMFoAA/CfkqkAq3f1cWNkZGSAASYGZgYQLzrARMiEAQ
