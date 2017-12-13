@@ -76,7 +76,9 @@ $ alias unko='echo -ne "@@unko@@yes" | perl -pe "\$_ x= 20" | head -c $(tput col
 ### 解答例
 
 ```bash
-$ while sleep 0.02 ; do clear ; echo 💩  $(date +%N) | awk '{t=2*3.14*$2/1000000000;c=cos(t)*5+5;s=sin(t)*10+13;for(i=1;i<=c;i++)print "";for(j=1;j<=s;j++)printf " ";print $1}'; done
+$ while sleep 0.02 ; do clear ; echo 💩  $(date +%N) |
+awk '{t=2*3.14*$2/1000000000;c=cos(t)*5+5;s=sin(t)*10+13;
+for(i=1;i<=c;i++)print "";for(j=1;j<=s;j++)printf " ";print $1}'; done
 ```
 
 ## 💩4
