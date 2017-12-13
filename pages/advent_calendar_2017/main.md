@@ -6,16 +6,41 @@ Copyright: (C) 2017 Ryuichi Ueda
 # うんこシェル芸ドリル
 
 * 諸注意
-  * 解答はMacの端末でUbuntu 16.04にSSH接続して作りました。
+  * これは[Shell Script Advent Calendar 2017](https://qiita.com/advent-calendar/2017/shellscript)の記事であるが、もし「品位が問われる」みたいな話になるならば、全力でひり出したものではあるが、全力で引っ込める。
+  * 解答はMacの端末でUbuntu 16.04にSSH接続して作った。
   * 必要なコマンドは各自インストールのこと。
   * うんこ漢字ドリルではない。
 
+## 💩1
+
+次のバイナリが何であるか、何が得られるかを解析せよ。
+
+```
+H4sICL5zMFoAA/CfkqkAq3f1cWNkZGSAASYGZgYQLzrARMiEAQ
+FMGBQYYKrgqoFqQFQtFLOCOAIMDHr6H+ZPWsm1gwXI3Q1SvDME
+qHIXO5B1tmEHSGA3A5gNADcLsIJ9AAAA
+```
+
+### 解答
+
+```bash
+### とりあえずファイルに保存 ###
+$ cat unko
+H4sICL5zMFoAA/CfkqkAq3f1cWNkZGSAASYGZgYQLzrARMiEAQ
+FMGBQYYKrgqoFqQFQtFLOCOAIMDHr6H+ZPWsm1gwXI3Q1SvDME
+qHIXO5B1tmEHSGA3A5gNADcLsIJ9AAAA
+### 文字列を見ると明らかにbase64 ###
+$ cat unko | base64 -d > unko2
+### unko2はgzファイル ###
+$ file unko2
+unko2: gzip compressed data, was "\360\237\222\251", last modified: Wed Dec 13 00:26:38 2017, from Unix
+```
 
 ## 💩1
 
 lsをunkoと打ち間違える癖に悩んでいる方も多いと思います。そこで矯正のため、次のようにlsをunkoと打ち間違えると、端末の幅いっぱいにうんこメッセージをスクロールさせるエイリアスを設定してください。
 
-<img width="400" src="/pages/advent_calendar_2017/unko_q1.gif" >
+<img width="600" src="/pages/advent_calendar_2017/unko_q1.gif" >
 
 ### 解答
 
@@ -30,7 +55,7 @@ $ alias unko='echo -ne "@@unko@@yes" | perl -pe "\$_ x= 20" | head -c $(tput col
 
 次のように楽しげに💩を回してください。
 
-<img width="400" src="/pages/advent_calendar_2017/unko_q2.gif" >
+<img width="600" src="/pages/advent_calendar_2017/unko_q2.gif" >
 
 ### 解答例
 
@@ -88,7 +113,7 @@ $ cat unko_yuriko | sed -e 's/う/0 /g' -e 's/ん/1 /g' -e 's/こ/2 /g' -e 's/�
 2017年はうんこの年でした。うんこうんこ氏のうんこの党がうんこアウフヘーベン発言で頓挫しました。
 ```
 
-## 💩3
+## 💩4
 
 `/dev/urandom`の出力から小文字大文字のアルファベットだけを残し、その中に流れるunkoの平均流速を概算しなさい。なお、大文字小文字は区別しない。
 
@@ -211,6 +236,9 @@ UNko
 ```
 
 ということで、0.5ウンコパーメガバイトだと分かる。
+
+
+* http://d.hatena.ne.jp/yupo5656/20061112/p2
 
 ## 💩8 
 
