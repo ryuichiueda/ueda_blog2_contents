@@ -127,7 +127,8 @@ $ cat unko_yuriko
 * デコード
 
 ```bash
-$ cat unko_yuriko | sed -e 's/う/0 /g' -e 's/ん/1 /g' -e 's/こ/2 /g' -e 's/ー/3 /g' | xargs -n 2 | awk '{print $1*4 + $2}' | xargs printf "%x" | xxd -p -r
+$ cat unko_yuriko | sed -e 's/う/0 /g' -e 's/ん/1 /g' -e 's/こ/2 /g' -e 's/ー/3 /g' |
+xargs -n 2 | awk '{print $1*4 + $2}' | xargs printf "%x" | xxd -p -r
 2017年はうんこの年でした。うんこうんこ氏のうんこの党がうんこアウフヘーベン発言で頓挫しました。
 ```
 
