@@ -15,7 +15,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 lsをunkoと打ち間違える癖に悩んでいる方も多いと思います。そこで矯正のため、次のようにlsをunkoと打ち間違えると、端末の幅いっぱいにうんこメッセージをスクロールさせるエイリアスを設定してください。
 
-![恥ずかしいgifアニメ](unko_q1.gif)
+<img width="400" src="/pages/advent_calendar_2017/unko_q1.gif" >
 
 ### 解答
 
@@ -30,7 +30,7 @@ $ alias unko='echo -ne "@@unko@@yes" | perl -pe "\$_ x= 20" | head -c $(tput col
 
 次のように楽しげに💩を回してください。
 
-<img width="400" src="unko_q2.gif" >
+<img width="400" src="/pages/advent_calendar_2017/unko_q2.gif" >
 
 ### 解答例
 
