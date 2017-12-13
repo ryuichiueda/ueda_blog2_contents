@@ -137,13 +137,12 @@ xargs -n 2 | awk '{print $1*4 + $2}' | xargs printf "%x" | xxd -p -r
 `/dev/urandom`の出力から小文字大文字のアルファベットだけを残し、その中に流れるunkoの平均流速を概算せよ。なお、大文字小文字は区別しないものとする。
 
 * 例
+    * 次のように26文字に一つ「unko」とある場合は、38[unko/kb]となる。
 
-次のように26文字に一つ「unko」とある場合は、38[unko/kb]となる。
-
-```
-$ echo abadojfwejaiefUnkofawfewaf | awk '{print 1/length($0)}'
-0.0384615
-```
+    ```
+    $ echo abadojfwejaiefUnkofawfewaf | awk '{print 1/length($0)}'
+    0.0384615
+    ```
 
 ### 解答
 
