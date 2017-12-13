@@ -9,9 +9,9 @@ Copyright: (C) 2017 Ryuichi Ueda
     * これは[Shell Script Advent Calendar 2017](https://qiita.com/advent-calendar/2017/shellscript)の記事である。しかし、万が一「品位が問われる」みたいな話になるならば、全力でひり出したものであり大変残念ではあるが、全力で引っ込める。
     * 解答はMacの端末でUbuntu 16.04にSSH接続して作成
     * 必要なコマンドは各自インストールのこと。環境の違いはクソ力で埋め合わせること。
-    * 解答例を試すときは改行を除去のこと。また、周囲に人がいないことを確認すること。
     * うんこ漢字ドリルではない。
-* 解答はページ下に掲載。
+* 解答例はページ下に掲載。
+    * 解答例を試すときは改行を除去のこと。また、周囲に人がいないことを確認すること。
 
 ## 💩1
 
@@ -68,9 +68,7 @@ lsをunkoと打ち間違える癖に悩む者は多い。そこで矯正のた�
 
 これを電車の中で人に見られながら作成していた筆者の心境を説明せよ。
 
-## お疲れ💩でした
-
-[解答例はこちら](/?page=advent_calendar_2017_a)
+以上。解答例を見るときは下にスクロールのこと。
 
 <div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4905073863/ryuichiueda-22/" target="_blank" ><img src="https://images-fe.ssl-images-amazon.com/images/I/51n38xQgAfL._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4905073863/ryuichiueda-22/" target="_blank" >日本一楽しい漢字ドリル うんこ漢字ドリル 小学6年生</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">文響社(編集) 文響社 2017-03-18    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin:5px 0"><a href="http://www.amazon.co.jp/gp/search?keywords=%E3%81%86%E3%82%93%E3%81%93%E6%BC%A2%E5%AD%97&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=ryuichiueda-22" target="_blank" >Amazon</a></div><div class="shoplinkrakuten" style="margin:5px 0"><a href="https://hb.afl.rakuten.co.jp/hgc/131cef76.deb3ed6a.131cef77.7335f681/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2581%2586%25E3%2582%2593%25E3%2581%2593%25E6%25BC%25A2%25E5%25AD%2597%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F" target="_blank" >楽天市場</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
 
