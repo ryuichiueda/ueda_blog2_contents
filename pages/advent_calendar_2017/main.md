@@ -69,7 +69,7 @@ $ alias unko='echo -ne "@@unko@@yes" | perl -pe "\$_ x= 20" | head -c $(tput col
 
 ## 💩3
 
-次のように楽しげに💩を回転させよ。
+次のように楽しげに💩をぐるぐるさせよ。
 
 <img width="600" src="/pages/advent_calendar_2017/unko_q2.gif" >
 
