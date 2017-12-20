@@ -5,7 +5,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 # 雑記（2017年12月20日）
 
-昨日は中野まで行って時計をついに売ってしまった。腕時計ってあっという間に換金できるんだ・・・というほど呆気なかった。その後、お世話になった方の退職のお祝いにたん清へ。本日は一日大学にいて今年最後の講義と今年最後ではないゼミをやった。
+
+本日は一日大学にいて今年最後の講義と今年最後ではないゼミをやった。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">今年の講義納めで嬉しくなって写真撮ってしまったの図。ついでに時間をおいてアップするの図。 <a href="https://t.co/cuBaxgguxt">pic.twitter.com/cuBaxgguxt</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/943470214934441984?ref_src=twsrc%5Etfw">December 20, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -27,5 +28,9 @@ Copyright: (C) 2017 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">普通に動く。 <a href="https://t.co/AdvNxZkOEb">pic.twitter.com/AdvNxZkOEb</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/943419415118282753?ref_src=twsrc%5Etfw">2017年12月20日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+### 昨日のこと
 
-二日連続夜遅かったので早く寝る。
+昨日は中野まで行って時計をついに売ってしまった。先日、別のものを購入した際に鑑定が終わっていたものの、入店後10分で封筒に入った現金を持って店を出た。腕時計ってあっという間に換金できるんだ・・・という感想を持った。その後、お世話になった方の退職のお祝いに秋葉原のたん清へ。
+
+
+という感じで昨日は夜遅かったので早く寝る。
