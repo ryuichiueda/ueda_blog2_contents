@@ -7,7 +7,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 https://wiki.ubuntu.com/ARM/RaspberryPi のイメージがバグを含んだままさっぱり更新されないので、勝手にバグフィックスしたものを公開しています。もちろんライセンスはGPLということになろうかと。今日作ったのは
 
-* `/boot/firmware/config.txt`に書いてある`device_tree_address`が間違っているものを修正
+* `/boot/firmware/config.txt`に書いてある`device_tree_address`が間違っているので修正（ひでえ）
 * カーネルをLinux ubuntu 4.4.0-1080-raspi2にアップデート
 * カーネルのアップデートでwifiが使えなくなる問題の修正
 * その他ソフトウェアのアップデート
