@@ -16,5 +16,7 @@ https://wiki.ubuntu.com/ARM/RaspberryPi のイメージがバグを含んだま�
 
 * http://file.ueda.tech/RPIM_BOOK/ubuntu-16.04-preinstalled-server-armhf+raspi3-upgradable-20171223.img.xz
 
+後から気づいた小さいバグが一つあるんですが、`/var/log/lastlog`を消してしまったので`lastlog`が使えません。使いたい場合は自身で`/var/log/lastlog`を作る必要があります。
+
 有効にお使いください。
 
