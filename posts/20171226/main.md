@@ -14,7 +14,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">参考にしたいとの某氏の要請で自分の修論渡したら反応が楽しかったのでネットにも晒すことにしたっす。<a href="https://t.co/q35hEQJGXK">https://t.co/q35hEQJGXK</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/945445875060314112?ref_src=twsrc%5Etfw">December 26, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-尚、今も目は輝いてるけど若干ズルくなっている模様。
+尚、今も荒削りで目は輝いてるけど若干ズルくなっている模様。
 
 
 ### みなさまからの学び
