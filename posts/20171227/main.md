@@ -24,6 +24,10 @@ Copyright: (C) 2017 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">卒論が薄いならタイトルも薄い本風にしなければならないというのは割と当たり前の話ではある。</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/945987030328131584?ref_src=twsrc%5Etfw">2017年12月27日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">turtlebotちゃんと○○○する本<a href="https://twitter.com/hashtag/O%E6%B0%8F%E3%81%AE%E5%8D%92%E8%AB%96%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#O氏の卒論タイトル</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/945980119889281024?ref_src=twsrc%5Etfw">December 27, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">忘年会議事録<br><br>・卒論を薄い本にするにはturtlebotを擬人化しないといけない<br>・あの低重心のロボットをどう擬人化するんだ<br>・一同考え込み沈黙<a href="https://twitter.com/hashtag/%E5%8D%92%E8%AB%96%E3%81%AF%E5%8E%9A%E3%81%8F?src=hash&amp;ref_src=twsrc%5Etfw">#卒論は厚く</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/945993718674239488?ref_src=twsrc%5Etfw">2017年12月27日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
