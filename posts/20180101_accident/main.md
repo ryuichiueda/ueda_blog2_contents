@@ -19,6 +19,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">あら１グランプリ2017<br>優勝は「奥歯ガタガタ言わせ節」ふーみんでした！<br>朝まで見てくださった皆さん、ありがとうございました！<br><br>おもしろかったパフォーマーの名前と感想を<br>ツイートしていただけると、あらびき団員の明日への活力になります！<br>お願いします！　<a href="https://twitter.com/hashtag/%E3%81%82%E3%82%89%E3%81%B3%E3%81%8D%E5%9B%A3?src=hash&amp;ref_src=twsrc%5Etfw">#あらびき団</a>　<a href="https://twitter.com/hashtag/tbs?src=hash&amp;ref_src=twsrc%5Etfw">#tbs</a></p>&mdash; あらびき団【公式アカウント】 (@namaiki_arabiki) <a href="https://twitter.com/namaiki_arabiki/status/946815344709996545?ref_src=twsrc%5Etfw">2017年12月29日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">奥歯をガタガタ奥歯をガタガタ奥歯をガタガタ奥歯をガタガタ奥歯をガタガタ奥歯をガタガタ奥歯をガタガタwwwww</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/946765675988533248?ref_src=twsrc%5Etfw">2017年12月29日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 * 12/30 2時半ごろ: 鍵師の方から連絡がないのでコート無しだが様子を見に行く。格闘中。なかなか開かないとのこと。ただ、たぶんプロ根性で開くまで頑張る感じがヒシヒシと伝わって来たので、いつ諦めてもいいですよと告げて管理事務所に戻る。
 
 * 12/30 3時半ごろ: 鍵師の方から開かなかったと電話連絡。お代はいただかないとのこと。会いに行ってお礼をしたかったが体温が持たないと思い、電話越しに感謝して帰っていただく。ちょうど、警備員の少し偉い人が来て、和室を使わせてもらえることになった。和室で座布団をひいて、和室にあったストールみたいなものと、落とし物の毛布（落ち葉付き）にくるまって寝る。暖房の温度は高くしてもらえたので体温はなんとか保てた。震災の際に避難生活をしていた人たちやマッチ売りの少女の気持ちが本当によく理解できた。それが今回の1番の収穫だった模様。
