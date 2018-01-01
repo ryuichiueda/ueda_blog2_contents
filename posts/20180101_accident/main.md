@@ -44,6 +44,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 * 周囲の助けがないとどんなに偉そうにしても死んでまう。謙虚に生きよう。
 * へーすぶっくで、「鍵を電子化しなきゃね」などと一般論でアドバイスしてくれる人に対し、それでも締め出されるときは締め出されるから俺に向かって陳腐な知識披露してんじゃねえよクソなの？？？&マンションには管理規約があって好きにカスタマイズはできないっつうことをしらねえんでねえの？？？と毒づいてしまい、人間、謙虚さを保つのは無理だと。
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">実体験に基づかない、ネットで調べたら簡単に出てくるようなアドバイスをFacebookの返信欄にしてくる奴は、ケツの穴から手ェ突っ込んで！奥歯をガタガタ奥歯をガタガタ奥歯をガタガタ奥歯をガタガタ奥歯をガタガタ奥歯をガタガタ奥歯をガタガタ奥歯をガタガタ奥歯をガタガタ言わせ節！！！</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/947360402450522112?ref_src=twsrc%5Etfw">December 31, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ### おわりに
 
 あったことを列挙しただけであんまり面白くなかったかもしれないけど、皆様におかれましては、家に人がいないときに鍵をなくさないよう、ご注意をお願い致したく。
