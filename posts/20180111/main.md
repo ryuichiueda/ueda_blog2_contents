@@ -20,14 +20,13 @@ Copyright: (C) 2017 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">本日試したDVIビュワー1（というか統合環境）<a href="https://t.co/ZVNVGrEFFw">https://t.co/ZVNVGrEFFw</a><br><br>結果: 日本語が表示できず。</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/951467349894348802?ref_src=twsrc%5Etfw">January 11, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-次に最高に便利そうなこちらを試させていただきました。GitHubからzipでダウンロードして、原稿のあるディレクトリに展開し、dviファイルを表示するためのhtmlファイルを書き、原稿のディレクトリでPythonの簡易HTTPサーバを立ち上げて見てみました。
+次に最高に便利そうなこちらを試させていただく。GitHubからzipでダウンロードして、原稿のあるディレクトリに展開し、dviファイルを表示するためのhtmlファイルを書き、原稿のディレクトリでPythonの簡易HTTPサーバを立ち上げることで、ブラウザに原稿が表示された。すんごい。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">本日試したDVIビュワー2<a href="https://t.co/dbZBHvo002">https://t.co/dbZBHvo002</a><br><br>大変魅力的で素晴らしかったのですが、英語が出ず。あと、数式が・・・（もう自分が設定を頑張ればちょっとうまくできるかもしれない）</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/951468022148902913?ref_src=twsrc%5Etfw">January 11, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-
-スクリーンショットをとっておけばよかったのですが、大方のDVIビュワーとは逆で日本語は綺麗に出力され、英語が出ないという結果になりました。私の設定が悪いのかもしれません。あと、数式の出力は如何ともしがたい感じがあったので、数式多用の私にはちょっと手に負えませんでした。しかし、すごいコード書く人もいるもんだとただただ感心しました。
+しかし、大方のDVIビュワーとは逆で日本語は綺麗に出力され、英語が出ないという結果に。私の設定が悪いのかも。あと、数式の出力は如何ともしがたい感じがあったので、数式多用の私にはちょっと手に負えない感じ。しかし、すごいコード書く人もいるもんだとただただ感心。
 
 んーしかし、なんとかならないですかね。やっぱりpxdviか何かが一番いいんでしょうか。あるいは原稿を書くときだけWindowsを使うとか・・・。
 
