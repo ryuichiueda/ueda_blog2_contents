@@ -125,10 +125,14 @@ Copyright: (C) Ryuichi Ueda
 
 
 <h2><a name="proceedings"></a>査読つき講演論文</h2>
-<h3>2016</h3>
-<ul>
- 	<li>Ryuichi Ueda, Kotaro Mizuta, Hiroshi Yamakawa and Hiroyuki Okada: Particle Filter on Episode for Learning Decision Making Rule, Proc. of The 14th International Conference on Intelligent Autonomous Systems (IAS-14), Shanghai, July, 2016.</li>
-</ul>
+
+### 2018
+
+* Ryuichi Ueda, Masahiro Kato, Atsushi Saito, Ryo Okazaki: Teach-and-Replay of Mobile Robot with Particle Filter on Episode, IEEE International Conference on Robotics and Automation, Australia, Brisbane, 2018. (to appear)
+
+### 2016
+* Ryuichi Ueda, Kotaro Mizuta, Hiroshi Yamakawa and Hiroyuki Okada: Particle Filter on Episode for Learning Decision Making Rule, Proc. of The 14th International Conference on Intelligent Autonomous Systems (IAS-14), Shanghai, July, 2016.</li>
+
 <h3>2015</h3>
 <ul>
  	<li>Yukiko Nakagawa, Masatake Aoki, Shunsuke Sakura, Noriaki Nakagawa, Ryuichi Ueda, and Amy Eguchi: "Raspberry Pi Mouse: A Micromouse with Full Linux Environment," Proceedings of the 6th International Conference on Advanced Mechatronics (ICAM2015), pp.14-15, Tokyo, Japan, December 5-8, 2015.</li>
