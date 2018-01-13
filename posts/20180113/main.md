@@ -7,12 +7,13 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ### ICRA通った
 
-ICRAというのは国際学会の名前。事情を知らん人には「ロボットの研究者にとっては夏の甲子園のようなもの」と説明。
+ICRAというのは国際学会の名前。事情を知らん人には「ロボットの研究者にとっては夏の甲子園のようなもの」と説明。この説明だと、春の甲子園はIROSということになる。10年ぶり7度目の出場。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ICRAとおったたあああああ</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/951692964824154112?ref_src=twsrc%5Etfw">January 12, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-10年ぶり7度目の出場。やっぱりなかなか通すのは難しいので少しぐらいははしゃぎたいが、重要なのは研究の中身。インパクトファクターとかトップカンファレンスとかいう言葉は研究の目的を見失うので嫌い。しかし素直に嬉しい。
+
+やっぱりなかなか通すのは難しいので少しぐらいははしゃぎたいが、重要なのは研究の中身。インパクトファクターとかトップカンファレンスとかいう言葉は研究の目的を見失うので嫌い。しかし素直に嬉しい。
 
 投稿前の原稿をarXivにアップしていいと書いてあったのだが、古い人間でそういうことをしたことがなくチャンスを逃してしまった。通った後でもいいならアップするので教えていただけると大変幸い。
 
