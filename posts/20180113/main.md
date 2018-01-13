@@ -7,7 +7,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ### ICRA通った
 
-ICRAというのは国際学会の名前なのですが、知らん人に説明するときは「ロボットの研究者にとっては夏の甲子園のようなもの」と言ってます。
+ICRAというのは国際学会の名前。事情を知らん人には「ロボットの研究者にとっては夏の甲子園のようなもの」と説明。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ICRAとおったたあああああ</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/951692964824154112?ref_src=twsrc%5Etfw">January 12, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -20,7 +20,7 @@ ICRAというのは国際学会の名前なのですが、知らん人に説明�
 
 * Ryuichi Ueda, Masahiro Kato, Atsushi Saito, Ryo Okazaki: Teach-and-Replay of Mobile Robot with Particle Filter on Episode, IEEE International Conference on Robotics and Automation, Australia, Brisbane, 2018.
 
-です。
+というもの。
 
 ### Ubuntu 17.10を試す
 
