@@ -44,16 +44,17 @@ Copyright: (C) Ryuichi Ueda
 <div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4839952981/ryuichiueda-22/" target="_blank" ><img src="https://images-fe.ssl-images-amazon.com/images/I/51LqglmRkML._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4839952981/ryuichiueda-22/" target="_blank" >確率ロボティクス (プレミアムブックス版)</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">Sebastian Thrun,Wolfram Burgard,Dieter Fox マイナビ出版 2016-09-21    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin:5px 0"><a href="http://www.amazon.co.jp/gp/search?keywords=%E7%A2%BA%E7%8E%87%E3%83%AD%E3%83%9C%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=ryuichiueda-22" target="_blank" >Amazon</a></div><div class="shoplinkrakuten" style="margin:5px 0"><a href="https://hb.afl.rakuten.co.jp/hgc/131cef76.deb3ed6a.131cef77.7335f681/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E7%25A2%25BA%25E7%258E%2587%25E3%2583%25AD%25E3%2583%259C%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25AF%25E3%2582%25B9%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F" target="_blank" >楽天市場</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
 
 <h2><a name="magazine"></a>商業誌等記事</h2>
-<h3>2017</h3>
 
-<ul>
- 	<li>佐藤 大亮, 上田 隆一: "特集5　「ライントレース」に挑戦しよう ---センサー値を補正してロボットの行き先を決定", ラズパイマガジン 2017年10月号, 日経BP, 2017.</li>
+### 2018
 
- 	<li>第1特集 理論＆応用でシェル力の幅を広げる, 第4章 応用編1 じつはこんな機能があった！bashの新機能，便利機能, 技術評論社, 2017年7月号.</li>
+* 第1特集 手作業の自動化を極めて今年はラクチンな年に！使えるシェルスクリプトの書き方 第3章 パフォーマンス重視のシェルスクリプトやコマンドの操作 OSの挙動としくみを押さえて爆速処理を目指す！, SoftwareDesign, 技術評論社, 2018年1月号.
+* 理論＆応用でシェル力の幅を広げる, 第4章 応用編1 じつはこんな機能があった！bashの新機能，便利機能, SoftwareDesign, 技術評論社, 2017年7月号.
 
+### 2017
 
- 	<li>上田他: 第1特集 新春bash書き初め シェル30本ノック, SoftwareDesign, 技術評論社, 2017年1月号.</li>
-</ul>
+* 佐藤 大亮, 上田 隆一: "特集5　「ライントレース」に挑戦しよう ---センサー値を補正してロボットの行き先を決定", ラズパイマガジン 2017年10月号, 日経BP, 2017.
+* 第1特集 理論＆応用でシェル力の幅を広げる, 第4章 応用編1 じつはこんな機能があった！bashの新機能，便利機能, 技術評論社, 2017年7月号.
+* 上田他: 第1特集 新春bash書き初め シェル30本ノック, SoftwareDesign, 技術評論社, 2017年1月号.
 
 <h3>2016</h3>
 <ul>
