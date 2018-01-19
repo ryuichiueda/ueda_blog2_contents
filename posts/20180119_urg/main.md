@@ -11,7 +11,12 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ![](urg290.png)
 
+検証した時のデータとコードはここにあります。
+
+* https://github.com/ryuichiueda/LectureOfProbabilisticRobotics/blob/master/sensor_data/sensor_data.ipynb
+
 解説、どうやって書こう・・・というところですが、ロボットの業界はこういうことに対処してナンボだと思います。綺麗なデータを使ってシミュレーションしても実機で動かないのが普通ですから・・・。
 
 どなたか何かご存知でしたら教えていただければと・・・。
+
 
