@@ -162,3 +162,9 @@ $ ls -l
 -rw-rw-r-- 1 ueda ueda 2  1月 26 10:54 ???????
 -rw-rw-r-- 1 ueda ueda 3  1月 26 10:54 ????????????????????????????????
 ```
+
+すみませんすみません！！！！！
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">Q8 $ for i in *;do echo ${<a href="https://twitter.com/hashtag/i?src=hash&amp;ref_src=twsrc%5Etfw">#i</a>} &gt; &quot;$i&quot;;done<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; eban (@eban) <a href="https://twitter.com/eban/status/957139814045724672?ref_src=twsrc%5Etfw">2018年1月27日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
