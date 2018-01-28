@@ -12,7 +12,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 ## 出題
 
 * [問題](/?post=20180127_shellgei_33_q)
-* [問題と解答例](/?post=20180127_shellgei_32)
+* [問題と解答例](/?post=20180127_shellgei_33)
 
 ## 当日のまとめ
 
