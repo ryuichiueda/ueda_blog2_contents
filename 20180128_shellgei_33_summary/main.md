@@ -28,9 +28,13 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ## LT大会
 
-ヘキソミノさんの年末年始首都圏JR一筆書きLT（long talk）等、濃かったです。
+ヘキソミノさんの年末年始首都圏JR一筆書きLT（long talk）、危険PowerShell芸、シェル芸に使えるVimプラグイン、結婚報告、シバンのうんちく等、濃かったです。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BcITBh5er-s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">昨日のLTのスライドを公開しました～ <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <a href="https://twitter.com/hashtag/%E5%8D%B1%E9%99%BA%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#危険シェル芸</a><a href="https://t.co/RC7f484n9B">https://t.co/RC7f484n9B</a></p>&mdash; kanata (@kanata201612) <a href="https://twitter.com/kanata201612/status/957475818971709440?ref_src=twsrc%5Etfw">January 28, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## LT資料
 
