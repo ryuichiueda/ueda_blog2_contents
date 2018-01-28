@@ -48,3 +48,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ## ブログ等
 
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">第33回シェル芸勉強会をライヴで解いた <a href="https://t.co/Yo6O8C1zYP">https://t.co/Yo6O8C1zYP</a><br><br>解きましたよ〜〜</p>&mdash; しまじゃき (@obknnt) <a href="https://twitter.com/obknnt/status/957162454273867776?ref_src=twsrc%5Etfw">2018年1月27日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
