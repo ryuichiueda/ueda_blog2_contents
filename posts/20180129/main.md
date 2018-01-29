@@ -23,7 +23,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-↓ハートマークで顔隠れているのは自分だが、生きるフリー素材としてはぜひご開帳していただきたく（謎）
+↓ハートマークで顔隠れているのは自分だが、生きるフリー素材であるわたくしとしては、ぜひご開帳していただきたく（謎）
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ボールを掴むところから🙄<br>最後にやりたいとこまで出来て良かったです☺️ありがとうございました😌🙇 <a href="https://t.co/Bij9DI5gZG">pic.twitter.com/Bij9DI5gZG</a></p>&mdash; ﾋﾟｯ (@hityonnnnn) <a href="https://twitter.com/hityonnnnn/status/957873127840624641?ref_src=twsrc%5Etfw">2018年1月29日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
