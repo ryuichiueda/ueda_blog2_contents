@@ -17,7 +17,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ### 2年生の演習
 
-個人のブログで宣伝するのはアレなんだけど、パブリックになっているツイートを引用。
+本日は2年生の「ロボットハンドを設計、製作してマニピュレータにつけてデモをする」という演習の最終日であった。個人のブログで宣伝するのはアレなんだけど、パブリックになっているツイートを引用。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">成功しました！<a href="https://twitter.com/hashtag/%E3%82%BD%E3%83%95%E3%83%88%E3%83%AD%E3%83%9C%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9?src=hash&amp;ref_src=twsrc%5Etfw">#ソフトロボティクス</a> <a href="https://t.co/2WSRpLIOHQ">pic.twitter.com/2WSRpLIOHQ</a></p>&mdash; 爆裂道信者 (@3pLiendefamille) <a href="https://twitter.com/3pLiendefamille/status/957882069702463488?ref_src=twsrc%5Etfw">2018年1月29日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
