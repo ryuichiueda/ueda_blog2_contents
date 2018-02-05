@@ -14,10 +14,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 
 
-似てるのはこれですね。ここ2,3年で唯一買った漫画です。
+似てるというのは、ここ2,3年で私が唯一買った漫画であり、クソアニメ化されている漫画の二人組です。その前に買った漫画はショーイチ（麻雀漫画）です。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr"><a href="https://t.co/791YQErvb4">pic.twitter.com/791YQErvb4</a></p>&mdash; 末代淘汰おじさん (@mob_humio) <a href="https://twitter.com/mob_humio/status/960487358897385472?ref_src=twsrc%5Etfw">February 5, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 寝る。
