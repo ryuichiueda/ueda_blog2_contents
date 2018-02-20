@@ -18,8 +18,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-もう一冊はベイズ推定についての読み物。考え方が勉強できる。
-
+もう一冊はベイズ推定についての読み物。考え方が勉強できる。挿絵と会話という形式をとっているけど、ほとんど漫画と考えても良い作りになっており。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">俺は何を読んでいるのか。 <a href="https://twitter.com/hashtag/%E8%89%AF%E3%81%95%E3%81%92%E3%81%A7%E3%81%99?src=hash&amp;ref_src=twsrc%5Etfw">#良さげです</a> <a href="https://t.co/TkaABJYncM">pic.twitter.com/TkaABJYncM</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/965753623077560321?ref_src=twsrc%5Etfw">2018年2月20日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
