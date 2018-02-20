@@ -27,6 +27,32 @@ Copyright: (C) 2018 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-初心者向けに漫画の表現力が素晴らしいのは「シス管系女子」でも良く分かるし、そもそも自分が勉強に目覚めて勘違いして博士とったのも学研のひみつシリーズのおかげであり。漫画クラブに入っていたときに、もう少し真面目に漫画に打ち込んでおくべきだったか。
+初心者向けに漫画の表現力が素晴らしいのは「シス管系女子」でも良く分かるし、そもそも自分が勉強に目覚めて勘違いして博士とったのも学研のひみつシリーズのおかげであり。小学校で漫画クラブに入っていたときに、もう少し真面目に漫画に打ち込んでおくべきだったか。汚い絵のギャクマンガしか描けんかったが。
+
 
 しかし、これだけ教科書が良くなってるのに、堅っ苦しい教科書も出ているので、今後住み分けがどうなっていくのか気になってしょうがない。自分は難しい内容でも堅っ苦しくないほうが良いと考えている。
+
+* <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4798144983/ryuichiueda-22/" target="_blank" >Pythonで動かして学ぶ！ あたらしい機械学習の教科書</a>
+* <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4274221393/ryuichiueda-22/" target="_blank" >ベイズ推定入門 モデル選択からベイズ的最適化まで</a>
+* <a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00TQMFOCW/ryuichiueda-22/" target="_blank" >まんがでわかるLinux　シス管系女子（日経BP Next ICT選書）</a>
+
+
+### 研究室のビデオを再生リストにまとめる
+
+研究室のYouTubeのチャンネルを作ろうと思ってたけど、各メンバーがアップしたビデオを再生リストにした方が良いということに気づいた。その方が各自のアカウントにビデオを置いておけるので搾取にならない。
+
+ということでこれが研究室のリスト。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLbUh9y6MXvjd7ynLRpGEifbhdlS9QrMHO" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+後は自分の研究や関係者の研究をまとめたリストを作った。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLbUh9y6MXvje9CiaMF0FIk8ZCHJ8AOiql" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLbUh9y6MXvjd_c7GH_JGhRGFlimS9i5EA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+まだ色々ネタがあるが、とりあえず今日はこれくらいにしておく。
+
+
