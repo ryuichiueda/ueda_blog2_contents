@@ -30,6 +30,10 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 早速、一番先にウンコの表示を達成。義務。
 
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">echo &quot;u n k o&quot; 10 | skk | grep -oP &quot;(?&lt;=output\&quot;: \&quot;).+(?=\&quot;,)&quot; <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/966628007438835713?ref_src=twsrc%5Etfw">2018年2月22日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">うんこ <a href="https://t.co/KfuJPLjiDH">https://t.co/KfuJPLjiDH</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/966553533142024197?ref_src=twsrc%5Etfw">2018年2月22日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
