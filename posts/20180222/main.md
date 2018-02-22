@@ -37,5 +37,9 @@ Copyright: (C) 2018 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">うんこ <a href="https://t.co/KfuJPLjiDH">https://t.co/KfuJPLjiDH</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/966553533142024197?ref_src=twsrc%5Etfw">2018年2月22日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+### 業務
+
+英語の校正を3ページ、来客対応、買い物の生産等。
+
 
 寝る。
