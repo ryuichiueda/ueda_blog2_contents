@@ -20,6 +20,10 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 シェル芸bot氏に新しくkkcというコマンドが降臨。
 
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">シェル芸bot氏、よければkkcコマンドも入れてくだされ…<br><br>sudo apt install libkkc-utils<br><br>で入るから…<br>標準入力からIMEの予測変換が得られるのです(´・ω・｀)<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; Blacknon@通勤電車リハビリ中 (@blacknon_) <a href="https://twitter.com/blacknon_/status/966541752562737152?ref_src=twsrc%5Etfw">2018年2月22日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">おまたせしました <a href="https://t.co/oghLuLA7ii">https://t.co/oghLuLA7ii</a></p>&mdash; ふるちゅき (@theoldmoon0602) <a href="https://twitter.com/theoldmoon0602/status/966549485726789632?ref_src=twsrc%5Etfw">2018年2月22日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
