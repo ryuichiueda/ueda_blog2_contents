@@ -1,5 +1,5 @@
 ---
-Copyright: (C" /> 2017 Ryuichi Ueda
+Copyright: (C" width="500" /> 2017 Ryuichi Ueda
 ---
 
 # AnacondaをWindowsにインストールする手順
@@ -13,16 +13,16 @@ Copyright: (C" /> 2017 Ryuichi Ueda
 
 こんな画面が出ます。
 
-<img width=400 src="anaconda_download.png" />
-<img width=400 src="anaconda_edge.png" />
-<img width=400 src="anaconda_email.PNG" />
+<img src="anaconda_download.png" width="500" />
+<img src="anaconda_edge.png" width="500" />
+<img src="anaconda_email.PNG" width="500" />
 
-<img width=400 src="anaconda_install_1.PNG" />
-<img width=400 src="anaconda_install_2.PNG" />
-<img width=400 src="anaconda_install_3.PNG" />
-<img width=400 src="anaconda_install_4.PNG" />
-<img width=400 src="anaconda_install_4_warning.PNG" />
-<img width=400 src="anaconda_install_5.PNG" />
-<img width=400 src="anaconda_install_6.PNG" />
-<img width=400 src="anaconda_install_7.PNG" />
-<img width=400 src="anaconda_install_8.PNG" />
+<img src="anaconda_install_1.PNG" width="500" />
+<img src="anaconda_install_2.PNG" width="500" />
+<img src="anaconda_install_3.PNG" width="500" />
+<img src="anaconda_install_4.PNG" width="500" />
+<img src="anaconda_install_4_warning.PNG" width="500" />
+<img src="anaconda_install_5.PNG" width="500" />
+<img src="anaconda_install_6.PNG" width="500" />
+<img src="anaconda_install_7.PNG" width="500" />
+<img src="anaconda_install_8.PNG" width="500" />
