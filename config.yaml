@@ -82,6 +82,8 @@ links:
     href: '/?page=10067'
   - text: '- Tera Termで鍵を作って鍵認証でサーバにログインするまで'
     href: '/?page=10088'
+  - text: 'AnacondaをWindowsにインストールする手順'
+    href: '/?page=anaconda_windows'
   - text: 'dashのコード解読メモ'
     href: '/?page=04219'
   - text: '- dash/src/main.h, main.c'
