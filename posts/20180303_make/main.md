@@ -39,7 +39,7 @@ echo 寿司が作れる
 
 　ということで、`Makefile`に「xの処理にはyが必要」というルールを記述すると、それにしたがって動くコマンド操作を記述することができる。これが、「xxx.oを作るにはxxx.cが必要」というようなビルドの処理を記述する時に便利なので、`make`がビルドに使われる。
 
-　ちなみに、上記ツイートでは「寿司を作るのにご飯がない」という致命的な間違いを犯している。正しくは、次のツイートのようにご飯を作るためのルール、そして魚をどのようにとってくるかというルールを追加する必要がある。
+　ちなみに、上記ツイートでは「寿司を作るのにご飯がない」という致命的な間違いを犯している。正しくは、次のツイートのようにご飯を作るためのルール、そして魚がどのように育つかというルールを追加する必要がある。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">こういうふうにMakefileを作ると・・・ <a href="https://t.co/ghLLXznykH">pic.twitter.com/ghLLXznykH</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/969753245764665344?ref_src=twsrc%5Etfw">March 3, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
