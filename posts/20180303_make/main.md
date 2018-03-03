@@ -4,7 +4,7 @@ Keywords: 頭の中だだ漏らし,どうでもよい,make
 Copyright: (C) 2018 Ryuichi Ueda
 ---
 
-# 絵文字でMakefileの挙動を雑に説明
+# 🍣でMakefileの挙動を雑に説明
 
 　今日は絵文字を
 `make`と`Makefile`で使えることがわかった。
