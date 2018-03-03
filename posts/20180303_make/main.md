@@ -6,7 +6,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 # 🍣でmakeの挙動を雑に説明
 
-　昨日、絵文字を`make`と`Makefile`で使えることを発見した。
+　昨日は、絵文字を`make`と`Makefile`で使えることを発見したので色々遊んでいた。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">こういう感じのMakefileが書ける． <a href="https://twitter.com/hashtag/%E6%9B%B8%E3%81%8D%E3%81%9F%E3%81%8F%E3%81%AA%E3%81%84?src=hash&amp;ref_src=twsrc%5Etfw">#書きたくない</a> <a href="https://t.co/tdjl9hQucZ">pic.twitter.com/tdjl9hQucZ</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/969543815362093056?ref_src=twsrc%5Etfw">2018年3月2日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
