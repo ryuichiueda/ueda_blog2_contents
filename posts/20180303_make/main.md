@@ -50,5 +50,9 @@ echo 寿司が作れる
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">🍣が💩からできていることがわかる。 <a href="https://t.co/iXl95wiPKX">pic.twitter.com/iXl95wiPKX</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/969753388672892929?ref_src=twsrc%5Etfw">March 3, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+なお、🍣から💩を作るプロセスを`Makefile`に書いてしまうと、おそらくエラーが出てしまう。輪廻を表現できるような拡張が、今後、必要と考えられる。
+
+繰り返しになるが、🍣は💩からできている。大自然に感謝。
+
 
 以上。
