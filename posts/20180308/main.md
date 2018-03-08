@@ -21,7 +21,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ### 友納先生のSLAM本
 
-査読に参加したご褒美をいただいた。一冊買ったのでこれは学生部屋に置いた。中身は査読の段階で知っているのでしばらくめでたいので飾っておく予定。
+一昨日のこと。査読に参加したご褒美をいただいた。一冊買ったのでこれは学生部屋に置いた。中身は査読の段階で知っているのでしばらくめでたいので飾っておく予定。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ちょうだいしましたー！これから買った分を検収室に受け取りに・・・ <a href="https://t.co/WwpK4WeVua">pic.twitter.com/WwpK4WeVua</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/970822492423114752?ref_src=twsrc%5Etfw">2018年3月6日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
