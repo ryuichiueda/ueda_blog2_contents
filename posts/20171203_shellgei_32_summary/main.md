@@ -12,6 +12,20 @@ Copyright: (C) 2017 Ryuichi Ueda
 * [問題](/?post=20171202_shellgei_32)
 * [問題と解答例](/?post=20171202_shellgei_32_a)
 
+## サテライト会場のご様子
+
+* 福岡
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <a href="https://twitter.com/hashtag/%E7%A6%8F%E5%B2%A1?src=hash&amp;ref_src=twsrc%5Etfw">#福岡</a> 「第32回シェル芸勉強会：福岡サテライト」レポートを書きました。 <a href="https://t.co/jqNZ5jBKCA">https://t.co/jqNZ5jBKCA</a></p>&mdash; ぱぴろんちゃん👓 (@papiron) <a href="https://twitter.com/papiron/status/938809383953117184?ref_src=twsrc%5Etfw">December 7, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+* 大阪
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">年末ということで多忙ではありましたが、なんとか年内に書き上げることができました。<br>ちなみに、今回の問題の中ではQ6とQ7がお気に入りです。<br><br>Blog記事:<br>「第32回シェル芸勉強会　大阪サテライト」の記録<a href="https://t.co/eCREIAnrBu">https://t.co/eCREIAnrBu</a><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; 日柳 光久 (@mikkun_jp) <a href="https://twitter.com/mikkun_jp/status/946056335749136384?ref_src=twsrc%5Etfw">December 27, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ## 当日のまとめ
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">「jus共催 第32回全くインスタ映えしないシェル芸勉強会」をトゥギャりました。 <a href="https://t.co/7jxk5cIEJ2">https://t.co/7jxk5cIEJ2</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/937240621126782976?ref_src=twsrc%5Etfw">December 3, 2017</a></blockquote>
