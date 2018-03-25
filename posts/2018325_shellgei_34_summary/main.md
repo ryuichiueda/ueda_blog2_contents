@@ -27,6 +27,12 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_k_P0kW4bVw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+ビデオ中のスライドはこれです。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">発表に使ったスライドでっす。| 第34回シェル芸勉強会 <a href="https://twitter.com/hashtag/linux?src=hash&amp;ref_src=twsrc%5Etfw">#linux</a> <a href="https://twitter.com/hashtag/unix?src=hash&amp;ref_src=twsrc%5Etfw">#unix</a> <a href="https://t.co/AhCw64P8gw">https://t.co/AhCw64P8gw</a> <a href="https://twitter.com/SlideShare?ref_src=twsrc%5Etfw">@SlideShare</a>さんから <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/975032562144825344?ref_src=twsrc%5Etfw">2018年3月17日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ## サテライトの様子
 
 今回は、いつもと逆で東京サテライトができました。盛り上がってたようです。
@@ -52,6 +58,22 @@ Copyright: (C) 2018 Ryuichi Ueda
 * [katagaitaiCTF勉強会とシェル芸勉強会に参加させて頂きました! | A painter and a black cat](http://www.raintrees.net/news/120#jus-amp-USP%E5%8F%8B%E3%81%AE%E4%BC%9A%E5%85%B1%E5%82%AC-%E3%82%B7%E3%82%A7%E3%83%AB%E5%8B%89%E5%BC%B7%E4%BC%9A-%E9%96%A2%E8%A5%BF%E7%AC%AC34%E5%9B%9E%E3%81%84%E3%81%A4%E3%82%82%E9%9B%A3%E3%81%97%E3%81%84%E5%95%8F%E9%A1%8C%E3%81%B0%E3%81%A3%E3%81%8B%E3%82%8A%E5%87%BA%E3%81%99%E4%B8%8A%E7%94%B0%E3%81%8C%E7%9C%9F%E9%9D%A2%E7%9B%AE%E3%81%AB%E8%80%83%E3%81%88%E3%81%9F%E5%88%9D%E5%BF%83%E8%80%85%E7%94%A8%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8%E5%8B%89%E5%BC%B7%E4%BC%9A)
 
 お待ちしてまーす。
+
+## その他
+
+あんまり観光できなかったけど色々写真とった。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">大阪シェル芸勉強会おさらい写真: 会場（シャレオツスペース） <a href="https://t.co/zSiIajdtZR">pic.twitter.com/zSiIajdtZR</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/977715601840906240?ref_src=twsrc%5Etfw">March 25, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">大阪シェル芸勉強会おさらい写真: <a href="https://twitter.com/kanariya_hoge?ref_src=twsrc%5Etfw">@kanariya_hoge</a> 氏からいただいた滋賀的な土産 <a href="https://t.co/12ulAIFVPE">pic.twitter.com/12ulAIFVPE</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/977715873359085569?ref_src=twsrc%5Etfw">March 25, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">大阪シェル芸勉強会おさらい写真: 残金があって換金に失敗したICOCA <a href="https://t.co/ohfdPcobcq">pic.twitter.com/ohfdPcobcq</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/977716355339137024?ref_src=twsrc%5Etfw">March 25, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">大阪シェル芸勉強会おさらい写真: また食いたいハラミステーキハンバーガー <a href="https://t.co/YSKBwOLj2i">pic.twitter.com/YSKBwOLj2i</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/977717322889674752?ref_src=twsrc%5Etfw">March 25, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 
