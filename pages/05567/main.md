@@ -5,7 +5,7 @@ Copyright: (C) Ryuichi Ueda
 # シェル芸勉強会参加者数
 ## サマリー
 <span style="font-size: 30px;">これまでに世に放たれたシェル芸人数:
-のべ2296人</span>
+のべ1335人</span>
 
 ## 数え方シェル芸
 
