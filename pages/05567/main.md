@@ -2,7 +2,6 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
-
 # シェル芸勉強会参加者数
 ## サマリー
 <span style="font-size: 30px;">これまでに世に放たれたシェル芸人数:
@@ -19,6 +18,9 @@ $ w3m 'https://b.ueda.tech/?page=05567' -dump | grep '^[0-9]' | awk '{print $3}'
 
 |回       |年月    |人数   |根拠                   |
 |---------|--------|------:|:----------------------|
+|34回     |201803  |     |大阪()会計から、、[東京]()()（ぐれさん）|
+|33回     |201801  |     |東京(28)会計から、[福岡](https://atnd.org/events/94082)(4)（募集サイトから）、[大阪](http://www.kunst1080.net/entry/2018/01/29/204821)(8)（くんすとさん）|
+|32回     |201712  |39    |東京(24)会計から、[福岡](http://papiro.hatenablog.jp/entry/2017/12/08/013410)(5)（papironさん）、[大阪](https://atnd.org/events/92621)(10)（募集サイトから）|
 |31回     |201710  |37     |東京(25)会計から、[福岡](http://papiro.hatenablog.jp/entry/2017/10/09/200439)(4)（papironさん）、[大阪](http://www.kunst1080.net/entry/2017/10/10/220311)(8)（くんすとさん）|
 |30回     |201708  |46     |東京(26)会計から、[福岡](http://papiro.hatenablog.jp/entry/2017/09/23/234345)(6)（papironさん）、[大阪](http://www.kunst1080.net/entry/2017/09/11/225038)(14)（くんすとさん）|
 |29回     |201706  |55    |東京(33)会計から、[福岡](http://papiro.hatenablog.jp/entry/2017/07/02/020652)(5)（papironさん）、[大阪](http://www.kunst1080.net/entry/2017/07/03/002829)(17)（くんすとさん）|
