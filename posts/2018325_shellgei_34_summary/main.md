@@ -37,6 +37,10 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 今回は、いつもと逆で東京サテライトができました。盛り上がってたようです。
 
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">二次会のそば屋、結局追い出されるまで盛り上がってた <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; きゃろさん (@Carol_815) <a href="https://twitter.com/Carol_815/status/975005598331777024?ref_src=twsrc%5Etfw">2018年3月17日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ## LT資料
 
 大阪勢のLTを生視聴できて感動しました。
