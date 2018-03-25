@@ -44,7 +44,14 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ## サテライトの様子
 
-近日公開のはず。
+* 大阪
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブロ</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><br>「第33回シェル芸勉強会　大阪サテライト」レポート - くんすとの備忘録<a href="https://t.co/BupGQ6FzY4">https://t.co/BupGQ6FzY4</a></p>&mdash; くんすと (@kunst1080) <a href="https://twitter.com/kunst1080/status/957943554357133314?ref_src=twsrc%5Etfw">January 29, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+* 福岡のまとめは・・・papiron氏多忙によりないっす。
+
 
 ## ブログ等
 
