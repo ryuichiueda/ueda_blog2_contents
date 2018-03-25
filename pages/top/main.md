@@ -5,16 +5,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 # 近況 
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">たくさん書きましたよー | Software Design 2018年1月号 <a href="https://twitter.com/hashtag/gihyojp?src=hash&amp;ref_src=twsrc%5Etfw">#gihyojp</a> <a href="https://t.co/wIXmNsxNbQ">https://t.co/wIXmNsxNbQ</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/943841457747533824?ref_src=twsrc%5Etfw">December 21, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">受付開始しておりまーす。 | jus共催 第35回またまためでたいシェル芸勉強会 <a href="https://t.co/Y1uY550IaF">https://t.co/Y1uY550IaF</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/976790128633851904?ref_src=twsrc%5Etfw">2018年3月22日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">もう出てるやないかーい！！ | NHK Eテレ テストの花道 ニューベンゼミ - 未来を“組み立てろ”！ロボット研究（予習編）  <a href="https://t.co/nHhHPkQCnI">https://t.co/nHhHPkQCnI</a> <a href="https://t.co/VAiLuAxRAK">https://t.co/VAiLuAxRAK</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/932564009487712257?ref_src=twsrc%5Etfw">2017年11月20日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ツイート忘れてましたがラズパイマガジン10月号で共著で執筆しました。<a href="https://t.co/eqaj59hKNj">https://t.co/eqaj59hKNj</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/914385558259900416?ref_src=twsrc%5Etfw">October 1, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ## 情報
