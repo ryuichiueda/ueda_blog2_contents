@@ -3,7 +3,7 @@ Keywords: 頭の中だだ漏らし,日記
 Copyright: (C) 2018 Ryuichi Ueda
 ---
 
-# 雑記というか告知（2018年3月26日）
+# 雑記というか告知というか愚痴（2018年3月26日）
 
 ## SoftwareDesign 4月号
 
