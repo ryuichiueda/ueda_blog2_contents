@@ -65,6 +65,13 @@ Copyright: (C) 2018 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">35回シェル芸勉強会レポートです。<br>はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a><br>第35回シェル芸勉強会 - 解答（リモート参加）（普通版） - nogiro_iotaのメモ<a href="https://t.co/Lf0FFehxeR">https://t.co/Lf0FFehxeR</a></p>&mdash; のぎろ (@nogiro_iota) <a href="https://twitter.com/nogiro_iota/status/982957047443435525?ref_src=twsrc%5Etfw">April 8, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">35回シェル芸勉強会レポート？です。<br>はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a><br>第35回シェル芸勉強会 - 解答（Python ワンライナー版） - nogiro_iotaのメモ<a href="https://t.co/MSHiks9YV4">https://t.co/MSHiks9YV4</a></p>&mdash; のぎろ (@nogiro_iota) <a href="https://twitter.com/nogiro_iota/status/982957079324315649?ref_src=twsrc%5Etfw">April 8, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ## 被害
 
 申し訳ございません。
