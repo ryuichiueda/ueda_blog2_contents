@@ -5,6 +5,8 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 # 【問題のみ】jus共催 第35回またまためでたいシェル芸勉強会
 
+[解答はコチラ](/?post=20180407_shellgei_35)
+
 * 問題で使われているデータファイルは[GitHub](https://github.com/ryuichiueda/ShellGeiData/tree/master/vol.35)にあります。クローンは以下のようにお願いします。
 
 ```bash
