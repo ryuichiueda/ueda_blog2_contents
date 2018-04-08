@@ -62,7 +62,21 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 申し訳ございません。
 
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ただただ怖い。<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <a href="https://t.co/IUgTZXeC0V">pic.twitter.com/IUgTZXeC0V</a></p>&mdash; 狐尾うどん (@foxtail_udon) <a href="https://twitter.com/foxtail_udon/status/982472513912422402?ref_src=twsrc%5Etfw">2018年4月7日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">シェル芸勉強会きてみたもののマニアックすぎて全然ついていけねぇわかんねぇぇぇ死ぬってなって、ふと目の前の人のPCに貼ってある「:(){:|:&amp;};:」ってなんやと思って実行したらターミナル殺されて、初心者がどこまでもオーバーキルされるとても恐ろしい勉強会であるというのが今日一番の収穫。</p>&mdash; きむさん@沈黙のハードボイルド (@Mugenpower_Kim) <a href="https://twitter.com/Mugenpower_Kim/status/982494763684261888?ref_src=twsrc%5Etfw">April 7, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">TL大荒れなんですが・・・#シェル芸 <a href="https://twitter.com/hashtag/xargs%E3%81%97%E3%81%BE%E3%81%97%E3%82%87%E3%81%86?src=hash&amp;ref_src=twsrc%5Etfw">#xargsしましょう</a> <a href="https://t.co/wphWwITrlM">pic.twitter.com/wphWwITrlM</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/982499492665507845?ref_src=twsrc%5Etfw">2018年4月7日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">頭痛くなってきた<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; みどりごけ (@midokokemaru) <a href="https://twitter.com/midokokemaru/status/982512075804098560?ref_src=twsrc%5Etfw">2018年4月7日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">あ、ＶＭ死んだ。<br>:(){ :|:&amp; };:<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <a href="https://t.co/vzhvcphoFZ">pic.twitter.com/vzhvcphoFZ</a></p>&mdash; かでくる@localhost (@dainivolunteer) <a href="https://twitter.com/dainivolunteer/status/982600358101893121?ref_src=twsrc%5Etfw">2018年4月7日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
