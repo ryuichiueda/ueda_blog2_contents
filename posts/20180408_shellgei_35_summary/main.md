@@ -7,7 +7,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 2018年4月7日土曜日、さくらインターネット様のセミナールームにて、[日本UNIXユーザ会](https://www.jus.or.jp/)さんと共催いたしました。
 
-お世話になった皆様、有難うございました。また、来月から[@grethlen](https://twitter.com/grethlen)さんが海外進出のためしばしお別れということで、これまでのネット上、会場での盛り上げに感謝したいと思います。
+お世話になった皆様、有難うございました。また、来月から[@grethlen](https://twitter.com/grethlen)さんが海外進出のためしばしお別れということで、これまでのネット上、会場での盛り上げに感謝したいと思います。下の方に本人によるこれまでの悪行の謝罪スライドへのリンクがありますのでぜひ。
 
 ## 出題
 
@@ -73,6 +73,9 @@ Copyright: (C) 2018 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">頭痛くなってきた<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; みどりごけ (@midokokemaru) <a href="https://twitter.com/midokokemaru/status/982512075804098560?ref_src=twsrc%5Etfw">2018年4月7日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">しんでます<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/982512728857182208?ref_src=twsrc%5Etfw">2018年4月7日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
