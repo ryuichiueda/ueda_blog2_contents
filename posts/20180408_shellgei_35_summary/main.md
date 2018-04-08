@@ -41,9 +41,15 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 【大切なので2回】某氏の発表は良い子のみんなが真似するとヤバいので非公開となりました。
 
+<script async class="speakerdeck-embed" data-id="bda6fd0f4d4c4d0fa5a3eb11852f955a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
 ## ブログ等
 
 お待ちしてまーす。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a><br>続・パイプを通るPDF（兼・第35回 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> 勉強会 参加記） - 職業プログラマの休日出勤<a href="https://t.co/3emoq8kAAF">https://t.co/3emoq8kAAF</a></p>&mdash; 自宅適合者 T.Motooka (@t_motooka) <a href="https://twitter.com/t_motooka/status/982754978723856384?ref_src=twsrc%5Etfw">2018年4月7日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
 以上。更新が止まってたら突っついていただければと。
