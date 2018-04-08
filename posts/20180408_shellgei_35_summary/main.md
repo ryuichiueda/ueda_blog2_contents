@@ -41,6 +41,10 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 【大切なので2回】某氏の発表は良い子のみんなが真似するとヤバいので非公開となりました。
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://t.co/3ZQZ92CRSg">https://t.co/3ZQZ92CRSg</a><br>昨日のLTの資料をアップロードしました(加筆あり)<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; Yuya Aoki (@robokinoko) <a href="https://twitter.com/robokinoko/status/982878330830577664?ref_src=twsrc%5Etfw">April 8, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">本日のLTで発表した資料です。<br>また皆様にお会い出来るのを楽しみにしています。<br><br>シェル芸始末書 - <a href="https://t.co/UGRGNPn3Wo">https://t.co/UGRGNPn3Wo</a><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; キュアぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/982639011427639297?ref_src=twsrc%5Etfw">2018年4月7日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
