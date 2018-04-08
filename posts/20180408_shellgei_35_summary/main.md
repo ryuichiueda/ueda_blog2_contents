@@ -11,7 +11,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ## 出題
 
-今回は、私が仕事で久々に追い詰められている中、慌てて問題を作ったので難易度が自然に高くなりました（特に後半）。
+今回は、自分の著書を出版に耐えうる水準の英語に翻訳すると言う地獄中、慌てて問題を作ったので難易度が自然に高くなりました（特に後半）。英語で本を出すと言うのは、それは自慢したいことかもしれませんが、地獄感の方がはるかに大きいです。優しくしてください・・・。
 
 * [問題](/?post=20180407_shellgei_35)
 
@@ -41,7 +41,14 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 【大切なので2回】某氏の発表は良い子のみんなが真似するとヤバいので非公開となりました。
 
-<script async class="speakerdeck-embed" data-id="bda6fd0f4d4c4d0fa5a3eb11852f955a" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">本日のLTで発表した資料です。<br>また皆様にお会い出来るのを楽しみにしています。<br><br>シェル芸始末書 - <a href="https://t.co/UGRGNPn3Wo">https://t.co/UGRGNPn3Wo</a><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; キュアぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/982639011427639297?ref_src=twsrc%5Etfw">2018年4月7日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今日の東京のLTで使ったスライドを上げときます。皆さんありがとうございました！ <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><br><br>続・パイプを通るPDF<a href="https://t.co/KOMXGD4RAj">https://t.co/KOMXGD4RAj</a></p>&mdash; 自宅適合者 T.Motooka (@t_motooka) <a href="https://twitter.com/t_motooka/status/982584591776010246?ref_src=twsrc%5Etfw">2018年4月7日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 
 ## ブログ等
 
