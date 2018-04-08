@@ -13,6 +13,10 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 * 環境: 解答例はUbuntu Linux 16.04 で作成。Macの場合はcoreutilsをインストールすると、GNUのコマンドが使えます。BSD系の人は玄人なので各自対応のこと。
 
+もっと良い別解がたくさんありますので、
+https://togetter.com/li/1216252
+も参考に。
+
 ## Q1
 
 `curl parrot.live`で表示されるオウムをファイルに生け捕りにして、ファイルから再生してください。
