@@ -58,5 +58,13 @@ Copyright: (C) 2018 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+## 被害
+
+申し訳ございません。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">シェル芸勉強会きてみたもののマニアックすぎて全然ついていけねぇわかんねぇぇぇ死ぬってなって、ふと目の前の人のPCに貼ってある「:(){:|:&amp;};:」ってなんやと思って実行したらターミナル殺されて、初心者がどこまでもオーバーキルされるとても恐ろしい勉強会であるというのが今日一番の収穫。</p>&mdash; きむさん@沈黙のハードボイルド (@Mugenpower_Kim) <a href="https://twitter.com/Mugenpower_Kim/status/982494763684261888?ref_src=twsrc%5Etfw">April 7, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 
 以上。更新が止まってたら突っついていただければと。
