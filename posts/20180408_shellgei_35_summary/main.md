@@ -39,6 +39,8 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ## LT資料
 
+東京分だけ掲載します。
+
 【大切なので2回】某氏の発表は良い子のみんなが真似するとヤバいので非公開となりました。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://t.co/3ZQZ92CRSg">https://t.co/3ZQZ92CRSg</a><br>昨日のLTの資料をアップロードしました(加筆あり)<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; Yuya Aoki (@robokinoko) <a href="https://twitter.com/robokinoko/status/982878330830577664?ref_src=twsrc%5Etfw">April 8, 2018</a></blockquote>
@@ -56,7 +58,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ## ブログ等
 
-お待ちしてまーす。
+こちらは全国分全部掲載します。お待ちしてまーす。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a><br>続・パイプを通るPDF（兼・第35回 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> 勉強会 参加記） - 職業プログラマの休日出勤<a href="https://t.co/3emoq8kAAF">https://t.co/3emoq8kAAF</a></p>&mdash; 自宅適合者 T.Motooka (@t_motooka) <a href="https://twitter.com/t_motooka/status/982754978723856384?ref_src=twsrc%5Etfw">2018年4月7日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -69,6 +71,10 @@ Copyright: (C) 2018 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">35回シェル芸勉強会レポート？です。<br>はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a><br>第35回シェル芸勉強会 - 解答（Python ワンライナー版） - nogiro_iotaのメモ<a href="https://t.co/MSHiks9YV4">https://t.co/MSHiks9YV4</a></p>&mdash; のぎろ (@nogiro_iota) <a href="https://twitter.com/nogiro_iota/status/982957079324315649?ref_src=twsrc%5Etfw">April 8, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">参加記書かせていただきました！またよろしくお願いします！ <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a><br>第35回シェル芸勉強会に参加しました - たいちょーの雑記<a href="https://t.co/neANijZ5Fw">https://t.co/neANijZ5Fw</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/982972687961096198?ref_src=twsrc%5Etfw">April 8, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
