@@ -23,4 +23,8 @@ Copyright: (C) 2018 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+人間の精神を壊すのは意味の見出せない労働なんじゃなかろうか。
+
+
+
 ビール飲んだら寝る。
