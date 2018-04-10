@@ -17,7 +17,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ## 学校の常識は世間の非常識
 
-　長女の気持ちを代弁してくれていて、やっぱり先生たちの常識をなんとかしないとなあと思う今日この頃。もちろん、大学にも変なことは山ほどあるのでなんとかしたい。
+　長女の気持ちを代弁してくれていて、やっぱり先生たちの常識をなんとかしないとなあと思う今日この頃。もちろん、大学にも変なことは山ほどあるのでなんとかしたいです。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">休み時間の長縄跳びが取り上げられており。うちの子が長縄跳び意味わかんないと言ったので、自分も意味わかんないと先生に伝えたら話がこじれたの思い出した。 | 「学校をより良くするための提案」内田良×大塚玲子×荻上チキ（TBSラジオ「荻上チキ・Session-22」22時～） <a href="https://t.co/DAePjjaeR0">https://t.co/DAePjjaeR0</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/983716074850889729?ref_src=twsrc%5Etfw">April 10, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
