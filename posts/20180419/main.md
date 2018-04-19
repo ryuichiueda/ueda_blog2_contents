@@ -23,7 +23,11 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ## 本日のシェル芸
 
-　`unko.tower`を使うと鏡餅が描けることが描けるという知見を得る。クソの役にも立たぬ。
+　[super_unkoリポジトリ](https://togetter.com/li/1144376)の`unko.tower`を使うと鏡餅が描けることが描けるという知見を得る。クソの役にも立たぬ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">echo-sd あけましておめでとうございます<br>unko.tower 2 | sed &#39;s/人/🍊/&#39; | sed &#39;s/^/🎍/&#39;<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/986739241538342912?ref_src=twsrc%5Etfw">2018年4月18日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">＿人人人人人人人人人人人人人人人人人＿<br>＞　あけましておめでとうございます　＜<br>￣Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^￣<br>🎍　　　　🍊<br>🎍　　（　　　）<br>🎍　（　　　　　） <a href="https://t.co/kDt0hZpXTa">https://t.co/kDt0hZpXTa</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/986739246969966592?ref_src=twsrc%5Etfw">2018年4月18日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
