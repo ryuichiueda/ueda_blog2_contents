@@ -26,20 +26,24 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ### 昼食
 
+朝の大雨で乗る新幹線の時間帯が遅くなってしまったので、夕方に食べる予定だった名古屋駅ホームのきしめんを食う。
+
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">何を言っているのか分からないと思うが、きしめんが夕方から昼にテレポーテーションしてきた。 <a href="https://t.co/6CVb5MxrVs">pic.twitter.com/6CVb5MxrVs</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/988974898209935361?ref_src=twsrc%5Etfw">2018年4月25日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-
 ### 夕食
+
+昼にきしめんを食べてしまったので困った。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">急募: めーえき、うどん以外。 <a href="https://twitter.com/hashtag/%E6%94%B9%E6%9C%AD%E3%82%92%E5%87%BA%E3%82%8B%E6%B1%BA%E5%BF%83?src=hash&amp;ref_src=twsrc%5Etfw">#改札を出る決心</a> <a href="https://twitter.com/hashtag/%E3%81%86%E3%81%A9%E3%82%93%E3%81%97%E3%81%8B%E9%A3%9F%E3%81%A3%E3%81%9F%E3%81%93%E3%81%A8%E3%81%AA%E3%81%84?src=hash&amp;ref_src=twsrc%5Etfw">#うどんしか食ったことない</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/989038318540263425?ref_src=twsrc%5Etfw">2018年4月25日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+そして錯乱して台湾ラーメンを食べた。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">だれも教えてくれないから錯乱した。 <a href="https://t.co/5QiFn4zCu2">pic.twitter.com/5QiFn4zCu2</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/989045192555712512?ref_src=twsrc%5Etfw">2018年4月25日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+お腹がチクチクして、さっきトイレで悶絶した。
 
 ## 今日の富士山
 
