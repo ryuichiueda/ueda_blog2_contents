@@ -397,6 +397,16 @@ Proc. of IEEE International Conference on Robotics and Automation, pp. 1353-1358
 &nbsp;
 <h2><a name="presentation"></a>口頭発表</h2>
 
+### 2018 
+
+* 平間翔大, 上田隆一, 中川友紀子, 中川範晃: "ばら積みされた唐揚げの検出およびマニピュレーション", ROBOMECH2018. (to appear)
+* ティーラパップ・パシン, 林原靖男, 上田隆一: "強化学習を用いた移動ロボットの自律化に関する研究 —一定の間隔で人を追従する行動の獲得に関する検討", ROBOMECH2018. (to appear)
+* 齊藤篤志, 上田隆一: "Particle Filter on Episodeにおける記憶のクラスタリング", ROBOMECH2018. (to appear)
+* 後藤大輝, 上田隆一, 林原靖男: "LIDARベースの確率的な位置推定におけるGNSS 情報を用いたリセット手法の提案 —第2報 GNSSリセットに膨張リセット法を組み合わせた手法の提案", ROBOMECH2018. (to appear)
+* 山本龍, 田辺輝, 林原靖男, 上田隆一: "計算負荷軽減を考慮した多項式近似による実時間歩行パターン生成法の提案 —第2報 サッカーロボットへの応用", ROBOMECH2018. (to appear)
+* 加藤祐介, 上田隆一, 中川友紀子: "拡張現実を用いたロボットの距離センサ検査システム", ROBOMECH2018. (to appear)
+
+
 <h3>2017</h3>
 
 <ul>
