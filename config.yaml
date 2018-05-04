@@ -11,9 +11,9 @@ hatena: '@'
 pocket: '@'
 line: '@'
 links:
-- text: '最新の記事'
+- text: 'latest'
   href: '/?post'
-- text: '出版物（publication）'
+- text: 'publications'
   href: '/?page=00728'
   sublinks:
   - text: 'Publication List (English)'
@@ -46,11 +46,11 @@ links:
     href: '/?page=02949'
   - text: '著作物の購入'
     href: '/?page=mybookstore'
-- text: 'プロジェクト'
+- text: 'projects'
   sublinks:
   - text: 'シェル芸'
     href: '/?page=01434'
-- text: '仕事の記録'
+- text: 'records'
   href: './'
   sublinks:
   - text: '受賞等'
@@ -94,7 +94,7 @@ links:
     href: '/?page=00851'
   - text: 'シェル芸勉強会の動画'
     href: '/?page=09678'
-- text: '関連ページ'
+- text: 'links'
   href: '/?page=00811'
   sublinks:
   - text: '千葉工大上田研究室'
