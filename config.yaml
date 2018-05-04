@@ -47,6 +47,7 @@ links:
   - text: '著作物の購入'
     href: '/?page=mybookstore'
 - text: 'プロジェクト'
+  sublinks:
   - text: 'シェル芸'
     href: '/?page=01434'
   sublinks:
