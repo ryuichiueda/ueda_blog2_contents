@@ -16,6 +16,21 @@ GlueLangは、スクリプティングに特化したシェルです。
 
 たぶんピンと来ない人が多いと思われますが・・・
 
+### 中間ファイルを変数のように扱える
+
+```
+#!/usr/local/bin/glue
+
+import PATH
+
+file nums = seq '1' '100'
+file buzz = sed '5~5s/.*/Buzz/' nums
+
+sed '3~3s/[0-9]*/Fizz/' buzz
+
+# numsもbuzzも自動で消去される
+```
+
 ### パイプの記号が>>=なので目立つ 
 
 * bashのコード: `hoge.bash`
