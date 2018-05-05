@@ -31,6 +31,38 @@ sed '3~3s/[0-9]*/Fizz/' buzz
 # numsもbuzzも自動で消去される
 ```
 
+### エラーを起こした場所が分かりやすい
+
+次のようにわざとエラーを起こすコードを実行すると・・・
+
+```
+#!/usr/local/bin/glue
+
+import PATH
+
+file nums = seq '1' '100'
+file buzz = se '5~5s/.*/Buzz/' nums   # sedをseに変更
+
+sed '3~3s/[0-9]*/Fizz/' buzz
+
+# numsもbuzzも自動で消去される
+```
+
+次のようにエラーの起きた位置を示してくれます。
+
+```
+$ ./fizzbuzz.glue
+Parse error at line 6, char 13
+	line6: file buzz = se '5~5s/.*/Buzz/' nums
+	                   ^
+
+	Command se not exist
+	process_level 0
+	exit_status 2
+	pid 25881
+ERROR: 2
+```
+
 ### パイプの記号が>>=なので目立つ 
 
 * bashのコード: `hoge.bash`
