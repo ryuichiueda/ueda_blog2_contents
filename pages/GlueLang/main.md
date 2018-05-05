@@ -15,7 +15,7 @@ GlueLangは、スクリプティングに特化したシェルです。
 ```
 #!/usr/local/bin/glue
 
-import PATH
+import PATH            # PATHの下にあるコマンドを有効に
 
 file nums = seq '1' '100'
 file buzz = sed '5~5s/.*/Buzz/' nums
