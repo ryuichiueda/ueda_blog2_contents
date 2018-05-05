@@ -14,4 +14,35 @@ GlueLangは、スクリプティングに特化したシェルです。
 
 ## 主な特徴（バージョン0.2.0）
 
-### 
+たぶんピンと来ない人が多いと思われますが・・・
+
+### パイプの記号が>>=なので目立つ 
+
+* bashのコード: `hoge.bash`
+
+```
+#!/bin/bash
+echo abc | rev | grep -o .
+```
+
+* glueのコード
+
+```
+#!/usr/local/bin/glue
+
+import PATH
+echo 'abc' >>= rev >>= grep '-o' '.'
+```
+
+* 実行結果
+
+```
+$ ./hoge.bash
+c
+b
+a
+$ ./hoge.glue
+c
+b
+a
+```
