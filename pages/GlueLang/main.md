@@ -4,7 +4,7 @@ Copyright: (C) Ryuichi Ueda
 
 # GlueLang
 
-GlueLangは、スクリプティングに特化したシェルです。
+[GlueLang](https://github.com/ryuichiueda/GlueLang)は、スクリプティングに特化したシェルです。
 
 ## 主な特徴（バージョン0.2.0）
 
