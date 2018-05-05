@@ -50,6 +50,8 @@ links:
   sublinks:
   - text: 'シェル芸'
     href: '/?page=01434'
+  - text: '研究<i class="fa fa-external-link fa-3x"></i>'
+    href: 'https://lab.ueda.tech/?page_id=60'
 - text: 'records'
   href: './'
   sublinks:
