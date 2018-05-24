@@ -128,10 +128,10 @@ Copyright: (C) Ryuichi Ueda
 
 ### 2018
 
-* Ryuichi Ueda, Masahiro Kato, Atsushi Saito, Ryo Okazaki: Teach-and-Replay of Mobile Robot with Particle Filter on Episode, IEEE International Conference on Robotics and Automation, Australia, Brisbane, 2018. (to appear)
+* Ryuichi Ueda, Masahiro Kato, Atsushi Saito, Ryo Okazaki: Teach-and-Replay of Mobile Robot with Particle Filter on Episode, Proc. of IEEE International Conference on Robotics and Automation, pp.3475-3481, Australia, Brisbane, 2018.
 
 ### 2016
-* Ryuichi Ueda, Kotaro Mizuta, Hiroshi Yamakawa and Hiroyuki Okada: Particle Filter on Episode for Learning Decision Making Rule, Proc. of The 14th International Conference on Intelligent Autonomous Systems (IAS-14), Shanghai, July, 2016.</li>
+* Ryuichi Ueda, Kotaro Mizuta, Hiroshi Yamakawa and Hiroyuki Okada: Particle Filter on Episode for Learning Decision Making Rule, Proc. of The 14th International Conference on Intelligent Autonomous Systems (IAS-14), Shanghai, July, 2016.
 
 <h3>2015</h3>
 <ul>

@@ -38,7 +38,7 @@ Journal papers in Japanese are omitted.
 
 ### 2018
 
-* **Ryuichi Ueda**, Masahiro Kato, Atsushi Saito, Ryo Okazaki: Teach-and-Replay of Mobile Robot with Particle Filter on Episode, IEEE International Conference on Robotics and Automation, Australia, Brisbane, 2018. (to appear)
+* **Ryuichi Ueda**, Masahiro Kato, Atsushi Saito, Ryo Okazaki: Teach-and-Replay of Mobile Robot with Particle Filter on Episode, Proc. of IEEE International Conference on Robotics and Automation, pp.3475-3481, Australia, Brisbane, 2018.
 
 ### 2016
 
