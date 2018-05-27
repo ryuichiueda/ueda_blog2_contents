@@ -9,4 +9,4 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 ## 情報
 
-* [自己紹介など](/?page=09972)
+* [自己紹介など](/?page=bio)
