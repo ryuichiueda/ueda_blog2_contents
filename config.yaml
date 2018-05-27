@@ -110,6 +110,8 @@ links:
   - text: 'ARAIBOムービーまとめ'
     href: '/?page=00851'
 sociallinks:
+- icon: 'fa-wikipedia-w'
+  href: 'https://ja.wikipedia.org/wiki/%E4%B8%8A%E7%94%B0%E9%9A%86%E4%B8%80'
 - icon: 'fa-twitter-square'
   href: 'https://twitter.com/ryuichiueda'
 - icon: 'fa-github-square'
