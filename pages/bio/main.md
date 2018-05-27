@@ -5,7 +5,7 @@ Copyright: (C) Ryuichi Ueda
 
 # 上田に関する情報
 
-* (https://ja.wikipedia.org/wiki/%E4%B8%8A%E7%94%B0%E9%9A%86%E4%B8%80)[上田隆一 | Wikipedia]
+* [上田隆一 | Wikipedia](https://ja.wikipedia.org/wiki/%E4%B8%8A%E7%94%B0%E9%9A%86%E4%B8%80)
     * ちょっと修正が
 
 ## インタビューのようなもの
