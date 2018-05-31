@@ -1,5 +1,5 @@
 ---
-Keywords: 執筆,ラズパイマウス
+Keywords: 執筆,ラズパイマウス,ご報告
 Copyright: (C) 2018 Ryuichi Ueda
 ---
 
