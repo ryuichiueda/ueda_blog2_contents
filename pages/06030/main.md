@@ -12,6 +12,11 @@ Copyright: (C) Ryuichi Ueda
 <hr />
 
 <h2><a name="books"></a>著書・翻訳書</h2>
+
+### 2018
+
+* Ryuichi Ueda, Masahiro Kato, Atsushi Saito, Ryo Okazaki: Teach-and-Replay of Mobile Robot with Particle Filter on Episode, Proc. of IEEE International Conference on Robotics and Automation, pp.3475-3481, Brisbane, Australia, 2018.
+
 <h3>2017</h3>
 上田隆一: <a href="http://ec.nikkeibp.co.jp/item/books/261040.html" target="_blank" rel="noopener">Raspberry Piで学ぶ ROSロボット入門</a>, 日経BP, 2017.
 
