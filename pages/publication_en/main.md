@@ -6,12 +6,17 @@ Copyright: (C) **Ryuichi Ueda**
 # Publication List
 
 <ul>
+ 	<li><a href="#books">Book</a></li>
  	<li><a href="#journals">Journal Papers</a></li>
  	<li><a href="#proceedings">Proceedings</a></li>
  	<li><a href="#perspective">Perspective and Review (in Japanese only)</a></li>
 </ul>
 
 <hr />
+
+<h2><a name="books"></a>Book</h2>
+
+* Ryuichi Ueda, translated by Yukimi Hayafune and Ryuichi Ueda: Learning ROS robot programming with Raspberry Pi, Nikkei BP, June 2018.
 
 <h2><a name="journals"></a>Jounal Papers</h2>
 
