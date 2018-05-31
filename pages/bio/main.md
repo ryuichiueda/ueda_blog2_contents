@@ -6,7 +6,6 @@ Copyright: (C) Ryuichi Ueda
 # 上田に関する情報
 
 * [上田隆一 | Wikipedia](https://ja.wikipedia.org/wiki/%E4%B8%8A%E7%94%B0%E9%9A%86%E4%B8%80)
-    * 細かいところの補足: RoboCupの国際大会での2位や3位はサッカー本戦ではなくて、規定の技術的な問題が取り込まれた試技をロボットが行う「テクニカルチャレンジ」という競技でのもので、本戦よりは格が落ちます。が、やっぱり表彰台に乗るのは大変でトロフィーももらえます。（[RoboCup Standard Platform League | Wikipedia](https://en.wikipedia.org/wiki/RoboCup_Standard_Platform_League#Technical_Challenges_Results_[4])）
 
 ## インタビューのようなもの
 
