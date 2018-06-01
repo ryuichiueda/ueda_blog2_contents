@@ -13,7 +13,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ## シェル芸勉強会募集開始
 
-申し込みどうぞ。
+こちらは本日解禁。申し込みを。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">シェル芸勉強会募集開始〜〜〜〜<a href="https://t.co/yOjyk3Fejs">https://t.co/yOjyk3Fejs</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1002411373496713216?ref_src=twsrc%5Etfw">2018年6月1日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
