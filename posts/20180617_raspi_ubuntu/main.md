@@ -5,7 +5,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 # Ubuntu 16.04 and 18.04 images for Raspberry Pi 3 and Raspberry Pi Mouse
 
-I modified the unofficial images in https://wiki.ubuntu.com/ARM/RaspberryPi for ["Learning ROS robot programming with Raspberry Pi."](https://www.rt-shop.jp/index.php?main_page=product_info&cPath=1317&products_id=3655) 
+I modified the unofficial images in https://wiki.ubuntu.com/ARM/RaspberryPi for ["Learning ROS robot programming with Raspberry Pi."](https://www.rt-shop.jp/index.php?main_page=product_info&cPath=1317&products_id=3655) GPL is applied to these images.
 
 
 ## list of the modified images
