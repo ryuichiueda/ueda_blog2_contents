@@ -8,7 +8,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 I modified the unofficial images in https://wiki.ubuntu.com/ARM/RaspberryPi for ["Learning ROS robot programming with Raspberry Pi."](https://www.rt-shop.jp/index.php?main_page=product_info&cPath=1317&products_id=3655) 
 
 
-## list of the modified images.
+## list of the modified images
 
 Please use a 16GB microSD (microSDXC) card though the image size is 8GB. You can resize the partition with fdisk and resize2fs as written in the book.
 
