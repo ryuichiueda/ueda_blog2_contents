@@ -10,10 +10,10 @@ I modified the unofficial images in https://wiki.ubuntu.com/ARM/RaspberryPi for 
 
 ## list of the modified images.
 
-Please use a 16GB microSD (microSDXC) card though the image size is 8GB. You can 
+Please use a 16GB microSD (microSDXC) card though the image size is 8GB. You can resize the partition with fdisk and resize2fs as written in the book.
 
 | | image |  software  |
-|-|----------------|----------------------------------------|
+|-|-----------------------------|---------------------------------------|
 |1| [ubuntu-16.04-preinstalled-server-armhf+raspi3-8G-20180616.img.xz](http://file.ueda.tech/RPIM_BOOK/ubuntu-16.04-preinstalled-server-armhf+raspi3-8G-20180616.img.xz)   |  Ubuntu 16.04 for Raspberry Pi 3  |
 |2|  [ubuntu-16.04-preinstalled-server-armhf+raspi3-ROS-20180616.img.xz](http://file.ueda.tech/RPIM_BOOK/ubuntu-16.04-preinstalled-server-armhf+raspi3-ROS-20180616.img.xz)  |  Ubuntu 16.04 + ROS for Raspberry Pi 3  |
 |3| [ubuntu-16.04-raspimouse-20180616.img.xz](http://file.ueda.tech/RPIM_BOOK/ubuntu-16.04-raspimouse-20180616.img.xz) |  Ubuntu 16.04 + ROS + Raspberry Pi Mouse device driver for Raspberry Pi 3  |
