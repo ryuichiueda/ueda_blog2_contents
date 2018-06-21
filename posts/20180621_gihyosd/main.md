@@ -3,7 +3,7 @@ Keywords: SoftwareDesign, 執筆
 Copyright: (C) 2018 Ryuichi Ueda
 ---
 
-# Software Design 2018年7月号
+# SoftwareDesign 2018年7月号
 
 SoftwareDesign 2018年7月号が発売されています。
 
