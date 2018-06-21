@@ -3,9 +3,9 @@ Keywords: SoftwareDesign, 執筆
 Copyright: (C) 2018 Ryuichi Ueda
 ---
 
-# SoftwareDesign 2018年7月号
+# Software Design 2018年7月号
 
-SoftwareDesign 2018年7月号が発売されています。
+Software Design 2018年7月号が発売されています。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">先週金曜に締め切りの近い大きな仕事が全部終わって、今日執筆しようとしたら体が拒否反応して無理だったので、今夜何しようというときに届いたからじっくり読みます。 <a href="https://twitter.com/hashtag/gihyosd?src=hash&amp;ref_src=twsrc%5Etfw">#gihyosd</a> <a href="https://t.co/iU751yy8QS">pic.twitter.com/iU751yy8QS</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1008663269689528320?ref_src=twsrc%5Etfw">June 18, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
