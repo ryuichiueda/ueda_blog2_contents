@@ -24,6 +24,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">＿人人人人人人人人人人人＿<br>＞　汚い問題もあるけど　＜<br>￣Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^￣ <a href="https://t.co/cIWytCuytY">https://t.co/cIWytCuytY</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1014678494469472256?ref_src=twsrc%5Etfw">2018年7月5日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+どっちなんだ。
 
 ## 今週も学生に間違われる
 
