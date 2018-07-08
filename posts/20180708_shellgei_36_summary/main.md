@@ -52,6 +52,9 @@ Copyright: (C) 2018 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">おはようございます。昨日のLT資料をうｐしました <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><br><br>Unicodeゼロ幅文字 難読化シェル芸<a href="https://t.co/u5dhoz71Ya">https://t.co/u5dhoz71Ya</a><br><br>みんなで仕込もうゼロ幅スペース!</p>&mdash; kanata (@kanata201612) <a href="https://twitter.com/kanata201612/status/1015732148865720320?ref_src=twsrc%5Etfw">July 7, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">本日のLT資料アップロードしました! <a href="https://t.co/XjPA1W4U67">https://t.co/XjPA1W4U67</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; ヘキソミノ (@Hexomino) <a href="https://twitter.com/Hexomino/status/1015520840455057409?ref_src=twsrc%5Etfw">July 7, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## ブログ等
 
@@ -62,7 +65,14 @@ Copyright: (C) 2018 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> 勉強会リモート参加のレポートですのよヨYO。<a href="https://t.co/72HYQ20HQM">https://t.co/72HYQ20HQM</a></p>&mdash; ぱぴろんちゃん👓 (@papiron) <a href="https://twitter.com/papiron/status/1015913744830902272?ref_src=twsrc%5Etfw">July 8, 2018</a></blockquote>
 
 
+* こちら、ありがたいのですが途中から自身が講師みたいな書き方になっており、少し主催側（これは私なのですが）や講師さんに配慮が欠けると思います。文面を検討していただければと。また、ブログを書いたのが午後2時となっており、会場で問題をゴリゴリ解いている途中というのも疑問が残ります。
+    * https://dev.classmethod.jp/study_meeting/shellgei-study-36-am/
+
 ## 宣伝
 
 関係者で連載中！
 
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B07CXDB7MV/ryuichiueda-22/" target="_blank" ><img src="https://images-fe.ssl-images-amazon.com/images/I/51uuzfHEQbL._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B07CXDB7MV/ryuichiueda-22/" target="_blank" >ソフトウェアデザイン 2018年7月号</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="https://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;"> 技術評論社 2018-06-18    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px"><a href="https://www.amazon.co.jp/gp/search?keywords=SoftwareDesign&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=ryuichiueda-22" target="_blank" >Amazon</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
+
+
+次回は8月に開催できればと。今後ともよろしくお願いいたします。
