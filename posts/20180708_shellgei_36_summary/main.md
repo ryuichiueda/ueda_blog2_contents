@@ -58,7 +58,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ## ブログ等
 
-書いたらついったーで教えてくださーい。
+書いたらついったーで教えてくださーい。たいちょーさん本当に大変でしたね・・・本当に・・・
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a><br>第36回シェル芸勉強会@限界キャンパスサテライトを開催した - たいちょーの雑記<a href="https://t.co/7OluHOk7B4">https://t.co/7OluHOk7B4</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1015858776790855680?ref_src=twsrc%5Etfw">July 8, 2018</a></blockquote>
 
