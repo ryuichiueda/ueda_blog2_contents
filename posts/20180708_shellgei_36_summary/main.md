@@ -68,11 +68,20 @@ Copyright: (C) 2018 Ryuichi Ueda
 * 次の記事、ありがたいのですが途中からご自身が講師みたいな書き方になっており、少し主催側（これは主に私ということになりますが）や講師さんに配慮が欠けていると私は感じました。紋切り型の冒頭からいきなり「まとめたいと思います。」も表現が不自然ですし、こちら側への語りかけるような表現もありません（「良いです」という主観だけ）。また、ブログを書いたと宣言されたのが午後2時となっており、会場で問題をゴリゴリ解いている途中というのも疑問が残ります。さらに、企業さんが主催のサイトですので取材のようにとられても仕方がないと思います。こちらが取材を受け入れられるのは、私の出す問題に（全くできなくても）真正面から取り組んでいただけると私が信じられる方だけですので、何卒、ご配慮いただければと存じます。懇親会までいらっしゃって、おそらく悪気はないのかと思いましたし、私が何か言いたいのならば当日直接言えばよかったのかもしれませんが、ネット上のものですのでネット上でコメントいたしました。そんなに怒ってるわけではないのですが、私も物書きですので気になった次第です。何か対応いただければ次回もぜひご参加ください。
     * https://dev.classmethod.jp/study_meeting/shellgei-study-36-am/
 
+
+## その他
+
+ドタキャンは見越して募集をかけているのでそんなに問題視してないのですが、今回はほぼありませんでした。なぜかは良くわかりません。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">土曜日の会場の様子です。最終的に参加者/登録者が38名/39名と、ドタキャン率の低さが謎でした。ありがとうございました。 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <a href="https://t.co/PFkpBEe341">pic.twitter.com/PFkpBEe341</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1016133224085327872?ref_src=twsrc%5Etfw">July 9, 2018</a></blockquote>
+
+
 ## 宣伝
 
 関係者で連載中！
 
 <div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B07CXDB7MV/ryuichiueda-22/" target="_blank" ><img src="https://images-fe.ssl-images-amazon.com/images/I/51uuzfHEQbL._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B07CXDB7MV/ryuichiueda-22/" target="_blank" >ソフトウェアデザイン 2018年7月号</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="https://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;"> 技術評論社 2018-06-18    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px"><a href="https://www.amazon.co.jp/gp/search?keywords=SoftwareDesign&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=ryuichiueda-22" target="_blank" >Amazon</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
+
 
 
 次回は8月に開催できればと。今後ともよろしくお願いいたします。
