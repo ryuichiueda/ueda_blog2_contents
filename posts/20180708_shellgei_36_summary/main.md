@@ -64,7 +64,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> 勉強会リモート参加のレポートですのよヨYO。<a href="https://t.co/72HYQ20HQM">https://t.co/72HYQ20HQM</a></p>&mdash; ぱぴろんちゃん👓 (@papiron) <a href="https://twitter.com/papiron/status/1015913744830902272?ref_src=twsrc%5Etfw">July 8, 2018</a></blockquote>
 
-
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">第36回シェル芸勉強会に参加してきました(復習) 俺的備忘録 〜なんかいろいろ〜<a href="https://t.co/8oL0sROIxE">https://t.co/8oL0sROIxE</a></p>&mdash; Blacknon@通勤電車リハビリ中 (@blacknon_) <a href="https://twitter.com/blacknon_/status/1016834666937049088?ref_src=twsrc%5Etfw">July 11, 2018</a></blockquote>
 
 
 ## その他
