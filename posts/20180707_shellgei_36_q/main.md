@@ -5,7 +5,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 # 【問題のみ】jus共催 第36回七夕・・・7は素数じゃないですか（しかも2つ）シェル芸勉強会
 
-<!--[当日の様子はこちら](/?post=20180408_shellgei_35_summary)-->
+[解答例はこちら](/?post=20180707_shellgei_36)
 
 * 問題で使われているデータファイルは[GitHub](https://github.com/ryuichiueda/ShellGeiData/tree/master/vol.36)にあります。クローンは以下のようにお願いします。
 
@@ -14,8 +14,6 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 ```
 
 * 環境: 解答例はUbuntu Linux 18.04 で作成。Macの場合はcoreutilsをインストールすると、GNUのコマンドが使えます。BSD系の人は玄人なので各自対応のこと。
-
-<!-- もっと良い別解がたくさんありますので、 https://togetter.com/li/1216252 も参考に。-->
 
 ## Q1
 
