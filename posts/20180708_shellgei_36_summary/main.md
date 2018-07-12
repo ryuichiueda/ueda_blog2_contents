@@ -67,6 +67,10 @@ Copyright: (C) 2018 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">第36回シェル芸勉強会に参加してきました(復習) 俺的備忘録 〜なんかいろいろ〜<a href="https://t.co/8oL0sROIxE">https://t.co/8oL0sROIxE</a></p>&mdash; Blacknon@通勤電車リハビリ中 (@blacknon_) <a href="https://twitter.com/blacknon_/status/1016834666937049088?ref_src=twsrc%5Etfw">July 11, 2018</a></blockquote>
 
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a><br>第36回シェル芸勉強会に参加しました。 - nogiro_iotaのメモ<a href="https://t.co/Q7HuhnSY9L">https://t.co/Q7HuhnSY9L</a></p>&mdash; のぎろ (@nogiro_iota) <a href="https://twitter.com/nogiro_iota/status/1017393622184964096?ref_src=twsrc%5Etfw">July 12, 2018</a></blockquote>
+
+
+
 ## その他
 
 ドタキャンは見越して募集をかけているのでそんなに問題視してないのですが、今回はほぼありませんでした。なぜかは良くわかりません。
