@@ -21,4 +21,5 @@ Copyright: (C) 2018 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">「【小学生】シェル芸botうんこチャレンジ【現る】」をトゥギャりました。 <a href="https://t.co/UgPVexIDAJ">https://t.co/UgPVexIDAJ</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1018645747355406336?ref_src=twsrc%5Etfw">July 15, 2018</a></blockquote>
 
 
+
 寝る。
