@@ -20,6 +20,11 @@ Copyright: (C) Ryuichi Ueda
 
 <h2><a name="books"></a>著書・翻訳書</h2>
 
+### 2018
+
+* Ryuichi Ueda, translated by Yukimi Hayafune and Ryuichi Ueda: Learning ROS robot programming with Raspberry Pi, Nikkei BP, June 2018.
+
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4822256812/ryuichiueda-22/" target="_blank" ><img src="https://images-fe.ssl-images-amazon.com/images/I/51oW9Uv1RML._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4822256812/ryuichiueda-22/" target="_blank" >Learning ROS robot programming with Raspberry Pi</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="https://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">上田 隆一 日経BP社 2018-06-01    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px"><a href="https://www.amazon.co.jp/gp/search?keywords=Learning%20ROS%20robot%20programming%20with%20Raspberry%20Pi&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=ryuichiueda-22" target="_blank" >Amazon</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
 
 ### 2017
 上田隆一: <a href="http://ec.nikkeibp.co.jp/item/books/261040.html" target="_blank" rel="noopener">Raspberry Piで学ぶ ROSロボット入門</a>, 日経BP, 2017.
