@@ -5,11 +5,18 @@ Copyright: (C) Ryuichi Ueda
 
 # 出版物リスト（書籍・商業誌等）
 <ul>
+ 	<li><a href="#latest">最新</a></li>
  	<li><a href="#books">著書・翻訳書</a></li>
  	<li><a href="#magazine">商業誌等記事</a></li>
 </ul>
 
 <hr />
+
+<h2><a name="latest"></a>最新</h2>
+
+* シェル芸人からの挑戦状, Software Design, 技術評論社, 2017年9月号〜
+
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B07D5952PS/ryuichiueda-22/" target="_blank" ><img src="https://images-fe.ssl-images-amazon.com/images/I/51U8OVU--mL._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B07D5952PS/ryuichiueda-22/" target="_blank" >ソフトウェアデザイン 2018年8月号</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="https://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">武井 優樹,山上 健一,田中 佑紀,桐山 裕平,橋本 達也,本間 稔彦,三浦 彩,草間 一人,藤田 稜,長谷川 智希,安藤 幸央,結城 浩,武内 覚,宮原 徹,平林 純,くつなりょうすけ,樽石 将人,上田 隆一,山田 泰宏,中村 壮一,田代 勝也,青木 裕哉,三宅 理,mattn,小飼 弾,すずきひろのぶ,小川 雄太郎,やまねひでき,小島 啓史,あわしろいくや,中島 雅弘,法林 浩之,小泉 勝志郎,後藤 大地,杉山 貴章 技術評論社 2018-07-18    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px"><a href="https://www.amazon.co.jp/gp/search?keywords=SoftwareDesign&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=ryuichiueda-22" target="_blank" >Amazon</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
 
 <h2><a name="books"></a>著書・翻訳書</h2>
 
@@ -83,12 +90,12 @@ Copyright: (C) Ryuichi Ueda
 <ul>
  	<li>第1特集 UNIXコマンド，fork，pipeを復習し，高度なスクリプティングへ　シェルスクリプティング道場, 第1章：UNIXの思想に立ち返れば見えてくる　なぜ今，シェルスクリプトの習得が必要なのか？, SoftwareDesign 2013年2月号</li>
 </ul>
-&nbsp;
-<h3>連載</h3>
-<ul>
- 	<li>シェル芸人からの挑戦状, Software Design, 技術評論社, 2017年9月号〜</li>
- 	<li>Raspberry Piで作ろう お手軽ロボット教室, 日経Linux, 日経PB社, 2016年1月号〜2016年9月号</li>
- 	<li>Raspberry Piで始めるかんたんロボット製作, 日経Linux, 日経PB社, 2015年6月号〜11月号</li>
- 	<li>シェル芸勉強会後追い企画 Haskellでやってはいかんのか？, USP Magazine, USP研究所, 2014年4月号-</li>
- 	<li>テキストデータならお手のもの　開眼シェルスクリプト 【1】〜【24】, Software Design 2012年1月号〜2013年12月号</li>
-</ul>
+
+### 過去の連載
+
+ * Raspberry Piで作ろう お手軽ロボット教室, 日経Linux, 日経PB社, 2016年1月号〜2016年9月号
+ * Raspberry Piで始めるかんたんロボット製作, 日経Linux, 日経PB社, 2015年6月号〜11月号
+ * シェル芸勉強会後追い企画 Haskellでやってはいかんのか？, USP Magazine, USP研究所, 2014年4月号-
+ * テキストデータならお手のもの　開眼シェルスクリプト 【1】〜【24】, Software Design 2012年1月号〜2013年12月号
+
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4774197386/ryuichiueda-22/" target="_blank" ><img src="https://images-fe.ssl-images-amazon.com/images/I/61NYuC2rhdL._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4774197386/ryuichiueda-22/" target="_blank" >Software Design総集編【2013~2017】</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="https://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">Software Design編集部 技術評論社 2018-05-26    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px"><a href="https://www.amazon.co.jp/gp/search?keywords=SoftwareDesign&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=ryuichiueda-22" target="_blank" >Amazon</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
