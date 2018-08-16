@@ -5,7 +5,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 # 雑記（2018年8月16日）
 
-お盆明け。大学に行きたかったが長女も家にいたので在宅勤務。在宅勤務、いいデスクがないのでいつも腰が痛いが、今日はこれを次女が出しっ放しにしていたので使ったらかなり腰に優しく、さすがプリキュア。今日はこれで投稿論文を書いていたので、もしこれが通ったら謝辞にプリキュアであり。無理。
+お盆明け。大学に行きたかったが長女も家にいたので在宅勤務。在宅勤務、いいデスクがないのでいつも腰が痛いが、今日は次女が出しっ放しにしたこれを使ったらかなり腰に優しく、さすがプリキュア。今日はこれで投稿論文を書いていたので、もしこれが通ったら謝辞にプリキュアであり。無理。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">仕事するぞぉ！！ <a href="https://t.co/wI5r4XF9pb">pic.twitter.com/wI5r4XF9pb</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1029882150915461122?ref_src=twsrc%5Etfw">2018年8月16日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
