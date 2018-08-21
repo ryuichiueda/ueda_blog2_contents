@@ -32,6 +32,8 @@ convert *.png -evaluate-sequence min ../a.png # あるいはmax
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">幽霊バージョン <a href="https://t.co/zmp9bHpA1z">pic.twitter.com/zmp9bHpA1z</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1031429438892728320?ref_src=twsrc%5Etfw">2018年8月20日</a></blockquote>
 
+　こちらは4コマだけ自分が入り込んだ画像。1Hzの連続写真で1歩飛ばしで写っているので、自分の歩行周期が0.5Hzだという知見を得た。
+
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">またなんか別テイストなのができた。 <a href="https://t.co/2vcqrRru3d">pic.twitter.com/2vcqrRru3d</a></p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1031448724101259264?ref_src=twsrc%5Etfw">2018年8月20日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
