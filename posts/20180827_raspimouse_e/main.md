@@ -3,7 +3,7 @@ Keywords: Rasberry Pi Mouse,Raspberry Pi
 Copyright: (C) 2018 Ryuichi Ueda
 ---
 
-# making Raspberry Pi Mouse 3 B+ with Ubuntu 16.04 work on Raspberry Pi Mouse
+# making Raspberry Pi Mouse 3 B+ work on Raspberry Pi Mouse with Ubuntu 16.04
 
 It (including Wi-Fi) works with the following procedure.
 
