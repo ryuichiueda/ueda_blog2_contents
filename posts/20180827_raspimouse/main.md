@@ -18,5 +18,10 @@ Copyright: (C) 2018 Ryuichi Ueda
 * https://github.com/ryuichiueda/pimouse_setup をクローンして`sudo make install` して再起動後もデバイスドライバが使えるようにする
 
 
-以上で終わりです。
+## 3. ROSを乗っけるなりなんなり
+
+これは従来と同じ方法で大丈夫です。
+
+
+以上で問題なく動作することを確認済みです。
 
