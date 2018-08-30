@@ -9,7 +9,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ## シェル芸勉強会まだ募集中
 
-　[このまえのjusさんの発表](https://www.slideshare.net/ryuichiueda/it-106898229)で敷居をあげてしまったのか、今回はまだ空きがあります。とりあえず初めての方も楽しそうにされていますので、ぜひぜひ。
+　[このまえのjusさんの発表](https://www.slideshare.net/ryuichiueda/it-106898229)で敷居をあげてしまったのか、日取りが悪いのか、今回はまだ空きがあります。とりあえず初めての方も楽しそうにされていますので、ぜひぜひ。
 
 * 募集ページ: https://usptomo.doorkeeper.jp/events/78525
 
