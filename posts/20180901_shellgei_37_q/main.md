@@ -81,8 +81,8 @@ Copyright: (C) 2018 Ryuichi Ueda
 松屋のメニューについて、ひらがなに変換した上で`figlet`あるいは`toilet`で巨大文字にして、何段かに別れて出力された場合、一行に並べなおして画像にしてください。
 
 * 例:
-    * ![](matsuya.png)
-    * ![](matsuya2.png)
+    * <a href="./matsuya2.png"><img src="matsuya2.png" width="100%" /></a>
+    * <a href="./matsuya.png"><img src="matsuya.png" width="100%" /></a>
 
 
 
