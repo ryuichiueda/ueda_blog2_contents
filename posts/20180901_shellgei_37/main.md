@@ -155,8 +155,8 @@ xargs -n 1 | sed '1s/@/x/' | sed '3s/@/x/' | sed 'y/.x@/　山田/'
 松屋のメニューについて、ひらがなに変換した上で`figlet`あるいは`toilet`で巨大文字にして、何段かに別れて出力された場合、一行に並べなおして画像にしてください。
 
 * 例:
-    * ![](matsuya.png)
-    * ![](matsuya2.png)
+    * <img src="matsuya.png" width="100%" />
+    * <img src="matsuya2.png" width="100%" />
 
 
 ### 解答
