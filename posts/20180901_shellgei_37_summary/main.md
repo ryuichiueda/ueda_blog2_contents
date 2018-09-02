@@ -14,7 +14,9 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ## サテライトの様子
 
-* 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました<br>第37回シェル芸勉強会 大阪サテライト レポート - <a href="https://t.co/xkeyTIbJah">https://t.co/xkeyTIbJah</a></p>&mdash; so (@3socha) <a href="https://twitter.com/3socha/status/1036159482835828736?ref_src=twsrc%5Etfw">September 2, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## Twitterまとめ
 
