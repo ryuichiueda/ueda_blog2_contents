@@ -23,3 +23,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">昨日も勉強になりました！LTのスライドです〜 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <br>Unicode結合文字 難読化シェル芸 <a href="https://t.co/wCv545PWVq">https://t.co/wCv545PWVq</a></p>&mdash; kanata (@kanata201612) <a href="https://twitter.com/kanata201612/status/1036052835413057537?ref_src=twsrc%5Etfw">2018年9月2日</a></blockquote>
 
+
+## 本職
+
+　書き上げた投稿論文を自分で校正。明日台風で家に閉じ込められたら便乗して一気に投稿してしまう予定。
