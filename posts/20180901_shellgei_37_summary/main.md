@@ -48,3 +48,11 @@ Copyright: (C) 2018 Ryuichi Ueda
 <iframe width="560" height="315" src="https://www.youtube.com/embed/O3JatzNypFY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## ブログ
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ありがとうございました〜〜〜！<br>はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a><br>第37回シェル芸勉強会@大阪サテライトに参加しました - たいちょーの雑記<a href="https://t.co/BO01KTdLRC">https://t.co/BO01KTdLRC</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1036298909037940736?ref_src=twsrc%5Etfw">September 2, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a><br><br>明日午後分を書く<br>シェル芸勉強会に参加しました - takion0’s diary<a href="https://t.co/B7ty3UvtXa">https://t.co/B7ty3UvtXa</a></p>&mdash; ゆうくん@悪いヲタク (@takion0) <a href="https://twitter.com/takion0/status/1036274417217593345?ref_src=twsrc%5Etfw">September 2, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
