@@ -34,4 +34,20 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr">yes <a href="https://t.co/YBa0MKxUau">pic.twitter.com/YBa0MKxUau</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037273241306378240?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
 
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr">OK <a href="https://t.co/ZVh5ngSA8f">pic.twitter.com/ZVh5ngSA8f</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037276919253819394?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
+
+ここで一回再起動が入ります。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">Next <a href="https://t.co/QgMf7otxT6">pic.twitter.com/QgMf7otxT6</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037277112481153024?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">適宜選んでNext <a href="https://t.co/5oGLYa8wJt">pic.twitter.com/5oGLYa8wJt</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037277340449951744?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">パスワードを決めてNext <a href="https://t.co/IIJjrTEnF2">pic.twitter.com/IIJjrTEnF2</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037277705950003201?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">wifiを選んでNext <a href="https://t.co/BwptHUDOgG">pic.twitter.com/BwptHUDOgG</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037278449000308738?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">次の画面でwifiのパスワードを聞かれるので適宜入力してNextで。</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037278659638308864?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">これでNextを押すとソフトウェアのアップデートが始まります。 <a href="https://t.co/p34ytQ3lbF">pic.twitter.com/p34ytQ3lbF</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037278906116493312?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
 
