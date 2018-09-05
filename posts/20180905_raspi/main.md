@@ -14,6 +14,8 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">その間にヒートシンクを貼り付け <a href="https://t.co/4roH3CFmlL">pic.twitter.com/4roH3CFmlL</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037268915888435205?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
 
+ヒートシンクが付属していない場合は不要です。
+
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ダウンロードしたらOSごとの普通の方法で展開しておきます。 <a href="https://t.co/4fXXen6yeG">pic.twitter.com/4fXXen6yeG</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037269318981931008?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
 
 
