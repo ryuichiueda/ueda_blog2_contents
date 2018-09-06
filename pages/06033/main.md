@@ -4,7 +4,7 @@ Copyright: (C) Ryuichi Ueda
 
 
 # 出版物リスト（学術誌等）
-<!--:ja-->
+
 <ul>
  	<li><a href="#perspective">総説・解説・展望</a></li>
  	<li><a href="#journals">投稿論文</a></li>
@@ -19,6 +19,11 @@ Copyright: (C) Ryuichi Ueda
 <hr />
 
 <h2><a name="perspective"></a>総説・解説・展望</h2>
+
+### 2018
+
+* 上田隆一: "移動ロボットのためのROSパッケージの紹介と実機への導入方法", 計測と制御, Vol.57 No.10, 2018 (to appear).
+
 ### 2016
 
 * 上田 隆一: "確率ロボティクスの歩みと将来展望," システム/制御/情報, Vol. 60, No. 12, pp. 503-508, 2016.
