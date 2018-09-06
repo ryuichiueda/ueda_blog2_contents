@@ -51,3 +51,42 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">これでNextを押すとソフトウェアのアップデートが始まります。 <a href="https://t.co/p34ytQ3lbF">pic.twitter.com/p34ytQ3lbF</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037278906116493312?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
 
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr">OK <a href="https://t.co/qvCjQQq0ho">pic.twitter.com/qvCjQQq0ho</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037308973353816065?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">Reboot <a href="https://t.co/LX2Bemj8mk">pic.twitter.com/LX2Bemj8mk</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037309036360753152?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr">OK <a href="https://t.co/KG4TzJNPn5">pic.twitter.com/KG4TzJNPn5</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037309200521560065?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">「LXTerminal」を開きます <a href="https://t.co/vtzA5MaXcx">pic.twitter.com/vtzA5MaXcx</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037309415945170945?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">raspi-configと打ってEnter押しましょう。 <a href="https://t.co/MxTxCVIzq8">pic.twitter.com/MxTxCVIzq8</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037311347669622784?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">boot options -&gt; Desktop/CLI -&gt; Console と選びます。 <a href="https://t.co/guenkoDhFH">pic.twitter.com/guenkoDhFH</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037312049703870465?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">で、今度は再びraspi-configでsshの設定をします。<br><br>Interfacing options -&gt; SSH -&gt; はい -&gt; 了解 <a href="https://t.co/gMFpk2vnWn">pic.twitter.com/gMFpk2vnWn</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037313815380090880?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">rebootするか-&gt; はい <a href="https://t.co/R65TgGDXEK">pic.twitter.com/R65TgGDXEK</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037314069814865920?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">これが出たらオッケー。もうGUIは使わない。 <a href="https://t.co/9ohf0vkFRM">pic.twitter.com/9ohf0vkFRM</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037314364137566209?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">login:のところにpiと打ってEnter、password:のところにパスワードを打ってEnterを押します。パスワードは画面に出てきません。 <a href="https://t.co/G6ZNJbfj0X">pic.twitter.com/G6ZNJbfj0X</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037329987227938817?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">で、こうなったらオッケーです。 <a href="https://t.co/64EGQpErSM">pic.twitter.com/64EGQpErSM</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037330056022913025?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">で、眠いので本日はもうやめます。画面にこう打ってEnterキーを押すとシャットダウンされます。 <a href="https://t.co/XDiiBAJGTV">pic.twitter.com/XDiiBAJGTV</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037330260587683841?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">緑のランプがチカチカしなくなってから10秒くらい待って電源を引っこ抜きましょう。 <a href="https://t.co/xS1R4UTDfM">pic.twitter.com/xS1R4UTDfM</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037330489361813506?ref_src=twsrc%5Etfw">2018年9月5日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">昨日の続きです。今度は有線LANにつないでログインします。<br><br>ip addrでIPアドレスを調べます。eth0のところにIPアドレスがあればオッケー <a href="https://t.co/Xednn8BezN">pic.twitter.com/Xednn8BezN</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037539758480617472?ref_src=twsrc%5Etfw">2018年9月6日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今度は、Macの場合はTerminalを開いて、さっき調べたIPアドレスの頭にpi@ とつけてEnterを押します。そのあとyesと打つとログインできます。 <a href="https://t.co/oz5wWWHMMg">pic.twitter.com/oz5wWWHMMg</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037541504871350272?ref_src=twsrc%5Etfw">2018年9月6日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Windowsの人はこっちでログインどうぞ。 | Tera TermをWindowsにインストールしてからssh接続するまで | 上田ブログ <a href="https://t.co/ao4AhPgrmL">https://t.co/ao4AhPgrmL</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037541953041121280?ref_src=twsrc%5Etfw">2018年9月6日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ログインしたら、sudo poweroffで一度電源を落とします。</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037542202321195009?ref_src=twsrc%5Etfw">2018年9月6日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今度は教室でラズパイを使うためにこういうふうにPCとラズパイを直接つなぎます。 <a href="https://t.co/Ghvq7gxtOM">pic.twitter.com/Ghvq7gxtOM</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037543865530503168?ref_src=twsrc%5Etfw">2018年9月6日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">で、あとは次のページのようにすると、PCをルータ代わりにしてラズパイを使えるようになります。<br><br>Mac: <a href="https://t.co/FY2RH5N1Tf">https://t.co/FY2RH5N1Tf</a><br>Windows: <a href="https://t.co/Vb9FLUkPyb">https://t.co/Vb9FLUkPyb</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037544245307924480?ref_src=twsrc%5Etfw">2018年9月6日</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">--- 以上 ---</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1037544299464810500?ref_src=twsrc%5Etfw">2018年9月6日</a></blockquote>
