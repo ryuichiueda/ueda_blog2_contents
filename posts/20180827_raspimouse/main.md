@@ -3,7 +3,7 @@ Keywords: Rasberry Pi Mouse,Raspberry Pi
 Copyright: (C) 2018 Ryuichi Ueda
 ---
 
-# Raspberry Pi MouseをRaspberry Pi Mouse 3 B+で動かす 
+# Raspberry Pi MouseをRaspberry Pi 3 B+で動かす 
 
 手順のメモです。
 
