@@ -13,4 +13,4 @@ Copyright: (C) 2018 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-問題はもう2問考えました！あと8悶絶！じゃなかった8問death！
+問題はもう2問考えました！あと6悶絶！じゃなかった6問death！
