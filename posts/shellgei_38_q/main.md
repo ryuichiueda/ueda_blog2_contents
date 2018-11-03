@@ -65,7 +65,7 @@ $ echo {A..Z} {A..Z}{A..Z} {A..Z}{A..Z}{A..Z} | tr ' ' \\n | nl | grep XYZ
 
 ## Q6
 
-[広済寺ホームページ](https://www.kosaiji.org/download/kyoten/index.htm)から、「妙法蓮華経（新字体、平成20年校正）」（https://www.kosaiji.org/download/kyoten/myoho_shinji.txt ）のファイルをダウンロードして、`仏説摩訶般若波羅蜜多心経`と漢字で2文字連続で一致している文字列を探してください。ギブアップかつ宗教上問題のない人は、妙法蓮華経を暗記していてください。
+[広済寺ホームページ](https://www.kosaiji.org/download/kyoten/index.htm)から、「妙法蓮華経（新字体、平成20年校正）」（https://www.kosaiji.org/download/kyoten/myoho_shinji.txt ）のファイルをダウンロードして、`仏説摩訶般若波羅蜜多心経`と漢字で4文字連続で一致している文字列を探してください。ギブアップかつ宗教上問題のない人は、妙法蓮華経を暗記していてください。
 
 
 ## Q7
