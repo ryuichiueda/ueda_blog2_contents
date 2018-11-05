@@ -28,7 +28,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ## 来週のイベント
 
-　小学生の前で出身の小矢部市の5,6年生全員に話をします。ネット上にはぜんぜん情報があがってません。子供のときの写真を実家で漁ったけど可愛くなく、代わりに特異性を示すようなものが写真の付録として残ってました。
+　小学生の前で出身の小矢部市の5,6年生全員に話をします。ネット上にはぜんぜん情報があがってません。子供のときの話をしなければならず、写真を実家で漁ったんですが可愛くもなく、代わりに特異性を示すようなものが写真の付録として残ってました。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">1歳で書いて、親がビックリして残していた数字をみたら、どう見てもヤオイです。本当にありがとうございました。<br><br>（人生を語るという、どう考えても何もやってない人間には不釣り合いな仕事をもらって準備中） <a href="https://t.co/viZDbDegPg">pic.twitter.com/viZDbDegPg</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1058940162686640128?ref_src=twsrc%5Etfw">2018年11月4日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
