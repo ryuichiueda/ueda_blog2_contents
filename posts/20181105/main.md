@@ -14,10 +14,13 @@ Copyright: (C) 2018 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">リンク集でーす（更新中）| jus共催 第38回シェル芸勉強会リンク集 | 上田ブログ <a href="https://t.co/9TSnfR0GVl">https://t.co/9TSnfR0GVl</a> <a href="https://t.co/o719bfnLso">https://t.co/o719bfnLso</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1058973684315041792?ref_src=twsrc%5Etfw">November 4, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+## 北日本新聞の取材を受けた
 
-## ラジオに出た
+　来週のイベントの宣伝。母校の中学校で15分ほど取材を受け、写真のフリー素材を提供しました。
 
-　富山のKNBに来週のイベントの宣伝で5分出演。ラジオのヘビーリスナーとしてはテレビより断然興奮してかなりはしゃいでしまった。
+## KNBラジオに出た
+
+　こちらも宣伝で富山のKNBに5分出演。ラジオのヘビーリスナーとしてはテレビより断然興奮してかなりはしゃいでしまった。ラジオに出るのは人生の目標の一つだったので達成。
 
 ## 来週のイベント
 
