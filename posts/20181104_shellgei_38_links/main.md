@@ -14,7 +14,14 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ## サテライトの様子
 
-お待ちしておりまーす。
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><br>第38回シェル芸勉強会@大阪サテライトに参加しました - たいちょーの雑記 <a href="https://t.co/oeeY8zxwwt">https://t.co/oeeY8zxwwt</a> <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1059000225568673792?ref_src=twsrc%5Etfw">November 4, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">レポートをブログに投稿しまっした！上田会長、運営の方々お疲れ様でした。参加者の方々ありがとうございました。「第38回シェル芸勉強会：福岡サテライト」レポート - 日々之迷歩 <a href="https://t.co/FJh9VMETeD">https://t.co/FJh9VMETeD</a> <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <a href="https://twitter.com/hashtag/%E7%A6%8F%E5%B2%A1?src=hash&amp;ref_src=twsrc%5Etfw">#福岡</a></p>&mdash; ぱぴろんちゃん🎧 (@papiron) <a href="https://twitter.com/papiron/status/1061261849977475072?ref_src=twsrc%5Etfw">November 10, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## Twitterまとめ
 
