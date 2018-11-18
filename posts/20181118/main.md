@@ -7,6 +7,9 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 　小矢部ロータリークラブさんのお招きで、市内の小学校高学年の皆様に話をしてきました。もう少し派手な実績があれば堂々と凱旋できたのですが、自分の場合はいろんなことをしていて合わせ技で一本・・・ということで、一応、市出身の目立つ人ということで、小学生に話をする役目を仰せつかりました。お招きいただき、また、いろいろ面倒を見ていただいて大変感謝しております。
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">全文読めない人多いと思うんですが、丁寧に記事を書いていただきました。 | 経験・知識は夢への一歩　ロボ研究の上田さん　故郷小矢部で講演へ｜北日本新聞ウェブ[webun ウェブン] <a href="https://t.co/lXXHjy9C8N">https://t.co/lXXHjy9C8N</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1061504781833789440?ref_src=twsrc%5Etfw">November 11, 2018</a></blockquote>
+
+
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">リハーサルしてました。 <a href="https://t.co/wfNJfHMxsz">pic.twitter.com/wfNJfHMxsz</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1061957878733402113?ref_src=twsrc%5Etfw">2018年11月12日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
