@@ -15,10 +15,11 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 　講演はいろんな関係で2回に分けて行われました。2回目、同じテンションで話をするのが難しくてちょっとダレてしまったのも反省材料ですが、これは慣れると大丈夫かなと。そんなことは、あと数年なさそうですが。
 
-　発表はこんなスタイルで行いました。ギター弾き語り用マイクでクラプトソ感満載で興奮しました。
+　発表はリンク先記事の写真のようなスタイルで行いました。ギター弾き語り用マイクでクラプトソ感満載で興奮しました。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">パーカー登壇オタクですご査収ください。 <a href="https://t.co/LkwSsQC9yQ">pic.twitter.com/LkwSsQC9yQ</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1063029083607490561?ref_src=twsrc%5Etfw">2018年11月15日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">記事がウェブにありましたー。| 児童に夢の大切さ語る<a href="https://t.co/izKZcDHhND">https://t.co/izKZcDHhND</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1064087092764889089?ref_src=twsrc%5Etfw">2018年11月18日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
 　私の後にロボットのデモをした、ロボット遊園地の岡本さんのブログです。私の話の時より114514倍盛り上がっておりました。終わった後の飲み会で、かなり突っ込んだ話ができて楽しかったです。
