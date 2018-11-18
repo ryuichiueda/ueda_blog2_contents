@@ -9,13 +9,13 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 　小学生を対象に話をしたことがなかったのですが、内容は子供騙しでもダメ、でも分かりやすくないとダメなので、かなり悩みました。結果としてちょっと難しかったかなと。中学校以降の話は実感を持ってもらえなかったのではないかと反省の多い内容でした。ただ、校長先生等、大人の皆様には楽しんでいただけたようです。
 
-　講演はいろんな関係で2回に分けて行われました。2回目、同じテンションで話をするのが難しくてちょっとダレてしまったのも反省材料ですが、これは慣れると大丈夫かなと。そんなことは、あと数年なさそうですが。
-
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">本日小学校高学年生にぶつけてみた話でした。（2回同じ内容でやったのでヘトヘト） | 20181113_子ども夢ロボット＆トーク <a href="https://twitter.com/hashtag/education?src=hash&amp;ref_src=twsrc%5Etfw">#education</a> <a href="https://twitter.com/hashtag/probabilisticrobotics?src=hash&amp;ref_src=twsrc%5Etfw">#probabilisticrobotics</a> <a href="https://t.co/4aPZ5wlQ5X">https://t.co/4aPZ5wlQ5X</a> <a href="https://twitter.com/SlideShare?ref_src=twsrc%5Etfw">@SlideShare</a>さんから</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1062238971244118016?ref_src=twsrc%5Etfw">2018年11月13日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-　発表はこんなスタイルで行いました。
+　講演はいろんな関係で2回に分けて行われました。2回目、同じテンションで話をするのが難しくてちょっとダレてしまったのも反省材料ですが、これは慣れると大丈夫かなと。そんなことは、あと数年なさそうですが。
+
+　発表はこんなスタイルで行いました。ギター弾き語り用マイクでクラプトソ感満載で興奮しました。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">パーカー登壇オタクですご査収ください。 <a href="https://t.co/LkwSsQC9yQ">pic.twitter.com/LkwSsQC9yQ</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1063029083607490561?ref_src=twsrc%5Etfw">2018年11月15日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
