@@ -38,7 +38,4 @@ Copyright: (C) 2018 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">出勤します。 <a href="https://t.co/LTYgNSnoXf">pic.twitter.com/LTYgNSnoXf</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1062484704274731008?ref_src=twsrc%5Etfw">2018年11月13日</a></blockquote>
 
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">出勤します。 <a href="https://t.co/LTYgNSnoXf">pic.twitter.com/LTYgNSnoXf</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1062484704274731008?ref_src=twsrc%5Etfw">2018年11月13日</a></blockquote>
-
-
 　ほんと、皆様ありがとうございました。
