@@ -32,12 +32,11 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">お疲れ様でした〜。 |『ご報告　小矢部ロータリークラブ/ロボット講演』<br>⇒ <a href="https://t.co/rPgZofgCY2">https://t.co/rPgZofgCY2</a> <a href="https://twitter.com/hashtag/%E3%82%A2%E3%83%A1%E3%83%96%E3%83%AD?src=hash&amp;ref_src=twsrc%5Etfw">#アメブロ</a> <a href="https://twitter.com/ameba_official?ref_src=twsrc%5Etfw">@ameba_official</a>さんから</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1064042645746380801?ref_src=twsrc%5Etfw">2018年11月18日</a></blockquote>
 
-　岡本さんとは終わった後の飲み会で、夜中までかなり突っ込んだ話ができました。楽しかったです。
+　岡本さんとは終わった後の飲み会で、夜中までかなり突っ込んだ話ができました。楽しかったです。翌日、そのまま新幹線に乗って午後イチの講義をしましたが、ろれつが回らず学生様には懺悔する次第・・・
 
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">出勤します。 <a href="https://t.co/LTYgNSnoXf">pic.twitter.com/LTYgNSnoXf</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1062484704274731008?ref_src=twsrc%5Etfw">2018年11月13日</a></blockquote>
 
-　翌日、そのまま新幹線に乗って午後イチの講義をしましたが、ろれつが回らず学生様には懺悔する次第・・・
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">出勤します。 <a href="https://t.co/LTYgNSnoXf">pic.twitter.com/LTYgNSnoXf</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1062484704274731008?ref_src=twsrc%5Etfw">2018年11月13日</a></blockquote>
 
