@@ -21,3 +21,5 @@ Copyright: (C) 2018 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">「あれは点群だね」<br>「あれは点群ですね」<a href="https://twitter.com/hashtag/%E6%9C%AB%E6%9C%9F?src=hash&amp;ref_src=twsrc%5Etfw">#末期</a> <a href="https://twitter.com/hashtag/%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%81%AF%E7%82%B9%E7%BE%A4?src=hash&amp;ref_src=twsrc%5Etfw">#クリスマスは点群</a> <a href="https://t.co/dYOmnQgGaS">pic.twitter.com/dYOmnQgGaS</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1064434817821884417?ref_src=twsrc%5Etfw">2018年11月19日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+寝る。
