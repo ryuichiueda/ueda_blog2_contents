@@ -24,5 +24,6 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">echo 第39回シェル芸勉強会 大阪サテライト 募集開始しました。 <a href="https://t.co/BT0GgXDbyD">https://t.co/BT0GgXDbyD</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; so (@3socha) <a href="https://twitter.com/3socha/status/1065552559736152064?ref_src=twsrc%5Etfw">November 22, 2018</a></blockquote>
 
+　西の方に3つサテライト会場を用意いただけたので、バランスを取るために本会場は北海道にでも移動せねばならんかななどと考えていますが、考えているだけです。そういえば、昔、白装束で日本中を移動している宗教団体がありましたね。シェル芸電磁波とか言ってましたっけ。
 
-ということで、よろしくお願いいたしますですですdeathです。
+　ということで、よろしくお願いいたしますですですdeathです。
