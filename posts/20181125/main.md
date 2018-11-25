@@ -13,7 +13,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-　東京、大阪、福岡会場の申し込みはこちらから。
+　東京、福岡、大阪会場の申し込みはこちらから。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">第39回 暖房なし終夜運転JR駅待合室で凍えて年を越したりしないでね年末シェル芸勉強会に申し込みました！ <a href="https://t.co/jiLd7XnfkS">https://t.co/jiLd7XnfkS</a> &#39; <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; ヘキソミノ (@Hexomino) <a href="https://twitter.com/Hexomino/status/1066201736312840193?ref_src=twsrc%5Etfw">November 24, 2018</a></blockquote>
 
