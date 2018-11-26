@@ -115,10 +115,3 @@ Copyright: (C) 2018 Ryuichi Ueda
 ## 参考文献
 
 * [佐藤2018] 佐藤大亮: 確率ロボティクスのアルゴリズム理解を助けるオープンアクセスなサンプルコードと解説の作成, 平成29年度卒業論文, 千葉工業大学.
-
-3)	Raspberry Pi: https://www.raspberrypi.org/
-(last visit: 2018-11-06)
-4)	ROS: http://www.ros.org/ (last visit: 2018-11-06)
-5)	GitHub: https://github.com/ (last visit: 2018-11-06)
-7)	Jupyter Notebook: http://jupyter.org/ (last visit: 2018-11-06)
-
