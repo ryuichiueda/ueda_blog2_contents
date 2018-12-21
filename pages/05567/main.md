@@ -18,7 +18,7 @@ $ w3m 'https://b.ueda.tech/?page=05567' -dump | grep '^[0-9]' | awk '{print $3}'
 
 |回       |年月    |人数   |根拠                   |
 |---------|--------|------:|:----------------------|
-|38回     |201811  |38     |東京(26)（会計から）、[大阪](https://horo1717.hatenablog.com/entry/2018/11/18/141738)(8)（soさん）、[福岡](https://atnd.org/events/101221)（4）（papironさん）  |
+|38回     |201811  |37     |東京(26)（会計から）、[大阪](https://horo1717.hatenablog.com/entry/2018/11/18/141738)(8)（soさん）、[福岡](http://papiro.hatenablog.jp/entry/2018/11/10/231634)（3）（papironさん）  |
 |37回     |201809  |39     |東京(21)（会計から）、[大阪](https://horo1717.hatenablog.com/entry/2018/09/02/164711)(10)（soさん）、[福岡](http://papiro.hatenablog.jp/entry/2018/09/04/233045)（8）（papironさん）  |
 |36回     |201807  |38     |東京(38)（会計から）|
 |35回     |201804  |37     |[大阪](https://atnd.org/events/95749)(10)（参加登録から）、東京(27)（会計から）|
