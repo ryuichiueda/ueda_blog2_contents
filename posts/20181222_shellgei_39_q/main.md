@@ -16,7 +16,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 ## Q1
 
-つぎのマークダウンの原稿は、画像やURLのリンク方法が間違っています。修正してください。一般解は考えなくていいです。
+つぎのマークダウンの原稿`wrong.md`は、画像やURLのリンク方法が間違っています。修正してください。一般解は考えなくていいです。
 （例: `![fig5.png](図5)` を`![図5](fig5.png)に変換`）
 
 ```wrong.md
@@ -36,7 +36,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 ## Q2
 
-次のファイルについて、34回から38回の順に並び替え、さらに各回のデータを福岡、大阪、東京の順に並び替えてください。
+次のファイル`attendee.md`について、34回から38回の順に並び替え、さらに各回のデータを福岡、大阪、東京の順に並び替えてください。
 
 ```attendee.md
 
@@ -71,7 +71,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 ## Q4
 
-style要素を`index.css`、script要素を`index.js`ファイルに保存してください。タグは取り払ってください。適切な場所に改行が入っても構いません。無理にワンライナーでやる必要はありません。
+`index.html`のstyle要素を`index.css`、script要素を`index.js`ファイルに保存してください。タグは取り払ってください。適切な場所に改行が入っても構いません。無理にワンライナーでやる必要はありません。
 
 ```
 $ cat index.html | sed 's/<[^<]*>/\n&\n/g'  |
@@ -93,7 +93,7 @@ sed -i 's/<[^<]*>//' index.css index.js
 
 ## Q7
 
-次のマークダウンのテーブルについて、縦と横を入れ替えたマークダウンのテーブルを作ってください。
+次のマークダウンのテーブル`table.md`について、縦と横を入れ替えたマークダウンのテーブルを作ってください。
 
 ```table.md
 |回       |年月    |人数   |
