@@ -3,7 +3,7 @@ Keywords: プログラミング,勉強会,シェル芸,シェル芸勉強会
 Copyright: (C) 2018 Ryuichi Ueda
 ---
 
-# 【問題と解答】jus共催 第39回コートなしで自宅から締め出されたりしないでね年末シェル芸勉強会
+# 【問題のみ】jus共催 第39回コートなしで自宅から締め出されたりしないでね年末シェル芸勉強会
 
 * 問題で使われているデータファイルは[GitHub](https://github.com/ryuichiueda/ShellGeiData/tree/master/vol.39)にあります。クローンは以下のようにお願いします。
 
