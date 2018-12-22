@@ -115,4 +115,5 @@ sed -i 's/<[^<]*>//' index.css index.js
 ファイル`yabatanien`を使って、色を変えて次のように表示してみてください。色を厳密に合わせる必要はありません。
 
 ![](./yabatanien.mov)
+![](./yabatanien.gif)
 
