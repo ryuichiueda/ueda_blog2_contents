@@ -14,6 +14,11 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 * 環境: 解答例はUbuntu Linux 18.04 で作成。Macの場合はcoreutilsをインストールすると、GNUのコマンドが使えます。BSD系の人は玄人なので各自対応のこと。
 
+## 冒頭スライド
+
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/23Ew0DF5ieMm9K" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ryuichiueda/39-126575695" title="第39回シェル芸勉強会冒頭スライド" target="_blank">第39回シェル芸勉強会冒頭スライド</a> </strong> from <strong><a href="https://www.slideshare.net/ryuichiueda" target="_blank">Ryuichi Ueda</a></strong> </div>
+
 ## Q1
 
 つぎのマークダウンの原稿`wrong.md`は、画像やURLのリンク方法が間違っています。修正してください。一般解は考えなくていいです。
@@ -127,6 +132,10 @@ script要素内に`<`がひとつ居るので、`<script[^<]*>[^<]*</script>`だ
 $ cat index.html | sed -z 's;<script[^<]*>[^>]*</script>;;g' |
 sed -z 's;<style[^<]*>[^<]*</style>;;g' > index.no_cssjs.html
 ```
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">% perl -0pe &#39;s/&lt;(script|style).*?&gt;.*?&lt;\/(script|style)&gt;//gs&#39; index.html &gt; index_no_cssjs.html<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; eban (@eban) <a href="https://twitter.com/eban/status/1076354069256491008?ref_src=twsrc%5Etfw">December 22, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## Q6
 
