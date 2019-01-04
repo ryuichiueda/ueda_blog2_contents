@@ -126,6 +126,10 @@ Copyright: (C) Ryuichi Ueda
 
 <h2><a name="proceedings"></a>査読つき講演論文</h2>
 
+### 2019
+
+* 齊藤 篤志, 上田 隆一: Particle Filter on Episodeにおける尤度関数の自動決定, 第24回ロボティクスシンポジア, 富山, 2019. (to appear)
+
 ### 2018
 
 * Ryuichi Ueda, Masahiro Kato, Atsushi Saito, Ryo Okazaki: Teach-and-Replay of Mobile Robot with Particle Filter on Episode, Proc. of IEEE International Conference on Robotics and Automation, pp.3475-3481, Brisbane, Australia, 2018.
