@@ -12,12 +12,20 @@ Copyright: (C) 2018 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">2月号は strace(1) でシステムコールと握手！ <a href="https://twitter.com/hashtag/SoftwareDesign?src=hash&amp;ref_src=twsrc%5Etfw">#SoftwareDesign</a> <a href="https://t.co/PgWk0wFau4">pic.twitter.com/PgWk0wFau4</a></p>&mdash; くんすと (@kunst1080) <a href="https://twitter.com/kunst1080/status/1086970871678328833?ref_src=twsrc%5Etfw">January 20, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-　特集は「速いコードの書き方」とのことです。自分も大昔のCPUでサッカーロボットを動かしていた身として、速いコードを書くのには自信があり、ICRAで「そんなに速く演算できるわけがない。嘘だ！」とフランスのにーちゃんから問い詰められた経験もあったりします。が、USP社で[片山さん](https://www.amazon.co.jp/dp/4904807057)と一緒に仕事をして、あまり外で自信があるとか言わなくなりました。[ビジョンチップに搭載するコンパイラを書いた人です](https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_action_common_download&item_id=18231&item_no=1&attribute_id=1&file_no=1)。
+　特集は「速いコードの書き方」とのことです。
 
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr">yes <a href="https://t.co/mMsGXW8jKq">pic.twitter.com/mMsGXW8jKq</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1086968247281315840?ref_src=twsrc%5Etfw">January 20, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+　自分も大昔のCPUでサッカーロボットを動かしていた身として、速いコードを書くのには自信があり、ICRAで「そんなに速く演算できるわけがない。嘘だ！」とフランスのにーちゃんから問い詰められた経験もあったりします。が、USP社で[片山さん](https://amzn.to/2RGamZJ)と一緒に仕事をして、あまり外で自信があるとか言わなくなりました。[ビジョンチップに搭載するコンパイラを書いた人です](https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_action_common_download&item_id=18231&item_no=1&attribute_id=1&file_no=1)。・・・って書いてたら片山さんの記事もあるっぽいです。びっくり。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">おおお片山さんだ！ <a href="https://twitter.com/hashtag/gihyosd?src=hash&amp;ref_src=twsrc%5Etfw">#gihyosd</a> <a href="https://t.co/lSYT8Pr30W">pic.twitter.com/lSYT8Pr30W</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1086981020170149889?ref_src=twsrc%5Etfw">January 20, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+これは読むしかない。
 
 
 ## 2月のシェル芸勉強会は16日（光明星節&私の誕生日）
@@ -48,3 +56,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 
 以上です。これから寝ないで執筆・・・。
+
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="" target="_blank" ><img src="https://thumbnail.image.rakuten.co.jp/ran/img/2001/0009/784/904/807/057/20010009784904807057_1.jpg?_ex=320x320" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="" target="_blank" >Ｃプログラム高速化研究班 コ-ドを高速化する２０の実験と達人の技  /ＵＳＰ研究所/片山善夫</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="https://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;"></div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin:5px 0"><a href="https://www.amazon.co.jp/gp/search?keywords=C%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E9%AB%98%E9%80%9F%E5%8C%96%E7%A0%94%E7%A9%B6%E7%8F%AD&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=ryuichiueda-22" target="_blank" >Amazonで見る</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
+
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="https://hb.afl.rakuten.co.jp/hgc/g0000015.awxh2d4b.g0000015.awxh36b1/kaereba_main_201901202237331133?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F3d12a0a3d368dbe4dddf2f4254f1f793%2F&m=http%3A%2F%2Fm.product.rakuten.co.jp%2Fproduct%2F3d12a0a3d368dbe4dddf2f4254f1f793%2F" target="_blank" ><img src="https://thumbnail.image.rakuten.co.jp/ran/img/1001/0004/910/058/270/293/10010004910058270293_1.jpg?_ex=320x320" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="https://hb.afl.rakuten.co.jp/hgc/g0000015.awxh2d4b.g0000015.awxh36b1/kaereba_main_201901202237331133?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F3d12a0a3d368dbe4dddf2f4254f1f793%2F&m=http%3A%2F%2Fm.product.rakuten.co.jp%2Fproduct%2F3d12a0a3d368dbe4dddf2f4254f1f793%2F" target="_blank" >Software Design (ソフトウェア デザイン) 2019年 02月号 雑誌 /技術評論社</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="https://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;"></div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin:5px 0"><a href="https://www.amazon.co.jp/gp/search?keywords=%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%202019%E5%B9%B42%E6%9C%88%E5%8F%B7&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=ryuichiueda-22" target="_blank" >Amazonで見る</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
