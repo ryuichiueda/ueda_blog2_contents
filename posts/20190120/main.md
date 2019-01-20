@@ -19,7 +19,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-　自分も大昔のCPUでサッカーロボットを動かしていた身として、速いコードを書くのには自信があり、ICRAで「そんなに速く演算できるわけがない。嘘だ！」とフランスのにーちゃんから問い詰められた経験もあったりします。が、USP社で[片山さん](https://amzn.to/2RGamZJ)と一緒に仕事をして、あまり外で自信があるとか言わなくなりました。[ビジョンチップに搭載するコンパイラを書いた人です](https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_action_common_download&item_id=18231&item_no=1&attribute_id=1&file_no=1)。・・・って書いてたら片山さんの記事もあるっぽいです。びっくり。
+　自分も大昔のCPUでサッカーロボットを動かしていた身として、速いコードを書くのには自信があり、某国際学会（ICRA）で「そんなに速く演算できるわけがない。嘘だ！」とフランスのにーちゃんから問い詰められた経験もあったりします。が、USP社で[片山さん](https://amzn.to/2RGamZJ)と一緒に仕事をして、あまり外で自信があるとか言わなくなりました。[ビジョンチップに搭載するコンパイラを書いた人です](https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_action_common_download&item_id=18231&item_no=1&attribute_id=1&file_no=1)。・・・って書いてたら片山さんの記事もあるっぽいです。びっくり。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">おおお片山さんだ！ <a href="https://twitter.com/hashtag/gihyosd?src=hash&amp;ref_src=twsrc%5Etfw">#gihyosd</a> <a href="https://t.co/lSYT8Pr30W">pic.twitter.com/lSYT8Pr30W</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1086981020170149889?ref_src=twsrc%5Etfw">January 20, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
