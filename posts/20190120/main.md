@@ -7,10 +7,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ## Software Design発売
 
-　2月号が発売されてます。シェル芸人からの挑戦状は
-「straceを使いこなす」ということで、
-かなりシェル芸流に使いこなしていますのでぜひ一家に一台、
-一人一殺でお願いいたします。
+　2月号が発売されてます。シェル芸人からの挑戦状は「straceを使いこなす」ということで、かなりシェル芸流に使いこなしていますのでぜひ一家に一台、一人一殺でお願いいたします。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr">yes <a href="https://t.co/mMsGXW8jKq">pic.twitter.com/mMsGXW8jKq</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1086968247281315840?ref_src=twsrc%5Etfw">January 20, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -23,7 +20,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ## 2月のシェル芸勉強会は16日（光明星節&私の誕生日）
 
-不敬にあたるので、流石に募集ページでは自分の誕生日と言わず将軍様の誕生日と言ってます。光明星節のインパクトがデカすぎて40回記念大会ということがうやむやになってますが、北朝鮮だろうが40回だろうが、やることはいつもと一緒です。
+　不敬にあたるので、流石に募集ページでは自分の誕生日と言わず将軍様の誕生日と言ってます。光明星節のインパクトがデカすぎて40回記念大会ということがうやむやになってますが、北朝鮮だろうが40回だろうが、やることはいつもと一緒です。
 
 
 https://usptomo.doorkeeper.jp/events/86038
@@ -33,13 +30,13 @@ https://usptomo.doorkeeper.jp/events/86038
 
 ## ロボティクスシンポジアでLT大会やります（3月、富山）
 
-企画倒れとなった第1回、非常に盛り上がった第2回を経て、今年は真価を問われる3回目です。
+　企画倒れとなった第1回、非常に盛り上がった第2回を経て、今年は真価を問われる3回目です。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">今年もロボティクスシンポジアでLT大会しますよーーーーー！！！！！１１１１<br><br>ネタ持ってきてくださーい！<br><br>ONS2ロボティクスシンポジア第3回 Lightning Talk 大会<br>司会・モデレータ：上田隆一（千葉工業大学）<a href="https://t.co/K7twN3sFUA">https://t.co/K7twN3sFUA</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1086969375398088704?ref_src=twsrc%5Etfw">January 20, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-なんだかよく分からないと思いますので、去年の様子はこちらから察していただければと。ネタを持ち寄りプレゼンするだけですし、もしスベっても私の司会でなんとかしますので、お気軽に手をあげていただければと。募集ページは作るつもりですが飛び込みでも大丈夫です。
+　LTがなんたるかを知らない人はよく分からないと思いますので、去年の様子はこちらから察していただければと。ネタを持ち寄りプレゼンするだけです。もしスベっても私の司会でなんとかしますので、お気軽に手をあげていただければと。募集ページは作るつもりですが飛び込みでも大丈夫です。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">昨年の模様です。 | ロボティクスシンポジア第2回Lightning Talk大会 - Togetter <a href="https://t.co/ZKNpFqYeKl">https://t.co/ZKNpFqYeKl</a> <a href="https://twitter.com/togetter_jp?ref_src=twsrc%5Etfw">@togetter_jp</a>さんから</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1086971984876003329?ref_src=twsrc%5Etfw">January 20, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
