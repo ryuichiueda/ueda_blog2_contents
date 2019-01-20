@@ -30,7 +30,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ## 2月のシェル芸勉強会は16日（光明星節&私の誕生日）
 
-　不敬にあたるので、流石に募集ページでは自分の誕生日と言わず将軍様の誕生日と言ってます。光明星節のインパクトがデカすぎて40回記念大会ということがうやむやになってますが、北朝鮮だろうが40回だろうが、やることはいつもと一緒です。
+　不敬にあたるので、流石に募集ページでは自分の誕生日と言わず将軍様の誕生日と言ってます。光明星節のインパクトがデカすぎて40回記念大会ということがうやむやになってますが、北朝鮮だろうが40回だろうが誕生日だろうが、やることはいつもと一緒です。そういえば勉強会にバースデーケーキ入刀して（以下自粛）
 
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">面白そう /<br>jus共催 第40回記念光明⭐️節シェル芸勉強会 <a href="https://t.co/Xp0liS3dpM">https://t.co/Xp0liS3dpM</a></p>&mdash; おれたま (@AHA_oretama) <a href="https://twitter.com/AHA_oretama/status/1086895056399753216?ref_src=twsrc%5Etfw">January 20, 2019</a></blockquote>
