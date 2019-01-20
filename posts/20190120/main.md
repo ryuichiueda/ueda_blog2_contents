@@ -34,7 +34,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ## ロボティクスシンポジアでLT大会やります（3月、富山）
 
-　企画倒れとなった第1回、非常に盛り上がった第2回を経て、今年は真価を問われる3回目です。
+　企画倒れとなった第1回、非常に盛り上がった第2回を経て、今年は真価を問われる3回目です。私の地元で再度企画倒れは避けたいところ。よろしくお願いいたします。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">今年もロボティクスシンポジアでLT大会しますよーーーーー！！！！！１１１１<br><br>ネタ持ってきてくださーい！<br><br>ONS2ロボティクスシンポジア第3回 Lightning Talk 大会<br>司会・モデレータ：上田隆一（千葉工業大学）<a href="https://t.co/K7twN3sFUA">https://t.co/K7twN3sFUA</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1086969375398088704?ref_src=twsrc%5Etfw">January 20, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -47,4 +47,4 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 
 
-以上、よろしくお願いいたします。
+以上です。これから寝ないで執筆・・・。
