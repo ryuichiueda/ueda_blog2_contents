@@ -40,7 +40,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-　LTがなんたるかを知らない人はよく分からないと思いますので、去年の様子はこちらから察していただければと。ネタを持ち寄りプレゼンするだけです。もしスベっても私の司会でなんとかしますので、お気軽に手をあげていただければと。募集ページは作るつもりですが飛び込みでも大丈夫です。
+　[LT](https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%88%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%88%E3%83%BC%E3%82%AF)がなんたるかを知らない人はよく分からないと思いますので、去年の様子はこちらから察していただければと。ネタを持ち寄りプレゼンするだけです。もしスベっても私の司会でなんとかしますので、お気軽に手をあげていただければと。募集ページは作るつもりですが飛び込みでも大丈夫です。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">昨年の模様です。 | ロボティクスシンポジア第2回Lightning Talk大会 - Togetter <a href="https://t.co/ZKNpFqYeKl">https://t.co/ZKNpFqYeKl</a> <a href="https://twitter.com/togetter_jp?ref_src=twsrc%5Etfw">@togetter_jp</a>さんから</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1086971984876003329?ref_src=twsrc%5Etfw">January 20, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
