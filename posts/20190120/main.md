@@ -9,13 +9,15 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 　2月号が発売されてます。シェル芸人からの挑戦状は「straceを使いこなす」ということで、かなりシェル芸流に使いこなしていますのでぜひ一家に一台、一人一殺でお願いいたします。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr">yes <a href="https://t.co/mMsGXW8jKq">pic.twitter.com/mMsGXW8jKq</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1086968247281315840?ref_src=twsrc%5Etfw">January 20, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">2月号は strace(1) でシステムコールと握手！ <a href="https://twitter.com/hashtag/SoftwareDesign?src=hash&amp;ref_src=twsrc%5Etfw">#SoftwareDesign</a> <a href="https://t.co/PgWk0wFau4">pic.twitter.com/PgWk0wFau4</a></p>&mdash; くんすと (@kunst1080) <a href="https://twitter.com/kunst1080/status/1086970871678328833?ref_src=twsrc%5Etfw">January 20, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-システムコールと握手！ガードレールにキス！
+　特集は「速いコードの書き方」ということで、自分も大昔のCPUでサッカーロボットを動かしていた身として、速いコードを書くのには自信があり、ICRAで「そんなに速く演算できるわけがない。嘘だ！」とフランスのにーちゃんから問い詰められた経験もあったりします。が、USP社で[片山さん](https://www.amazon.co.jp/dp/4904807057)と一緒に仕事をして、あまり外で自信があるとか言わなくなりました。[ビジョンチップに搭載するコンパイラを書いた人です](https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_action_common_download&item_id=18231&item_no=1&attribute_id=1&file_no=1)。
+
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr">yes <a href="https://t.co/mMsGXW8jKq">pic.twitter.com/mMsGXW8jKq</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1086968247281315840?ref_src=twsrc%5Etfw">January 20, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
 ## 2月のシェル芸勉強会は16日（光明星節&私の誕生日）
