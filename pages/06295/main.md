@@ -8,6 +8,13 @@ Copyright: (C) Ryuichi Ueda
 
 <table>
  <tr>
+ <td>p.161〜227</td>
+ <td>Mar</td>
+ <td>May</td>
+ <td>読者様（編集者経由）</td>
+ <td>5月を表すMayがすべてMarになってました・・・（2ヶ月ずらしてしまうポカをよくやってしまいます・・・）</td>
+ </tr>
+ <tr>
  <td>p.163本文下から3行目</td>
  <td>shのオプション</td>
  <td>dayslashのオプション</td>
