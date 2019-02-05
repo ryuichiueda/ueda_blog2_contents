@@ -666,7 +666,7 @@ Proc. of IEEE International Conference on Robotics and Automation, pp. 1353-1358
 &nbsp;
 <h2><a name="theses"></a>学位論文</h2>
 <ul>
- 	<li>四脚ロボットによるサッカー行動生成のための局所環境認識,
+ 	<li><a href="ueda_graduate_thesis.pdf">四脚ロボットによるサッカー行動生成のための局所環境認識,</a>
 平成12年度東京大学精密機械工学科卒業論文, 2001.</li>
  	<li><a href="ueda_master_2003.pdf">実世界における移動ロボットのための環境の変化に強い自己位置推定と行動決定,</a>
 平成14年度東京大学大学院工学系研究科精密機械工学専攻修士論文, 2003.</li>
