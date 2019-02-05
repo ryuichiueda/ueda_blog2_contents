@@ -665,14 +665,12 @@ Proc. of IEEE International Conference on Robotics and Automation, pp. 1353-1358
 </ul>
 &nbsp;
 <h2><a name="theses"></a>学位論文</h2>
-<ul>
- 	<li><a href="ueda_graduate_thesis.pdf">四脚ロボットによるサッカー行動生成のための局所環境認識,</a>
-平成12年度東京大学精密機械工学科卒業論文, 2001.</li>
- 	<li><a href="ueda_master_2003.pdf">実世界における移動ロボットのための環境の変化に強い自己位置推定と行動決定,</a>
-平成14年度東京大学大学院工学系研究科精密機械工学専攻修士論文, 2003.</li>
- 	<li><a href="https://repository.dl.itc.u-tokyo.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=2766&item_no=1&page_id=28&block_id=31">State-Action Map Compression by using Vector Quantization for Decision Making of Autonomous Robots,</a>
-Ph. D. Thesis, University of Tokyo, 2007.</li>
-</ul>
+
+* <a href="ueda_graduate_thesis.pdf">四脚ロボットによるサッカー行動生成のための局所環境認識, </a>平成12年度東京大学精密機械工学科卒業論文, 2001.
+* <a href="ueda_master_2003.pdf">実世界における移動ロボットのための環境の変化に強い自己位置推定と行動決定,</a> 平成14年度東京大学大学院工学系研究科精密機械工学専攻修士論文, 2003.
+* <a href="https://repository.dl.itc.u-tokyo.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=2766&item_no=1&page_id=28&block_id=31">State-Action Map Compression by using Vector Quantization for Decision Making of Autonomous Robots,</a> Ph. D. Thesis, University of Tokyo, 2007.
+
+
 <h2><a name="bulletin"></a>紀要</h2>
 <ul>
 <ul>
