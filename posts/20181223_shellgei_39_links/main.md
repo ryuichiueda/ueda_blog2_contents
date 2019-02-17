@@ -74,3 +74,12 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 
 ## ブログ
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">高崎ハムのサイトにはベーコンとウインナーを使った2種類のジャーマンポテトのレシピがありますが、私はウインナー派です。 <a href="https://twitter.com/hashtag/%E3%81%A9%E3%81%86%E3%81%A7%E3%82%82%E3%81%84%E3%81%84?src=hash&amp;ref_src=twsrc%5Etfw">#どうでもいい</a><br>冬休みの宿題として「第39回シェル芸勉強会」の問題を解いてみた - KEEP CALM AND rm -rf /* <a href="https://t.co/ZnMXJz2CNX">https://t.co/ZnMXJz2CNX</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; 日柳 光久 (@mikkun_jp) <a href="https://twitter.com/mikkun_jp/status/1083066064496340992?ref_src=twsrc%5Etfw">January 9, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ブログを書いた<br>jus共催 第39回年末シェル芸勉強会 と SECCON 2018 Akihabara に参加しました - A painter and a black cat <a href="https://t.co/j1O1zttyxs">https://t.co/j1O1zttyxs</a></p>&mdash; kanata (@kanata201612) <a href="https://twitter.com/kanata201612/status/1077084747682045952?ref_src=twsrc%5Etfw">December 24, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
