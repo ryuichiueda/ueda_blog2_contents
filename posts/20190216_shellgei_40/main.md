@@ -58,7 +58,7 @@ grep -v -F . | awk '{print $1,$2}'
 ### 解答例
 
 ```
-$ echo -e Asia/Tokyo\\nAsia/Tehran |
+$ echo -e Asia/Pyongyang\\nAsia/Tehran |
 while read a ; do TZ=$a date +%:z ; done |
 sed -e 's/:00/.0/' -e 's/:30/.5/' |
 sed 's/0//' | xargs | awk '{print $1-$2}'
