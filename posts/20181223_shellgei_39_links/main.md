@@ -16,7 +16,12 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ## サテライトの様子
 
-お待ちしております。
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました<br>第39回シェル芸勉強会大阪サテライトへ参加してきました - たいちょーの雑記 <a href="https://t.co/19JsL3790o">https://t.co/19JsL3790o</a> <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1078303491657916416?ref_src=twsrc%5Etfw">December 27, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">遅くなりましたが、書きました！<br>「第39回シェル芸勉強会 福岡サテライト長崎分室」レポート <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><a href="https://t.co/dlmM56FwBF">https://t.co/dlmM56FwBF</a></p>&mdash; yegawa (@ega_wave) <a href="https://twitter.com/ega_wave/status/1094503579451195393?ref_src=twsrc%5Etfw">February 10, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## Twitterまとめ
 
