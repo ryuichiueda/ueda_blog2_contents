@@ -32,6 +32,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">本日のシェル芸勉強会の午前の部で使った資料はこちらです。<a href="https://t.co/vfxUbRuUkN">https://t.co/vfxUbRuUkN</a></p>&mdash; Hidekazu Toriumi (@hid_tori) <a href="https://twitter.com/hid_tori/status/1096783671317606400?ref_src=twsrc%5Etfw">2019年2月16日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+## 午後の部オープニングスライド
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/DSTimLy28BjGdk" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ryuichiueda/40-132098653" title="第40回シェル芸勉強会 午後の部オープニング" target="_blank">第40回シェル芸勉強会 午後の部オープニング</a> </strong> from <strong><a href="https://www.slideshare.net/ryuichiueda" target="_blank">Ryuichi Ueda</a></strong> </div>
 
 ## YouTube
 
