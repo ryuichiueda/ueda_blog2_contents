@@ -47,6 +47,14 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ### 午後
 
+撮影機器が不安定でちょっと乱れました。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_gUu06d9yE8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BujKpaX12mg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yl75W17JCkk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### LT
 
 東京でのLT資料です。
