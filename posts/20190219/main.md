@@ -9,7 +9,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## 1. 初めてウェブの記事を書きました
 
-Macでシェルを使おうという趣旨の記事を書きました。
+Macでシェルを使おうという趣旨の記事を書きました。ずっと書きたかったもので、これでシェルを使える人が一人でも増えればと願ってます。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">新着入りましたー（書いたらバズらせねばという力みが・・・）<a href="https://t.co/3FIppG0IuR">https://t.co/3FIppG0IuR</a> <a href="https://t.co/FprgGCxl28">pic.twitter.com/FprgGCxl28</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1097844951612678145?ref_src=twsrc%5Etfw">February 19, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
