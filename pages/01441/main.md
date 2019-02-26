@@ -50,6 +50,15 @@ Copyright: (C) Ryuichi Ueda
 <td></td>
 </tr>
 
+<tr>
+<td>497</td>
+<td>式(16.8)の2,3行目</td>
+<td>p(z|b)</td>
+<td>p(z|u,b)</td>
+<td> <a href="https://twitter.com/blue_standard2">@blue_standard2<a/>さん、
+@has_eeicさん</td>
+<td></td>
+
 </table>
 
 
