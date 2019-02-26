@@ -21,6 +21,7 @@ Copyright: (C) Ryuichi Ueda
 <th>貢献者</th>
 <th style="width:40%">備考（言いわけ）</th>
 </tr>
+
 <tr>
 <td>57</td>
 <td>式(3.64)</td>
@@ -29,6 +30,7 @@ Copyright: (C) Ryuichi Ueda
 <td>上田</td>
 <td></td>
 </tr>
+
 <tr>
 <td>176</td>
 <td>7.3の4-5行目</td>
@@ -37,6 +39,16 @@ Copyright: (C) Ryuichi Ueda
 <td></td>
 <td>コピペはいけませんね・・・</td>
 </tr>
+
+<tr>
+<td>479</td>
+<td>式(15.51)の直前の説明</td>
+<td>b'のj番目のパラメータは</td>
+<td>Bのj番目のパラメータは</td>
+<td> <a href="blue_standard2">@blue_standard2<a/>さん</td>
+<td></td>
+</tr>
+
 </table>
 
 
