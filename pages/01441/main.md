@@ -45,7 +45,8 @@ Copyright: (C) Ryuichi Ueda
 <td>式(15.51)の直前の説明</td>
 <td>b'のj番目のパラメータは</td>
 <td>Bのj番目のパラメータは</td>
-<td> <a href="https://twitter.com/blue_standard2">@blue_standard2<a/>さん</td>
+<td> <a href="https://twitter.com/blue_standard2">@blue_standard2<a/>さん、
+@has_eeicさん</td>
 <td></td>
 </tr>
 
