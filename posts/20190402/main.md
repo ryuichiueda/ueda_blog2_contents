@@ -34,6 +34,8 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 シェル芸人からの挑戦状、連載中でっす。よろしくお願いします。
 
+* [ソフトウェアデザイン 2019年4月号](https://amzn.to/2UsJhcV)
+
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">Software Design 2019年4月号「シェル芸人からの挑戦状」は、先月号に引き続きbash自体の機能が題材。シェルに秘められし能力が解放されるぞッッッ！！！ <a href="https://t.co/a9TyhsflkI">https://t.co/a9TyhsflkI</a> <a href="https://twitter.com/hashtag/gihyosd?src=hash&amp;ref_src=twsrc%5Etfw">#gihyosd</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; ぱぴろんちゃん👓 (@papiron) <a href="https://twitter.com/papiron/status/1107490284378558464?ref_src=twsrc%5Etfw">March 18, 2019</a></blockquote>
 
 
