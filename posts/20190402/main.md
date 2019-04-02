@@ -35,8 +35,22 @@ Copyright: (C) 2019 Ryuichi Ueda
 シェル芸人からの挑戦状、連載中でっす。よろしくお願いします。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">Software Design 2019年4月号「シェル芸人からの挑戦状」は、先月号に引き続きbash自体の機能が題材。シェルに秘められし能力が解放されるぞッッッ！！！ <a href="https://t.co/a9TyhsflkI">https://t.co/a9TyhsflkI</a> <a href="https://twitter.com/hashtag/gihyosd?src=hash&amp;ref_src=twsrc%5Etfw">#gihyosd</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; ぱぴろんちゃん👓 (@papiron) <a href="https://twitter.com/papiron/status/1107490284378558464?ref_src=twsrc%5Etfw">March 18, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+## 何かが韓国語に翻訳された
+
+計測制御自動学会で解説を書くと漏れなく韓国語に翻訳されて韓国で公開されるそうで、その完成原稿が届きました。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">わからんぞい <a href="https://t.co/rZBXFm0tkp">pic.twitter.com/rZBXFm0tkp</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1112720716632186881?ref_src=twsrc%5Etfw">2019年4月1日</a></blockquote>
+
+解読を試みていたところ、[@systemctl_ryoto](https://twitter.com/systemctl_ryoto)さんに助けていただいました。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ㅅはちょっと特殊で、上についてる時は「s」なんですが下についてるとたまに「t」の発音をします<br>なので「ろぼt」という発音です<br>多分想像されていたのは로보트で、こちらは「ろぼとぅ」の3音節版です</p>&mdash; Ryoto (@systemctl_ryoto) <a href="https://twitter.com/systemctl_ryoto/status/1112723038963822592?ref_src=twsrc%5Etfw">2019年4月1日</a></blockquote>
+
+今日も↓みたいなことがあったので、このままやってると令和114514年くらいにハングル読めるようになるような気がする。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">物理</p>&mdash; 치즈군★ (@_unstabler) <a href="https://twitter.com/_unstabler/status/1113075601361911810?ref_src=twsrc%5Etfw">April 2, 2019</a></blockquote>
 
 
 
-以上です。
+以上です。寝る。
