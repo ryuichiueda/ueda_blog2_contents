@@ -49,6 +49,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 今日も↓みたいなことがあったので、このままやってると令和114514年くらいにハングル読めるようになるような気がする。
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">何？何？？ <a href="https://t.co/nsxeqH5YZN">https://t.co/nsxeqH5YZN</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1113074949055381504?ref_src=twsrc%5Etfw">April 2, 2019</a></blockquote>
+
+
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">物理</p>&mdash; 치즈군★ (@_unstabler) <a href="https://twitter.com/_unstabler/status/1113075601361911810?ref_src=twsrc%5Etfw">April 2, 2019</a></blockquote>
 
 
