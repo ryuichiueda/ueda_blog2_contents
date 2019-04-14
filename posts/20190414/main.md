@@ -18,7 +18,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">か、完売しただと… <a href="https://twitter.com/hashtag/%E6%8A%80%E8%A1%93%E6%9B%B8%E5%85%B8?src=hash&amp;ref_src=twsrc%5Etfw">#技術書典</a> <a href="https://twitter.com/hashtag/%E9%9B%A3%E8%AA%AD%E5%8C%96%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#難読化シェル芸</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><br>せっかく来て頂いた方々申し訳ない…(&gt;&lt;)<br><br>amazonでも販売の予約をしておりますのでぜひ〜<br><br>難読化シェル芸の本(amazon予約)<a href="https://t.co/mQYj3ZMvQN">https://t.co/mQYj3ZMvQN</a> <a href="https://t.co/uybMENlqBq">https://t.co/uybMENlqBq</a></p>&mdash; kanata@技術書典6 こ21 (@kanata201612) <a href="https://twitter.com/kanata201612/status/1117299250797273089?ref_src=twsrc%5Etfw">April 14, 2019</a></blockquote>
 
 
-　技術書典では、他に[Egison](https://www.egison.org/)の本で[@grethlen](https://twitter.com/grethlen)さんがシェル芸のパートを書いたそうです。こちらはあまり事情がよくわかりませんが、実はご査読させていただきました。事前に宣伝しておけばよかったです。
+　技術書典では、他に[Egison](https://www.egison.org/)の本で[@grethlen](https://twitter.com/grethlen)さんがシェル芸のパートを書いたそうです。こちらはあまり事情がよくわかりませんが、実は査読させていただきました。事前に宣伝しておけばよかったです。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">技術書典6で販売する「Egison Journal Vol. 1」の目次です．<br>5人のEgisonistが寄稿してくれました！<br>それぞれの記事のテーマは開発史・シェル芸・自動定理証明・型システム・因数分解です．<a href="https://t.co/lRR0l0OL2A">https://t.co/lRR0l0OL2A</a> <a href="https://t.co/9ztJpWzdSJ">pic.twitter.com/9ztJpWzdSJ</a></p>&mdash; Egison@技術書典6 こ06 (@Egison_Lang) <a href="https://twitter.com/Egison_Lang/status/1113994752167276544?ref_src=twsrc%5Etfw">April 5, 2019</a></blockquote>
 
