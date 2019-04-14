@@ -22,6 +22,10 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">技術書典6で販売する「Egison Journal Vol. 1」の目次です．<br>5人のEgisonistが寄稿してくれました！<br>それぞれの記事のテーマは開発史・シェル芸・自動定理証明・型システム・因数分解です．<a href="https://t.co/lRR0l0OL2A">https://t.co/lRR0l0OL2A</a> <a href="https://t.co/9ztJpWzdSJ">pic.twitter.com/9ztJpWzdSJ</a></p>&mdash; Egison@技術書典6 こ06 (@Egison_Lang) <a href="https://twitter.com/Egison_Lang/status/1113994752167276544?ref_src=twsrc%5Etfw">April 5, 2019</a></blockquote>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">本日，技術書典6で販売した「Egison Journal Vol. 1」をBOOTHでも販売します．<br>よろしくお願いします！<a href="https://t.co/mzt7DQwTID">https://t.co/mzt7DQwTID</a></p>&mdash; Egison@技術書典6 こ06 (@Egison_Lang) <a href="https://twitter.com/Egison_Lang/status/1117397519032393728?ref_src=twsrc%5Etfw">April 14, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 
 ## 某町内会的なもの
 
