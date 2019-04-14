@@ -7,7 +7,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　しばらく毎日書くぞと宣言。
 
-## 難読化シェル芸完売だそうで
+## 難読化シェル芸完売
 
 　[技術書典](https://techbookfest.org/event/tbf06)にて、[@kanata201612](https://twitter.com/kanata201612)さんの難読化シェル芸本が完売だそうで、おめでとうございます。まだ行ったことないけど自分も本売りに行きたい・・・。
 
