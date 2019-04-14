@@ -41,6 +41,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　鉢植えに水をやっていなかったら陽のあたってない方の葉が全部落ちた。陽に当たっている方は落ちないんだからうまくでてきている。鉢植えの向きを変えて~~ハゲ~~葉の落ちた部分の芽を待つ。
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">食べて寝て、俺は牛になる。</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1117359227964575746?ref_src=twsrc%5Etfw">April 14, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
 寝る。
