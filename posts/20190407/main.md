@@ -14,7 +14,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## 告知
 
-入門！碁。
+入門！碁。自分に届いたら改めて告知します。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/gihyosd?src=hash&amp;ref_src=twsrc%5Etfw">#gihyosd</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> Software Design 2019年5月号「シェル芸人からの挑戦状」は、シグナルに関する問題です。プロセスに対して操作をするのはもちろん、こんなシグナルあったのか？という発見や、イベント発生時のコールバック処理みたいな事も出来ちゃいます。 <a href="https://t.co/O2GJ8YYMCv">https://t.co/O2GJ8YYMCv</a></p>&mdash; ぱぴろんちゃん👓 (@papiron) <a href="https://twitter.com/papiron/status/1118446873230991361?ref_src=twsrc%5Etfw">2019年4月17日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
