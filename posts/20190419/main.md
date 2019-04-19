@@ -24,7 +24,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## 今日のシェル芸
 
-　運営費交付金（国立大で*均等に*研究室に割り振られる予算）をAI研究（AIって何？）に集中するという、朝からバカじゃないのと思っちゃうニュースを見て。
+　運営費交付金（国立大で**均等に**研究室に割り振られる予算）をAI研究（AIって何？）に集中するという、朝からバカじゃないのと思っちゃうニュースを見て。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ウンコ <a href="https://t.co/H5kndUl9kF">https://t.co/H5kndUl9kF</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1119029469719568384?ref_src=twsrc%5Etfw">2019年4月19日</a></blockquote>
 
