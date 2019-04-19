@@ -7,7 +7,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　眠い。
 
-## SoftwareDesign 5月号
+## [SoftwareDesign](https://amzn.to/2Pjl2Jp) 5月号
 
 　今回はナベってます。明日も小出しに宣伝予定。書店にGo！
 
