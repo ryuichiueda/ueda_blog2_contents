@@ -28,7 +28,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ウンコ <a href="https://t.co/H5kndUl9kF">https://t.co/H5kndUl9kF</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1119029469719568384?ref_src=twsrc%5Etfw">2019年4月19日</a></blockquote>
 
-自分は私立大なので関係ないっす。でも高値掴みが大好きな行政が心配です。
+自分は私立大なので関係ないっす。でも高値掴みが大好きな行政が心配です。政府に関係する機関が日本株買い占めてるので余計心配です。
 
 
 寝る。
