@@ -50,4 +50,11 @@ $ echo 千葉県 | mecab -Owakati | ke2daira | tr -d ' ' | nkf -h
 ```
 
 
-以上。これからシェル芸botに採用してもらうんだ・・・。でも眠い。
+　以上。これからシェル芸botに採用してもらうんだ・・・。でも眠い。
+
+
+　追伸: シェル芸botに組み込んでもらえました！インパクトファクター高い！
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">しりもんいち <a href="https://t.co/5Wbp5SNaFP">https://t.co/5Wbp5SNaFP</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1119602324983259136?ref_src=twsrc%5Etfw">2019年4月20日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
