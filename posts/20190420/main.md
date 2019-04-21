@@ -10,7 +10,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ケツダイラコマンド整備中。家族に昼食を作るために中断。<a href="https://t.co/JW0E9KZZGD">https://t.co/JW0E9KZZGD</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1119430303108304898?ref_src=twsrc%5Etfw">2019年4月20日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-あと、Goはびっくりするぐらい分かりやすかったし、スクリプト言語としてもコンパイル言語としても動くのでちょっと力入れて勉強しようと思います。すぐ習得できそうですが。
+　Goはびっくりするぐらい分かりやすかったし、スクリプト言語としてもコンパイル言語としても動くのでちょっと力入れて勉強しようと思います。すぐ習得できそうですが。
 
 
 
