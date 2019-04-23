@@ -11,7 +11,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## シェル芸勉強会まだ募集中
 
-　まだお席ありまぁす！シェル芸細胞はありまぁせん！
+　次の土曜日です！まだお席ありまぁす！シェル芸細胞はありまぁせん！
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">連休の出鼻をくじかれたい人！参加！参加！ | jus共催 第41回{ウン,ガク,}{チ,ト,}{,ン}{,コイン}{ブ,}{ラブラ,ハ,}{,イブ}{無,有}罪シェル芸勉強会 <a href="https://t.co/UUyUwnRi8Q">https://t.co/UUyUwnRi8Q</a> <a href="https://t.co/8qpvaUL5Uj">https://t.co/8qpvaUL5Uj</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1120693209540096000?ref_src=twsrc%5Etfw">April 23, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
