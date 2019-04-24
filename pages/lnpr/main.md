@@ -4,6 +4,12 @@ Copyright: (C) Ryuichi Ueda
 
 # 実習確率ロボティクス（仮題）
 
+## リポジトリ一覧
+
+* コード（書籍を読む時に使うもの）: https://github.com/ryuichiueda/LNPR_BOOK_CODES
+* コード（完成品・改良版）: https://github.com/ryuichiueda/LNPR
+* 講義用スライド: https://github.com/ryuichiueda/LNPR_SLIDES
+
 ## 講義用スライド
 
 * リポジトリ: https://github.com/ryuichiueda/LNPR_SLIDES
