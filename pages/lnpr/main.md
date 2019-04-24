@@ -6,8 +6,9 @@ Copyright: (C) Ryuichi Ueda
 
 ## 講義用スライド
 
-以下を組み合わせて使います。
+* リポジトリ: https://github.com/ryuichiueda/LNPR_SLIDES
 
+以下を組み合わせて使います。
 
 ### 10分バージョン
 
