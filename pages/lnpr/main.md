@@ -15,5 +15,5 @@ Copyright: (C) Ryuichi Ueda
 
 ### 30分バージョン
 
-* 2. [確率統計の基礎](https://ryuichiueda.github.io/LNPR_SLIDES/30min/chap2_30min.html)
-* 4. [不確かさのモデル化](https://ryuichiueda.github.io/LNPR_SLIDES/30min/chap4_30min.html)
+* [2. 確率統計の基礎](https://ryuichiueda.github.io/LNPR_SLIDES/30min/chap2_30min.html)
+* [4. 不確かさのモデル化](https://ryuichiueda.github.io/LNPR_SLIDES/30min/chap4_30min.html)
