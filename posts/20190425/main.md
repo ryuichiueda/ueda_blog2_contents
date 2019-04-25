@@ -16,7 +16,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 昼の時点で1人（つまり主催者の[@ega_wave](https://twitter.com/ega_wave)さんだけ！）という状況だったんですが、夜見たら2人になっててちょっとホッとしました。
 
-　で、お詫びなんだか長崎に行ったことないからなんだか真相は闇ですが、こんなことを言いました。
+　で、お詫びなんだか長崎に行ったことないからなんだか真相は闇ですが、こんなことを言いました。なんとか年内には・・・
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">お詫びにいつかそちらに行きます！いつか！！</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1121264719736688640?ref_src=twsrc%5Etfw">2019年4月25日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -25,4 +25,4 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ynJWpwn5-Hk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-昭和の歌謡曲は落ち着く。寝る。
+昭和の歌謡曲は落ち着きますね。寝る。
