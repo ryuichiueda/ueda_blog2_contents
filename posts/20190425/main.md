@@ -25,4 +25,4 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ynJWpwn5-Hk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-寝る。
+昭和の歌謡曲は落ち着く。寝る。
