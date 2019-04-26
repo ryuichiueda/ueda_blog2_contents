@@ -31,7 +31,11 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">新習志野までバスで行って5分x2回のスピーチして「下ネタ好きな人はフォローしてください」と口走ってだだ滑りしてフォローゼロですぐバスに飛び乗って津田沼に戻って来た。</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1121665206499721217?ref_src=twsrc%5Etfw">2019年4月26日</a></blockquote>
 
+↓
+
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">・字が汚く<br>・痔が治らない</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1121687371202748416?ref_src=twsrc%5Etfw">2019年4月26日</a></blockquote>
+
+↓
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">痔ENDリーマン氏 <a href="https://twitter.com/hashtag/%E3%81%A8%E3%81%AF?src=hash&amp;ref_src=twsrc%5Etfw">#とは</a> <a href="https://t.co/mXYaAxsEpZ">pic.twitter.com/mXYaAxsEpZ</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1121689346011062273?ref_src=twsrc%5Etfw">2019年4月26日</a></blockquote>
 
