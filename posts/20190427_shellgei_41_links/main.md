@@ -9,8 +9,8 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## 出題
 
-* [問題ページ](/?post=20190216_shellgei_41_q)
-* [解答ページ](/?post=20190216_shellgei_41)
+* [問題ページ](/?post=20190427_shellgei_41_q)
+* [解答ページ](/?post=20190427_shellgei_41)
 
 ## サテライトの様子
 
