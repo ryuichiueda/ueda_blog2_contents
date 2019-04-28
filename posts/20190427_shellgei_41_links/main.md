@@ -31,7 +31,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## 午後の部オープニングスライド
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/G2qOxic5CeSgVZ" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ryuichiueda/41-142615260" title="第41回シェル芸勉強会 午後オープニング" target="_blank">第41回シェル芸勉強会 午後オープニング</a> </strong> from <strong><a href="https://www.slideshare.net/ryuichiueda" target="_blank">Ryuichi Ueda</a></strong> </div>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">情報量はありません。| 第41回シェル芸勉強会 午後オープニング # <a href="https://t.co/QZ7reixzEC">https://t.co/QZ7reixzEC</a> <a href="https://twitter.com/SlideShare?ref_src=twsrc%5Etfw">@SlideShare</a>さんから <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1122483252478877701?ref_src=twsrc%5Etfw">April 28, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## YouTube
 
