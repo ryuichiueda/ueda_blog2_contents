@@ -14,7 +14,8 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## サテライトの様子
 
-* お待ちしております。
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">書きました。<br> » 第41回シェル芸勉強会 大阪サテライト レポート<a href="https://t.co/yaD8nZOAtp">https://t.co/yaD8nZOAtp</a><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; so (@3socha) <a href="https://twitter.com/3socha/status/1123512518167617536?ref_src=twsrc%5Etfw">May 1, 2019</a></blockquote>
+
 
 ## Twitterまとめ
 
@@ -61,4 +62,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">第41回シェル芸勉強会に参加してきました(復習) 俺的備忘録 〜なんかいろいろ〜<a href="https://t.co/wuDGgdgOCN">https://t.co/wuDGgdgOCN</a></p>&mdash; Blacknon@通勤電車リハビリ中 (@blacknon_) <a href="https://twitter.com/blacknon_/status/1122651913848147969?ref_src=twsrc%5Etfw">April 29, 2019</a></blockquote>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">今更ですが書きました。1 週間経ってる。。。<br>はてなブログに投稿しました<br>第41回シェル芸勉強会に参加しました。 - nogiro_iotaのメモ <a href="https://t.co/ZelbExECVl">https://t.co/ZelbExECVl</a> <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a></p>&mdash; のぎろ (@nogiro_iota) <a href="https://twitter.com/nogiro_iota/status/1124634412627316738?ref_src=twsrc%5Etfw">May 4, 2019</a></blockquote>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">解説ゼロだけどできた <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><br>はてなブログに投稿しました<br>第41回シェル芸勉強会 - Python ワンライナー版解答 - nogiro_iotaのメモ <a href="https://t.co/BxuL2an3gM">https://t.co/BxuL2an3gM</a> <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a></p>&mdash; のぎろ (@nogiro_iota) <a href="https://twitter.com/nogiro_iota/status/1124659354760691714?ref_src=twsrc%5Etfw">May 4, 2019</a></blockquote>
+
 
