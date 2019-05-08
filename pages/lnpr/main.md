@@ -24,3 +24,8 @@ Copyright: (C) Ryuichi Ueda
 
 * [2. 確率統計の基礎](https://ryuichiueda.github.io/LNPR_SLIDES/30min/chap2_30min.html)
 * [4. 不確かさのモデル化](https://ryuichiueda.github.io/LNPR_SLIDES/30min/chap4_30min.html)
+
+
+### 60分バージョン
+
+* [7. パーティクルフィルタを用いた自己位置推定](https://ryuichiueda.github.io/LNPR_SLIDES/30min/chap5_60min.html)
