@@ -28,4 +28,4 @@ Copyright: (C) Ryuichi Ueda
 
 ### 60分バージョン
 
-* [7. パーティクルフィルタを用いた自己位置推定](https://ryuichiueda.github.io/LNPR_SLIDES/30min/chap5_60min.html)
+* [7. パーティクルフィルタを用いた自己位置推定](https://ryuichiueda.github.io/LNPR_SLIDES/60min/chap5_60min.html)
