@@ -65,7 +65,7 @@ aa%aa
 
 ## さらに追記
 
-GNU Awk 4.x系では出ない・・・
+GNU Awk 4.x系では出ない・・・けど`%d`だとエラー。
 
 ```
 $ awk --version
@@ -74,9 +74,16 @@ Copyright (C) 1989, 1991-2016 Free Software Foundation.
 （略）
 $ echo 'aa%aa' | awk '{printf $0}'
 aa%aa
+$ echo 'aa%da' | awk '{printf $0}'
+awk: コマンドライン:1: (FILENAME=- FNR=1) 致命的: 書式文字列を満たす十分な数の引数がありません
+	`aa%da'
+	   ^ ここから足りません
 ```
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">バージョンによるかも？gawkの4系と3系はエラー出ないような・・・</p>&mdash; きゃろさん (@Carol_815) <a href="https://twitter.com/Carol_815/status/1126501111400095752?ref_src=twsrc%5Etfw">May 9, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">%aはおっけ、%dはダメ。<br>echo &#39;aa%d&#39; | awk &#39;{printf $0}&#39;</p>&mdash; ぱぴろんちゃん👓 (@papiron) <a href="https://twitter.com/papiron/status/1126503006654984192?ref_src=twsrc%5Etfw">May 9, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
