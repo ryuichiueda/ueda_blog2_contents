@@ -72,7 +72,7 @@ $ awk --version
 GNU Awk 4.1.4, API: 1.1 (GNU MPFR 4.0.1, GNU MP 6.1.2)
 Copyright (C) 1989, 1991-2016 Free Software Foundation.
 （略）
-$ echo 'aa%aa' | /usr/bin/awk '{printf $0}'
+$ echo 'aa%aa' | awk '{printf $0}'
 aa%aa
 ```
 
