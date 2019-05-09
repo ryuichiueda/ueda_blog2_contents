@@ -62,3 +62,23 @@ aa%aa
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">awkのprintfで書式文字列攻撃が可能とか言われても「お、、おぅ、、、」となる気はするが、それが可能なら対処は必要か。</p>&mdash; mutz0623 (@mutz0623) <a href="https://twitter.com/mutz0623/status/1126493809028677632?ref_src=twsrc%5Etfw">May 9, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+## さらに追記
+
+GNU Awk 4.x系では出ない・・・
+
+```
+$ awk --version
+GNU Awk 4.1.4, API: 1.1 (GNU MPFR 4.0.1, GNU MP 6.1.2)
+Copyright (C) 1989, 1991-2016 Free Software Foundation.
+（略）
+$ echo 'aa%aa' | /usr/bin/awk '{printf $0}'
+aa%aa
+```
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">バージョンによるかも？gawkの4系と3系はエラー出ないような・・・</p>&mdash; きゃろさん (@Carol_815) <a href="https://twitter.com/Carol_815/status/1126501111400095752?ref_src=twsrc%5Etfw">May 9, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+one true awkはさておき、たぶん、GNU Awkについては5.0のリリースノートか何かに書いてあるかもしれない・・・。寝たい・・・。
+
