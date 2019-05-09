@@ -55,6 +55,8 @@ aa%aa
 
 ## 追記
 
+* [フォーマット文字列攻撃対策 | IPA](https://www.ipa.go.jp/security/awareness/vendor/programmingv2/contents/c906.html)
+
 ちゃんと攻撃方法にあるんですね。Cなら`printf`はやめて`puts`を使いましょう・・・。あと、教員はC言語を教えるときに、`printf`の前に`puts`を教えてくださいね。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">awkのprintfで書式文字列攻撃が可能とか言われても「お、、おぅ、、、」となる気はするが、それが可能なら対処は必要か。</p>&mdash; mutz0623 (@mutz0623) <a href="https://twitter.com/mutz0623/status/1126493809028677632?ref_src=twsrc%5Etfw">May 9, 2019</a></blockquote>
