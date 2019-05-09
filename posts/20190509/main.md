@@ -82,3 +82,20 @@ aa%aa
 
 one true awkはさておき、たぶん、GNU Awkについては5.0のリリースノートか何かに書いてあるかもしれない・・・。寝たい・・・。
 
+## さらにさらに追記
+
+　`mawk`はエラーが出ました。
+
+```
+$ mawk -W version
+mawk 1.3.3 Nov 1996, Copyright (C) Michael D. Brennan
+
+compiled limits:
+max NF             32767
+sprintf buffer      2040
+ueda@remote:~$ echo 'aa%aa' | mawk '{printf $0}'
+mawk: run time error: not enough arguments passed to printf("aa%aa")
+	FILENAME="-" FNR=1 NR=1
+```
+
+寝たい・・・。
