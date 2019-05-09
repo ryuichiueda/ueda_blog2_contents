@@ -128,7 +128,7 @@ Copyright: (C) Ryuichi Ueda
 
 ### 2019
 
-* 齊藤 篤志, 上田 隆一: Particle Filter on Episodeにおける尤度関数の自動決定, 第24回ロボティクスシンポジア, 富山, 2019. (to appear)
+* 齊藤 篤志, 上田 隆一: Particle Filter on Episodeにおける尤度関数の自動決定, 第24回ロボティクスシンポジア予稿集, pp.213-218, 富山, 2019. 
 
 ### 2018
 
