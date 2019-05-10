@@ -17,4 +17,14 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">【次号予告】2019年5月17日発売『Software Design 2019年6月号』本体1,220円＋税、<a href="https://t.co/E7O2y253hN">https://t.co/E7O2y253hN</a> <a href="https://t.co/RqATQFMAtf">pic.twitter.com/RqATQFMAtf</a></p>&mdash; 技術評論社販売促進部 (@gihyo_hansoku) <a href="https://twitter.com/gihyo_hansoku/status/1126655636219895808?ref_src=twsrc%5Etfw">May 10, 2019</a></blockquote>
 
 
+## おまけ
+
+　昨日は古巣の新橋に用事があったので散歩がてら面白い看板探しを遂行。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">新橋、異常なし！ <a href="https://t.co/P6K2LBqkTw">pic.twitter.com/P6K2LBqkTw</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1126454278971744257?ref_src=twsrc%5Etfw">2019年5月9日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+「昼キャバ番長」と大体同程度にインパクトファクター高い。
+
+
 洗濯機停止待ち。眠い。
