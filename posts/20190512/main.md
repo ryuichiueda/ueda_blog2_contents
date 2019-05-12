@@ -11,7 +11,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## 最近のシェル芸botの作品がすごすぎる
 
-　ので、僭越ながらまとめました。
+ので、僭越ながらまとめました。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">もはや美術館だな……<br><br>月刊アートシェル芸（5月） - Togetter <a href="https://t.co/m22JRXLd2E">https://t.co/m22JRXLd2E</a> via <a href="https://twitter.com/togetter_jp?ref_src=twsrc%5Etfw">@togetter_jp</a></p>&mdash; gǔ yuè (@theoldmoon0602) <a href="https://twitter.com/theoldmoon0602/status/1127387201443024896?ref_src=twsrc%5Etfw">May 12, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
