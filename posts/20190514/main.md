@@ -22,4 +22,4 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　
 
-寝る。
+ケツがやばいぜ寝る。
