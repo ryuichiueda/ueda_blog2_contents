@@ -34,4 +34,4 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">本日のおやつ <a href="https://t.co/hPN9DvdYFS">pic.twitter.com/hPN9DvdYFS</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1128667619597275137?ref_src=twsrc%5Etfw">May 15, 2019</a></blockquote>
 
 
-寝る。
+全くとりとめもない感じになってしまった。寝る。
