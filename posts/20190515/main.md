@@ -11,7 +11,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　春の中部大学3回シリーズが本日無事終了。再来週からは2週に一回、企業で同じような講義を10回シリーズですることになっている。他にオファーがある場合はギャラ応相談。
 
-## SoftwareDesignが内外共に不安な状態になっている件
+## SoftwareDesignが不穏な状態になっている件
 
 　もともと堅い内容で有名な[SoftwareDesign](https://amzn.to/2W5TgFS)がシェル芸のせいで揺れており。
 
