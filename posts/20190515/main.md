@@ -13,7 +13,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## SoftwareDesignが内外共に不安な状態になっている件
 
-　もともと堅い内容で有名なSoftwareDesignがシェル芸のせいで揺れており。
+　もともと堅い内容で有名な[SoftwareDesign](https://amzn.to/2W5TgFS)がシェル芸のせいで揺れており。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">5月17日は6月号の発売日ですが、あんなシェル芸を放流するのは不安・・・いったいどんなエンジニアが育ってしまうのやら・・・上田さん、責任とってよね！　ぷんすか。</p>&mdash; SoftwareDesign (@gihyosd) <a href="https://twitter.com/gihyosd/status/1128612614202806272?ref_src=twsrc%5Etfw">2019年5月15日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -24,7 +24,6 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 面白いです。買うべし。でも、一応、上田およびシェル芸アンチ勢がいるので、ダコタハウスにならんようにしたいんですが・・・。
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=ryuichiueda-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B07QV42G7V&linkId=53dd54a143fff220a58b34c61d472ecb"></iframe>
 
 
 ## 本日の食事
