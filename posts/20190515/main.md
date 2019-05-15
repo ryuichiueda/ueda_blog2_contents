@@ -13,14 +13,16 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## SoftwareDesignが内外共に不安な状態になっている件
 
+　もともと堅い内容で有名なSoftwareDesignがシェル芸のせいで揺れており。
+
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">5月17日は6月号の発売日ですが、あんなシェル芸を放流するのは不安・・・いったいどんなエンジニアが育ってしまうのやら・・・上田さん、責任とってよね！　ぷんすか。</p>&mdash; SoftwareDesign (@gihyosd) <a href="https://twitter.com/gihyosd/status/1128612614202806272?ref_src=twsrc%5Etfw">2019年5月15日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-悪いのは私じゃなくて特集の最初の章を書いたこの人。
+しかし、悪いのは私じゃなくて特集の最初の章を書いたこの人。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">（ごめんなさいごめんなさいごめんなさい）</p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/1128629649003679745?ref_src=twsrc%5Etfw">2019年5月15日</a></blockquote>
 
-面白いです。一応、上田およびシェル芸アンチ勢がいるので、ダコタハウスにならんようにしたいんですが・・・。
+面白いです。買うべし。でも、一応、上田およびシェル芸アンチ勢がいるので、ダコタハウスにならんようにしたいんですが・・・。
 
 
 ## 本日の食事
