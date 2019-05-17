@@ -13,7 +13,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-　ちなみに技評さんはある頃からAmazonに執筆者名を全員登録し始めた模様で、おもしろ現象が色々。
+　ちなみに技評さんはある頃からAmazonに執筆者名を全員登録し始めた模様で、おもしろ現象が発生。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">著者 <a href="https://twitter.com/hashtag/%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B?src=hash&amp;ref_src=twsrc%5Etfw">#とは何か</a> <a href="https://t.co/w68xWuIV9I">pic.twitter.com/w68xWuIV9I</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1129305005310193664?ref_src=twsrc%5Etfw">May 17, 2019</a></blockquote>
 
