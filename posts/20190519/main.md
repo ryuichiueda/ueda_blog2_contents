@@ -49,3 +49,6 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr"><a href="https://t.co/KsxEafp3SS">https://t.co/KsxEafp3SS</a> <a href="https://t.co/uwO6AZGorx">pic.twitter.com/uwO6AZGorx</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1129752369003155456?ref_src=twsrc%5Etfw">2019年5月18日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr"><a href="https://t.co/UNB1qiMvkC">https://t.co/UNB1qiMvkC</a> <a href="https://t.co/QU8PZVTmNp">pic.twitter.com/QU8PZVTmNp</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1130110764100964352?ref_src=twsrc%5Etfw">May 19, 2019</a></blockquote>
+
