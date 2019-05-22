@@ -9,7 +9,6 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　はい。出ます。まさかの[あの問題作](https://b.ueda.tech/?post=03470)の第二版。
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=ryuichiueda-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4048930699&linkId=52024ad602c5eb458f1dd4f2f67a9a50"></iframe>
 
 　ちょうど、確率ロボティクス本の手直しが一段落した本日、最終校正に入りました。実は、このサイトの作り方が題材になってます。詳細は追って・・・
 
