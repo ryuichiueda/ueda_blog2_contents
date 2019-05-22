@@ -9,7 +9,8 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　はい。出ます。[あの問題作](https://b.ueda.tech/?post=03470)。
 
-<a href="https://www.amazon.co.jp/%E3%83%95%E3%83%AB%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81%E3%81%8B%E3%82%891%E6%97%A5%E3%81%A7CMS%E3%82%92%E4%BD%9C%E3%82%8B-%E3%82%B7%E3%82%A7%E3%83%AB%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E9%AB%98%E9%80%9F%E9%96%8B%E7%99%BA%E6%89%8B%E6%B3%95%E5%85%A5%E9%96%80-%E4%B8%8A%E7%94%B0%E9%9A%86%E4%B8%80/dp/4048660683/ref=as_li_ss_il?ie=UTF8&linkCode=li2&tag=ryuichiueda-22&linkId=3040b391587d2cf841f1fec8b4705ee8&language=ja_JP" target="_blank">
+<a
+href="https://www.amazon.co.jp/%E3%83%95%E3%83%AB%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81%E3%81%8B%E3%82%891%E6%97%A5%E3%81%A7CMS%E3%82%92%E4%BD%9C%E3%82%8B-%E3%82%B7%E3%82%A7%E3%83%AB%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E9%AB%98%E9%80%9F%E9%96%8B%E7%99%BA%E6%89%8B%E6%B3%95%E5%85%A5%E9%96%80-%E4%B8%8A%E7%94%B0%E9%9A%86%E4%B8%80/dp/4048660683/ref=as_li_ss_il?ie=UTF8&linkCode=li2&tag=ryuichiueda-22&linkId=3040b391587d2cf841f1fec8b4705ee8&language=ja_JP" target="_blank">
 <img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4048660683&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=ryuichiueda-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=ryuichiueda-22&language=ja_JP&l=li2&o=9&a=4048660683" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 　ちょうど、確率ロボティクス本の手直しが一段落した本日、最終校正に入りました。実は、このサイトの作り方が題材になってます。詳細は追って・・・
