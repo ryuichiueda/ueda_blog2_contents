@@ -23,5 +23,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">(<br>echo &#39;digraph{&#39;<br>echo バニラバニラバニラ求人バニラバニラ高収入 | sed &#39;s/./&amp; /g&#39; | sed -r &#39;s/(.).*/&amp; \1/&#39; | awk &#39;{for(i=1;i&lt;NF;i++)print <a href="https://twitter.com/search?q=%24i&amp;src=ctag&amp;ref_src=twsrc%5Etfw">$i</a> &quot;-&gt;&quot;$(i+1),&quot;;&quot;}&#39; <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><br>echo &#39;}&#39;<br>) | circo -Tpng &gt; /images/a.png</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1130822550068420608?ref_src=twsrc%5Etfw">May 21, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+　ちなみに自分はこのバニラが好きです。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v_0_M8e8sFs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 　もっとすごいシェル芸がたくさん投稿されているのでそっちお願いしまっす。
