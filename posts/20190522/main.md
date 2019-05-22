@@ -9,6 +9,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　はい。出ます。まさかの[あの問題作](https://b.ueda.tech/?post=03470)の第二版。
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">情報解禁でっす。 | フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門 改訂2版   USP研究所 <a href="https://t.co/NKSvllzJJm">https://t.co/NKSvllzJJm</a> <a href="https://twitter.com/AmazonJP?ref_src=twsrc%5Etfw">@amazonJP</a>さんから</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1131191514149691393?ref_src=twsrc%5Etfw">May 22, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 　ちょうど、確率ロボティクス本の手直しが一段落した本日、最終校正に入りました。実は、このサイトの作り方が題材になってます。詳細は追って・・・
 
