@@ -7,10 +7,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門 改訂2版 出るよ
 
-　はい。出ます。[あの問題作](https://b.ueda.tech/?post=03470)。
+　はい。出ます。まさかの[あの問題作](https://b.ueda.tech/?post=03470)の第二版。
 
-[](https://www.amazon.co.jp/%E3%83%95%E3%83%AB%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%83%E3%83%81%E3%81%8B%E3%82%891%E6%97%A5%E3%81%A7CMS%E3%82%92%E4%BD%9C%E3%82%8B-%E3%82%B7%E3%82%A7%E3%83%AB%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E9%AB%98%E9%80%9F%E9%96%8B%E7%99%BA%E6%89%8B%E6%B3%95%E5%85%A5%E9%96%80-%E4%B8%8A%E7%94%B0%E9%9A%86%E4%B8%80/dp/4048660683/ref=as_li_ss_il?ie=UTF8&linkCode=li2&tag=ryuichiueda-22&linkId=3040b391587d2cf841f1fec8b4705ee8&language=ja_JP)
-<img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4048660683&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=ryuichiueda-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=ryuichiueda-22&language=ja_JP&l=li2&o=9&a=4048660683" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=ryuichiueda-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4048930699&linkId=52024ad602c5eb458f1dd4f2f67a9a50"></iframe>
 
 　ちょうど、確率ロボティクス本の手直しが一段落した本日、最終校正に入りました。実は、このサイトの作り方が題材になってます。詳細は追って・・・
 
