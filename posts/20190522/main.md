@@ -32,4 +32,4 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BOXzBt8Qk_Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-学生だったらメンズバニラ登録してた。危ないところだった。寝る。
+学生だったらメンズバニラ登録してた。お金なかったし。危ないところだった。寝る。
