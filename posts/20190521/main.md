@@ -18,6 +18,18 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">えーと、「ドキュメント管理はシェルで」という趣旨の記事書きましたので何卒よろしくおねがいいたします。 <a href="https://twitter.com/hashtag/gihyosd?src=hash&amp;ref_src=twsrc%5Etfw">#gihyosd</a> <a href="https://t.co/1xmQjoKylZ">pic.twitter.com/1xmQjoKylZ</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1130843933557190657?ref_src=twsrc%5Etfw">May 21, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<div class="hreview">
+  <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B07QV42G7V/ryuichiueda-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51F%2B1W-QebL._SL160_.jpg" width="113" alt="photo"></a></div>
+  <dl class="fn">
+    <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B07QV42G7V/ryuichiueda-22">ソフトウェアデザイン 2019年6月号</a></dt>
+    <dd>[山田 泰宏 上田 隆一 今泉 光之 中村 壮一 くつなりょうすけ 田代 勝也 徳永 航平 加藤 諒 いとうりょう 西見 公宏 根本 祐介 安藤 幸央 結城 浩 武内 覚 宮原 徹 平林 純 福岡 秀一郎 職業「戸倉彩」 樽石 将人 mattn 小飼 弾 やまねひでき あわしろいくや 中島 雅弘 榎 真治 古川 菜摘 鎌田 篤慎 後藤 大地 杉山 貴章]</dd>
+    <dd>技術評論社 2019-05-17 (Release 2019-05-17)</dd>
+    <dd>Book 雑誌</dd>
+    <dd>ASIN: B07QV42G7V, EAN: 4910058270699</dd>
+  </dl>
+  <p class="powered-by" >(powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.1)</p>
+</div>
+
 
 ## 仕事
 
