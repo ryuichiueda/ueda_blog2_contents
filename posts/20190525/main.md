@@ -29,7 +29,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## このサイトのアフィリエイト
 
-　Aamzonが今年に入って色々制限したので、[こちら](https://kaereba.com/)などのツールが使えなくて困っていたが、本日解決。↑のようにパーツを作れるようになった。[こちらのツール](https://github.com/spiegel-im-spiegel/amazon-item)のおかげ。
+　Aamzonが今年に入って色々制限したので、[こちら](https://kaereba.com/)などのツールが使えなくて困っていたが、本日解決。↑のようにパーツを作れるようになった。[こちらのツール](https://github.com/spiegel-im-spiegel/amazon-item)のおかげ。小銭入らない&自著の宣伝できないという問題のよりも、このサイトの作り方を書いたのが↑の本なので、アフィリエイトできないと本で作るシステムの価値が下がるという問題があった。
 
 ## その他
 
