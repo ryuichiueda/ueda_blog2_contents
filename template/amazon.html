@@ -6,7 +6,7 @@
     </div>
     <div class="col-md-10">
       <div class="card-body">
-        <dl class="fn">
+        <dl class="fn" style="font-size:80%">
           <dt><a href="{{ .URL }}">{{ .ItemAttributes.Title }}</a></dt>
           {{ with .ItemAttributes.Author }}<dd>{{ . }}</dd>{{ end }}
           <dd>{{ .ItemAttributes.Publisher }}{{ with .ItemAttributes.PublicationDate }} {{ . }}{{ end }}{{ with .ItemAttributes.ReleaseDate }} (Release {{ . }}){{ end }}</dd>
