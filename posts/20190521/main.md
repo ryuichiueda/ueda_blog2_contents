@@ -20,10 +20,10 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <div class="card mb-3">
   <div class="row no-gutters">
-    <div class="col-md-3">
+    <div class="col-md-2">
       <a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B07QV42G7V/ryuichiueda-22"><img class="card-img-top" src="https://images-fe.ssl-images-amazon.com/images/I/51F%2B1W-QebL._SL160_.jpg" width="113" alt="photo"></a>
     </div>
-    <div class="col-md-9">
+    <div class="col-md-10">
       <div class="card-body">
         <dl class="fn">
           <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B07QV42G7V/ryuichiueda-22">ソフトウェアデザイン 2019年6月号</a></dt>
