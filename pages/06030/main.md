@@ -7,6 +7,7 @@ Copyright: (C) Ryuichi Ueda
 <ul>
  	<li><a href="#latest">最新</a></li>
  	<li><a href="#books">著書・翻訳書</a></li>
+ 	<li><a href="#web">Web記事</a></li>
  	<li><a href="#magazine">商業誌等記事</a></li>
 </ul>
 
@@ -81,7 +82,15 @@ Copyright: (C) Ryuichi Ueda
 
 <div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4839952981/ryuichiueda-22/" target="_blank" ><img src="https://images-fe.ssl-images-amazon.com/images/I/51LqglmRkML._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4839952981/ryuichiueda-22/" target="_blank" >確率ロボティクス (プレミアムブックス版)</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">Sebastian Thrun,Wolfram Burgard,Dieter Fox マイナビ出版 2016-09-21    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin:5px 0"><a href="http://www.amazon.co.jp/gp/search?keywords=%E7%A2%BA%E7%8E%87%E3%83%AD%E3%83%9C%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=ryuichiueda-22" target="_blank" >Amazon</a></div><div class="shoplinkrakuten" style="margin:5px 0"><a href="https://hb.afl.rakuten.co.jp/hgc/131cef76.deb3ed6a.131cef77.7335f681/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E7%25A2%25BA%25E7%258E%2587%25E3%2583%25AD%25E3%2583%259C%25E3%2583%2586%25E3%2582%25A3%25E3%2582%25AF%25E3%2582%25B9%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F" target="_blank" >楽天市場</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
 
+<h2><a name="web"></a>Web記事</h2>
+
+* [Macでターミナルとシェルを使うための基礎知識 - 環境の構築と基本的なファイル操作を知る](https://employment.en-japan.com/engineerhub/entry/2019/02/19/103000), エンジニアHub, 2019年2月19日.  
+
 <h2><a name="magazine"></a>商業誌等記事</h2>
+
+### 2019
+
+* 上田隆一: "第1特集 思わず実践したくなるシェル＆シェルスクリプト | 第2章 ：日常で使うファイル形式だからこそ応用範囲は広い テキスト処理で役立つシェル・テクニック", Software Design, 技術評論社, 2019年6月号.
 
 ### 2018
 
