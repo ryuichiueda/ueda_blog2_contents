@@ -1,11 +1,11 @@
+<div class=".border">
 {{ range .Items }}<div class="hreview">
   <div class="photo"><a class="item url" href="{{ .URL }}"><img src="{{ .MediumImage.URL }}" width="{{ .MediumImage.Width }}" alt="photo"></a></div>
   <dl class="fn">
     <dt><a href="{{ .URL }}">{{ .ItemAttributes.Title }}</a></dt>
     {{ with .ItemAttributes.Author }}<dd>{{ . }}</dd>{{ end }}
     <dd>{{ .ItemAttributes.Publisher }}{{ with .ItemAttributes.PublicationDate }} {{ . }}{{ end }}{{ with .ItemAttributes.ReleaseDate }} (Release {{ . }}){{ end }}</dd>
-    <dd>{{ .ItemAttributes.ProductGroup }} {{ .ItemAttributes.Binding }}</dd>
-    <dd>ASIN: {{ .ASIN }}{{ with .ItemAttributes.EAN }}, EAN: {{ . }}{{ end }}</dd>
   </dl>
   <p class="powered-by" >(powered by <a href="{{ $.AppURL }}" >{{ $.AppName }}</a> {{ $.AppVersion }})</p>
 </div>{{ end }}
+</div>

@@ -18,6 +18,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">えーと、「ドキュメント管理はシェルで」という趣旨の記事書きましたので何卒よろしくおねがいいたします。 <a href="https://twitter.com/hashtag/gihyosd?src=hash&amp;ref_src=twsrc%5Etfw">#gihyosd</a> <a href="https://t.co/1xmQjoKylZ">pic.twitter.com/1xmQjoKylZ</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1130843933557190657?ref_src=twsrc%5Etfw">May 21, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<div class=".border">
 <div class="hreview">
   <div class="photo"><a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B07QV42G7V/ryuichiueda-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51F%2B1W-QebL._SL160_.jpg" width="113" alt="photo"></a></div>
   <dl class="fn">
@@ -28,6 +29,7 @@ Copyright: (C) 2019 Ryuichi Ueda
     <dd>ASIN: B07QV42G7V, EAN: 4910058270699</dd>
   </dl>
   <p class="powered-by" >(powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.1)</p>
+</div>
 </div>
 
 
