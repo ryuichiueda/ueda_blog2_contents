@@ -1,0 +1,2 @@
+amazon-item lookup -d "$1" -t amazon.html
+
