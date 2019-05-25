@@ -21,9 +21,7 @@ Copyright: (C) Ryuichi Ueda
 
 ### 2019
 
-<ul>
- 	<li>上田隆一, 後藤大地（著）, USP研究所（監修）: フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門 改訂2版, KADOKAWA, 2019. </li>
-<ul>
+* 上田隆一, 後藤大地（著）, USP研究所（監修）: フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門 改訂2版, KADOKAWA, 2019. 
 
 <div class="card">
   <div class="row no-gutters">
