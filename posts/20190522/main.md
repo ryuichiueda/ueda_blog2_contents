@@ -20,8 +20,9 @@ Copyright: (C) 2019 Ryuichi Ueda
           <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4048930699/ryuichiueda-22">フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門 改訂2版</a></dt>
           <dd>[上田 隆一 後藤 大地]</dd>
           <dd>KADOKAWA 2019-06-28 (Release 2019-06-28)</dd>
-       </dl>
-       <p class="powered-by" >(powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.1)</p>
+        </dl>
+        <p class="powered-by" >(powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.1)</p>
+      </div>
     </div>
   </div>
 </div>
