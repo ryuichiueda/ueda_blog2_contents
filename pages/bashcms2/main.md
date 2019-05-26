@@ -5,6 +5,7 @@ Copyright: (C) Ryuichi Ueda
 
 # シェルスクリプト高速開発手法入門 改訂2版
 
+　Amazonによると6/28発売だそうです。
 
 <div class="card">
   <div class="row no-gutters">
@@ -23,3 +24,9 @@ Copyright: (C) Ryuichi Ueda
     </div>
   </div>
 </div>
+
+## リソース
+
+* リポジトリ: https://github.com/ryuichiueda/bashcms2
+* 完成したシステムのDockerイメージ作成Dockerfile: https://github.com/ryuichiueda/bashcms2-image
+    * Dockerイメージ: https://cloud.docker.com/u/ryuichiueda/repository/docker/ryuichiueda/bashcms2-image
