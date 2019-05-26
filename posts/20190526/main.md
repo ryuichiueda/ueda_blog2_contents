@@ -5,7 +5,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 # 日記（2019年5月26日）
 
-## pyplotがシェル芸botでエラーを起こす
+## pyplotがシェル芸botでエラーを起こす→解決してもらう
 
 　シェル芸botでPythonを動かすときに、pyplotをimportするとエラーを起こすという問題に取り組んだが解決せず。
 
