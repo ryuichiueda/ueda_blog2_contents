@@ -46,8 +46,9 @@ mpl.use('Agg')
 
 ## bashcms2のDockerイメージ作成
 
-　この本のシステムをインストールしたDockerのイメージを作った。
+　bashcms2本（下の宣伝参照）のシステムをインストールしたDockerのイメージを作った。
 
+* リポジトリ: https://github.com/ryuichiueda/bashcms2-image
 
 <div class="card">
   <div class="row no-gutters">
@@ -68,7 +69,6 @@ mpl.use('Agg')
 </div>
 
 
-* リポジトリ: https://github.com/ryuichiueda/bashcms2-image
 
 
 寝る。
