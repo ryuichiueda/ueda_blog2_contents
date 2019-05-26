@@ -35,3 +35,11 @@ mpl.use('Agg')
 
 
 わからん。
+
+### その後
+
+　解決していただきました。こういうことだったのね・・・。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">再開しました。メモリ上限を100Mにしてみたよ <a href="https://t.co/23LzClFlDy">https://t.co/23LzClFlDy</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1132501418936479744?ref_src=twsrc%5Etfw">2019年5月26日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
