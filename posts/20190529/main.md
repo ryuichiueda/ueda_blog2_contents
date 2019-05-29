@@ -35,7 +35,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 　よく見ると乗ってる人がUnko!と言って笑う。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="en" dir="ltr">/images/t.gif created!<br> <a href="https://t.co/jcHCxLFDyk">https://t.co/jcHCxLFDyk</a> <a href="https://t.co/3uRnpprDOA">pic.twitter.com/3uRnpprDOA</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1133716369969635328?ref_src=twsrc%5Etfw">May 29, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-眠い。洗濯がまだ終わらない。なんでもいいから一つ仕事を終えたい。
+眠い。洗濯がまだ終わらない。たくさん平行で仕事が走っているのに何一つ終わりゃしねえ。
+
