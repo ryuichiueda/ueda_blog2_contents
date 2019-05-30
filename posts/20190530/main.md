@@ -20,8 +20,11 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr"><a href="https://twitter.com/ryuichiueda?ref_src=twsrc%5Etfw">@ryuichiueda</a><br> <a href="https://t.co/vzXLm6lheP">https://t.co/vzXLm6lheP</a> <a href="https://t.co/sKXfs0yWPn">pic.twitter.com/sKXfs0yWPn</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1134074930532716544?ref_src=twsrc%5Etfw">2019年5月30日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">地獄の通知 <a href="https://t.co/FaFIKamNXN">pic.twitter.com/FaFIKamNXN</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1133943948278345729?ref_src=twsrc%5Etfw">May 30, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-はてブ見てるとおっさん差別だという論調が目立つんだけど、こういうのでLINEで不快がられないというのは、こういう作文をしてしまう側が気をつけるべきだし、おっさんとうカテゴリー自体曖昧だし、何より職場のパワハラや勘違いという文脈を外すと、文言自体は（一部キツい表現があるけど）とてもポジティブなので、大丈夫なんじゃないかなーと。作者も私もおっさんだし。もちろん、そうでないという意見もあるし、自分も考えを変えるかもしれませんが。
+
+　はてブ見てるとおっさん差別だという論調が目立つんだけど、こういうのでLINEで不快がられないというのは、こういう作文をしてしまう側が気をつけるべきだし、おっさんとうカテゴリー自体曖昧だし、何より職場のパワハラや勘違いという文脈を外すと、文言自体は（一部キツい表現があるけど）とてもポジティブなので、大丈夫なんじゃないかなーと。作者も私もおっさんだし。もちろん、そうでないという意見もあるし、自分も考えを変えるかもしれませんが。
 
 
 寝る。
