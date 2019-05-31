@@ -26,7 +26,8 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">echo 第42回シェル芸勉強会 大阪サテライト 募集開始しました。 <br>echo よろしくお願いします。<br>echo <a href="https://t.co/TvOEmeHd17">https://t.co/TvOEmeHd17</a><br>: 松江サテライトはもうちょっとまってね。<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; so (@3socha) <a href="https://twitter.com/3socha/status/1133667446231949313?ref_src=twsrc%5Etfw">May 29, 2019</a></blockquote>
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">第42回シェル芸勉強会 福岡サテライト長崎分室 に参加を申し込みました！ <a href="https://t.co/oYtT4y0Iy7">https://t.co/oYtT4y0Iy7</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; HOTTA Michihide (@hotta) <a href="https://twitter.com/hotta/status/1133548498236739584?ref_src=twsrc%5Etfw">May 29, 2019</a></blockquote>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">echo &#39;長崎も申し込み開始しましたー。ご参加お待ちしておりますー(^-^)/&#39;<br>echo &#39;<a href="https://t.co/8YgjhnI4rk">https://t.co/8YgjhnI4rk</a>&#39;<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; yegawa (@ega_wave) <a href="https://twitter.com/ega_wave/status/1133270325343297537?ref_src=twsrc%5Etfw">May 28, 2019</a></blockquote>
 
 
 
