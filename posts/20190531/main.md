@@ -15,8 +15,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　ojichatの衰え知らずの中、ひねくれツイートをいくつか試行。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">智水ちゃん、オハヨウ〜(^o^)イタリアン🍝好きかな✋❓（￣ー￣?）寒いけど、頑張ってね😎<br><br>（その3分後・・・）<br><br>助けてくれーーっ！ぎゃぁぁ！！ここにいる！　早く来てくれ！サポートしてくれぐはぁ！ビークルが必要だ！援護が必要だ！うあぁ！かまわず戦ってくれ救助してくれ！被弾しましたミサイ <a href="https://t.co/nVtujZ0PJF">https://t.co/nVtujZ0PJF</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1134469623150022656?ref_src=twsrc%5Etfw">May 31, 2019</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">あやちゃん、ヤッホー😃✋何してるのかい✋❓本日のランチ🍴は奮発してきんぴらごぼう付き😆😃✋誰だメタボなんて言ったやつハ💔(-_-;)😱<br><br>（その10分後・・・）<br><br>助けてくれーーっ！ここにいる！　早く来てくれ！ぐはぁ！ビークルが必要だ！やめろーっ！ミサイルが必要だぎゃぁぁ！！救助してくれ！う <a href="https://t.co/MWLUsiVQh7">https://t.co/MWLUsiVQh7</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1134305773402566656?ref_src=twsrc%5Etfw">May 31, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ところでEDF is 何？
 
