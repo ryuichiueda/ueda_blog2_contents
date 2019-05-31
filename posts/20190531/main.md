@@ -36,7 +36,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## 今日のシェル芸
 
-　ojichatの衰え知らずの中、ひねくれツイートをいくつか試行。
+　ojichatの猛威が衰え知らずの中、ひねくれツイートをいくつか試行。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">救助してくれ！<br>　　　　↘<br>　　　ぐはぁ！<br>　　　　↙<br>助けてくれーーっ！<br>　　　　↘<br>　　　ビークルが必要だ！<br>　　　　↙<br>＿人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人＿<br>＞　ユマちゃん、今日もお仕事かな😆今日は大雨だけどなにするのかな❗❓僕は、すごく心 <a href="https://t.co/B9kjVEGhk8">https://t.co/B9kjVEGhk8</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1134296880807010304?ref_src=twsrc%5Etfw">May 31, 2019</a></blockquote>
 
