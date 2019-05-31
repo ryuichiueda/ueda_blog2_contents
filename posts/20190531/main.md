@@ -38,8 +38,11 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　ojichatの衰え知らずの中、ひねくれツイートをいくつか試行。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">あやちゃん、ヤッホー😃✋何してるのかい✋❓本日のランチ🍴は奮発してきんぴらごぼう付き😆😃✋誰だメタボなんて言ったやつハ💔(-_-;)😱<br><br>（その10分後・・・）<br><br>助けてくれーーっ！ここにいる！　早く来てくれ！ぐはぁ！ビークルが必要だ！やめろーっ！ミサイルが必要だぎゃぁぁ！！救助してくれ！う <a href="https://t.co/MWLUsiVQh7">https://t.co/MWLUsiVQh7</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1134305773402566656?ref_src=twsrc%5Etfw">May 31, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">救助してくれ！<br>　　　　↘<br>　　　ぐはぁ！<br>　　　　↙<br>助けてくれーーっ！<br>　　　　↘<br>　　　ビークルが必要だ！<br>　　　　↙<br>＿人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人＿<br>＞　ユマちゃん、今日もお仕事かな😆今日は大雨だけどなにするのかな❗❓僕は、すごく心 <a href="https://t.co/B9kjVEGhk8">https://t.co/B9kjVEGhk8</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1134296880807010304?ref_src=twsrc%5Etfw">May 31, 2019</a></blockquote>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">救助してくれ！<br>　　　　↘<br>　　　ぐはぁ！<br>　　　　↙<br>助けてくれーーっ！<br>　　　　↘<br>　　　ビークルが必要だ！<br>　　　　↙<br>＿人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人人＿<br>＞　ユマちゃん、今日もお仕事かな😆今日は大雨だけどなにするのかな❗❓僕は、すごく心 <a href="https://t.co/B9kjVEGhk8">https://t.co/B9kjVEGhk8</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1134296880807010304?ref_src=twsrc%5Etfw">May 31, 2019</a></blockquote>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ともかちゃん、オハヨウ〜😚😆😃✋😆出張で青森に行ってきたよ💗😃✋(^_^)😄観光でも、行きたいなぁ😆（笑）❗😍モチロン、ともかちゃんとネ<br><br>（その3分後・・・）<br><br>助けてくれーーっ！ぎゃぁぁ！！救助してくれ！援護が必要だ！ここにいる！　早く来てくれ！被弾しましたやめろーっ！うあぁ！ぐはぁ！ <a href="https://t.co/KbH1p1Z3jh">https://t.co/KbH1p1Z3jh</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1134305548952719360?ref_src=twsrc%5Etfw">May 31, 2019</a></blockquote>
 
 
 ところでEDF is 何？
