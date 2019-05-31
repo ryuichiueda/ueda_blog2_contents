@@ -30,6 +30,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">echo &#39;長崎も申し込み開始しましたー。ご参加お待ちしておりますー(^-^)/&#39;<br>echo &#39;<a href="https://t.co/8YgjhnI4rk">https://t.co/8YgjhnI4rk</a>&#39;<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; yegawa (@ega_wave) <a href="https://twitter.com/ega_wave/status/1133270325343297537?ref_src=twsrc%5Etfw">May 28, 2019</a></blockquote>
 
 
+ありがとうございます。
 
 ## 今日のシェル芸
 
