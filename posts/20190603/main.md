@@ -36,7 +36,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">＿人人人人人人＿<br>＞　千手観音　＜<br>￣Y^Y^Y^Y^Y^Y^￣<br>　　　　　　👑<br>　　　　👋💩💩💩👍<br>　　　👋💩👁💩👁💩👍<br>　　👋💩💩💩👃💩💩💩👍<br>　👋💩💩💩💩👄💩💩💩💩👍 <a href="https://t.co/OLWAIuqQbT">https://t.co/OLWAIuqQbT</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1135342159912087553?ref_src=twsrc%5Etfw">2019年6月3日</a></blockquote>
 
 
-　↓高度になってる人。
+　↓高度になってる人。うんこ燃え尽き症候群にならないことを祈るのみ（ならない）。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr"><a href="https://t.co/LIfOGFdf83">https://t.co/LIfOGFdf83</a> <a href="https://t.co/KT0YAZRFNT">pic.twitter.com/KT0YAZRFNT</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1135501599055368192?ref_src=twsrc%5Etfw">2019年6月3日</a></blockquote>
 
