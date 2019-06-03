@@ -41,4 +41,11 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr"><a href="https://t.co/LIfOGFdf83">https://t.co/LIfOGFdf83</a> <a href="https://t.co/KT0YAZRFNT">pic.twitter.com/KT0YAZRFNT</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1135501599055368192?ref_src=twsrc%5Etfw">2019年6月3日</a></blockquote>
 
 
+　シェル芸勉強会もまだまだ募集中ですよ‼️
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ヤッホー😃✋😆💗😃何してるのかい😜⁉️❓❓⁉シェル芸💩好きカナ✋❓🤔（￣ー￣?）１５日土曜日、午後からだけなんだけど、シェル芸勉強会でもどうかナ✋❓ | jus共催 第42回BLACK HOLEシェル芸勉強会 <a href="https://t.co/REs6t8OpPW">https://t.co/REs6t8OpPW</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1135336330223734784?ref_src=twsrc%5Etfw">June 3, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 寝る。
+
