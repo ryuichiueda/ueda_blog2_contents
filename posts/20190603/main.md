@@ -5,7 +5,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 # 日記（2019年6月3日）
 
-　学生がナンシー関を知らない。自分も氏のコラムをそんなに読んだわけでもないけど。つい20年前は、インターネットでタダでコラムが読めるという世界ではなかったので・・・と言い訳。
+　当たり前だけど学生が[ナンシー関](https://ja.wikipedia.org/wiki/%E3%83%8A%E3%83%B3%E3%82%B7%E3%83%BC%E9%96%A2)を知らない。自分も氏のコラムをそんなに読んだわけでもないけど。つい20年前は、インターネットでタダでコラムが読めるという世界ではなかったので・・・と言い訳。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ナンシー関Tシャツを着て学科をフラフラしているとそれは誰かと質問が飛んでくるので、ちゃんとおさえておくように指示。</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1135459915126804480?ref_src=twsrc%5Etfw">2019年6月3日</a></blockquote>
 
