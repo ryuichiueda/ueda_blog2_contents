@@ -39,3 +39,5 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">＿人人人人人人人人人人人人人人人人人人＿<br>＞　うんこやめろって！！（越中詩郎）　＜<br>￣Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^￣<br>　　　　　　👑<br>　　　　（💩💩💩）<br>　　　（💩👁💩👁💩）<br>　　（💩💩💩👃💩💩💩）<br>　（💩💩💩💩👄💩💩💩💩） <a href="https://t.co/tAvjGc8wo6">https://t.co/tAvjGc8wo6</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1135895584404004865?ref_src=twsrc%5Etfw">2019年6月4日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+節度ある💩を。超ねむいので寝る。
