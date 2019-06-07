@@ -7,7 +7,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## ROBOMECHに行ってた
 
-　さっき川崎に戻る。風光明媚な山の中の空港で広島のお好み焼き+ビールという炭水化物+アルコールという大変ダルい状態を作り、飛行機に乗り込もうとしたら遅れる+チョー揺れる+上空待機という惨敗状態。自分はまだ良いが、千葉組が帰れなくなった。
+　さっき川崎に戻る。風光明媚な山の中の空港で広島風お好み焼き+ビールを胃に入れて炭水化物+アルコールという大変ダルい状態を作り、飛行機に乗り込もうとしたら遅れる+チョー揺れる+上空待機という惨敗状態。自分はまだ良いが、千葉組が帰れなくなった。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ふらふら飛んできてやっと羽田に向かってくれている。 <a href="https://t.co/5O96UmguHO">pic.twitter.com/5O96UmguHO</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1136985792104976384?ref_src=twsrc%5Etfw">2019年6月7日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
