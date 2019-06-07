@@ -12,7 +12,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ふらふら飛んできてやっと羽田に向かってくれている。 <a href="https://t.co/5O96UmguHO">pic.twitter.com/5O96UmguHO</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1136985792104976384?ref_src=twsrc%5Etfw">2019年6月7日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-欠航もあったようなのでヨシとしよう。
+欠航もあったようなのでヨシとしよう。ROBOMECHについては、良くも悪くもいろいろ思うところもあるけど心の中にとどめるということで。
 
 
 ↓勝ち組
