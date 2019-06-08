@@ -15,7 +15,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-「これ、裏返しで置かれてたからいいけど表が上だったら死んでた」と学生氏。せやな。
+「気づいたら置かれていた。これ、裏返しで置かれてたからいいけど表が上だったら死んでた」と学生氏。せやな。
 
 ## バス停にて
 
