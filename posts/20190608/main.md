@@ -9,7 +9,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## お礼
 
-　某学生氏のポスターセッションの途中、私にうんこの差し入れがあったようで、大変ありがとうございます。
+　某学生氏のポスターセッションの途中、私にうんこの差し入れがあったようで、大変ありがとうございます💩
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">どなたか知りませんが、某氏のポスターの下にそっと差し入れいただいて、大変ありがとうございます💩<br><br>川崎に持ち帰ります💩 <a href="https://t.co/TfgtbgUIH1">pic.twitter.com/TfgtbgUIH1</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1136912596391489537?ref_src=twsrc%5Etfw">2019年6月7日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
