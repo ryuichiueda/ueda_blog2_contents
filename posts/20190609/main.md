@@ -27,6 +27,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">今日は、（確かそうだったと思うけど）去年までは禁漁で食えなかったこの季節の秋刀魚を焼いた。脂は全然ないけどさっぱりしてけっこうおいしかった。 <a href="https://t.co/UOc7oVeYNk">pic.twitter.com/UOc7oVeYNk</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1137718024960585728?ref_src=twsrc%5Etfw">June 9, 2019</a></blockquote>
 
+
+しかし、だいたい男のこういう料理自慢は周辺のことが疎かになりがちなのが顕在化してしまう。
+
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">魚焼きグリル掃除めんどくて本来の使い方できないマンなので、スゴイと思ってしまった👏👏 <a href="https://t.co/JGQsEqSKeQ">https://t.co/JGQsEqSKeQ</a></p>&mdash; ぷる@JS好きプログラマ (@butackle66) <a href="https://twitter.com/butackle66/status/1137720534605524993?ref_src=twsrc%5Etfw">June 9, 2019</a></blockquote>
 
 かいかぶりすぎです。
