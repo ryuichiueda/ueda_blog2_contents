@@ -34,7 +34,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">すんません。。。カミさんにやってもらいました。。。（この後、自治会のミーティングがあったので・・・）</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1137720928329011200?ref_src=twsrc%5Etfw">June 9, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-最近は料理中になるべく食洗機を回せるように（ロボットの研究者っぽく）順番の最適化をやったり、片付けを忘れないように気をつけたりはしているけど自分の片付け率が上がらない。家族がなかなか飯を食い始めてくれないので、自分が食った後、待ってられずに風呂に入るなどして片付けのタイミングを逸するという事情もあるんだが。飯には早く来いと子供の時よく叱られたので因果応報。
+最近は料理中になるべく食洗機を回せるように（ロボットの研究者っぽく）順番の最適化をやったり、その他色々工夫しているけど食後の片付けを自分でする率が上がらない。家族がなかなか飯を食い始めてくれないので、自分が食った後、待ってられずに風呂に入るなどして片付けのタイミングを逸するという事情もあるんだが。飯には早く来いと子供の時よく叱られたので因果応報。
 
 ## 愚痴
 
