@@ -67,5 +67,4 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr"><a href="https://t.co/51vmQGp0Y4">https://t.co/51vmQGp0Y4</a> <a href="https://t.co/d9wb3a8zzk">pic.twitter.com/d9wb3a8zzk</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1138814848823832578?ref_src=twsrc%5Etfw">June 12, 2019</a></blockquote>
 
-
-寝る。
+以上。やっぱりうんこかよ。
