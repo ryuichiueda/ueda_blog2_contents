@@ -20,7 +20,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ### 京急
 
-　飛行機の向きが逆なのが課題。
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr"><a href="https://t.co/IbT7y9XG08">https://t.co/IbT7y9XG08</a> <a href="https://t.co/OVfjJqFtB1">pic.twitter.com/OVfjJqFtB1</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1138597276564111360?ref_src=twsrc%5Etfw">June 12, 2019</a></blockquote>
+
+　空港行き。飛行機の向きが逆なのが課題。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr"><a href="https://t.co/pzackvRflv">https://t.co/pzackvRflv</a> <a href="https://t.co/F8gFgBUWky">pic.twitter.com/F8gFgBUWky</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1138599193549742081?ref_src=twsrc%5Etfw">June 12, 2019</a></blockquote>
 
