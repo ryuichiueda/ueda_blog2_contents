@@ -44,7 +44,16 @@ Copyright: (C) 2019 Ryuichi Ueda
 ### 乗っていた東海道線にて
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr"><a href="https://t.co/lYwi1f6xRz">https://t.co/lYwi1f6xRz</a> <a href="https://t.co/dSws3BnsAb">pic.twitter.com/dSws3BnsAb</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1138696658605170693?ref_src=twsrc%5Etfw">June 12, 2019</a></blockquote>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr"><a href="https://t.co/4CzimqwQor">https://t.co/4CzimqwQor</a> <a href="https://t.co/pZ1Vw2qG2f">pic.twitter.com/pZ1Vw2qG2f</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1138754430663139328?ref_src=twsrc%5Etfw">June 12, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr"><a href="https://t.co/BAUVPHx3tX">https://t.co/BAUVPHx3tX</a> <a href="https://t.co/hlNcTYKwG7">pic.twitter.com/hlNcTYKwG7</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1138769536855887872?ref_src=twsrc%5Etfw">June 12, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr"><a href="https://t.co/bVkAem9Gs6">https://t.co/bVkAem9Gs6</a> <a href="https://t.co/7FEK9zTXGY">pic.twitter.com/7FEK9zTXGY</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1138772833520082944?ref_src=twsrc%5Etfw">June 12, 2019</a></blockquote>
 
 
 ### 再びの京急
