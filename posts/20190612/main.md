@@ -16,7 +16,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr"><a href="https://t.co/zLc323pkVO">https://t.co/zLc323pkVO</a> <a href="https://t.co/8SNNF4308C">pic.twitter.com/8SNNF4308C</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1018427791191126016?ref_src=twsrc%5Etfw">2018年7月15日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-　んで、今年開発された`textimg`などを駆使してLED感をマシマシに。アニメーションは今後の課題。
+　んで、今年開発された[textimg](https://github.com/jiro4989/textimg)などを駆使してLED感をマシマシに。アニメーションは今後の課題。
 
 ### 京急
 
