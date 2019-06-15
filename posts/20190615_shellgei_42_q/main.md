@@ -3,7 +3,7 @@ Keywords: プログラミング,勉強会,シェル芸,シェル芸勉強会
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
-# 【問題と解答】jus共催 第42回BLACK HOLEシェル芸勉強会
+# 【問題のみ】jus共催 第42回BLACK HOLEシェル芸勉強会
 
 
 * 問題で使われているデータファイルは[GitHub](https://github.com/ryuichiueda/ShellGeiData/tree/master/vol.42)にあります。クローンは以下のようにお願いします。
