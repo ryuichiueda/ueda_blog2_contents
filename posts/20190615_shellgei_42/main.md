@@ -145,7 +145,7 @@ xargs -n 2 | tr -d ' ' |textimg > a.png
 ```
 
 
-<img width="10%" src="/posts/20190615_shellgei_42/keikyu_haneda.png" />
+<img width="30%" src="/posts/20190615_shellgei_42/keikyu_haneda.png" />
 
 ### 解答例
 
@@ -202,7 +202,7 @@ $ seq 1000000 | factor | awk 'NF==2{print $2}' | tr \\n ' ' | grep -Eo -f <(echo
 これをなるべく忠実に作ってみてください。
 
 
-<img width="10%" src="/posts/20190615_shellgei_42/narita.jpg" />
+<img width="30%" src="/posts/20190615_shellgei_42/narita.jpg" />
 
 ### 解答例
 
