@@ -12,7 +12,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-　今回の内容は、5年たって周囲の状況がいろいろ変わってきたことにあわせて、<span style="color:red">ほぼ前面にわたって書き直しています</span>。改訂2版ということですが、ほぼ別の本になっています。
+　今回の内容は、5年たって周囲の状況がいろいろ変わってきたことにあわせて、<span style="color:red">ほぼ全面にわたって書き直しています</span>。改訂2版ということですが、ほぼ別の本になっています。
 
 　内容は、ブログ用のウェブサイトをワンライナー満載のシェルスクリプトでゴリゴリ作っていくというものです。そして、作るウェブサイトは<span style="color:red">ご覧のこのサイトです</span>。つまり、このサイト https://b.ueda.tech はbashで作られており、そして改訂2版はこのサイトの作り方を書いた本になっています。
 
