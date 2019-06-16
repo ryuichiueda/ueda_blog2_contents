@@ -19,12 +19,30 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## Twitterまとめ
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">echo-sd 昨日はお疲れ様（本当に疲れる）でしたー<br>echo &#39;jus共催 第42回BLACK HOLEシェル芸勉強会 - Togetter <a href="https://t.co/C7ICKOCOT3">https://t.co/C7ICKOCOT3</a> <a href="https://twitter.com/togetter_jp?ref_src=twsrc%5Etfw">@togetter_jp</a>さんから&#39; <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1140035158961086464?ref_src=twsrc%5Etfw">June 15, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## オープニングスライド
 
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/dHhTetjhMOLoNX" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ryuichiueda/42-149960048" title="第42回シェル芸勉強会オープニングスライド" target="_blank">第42回シェル芸勉強会オープニングスライド</a> </strong> from <strong><a href="https://www.slideshare.net/ryuichiueda" target="_blank">Ryuichi Ueda</a></strong> </div>
+
 ## YouTube
+
+### 本編
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mfw9pjgXAwE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### LT
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MThrWNCMHDU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+解像度が悪いので下の（掲載予定）資料を見ながらご覧ください。
 
 ## LT資料
 
 ## ブログなど
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました<br>第42回シェル芸勉強会に参加しました - たいちょーの雑記 <a href="https://t.co/2VR8qk001v">https://t.co/2VR8qk001v</a> <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1140065250760261633?ref_src=twsrc%5Etfw">June 16, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
