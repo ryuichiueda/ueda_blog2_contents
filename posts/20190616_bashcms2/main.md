@@ -45,5 +45,5 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <hr />
 <ol>
-<li id="fn1"><p>売ってるじゃねーか<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn1"><p>売ってるじゃねーかという感じですが、フレームワークを使うかどうかや出来合いのCMSを使うかどうかは一長一短なので、あくまで冗談です。<a href="#fnref1" class="footnote-back">↩</a></p></li>
 </ol>
