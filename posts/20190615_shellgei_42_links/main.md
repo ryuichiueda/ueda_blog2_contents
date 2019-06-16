@@ -45,4 +45,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました<br>第42回シェル芸勉強会に参加しました - たいちょーの雑記 <a href="https://t.co/2VR8qk001v">https://t.co/2VR8qk001v</a> <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1140065250760261633?ref_src=twsrc%5Etfw">June 16, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">書いた<br>第42回 シェル芸勉強会振り返り - 次ログ <a href="https://t.co/iIwzLMqnwk">https://t.co/iIwzLMqnwk</a></p>&mdash; 次郎@転職活動中☁️[22:32:45] (@jiro_saburomaru) <a href="https://twitter.com/jiro_saburomaru/status/1140206633269649409?ref_src=twsrc%5Etfw">June 16, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
