@@ -31,7 +31,7 @@ Copyright: (C) 2019 Ryuichi Ueda
           <dd>KADOKAWA 2019-06-28 (Release 2019-06-28)</dd>
         </dl>
         <p class="powered-by" >(powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.1)</p>
-       <p>（ちなみにこのアフィリエイトも上記amazon-itemをラッパーしたシェルスクリプトで作って貼っています。）</p>
+       <p style="font-size:80%">（ちなみにこのアフィリエイトも上記amazon-itemをラッパーしたシェルスクリプトで作って貼っています。）</p>
       </div>
     </div>
   </div>
