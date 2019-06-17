@@ -35,4 +35,4 @@ Copyright: (C) 2019 Ryuichi Ueda
 　あとはmicroSDカードをRaspberry Pi 3B+にさしてセットアップを続行しますが、これはもうそんなに特殊なことはないので割愛します。ただ、ラズパイマウスのドライバはUbuntuではなく、Raspbianの方法で作らなければなりませんが、リポジトリ内にあるこの[スクリプト](https://github.com/rt-net/RaspberryPiMouse/blob/master/utils/build_install.bash)を使えば勝手にやってくれます。
 
 
-　以上、あんまり手順書らしくないメモ書きになってしまいましたが、ROSの本の読者のみなさまは[こちら](https://github.com/ryuichiueda/raspimouse_book_info)で遠慮なく聞いていただければと。たまにメールもいただくのですが、GitHubでご質問は共有したいです。また、この前、名乗らないでUbuntu MATEの対応をお願いしてきた人がいたのですが、流石に失礼ではないですかと返事しました・・・。
+　以上、あんまり手順書らしくないメモ書きになってしまいましたが、ROSの本の読者のみなさまは[こちら](https://github.com/ryuichiueda/raspimouse_book_info)で遠慮なく聞いていただければと。たまにメールもいただくのですが、GitHubでご質問は共有したいです。また、この前、メールで名乗らないでUbuntu MATEの対応をお願いしてきた人がいたのですが、流石にご勘弁を・・・。
