@@ -3,7 +3,7 @@ host: 'b.ueda.tech'
 sitetitle: '上田ブログ'
 subtitle: '生きるフリー素材化への厳しい修行（生きるフリー素材だとは言っていない）'
 headline:
-- text: '<a href="/?page=06030">本買ってくださーい</a>'
+- text: '<a href="/?page=bashcms2">新しい本が出ます</a>'
 - text: '<a href="https://employment.en-japan.com/engineerhub/entry/2019/02/19/103000">エンジニアHubで記事を書きました</a>'
 twitter:
 - account: 'ryuichiueda'
