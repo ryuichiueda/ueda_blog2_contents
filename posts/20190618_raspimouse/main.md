@@ -16,6 +16,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 ## できたイメージ
 
 * [ubuntu-18.04.2-preinstalled-server-armhf+raspi3-ROS-20190618.img.xz](http://file.ueda.tech/RPIM_BOOK/ubuntu-18.04.2-preinstalled-server-armhf+raspi3-ROS-20190618.img.xz)
+    * Raspberry Pi 3B+用のUbuntu 18.04にROSをインストールしたもの
+* [ubuntu-18.04.2-preinstalled-server-armhf+raspi3-ROS-raspimouse-20190618.img.xz](http://file.ueda.tech/RPIM_BOOK/ubuntu-18.04.2-preinstalled-server-armhf+raspi3-ROS-raspimouse-20190618.img.xz)
+    * Raspberry Pi 3B+用のUbuntu 18.04にROSとラズパイマウスのドライバをインストールしたもの
 
 ## 注意
 
