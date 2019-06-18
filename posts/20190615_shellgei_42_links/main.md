@@ -14,13 +14,16 @@ Copyright: (C) 2019 Ryuichi Ueda
 * [問題ページ](/?post=20190615_shellgei_42_q)
 * [解答ページ](/?post=20190615_shellgei_42)
 
-## サテライトの様子
-
-
 ## Twitterまとめ
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">echo-sd 昨日はお疲れ様（本当に疲れる）でしたー<br>echo &#39;jus共催 第42回BLACK HOLEシェル芸勉強会 - Togetter <a href="https://t.co/C7ICKOCOT3">https://t.co/C7ICKOCOT3</a> <a href="https://twitter.com/togetter_jp?ref_src=twsrc%5Etfw">@togetter_jp</a>さんから&#39; <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1140035158961086464?ref_src=twsrc%5Etfw">June 15, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## サテライトの様子
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました<br>第42回シェル芸勉強会 松江サテライト レポート <a href="https://t.co/ZWdJCN1LzS">https://t.co/ZWdJCN1LzS</a> <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; so (@3socha) <a href="https://twitter.com/3socha/status/1141000244865273856?ref_src=twsrc%5Etfw">June 18, 2019</a></blockquote>
+
+
 
 ## オープニングスライド
 
