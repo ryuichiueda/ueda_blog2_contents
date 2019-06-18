@@ -1,5 +1,5 @@
 ---
-Keywords: シェル芸
+Keywords: ラズパイマウス,Raspberry Pi,Ubuntu
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
