@@ -15,5 +15,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 のうちのどっちを使うべきなんだろ？
 
+## 今日のシェル芸
 
-　調べたいがもう眠いので寝る。
+<a class="twitter-moment" href="https://twitter.com/i/moments/1141268330973560832?ref_src=twsrc%5Etfw">自作記号オンリー難読化シェル芸</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
+世の中分からんことばかりだ。寝る。
