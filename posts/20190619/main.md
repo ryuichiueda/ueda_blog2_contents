@@ -22,4 +22,10 @@ Copyright: (C) 2019 Ryuichi Ueda
 <a class="twitter-moment" href="https://twitter.com/i/moments/1141268330973560832?ref_src=twsrc%5Etfw">自作記号オンリー難読化シェル芸</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 
-世の中分からんことばかりだ。寝る。
+世の中分からんことばかりだ。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">記号シェル芸人怖すぎて泣いちゃった．えびちゃんも記号シェル芸人になりたい</p>&mdash; えびちゃん (@rsk0315_h4x) <a href="https://twitter.com/rsk0315_h4x/status/1141349849176035329?ref_src=twsrc%5Etfw">June 19, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+自分も泣きたい。寝る。
