@@ -17,6 +17,8 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## 今日のシェル芸
 
+　人様のモーメントを埋め込む暴挙。
+
 <a class="twitter-moment" href="https://twitter.com/i/moments/1141268330973560832?ref_src=twsrc%5Etfw">自作記号オンリー難読化シェル芸</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 
