@@ -51,4 +51,4 @@ Copyright: (C) 2019 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-なお、cartographerをcatrographerとミススペルしたおかげで20分くらい無駄にした。
+なお、[cartographerをcatrographerとミススペルした](https://github.com/ryuichiueda/raspimouse_cartographer/commit/5205c85f7721932ca837113574a1047866de7013)おかげで20分くらい無駄にした。
