@@ -5,7 +5,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 # 日記（2019年6月20日） 
 
-　[オープンキャンパス](https://www.it-chiba.ac.jp/admissions/event/oc/)の準備そっちのけ。（準備はできてるつもりだけど。）多動が出てソワソワしてずっと仕事A->仕事B->Twitter->仕事A->仕事C->...みたいな状態だったが全体的にガーッと仕事が進んだ。
+　[オープンキャンパス](https://www.it-chiba.ac.jp/admissions/event/oc/)の準備そっちのけ。（準備はできてるつもりだけど。）多動が出てソワソワしてずっと仕事A->仕事B->Twitter->仕事A->仕事C->Twitter->...みたいな状態だったが全体的にガーッと仕事が進んだ。
 
 ## シェルスクリプト高速開発手法入門の表紙 
 
