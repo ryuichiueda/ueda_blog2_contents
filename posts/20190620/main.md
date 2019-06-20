@@ -55,3 +55,15 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 
 ## 確率ロボティクスの講義資料
+
+　自分の書いた確率ロボティクスの本が現在出版社に渡って編集中で、その間に副読本的な講義資料を作っている。今日は[MCLの章のスライド](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap5_60min.html#/)への加筆と、[カルマンフィルタの章のスライド](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap6_60min.html#/)の新規執筆に取りかかった。まだまだ完成度が低い。
+
+　このスライドは[reveal.js](https://revealjs.com/)というフレームワークで作っていて、GitHubにpushすると上のリンクのようにスライドがブラウザで閲覧できる。bashでウェブサイトを作る人間なので当然こういうウェブウェーイ系ツール（←失礼極まりない）はよくわからずに雰囲気で使っているが、pushするごとに脆弱性があるとGitHubから怒られるので勉強せざるを得なくなった。なんかnode.jsのパッケージが古いと怒られるらしく、`package.json`に、各パッケージの最低バージョンを明記しておかないといかんらしい。ということで、`package.json`に一行
+
+```
+  "devDependencies": {
+    ・・・
+    "diff": ">3.4.0"    <- 加えた
+  },
+```
+と加えて~~ファ~~ハッカー気分を味わった。
