@@ -34,7 +34,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-マジです！
+本気です！
 
 
 ## ラズパイマウスでCartographer
