@@ -1,5 +1,5 @@
 ---
-Keywords: ROS,日記
+Keywords: ROS,日記,執筆
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
