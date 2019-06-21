@@ -13,7 +13,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## 今日のシェル芸
 
-　シェル芸botのインフラとしての価値がだんだん高まっている。
+　シェル芸botのインフラとしての価値がだんだん高まっているようです。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">シェル芸で形態素のラティスを吐けるようになった．誰得な気がするが，少なくとも自分はうれしいｗ <a href="https://t.co/dlKp1CGB1i">https://t.co/dlKp1CGB1i</a></p>&mdash; ikawaha (@ikawaha) <a href="https://twitter.com/ikawaha/status/1142014283884089345?ref_src=twsrc%5Etfw">June 21, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
