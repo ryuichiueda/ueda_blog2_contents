@@ -16,8 +16,12 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　午前中、野暮用で登戸の方に行っており、そのあと2時間かけて津田沼に行ってゼミ。さらにそのあと自分の研究用デスクトップマシンのSSDを取り替えてOSと使うソフトをセットアップし、オープンキャンパスの準備を少ししたら夜になったので帰宅。移動中は[この資料](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap6_60min.html#/)を執筆。式激しすぎ。
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr">nooooooo! <a href="https://t.co/jfoLoYuX4o">pic.twitter.com/jfoLoYuX4o</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1142020907952590849?ref_src=twsrc%5Etfw">June 21, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-　今日もreveal.jsの脆弱性をGitHubに怒られる。どうなってんだJavaScript界隈・・・。んで、脆弱だと言われたパッケージを3.8.0より後のものにしろと言われたが、最新バージョンは3.8.0。どないせよと。なんなんだ。
+
+
+　そんでもって今日もreveal.jsの脆弱性をGitHubに怒られる。どうなってんだJavaScript界隈・・・。んで、脆弱だと言われたパッケージを3.8.0より後のものにしろと言われたが、最新バージョンは3.8.0。どないせよと。なんなんだ。
 
 
 ## 今日のシェル芸
