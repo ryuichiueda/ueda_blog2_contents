@@ -51,4 +51,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">書いた<br>第42回 シェル芸勉強会振り返り - 次ログ <a href="https://t.co/iIwzLMqnwk">https://t.co/iIwzLMqnwk</a></p>&mdash; 次郎@転職活動中☁️[22:32:45] (@jiro_saburomaru) <a href="https://twitter.com/jiro_saburomaru/status/1140206633269649409?ref_src=twsrc%5Etfw">June 16, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">第42回シェル芸勉強会に参加してきました(復習) 俺的備忘録 〜なんかいろいろ〜<a href="https://t.co/vRRyLT2CDK">https://t.co/vRRyLT2CDK</a></p>&mdash; Blacknon@通勤電車リハビリ中 (@blacknon_) <a href="https://twitter.com/blacknon_/status/1142945712176427010?ref_src=twsrc%5Etfw">June 24, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
