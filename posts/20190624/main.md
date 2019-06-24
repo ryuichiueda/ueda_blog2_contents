@@ -85,6 +85,10 @@ network:
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">海浜幕張駅で、いなり寿司の店を見つけた。珍しい。 <a href="https://t.co/zIZNiHx9bf">pic.twitter.com/zIZNiHx9bf</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1142997150046887937?ref_src=twsrc%5Etfw">June 24, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+### シェル芸勉強会リンク集
+
+　[すこし足しました。](/?post=20190615_shellgei_42_links)
+
 
 
 帰って寝る。
