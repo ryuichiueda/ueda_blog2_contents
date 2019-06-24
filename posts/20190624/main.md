@@ -78,5 +78,13 @@ network:
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">林原研（当研究室もお手伝い）のつくばチャレンジのメンバーが夜9時になってもまだ頑張ってました。梅雨の間の晴れは貴重です。 <a href="https://t.co/Od3J4Srl6M">pic.twitter.com/Od3J4Srl6M</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1143139955591434240?ref_src=twsrc%5Etfw">June 24, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+### その他
+
+　いきりステーキの別バージョンが存在した。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">海浜幕張駅で、いなり寿司の店を見つけた。珍しい。 <a href="https://t.co/zIZNiHx9bf">pic.twitter.com/zIZNiHx9bf</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1142997150046887937?ref_src=twsrc%5Etfw">June 24, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 
 自分もしっかりせんとなあ・・・帰って寝る。
