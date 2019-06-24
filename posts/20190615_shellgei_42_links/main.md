@@ -54,4 +54,6 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">第42回シェル芸勉強会に参加してきました(復習) 俺的備忘録 〜なんかいろいろ〜<a href="https://t.co/vRRyLT2CDK">https://t.co/vRRyLT2CDK</a></p>&mdash; Blacknon@通勤電車リハビリ中 (@blacknon_) <a href="https://twitter.com/blacknon_/status/1142945712176427010?ref_src=twsrc%5Etfw">June 24, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">夜中の空いた時間に少しずつ解答の解説を書き足していって、一週間以上かけてやっと書き上げました。<br>【自習】「第42回BLACK HOLEシェル芸勉強会」の問題を解いてみた - KEEP CALM AND rm -rf /* <a href="https://t.co/u0XavFpQyC">https://t.co/u0XavFpQyC</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; 日柳 光久 (@mikkun_jp) <a href="https://twitter.com/mikkun_jp/status/1143085233933131776?ref_src=twsrc%5Etfw">June 24, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
