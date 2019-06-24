@@ -78,3 +78,5 @@ network:
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">林原研（当研究室もお手伝い）のつくばチャレンジのメンバーが夜9時になってもまだ頑張ってました。梅雨の間の晴れは貴重です。 <a href="https://t.co/Od3J4Srl6M">pic.twitter.com/Od3J4Srl6M</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1143139955591434240?ref_src=twsrc%5Etfw">June 24, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+自分もしっかりせんとなあ・・・帰って寝る。
