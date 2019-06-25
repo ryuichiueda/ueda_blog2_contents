@@ -24,6 +24,8 @@ Copyright: (C) 2019 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-　いろいろガチャガチャ設定をいじったが、決定的だったのは、「`trajectory_builder_2d.lua`の`use_online_correlative_scan_matching`を`true`にする」だった。
+　いろいろガチャガチャ設定をいじったが、決定的だったのは、「`trajectory_builder_2d.lua`の`use_online_correlative_scan_matching`を`true`にする」だった。とりあえず雑ながら動いた設定を[ryuichiueda/raspimouse_cartographer](https://github.com/ryuichiueda/raspimouse_cartographer)にアップした。
+
+
 
 
