@@ -16,3 +16,11 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　全般的に初版のときよりも盛り上がりに欠けるのは、「bashでウェブサイト」が微妙に認知されて意外性がないからでしょうか・・・。買えるようになってからもう一回ブログで説明する予定。
 
+
+## 事故
+
+　事故が起きた。Googleの検索結果からこうなるのは珍しいという認識。どうやって仕掛けたんだろう？
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">このリンク踏んじまって、FXのサイトに飛ばされ、確認のためもう一度踏んだらカリビアンコムに飛ばされたところで学生さんが質問に訪ねに来た💩 <a href="https://t.co/R22vaKmpAf">pic.twitter.com/R22vaKmpAf</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1143734763930312705?ref_src=twsrc%5Etfw">June 26, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
