@@ -29,3 +29,5 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">強力なライバル多し。 <a href="https://t.co/8U1RSipRka">pic.twitter.com/8U1RSipRka</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1144180903666573315?ref_src=twsrc%5Etfw">2019年6月27日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+よろしくお願いいたします。寝る。
