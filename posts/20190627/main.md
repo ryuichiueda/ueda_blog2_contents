@@ -18,3 +18,8 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">6/27新刊：ISBN978-4-04-893069-7 ドワンゴ 『フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門 改訂2版』 上田隆一、後藤大地 著　USP研究所 監修　7冊入荷 <a href="https://t.co/TIfIQMyIcI">pic.twitter.com/TIfIQMyIcI</a></p>&mdash; ジュンク堂書店 池袋本店/PC書 (@junkudo_ike_pc) <a href="https://twitter.com/junkudo_ike_pc/status/1144130834326155264?ref_src=twsrc%5Etfw">June 27, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+　amazonでは明日解禁だけど、新着のランキングではそこそこ予約が入っている模様。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">強力なライバル多し。 <a href="https://t.co/8U1RSipRka">pic.twitter.com/8U1RSipRka</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1144180903666573315?ref_src=twsrc%5Etfw">2019年6月27日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
