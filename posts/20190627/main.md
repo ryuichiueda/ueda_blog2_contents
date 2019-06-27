@@ -11,6 +11,12 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　cartographerから[こんなふうに保存した](https://google-cartographer-ros.readthedocs.io/en/latest/assets_writer.html)地図とロボットの軌跡のデータを自分のコードで使うためのコード等を書いている。[データ](https://github.com/ryuichiueda/mapping_pfoe/blob/master/bag_and_maps/20190625_square.pbstream)はGoogleお得意のプロトコルバッファで保存されているのでデータを取り出すのがクソ面倒。自分でファイルを開くコードを書かずにcartographerに再度データを読み込ませて`map_saver`とトピックから地図と軌跡を取り出すことにした。バイナリのメリットが活きない例だと思われ。
 
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">cartographerで保存したバイナリからmap_saver経由で地図を抽出したら、gmappingで作ってるようなおなじみのやつが取得できた。 <a href="https://t.co/TXG6e33Gih">pic.twitter.com/TXG6e33Gih</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1144238537220300800?ref_src=twsrc%5Etfw">June 27, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
 ## bashcms本の陳列が進む
 
 　本日はジュンク堂でツイートしていただいた。
