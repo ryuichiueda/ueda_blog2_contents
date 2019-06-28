@@ -45,7 +45,7 @@ Copyright: (C) Ryuichi Ueda
 
 ### 2018
 
-* 上田隆一（著）, 許郁文（翻訳）: 實戰ROS機器人自作|使用Raspberry Pi, 碁峰資訊, Aug. 2018. 
+* 上田隆一（著）, 許郁文（翻訳）: [實戰ROS機器人自作|使用Raspberry Pi](https://books.google.co.jp/books?id=of6IDwAAQBAJ&printsec=frontcover&hl=ja&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false), 碁峰資訊, Aug. 2018. 
 
 * Ryuichi Ueda, translated by Yukimi Hayafune and Ryuichi Ueda: Learning ROS robot programming with Raspberry Pi, Nikkei BP, June 2018.
 
