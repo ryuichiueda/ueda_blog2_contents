@@ -27,7 +27,7 @@ Copyright: (C) Ryuichi Ueda
 <div class="card">
   <div class="row no-gutters">
     <div class="col-md-2">
-      <a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4048930699/ryuichiueda-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41tcU9fYKbL._SL160_.jpg" width="112" alt="photo"></a>
+      <a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4048930699/ryuichiueda-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51T-SfWPsPL._SL160_.jpg" width="124" alt="photo"></a>
     </div>
     <div class="col-md-10">
       <div class="card-body">
