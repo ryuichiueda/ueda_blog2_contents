@@ -16,12 +16,10 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　内容は、ブログ用のウェブサイトをワンライナー満載のシェルスクリプトでゴリゴリ作っていくというもので、これは初版と変わっていません。変わったのが、<span style="color:red">書籍中で作っていくウェブサイトがご覧のこのサイト</span>だということです。つまり、このサイト https://b.ueda.tech はbashで作られており、そして改訂2版はこのサイトの作り方を書いた本になっています。
 
-
-
 <div class="card">
   <div class="row no-gutters">
     <div class="col-md-2">
-      <a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4048930699/ryuichiueda-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/41tcU9fYKbL._SL160_.jpg" width="112" alt="photo"></a>
+      <a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4048930699/ryuichiueda-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51T-SfWPsPL._SL160_.jpg" width="124" alt="photo"></a>
     </div>
     <div class="col-md-10">
       <div class="card-body">
@@ -36,6 +34,7 @@ Copyright: (C) 2019 Ryuichi Ueda
     </div>
   </div>
 </div>
+
 
 
 　ということで、今ご覧になっているサイトがどういう風にbashで動いているか、もしご興味があれば読んでいただけると幸いです。[目薬みたいなマークのフレームワーク](https://jp.vuejs.org/v2/guide/index.html)がとても便利な昨今、いったいなんでbashでウェブサイト作んなきゃいけないんだという感じですが、もしかしたら目から鱗が落ちるか、あるいは目が飛び出るかもしれません。そういえば、5年前は全然違うフレームワークが大流行りしてましたね・・・。あれ、どうなっちゃいましたっけ？
