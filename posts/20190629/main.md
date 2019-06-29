@@ -31,5 +31,14 @@ Invalid argument "/odom" passed to canTransform argument target_frame in tf2 fra
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Kvja3ROYhB4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## 本日のエモい発言からの流れるような宣伝
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">なんかいろいろごちゃごちゃごちゃ言ってしまったけど、自分は、読んでなんか気持ちよくなる本より、読んだ後に何か満たされない思いが残って自分で調べたり試したりしてもらえるような本を書かねばならんと思っているのです。</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1144969295148933120?ref_src=twsrc%5Etfw">June 29, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+ということで、「[フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門 改訂2版](/?post=20190616_bashcms2_book)」、絶賛発売中ですのでぜひともよろしくお願いいたします。
+
+
+寝る。
 
 寝る。
