@@ -7,7 +7,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　日記、よっぱらいすぎて金曜をすっとばしてしまったが、何をやったか全く覚えてない。だから日記を書くのか。なるほど。本日は大学で学生さんのご家族の方と面談。その前の空き時間で野球を見ながらラズパイマウスをいじってた。
 
-## ROSのtf2に微妙に仕様変更があった？
+## ROSのtf2で微妙な何かがあった
 
 　以前はバリバリ動いていた[このパッケージ](https://github.com/ryuichiueda/raspimouse_navigation_3)を動かそうとして、
 
@@ -15,9 +15,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 Invalid argument "/odom" passed to canTransform argument target_frame in tf2 frame_ids cannot start with a '/' like: ...
 ```
 
-というエラーが出てなぜか動かないので修正した。パラメータに指定するフレームの頭にスラッシュを入れたらアカンということにいつの間にかなってたっぽい。ということで、[こんなふう](https://github.com/ryuichiueda/raspimouse_navigation_3/commit/c1c3dca4ea008e7f488f6d39faaf0aa953568b71#diff-2f5bfa1f6175ba86d4a527709bc0a282)に変えたら動いた。
+というエラーが出てなぜか動かないので修正。パラメータに指定するフレームの頭にスラッシュを入れたらアカンということにいつの間にか（あるいは元から）なってたっぽい。ということで、[こんなふう](https://github.com/ryuichiueda/raspimouse_navigation_3/commit/c1c3dca4ea008e7f488f6d39faaf0aa953568b71#diff-2f5bfa1f6175ba86d4a527709bc0a282)に変えたら動いた。
 
-　（テスト書かないとアカン・・・）
+　こまかい経緯については何も調べてないのですが現場からは以上です。（テスト書かないとアカン・・・）
 
 ## 研究室でいつのまにかこういうものができてた
 
