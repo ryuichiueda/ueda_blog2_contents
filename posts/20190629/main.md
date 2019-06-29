@@ -9,6 +9,10 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　それはさておき本日については大学で学生さんのご家族の方と面談。その前の空き時間で野球を見ながらラズパイマウスをいじってた。
 
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">特に難しいこともしてないけど。 <a href="https://t.co/09Dglt8bBA">pic.twitter.com/09Dglt8bBA</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1144820357544591361?ref_src=twsrc%5Etfw">2019年6月29日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ## ROSのtf2で微妙な何かがあった
 
 　以前はバリバリ動いていた[このパッケージ](https://github.com/ryuichiueda/raspimouse_navigation_3)を動かそうとして、
