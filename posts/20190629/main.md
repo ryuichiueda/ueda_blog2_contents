@@ -7,7 +7,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　日記、よっぱらいすぎて金曜をすっとばしてしまったが、老衰かアルコールか尿もれか何かの影響で何をやったか全く覚えてない。だから日記を書くのか。なるほど。
 
-　それはさておき本日については大学で学生さんのご家族の方と面談。その前の空き時間で野球を見ながらラズパイマウスをいじってた。
+　それはさておき本日については大学で学生さんのご家族の方と面談会。その前の空き時間で野球を見ながらラズパイマウスをいじってた。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">特に難しいこともしてないけど。 <a href="https://t.co/09Dglt8bBA">pic.twitter.com/09Dglt8bBA</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1144820357544591361?ref_src=twsrc%5Etfw">2019年6月29日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -44,7 +44,5 @@ Invalid argument "/odom" passed to canTransform argument target_frame in tf2 fra
 
 ということで、「[フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門 改訂2版](/?post=20190616_bashcms2_book)」、絶賛発売中ですのでぜひともよろしくお願いいたします。
 
-
-寝る。
 
 寝る。
