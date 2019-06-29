@@ -23,7 +23,7 @@ Invalid argument "/odom" passed to canTransform argument target_frame in tf2 fra
 
 というエラーが出てなぜか動かないので修正。パラメータに指定するフレームの頭にスラッシュを入れたらアカンということにいつの間にか（あるいは元から）なってたっぽい。ということで、[こんなふう](https://github.com/ryuichiueda/raspimouse_navigation_3/commit/c1c3dca4ea008e7f488f6d39faaf0aa953568b71#diff-2f5bfa1f6175ba86d4a527709bc0a282)に変えたら動いた。
 
-　こまかい経緯については何も調べてないのですが現場からは以上です。
+　こまかい経緯については何も調べてないけど現場からは以上です。
 
 ## 研究室でいつのまにかこういうものができてた
 
