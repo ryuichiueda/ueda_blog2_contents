@@ -27,7 +27,9 @@ Invalid argument "/odom" passed to canTransform argument target_frame in tf2 fra
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-いわゆる「机の下プロジェクト」だったみたいなんだけど、以前から研究室でやってたテーマではあるので、素直に頭をさげて研究室の成果とさせていただいた。あれがないこれがないという理由で学生さんの創作意欲を止めないよう、研究室の設備とかロボットとか環境とかを整えておくの大事やなと。
+いわゆる「机の下プロジェクト」だったみたいなんだけど、以前から研究室でやってたテーマ（下のYouTubeのものが先祖）ではあるので、素直に頭をさげて研究室の成果とさせていただいた。あれがないこれがないという理由で学生さんの創作意欲を止めないよう、研究室の設備とかロボットとか環境とかを整えておくの大事やなと。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kvja3ROYhB4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 寝る。
