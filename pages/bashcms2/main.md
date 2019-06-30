@@ -6,11 +6,36 @@ Copyright: (C) Ryuichi Ueda
 
 ## どんな本か
 
-* [内容の簡単な説明](/?post=20190616_bashcms2_book)
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">どんな本なのか説明を少しだけ書きました。| 「フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門」を書き直しました | 上田ブログ <a href="https://t.co/xLviXl1NIM">https://t.co/xLviXl1NIM</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1140267200961495041?ref_src=twsrc%5Etfw">June 16, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## 最新情報
+## リソース
 
-　Amazonによると6/28発売だそうです。
+* リポジトリ: https://github.com/ryuichiueda/bashcms2
+* 完成したシステムのDockerイメージ作成Dockerfile: https://github.com/ryuichiueda/bashcms2-image
+    * Dockerイメージ: https://cloud.docker.com/u/ryuichiueda/repository/docker/ryuichiueda/bashcms2-image
+
+## 動くサンプル
+
+このサイト自身です。（ちょっと手を入れてますが。）
+
+
+## どこで買えるか
+
+* 書店
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">6/27新刊：ISBN978-4-04-893069-7 ドワンゴ 『フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門 改訂2版』 上田隆一、後藤大地 著　USP研究所 監修　7冊入荷 <a href="https://t.co/TIfIQMyIcI">pic.twitter.com/TIfIQMyIcI</a></p>&mdash; ジュンク堂書店 池袋本店/PC書 (@junkudo_ike_pc) <a href="https://twitter.com/junkudo_ike_pc/status/1144130834326155264?ref_src=twsrc%5Etfw">June 27, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">6/26新刊『フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門 改訂2版』ドワンゴ（978-4-04-893069-7）上田隆一 著◆「UNIX・LINUX」棚にて展開中！ UNIXのシェルスクリプトを用いて実用的なWebアプリケーションを短時間に開発する手法を解説しています。 <a href="https://t.co/sYNKT0X8wJ">pic.twitter.com/sYNKT0X8wJ</a></p>&mdash; 書泉ブックタワーコンピュータ書売り場 (@shosen_bt_pc) <a href="https://twitter.com/shosen_bt_pc/status/1143791926681800705?ref_src=twsrc%5Etfw">June 26, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">上田隆一、後藤大地『シェルスクリプト高速開発手法入門 改訂2版』（KADOKAWA）入荷しました。<br>★UNIXの <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88?src=hash&amp;ref_src=twsrc%5Etfw">#シェルスクリプト</a> を用いて実用的なWebアプリケーションを短時間に開発する手法を解説。RDBMSもアプリケーションサーバも用いずに、実用レベルのWebアプリを実装する。 <a href="https://t.co/XbJx9b7WI2">pic.twitter.com/XbJx9b7WI2</a></p>&mdash; 精文館書店 本店3Ｆ (@seibunkan_3F) <a href="https://twitter.com/seibunkan_3F/status/1144497650890240003?ref_src=twsrc%5Etfw">June 28, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+* Amazon
 
 <div class="card">
   <div class="row no-gutters">
@@ -32,12 +57,3 @@ Copyright: (C) Ryuichi Ueda
 </div>
 
 
-## リソース
-
-* リポジトリ: https://github.com/ryuichiueda/bashcms2
-* 完成したシステムのDockerイメージ作成Dockerfile: https://github.com/ryuichiueda/bashcms2-image
-    * Dockerイメージ: https://cloud.docker.com/u/ryuichiueda/repository/docker/ryuichiueda/bashcms2-image
-
-## 動くサンプル
-
-このサイト自身です。（ちょっと手を入れてますが。）
