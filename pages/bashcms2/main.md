@@ -22,20 +22,17 @@ Copyright: (C) Ryuichi Ueda
 
 ## どこで買えるか
 
-* 書店
+### 電子版
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">6/27新刊：ISBN978-4-04-893069-7 ドワンゴ 『フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門 改訂2版』 上田隆一、後藤大地 著　USP研究所 監修　7冊入荷 <a href="https://t.co/TIfIQMyIcI">pic.twitter.com/TIfIQMyIcI</a></p>&mdash; ジュンク堂書店 池袋本店/PC書 (@junkudo_ike_pc) <a href="https://twitter.com/junkudo_ike_pc/status/1144130834326155264?ref_src=twsrc%5Etfw">June 27, 2019</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">電子版の情報が出てまーす。7/5になってますね。 | フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門 改訂2版 上田　隆一：生活・実用書（電子版） | KADOKAWA <a href="https://t.co/OocCIwSuFY">https://t.co/OocCIwSuFY</a> <a href="https://twitter.com/kadokawa_PR?ref_src=twsrc%5Etfw">@kadokawa_pr</a>さんから <a href="https://twitter.com/hashtag/bashcms%E6%9C%AC?src=hash&amp;ref_src=twsrc%5Etfw">#bashcms本</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1145145789804503041?ref_src=twsrc%5Etfw">June 30, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">6/26新刊『フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門 改訂2版』ドワンゴ（978-4-04-893069-7）上田隆一 著◆「UNIX・LINUX」棚にて展開中！ UNIXのシェルスクリプトを用いて実用的なWebアプリケーションを短時間に開発する手法を解説しています。 <a href="https://t.co/sYNKT0X8wJ">pic.twitter.com/sYNKT0X8wJ</a></p>&mdash; 書泉ブックタワーコンピュータ書売り場 (@shosen_bt_pc) <a href="https://twitter.com/shosen_bt_pc/status/1143791926681800705?ref_src=twsrc%5Etfw">June 26, 2019</a></blockquote>
+### 紙版
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">hontoさんのページです。| シェルスクリプト高速開発手法入門 フルスクラッチから１日でＣＭＳを作る 改訂２版 <a href="https://t.co/F4lt908Jea">https://t.co/F4lt908Jea</a> <a href="https://twitter.com/hashtag/bashcms?src=hash&amp;ref_src=twsrc%5Etfw">#bashcms</a> <a href="https://twitter.com/hashtag/bashcms%E6%9C%AC?src=hash&amp;ref_src=twsrc%5Etfw">#bashcms本</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1145146231288504320?ref_src=twsrc%5Etfw">June 30, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">上田隆一、後藤大地『シェルスクリプト高速開発手法入門 改訂2版』（KADOKAWA）入荷しました。<br>★UNIXの <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88?src=hash&amp;ref_src=twsrc%5Etfw">#シェルスクリプト</a> を用いて実用的なWebアプリケーションを短時間に開発する手法を解説。RDBMSもアプリケーションサーバも用いずに、実用レベルのWebアプリを実装する。 <a href="https://t.co/XbJx9b7WI2">pic.twitter.com/XbJx9b7WI2</a></p>&mdash; 精文館書店 本店3Ｆ (@seibunkan_3F) <a href="https://twitter.com/seibunkan_3F/status/1144497650890240003?ref_src=twsrc%5Etfw">June 28, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-* Amazon
 
 <div class="card">
   <div class="row no-gutters">
@@ -56,4 +53,17 @@ Copyright: (C) Ryuichi Ueda
   </div>
 </div>
 
+### 全国の書店さん
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">6/27新刊：ISBN978-4-04-893069-7 ドワンゴ 『フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門 改訂2版』 上田隆一、後藤大地 著　USP研究所 監修　7冊入荷 <a href="https://t.co/TIfIQMyIcI">pic.twitter.com/TIfIQMyIcI</a></p>&mdash; ジュンク堂書店 池袋本店/PC書 (@junkudo_ike_pc) <a href="https://twitter.com/junkudo_ike_pc/status/1144130834326155264?ref_src=twsrc%5Etfw">June 27, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">6/26新刊『フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門 改訂2版』ドワンゴ（978-4-04-893069-7）上田隆一 著◆「UNIX・LINUX」棚にて展開中！ UNIXのシェルスクリプトを用いて実用的なWebアプリケーションを短時間に開発する手法を解説しています。 <a href="https://t.co/sYNKT0X8wJ">pic.twitter.com/sYNKT0X8wJ</a></p>&mdash; 書泉ブックタワーコンピュータ書売り場 (@shosen_bt_pc) <a href="https://twitter.com/shosen_bt_pc/status/1143791926681800705?ref_src=twsrc%5Etfw">June 26, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">上田隆一、後藤大地『シェルスクリプト高速開発手法入門 改訂2版』（KADOKAWA）入荷しました。<br>★UNIXの <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88?src=hash&amp;ref_src=twsrc%5Etfw">#シェルスクリプト</a> を用いて実用的なWebアプリケーションを短時間に開発する手法を解説。RDBMSもアプリケーションサーバも用いずに、実用レベルのWebアプリを実装する。 <a href="https://t.co/XbJx9b7WI2">pic.twitter.com/XbJx9b7WI2</a></p>&mdash; 精文館書店 本店3Ｆ (@seibunkan_3F) <a href="https://twitter.com/seibunkan_3F/status/1144497650890240003?ref_src=twsrc%5Etfw">June 28, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+## 関連サイト
