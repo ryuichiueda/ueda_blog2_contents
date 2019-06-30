@@ -16,7 +16,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## 料理
 
-　朝昼は外食で許してもらったが夕飯は真面目に作った。イワシが安かったので茹でた。8匹と思って料理を始めたが実は6匹で濃い煮物ができた。
+　朝昼は外食で許してもらったが夕飯は真面目に作った。イワシが安かったので茹でた。8尾と思って料理を始めたが実は6尾で濃い煮物ができた。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">今日は平日用に野菜をそこそこ茹でた。しかし家族が週の前半にあっという間に食ってしまう模様。 <a href="https://t.co/OyQiw4MEZh">pic.twitter.com/OyQiw4MEZh</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1145326473101758464?ref_src=twsrc%5Etfw">June 30, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
