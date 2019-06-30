@@ -11,9 +11,9 @@ Copyright: (C) Ryuichi Ueda
 
 ## リソース
 
-* リポジトリ: https://github.com/ryuichiueda/bashcms2
-* 完成したシステムのDockerイメージ作成Dockerfile: https://github.com/ryuichiueda/bashcms2-image
-    * Dockerイメージ: https://cloud.docker.com/u/ryuichiueda/repository/docker/ryuichiueda/bashcms2-image
+* [リポジトリ（GitHub）](https://github.com/ryuichiueda/bashcms2)
+* [完成したシステムのDockerイメージ作成Dockerfile（GitHub）](https://github.com/ryuichiueda/bashcms2-image)
+    * [Dockerイメージ（Docker Hub）](https://cloud.docker.com/u/ryuichiueda/repository/docker/ryuichiueda/bashcms2-image)
 
 ## 動くサンプル
 
