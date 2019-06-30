@@ -33,6 +33,10 @@ Copyright: (C) Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">hontoさんのページです。| シェルスクリプト高速開発手法入門 フルスクラッチから１日でＣＭＳを作る 改訂２版 <a href="https://t.co/F4lt908Jea">https://t.co/F4lt908Jea</a> <a href="https://twitter.com/hashtag/bashcms?src=hash&amp;ref_src=twsrc%5Etfw">#bashcms</a> <a href="https://twitter.com/hashtag/bashcms%E6%9C%AC?src=hash&amp;ref_src=twsrc%5Etfw">#bashcms本</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1145146231288504320?ref_src=twsrc%5Etfw">June 30, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">こちら紀伊國屋さん | シェルスクリプト高速開発手法入門 / ＵＳＰ研究所【監修】/上田 隆一/後藤 大地【著】 - 紀伊國屋書店ウェブストア <a href="https://t.co/B34GhTHXtg">https://t.co/B34GhTHXtg</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1145146666304937985?ref_src=twsrc%5Etfw">June 30, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 
 <div class="card">
   <div class="row no-gutters">
