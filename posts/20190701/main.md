@@ -21,6 +21,8 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## bashcms本の電子版予約開始
 
+　よろしくおねがいしまーす。
+
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">フルスクラッチから1日でCMSを作る_シェルスクリプト高速開発手法入門 - 改訂2版 アスキードワンゴ (上田隆一/後藤大地/USP研究所(監修)) の、紀伊國屋電子書籍版が予約開始されました。金曜配信。<a href="https://t.co/rQ5dVawb3Z">https://t.co/rQ5dVawb3Z</a></p>&mdash; 紀伊國屋電子書籍Kinoppy新刊情報 (@kinokuniyanew) <a href="https://twitter.com/kinokuniyanew/status/1145641730785476608?ref_src=twsrc%5Etfw">2019年7月1日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
