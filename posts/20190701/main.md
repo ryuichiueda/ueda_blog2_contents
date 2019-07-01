@@ -19,6 +19,29 @@ Copyright: (C) 2019 Ryuichi Ueda
 [ WARN] [1561957471.840553351]: Could not transform the global plan to the frame of the controller
 ```
 
+## bashcms本の電子版予約開始
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">フルスクラッチから1日でCMSを作る_シェルスクリプト高速開発手法入門 - 改訂2版 アスキードワンゴ (上田隆一/後藤大地/USP研究所(監修)) の、紀伊國屋電子書籍版が予約開始されました。金曜配信。<a href="https://t.co/rQ5dVawb3Z">https://t.co/rQ5dVawb3Z</a></p>&mdash; 紀伊國屋電子書籍Kinoppy新刊情報 (@kinokuniyanew) <a href="https://twitter.com/kinokuniyanew/status/1145641730785476608?ref_src=twsrc%5Etfw">2019年7月1日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="card">
+  <div class="row no-gutters">
+    <div class="col-md-2">
+      <a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B07TSZZPWN/ryuichiueda-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51H%2B4kUhbFL._SL160_.jpg" width="121" alt="photo"></a>
+    </div>
+    <div class="col-md-10">
+      <div class="card-body">
+        <dl class="fn" style="font-size:80%">
+          <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B07TSZZPWN/ryuichiueda-22">フルスクラッチから1日でCMSを作る_シェルスクリプト高速開発手法入門 改訂2版 (アスキードワンゴ)</a></dt>
+          <dd>[上田 隆一 後藤 大地]</dd>
+          <dd>ドワンゴ 2019-07-05 (Release 2019-07-05)</dd>
+        </dl>
+        <p class="powered-by" >(powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.1)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 ## 今日のシェル芸
 
 　いらすとや風の文言がシュールさを増しております。
