@@ -52,7 +52,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">あった。DFAとNFA扱った時の鳥海さんのスライド <a href="https://t.co/pu8tiaMfMI">https://t.co/pu8tiaMfMI</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1146404568072245248?ref_src=twsrc%5Etfw">July 3, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-　もしかしたらこのサイトの検索機能（`grep`を使用）にも問題があるかもしれませんので、いろいろ挑戦してみていただければと。（なるべくテストすると宣言してからお願いします。）
+　もしかしたらこのサイトの検索機能（`grep`を使用）にも問題があるかもしれませんので、いろいろ挑戦してみていただければと。なるべくテストすると宣言してからお願いします。コードは[この本](https://amzn.to/2JbKgYN)にのってます（宣伝）。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">grepは-P使わなければDFA型（決定性有限オートマトン）なので正規表現のマッチは早いすね。Cloudflareは裏でNFA型の何かを使ってたのかな。</p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/1146214378926157824?ref_src=twsrc%5Etfw">July 3, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
