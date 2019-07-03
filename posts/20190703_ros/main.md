@@ -20,7 +20,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 ## ROSいじり2
 
 
-　ロボットとPC側でlaunchファイルが別れているので両方を叩くシェルスクリプトを作った。が、たぶんlaunchファイルに書けるんじゃないかなーと思って調べてないのは怠慢だと思って調べるとちゃんとあった。明日やる。こういうものは本書くときに漏れがないように一通り勉強しなきゃいけないので完全に怠慢。アカン。
+　ロボットとPC側でlaunchファイルが別れているので両方を叩くシェルスクリプトを作った。が、たぶん一つのlaunchファイルにまとめられるんじゃないかなーと思って、調べてないのは怠慢だと思って調べるとちゃんとあった。明日やる。こういうものは本書くときに漏れがないように一通り勉強しなきゃいけないので完全に怠慢。アカン。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">あーなるほど。こうすればよいのか。<a href="https://t.co/tQVlJVseE0">https://t.co/tQVlJVseE0</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1146347445921579008?ref_src=twsrc%5Etfw">July 3, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
