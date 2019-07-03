@@ -27,3 +27,53 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ありがとうございます。
 
+## DFA、NFA
+
+　昨日、某企業で正規表現が暴走したそうで、シェル芸bot上でも実験が行われていました。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">real0m2.365s<br>user0m2.360s<br>sys0m0.000s <a href="https://t.co/Ic6mHXthaD">https://t.co/Ic6mHXthaD</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1146212800567504896?ref_src=twsrc%5Etfw">2019年7月3日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">real0m0.002s<br>user0m0.000s<br>sys0m0.000s <a href="https://t.co/qYps07Blw1">https://t.co/qYps07Blw1</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1146213698639261697?ref_src=twsrc%5Etfw">2019年7月3日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">real0m11.440s<br>user0m9.472s<br>sys0m0.044s <a href="https://t.co/SgigkIjSTZ">https://t.co/SgigkIjSTZ</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1146216507514294272?ref_src=twsrc%5Etfw">2019年7月3日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr"><a href="https://twitter.com/search?q=%24x&amp;src=ctag&amp;ref_src=twsrc%5Etfw">$x</a>=&quot;a*a*a*a*a*a*a*a*a*a*a*a*[bc]&quot;;$s = &quot;aaaaaaaaaaaaaaaaaaaaa&quot;; [regex]::Replace($s,$x,{$args})<br><br>real0m0.767s<br>user0m0.844s<br>sys0m0.088s <a href="https://t.co/ot1FTKmcQR">https://t.co/ot1FTKmcQR</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1146223963862732806?ref_src=twsrc%5Etfw">2019年7月3日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+　実は2017年12月にシェル芸勉強会で鳥海さんがとりあげていました。DFAを使った正規表現のマッチングは1文字1文字状態遷移させるだけなので受理か不受理が決められた時間で出てきますが、NFAだと探索みたいなこと（バックトラック）が発生して場合によっては異常に時間がかかるという現象があるとのこと。
+
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">あった。DFAとNFA扱った時の鳥海さんのスライド <a href="https://t.co/pu8tiaMfMI">https://t.co/pu8tiaMfMI</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1146404568072245248?ref_src=twsrc%5Etfw">July 3, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+　もしかしたらこのサイトの検索機能（`grep`を使用）にも問題があるかもしれませんので、いろいろ挑戦してみていただければと。（なるべくテストすると宣言してからお願いします。）
+
+
+　DFA（決定性有限オートマトン）とNFA（非決定性有限オートマトン）については、次の教科書が詳しいです。
+
+<div class="card">
+  <div class="row no-gutters">
+    <div class="col-md-2">
+      <a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4320122070/ryuichiueda-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51rjfNYrhjL._SL160_.jpg" width="112" alt="photo"></a>
+    </div>
+    <div class="col-md-10">
+      <div class="card-body">
+        <dl class="fn" style="font-size:80%">
+          <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4320122070/ryuichiueda-22">計算理論の基礎 [原著第2版] 1.オートマトンと言語</a></dt>
+          <dd>[Michael Sipser]</dd>
+          <dd>共立出版 2008-05-21</dd>
+        </dl>
+        <p class="powered-by" >(powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.1)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+寝る。
