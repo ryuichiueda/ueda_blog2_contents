@@ -29,7 +29,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## DFA、NFA
 
-　昨日、某企業で正規表現が暴走したそうで、シェル芸bot上でも実験が行われていました。
+　昨日、某企業で正規表現が暴走したそうで、シェル芸bot上でも時間のかかる正規表現について実験が行われていました。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">real0m2.365s<br>user0m2.360s<br>sys0m0.000s <a href="https://t.co/Ic6mHXthaD">https://t.co/Ic6mHXthaD</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1146212800567504896?ref_src=twsrc%5Etfw">2019年7月3日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -46,7 +46,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-　実は2017年12月にシェル芸勉強会で鳥海さんがとりあげていました。DFAを使った正規表現のマッチングは1文字1文字状態遷移させるだけなので受理か不受理が決められた時間で出てきますが、NFAだと探索みたいなこと（バックトラック）が発生して場合によっては異常に時間がかかるという現象があるとのこと。
+　この話、実は2017年12月にシェル芸勉強会で鳥海さんがとりあげていました。DFAを使った正規表現のマッチングは1文字1文字状態遷移させるだけなので受理か不受理が決められた時間で出てきますが、NFAだと探索みたいなこと（バックトラック）が発生して場合によっては異常に時間がかかるという現象があるとのこと。
 
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">あった。DFAとNFA扱った時の鳥海さんのスライド <a href="https://t.co/pu8tiaMfMI">https://t.co/pu8tiaMfMI</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1146404568072245248?ref_src=twsrc%5Etfw">July 3, 2019</a></blockquote>
@@ -74,6 +74,17 @@ Copyright: (C) 2019 Ryuichi Ueda
     </div>
   </div>
 </div>
+
+## 著作権とライセンスについて
+
+　これもいろいろ昨日から話題になってますが、私も講義で[毎年90分話をしている](https://github.com/ryuichiueda/robosys2018/blob/master/09_license.md)のでおさらいをしました。
+
+　こちら、度々参考にさせていただいております。
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/118TR8AdWAm0oL" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/YutakaKachi/ss-118947772" title="オープンソースライセンスの基礎と実務" target="_blank">オープンソースライセンスの基礎と実務</a> </strong> from <strong><a href="https://www.slideshare.net/YutakaKachi" target="_blank">Yutaka Kachi</a></strong> </div>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">知る、読む、使う！ オープンソースライセンス - 達人出版会 <a href="https://t.co/TsciUjAGLH">https://t.co/TsciUjAGLH</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1146409633688330240?ref_src=twsrc%5Etfw">July 3, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 寝る。
