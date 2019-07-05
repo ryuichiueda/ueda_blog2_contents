@@ -24,6 +24,9 @@ Copyright: (C) Ryuichi Ueda
 
 ### 電子版
 
+* [Apple Books](https://books.apple.com/jp/book//id1470899030)
+* [honto](https://honto.jp/ebook/pd_29757184.html)
+
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">電子版の情報が出てまーす。7/5になってますね。 | フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門 改訂2版 上田　隆一：生活・実用書（電子版） | KADOKAWA <a href="https://t.co/OocCIwSuFY">https://t.co/OocCIwSuFY</a> <a href="https://twitter.com/kadokawa_PR?ref_src=twsrc%5Etfw">@kadokawa_pr</a>さんから <a href="https://twitter.com/hashtag/bashcms%E6%9C%AC?src=hash&amp;ref_src=twsrc%5Etfw">#bashcms本</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1145145789804503041?ref_src=twsrc%5Etfw">June 30, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
