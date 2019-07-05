@@ -80,7 +80,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 * 元ネタ: [Macを購入したら絶対に導入したい！私が3年間で厳選した超オススメアプリ10選！ | かなりすごいブログ](http://blog.supermomonga.com/articles/vim/startdash-with-mac.html) by [@supermomonga](https://twitter.com/supermomonga)
 * 初版のときのやつ: [夏に読みたい技術書10選 | 上田ブログ](https://b.ueda.tech/?post=03470)
 
-（何度やったら気がすむんだとか言わないでください！だって面白いんだもん。）
+（また同じネタやったんかとか言わないでください！だって面白いんだもん。）
 
 
 ## 買えるところ
