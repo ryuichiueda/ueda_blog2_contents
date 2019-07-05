@@ -85,7 +85,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## 買えるところ
 
-* [このページ](/?page=bashcms2)の下の方にリンクがありまーす。お急ぎの人は↓で。
+* [本サイトの書籍の紹介ページ](/?page=bashcms2)の下の方にリンクがありまーす。お急ぎの人は↓で。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">bashでウェブサイト作る割とやばい本のKindle版本日発売ですー<br><br>フルスクラッチから1日でCMSを作る_シェルスクリプト高速開発手法入門 改訂2版 (アスキードワンゴ)   上田 隆一 <a href="https://t.co/QF7gBJitha">https://t.co/QF7gBJitha</a> <a href="https://twitter.com/AmazonJP?ref_src=twsrc%5Etfw">@amazonJP</a>より</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1146928055383801856?ref_src=twsrc%5Etfw">July 4, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
