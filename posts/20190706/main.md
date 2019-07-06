@@ -16,6 +16,8 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ビッグデータという言葉が流行った時、プライド高い連中がシェルなどをロートルだと揶揄しながら、シェルなら数秒で終わるたかが数桁GB程度のデータ処理に、何十分もかけてHadoop使う珍事が全国的に多発していたであろうあの時期のことを俺は忘れないからな。<a href="https://t.co/eB2QmFp1oC">https://t.co/eB2QmFp1oC</a></p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/1147431442449874945?ref_src=twsrc%5Etfw">July 6, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+何十GBを数秒は計算機が1ノードでは辛いけど、たしかに10ノードあってうまく分散してあればシェル芸で数秒にはなります。「どんな速いストレージの話をしてるんだ？」というツッコミが入ってましたが、Unix系だとファイルがDRAMに乗ってることが想定できるんで、読み込みのコストはうまくやればほぼゼロで考えられます。
+
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">10年くらい前、大手のベンダ各社がむりやりHadoopソリューション作ってお客さんに売ろうとしてたの、私も忘れられません・・・<br><br>Hadoop使うのにコンピュータたくさん必要で、たくさん売れるという本末転倒の・・・</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1147436586851659776?ref_src=twsrc%5Etfw">2019年7月6日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
