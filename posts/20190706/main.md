@@ -22,7 +22,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-あと、Hadpoopとミスタイプして叱られが生じるところだった。危ない。
+上のツイートをしたとき、Hadpoopとミスタイプして叱られが生じるところだった。危ない。
 
 　それから、私の見てきた業界の問題についてもちょっとツイートしたので残しておこうかと。
 　
