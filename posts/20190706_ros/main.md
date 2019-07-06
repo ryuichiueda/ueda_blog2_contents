@@ -29,7 +29,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ```
   <!-- ROBOT SIDE -->
-  <machine name="raspimouse" address="raspimouse" env-loader="/home/ubuntu/env.sh" user="ubuntu" password="ubuntu" />
+  <machine name="raspimouse" address="raspimouse" env-loader="/home/ubuntu/env.bash" user="ubuntu" password="ubuntu" />
 
   <node machine="raspimouse" pkg="raspimouse_ros_2" name="motors" type="motors" required="true" />
 
@@ -70,7 +70,7 @@ ssh ubuntu@raspimouse -oHostKeyAlgorithms='ssh-rsa'
 
 と手でログインして、RSAアルゴリズムを使うように指定なおさないといけないとのことです。
 
-## `/home/ubuntu/env.sh`を書く
+## ロボット側で起動するシェルスクリプトを書く
 
 　最後に、launchファイルで指定した`/home/ubuntu/env.bash`というスクリプトを書きます。
 
@@ -116,6 +116,15 @@ launching remote roslaunch child with command: [env ROS_MASTER_URI=http://note:1
 ```
 
 と`env.bash`を呼び出しているところがありますが、`env.bash`の`$@`には、このログ中の「`roslaunch -c raspimouse-0 -u http://note:43485/ --run_id 1639c576-9f94-11e9-82c0-001c420e53eb`」という文字列が入ります。で、`exec "$@"`で`roslaunch -c ...`が実行されます。環境は`env.bash`で`source`したものが読み込まれているので、これが`roslaunch`に伝わって、`roslaunch`がノードを見つけてくれます。
+
+　`env.bash`にしかけた`/tmp/remote_kick_log.txt`を見ると、
+
+```
+exec "$@"
++ exec roslaunch -c raspimouse-0 -u http://note:43485/ --run_id 1639c576-9f94-11e9-82c0-001c420e53eb
+```
+
+と、`roslaunch`が`exec`で実行されている様子が分かります。`exec`については、[私の講義資料](https://github.com/ryuichiueda/robosys2018/blob/master/04_process.md)をご参考ください。
 
 
 ## ということで
