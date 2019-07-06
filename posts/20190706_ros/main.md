@@ -23,7 +23,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　まず、こんな感じでlaunchファイルを用意します。この例はRaspberry Pi MouseでCartographerを利用してSLAMをするためのlaunchファイルです。
 
-* https://github.com/ryuichiueda/raspimouse_cartographer/blob/master/launch/slam_remote_robot_and_pc.launch
+* https://github.com/ryuichiueda/raspimouse_cartographer/blob/master/launch/slam.launch
 
 大事なのは、ロボット側のノードを立ち上げている部分で、抜粋すると、
 
