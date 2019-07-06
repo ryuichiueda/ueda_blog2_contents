@@ -32,5 +32,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">で、こういうインセンティブで管理職が働いているので、なんとかペイみたいな問題は起こるべくして起こるという話なんですね・・・ <a href="https://t.co/EP6tS5Uaqt">https://t.co/EP6tS5Uaqt</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1147463952059662336?ref_src=twsrc%5Etfw">2019年7月6日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+めちゃくちゃな判断や、それにつけこんだめちゃくちゃな商売がなくなることを願ってみません・・・。そして私は次の世代が一人でも多く計算機のほんとのスピードに気づくよう、ひたすら💩シェル芸を垂れ流してシェル芸人口を増やしていこうと思います・・・。
+
 
 寝る。
