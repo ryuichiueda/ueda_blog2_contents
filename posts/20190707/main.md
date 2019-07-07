@@ -9,7 +9,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## Cartographerを使ったteach-and-replayのパッケージ完成
 
-　Cartographerで作った地図と軌跡を使って、その動作をRaspberry Pi Mouseに再現させるパッケージを作った。性能が無駄にいい模様。ほんとうはこれをごにょごにょしてICRAを書くつもりなのに、これで数百メートルはティーチングだけでナビゲーションできてしまいそうで恐ろしい。
+　Cartographerで作った地図と軌跡を使って、その動作をRaspberry Pi Mouseに再現させるパッケージを作った。適当に作った割には性能が無駄にいい模様。ほんとうはこれをごにょごにょしてICRAを書くつもりなのに、これで数百メートルはティーチングだけでナビゲーションできてしまいそうで恐ろしい。
 
 
 * teaching（SLAM）のパッケージ: https://github.com/ryuichiueda/raspimouse_cartographer
