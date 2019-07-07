@@ -7,7 +7,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　午前は野暮用で某中学校に行く。午後はちょっとロボットをいじる。体調を崩したっぽい。
 
-## Cartographerを使ったteach-and-replayのプログラム
+## Cartographerを使ったteach-and-replayのパッケージ完成
 
 　Cartographerで作った地図と軌跡を使って、その動作をRaspberry Pi Mouseに再現させるパッケージを作った。
 
@@ -15,7 +15,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 * teaching（SLAM）のパッケージ: https://github.com/ryuichiueda/raspimouse_cartographer
 * replayのパッケージ: https://github.com/ryuichiueda/raspimouse_map_based_teach_and_replay
 
-明日デモ動画をとって使い方等、なるべく詳しくネットにアップしようと思う。
+スクリプトと叩くと、SLAMからリプレイまでロボットのボタン操作だけでできるようにできた。明日デモ動画をとって使い方等、なるべく詳しくネットにアップしようと思う。
 
 ## bashcms本よろしくお願いします
 
