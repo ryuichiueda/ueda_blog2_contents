@@ -41,8 +41,11 @@ Copyright: (C) 2019 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-大反省の末、寝る。
+　アカン。
 
+## 確率ロボティクス本近況
+
+　ゲラがそろそろ送られてくるっぽい。
 
 ## 宣伝
 
@@ -69,3 +72,6 @@ Copyright: (C) 2019 Ryuichi Ueda
     </div>
   </div>
 </div>
+
+
+GitHubのあらゆるものが中途半端な件、大反省の末寝る。
