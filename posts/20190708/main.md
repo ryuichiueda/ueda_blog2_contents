@@ -35,7 +35,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SirW2nRSL8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-このリポジトリもREADMEが古い。アカン。
+　しかし、このリポジトリもREADMEが古い。アカン。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">作ったまま感がひどい。</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1148237581110280192?ref_src=twsrc%5Etfw">July 8, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
