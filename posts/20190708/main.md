@@ -29,11 +29,11 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　SLAMの文脈だとSLAM and waypoint navigationという感じのデモ。[このリポジトリ](https://github.com/ryuichiueda/raspimouse_map_based_teach_and_replay)を使用。人がロボットを操縦して、そのあと、ロボットが人の操縦した経路と同じ経路で移動するというもの。
 
-　デモムービーは速度を変えて次のもの2つをYouTubeにアップ。上のが1倍速、下のが5倍速（字幕を間違えたので現在、差し替え中・・・）。
+　デモムービーは速度を変えて次のもの2つをYouTubeにアップ。上のが1倍速、下のが5倍速。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fk8Y7kWahSQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SirW2nRSL8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HlvITc56pSk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 　しかし、このリポジトリもREADMEが古い。アカン。
 
