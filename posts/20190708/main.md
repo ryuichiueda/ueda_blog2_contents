@@ -27,9 +27,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## Cartographerを使ったteach-and-replay
 
-　SLAMの文脈だとSLAM and waypoint navigationという感じのデモ。[このリポジトリ](https://github.com/ryuichiueda/raspimouse_map_based_teach_and_replay)のデモ。
+　SLAMの文脈だとSLAM and waypoint navigationという感じのデモ。[このリポジトリ](https://github.com/ryuichiueda/raspimouse_map_based_teach_and_replay)を使用。人がロボットを操縦して、そのあと、ロボットが人の操縦した経路と同じ経路で移動するというもの。
 
-　アカンのだけどとりあえずデモムービー見たってください。上のが1倍速、下のが5倍速ですけど5倍速を見ると良いかと思います。これくらい手軽にナビゲーションできるといいですよね。
+　デモムービーは速度を変えて次のもの2つをYouTubeにアップ。上のが1倍速、下のが5倍速。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fk8Y7kWahSQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
