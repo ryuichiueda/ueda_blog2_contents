@@ -36,7 +36,7 @@ $ rosdep install raspimouse_ros_2
 （package.xmlに書いたパッケージのインストールが始まる）
 ```
 
-　しかし、`raspimouse_ros_2`を使うパッケージの場合、こう打たないといけないっぽい。これは`raspimouse_cartographer`をダウンロードして`rosdep`する場合。
+　しかし、`raspimouse_ros_2`を使うパッケージの場合、こう打たないといけないっぽい。これは[raspimouse_cartographer](https://github.com/ryuichiueda/raspimouse_cartographer)をダウンロードして`rosdep`する場合。
 
 
 ```
