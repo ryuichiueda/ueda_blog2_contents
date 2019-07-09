@@ -45,7 +45,7 @@ $ rosdep install --ignore-src raspimouse_ros_2 raspimouse_cartographer
 （package.xmlに書いたパッケージのインストールが始まる）
 ```
 
-`raspimouse_ros_2`が同じ場所にあっても標準のパッケージだと思ってどこかに探しにいくので、それを`--ignore-src`で止めないといけない。
+`raspimouse_ros_2`が同じ場所にあっても標準のパッケージだと思ってどこかに探しにいくので、それを`--ignore-src`で止めないといけない。ちなみにこの結論に至るまで試行錯誤したけど、[昨日](/?post=20190708)作ったDockerのイメージがさっそく役に立った。
 
 　で、こう書いているけどほんまかいなという感じなので、もっと良い情報があれば教えていただければ幸いでっす。
 
