@@ -48,3 +48,19 @@ $ rosdep install --ignore-src raspimouse_ros_2 raspimouse_cartographer
 `raspimouse_ros_2`が同じ場所にあっても標準のパッケージだと思ってどこかに探しにいくので、それを`--ignore-src`で止めないといけない。
 
 　で、こう書いているけどほんまかいなという感じなので、もっと良い情報があれば教えていただければ幸いでっす。
+
+## アールティさんの仕事
+
+　唐揚げロボットのインパクトはでかい。自分も間接的に手伝っててうれしいんだけど、伝え方がむずかしいのでひねくれた伝え方になる。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">上田研の某氏が暗躍している案件です。上田研としても微粒子レベルで協力してますがアールティさんと上田研の某氏の仕事です。 <a href="https://twitter.com/hashtag/%E4%B8%8A%E7%94%B0%E7%A0%94%E3%81%AE%E6%9F%90%E6%B0%8F?src=hash&amp;ref_src=twsrc%5Etfw">#上田研の某氏</a><br><br>弁当の盛りつけもしてくれる！料理するロボットの展示会 | NHKニュース   <a href="https://t.co/Huei2pM3sw">https://t.co/Huei2pM3sw</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1148588181559762944?ref_src=twsrc%5Etfw">July 9, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">こちらも。唐揚げのやつ。 | 食品製造の最新技術 “やさしい”ロボットとは？ TBS NEWS <a href="https://t.co/oXxPY0fLtS">https://t.co/oXxPY0fLtS</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1148588881090162688?ref_src=twsrc%5Etfw">July 9, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+自分が引っ張ってないと気が済まないのでなぜかライバル心が燃え盛っており。他の案件頑張ろう。実はロボット学会では別件でマニピュレータの研究の発表がある。
+
+
+寝る。
