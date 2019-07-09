@@ -9,7 +9,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## Netplan時代のWiFi power managementの切り方
 
-　ロボットに乗っけたラズパイでWiFiを使うときに絶対必要な作業に「WiFiのpower managementをoffにする」というのがある。Ubuntu 18.04になってネットワーク設定が変わってやり方がわからなくなってうやむやにしてたら、昨日、ついにそれが原因で何時間も無駄にする事態が発生。ということで調査したら、これが一番楽そうという結論に至る。
+　ラズパイでWiFiを使うときに必要な作業に「WiFiのpower managementをoffにする」というのがある。Ubuntu 18.04になってネットワーク設定が変わってやり方がわからなくなってうやむやにしてたら、昨日、ついにそれが原因で何時間も無駄にする事態が発生。ということで調査したら、これが一番楽そうという結論に至る。
 
 ```
 $ sudo apt install wireless-tools
