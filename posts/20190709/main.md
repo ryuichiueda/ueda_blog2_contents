@@ -27,7 +27,7 @@ wlan0     ...
 
 ## rosdep
 
-　自分のリポジトリのREADMEを書くにあたり、自分のROS本でもスルーしてしまった`rosdep`を調査。`rosdep`は`package.xml`に書いた依存関係のあるパッケージをインストールしてくれる便利ツール。例えば[ラズパイマウスの基本パッケージ](https://github.com/ryuichiueda/raspimouse_ros_2)は次のように`rosdep`を使うと必要なROSパッケージが全部入る。便利。
+　自分のリポジトリのREADMEを書くにあたり、自分のROS本でもスルーしてしまった`rosdep`を調査。`rosdep`は`package.xml`に書いた依存関係のあるパッケージをインストールしてくれる便利ツール。例えばラズパイマウスの基本パッケージの[raspimouse_ros_2](https://github.com/ryuichiueda/raspimouse_ros_2)は次のように`rosdep`を使うと必要なROSパッケージが全部入る。便利。
 
 ```
 $ echo $ROS_PACKAGE_PATH
