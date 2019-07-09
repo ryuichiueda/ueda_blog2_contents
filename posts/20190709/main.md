@@ -51,7 +51,7 @@ $ rosdep install --ignore-src raspimouse_ros_2 raspimouse_cartographer
 
 ## アールティさんの仕事
 
-　唐揚げロボットのインパクトはでかい。自分も間接的に手伝っててうれしいんだけど、伝え方がむずかしいのでひねくれた伝え方になる。
+　唐揚げロボットのインパクトはでかい。自分も間接的に手伝っててうれしいんだけど、あんまり上田研も関わってますと吹聴するとアレオレになってしまうので伝え方がむずかしいくひねくれた伝え方になってしまった。自分のコントリビューションはわずか。正直悔しい。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">上田研の某氏が暗躍している案件です。上田研としても微粒子レベルで協力してますがアールティさんと上田研の某氏の仕事です。 <a href="https://twitter.com/hashtag/%E4%B8%8A%E7%94%B0%E7%A0%94%E3%81%AE%E6%9F%90%E6%B0%8F?src=hash&amp;ref_src=twsrc%5Etfw">#上田研の某氏</a><br><br>弁当の盛りつけもしてくれる！料理するロボットの展示会 | NHKニュース   <a href="https://t.co/Huei2pM3sw">https://t.co/Huei2pM3sw</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1148588181559762944?ref_src=twsrc%5Etfw">July 9, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -60,7 +60,7 @@ $ rosdep install --ignore-src raspimouse_ros_2 raspimouse_cartographer
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-自分が引っ張ってないと気が済まないのでなぜかライバル心が燃え盛っており。他の案件頑張ろう。実はロボット学会では別件でマニピュレータの研究の発表がある。マニピュレーションに関しては、某ピッキングチャレンジのおかげでやっと普通の人たちにも限界が見えてブームがおさまってきた。そこからが自分の役目だ、などと。
+マニピュレーションに関しては、某ピッキングチャレンジのおかげでやっと普通の人たちにも限界が見えてブームがおさまってきた。そこからが自分の役目なのかなと考えるようになってきた。上田研からは、別件でマニピュレータの研究発表をロボット学会で行う。
 
 
 寝る。
