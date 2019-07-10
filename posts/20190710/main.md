@@ -5,10 +5,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 # 日記（2019年7月10日）
 
-　午前はひたすらパッケージ（[これ](https://github.com/ryuichiueda/raspimouse_cartographer)と[これ](https://github.com/ryuichiueda/raspimouse_map_based_teach_and_replay/blob/master/README.md)）のREADMEの整備。まー使おうとしている人を惑わすような記述はなくなった。これをROS Wikiにあげるとか、そこまでの元気がない。
+　午前はひたすらパッケージ（[これ](https://github.com/ryuichiueda/raspimouse_cartographer)と[これ](https://github.com/ryuichiueda/raspimouse_map_based_teach_and_replay/blob/master/README.md)）のREADMEの整備。まー使おうとしている人を惑わすような記述はなくなったような・・・。これをROS Wikiにあげるとか、そこまでの元気がない。検証の途中で[Dockerのイメージ](https://hub.docker.com/r/ryuichiueda/ubuntu18.04-ros-image)にcatkinワークスペースを追加した。
 
 　午後は少し実験して面白かったがビデオに撮っていなかった。その後某仕事で品川。
-
 
 ## 今日のシェル芸
 
