@@ -22,7 +22,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ヨドバシカァメラ家、嫌「家帰ヨドバシカァメラ」仕事人会「口如何?我自宅ヨドバシカァメラ身」。戦闘力求現代社会ヨドバシカァメラ同棲有効 <a href="https://t.co/Q6oeawpWf1">https://t.co/Q6oeawpWf1</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1148735877020975104?ref_src=twsrc%5Etfw">July 9, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Facebookとかで天下国家をそれっぽく議論している同年代をよそにふざけててなんか申し訳ないんだけど、次の世代とウンコ遊びしながら勉強を面白いものにしていくしかないと腹をくくっており。大学生や高専生、あと高校生もシェル芸botに参入している模様で、今後もこの流れが続けば・・・
+Facebookとかで天下国家をそれっぽく議論している同年代をよそにふざけててなんか申し訳ないんだけど、次の世代とウンコ遊びしながら勉強を面白いものにしていくしかないと腹をくくっており。大学生や高専生、あと高校生もシェル芸botに参入している模様で、今後もこの流れが続けば・・・。
 
 　一方、↑のような軽いシェル芸が続く中で、闇豚さんがぶれない。
 
