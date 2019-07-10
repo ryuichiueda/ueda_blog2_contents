@@ -32,11 +32,14 @@ Facebookとかで天下国家をそれっぽく議論している同年代をよ
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr"><a href="https://t.co/ASY9ZxKOy0">https://t.co/ASY9ZxKOy0</a> <a href="https://t.co/TNGqonhjVG">pic.twitter.com/TNGqonhjVG</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1148936968207646720?ref_src=twsrc%5Etfw">July 10, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+　また、まじめなシェル芸も浸透中です・・・。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">毎年某誌の決算特集を担当し続けてはや数年。<br>もうデータをエクセルでごにょごにょするのには飽きたので、シェル芸でやっつけることに決めました。<br>ちゃんとできたらデータ加工は一瞬で終わるようになる…予定です。</p>&mdash; 鹿野恵子／小売編集者／MD NEXT (@keikoka) <a href="https://twitter.com/keikoka/status/1148863247405031425?ref_src=twsrc%5Etfw">2019年7月10日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">今日は歳が私の半分の部下にシェル芸を教えてました。</p>&mdash; Hirofumi Saito (@hi_saito) <a href="https://twitter.com/hi_saito/status/1148938623196123136?ref_src=twsrc%5Etfw">July 10, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-そういうの大事だと思います。
 
 
 ## 宣伝
