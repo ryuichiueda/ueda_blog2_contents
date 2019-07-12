@@ -26,3 +26,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">観光だった。 <a href="https://t.co/DiInU3Y4oW">pic.twitter.com/DiInU3Y4oW</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1149672362603712513?ref_src=twsrc%5Etfw">July 12, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+走っていないバニラも拝んだ。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">バニラアーンドアカチャン <a href="https://t.co/GuBOIXNjEZ">pic.twitter.com/GuBOIXNjEZ</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1149322787699380224?ref_src=twsrc%5Etfw">2019年7月11日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
