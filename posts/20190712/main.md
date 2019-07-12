@@ -15,6 +15,12 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 調査の結果、なくなっていた。以前の不具合もなくなった模様。
 
+## Cartographerを使ったteach-and-replay
+
+　ロボットの挙動を記録するために動画を撮影。これは自分の席の横でちょっとロボットを動かしてSLAMして、そのときの動きを再現させている様子。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eKW34TiEdt0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## 大久保で飲んだ
 
 　11日は[大久保の千里香](https://www.google.com/search?q=%E5%A4%A7%E4%B9%85%E4%BF%9D+%E5%8D%83%E9%87%8C%E9%A6%99&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjKt-n-vK_jAhWDf7wKHacxA-Y4ChD8BQgRKAI&biw=1160&bih=699#imgrc=_)で某いつものメンバーで4時間ボケ倒しの飲み会をやった。お店のことは隊長（仮称）に予約してもらって楽して食事させてもらったのであまり自分がこの店についてつらつら書くものでもないが、先に店に入ってこういうことがあって焦った。
