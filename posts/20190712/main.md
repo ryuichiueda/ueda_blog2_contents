@@ -22,7 +22,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">昨日行った千里香という店、先に入店して待ってた時に出されたメニューがこれで、店間違えたかと思った。焦りながら青島ビールと你好してた。 <a href="https://t.co/2wntEC7sRu">pic.twitter.com/2wntEC7sRu</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1149671623865167873?ref_src=twsrc%5Etfw">July 12, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-近くのイスラム横丁も散歩した。エスニック感があるのは1区画のみという感じだった。
+海外に出たらこういうことはしょっちゅうなんだけど、やっぱり焦った。
+
+　近くのイスラム横丁も散歩した。エスニック感があるのは1区画のみという感じだった。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">観光だった。 <a href="https://t.co/DiInU3Y4oW">pic.twitter.com/DiInU3Y4oW</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1149672362603712513?ref_src=twsrc%5Etfw">July 12, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
