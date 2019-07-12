@@ -38,3 +38,10 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">バニラアーンドアカチャン <a href="https://t.co/GuBOIXNjEZ">pic.twitter.com/GuBOIXNjEZ</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1149322787699380224?ref_src=twsrc%5Etfw">2019年7月11日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+ふざけている大学生もいた。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">昨日の自分の写真を見て泣いて反省中。 <a href="https://t.co/UDqjmB0OVK">pic.twitter.com/UDqjmB0OVK</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1149675808606183429?ref_src=twsrc%5Etfw">July 12, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+寝る。
