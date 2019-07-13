@@ -36,7 +36,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## シェル芸bot強化週間
 
-　なんかシェル芸botに乱暴に難癖をつけてきた人がいたので、割とどうでもいいその人そっちのけでシェル芸botの点検（というかゆさぶりというか危険シェル芸大会というか）が始まった。で、↓がクリーンヒットしてシェル芸botが死んだ。さすが。
+　なんかシェル芸botに乱暴に難癖をつけてきた人がいたので、その人（割とどうでもいい）そっちのけでシェル芸botの点検というかゆさぶりというか危険シェル芸大会というかが始まりました。で、↓がクリーンヒットしてシェル芸botが暴走。さすが。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">seq 100 | xargs -I@ -P0 dd if=/dev/zero of=/images/@ <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/1149876657672597505?ref_src=twsrc%5Etfw">2019年7月13日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
