@@ -56,7 +56,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-で、解決！クリックすると解説が読めます。
+で、ふるつきさんが解決！クリックすると解説が読めます。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">えー、それではめでたくもシェル芸botが復活しましたので、今回の問題について解説していきます</p>&mdash; gǔ yuè (@theoldmoon0602) <a href="https://twitter.com/theoldmoon0602/status/1149916541942554624?ref_src=twsrc%5Etfw">2019年7月13日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
