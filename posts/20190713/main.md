@@ -71,7 +71,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 解説を入れたらもうちょい有用な記事になるんですが、これはまた別のときにまとめるか、他の方に託したいと思います。
 
 
-　そして~~攻撃~~検証はまだまだ続いている模様。
+　そして~~攻撃~~検証はまだまだ続いている模様です。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">画像ファイルをvimで開いて、末尾に怪しいコードを付けてシェル芸botにPOSTしようと思ったのだが、まずTwitterに怒られた(笑)</p>&mdash; Y.Toriyama (@YToriyama) <a href="https://twitter.com/YToriyama/status/1150053308419043328?ref_src=twsrc%5Etfw">July 13, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
