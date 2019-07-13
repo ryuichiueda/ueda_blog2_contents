@@ -13,7 +13,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## シェル芸bot強化週間
 
-　なんかシェル芸botに難癖をつけてきた人がいたので、割とどうでもいいその人そっちのけでシェル芸botの点検（というかゆさぶりというか危険シェル芸大会というか）が始まった。で、↓がクリーンヒットしてシェル芸botが死んだ。さすが。
+　なんかシェル芸botに乱暴に難癖をつけてきた人がいたので、割とどうでもいいその人そっちのけでシェル芸botの点検（というかゆさぶりというか危険シェル芸大会というか）が始まった。で、↓がクリーンヒットしてシェル芸botが死んだ。さすが。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">seq 100 | xargs -I@ -P0 dd if=/dev/zero of=/images/@ <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/1149876657672597505?ref_src=twsrc%5Etfw">2019年7月13日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -47,6 +47,13 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 解説を入れたらもうちょい有用な記事になるんですが、これはまた別のときにまとめるか、他の方に託したいと思います。
 
+
+　そして~~攻撃~~検証はまだまだ続いている模様。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">画像ファイルをvimで開いて、末尾に怪しいコードを付けてシェル芸botにPOSTしようと思ったのだが、まずTwitterに怒られた(笑)</p>&mdash; Y.Toriyama (@YToriyama) <a href="https://twitter.com/YToriyama/status/1150053308419043328?ref_src=twsrc%5Etfw">July 13, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+最初に難癖をつけてきた人が蚊帳の外であることは言うまでもなし。
 
 ## 確率ロボティクス本の初校が始まった
 
