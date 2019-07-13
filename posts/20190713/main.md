@@ -78,6 +78,13 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 最初に難癖をつけてきた人が蚊帳の外であることは言うまでもなし。
 
+
+　さらにこんなページもできました。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">前科者リストに入れました &gt; シェル芸bot破壊工作〜前科者とその手口〜 - HackMD<a href="https://t.co/GifF6DKgh8">https://t.co/GifF6DKgh8</a><a href="https://t.co/rWX0xUwxTh">https://t.co/rWX0xUwxTh</a></p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/1150020773584801798?ref_src=twsrc%5Etfw">July 13, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ## 確率ロボティクス本の初校が始まった
 
 　少し物怖じしてから意を決して開始。本日は上の件があったので数ページだけだったけど、開始することが大切。
