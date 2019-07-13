@@ -93,3 +93,12 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 
 寝ます。お疲れ様でした。
+
+　あ、そういえばこんなこともありましたね・・・。
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">秒でリジェクトされるクソプルリクエストで大草原不可避ｗｗｗｗｗｗｗｗｗｗｗｗｗｗ <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <a href="https://t.co/IUOvFEgwYI">pic.twitter.com/IUOvFEgwYI</a></p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/1149862218479079424?ref_src=twsrc%5Etfw">2019年7月13日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Rejectされた！<br>ひどい！！<a href="https://t.co/F0Yp63H6IJ">https://t.co/F0Yp63H6IJ</a></p>&mdash; Blacknon@通勤電車リハビリ中 (@blacknon_) <a href="https://twitter.com/blacknon_/status/1149862052057382917?ref_src=twsrc%5Etfw">2019年7月13日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
