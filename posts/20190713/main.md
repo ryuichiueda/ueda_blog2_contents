@@ -9,7 +9,28 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 * https://www.artonx.org/diary/20190713.html#p01
 
-ほんと、読んで文章を書くというのは時間のかかることですので、大変有難いです。
+ほんと、読んで文章を書くというのは時間のかかることですので、大変有難いです。書いていただいた通り、おすすめです。
+
+　売らねばならないので宣伝貼り付けます。
+
+<div class="card">
+  <div class="row no-gutters">
+    <div class="col-md-2">
+      <a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B07TSZZPWN/ryuichiueda-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51H%2B4kUhbFL._SL160_.jpg" width="121" alt="photo"></a>
+    </div>
+    <div class="col-md-10">
+      <div class="card-body">
+        <dl class="fn" style="font-size:80%">
+          <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B07TSZZPWN/ryuichiueda-22">フルスクラッチから1日でCMSを作る_シェルスクリプト高速開発手法入門 改訂2版 (アスキードワンゴ)</a></dt>
+          <dd>[上田 隆一 後藤 大地]</dd>
+          <dd>ドワンゴ 2019-07-05 (Release 2019-07-05)</dd>
+        </dl>
+        <p class="powered-by" >(powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.1)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 ## シェル芸bot強化週間
 
