@@ -62,3 +62,5 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">確率ロボティクス本の校正が始まります。見たこともない巨大なバインダクリップにはさまれてます。バインダクリップ、巨大ですがもっと問題なのは、これが1/4の量ということ・・・ <a href="https://twitter.com/hashtag/%E6%AD%BB?src=hash&amp;ref_src=twsrc%5Etfw">#死</a> <a href="https://t.co/C0SgokQKBQ">pic.twitter.com/C0SgokQKBQ</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1149923720867139585?ref_src=twsrc%5Etfw">July 13, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+寝ます。お疲れ様でした。
