@@ -13,7 +13,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## シェル芸bot強化週間
 
-　なんかシェル芸botに難癖をつけてきた人がいたので、割とどうでもいいその人そっちのけでシェル芸botの点検（というかゆさぶりというか危険シェル芸大会というか）が始まった。で、これがクリーンヒットしてシェル芸botが死んだ。
+　なんかシェル芸botに難癖をつけてきた人がいたので、割とどうでもいいその人そっちのけでシェル芸botの点検（というかゆさぶりというか危険シェル芸大会というか）が始まった。で、↓がクリーンヒットしてシェル芸botが死んだ。さすが。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="en" dir="ltr">seq 100 | xargs -I@ -P0 dd if=/dev/zero of=/images/@ <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/1149876657672597505?ref_src=twsrc%5Etfw">2019年7月13日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -33,12 +33,16 @@ Copyright: (C) 2019 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-で、解決！
+で、解決！クリックすると解説が読めます。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">えー、それではめでたくもシェル芸botが復活しましたので、今回の問題について解説していきます</p>&mdash; gǔ yuè (@theoldmoon0602) <a href="https://twitter.com/theoldmoon0602/status/1149916541942554624?ref_src=twsrc%5Etfw">2019年7月13日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-で、本日2発目がクリーンヒット。
+で、安心してたら本日2発目がクリーンヒット。やった！（やったじゃない。いや大事。）
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/theoldmoon0602?ref_src=twsrc%5Etfw">@theoldmoon0602</a> <br>突然失礼します。現在シェル芸botが反応しません。<br>そうでないことを願いますが、私のツイートが原因でしょうか？<br>もしそうだとしたら大変申し訳ありません。 <a href="https://t.co/Wl1vK78dhB">https://t.co/Wl1vK78dhB</a></p>&mdash; くおん (@qwertanus) <a href="https://twitter.com/qwertanus/status/1149946761772879872?ref_src=twsrc%5Etfw">2019年7月13日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
