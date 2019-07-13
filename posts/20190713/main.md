@@ -45,4 +45,13 @@ Copyright: (C) 2019 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+解説を入れたらもうちょい有用な記事になるんですが、これはまた別のときにまとめるか、他の方に託したいと思います。
+
+
+## 確率ロボティクス本の初校が始まった
+
+　少し物怖じしてから意を決して開始。本日は上の件があったので数ページだけだったけど、開始することが大切。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">確率ロボティクス本の校正が始まります。見たこともない巨大なバインダクリップにはさまれてます。バインダクリップ、巨大ですがもっと問題なのは、これが1/4の量ということ・・・ <a href="https://twitter.com/hashtag/%E6%AD%BB?src=hash&amp;ref_src=twsrc%5Etfw">#死</a> <a href="https://t.co/C0SgokQKBQ">pic.twitter.com/C0SgokQKBQ</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1149923720867139585?ref_src=twsrc%5Etfw">July 13, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
