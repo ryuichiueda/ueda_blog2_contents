@@ -1,5 +1,5 @@
 ---
-Keywords: 日記,ROS
+Keywords: 日記,bashcms本,確率ロボティクス本
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
