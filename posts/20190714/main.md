@@ -18,18 +18,21 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">「風紀委員長とお供がシェル芸botにやってきた！・・・けど、そっちのけで遊び始めるシェル芸人たち」<a href="https://t.co/6rAewIiyqB">https://t.co/6rAewIiyqB</a><br>が伸びてるみたい。こっそりあなたに教えちゃう。 作成者:<a href="https://twitter.com/ryuichiueda?ref_src=twsrc%5Etfw">@ryuichiueda</a></p>&mdash; トゥギャッター公式 (@togetter_jp) <a href="https://twitter.com/togetter_jp/status/1150301667394330624?ref_src=twsrc%5Etfw">July 14, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## echoで「-e」と出す方法
+## 確率ロボティクス本校正
+
+　23/400ページ終了。全然進まない・・・
+
+## echoで「-e」を出力する方法
 
 　シェル芸人連合でいろいろがんばったがなかなか正解が見つからず。これが正解っぽい。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr">-e <a href="https://t.co/deqJ6mmeTz">https://t.co/deqJ6mmeTz</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1150772911411621891?ref_src=twsrc%5Etfw">July 15, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+で、まとめたが、まとめすぎで校正が進まない。
 
-
-## 確率ロボティクス本校正
-
-　23/400ページ終了。全然進まない・・・
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">「echoで「-e」ってどう出力するの？」をトゥギャりました。 <a href="https://t.co/qSh0kkjGQb">https://t.co/qSh0kkjGQb</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1150776002559111168?ref_src=twsrc%5Etfw">July 15, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 　明日からがんばるぞ！寝る。
