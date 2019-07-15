@@ -18,6 +18,14 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">「風紀委員長とお供がシェル芸botにやってきた！・・・けど、そっちのけで遊び始めるシェル芸人たち」<a href="https://t.co/6rAewIiyqB">https://t.co/6rAewIiyqB</a><br>が伸びてるみたい。こっそりあなたに教えちゃう。 作成者:<a href="https://twitter.com/ryuichiueda?ref_src=twsrc%5Etfw">@ryuichiueda</a></p>&mdash; トゥギャッター公式 (@togetter_jp) <a href="https://twitter.com/togetter_jp/status/1150301667394330624?ref_src=twsrc%5Etfw">July 14, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+## echoで「-e」と出す方法
+
+　シェル芸人連合でいろいろがんばったがなかなか正解が見つからず。これが正解っぽい。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr">-e <a href="https://t.co/deqJ6mmeTz">https://t.co/deqJ6mmeTz</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1150772911411621891?ref_src=twsrc%5Etfw">July 15, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 
 ## 確率ロボティクス本校正
 
