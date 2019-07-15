@@ -29,7 +29,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr">-e <a href="https://t.co/deqJ6mmeTz">https://t.co/deqJ6mmeTz</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1150772911411621891?ref_src=twsrc%5Etfw">July 15, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-で、まとめたが、まとめすぎで校正が進まない。
+で、まとめたが、まとめすぎで校正が進まない。さすがにやりすぎ感がある。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">「echoで「-e」ってどう出力するの？」をトゥギャりました。 <a href="https://t.co/qSh0kkjGQb">https://t.co/qSh0kkjGQb</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1150776002559111168?ref_src=twsrc%5Etfw">July 15, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
