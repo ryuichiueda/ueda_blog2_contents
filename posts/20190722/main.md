@@ -46,5 +46,10 @@ Copyright: (C) 2019 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+## 最後に
 
-早めに寝る。
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">「あの研究室クソコラばかり生産してここ2年投稿論文一本も出てないやん」とか言われるのもういやや。言われてないけど。</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1153238412133953538?ref_src=twsrc%5Etfw">2019年7月22日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+投稿論文、学生様が頼みです。自分は早めに寝る。
