@@ -7,6 +7,11 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　風邪をひいて体に力が入らないけど、外での用事が2件ありました。吉本の件、小さいながらも組織の長として（そしてもっと大きい組織の使用人として）（そして裸で猫を抱いていた岡本のファンとして）気になるので時々チェックを入れてました。器じゃない人がトップになった組織は悲惨です。
 
+## 久々に研究室メンバーにクソコラを作られる
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">こんな面白いもん作ってないで研究しろーー💢 <a href="https://t.co/oGtgGUkhA3">pic.twitter.com/oGtgGUkhA3</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1153236424864354304?ref_src=twsrc%5Etfw">July 22, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## 確率ロボティクス本の初校
 
