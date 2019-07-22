@@ -25,8 +25,14 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">もともとシェル芸が「シェル便利だからもういっぺん使うようにしよう」という考えと、「子供のプログラミング教育なんてうんこちんこが最高であって御用学者や業者の考えることじゃないでしょ」っていう考えの二本柱でやってるということもちゃんと言わないといけない。</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1151764119541784576?ref_src=twsrc%5Etfw">July 18, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+ご賛同いただける方はお助けを。
+
 
 　ところで、そろそろ「シェル芸」でWikipediaのエントリができても大丈夫なような気もする。（おねだりだったり、おねだりでなかったり。）
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">この記事はもう、USP友の会とシェル芸の立場を入れ替えたほうがいいような気がする。<a href="https://t.co/DlkCV14GJ0">https://t.co/DlkCV14GJ0</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1153291921265025024?ref_src=twsrc%5Etfw">July 22, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
 早めに寝る。
