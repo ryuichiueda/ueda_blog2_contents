@@ -25,6 +25,7 @@ Copyright: (C) Ryuichi Ueda
 |日付       |出来事           |コメント              |
 |---------|:---------------------------|-------------------------------|
 |8月15日|[脆弱性があると「うんこもりもり」と表示する難読化シェル芸を入れたGitの脆弱性診断ツール](https://github.com/greymd/CVE-2017-1000117)がぐれ氏により開発され、[真面目なSIerなどで出回る](https://togetter.com/li/1141394)。|うんこもりもり|
+|7月1日|[jus共催第29回シェル芸勉強会](https://b.ueda.tech/?post=09922)|某氏のLTでロードアベレージ7万5000を記録|
 |6月27日|ぐれ氏によって<a href="https://twitter.com/minyoruminyon">シェル芸bot</a>と <a href="https://twitter.com/paiza_run">@paiza_run</a> でツイートを投げ合う無限ループクワインが発見される|危険|
 |6月22日        |Twitter上に[@theoldmoon0602](https://twitter.com/theoldmoon0602)氏によって「<a href="https://twitter.com/minyoruminyon">シェル芸bot</a>」が出現|一瞬でシェル芸人の遊び道具に。|
 |4月22日        |<a href="/?post=09632">jus共催第28回シェル芸勉強会</a>|某講師、自分で作って来た問題が難しすぎて解けないという失態。LTで「ロードアベレージ6万」、「Javascriptワンライナー」、「ゾンビプロセスが11561個」、「FORK爆弾24時間熟成」など不穏なキーワードが乱れ飛ぶ。|
