@@ -5,7 +5,6 @@ Copyright: (C) Ryuichi Ueda
 # シェル芸の歴史
 
 * メモ
-  * super_unko事件も書く
   * 難読化シェル芸も書く
 
 ## 2019年
@@ -24,6 +23,7 @@ Copyright: (C) Ryuichi Ueda
 
 |日付       |出来事           |コメント              |
 |---------|:---------------------------|-------------------------------|
+|12月2日|[jus共催 第32回全くインスタ映えしないシェル芸勉強会](https://b.ueda.tech/?post=20171203_shellgei_32_summary)|鳥海さんの変態Perl正規表現が炸裂|
 |10月7日|[jus共催第31回朝からだと疲れるから午後からでええじゃろシェル芸勉強会](https://b.ueda.tech/?post=shellgei_31_summary)|大阪で「rmコマンドチキンレース」勃発|
 |8月26日|[jus共催第30回危念シェル芸勉強会](https://b.ueda.tech/?post=10195)|[super_unkoリポジトリ出現](https://togetter.com/li/1144376)|
 |8月15日|[脆弱性があると「うんこもりもり」と表示する難読化シェル芸を入れたGitの脆弱性診断ツール](https://github.com/greymd/CVE-2017-1000117)がぐれ氏により開発され、[真面目なSIerなどで出回る](https://togetter.com/li/1141394)。|うんこもりもり|
