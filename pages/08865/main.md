@@ -15,7 +15,7 @@ Copyright: (C) Ryuichi Ueda
 |7月17日  |シェル芸bot迷惑シェル芸警察宣言（上田）。レッドカード続出。|面倒|
 |7月16日  |シェル芸botのフォロワーが3000人を超える|めでたいが大変|
 |7月5日  |フォロワーが急増するも迷惑シェル芸を炸裂するものが現れシェル芸botが12時間のリプ禁止措置を受ける|面倒|
-|5月30日  |[ojichat](https://github.com/greymd/ojichat)がシェル芸botに導入される||
+|5月30日  |[ojichat](https://github.com/greymd/ojichat)がシェル芸botに導入される|シェル芸botがおじさん化して騒ぎに|
 |3月27日  |[super_unkoリポジトリ](https://github.com/unkontributors/super_unko)がUnkontributorsの配下に移管される|ライセンスは💩license|
 |1月15日  |[@blacknon_氏によってキングウンコが出現](https://twitter.com/blacknon_/status/1085161944611311617)|シェル芸botの公式キャラクターだと主張を開始|
 
