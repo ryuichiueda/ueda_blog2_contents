@@ -25,6 +25,7 @@ Copyright: (C) Ryuichi Ueda
 |日付       |出来事           |コメント              |
 |---------|:---------------------------|-------------------------------|
 |12月22日 |[jus共催 第39回コートなしで自宅から締め出されたりしないでね年末シェル芸勉強会](https://b.ueda.tech/?post=20181223_shellgei_39_links)|[@xztaityozx_001](https://twitter.com/xztaityozx_001)氏の[ワタナベ難読化シェル芸](https://togetter.com/li/1300981)|
+|1月27日 |[jus共催 第33回めでたいシェル芸勉強会](https://b.ueda.tech/?post=20180128_shellgei_33_summary)|めでたい理由: 横田夫妻がシェル芸婚|
 
 ## 2017年
 
