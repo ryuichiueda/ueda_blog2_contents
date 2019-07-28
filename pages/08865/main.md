@@ -25,6 +25,7 @@ Copyright: (C) Ryuichi Ueda
 |日付       |出来事           |コメント              |
 |---------|:---------------------------|-------------------------------|
 |12月22日 |[jus共催 第39回コートなしで自宅から締め出されたりしないでね年末シェル芸勉強会](https://b.ueda.tech/?post=20181223_shellgei_39_links)|[@xztaityozx_001](https://twitter.com/xztaityozx_001)氏の[ワタナベ難読化シェル芸](https://togetter.com/li/1300981)|
+|7月13日 |[シェル芸botが画像の出力に対応](https://togetter.com/li/1246647)|ここからシェル芸が徐々にビジュアル系に|
 |3月17日 |[jus & USP友の会共催 シェル勉強会 @関西（第34回いつも難しい問題ばっかり出す上田が真面目に考えた初心者用シェル芸勉強会）](https://b.ueda.tech/?post=2018325_shellgei_34_summary)|2回目の大阪開催。東京サテライトが開かれる。|
 |1月27日 |[jus共催 第33回めでたいシェル芸勉強会](https://b.ueda.tech/?post=20180128_shellgei_33_summary)|めでたい理由: 横田夫妻がシェル芸婚|
 
