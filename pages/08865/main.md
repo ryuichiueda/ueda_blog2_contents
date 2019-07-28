@@ -4,6 +4,8 @@ Copyright: (C) Ryuichi Ueda
 
 # シェル芸の歴史
 
+* 2018年あたりが抜けてるので絶賛思い出し中。
+
 ## 2019年
 
 |日付       |出来事           |コメント              |
@@ -18,7 +20,6 @@ Copyright: (C) Ryuichi Ueda
 |3月27日  |[super_unkoリポジトリ](https://github.com/unkontributors/super_unko)がUnkontributorsの配下に移管される|ライセンスは💩license|
 |1月15日  |[@blacknon_氏によってキングウンコが出現](https://twitter.com/blacknon_/status/1085161944611311617)|シェル芸botの公式キャラクターだと主張を開始|
 
-・・・この間記録なし。いつか埋める・・・
 
 ## 2018年
 
