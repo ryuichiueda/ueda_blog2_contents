@@ -39,4 +39,4 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 
 
-寝る。
+とにかく今日は勉強になりました。寝る。
