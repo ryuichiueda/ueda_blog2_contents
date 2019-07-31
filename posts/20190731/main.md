@@ -26,7 +26,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　[bashcms2のデモサイト](https://bashcms2.ueda.tech/)が専用のVPSで動いていて微妙にお金がもったいなかったので自分のウェブサイトが置いてあるサーバに引っ越し。空いたサーバは、待望の大型アプリケーション、[SGWeb](https://github.com/kekeho/SGWeb/blob/master/README.md)の専用サーバになる予定。
 
-## Dockerの中のウェブサーバにletsencryptを適用したい
+## Dockerの中のウェブサーバにLet's encryptを適用したい
 
 　SGWebのhttps化の手伝い。一応プルリクを出したけど、はじめてdocker-composeを触ったのでうまく動くかどうかわからず、テストもローカルだけなので足を引っ張らなければ良いのですが・・・・
 
