@@ -5,7 +5,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 # 日記（2019年7月31日）
 
-　確率ロボティクス本の校正の締切日だったが、昨日終了していたので今日はフリーな日とした。が、ヘビーだった。
+　確率ロボティクス本の校正の締切日だったけど、昨日終了していたので今日はフリーな日に。が、ヘビーな一日となり・・・。
 
 ## シェル芸botとサーバの脆弱性
 
@@ -25,3 +25,18 @@ Copyright: (C) 2019 Ryuichi Ueda
 ## SGWebのためにサーバを引っ越し
 
 　[bashcms2のデモサイト](https://bashcms2.ueda.tech/)が専用のVPSで動いていて微妙にお金がもったいなかったので自分のウェブサイトが置いてあるサーバに引っ越し。空いたサーバは、待望の大型アプリケーション、[SGWeb](https://github.com/kekeho/SGWeb/blob/master/README.md)の専用サーバになる予定。
+
+## Dockerの中のウェブサーバにletsencryptを適用したい
+
+　SGWebのhttps化の手伝い。一応プルリクを出したけど、はじめてdocker-composeを触ったのでうまく動くかどうかわからず、テストもローカルだけなので足を引っ張らなければ良いのですが・・・・
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">雑プルリク許してくらはい・・・夕飯たべよ。<a href="https://t.co/PDOVQPDw47">https://t.co/PDOVQPDw47</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1156521415308238849?ref_src=twsrc%5Etfw">July 31, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+* 参考
+    * https://qiita.com/kuboon/items/f424b84c718619460c6f
+
+
+
+寝る。
