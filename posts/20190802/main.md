@@ -26,3 +26,13 @@ Copyright: (C) 2019 Ryuichi Ueda
 　で、マニピュレータを動かしてみました。動きました。ぐんにゃりしたけど。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">マニピュレータが力尽きた・・・寝てしまった・・・ <a href="https://t.co/ILmZB9ZG9K">pic.twitter.com/ILmZB9ZG9K</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1157195258951680000?ref_src=twsrc%5Etfw">August 2, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## シェル芸botに第三の波
+
+　まだ全貌が分かっておりませんが楽しみにしております。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><br>ShellgeiBotOnSlack<br><br>一応動いた。 <a href="https://t.co/TCi0KOJ4eS">pic.twitter.com/TCi0KOJ4eS</a></p>&mdash; rkun (@rkunkunr) <a href="https://twitter.com/rkunkunr/status/1157260954565926914?ref_src=twsrc%5Etfw">August 2, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+寝る。
