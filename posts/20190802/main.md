@@ -21,6 +21,8 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">gazebo も出ました〜<br><br>export GAZEBO_IP=127.0.0.1<br>が必要でした。<br><br>参考: <a href="https://t.co/YotmJkJnKi">https://t.co/YotmJkJnKi</a> <a href="https://t.co/MKcyQ9DLwP">pic.twitter.com/MKcyQ9DLwP</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1157192348222156800?ref_src=twsrc%5Etfw">August 2, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+ありがとうございますありがとうございます。
+
 　で、マニピュレータを動かしてみました。動きました。ぐんにゃりしたけど。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">マニピュレータが力尽きた・・・寝てしまった・・・ <a href="https://t.co/ILmZB9ZG9K">pic.twitter.com/ILmZB9ZG9K</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1157195258951680000?ref_src=twsrc%5Etfw">August 2, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
