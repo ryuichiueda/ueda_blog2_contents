@@ -9,7 +9,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## WSL + ROS
 
-　2年生がCADソフトの関係でWindowsを使っているにもかかわらずROSの実習をしなければならなくなったので、Windows Subsystem for LinuxでROSを動かすことに。朝から挑戦してえ上記実習をはさんで夕方にうまくいった。[講義用に資料](https://ryuichiueda.github.io/manipulator_practice_b3/lesson1.html#/1)をまとめている最中。
+　2年生がCADソフトの関係でWindowsを使っているにもかかわらずROSの実習をしなければならなくなったので、Windows Subsystem for LinuxでROSを動かすことに。朝から挑戦して、上記のように実習で中断したけど夕方までにうまくいった。[講義用に資料](https://ryuichiueda.github.io/manipulator_practice_b3/lesson1.html#/1)をまとめている最中。
 
 　ハマったのはRVizのところで、私の環境だとOpenGLの間接レンダリングを強制しない設定にしないといけなかった模様。この設定がないとセグメンテーションフォルトが起こりました。
 
