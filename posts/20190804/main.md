@@ -5,7 +5,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 # 日記（2019年8月3-4日）
 
-　ちょっと身内で事故があって様々な公共機関や行政のサービスを受ける事態になっており、いろいろ親切にしてもらって有難く。かなりの覚悟をしたものの事態はあとをひかずに収束の模様。関係各所に連絡してぐったりしていたところ、本日、津田沼某大学で火事があり、夜は地震があり、さらにぐったりしたのでビールを大量投入。他の時間は落ち着かないので仕事。オープンキャンパスの手伝い、[強化学習の講義資料](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap11_60min.html#/)書き、シェル芸人からの挑戦状の原稿書き、[ROSを使った実習の資料](https://ryuichiueda.github.io/manipulator_practice_b3/lesson1.html#/)と検証など。
+　ちょっと身内でいろいろあって様々な公共機関や行政のサービスを受ける事態になっており、いろいろ親切にしてもらって有難く。かなりの覚悟をしたものの事態はあとをひかずに収束の模様。関係各所に連絡してぐったりしていたところ、本日、津田沼某大学で火事があり、夜は地震があり、さらにぐったりしたのでビールを大量投入。他の時間は落ち着かないので仕事。オープンキャンパスの手伝い、[強化学習の講義資料](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap11_60min.html#/)書き、シェル芸人からの挑戦状の原稿書き、[ROSを使った実習の資料](https://ryuichiueda.github.io/manipulator_practice_b3/lesson1.html#/)と検証など。
 
 
 ## ROS on Ubuntu on Windows on Mac
