@@ -34,7 +34,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　[ちなみに、シェル芸勉強会は参加者をまだまだ募集しております。](/?post=shellgei_43_cfp)
 
-### オープンキャンパスが盛況だったようで
+## オープンキャンパスが盛況だったようで
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">オープンキャンパスが始まりました。開場と同時に大盛況です。 <a href="https://t.co/jA2U51tnJG">pic.twitter.com/jA2U51tnJG</a></p>&mdash; 藤井研 中の人 (@fujiilab_cit) <a href="https://twitter.com/fujiilab_cit/status/1157465393180446721?ref_src=twsrc%5Etfw">August 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
