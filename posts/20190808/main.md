@@ -8,7 +8,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 　2年の実習のために[MoveIt!](https://moveit.ros.org/)をがちゃがちゃ動かす。[資料](https://ryuichiueda.github.io/manipulator_practice_b3/lesson2.html)、わずかに進む。GUIを使ったツールは資料にするのが面倒。その後、修士卒氏の残したコードのリファクタリング。
 
 
-　MoveIt!については、とりあえずThinkPadの赤ポッチでこのような行動を作ったけど、赤ポッチやタッチパッド、あるいはマウス使うくらいなら自分でプログラミングした方が楽なので、「マウスでロボットを動かしてみましょう」というナンパな資料はやめて、プログラミングゴリゴリの内容にしようと思った。学生にも各自のノートPCのタッチパッドをあらかじめ破壊の上、プログラムを書かせる予定（あくまで予定）。
+　MoveIt!については、とりあえずThinkPadの赤ポッチで↓のような行動を作ったけど、赤ポッチやタッチパッド、あるいはマウス使うくらいなら自分でプログラミングした方が楽なので、「マウスでロボットを動かしてみましょう」というナンパな資料はやめて、プログラミングゴリゴリの内容にしようと思った。学生にも各自のノートPCのタッチパッドをあらかじめ破壊の上、プログラムを書かせる予定（あくまで予定）。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">学生にラリアットをかますスタンハンセン型マニピュレータ <a href="https://twitter.com/hashtag/%E3%83%80%E3%83%A1?src=hash&amp;ref_src=twsrc%5Etfw">#ダメ</a> <a href="https://t.co/UslAq4YAan">pic.twitter.com/UslAq4YAan</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1159277698608271360?ref_src=twsrc%5Etfw">August 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
