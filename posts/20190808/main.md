@@ -37,5 +37,8 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/null?ref_src=twsrc%5Etfw">@null</a> んうここうこうんんこここうこんううこうんんうここうんうんこうんうこんんううこんんんこんうんこうんんうんんうこうんんんうこうんうんうここここううんうんこうこんんうここんこここうこんうんうんここううここうんうんううん<br>うんこは4個でてきました！<br>うこんは5個でてきました！</p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/173276836678205440?ref_src=twsrc%5Etfw">February 25, 2012</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+もっと見たい人はこのリンクをどうぞ。
+
+* https://twitter.com/search?q=%40grethlen%20%E3%81%86%E3%82%93%E3%81%93%20until%3A2012-03-01&src=typed_query&f=live
 
 寝る。
