@@ -19,11 +19,11 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">シェル芸botの開発と運用してるふるつき氏はほんと超ヤバいんだけど、サーバ貸してる上田さんとか、コンテナを超最適化したsoさん、textimgで表現の幅を広げた次郎さん、キングウンコでプロモーションしたblacknonさんとか色々な人の活動が今の活気に繋がっていると思うのです!</p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/1159400819638382592?ref_src=twsrc%5Etfw">August 8, 2019</a></blockquote>
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今の活気への貢献という観点だと、echo-sd作者のふみやすさんの貢献もかなり大きい気がする。SGWeb作者の貢献も後々効いてくるように見える。というかそう考えると色々人絡んでるな。話題作りという観点だと難読化勢は忘れてはいけないし。。。（ついていけてない）。</p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/1159404622773202944?ref_src=twsrc%5Etfw">August 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">今の活気への貢献という観点だと、echo-sd作者のふみやすさんの貢献もかなり大きい気がする。SGWeb作者の貢献も後々効いてくるように見える。というかそう考えると色々人絡んでるな。話題作りという観点だと難読化勢は忘れてはいけないし。。。（ついていけてない）。</p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/1159404622773202944?ref_src=twsrc%5Etfw">August 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 シェル芸botの作者が私とかいう、ちゃんと調べてないツイートがあったのですが、自分のよくわかってないものについて迂闊に何かを言うのはテレビのコメンテータと一緒ですのでご注意を。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">一方私はojichatで民度を下げた（白目）</p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/1159401286946709504?ref_src=twsrc%5Etfw">August 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">一方私はojichatで民度を下げた（白目）</p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/1159401286946709504?ref_src=twsrc%5Etfw">August 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 いやいやご謙遜を・・・！
 
