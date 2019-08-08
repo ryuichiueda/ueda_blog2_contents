@@ -21,7 +21,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">今の活気への貢献という観点だと、echo-sd作者のふみやすさんの貢献もかなり大きい気がする。SGWeb作者の貢献も後々効いてくるように見える。というかそう考えると色々人絡んでるな。話題作りという観点だと難読化勢は忘れてはいけないし。。。（ついていけてない）。</p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/1159404622773202944?ref_src=twsrc%5Etfw">August 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-シェル芸botの作者が私とかいうツイートがあったのですが、ツイートの前に裏をとれるはずですので、慎重にしていただければと。
+シェル芸botの作者が私とかいうツイートがあったのですが、ツイートの前に裏をとれるはずですので、慎重にしていただければと。コントリビューションは正しく認知される必要がありますので・・・。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">多くの人が自然にからんでるの重要ですよねー。</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1159401639549100032?ref_src=twsrc%5Etfw">August 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
