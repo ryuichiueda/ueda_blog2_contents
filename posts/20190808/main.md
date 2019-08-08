@@ -13,7 +13,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">学生にラリアットをかますスタンハンセン型マニピュレータ <a href="https://twitter.com/hashtag/%E3%83%80%E3%83%A1?src=hash&amp;ref_src=twsrc%5Etfw">#ダメ</a> <a href="https://t.co/UslAq4YAan">pic.twitter.com/UslAq4YAan</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1159277698608271360?ref_src=twsrc%5Etfw">August 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-### シェル芸bot界隈のひとたち
+## シェル芸bot界隈のひとたち
 
 　シェル芸botのまわりでは、いろんな人がゆるく連携してコミュニティーを形成しています。私はGMOさんにコミュニティー支援の一環で貸していただいている[ConoHa](https://www.conoha.jp/)のVPSを解放して、サーバ管理しています。シェル芸botの作者は[@theoldmoon0602](https://twitter.com/theoldmoon0602)さんです。
 
@@ -25,9 +25,11 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">一方私はojichatで民度を下げた（白目）</p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/1159401286946709504?ref_src=twsrc%5Etfw">August 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-いやいやご謙遜を・・・！
+↑は謙遜で、めっちゃ盛り上げ役です。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">本日のLTで発表した資料です。<br>また皆様にお会い出来るのを楽しみにしています。<br><br>シェル芸始末書 - <a href="https://t.co/UGRGNPn3Wo">https://t.co/UGRGNPn3Wo</a><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/982639011427639297?ref_src=twsrc%5Etfw">April 7, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+シェル芸界隈に💩をhoge代わりに使うことを持ち込んだ功績も加えたいところ（しろめ）。
 
 
 寝る。
