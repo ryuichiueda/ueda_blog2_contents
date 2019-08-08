@@ -32,7 +32,10 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">本日のLTで発表した資料です。<br>また皆様にお会い出来るのを楽しみにしています。<br><br>シェル芸始末書 - <a href="https://t.co/UGRGNPn3Wo">https://t.co/UGRGNPn3Wo</a><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/982639011427639297?ref_src=twsrc%5Etfw">April 7, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-シェル芸界隈に💩をhoge代わりに使うことを持ち込んだ功績も加えたいところ（しろめ）。
+シェル芸界隈に💩をhoge代わりに使うことを持ち込んだ功績も加えたいところ（しろめ）。知り合いになるどころかシェル芸という言葉ができる以前からこういう感じだったし・・・（当時かなりの衝撃）
+
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/null?ref_src=twsrc%5Etfw">@null</a> んうここうこうんんこここうこんううこうんんうここうんうんこうんうこんんううこんんんこんうんこうんんうんんうこうんんんうこうんうんうここここううんうんこうこんんうここんこここうこんうんうんここううここうんうんううん<br>うんこは4個でてきました！<br>うこんは5個でてきました！</p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/173276836678205440?ref_src=twsrc%5Etfw">February 25, 2012</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 寝る。
