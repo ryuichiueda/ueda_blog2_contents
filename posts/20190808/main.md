@@ -5,7 +5,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 # 日記（2019年8月8日）
 
-　2年の講義のためにMoveIt!をがちゃがちゃ動かす。[資料](https://ryuichiueda.github.io/manipulator_practice_b3/lesson2.html)、わずかに進む。GUIを使ったツールは資料にするのが面倒。その後、修士卒氏の残したコードのリファクタリング。
+　2年の実習のためにMoveIt!をがちゃがちゃ動かす。[資料](https://ryuichiueda.github.io/manipulator_practice_b3/lesson2.html)、わずかに進む。GUIを使ったツールは資料にするのが面倒。その後、修士卒氏の残したコードのリファクタリング。
 
 
 　MoveIt!については、とりあえずThinkPadの赤ポッチでこのような行動を作ったけど、赤ポッチやタッチパッド、あるいはマウス使うくらいなら自分でプログラミングした方が楽なので、明日からはプログラミングの資料を書く。学生にも各自のノートPCのタッチパッドをあらかじめ破壊の上、プログラムを書かせる。
