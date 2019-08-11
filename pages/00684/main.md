@@ -11,7 +11,8 @@ Copyright: (C) Ryuichi Ueda
 
 
 第33回以降はまとめのページにリンクを貼りました。ページ上の方に問題へのリンクがあります。
-
+* [第43回](/?post=20190810_shellgei_43_links)
+* [第42回](/?post=20190615_shellgei_42_links)
 * [第41回](/?post=20190427_shellgei_41_links)
 * [第40回](/?post=20190217_shellgei_40_links)
 * [第39回](/?post=20181223_shellgei_39_links)
