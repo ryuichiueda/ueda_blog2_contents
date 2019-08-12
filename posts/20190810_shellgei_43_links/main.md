@@ -67,3 +67,5 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">第４３回 シェル芸勉強会の振り返り書いた<a href="https://t.co/XS6XjFvrAT">https://t.co/XS6XjFvrAT</a></p>&mdash; 次郎☔️[16:52:45] (@jiro_saburomaru) <a href="https://twitter.com/jiro_saburomaru/status/1160421296825458688?ref_src=twsrc%5Etfw">August 11, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a><br>第43回 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> 勉強会 参加記 - 職業プログラマの休日出勤<a href="https://t.co/bheBIht72U">https://t.co/bheBIht72U</a></p>&mdash; T.MOTOOKA (@t_motooka) <a href="https://twitter.com/t_motooka/status/1160776532941365248?ref_src=twsrc%5Etfw">August 12, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
