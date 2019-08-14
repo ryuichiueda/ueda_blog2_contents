@@ -22,3 +22,14 @@ Copyright: (C) 2019 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+
+
+　それから、ojichatの件もまとまったようです。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">色々思い出しながらまとめたけどやっぱりojichatショックは凄まじかったな……。<br>&gt; なぜojichatが生まれてしまったのか - Togetter <a href="https://t.co/jrp8TaHb8g">https://t.co/jrp8TaHb8g</a> via <a href="https://twitter.com/togetter_jp?ref_src=twsrc%5Etfw">@togetter_jp</a></p>&mdash; ぐれさん (@grethlen) <a href="https://twitter.com/grethlen/status/1161414567148314625?ref_src=twsrc%5Etfw">August 13, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+　たぶん、私があえて言うことでもないですが、このような発明は使う人間の力量も問われます。
+
+
+寝る。
