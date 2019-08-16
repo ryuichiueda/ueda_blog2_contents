@@ -11,6 +11,7 @@ Copyright: (C) Ryuichi Ueda
 |日付       |出来事           |コメント              |
 |---------|:---------------------------|-------------------------------|
 |8月10日　|[jus共催 第43回大暴れシェル芸勉強会](/?post=20190810_shellgei_43_links)|[呪文詠唱シェル芸](https://speakerdeck.com/amanoese/vuidesieruyun-woshi-xing-dekiruyounisitemita)が大阪で誕生|
+|8月7日　|[うんこが3D化](https://togetter.com/li/1385101)|重要|
 |7月24日  |シェル芸botが元のコンセンサスのほぼとれた状態に戻る||
 |7月17日  |シェル芸bot迷惑シェル芸警察宣言（上田）。レッドカード続出。|面倒|
 |7月16日  |シェル芸botのフォロワーが3000人を超える|めでたいが大変|
