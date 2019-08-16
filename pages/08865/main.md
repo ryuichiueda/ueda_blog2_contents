@@ -26,7 +26,7 @@ Copyright: (C) Ryuichi Ueda
 |日付       |出来事           |コメント              |
 |---------|:---------------------------|-------------------------------|
 |12月22日 |[jus共催 第39回コートなしで自宅から締め出されたりしないでね年末シェル芸勉強会](https://b.ueda.tech/?post=20181223_shellgei_39_links)|[@xztaityozx_001](https://twitter.com/xztaityozx_001)氏の[ワタナベ難読化シェル芸](https://togetter.com/li/1300981)|
-|11月3日 |[jus共催 第38回シ҈҉ェ҈҉ル҈҉芸҈҉勉҈҉強҈҉会](/?post=20181104_shellgei_38_links)|タイトルのググラビリティーが悪い。|
+|11月3日 |[jus共催 第38回シ҈҉ェ҈҉ル҈҉芸҈҉勉҈҉強҈҉会](/?post=20181104_shellgei_38_links)|タイトルのググラビリティーが悪い。タイトルは前回のシェル芸勉強会の「[Unicode結合文字難読化](https://www.slideshare.net/kanata1/unicode-112630484) by [@kanata201612](https://twitter.com/kanata201612)さん」から|
 |9月1日 |[jus共催 第37回シェル芸bot生きてるかどうか分からないけどシェル芸bot向けシェル芸勉強会](https://b.ueda.tech/?post=20180901_shellgei_37_summary)|タイトルの意味: TwitterのAPI変更でシェル芸bot消滅の危機だった。が、なんとか乗り越え。|
 |7月13日 |[シェル芸botが画像の出力に対応](https://togetter.com/li/1246647)|ここからシェル芸が徐々にビジュアル系に|
 |7月7日 |[jus共催 第36回七夕・・・7は素数じゃないですか（しかも2つ）シェル芸勉強会](/?post=20180708_shellgei_36_summary)|[鳥海さんの午前の部（文字コードの勉強会）が始まる](https://twitter.com/hid_tori/status/1015602548210716672?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1015602548210716672&ref_url=https%3A%2F%2Fb.ueda.tech%2F%3Fpost%3D20180708_shellgei_36_summary)|
