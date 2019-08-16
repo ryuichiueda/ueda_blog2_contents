@@ -15,6 +15,7 @@ Copyright: (C) Ryuichi Ueda
 |7月16日  |シェル芸botのフォロワーが3000人を超える|めでたいが大変|
 |7月5日  |フォロワーが急増するも迷惑シェル芸を炸裂するものが現れシェル芸botが12時間のリプ禁止措置を受ける|面倒|
 |6月28日  |上田、[フルスクラッチから1日でCMSを作る シェルスクリプト高速開発手法入門 改訂2版](https://amzn.to/2K756Yl)出版|第二版だけどほぼ書き直したんだからもうちょい売れてほしい。|
+|6月15日　|[jus共催 第42回BLACK HOLEシェル芸勉強会](/?post=20190615_shellgei_42_links)|[松江サテライト](https://horo1717.hatenablog.com/entry/2019/06/19/000535)初開催|
 |5月30日  |[ojichat](https://github.com/greymd/ojichat)がシェル芸botに導入される|シェル芸botがおじさん化して騒ぎに|
 |4月27日  |[jus共催 第41回{ウン,ガク,}{チ,ト,}{,ン}{,コイン}{ブ,}{ラブラ,ハ,}{,イブ}{無,有}罪シェル芸勉強会](/?post=20190427_shellgei_41_links)|タイトルが史上最悪。[鳥海さんの午前の文字コード講座](https://twitter.com/hid_tori/status/1121989092382633984?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1121989092382633984&ref_url=https%3A%2F%2Fb.ueda.tech%2F%3Fpost%3D20190427_shellgei_41_links)が大好評のうちに完了。|
 |4月24日  |[@kanata201612](https://twitter.com/kanata201612)氏「[難読化シェル芸の世界](https://amzn.to/32V9D8P)」出版|めでたい|
