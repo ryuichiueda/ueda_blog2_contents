@@ -16,6 +16,23 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">SoftwareDesign発売中！シェル芸人からの挑戦状のテーマは今回も文字コードdeath！<br> <a href="https://t.co/SIsDt0uPus">https://t.co/SIsDt0uPus</a> <a href="https://t.co/1mufYRIKD6">pic.twitter.com/1mufYRIKD6</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1162708301391380481?ref_src=twsrc%5Etfw">August 17, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<div class="card">
+  <div class="row no-gutters">
+    <div class="col-md-2">
+      <a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/B07TPYX9D3/ryuichiueda-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/518QJ1a0TKL._SL160_.jpg" width="113" alt="photo"></a>
+    </div>
+    <div class="col-md-10">
+      <div class="card-body">
+        <dl class="fn" style="font-size:80%">
+          <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/B07TPYX9D3/ryuichiueda-22">ソフトウェアデザイン 2019年9月号</a></dt>
+          <dd>[脇阪 洋平 富永 裕貴 大薮 勇輝 野呂 浩良 大澤 文孝 上野 貴史 貞光 九月 安藤 幸央 結城 浩 武内 覚 宮原 徹 平林 純 坂井 恵 齊藤 秀喜 くつなりょうすけ 高橋 憲一 中島 明日香 石山 将来 職業「戸倉彩」 樽石 将人 上田 隆一 田代 勝也 中村 壮一 山田 泰宏 eban mattn 小飼 弾 青田 直大 あわしろいくや 中島 雅弘 kanata 鎌田 篤慎 古守 花織 杉山 貴章]</dd>
+          <dd>技術評論社 2019-08-17 (Release 2019-08-17)</dd>
+        </dl>
+        <p class="powered-by" >(powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.1)</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 　疲れたので寝る。
