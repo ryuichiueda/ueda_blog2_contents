@@ -14,7 +14,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　シェル芸人からの挑戦状は文字コード（第二回）。それから、jusさんの記事にも私が登場してますのでどうぞよろしくおねがいいたします。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">SoftwareDesign発売中！シェル芸人からの挑戦状のテーマは今回も文字コードdeath！<br> <a href="https://t.co/SIsDt0uPus">https://t.co/SIsDt0uPus</a> <a href="https://t.co/1mufYRIKD6">pic.twitter.com/1mufYRIKD6</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1162708301391380481?ref_src=twsrc%5Etfw">August 17, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">echo SoftwareDesign発売中！シェル芸人からの挑戦状のテーマは今回も文字コードdeath！<br><br>mv /media/0 /images/a.png<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <a href="https://t.co/YJkJf5vqwu">pic.twitter.com/YJkJf5vqwu</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1162708256856264705?ref_src=twsrc%5Etfw">August 17, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <div class="card">
   <div class="row no-gutters">
