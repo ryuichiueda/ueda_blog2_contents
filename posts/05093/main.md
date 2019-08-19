@@ -8,7 +8,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/44124362" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ryuichiueda/20150201-15grep" title="20150201 第15回シェル芸勉強会イントロ（ドキッ！grepだらけのシェル芸勉強会）" target="_blank">20150201 第15回シェル芸勉強会イントロ（ドキッ！grepだらけのシェル芸勉強会）</a> </strong> from <strong><a href="//www.slideshare.net/ryuichiueda" target="_blank">Ryuichi Ueda</a></strong> </div>
 
-<h1>諸注意</h1>
+<h2>諸注意</h2>
 
 解答はUbuntu Linux 14.04で作成しました。コマンドがないときは適宜インストールのほど。
 
