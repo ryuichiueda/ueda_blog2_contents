@@ -8,7 +8,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 答えはMac用です。
 
-<h1>Q1</h1>
+<h2>Q1</h2>
 
 今のところPATHをGlueLangに読ませていないので、コマンドを使うときはimportでパスを指定するか、フルパスで呼び出す必要がありますが、xargsに渡したgmd5sumではフルパスでしか指定できない問題が発覚（というよりウスウス気づいてましたが・・・）。あとはオプションをいちいちシングルクォートするのはやはり面倒かなと。
 
@@ -38,7 +38,7 @@ import LANG
 オプションについてはハイフンで始まったり数字で始まるものはクォートを省略できる方がいいかも。
 
 
-<h1>Q2</h1>
+<h2>Q2</h2>
 
 ワンライナーなのでほとんど普通のシェルスクリプトと変わりません。しかし、標準エラー出力の制御を今のところ実装していないというのはやはり使いづらい。
 
@@ -62,7 +62,7 @@ ub.curl 'http://www.flightradar24.com/_json/airports.php' log> '/dev/null' >>= .
 file f err = ub.curl 'http://www.flightradar24.com/_json/airports.php'
 ```
 
-<h1>Q3</h1>
+<h2>Q3</h2>
 
 基本的にはワンライナーをGlueLangの方法に書き換えるだけです。
 
@@ -95,7 +95,7 @@ ub.bc '-l'
 /usr/local/bin/clisp '-x' '(! 2015)' '-q'
 ```
 
-<h1>Q4</h1>
+<h2>Q4</h2>
 
 このbashのワンライナーを書き直せばよいのですが・・・
 
