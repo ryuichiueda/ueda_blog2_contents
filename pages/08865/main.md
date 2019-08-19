@@ -150,7 +150,7 @@ Copyright: (C) Ryuichi Ueda
 <tr>
 <td>6月18日</td>
 <td><a href="https://www.youtube.com/watch?v=GOX2xRYeyR4">第17回ジュンク堂はシェル芸が乗っ取った勉強会</a></td>
-<td>[シェルプログラミング実用テクニック](/?page=05787)の発売記念。ジュンク堂池袋本店にて。</td>
+<td>シェルプログラミング実用テクニックの出版記念。ジュンク堂池袋本店にて。</td>
 </tr>
 
 <tr>
