@@ -3,7 +3,7 @@ Keywords: 告知
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
-# 週末にLLイベントで登壇
+# 週末にLLイベント（[#ll2019jp](https://twitter.com/hashtag/ll2019jp)）で登壇
 
 　こんどの土曜日、Learn Languages 2019 in ODC（LL2019）でbashの話をします。
 
