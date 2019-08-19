@@ -6,14 +6,14 @@ Copyright: (C) 2017 Ryuichi Ueda
 # 【解答】年末年始シェル芸問題集
 <a href="/?post=04852" title="【問題】年末年始シェル芸問題集" target="_blank">年末出したシェル芸の問題</a>の私の解答です。ただ、挑戦した皆さんの解答の方が面白いし鋭いので、「シェル芸」で検索してみてください。あとで下の方に皆さんの解答例を掲載していこうと思います。
 
-<h1>Q1</h1>
+<h2>Q1</h2>
 
 
 年末年始はディレクトリの掃除をしましょう。ということで、ご自身のPCから重複しているデータを探してみてください。全てのファイルから探すのは大変なので、手始めに重複しているJPEG画像リストを作ってみてください。
 
 <!--more-->
 
-<h1>解答</h1>
+### 解答例
 
 もし何も出てこなかったら適当なjpegファイルをコピーして検出できるか試してみてください。「sed 's/.*/"&"/'」はファイルに半角空白があるときのためにファイル名をダブルクォートで囲む処理です。sortのLANG=Cと-sオプションはファイル数が膨大なときに処理を速くするためにつけています。
 
@@ -38,11 +38,11 @@ ueda@remote:~$ sudo find / -type f | grep -i '\\.jpg$' | sed 's/.*/"&"/' |
 sudo xargs -n 1 md5sum | LANG=C sort -s -k1,1 | yarr num=1 | awk 'NF>2'
 ```
 
-<h1>Q2</h1>
+<h2>Q2</h2>
 
 羽田空港の緯度経度を求めてください。
 
-<h1>解答</h1>
+### 解答例
 
 いくつかWebAPIを提供しているサイトがあると思いますが、私はFlightRadar24から持ってきました。
 
@@ -66,14 +66,14 @@ jq . | grep -C 6 HND
  },
 ```
 
-<h1>Q3</h1>
+<h2>Q3</h2>
 
 
 任意の級数からネイピア数（自然対数の底の数）を求めてください。精度が良いほど良いこととします。
 
 <a href="http://ja.wikipedia.org/wiki/%E3%83%8D%E3%82%A4%E3%83%94%E3%82%A2%E6%95%B0%E3%81%AE%E8%A1%A8%E7%8F%BE" target="_blank">こちらを参考に。</a>
 
-<h1>解答</h1>
+### 解答例
 
 もっと簡単な解答がありそうですが。1/(0!)の項が抜けるので最後に1を足さなければいけないのが残念。
 
@@ -85,12 +85,12 @@ tr '\\n' '+' | sed 's/$/1/' | bc -l
 2.71828182845904523526
 ```
 
-<h1>Q4</h1>
+<h2>Q4</h2>
 
 <a href="/misc/message2015.txt" target="_blank">/misc/message2015.txt</a>は、あるメッセージにbase64を多重にかけたものです。解読してください。ワンライナーでなくても構いません。
 
 
-<h1>解答</h1>
+### 解答例
 
 ```bash
 uedambp:~ ueda$ a=$(curl http://blog.ueda.asia/misc/message2015.txt) ; 
@@ -102,11 +102,11 @@ OigpezogfCA6ICZ9OzoK
 Invalid character in input stream.
 ```
 
-<h1>Q5</h1>
+<h2>Q5</h2>
 
 円周率をなるべく精度よく求めてみてください。
 
-<h1>解答</h1>
+### 解答例
 
 モンテカルロ法でささっと（なにがささっとだか・・・）。
 
@@ -127,22 +127,22 @@ awk '{x=$1-0.5;y=$2-0.5;r=sqrt(x^2 + y^2);if(r < 0.5){n++};print NR, 4*n/NR}'
 ###だんだん収束していきます###
 ```
 
-<h1>Q6</h1>
+<h2>Q6</h2>
 
 集合{a,b,c,d,e}から全ての組み合わせ（部分集合）を列挙してください。
 
-<h1>解答</h1>
+### 解答例
 
 ```bash
 uedambp:~ ueda$ echo {,a}{,b}{,c}{,d}{,e}
 e d de c ce cd cde b be bd bde bc bce bcd bcde a ae ad ade ac ace acd acde ab abe abd abde abc abce abcd abcde
 ```
 
-<h1>Q7</h1>
+<h2>Q7</h2>
 
 8128が完全数であることを確認してください。
 
-<h1>解答</h1>
+### 解答例
 
 ```bash
 uedambp:~ ueda$ seq 2 8128 | awk '{print 8128/$1}' | grep -Fv . | numsum
