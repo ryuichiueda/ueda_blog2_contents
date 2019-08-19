@@ -155,7 +155,7 @@ Copyright: (C) Ryuichi Ueda
 
 <tr>
 <td>5月15日</td>
-<td><a href="/?page=05787">シェルプログラミング実用テクニック</a></td>
+<td><a href="/?page=05787">シェルプログラミング実用テクニック</a>出版</td>
 <td>よりシェル芸っぽい本。</td>
 </tr>
 
