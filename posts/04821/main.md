@@ -87,13 +87,13 @@ tr '\\n' '+' | sed 's/$/1/' | bc -l
 
 <h2>Q4</h2>
 
-<a href="/misc/message2015.txt" target="_blank">/misc/message2015.txt</a>は、あるメッセージにbase64を多重にかけたものです。解読してください。ワンライナーでなくても構いません。
+<a href="http://file.ueda.tech/message2015.txt" target="_blank">message2015.txt</a>は、あるメッセージにbase64を多重にかけたものです。解読してください。ワンライナーでなくても構いません。
 
 
 ### 解答例
 
 ```bash
-uedambp:~ ueda$ a=$(curl http://blog.ueda.asia/misc/message2015.txt) ; 
+uedambp:~ ueda$ a=$(curl http://file.ueda.tech/message2015.txt) ; 
 while a=$(echo $a | base64 -D) && echo $a ; do : ; done 
 ...
 T2lncGV6b2dmQ0E2SUNaOU96b0sK
