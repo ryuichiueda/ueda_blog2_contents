@@ -62,7 +62,7 @@ sudo xargs -n 1 md5sum | LANG=C sort -s -k1,1 | yarr num=1 | awk 'NF>2'
 
 <h2>Q4</h2>
 
-<a href="/misc/message2015.txt" target="_blank">/misc/message2015.txt</a>は、あるメッセージにbase64を多重にかけたものです。解読してください。ワンライナーでなくても構いません。
+<a href="http://file.ueda.tech/message2015.txt" target="_blank">message2015.txt</a>は、あるメッセージにbase64を多重にかけたものです。解読してください。ワンライナーでなくても構いません。
 
 <h2>Q5</h2>
 
