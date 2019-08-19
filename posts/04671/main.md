@@ -6,7 +6,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 # 【問題のみ】第14回東京居残りシェル芸勉強会
 <a href="/?post=04413" title="【問題と解答例】第14回東京居残りシェル芸勉強会">解答はコッチ</a>
 
-<h1>始める前に</h1>
+<h2>始める前に</h2>
 
 今回はLinuxで解答例を作りましたので、BSD系、Macな方は以下の表をご参考に・・・。
 
@@ -37,18 +37,18 @@ Copyright: (C) 2017 Ryuichi Ueda
  </tr>
 </table>
 
-<h1>イントロ</h1>
+<h2>イントロ</h2>
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/42680416" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
 
-<h1>Q1</h1>
+<h2>Q1</h2>
 
 100!を計算してください。正確に。
 
 <!--more-->
 
-<h1>Q2</h1>
+<h2>Q2</h2>
 
 次のseqからsed（と言ってもgsed）だけでfizzbuzzを完成させてください。
 
@@ -77,7 +77,7 @@ Buzz
 ...
 ```
 
-<h1>Q3</h1>
+<h2>Q3</h2>
 
 このうち素数はどれでしょうか？
 
@@ -85,7 +85,7 @@ Buzz
 ueda@remote:~$ echo 0xaf 0x13 0x0d 0x24 0x58
 ```
 
-<h1>Q4</h1>
+<h2>Q4</h2>
 
 次の16進数（UTF-8）で書かれたメッセージを復元してください。
 
@@ -93,7 +93,7 @@ ueda@remote:~$ echo 0xaf 0x13 0x0d 0x24 0x58
 e89fb9e3818ce9a39fe381b9e3819fe38184
 ```
 
-<h1>Q5</h1>
+<h2>Q5</h2>
 
 次のようなファイルを作ってください。
 （catするとahoとだけ出て、容量は1GB。）
@@ -105,7 +105,7 @@ ueda@remote:~$ ls -l hoge
 -rw-r--r-- 1 ueda ueda 1000000000 12月 7 14:53 hoge
 ```
 
-<h1>Q6</h1>
+<h2>Q6</h2>
 
 日本の山を標高の高い順から並べていってください。順位と標高も一緒に出力してください。<a href="http://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E5%B1%B1%E4%B8%80%E8%A6%A7_%28%E9%AB%98%E3%81%95%E9%A0%86%29" target="_blank">（こちらからcurlで持ってきて加工してください）</a>
 
