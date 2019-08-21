@@ -5,6 +5,14 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 # 日記（2019年8月21日）
 
+## （再告知）SoftwareDesign 9月号発売中
+
+　私の露出はシェル芸人からの挑戦状とjusさんの記事（シェル芸勉強会レポート）です。よろしくお願いいたします。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">今月号ノ、シェル芸モ、キワメテ烈しいデス。文字コードがアンナことやコンナことサレテシマイマス――ミハイル・シェルゲイノフ談（ロシア支部（仮）長） <a href="https://t.co/Sb1ltCCiMD">https://t.co/Sb1ltCCiMD</a></p>&mdash; SoftwareDesign (@gihyosd) <a href="https://twitter.com/gihyosd/status/1163243491935191040?ref_src=twsrc%5Etfw">August 19, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ## URDFの勉強
 
 　本日の成果（）です。ごさしゅーください。
