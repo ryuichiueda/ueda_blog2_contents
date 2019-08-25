@@ -13,7 +13,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## LL2019でしゃべってきました
 
-　土曜日、Learn Languages 2019 in ODCでしゃべってきました。会場は日本工学院専門学校でした。内容は以下の通りです。お客さんは満員で50人くらいでしょうか。主催の皆様よい機会をありがとうございました。
+　土曜日、[Learn Languages 2019 in ODC](https://llevent.connpass.com/event/139342/)でしゃべってきました。会場は日本工学院専門学校でした。内容は以下の通りです。お客さんは満員で50人くらいでしょうか。主催の皆様よい機会をありがとうございました。
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/qAUDP6HXvtz3zs" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ryuichiueda/bashupdate" title="bash（の変な使い方）update" target="_blank">bash（の変な使い方）update</a> </strong> from <strong><a href="//www.slideshare.net/ryuichiueda" target="_blank">Ryuichi Ueda</a></strong> </div>
 
