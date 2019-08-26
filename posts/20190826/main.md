@@ -50,5 +50,8 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">生憎だが、超兄貴は横スクロールシューティング…！<br>これではアドンとサムスンを再現できてるとは到底言えない</p>&mdash; Blacknon@通勤電車リハビリ中 (@blacknon_) <a href="https://twitter.com/blacknon_/status/1165972264795267072?ref_src=twsrc%5Etfw">August 26, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+### 参考資料
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/95oGCezsjKU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 期待して寝る。
