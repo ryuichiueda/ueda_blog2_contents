@@ -32,7 +32,13 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## 今日のシェル芸
 
-　本日もマッスルシェル芸。
+　yamayaさんがすごいのを投入。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr"><a href="https://t.co/QXc9uRGccc">https://t.co/QXc9uRGccc</a> <a href="https://t.co/9w7CYFGPCI">pic.twitter.com/9w7CYFGPCI</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1165992325706727426?ref_src=twsrc%5Etfw">August 26, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+　そして本日もマッスルシェル芸。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr"><a href="https://t.co/3O3Xp5MZQ2">https://t.co/3O3Xp5MZQ2</a> <a href="https://t.co/oQSHBhFEGn">pic.twitter.com/oQSHBhFEGn</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1165971353515646977?ref_src=twsrc%5Etfw">August 26, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
