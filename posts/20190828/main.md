@@ -21,3 +21,6 @@ Copyright: (C) 2019 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 `kkc`を直接いじる方法も考えられたのですが、[Vala](https://ja.wikipedia.org/wiki/Vala)というC言語のラッパー言語で書いてあって手が出ませんでした・・・。Vala、おもしろそうです。
+
+
+寝る。
