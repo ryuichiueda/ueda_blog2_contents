@@ -36,16 +36,13 @@ Copyright: (C) Ryuichi Ueda
 
 以下を組み合わせて使います。
 
-### 10分バージョン
 
-* [1. 確率ロボティクスとは](https://ryuichiueda.github.io/LNPR_SLIDES/contents/20190424_chubu-u_robot_flontier1.html)
-
-### 30分バージョン
-
-* [2. 確率統計の基礎](https://ryuichiueda.github.io/LNPR_SLIDES/30min/chap2_30min.html)
-* [4. 不確かさのモデル化](https://ryuichiueda.github.io/LNPR_SLIDES/30min/chap4_30min.html)
-
-
-### 60分バージョン
-
-* [7. パーティクルフィルタを用いた自己位置推定](https://ryuichiueda.github.io/LNPR_SLIDES/60min/chap5_60min.html)
+* [2. 確率統計の基礎](https://ryuichiueda.github.io/LNPR_SLIDES/chap2_60min.html)
+* [5. パーティクルフィルタを用いた自己位置推定](https://ryuichiueda.github.io/LNPR_SLIDES/chap5_60min.html)
+* [6. カルマンフィルタによる自己位置推定](https://ryuichiueda.github.io/LNPR_SLIDES/chap6_60min.html)
+* [7. 自己位置推定の諸問題](https://ryuichiueda.github.io/LNPR_SLIDES/chap7_60min.html)
+* [8. パーティクルフィルタを用いたSLAM](https://ryuichiueda.github.io/LNPR_SLIDES/chap8_60min.html)
+* [9. グラフ表現を用いたSLAM](https://ryuichiueda.github.io/LNPR_SLIDES/chap9_60min.html)
+* [10. マルコフ決定過程と動的計画法](https://ryuichiueda.github.io/LNPR_SLIDES/chap10_60min.html)
+* [11. 強化学習](https://ryuichiueda.github.io/LNPR_SLIDES/chap11_60min.html)
+* [12. 部分観測マルコフ決定過程](https://ryuichiueda.github.io/LNPR_SLIDES/chap12_60min.html)
