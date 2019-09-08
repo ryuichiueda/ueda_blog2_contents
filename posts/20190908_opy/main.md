@@ -13,6 +13,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 * 解決のために [opy](https://github.com/ryuichiueda/opy) というコマンドを作って公開
     * 使い方はREADMEにあります
 * なかなかいいので使ってみてください
+* opyを変な呼び方しないでください
 
 ## 経緯
 
