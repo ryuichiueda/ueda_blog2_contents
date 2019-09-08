@@ -155,7 +155,7 @@ $ opy 'B:{import numpy as np};E:{print(np.pi)}'
 
 ### awesome example of use
 
-  It works on **ShellGei bot** and some users enjoy using. 
+  It is available on **ShellGei bot** and some users enjoy using. 
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr"><a href="https://t.co/aUDagETIQp">https://t.co/aUDagETIQp</a> <a href="https://t.co/LTRfujwwGj">pic.twitter.com/LTRfujwwGj</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1170481756803223552?ref_src=twsrc%5Etfw">September 7, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
