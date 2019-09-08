@@ -72,7 +72,7 @@ $ seq 3 | python3 -c 'import sys;print("\n".join([ str(int(x)*3) for x in sys.st
 9
 ```
 
-When there are more than one elements in the list, the elements are joined with a space.
+When there are more than one elements in the list, the elements are joined with spaces.
 
 ```
 $ seq 3 | opy 'F1%2:["%d:odd"%F1, F1*3]'
