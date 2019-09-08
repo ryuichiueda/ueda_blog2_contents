@@ -34,8 +34,6 @@ Copyright: (C) Ryuichi Ueda
 
 * リポジトリ: https://github.com/ryuichiueda/LNPR_SLIDES
 
-以下を組み合わせて使います。
-
 
 * [2. 確率統計の基礎](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap2_60min.html)
 * [5. パーティクルフィルタを用いた自己位置推定](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap5_60min.html)
