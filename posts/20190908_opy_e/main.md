@@ -80,7 +80,7 @@ $ seq 3 | opy 'F1%2:["%d:odd"%F1, F1*3]'
 3:odd 9
 ```
 
-  `Opy` also has a normal action. When we use it, we need to put sentences in curly brackets. 
+  `Opy` also has a normal action mode. When we use it, we need to put sentences in curly brackets. 
 
 
 ```
