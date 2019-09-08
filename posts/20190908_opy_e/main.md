@@ -36,7 +36,7 @@ $ seq 3 | python3 -c 'import sys;print("\n".join([ str(int(x)*3) for x in sys.st
 
 It is clearly unsuitable for oneliner. 
 
-  However, Python has the list data type. Then AWK also treats fields of each line as elements of a list. So I thought the action of AWK can be replaced to the list operation of Python.
+  However, Python has the list data type. Then AWK also treats fields of each line as elements of a list. So I thought the action of AWK can be replaced to the list of Python.
 
   I have implemented `opy` command, which works with this idea. This is an example.
 
