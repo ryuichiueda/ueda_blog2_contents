@@ -91,7 +91,7 @@ $ seq 3 | opy '{print(F1, end="")}'
 
 ### grammer
 
-  Over the Python grammer, I defined a rule. 
+  Over the Python grammer, I defined `rule`. 
 
 
 ```
@@ -103,40 +103,40 @@ $ seq 3 | opy '{print(F1, end="")}'
 <list action> ::= <a list of Python>
 ```
 
+  `B, BEGIN, E` and `END` means the begin/end patterns, which are also seen in AWK. We can use BEGIN pattern for initialization and the other for post-processing. This is an example. 
 
-　`B, BEGIN, E, END`などの文字列はAWKのBEGINパターン、ENDパターンと同じもので、行を読み込む前の処理を書けます。次は一例です。
 
 ```
 $ seq 100 | opy 'B:{a=0};{a+=F1};E:[a]'
 5050
 ```
 
-### モジュール
+### module
 
-　モジュールの読み込み方は3通りあります。まず、リストアクションの中では、自動的にモジュールが読み込まれます。ちょっとした計算に便利なようにしました。
+  We can use any modules in `opy`. There are three kinds of ways for import of modules. In a list action, modules are imported automatically. 
 
 ```
-### sin 1を求める ###
+### obtaining the number of sin 1 ###
 $ opy 'B:[math.sin(1)]'
 0.8414709848078965
-### sqrt(3*3 + 4*4)の計算 ###
+### calculation of sqrt(3*3 + 4*4) ###
 $ opy 'B:[numpy.hypot(3,4)]'
 5.0
 ```
 
-ただし、これは「PythonがNameErrorを起こしたときにモジュールの読み込みを試みる」という安直な実装で実現しています。ですので、リストの中で副作用のある計算をすると、モジュールを読み込む前にリストの中で行った計算が2度実行される可能性があります。
+Though it is crude implemntation, the module is imported when an NameError occurs. After that, `opy` evaluates the list again. Therefore, we must not write any procedure that has side effects in the list. Otherwise, a procedure runs twice. 
 
-　もう一つは明示的にインポートする方法で、`-m`（モジュール）オプションを使う方法が簡単です。
+  We can import modules more safely with `-m` option.
 
 ```
 $ opy -m numpy 'E:{print(numpy.pi)}'
 3.141592653589793
-### 二つ以上指定する時はカンマで ###
+### join module names with commas for multiple module import ###
 $ opy -m math,numpy 'B:[math.e,numpy.e]'
 2.718281828459045 2.718281828459045
 ```
 
-　最後の方法はBEGINパターンを使うものです。
+　We can also use a begin pattern.
 
 ```
 $ opy 'B:{import numpy};E:{print(numpy.pi)}'
@@ -146,19 +146,14 @@ $ opy 'B:{import numpy as np};E:{print(np.pi)}'
 ### -m オプション ###
 ```
 
-### スピード
+### computational speed
 
-　これはあまり重視していません。
-
-### 変数のスコープ
-
-　実装中に`exec`とか`eval`をたくさん使っていて正直把握しきれていませんが、BEGINパターンで作った変数は他のパターンでも利用できます。
+  I put less importance on computational speed than convenience.
 
 
-### おわりに
-
-　またいろいろ書き足らないことがありますが、とりあえずリポジトリは
+### repository
 
 * https://github.com/ryuichiueda/opy
 
-ですので、とりあえずインストールしておいて、ここぞというときに思い出して使ってみていただければ幸いです。
+
+
