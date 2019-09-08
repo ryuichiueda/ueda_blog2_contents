@@ -3,7 +3,7 @@ Keywords: opy, Python, ワンライナー, シェル芸
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
-# Pythonをコマンドラインで使いたいのでコマンド作った
+# Pythonをコマンドラインで使いたいのでopyというコマンドを作った
 
 　一つ前の記事をもうちょい真面目に書きました。
 
