@@ -7,7 +7,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## summary
 
-Since I want to use Python on a shell, I have created [opy](https://github.com/ryuichiueda/opy) command.
+Since I want to use Python on a shell instantly, I have created [opy](https://github.com/ryuichiueda/opy) command.
 
 ## design and implementation
 
