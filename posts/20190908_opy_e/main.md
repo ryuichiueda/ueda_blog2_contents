@@ -17,7 +17,7 @@ Since I want to use Python on a shell, I have created [opy](https://github.com/r
 
 
 ```
-$ seq 3 | awk '{print $1*3}'  # 1列目に3をかける
+$ seq 3 | awk '{print $1*3}'  # triple th enumber of the field one and output
 3
 6
 9
