@@ -156,6 +156,14 @@ $ opy 'B:{import numpy as np};E:{print(np.pi)}'
 
 　実装中に`exec`とか`eval`をたくさん使っていて正直把握しきれていませんが、BEGINパターンで作った変数は他のパターンでも利用できます。
 
+### ユーザー
+
+　シェル芸botにインストールされているので、すでに界隈に熟練のopyer（促音しないこと）が増えてます。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr"><a href="https://t.co/aUDagETIQp">https://t.co/aUDagETIQp</a> <a href="https://t.co/LTRfujwwGj">pic.twitter.com/LTRfujwwGj</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1170481756803223552?ref_src=twsrc%5Etfw">September 7, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ### おわりに
 
 　またいろいろ説明が書き足らないことがありますが、とりあえずリポジトリは
