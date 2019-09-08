@@ -91,8 +91,7 @@ $ seq 3 | opy '{print(F1, end="")}'
 
 ### grammer
 
-  Over the Python grammer, I defined `rule`. 
-
+  Over the Python grammer, following rules are added. They enables us to write the AWK like action/pattern rules. 
 
 ```
 <rules> ::= <rule> | <rule> ";" <rules>
@@ -143,7 +142,6 @@ $ opy 'B:{import numpy};E:{print(numpy.pi)}'
 3.141592653589793
 $ opy 'B:{import numpy as np};E:{print(np.pi)}'
 3.141592653589793
-### -m オプション ###
 ```
 
 ### computational speed
@@ -156,4 +154,4 @@ $ opy 'B:{import numpy as np};E:{print(np.pi)}'
 * https://github.com/ryuichiueda/opy
 
 
-
+Thank you. 
