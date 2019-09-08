@@ -158,7 +158,7 @@ $ opy 'B:{import numpy as np};E:{print(np.pi)}'
 
 ### おわりに
 
-　またいろいろ書き足らないことがありますが、とりあえずリポジトリは
+　またいろいろ説明が書き足らないことがありますが、とりあえずリポジトリは
 
 * https://github.com/ryuichiueda/opy
 
