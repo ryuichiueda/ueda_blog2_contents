@@ -3,7 +3,7 @@ Keywords: opy, Python, onelinar, shell-gei
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
-# `opy` that makes Python easy on CLI
+# OPY command that makes Python easy on CLI
 
 ## summary
 
