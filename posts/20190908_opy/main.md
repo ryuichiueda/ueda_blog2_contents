@@ -163,6 +163,9 @@ $ opy 'B:{import numpy as np};E:{print(np.pi)}'
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr"><a href="https://t.co/aUDagETIQp">https://t.co/aUDagETIQp</a> <a href="https://t.co/LTRfujwwGj">pic.twitter.com/LTRfujwwGj</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1170481756803223552?ref_src=twsrc%5Etfw">September 7, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">opyの使い方の例はここにありまーす。（💩多めだけど・・・） <a href="https://twitter.com/hashtag/opy?src=hash&amp;ref_src=twsrc%5Etfw">#opy</a> <a href="https://t.co/3Arg7HatUK">https://t.co/3Arg7HatUK</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1170991848166326274?ref_src=twsrc%5Etfw">September 9, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ### おわりに
 
