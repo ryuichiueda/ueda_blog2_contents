@@ -1,7 +1,7 @@
 protocol: 'https:'
 host: 'b.ueda.tech'
 sitetitle: '上田ブログ'
-subtitle: '生きるフリー素材化への厳しい修行（生きるフリー素材だとは言っていない）'
+subtitle: 'なお、このサイトはbashでできている。'
 headline:
 - text: '<a href="https://amzn.to/2PY7TcB">詳解確率ロボティクスの予約が始まりました</a>'
 - text: '<a href="/?page=bashcms2">シェルスクリプト高速開発手法入門改訂2版発売中</a>'
