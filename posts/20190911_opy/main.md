@@ -122,7 +122,7 @@ $ sudo snap install opy_latest_amd64.snap --dangerous
 
 
 
-　ちなみに、`https://snapcraft.io/opy`ではダウンロード数とかも閲覧できるみたいなので楽しみです。これでダウンロードが少ないと、先日のバズりが、「`opy`面白い！使ってみたい！」ではなく、「opyがお○ぱいだ！」という点でのものだったことになり、大変悲しいのでぜひインストールしてみてください。
+　ちなみに、`https://snapcraft.io/opy`ではダウンロード数とかも閲覧できるみたいなので楽しみです。これでダウンロードが少ないと、先日のバズりが、「`opy`面白い！使ってみたい！」ではなく、「opyがお○ぱいだ！」という点でのものだったことになり、大変悲しいのでぜひsnapでインストールしてみてください。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">お、おっぱ……<br><br>Pythonをコマンドラインで使いたいのでopyというコマンドを作った | 上田ブログ <a href="https://t.co/eThANDMEV2">https://t.co/eThANDMEV2</a></p>&mdash; うむー (@umux_24) <a href="https://twitter.com/umux_24/status/1171235408497131521?ref_src=twsrc%5Etfw">September 10, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
