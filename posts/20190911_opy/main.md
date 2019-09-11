@@ -107,7 +107,7 @@ $ sudo snap install opy
 　一応、これはユーザの方で
 
 ```
-$ snapcraft push --release=stable opy_latest_amd64.snap
+$ sudo snap alias oneliner-python.opy opy
 ```
 
 とすればよいようなのですが、これはこれで面倒なので、結局パッケージ名をopyにしました。
