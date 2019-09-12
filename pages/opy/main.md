@@ -4,6 +4,19 @@ Copyright: (C) Ryuichi Ueda
 
 # opy
 
-aaa
 
-<iframe src="https://snapcraft.io/opy/embedded?button=black&channels=true&summary=true" frameborder="0" width="100%" height="320px" style="border: 1px solid #CCC; border-radius: 2px;"></iframe>
+## Introduction
+
+Opy is an AWK like command that works on Python.
+AWK is the representative line oriented programming language, and it is very powerful on one-liners.
+This is an example. 
+
+```
+$ seq 3 | awk '{print $1*3}'  # triple the number of the field one and output
+3
+6
+9
+```
+
+When we use another language like this, we must write the procedure for reading the standard input and a loop for processing each line. However, AWK does not require them. The code in the argument is automatically applied to each line. Then the result goes out through the standard output. We can also use Perl and Ruby with line oriented programming. However, awk codes are usually simpler than those of Perl and Ruby when tasks are not so complicated. 
+
