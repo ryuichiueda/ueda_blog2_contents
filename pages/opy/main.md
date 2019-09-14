@@ -2,7 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
-# opy
+# opy: ワンライナー用Python
 
 ## ウェブページ
 
