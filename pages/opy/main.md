@@ -4,6 +4,14 @@ Copyright: (C) Ryuichi Ueda
 
 # opy
 
+## ウェブページ
+
+* リポジトリ: https://github.com/ryuichiueda/opy
+* opyに関する記事 
+    * [Pythonをコマンドラインで使いたいのでopyというコマンドを作った](/?post=20190908_opy)
+
+
+## 以下は書きかけのドキュメント
 
 ## Introduction
 
