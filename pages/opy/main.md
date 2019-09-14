@@ -6,7 +6,12 @@ Copyright: (C) Ryuichi Ueda
 
 ## ウェブページ
 
-* リポジトリ: https://github.com/ryuichiueda/opy
+* パッケージ
+    * snap: https://snapcraft.io/opy
+* コード
+    * リポジトリ: https://github.com/ryuichiueda/opy
+    * homebrew用リポジトリ: https://github.com/ryuichiueda/homebrew-oneliner-python 
+    * snap用リポジトリ: https://github.com/ryuichiueda/opy-snap
 * opyに関する記事 
     * [Pythonをコマンドラインで使いたいのでopyというコマンドを作った](/?post=20190908_opy)
     * [OPY command that makes Python easy on CLI](/?post=20190908_opy_e)
