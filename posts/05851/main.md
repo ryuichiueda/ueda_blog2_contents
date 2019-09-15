@@ -14,7 +14,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <h2>使用するログ</h2>
 
-<a href="/?page=05649" target="_blank">/?page_id=5649</a>内の、access.log_.shellshock.gzとaccess_log.nasa.gzです。
+<a href="/?page=05649" target="_blank">/?page=05649</a>内の、danger_log.gz（ShellShockのログ）とaccess_log.nasa.gz（NASAの公開データ。上田改）です。
 
 <!--more--> 
 
