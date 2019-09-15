@@ -59,7 +59,7 @@ $ wget http://file.ueda.tech/DATA_COLLECTION/access_log.nasa.gz
 
 <h2>準備1</h2>
 
-access.log.shellshock.gzとaccess_log.nasa.gzについて、日付と時刻を次のように正規化しておきましょう。
+danger_log.gzとaccess_log.nasa.gzについて、日付と時刻を次のように正規化しておきましょう。
 
 ```bash
 ###修正前###

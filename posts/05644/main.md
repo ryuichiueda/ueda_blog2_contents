@@ -15,7 +15,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 <!--more-->
 <h2>使用するログ</h2>
 
-<a href="/?page=05649" target="_blank">/?page_id=5649</a>内の、access.log_.shellshock.gzとaccess_log.nasa.gzです。
+<a href="/?page=05649" target="_blank">/?page=05649</a>内の、danger_log.gz（ShellShockのログ）とaccess_log.nasa.gz（NASAの公開データ。上田改）です。
 
 <h2>環境</h2>
 今回はLinuxで解答例を作りましたので、BSD系、Macな方は以下の表をご参考に・・・。
@@ -52,13 +52,13 @@ Copyright: (C) 2017 Ryuichi Ueda
 ログをとってきましょう。
 
 ```bash
-$ wget http://blog.ueda.asia/misc/access_log.nasa.gz
-$ wget http://blog.ueda.asia/wp-content/uploads/2015/04/access.log_.shellshock.gz
+$ wget http://file.ueda.tech/DATA_COLLECTION/danger_log.gz
+$ wget http://file.ueda.tech/DATA_COLLECTION/access_log.nasa.gz
 ```
 
 <h2>準備1</h2>
 
-access.log.shellshock.gzとaccess_log.nasa.gzについて、日付と時刻を次のように正規化しておきましょう。
+danger_log.gzとaccess_log.nasa.gzについて、日付と時刻を次のように正規化しておきましょう。
 
 ```bash
 ###修正前###
@@ -76,7 +76,7 @@ ueda@tencore:~/tmp/nasa$ zcat access_log.nasa.gz | awk '{print $4,$0}' |
  sed 's/^\\[//' | awk '{gsub(/[\\/:]/," ",$1);print}' |
  awk '{$2=$2=="Jul"?"07":$2;$2=$2=="Aug"?"08":$2;print}' |
  sed 's;^\\(..\\) \\(..\\) \\(....\\) \\(..\\) \\(..\\) \\(..\\);\\3\\2\\1 \\4\\5\\6;' > access_log
-ueda@tencore:~/tmp/danger$ zcat access.log.shellshock.gz | awk '{print $4,$0}' |
+ueda@tencore:~/tmp/danger$ zcat danger_log.gz | awk '{print $4,$0}' |
  sed 's/^\\[//' | awk '{gsub(/[\\/:]/," ",$1);print}' |
  sed -e 's/Sep/09/' -e 's/Oct/10/' -e 's/Nov/11/' -e 's/Dec/12/' |
  sed 's;^\\(..\\) \\(..\\) \\(....\\) \\(..\\) \\(..\\) \\(..\\);\\3\\2\\1 \\4\\5\\6;' > danger_log
@@ -226,7 +226,7 @@ ShellShockログ内にあるIPアドレス（IPv4）がすべて192.168.から�
 <h2>解答</h2>
 
 ```bash
-ueda@remote:~$ zcat access.log.shellshock.gz | grep -Eo '([0-9]+\\.){3}[0-9]+' |
+ueda@remote:~$ zcat danger_log.gz | grep -Eo '([0-9]+\\.){3}[0-9]+' |
  awk -F. '{print $1,$2}' | uniq
 192 168
 ```
@@ -238,7 +238,7 @@ ShellShockログについて、レスポンスのデータ送信量が大きい�
 <h2>解答</h2>
 
 ```bash
-ueda@tencore:~/tmp/danger$ zcat access.log.shellshock.gz |
+ueda@tencore:~/tmp/danger$ zcat danger_log.gz |
  sed 's/^\\([0-9]\\+\\.[0-9]\\+\\.[0-9]\\+\\.[0-9]\\+\\) .*" [0-9][0-9][0-9] \\([0-9]\\+\\) ".*$/\\1 \\2/' |
  sort -k2,2nr | head
 192.168.0.90 234
