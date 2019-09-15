@@ -16,17 +16,15 @@ Copyright: (C) Ryuichi Ueda
 
 自分のブログのログから採取。IPアドレスの頭２つを192.168に変換してあります。
 
-<a href="access.log_.shellshock.gz">/wp-content/uploads/2015/04/access.log_.shellshock.gz</a>
+* http://file.ueda.tech/DATA_COLLECTION/danger_log.gz</a>
 
 <h3>NASAのApacheログ</h3>
 
-<a href="http://ita.ee.lbl.gov/html/contrib/NASA-HTTP.html">http://ita.ee.lbl.gov/html/contrib/NASA-HTTP.html</a>からの再配布です。オリジナルだと2つに別れているファイルを一つにしてgzip圧縮してあります。
+http://ita.ee.lbl.gov/html/contrib/NASA-HTTP.html からの再配布です。オリジナルだと2つに別れているファイルを一つにしてgzip圧縮してあります。
 
 残念ながらリファラーとユーザエージェント情報はありません。
 
-<ul><li>
-<a href="/misc/access_log.nasa.gz">access_log.nasa.gz</a>
-</li></ul>
+* http://file.ueda.tech/DATA_COLLECTION/access_log.nasa.gz"
 
 
 <h1>空白区切りデータ</h1>
@@ -35,12 +33,10 @@ Copyright: (C) Ryuichi Ueda
 
 gz圧縮してありますので解凍、あるいはzcatしてお使いください。
 
-<ul><li>
-<a href="/misc/TESTDATA.gz">TESTDATA.gz</a>
-</li></ul>
+
+* http://file.ueda.tech/DATA_COLLECTION/TESTDATA.gz
 
 <h2>都道府県コード</h2>
 
-<ul><li>
-<a href="/misc/PREF">PREF</a>
-</li></ul>
+* http://file.ueda.tech/DATA_COLLECTION/PREF
+
