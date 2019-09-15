@@ -53,8 +53,8 @@ Copyright: (C) 2017 Ryuichi Ueda
 ログをとってきましょう。
 
 ```bash
-$ wget http://blog.ueda.asia/misc/access_log.nasa.gz
-$ wget http://blog.ueda.asia/wp-content/uploads/2015/04/access.log_.shellshock.gz
+$ wget http://file.ueda.tech/DATA_COLLECTION/danger_log.gz
+$ wget http://file.ueda.tech/DATA_COLLECTION/access_log.nasa.gz
 ```
 
 <h2>準備1</h2>
