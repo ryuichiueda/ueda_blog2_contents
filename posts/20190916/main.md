@@ -5,7 +5,11 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 # opyにjoin, dropjoinを実装
 
-　シェル芸botで地味に活躍中の[opy](https://snapcraft.io/opy)に、特定の列（フィールド）を出力/削って出力する機能を実装しました。こんな感じです。（v1.8.0）
+　シェル芸botで地味に活躍中の[opy](https://github.com/ryuichiueda/opy)に、特定の列（フィールド）を出力/削って出力する機能を実装しました。こんな感じです。（v1.8.0）
+
+* インストール
+    * snap: `sudo snap install opy`
+    * brew: `brew tap ryuichiueda/oneliner-python ; brew install oneliner-python`
 
 ## 入力
 
