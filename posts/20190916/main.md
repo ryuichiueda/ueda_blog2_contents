@@ -34,7 +34,7 @@ $ head -n 3 access_log.nasa | iconv -c | opy '[F1, F4, F5, F[NF-1], F[NF]]'
 
 ### 例2: 2列目を消す
 
-`dropjoin(F,2)`で`F0`（毎行全体を格納した変数）の2列目を落とした文字列が返ってくるので、これをリストに包むと2列目が落とされて出力されます。
+`dropjoin(F,2)`で2列目を落として連結した文字列が返ってくるので、これをリストに包むと2列目が落とされて出力されます。
 
 ```
 $ head -n 3 access_log.nasa | iconv -c | opy '[dropjoin(F,2)]'
