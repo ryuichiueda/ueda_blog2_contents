@@ -7,10 +7,6 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　シェル芸botで地味に活躍中の[opy](https://github.com/ryuichiueda/opy)に、特定の列（フィールド）を出力/削って出力する機能を実装しました。こんな感じです。（v1.8.0）
 
-* インストール
-    * snap: `sudo snap install opy`
-    * brew: `brew tap ryuichiueda/oneliner-python ; brew install oneliner-python`
-
 ## 入力
 
 　https://b.ueda.tech/?page=05649 にある「NASAのApacheログ」を例題にします。
@@ -64,3 +60,8 @@ unicomp6.unicomp.net [01/Jul/1995:00:00:06 -0400] "GET /shuttle/countdown/ HTTP/
 ```
 
 地味ですが、特に`dropjoin`の方が、たまにAWKで面倒になるのであると地味に便利です。
+
+
+* インストール
+    * snap: `sudo snap install opy`
+    * brew: `brew tap ryuichiueda/oneliner-python ; brew install oneliner-python`
