@@ -62,6 +62,8 @@ unicomp6.unicomp.net [01/Jul/1995:00:00:06 -0400] "GET /shuttle/countdown/ HTTP/
 地味ですが、特に`dropjoin`の方が、たまにAWKで面倒になるのであると地味に便利です。
 
 
-* インストール
-    * snap: `sudo snap install opy`
-    * brew: `brew tap ryuichiueda/oneliner-python ; brew install oneliner-python`
+## インストール方法
+
+* snap: `sudo snap install opy`
+* brew: `brew tap ryuichiueda/oneliner-python ; brew install oneliner-python`
+* make: リポジトリをcloneして`sudo make install`
