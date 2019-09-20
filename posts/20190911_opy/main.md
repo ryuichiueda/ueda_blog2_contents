@@ -82,7 +82,7 @@ parts:
 　ビルドがうまくいったら、Ubuntu Oneのアカウントで https://snapcraft.io にログインし、https://snapcraft.io/register-snap でパッケージの名前を予約して、
 
 ```
-$ snap push --release=stable opy_latest_amd64.snap
+$ snapcraft push --release=stable opy_latest_amd64.snap
 ```
 
 とアップロードしました。これで、[こんなふうに](https://snapcraft.io/opy)パッケージがインターネッツ上にさらされました。あとは、任意のsnapが使える環境で、誰でも
