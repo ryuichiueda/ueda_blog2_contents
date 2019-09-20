@@ -15,9 +15,12 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">&quot;Eject力&quot; <a href="https://twitter.com/hashtag/gihyosd?src=hash&amp;ref_src=twsrc%5Etfw">#gihyosd</a> <a href="https://twitter.com/hashtag/%E3%81%A4%E3%82%88%E3%81%9D%E3%81%86?src=hash&amp;ref_src=twsrc%5Etfw">#つよそう</a> <a href="https://t.co/UAGrVxZLqb">pic.twitter.com/UAGrVxZLqb</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1174311747206803456?ref_src=twsrc%5Etfw">September 18, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">今月は手回し計算機とか仮想化の説明とか、とてもたのしい。 <a href="https://twitter.com/hashtag/gihyosd?src=hash&amp;ref_src=twsrc%5Etfw">#gihyosd</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1174312038668988421?ref_src=twsrc%5Etfw">September 18, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 　ということで、よろしくお願いいたします。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">今月は手回し計算機とか仮想化の説明とか、とてもたのしい。
 
 <div class="card">
   <div class="row no-gutters">
