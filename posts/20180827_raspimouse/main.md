@@ -9,7 +9,8 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ## 1. イメージをmicroSDに焼く
 
-* https://www.asrobot.me/entry/2018/07/11/001603 の「アップグレード＆ROS Kinetic＆カーネルコンパイル済み」を使いましょう。
+ 
+* https://www.asrobot.me/entry/2018/07/11/001603/ の「アップグレード＆ROS Kinetic＆カーネルコンパイル済み」を使いましょう。
 * [ラズパイマウス本](https://amzn.to/2wsBY75)の付録を見てパーティションを拡大。
 
 ## 2. デバイスドライバとか
