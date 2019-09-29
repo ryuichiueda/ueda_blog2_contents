@@ -3,9 +3,9 @@ Keywords: opy, Python, ワンライナー, シェル芸
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
-# [opy](https://github.com/ryuichiueda/opy)でPythonのScipyとNumPyをワンライナーで使う実験
+# opyでPythonのSciPyとNumPyをワンライナーで使う実験
 
-　いろいろ実験しました。シェルの上でこういう計算をやる機会があるかどうかという話があるんですけど、誰にとって何が役にたつかということは分からんので、例を示しておきます。
+　SciPyをワンライナーで使ってみよう！！！！１、ということで[opy](https://github.com/ryuichiueda/opy)を使っていろいろ実験しました。シェルの上でこういう計算をやる機会があるかどうかという話があるんですけど、誰にとって何が役にたつかということは分からんので、例を示しておきます。
 
 ## 積分
 
