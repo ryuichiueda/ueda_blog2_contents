@@ -3,7 +3,7 @@ Keywords: ブチギレ,ICS,Raspberry,Windows,インターネット接続の共�
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
-# Raspberry Piを有線LANでWindows 10に直結してWindows 10経由でapt-getできるようにするまでの手順
+# Raspberry Piを有線LANでWindows 10に直結してWindows 10経由でインターネットに接続する手順
 
 
 　[この記事](https://b.ueda.tech/?post=08694)の改訂版です。
