@@ -9,7 +9,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## 積分
 
-$$ f(x) = x^2$$の定積分です。
+$f(x) = x^2$の定積分です。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">積分:8.666667 誤差:0.000000<br>積分:32.666667 誤差:0.000000 <a href="https://t.co/gxWVkvI7Tm">https://t.co/gxWVkvI7Tm</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1178183345462579200?ref_src=twsrc%5Etfw">September 29, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
