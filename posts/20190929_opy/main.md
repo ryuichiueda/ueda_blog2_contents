@@ -3,13 +3,13 @@ Keywords: opy, Python, ワンライナー, シェル芸
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
-# opyでPythonのScipyとNumPyをワンライナーで使う実験
+# [opy](https://github.com/ryuichiueda/opy)でPythonのScipyとNumPyをワンライナーで使う実験
 
 　いろいろ実験しました。シェルの上でこういう計算をやる機会があるかどうかという話があるんですけど、誰にとって何が役にたつかということは分からんので、例を示しておきます。
 
 ## 積分
 
-$f(x) = x^2$の定積分です。
+　関数$$f(x) = x^2$$の定積分です。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">積分:8.666667 誤差:0.000000<br>積分:32.666667 誤差:0.000000 <a href="https://t.co/gxWVkvI7Tm">https://t.co/gxWVkvI7Tm</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1178183345462579200?ref_src=twsrc%5Etfw">September 29, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
