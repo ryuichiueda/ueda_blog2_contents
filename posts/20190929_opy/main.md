@@ -37,5 +37,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+## 感想
+
+　便利なときには便利かもしれない。いつ便利になるかはわからん。
+
 
 寝る。
