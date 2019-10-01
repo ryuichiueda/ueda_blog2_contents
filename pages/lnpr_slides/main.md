@@ -2,14 +2,14 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
-# 詳解確率ロボティクススライド
+# 詳解確率ロボティクス スライド
 
 * リポジトリ: https://github.com/ryuichiueda/LNPR_SLIDES
 
 
 * [2. 確率統計の基礎](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap2_60min.html)
 * [3. ](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap3_60min.html)
-* [3. ](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap4_60min.html)
+* [4. ](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap4_60min.html)
 * [5. パーティクルフィルタによる自己位置推定](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap5_60min.html)
 * [6. カルマンフィルタによる自己位置推定](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap6_60min.html)
 * [7. 自己位置推定の諸問題](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap7_60min.html)
