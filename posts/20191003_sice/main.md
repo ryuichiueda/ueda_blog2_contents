@@ -9,7 +9,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 * 日時: 2019年11月22日（金） 12:45〜16:30 （開場: 12:30） 
 * 会場: [TKP千葉駅東口ビジネスセンター](https://www.google.co.jp/maps/place/TKP%E5%8D%83%E8%91%89%E9%A7%85%E6%9D%B1%E5%8F%A3%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/@35.6100215,140.1138705,17z/data=!3m1!4b1!4m5!3m4!1s0x60228591d93f3907:0x441c696e1b995d60!8m2!3d35.6100172!4d140.1160592?hl=ja)4階 カンファレンスルーム４E
-* 申し込みフォーム: https://www.sice.or.jp/bukai_web_appli/cgi-bin/bukai_step12.cgi?eventvalue=sice_web_appli\\\0\\\DAS2019_65th_study.txt
+* [申し込みフォーム](https://www.sice.or.jp/bukai_web_appli/cgi-bin/bukai_step12.cgi?eventvalue=sice_web_appli\\\0\\\DAS2019_65th_study.txt)
 
 ## 内容
 
