@@ -15,7 +15,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　正式な内容については[SICE](https://www.sice.or.jp/das/eventcalendar.html)のページから開催案内のPDFを見るのがよいのですが、一言で言うと
 
-* Jupyter Notebookを使ってパーティクルフィルタを実装
+* <span style="color:red">Jupyter Notebookを使ってパーティクルフィルタを実装</span>
 
 です。
 
