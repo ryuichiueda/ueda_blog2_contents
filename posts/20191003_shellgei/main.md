@@ -5,7 +5,8 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 # 10/26にシェル芸勉強会やりますよー 
 
-　ということで、募集のツイートを貼っておきます。福岡は準備中とのことです。
+　ということで、募集のツイートを貼っておきます。福岡は準備中とのことです。東京はあと4席ですが、埋まったらちょっと枠を増やすかもしれません。「シェル芸勉強会ってなにそれ？」という人は[ココ](https://b.ueda.tech/?page=00684)を見てくださーい。
+
 
 ## 東京
 
@@ -23,3 +24,5 @@ Copyright: (C) 2019 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+
+よろしくお願いいたします。
