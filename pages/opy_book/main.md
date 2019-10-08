@@ -12,5 +12,9 @@ Copyright: (C) Ryuichi Ueda
 
 ### 1.1 opyを使う
 
-　opyは現在、https://github.com/ryuichiueda/opy
+　opyは、リポジトリ https://github.com/ryuichiueda/opy に置いてあります。インストール方法はこのリポジトリの`README.md`に書いてあります。
+
+　opyをインストールしたら、立ち上げてみましょう。
+
+
 
