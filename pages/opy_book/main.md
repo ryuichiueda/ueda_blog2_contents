@@ -14,7 +14,18 @@ Copyright: (C) Ryuichi Ueda
 
 　opyは、リポジトリ https://github.com/ryuichiueda/opy に置いてあります。インストール方法はこのリポジトリの`README.md`に書いてあります。
 
-　opyをインストールしたら、立ち上げてみましょう。
+　opyをインストールしたら、`opy`と打ってみましょう。
 
 
+```
+$ opy
+opy 1.9.1
 
+Copyright 2019 Ryuichi Ueda
+Released under MIT license
+https://github.com/ryuichiueda/opy
+
+You are using Python 3.7.4 with this command.
+```
+
+このようにopyのバージョンやコピーライト、ライセンスの情報が出力されます。また、opyはPythonのラッパーなので、出力の最下行のように、Pythonのバージョンも出力されます。これにより、どのバージョンのPythonの文法や機能が利用できるかを把握できます。
