@@ -18,6 +18,6 @@ Copyright: (C) Ryuichi Ueda
 * [使用例 on シェル芸bot](https://twitter.com/search?q=%40minyoruminyon%20opy&src=typed_query&f=live)
 
 
-## 解説
+## 解説（書きかけ）
 
 * [the opy book](/?page=opy_book)
