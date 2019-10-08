@@ -10,7 +10,7 @@ Copyright: (C) Ryuichi Ueda
 
 　このドキュメントは、opyについて網羅的に書いた入門書になることを目指しているものです。まだ書きかけですが、現時点では唯一の入門書です。
 
-### opyを使う
+### 1.1 opyを使う
 
-　opyは、
+　opyは現在、https://github.com/ryuichiueda/opy
 
