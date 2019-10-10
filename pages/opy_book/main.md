@@ -17,3 +17,4 @@ Copyright: (C) Ryuichi Ueda
 
 * [3. パターンによる検索](/?page=opy_pattern)
 
+## 4. リストアクション

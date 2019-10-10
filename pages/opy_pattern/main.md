@@ -52,4 +52,3 @@ uedambp2:R2_KAKEN ueda$ cat nums | opy 'len(set(F[1:]))==5'
 
 　最後の行の`F[1:]`は、1列目以降のデータが入ったリストです。
 
-## 4. リストアクション
