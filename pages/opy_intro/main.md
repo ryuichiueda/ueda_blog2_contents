@@ -4,7 +4,7 @@ Copyright: (C) Ryuichi Ueda
 
 # the opy book
 
-* [目次に戻る](/?opy_book)
+* [目次に戻る](/?page=opy_book)
 
 * [1. はじめに](/?page=opy_intro)
 
