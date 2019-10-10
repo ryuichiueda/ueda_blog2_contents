@@ -56,7 +56,7 @@ links:
   sublinks:
   - text: 'シェル芸'
     href: '/?page=01434'
-  - text: 'ワンライナー用Python'
+  - text: 'opy（ワンライナー用Python）'
     href: '/?page=opy'
   - text: 'GlueLang'
     href: '/?page=GlueLang'
