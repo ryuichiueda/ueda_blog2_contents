@@ -26,3 +26,4 @@ Copyright: (C) Ryuichi Ueda
 ### 4.2 ルールの組み合わせ
 
 
+### 4.3 BEGINパターン・ENDパターン
