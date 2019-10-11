@@ -27,3 +27,6 @@ Copyright: (C) Ryuichi Ueda
 
 
 ### 4.3 BEGINパターン・ENDパターン
+
+
+
