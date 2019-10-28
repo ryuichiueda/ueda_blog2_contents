@@ -24,6 +24,8 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <a href="https://twitter.com/hashtag/%E7%A6%8F%E5%B2%A1?src=hash&amp;ref_src=twsrc%5Etfw">#福岡</a> 参加者の皆様、毎回問題作成と会場ワンオペ？の上田さん、お疲れ様でした。「第44回シェル芸勉強会：福岡サテライト」レポート - 日々之迷歩 <a href="https://t.co/UV5D7eLkYL">https://t.co/UV5D7eLkYL</a> <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a></p>&mdash; ぱぴろんちゃん😱 (@papiron) <a href="https://twitter.com/papiron/status/1188115219911864320?ref_src=twsrc%5Etfw">October 26, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました<br>第44回シェル芸勉強会 大阪サテライト レポート<a href="https://t.co/8vaOgqzAC1">https://t.co/8vaOgqzAC1</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; so (@3socha) <a href="https://twitter.com/3socha/status/1188480646554865664?ref_src=twsrc%5Etfw">October 27, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 
