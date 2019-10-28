@@ -73,3 +73,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## ブログなど
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">第44回 シェル芸勉強会振り返り レポート書いた<a href="https://t.co/d692nzRQKg">https://t.co/d692nzRQKg</a></p>&mdash; 次郎☁️[10:12:45] (@jiro_saburomaru) <a href="https://twitter.com/jiro_saburomaru/status/1188381743851532288?ref_src=twsrc%5Etfw">October 27, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">第44回 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> 勉強会に参加してきたので、ブログに書きました<a href="https://t.co/aezn0jrZkX">https://t.co/aezn0jrZkX</a></p>&mdash; tkt989 (@tkt989_dev) <a href="https://twitter.com/tkt989_dev/status/1188370962921639936?ref_src=twsrc%5Etfw">October 27, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
