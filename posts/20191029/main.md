@@ -29,5 +29,22 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　ということで、万が一これでご興味が湧きましたならば、ご購入いただければ幸いです。まんがタイムも快楽天も息の長い雑誌で尊敬しております。
 
-　ちゃんとした（？）Tweetについてはまた日を改めて改めて掲載させていただきます。
+<div class="card">
+  <div class="row no-gutters">
+    <div class="col-md-2">
+      <a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4065170060/ryuichiueda-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/511OHgmPGlL._SL160_.jpg" width="114" alt="photo"></a>
+    </div>
+    <div class="col-md-10">
+      <div class="card-body">
+        <dl class="fn" style="font-size:80%">
+          <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4065170060/ryuichiueda-22">詳解 確率ロボティクス Pythonによる基礎アルゴリズムの実装 (KS理工学専門書)</a></dt>
+          <dd>[上田 隆一]</dd>
+          <dd>講談社 2019-10-27</dd>
+        </dl>
+        <p class="powered-by" >(powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.1)</p>
+      </div>
+    </div>
+  </div>
+</div>
 
+　ちゃんとした（？）Tweetについてはまた日を改めて改めて掲載させていただきます。
