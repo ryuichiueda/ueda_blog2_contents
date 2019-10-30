@@ -3,14 +3,10 @@ Keywords: 報告,詳解確率ロボティクス
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
-# 詳解確率ロボティクスのファーストインプレッション
+# 詳解確率ロボティクスのファーストインプレッション集
 
 　昨日はネタに走ってしまいましたが、今日は詳解確率ロボティクスを早速入手された方のツイートを貼り付けさせていただきます。宣伝に使ってしまってすみません。
 
-
-
-* 書籍のリファレンス用のコード: https://github.com/ryuichiueda/LNPR_BOOK_CODES
-* 完成したコード: https://github.com/ryuichiueda/LNPR
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">自分用と会社用に買いました。ソースコードがついて、とてもわかりやすくなったProbabilistic Robotics。自己位置推定と行動決定はこの本でカバーできそうです。<br>あとは、perceptionの領域で同じレベルの本があればいいのに。Tracking とか Fusionとか。<br>詳解確率ロボティクス<a href="https://t.co/gz2orSjUr6">https://t.co/gz2orSjUr6</a></p>&mdash; tekeom (@tekeom) <a href="https://twitter.com/tekeom/status/1188633011840937984?ref_src=twsrc%5Etfw">October 28, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -25,6 +21,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 　やっぱりコードがついているのが好評のようです。コードはここにあります。
+
+* 書籍のリファレンス用のコード: https://github.com/ryuichiueda/LNPR_BOOK_CODES
+* 完成したコード: https://github.com/ryuichiueda/LNPR
 
 
 　それからインサイダーからこのようなお言葉をいただきました。
