@@ -49,8 +49,17 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ワロタ<br><br>&gt; 確率に対する実感を養うために（実際は家賃込みの月6万円の仕送りを増やすために）、学生寮、後楽園、高田馬場あたりの「現場」でかなりの訓練をして仕送りを減らしていましたが<a href="https://t.co/7cWF9HSgZx">https://t.co/7cWF9HSgZx</a></p>&mdash; ふぁむたろう (@fam_taro) <a href="https://twitter.com/fam_taro/status/1188679140871815168?ref_src=twsrc%5Etfw">October 28, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">詳解 確率ロボティクスの一章の抜粋がすでに面白い <a href="https://t.co/cWH2HSACq2">pic.twitter.com/cWH2HSACq2</a></p>&mdash; いーもり (@Oswaldmori1977) <a href="https://twitter.com/Oswaldmori1977/status/1187760290068217856?ref_src=twsrc%5Etfw">October 25, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 これ（駒場時代の荒れた生活）については何か機会があったら書き残しておきたいです。
+
+## 魂
+
+入ってます。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ご恵贈有難うございます。<br>パラパラ見たけど、この本は魂入ってるぞ！ <a href="https://t.co/8pn8EkJbQv">pic.twitter.com/8pn8EkJbQv</a></p>&mdash; Shuuji Kajita (@s_kajita) <a href="https://twitter.com/s_kajita/status/1187580441764564992?ref_src=twsrc%5Etfw">October 25, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## その他
 
