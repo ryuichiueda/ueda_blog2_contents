@@ -5,7 +5,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 # 詳解確率ロボティクスのファーストインプレッション
 
-　昨日はネタに走ってしまいましたが、今日は詳解確率ロボティクスを早速入手された方のツイートを貼り付けさせていただきます。宣伝に使ってしまってすみません。やっぱりコードがついているのが好評のようです。コードはここにあります。
+　昨日はネタに走ってしまいましたが、今日は詳解確率ロボティクスを早速入手された方のツイートを貼り付けさせていただきます。宣伝に使ってしまってすみません。
+
+
 
 * 書籍のリファレンス用のコード: https://github.com/ryuichiueda/LNPR_BOOK_CODES
 * 完成したコード: https://github.com/ryuichiueda/LNPR
@@ -21,6 +23,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">詳解確率ロボティクス届いた。こういう系でよくある数式と理論だけじゃなくて、jupyterNotebookでガリガリコードも載ってる。SLAM、マルコフ、強化学習、ベイズでセンサーデータまであって至れり尽くせりやんけ🥰</p>&mdash; kevin28gou (@kevin28gou) <a href="https://twitter.com/kevin28gou/status/1188331092606013441?ref_src=twsrc%5Etfw">October 27, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+　やっぱりコードがついているのが好評のようです。コードはここにあります。
+
 
 　それからインサイダーからこのようなお言葉をいただきました。
 
