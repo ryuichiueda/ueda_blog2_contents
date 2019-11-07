@@ -87,7 +87,7 @@ $ wine ~/w32tex/dviout/dviout.exe iros2020.dvi
 エラーを読まない人だとここで詰むと思うのですが、幸い、学生に一時間ごとに「ログを読め💢」と言わなければいけない職業なので、ちゃんとログを読んでました。いつも怒っていることがほんの少しだけ報われたような気がしますが、学生さんはちゃんとログ読んで。読んで。
 
 
-<!--　それから、wineは`apt`を使ってインストールしましたが、コマンド`winetricks`が古くて日本語化にてこずりました。これは[こちらのサイト](http://www.lab-ssk.com/settings-of-wine-and-workaround-for-garbled-japanese-characters-installtion-of-allfonts-on-64bit-chaletos)が参考になりました。ありがとうございます。 -->
+　それから、wineは`apt`を使ってインストールしましたが、コマンド`winetricks`が古くて日本語化にてこずりました。これは[こちらのサイト](http://www.lab-ssk.com/settings-of-wine-and-workaround-for-garbled-japanese-characters-installtion-of-allfonts-on-64bit-chaletos)が参考になりました。ありがとうございます。 
 
 
 以上です。
