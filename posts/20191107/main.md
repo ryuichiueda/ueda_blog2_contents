@@ -13,7 +13,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　その後、下図の`C:\w32tex`をzipか何かで固めてUbuntuに持っていきます。
 
-<img width="75%" src="./win.png" />
+<img src="./win.png" width="75%" />
 
 ## wineのディレクトリにW32TeXを展開
 
@@ -48,13 +48,13 @@ $ wine ~/w32tex/dviout/dviout.exe
 
 　Windowsでは「Font」と「Font2」が次のように設定されています。
 
-<img width="75%" src="font.png" />
-<img width="75%" src="font2.png" />
+<img src="font.png" width="75%" />
+<img src="font2.png" width="75%" />
 
 この`TEXROOT`と`gen:`について、 `C:\`を`Z:\home\<ユーザ>\`に変更します。私の環境の場合はつぎのようになります。
 
-<img width="75%" src="font_wine.png" />
-<img width="75%" src="font2_wine.png" />
+<img src="font_wine.png" width="75%" />
+<img src="font2_wine.png" width="75%" />
 
 
 　あとはその他の設定をします。
@@ -82,7 +82,7 @@ $ wine ~/w32tex/dviout/dviout.exe iros2020.dvi
 
 　最初、シンボリックリンクを作らずにdvioutに`Z:\.wine\drive_c\w32tex...`というようにパスを設定していたのですが、これだとパスがうまく認識できず、次のようにエラーが出ました。
 
-<img width="75%" src="path.png" />
+<img src="path.png" width="75%" />
 
 エラーを読まない人だとここで詰むと思うのですが、幸い、学生に一時間ごとに「ログを読め💢」と言わなければいけない職業なので、ちゃんとログを読んでました。いつも怒っていることがほんの少しだけ報われたような気がしますが、学生さんはちゃんとログ読んでください。ていうか読め。
 
