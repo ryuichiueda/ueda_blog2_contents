@@ -3,7 +3,7 @@ host: 'b.ueda.tech'
 sitetitle: '上田ブログ'
 subtitle: 'なお、このサイトはbashでできている。'
 headline:
-- text: '<a href="/?page=lnpr">詳解確率ロボティクス出版されました</a>'
+- text: '<a href="/?page=lnpr">詳解確率ロボティクス増刷</a>'
 - text: '<a href="/?page=bashcms2">シェルスクリプト高速開発手法入門改訂2版発売中</a>'
 - text: '<a href="https://employment.en-japan.com/engineerhub/entry/2019/02/19/103000">エンジニアHubで記事を書きました</a>'
 twitter:
