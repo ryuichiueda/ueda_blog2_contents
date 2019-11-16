@@ -4,7 +4,7 @@ Copyright: (C) Ryuichi Ueda
 
 # 詳解確率ロボティクス
 
-<span style="color:red">発売中です。</span>
+<span style="color:red">増刷決定</span>
 
 <div class="card">
   <div class="row no-gutters">
