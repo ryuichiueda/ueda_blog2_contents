@@ -1,5 +1,5 @@
 ---
-Keywords: 日記
+Keywords: 日記, Raspberry Pi, Mac
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
@@ -9,13 +9,15 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## Raspberry Pi 4
 
-https://wiki.ubuntu.com/ARM/RaspberryPi の「19.10: ubuntu-19.10-preinstalled-server-arm64+raspi3.img.xz (4G image, 631MB compressed)」を試してみました。起動がcloud-initのうしろで止まってしまい、一度電源をブチ切りしましたが2回目で起動しました。LANケーブルをささずに立ち上げたのがいけなかったんでしょうか？
+https://wiki.ubuntu.com/ARM/RaspberryPi の「19.10: ubuntu-19.10-preinstalled-server-arm64+raspi3.img.xz (4G image, 631MB compressed)」をRaspberry Pi 4で試してみました。起動がcloud-initのうしろで止まってしまい、一度電源をブチ切りしましたが2回目で起動しました。LANケーブルをささずに立ち上げたのがいけなかったんでしょうか？
 
 で、立ち上がったあと、今度はキーボードが一切反応しない。外からsshしようとしたら手間取ってできなかったので、下記サイトを参考にmicroSDのルート直下に`ssh`という空ファイルを設置してログインできたけど、もしかして自分がIPアドレスをちゃんと探せなかったからという可能性の方が高いです。キーボード使わずにRaspbianをセットアップしたいなら参考になるかもしれません。
 
 https://blog.maya2250.com/entry/setup-raspberrypi1
 
 余談: イメージは`dd`を使わずEtcherを使って焼きました・・・。シェル芸人失格ですが、目的が明確なものは専門のソフトに任せてます。）
+
+今後はラズパイマウスのためにROSを試します。
 
 ## MacBook Proを壊す（先月から2度目）
 
