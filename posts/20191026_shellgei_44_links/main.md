@@ -82,3 +82,6 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">第44回シェル芸勉強会に参加してきました(復習) 俺的備忘録 〜なんかいろいろ〜<a href="https://t.co/2OVY8pQ2CG">https://t.co/2OVY8pQ2CG</a></p>&mdash; Blacknon@お引越ししたい (@blacknon_) <a href="https://twitter.com/blacknon_/status/1188968777183944706?ref_src=twsrc%5Etfw">October 29, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">(今更ですがBlog更新しました……)<br>Q7の小問3(RSA暗号?のシェル芸での実装)が今回の問題の中で一番難しく、そして面白かったです。<br><br>【自習】「第44回シェル芸勉強会」の解答例【AWK】 - KEEP CALM AND rm -rf /* <a href="https://t.co/r28aueQcLs">https://t.co/r28aueQcLs</a></p>&mdash; 日柳 光久 (@mikkun_jp) <a href="https://twitter.com/mikkun_jp/status/1201423764073799680?ref_src=twsrc%5Etfw">December 2, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
