@@ -1,5 +1,5 @@
 ---
-Keywords: ライティング
+Keywords: 作文技術
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
