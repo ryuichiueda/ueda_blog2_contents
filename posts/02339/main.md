@@ -1,5 +1,5 @@
 ---
-Keywords: 執筆,研究,結論,論文,頭の中だだ漏らし
+Keywords: 作文技術
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 
