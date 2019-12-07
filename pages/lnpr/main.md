@@ -30,7 +30,7 @@ Copyright: (C) Ryuichi Ueda
 * コード（完成品・改良版）: https://github.com/ryuichiueda/LNPR
 * 講義用スライド: https://github.com/ryuichiueda/LNPR_SLIDES
 
-## 訂正
+<h2 id="typo">訂正</h2>
 
 * 第1刷以前
 

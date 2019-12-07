@@ -1,5 +1,5 @@
 ---
-Keywords: 日記, Raspberry Pi
+Keywords: 日記
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
