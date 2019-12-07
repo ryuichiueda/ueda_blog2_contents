@@ -23,4 +23,4 @@ Copyright: (C) 2019 Ryuichi Ueda
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">第2刷が届きました。 <a href="https://twitter.com/hashtag/%E8%A9%B3%E8%A7%A3%E7%A2%BA%E7%8E%87%E3%83%AD%E3%83%9C%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9?src=hash&amp;ref_src=twsrc%5Etfw">#詳解確率ロボティクス</a> <a href="https://t.co/jOocpCuqUl">pic.twitter.com/jOocpCuqUl</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1202941307175329794?ref_src=twsrc%5Etfw">December 6, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 
-シェル芸も確率ロボティクスもどちらもよろしくおねがいいたします。
+シェル芸も確率ロボティクスもどちらもよろしくおねがいいたします。これから夕飯を作ってビールを飲むです。
