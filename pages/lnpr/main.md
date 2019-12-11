@@ -34,11 +34,11 @@ Copyright: (C) Ryuichi Ueda
 
 * 第2刷以前
 
-|場所|訂正前/後|発見者|一言  |
+|場所|訂正前/後|発見者|一言|
 |:---|:-----|------|:-----|
 |p.19 本文9行目|こと分かります。/ことが分かります。|||
 |p.56 数式も含めて10行目|足し合わせもの/足し合わせたもの|||
-|p.121 5.3.4の表題の下の行|$$\delta_{\omega\omega} = 0.2 \delta_{\nu\omega} = 0$$|$$\delta_{\omega\omega} = 0.2, \delta_{\nu\omega} = 0$$|||
+|p.121 5.3.4の表題の下の行|$$\delta_{\omega\omega} = 0.2 \delta_{\nu\omega} = 0$$/$$\delta_{\omega\omega} = 0.2, \delta_{\nu\omega} = 0$$|||
 |p.125 式も含めて下から10行目|は，はそれぞれ/はそれぞれ|||
 |p.156 式も含めて6行目|N個ぶ/N個選ぶ|||
 |p.239 6行目|graphbased_slam..._sensor2/graphbased_slam...sensor2.ipynb|||
