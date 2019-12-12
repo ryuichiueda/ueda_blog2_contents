@@ -26,7 +26,7 @@ ls: illegal option -- -
 usage: ls [-@ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1%] [file ...]
 ```
 
-　Ubuntuの`ls`の場合は次のように`date`が実行できます。また、Ubuntuの場合はbashの設定で、`ls`に`l`というエイリアスがあるので、`l`で十分です。
+　Ubuntuの`ls`の場合は次のように`date`が実行できます。またUbuntuの場合、bashであらかじめ`ls`に`l`というエイリアスが設定されているので`l`で十分です。
 
 
 ```
