@@ -5,6 +5,8 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 # サンプリングシェル芸
 
+* この記事は[シェル芸Advent Calendar 2019](https://qiita.com/advent-calendar/2019/shellgei)の14日目の記事です。
+
 　[難読化シェル芸](https://raintrees.net/news/95)の手法の一つに、思わぬところから文字を引っ張ってきて（サンプリングして）コマンドの文字列にするというものがあります。文字を引っ張ってくる方法にもいろいろあるので、まとめてみました。
 
 ## コマンドのエラーやヘルプからのサンプリング
