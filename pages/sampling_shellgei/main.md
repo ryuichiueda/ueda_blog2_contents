@@ -60,7 +60,7 @@ __=(/*/*u?????);${__[-1]:13}
 2019年 12月 12日 木曜日 17:48:03 JST
 ```
 
-この例は、bashのファイルグロブと、uがついて後ろに5文字で終わるファイル名を表示して、`○○update`というファイルをひっかけて`date`をサンプリングしています。
+この例は、bashのファイルグロブでuがついて後ろに5文字で終わるファイル名を表示して、`○○update`というファイルをひっかけて`date`をサンプリングしています。
 
 ```
 $ echo /*/*u?????
@@ -68,8 +68,43 @@ $ echo /*/*u?????
 ```
 
 
-
 ## 乱数からのサンプリング
+
+　乱数からも`date`をとってみましょう。`/dev/urandom`を使うとアルファベットをランダムに出力できます。
+
+```
+$ tr -dc a-z < /dev/urandom
+yjqqtpypyogcuihascrrjshudcnhpjycqkjphxdyyzqxrnflrfztnvddwnkbeilvnigaflndpuohvauqquycttnjzdrljhcoqbvnfdzdvbkkjfqlmdyjnjlckvvodxkrfsb ...
+```
+
+ここから`date`を見つけて実行すればいいのですが、たぶん`date`が揃うのはかなり後のことになりそうです。
+
+
+　ですので、`date`とバレないようにこうしてみましょう。（なんでバレたらダメなんだろうという疑問はさておき）
+
+```
+$ tr -dc andante < /dev/urandom | fold -b4 | head
+entn
+datt
+natd
+tada
+nnda
+eddn
+tnda
+aaat
+dtna
+dett
+```
+
+そしてこれを無造作にshに突っ込むと、わりと短時間で`date`が実行されます。**変なコマンドが起動してシステムを壊したりファイルを消したりするかもしれませんので注意が必要です。**
+
+
+```
+$ tr -dc andante < /dev/urandom | fold -b4 | sh 2>/dev/null | grep : 
+2019年 12月 12日 木曜日 21:05:02 JST
+2019年 12月 12日 木曜日 21:05:02 JST
+・・・
+```
 
 ## Pythonのunicodedataからのサンプリング
 
