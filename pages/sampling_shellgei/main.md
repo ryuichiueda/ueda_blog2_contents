@@ -67,7 +67,6 @@ $ echo /*/*u?????
 /bin/bunzip2 /bin/busybox /bin/ntfstruncate ... /sbin/unix_update
 ```
 
-
 ## 乱数からのサンプリング
 
 　乱数からも`date`をとってみましょう。`/dev/urandom`を使うとアルファベットをランダムに出力できます。
@@ -80,7 +79,7 @@ yjqqtpypyogcuihascrrjshudcnhpjycqkjphxdyyzqxrnflrfztnvddwnkbeilvnigaflndpuohvauq
 ここから`date`を見つけて実行すればいいのですが、たぶん`date`が揃うのはかなり後のことになりそうです。
 
 
-　ですので、`date`とバレないようにこうしてみましょう。（なんでバレたらダメなんだろうという疑問はさておき）
+　ですので、`date`とバレないようにd, a, t, eを含む単語で`a-z`を置き換えます。（なんでバレたらダメなんだろうという疑問はさておき）
 
 ```
 $ tr -dc andante < /dev/urandom | fold -b4 | head
@@ -108,6 +107,24 @@ $ tr -dc andante < /dev/urandom | fold -b4 | sh 2>/dev/null | grep :
 
 ## Pythonのunicodedataからのサンプリング
 
+　闇豚さん（[@yami_buta](https://twitter.com/yami_buta)）のシェル芸で知ったんですが、Pythonにはunicodedataというパッケージがあり、unicodeの情報を見ることができます。
+
 ```
-$(echo ൹  | opy '[unicodedata.name(F1).lower().split()[1]]')
+$ python3 -c 'import unicodedata;print(unicodedata.name("൹"))'
+MALAYALAM DATE MARK
 ```
+
+上の出力のように、説明文に「DATE」とある文字がたくさんあるので、これをサンプリングすると`date`が実行できます。
+
+```
+$ $(python3 -c 'import unicodedata;print(unicodedata.name("൹").split()[1].lower())')
+2019年 12月12日 木曜日 21時20分00秒 JST
+### 超絶便利Pythonラッパーコマンドopyを使う ###
+$ $( echo ൹ | opy '[unicodedata.name(F1).split()[1].lower()]' )
+2019年 12月12日 木曜日 21時21分09秒 JST
+```
+
+余談ですが、上で使った「超絶便利Pythonラッパーコマンドopy」は、https://github.com/ryuichiueda/opy にあるのでインストールしてStarをつけましょう。
+
+
+以上。
