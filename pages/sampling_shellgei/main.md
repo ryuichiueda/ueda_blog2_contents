@@ -1,5 +1,5 @@
 ---
-Keywords: シェル芸, advent calendar
+Keywords: 
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
