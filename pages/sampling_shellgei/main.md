@@ -26,19 +26,19 @@ ls: illegal option -- -
 usage: ls [-@ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1%] [file ...]
 ```
 
-　Ubuntuの`ls`の場合は次のように`date`が実行できます。
+　Ubuntuの`ls`の場合は次のように`date`が実行できます。また、Ubuntuの場合はbashの設定で、`ls`に`l`というエイリアスがあるので、`l`で十分です。
 
 
 ```
 ### Ubuntu18.04 LTS ###
-$ eval $(grep -oP "'....'(?=;)" <(ls --help))
+$ eval $(grep -oP "'....'(?=;)" <(l --help))
 2019年 12月 12日 木曜日 12:25:11 JST
 ### Ubuntu 19.10 ###
-$ $(grep -oP "[^ ']*(?=\()" <(ls --help))
+$ $(grep -oP "[^ ']*(?=\()" <(l --help))
 Thu 12 Dec 2019 12:22:05 PM JST
 ```
 
-Ubuntuの`ls`の場合、マニュアル中に`date`という単語がそのまま含まれているので、そこを切り出して実行しています。
+これの種明かしですが、Ubuntuの`ls`の場合、マニュアル中に`date`という単語がそのまま含まれているので、そこを切り出して実行しています。**簡単ですね。**
 
 ```
 ### Mac ###
