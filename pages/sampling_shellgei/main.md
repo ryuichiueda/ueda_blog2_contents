@@ -51,7 +51,7 @@ $ ls --help | grep date
 FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
 ```
 
-　同じテクニックで、今度は`date`のmanから`time`コマンドを実行することもできます。
+　同じテクニックで、`date`のmanから`time`コマンドを実行することもできます。
 
 ```
 $ $(man date | grep -m 1 -o ' ....$') sleep 1
