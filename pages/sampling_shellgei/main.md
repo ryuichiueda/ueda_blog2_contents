@@ -10,7 +10,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 　[難読化シェル芸](https://raintrees.net/news/95)の手法の一つに、思わぬところから文字を引っ張ってきて（サンプリングして）コマンドの文字列にするというものがあります。文字を引っ張ってくる方法にもいろいろあるので、まとめてみました。
 
 
-## 何に役立つか
+## その前に、何に役立つか
 
 　立ちません。
 
@@ -28,6 +28,7 @@ $ __=$(ls --- 2>&1) ; ${__:54:1}${__:51:1}${__:69:1}${__:55:1}
 
 
 ```
+### Mac ###
 $ ls ---
 ls: illegal option -- -
 usage: ls [-@ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1%] [file ...]
@@ -37,7 +38,7 @@ usage: ls [-@ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1%] [file ...]
 
 
 ```
-### Ubuntu18.04 LTS ###
+### Ubuntu 18.04 ###
 $ eval $(grep -oP "'....'(?=;)" <(l --help))
 2019年 12月 12日 木曜日 12:25:11 JST
 ### Ubuntu 19.10 ###
@@ -48,7 +49,6 @@ Thu 12 Dec 2019 12:22:05 PM JST
 これの種明かしですが、Ubuntuの`ls`の場合、マニュアル中に`date`という単語がそのまま含まれているので、そこを切り出して実行しています。**簡単ですね。**
 
 ```
-### Mac ###
 ### Ubuntu 18.04 ###
 $ ls --help | grep date
                                FORMAT is interpreted like in 'date'; if FORMAT
@@ -72,6 +72,7 @@ $ $(man date | grep -m 1 -o ' ....$') sleep 1
 　次に、ファイル名からサンプリングしてみます。
 
 ```
+### Ubuntu 19.10 ###
 __=(/*/*u?????);${__[-1]:13}
 2019年 12月 12日 木曜日 17:48:03 JST
 ```
@@ -79,6 +80,7 @@ __=(/*/*u?????);${__[-1]:13}
 この例は、bashのファイルグロブでuがついて後ろに5文字で終わるファイル名を表示して、`○○update`というファイルをひっかけて`date`をサンプリングしています。
 
 ```
+### Ubuntu 19.10 ###
 $ echo /*/*u?????
 /bin/bunzip2 /bin/busybox /bin/ntfstruncate ... /sbin/unix_update
 ```
@@ -88,6 +90,7 @@ $ echo /*/*u?????
 　乱数からも`date`をとってみましょう。`/dev/urandom`を使うとアルファベットをランダムに出力できます。
 
 ```
+### Ubuntu ###
 $ tr -dc a-z < /dev/urandom
 yjqqtpypyogcuihascrrjshudcnhpjycqkjphxdyyzqxrnflrfztnvddwnkbeilvnigaflndpuohvauqquycttnjzdrljhcoqbvnfdzdvbkkjfqlmdyjnjlckvvodxkrfsb ...
 ```
@@ -98,6 +101,7 @@ yjqqtpypyogcuihascrrjshudcnhpjycqkjphxdyyzqxrnflrfztnvddwnkbeilvnigaflndpuohvauq
 　ですので、`date`とバレないようにd, a, t, eを含む単語で`a-z`を置き換えます。（なんでバレたらダメなんだろうという疑問はさておき）
 
 ```
+### Ubuntu ###
 $ tr -dc andante < /dev/urandom | fold -b4 | head
 entn
 datt
@@ -115,6 +119,7 @@ dett
 
 
 ```
+### Ubuntu ###
 $ tr -dc andante < /dev/urandom | fold -b4 | sh 2>/dev/null | grep : 
 2019年 12月 12日 木曜日 21:05:02 JST
 2019年 12月 12日 木曜日 21:05:02 JST
