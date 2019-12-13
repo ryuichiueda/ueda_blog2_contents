@@ -49,6 +49,12 @@ Copyright: (C) Ryuichi Ueda
 |p.313 12.4.1の表題の2行上|この方法には$$\longrightarrow$$この方法は|||
 |p.315 1行目|越えることに$$\longrightarrow$$越えるごとに|||
 |p.327 下から4行目|作ること相当し$$\longrightarrow$$作ることに相当し|||
+|p.345 中央|負担率（responsibilty）$$\longrightarrow$$負担率（responsibility）||iが足りないです。|
+|p.375 本文下から2行目|リポリトリ$$\longrightarrow$$リポジトリ|||
+|p.379 [Gordon 1993]|Neli$$\longrightarrow$$Neil||上に同じ。大変すみません。|
+|p.380 [Igl 2018]|Leanring$$\longrightarrow$$Learning||勢いでタイプしてそのままになってました。|
+|p.380 [Kalman 1960]|Roudolf$$\longrightarrow$$Rudolf||すみません！|
+|p.382 [Sutton 1996]|Advannces$$\longrightarrow$$Advances||Macのキーボードが・・・|
 
 * 第1刷以前
 
