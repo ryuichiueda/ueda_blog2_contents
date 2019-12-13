@@ -144,12 +144,12 @@ MALAYALAM DATE MARK
 ```
 $ $(python3 -c 'import unicodedata;print(unicodedata.name("൹").split()[1].lower())')
 2019年 12月12日 木曜日 21時20分00秒 JST
-### 超絶便利Pythonラッパーコマンドopyを使う ###
+### 超絶便利Pythonラッパーコマンドopy（呼び方注意）を使う ###
 $ $( echo ൹ | opy '[unicodedata.name(F1).split()[1].lower()]' )
 2019年 12月12日 木曜日 21時21分09秒 JST
 ```
 
-余談ですが、上で使った「超絶便利Pythonラッパーコマンドopy」は、https://github.com/ryuichiueda/opy にあるのでインストールしてStarをつけましょう。
+余談ですが、上で使った「超絶便利Pythonラッパーコマンドopy（呼び方注意）」は、https://github.com/ryuichiueda/opy にあるのでインストールしてStarをつけましょう。
 
 
 以上。
