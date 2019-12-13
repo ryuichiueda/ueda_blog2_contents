@@ -14,6 +14,10 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　立ちません。
 
+## オープニング曲
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-Y_JRR3udEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## コマンドのエラーやヘルプからのサンプリング
 
 　まず最初に紹介するのは、コマンドの出力する文字列からのサンプリングです。例えば次の例は、難読化シェル芸の名付け親のkanataさんの示した方法をアレンジしたもので、「`ls --help`の出力から`date`コマンドを実行する」というものです。
