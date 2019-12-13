@@ -56,6 +56,7 @@ FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
 　同じテクニックで、`date`のmanから`time`コマンドを実行することもできます。
 
 ```
+### Ubuntu 18.04 ###
 $ $(man date | grep -m 1 -o ' ....$') sleep 1
 0.00user 0.00system 0:01.00elapsed 0%CPU (0avgtext+0avgdata 2088maxresident)k
 0inputs+0outputs (0major+72minor)pagefaults 0swaps
