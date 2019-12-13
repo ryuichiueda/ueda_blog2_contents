@@ -16,6 +16,8 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## オープニング曲
 
+　これをかけながらシェル芸やると雰囲気出ます。
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-Y_JRR3udEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## コマンドのエラーやヘルプからのサンプリング
