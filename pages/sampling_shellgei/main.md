@@ -154,6 +154,29 @@ $ $( echo ൹ | opy '[unicodedata.name(F1).split()[1].lower()]' )
 余談ですが、上で使った「超絶便利Pythonラッパーコマンドopy（呼び方注意）」は、https://github.com/ryuichiueda/opy にあるのでインストールしてStarをつけましょう。
 
 
+## ウェブからのサンプリング
+
+　最後に、インターーネッツからのスムーズな`date`の実行をやってみます。題材のウェブサイトは、終わってしまうと長女から聞かされてショックを受けている「宮川賢のデートの時間でそ？！」のトップページとします。ただ、あんまりみんなでわーっとやると先方から叱られますので、試す場合は別のページを探してください。
+
+```
+$ curl https://www.tbsradio.jp/deso/ 2>/dev/null | grep -oP 'new [^(0]{4}' 
+| sed 's/.*/\L&/;s/.* //e'
+2019年 12月 13日 金曜日 09:57:41 JST
+```
+
+　これは特にこのページだからできることではなく、JavaScriptの`new Date()`が存在しているページならどれでも可能です。（切り取り方はアレンジする必要があります。）
+
+
+```
+### ページのHTMLのここから持ってきた ###
+・・・
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+・・・
+```
+
+　ていうか長女よ、お前小学生なのになんで下ネタだらけのこの番組のリスナーなんだよ。
+
 以上。
 
 
