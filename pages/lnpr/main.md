@@ -37,7 +37,7 @@ Copyright: (C) Ryuichi Ueda
 |場所|訂正前/後|発見者|一言|
 |:---|:-----|------|:-----|
 |p.8 「冷戦期」の下の文|Roudolf$$\longrightarrow$$Rudolf||大変失礼いたしました。|
-|p.8 下から10行目|ネリ・ゴードン（Neli ...$$\longrightarrow$$ニール・ゴードン（Neil ...||最悪です。すんません・・・|
+|p.8 下から10行目|ネリ・ゴードン（Neli ...$$\longrightarrow$$ニール・ゴードン（Neil ...||ずーっと間違えて覚えてました。名前間違えるのは最悪です。すんません・・・|
 |p.19 本文9行目|こと分かります。$$\longrightarrow$$ことが分かります。|||
 |p.56 数式も含めて10行目|足し合わせもの$$\longrightarrow$$足し合わせたもの|||
 |p.121 5.3.4の表題の下の行|$$\delta_{\omega\omega} = 0.2\ \delta_{\nu\omega} = 0$$$$\longrightarrow$$$$\delta_{\omega\omega} = 0.2, \delta_{\nu\omega} = 0$$|||
