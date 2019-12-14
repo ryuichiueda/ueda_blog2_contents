@@ -89,7 +89,7 @@ $ echo すけふぇにんけん | sed 's/./&゛/g'
 <h2>Q5</h2>
 1秒に一つ*が伸びていくアニメーションを作ってください。
 
-![](/posts/08737/star.mov)
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">某ムービー <a href="https://t.co/WEEFCanxsf">pic.twitter.com/WEEFCanxsf</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1205789356054605825?ref_src=twsrc%5Etfw">December 14, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <h3>解答</h3>
 
