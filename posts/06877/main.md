@@ -175,7 +175,7 @@ f-d
 
 チェスボードの画像ファイルを作ってください。ウェブサイトから画像をパクるのは最近いろいろ問題となっているのでやめましょう。以下は例です。解像度は任意で構いません。
 
-<a href="/posts/06877/chess.png"><img src="/posts/06877/chess.png" alt="chess" width="400" height="400" class="aligncenter size-full wp-image-6843" /></a>
+<a href="/posts/06836/chess.png"><img src="/posts/06836/chess.png" alt="chess" width="400" height="400" class="aligncenter size-full wp-image-6843" /></a>
 
 
 <h2>Q7</h2>
