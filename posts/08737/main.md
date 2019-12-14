@@ -89,7 +89,8 @@ $ echo すけふぇにんけん | sed 's/./&゛/g'
 <h2>Q5</h2>
 1秒に一つ*が伸びていくアニメーションを作ってください。
 
-[playlist type="video" ids="8740"]
+![](star.mov)
+
 <h3>解答</h3>
 
 ```bash
