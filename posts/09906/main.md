@@ -178,7 +178,8 @@ $ cat prime
 
 <h2>Q7</h2>
 
-リポジトリ内のnyaan.htmlは、ブラウザで見ると次のように見えます。<a href="81487cda9a61853c1fd356329c35e86d.png"><img src="81487cda9a61853c1fd356329c35e86d-1024x462.png" alt="" width="660" height="298" class="aligncenter size-large wp-image-9897" /></a>
+リポジトリ内のnyaan.htmlは、ブラウザで見ると次のように見えます。<a href="/posts/09870/81487cda9a61853c1fd356329c35e86d.png"><img src="/posts/09870/81487cda9a61853c1fd356329c35e86d-1024x462.png" alt="" width="660" height="298" class="aligncenter size-large wp-image-9897" /></a>
+
 
 次のようにcatから始めて、この文字を（大きなまま）端末上に表示してみてください。
 ```bash
