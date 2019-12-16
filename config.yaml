@@ -71,6 +71,11 @@ links:
     href: '/?page=01746'
   - text: '外部獲得資金'
     href: '/?page=02317'
+- text: '研究ノート'
+  href: '#'
+  sublinks:
+  - text: '固定障害物を避けるためのPFCの拡張'
+    href: '/?page=pfc_note'
 - text: 'misc'
   href: '/?page=01242'
   sublinks:
