@@ -68,7 +68,6 @@ Copyright: (C) Ryuichi Ueda
 |p.364 式(B.20)の右辺 | $$-\frac{1}{2}\boldsymbol{x}^\top (G^\top \Sigma_2^{-1} G - \Sigma_1^{-1})\boldsymbol{x}$$ $$\longrightarrow$$ $$-\frac{1}{2}\boldsymbol{x}^\top (G^\top \Sigma_2^{-1} G + \Sigma_1^{-1})\boldsymbol{x}$$|<blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="ja" dir="ltr">唐突なリプすいません。自分も読んでいて、ひとつ気づいたので。。。<br>詳細確率ロボティクス p364 (B.20) Ψ^(-1)に相当する( )中の真ん中の符号、－ではなくて+ではないでしょうか？</p>&mdash; ma2 (@m_ma2) <a href="https://twitter.com/m_ma2/status/1189531321397202944?ref_src=twsrc%5Etfw">October 30, 2019</a></blockquote> |すみません・・・|
 
 
-
 ## 講義用スライド
 
 * リポジトリ: https://github.com/ryuichiueda/LNPR_SLIDES
@@ -83,3 +82,6 @@ Copyright: (C) Ryuichi Ueda
 * [10. マルコフ決定過程と動的計画法](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap10_60min.html)
 * [11. 強化学習](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap11_60min.html)
 * [12. 部分観測マルコフ決定過程](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap12_60min.html)
+
+
+
