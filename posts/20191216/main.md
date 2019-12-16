@@ -9,7 +9,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## 告知: 詳解確率ロボティクスのKindle版予約開始
 
-　[先ほどしれっとAmazonに出現](https://amzn.to/36FTOUI)しました。まだ予約の受付です。
+　[先ほどしれっとAmazonに出現](https://amzn.to/36FTOUI)しました。まだ予約の受付です。配信は2019/12/20とリンク先のページにあります。
 
 ## 研究1
 
