@@ -39,11 +39,11 @@ The value of $T$ is not fixed.
 
 The state transition by an action is defined stochastically as
 \begin{align}
-	\boldsymbol{x}_t \sim p(\boldsymbol{x} | \boldsymbol{x}_{t-1}, a_t) \quad (\boldsymbol{x}_t, \boldsymbol{x}, \boldsymbol{x}_{t-1} \in \mathcal{X}, a_t \in \mathcal{A} ),  \label{eq:state_transition_model}
+	\\boldsymbol{x}_t \sim p(\\boldsymbol{x} | \\boldsymbol{x}_{t-1}, a_t) \quad (\\boldsymbol{x}_t, \\boldsymbol{x}, \\boldsymbol{x}_{t-1} \in \mathcal{X}, a_t \in \mathcal{A} ),  \label{eq:state_transition_model}
 \end{align}
-where $\boldsymbol{x}$ is a state in the state space $\mathcal{X}$.
-$\boldsymbol{x}_t$ is the state at time $t$.
-The probability density function (pdf) $p(\boldsymbol{x} | \boldsymbol{x}_{t-1}, a_t)$ 
+where $\\boldsymbol{x}$ is a state in the state space $\mathcal{X}$.
+$\\boldsymbol{x}_t$ is the state at time $t$.
+The probability density function (pdf) $p(\\boldsymbol{x} | \\boldsymbol{x}_{t-1}, a_t)$ 
 represents the state transition model of the system.
 The symbol $\sim$ denotes a choice of
 a random variable based on the pdf at its right side. 
@@ -54,45 +54,45 @@ once in a time step.
 
 \subsection{State Estimation}
 
-At each time $t$, the robot obtains an observation $\boldsymbol{z}_t$,
+At each time $t$, the robot obtains an observation $\\boldsymbol{z}_t$,
 which is generated with the following observation model:
 \begin{align}
-	\boldsymbol{z}_t \sim p(\boldsymbol{z} | \boldsymbol{x}_t). \label{eq:observation_model}
+	\\boldsymbol{z}_t \sim p(\\boldsymbol{z} | \\boldsymbol{x}_t). \label{eq:observation_model}
 \end{align}
-The robot cannot perceive the actual state $\boldsymbol{x}_t^*$.
-Therefore, it must estimate $\boldsymbol{x}^*$ from the observations.
+The robot cannot perceive the actual state $\\boldsymbol{x}_t^*$.
+Therefore, it must estimate $\\boldsymbol{x}^*$ from the observations.
 
 By using the pdfs in
 Equations (\ref{eq:state_transition_model}) and (\ref{eq:observation_model}), 
 the robot calculates the following pdf
 \begin{align}
-b_t(\boldsymbol{x}) = p(\boldsymbol{x}_t | a_{1:t}, \boldsymbol{z}_{1:t}),
+b_t(\\boldsymbol{x}) = p(\\boldsymbol{x}_t | a_{1:t}, \\boldsymbol{z}_{1:t}),
 \end{align}
 where $a_{1:t} = \{a_1, a_2, \dots, a_t\}$ and
 $z_{1:t} = \{z_1, z_2, \dots, z_t\}$.
 $b_t$ is referred to as a belief\cite{thrun2005}. 
 
 while it knows the state transition model
-$p(\boldsymbol{x} | \boldsymbol{x}_{t-1}, a_t)$ and
-the observation model $p(\boldsymbol{z} | \boldsymbol{x}_t)$.
+$p(\\boldsymbol{x} | \\boldsymbol{x}_{t-1}, a_t)$ and
+the observation model $p(\\boldsymbol{z} | \\boldsymbol{x}_t)$.
 
 
 The robot calculates the belief with a Bayes filter, 
 which is composed of the following two equations:
 \begin{align}
-	\hat{b}_t(\boldsymbol{x}) &=  \big\langle p(\boldsymbol{x} | \boldsymbol{x}', a_t) \big\rangle_{b_{t-1}(\boldsymbol{x}')}, \ \text{and}\\
-	b_t(\boldsymbol{x}) &= \eta p(\boldsymbol{z} | \boldsymbol{x}_t)\hat{b}_t(\boldsymbol{x}),
+	\hat{b}_t(\\boldsymbol{x}) &=  \big\langle p(\\boldsymbol{x} | \\boldsymbol{x}', a_t) \big\rangle_{b_{t-1}(\\boldsymbol{x}')}, \ \text{and}\\
+	b_t(\\boldsymbol{x}) &= \eta p(\\boldsymbol{z} | \\boldsymbol{x}_t)\hat{b}_t(\\boldsymbol{x}),
 \end{align}
 where $\langle \cdot \rangle_p$ denotes the expectation operator
 and $\eta$ is the normalizing constant. 
 They are applied to the belief just after $a_t$ and
-$\boldsymbol{z}_t$ are determined respectively. 
+$\\boldsymbol{z}_t$ are determined respectively. 
 
 \subsection{Task}
 
 Task is given through the following evaluation:
 \begin{align}
-	J(a_{1:T}, \boldsymbol{x}_{0,T}) = \sum_{t=1}^T r(a_t, x_t) + boldsymbol_\text{f}(\boldsymbol{x}_T). \label{eq:j}
+	J(a_{1:T}, \\boldsymbol{x}_{0,T}) = \sum_{t=1}^T r(a_t, x_t) + boldsymbol_\text{f}(\\boldsymbol{x}_T). \label{eq:j}
 \end{align}
 This $J$ corresponds to a functional of optimal control on a discrete space. 
 
@@ -100,8 +100,8 @@ The solution of this problem is given as the optimal policy:
 \begin{align}
 	\Pi^*: \mathcal{X} \to \mathcal{A}.
 \end{align}
-This function gives the action required to maximize the value $J$ for every state $\boldsymbol{x}$.
-When we can solve the expected value of $J$ when the robot starts from a state $\boldsymbol{x}$, 
+This function gives the action required to maximize the value $J$ for every state $\\boldsymbol{x}$.
+When we can solve the expected value of $J$ when the robot starts from a state $\\boldsymbol{x}$, 
 the function of the expected value 
 
 \section{PFC WITH ATTENTION}\label{sec:method}
@@ -115,11 +115,11 @@ PFC is a method biases
 In \cite{ueda2018robio}, 
 
 \begin{align}
-	\hat{Q}(a,b_t) &= \Big\langle \dfrac{1}{[boldsymbol_\text{max} - boldsymbol(\boldsymbol{x})]^m}
-        Q(a, \boldsymbol{x})
-	\Big\rangle_{b_t(\boldsymbol{x})}, \label{eq:pfc}
+	\hat{Q}(a,b_t) &= \Big\langle \dfrac{1}{[boldsymbol_\text{max} - boldsymbol(\\boldsymbol{x})]^m}
+        Q(a, \\boldsymbol{x})
+	\Big\rangle_{b_t(\\boldsymbol{x})}, \label{eq:pfc}
 \end{align}
-where $boldsymbol_{\max} = \max_{\boldsymbol{x} \in \mathcal{X}} boldsymbol(\boldsymbol{x})$.
+where $boldsymbol_{\max} = \max_{\\boldsymbol{x} \in \mathcal{X}} boldsymbol(\\boldsymbol{x})$.
 
 When $m=0$, Equation (\ref{eq:pfc}) corresponds to the equation used in the Q-MDP value method \cite{littman1995}.
 
@@ -136,13 +136,13 @@ We introduce an attention function
 
 
 \begin{align}
-	\hat{Q}(a,b_t, Y_{t-1}) &= \Big\langle Y_t(\boldsymbol{x})
-        Q(a, \boldsymbol{x})
-	\Big\rangle_{b_t(\boldsymbol{x})}, \label{eq:pfc}
+	\hat{Q}(a,b_t, Y_{t-1}) &= \Big\langle Y_t(\\boldsymbol{x})
+        Q(a, \\boldsymbol{x})
+	\Big\rangle_{b_t(\\boldsymbol{x})}, \label{eq:pfc}
 \end{align}
 where
 \begin{align}
-	Y(\boldsymbol{x} | a_{t:1}, b_{t:0}) &= \max_{a_{t+1} \in \mathcal{A}} y(\boldsymbol{x}, a_{t+1:1}, b_{t:0}).
+	Y(\\boldsymbol{x} | a_{t:1}, b_{t:0}) &= \max_{a_{t+1} \in \mathcal{A}} y(\\boldsymbol{x}, a_{t+1:1}, b_{t:0}).
 \end{align}
 
 \subsection{Implementation of PFC with attention weight}
@@ -150,7 +150,7 @@ where
 Add a variable of attention weight.
 
 \begin{align}
-	\xi^{(i)} = (\boldsymbol{x},w, \alpha)
+	\xi^{(i)} = (\\boldsymbol{x},w, \alpha)
 \end{align}
 
 
