@@ -37,7 +37,7 @@ Copyright: (C) Ryuichi Ueda
 |:---|:-----|------|:-----|
 |p.16 本文下から2行目|とうてい受け入れにくい$$\longrightarrow$$とうてい受け入れがたい|上田|「難い」をひらがなに直すときに手違いがありました。|
 
-* 第2刷以前
+### 第2刷以前
 
 　「ある作業」のため、この2日で大量に訂正が出ましたが、これで一旦おさまる予定です。
 
@@ -63,7 +63,7 @@ Copyright: (C) Ryuichi Ueda
 |p.380 [Kalman 1960]|Roudolf$$\longrightarrow$$Rudolf||すみません！|
 |p.382 [Sutton 1996]|Advannces$$\longrightarrow$$Advances||Macのキーボードが・・・|
 
-* 第1刷以前
+### 第1刷以前
 
 |場所|訂正前/後|発見者|一言  |
 |:---|:-----|------|:-----|
