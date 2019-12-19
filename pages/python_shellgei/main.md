@@ -5,7 +5,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 # シェル芸勉強会？なにそれ？時代はPythonワンライナー
 
-こんにちは。Pythonistaです。最近、シェル芸って流行ってるらしいんですが、
+こんにちは。匿名のPythonistaです。最近、シェル芸って流行ってるらしいんですが、今時コマンドなんてかったるくて
 
 [第39回のシェル芸勉強会](https://b.ueda.tech/?post=20181222_shellgei_39)の問題を、Pythonのワンライナーで解いてみました。
 
