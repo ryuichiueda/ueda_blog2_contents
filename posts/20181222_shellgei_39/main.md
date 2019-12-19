@@ -178,7 +178,7 @@ $ cat table.md | awk -F'|' '!/-/{print $2,$3,$4}' | sed 's/  */\t/g' | datamash 
 
 ファイル`yabatanien`を使って、色を変えて次のように表示してみてください。色を厳密に合わせる必要はありません。
 
-![yabatanien](/posts/20181222_shellgei_39/yabatanien.mov)
+* [ムービー](/posts/20181222_shellgei_39/yabatanien.mov)
 
 ### 解答
 
