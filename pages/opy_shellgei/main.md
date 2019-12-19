@@ -42,5 +42,31 @@ $ opy -m bs4 'B:{f=open("index.html");s = bs4.BeautifulSoup(f, "html.parser")};E
 
 ## Q5
 
+なんかうまくいかない。降参
 
+
+## Q6
+
+こんな感じでしょうか？
+
+```
+$ cat index.js | opy '[html.unescape(F0)]' | opy '[html.unescape(F0)]' |
+opy '[F0.replace("\\x22","\"").replace("\\x3d","=").replace("\\\\","\\")]'
+```
+
+## Q7
+
+やる気が起きない。
+
+## Q8
+
+
+
+## やってみた感想
+
+* コマンドを封じられると`sed`で改行を入れたりしてデータを端末で見た出力にそのままパイプをつないで・・・みたいなことができなくなるので辛い
+* ワンライナーで`sort`使わずにソートするの辛い
+* いちいちPythonのライブラリの使い方を調べるのが面倒
+
+つまり辛い
 
