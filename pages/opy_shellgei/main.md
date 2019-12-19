@@ -68,7 +68,7 @@ $ cat index.html | opy '[re.sub("<","\n<",F0)]'
 
 ## Q4
 
-Beautiful Soupが使えますね。Beautiful Soupって名前、なんとかならんかと昔から思ってますが・・・。
+Beautiful Soupが使えますね。Beautiful Soupって名前なんなんだと昔から思ってますが・・・。
 
 ```
 $ opy -m bs4 'B:{f=open("index.html");s = bs4.BeautifulSoup(f, "html.parser")};E:[*s.select("script")]' | opy '[re.sub("</*script[^<]*>","",F0)]' > index.js
@@ -77,7 +77,12 @@ $ opy -m bs4 'B:{f=open("index.html");s = bs4.BeautifulSoup(f, "html.parser")};E
 
 ## Q5
 
-なんかうまくいかない。降参
+ワンライナーは辛いけどBeautiful Soupは便利。
+
+```
+cat index.html 
+| opy -m bs4 'B:{f=open("index.html");s = bs4.BeautifulSoup(f, "html.parser")};E:{[e.decompose() for e in s.find_all(["style","script"])];print(s)}'
+```
 
 
 ## Q6
@@ -94,7 +99,15 @@ rue,"msgs":{"cibl":"検索をクリア","dym":"もしかして:","lcky":"I\u0026
 
 ## Q7
 
-やる気が起きない。
+```
+$ cat table.md 
+| opy -i '|' -m 'numpy as np' 'B:{a=np.array([])};r_("回"):{a = np.append(a,F[2:5],axis=0)};E:{[print("|" + "|".join(e) + "|") for e in a.reshape([-1,3]).T]}' 
+| opy '[F0];NR==1:[re.sub("[^|]","-",F0)]'
+|回       |38回     |37回     |36回     |35回     |34回     |33回     |32回     |31回     |30回     |29回     |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|年月    |201811|201809|201807|201804|201803|201801|201712|201710|201708|201706|
+|人数   |37|39|38|37|35|40|39|37|46|55|
+```
 
 ## Q8
 
