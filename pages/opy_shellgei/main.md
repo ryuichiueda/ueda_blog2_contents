@@ -12,7 +12,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 感想: `sed`使いたい。
 
 ```
-$ cat wrong.md | opy '[re.sub(r"\(([^()]+)\)\[([^\[\]]+)\]",r"[\1](\2)", F0)]' | opy '[re.sub(r"\[(http[^\[\]]+)\]\(([^()]+)\)", r"[\2](\1)", F0)]' | opy '[re.sub(r"\[([^\[\]]+).svg\]\(([^()]+)\)", r"[\2](\1)", F0)]'
+$ cat wrong.md | opy '[re.sub(r"\(([^()]+)\)\[([^\[\]]+)\]",r"[\1](\2)", F0)]' 
+| opy '[re.sub(r"\[(http[^\[\]]+)\]\(([^()]+)\)", r"[\2](\1)", F0)]' 
+| opy '[re.sub(r"\[([^\[\]]+).svg\]\(([^()]+)\)", r"[\2](\1)", F0)]'
 ```
 
 
@@ -21,7 +23,8 @@ $ cat wrong.md | opy '[re.sub(r"\(([^()]+)\)\[([^\[\]]+)\]",r"[\1](\2)", F0)]' |
 死ぬかと思った。
 
 ```
-$ cat attendee.md | opy 'r_("^\*"):{D[F2]={};k=F2};r_("^ "):{D[k][F6] = F7};E:{s=sorted(D.items())};E:{for e in s:print("* " + e[0] + ("\n    * 福岡: " + str(e[1]["福岡:"]) if "福岡:" in e[1] else "") + ("\n    * 大阪: " + str(e[1]["大阪:"]) if "大阪:" in e[1] else "") + ("\n    * 東京: " + str(e[1]["東京:"]) if "東京:" in e[1] else "") )}'
+$ cat attendee.md 
+| opy 'r_("^\*"):{D[F2]={};k=F2};r_("^ "):{D[k][F6] = F7};E:{s=sorted(D.items())};E:{for e in s:print("* " + e[0] + ("\n    * 福岡: " + str(e[1]["福岡:"]) if "福岡:" in e[1] else "") + ("\n    * 大阪: " + str(e[1]["大阪:"]) if "大阪:" in e[1] else "") + ("\n    * 東京: " + str(e[1]["東京:"]) if "東京:" in e[1] else "") )}'
 ```
 
 
