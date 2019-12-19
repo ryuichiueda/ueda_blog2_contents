@@ -111,7 +111,11 @@ $ cat table.md
 
 ## Q8
 
-同上
+さすがに`clear`と`while`は`opy`で代用できないので・・・
+
+```
+$ while true ; do opy '[F0.replace("7m","0m").replace("6m","7m").replace("5m","6m").replace("4m","5m").replace("3m","4m").replace("2m","3m").replace("1m","2m")]' yabatanien ; sleep 1 ; clear ; cat yabatanien ; sleep 1 ; clear ; done
+```
 
 
 ## やってみた感想
