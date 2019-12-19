@@ -13,7 +13,11 @@ Copyright: (C) 2019 Ryuichi Ueda
 `re.sub`で置換していきます。簡単です。
 
 ```
-$ cat wrong.md | python -c 'import sys;import re;a=[re.sub(r"\(([^()]+)\)\[([^\[\]]+)\]",r"[\1](\2)", s) for s in sys.stdin];a=[re.sub(r"\[(http[^\[\]]+)\]\(([^()]+)\)", r"[\2](\1)", e) for e in a];a=[re.sub(r"\[([^\[\]]+).svg\]\(([^()]+)\)", r"[\2](\1)", e) for e in a];print("".join(a))'
+$ cat wrong.md | python -c 'import sys;import re;a=[re.sub(r"\(([^()]+
+)\)\[([^\[\]]+)\]",r"[\1](\2)", s) for s in sys.stdin];a=[re.sub(r"\[(
+http[^\[\]]+)\]\(([^()]+)\)", r"[\2](\1)", e) for e in a];a=[re.sub(r"
+\[([^\[\]]+).svg\]\(([^()]+)\)", r"[\2](\1)", e) for e in a];print("".
+join(a))'
 # わたしはマークダウソちょっとできる
 
 ## 軍馬県高崎市
