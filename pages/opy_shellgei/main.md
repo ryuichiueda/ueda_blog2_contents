@@ -3,18 +3,17 @@ Keywords:
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
-# コマンドに感謝するためにPythonでシェル芸勉強会の問題に挑戦
+# シェル芸勉強会に自らPythonワンライナーで殴り込む
+
+こんにちは。Pythonistaです。
 
 [第39回のシェル芸勉強会](https://b.ueda.tech/?post=20181222_shellgei_39)の問題を、Pythonのワンライナーで解いてみました。
 
-* 注意: 解答を試すときは改行を除去のこと
 
 ## Q1
 
 ```
-$ cat wrong.md | python -c 'import sys;import re;a=[re.sub(r"\(([^()]+)\)\[([^\[\]]+)\]",r"[\1](\2)", s) for s in sys.stdin];
-a=[re.sub(r"\[(http[^\[\]]+)\]\(([^()]+)\)", r"[\2](\1)", e) for e in a];
-a=[re.sub(r"\[([^\[\]]+).svg\]\(([^()]+)\)", r"[\2](\1)", e) for e in a];print("".join(a))'
+$ cat wrong.md | python -c 'import sys;import re;a=[re.sub(r"\(([^()]+)\)\[([^\[\]]+)\]",r"[\1](\2)", s) for s in sys.stdin];a=[re.sub(r"\[(http[^\[\]]+)\]\(([^()]+)\)", r"[\2](\1)", e) for e in a];a=[re.sub(r"\[([^\[\]]+).svg\]\(([^()]+)\)", r"[\2](\1)", e) for e in a];print("".join(a))'
 # わたしはマークダウソちょっとできる
 
 ## 軍馬県高崎市
@@ -33,14 +32,7 @@ a=[re.sub(r"\[([^\[\]]+).svg\]\(([^()]+)\)", r"[\2](\1)", e) for e in a];print("
 ## Q2
 
 ```
-$ cat attendee.md 
-| python3 -c 'import sys;a=[print(e.rstrip() if "    " in e else "\n" + e.rstrip(), end="") for e in sys.stdin]' 
-| python3 -c 'import sys;a=sorted([e.rstrip() for e in sys.stdin]);
-a=[e.split() for e in a if len(e) > 3];
-a=[ [*e[:2],{ e[3*i+3]: e[3*i+4] for i in range(len(e)//3)} ] for e in a];
-[print(" ".join(e[:2]) + ("\n    * " "福岡: " + e[2]["福岡:"] if "福岡:" in e[2] else "") 
-+ ("\n    * " "大阪: " + e[2]["大阪:"] if "大阪:" in e[2] else "") 
-+ + ("\n    * " "東京: " + e[2]["東京:"] if "東京:" in e[2] else ""))for e in a]'
+$ cat attendee.md | python3 -c 'import sys;a=[print(e.rstrip() if "    " in e else "\n" + e.rstrip(), end="") for e in sys.stdin]' | python3 -c 'import sys;a=sorted([e.rstrip() for e in sys.stdin]);a=[e.split() for e in a if len(e) > 3];a=[ [*e[:2],{ e[3*i+3]: e[3*i+4] for i in range(len(e)//3)} ] for e in a];[print(" ".join(e[:2]) + ("\n    * " "福岡: " + e[2]["福岡:"] if "福岡:" in e[2] else "") + ("\n    * " "大阪: " + e[2]["大阪:"] if "大阪:" in e[2] else "") + + ("\n    * " "東京: " + e[2]["東京:"] if "東京:" in e[2] else ""))for e in a]'
 * 第34回シェル芸勉強会
     * 大阪: 16
     * 東京: 19
@@ -65,9 +57,7 @@ a=[ [*e[:2],{ e[3*i+3]: e[3*i+4] for i in range(len(e)//3)} ] for e in a];
 
 
 ```
-$ cat index.html 
-| python3 -c 'import sys,html;[print(html.unescape(e.replace("<","\n<"))) for e in sys.stdin]' 
-| python3 -c 'import sys;a=[e for e in sys.stdin if "meta" in e];print(a[0])'
+$ cat index.html | python3 -c 'import sys,html;[print(html.unescape(e.replace("<","\n<"))) for e in sys.stdin]' | python3 -c 'import sys;a=[e for e in sys.stdin if "meta" in e];print(a[0])'
 <meta content="世界中のあらゆる情報を検索するためのツールを提供しています。さまざまな検索機能を活用して、お探しの情報を見つけてください。" name="description">
 ```
 
@@ -86,8 +76,7 @@ $ python3 -c 'import bs4;f=open("index.html");s=bs4.BeautifulSoup(f, "html.parse
 ## Q5
 
 ```
-python3 -c 'import bs4;f=open("index.html");s=bs4.BeautifulSoup(f, "html.parser");
-[e.decompose() for e in s.find_all(["style","script"])];print(s)' > index.no_cssjs.html
+python3 -c 'import bs4;f=open("index.html");s=bs4.BeautifulSoup(f, "html.parser");[e.decompose() for e in s.find_all(["style","script"])];print(s)' > index.no_cssjs.html
 ```
 
 Beautiful Soup、便利じゃないか。
@@ -95,10 +84,7 @@ Beautiful Soup、便利じゃないか。
 ## Q6
 
 ```
-$ cat index.js 
-| python3 -c 'import sys,html;[print(html.unescape(e)) for e in sys.stdin]'
-| python3 -c 'import sys,html;[print(html.unescape(e).replace("\\x22","\"")
-.replace("\\x3d","=").replace("\\\\","\\")) for e in sys.stdin]'
+$ cat index.js | python3 -c 'import sys,html;[print(html.unescape(e)) for e in sys.stdin]' | python3 -c 'import sys,html;[print(html.unescape(e).replace("\\x22","\"").replace("\\x3d","=").replace("\\\\","\\")) for e in sys.stdin]'
 ・・・
 rue,"msgs":{"cibl":"検索をクリア","dym":"もしかして:","lcky":"I\u0026#39;m Feeling Lucky","lml":"詳細","oskt":"入力ツール","psrc":"この検索キーワードは\u003Ca href=\"/history\"\u003Eウェブ履歴\u003C/a\u003Eから削除されました","psrl":"削除","sbit
 ・・・
@@ -109,11 +95,7 @@ rue,"msgs":{"cibl":"検索をクリア","dym":"もしかして:","lcky":"I\u0026
 ## Q7
 
 ```
-$ cat table.md 
-| python3 -c 'import sys,numpy as np;a=[e.strip().split("|")[1:-1] 
-for e in sys.stdin if "---" not in e];a=np.array(a).T;
-a=["|"+"|".join(e)+"|" for e in a];
-import re;a[0]=a[0]+"\n"+re.sub("[^|]","-",a[0]);print("\n".join(a))'
+$ cat table.md | python3 -c 'import sys,numpy as np;a=[e.strip().split("|")[1:-1] for e in sys.stdin if "---" not in e];a=np.array(a).T;a=["|"+"|".join(e)+"|" for e in a];import re;a[0]=a[0]+"\n"+re.sub("[^|]","-",a[0]);print("\n".join(a))'
 |回       |38回     |37回     |36回     |35回     |34回     |33回     |32回     |31回     |30回     |29回     |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |年月    |201811  |201809  |201807  |201804  |201803  |201801  |201712  |201710  |201708  |201706  |
