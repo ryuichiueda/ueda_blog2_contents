@@ -3,7 +3,7 @@ Keywords:
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
-# 自分自身でシェル芸勉強会に喧嘩を売る
+# 自分自身でシェル芸勉強会にPythonで喧嘩を売る
 
 第39回
 
