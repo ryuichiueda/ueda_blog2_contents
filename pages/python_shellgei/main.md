@@ -94,7 +94,7 @@ in(a))' > index.css
 
 ## Q5
 
-Beautiful Soup、便利っすね。
+Beautiful Soup、便利ですね。
 
 ```
 python3 -c 'import bs4;f=open("index.html");s=bs4.BeautifulSoup(f,"h
