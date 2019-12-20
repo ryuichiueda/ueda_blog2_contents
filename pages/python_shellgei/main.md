@@ -3,7 +3,7 @@ Keywords:
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
-# シェル芸勉強会？なにそれ？時代はPythonワンライナー
+# シェル芸？なにそれ？時代はPythonワンライナー
 
 こんにちは。匿名のPythonistaです。最近、シェル芸って流行ってるらしいんですが、今時コマンドなんて古くないっすか？Pythonが優れていることをお見せするために、[このページの問題](https://b.ueda.tech/?post=20181222_shellgei_39)をPythonのワンライナーで解いてみました。
 
