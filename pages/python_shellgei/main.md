@@ -105,7 +105,7 @@ tml.parser");[e.decompose() for e in s.find_all(["style","script"])]
 
 ## Q6
 
-Q3同様、`html.unescape`を使いましょう。
+Q3同様、`html.unescape`を使いましょう。簡単ですね。
 
 ```
 $ cat index.js | python3 -c 'import sys,html;[print(html.unescape(e))
