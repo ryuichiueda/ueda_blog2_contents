@@ -135,7 +135,7 @@ $ cat table.md | python3 -c 'import sys,numpy as np;a=[e.strip().split
 
 ## Q8
 
-`while`と`clear`を使っちまったけど`replace`7連結（本当は8個になるはずだが手抜き）で簡単ですね。
+`while`と`clear`を使ってしまいましたけど、`replace`7連結（本当は8個だけど手抜き）で簡単ですね。
 
 ```
 $ while true ; do cat yabatanien | python3 -c 'import sys;a=[e.replace("
