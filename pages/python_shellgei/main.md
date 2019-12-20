@@ -7,7 +7,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 * この記事は[シェル芸Advent Calendar 2019](https://qiita.com/advent-calendar/2019/shellgei)の22日目の記事です。
 
-こんにちは。匿名のPythonistaです。最近、シェル芸って流行ってるらしいんですが、今時コマンドなんてレガシーでバッドプラクティスでないっすか？我らがPythonが優れていることをお見せするために、[このページの問題](https://b.ueda.tech/?post=20181222_shellgei_39)をPythonワンライナーで解いてみましょう。簡単ですね。Pythonなら。
+こんにちは。匿名のPythonistaです。最近、シェル芸って流行ってるらしいんですが、今時コマンドなんてレガシーでバッドプラクティスでないっすか？我らがPythonが優れていることをお見せするために、[このページの問題](https://b.ueda.tech/?post=20181222_shellgei_39)をPythonワンライナーで解いてみましょう。Pythonなら簡単ですね。
 
 
 ## Q1
