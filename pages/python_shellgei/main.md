@@ -66,7 +66,7 @@ mport sys;a=sorted([e.rstrip() for e in sys.stdin]);a=[e.split() for e in
 
 ## Q3
 
-`nkf --numchar-input`ってなんすか？`html.unescape`で簡単ですね。
+`nkf --numchar-input`ってなんですか？`html.unescape`で簡単ですね。
 
 ```
 $ cat index.html | python3 -c 'import sys,html;[print(html.unescape(e.
