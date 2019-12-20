@@ -36,7 +36,14 @@ join(a))'
 各回のデータをリストと辞書に整理してからプリントしていきます。簡単です。
 
 ```
-$ cat attendee.md | python3 -c 'import sys;a=[print(e.rstrip() if "    " in e else "\n" + e.rstrip(), end="") for e in sys.stdin]' | python3 -c 'import sys;a=sorted([e.rstrip() for e in sys.stdin]);a=[e.split() for e in a if len(e) > 3];a=[ [*e[:2],{ e[3*i+3]: e[3*i+4] for i in range(len(e)//3)} ] for e in a];[print(" ".join(e[:2]) + ("\n    * " "福岡: " + e[2]["福岡:"] if "福岡:" in e[2] else "") + ("\n    * " "大阪: " + e[2]["大阪:"] if "大阪:" in e[2] else "") + + ("\n    * " "東京: " + e[2]["東京:"] if "東京:" in e[2] else ""))for e in a]'
+$ cat attendee.md | python3 -c 'import sys;a=[print(e.rstrip() if "    " 
+in e else "\n" + e.rstrip(), end="") for e in sys.stdin]' | python3 -c 'i
+mport sys;a=sorted([e.rstrip() for e in sys.stdin]);a=[e.split() for e in
+ a if len(e) > 3];a=[ [*e[:2],{ e[3*i+3]: e[3*i+4] for i in range(len(e)/
+/3)} ] for e in a];[print(" ".join(e[:2]) + ("\n    * " "福岡: " + e[2][
+"福岡:"] if "福岡:" in e[2] else "") + ("\n    * " "大阪: " + e[2]["大阪
+:"] if "大阪:" in e[2] else "") + + ("\n    * " "東京: " + e[2]["東京:"]
+ if "東京:" in e[2] else ""))for e in a]'
 * 第34回シェル芸勉強会
     * 大阪: 16
     * 東京: 19
@@ -60,7 +67,9 @@ $ cat attendee.md | python3 -c 'import sys;a=[print(e.rstrip() if "    " in e el
 `nkf --numchar-input`ってなんすか？`html.unescape`で簡単です。
 
 ```
-$ cat index.html | python3 -c 'import sys,html;[print(html.unescape(e.replace("<","\n<"))) for e in sys.stdin]' | python3 -c 'import sys;a=[e for e in sys.stdin if "meta" in e];print(a[0])'
+$ cat index.html | python3 -c 'import sys,html;[print(html.unescape(e.
+replace("<","\n<"))) for e in sys.stdin]' | python3 -c 'import sys;a=[
+e for e in sys.stdin if "meta" in e];print(a[0])'
 <meta content="世界中のあらゆる情報を検索するためのツールを提供しています。さまざまな検索機能を活用して、お探しの情報を見つけてください。" name="description">
 ```
 
@@ -70,8 +79,14 @@ $ cat index.html | python3 -c 'import sys,html;[print(html.unescape(e.replace("<
 `bs4`（Beautiful Soup）で簡単です。
 
 ```
-$ python3 -c 'import bs4;f=open("index.html");s=bs4.BeautifulSoup(f, "html.parser");print(*s.select("script"))' | python3 -c 'import sys,re;a=[re.sub("</*script[^<]*>","",e) for e in sys.stdin];print("\n".join(a))' > index.js
-$ python3 -c 'import bs4;f=open("index.html");s=bs4.BeautifulSoup(f, "html.parser");print(*s.select("style"))' | python3 -c 'import sys,re;a=[re.sub("</*style[^<]*>","",e) for e in sys.stdin];print("\n".join(a))' > index.css
+$ python3 -c 'import bs4;f=open("index.html");s=bs4.BeautifulSoup(f,
+"html.parser");print(*s.select("script"))' | python3 -c 'import sys,
+re;a=[re.sub("</*script[^<]*>","",e) for e in sys.stdin];print("\n".
+join(a))' > index.js
+$ python3 -c 'import bs4;f=open("index.html");s=bs4.BeautifulSoup(f,
+"html.parser");print(*s.select("style"))' | python3 -c 'import sys,r
+e;a=[re.sub("</*style[^<]*>","",e) for e in sys.stdin];print("\n".jo
+in(a))' > index.css
 ```
 
 
@@ -80,7 +95,9 @@ $ python3 -c 'import bs4;f=open("index.html");s=bs4.BeautifulSoup(f, "html.parse
 Beautiful Soup、便利っすね。
 
 ```
-python3 -c 'import bs4;f=open("index.html");s=bs4.BeautifulSoup(f, "html.parser");[e.decompose() for e in s.find_all(["style","script"])];print(s)' > index.no_cssjs.html
+python3 -c 'import bs4;f=open("index.html");s=bs4.BeautifulSoup(f,"h
+tml.parser");[e.decompose() for e in s.find_all(["style","script"])]
+;print(s)' > index.no_cssjs.html
 ```
 
 
@@ -89,7 +106,10 @@ python3 -c 'import bs4;f=open("index.html");s=bs4.BeautifulSoup(f, "html.parser"
 Q3同様、`html.unescape`を使いましょう。
 
 ```
-$ cat index.js | python3 -c 'import sys,html;[print(html.unescape(e)) for e in sys.stdin]' | python3 -c 'import sys,html;[print(html.unescape(e).replace("\\x22","\"").replace("\\x3d","=").replace("\\\\","\\")) for e in sys.stdin]'
+$ cat index.js | python3 -c 'import sys,html;[print(html.unescape(e))
+ for e in sys.stdin]' | python3 -c 'import sys,html;[print(html.unesc
+ape(e).replace("\\x22","\"").replace("\\x3d","=").replace("\\\\","\\
+")) for e in sys.stdin]'
 ・・・
 rue,"msgs":{"cibl":"検索をクリア","dym":"もしかして:","lcky":"I\u0026#39;m Feeling Lucky","lml":"詳細","oskt":"入力ツール","psrc":"この検索キーワードは\u003Ca href=\"/history\"\u003Eウェブ履歴\u003C/a\u003Eから削除されました","psrl":"削除","sbit
 ・・・
@@ -101,7 +121,10 @@ rue,"msgs":{"cibl":"検索をクリア","dym":"もしかして:","lcky":"I\u0026
 `numpy`で転置ができるので簡単です。
 
 ```
-$ cat table.md | python3 -c 'import sys,numpy as np;a=[e.strip().split("|")[1:-1] for e in sys.stdin if "---" not in e];a=np.array(a).T;a=["|"+"|".join(e)+"|" for e in a];import re;a[0]=a[0]+"\n"+re.sub("[^|]","-",a[0]);print("\n".join(a))'
+$ cat table.md | python3 -c 'import sys,numpy as np;a=[e.strip().split
+("|")[1:-1] for e in sys.stdin if "---" not in e];a=np.array(a).T;a=["
+|"+"|".join(e)+"|" for e in a];import re;a[0]=a[0]+"\n"+re.sub("[^|]",
+"-",a[0]);print("\n".join(a))'
 |回       |38回     |37回     |36回     |35回     |34回     |33回     |32回     |31回     |30回     |29回     |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 |年月    |201811  |201809  |201807  |201804  |201803  |201801  |201712  |201710  |201708  |201706  |
@@ -113,7 +136,11 @@ $ cat table.md | python3 -c 'import sys,numpy as np;a=[e.strip().split("|")[1:-1
 `while`と`clear`を使っちまったけど`replace`7連結（本当は8個になるはずだが手抜き）で簡単です。
 
 ```
-$ while true ; do cat yabatanien | python3 -c 'import sys;a=[e.replace("7m","0m").replace("6m","7m").replace("5m","6m").replace("4m","5m").replace("3m","4m").replace("2m","3m").replace("1m","2m") for e in sys.stdin];print("".join(a))' yabatanien ; sleep 1 ; clear ; cat yabatanien ; sleep 1 ; clear ; done
+$ while true ; do cat yabatanien | python3 -c 'import sys;a=[e.replace("
+7m","0m").replace("6m","7m").replace("5m","6m").replace("4m","5m").repla
+ce("3m","4m").replace("2m","3m").replace("1m","2m") for e in sys.stdin];
+print("".join(a))' yabatanien ; sleep 1 ; clear ; cat yabatanien ; sleep
+ 1 ; clear ; done
 ```
 
 
