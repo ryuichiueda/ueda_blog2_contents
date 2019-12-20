@@ -145,6 +145,8 @@ print("".join(a))' yabatanien ; sleep 1 ; clear ; cat yabatanien ; sleep
  1 ; clear ; done
 ```
 
+![](/posts/20181222_shellgei_39/yabatanien.gif)
+
 ## 決め台詞
 
 いかがでしたか？
