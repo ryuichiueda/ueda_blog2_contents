@@ -5,12 +5,14 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 # シェル芸？なにそれ？時代はPythonワンライナー
 
-こんにちは。匿名のPythonistaです。最近、シェル芸って流行ってるらしいんですが、今時コマンドなんて古くないっすか？Pythonが優れていることをお見せするために、[このページの問題](https://b.ueda.tech/?post=20181222_shellgei_39)をPythonのワンライナーで解いてみました。
+* この記事は[シェル芸Advent Calendar 2019](https://qiita.com/advent-calendar/2019/shellgei)の22日目の記事です。
+
+こんにちは。匿名のPythonistaです。最近、シェル芸って流行ってるらしいんですが、今時コマンドなんて古くないっすか？Pythonが優れていることをお見せするために、[このページの問題](https://b.ueda.tech/?post=20181222_shellgei_39)をPythonのワンライナーで解いてみました。簡単ですね。
 
 
 ## Q1
 
-`re.sub`で置換していきます。簡単です。
+`re.sub`で置換していきます。簡単ですね。
 
 ```
 $ cat wrong.md | python -c 'import sys;import re;a=[re.sub(r"\(([^()]+
@@ -33,7 +35,7 @@ join(a))'
 
 ## Q2
 
-各回のデータをリストと辞書に整理してからプリントしていきます。簡単です。
+各回のデータをリストと辞書に整理してからプリントしていきます。簡単ですね。
 
 ```
 $ cat attendee.md | python3 -c 'import sys;a=[print(e.rstrip() if "    " 
@@ -64,7 +66,7 @@ mport sys;a=sorted([e.rstrip() for e in sys.stdin]);a=[e.split() for e in
 
 ## Q3
 
-`nkf --numchar-input`ってなんすか？`html.unescape`で簡単です。
+`nkf --numchar-input`ってなんすか？`html.unescape`で簡単ですね。
 
 ```
 $ cat index.html | python3 -c 'import sys,html;[print(html.unescape(e.
@@ -76,7 +78,7 @@ e for e in sys.stdin if "meta" in e];print(a[0])'
 
 ## Q4
 
-`bs4`（Beautiful Soup）で簡単です。
+`bs4`（Beautiful Soup）で簡単ですね。
 
 ```
 $ python3 -c 'import bs4;f=open("index.html");s=bs4.BeautifulSoup(f,
@@ -118,7 +120,7 @@ rue,"msgs":{"cibl":"検索をクリア","dym":"もしかして:","lcky":"I\u0026
 
 ## Q7
 
-`numpy`で転置ができるので簡単です。
+`numpy`で転置ができるので簡単ですね。
 
 ```
 $ cat table.md | python3 -c 'import sys,numpy as np;a=[e.strip().split
@@ -133,7 +135,7 @@ $ cat table.md | python3 -c 'import sys,numpy as np;a=[e.strip().split
 
 ## Q8
 
-`while`と`clear`を使っちまったけど`replace`7連結（本当は8個になるはずだが手抜き）で簡単です。
+`while`と`clear`を使っちまったけど`replace`7連結（本当は8個になるはずだが手抜き）で簡単ですね。
 
 ```
 $ while true ; do cat yabatanien | python3 -c 'import sys;a=[e.replace("
@@ -143,8 +145,10 @@ print("".join(a))' yabatanien ; sleep 1 ; clear ; cat yabatanien ; sleep
  1 ; clear ; done
 ```
 
+## 決め台詞
+
+いかがでしたか？
 
 ## やってみた感想
-
 
 簡単なわけないだろ💢3時間くらいかかったぞ💢なんだよ匿名のPythonistaって。上にデカデカと「上田ブログ」って書いてあるじゃねーか。うんこだうんこ。寝る。すんませんでした。
