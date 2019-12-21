@@ -5,7 +5,7 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 # トップページ 
 
-## 情報
+## サイト主について
 
 * [自己紹介など](/?page=bio)
 
