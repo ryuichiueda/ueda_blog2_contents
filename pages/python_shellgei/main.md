@@ -3,7 +3,7 @@ Keywords:
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
-# シェル芸？なにそれ？時代はPythonワンライナー
+# シェル芸？なにそれ？時代はPython<span style="font-size:50%">ワンライナー</span>
 
 * この記事は[シェル芸Advent Calendar 2019](https://qiita.com/advent-calendar/2019/shellgei)の22日目の記事です。
 
