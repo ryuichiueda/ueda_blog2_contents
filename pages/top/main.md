@@ -15,4 +15,4 @@ Copyright: (C) 2018 Ryuichi Ueda
 
 ## このサイトについて
 
-* [プライバシーポリシー](https://b.ueda.tech/?page=privacy)
+* [本サイトについて（プライバシーポリシー）](https://b.ueda.tech/?page=privacy)
