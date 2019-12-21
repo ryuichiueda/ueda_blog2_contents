@@ -8,10 +8,10 @@ headline:
 - text: '<a href="https://employment.en-japan.com/engineerhub/entry/2019/02/19/103000">エンジニアHubで記事を書きました</a>'
 twitter:
 - account: 'ryuichiueda'
-facebook: '@'
+#facebook: '@'
 hatena: '@'
 pocket: '@'
-line: '@'
+#line: '@'
 links:
 - text: 'latest'
   href: '/?post'
