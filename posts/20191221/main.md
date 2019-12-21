@@ -24,7 +24,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## 他にやったこと
 
-　[Cookiebot](https://www.cookiebot.com/en/)でGDPR対応をチェックして（当然まだダメ）、調査結果から使われているcookieの勉強をしました。結果（というわけでもないですが、必要だとも思われないので）Facebookとlineのボタンの表示をやめました。
+　[Cookiebot](https://www.cookiebot.com/en/)でGDPR対応をチェックして（当然まだダメ）、調査結果からどんなクッキーがこのサイトで飛び交っているのか勉強をしました。結果（というわけでもないですが、必要だとも思われないので）Facebookとlineのボタンの表示をやめました。
 
 
 ## 今後
