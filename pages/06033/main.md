@@ -5,18 +5,6 @@ Copyright: (C) Ryuichi Ueda
 
 # 出版物リスト（学術誌等）
 
-<ul>
- 	<li><a href="#perspective">総説・解説・展望</a></li>
- 	<li><a href="#journals">投稿論文</a></li>
- 	<li><a href="#invited">ご招待を受けた学術講演等</a></li>
- 	<li><a href="#proceedings">査読あり講演論文</a></li>
- 	<li><a href="#presentation">口頭発表</a></li>
- 	<li><a href="#theses">学位論文</a></li>
- 	<li><a href="#bulletin">紀要</a></li>
- 	<li><a href="#news">新聞記事</a></li>
-</ul>
-
-<hr />
 
 ## 総説・解説・展望
 
