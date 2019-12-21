@@ -18,7 +18,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 $ cat wrong.md | python -c 'import sys;import re;a=[re.sub(r"\(([^()]+
 )\)\[([^\[\]]+)\]",r"[\1](\2)", s) for s in sys.stdin];a=[re.sub(r"\[(
 http[^\[\]]+)\]\(([^()]+)\)", r"[\2](\1)", e) for e in a];a=[re.sub(r"
-\[([^\[\]]+).svg\]\(([^()]+)\)", r"[\2](\1)", e) for e in a];print("".
+\[([^\[\]]+.svg)\]\(([^()]+)\)", r"[\2](\1)", e) for e in a];print("".
 join(a))'
 # わたしはマークダウソちょっとできる
 
@@ -30,7 +30,7 @@ join(a))'
 * [高崎ハム](http://takasakiham.com/?transactionid=8e5164a76108c8411e7547d69e0dd0fd443f072a)
 
 
-![たかさきしししょう](群馬県高崎市市章)
+![たかさきしししょう](群馬県高崎市市章.svg)
 ```
 
 ## Q2
