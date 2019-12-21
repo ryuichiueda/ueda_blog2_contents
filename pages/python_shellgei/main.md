@@ -7,7 +7,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 * この記事は[シェル芸Advent Calendar 2019](https://qiita.com/advent-calendar/2019/shellgei)の22日目の記事です。
 
-こんにちは。匿名のPythonistaです。最近、シェル芸って流行ってるらしいんですが、今時コマンドなんてレガシーでバッドプラクティスですよね？世界を席巻するPythonが優れていることをお見せするために、[このページの問題](https://b.ueda.tech/?post=20181222_shellgei_39)をPythonで解いてみましょう。簡単ですね。Python<span style="font-size:50%">ワンライナー</span>なら。
+こんにちは。匿名のPythonistaです。最近、シェル芸って流行ってるらしいんですが、今時コマンドなんてレガシーでバッドプラクティスですよね？世界を席巻するPython<span style="font-size:50%">ワンライナー</span>が優れていることをお見せするために、[このページの問題](https://b.ueda.tech/?post=20181222_shellgei_39)をPython<span style="font-size:50%">ワンライナー</span>で解いてみましょう。簡単ですね。Python<span style="font-size:50%">ワンライナー</span>なら。
 
 
 ## Q1
