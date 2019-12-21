@@ -18,7 +18,7 @@ Copyright: (C) Ryuichi Ueda
 
 <hr />
 
-<h2><a name="perspective"></a>総説・解説・展望</h2>
+## 総説・解説・展望
 
 ### 2018
 
@@ -37,8 +37,8 @@ Copyright: (C) Ryuichi Ueda
 
 * 上田 隆一: "確率ロボティクスの展望," 日本ロボット学会誌, vol. 29, no. 5, pp. 404-407, 2011.
 
-<h2><a name="journals"></a>投稿論文</h2>
-<h3>2016</h3>
+## 投稿論文
+### 2016
 
 <ul>
 <li>S. Hoshino, T. Ishiwata, R. Ueda: Optimal Patrolling Methodology of Mobile Robot for Unknown Visitors, Advanced Robotics, Vol. 30, No. 16, pp. 1072-1085, 2016. doi: <a href="http://www.tandfonline.com/doi/abs/10.1080/01691864.2016.1192064" target="_blank">10.1080/01691864.2016.1192064</a></li>
@@ -48,7 +48,7 @@ Copyright: (C) Ryuichi Ueda
 </li>
 </ul>
 
-<h3>2015</h3>
+### 2015
 <ul>
  	<li><a href="http://www.tandfonline.com/doi/abs/10.1080/01691864.2015.1009943" target="_blank">Ryuichi Ueda: Generation of Compensation Behavior of Autonomous Robot for Uncertainty of Information with Probabilistic Flow Control, Advanced Robotics, 29(11), pp. 721-734, June, 2015. </a>
 <ul>
@@ -56,33 +56,33 @@ Copyright: (C) Ryuichi Ueda
 </ul>
 </li>
 </ul>
-<h3>2010</h3>
+### 2010
 <ul>
  	<li>A. Pretto, E. Menegatti, Y. Jitsukawa, R. Ueda, and T. Arai:
 "Image similarity based on Discrete Wavelet Transform for robots with low-computational resources, Robotics and Autonomous Systems," 58(7), 879-888, 2010.</li>
 </ul>
-<h3>2009</h3>
+### 2009
 <ul>
  	<li>実川達明, 上田隆一, 新井民夫:
 "サンプリング実時間Q-MDP法---不完全な観測に基づき実時間行動する自律サッカーロボットへの適用,"
 日本ロボット学会誌, vol. 27, no. 1, pp. 71-78, 2009.</li>
 </ul>
 &nbsp;
-<h3>2008</h3>
+### 2008
 <ul>
  	<li>大隅久，神谷昌吾，長谷川悠史，梅田和昇，上田隆一, 新井民夫:
 "四足ロボットの最短時間制御,"
 日本機械学会論文集（C編）, vol. 74, no. 742C, pp. 1501-1507, 2008.</li>
 </ul>
 &nbsp;
-<h3>2007</h3>
+### 2007
 <ul>
  	<li>上田隆一, 新井民夫:
 "パーティクルフィルタとQ-MDP法による状態推定の不確かさを考慮した自律ロボットの実時間行動決定,"
 日本ロボット学会誌, vol. 25, no. 1, pp. 103-112, 2007.</li>
 </ul>
 &nbsp;
-<h3>2005</h3>
+### 2005
 <ul>
  	<li>上田隆一, 深瀬武, 小林祐一, 新井民夫, 神谷昌吾:
 "ベクトル量子化による決定論的方策地図の不可逆圧縮,"
@@ -101,14 +101,14 @@ Copyright: (C) Ryuichi Ueda
 日本ロボット学会誌, vol. 23, no. 7, pp. 878-885, 2005.</li>
 </ul>
 &nbsp;
-<h3>2003</h3>
+### 2003
 <ul>
  	<li>小林 祐一, 深瀬 武, 上田 隆一, 湯浅 秀男, 新井 民夫:
 "実時間性と観測コストを考慮した四脚ロボットのサッカー行動設計,"
 日本ロボット学会誌, vol. 21, no. 7, pp. 802-810, 2003.</li>
 </ul>
 &nbsp;
-<h2><a name="invited"></a>ご招待を受けた学術講演等</h2>
+## ご招待を受けた学術講演等
 
 ### 2019
 
@@ -128,7 +128,7 @@ Copyright: (C) Ryuichi Ueda
 * 上田隆一: パーティクルフィルタの癖から知るロボットへの確率的手法の正しい適用方法, 第58回システム制御情報学会研究発表講演会（チュートリアル講演）, 京都, 2014.
 
 
-<h2><a name="proceedings"></a>査読つき講演論文</h2>
+## 査読つき講演論文
 
 ### 2019
 
@@ -146,22 +146,22 @@ Copyright: (C) Ryuichi Ueda
 ### 2016
 * Ryuichi Ueda, Kotaro Mizuta, Hiroshi Yamakawa and Hiroyuki Okada: Particle Filter on Episode for Learning Decision Making Rule, Proc. of The 14th International Conference on Intelligent Autonomous Systems (IAS-14), Shanghai, July, 2016.
 
-<h3>2015</h3>
+### 2015
 <ul>
  	<li>Yukiko Nakagawa, Masatake Aoki, Shunsuke Sakura, Noriaki Nakagawa, Ryuichi Ueda, and Amy Eguchi: "Raspberry Pi Mouse: A Micromouse with Full Linux Environment," Proceedings of the 6th International Conference on Advanced Mechatronics (ICAM2015), pp.14-15, Tokyo, Japan, December 5-8, 2015.</li>
 </ul>
-<h3>2014</h3>
+### 2014
 <ul>
  	<li>Ryuichi UEDA: Generation of Search Behavior by a Modification of Q-MDP Value Method, IAS-13, 2014.</li>
 </ul>
-<h3>2009</h3>
+### 2009
 <ul>
  	<li>Ryuichi Ueda, Stefanos Nikolaidis, Akinobu Hayashi, and Tamio Arai:
 "Global Pose Estimation of Multiple Cameras with Particle Filters,"
 Distributed Autonomous Robotic Systems 8, pp. 73--82, Springer Berlin Heidelberg, 2009.</li>
 </ul>
 &nbsp;
-<h3>2008</h3>
+### 2008
 <ul>
  	<li>山野辺夏樹，藤井浩光，新井民夫，上田隆一:
 "複数の行動則を利用したクラッチ嵌合作業の動作生成,"
@@ -202,7 +202,7 @@ Intelligent Autonomous Systems 10: IAS-10, pp. 202-210, IOS Press, 2008.</li>
 IEEE International Conference on Robotics and Biomimetics, 2008.</span></li>
 </ul>
 &nbsp;
-<h3>2007</h3>
+### 2007
 <ul>
  	<li>実川達明，上田隆一，新井民夫，竹下和孝, 長谷川悠史, 加瀬翔太，奥隅隆，梅田和昇，大隅久:
 "サンプリング実時間Q-MDP法を用いた自律ロボットの行動決定,"
@@ -249,7 +249,7 @@ Proc. of IEEE/RSJ International Conference on Intelligent Robots and Systems, pp
 Proc. of The 2nd International Symposium on Smart Home (SH'07), 2007.</li>
 </ul>
 &nbsp;
-<h3>2006</h3>
+### 2006
 <ul>
  	<li>Kazutaka TAKESHITA, Ryuichi UEDA, and Tamio ARAI:
 "Fast Vector Quantization for State-Action Map Compression,"
@@ -292,7 +292,7 @@ Proc. of IEEE/RSJ International Conference on Intelligent Robots and Systems, pp
 Proc. of CIRP International Seminar on Assembly Systems (ISAS 2006), 2006.</li>
 </ul>
 &nbsp;
-<h3>2005</h3>
+### 2005
 <ul>
  	<li>Ryuichi Ueda, Tamio Arai, Kohei Sakamoto, Yoshiaki Jitsukawa, Kazunori Umeda, Hisashi Osumi, Toshifumi Kikuchi and Masaki Komura:
 "Real-Time Decision Making with State-Value Function under Uncertainty of State Estimation --Evaluation with Local Maxima and Discontinuity,"
@@ -315,7 +315,7 @@ Proc. of IEEE/RSJ International Conference on Intelligent Robots and Systems, pp
 36th International Symposium on Robotics (ISR), 2005.</li>
 </ul>
 &nbsp;
-<h3>2004</h3>
+### 2004
 <ul>
  	<li>Kazunori ASANUMA, Kazunori UMEDA, Ryuichi UEDA and Tamio ARAI:
 "Development of a Simulator of Environment and Measurement for Autonomous Mobile Robots Considering Camera Characteristics,"
@@ -356,7 +356,7 @@ Proc. of IEEE International Conference on Robotics and Automation, pp. 4771-4776
 Proc. of IEEE/RSJ International Conference on Intelligent Robots and Systems, pp. 2481-2486, 2004.</li>
 </ul>
 &nbsp;
-<h3>2003</h3>
+### 2003
 <ul>
  	<li>Takeshi Fukase, Yuichi Kobayashi, Ryuichi Ueda, Takanobu Kawabe and Tamio Arai:
 "Real-time Decision Making under Uncertainty of Self-Localization Results,"
@@ -395,7 +395,7 @@ Proc. of IEEE/RSJ International Conference on Intelligent Robots and Systems, pp
 </li>
 </ul>
 &nbsp;
-<h3>2002</h3>
+### 2002
 <ul>
  	<li>Takeshi Fukase, Masahiro Yokoi, Yuichi Kobayashi, Ryuichi Ueda, Hideo Yuasa and Tamio Arai:
 "Quadruped Robot Navigation Considering the Observational Cost,"
@@ -408,7 +408,7 @@ Andreas Birk, Silvia Coradeschi and Satoshi Tadokoro (Eds.), RoboCup 2001: Robot
 Proc. of IEEE International Conference on Robotics and Automation, pp. 1353-1358, 2002.</li>
 </ul>
 &nbsp;
-<h2><a name="presentation"></a>口頭発表</h2>
+## 口頭発表
 
 ### 2019 
 
@@ -461,7 +461,7 @@ Proc. of IEEE International Conference on Robotics and Automation, pp. 1353-1358
 <p class="p1">星野智史, 石渡貴仁, 上田隆一: ベイズ学習と価値反復法に基づいた警備ロボットの最適巡視, 第34回日本ロボット学会学術講演会, RSJ2016AC3G2-06, 2016.</p>
 </li>
 </ul>
-<h3>2015</h3>
+### 2015
 <ul>
  	<li>中川友紀子, 青木政武, 佐倉俊佑, 中川範晃, 上田隆一: "Raspberry Pi マウス ---Linux 環境でプログラミング可能なロボット教材の開発," 第16回システムインテグレーション部門講演会 (SI2015), pp. 1854-1855, 2015.</li>
 </ul>
@@ -478,14 +478,14 @@ Proc. of IEEE International Conference on Robotics and Automation, pp. 1353-1358
 2015年度人工知能学会全国大会, 2015.</li>
 </ul>
 &nbsp;
-<h3>2014</h3>
+### 2014
 <ul>
  	<li>上田隆一:
 "タスクの到達度予測による信念状態の評価,"
 第26回自律分散システムシンポジウム, pp. 2A1-1, 2014.</li>
 </ul>
 &nbsp;
-<h3>2008</h3>
+### 2008
 <ul>
  	<li>上田隆一，小林佳祐，新井民夫:
 "価値反復による２台のサッカーロボットの協調動作計画 ―30億状態を有する状態行動地図の生成と評価,"
@@ -522,7 +522,7 @@ Proc. of IEEE International Conference on Robotics and Automation, pp. 1353-1358
 日本ロボット学会学術講演会論文集, pp. 3E3-04, 2008.</li>
 </ul>
 &nbsp;
-<h3>2007</h3>
+### 2007
 <ul>
  	<li>上田隆一，新井民夫:
 "ベクトル量子化状態行動地図からの行動ルールの理解,"
@@ -541,7 +541,7 @@ Proc. of IEEE International Conference on Robotics and Automation, pp. 1353-1358
 計測自動制御学会 システム・情報部門学術講演会, pp. 321-326, 2007.</li>
 </ul>
 &nbsp;
-<h3>2006</h3>
+### 2006
 <ul>
  	<li>各務 幸樹，山野辺 夏樹，新井 民夫，上田 隆一，渡辺 淳，加藤 哲朗，西 浩次:
 "行動コストの変化を考慮したハンドリング作業のタスク割当問題,"
@@ -584,7 +584,7 @@ Proc. of IEEE International Conference on Robotics and Automation, pp. 1353-1358
 第7回計測自動制御学会 (SICE) システムインテグレーション部門講演会, pp. 922-923, 2006.</li>
 </ul>
 &nbsp;
-<h3>2005</h3>
+### 2005
 <ul>
  	<li>実川達明, 菊地敏文, 上田隆一, 新井民夫, 梅田和昇:
 "大きな照明条件変動に対応するファジィ色分類を用いたカラーボール認識手法の開発,"
@@ -627,7 +627,7 @@ Proc. of IEEE International Conference on Robotics and Automation, pp. 1353-1358
 日本ロボット学会学術講演会, 神奈川, 2005.</li>
 </ul>
 &nbsp;
-<h3>2004</h3>
+### 2004
 <ul>
  	<li>上田隆一, 新井民夫, 坂本浩平, 実川達明, 梅田和昇, 大隅久, 菊地敏文, 小村正樹:
 "モンテカルロ・ローカライゼーションのための複合リセット法,"
@@ -640,7 +640,7 @@ Proc. of IEEE International Conference on Robotics and Automation, pp. 1353-1358
 日本ロボット学会学術講演会, 岐阜, 2004.</li>
 </ul>
 &nbsp;
-<h3>2003</h3>
+### 2003
 <ul>
  	<li>上田 隆一, トリワイ チョンチャナ, 守屋 俊夫, 新井 民夫:
 "移動ロボットによる広域シームレス映像の取得 - 直線マーカを利用したモザイキングとスーパーレゾリューション,"
@@ -665,7 +665,7 @@ Proc. of IEEE International Conference on Robotics and Automation, pp. 1353-1358
 第4回 SICE SI部門講演会（SI2003）, pp. 1082-1083, 2003.</li>
 </ul>
 &nbsp;
-<h3>2001</h3>
+### 2001
 <ul>
  	<li>上田 隆一, 小林 祐一, 横井 真浩, 深瀬 武, 湯浅 秀男, 新井 民夫:
 "四脚ロボットにおけるMonte Carlo Localizationに基づく環境認識,"
@@ -678,14 +678,14 @@ Proc. of IEEE International Conference on Robotics and Automation, pp. 1353-1358
 日本ロボット学会学術講演会, 東京, 2001.</li>
 </ul>
 &nbsp;
-<h2><a name="theses"></a>学位論文</h2>
+## 学位論文
 
 * <a href="ueda_graduate_thesis.pdf">四脚ロボットによるサッカー行動生成のための局所環境認識, </a>平成12年度東京大学精密機械工学科卒業論文, 2001.
 * <a href="ueda_master_2003.pdf">実世界における移動ロボットのための環境の変化に強い自己位置推定と行動決定,</a> 平成14年度東京大学大学院工学系研究科精密機械工学専攻修士論文, 2003.
 * [State-Action Map Compression by using Vector Quantization for Decision Making of Autonomous Robots,](https://repository.dl.itc.u-tokyo.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=2766&item_no=1&page_id=28&block_id=31) Ph. D. Thesis, University of Tokyo, 2007.
 
 
-<h2><a name="bulletin"></a>紀要</h2>
+## 紀要
 <ul>
 <ul>
  	<li>上田隆一: シェルに代わりうるデータ処理のためのグルー言語開発,
@@ -693,7 +693,7 @@ Proc. of IEEE International Conference on Robotics and Automation, pp. 1353-1358
 </ul>
 </ul>
 &nbsp;
-<h2><a name="news"></a>新聞記事</h2>
+## 新聞記事
 <ul>
 <ul>
  	<li>広域の高精細画像 移動ロボで自動撮影 日立が新技術,
