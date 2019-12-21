@@ -17,9 +17,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 　フッタには「Got it」と「NG」というボタンがあり、押すとクッキーに「`cookieconfirm=ok`」か「`cookieconfirm=ng`」が入ります。これを次回以降見て制御をします。`cookieconfirm=ok`なら、3ヶ月間は再びフッタにワーニングが表示されず、普通にサイトが閲覧できます。コードは本日現在、[main.js](https://b.ueda.tech/bsview/main.js)の下の方にあります。
 
-## NGの場合の制御
+## 制御
 
-　一方、「NG」を押した場合、今のところ、Google Analyticsだけが止まるようになっています。AdSenseやその他（TwitterやYouTubeのボタンが勝手に設定するcookie）は、まだそのままなので、ワーニングの文章にテスト中である旨が書いてあります。中途半端なんですが、正直どうしていいかよくわからんという状況です。
+　「Got it.」を押さない限り、Google Analyticsが動かないようにしてあります。AdSenseやその他（TwitterやYouTubeのボタンが勝手に設定するcookie）は、まだそのままなので中途半端で、ワーニングの文章にテスト中である旨が書いてあります。
 
 
 ## 他にやったこと
