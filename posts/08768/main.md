@@ -15,7 +15,7 @@ Copyright: (C) Ryuichi Ueda
 と言われて迷惑しているらしい</strong>
 
 <!--nextpage-->
-<h2 style="text-align: center;">近況1:
+<h2 style="">近況1:
 シェル芸勉強会4周年</h2>
 <ul>
  	<li style="text-align: left;">第一回: hbstudy #38 にて（2012年10月27日）
@@ -63,15 +63,17 @@ Copyright: (C) Ryuichi Ueda
  	<li>ゆるく</li>
 </ol>
 <!--nextpage-->
-<p style="text-align: center;">これからもゆるくお付き合いください</p>
-<!--nextpage-->
-<h2 style="text-align: center;">近況2:
-ソフトウェアデザイン</h2>
-<p style="text-align: center;">1月号（12月発売）で何かが起こる</p>
-<p style="text-align: center;"><!--nextpage--></p>
 
-<h2 style="text-align: center;">近況3: 執筆</h2>
-<p style="text-align: center;">本書いてます。シェルとPythonとCというごった煮感。</p>
+<p style="">これからもゆるくお付き合いください</p>
+
+<!--nextpage-->
+<h2 style="">近況2:
+ソフトウェアデザイン</h2>
+<p style="">1月号（12月発売）で何かが起こる</p>
+<p style=""><!--nextpage--></p>
+
+<h2 style="">近況3: 執筆</h2>
+<p style="">本書いてます。シェルとPythonとCというごった煮感。</p>
 &nbsp;
 
 <!--nextpage-->

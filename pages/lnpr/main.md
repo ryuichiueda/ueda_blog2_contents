@@ -32,7 +32,38 @@ Copyright: (C) Ryuichi Ueda
 
 <h2 id="typo">訂正</h2>
 
-* 第1刷以前
+
+|場所|訂正前/後|発見者|一言|
+|:---|:-----|------|:-----|
+|p.16 本文下から2行目|とうてい受け入れにくい$$\longrightarrow$$とうてい受け入れがたい|上田|「難い」をひらがなに直すときに手違いがありました。|
+
+### 第2刷以前
+
+　「ある作業」のため、この2日で大量に訂正が出ましたが、これで一旦おさまる予定です。
+
+|場所|訂正前/後|発見者|一言|
+|:---|:-----|------|:-----|
+|p.8 「冷戦期」の下の文|Roudolf$$\longrightarrow$$Rudolf||大変失礼いたしました。|
+|p.8 下から10行目|ネリ・ゴードン（Neli ...$$\longrightarrow$$ニール・ゴードン（Neil ...||ずーっと間違えて覚えてました。名前間違えるのは最悪です。すんません・・・|
+|p.19 本文9行目|こと分かります。$$\longrightarrow$$ことが分かります。|||
+|p.56 数式も含めて10行目|足し合わせもの$$\longrightarrow$$足し合わせたもの|||
+|p.121 5.3.4の表題の下の行|$$\delta_{\omega\omega} = 0.2\ \delta_{\nu\omega} = 0$$$$\longrightarrow$$$$\delta_{\omega\omega} = 0.2, \delta_{\nu\omega} = 0$$|||
+|p.125 式も含めて下から10行目|は，はそれぞれ$$\longrightarrow$$はそれぞれ|||
+|p.156 式も含めて6行目|N個ぶ$$\longrightarrow$$N個選ぶ|||
+|p.239 6行目|graphbased_slam..._sensor2$$\longrightarrow$$graphbased_slam...sensor2.ipynb|||
+|p.259 本文6行目|区関数$$\longrightarrow$$区間数|||
+|p.285 下から3行目|ようにをつけて$$\longrightarrow$$ように値をつけて|||
+|p.313 12.4.1の表題の2行上|この方法には$$\longrightarrow$$この方法は|||
+|p.315 1行目|越えることに$$\longrightarrow$$越えるごとに|||
+|p.327 下から4行目|作ること相当し$$\longrightarrow$$作ることに相当し|||
+|p.345 中央|負担率（responsibilty）$$\longrightarrow$$負担率（responsibility）||愛が足りない。|
+|p.375 本文下から2行目|リポリトリ$$\longrightarrow$$リポジトリ|||
+|p.379 [Gordon 1993]|Neli$$\longrightarrow$$Neil||上に同じ。大変すみません。|
+|p.380 [Igl 2018]|Leanring$$\longrightarrow$$Learning||勢いでタイプしてそのままになってました。|
+|p.380 [Kalman 1960]|Roudolf$$\longrightarrow$$Rudolf||すみません！|
+|p.382 [Sutton 1996]|Advannces$$\longrightarrow$$Advances||Macのキーボードが・・・|
+
+### 第1刷以前
 
 |場所|訂正前/後|発見者|一言  |
 |:---|:-----|------|:-----|
@@ -40,7 +71,6 @@ Copyright: (C) Ryuichi Ueda
 |p.94 4.3節の5行目|次の4種類 $$\longrightarrow$$  次の5種類|<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/ryuichiueda?ref_src=twsrc%5Etfw">@ryuichiueda</a> 「詳解確率ロボティクス」の訂正箇所<br>p. 94：4.3節の初めから5行目「次の4種類」$$\longrightarrow$$ 「次の5種類」<br>p. 99, 100：occulusion $$\longrightarrow$$ occlusion（3箇所）<br>p. 100：cell内の8, 45, 46, 57もocclusionに修正（githubでは修正済み）</p>&mdash; Kaz Sato (@kankarara) <a href="https://twitter.com/kankarara/status/1194058048429445120?ref_src=twsrc%5Etfw">November 12, 2019</a></blockquote>|修正漏れです|
 |p.99 下から2,3行目、p.100のコードと1行目|occulusion $$\longrightarrow$$ occlusion |<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/ryuichiueda?ref_src=twsrc%5Etfw">@ryuichiueda</a> 「詳解確率ロボティクス」の訂正箇所<br>p. 94：4.3節の初めから5行目「次の4種類」→「次の5種類」<br>p. 99, 100：occulusion → occlusion（3箇所）<br>p. 100：cell内の8, 45, 46, 57もocclusionに修正（githubでは修正済み）</p>&mdash; Kaz Sato (@kankarara) <a href="https://twitter.com/kankarara/status/1194058048429445120?ref_src=twsrc%5Etfw">November 12, 2019</a></blockquote>|よくやるタイプミス&修正漏れですすみません・・・|
 |p.364 式(B.20)の右辺 | $$-\frac{1}{2}\boldsymbol{x}^\top (G^\top \Sigma_2^{-1} G - \Sigma_1^{-1})\boldsymbol{x}$$ $$\longrightarrow$$ $$-\frac{1}{2}\boldsymbol{x}^\top (G^\top \Sigma_2^{-1} G + \Sigma_1^{-1})\boldsymbol{x}$$|<blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="ja" dir="ltr">唐突なリプすいません。自分も読んでいて、ひとつ気づいたので。。。<br>詳細確率ロボティクス p364 (B.20) Ψ^(-1)に相当する( )中の真ん中の符号、－ではなくて+ではないでしょうか？</p>&mdash; ma2 (@m_ma2) <a href="https://twitter.com/m_ma2/status/1189531321397202944?ref_src=twsrc%5Etfw">October 30, 2019</a></blockquote> |すみません・・・|
-
 
 
 ## 講義用スライド
@@ -57,3 +87,6 @@ Copyright: (C) Ryuichi Ueda
 * [10. マルコフ決定過程と動的計画法](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap10_60min.html)
 * [11. 強化学習](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap11_60min.html)
 * [12. 部分観測マルコフ決定過程](https://ryuichiueda.github.io/LNPR_SLIDES/slides/chap12_60min.html)
+
+
+

@@ -39,7 +39,7 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 <h3>Q1.1</h3>
 
-<a href="https://github.com/ryuichiueda/commentary_on_graph-based_slam/blob/master/contents.tex" target="_blank">contents.txt</a>について、「\\begin{figure}と\\end{figure}」で囲まれた部分を全て抽出してください。
+<a href="https://github.com/ryuichiueda/commentary_on_graph-based_slam/blob/master/contents.tex" target="_blank">contents.tex</a>について、「\\begin{figure}と\\end{figure}」で囲まれた部分を全て抽出してください。
 
 
 <h3>Q1.2</h3>

@@ -89,7 +89,8 @@ $ echo すけふぇにんけん | sed 's/./&゛/g'
 <h2>Q5</h2>
 1秒に一つ*が伸びていくアニメーションを作ってください。
 
-[playlist type="video" ids="8740"]
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">某ムービー <a href="https://t.co/WEEFCanxsf">pic.twitter.com/WEEFCanxsf</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1205789356054605825?ref_src=twsrc%5Etfw">December 14, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <h3>解答</h3>
 
 ```bash
@@ -127,7 +128,7 @@ $ ( date -ud '20161029' +%s ; date -ud '20161030' +%s ) | xargs seq
 <h2>Q8</h2>
 次のようにサイン波を描いてください。
 
-<a href="b466fc6a3025fb4e2d7d3b98eea47814.png"><img class="aligncenter size-large wp-image-8754" src="b466fc6a3025fb4e2d7d3b98eea47814-1024x871.png" alt="%e3%82%b9%e3%82%af%e3%83%aa%e3%83%bc%e3%83%b3%e3%82%b7%e3%83%a7%e3%83%83%e3%83%88-2016-10-27-21-04-17" width="660" height="561" /></a>
+<a href="/posts/08737/b466fc6a3025fb4e2d7d3b98eea47814.png"><img class="aligncenter size-large wp-image-8754" src="/posts/08737/b466fc6a3025fb4e2d7d3b98eea47814-1024x871.png" alt="%e3%82%b9%e3%82%af%e3%83%aa%e3%83%bc%e3%83%b3%e3%82%b7%e3%83%a7%e3%83%83%e3%83%88-2016-10-27-21-04-17" width="660" height="561" /></a>
 <h3>解答</h3>
 
 ```bash
