@@ -11,7 +11,8 @@ Copyright: (C) Ryuichi Ueda
 
 |||
 |--------|-------:|
-|過去30分の閲覧数| <span id="lastmin" style="font-size:200%"></span> |
+|過去1分の閲覧数| <span id="last1min" style="font-size:200%"></span> |
+|過去30分の閲覧数| <span id="last30min" style="font-size:200%"></span> |
 |本日の閲覧数| <span id="todayvisit" style="font-size:200%"></span> |
 
 
@@ -39,7 +40,7 @@ function lastmin(min){
         if(httpReq.readyState != 4 || httpReq.status != 200)
             return;
 
-        document.getElementById("lastmin").innerHTML = httpReq.responseText;
+        document.getElementById("last"+min+"min").innerHTML = httpReq.responseText;
    }
     var url = "/analyzer/lastmin.cgi?min=" + min;
     httpReq.open("GET",url,true);
@@ -60,6 +61,7 @@ function todayvisit(){
 }
 
 
+lastmin(1);
 lastmin(30);
 lastvisit(10);
 todayvisit(10);
@@ -67,4 +69,5 @@ todayvisit(10);
 setInterval(lastvisit, 3000, 10);
 setInterval(todayvisit, 3000, 10);
 setInterval(lastmin, 3000, 30);
+setInterval(lastmin, 3000, 1);
 </script>
