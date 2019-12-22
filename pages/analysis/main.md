@@ -23,5 +23,7 @@ function lastvisit(num){
     httpReq.send(null);
 }
 
+lastvisit(10);
+
 setInterval(lastvisit, 3000, 10);
 </script>
