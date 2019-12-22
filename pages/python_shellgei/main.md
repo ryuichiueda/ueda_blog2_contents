@@ -1,5 +1,5 @@
 ---
-Keywords: 
+Keywords: シェル芸, advent calendar, クソ文体, Python, Pythonワンライナー, ベストプラクティスとかバッドプラクティスとかうるせーんだよ
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
@@ -7,7 +7,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 * この記事は[シェル芸Advent Calendar 2019](https://qiita.com/advent-calendar/2019/shellgei)の22日目の記事です。
 
-こんにちは。匿名のPythonistaです。最近、シェル芸って流行ってるらしいんですが、今時コマンドなんてレガシーでバッドプラクティスですよね？世界を席巻するPythonが優れていることをお見せするために、[このページの問題](https://b.ueda.tech/?post=20181222_shellgei_39)をPythonで解いてみましょう。簡単ですね。Python<span style="font-size:50%">ワンライナー</span>なら。
+こんにちは。匿名のPythonistaです。最近、シェル芸って流行ってるらしいんですが、今時コマンドなんてレガシーでバッドプラクティスですよね？世界を席巻するPython<span style="font-size:50%">ワンライナー</span>が優れていることをお見せするために、[このページの問題](https://b.ueda.tech/?post=20181222_shellgei_39)をPython<span style="font-size:50%">ワンライナー</span>で解いてみましょう。簡単ですね。Python<span style="font-size:50%">ワンライナー</span>なら。
 
 
 ## Q1
@@ -18,7 +18,7 @@ Copyright: (C) 2019 Ryuichi Ueda
 $ cat wrong.md | python -c 'import sys;import re;a=[re.sub(r"\(([^()]+
 )\)\[([^\[\]]+)\]",r"[\1](\2)", s) for s in sys.stdin];a=[re.sub(r"\[(
 http[^\[\]]+)\]\(([^()]+)\)", r"[\2](\1)", e) for e in a];a=[re.sub(r"
-\[([^\[\]]+).svg\]\(([^()]+)\)", r"[\2](\1)", e) for e in a];print("".
+\[([^\[\]]+.svg)\]\(([^()]+)\)", r"[\2](\1)", e) for e in a];print("".
 join(a))'
 # わたしはマークダウソちょっとできる
 
@@ -30,7 +30,7 @@ join(a))'
 * [高崎ハム](http://takasakiham.com/?transactionid=8e5164a76108c8411e7547d69e0dd0fd443f072a)
 
 
-![たかさきしししょう](群馬県高崎市市章)
+![たかさきしししょう](群馬県高崎市市章.svg)
 ```
 
 ## Q2
@@ -153,4 +153,4 @@ print("".join(a))' yabatanien ; sleep 1 ; clear ; cat yabatanien ; sleep
 
 ## やってみた感想
 
-簡単なわけないだろ💢3時間くらいかかったぞ💢なんだよ匿名のPythonistaって。上にデカデカと「上田ブログ」って書いてあるじゃねーか。うんこだうんこ。寝る。すんませんでした。
+簡単なわけないだろ💢半日かかったぞ💢なんだよ匿名のPythonistaって。上にデカデカと「上田ブログ」って書いてあるじゃねーか。うんこだうんこ。寝る。すんませんでした。
