@@ -6,6 +6,8 @@ Copyright: (C) Ryuichi Ueda
 
 # サイトの統計
 
+<span id="lastmin"></span>
+
 ## 現在閲覧されているページ
 
 <span id="lastvisit"></span>
@@ -24,7 +26,22 @@ function lastvisit(num){
     httpReq.send(null);
 }
 
+function lastmin(num){
+    var httpReq = new XMLHttpRequest();
+    httpReq.onreadystatechange = function(){
+        if(httpReq.readyState != 4 || httpReq.status != 200)
+            return;
+
+        document.getElementById("lastmin").innerHTML = httpReq.responseText;
+   }
+    var url = "/analyzer/lastmin.cgi?num=" + min;
+    httpReq.open("GET",url,true);
+    httpReq.send(null);
+}
+
+lastmin(30);
 lastvisit(10);
 
 setInterval(lastvisit, 3000, 10);
+setInterval(lastmin, 3000, 30);
 </script>
