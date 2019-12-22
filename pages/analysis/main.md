@@ -6,13 +6,15 @@ Copyright: (C) Ryuichi Ueda
 
 # サイトの統計
 
-<span id="lastmin"></span>
 
 ## リアルタイム統計
 
-* 過去30分の閲覧数: <span id="lastvisit"></span>
+* 過去30分の閲覧数: <span id="lastmin"></span>
+
 
 ### 現在閲覧されているページ
+
+<span id="lastvisit"></span>
 
 <script>
 function lastvisit(num){
