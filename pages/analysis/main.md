@@ -5,6 +5,8 @@ Copyright: (C) Ryuichi Ueda
 
 # サイトの統計
 
+## 現在閲覧されているページ
+
 <span id="lastvisit"></span>
 
 <script>
