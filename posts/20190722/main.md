@@ -1,5 +1,5 @@
 ---
-Keywords: 日記,bashcms本,確率ロボティクス本
+Keywords: 日記,bashcms2,詳解確率ロボティクス
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 

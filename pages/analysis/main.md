@@ -20,8 +20,6 @@ Copyright: (C) Ryuichi Ueda
 
 <span id="lastvisit"></span>
 
-### その他
-
 <script>
 function lastvisit(num){
     var httpReq = new XMLHttpRequest();
