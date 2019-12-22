@@ -9,6 +9,10 @@ Copyright: (C) Ryuichi Ueda
 
 ## リアルタイム統計
 
+|--------|-------:|
+|過去30分の閲覧数| <span id="lastmin" style="font-size:200%"></span> |
+|本日の閲覧数| <span id="todayvisit" style="font-size:200%"></span> |
+
 * 過去30分の閲覧数: <span id="lastmin" style="font-size:200%"></span>
 * 本日の閲覧数: <span id="todayvisit" style="font-size:200%"></span>
 
