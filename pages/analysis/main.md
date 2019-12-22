@@ -7,10 +7,10 @@ Copyright: (C) Ryuichi Ueda
 # サイトの統計
 
 
-## リアルタイム統計
+## リアルタイム
 
 |||
-|--------|-------:|
+|--------|:-------|
 |過去1分の閲覧数| <span id="last1min" style="font-size:200%"></span> |
 |過去30分の閲覧数| <span id="last30min" style="font-size:200%"></span> |
 |本日の閲覧数| <span id="todayvisit" style="font-size:200%"></span> |
@@ -19,6 +19,8 @@ Copyright: (C) Ryuichi Ueda
 ### 現在閲覧されているページ
 
 <span id="lastvisit"></span>
+
+### その他
 
 <script>
 function lastvisit(num){
