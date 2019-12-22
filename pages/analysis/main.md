@@ -26,7 +26,7 @@ function lastvisit(num){
     httpReq.send(null);
 }
 
-function lastmin(num){
+function lastmin(min){
     var httpReq = new XMLHttpRequest();
     httpReq.onreadystatechange = function(){
         if(httpReq.readyState != 4 || httpReq.status != 200)
@@ -34,7 +34,7 @@ function lastmin(num){
 
         document.getElementById("lastmin").innerHTML = httpReq.responseText;
    }
-    var url = "/analyzer/lastmin.cgi?num=" + min;
+    var url = "/analyzer/lastmin.cgi?min=" + min;
     httpReq.open("GET",url,true);
     httpReq.send(null);
 }
