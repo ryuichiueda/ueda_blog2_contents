@@ -57,7 +57,7 @@ links:
   - text: 'シェル芸'
     href: '/?page=01434'
   - text: 'bashcms2'
-    href: '/?page=bashcms2'
+    href: '/?page=bashcms2_dev'
   - text: 'opy（ワンライナー用Python）'
     href: '/?page=opy'
   - text: 'GlueLang'
