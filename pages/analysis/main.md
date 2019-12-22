@@ -89,3 +89,24 @@ setInterval(lastmin, 3000, 30);
 setInterval(lastmin, 3000, 1);
 setInterval(allpv, 3000);
 </script>
+
+## 毎月の閲覧数
+
+<span id="monthly"></span>
+
+<script>
+function monthly(){
+    var httpReq = new XMLHttpRequest();
+    httpReq.onreadystatechange = function(){
+        if(httpReq.readyState != 4 || httpReq.status != 200)
+            return;
+
+        document.getElementById("monthly").innerHTML = httpReq.responseText;
+   }
+    var url = "/analyzer/monthly.cgi?d=" + new Date();
+    httpReq.open("GET",url,true);
+    httpReq.send(null);
+}
+
+monthly();
+</script>
