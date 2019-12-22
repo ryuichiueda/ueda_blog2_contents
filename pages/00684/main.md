@@ -103,7 +103,7 @@ Copyright: (C) Ryuichi Ueda
  	<li>解答つき：<a href="/?post=03535">/?p=3535</a></li>
 </ul>
 <h2>第11回</h2>
-<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px; max-width: 100%;" src="https://www.slideshare/g.net/slideshow/embed_code/35863341" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
+<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px; max-width: 100%;" src="//www.slideshare/g.net/slideshow/embed_code/35863341" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 <div style="margin-bottom: 5px;"><strong> <a title="jus &amp; USP友の会共催 シェルワンライナー勉強会@関西（第11回シェル芸勉強会）" href="https://www.slideshare.net/ryuichiueda/20140614-jus-uspstudy" target="_blank" rel="noopener">jus &amp; USP友の会共催 シェルワンライナー勉強会@関西（第11回シェル芸勉強会）</a> </strong> from <strong><a href="https://www.slideshare/g.net/ryuichiueda" target="_blank" rel="noopener">Ryuichi Ueda</a></strong></div>
 <h2>第10回</h2>
 <ul>
@@ -117,29 +117,29 @@ Copyright: (C) Ryuichi Ueda
  	<li>解答つき：<a href="/?post=01955">/?p=1955</a></li>
 </ul>
 <h2>第8回</h2>
-<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="https://www.slideshare/g.net/slideshow/embed_code/29426544" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
+<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="//www.slideshare/g.net/slideshow/embed_code/29426544" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 <div style="margin-bottom: 5px;"><strong> <a href="https://www.slideshare.net/ryuichiueda/20131222-8" target="_blank" rel="noopener">20131222 第８回シェル芸勉強会</a> </strong> from <strong><a href="https://www.slideshare/g.net/ryuichiueda" target="_blank" rel="noopener">Ryuichi Ueda</a></strong></div>
 <h2>第7回</h2>
-<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="https://www.slideshare/g.net/slideshow/embed_code/27846323" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
+<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="//www.slideshare/g.net/slideshow/embed_code/27846323" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 <div style="margin-bottom: 5px;"><strong> <a title="20131102 第7回シェル芸勉強会" href="https://www.slideshare.net/ryuichiueda/20131102-27846323" target="_blank" rel="noopener">20131102 第7回シェル芸勉強会</a> </strong> from <strong><a href="https://www.slideshare/g.net/ryuichiueda" target="_blank" rel="noopener">Ryuichi Ueda</a></strong></div>
 <h2>第6回 in <a href="http://ll.jus.or.jp/2013/" target="_blank" rel="noopener">LLまつり</a></h2>
-<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="https://www.slideshare/g.net/slideshow/embed_code/25543981" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
+<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="//www.slideshare/g.net/slideshow/embed_code/25543981" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 <div style="margin-bottom: 5px;"><strong> <a title="20130824　第六回チャンピオンシップシェル芸ランナー勉強会 in LLまつり" href="https://www.slideshare.net/ryuichiueda/20130824" target="_blank" rel="noopener">20130824　第六回チャンピオンシップシェル芸ランナー勉強会 in LLまつり</a> </strong> from <strong><a href="https://www.slideshare/g.net/ryuichiueda" target="_blank" rel="noopener">Ryuichi Ueda</a></strong></div>
 <h2>第5回</h2>
-<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="https://www.slideshare/g.net/slideshow/embed_code/23348634" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="//www.slideshare/g.net/slideshow/embed_code/23348634" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 <div style="margin-bottom: 5px;"><strong> <a title="20130622第5回シェル芸勉強会スライド" href="https://www.slideshare/g.net/ryuichiueda/20130622-23348634" target="_blank" rel="noopener">20130622第5回シェル芸勉強会スライド</a> </strong> from <strong><a href="https://www.slideshare/g.net/ryuichiueda" target="_blank" rel="noopener">Ryuichi Ueda</a></strong></div>
 <h2>第4回</h2>
-<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="https://www.slideshare/g.net/slideshow/embed_code/18763665" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
+<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="//www.slideshare/g.net/slideshow/embed_code/18763665" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 <div style="margin-bottom: 5px;"><strong> <a title="20130413シェル芸勉強会スライド" href="https://www.slideshare/g.net/ryuichiueda/20130406-18763665" target="_blank" rel="noopener">20130413シェル芸勉強会スライド</a> </strong> from <strong><a href="https://www.slideshare/g.net/ryuichiueda" target="_blank" rel="noopener">Ryuichi Ueda</a></strong></div>
 <h2>番外編（OSC 2013 Tokyo/Spring）</h2>
-<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="https://www.slideshare/g.net/slideshow/embed_code/16718618" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
+<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="//www.slideshare/g.net/slideshow/embed_code/16718618" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 <div style="margin-bottom: 5px;"><strong> <a title="20130223 OSC Tokyo/Spring" href="https://www.slideshare.net/ryuichiueda/20130223-osc-tokyospring" target="_blank" rel="noopener">20130223 OSC Tokyo/Spring</a> </strong> from <strong><a href="https://www.slideshare/g.net/ryuichiueda" target="_blank" rel="noopener">Ryuichi Ueda</a></strong></div>
 <h2>第3回</h2>
-<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="https://www.slideshare/g.net/slideshow/embed_code/16574641" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
+<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="//www.slideshare/g.net/slideshow/embed_code/16574641" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 <div style="margin-bottom: 5px;"><strong> <a title="20130216 シェル芸爆破デスマッチ勉強会" href="https://www.slideshare/g.net/ryuichiueda/20130216-16574641" target="_blank" rel="noopener">20130216 シェル芸爆破デスマッチ勉強会</a> </strong> from <strong><a href="https://www.slideshare/g.net/ryuichiueda" target="_blank" rel="noopener">Ryuichi Ueda</a></strong></div>
 <h2>第2回</h2>
-<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="https://www.slideshare/g.net/slideshow/embed_code/15544568" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
+<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="//www.slideshare/g.net/slideshow/embed_code/15544568" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 <div style="margin-bottom: 5px;"><strong> <a title="Uspstudy20121208qonly" href="https://www.slideshare/g.net/ryuichiueda/uspstudy20121208qonly" target="_blank" rel="noopener">Uspstudy20121208qonly</a> </strong> from <strong><a href="https://www.slideshare/g.net/ryuichiueda" target="_blank" rel="noopener">Ryuichi Ueda</a></strong></div>
 <h2>第1回</h2>
-<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="https://www.slideshare/g.net/slideshow/embed_code/14915022" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
+<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="//www.slideshare/g.net/slideshow/embed_code/14915022" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 <div style="margin-bottom: 5px;"><strong> <a title="2012年10月27日 Hbstudy#38" href="https://www.slideshare/g.net/ryuichiueda/20121027-hbstudy38" target="_blank" rel="noopener">2012年10月27日 Hbstudy#38</a> </strong> from <strong><a href="https://www.slideshare/g.net/ryuichiueda" target="_blank" rel="noopener">Ryuichi Ueda</a></strong></div>
