@@ -9,11 +9,14 @@ Copyright: (C) Ryuichi Ueda
 
 ## リアルタイム
 
+### 閲覧数
+
 |||
 |----|----:|
-|過去1分の閲覧数| <span id="last1min" style="font-size:200%"></span> |
-|過去30分の閲覧数| <span id="last30min" style="font-size:200%"></span> |
-|本日の閲覧数| <span id="todayvisit" style="font-size:200%"></span> |
+|過去1分| <span id="last1min" style="font-size:200%"></span> |
+|過去30分| <span id="last30min" style="font-size:200%"></span> |
+|本日| <span id="todayvisit" style="font-size:200%"></span> |
+|通算| <span id="allpv" style="font-size:200%"></span> |
 
 
 ### 現在閲覧されているページ
@@ -60,14 +63,29 @@ function todayvisit(){
     httpReq.send(null);
 }
 
+function allpv(){
+    var httpReq = new XMLHttpRequest();
+    httpReq.onreadystatechange = function(){
+        if(httpReq.readyState != 4 || httpReq.status != 200)
+            return;
+
+        document.getElementById("apppv").innerHTML = httpReq.responseText;
+   }
+    var url = "/analyzer/allpv.cgi?d=" + new Date();
+    httpReq.open("GET",url,true);
+    httpReq.send(null);
+}
+
 
 lastmin(1);
 lastmin(30);
 lastvisit(10);
 todayvisit(10);
+allpv();
 
 setInterval(lastvisit, 3000, 10);
 setInterval(todayvisit, 3000, 10);
 setInterval(lastmin, 3000, 30);
 setInterval(lastmin, 3000, 1);
+setInterval(allpv, 3000);
 </script>
