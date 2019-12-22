@@ -16,7 +16,7 @@ Copyright: (C) Ryuichi Ueda
 |過去1分| <span id="last1min" style="font-size:200%"></span> |
 |過去30分| <span id="last30min" style="font-size:200%"></span> |
 |本日| <span id="todayvisit" style="font-size:200%"></span> |
-|通算| <span id="allpv" style="font-size:200%"></span> |
+|通算（2017年10月〜）| <span id="allpv" style="font-size:200%"></span> |
 
 
 ### 現在閲覧されているページ
