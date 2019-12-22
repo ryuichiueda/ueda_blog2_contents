@@ -69,7 +69,7 @@ function allpv(){
         if(httpReq.readyState != 4 || httpReq.status != 200)
             return;
 
-        document.getElementById("apppv").innerHTML = httpReq.responseText;
+        document.getElementById("allpv").innerHTML = httpReq.responseText;
    }
     var url = "/analyzer/allpv.cgi?d=" + new Date();
     httpReq.open("GET",url,true);
