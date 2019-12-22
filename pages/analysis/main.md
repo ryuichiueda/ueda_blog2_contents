@@ -10,6 +10,7 @@ Copyright: (C) Ryuichi Ueda
 ## リアルタイム統計
 
 * 過去30分の閲覧数: <span id="lastmin" style="font-size:200%"></span>
+* 本日の閲覧数: <span id="todayvisit" style="font-size:200%"></span>
 
 
 ### 現在閲覧されているページ
@@ -43,9 +44,25 @@ function lastmin(min){
     httpReq.send(null);
 }
 
+function todayvisit(){
+    var httpReq = new XMLHttpRequest();
+    httpReq.onreadystatechange = function(){
+        if(httpReq.readyState != 4 || httpReq.status != 200)
+            return;
+
+        document.getElementById("todayvisit").innerHTML = httpReq.responseText;
+   }
+    var url = "/analyzer/todayvisit.cgi?d=" + new Date();
+    httpReq.open("GET",url,true);
+    httpReq.send(null);
+}
+
+
 lastmin(30);
 lastvisit(10);
+todayvisit(10);
 
 setInterval(lastvisit, 3000, 10);
+setInterval(todayvisit, 3000, 10);
 setInterval(lastmin, 3000, 30);
 </script>
