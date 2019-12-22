@@ -8,9 +8,11 @@ Copyright: (C) Ryuichi Ueda
 
 <span id="lastmin"></span>
 
-## 現在閲覧されているページ
+## リアルタイム統計
 
-<span id="lastvisit"></span>
+* 過去30分の閲覧数: <span id="lastvisit"></span>
+
+### 現在閲覧されているページ
 
 <script>
 function lastvisit(num){
