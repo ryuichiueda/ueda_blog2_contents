@@ -10,7 +10,7 @@ Copyright: (C) Ryuichi Ueda
 ## リアルタイム
 
 |||
-|--------|:-------|
+|----|----:|
 |過去1分の閲覧数| <span id="last1min" style="font-size:200%"></span> |
 |過去30分の閲覧数| <span id="last30min" style="font-size:200%"></span> |
 |本日の閲覧数| <span id="todayvisit" style="font-size:200%"></span> |
