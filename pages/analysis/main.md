@@ -9,7 +9,7 @@ Copyright: (C) Ryuichi Ueda
 
 ## リアルタイム統計
 
-* 過去30分の閲覧数: <span id="lastmin"></span>
+* 過去30分の閲覧数: <span id="lastmin" style="font-size:200%"></span>
 
 
 ### 現在閲覧されているページ
