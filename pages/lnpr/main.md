@@ -1,4 +1,5 @@
 ---
+Keywords: 詳解確率ロボティクス
 Copyright: (C) Ryuichi Ueda
 ---
 

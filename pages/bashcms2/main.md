@@ -1,4 +1,5 @@
 ---
+Keywords: bashcms2
 Copyright: (C) Ryuichi Ueda
 ---
 

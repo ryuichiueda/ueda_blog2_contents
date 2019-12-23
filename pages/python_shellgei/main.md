@@ -1,5 +1,5 @@
 ---
-Keywords: 
+Keywords: シェル芸, advent calendar, クソ文体, Python, Pythonワンライナー, ベストプラクティスとかバッドプラクティスとかうるせーんだよ, やさぐれ
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 

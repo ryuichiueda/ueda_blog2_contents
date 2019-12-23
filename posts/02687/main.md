@@ -1,5 +1,5 @@
 ---
-Keywords: サブシェル,グループコマンド,bash,未分類
+Keywords: サブシェル,グループコマンド,bash,
 Copyright: (C) 2017 Ryuichi Ueda
 ---
 
