@@ -114,5 +114,19 @@ function monthly(){
     httpReq.send(null);
 }
 
+function daily(){
+    var httpReq = new XMLHttpRequest();
+    httpReq.onreadystatechange = function(){
+        if(httpReq.readyState != 4 || httpReq.status != 200)
+            return;
+
+        document.getElementById("daily").innerHTML = httpReq.responseText;
+   }
+    var url = "/analyzer/daily.cgi?d=" + new Date();
+    httpReq.open("GET",url,true);
+    httpReq.send(null);
+}
+
 monthly();
+daily();
 </script>
