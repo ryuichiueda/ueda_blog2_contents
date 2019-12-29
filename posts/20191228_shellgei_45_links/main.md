@@ -48,7 +48,16 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ### LT資料（東京のみ掲載）
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">cat &lt;&lt; EOS<br>先程の発表資料はこちら<a href="https://t.co/SCLn1MTf1f">https://t.co/SCLn1MTf1f</a><br><br>アプリはこちら<a href="https://t.co/blZtx6hJeU">https://t.co/blZtx6hJeU</a><br>EOS<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; 次郎☁️[12:22:48] (@jiro_saburomaru) <a href="https://twitter.com/jiro_saburomaru/status/1210839098522365952?ref_src=twsrc%5Etfw">December 28, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">本日はありがとうございましたLTの資料になります <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><br><br>異体字セレクタ難読化シェル芸<a href="https://t.co/WUVd0PhF4l">https://t.co/WUVd0PhF4l</a></p>&mdash; kanata (@kanata201612) <a href="https://twitter.com/kanata201612/status/1210919040320860160?ref_src=twsrc%5Etfw">December 28, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">こちら先程の資料です <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><a href="https://t.co/94nJ3LPsVW">https://t.co/94nJ3LPsVW</a></p>&mdash; Ryoto (@systemctl_ryoto) <a href="https://twitter.com/systemctl_ryoto/status/1210855634029043717?ref_src=twsrc%5Etfw">December 28, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">本日のシェル芸勉強会#45 鉄道部活動報告LTです。<br>2019-2020年越しJR東京近郊区間乗りつぶし大回り計画<a href="https://t.co/FxvAK7ACAV">https://t.co/FxvAK7ACAV</a><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; ヘキソミノ (@Hexomino) <a href="https://twitter.com/Hexomino/status/1210903399316606976?ref_src=twsrc%5Etfw">December 28, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## ブログなど
 
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">第45回 シェル芸勉強会の振り返り書いた<a href="https://t.co/k6WfWQp5LF">https://t.co/k6WfWQp5LF</a><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; 次郎☁️[12:22:48] (@jiro_saburomaru) <a href="https://twitter.com/jiro_saburomaru/status/1211092735198806017?ref_src=twsrc%5Etfw">December 29, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
