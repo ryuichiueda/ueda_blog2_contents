@@ -90,7 +90,13 @@ setInterval(lastmin, 3000, 1);
 setInterval(allpv, 3000);
 </script>
 
-## 毎月の閲覧数
+## 閲覧数
+
+### 日次（過去10日間）
+
+<span id="daily"></span>
+
+### 月次
 
 <span id="monthly"></span>
 
