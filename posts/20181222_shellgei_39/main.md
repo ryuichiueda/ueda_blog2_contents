@@ -112,6 +112,8 @@ $ cat index.html  | sed 's/</\n</g' | grep -m1 '<meta' | nkf --numchar-input
 
 `index.html`からstyle要素を`index.css`、script要素を`index.js`ファイルに保存してください。タグは取り払ってください。適切な場所に改行が入っても構いません。無理にワンライナーでやる必要はありません。
 
+### 解答
+
 ```
 $ cat index.html | sed 's/<[^<]*>/\n&\n/g'  |
 awk '/^<script/,/^<\/script>/{print > "index.js"}/^<style/,/^<\/style/{print > "index.css"}' ;

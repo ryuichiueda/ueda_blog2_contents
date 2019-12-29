@@ -73,12 +73,6 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 `index.html`のstyle要素を`index.css`、script要素を`index.js`ファイルに保存してください。タグは取り払ってください。適切な場所に改行が入っても構いません。無理にワンライナーでやる必要はありません。
 
-```
-$ cat index.html | sed 's/<[^<]*>/\n&\n/g'  |
-awk '/^<script/,/^<\/script>/{print > "index.js"}/^<style/,/^<\/style/{print > "index.css"}' ;
-sed -i 's/<[^<]*>//' index.css index.js
-```
-
 
 ## Q5
 
