@@ -41,9 +41,9 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## 資料
 
-### 午前
-
 ### 午後のオープニングスライド
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/NzgFaTRtrIyort" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ryuichiueda/45-212278408" title="第45回シェル芸勉強会オープニングスライド" target="_blank">第45回シェル芸勉強会オープニングスライド</a> </strong> from <strong><a href="https://www.slideshare.net/ryuichiueda" target="_blank">Ryuichi Ueda</a></strong> </div>
 
 
 ### LT資料（東京のみ掲載）
