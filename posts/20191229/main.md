@@ -38,6 +38,9 @@ OCamlのバージョンをSatysfiに合わせなきゃいけないところが
 
 　メンバーの皆さんの作った問題の確認と解答の追加など。
 
+## ウェブサイト（bashcms2）の機能追加
+
+　[このページ](/?page=analysis)に日次のPV数の表示を追加。システムに[このCGIスクリプト](https://github.com/ryuichiueda/bashcms2/blob/ueda_site/bin/analyzer/daily.cgi)を加えて、ページのMarkdownの中にJavaScriptとHTMLを書いて実装。
 
 
 以上。明日は早起きして家族を羽田に送る。（車は持ってないので電車で。）寝る。
