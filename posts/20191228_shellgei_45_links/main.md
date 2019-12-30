@@ -24,6 +24,10 @@ Copyright: (C) 2019 Ryuichi Ueda
 
 ## サテライトの様子
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました<br>第45回シェル芸勉強会 大阪サテライト レポート<a href="https://t.co/UpEHrslkOc">https://t.co/UpEHrslkOc</a></p>&mdash; so (@3socha) <a href="https://twitter.com/3socha/status/1211564066633728000?ref_src=twsrc%5Etfw">December 30, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 
 ## ストリーミング
 
