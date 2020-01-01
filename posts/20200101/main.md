@@ -33,7 +33,7 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 　OCamlを踏まえた上で[SATySFiの解説](https://github.com/gfngfn/SATySFi/wiki/The-SATySFi%E2%80%8Bbook-Web%E5%85%AC%E9%96%8B%E7%89%88-%E7%AC%AC1%E7%89%88)を読み直す。当然ながら分かりが進んだ。
 
-　その後、自分でsubsectionをカスタマイズしようとしたけど玉砕。分かりが進んだけど何にも分からん。
+　その後、自分でsubsectionをカスタマイズしようとしたけど玉砕。分かりが進んだけど何にも分からん。その後さらにねばったけどテキストに出てくる`ref-lemma`がないので探しまくったけど見つからず助けてほしいけど助けを求める体力が残ってない。
 
 
 寝る。
