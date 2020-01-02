@@ -60,6 +60,12 @@ defaultdict(<class 'int'>, {'a': 3, 'b': 4})
 キーごとにデータを全て保存することを簡単にします。
 
 ```
+### キーごとにデータを保存して最後にprint ###
 $ echo -e 'a 1\nb 2\na 3\nb 4' | opy '{K[F1].append(F2)};E:[K]'
 defaultdict(<class 'list'>, {'a': [1, 3], 'b': [2, 4]})
+### キーごとに最大値を求める ###
+$ echo -e 'a 1\nb 2\na 3\nb 4' 
+| opy '{K[F1].append(F2)};E:[{k:max(K[k]) for k in K}]'
+{'a': 3, 'b': 4}
 ```
+
