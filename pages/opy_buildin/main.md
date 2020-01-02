@@ -69,5 +69,14 @@ defaultdict(<class 'list'>, {'a': [1, 3], 'b': [2, 4]})
 $ echo -e 'a 1\nb 2\na 3\nb 4' 
 | opy '{K[F1].append(F2)};E:[{k:max(K[k]) for k in K}]'
 {'a': 3, 'b': 4}
+### 複数の値も保存可能 ###
+$ echo -e 'a 1\nb 2 c\na 3\nb 4 e'
+a 1
+b 2 c
+a 3
+b 4 e
+$ echo -e 'a 1\nb 2 c\na 3\nb 4 e' 
+| opy '{K[F1].append(F[2:])};E:[K]'
+defaultdict(<class 'list'>, {'a': [[1], [3]], 'b': [[2, 'c'], [4, 'e']]})
 ```
 
