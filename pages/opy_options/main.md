@@ -2,7 +2,7 @@
 Copyright: (C) Ryuichi Ueda
 ---
 
-# the opy book | 6. オプション
+# the opy book / 6. オプション
 
 
 * [目次に戻る](/?page=opy_book)
