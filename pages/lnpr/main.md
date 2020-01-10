@@ -5,28 +5,7 @@ Copyright: (C) Ryuichi Ueda
 
 # 詳解確率ロボティクス
 
-<span style="color:red">電子版発売！</span>
-
-<div class="card">
-  <div class="row no-gutters">
-    <div class="col-md-2">
-      <a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4065170060/ryuichiueda-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51YzQqKHi8L._SL160_.jpg" width="114" alt="photo"></a>
-    </div>
-    <div class="col-md-10">
-      <div class="card-body">
-        <dl class="fn" style="font-size:80%">
-          <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4065170060/ryuichiueda-22">詳解 確率ロボティクス Pythonによる基礎アルゴリズムの実装 (KS理工学専門書)</a></dt>
-          <dd>[上田 隆一]</dd>
-          <dd>講談社 2019-10-27</dd>
-        </dl>
-        <p class="powered-by" >(powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.1)</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">詳解 確率ロボティクス Pythonによる基礎アルゴリズムの実装 KS理工学専門書 (上田隆一) の、紀伊國屋電子書籍版が予約開始されました。金曜配信。<a href="https://t.co/oXnAXP9VzV">https://t.co/oXnAXP9VzV</a></p>&mdash; 紀伊國屋電子書籍Kinoppy新刊情報 (@kinokuniyanew) <a href="https://twitter.com/kinokuniyanew/status/1206814690237546496?ref_src=twsrc%5Etfw">December 17, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<span style="color:red">増版（第3刷）決定！</span>
 
 
 ## リポジトリ一覧
@@ -90,3 +69,25 @@ Copyright: (C) Ryuichi Ueda
 
 
 
+## 電子書籍
+
+<div class="card">
+  <div class="row no-gutters">
+    <div class="col-md-2">
+      <a class="item url" href="https://www.amazon.co.jp/exec/obidos/ASIN/4065170060/ryuichiueda-22"><img src="https://images-fe.ssl-images-amazon.com/images/I/51YzQqKHi8L._SL160_.jpg" width="114" alt="photo"></a>
+    </div>
+    <div class="col-md-10">
+      <div class="card-body">
+        <dl class="fn" style="font-size:80%">
+          <dt><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4065170060/ryuichiueda-22">詳解 確率ロボティクス Pythonによる基礎アルゴリズムの実装 (KS理工学専門書)</a></dt>
+          <dd>[上田 隆一]</dd>
+          <dd>講談社 2019-10-27</dd>
+        </dl>
+        <p class="powered-by" >(powered by <a href="https://github.com/spiegel-im-spiegel/amazon-item" >amazon-item</a> v0.2.1)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">詳解 確率ロボティクス Pythonによる基礎アルゴリズムの実装 KS理工学専門書 (上田隆一) の、紀伊國屋電子書籍版が予約開始されました。金曜配信。<a href="https://t.co/oXnAXP9VzV">https://t.co/oXnAXP9VzV</a></p>&mdash; 紀伊國屋電子書籍Kinoppy新刊情報 (@kinokuniyanew) <a href="https://twitter.com/kinokuniyanew/status/1206814690237546496?ref_src=twsrc%5Etfw">December 17, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
