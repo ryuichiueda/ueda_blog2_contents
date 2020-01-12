@@ -18,7 +18,7 @@ Copyright: (C) Ryuichi Ueda
 
 |場所|訂正前/後|発見者|一言|
 |:---|:-----|------|:-----|
-|p.147 式(6.26)| $$\hat{\mu}_x$$ $$\longrightarrow$$ $$\hat{\mu}_y$$|<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/ryuichiueda?ref_src=twsrc%5Etfw">@ryuichiueda</a> <br>突然のリプライで申し訳ありません。確率ロボティクスの本のP147式6.26ですがy側の信念分布の中心点の係数がxになっている理由を教えていただけないでしょうか。<br>距離計測なのでy成分だと思っていました。</p>&mdash; Acky_F (@AckyF1) <a href="https://twitter.com/AckyF1/status/1216181205361520640?ref_src=twsrc%5Etfw">January 12, 2020</a></blockquote>|校正から漏れました|
+|p.147 式(6.26)| $$\hat{\mu}_x - m_y$$ $$\longrightarrow$$ $$\hat{\mu}_y - m_y$$|<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/ryuichiueda?ref_src=twsrc%5Etfw">@ryuichiueda</a> <br>突然のリプライで申し訳ありません。確率ロボティクスの本のP147式6.26ですがy側の信念分布の中心点の係数がxになっている理由を教えていただけないでしょうか。<br>距離計測なのでy成分だと思っていました。</p>&mdash; Acky_F (@AckyF1) <a href="https://twitter.com/AckyF1/status/1216181205361520640?ref_src=twsrc%5Etfw">January 12, 2020</a></blockquote>|校正から漏れました|
 
 ### 第2刷以前
 
