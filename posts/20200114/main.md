@@ -33,7 +33,7 @@ Copyright: (C) 2020 Ryuichi Ueda
 　OSはUbuntuなんですけど、一番困るのはAdobeのソフトが使えないことで、特に「論文に貼るepsをどう作るか」を自分が納得の行く方法で解決しないと、Windowsユーザになっちまいます（別にいいけど）。
 
 
-　で、InkSpaceとGimpをとりあえずインストールしたんですけど、モニタ解像度が高すぎてアイコンの設定をどれだけいじっても大きくならない。しかもInkSpaceだとepsがいろいろめんどくさい。
+　で、InkSpaceとGimpをとりあえずインストールしたんですけど、モニタの解像度が高すぎてアイコンの設定をどれだけいじっても大きくならない。しかもInkSpaceだとepsがいろいろめんどくさい。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">InkSpace、何をどう頑張ってもこれ以上アイコンが大きくならない問題。（左右両端にゴマみたいなアイコンがあるよ！） <a href="https://t.co/ZwZ23OPedX">pic.twitter.com/ZwZ23OPedX</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1217088578397696001?ref_src=twsrc%5Etfw">January 14, 2020</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
