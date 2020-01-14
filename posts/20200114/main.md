@@ -47,5 +47,18 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 論文だとそんなに凝った作画はしないので、しばらくDrawで頑張ってみようと思います。
 
+## jjを日本語で打ってしまう問題について対策
+
+　VimでEscの代わりにjjと打つ設定を使っているのですが、よく日本語モードのまま打ってしまうので、日本語でもEscになるように設定ファイルを追記しました。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">これ、便利かな？？？ <a href="https://twitter.com/hashtag/%E3%82%8F%E3%81%8B%E3%82%8B%E4%BA%BA%E3%81%AB%E3%81%AF%E3%81%9F%E3%81%B6%E3%82%93%E3%82%8F%E3%81%8B%E3%82%8B?src=hash&amp;ref_src=twsrc%5Etfw">#わかる人にはたぶんわかる</a> <a href="https://t.co/lQNIOrCCSM">pic.twitter.com/lQNIOrCCSM</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1217089891902709760?ref_src=twsrc%5Etfw">January 14, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+ちゃんと動きます。
+
+
+　日本語で「っｊ」と打った後は、英語に切り替えないといけませんが、慣れればもう一度「jj」と打つ手間が省けるはずなので、これもしばらくこのまま行ってみようと思います。
+
 
 寝る。
