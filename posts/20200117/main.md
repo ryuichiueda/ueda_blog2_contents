@@ -16,3 +16,6 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 * DRAMと同じ容量のスワップファイルを作って利用できるようにする
 * [このサイト](https://askubuntu.com/questions/6769/hibernate-and-resume-from-a-swap-file)の手順を試す
+* OSが吹っ飛んでもいいように覚悟する
+
+だった。無事でよかった。
