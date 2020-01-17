@@ -14,8 +14,9 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 　結局、いろいろ危ない設定をしたらできるようになったけど、スマートに説明できるほどは理解できず。とりあえずやらなければいけないことは、
 
-* DRAMと同じ容量のスワップファイルを作って利用できるようにする
-* [このサイト](https://askubuntu.com/questions/6769/hibernate-and-resume-from-a-swap-file)の手順を試す
-* OSが吹っ飛んでもいいように覚悟する
+* OSが吹っ飛んでもいいように覚悟
+* DRAMと同じ容量のスワップファイルを作って利用できるようにセット
+* [このサイト](https://askubuntu.com/questions/6769/hibernate-and-resume-from-a-swap-file)の手順を試行
+* `/etc/default/grub`のに、スワップファイルのあるパーティションのデバイスファイルを記述（`resume=/dev/sda1`など。[参考](https://askubuntu.com/questions/1034185/ubuntu-18-04-cant-resume-after-hibernate)）
 
 だった。無事でよかった。
