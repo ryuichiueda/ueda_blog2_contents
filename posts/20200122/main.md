@@ -7,7 +7,7 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 ## wineでのdvioutの設定（続き）
 
-　この前、Linuxでdviout使えたバンザイという日記を書いたけど、Ghostscriptの設定がまだでした。で、設定してepsを貼り込めるようにできました。
+　この前、[Linuxでdviout使えたバンザイという日記](/?post=20191107)を書いたけど、Ghostscriptの設定がまだでした。で、設定してepsを貼り込めるようにできました。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">そういえばwineでUbuntuに入れたdvioutでepsを貼ることができるようになった。これでpdf作らずに原稿書ける。pngがまだだけど。 <a href="https://t.co/4QtfIim6w7">pic.twitter.com/4QtfIim6w7</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1219935823354679296?ref_src=twsrc%5Etfw">January 22, 2020</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
