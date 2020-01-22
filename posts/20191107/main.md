@@ -90,4 +90,8 @@ $ wine ~/w32tex/dviout/dviout.exe iros2020.dvi
 　それから、wineは`apt`を使ってインストールしましたが、コマンド`winetricks`が古くて日本語化にてこずりました。これは[こちらのサイト](http://www.lab-ssk.com/settings-of-wine-and-workaround-for-garbled-japanese-characters-installtion-of-allfonts-on-64bit-chaletos)が参考になりました。ありがとうございます。 
 
 
+## 続編（2020/1/22加筆）
+
+　Ghostscriptの設定がまだでした。[こちら](/?post=20200122)に適当ですが説明があります。
+
 以上です。
