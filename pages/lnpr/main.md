@@ -16,12 +16,13 @@ Copyright: (C) Ryuichi Ueda
 
 ## 訂正
 
+
 |場所|訂正前/後|発見者|一言|
 |:---|:-----|------|:-----|
-|p.147 式(6.26)| $$\hat{\mu}_x - m_y$$ $$\longrightarrow$$ $$\hat{\mu}_y - m_y$$|<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/ryuichiueda?ref_src=twsrc%5Etfw">@ryuichiueda</a> <br>突然のリプライで申し訳ありません。確率ロボティクスの本のP147式6.26ですがy側の信念分布の中心点の係数がxになっている理由を教えていただけないでしょうか。<br>距離計測なのでy成分だと思っていました。</p>&mdash; Acky_F (@AckyF1) <a href="https://twitter.com/AckyF1/status/1216181205361520640?ref_src=twsrc%5Etfw">January 12, 2020</a></blockquote>|校正から漏れました|
+|p.80 `ideal_robot10.ipynb [7]` 21行目| `z = self.relative_polar_pos(...` $$\longrightarrow$$ `z = self.observation_function(...`||コードの差し替えミスでした。|
 
-### 第2刷以前
 
+### 第3刷で訂正済み
 
 |場所|訂正前/後|発見者|一言|
 |:---|:-----|------|:-----|
@@ -32,6 +33,7 @@ Copyright: (C) Ryuichi Ueda
 |p.56 数式も含めて10行目|足し合わせもの$$\longrightarrow$$足し合わせたもの|||
 |p.121 5.3.4の表題の下の行|$$\delta_{\omega\omega} = 0.2\ \delta_{\nu\omega} = 0$$$$\longrightarrow$$$$\delta_{\omega\omega} = 0.2, \delta_{\nu\omega} = 0$$|||
 |p.125 式も含めて下から10行目|は，はそれぞれ$$\longrightarrow$$はそれぞれ|||
+|p.147 式(6.26)| $$\hat{\mu}_x - m_y$$ $$\longrightarrow$$ $$\hat{\mu}_y - m_y$$|<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/ryuichiueda?ref_src=twsrc%5Etfw">@ryuichiueda</a> <br>突然のリプライで申し訳ありません。確率ロボティクスの本のP147式6.26ですがy側の信念分布の中心点の係数がxになっている理由を教えていただけないでしょうか。<br>距離計測なのでy成分だと思っていました。</p>&mdash; Acky_F (@AckyF1) <a href="https://twitter.com/AckyF1/status/1216181205361520640?ref_src=twsrc%5Etfw">January 12, 2020</a></blockquote>|校正から漏れました|
 |p.156 式も含めて6行目|N個ぶ$$\longrightarrow$$N個選ぶ|||
 |p.239 6行目|graphbased_slam..._sensor2$$\longrightarrow$$graphbased_slam...sensor2.ipynb|||
 |p.259 本文6行目|区関数$$\longrightarrow$$区間数|||
@@ -46,7 +48,7 @@ Copyright: (C) Ryuichi Ueda
 |p.380 [Kalman 1960]|Roudolf$$\longrightarrow$$Rudolf||すみません！|
 |p.382 [Sutton 1996]|Advannces$$\longrightarrow$$Advances||Macのキーボードが・・・|
 
-### 第1刷以前
+### 第2刷で訂正済み
 
 |場所|訂正前/後|発見者|一言  |
 |:---|:-----|------|:-----|
