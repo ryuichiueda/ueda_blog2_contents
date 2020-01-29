@@ -19,7 +19,7 @@ Copyright: (C) Ryuichi Ueda
 
 |場所|訂正前/後|発見者|一言|
 |:---|:-----|------|:-----|
-|p.80 `ideal_robot10.ipynb [7]` 21行目| `z = self.relative_polar_pos(...` $$\longrightarrow$$ `z = self.observation_function(...`||コードの差し替えミスでした。|
+|p.80 `ideal_robot10.ipynb [7]` 21行目| `z = self.relative_polar_pos(...` $$\longrightarrow$$ `z = self.observation_function(...`|[@maskot1977](https://twitter.com/maskot1977)さん|コードの差し替えミスでした。|
 
 
 ### 第3刷で訂正済み
