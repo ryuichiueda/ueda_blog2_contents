@@ -27,12 +27,14 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 ## サテライトの様子
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">はてなブログに投稿しました<br>第46回シェル芸勉強会 大阪サテライト レポート<a href="https://t.co/l6f2Su7oLg">https://t.co/l6f2Su7oLg</a></p>&mdash; so (@3socha) <a href="https://twitter.com/3socha/status/1228942559759650817?ref_src=twsrc%5Etfw">February 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## ストリーミング
 
 ### 本編
 
 ### LT
+
 
 
 ## 資料
@@ -43,6 +45,10 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 ### LT資料（東京のみ掲載）
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">LT資料です <a href="https://t.co/bUZrTg55Xp">https://t.co/bUZrTg55Xp</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; Matsu (@pineshrine) <a href="https://twitter.com/pineshrine/status/1228577603721678850?ref_src=twsrc%5Etfw">February 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">LT資料です～ <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><br><br>Unicodeの似た字体<a href="https://t.co/FC8yQWcEFr">https://t.co/FC8yQWcEFr</a></p>&mdash; kanata (@kanata201612) <a href="https://twitter.com/kanata201612/status/1228596523845308417?ref_src=twsrc%5Etfw">February 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## ブログなど
 
@@ -50,3 +56,4 @@ Copyright: (C) 2020 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><br>第46回シェル芸勉強会に参加しました - たいちょーの雑記 <a href="https://t.co/i2YqXdxwi1">https://t.co/i2YqXdxwi1</a> <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1229788893886566401?ref_src=twsrc%5Etfw">February 18, 2020</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">凄く久しぶり、2年弱ぶりにブログを更新しました。<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> 勉強会第46回の問題を二つ解いてみた（awk封印） <a href="https://t.co/lOevE9eFW4">https://t.co/lOevE9eFW4</a></p>&mdash; th0x0472 (@th0x0472) <a href="https://twitter.com/th0x0472/status/1228973583226957824?ref_src=twsrc%5Etfw">February 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
