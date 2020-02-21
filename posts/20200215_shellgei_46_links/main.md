@@ -20,6 +20,9 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 ## Twitterまとめ
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">「jus共催 第46回人類はおそらくシェル芸に仕事を奪われるか奪われないかのどちらかであるシェル芸勉強会」をトゥギャりました。 <a href="https://t.co/Cj97bOOZ0X">https://t.co/Cj97bOOZ0X</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1229243858283745281?ref_src=twsrc%5Etfw">February 17, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
 ## サテライトの様子
