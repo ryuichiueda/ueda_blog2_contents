@@ -33,8 +33,11 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 ### 本編
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ymOprpMCHzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### LT
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2gvS44viS9M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## 資料
