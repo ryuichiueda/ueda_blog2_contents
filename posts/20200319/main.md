@@ -53,7 +53,7 @@ System Information
 #. https://github.com/theoremoon/ShellgeiBot-Image をクローンしてdockerのイメージをビルド
 #. https://github.com/theoremoon/ShellgeiBot をクローンしてコンパイル
 #. Twitterのキーを保存した設定ファイル、dockerの情報や反応するハッシュタグなどを書いた設定ファイル（下の例を参照のこと）を作る
-#. `sudo nohup ./ShellgeiBot /home/ueda/ShellgeiBot/twconf.json /home/ueda/ShellgeiBot/ShellgeiConfig.json`
+#. `sudo nohup ./ShellgeiBot twconf.json ShellgeiConfig.json` （パスは適切に記述のこと）
 
 で動きます。ただし、botがシェル芸を打つ方のアカウントをフォローしてないと動きません（これを見落としていて1時間くらい悩んでしまった・・・）。
 
