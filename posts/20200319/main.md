@@ -1,5 +1,5 @@
 ---
-Keywords: 日記
+Keywords: 日記, Linux, シェル芸bot
 Copyright: (C) 2020 Ryuichi Ueda
 ---
 
