@@ -50,6 +50,7 @@ System Information
 
 　シェル芸botの作り方、もう少し詳しく書いておくと、だいたいこんな感じです。
 
+#. <span style="color:red">「任意のコマンドを実行するボットを作りたい！！！１１１」</span>とTwitterに申請してキーをもらう
 #. https://github.com/theoremoon/ShellgeiBot-Image をクローンしてdockerのイメージをビルド
 #. https://github.com/theoremoon/ShellgeiBot をクローンしてコンパイル
 #. Twitterのキーを保存した設定ファイル、dockerの情報や反応するハッシュタグなどを書いた設定ファイル（下の例を参照のこと）を作る
