@@ -57,6 +57,7 @@ System Information
 #. `sudo nohup ./ShellgeiBot twconf.json ShellgeiConfig.json` （パスは適切に記述のこと）
 
 で動きます。ただし、botがシェル芸を打つ方のアカウントをフォローしてないと動きません（これを見落としていて1時間くらい悩んでしまった・・・）。
+それから、Twitterへの申請が今は結構めんどくさいことになってます。フォームに英作文して、不備があるとメールでもっと説明してくれと来て・・・と何日もかかります。もし必要であれば例文は提供いたします。
 
 ```
 $ cat twconf.json
