@@ -26,7 +26,7 @@ System Information
 	Version: ThinkPad X1 Carbon 7th
 ```
 
-久しぶりにgrubをいじったが、なか設定ファイルがややこしくなっててGUIツール（`grub-customizer`）のお世話になった。システムがUnix的な考え方とはなんとなく合わない方法にいろいろ行ってないか心配。
+久しぶりにgrubをいじったが、なんか設定ファイルがややこしくなっててGUIツール（`grub-customizer`）のお世話になった。システムがUnix的な考え方とはなんとなく合わない方法にいろいろ行ってないか心配。
 
 ## [SoftwareDesign 4月号](https://amzn.to/33zA0BV)届く
 
