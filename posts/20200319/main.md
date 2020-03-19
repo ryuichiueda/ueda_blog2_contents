@@ -28,7 +28,7 @@ System Information
 
 久しぶりにgrubをいじったが、なか設定ファイルがややこしくなっててGUIツール（`grub-customizer`）のお世話になった。システムがUnix的な考え方とはなんとなく合わない方法にいろいろ行ってないか心配。
 
-## SoftwareDesign 4月号届く
+## [SoftwareDesign 4月号](https://amzn.to/33zA0BV)届く
 
 **シェル芸人からの挑戦状が終わってしまうううううううううううう**
 
