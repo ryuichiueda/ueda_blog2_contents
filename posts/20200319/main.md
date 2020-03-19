@@ -86,6 +86,8 @@ $ cat ShellgeiConfig.json
 ShellgeiBotの方のコードを読んでみると面白いと思います。
 
 　あとの細かいことは本家のリポジトリのREADME等におまかせします。
+<span style="color:red">あ、一つ注意ですけど、自分のシェル芸botから他のシェル芸botをフォローすると、
+互いに無限にコマンドを投げあうことができてしまい、最悪両方Twitterから退場になります。ご注意を。</span>
 
 
 洗濯物干して寝る。
