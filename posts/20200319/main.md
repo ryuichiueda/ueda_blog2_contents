@@ -55,7 +55,7 @@ System Information
 #. Twitterのキーを保存した設定ファイル、dockerの情報や反応するハッシュタグなどを書いた設定ファイル（下記参照）を作る
 #. `sudo nohup ./ShellgeiBot /home/ueda/ShellgeiBot/twconf.json /home/ueda/ShellgeiBot/ShellgeiConfig.json`
 
-で動きます。
+で動きます。ただし、botがシェル芸を打つ方のアカウントをフォローしてないと動きません（これを見落としていて1時間くらい悩んでしまった・・・）。
 
 ```
 $ cat twconf.json
@@ -77,3 +77,5 @@ $ cat ShellgeiConfig.json
 
 ```
 
+botはTwitterからハッシュタグを検索してツイートするという仕組みなので、
+手元のLinuxのノートPCでも動きます。
