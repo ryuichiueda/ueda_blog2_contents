@@ -83,7 +83,7 @@ $ cat ShellgeiConfig.json
 手元のLinuxのノートPCでも動きます。ハッシュタグの検索とツイートは
 上のリポジトリの「ShellgeiBot」がやって、コマンドの実行は
 「ShellgeiBot-Image」がやるという役割分担になっているので、
-ShellgeiBotの方のコードを読んでみると面白いと思います。
+コードを読んでみると面白いと思います。
 
 　あとの細かいことは本家のリポジトリのREADME等におまかせします。
 <span style="color:red">あ、一つ注意ですけど、自分のシェル芸botから他のシェル芸botをフォローすると、
