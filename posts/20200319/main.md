@@ -77,7 +77,7 @@ $ cat ShellgeiConfig.json
 
 ```
 
-botはTwitterからハッシュタグを検索してツイートするという仕組みなので、
+　botはTwitterからハッシュタグを検索してツイートするという仕組みなので、
 手元のLinuxのノートPCでも動きます。ハッシュタグの検索とツイートは
 上のリポジトリの「ShellgeiBot」がやって、コマンドの実行は
 「ShellgeiBot-Image」がやるという役割分担になっているので、
