@@ -37,3 +37,43 @@ System Information
 
 
 また逢う日まで。
+
+
+## プライベートシェル芸botを持った
+
+全世界の暇のない成金が憧れるというプライベートジェット並に贅沢な**プライベートシェル芸bot**のオーナーになりますた。
+といってもシェル芸botのパパ（←本人はこう呼ばれたくないかもしれない）である[ふるつき氏](https://twitter.com/theoremoon)のリポジトリを持ってきて、Twitterからアプリケーションのキーをもらってゴニョゴニョやっただけです。
+個人的に好き勝手に運用するつもりです。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">＿人人人人人人人＿<br>＞　ふはははは　＜<br>￣Y^Y^Y^Y^Y^Y^Y^￣<br>　　　　　　👑<br>　　　　（💩💩💩）<br>　　　（💩👁💩👁💩）<br>　　（💩💩💩👃💩💩💩）<br>　（💩💩💩💩👄💩💩💩💩） <a href="https://t.co/bHnKud64bA">https://t.co/bHnKud64bA</a></p>&mdash; uedashbot (@uedashbot) <a href="https://twitter.com/uedashbot/status/1239662466197381121?ref_src=twsrc%5Etfw">March 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+　シェル芸botの作り方、もう少し詳しく書いておくと、だいたいこんな感じです。
+
+#. https://github.com/theoremoon/ShellgeiBot-Image をクローンしてdockerのイメージをビルド
+#. https://github.com/theoremoon/ShellgeiBot をクローンしてコンパイル
+#. Twitterのキーを保存した設定ファイル、dockerの情報や反応するハッシュタグなどを書いた設定ファイル（下記参照）を作る
+#. `sudo nohup ./ShellgeiBot /home/ueda/ShellgeiBot/twconf.json /home/ueda/ShellgeiBot/ShellgeiConfig.json`
+
+で動きます。
+
+```
+$ cat twconf.json
+{
+	"ConsumerKey": "unkounkounkounkounkounko",
+	"ConsumerSecret": "unkounkounkounkounkounkounkounkounkounkounkounko",
+	"AccessToken": "unkounkounkounko-unkounkounkounkounkounkounkounkounko",
+	"AccessSecret": "unkounkounkounkounkounkounkounkounko"
+}
+$ cat ShellgeiConfig.json
+{
+	"dockerimage": "shellgeibot",
+	"timeout": "10s",
+	"workdir": ".",
+	"memory": "100M",
+	"mediasize": 250,
+	"tags": ["shellgei3"]
+}
+
+```
+
