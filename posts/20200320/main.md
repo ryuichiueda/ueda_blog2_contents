@@ -1,5 +1,5 @@
 ---
-Keywords: 日記, Linux
+Keywords: 日記, Linux, Raspberry Pi
 Copyright: (C) 2020 Ryuichi Ueda
 ---
 
@@ -17,3 +17,13 @@ Copyright: (C) 2020 Ryuichi Ueda
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">変更箇所 <a href="https://t.co/I3Bt9WtLhw">pic.twitter.com/I3Bt9WtLhw</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1240890100902277121?ref_src=twsrc%5Etfw">March 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+## ラズパイ4にUbuntu 18.04
+
+もう[かつて](https://b.ueda.tech/?post=20191229#raspberry-pi-4%E3%81%ABubuntu-1804)のように難しいことはしなくてよく、Ubuntuのサイトからもってくればよくなりました。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ありがたやありがたや<a href="https://t.co/j9S0ikcJJt">https://t.co/j9S0ikcJJt</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1240519400265895936?ref_src=twsrc%5Etfw">March 19, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+なんも補足はいりません。現場からは以上です。
