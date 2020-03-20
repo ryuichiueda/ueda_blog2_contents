@@ -1,0 +1,17 @@
+---
+Keywords: 日記, Linux
+Copyright: (C) 2020 Ryuichi Ueda
+---
+
+# 日記（2020年3月20日）
+
+## Ubuntu 18.04にROSをインストールするスクリプトの手直し
+
+[ryuichiueda/ros_setup_scripts_Ubuntu18.04_desktop](https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu18.04_desktop)と[ryuichiueda/ros_setup_scripts_Ubuntu18.04_server](https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu18.04_server)を放置していたら、インストールが途中でコケて使えなくなっていたので手直し。
+
+　コケる原因はrosdepのインストール方法が変わったからっぽいです。
+対応するために、インストールをAPT経由からpip経由に変えました。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">変更箇所 <a href="https://t.co/I3Bt9WtLhw">pic.twitter.com/I3Bt9WtLhw</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1240890100902277121?ref_src=twsrc%5Etfw">March 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
