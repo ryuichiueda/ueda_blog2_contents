@@ -19,7 +19,7 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 ## ラズパイ4にUbuntu 18.04
 
-もう[かつて](https://b.ueda.tech/?post=20191229#raspberry-pi-4%E3%81%ABubuntu-1804)のように難しいことはしなくてよく、Ubuntuのサイトからもってくればよくなりました。
+ラズパイマウスで使うためにセットアップ。もう[かつて](https://b.ueda.tech/?post=20191229#raspberry-pi-4%E3%81%ABubuntu-1804)のように難しいことはしなくてよく、Ubuntuのサイトからもってくればよくなりました。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ありがたやありがたや<a href="https://t.co/j9S0ikcJJt">https://t.co/j9S0ikcJJt</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1240519400265895936?ref_src=twsrc%5Etfw">March 19, 2020</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
