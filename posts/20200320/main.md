@@ -5,6 +5,8 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 # 日記（2020年3月20日）
 
+事務ちょっとと研究ちょっと進む。研究のモチベーションがなかなかあがってこない。
+
 ## Ubuntu 18.04にROSをインストールするスクリプトの手直し
 
 [ryuichiueda/ros_setup_scripts_Ubuntu18.04_desktop](https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu18.04_desktop)と[ryuichiueda/ros_setup_scripts_Ubuntu18.04_server](https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu18.04_server)を放置していたら、インストールが途中でコケて使えなくなっていたので手直し。
