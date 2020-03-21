@@ -17,3 +17,4 @@ ThinkPad X1にのっけたUbuntu 19.10で内蔵WiFiが使えない問題、
 
 
 
+寝る。
