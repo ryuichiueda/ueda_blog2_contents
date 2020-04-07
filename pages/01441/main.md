@@ -23,15 +23,6 @@ Copyright: (C) Ryuichi Ueda
 </tr>
 
 <tr>
-<td>231</td>
-<td>下から10行目</td>
-<td>$$\alpha_\text{long}$$</td>
-<td>$$\alpha_\text{fast}$$の間違い。</td>
-<td><a href="https://twitter.com/yront">@yrontさん</a></td>
-<td>原著からの写し間違えです。</td>
-</tr>
-
-<tr>
 <td>57</td>
 <td>式(3.64)</td>
 <td>シグマの添字がt-1になっている。</td>
@@ -47,6 +38,15 @@ Copyright: (C) Ryuichi Ueda
 <td>計測モデルp(z_t|x_t,m)で役割を果たす。</td>
 <td></td>
 <td>コピペはいけませんね・・・</td>
+</tr>
+
+<tr>
+<td>231</td>
+<td>下から10行目</td>
+<td>$$\alpha_\text{long}$$</td>
+<td>$$\alpha_\text{fast}$$の間違い。</td>
+<td><a href="https://twitter.com/yront">@yrontさん</a></td>
+<td>原著からの写し間違えです。</td>
 </tr>
 
 <tr>
