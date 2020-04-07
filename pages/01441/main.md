@@ -25,8 +25,8 @@ Copyright: (C) Ryuichi Ueda
 <tr>
 <td>231</td>
 <td>下から10行目</td>
-<td>$\alpha_\text{long}$</td>
-<td>$\alpha_\text{fast}$の間違い。</td>
+<td>$$\alpha_\text{long}$</td>
+<td>$$\alpha_\text{fast}$の間違い。</td>
 <td><a href="https://twitter.com/yront">@yrontさん</a></td>
 <td>原著からの写し間違えです。</td>
 </tr>
