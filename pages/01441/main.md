@@ -23,6 +23,15 @@ Copyright: (C) Ryuichi Ueda
 </tr>
 
 <tr>
+<td>231</td>
+<td>下から10行目</td>
+<td>$\alpha_\text{long}$</td>
+<td>$\alpha_\text{fast}$の間違い。</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
 <td>57</td>
 <td>式(3.64)</td>
 <td>シグマの添字がt-1になっている。</td>
