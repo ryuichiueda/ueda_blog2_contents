@@ -35,3 +35,6 @@ Copyright: (C) 2020 Ryuichi Ueda
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">上の子にPython教えたらさっそくシェル芸人っぽいことをしだしたので先にシェル芸の方がいいかもしれん。 <a href="https://t.co/ij0pJ6qSXT">pic.twitter.com/ij0pJ6qSXT</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1246698713252122629?ref_src=twsrc%5Etfw">April 5, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 いいぞもっとやれ。
+
+
+以上。
