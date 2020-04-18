@@ -24,8 +24,6 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 ソフトウェアはシェル芸勉強会で教えてもらった[OBS Studio](https://obsproject.com/ja)を使ってます。Linux版だとなぜか端末の色がちゃんと出ないんで、絵文字が青くなります。💩が青くなって毒気が増します。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">パソコンはこんな感じ。なぜか端末の色が反転する。 <a href="https://t.co/ouUZyGJERh">pic.twitter.com/ouUZyGJERh</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1251401394491240452?ref_src=twsrc%5Etfw">April 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 
 ## 撮ったテスト動画
 
