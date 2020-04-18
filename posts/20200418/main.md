@@ -22,7 +22,7 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">システム全景 <a href="https://t.co/GQqC68CR1u">pic.twitter.com/GQqC68CR1u</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1251401586309361664?ref_src=twsrc%5Etfw">April 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-ソフトウェアはシェル芸勉強会で教えてもらった[OBS Studio](https://obsproject.com/ja)を使ってます。Linux版だとなぜか端末の色がちゃんと出ないんで、絵文字が青くなります。💩が青くなって毒気が増します。
+ソフトウェアはシェル芸勉強会で[@takion0](https://twitter.com/takion0)氏に教えてもらった[OBS Studio](https://obsproject.com/ja)を使ってます。Linux版だとなぜか端末の色がちゃんと出ないんで、絵文字が青くなります。💩が青くなって毒気が増します。
 
 
 ## 撮ったテスト動画
