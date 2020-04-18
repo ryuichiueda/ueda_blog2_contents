@@ -3,7 +3,7 @@ Keywords: 日記, YouTube
 Copyright: (C) 2020 Ryuichi Ueda
 ---
 
-# 僕の考えたそこそこ最強な遠隔講義環境
+# 遠隔講義を自宅からできるようにした
 
 本日は微熱があって書き物はやる気が起きず。その代わりに、来週の[オンラインシェル芸勉強会](https://usptomo.doorkeeper.jp/events/105936)と、そのあとにたくさんありそうな遠隔講義の環境を整えてました。
 
@@ -18,7 +18,7 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 ## できた環境
 
-こんな感じになりました。顔はPCのカメラを使って撮るのですが、もう一個カメラを追加してホワイトボードを映すことにしました。
+こんな感じになりました。顔はPCのカメラを使って撮るのですが、もう一個カメラを追加してホワイトボードを映すことにしました。ちなみに長女の机ですが、本人がちゃぶ台で勉強する人なので勝手に借りてます。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">システム全景 <a href="https://t.co/GQqC68CR1u">pic.twitter.com/GQqC68CR1u</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1251401586309361664?ref_src=twsrc%5Etfw">April 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
