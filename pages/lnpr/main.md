@@ -8,11 +8,11 @@ Copyright: (C) Ryuichi Ueda
 <span style="color:red">増版（第3刷）決定！</span>
 
 
-## 講義用スライド・ビデオ
+## 講義用スライド・動画
 
 ### スライド
 
-現在、コロナ対策のオンライン講義のために内容を新しくしています。
+現在、コロナ対策のオンライン講義のために各章を解説した動画を作成中です。それにともない、スライドの内容も新しくしています。
 
 * リポジトリ: https://github.com/ryuichiueda/LNPR_SLIDES
     * [第一章](https://ryuichiueda.github.io/LNPR_SLIDES/chap1.html)
