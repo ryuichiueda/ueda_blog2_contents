@@ -13,8 +13,6 @@ $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 
 
 * 環境: 解答例はUbuntu Linux 19.10 で作成。Macの場合はcoreutilsをインストールすると、GNUのコマンドが使えます。BSD系の人は玄人なので各自対応のこと。
-* 出典
-    * [奥村晴彦: C言語による最新アルゴリズム事典, 技術評論社, 1991.](https://gihyo.jp/book/2018/978-4-7741-9690-9)
 
 
 ## Q1
