@@ -31,3 +31,6 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 ## ブログなど
 
+発見次第リンクを貼ります。
+
+
