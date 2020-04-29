@@ -45,9 +45,9 @@ Copyright: (C) 2020 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-## 【番外編】今回の偽初心者【告発】
+## 【番外編】今回の偽初心者【茶番】
 
-二人いました。お二方ともよーーーーーく存じ上げております💩
+二人いました。お二方ともよーーーーーく存じ上げております💩💩💩💩💩💩
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">なれないリモートでの勉強会参加😂<br>とても勉強になりました💪💪💪ありがとうございます🙇‍♂️🙇🏻‍♂️🙇🏼‍♂️🙇🏽‍♂️🙇🏾‍♂️<br>初心者なので問題はあんまり解けませんでした😫<br>シェル芸の皆さんのように、もっと解けるよう頑張っていきます😤😤😤<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><a href="https://twitter.com/hashtag/%E9%A7%86%E3%81%91%E5%87%BA%E3%81%97%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8%E5%88%9D%E5%BF%83%E8%80%85%E3%81%A8%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8A%E3%81%9F%E3%81%84?src=hash&amp;ref_src=twsrc%5Etfw">#駆け出しシェル芸初心者とつながりたい</a><a href="https://twitter.com/hashtag/%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8A%E3%81%9F%E3%81%8F%E3%81%AA%E3%81%84?src=hash&amp;ref_src=twsrc%5Etfw">#つながりたくない</a></p>&mdash; taka@SIではたらくフレンズ (@amanoese) <a href="https://twitter.com/amanoese/status/1253964093196627970?ref_src=twsrc%5Etfw">April 25, 2020</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
