@@ -17,7 +17,6 @@ Copyright: (C) 2020 Ryuichi Ueda
 ## Twitterまとめ
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">「jus共催 第47回引きこもりシェル芸勉強会」をトゥギャりました。 <a href="https://t.co/0bfadcJrrF">https://t.co/0bfadcJrrF</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1254216905482592256?ref_src=twsrc%5Etfw">April 26, 2020</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## 本編
 
@@ -33,4 +32,15 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 発見次第リンクを貼ります。
 
+* [人生の空白 a.k.a. #シェル芸 勉強会 参加記 | 職業プログラマの休日出勤](https://tmotooka.hatenablog.jp/entry/2020/04/26/093000)
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a><br>「jus共催 第47回引きこもりシェル芸勉強会」にリモート参加しました - /lost+found/amanoese<a href="https://t.co/dMIiEnm5D3">https://t.co/dMIiEnm5D3</a></p>&mdash; taka@SIではたらくフレンズ (@amanoese) <a href="https://twitter.com/amanoese/status/1255380103795814401?ref_src=twsrc%5Etfw">April 29, 2020</a></blockquote>
+
+
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">第47回シェル芸勉強会振り返り書いた<a href="https://t.co/Bx0lsIWwwX">https://t.co/Bx0lsIWwwX</a></p>&mdash; 次郎☁️21:22:46 (@jiro_saburomaru) <a href="https://twitter.com/jiro_saburomaru/status/1254752422188089344?ref_src=twsrc%5Etfw">April 27, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> 勉強会ちょっと見 - omuronの雑記 <a href="https://t.co/KK5rTqebQy">https://t.co/KK5rTqebQy</a></p>&mdash; おむろん (@omuron) <a href="https://twitter.com/omuron/status/1254035579865423874?ref_src=twsrc%5Etfw">April 25, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
