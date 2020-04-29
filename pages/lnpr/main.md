@@ -17,9 +17,19 @@ Copyright: (C) Ryuichi Ueda
 * リポジトリ: https://github.com/ryuichiueda/LNPR_SLIDES
     * [第一章](https://ryuichiueda.github.io/LNPR_SLIDES/chap1.html)
 
-### 第一章ビデオ
+### ビデオ
+
+* 1章
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tlbeAu8yHEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+* 2章前半
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5VRwvnrGJ60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+* 4章
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5VRwvnrGJ60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## リポジトリ一覧
