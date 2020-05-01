@@ -47,7 +47,7 @@ Copyright: (C) Ryuichi Ueda
 |場所|訂正前/後|発見者|一言|
 |:---|:-----|------|:-----|
 |p.80 `ideal_robot10.ipynb [7]` 21行目| `z = self.relative_polar_pos(...` $$\longrightarrow$$ `z = self.observation_function(...`|[@maskot1977](https://twitter.com/maskot1977)さん|コードの差し替えミスでした。|
-|p.191 式(8.33)の最後の行列|右上の要素の$\ell^2$と右下の要素の$\ell$を入れ替え（添字は省略）|<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">詳解確率ロボティクスp.191 式(8.33)，2段目から3段目への変形で1行2列目の要素と2行1列目の要素の分母が置き換わるところで次数が変わってるのはなんでなんだろう...<br>1行目の要素の分母の次数は1乗で2行目は2乗になるんじゃないのかな</p>&mdash; Kohta (@fjnkt98) <a href="https://twitter.com/fjnkt98/status/1255825300656582656?ref_src=twsrc%5Etfw">April 30, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>|コピペミスです・・・。|
+|p.191 式(8.33)の最後の行列|右上の要素の$$\ell^2$$と右下の要素の$$\ell$$を入れ替え（添字は省略）|<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">詳解確率ロボティクスp.191 式(8.33)，2段目から3段目への変形で1行2列目の要素と2行1列目の要素の分母が置き換わるところで次数が変わってるのはなんでなんだろう...<br>1行目の要素の分母の次数は1乗で2行目は2乗になるんじゃないのかな</p>&mdash; Kohta (@fjnkt98) <a href="https://twitter.com/fjnkt98/status/1255825300656582656?ref_src=twsrc%5Etfw">April 30, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>|コピペミスです・・・。|
 
 
 ### 第3刷で訂正済み
