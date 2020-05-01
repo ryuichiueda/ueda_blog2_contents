@@ -27,6 +27,10 @@ Copyright: (C) Ryuichi Ueda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5VRwvnrGJ60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+* 2章後半その1
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BCNuZk4-jxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 * 4章
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YiyttOnTuBQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
