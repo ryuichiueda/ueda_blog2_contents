@@ -19,27 +19,7 @@ Copyright: (C) Ryuichi Ueda
 
 ### ビデオ
 
-* 1章
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tlbeAu8yHEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-* 2章前半
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5VRwvnrGJ60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-* 2章後半その1
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BCNuZk4-jxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-* 2章後半その2
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7zA9IRxh1vo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-* 3章はまだです。
-
-* 4章
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YiyttOnTuBQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLbUh9y6MXvjfOLwmuuBbXKUX45rZsM8iH" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## リポジトリ一覧
 
