@@ -17,7 +17,8 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 3年生勧誘用。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">配属される3年生のための情報ページを作りましたー<br><br>2020年度3年生配属ガイダンス | CIT自律ロボット研究室 <a href="https://t.co/PZeGdkAKoR">https://t.co/PZeGdkAKoR</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1260094058623406080?ref_src=twsrc%5Etfw">May 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">3年生用研究事例紹介のページです。<br><br>2020年度3年生配属ガイダンス（研究紹介） | CIT自律ロボット研究室 <a href="https://t.co/fheNDkWZJ9">https://t.co/fheNDkWZJ9</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1260179068793675776?ref_src=twsrc%5Etfw">May 12, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 とりあえず以上です。寝る。
