@@ -38,7 +38,7 @@ Copyright: (C) Ryuichi Ueda
 |p.233 式(9.65)|\\( \Omega_{j,t} = R_{j,t}Q_{j,t}R_{j,t}^\top \\) \\( \Longrightarrow \\) \\( \Omega_{j,t} = (R_{j,t}Q_{j,t}R_{j,t}^\top)^{-1} \\)|[hotsuyukiさん](https://github.com/ryuichiueda/LNPR_BOOK_CODES/issues/4)|気を抜いておりました・・・|
 |p.233 セルの24行目、p.237 セルの16行目|右辺の行列を`np.linalg.inv(` `R.dot(Q1).dot(R.T))`と逆行列に訂正|[hotsuyukiさん](https://github.com/ryuichiueda/LNPR_BOOK_CODES/issues/4)|上の訂正に伴う訂正です|
 |p.234 図9.12(c)|[この図に差し替え](https://b.ueda.tech/pages/lnpr/9.12c.png)|[hotsuyukiさん](https://github.com/ryuichiueda/LNPR_BOOK_CODES/issues/4)|上の訂正に伴う訂正です|
-|p.234 最終行|方向に星印が移動$\Longrightarrow$方向に、わずかに星印が移動|[hotsuyukiさん](https://github.com/ryuichiueda/LNPR_BOOK_CODES/issues/4)|上の訂正に伴う訂正です|
+|p.234 最終行|方向に星印が移動\\( \Longrightarrow \\)方向に、わずかに星印が移動|[hotsuyukiさん](https://github.com/ryuichiueda/LNPR_BOOK_CODES/issues/4)|上の訂正に伴う訂正です|
 
 
 ### 第3刷で訂正済み
