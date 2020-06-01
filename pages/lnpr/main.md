@@ -5,7 +5,11 @@ Copyright: (C) Ryuichi Ueda
 
 # 詳解確率ロボティクス
 
-<span style="color:red">増版（第3刷）決定！</span>
+<span style="color:red">増版（第4刷）決定！</span>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">【重版速報】<br>おかげさまで、重版が決まりました。ありがとうございます！<br><br>上田隆一・著『詳解　確率ロボティクス』【4刷】<a href="https://t.co/ZlzkrQbWyw">https://t.co/ZlzkrQbWyw</a><br><br>著者による解説動画もあります。<a href="https://t.co/sJI7Jr1pXC">https://t.co/sJI7Jr1pXC</a> <a href="https://t.co/pAFxVdhQrQ">pic.twitter.com/pAFxVdhQrQ</a></p>&mdash; 講談社サイエンティフィク (@kspub_kodansha) <a href="https://twitter.com/kspub_kodansha/status/1267275779097808900?ref_src=twsrc%5Etfw">June 1, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
 ## 講義用スライド・動画
@@ -36,6 +40,7 @@ Copyright: (C) Ryuichi Ueda
 |p.80 `ideal_robot10.ipynb [7]` 21行目| `relative_polar_pos` $$\longrightarrow$$ `observation_function`|[@maskot1977](https://twitter.com/maskot1977)さん|コードの差し替えミスでした。|
 |p.191 式(8.33)の最後の行列|右上の要素の\\( \ell^2\_{\hat{\boldsymbol{m}}\_{t-1}} \\)と左下の要素の\\( \ell\_{\hat{\boldsymbol{m}}\_{t-1}} \\)を入れ替え|<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">詳解確率ロボティクスp.191 式(8.33)，2段目から3段目への変形で1行2列目の要素と2行1列目の要素の分母が置き換わるところで次数が変わってるのはなんでなんだろう...<br>1行目の要素の分母の次数は1乗で2行目は2乗になるんじゃないのかな</p>&mdash; Kohta (@fjnkt98) <a href="https://twitter.com/fjnkt98/status/1255825300656582656?ref\_src=twsrc%5Etfw">April 30, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>|コピペミスです・・・。|
 |p.233 式(9.65)|\\( \Omega_{j,t} = R_{j,t}Q_{j,t}R_{j,t}^\top \\) \\( \Longrightarrow \\) \\( \Omega_{j,t} = (R_{j,t}Q_{j,t}R_{j,t}^\top)^{-1} \\)|[hotsuyukiさん](https://github.com/ryuichiueda/LNPR_BOOK_CODES/issues/4)|気を抜いておりました・・・|
+|p.233 式(9.65)の下の行|写像した共分散行列です。\\( \Longrightarrow \\)写像して得られる精度行列です。|[hotsuyukiさん](https://github.com/ryuichiueda/LNPR_BOOK_CODES/issues/4)|上の訂正に伴う訂正です|
 |p.233 セルの24行目、p.237 セルの16行目|右辺の行列を`np.linalg.inv(` `R.dot(Q1).dot(R.T))`と逆行列に訂正|[hotsuyukiさん](https://github.com/ryuichiueda/LNPR_BOOK_CODES/issues/4)|上の訂正に伴う訂正です|
 |p.234 図9.12(c)|[この図に差し替え](https://b.ueda.tech/pages/lnpr/9.12c.png)|[hotsuyukiさん](https://github.com/ryuichiueda/LNPR_BOOK_CODES/issues/4)|上の訂正に伴う訂正です|
 |p.234 最終行|方向に星印が移動\\( \Longrightarrow \\)方向に、わずかに星印が移動|[hotsuyukiさん](https://github.com/ryuichiueda/LNPR_BOOK_CODES/issues/4)|上の訂正に伴う訂正です|
