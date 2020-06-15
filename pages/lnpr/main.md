@@ -46,6 +46,9 @@ Copyright: (C) Ryuichi Ueda
 |p.233 セルの24行目、p.237 セルの16行目|右辺の行列を`np.linalg.inv(` `R.dot(Q1).dot(R.T))`と逆行列に訂正|[hotsuyukiさん](https://github.com/ryuichiueda/LNPR_BOOK_CODES/issues/4)|上の訂正に伴う訂正です|
 |p.234 図9.12(c)|[この図に差し替え](https://b.ueda.tech/pages/lnpr/9.12c.png)|[hotsuyukiさん](https://github.com/ryuichiueda/LNPR_BOOK_CODES/issues/4)|上の訂正に伴う訂正です|
 |p.234 最終行|方向に星印が移動\\( \Longrightarrow \\)方向に、わずかに星印が移動|[hotsuyukiさん](https://github.com/ryuichiueda/LNPR_BOOK_CODES/issues/4)|上の訂正に伴う訂正です|
+|p.364 脚注2|共分散行列 \\( \Longrightarrow \\) 半正定値対称行列|<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/ryuichiueda?ref_src=twsrc%5Etfw">@ryuichiueda</a>  唐突なツイート失礼します詳解確率ロボティクスの内容について質問です。<br>P364の注2に「B.1.5項の結果から共分散行列と解釈できます」と記載されてますが、半正定値対称行列ではないでしょうか？<br>そうなるとΨが対称行列になるので納得します。</p>&mdash; と雷 (@chmod_x_akasit) <a href="https://twitter.com/chmod_x_akasit/status/1272103493101223936?ref_src=twsrc%5Etfw">June 14, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+|もう少し補足すると共分散行列ではなくて精度行列です。|
 
 
 ### 第3刷で訂正済み
