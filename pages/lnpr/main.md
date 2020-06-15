@@ -37,6 +37,7 @@ Copyright: (C) Ryuichi Ueda
 |場所|訂正事項|発見者|一言|
 |:---|:-----|------|:-----|
 |p.56 式(2.94)|積分は不要|上田|\\( \boldsymbol{x}\\)で積分したら\\(p_3\\)が\\( \boldsymbol{x} \\)の関数にならないじゃないか・・・|
+|p.62|section_sentor \\( \Longrightarrow \\) section_sensor|<blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="ja" dir="ltr">たびたびすみません。P62の3.2.1に「コーディングは、section_sentorのとなり」と記載されていますが、section_sensorの誤記でしょうか？<br>（粗探しや間違い探しなどしてません！偶然見つかりました😭）</p>&mdash; と雷 (@chmod_x_akasit) <a href="https://twitter.com/chmod_x_akasit/status/1272394146536321024?ref_src=twsrc%5Etfw">June 15, 2020</a></blockquote>|sentorとは。|
 |p.80 `ideal_robot10.ipynb [7]` 21行目| `relative_polar_pos` $$\longrightarrow$$ `observation_function`|[@maskot1977](https://twitter.com/maskot1977)さん|コードの差し替えミスでした。|
 |p.186 ページ上にある式番号を振っていない3行の式|1行目から2行目のイコールまでが不要。2行目の「右の分布から不要な・・・」という補足も不要。つまり、2行目と3行目をイコールでつないだ式が書いてあれば十分。|上田|式(8.10)と比べると余計な記述をしていると思いました。|
 |p.191 式(8.33)の最後の行列|右上の要素の\\( \ell^2\_{\hat{\boldsymbol{m}}\_{t-1}} \\)と左下の要素の\\( \ell\_{\hat{\boldsymbol{m}}\_{t-1}} \\)を入れ替え|<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">詳解確率ロボティクスp.191 式(8.33)，2段目から3段目への変形で1行2列目の要素と2行1列目の要素の分母が置き換わるところで次数が変わってるのはなんでなんだろう...<br>1行目の要素の分母の次数は1乗で2行目は2乗になるんじゃないのかな</p>&mdash; Kohta (@fjnkt98) <a href="https://twitter.com/fjnkt98/status/1255825300656582656?ref\_src=twsrc%5Etfw">April 30, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>|コピペミスです・・・。|
