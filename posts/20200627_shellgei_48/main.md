@@ -3,7 +3,13 @@ Keywords: プログラミング,勉強会,シェル芸,シェル芸勉強会
 Copyright: (C) 2020 Ryuichi Ueda
 ---
 
-# 【問題のみ】jus共催 第48回引きこもりもりシェル芸勉強会
+# 【問題と解答】jus共催 第48回引きこもりもりシェル芸勉強会
+
+* 問題で使われているデータファイルは[GitHub](https://github.com/ryuichiueda/ShellGeiData/tree/master/vol.48)にあります。クローンは以下のようにお願いします。
+
+```bash
+$ git clone https://github.com/ryuichiueda/ShellGeiData.git
+```
 
 
 * 環境: 解答例はUbuntu Linux 20.04で作成。Macの場合はcoreutilsをインストールすると、GNUのコマンドが使えます。BSD系の人は玄人なので各自対応のこと。
@@ -36,6 +42,16 @@ $ こたえ
 59
 ```
 
+### 解答例
+
+```bash
+$ echo $LINENO
+58
+$ eval $(<lineno)
+59
+```
+
+
 ## Q2
 
 次のように打つと、`BASH`で始まる変数名が列挙できます。
@@ -48,32 +64,53 @@ BASH BASHOPTS BASHPID BASH_ALIASES BASH_ARGC BASH_ARGV BASH_ARGV0 BASH_CMDS BASH
 この中で、`BASH_VERSION`の値が見たいと思いました。`echo ${!BASH*}`の前後や間にいろいろ足して、`BASH_VERSION`の値を表示してください。できれば外部コマンドの利用は避けてください。
 
 
+### 解答例
+
+```
+$ eval echo '$'$(a=(${!BASH*});echo ${a[-1]})
+5.0.16(1)-release
+$ eval echo '$'$(echo ${!BASH*} | sed 's/.* //')
+5.0.16(1)-release
+$ echo ${!BASH*} | awk '{print "^"$NF}' | grep -f- <(set)
+BASH_VERSION='5.0.16(1)-release'
+```
+
 ## Q3
 
 `sleep`をみっつ、`systemd`（あるいは`init`などプロセス番号1のプロセス）の下にぶら下げてください。できるひとは100個ぶらさげてください。
 
+### 解答例
+
+
+```bash
+$ ( sleep 100 | sleep 100 | sleep 100 & )
+$ pstree
+systemd─┬─ModemManager───2*[{ModemManager}]
+・・・
+        ├─3*[sleep]
+        ├─snapd───11*[{snapd}]
+・・・
+```
+
 補足: デスクトップ版だと`systemd`の下の`systemd`にぶら下がることがあります。
-
-
-
-
-
-
-
 
 ## Q4
 
 いま触っている端末上で`echo $$`して`1`が出るように細工してください。
 
+### 解答例
 
 
+```bash
+$ sudo unshare --fork --pid --mount-proc bash
+# echo $$
+1
+```
 
+* 出典: 
 
-
-
-
-
-
+<blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="ja" dir="ltr">連載「Linuxのしくみ」はコンテナ機能を実現するためのカーネル機能、namespaceについて扱っています。いつものように具体例も出しつつ説明していますので、ぜひごらんください <a href="https://t.co/RpUuXTM6p6">pic.twitter.com/RpUuXTM6p6</a></p>&mdash; sat🛏 (@satoru_takeuchi) <a href="https://twitter.com/satoru_takeuchi/status/1273569132139606017?ref_src=twsrc%5Etfw">June 18, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ## Q5
@@ -107,6 +144,12 @@ $ unko
 他のバージョンについては 'snap info <snapname>' を確認してください。
 ```
 
+### 解答例
+
+
+```bash
+$ exec < <( while echo unko ; do sleep 3 ; done )
+```
 
 
 ## Q6
@@ -129,6 +172,25 @@ bash: 警告: シェルレベル (1000) は高すぎます。1に再設定され
 ```
 
 
+### 解答例
+
+
+```bash
+$ cat f
+echo $SHLVL && bash f
+$ ./f | head
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
+
 
 ## Q7
 
@@ -144,7 +206,18 @@ ueda       57994  0.0  0.0   9112   580 pts/5    S+   10:44   0:00          \_ s
 ・・・
 ```
 
+### 解答例
 
+次のようなシェルスクリプトが考えられます。
+
+```bash
+$ cat hoge2
+bash -c '
+sleep 100 &
+exec sleep 100
+' &
+exec sleep 100
+```
 
 
 ## Q8
@@ -223,3 +296,8 @@ $ ps --forest
  165386 pts/7    00:00:00  \_ ps
 ```
 
+### 解答例
+
+```bash
+$ a=bash ; for i in {1..5} ; do a=$(sed 's/bash/(&|&)/g' <<< $a) ; done ; sed 'asleep 100;' <<< $a | bash &
+```
