@@ -26,10 +26,9 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 ## LT
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BBHPEkBDhk8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">LTやります。<br>配信できたらツイートいただけると幸いです？<a href="https://t.co/UBB0Q4WjlJ">https://t.co/UBB0Q4WjlJ</a><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; taka@SIではたらくフレンズ (@amanoese) <a href="https://twitter.com/amanoese/status/1276774107535695873?ref_src=twsrc%5Etfw">June 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PIqx9fCSbaU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">では、次のLTいきますー。こちらのURLになります。<a href="https://t.co/V1iwCeD7uj">https://t.co/V1iwCeD7uj</a><br><br>音声と映像大丈夫そうでしたらお伝え下さいー。<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; ぐれさん😉 (@grethlen) <a href="https://twitter.com/grethlen/status/1276781570364444672?ref_src=twsrc%5Etfw">June 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## ブログなど
 
@@ -38,6 +37,7 @@ Copyright: (C) 2020 Ryuichi Ueda
 ## 【番外編】今回の偽初心者【茶番】
 
 嘘じゃなきゃいいってもんじゃない💩
+
 
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">初めての第48回シェル芸勉強会参加でした！難しい問題に手も足も出ませんでしたけれど、とっても楽しかったです！次も参加しようと思います！<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; 次郎☁️21:32:46 (@jiro_saburomaru) <a href="https://twitter.com/jiro_saburomaru/status/1276805258761523200?ref_src=twsrc%5Etfw">June 27, 2020</a></blockquote>
