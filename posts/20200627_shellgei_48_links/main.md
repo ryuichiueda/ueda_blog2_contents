@@ -26,7 +26,6 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 ## LT
 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BBHPEkBDhk8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
@@ -38,6 +37,18 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 ## 【番外編】今回の偽初心者【茶番】
 
+嘘じゃなきゃいいってもんじゃない💩
+
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">初めての第48回シェル芸勉強会参加でした！難しい問題に手も足も出ませんでしたけれど、とっても楽しかったです！次も参加しようと思います！<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; 次郎☁️21:32:46 (@jiro_saburomaru) <a href="https://twitter.com/jiro_saburomaru/status/1276805258761523200?ref_src=twsrc%5Etfw">June 27, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">リモートシェル芸勉強会初参加でした！<br>ほとんど解けませんでした…😥<br>もっともっと勉強して、次回もがんばります！<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; くおん (@qwertanus) <a href="https://twitter.com/qwertanus/status/1276806989180370944?ref_src=twsrc%5Etfw">June 27, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はじめてのシェル芸勉強会参加！<br>興奮で昨日は眠れなく、今起きちゃいましたが、一つでも多く問題解けるよう頑張りたいです！<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; taka@SIではたらくフレンズ (@amanoese) <a href="https://twitter.com/amanoese/status/1276726943937736704?ref_src=twsrc%5Etfw">June 27, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">なれないリモートでのシェル芸勉強会🥺<br>問題は一問も解けませんでしたが、初参加でもすごく楽しめました😂😂<br>次回からも参加してシェル芸人の皆さんのように成長していきたいです😤😤😤<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; taka@SIではたらくフレンズ (@amanoese) <a href="https://twitter.com/amanoese/status/1276804333833601025?ref_src=twsrc%5Etfw">June 27, 2020</a></blockquote>
