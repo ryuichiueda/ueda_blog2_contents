@@ -34,6 +34,11 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">シェル芸勉強会の振り返り書いた<a href="https://t.co/pc19cEOKSw">https://t.co/pc19cEOKSw</a></p>&mdash; 次郎☁️21:22:46 (@jiro_saburomaru) <a href="https://twitter.com/jiro_saburomaru/status/1276878737326215169?ref_src=twsrc%5Etfw">June 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました<br>第48回シェル芸勉強会に参加しました - たいちょーの雑記 <a href="https://t.co/5w83iFrWpN">https://t.co/5w83iFrWpN</a> &#39;&#39; <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1277970358809722888?ref_src=twsrc%5Etfw">June 30, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ## 【番外編】今回の偽初心者【茶番】
 
 嘘じゃなきゃいいってもんじゃない💩
