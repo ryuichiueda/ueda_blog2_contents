@@ -10,8 +10,8 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 ## 出題
 
-* [問題ページ](/?post=20200425_shellgei_47)
-* [解答ページ](/?post=20200425_shellgei_47_q)
+* [問題ページ](/?post=20200425_shellgei_47_q)
+* [解答ページ](/?post=20200425_shellgei_47)
 
 
 ## Twitterまとめ
