@@ -6,6 +6,7 @@ Copyright: (C) 2020 Ryuichi Ueda
 # 【問題と解答】jus共催 第49回ボンバイエシェル芸勉強会
 
 * 問題で使われているデータファイルは[GitHub](https://github.com/ryuichiueda/ShellGeiData/tree/master/vol.49)にあります。クローンは以下のようにお願いします。
+* Twitter上にシェル芸紳士たちのもっと変態的なワンライナーがあります。
 
 ```bash
 $ git clone https://github.com/ryuichiueda/ShellGeiData.git
