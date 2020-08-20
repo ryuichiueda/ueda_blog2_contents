@@ -31,3 +31,14 @@ Copyright: (C) 2020 Ryuichi Ueda
 ## 1年生の質問を受ける
 
 　院に向けての相談。もう考えててすばらしい。
+
+## 今日の猫
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr">💢 <a href="https://t.co/zO646ggvkV">pic.twitter.com/zO646ggvkV</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1296298157756710913?ref_src=twsrc%5Etfw">August 20, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">何してんの？（仕事にならん） <a href="https://t.co/d8EogSkc9f">pic.twitter.com/d8EogSkc9f</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1296310007886016512?ref_src=twsrc%5Etfw">August 20, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+以上。
