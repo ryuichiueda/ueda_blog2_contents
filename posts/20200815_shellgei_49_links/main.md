@@ -40,7 +40,7 @@ Copyright: (C) 2020 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">第49回シェル芸勉強会振り返り書いた<a href="https://t.co/nxdSuUglPh">https://t.co/nxdSuUglPh</a></p>&mdash; 次郎☁️19:32:46 (@jiro_saburomaru) <a href="https://twitter.com/jiro_saburomaru/status/1294659989588414465?ref_src=twsrc%5Etfw">August 15, 2020</a></blockquote>
 
 
-## 【番外編】今回の偽初心者【茶番】
+## 【番外編】今回の偽初心者【天罰】
 
 薬（💩）を塗ってさしあげるので出頭してください。
 
