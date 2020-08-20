@@ -1,5 +1,5 @@
 ---
-Keywords: 詳解確率ロボティクス
+Keywords: シェル芸, シェル芸勉強会
 Copyright: (C) 2020 Ryuichi Ueda
 ---
 
