@@ -54,3 +54,11 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">今日シェル芸勉強会に初めて参加します‼業務でシェル書いたこともない一般事務職ですが、頑張って解きます‼</p>&mdash; 次郎☁️19:32:46 (@jiro_saburomaru) <a href="https://twitter.com/jiro_saburomaru/status/1294421030719516672?ref_src=twsrc%5Etfw">August 14, 2020</a></blockquote>
 
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">変態じゃない初心者なので今日はダメそう…諦めます…… <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; taka@SIではたらくフレンズ (@amanoese) <a href="https://twitter.com/amanoese/status/1294500749943037952?ref_src=twsrc%5Etfw">August 15, 2020</a></blockquote>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">偽初心者・・・。一体誰なんだ <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; 次郎☁️19:32:46 (@jiro_saburomaru) <a href="https://twitter.com/jiro_saburomaru/status/1294485954846011393?ref_src=twsrc%5Etfw">August 15, 2020</a></blockquote>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">＿人人人人人人人人人人人人人＿<br>＞　シェル芸自称初心者　　　＜<br>＞　の肛門に綿棒をたくさん　＜<br>＞　挿入する週間開始　　　　＜<br>￣Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^￣ <a href="https://t.co/fB7B797Az8">https://t.co/fB7B797Az8</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1291498746384023552?ref_src=twsrc%5Etfw">August 6, 2020</a></blockquote>
+
+
