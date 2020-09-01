@@ -33,6 +33,11 @@ Copyright: (C) Ryuichi Ueda
 
 ## 訂正
 
+|場所|訂正事項|発見者|一言|
+|:---|:-----|------|:-----|
+|p.91 1、3行目|角度、角速度\\( \Longrightarrow \\)速度、角速度|<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/ryuichiueda?ref_src=twsrc%5Etfw">@ryuichiueda</a> p.91の1行目、3行目の「角度、角速度」は「速度、角速度」ですかね。<a href="https://twitter.com/hashtag/%E8%A9%B3%E8%A7%A3%E7%A2%BA%E7%8E%87%E3%83%AD%E3%83%9C%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9?src=hash&amp;ref_src=twsrc%5Etfw">#詳解確率ロボティクス</a></p>&mdash; Usk Tamura (@slx01) <a href="https://twitter.com/slx01/status/1300707440611139584?ref_src=twsrc%5Etfw">September 1, 2020</a></blockquote>|1箇所ならともかくコピペで2箇所間違えました。|
+
+### 第4刷で訂正済み
 
 |場所|訂正事項|発見者|一言|
 |:---|:-----|------|:-----|
