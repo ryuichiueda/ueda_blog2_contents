@@ -17,6 +17,7 @@ Copyright: (C) 2020 Ryuichi Ueda
 * OSが吹っ飛んでもいいように覚悟
 * DRAMと同じ容量のスワップファイルを作って利用できるようにセット（デフォルトのものはたぶんDRAMの容量より小さくて情報を書ききれない）
 * [このサイト](https://askubuntu.com/questions/6769/hibernate-and-resume-from-a-swap-file)の手順を試行
+    * `conv=notrun`となっているのは、`conv=notrunc`ですね
 * `/etc/default/grub`のに、スワップファイルのあるパーティションのデバイスファイルを記述（`resume=/dev/sda1`など。[参考](https://askubuntu.com/questions/1034185/ubuntu-18-04-cant-resume-after-hibernate)）
 
 だった。無事でよかった。
