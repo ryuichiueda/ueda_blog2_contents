@@ -3,7 +3,7 @@ Keywords: プログラミング,勉強会,シェル芸,シェル芸勉強会
 Copyright: (C) 2020 Ryuichi Ueda
 ---
 
-# 【問題と解答】jus共催 第50回記念我々は50回も何をやってるんだろうシェル芸勉強会
+# 【問題】jus共催 第50回記念我々は50回も何をやってるんだろうシェル芸勉強会
 
 * 問題で使われているデータファイルは[GitHub](https://github.com/ryuichiueda/ShellGeiData/tree/master/vol.50)にあります。クローンは以下のようにお願いします。
 
