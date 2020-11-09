@@ -169,23 +169,11 @@ sys	0m3.155s
 ### 解答例
 
 ```
-$ time cat a | teip -f 2 -- factor | awk 'NF==3{print $3,$1}' | teip -f 2 -- factor | awk 'NF==3{print $3,$1}' > ans1
-
-real	1m17.399s
-user	3m1.450s
-sys	0m8.649s
-### 前処理して偶数のある行を消しておくと速くなります ###
-$ time awk '$1%2 && $2%2' a | teip -f 2 -- factor | awk 'NF==3{print $3,$1}' | teip -f 2 -- factor | awk 'NF==3{print $3,$1}' > ans2
-
-real	0m27.110s
-user	1m14.817s
-sys	0m1.727s
-### teipなしの方法 ###
-$ time ( awk '$1%2 && $2%2{print $1 > "b";print $2 > "c"}' a  && paste <(factor < b) <(factor < c) | awk 'NF==4{print $2,$4}' > ans3 )
-
-real	0m32.634s
-user	0m34.366s
-sys	0m1.189s
+$ time cat a | teip -f 2 -- factor | awk 'NF==3{print $3,$1}' | teip -f 2 -- factor | awk 'NF==3{print $3,$1}' | grep -wv 1 > ans1
+### 前処理してどちらかが偶数のある行を消しておくと速くなります（2が消えるので&&はダメ） ###
+$ time awk '$1%2 || $2%2' a | teip -f 2 -- factor | awk 'NF==3{print $3,$1}' | teip -f 2 -- factor | awk 'NF==3{print $3,$1}' | grep -wv 1 > ans2
+### teipなしの方法（これも2が消えるので前処理） ###
+$ time ( awk '$1%2 || $2%2{print $1 > "b";print $2 > "c"}' a  && paste <(factor < b) <(factor < c) | awk 'NF==4{print $2,$4}' | grep -wv 1 > ans3 )
 ```
 
 ## Q7
