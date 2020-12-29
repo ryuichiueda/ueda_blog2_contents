@@ -47,7 +47,8 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 ## 3位：猫が家に来た
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今日も一日 <a href="https://t.co/ZWYsGwVaWf">pic.twitter.com/ZWYsGwVaWf</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1301662078378205184?ref_src=twsrc%5Etfw">September 3, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ヤカンが気になってしょうがない <a href="https://t.co/Qy9c836QLN">pic.twitter.com/Qy9c836QLN</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1324133474467418113?ref_src=twsrc%5Etfw">November 4, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## 2位：猫が家に来た
 
