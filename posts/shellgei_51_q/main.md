@@ -31,28 +31,6 @@ $ cat pepo
 ぽぽぽぽぽぽぽぽぽぺぺぺぺぺぺぺぺぺぺ
 ```
 
-### 解答例
-
-```
-$ cat pepo | sed 's/[ぺぽ]/　/g' | sed 's/ほ./（/;s/へ./）/'
-　　　　　　　　　人　　　　　　　　　
-　　　　　　　（　　　）　　　　　　　
-　　　　　　（　　　　　）　　　　　　
-　　　　　（　　　　　　　）　　　　　
-　　　　（　　　　　　　　　）　　　　
-　　　（　　　　　　　　　　　）　　　
-　　（　　　　　　　　　　　　　）　　
-　（　　　　　　　　　　　　　　　）　
-```
-
-`pepo`の作り方は例えば次の通りです。
-
-
-```
-$ unko.tower 7 | awk -v a=ぽぽぽぽぽぽぽぽぽぺぺぺぺぺぺぺぺぺぺ -F '' '{for(i=1;i<=19;i++)printf ($i=="　"||$i=="")?substr(a,i,1):$i; print ""}' |
-sed "s/（/$(echo -e 'ほ\U309A')/" | sed "s/）/$(echo -e 'へ\U309A')/" > pepo
-```
-
 ## Q2
 
 　次の`q2`ファイルは、あるC言語のソースコードに何回か変換をかけて作ったデータです。ソースコードに戻してコンパイルして、実行してみてください。
@@ -69,16 +47,6 @@ fgce97fgcd9dfgcd01fgce09fgcd01fgcd01fgce0efgcd0c1b10fgce01fgce06fgce05fgce04fgcd
 99fgce92fgcd90fgcd0c1b10fgce96fgce09fgce90fgce05fgcd99fgcd01fgcd90fgcd0c1bfgce0e
 ```
 
-### 解答
-
-　手がかりは、UTF-8の16進数っぽいけどアルファベットがb〜gにずれていることです。
-数字もずらすと8が増えて日本語が出てきそうだと（分かる人は）分かります。
-
-```
-$ cat q2 | tr 1-90b-g 0-9a-f | xxd -r -p | nkf -Z |
-sed 's/　/ /g' | gcc -x c - && ./a.out
-unko
-```
 
 ## Q3
 
@@ -90,30 +58,12 @@ unko
 127: 127
 ```
 
-### 解答
-
-```
-$ ( _ ; factor $? ) |& grep -v _ | awk NF-${##}==${##}
-127: 127
-$ factor $(( $?xFF >> $$/$$ )) | awk NF-${##}==${##}
-127: 127
-$ factor $(( $((${##}+${##}))#${##}${##}${##}${##}${##}${##}${##} )) |
-awk NF==$((${##}+${##}))
-127: 127
-```
-
 ## Q4
 
 
 　アルファベットを使わないコマンドあるいはワンライナーで、`q2`の中身を出力してください。
 `q2`のあるディレクトリで試してください。
 できる人は外部コマンドなしで出力してください。
-
-### 解答
-
-```
-$ $'\145\143\150\157' $(<?2)
-```
 
 ## Q5
 
@@ -136,32 +86,10 @@ C2031933B97EC1BEF363C1B2CD53E30C0FA07F96D10D7A25DD523E     //5で割った数
 ・・・                                                     //以下延々と
 ```
 
-### 解答例
-
-```
-$ seq inf | factor | awk 'NF==2&&$0=$2' |
-paste <(yes $(cat message)| sed '1iobase=10;ibase=16' | bc ) - |
-tr '\t' '/' | bc | sed '1iobase=16;ibase=10' | bc 
-1E507BF014FBCE45D6079643F0151B79E27113EF90AA1B15EA94D9D
-1435A7F563528983E4050ED7F56367A696F60D4A60716763F1B8913
-C2031933B97EC1BEF363C1B2CD53E30C0FA07F96D10D7A25DD523E
-・・・
-```
-
 ## Q6
 
 Q5のワンライナーに続けて、`message`に仕込まれたメッセージを発見してください。
 目視できれば完璧でなくてかまいません。
-
-### 解答例
-
-```
-$ time seq inf | factor | awk 'NF==2&&$0=$2' |
-paste <(yes $(cat message)| sed '1iobase=10;ibase=16' | bc ) - |
-tr '\t' '/' | bc | sed '1iobase=16;ibase=10' | bc | xxd -r -p |
-grep -aP '[\p{Han}\p{Hiragana}]{3,}'
-���SV)x�.�jQ8M}y�Fp8F�N�5��@L�:Ay�1eM�^��XS"	�=�,H0euW�=�����D��wn�g��3����Yh��mQ��m�����/�b������e�la͎�L��b8碘��It1J�&r��ͅOO�a��+�矒��GK����bPQ+~*y���目だ！目を狙え！
-```
 
 ## Q7 
 
@@ -175,15 +103,6 @@ $ echo $SHLVL
 2
 ```
 
-### 解答例
-
-```
-$ ssh localhost
-$ ${!##-}
-$ echo $SHLVL
-2
-```
-
 ## Q8
 
 `echo evil`という文字列をランダムなアルファベットを書いたファイル`secret`の中に隠そうとしています。`secret`からは、次のように操作すると`echo evil`という文字列が作れます。
@@ -192,22 +111,4 @@ $ echo $SHLVL
 * 残ったバイナリを8個ずつ組にして文字に戻す。
 
 このようなファイル`secret`を作ってください。また、作ったら上の操作で`echo evil`が出現することを確認してください。
-
-### 解答
-
-```
-$ echo -n echo evil | xxd -ps -u | fold -b2 | sed '1iobase=2;ibase=16' |
-bc | xargs printf "%08d\n" | grep -o . | while read n ; do [ $n -eq 0 ] &&
-echo $n $(shuf -n1 -e {B..Z..2}) || echo $n $(shuf -n1 -e {A..Z..2}) ; done |
-awk '{printf $2}'  > secret
-$ cat secret
-BECLJEVKNYEZNXWEXCUTYJPZZMMBMMYGDNIBRRXFBUYZLKXMBOMWTAAPBMCFCPDANISNCQJD
-```
-
-```
-$ cat secret | xxd -ps -u | fold -b2 | sed 's/$/%2/' |
-sed '1iobase=10;ibase=16' | bc | tr -d \\n | fold -b8 |
-sed '1iobase=16;ibase=2' | awk 4 | bc | xxd -r -p
-echo evil
-```
 
