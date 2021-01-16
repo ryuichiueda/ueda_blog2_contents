@@ -5,10 +5,6 @@ Copyright: (C) Ryuichi Ueda
 
 # 出版物リスト（書籍・商業誌等）
 
-## 連載
-
-* シェル芸人からの挑戦状, Software Design, 技術評論社, 2017年9月号〜
-
 
 ## 著書・翻訳書
 
@@ -101,6 +97,11 @@ Copyright: (C) Ryuichi Ueda
 
 ## 商業誌等記事
 
+### 2021
+
+* 上田隆一: "マルチパラメータ演算！先進ロボティクス技術", 第1〜3章+Appendix, トラ技Jr. 2021年冬号, p.10-21, CQ出版社. 
+    * [トランジスタ技術2021年2月号](https://amzn.to/3ijUo1b), p.176-187にも掲載
+
 ### 2019
 
 * 上田隆一: "第1特集 思わず実践したくなるシェル＆シェルスクリプト | 第2章 ：日常で使うファイル形式だからこそ応用範囲は広い テキスト処理で役立つシェル・テクニック", Software Design, 技術評論社, 2019年6月号.
@@ -146,9 +147,10 @@ Copyright: (C) Ryuichi Ueda
 
 ### 過去の連載
 
- * Raspberry Piで作ろう お手軽ロボット教室, 日経Linux, 日経PB社, 2016年1月号〜2016年9月号
- * Raspberry Piで始めるかんたんロボット製作, 日経Linux, 日経PB社, 2015年6月号〜11月号
- * シェル芸勉強会後追い企画 Haskellでやってはいかんのか？, USP Magazine, USP研究所, 2014年4月号-
- * テキストデータならお手のもの　開眼シェルスクリプト 【1】〜【24】, Software Design 2012年1月号〜2013年12月号
+* シェル芸人からの挑戦状, Software Design, 技術評論社, 2017年9月号〜2020年4月号
+* Raspberry Piで作ろう お手軽ロボット教室, 日経Linux, 日経PB社, 2016年1月号〜2016年9月号
+* Raspberry Piで始めるかんたんロボット製作, 日経Linux, 日経PB社, 2015年6月号〜11月号
+* シェル芸勉強会後追い企画 Haskellでやってはいかんのか？, USP Magazine, USP研究所, 2014年4月号-
+* テキストデータならお手のもの　開眼シェルスクリプト 【1】〜【24】, Software Design 2012年1月号〜2013年12月号
 
 <div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4774197386/ryuichiueda-22/" target="_blank" ><img src="https://images-fe.ssl-images-amazon.com/images/I/61NYuC2rhdL._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="https://www.amazon.co.jp/exec/obidos/ASIN/4774197386/ryuichiueda-22/" target="_blank" >Software Design総集編【2013~2017】</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="https://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">Software Design編集部 技術評論社 2018-05-26    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="display:inline;margin-right:5px"><a href="https://www.amazon.co.jp/gp/search?keywords=SoftwareDesign&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=ryuichiueda-22" target="_blank" >Amazon</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
