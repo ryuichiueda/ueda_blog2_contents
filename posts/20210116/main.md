@@ -12,7 +12,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">中身は競馬必勝法です。（嘘はついてない）</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1348951414588854273?ref_src=twsrc%5Etfw">January 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-ツイートの通り、学校に配布されるのに馬券を買うときの計算方法を書くという暴挙に出てます。
+ツイートの通り、学校に配布されるのに馬券を買うときの計算方法を書くという暴挙に出てます（「とじ込み」というのは少し不正確です）。
 よろしければトランジスタ技術を購入の上、暴挙をご確認ください（）
 
 
