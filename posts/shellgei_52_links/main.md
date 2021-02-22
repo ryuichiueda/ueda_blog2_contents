@@ -19,10 +19,17 @@ Copyright: (C) 2020 Ryuichi Ueda
 * [解答ページ](/?post=shellgei_52)
 
 
-
 ## 本編
 
+### YouTube
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLbUh9y6MXvjfW71kLOQRcJSYDutz-T1f8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+### まとめ
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> 第52回シェル芸勉強会お疲れ様でした。Togetterまとめ作りましたので公開します。 <a href="https://t.co/SEqVwGV7ME">https://t.co/SEqVwGV7ME</a></p>&mdash; ぱぴろんちゃん😱 (@papiron) <a href="https://twitter.com/papiron/status/1363455056763232259?ref_src=twsrc%5Etfw">February 21, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## LT
 
@@ -30,4 +37,6 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 ## ブログなど
 
-書いたら教えて下さーい。
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a><br>第52回シェル芸勉強会に参加しました - たいちょーの雑記 <a href="https://t.co/BjWlDfRfdP">https://t.co/BjWlDfRfdP</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1363482412303273988?ref_src=twsrc%5Etfw">February 21, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
