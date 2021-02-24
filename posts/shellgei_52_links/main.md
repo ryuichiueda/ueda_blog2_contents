@@ -40,3 +40,14 @@ Copyright: (C) 2020 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a><br>第52回シェル芸勉強会に参加しました - たいちょーの雑記 <a href="https://t.co/BjWlDfRfdP">https://t.co/BjWlDfRfdP</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1363482412303273988?ref_src=twsrc%5Etfw">February 21, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">第52回 シェル芸勉強会振り返り書いた<a href="https://t.co/Ngy0BvnbbR">https://t.co/Ngy0BvnbbR</a></p>&mdash; 次郎☃️20:59:21 (@jiro_saburomaru) <a href="https://twitter.com/jiro_saburomaru/status/1363736370326331402?ref_src=twsrc%5Etfw">February 22, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+## 摘発！今回の偽初心者
+
+上のブログ記事と見比べると趣深い。（深くない。）
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">シェル芸勉強会初参加なので緊張するな…。どういうことやるんだろ？Linux触ったことすらないのでシェルがどういうものなのか分からない</p>&mdash; 次郎☃️20:59:21 (@jiro_saburomaru) <a href="https://twitter.com/jiro_saburomaru/status/1362899815642800131?ref_src=twsrc%5Etfw">February 19, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
