@@ -1,5 +1,5 @@
 ---
-Keywords: 日記
+Keywords: ご報告
 Copyright: (C) 2021 Ryuichi Ueda
 ---
 
