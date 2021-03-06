@@ -35,4 +35,4 @@ Copyright: (C) 2021 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">あんまり好きではないものの，賞はもらうといろいろ身軽になるのでもらえるものはもらいたい． <a href="https://twitter.com/hashtag/%E3%82%82%E3%82%89%E3%81%84%E3%81%9F%E3%81%84?src=hash&amp;ref_src=twsrc%5Etfw">#もらいたい</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1185463208619827200?ref_src=twsrc%5Etfw">October 19, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-いざもらうと懺悔しかない・・・けど本音でもあります。
+いざもらうと、こんなこと過去に書いていたことに対して懺悔しかない・・・けど本音でもあります。
