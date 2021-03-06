@@ -5,11 +5,15 @@ Copyright: (C) Ryuichi Ueda
 
 # 詳解確率ロボティクス
 
-<span style="color:red">増版（第4刷）決定！</span>
+<span style="color:red">第5刷決定！</span>
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">【重版速報】<br>おかげさまで、重版が決まりました。ありがとうございます！<br><br>上田隆一・著『詳解　確率ロボティクス』【4刷】<a href="https://t.co/ZlzkrQbWyw">https://t.co/ZlzkrQbWyw</a><br><br>著者による解説動画もあります。<a href="https://t.co/sJI7Jr1pXC">https://t.co/sJI7Jr1pXC</a> <a href="https://t.co/pAFxVdhQrQ">pic.twitter.com/pAFxVdhQrQ</a></p>&mdash; 講談社サイエンティフィク (@kspub_kodansha) <a href="https://twitter.com/kspub_kodansha/status/1267275779097808900?ref_src=twsrc%5Etfw">June 1, 2020</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">【🎉重版速報🎉】<br>重版が決まりました😆ご愛読ありがとうございます！<br><br>上田隆一・著『詳解　確率ロボティクス　Ｐｙｔｈｏｎによる基礎アルゴリズムの実装』【5刷】<a href="https://t.co/7AETf9a61B">https://t.co/7AETf9a61B</a><br><br>僕たちは、こんな本を待っていた。 <a href="https://t.co/fmv6INk1vz">pic.twitter.com/fmv6INk1vz</a></p>&mdash; 講談社サイエンティフィク (@kspub_kodansha) <a href="https://twitter.com/kspub_kodansha/status/1367641013259440128?ref_src=twsrc%5Etfw">March 5, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<span style="color:red">日本機械学会教育賞の受賞理由になりました。</span>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">🎊上田隆一先生、おめでとうございます🎊<br>翻訳書『確率ロボティクス』と書籍『詳解 確率ロボティクス』の出版およびウェブ上への教材の公開での教育への貢献により、上田先生が2020年度日本機械学会教育賞を受賞されました！<br><br>翻訳書『確率ロボティクス』| マイナビブックス<a href="https://t.co/3HBtAtMcwG">https://t.co/3HBtAtMcwG</a></p>&mdash; マイナビ出版 電子書籍 (@MYNAVI_eBooks) <a href="https://twitter.com/MYNAVI_eBooks/status/1367671620714700801?ref_src=twsrc%5Etfw">March 5, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ## 講義用スライド・動画
