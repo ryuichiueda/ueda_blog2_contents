@@ -23,9 +23,16 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 （ノーベル賞も同じです。しかも4人以上が重要な仕事をしていても3人しかもらえないし。おかしなものです。）
 
-　そして、過去にこうも書いているので、今のぼーっとしている自分ではなく、過去の自分と、一緒に仕事をした方々のことをお祝いしたいと思います。
+　そして、こうも書いているので、自分自身ではなく、過去の自分の仕事と、一緒に仕事をした方々のことをお祝いしたいと思います。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">そんでもって、賞は人に与えるもんじゃなくて、その人と一緒に業績自体を祝うものだと自分は思っておりますです。</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1313074699866238977?ref_src=twsrc%5Etfw">October 5, 2020</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+自分自身は、さらに仕事を重ねていくしかないです。本日、新たな書籍の原稿を出版社に渡しました。これも多くの人に受け入れてもらえるといいなと思ってます。
 
+## さらに過去にこんなことも言ってた
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">あんまり好きではないものの，賞はもらうといろいろ身軽になるのでもらえるものはもらいたい． <a href="https://twitter.com/hashtag/%E3%82%82%E3%82%89%E3%81%84%E3%81%9F%E3%81%84?src=hash&amp;ref_src=twsrc%5Etfw">#もらいたい</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1185463208619827200?ref_src=twsrc%5Etfw">October 19, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+いざもらうと懺悔しかない・・・けど本音でもあります。
