@@ -10,7 +10,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">上田准教授が2020年度の日本機械学会教育賞を受賞しました。<br><br>未ロボでは2008年度の米田教授以来です。<br><br>（と、自慢のためではなく学科のPRのために自分で書く上田。）<a href="https://t.co/wzp29rWFPd">https://t.co/wzp29rWFPd</a></p>&mdash; 千葉工大 未来ロボティクス学科 (@robo_cit) <a href="https://twitter.com/robo_cit/status/1367702081000280067?ref_src=twsrc%5Etfw">March 5, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-昨日公開で、昨日から関係各所に連絡して、祝福を受けて、またお礼をして・・・を繰り返しています。
+昨日公開で、昨日から関係各所に連絡して、祝福を受けて、またお礼をして・・・を繰り返しています。私は研究というより教育がやりたくて大学の仕事を選んでますので、個人的には大変重みがあります。
 
 
 　で、しばらくはおめでとうありがとうをやっていていいと思うのですが、ここではちょっとひねくれた話を書き留めておかねばなりません。自分自身は賞に一喜一憂してはアカンと思って日々生きてますし、賞をとった人だからと他人をどうこう言うこともありません。賞の有無でやったことの本質が過去にさかのぼって変化するわけではありませんし、仕事は漠然と現在か将来の人々に評価されるのが民主的で、少数の権威者が評価するものではないというのが自分の考えです。過去の自分も言ってます。
