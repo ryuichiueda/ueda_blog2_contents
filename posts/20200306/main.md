@@ -28,7 +28,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">そんでもって、賞は人に与えるもんじゃなくて、その人と一緒に業績自体を祝うものだと自分は思っておりますです。</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1313074699866238977?ref_src=twsrc%5Etfw">October 5, 2020</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-自分自身は、さらに仕事を重ねていくしかないです。本日、新たな書籍の原稿を出版社に渡しました。これも多くの人に受け入れてもらえるといいなと思ってます。共著なので、これは賞をいただけると素直にみんなで喜べます。
+自分自身は、さらに仕事を重ねていくしかないです。本日、新たな書籍の原稿を出版社に渡しました。これも多くの人に受け入れてもらえるといいなと思ってます。共著なので、これは賞をいただけると素直にみんなで喜べます。賞ください（何書いてるんだ）。
 
 ## さらに過去にこんなことも言ってた
 
