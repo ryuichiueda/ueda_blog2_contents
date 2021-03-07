@@ -5,7 +5,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 # 日本機械学会教育賞（と戒め）
 
-　日本機械学会教育賞という賞をいただけることになりました。受賞理由は「翻訳書『確率ロボティクス』と書籍『詳解 確率ロボティクス』の出版およびウェブ上への教材の公開」です。いずれの本も多くの方のご協力を受けて出版したものですので、周囲の方に改めて感謝してます。
+　日本機械学会教育賞という賞をいただけることになりました。受賞理由は「翻訳書『[確率ロボティクス](https://amzn.to/3c7CAE2)』と書籍『[詳解 確率ロボティクス](https://amzn.to/3qoTvH2)』の出版およびウェブ上への教材の公開」です。いずれの本も多くの方のご協力を受けて出版したものですので、周囲の方に改めて感謝してます。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">上田准教授が2020年度の日本機械学会教育賞を受賞しました。<br><br>未ロボでは2008年度の米田教授以来です。<br><br>（と、自慢のためではなく学科のPRのために自分で書く上田。）<a href="https://t.co/wzp29rWFPd">https://t.co/wzp29rWFPd</a></p>&mdash; 千葉工大 未来ロボティクス学科 (@robo_cit) <a href="https://twitter.com/robo_cit/status/1367702081000280067?ref_src=twsrc%5Etfw">March 5, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
