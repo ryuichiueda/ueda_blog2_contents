@@ -1,6 +1,6 @@
 ---
 Keywords: 近況
-Copyright: (C) 2018 Ryuichi Ueda
+Copyright: (C) 2021 Ryuichi Ueda
 ---
 
 # トップページ 
