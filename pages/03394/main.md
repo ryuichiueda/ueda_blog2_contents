@@ -6,7 +6,8 @@ Copyright: (C) Ryuichi Ueda
 # IAS-13/trajectories with modified Q-MDP
 <h1>trial 1</h1>
 
-<a href="trial.1.gif"><img src="trial.1-300x300.gif" alt="trial.1" width="300" height="300" class="aligncenter size-medium wp-image-3397" /></a>
+![](trial.1.gif)
+![](trial.1-300x300.gif)
 
 <h1>trial 2</h1>
 
