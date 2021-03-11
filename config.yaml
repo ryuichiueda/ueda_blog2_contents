@@ -15,7 +15,7 @@ pocket: '@'
 #line: '@'
 links:
 - text: 'latest'
-  href: '/?page'
+  href: '/?post'
 - text: 'publications'
   href: '/?page=00728'
   sublinks:
