@@ -14,6 +14,8 @@ hatena: '@'
 pocket: '@'
 #line: '@'
 links:
+- text: 'latest'
+  href: '/?page'
 - text: 'publications'
   href: '/?page=00728'
   sublinks:
