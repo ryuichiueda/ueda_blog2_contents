@@ -1,5 +1,5 @@
 ---
-Keywords: 日記
+Keywords: 日記, 動画
 Copyright: (C) 2021 Ryuichi Ueda
 ---
 
@@ -14,12 +14,19 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 動画はそのうち一般公開します。
 
-## 動画のアップ（講義ではなく猫）
+## 動画のアップ（学生さん）
 
-講義とか勉強の動画ならいいんだけど、昨日今日で猫動画をアップ。節操のないチャンネルになってきました。
+研究室紹介の一環として、学生さんにも動画をアップしてもらいました。これは弊研究室をUnityで忠実に再現したシミュレータです。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fn4R3Rou23M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 動画のアップ（猫）
+
+昨日今日で猫動画をアップ。節操のないチャンネルになってきました。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yb-N790j184" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jtO93dDis8I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
