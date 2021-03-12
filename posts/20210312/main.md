@@ -10,7 +10,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## 研究室紹介
 
-今年はポスターと動画を作るということで、昨日どういう仕様で作ればよいかなんとなく分かって、今週末までに作らなければならないので上記の通り、査読は無理。今日はポスターを作って、動画で使うパワポをだいたい仕上げました。
+今年はポスターと動画を作るということで、昨日どういう仕様で作ればよいかなんとなく分かって、今週末までに作らなければならないので上記の通り、査読は無理です。今日はポスターを作って、動画で使うパワポをだいたい仕上げました。
 
 動画はそのうち一般公開します。
 
@@ -30,9 +30,6 @@ Copyright: (C) 2021 Ryuichi Ueda
 ### 本戦
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wjuNznYEFNg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
 
 
 ## 動画のアップ（猫）
