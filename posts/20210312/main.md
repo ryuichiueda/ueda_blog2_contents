@@ -14,11 +14,26 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 動画はそのうち一般公開します。
 
-## 動画のアップ（学生さん）
+## 動画（学生さん）
 
 研究室紹介の一環として、学生さんにも動画をアップしてもらいました。これは弊研究室をUnityで忠実に再現したシミュレータです。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fn4R3Rou23M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+また、ちょっと前のものですが、上田研軍団がAWS Robot Delivery Challengeに出たときの動画を見つけました。メンバーは上田研配属前から参加していたわけですが、上田研の紹介でも使わせていただきます。
+
+### 決勝
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tvhe4P3MiTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### 本戦
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wjuNznYEFNg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
 
 ## 動画のアップ（猫）
 
@@ -30,3 +45,8 @@ Copyright: (C) 2021 Ryuichi Ueda
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jtO93dDis8I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+
+研究室紹介の動画は明日撮影できればよいなあ・・・
+
+
+寝る。
