@@ -1,5 +1,5 @@
 ---
-Keywords: 日記, 動画
+Keywords: 日記
 Copyright: (C) 2021 Ryuichi Ueda
 ---
 
