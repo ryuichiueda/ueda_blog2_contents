@@ -5,7 +5,14 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 # 日記（2021年3月15日）
 
-　研究室にシュッキン．WindowsもLinuxも機嫌が悪く，なかなか紙がプリンターから出てこないというトラブルがあり，大変疲れました．
+　研究室にシュッキン．WindowsもLinuxも機嫌が悪く，なかなか紙がプリンターから出てこないというトラブルがあり，大変疲れました．プリンタも毎日使っていないからそうなるわけですが，週1，2日の出勤だと，ほかにもいろいろ弊害が起こります．
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">在宅勤務で使われなくなった研究室の糊がグレた。 <a href="https://t.co/rTHwUwmiIp">pic.twitter.com/rTHwUwmiIp</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1371322117950607360?ref_src=twsrc%5Etfw">March 15, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+コーヒー豆の粉も購入して半年経ってしまい，麦茶みたいな味がします．
+
 
 ## 某原稿の赤入れ
 
