@@ -9,7 +9,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## Gatherを使ったLT大会
 
-ロボティクス・シンポジアの夜のLT大会の座長を何年かやってるんですが，今年は[Gather](https://gather.town/)を用意していただき，そこで開催しました．
+ロボティクス・シンポジアの夜のLT大会の座長を何年かやってるんですが，今年は[Gather](https://gather.town/)で会場を用意していただき，そこで開催しました．
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ポツネン<a href="https://twitter.com/hashtag/%E3%83%AD%E3%83%9C%E3%82%B7%E3%83%B32021?src=hash&amp;ref_src=twsrc%5Etfw">#ロボシン2021</a> <a href="https://t.co/NtysbER37r">pic.twitter.com/NtysbER37r</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1371770443099566082?ref_src=twsrc%5Etfw">March 16, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
