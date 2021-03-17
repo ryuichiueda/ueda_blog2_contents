@@ -27,3 +27,11 @@ Copyright: (C) 2021 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">研究室作ってみたけど誰も来ねえwwwwww <a href="https://twitter.com/hashtag/%E3%81%95%E3%81%BF%E3%81%97%E3%81%84?src=hash&amp;ref_src=twsrc%5Etfw">#さみしい</a> <a href="https://t.co/gpTlriSBkm">pic.twitter.com/gpTlriSBkm</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1372066499389751296?ref_src=twsrc%5Etfw">March 17, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+## 研究室の紹介ビデオ
+
+特に共同研究の内容で企業様にいろいろお手数をかけてしまったのですが，研究室配属のためのビデオを，せっかくなので一般公開することにしました．（広報をサボっていて）秘密のベールに包まれた上田研の全貌をご覧ください（大げさ）．
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rZe2GFru3Rk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
