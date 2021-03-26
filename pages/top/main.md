@@ -3,6 +3,8 @@ Keywords: 近況
 Copyright: (C) 2021 Ryuichi Ueda
 ---
 
+# <span style="visibility:hidden">トップページ</span>
+
 <div class="row">
     <div class="col-md-6">
 
