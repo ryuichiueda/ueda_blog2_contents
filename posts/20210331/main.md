@@ -14,5 +14,10 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">それ正露丸の瓶なんだけど何の用があるんだろ？ <a href="https://t.co/rJDwFeZV0Y">pic.twitter.com/rJDwFeZV0Y</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1376841727957299205?ref_src=twsrc%5Etfw">March 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今日の出来事: 猫が伸びた <a href="https://t.co/F1my5DvVT6">pic.twitter.com/F1my5DvVT6</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1376523364060172291?ref_src=twsrc%5Etfw">March 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">転がりながらこっちにだんだん寄ってきた。なんなの？ <a href="https://t.co/Z2F8KdDgU1">pic.twitter.com/Z2F8KdDgU1</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1376422106011824132?ref_src=twsrc%5Etfw">March 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">落ちとる <a href="https://t.co/0YSYwEoREE">pic.twitter.com/0YSYwEoREE</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1376416692700467200?ref_src=twsrc%5Etfw">March 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 寝る。（2回め）
