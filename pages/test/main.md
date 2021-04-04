@@ -5,7 +5,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 # トップページ
 
-<div class="card" style="width:300px;">
+<div class="card">
   <a href="/?page=01434">
   <img class="card-img-top" src="/pages/test/shellgei.png" alt="shellgei image">
   <div class="card-body">
