@@ -23,7 +23,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 <div class="card mb-3">
   <div class="row no-gutters">
     <div class="col-md-4">
-        <a href="/?post"><img class="card-img-top" src="/pages/test/shellgei.png" alt="shellgei image"></a>
+        <a href="/?post"><img class="card-img-top" src="/pages/test/ueda.jpg" alt="shellgei image"></a>
     </div>
     <div class="col-md-8">
       <div class="card-body">
