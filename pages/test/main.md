@@ -23,7 +23,22 @@ Copyright: (C) 2021 Ryuichi Ueda
 <div class="card mb-3">
   <div class="row no-gutters">
     <div class="col-md-4">
-        <a href="/?post"><img class="card-img-top" src="/pages/test/ueda.jpg" alt="shellgei image"></a>
+        <a href="/?page=lnpr"><img class="card-img-top" src="/pages/test/lnpr.png" alt="prob robot"></a>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">詳解確率ロボティクス</h5>
+        <p class="card-text">書籍、動画、コードの情報</p>
+        <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+        <a href="/?post"><img class="card-img-top" src="/pages/test/ueda.jpg" alt="my face"></a>
     </div>
     <div class="col-md-8">
       <div class="card-body">
