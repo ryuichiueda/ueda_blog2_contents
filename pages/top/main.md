@@ -13,7 +13,7 @@ Copyright: (C) 2021 Ryuichi Ueda
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title">お知らせ</h5>
-        <p class="card-text">ニュースや報告</p>
+        <p class="card-text">ニュースや報告、自己紹介</p>
         <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
       </div>
     </div>
