@@ -20,8 +20,7 @@ Copyright: (C) 2021 Ryuichi Ueda
     <div class="card bg-dark text-white">
   <img class="card-img" src="/pages/test/shellgei.png" alt="Card image">
   <div class="card-img-overlay">
-    <h4 class="card-title">Card title</h4>
-    <p class="card-text">画像の上にテキストを重ねることができます。</p>
+    <h4 class="card-title">シェル芸</h4>
   </div>
 </div>
     </div>
