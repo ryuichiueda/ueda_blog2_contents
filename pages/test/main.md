@@ -12,7 +12,6 @@ Copyright: (C) 2021 Ryuichi Ueda
         <img class="card-img-top" src="/pages/test/shellgei.png" alt="shellgei image">
         <div class="card-body">
           <h4 class="card-title">シェル芸</h4>
-          <p class="card-text">シェル芸@@@</p>
         </div>
         </a>
       </div>
