@@ -50,7 +50,20 @@ Copyright: (C) 2021 Ryuichi Ueda
   </div>
 </div>
 
-<hr />
+<div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+        <a href="/?page=bashcms2"><img class="card-img-top" src="/pages/top/shellgei.png" alt="shellgei image"></a>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">bashcms2</h5>
+        <p class="card-text">このサイト（bash製）やシェルスクリプト高速開発手法入門 改訂2版などについて。</p>
+        <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="card mb-3">
   <div class="row no-gutters">
