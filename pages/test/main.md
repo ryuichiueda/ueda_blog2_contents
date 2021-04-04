@@ -23,7 +23,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 <div class="card mb-3">
   <div class="row no-gutters">
     <div class="col-md-4">
-        <a href="/?page=lnpr"><img class="card-img-top" src="/pages/test/lnpr.png" alt="prob robot"></a>
+        <a href="/?page=lnpr"><img class="card-img-top" src="/pages/test/lnpr.jpg" alt="prob robot"></a>
     </div>
     <div class="col-md-8">
       <div class="card-body">
