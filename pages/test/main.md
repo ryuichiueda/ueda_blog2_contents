@@ -13,8 +13,8 @@ Copyright: (C) 2021 Ryuichi Ueda
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title">シェル芸</h5>
-        <p class="card-text">シェル芸です。</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <p class="card-text">過去問のリンク等</p>
+        <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
       </div>
     </div>
   </div>
