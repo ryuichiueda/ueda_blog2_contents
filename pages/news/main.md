@@ -5,7 +5,20 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 # 自身に関すること
 
+
+<div class="row">
+    <div class="col-md-6">
+
+<div class="row">
+    <div class="col-md-6">
 ## お知らせ
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">シェル芸勉強会やりまーす。<br><br>日記（2021年4月4日） | 上田ブログ <a href="https://t.co/sFrThnrte2">https://t.co/sFrThnrte2</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1378597457743900673?ref_src=twsrc%5Etfw">April 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    </div>
+</div>
+
+## 大きなお知らせ
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">🎊上田隆一先生、おめでとうございます🎊<br>翻訳書『確率ロボティクス』と書籍『詳解 確率ロボティクス』の出版およびウェブ上への教材の公開での教育への貢献により、上田先生が2020年度日本機械学会教育賞を受賞されました！<br><br>翻訳書『確率ロボティクス』| マイナビブックス<a href="https://t.co/3HBtAtMcwG">https://t.co/3HBtAtMcwG</a></p>&mdash; マイナビ出版 電子書籍 (@MYNAVI_eBooks) <a href="https://twitter.com/MYNAVI_eBooks/status/1367671620714700801?ref_src=twsrc%5Etfw">March 5, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -26,6 +39,9 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">パーカー登壇オタクですご査収ください。 <a href="https://t.co/LkwSsQC9yQ">pic.twitter.com/LkwSsQC9yQ</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1063029083607490561?ref_src=twsrc%5Etfw">November 15, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    </div>
+</div>
 
 
 ## 経歴など
