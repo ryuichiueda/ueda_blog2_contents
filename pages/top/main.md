@@ -35,7 +35,6 @@ Copyright: (C) 2021 Ryuichi Ueda
   </div>
 </div>
 
-
 <div class="card mb-3">
   <div class="row no-gutters">
     <div class="col-md-4">
@@ -50,6 +49,7 @@ Copyright: (C) 2021 Ryuichi Ueda
     </div>
   </div>
 </div>
+
 
 <div class="row">
     <div class="col-md-6">
