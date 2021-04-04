@@ -5,6 +5,15 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 # トップページ
 
+<div class="card" style="width:300px;">
+  <img class="card-img-top" src="./shellgei.png" alt="shellgei image">
+  <div class="card-body">
+    <h4 class="card-title">シェル芸</h4>
+    <p class="card-text">シェル芸@@@</p>
+    <a href="/?page=01434" class="btn btn-primary">サイトへ</a>
+  </div>
+</div>
+
 <div class="row">
     <div class="col-md-6">
 
