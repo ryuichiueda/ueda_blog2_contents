@@ -3,7 +3,7 @@ Copyright: (C) Ryuichi Ueda
 ---
 
 
-# 上田に関する情報
+# 自己紹介
 
 ## Wikipediaの情報
 
