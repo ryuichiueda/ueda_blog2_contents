@@ -50,17 +50,19 @@ Copyright: (C) 2021 Ryuichi Ueda
   </div>
 </div>
 
+<hr />
 
-<div class="row">
-    <div class="col-md-6">
-
-<a class="twitter-grid" data-partner="tweetdeck" href="https://twitter.com/ryuichiueda/timelines/990954344894771200?ref_src=twsrc%5Etfw">for blog</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+        <a href="/?page=news"><img class="card-img-top" src="/pages/top/ueda.jpg" alt="my face"></a>
     </div>
-    <div class="col-md-6">
-
-
-<a class="twitter-timeline" href="https://twitter.com/ryuichiueda/timelines/1368434533897367552?ref_src=twsrc%5Etfw">blog entries - Curated tweets by ryuichiueda</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">最近の出来事</h5>
+        <p class="card-text">ニュースや報告</p>
+        <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+      </div>
     </div>
+  </div>
 </div>
