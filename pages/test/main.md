@@ -8,7 +8,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 <div class="card mb-3">
   <div class="row no-gutters">
     <div class="col-md-4">
-      <svg class="bd-placeholder-img" width="100%" height="250" xmlns="/pages/test/shellgei.png" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text></svg>
+        <img class="card-img-top" src="/pages/test/shellgei.png" alt="shellgei image">
     </div>
     <div class="col-md-8">
       <div class="card-body">
