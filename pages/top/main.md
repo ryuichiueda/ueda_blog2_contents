@@ -68,6 +68,22 @@ Copyright: (C) 2021 Ryuichi Ueda
 <div class="card mb-3">
   <div class="row no-gutters">
     <div class="col-md-4">
+        <a href="https://www.youtube.com/channel/UCJlHv03KKtVeUyRjHlW6sMg"><img class="card-img-top" src="/pages/top/blackbd.jpg" alt="black board"></a>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">YouTube Ryuichi Uedaチャンネル<i class="fa fa-external-link"></i></h5>
+        <p class="card-text">講義やロボットのデモ動画</p>
+        <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4">
         <a href="/?page=opy"><img class="card-img-top" src="/pages/top/opy.png" alt="opy"></a>
     </div>
     <div class="col-md-8">
