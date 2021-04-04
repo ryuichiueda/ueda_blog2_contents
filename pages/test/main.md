@@ -13,13 +13,27 @@ Copyright: (C) 2021 Ryuichi Ueda
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title">シェル芸</h5>
-        <p class="card-text">過去問のリンク等</p>
+        <p class="card-text">過去問、過去のビデオ、書籍など</p>
         <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
       </div>
     </div>
   </div>
 </div>
 
+<div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+        <a href="/?post"><img class="card-img-top" src="/pages/test/shellgei.png" alt="shellgei image"></a>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">ブログ</h5>
+        <p class="card-text">個人的な話</p>
+        <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="row">
     <div class="col-md-6">
