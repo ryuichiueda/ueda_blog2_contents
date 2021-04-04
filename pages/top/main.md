@@ -84,7 +84,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 <div class="card mb-3">
   <div class="row no-gutters">
     <div class="col-md-4">
-        <a href="/?page=bashcms2"><img class="card-img-top" src="/pages/top/bashcms2.png" alt="bashcms2 book"></a>
+        <a href="/?page=opy"><img class="card-img-top" src="/pages/top/bashcms2.png" alt="bashcms2 book"></a>
     </div>
     <div class="col-md-8">
       <div class="card-body">
