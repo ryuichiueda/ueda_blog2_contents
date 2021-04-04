@@ -20,29 +20,6 @@ Copyright: (C) 2021 Ryuichi Ueda
   </div>
 </div>
 
-<div class="row">
-    <div class="col-md-4">
-      <div class="card">
-        <a href="/?page=01434">
-        <img class="card-img-top" src="/pages/test/shellgei.png" alt="shellgei image">
-        <div class="card-body">
-          <h4 class="card-title">シェル芸</h4>
-        </div>
-        </a>
-      </div>
-    </div>
-    <div class="col-md-4">
-    <div class="card bg-dark text-white">
-  <img class="card-img" src="/pages/test/shellgei.png" alt="Card image">
-  <div class="card-img-overlay">
-    <h4 class="card-title">シェル芸</h4>
-  </div>
-</div>
-    </div>
-    <div class="col-md-4">
-    </div>
-</div>
-
 
 <div class="row">
     <div class="col-md-6">
