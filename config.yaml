@@ -1,6 +1,6 @@
 protocol: 'https:'
 host: 'b.ueda.tech'
-sitetitle: '上田ブログ'
+sitetitle: '上田隆一のサイト'
 subtitle: 'なお、このサイトはbashでできている。'
 headline:
 - text: '<a href="https://www.jsme.or.jp/20210305-2/">日本機械学会教育賞を拝受いたします<i class="fa fa-external-link"></i></a>'
