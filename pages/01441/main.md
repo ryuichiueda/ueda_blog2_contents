@@ -9,7 +9,7 @@ Copyright: (C) Ryuichi Ueda
 * [Amazon](https://amzn.to/31PxWFQ)
 
 
-<h2>誤植や表現の修正（復刊版）</h2>
+## 誤植や表現の修正（復刊版）
 
 <table border="1"><tr>
 <th>ページ</th>
@@ -69,7 +69,7 @@ Copyright: (C) Ryuichi Ueda
 </table>
 
 
-<h2>誤植や表現の修正（復刊前バージョンでの修正点）</h2>
+## 誤植や表現の修正（復刊前バージョンでの修正点）
 
 <table border="1"><tr>
 <th>ページ</th>
