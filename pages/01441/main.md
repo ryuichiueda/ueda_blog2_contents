@@ -4,11 +4,9 @@ Copyright: (C) Ryuichi Ueda
 
 
 # 確率ロボティクス
-<ul>
- <li><a href="https://book.mynavi.jp/ec/products/detail/id=37337">販売サイト</a></li>
-</ul>
 
-[amazonjs asin="B00X99MBY2" locale="JP" title="確率ロボティクス (Mynavi Advanced Library)"]
+* [出版社サイト](https://book.mynavi.jp/ec/products/detail/id=37337)
+* [Amazon](https://amzn.to/31PxWFQ)
 
 
 <h2>誤植や表現の修正（復刊版）</h2>
