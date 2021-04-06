@@ -18,7 +18,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 そのまま仕事をし始めたものの、たまに世界がグルグル回るので、治す方法がないかと調べたら次のような動画がありました。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XispiTJXCuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/XispiTJXCuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XispiTJXCuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 で、（医師の診断がなくてはやってはいけませんが）やったところ（途中吐いて大変なことになったものの）世界はあまり回らなくなりました。ただ、まだ頭がフラフラするので耳鼻科に行ったところ、やはり良性頭位めまい症で、酔い止めと吐き止めをもらって帰宅しました。夜の時点でまだふらふらしますが、ビール飲んでも平気なので明日はもっと良くなるはず・・・。
 
