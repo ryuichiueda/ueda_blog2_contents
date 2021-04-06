@@ -43,3 +43,6 @@ Copyright: (C) 2021 Ryuichi Ueda
 ## そして猫
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">野生味がゼロ <a href="https://t.co/uFrFupUcxR">pic.twitter.com/uFrFupUcxR</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1379348978945257475?ref_src=twsrc%5Etfw">April 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+ビール飲んで寝る。
