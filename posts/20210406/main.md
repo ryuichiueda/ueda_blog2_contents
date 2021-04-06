@@ -20,7 +20,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XispiTJXCuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-で、（医師の診断がなくてはやってはいけませんが）やったところ（途中吐いて大変なことになったものの）世界はあまり回らなくなりました。ただ、まだ頭がフラフラするので耳鼻科に行ったところ、やはり良性頭位めまい症で、酔い止めと吐き止めをもらって帰宅しました。夜の時点でまだふらふらしますが、ビール飲んでも平気なので明日はもっと良くなるはず・・・。
+で、（医師の診断がなくてはやってはいけませんが）やったところ（途中吐いて大変なことになったものの）世界はあまり回らなくなりました。ただ、まだ頭がフラフラするので耳鼻科に行ったところ、やはり良性頭位めまい症でした。下記のように検査したあと、自己治療がうまくいってて処置しなくて大丈夫ということで、酔い止めと吐き止めをもらって帰宅しました。夜の時点でまだふらふらしますが、ビール飲んでも平気なので明日はもっと良くなるはず・・・。
 
 ## めまいで得られた知見
 
