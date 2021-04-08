@@ -20,6 +20,8 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 <h3>大きなやつ</h3>
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">配偶者氏の取りまとめた本、もうKindleで読めるっぽい。自動運転の本です。<a href="https://t.co/SpqocDo0vL">https://t.co/SpqocDo0vL</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1379405324537462784?ref_src=twsrc%5Etfw">April 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">🎊上田隆一先生、おめでとうございます🎊<br>翻訳書『確率ロボティクス』と書籍『詳解 確率ロボティクス』の出版およびウェブ上への教材の公開での教育への貢献により、上田先生が2020年度日本機械学会教育賞を受賞されました！<br><br>翻訳書『確率ロボティクス』| マイナビブックス<a href="https://t.co/3HBtAtMcwG">https://t.co/3HBtAtMcwG</a></p>&mdash; マイナビ出版 電子書籍 (@MYNAVI_eBooks) <a href="https://twitter.com/MYNAVI_eBooks/status/1367671620714700801?ref_src=twsrc%5Etfw">March 5, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
