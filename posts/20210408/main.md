@@ -16,3 +16,17 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 
 自動運転技術の本です。
+
+
+## AWS Robot Delivery Challenge
+
+上田研メンバーがディフェンディングチャンピオン（注意: 俺はなんも貢献してない）であることで有名なAWSチャレンジ、今年の上田研チーム（注意: 俺はなんも貢献してない）は予選2位通過だそうです。本番に強いので、またやってくれるのではないでしょうか？（←無責任）
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">AWS Robot Delivery Challenge、予選2位通過だそうです。<a href="https://t.co/eb7Iy4ndDC">https://t.co/eb7Iy4ndDC</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1379335114174291968?ref_src=twsrc%5Etfw">April 6, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+メンバーの皆様、とりあえずは本戦に集中していただければと。
+
+
+
+周囲がすごいですね寝る。
