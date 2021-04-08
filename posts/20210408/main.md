@@ -27,6 +27,9 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 メンバーの皆様、とりあえずは本戦に集中していただければと。
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">チャンピオンと書けずにチャンピョンになったりチャンピォンになったりチャンポンになったりで全米が泣いた。</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1380148977002283010?ref_src=twsrc%5Etfw">April 8, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
 周囲がすごいですね寝る。
