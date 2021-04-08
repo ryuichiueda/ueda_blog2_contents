@@ -9,7 +9,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## 身内の本
 
-いつも自分の本の話ばっかりだけど、[カミさんがとりまとめた本](https://amzn.to/3t1VWSh)が出ました。自分も同時期に本をとりまとめていたので家庭内が殺伐としていたけど、結婚してからずっと殺伐としているので特に我が家は変化なし。
+いつも自分の本の話ばっかりだけど、[カミさんがとりまとめた本](https://amzn.to/3t1VWSh)が出ました。自分も同時期に本をとりまとめていたので家庭内が殺伐としていたけど、結婚してからずっと殺伐としてるし、子供も親を全く頼りにしてないので特に我が家は変化なし。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">某カミさんの本、カテゴリーが「車・バイク (本)」で、それじゃない感が激しい。</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1380146584776663047?ref_src=twsrc%5Etfw">April 8, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
