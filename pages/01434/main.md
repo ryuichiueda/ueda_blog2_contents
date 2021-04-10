@@ -12,7 +12,7 @@ Copyright: (C) Ryuichi Ueda
 <div class="card mb-3">
   <div class="row no-gutters">
     <div class="col-md-4">
-        <a href="/?page=news"><img class="card-img-top" src="/pages/01434/shellgei.png" alt="shellgei"></a>
+        <a href="https://shellgei.github.io/info/"><img class="card-img-top" src="/pages/01434/shellgei.png" alt="shellgei"></a>
     </div>
     <div class="col-md-8">
       <div class="card-body">
