@@ -27,7 +27,7 @@ Copyright: (C) 2021 Ryuichi Ueda
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">研究室</h5>
+        <h5 class="card-title">研究室 <i class="fa fa-external-link"></i></h5>
         <p class="card-text">学生、上田の研究やその他活動について</p>
         <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
       </div>
