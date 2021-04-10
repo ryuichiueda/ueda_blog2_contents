@@ -30,7 +30,7 @@ Twitterは主義主張を書くにはあまりにも適してませんが、あ�
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">基本的に、なくしてしまうという方向に行くのは衰退期の特徴であって、豊かになる方向に向かっていれば、他人の自由を制限してまでなにかを無くそうという発想自体、起こりにくい。</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1380723778414608384?ref_src=twsrc%5Etfw">April 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-衰退感が蔓延する現在の状況が早くよくならないかなと思って毎日過ごしていますが、たぶん政策より為替がなんとかしてくれます。
+衰退感が蔓延する現在の状況が早くよくならないかなと思って毎日過ごしていますが、たぶん政策に頼らなくても為替がなんとかしてくれます。
 
 
 寝る。
