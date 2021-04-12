@@ -5,7 +5,7 @@ Copyright: (C) Ryuichi Ueda
 # GlueLang
 
 [GlueLang](https://github.com/ryuichiueda/GlueLang)は、スクリプティングに特化したシェルです。
-いまは開発をやめてますが、突っつかれたら再開します。
+いまは開発をやめてますが、突っつかれたら再開します。→突っつかれましたので進めます。
 
 * リポジトリ: https://github.com/ryuichiueda/GlueLang
 * マニュアル:
