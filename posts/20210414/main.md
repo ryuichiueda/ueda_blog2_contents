@@ -42,3 +42,6 @@ int main(int argc, char const* argv[])
 イカってました。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">本日のSoftwareDesign代替イカ耳 <a href="https://t.co/B8ZMQyegyC">pic.twitter.com/B8ZMQyegyC</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1382278783273558026?ref_src=twsrc%5Etfw">April 14, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+寝る。
