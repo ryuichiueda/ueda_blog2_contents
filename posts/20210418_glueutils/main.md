@@ -87,3 +87,5 @@ $ flip12 ign1 strace ls | grep -o '0x[0-9a-f]*' | head -n 3
 0x3001
 ```
 
+
+興味があったら使ってやってください。
