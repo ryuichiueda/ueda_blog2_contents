@@ -63,15 +63,16 @@ $ echo $?
 
 ### 例3: 標準エラー出力をファイルに保存
 
-`strace`と併用した例です。
+`time`（bashのビルトインコマンド）の出力を`hoge`というファイルに保存。
 
 ```
-$ log2 hoge strace ls /
-bin  boot  cdrom  dev  etc  home  lib  lib32  lib64  ...
-$ head -n 3 hoge
-execve("/usr/bin/ls", ["ls"], 0x7fffde6beab0 /* 49 vars */) = 0
-brk(NULL)                               = 0x5608bdf34000
-arch_prctl(0x3001 /* ARCH_??? */, 0x7ffd2f7fa770) = -1 EINVAL (無効な引数です)
+$ log2 hoge bash -c 'time ls'
+hoge  main.md
+$ cat hoge
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
 ```
 
 
