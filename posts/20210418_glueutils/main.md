@@ -32,7 +32,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 |ign1|標準出力を`/dev/null`へ|
 |ign2|標準エラー出力を`/dev/null`へ|
 |ign12|標準出力、標準エラー出力を`/dev/null`へ|
-|ignerr|終了ステータスを無視|
+|ignerr|終了ステータスを常に0に|
 
 これらのコマンドに、引数として任意のコマンドを指定して使います。
 
