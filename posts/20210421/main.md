@@ -7,6 +7,18 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ちゃんと眠れなかったせいか、この前めまいが起こったあとの日のような軽微な頭痛があったので、無理せず雑用とシェル芸勉強会の問題の作成をしました。そこそこ頭を使うのに頭痛でもシェル芸勉強会の問題作成ができるのが謎。
 
+## Googleの顔写真が戻った
+
+### before
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">変更お願い却下されたwwwww<br>ので、しばらくこれで行きます！（アカン） <a href="https://t.co/7nA2LsAnQf">pic.twitter.com/7nA2LsAnQf</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1382680162366418944?ref_src=twsrc%5Etfw">April 15, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### after
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">なんか知らんけど写真が自分になた。 <a href="https://t.co/U3EMDaVVu3">pic.twitter.com/U3EMDaVVu3</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1384443469930762241?ref_src=twsrc%5Etfw">April 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+よかったよかった。
 
 ## IEEEの会員になって20年
 
