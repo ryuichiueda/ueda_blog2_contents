@@ -7,6 +7,10 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ちゃんと眠れなかったせいか、この前めまいが起こったあとの日のような軽微な頭痛があったので、無理せず雑用とシェル芸勉強会の問題の作成をしました。そこそこ頭を使うのに頭痛でもシェル芸勉強会の問題作成ができるのが謎。
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">今日は軽い頭痛であんまり仕事できなかったのでシェル芸勉強会の問題を作りました。今回のお題は数学です。awkゴリゴリの回です。<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1384776028417974274?ref_src=twsrc%5Etfw">April 21, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ## Googleの顔写真が戻った
 
 ### before
