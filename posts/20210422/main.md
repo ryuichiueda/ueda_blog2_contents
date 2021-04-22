@@ -19,5 +19,10 @@ Copyright: (C) 2021 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-
 とりあえず今回はここまで。
+
+## 科研費の報告書
+
+国内学会一件だけは寂しいけど、報告書書いているうちにいいアイデアが浮かんだ。さっそく試すぞ。
+
+
