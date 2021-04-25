@@ -3,7 +3,7 @@ Keywords: プログラミング,勉強会,シェル芸,シェル芸勉強会
 Copyright: (C) 2021 Ryuichi Ueda
 ---
 
-# 【問題のみ】jus共催 第53回シェル芸が好きです。でもゾウさんのほうがもっと好きですシェル芸勉強会
+# 【問題】jus共催 第53回シェル芸が好きです。でもゾウさんのほうがもっと好きですシェル芸勉強会
 
 * 問題で使われているデータファイルは[GitHub](https://github.com/ryuichiueda/ShellGeiData/tree/master/vol.53)にあります。クローンは以下のようにお願いします。
 
