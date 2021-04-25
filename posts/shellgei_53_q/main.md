@@ -125,13 +125,13 @@ $ cat triangle | gnuplot -e 'set terminal png;set size ratio -1;set output "./ho
 * 上の行の座標を`(x1, y1)`、下の行の座標を`(x5, y5)`とする
 * 下の絵の`(x2, y2)`、`(x3, y3)`、`(x4, y4)`を計算して、順に出力する
 
-![](https://github.com/ryuichiueda/ShellGeiData/blob/master/vol.53/koch_rule.png)
+![](koch_rule.png)
 
 でき上がりの図
 
-![](https://github.com/ryuichiueda/ShellGeiData/blob/master/vol.53/six.png)
+![](six.png)
 
 小問2: できる人はこの操作を繰り返してコッホ曲線を描画してください。
 
-![](https://github.com/ryuichiueda/ShellGeiData/blob/master/vol.53/koch.png)
+![](koch.png)
 
