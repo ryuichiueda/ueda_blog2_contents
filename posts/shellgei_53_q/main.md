@@ -11,7 +11,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 $ git clone https://github.com/ryuichiueda/ShellGeiData.git
 ```
 
-* 環境: 解答例はUbuntu Linux 20.04で作成。Macの場合はcoreutilsをインストールすると、GNUのコマンドが使えます。BSD系の人は玄人なので各自対応のこと。
+* 環境: 解答例はUbuntu 20.04 LTSで作成。Macの場合はcoreutilsをインストールすると、GNUのコマンドが使えます。BSD系の人は玄人なので各自対応のこと。
 
 ## Q1
 
