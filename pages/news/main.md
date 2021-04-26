@@ -12,6 +12,8 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 <h3>細かいやつ</h3>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ありがとうございましたー。（激闘で疲弊した体調は戻りました？）<br><br>jus共催 第53回シェル芸勉強会リンク集 | 上田隆一の仕事とか <a href="https://t.co/5fHjA54sF6">https://t.co/5fHjA54sF6</a> <a href="https://t.co/VokgP39h23">https://t.co/VokgP39h23</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1386473859604357120?ref_src=twsrc%5Etfw">April 26, 2021</a></blockquote>
+
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">自由研究<br><br>glueutilsについて | 上田隆一の仕事とか <a href="https://t.co/8V1VDcW5mi">https://t.co/8V1VDcW5mi</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1383661938920497156?ref_src=twsrc%5Etfw">April 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">シェル芸勉強会やりまーす。<br><br>日記（2021年4月4日） | 上田ブログ <a href="https://t.co/sFrThnrte2">https://t.co/sFrThnrte2</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1378597457743900673?ref_src=twsrc%5Etfw">April 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
