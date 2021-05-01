@@ -13,6 +13,7 @@ Copyright: (C) Ryuichi Ueda
 第33回以降はまとめのページにリンクを貼りました。ページ上の方に問題へのリンクがあります。
 
 
+* [第53回](/?post=shellgei_53_links)
 * [第52回](/?post=shellgei_52_links)
 * [第51回](/?post=shellgei_51_links)
 * [第50回](/?post=20201107_shellgei_50_links)
