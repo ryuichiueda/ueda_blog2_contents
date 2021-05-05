@@ -5,7 +5,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 # 真面目にamclの代替ROSパッケージを作った
 
-　連休中はずっと[これ](https://github.com/ryuichiueda/amcl)を作ってました。amclを置き換えるための2次元LiDAR用の2次元LiDAR用の自己位置推定パッケージです。とりあえず学内での反応がよさそうなので普及を目指します。
+　連休中はずっと[これ](https://github.com/ryuichiueda/emcl)を作ってました。amclを置き換えるための2次元LiDAR用の2次元LiDAR用の自己位置推定パッケージです。とりあえず学内での反応がよさそうなので普及を目指します。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">mclに膨張リセットを実装してemclというパッケージを作りました。パーティクルの場所をずらしても少しなら収束します。こっちは実用を目指します。<br><br>（たぶんamclより使い勝手は良いはず。）<a href="https://t.co/u6MQhjRRuN">https://t.co/u6MQhjRRuN</a> <a href="https://t.co/sxPFCd0IzF">pic.twitter.com/sxPFCd0IzF</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1389450563503280128?ref_src=twsrc%5Etfw">May 4, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
