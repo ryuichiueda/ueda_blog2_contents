@@ -207,7 +207,7 @@ https://github.com/ryuichiueda/emcl/runs/2532476169 のようになりました�
 [gazebo_gui-4] process has died [pid 97, exit code 134, cmd /opt/ros/melodic/lib/gazebo_ros/gzclient __name:=gazebo_gui __log:=/root/.ros/log/47b17752-afa5-11eb-bf21-0242ac110002/gazebo_gui-4.log].
 ```
 
-というように叱られが発生しているので、なんとかする。
+というように、やはりGazeboの描画プログラムが死んで叱られが発生しているので、なんとかする。
 
 
 
