@@ -22,10 +22,12 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## この記事で説明するファイル
 
-* [test.yml](https://github.com/ryuichiueda/emcl/blob/e7decb3251154097d22dd621d2108283f0a3c8a5/.github/workflows/test.yml)
-* [その他のファイル](https://github.com/ryuichiueda/emcl/tree/e7decb3251154097d22dd621d2108283f0a3c8a5/test)
+* [test.yml](https://github.com/ryuichiueda/emcl/blob/4daeaef61ce22c675779db087f387c8f853a5daf/.github/workflows/test.yml)
+* [その他のファイル](https://github.com/ryuichiueda/emcl/tree/4daeaef61ce22c675779db087f387c8f853a5daf/test)
 
-## 手口1（GitHub Actionsまわりの準備）
+## Dockerまわりの準備
+
+テストには、環境用と、環境用に`emcl`をインストールしたのDockerのイメージを使います。環境用はDocker Hubに置いて、もうひとつはGitHub Actions上で作ります。
 
 ### テスト環境のDockerイメージの作成
 
@@ -59,7 +61,7 @@ RUN source ~/.bashrc && \
 * https://hub.docker.com/repository/docker/ryuichiueda/emcl-test-env
 
 
-### テストしたいパッケージをインストールするDockerfileを作成
+### `emcl`をインストールするDockerfileを作成
 
 GitHub ActionsでビルドするためのDockerfile（`docker`ディレクトリにあります）です。テスト対象のリポジトリをクローンしてビルドするだけです。
 
@@ -69,16 +71,16 @@ ENV DEBIAN_FRONTEND=noninteractive
 SHELL ["/bin/bash", "-c"]
 
 RUN cd /catkin_ws/src && \
-    git clone https://github.com/ryuichiueda/emcl.git  #これだとマスターブランチのテストになるので改良が必要
+    git clone https://github.com/ryuichiueda/emcl.git  #これだとマスターブランチのテストになるのであとから編集
 
 RUN source ~/.bashrc && \
     cd /catkin_ws && \
     catkin_make
 ```
 
-### GitHub Actionsの設定
+## GitHub Actionsの設定
 
-GitHub Actionsには、次のYAMLファイル（`test.yaml`）を使います。上で作ったパッケージインストール用のDockerfileでイメージを作り、コンテナ内のテストスクリプトを実行します。テストスクリプト（`er_test.bash`）についてはあとで説明します。
+GitHub Actionsには、次のYAMLファイル（`test.yaml`）を使います。上で作った`emcl`インストール用のDockerfileについて、テストしたいブランチをcloneするように`sed`で書き換えてイメージを作り、その後、コンテナ内のテストスクリプトを実行します。テストスクリプト（`er_test.bash`）についてはあとで説明します。
 
 ```yaml
 name: er_test
@@ -87,30 +89,30 @@ on:
   push:
     paths-ignore:
       - '**.md'
-
+    
 jobs:
   build:
     runs-on: ubuntu-18.04
 
     steps:
       - uses: actions/checkout@v2
-      - name: Build image                                                 #イメージを作成
+      - name: Build image              #emclをインストールしたイメージの作成
         run: |
          git clone -b "${GITHUB_REF#refs/heads/}" https://github.com/ryuichiueda/emcl.git
          cd emcl/test/docker
-         sed -i "s;clone;clone -b ${GITHUB_REF#refs/heads/};" Dockerfile  #Dockerfileの中のcloneを当該のブランチに
+         sed -i "s;clone;clone -b ${GITHUB_REF#refs/heads/};" Dockerfile #いま扱っているブランチをcloneするよう改竄
          docker build -t test .
-      - name: Reset test on Gazebo                                        #コンテナ内のテストスクリプトを実行
+      - name: Reset test on Gazebo     #テストスクリプトの実行
         run: |
          docker run test /bin/bash -c 'source ~/.bashrc && /catkin_ws/src/emcl/test/er_test.bash'
 ```
 
 
-## 手口2（テストの実行）
+## テストの手順の作成
 
 ### launchファイル
 
-こんどはROSまわりの設定です。テスト用のlaunchファイル（`test.launch`）はこんな感じです。GazeboにTurtleBot3を置いて自己位置推定させます。
+こんどはROSまわりの設定です。テスト用のlaunchファイル（`test.launch`）はこんな感じです。GazeboにTurtleBot3を置いて自己位置推定させます。2行目の`<arg name="gui" default="false"/>`以外は、TurtleBot3のシミュレーションを動かすときのものと同じです。2行目は、（うろ覚えなのですが）`rviz`がGUIなしで立ち上げる設定だったと思います。
 
 ```xml
 <launch>
@@ -147,23 +149,22 @@ jobs:
 </launch>
 ```
 
-2行目の`<arg name="gui" default="false"/>`が、（うろ覚えなのですが）`rviz`がGUIなしで立ち上げる設定だったと思います。ただ、後述のとおり、これはいらないかもしれません。
 
 ### テストスクリプト
 
-ROSの機能を使ってテストを走らせてもいいのですが、シェルスクリプトで十分なので、シェルスクリプトです。
+ROSの機能を使ってテストを走らせてもいいのですが、シェルスクリプトで十分なので、シェルスクリプトです。`roslaunch`は、ダミーのディスプレイの役をするソフトXvfbで実行します。
 
 
 ```bash
 #!/bin/bash -evx
 
+### ノードの実行（xvfbで）
 export TURTLEBOT3_MODEL=burger
-# ノードの立ち上げ
-roslaunch emcl test.launch &
-
+xvfb-run --auto-servernum -s "-screen 0 1400x900x24" roslaunch emcl test.launch &
 sleep 15
 
-# 自己位置推定関係のトピックを出す（間違った自己位置を自己位置推定器に伝える）
+### 間違った自己位置をemclに伝える
+
 rostopic pub /initialpose geometry_msgs/PoseWithCovarianceStamped "header:
   seq: 0
   stamp:
@@ -178,36 +179,38 @@ pose:
     0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
     0.0, 0.0, 0.0, 0.0, 0.0, 0.0]" --once
 
-# 自己位置推定器が間違いを訂正できるかどうかを評価
+### emclが間違いを修正するのを待つ
+
 rostopic echo /mcl_pose -n 1000 |
 grep -A2 position:             |
 awk '/x:/{printf $2" "}/y:/{print $2}' |
 awk '{print $0}
      sqrt( ($1+2.0)^2 + ($2+0.5)^2 ) < 0.15 {print "OK";exit(0)}
-     NR==1000{print "TIMEOUT";exit(1)}'   #このawkの終了ステータスがテスト結果に
+     NR==1000{print "TIMEOUT";exit(1)}'  #自己位置が正しい地点から15cm以内に収まったらexit(0)する
+
+RESULT=$?              #ここにテストの成否が入る
+
+killall rosmaster &    #マスタを止める（手元で試すとき用） 
+
+exit $RESULT           #結果を返す
 ```
 
-で、書いていて気がついたのですが、もともとこのスクリプトでは、ダミーのディスプレイを立ちあげる`xvfb`を使っていたのですが、いろいろ試しているときに抜けてしまいました。ですので、GUIを使う設定でも、GitHub ActionsではGazeboを実行できている（出力だけ死んであとは動いている）ような気がします。
+実はXvfbで動かさなくてもGazeboのフロントエンドが死ぬだけでテストは実行できるのですが、こうやっておくとGazeboはGUI環境がないことが分からず、何のエラーも出さずに動きます。
 
 
 ## 実行結果
 
-https://github.com/ryuichiueda/emcl/runs/2532476169 のようになりました。「`Reset test on Gazebo`」を開くと、（いろいろエラーが出た後）、Gazeboが立ちあがって、`rostopic`のあと、自己位置推定器が反応してテストが成功した様子が見れます。
+https://github.com/ryuichiueda/emcl/runs/2532961704 のようになりました。「`Reset test on Gazebo`」を開くと、シェルスクリプトで実行したテストがうまくいっていることが分かります。
 
 
 ## まとめ
 
 * GitHub ActionsでGazebo（とかRvizとかROS一式）が動いた
-* Gazebo、GUIを使う設定なのにテストはできた（`xvfb`使っているつもりだったのにいつのまにか抜けてた）
 
 
 ## 今後
 
-```
-[gazebo_gui-4] process has died [pid 97, exit code 134, cmd /opt/ros/melodic/lib/gazebo_ros/gzclient __name:=gazebo_gui __log:=/root/.ros/log/47b17752-afa5-11eb-bf21-0242ac110002/gazebo_gui-4.log].
-```
-
-というように、やはりGazeboの描画プログラムが死んで叱られが発生しているので、なんとかする。
+ALSA（音声関係のソフト）がエラーを出しているので、なんとかする。
 
 
 
