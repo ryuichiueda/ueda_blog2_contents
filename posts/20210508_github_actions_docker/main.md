@@ -205,12 +205,13 @@ https://github.com/ryuichiueda/emcl/runs/2532961704 のようになりました�
 
 ## まとめ
 
-* GitHub ActionsでGazebo（とかRvizとかROS一式）が動いた
+* GitHub ActionsでGazeboを使ってテストができた。
 
 
 ## 今後
 
-ALSA（音声関係のソフト）がエラーを出しているので、なんとかする。
+* ALSA（音声関係のソフト）がエラーを出しているので、なんとかする。
+* `move_base`を使ってGitHubの中でロボットを走らせたい。
 
 
 
