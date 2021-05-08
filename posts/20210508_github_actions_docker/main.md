@@ -5,12 +5,12 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 # GitHub Actions内でGazeboを動かす
 
-という変態行為に成功したので手順を書いておきます。
+変態行為に成功したので手順を書いておきます。
 
 
 ## なにがしたかったのか
 
-自分の作った自己位置推定パッケージをGitHub Actions上でテストしたい。
+[自分の作った自己位置推定パッケージ](https://github.com/ryuichiueda/emcl)をGitHub Actions上でテストしたい。
 
 ## なんでrosbag使わないの？
 
@@ -18,7 +18,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## 手口
 
-まず、Gazebo上でTurtleBot3が動くDockerのイメージを作ります。Dockerfileはこんな感じです。
+まず、Gazebo上でTurtleBot3が動くDockerのイメージを作ります。私の作ったDockerfileはこんな感じです。もちろん、Gazeboで動かしたいものによってダウンロードするものは変わります。
 
 ```
 FROM ryuichiueda/ubuntu18.04-ros-image   #私の作ったサーバ用ROS環境イメージ
@@ -42,5 +42,9 @@ RUN source ~/.bashrc && \
     catkin_make
 ```
 
+
+これをビルドしてDocker Hubにpushしておきます。私のpushしたのは↓です。
+
+* https://hub.docker.com/repository/docker/ryuichiueda/emcl-test-env
 
 
