@@ -216,6 +216,12 @@ https://github.com/ryuichiueda/emcl/runs/2532961704 のようになりました�
 * ALSA（音声関係のソフト）がエラーを出しているので、なんとかする。
 * `move_base`を使ってGitHubの中でロボットを走らせたい。
 
+## 追伸
+
+move_baseもGitHub Actions内で動いたのでナビゲーションテストも盛り込んでみました。
+
+* テストコード: https://github.com/ryuichiueda/emcl/blob/master/test/test.bash
+* 結果: https://github.com/ryuichiueda/emcl/runs/2533515645
 
 
 以上です。
