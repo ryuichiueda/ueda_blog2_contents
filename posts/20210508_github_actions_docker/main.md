@@ -8,9 +8,13 @@ Copyright: (C) 2021 Ryuichi Ueda
 変態行為に成功したので手順を書いておきます。
 
 
-## なにがしたかったのか
+## なにがしたいのか
 
-[自分の作った自己位置推定パッケージ](https://github.com/ryuichiueda/emcl)をGitHub Actions上でテストしたい。
+[自分の作った自己位置推定パッケージ](https://github.com/ryuichiueda/emcl)をGitHub Actions上でテストしたい。この動画のように、間違った位置を`emcl`という自己位置推定器に渡して、`emcl`がそれを修正できることをテストで確認したい。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">mclに膨張リセットを実装してemclというパッケージを作りました。パーティクルの場所をずらしても少しなら収束します。こっちは実用を目指します。<br><br>（たぶんamclより使い勝手は良いはず。）<a href="https://t.co/u6MQhjRRuN">https://t.co/u6MQhjRRuN</a> <a href="https://t.co/sxPFCd0IzF">pic.twitter.com/sxPFCd0IzF</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1389450563503280128?ref_src=twsrc%5Etfw">May 4, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## なんでrosbag使わないの？
 
