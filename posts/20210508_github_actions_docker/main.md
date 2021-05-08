@@ -191,4 +191,20 @@ awk '{print $0}
 https://github.com/ryuichiueda/emcl/runs/2532476169 のようになりました。「`Reset test on Gazebo`」を開くと、（いろいろエラーが出た後）、Gazeboが立ちあがって、`rostopic`のあと、自己位置推定器が反応してテストが成功した様子が見れます。
 
 
+## まとめ
 
+* GitHub ActionsでGazebo（とかRvizとかROS一式）が動いた
+* Gazebo、GUIを使う設定なのにテストはできた（`xvfb`使っているつもりだったのにいつのまにか抜けてた）
+
+
+## 今後
+
+```
+[gazebo_gui-4] process has died [pid 97, exit code 134, cmd /opt/ros/melodic/lib/gazebo_ros/gzclient __name:=gazebo_gui __log:=/root/.ros/log/47b17752-afa5-11eb-bf21-0242ac110002/gazebo_gui-4.log].
+```
+
+というように叱られが発生しているので、なんとかする。
+
+
+
+以上です。
