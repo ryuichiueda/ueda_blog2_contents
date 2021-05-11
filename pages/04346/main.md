@@ -821,8 +821,8 @@ evalpipe(union node *n, int flags)
 			/* 子プロセスの方 */
  /*
  * --> prevfd pip[0] <-----> pip[0] <-- prevfd
- * 子 | 親
- * pip[1] ------- pip[1]
+ *                   子 | 親
+ *            pip[1] ------- pip[1]
  * 			*/
 
 			/* 割り込み許可 */
@@ -833,8 +833,8 @@ evalpipe(union node *n, int flags)
 			}
 			/*
  * --> prevfd ---> pip[0] <-- prevfd
- * 子 | 親
- * pip[1] ------- pip[1]
+ *          子 | 親
+   * pip[1] ------- pip[1]
  * */
 
 			if (prevfd > 0) {
