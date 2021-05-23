@@ -8,7 +8,6 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 <iframe marginwidth="0" marginheight="0" src="http://b.hatena.ne.jp/entry.parts?url=https%3A%2F%2Fwww.hands-lab.com%2Ftech%2Fentry%2F149.html" scrolling="no" frameborder="0" height="230" width="500"><div class="hatena-bookmark-detail-info"><a href="https://www.hands-lab.com/tech/entry/149.html">ハンズラボが採用しているユニケージという謎テクノロジーについて 第2回 | HANDSLAB エンジニアブログ</a><a href="http://b.hatena.ne.jp/entry/s/www.hands-lab.com/tech/entry/149.html">はてなブックマーク - ハンズラボが採用しているユニケージという謎テクノロジーについて 第2回 | HANDSLAB エンジニアブログ</a></div></iframe>
 
-<!--more-->
 
 ハンズラボさんは、<a href="http://sakuramaru55.blogspot.jp/2011/07/blog-post_15.html" target="_blank">トップの長谷川さんご自身がこのように技術的に気合が入っており</a>、当然社員の方も技術的に気合が入った会社です。ユニケージという得体のしれないものについて、かなり公平に議論できる稀有な存在だと思います。私は未だに個々の情報について、USPにとって出していいのかよくないのか判断しなければならない立場ですが、<a href="https://www.hands-lab.com/tech/entry/62.html">第1回</a>、<a href="https://www.hands-lab.com/tech/entry/149.html">第2回</a>共に、そうしなくてもよい立場、かつ熟知している立場からクリアにユニケージについて書かれた最初の文章だと思いました。
 
@@ -18,7 +17,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 具体的にユニケージが何をしているのかの核心は・・・ちょっとやっぱりここでは説明を控えます。すいません。
 
-<h1>プログラマ視点で引き続き解説を</h1>
+## プログラマ視点で引き続き解説を
 
 たぶんプログラマが優劣や長所短所を判断できる技術的な話を私ももっとしなければなりません。すんません！
 
@@ -36,7 +35,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 胡散臭いかどうかは分かりません。ただ、ちゃんとでかい会社でいろんなものがユニケージで動いています。
 
 
-<h1>考え方が関数型言語っぽい</h1><p>
+## 考え方が関数型言語っぽい
 
 関数型っぽいです。ただ、別にコマンドが第一級関数になっているとかそういう難しいことではなく、標準入出力（すなわち入力1個、出力1個）を中心に処理を考えるので、うまい人が書けば y = f(g(h(x))) みたいな関数型の処理がコードの大部分になるということです。データもメモリ（変数）に溜めず流しっぱなしになるのでDRAMに優しいシステムになります。
 
@@ -47,11 +46,11 @@ Copyright: (C) 2017 Ryuichi Ueda
 <iframe src="//www.slideshare.net/slideshow/embed_code/44124260" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""> </iframe></p><div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/ryuichiueda/20150201-gluelang-lt" title="20150201 シェル芸勉強会LT GlueLangについて（シェル書いてますが何か？）" target="_blank">20150201 シェル芸勉強会LT GlueLangについて（シェル書いてますが何か？）</a> </strong> from <strong><a href="//www.slideshare.net/ryuichiueda" target="_blank">Ryuichi Ueda</a></strong> </div><div style="margin-bottom:5px"><br></div>
 
 
-<h1>エンドユーザーコンピューティングとしてはmuch better Excel。ファイルシステムというドキュメント型KVSの上に実現するための知見の集合？</h1>
+### エンドユーザーコンピューティングとしてはmuch better Excel。ファイルシステムというドキュメント型KVSの上に実現するための知見の集合？
 
 ご明察。KVSが自然にできるかどうかは知りませんが、ディレクトリで簡単に木構造データが再現できるところも強みです。
 
-<h1>RDBMSを使用しない理由が不明確</h1>
+## RDBMSを使用しない理由が不明確
 
 
 答えは「RDBにできないことができるから」です。
@@ -64,7 +63,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 
 付加価値の高いものはスタンダードからずれているものなので、傍からは奇妙に見えるものです。しかし、スタンダードからはみ出し続ける努力をしないとなかなか儲からないのでこの稼業は辛いものです。
 
-<h1>シェルスクリプトでJSON操作できるコマンドが必要では</h1>
+## シェルスクリプトでJSON操作できるコマンドが必要では
 
 私もjqを使います。コマンドにして標準入出力を使えるようにしたらどんなデータでも扱えるのがシェルの良い所です。
 
