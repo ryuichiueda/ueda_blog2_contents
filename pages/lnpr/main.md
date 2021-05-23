@@ -12,6 +12,20 @@ Copyright: (C) Ryuichi Ueda
 <div class="card mb-3">
   <div class="row no-gutters">
     <div class="col-md-4">
+        <a href="/?page=lnpr_contents"><img class="card-img-top" src="/pages/lnpr/kf_motion_update_3.png" alt="contents"></a>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">関連コンテンツ</h5>
+        <p class="card-text">解説動画、サンプルコードなど</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4">
         <a href="/?page=lnpr_typo"><img class="card-img-top" src="/pages/lnpr/ngueda.jpg" alt="my face"></a>
     </div>
     <div class="col-md-8">
