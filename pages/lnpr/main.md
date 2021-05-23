@@ -8,7 +8,20 @@ Copyright: (C) Ryuichi Ueda
 ## コンテンツ
 
 * [関連コンテンツ](/?page=lnpr_contents)
-* [訂正の情報](/?page=lnpr_typo)
+
+<div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+        <a href="/?page=lnpr_typo"><img class="card-img-top" src="/pages/top/ngueda.jpg" alt="my face"></a>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">訂正の情報</h5>
+        <p class="card-text">すみません！Amazonのレビューで「誤植が少し多い」とか指摘されてすみません！</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 ## ニュース
