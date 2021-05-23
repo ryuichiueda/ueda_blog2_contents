@@ -15,3 +15,12 @@ Copyright: (C) Ryuichi Ueda
 * コード（完成品・改良版）: https://github.com/ryuichiueda/LNPR
 * 講義用スライド: https://github.com/ryuichiueda/LNPR_SLIDES
 
+## 書籍の内容と関係のあるROSリポジトリ
+
+* [ryuichiueda/amcl](https://github.com/ryuichiueda/emcl)
+    * amclの代替の自己位置推定パッケージ
+        * 5章のパーティクルフィルタ、7章の膨張リセットの実装です。
+        * emclの代替パッケージです。
+* [ryuichiueda/value_iteration](https://github.com/ryuichiueda/value_iteration)
+    * 価値反復パッケージ
+        * 10章の価値反復のパッケージです。書籍ではオフライン手法と紹介しましたが、小さな環境ではオンラインで利用できます。move_baseのグローバルプランナーの代わりに使えますが、nove_baseと互換性はありません。また、2021年5月23日現在、ローカルプランナーを実装していません。
