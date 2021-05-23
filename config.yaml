@@ -3,7 +3,7 @@ host: 'b.ueda.tech'
 sitetitle: '上田隆一の仕事とか'
 subtitle: 'なお、このサイトはbashでできている。'
 headline:
-- text: '<a href="https://www.jsme.or.jp/20210305-2/">日本機械学会教育賞を拝受いたします<i class="fa fa-external-link"></i></a>'
+- text: '<a href="https://www.robotics.it-chiba.ac.jp/j/?p=826">日本機械学会教育賞を拝受いたしました<i class="fa fa-external-link"></i></a>'
 - text: '<a href="/?page=lnpr">詳解確率ロボティクス第5刷出ます</a>'
 - text: '<a href="/?page=bashcms2">シェルスクリプト高速開発手法入門改訂2版発売中</a>'
 twitter:
