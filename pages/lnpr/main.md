@@ -12,7 +12,7 @@ Copyright: (C) Ryuichi Ueda
 <div class="card mb-3">
   <div class="row no-gutters">
     <div class="col-md-4">
-        <a href="/?page=lnpr_typo"><img class="card-img-top" src="/pages/top/ngueda.jpg" alt="my face"></a>
+        <a href="/?page=lnpr_typo"><img class="card-img-top" src="/pages/lnpr/ngueda.jpg" alt="my face"></a>
     </div>
     <div class="col-md-8">
       <div class="card-body">
