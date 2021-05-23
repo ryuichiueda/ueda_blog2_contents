@@ -5,8 +5,6 @@ Copyright: (C) Ryuichi Ueda
 
 # 詳解確率ロボティクス
 
-## コンテンツ
-
 <div class="card mb-3">
   <div class="row no-gutters">
     <div class="col-md-4">
