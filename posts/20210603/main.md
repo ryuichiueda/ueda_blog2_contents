@@ -21,3 +21,14 @@ Copyright: (C) 2021 Ryuichi Ueda
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AsjQZ3WDI-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 あとは、障害物回避の局所のプランナー（local plannerに相当する部分）を実装したら実戦投入できます。
+
+## デスクトップ機と格闘
+
+ロボット学会の予稿を書き終わったので、職場のデスクトップ機
+（Windows機とLinux機）を新しくしました。
+Windows機のほうのセットアップは問題なかったのですが、
+Linux機（科研費で買ったごっついやつ）が、やっぱりNVIDIAのアレでアレになってアレでした。
+ちなみにアレはNVIDIA GeForce RTX2080 Tiでした。アレですね。
+1日潰しました。来週も1日かけてアレします。
+
+
