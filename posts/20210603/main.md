@@ -25,7 +25,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 ## デスクトップ機と格闘
 
 ロボット学会の予稿を書き終わったので、職場のデスクトップ機
-（Windows機とLinux機）を新しくしました。
+（Windows機と実験用Linux機）を新しくしました。
 Windows機のほうのセットアップは問題なかったのですが、
 Linux機（科研費で買ったごっついやつ）が、やっぱりNVIDIAのアレでアレになってアレでした。
 ちなみにアレはNVIDIA GeForce RTX2080 Tiでした。アレですね。
