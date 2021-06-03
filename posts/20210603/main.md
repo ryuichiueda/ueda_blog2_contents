@@ -13,7 +13,11 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## 書いていた[価値反復モジュール](https://github.com/ryuichiueda/value_iteration)
 
-完成しました。そして、↑のロボット学会の予稿にどれくらいの計算量か測って書きました。
+ロボットの経路計画を価値反復で力づくでやるROSのモジュール、
+とりあえずmove_baseのglobal plannerに相当する部分ができました。
+前回書いていると言ったっきり日記をサボってしまったやつです。
+上で言及したロボット学会の予稿に詳細を書きました。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AsjQZ3WDI-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+あとは、障害物回避の局所のプランナー（local plannerに相当する部分）を実装したら実戦投入できます。
