@@ -22,12 +22,14 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 ## 出題
 
-* [問題ページ](/?post=shellgei_54_q)
 * [解答ページ](/?post=shellgei_54)
+
+（今回から問題のみのページは省略します。）
 
 
 ## YouTube
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLbUh9y6MXvjdjsRUCVTjbEuawMOymHaow" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## ブログなど
 
