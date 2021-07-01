@@ -6,6 +6,17 @@ Copyright: (C) Ryuichi Ueda
 
 [インストールはこちらから](https://github.com/ryuichiueda/opy)
 
+## 電卓として使う
+
+`eval`で文字列を評価するとできます。
+
+```
+$ echo '2**10' | opy '[eval(F0)]'
+1024
+$ echo 'math.cos(math.pi)' | opy '[eval(F0)]'
+-1.0
+```
+
 ## 基数変換（n進数→m進数）
 
 ### n進数→10進数
