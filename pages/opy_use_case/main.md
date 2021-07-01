@@ -4,7 +4,7 @@ Copyright: (C) Ryuichi Ueda
 
 # opyの便利な使い方集
 
-[インストールはこちらから](https://github.com/ryuichiueda/opy)
+* [インストールはこちらから](https://github.com/ryuichiueda/opy)
 
 ## 電卓として使う
 
