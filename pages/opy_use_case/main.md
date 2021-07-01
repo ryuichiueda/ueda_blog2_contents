@@ -68,8 +68,32 @@ $ echo 0x10 | opy '[oct(F1)]'
 0o20
 ```
 
-## YAML形式のデータの読み込み/編集
+## YAML/JSON/XML形式のデータの読み込み/編集
 
+　いずれも、入力全体を読み込んでパースし、辞書`T`にセットします。次は、JSONの処理の例です。
+
+
+```
+### 処理するJSONデータ ###
+$ curl -s https://file.ueda.tech/eki/p/13.json
+{"line":[{"line_cd":11301,"line_name":"JR東海道本線(東京～熱海)"},{"line_cd":11302,"line_name":"JR山手線"},（以下略）
+### Tをリストに入れると全部出力できる ###
+curl -s https://file.ueda.tech/eki/p/13.json | opy -t json '[T]'
+{'line': [{'line_cd': 11301, 'line_name': 'JR東海道本線(東京～熱海)'},（以下略）
+### 要素の参照 ###
+$ curl -s https://file.ueda.tech/eki/p/13.json | opy -t json '[T["line"][0]]'
+{'line_cd': 11301, 'line_name': 'JR東海道本線(東京～熱海)'}
+### 路線のリストを出力する例 ###
+$ curl -s https://file.ueda.tech/eki/p/13.json | opy -t json '[e["line_name"] for e in T["line"]]'
+JR東海道本線(東京～熱海)
+JR山手線
+JR南武線
+JR武蔵野線
+JR横浜線
+・・・
+```
+
+YAMLの例です。
 
 ```
 $ cat ~/tmp/hoge.yml
