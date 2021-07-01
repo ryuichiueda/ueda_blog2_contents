@@ -67,3 +67,22 @@ $ echo 16 | opy '[hex(F1)]'
 $ echo 0x10 | opy '[oct(F1)]'
 0o20
 ```
+
+## YAML形式のデータを読み込む
+
+
+```
+$ cat ~/tmp/hoge.yml
+aho:
+  boke: ["a","b"]
+### ahoの下のbokeの配列の0から数えて1番目の要素を取り出す ###
+$ cat ~/tmp/hoge.yml | opy -t yaml '[T["aho"]["boke"][1]]'
+b
+### 改竄して出力 ###
+$ cat ~/tmp/hoge.yml | opy -t yaml '{T["aho"]["boke"][1]="KAIZAN"};[yaml.dump(T)]'
+aho:
+  boke:
+  - a
+  - KAIZAN
+```
+
