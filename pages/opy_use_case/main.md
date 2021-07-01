@@ -28,9 +28,9 @@ $ echo aaaaaaaaaa | opy '["0x"+F1]' | opy '[F1]'
 733007751850
 ```
 
-```
 ### 10進数→n進数
 
+```
 $ echo 16 | opy '[bin(F1)]'
 0b10000
 $ echo 16 | opy '[oct(F1)]'
