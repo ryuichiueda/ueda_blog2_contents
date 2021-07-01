@@ -4,6 +4,8 @@ Copyright: (C) Ryuichi Ueda
 
 # opyの便利な使い方集
 
+opyは、ワンライナーでPythonを使うためのラッパーコマンドです。
+
 * [インストールはこちらから](https://github.com/ryuichiueda/opy)
 
 ## 電卓として使う
