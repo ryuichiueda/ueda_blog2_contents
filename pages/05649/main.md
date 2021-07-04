@@ -16,7 +16,7 @@ Copyright: (C) Ryuichi Ueda
 
 自分のブログのログから採取。IPアドレスの頭２つを192.168に変換してあります。
 
-* http://file.ueda.tech/DATA_COLLECTION/danger_log.gz
+* https://file.ueda.tech/DATA_COLLECTION/danger_log.gz
 
 <h3>NASAのApacheログ</h3>
 
@@ -24,7 +24,7 @@ http://ita.ee.lbl.gov/html/contrib/NASA-HTTP.html からの再配布です。オ
 
 残念ながらリファラーとユーザエージェント情報はありません。
 
-* http://file.ueda.tech/DATA_COLLECTION/access_log.nasa.gz
+* https://file.ueda.tech/DATA_COLLECTION/access_log.nasa.gz
 
 
 <h1>空白区切りデータ</h1>
@@ -34,9 +34,9 @@ http://ita.ee.lbl.gov/html/contrib/NASA-HTTP.html からの再配布です。オ
 gz圧縮してありますので解凍、あるいはzcatしてお使いください。
 
 
-* http://file.ueda.tech/DATA_COLLECTION/TESTDATA.gz
+* https://file.ueda.tech/DATA_COLLECTION/TESTDATA.gz
 
 <h2>都道府県コード</h2>
 
-* http://file.ueda.tech/DATA_COLLECTION/PREF
+* https://file.ueda.tech/DATA_COLLECTION/PREF
 
