@@ -12,7 +12,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## 使ったマシン
 
-Intel Core i9-10885H（物理コア8個）ThinkPad P1です。DRAMの量は64GB。
+Intel Core i9-10885H（物理コア8個）を搭載したThinkPad P1です。DRAMの量は64GB。
 
 
 ## 準備
