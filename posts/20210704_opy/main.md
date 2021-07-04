@@ -3,7 +3,7 @@ Keywords: opy,シェル芸
 Copyright: (C) 2021 Ryuichi Ueda
 ---
 
-# opyのCSV操作のベンチマーク
+# opyを使ったCSV操作のベンチマーク
 
 　Pythonでワンライナーを書くためのラッパーコマンド[opy](/?page=opy)について、CSVの読み書き機能のベンチマークをしてみました。1億行、4.2GBのCSVファイルを使いました。
 
