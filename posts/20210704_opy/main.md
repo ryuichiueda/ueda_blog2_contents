@@ -198,18 +198,21 @@ sys	0m23.651s
 ```
 
 
-妥協して1000万行のソートの結果を示しておきます。1千万件で2分切るくらいなら、まあまあ妥当でしょう。
+妥協して1000万行のソートの結果を示しておきます。1千万件でコア1個だけ使って1分半なら、まあまあ妥当でしょう。
 
 
 ```bash
-$ time cat TESTDATA.csv | head -n 10000000 | opy -t csv -m datetime '{a=[ [datetime.datetime.strptime(e[3], "%Y年%m月%d日"),e] for e in T.values()]};{a.sort(key=lambda x:x[0])};[*[e[1] for e in a]]' > ans
+$ time cat TESTDATA.csv | head -n 10000000 | opy -t csv -m datetime '[*sorted(T.values(), key=lambda x:datetime.datetime.strptime(x[3], "%Y年%m月%d日"))]' > ans
 
-real	1m52.522s
-user	1m49.458s
-sys	0m3.812s
+real	1m32.006s
+user	1m29.025s
+sys	0m3.676s
 $ head -n 3 ans
 ['5390', '群馬県', '7,216,266', '1990年1月1日']
 ['9017', '山口県', '7,573,861', '1990年1月1日']
 ['0894', '栃木県', '6,389,064', '1990年1月1日']
 ```
+
+
+とりあえず以上です。
 
