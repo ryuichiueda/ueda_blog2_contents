@@ -173,9 +173,9 @@ ueda@uedap1:~/tmp2$ head -n3 ans
 
 　4列目の年月日でデータをソートしてみます。`sort`はファイルからデータを読むとコア数だけ並列処理してくれるので、一度中間ファイルに入れてからソートします。
 
+```bash
 $ time  ( cat TESTDATA.csv | awk -F, '{a=$NF;gsub(/[年月日]/," ",a);print a,$0}' > tmp ; sort -k1,3n tmp | awk '{print $NF}' > ans )
 
-```bash
 real	7m36.403s
 user	20m21.787s
 sys	0m22.701s
