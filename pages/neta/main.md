@@ -3,7 +3,7 @@ Keywords: ネタ
 Copyright: (C) Ryuichi Ueda
 ---
 
-# ネタ帳
+# ネタ一覧
 
 ## なにこれ？
 
