@@ -28,3 +28,4 @@ Copyright: (C) Ryuichi Ueda
 * 競馬
 * 麻雀（ほぼ失敗話）
 * パチンコ
+* 武富士株
