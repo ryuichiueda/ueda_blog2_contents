@@ -69,4 +69,3 @@ Copyright: (C) Ryuichi Ueda
 * 麻雀（ほぼ失敗話）
 * パチンコ
 * 武富士株
->>>>>>> 502b11b5130ca7bc8db974be9252cb58dcf34b85
