@@ -7,7 +7,7 @@ Copyright: (C) Ryuichi Ueda
 
 ## なにこれ？
 
-特殊な経験（大概クソ）をいろいろしているけど、今のところ細かく書いている暇もないので、1行で書いておくリスト。聞いてくれたらお話します。
+特殊な経験（大概クソ）をいろいろしているけど、今のところ細かく書いている暇もないので、1行で書いておくリスト。聞いてくれたらお話します。日々、穏やかに過ごしたいものですね。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">クソな体験、エクソペリエンス</p>&mdash; ((🐑++)) (@Sheeeeepla) <a href="https://twitter.com/Sheeeeepla/status/1416552607116533771?ref_src=twsrc%5Etfw">July 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
