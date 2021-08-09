@@ -3,6 +3,7 @@ Keywords: 近況
 Copyright: (C) 2021 Ryuichi Ueda
 ---
 
+<!--
 # トップページ
 
 <div class="card mb-3">
@@ -14,7 +15,6 @@ Copyright: (C) 2021 Ryuichi Ueda
       <div class="card-body">
         <h5 class="card-title">お知らせ</h5>
         <p class="card-text">ニュースや報告、自己紹介</p>
-        <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
       </div>
     </div>
   </div>
@@ -29,7 +29,6 @@ Copyright: (C) 2021 Ryuichi Ueda
       <div class="card-body">
         <h5 class="card-title">研究室 <i class="fa fa-external-link"></i></h5>
         <p class="card-text">学生、上田の研究やその他活動について</p>
-        <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
       </div>
     </div>
   </div>
@@ -44,7 +43,6 @@ Copyright: (C) 2021 Ryuichi Ueda
       <div class="card-body">
         <h5 class="card-title">詳解確率ロボティクス</h5>
         <p class="card-text">書籍、動画、コードの情報</p>
-        <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
       </div>
     </div>
   </div>
@@ -59,7 +57,6 @@ Copyright: (C) 2021 Ryuichi Ueda
       <div class="card-body">
         <h5 class="card-title">シェル芸</h5>
         <p class="card-text">過去問、過去のビデオ、書籍など</p>
-        <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
       </div>
     </div>
   </div>
@@ -74,7 +71,6 @@ Copyright: (C) 2021 Ryuichi Ueda
       <div class="card-body">
         <h5 class="card-title">ブログ</h5>
         <p class="card-text">個人的な話。たまに猫が出る。</p>
-        <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
       </div>
     </div>
   </div>
@@ -89,7 +85,6 @@ Copyright: (C) 2021 Ryuichi Ueda
       <div class="card-body">
         <h5 class="card-title">YouTubeの個人チャンネル <i class="fa fa-external-link"></i></h5>
         <p class="card-text">講義やロボットのデモ動画</p>
-        <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
       </div>
     </div>
   </div>
@@ -105,7 +100,6 @@ Copyright: (C) 2021 Ryuichi Ueda
       <div class="card-body">
         <h5 class="card-title">opy</h5>
         <p class="card-text">Pythonワンライナーコマンドopyの紹介と使い方</a>
-        <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
       </div>
     </div>
   </div>
@@ -121,7 +115,6 @@ Copyright: (C) 2021 Ryuichi Ueda
       <div class="card-body">
         <h5 class="card-title">bashcms2</h5>
         <p class="card-text">このサイト（bash製）やシェルスクリプト高速開発手法入門 改訂2版などについて。</p>
-        <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
       </div>
     </div>
   </div>
@@ -136,7 +129,6 @@ Copyright: (C) 2021 Ryuichi Ueda
       <div class="card-body">
         <h5 class="card-title">Raspberry Piで学ぶ ROSロボット入門</h5>
         <p class="card-text">ROSの入門書</p>
-        <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
       </div>
     </div>
   </div>
@@ -152,10 +144,9 @@ Copyright: (C) 2021 Ryuichi Ueda
       <div class="card-body">
         <h5 class="card-title">GlueLang</h5>
         <p class="card-text">スクリプティング用シェル</a>
-        <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
       </div>
     </div>
   </div>
 </div>
 
-てすと
+-->
