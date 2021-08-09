@@ -12,6 +12,9 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 <h3>細かいやつ</h3>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">＿人人人人人人＿<br>＞　募集開始　＜<br>￣Y^Y^Y^Y^Y^Y^￣<br>jus共催 第55回TOKY 02020オフィシェルシェル芸勉強会KAWASAKI2021 <a href="https://t.co/deX5CRH3zi">https://t.co/deX5CRH3zi</a> <a href="https://t.co/SRLgZXjfJ0">https://t.co/SRLgZXjfJ0</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1422326430680051776?ref_src=twsrc%5Etfw">August 2, 2021</a></blockquote>
+
+
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ゴールデンウィークのまとめ（）<br><br>真面目にamclの代替ROSパッケージを作った | 上田隆一の仕事とか <a href="https://t.co/y7wk9AZEVn">https://t.co/y7wk9AZEVn</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1389752701945217024?ref_src=twsrc%5Etfw">May 5, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
