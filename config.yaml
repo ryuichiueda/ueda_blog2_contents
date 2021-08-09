@@ -13,8 +13,6 @@ hatena: '@'
 pocket: '@'
 #line: '@'
 links:
-- text: 'blog'
-  href: '/?post'
 - text: 'publications'
   href: '/?page=00728'
   sublinks:
