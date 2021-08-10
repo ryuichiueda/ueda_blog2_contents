@@ -11,7 +11,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 * 参考サイト: http://yoshikyoto.github.io/githubpages/jekyll.html
 
-上記サイトで、`_layouts`の下に`default.html`を作ると良いと思います。HTMLのデザイン等を流用したい場合は、今表示しているGitHub上のページからソースをコピーしてきて、そこに埋め込み用のタグを仕込みます。
+上記サイトを参考に、`_layouts`の下に`default.html`を作ると良いと思います。HTMLのデザイン等を流用したい場合は、今表示しているGitHub上のページからソースをコピーしてきて、そこに埋め込み用のタグを仕込みます。
 
 ## Font Awesomeのリンクを仕込む
 
