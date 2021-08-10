@@ -5,7 +5,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 # GitHub上のJekyll製サイトでFont Awesomeを使う
 
-英語の情報見ても「プラグインないよー」みたいな話になってたけど、普通にテンプレートのHTMLにlinkを埋め込んだら使えた。[このサイト](https://shellgei.github.io/info/)のための作業でした。
+英語の情報見ても「プラグインないよー」みたいな話になってたけど、普通にテンプレートのHTMLにlinkを埋め込んだら使えた。チミ達は生のHTMLを書かんのか？[このサイト](https://shellgei.github.io/info/)のための作業でした。
 
 ## テンプレートのHTMLを作る
 
