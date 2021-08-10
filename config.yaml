@@ -11,6 +11,7 @@ twitter:
 #facebook: '@'
 hatena: '@'
 pocket: '@'
+favicon: '/pages/top/favicon.ico'
 #line: '@'
 sidecards:
 - title: 'お知らせ'
