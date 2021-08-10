@@ -39,3 +39,5 @@ Copyright: (C) 2021 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">やっと付いた・・・テンプレートからfontawesome読み込んだ。 <a href="https://t.co/EyKRxzQhPO">pic.twitter.com/EyKRxzQhPO</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1424901325255438336?ref_src=twsrc%5Etfw">August 10, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+現場からは以上です。
