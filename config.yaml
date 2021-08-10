@@ -17,6 +17,10 @@ sidecards:
   image: '/pages/top/ueda.jpg'
   href: '/?page=news'
   description: 'ニュースや報告、自己紹介'
+- title: '研究室 <i class="fa fa-external-link"></i>'
+  image: '/pages/top/lab.jpg'
+  href: 'https://lab.ueda.tech/'
+  description: '学生、上田の研究やその他活動'
 links:
 - text: 'publications'
   href: '/?page=00728'
