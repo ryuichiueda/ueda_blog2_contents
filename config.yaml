@@ -12,6 +12,11 @@ twitter:
 hatena: '@'
 pocket: '@'
 #line: '@'
+sidecards:
+- title: 'お知らせ'
+  image: '/pages/top/ueda.jpg'
+  href: '/?page=news'
+  description: 'ニュースや報告、自己紹介'
 links:
 - text: 'publications'
   href: '/?page=00728'
