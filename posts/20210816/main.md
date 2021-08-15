@@ -52,7 +52,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ### サンデーソングブック
 
-冒頭のようにどうも気合いが入らないけど、達郎さんのこの言葉で背筋が伸びた。自分も職人として、怪しげな自称脳科学者を駆逐しなければ（違う）。
+冒頭のようにどうも気合いが入らないけど、達郎さんのこの言葉で背筋が伸びた。自分も職人として、怪しげな自称脳科学者/サイエンティスト（）/魔法使い（？）を駆逐しなければ（違う）。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">自分たちのことをアーチストと呼び出した同業者が嫌で対抗してアルチザン（職人）とつけた。<a href="https://twitter.com/hashtag/sundaysongbook?src=hash&amp;ref_src=twsrc%5Etfw">#sundaysongbook</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1426773463704825859?ref_src=twsrc%5Etfw">August 15, 2021</a></blockquote>
 
