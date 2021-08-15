@@ -39,6 +39,8 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## 今日のありがたいツイート
 
+詳解確率ロボティクスのほうですね。
+
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">確率ロボティクスのあとがき:「自身で何も作れないのに誰かが語る未来に酔ってお賽銭を投げている人ばかりだと（中略）空虚なお賽銭の投げ合いしか残らなくなります。」</p>&mdash; 光が丘オープンソースクラブ (@hkr_osc) <a href="https://twitter.com/hkr_osc/status/1426465811242250243?ref_src=twsrc%5Etfw">August 14, 2021</a></blockquote>
 
 
