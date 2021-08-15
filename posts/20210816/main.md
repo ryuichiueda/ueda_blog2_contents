@@ -43,6 +43,9 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">確率ロボティクスのあとがき:「自身で何も作れないのに誰かが語る未来に酔ってお賽銭を投げている人ばかりだと（中略）空虚なお賽銭の投げ合いしか残らなくなります。」</p>&mdash; 光が丘オープンソースクラブ (@hkr_osc) <a href="https://twitter.com/hkr_osc/status/1426465811242250243?ref_src=twsrc%5Etfw">August 14, 2021</a></blockquote>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">プログラミング初学者向けに、Scratchで中高数学やp5jsのサンプルコードを表現する地域活動を行っています。<br>数学ガールの内容を表現した <a href="https://twitter.com/hashtag/%E6%95%B0%E5%AD%A6%E3%82%AC%E3%83%BC%E3%83%AB%E3%83%8F%E3%83%83%E3%82%AF?src=hash&amp;ref_src=twsrc%5Etfw">#数学ガールハック</a><br>都立高校入試数学の動的モデルを構築した <a href="https://twitter.com/hashtag/%E9%83%BD%E7%AB%8B%E9%AB%98%E6%A0%A1%E5%85%A5%E8%A9%A6%E3%83%8F%E3%83%83%E3%82%AF?src=hash&amp;ref_src=twsrc%5Etfw">#都立高校入試ハック</a> <br>p5jsのサンプルコードを写経した <a href="https://twitter.com/hashtag/%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%82%B3%E3%83%BC%E3%83%89%E5%86%99%E7%B5%8C?src=hash&amp;ref_src=twsrc%5Etfw">#クリエイティブコード写経</a><br>があります。</p>&mdash; 光が丘オープンソースクラブ (@hkr_osc) <a href="https://twitter.com/hkr_osc/status/1426855902083129347?ref_src=twsrc%5Etfw">August 15, 2021</a></blockquote>
+
+
 
 ## その他
 
