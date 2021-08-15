@@ -15,16 +15,24 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 [この前公開した実時間価値反復ROSモジュール](https://github.com/ryuichiueda/value_iteration)について。もうものはできているので書けばいいわけなんだけど、なかなかエンジンがかからない。前に書いた作文を直しながら半ページくらい進んだだけ。
 
-## その他
-
-後期の講義の準備の話がだんだん出てきた。ICRAの予稿やばし。
-
 ## 料理
 
 コロッケ作った。うまかったけど、ちょっとデカすぎた。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">揚げます <a href="https://t.co/G9AB5OyXIk">pic.twitter.com/G9AB5OyXIk</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1426472730883330051?ref_src=twsrc%5Etfw">August 14, 2021</a></blockquote>
-
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">食いながら揚げる <a href="https://t.co/klRxIF1X8Y">pic.twitter.com/klRxIF1X8Y</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1426477881933262851?ref_src=twsrc%5Etfw">August 14, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">食いながら揚げる <a href="https://t.co/klRxIF1X8Y">pic.twitter.com/klRxIF1X8Y</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1426477881933262851?ref_src=twsrc%5Etfw">August 14, 2021</a></blockquote>
+
+## 猫
+
+おもしろい。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">何？ <a href="https://t.co/MQR7fTwe0u">pic.twitter.com/MQR7fTwe0u</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1426343188499898369?ref_src=twsrc%5Etfw">August 14, 2021</a></blockquote>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">寝る。 <a href="https://t.co/4rQMbTnzRI">pic.twitter.com/4rQMbTnzRI</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1426553012017762305?ref_src=twsrc%5Etfw">August 14, 2021</a></blockquote>
+
+
+## その他
+
+後期の講義の準備の話がだんだん出てきた。ICRAの予稿やばし。
