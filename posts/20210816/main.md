@@ -33,6 +33,15 @@ Copyright: (C) 2021 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">寝る。 <a href="https://t.co/4rQMbTnzRI">pic.twitter.com/4rQMbTnzRI</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1426553012017762305?ref_src=twsrc%5Etfw">August 14, 2021</a></blockquote>
 
 
+## 今日のシェル芸
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr">ＵＮＫＯ<br>𝐔𝐍𝐊𝐎<br>𝑈𝑁𝐾𝑂<br>𝑼𝑵𝑲𝑶<br>𝒰𝒩𝒦𝒪<br>𝓤𝓝𝓚𝓞<br>𝔘𝔑𝔎𝔒<br>𝕌ℕ𝕂𝕆<br>𝖀𝕹𝕶𝕺<br>𝖴𝖭𝖪𝖮 <a href="https://t.co/kfLVZB87UH">https://t.co/kfLVZB87UH</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1426789288100777984?ref_src=twsrc%5Etfw">August 15, 2021</a></blockquote>
+
+## 今日のありがたいツイート
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">確率ロボティクスのあとがき:「自身で何も作れないのに誰かが語る未来に酔ってお賽銭を投げている人ばかりだと（中略）空虚なお賽銭の投げ合いしか残らなくなります。」</p>&mdash; 光が丘オープンソースクラブ (@hkr_osc) <a href="https://twitter.com/hkr_osc/status/1426465811242250243?ref_src=twsrc%5Etfw">August 14, 2021</a></blockquote>
+
+
 ## その他
 
 後期の講義の準備の話がだんだん出てきた。ICRAの予稿やばし。
