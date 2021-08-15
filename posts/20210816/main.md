@@ -8,7 +8,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 昨日今日はシェル芸勉強会の問題づくりと[ICRA](https://www.icra2022.org/)への論文執筆。アウトプットばっかりだし、ふらふら遊びに行くこともできないので、何かを買ってSNSで自慢するとか、そういう下衆い刺激が欲しいような気がしないでもない。やらないけど。人間、特になにもしなくても、メンタルのバランスをとるのは大変難しいので、人にやさしくしないとなあと思いつつ、あんまりできてない。
 
 
-今書いたように、ようにどうも気合いが入らないけど、本日のサンデーソングブックの達郎さんのこの言葉で背筋が伸びた。自分も職人としてもっと実力をつけて、怪しげな自称脳科学者/自称○○サイエンティスト（）/自称魔法使い（問題外）を駆逐しなければ（違う）。
+今書いたように、どうも気合いが入らないけど、本日のサンデーソングブックの達郎さんのこの言葉で背筋が伸びた。自分も職人としてもっと実力をつけて、怪しげな自称脳科学者/自称○○サイエンティスト（）/自称魔法使い（問題外）を駆逐しなければ（違う）。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">自分たちのことをアーチストと呼び出した同業者が嫌で対抗してアルチザン（職人）とつけた。<a href="https://twitter.com/hashtag/sundaysongbook?src=hash&amp;ref_src=twsrc%5Etfw">#sundaysongbook</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1426773463704825859?ref_src=twsrc%5Etfw">August 15, 2021</a></blockquote>
 
