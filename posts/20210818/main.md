@@ -42,4 +42,7 @@ ICRAが調子あがってきたけど、3校に入ったのでちょっとICRA�
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">休憩中 <a href="https://t.co/2Ikj7z3rjs">pic.twitter.com/2Ikj7z3rjs</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1427446220390232064?ref_src=twsrc%5Etfw">August 17, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+同じ個体とは思えない・・・
+
+
 以上。寝る。明日は3週間ぶりに出勤。
