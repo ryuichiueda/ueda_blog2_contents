@@ -82,7 +82,7 @@ perl -anle 'print " " x $F[0]' | sed '2s/ /@/g;$s/ /@/g;s/^ /@/;s/ $/@/'
 
 端末上で次のような出力を得てください。
 
-![](annihilation.mp4)
+![](/posts/shellgei_55/annihilation.mp4)
 
 ### 解答例
 
