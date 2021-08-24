@@ -27,6 +27,9 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## Twitterまとめ
 
+まとめありがとうございます！
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">色つけました <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> | jus共催 第55回TOKY 02020オフィシェルシェル芸勉強会KAWASAKI2021 - Togetter <a href="https://t.co/rTj3MpMiK0">https://t.co/rTj3MpMiK0</a> <a href="https://twitter.com/togetter_jp?ref_src=twsrc%5Etfw">@togetter_jp</a>より</p>&mdash; きゃろさん (@Carol_815) <a href="https://twitter.com/Carol_815/status/1430059629547900930?ref_src=twsrc%5Etfw">August 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## ブログなど
 
