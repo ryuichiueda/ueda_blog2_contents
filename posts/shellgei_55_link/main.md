@@ -47,6 +47,9 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## LTのスライド等
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">本日のLT資料です～。聞いてくださった方ありがとうございました～<a href="https://t.co/SfzGlPAeHg">https://t.co/SfzGlPAeHg</a><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1428993046314582021?ref_src=twsrc%5Etfw">August 21, 2021</a></blockquote>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="und" dir="ltr">LT <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><a href="https://t.co/twaYHRy4TK">https://t.co/twaYHRy4TK</a></p>&mdash; きゃろさん (@Carol_815) <a href="https://twitter.com/Carol_815/status/1428992135773057034?ref_src=twsrc%5Etfw">August 21, 2021</a></blockquote>
 
 ## 反省点
 
