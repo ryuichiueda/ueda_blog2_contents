@@ -22,8 +22,15 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## YouTube
 
+### 本編
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLbUh9y6MXvjf-FW4iv6iXYguSL7h3Zg0s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+### LT
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">LT 会場はこちらです <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><a href="https://t.co/maVWhPtI3p">https://t.co/maVWhPtI3p</a></p>&mdash; so🏝🦊 (@3socha) <a href="https://twitter.com/3socha/status/1428982394648813568?ref_src=twsrc%5Etfw">August 21, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## Twitterまとめ
 
@@ -32,6 +39,11 @@ Copyright: (C) 2021 Ryuichi Ueda
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">色つけました <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> | jus共催 第55回TOKY 02020オフィシェルシェル芸勉強会KAWASAKI2021 - Togetter <a href="https://t.co/rTj3MpMiK0">https://t.co/rTj3MpMiK0</a> <a href="https://twitter.com/togetter_jp?ref_src=twsrc%5Etfw">@togetter_jp</a>より</p>&mdash; きゃろさん (@Carol_815) <a href="https://twitter.com/Carol_815/status/1430059629547900930?ref_src=twsrc%5Etfw">August 24, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## ブログなど
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a><br>第55回シェル芸勉強会に参加しました - たいちょーの雑記 <a href="https://t.co/aDoWY5z4VL">https://t.co/aDoWY5z4VL</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1429316187716943883?ref_src=twsrc%5Etfw">August 22, 2021</a></blockquote>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">第55回シェル芸勉強会振り返り書いた <a href="https://t.co/Exg1CaZ8yG">https://t.co/Exg1CaZ8yG</a></p>&mdash; 次郎☔️15:44:21 (@jiro_saburomaru) <a href="https://twitter.com/jiro_saburomaru/status/1429804240424235010?ref_src=twsrc%5Etfw">August 23, 2021</a></blockquote>
+
 
 ## LTのスライド等
 
