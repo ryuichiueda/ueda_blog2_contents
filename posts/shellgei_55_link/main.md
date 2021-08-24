@@ -17,9 +17,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## 出題
 
-* [解答ページ](/?post=shellgei_55)
-
-（今回から問題のみのページは省略します。）
+* [問題・解答ページ](/?post=shellgei_55)
 
 
 ## YouTube
