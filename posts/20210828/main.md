@@ -26,3 +26,20 @@ Copyright: (C) 2021 Ryuichi Ueda
   </div>
 </div>
 
+<div class="card">
+  <div class="row no-gutters">
+    <div class="col-md-2">
+      <a class="item url" href="https://www.amazon.co.jp/dp/4774173444?tag=ryuichiueda-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51RK9eRR0PL._SL500_.jpg" width="396" alt="photo"></a>
+    </div>
+    <div class="col-md-10">
+      <div class="card-body">
+        <dl class="fn" style="font-size:80%">
+          <dt><a href="https://www.amazon.co.jp/dp/4774173444?tag=ryuichiueda-22&linkCode=ogi&th=1&psc=1">シェルプログラミング実用テクニック (Software Design plus)</a></dt>
+          <dd>上田 隆一,USP研究所</dd>
+          <dd>技術評論社 2015-05-15</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+
