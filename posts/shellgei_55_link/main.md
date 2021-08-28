@@ -44,6 +44,9 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">第55回シェル芸勉強会振り返り書いた <a href="https://t.co/Exg1CaZ8yG">https://t.co/Exg1CaZ8yG</a></p>&mdash; 次郎☔️15:44:21 (@jiro_saburomaru) <a href="https://twitter.com/jiro_saburomaru/status/1429804240424235010?ref_src=twsrc%5Etfw">August 23, 2021</a></blockquote>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">詳細を書く時間が取れないので、今回もほぼ解答だけの内容になってしまいました。 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><br><br>【宿題】「第55回シェル芸勉強会」の解答例 - KEEP CALM AND rm -rf /* <a href="https://t.co/B7hFkRVafY">https://t.co/B7hFkRVafY</a></p>&mdash; 日柳 光久 (@mikkun_jp) <a href="https://twitter.com/mikkun_jp/status/1431297840521777153?ref_src=twsrc%5Etfw">August 27, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## LTのスライド等
 
