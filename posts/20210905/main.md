@@ -32,7 +32,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 ![](./index_v.png)
 
 
-Vim・・・ワンライナーですね。ということはVimワンライナー愛好家には必携の一冊になる！けどそんな奴いるのか？（<span style="color:red">注意: ちょっとしか出てきません！</span>）
+Vim・・・ワンライナーですね。ということはVimワンライナー愛好家には必携の一冊になる！けどそんな奴いるのか？（<span style="color:red">注意: Vimワンライナーはちょっとしか出てきません！</span>）
 
 
 
