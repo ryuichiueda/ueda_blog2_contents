@@ -24,10 +24,12 @@ Copyright: (C) 2021 Ryuichi Ueda
   </div>
 </div>
 
+## 今日のチラ見せ
+
 　で、今日は13ページもある索引からチラ見せということで、次の画像を掲載します。
 
 
-![](index_v.png)
+![](./index_v.png)
 
 
 Vim・・・ワンライナーですね。
