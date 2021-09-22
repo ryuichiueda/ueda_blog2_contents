@@ -62,6 +62,8 @@ links:
   - text: '出版物リスト（学術誌等）'
     href: '/?page=06033'
   - text: '書籍の情報'
+    href: '/?page=shellgei160'
+  - text: '- シェル・ワンライナー160本ノック'
     href: '/?page=05535'
   - text: '- 詳解確率ロボティクス'
     href: '/?page=lnpr'
