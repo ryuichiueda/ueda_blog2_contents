@@ -12,8 +12,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## 講義の動画とった
 
-　立て続けに撮影してへばってます。
-
+　今日ではなく、この一週間で撮影したものですが、立て続けに撮影してへばってます。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Q8ROatUExrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
