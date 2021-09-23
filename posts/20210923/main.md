@@ -9,7 +9,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## シェル芸本Kindle版
 
-　昨日は技術評論社で販売されている電子版でしたが、本日はKindle版です。
+　[昨日](/?post=20210922)は技術評論社で販売されている電子版でしたが、本日はKindle版です。
 
 <div class="card">
   <div class="row no-gutters">
