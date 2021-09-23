@@ -9,6 +9,8 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## シェル芸本Kindle版
 
+　昨日は技術評論社で販売されている電子版でしたが、本日はKindle版です。
+
 <div class="card">
   <div class="row no-gutters">
     <div class="col-md-2">
@@ -28,6 +30,6 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## 講義動画とった
 
-補足の動画ですが、撮りました。Windows10のインターネット共有と、ラズパイでのルーティングとか名前解決とか。
+　補足の動画ですが、撮りました。Windows10のインターネット共有と、ラズパイでのルーティングとか名前解決とか。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K7fl29CRZdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
