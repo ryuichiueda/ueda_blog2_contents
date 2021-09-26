@@ -24,7 +24,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OcWDOw8nVko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### でラズパイ4のWiFi設定
+### ラズパイ4のWiFi設定
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FAKBwrXUJAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
