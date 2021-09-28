@@ -3,7 +3,7 @@ Keywords: シェル芸本, 日記
 Copyright: (C) 2021 Ryuichi Ueda
 ---
 
-# シェル・ワンライナー160本ノックのあとがきの代わり1
+# シェル・ワンライナー160本ノックのあとがきの代わり1（プログラミングの学習について）
 
 （まだ書きかけですが、アップしながら書いていこうと思います。）
 
@@ -15,7 +15,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 という2点の理由から、あとがきがありません。ですので、思い入れの強いこの本について、あとがきの代わりにちょっとずつ何か書いていこうと思います。
 
 
-## 「プログラミング」の学習について
+## この本の最も簡潔な意図
 
 　この本がどんな本かというと、普段からLinuxを使う人の場合、端末の上でいろいろできると便利なので、ちょっと難しい問題を解いて、自由自在に使えるようになろうという本です。例えば、`ls`を打って、
 
@@ -44,4 +44,28 @@ ueda@uedap1:~/ARCHIVE/PAPER_and_PRESENTATION$ ls
  ・・・
 ```
 
-みたいに
+みたいにズラーッとファイルやディレクトリの名前が出てきたときに、「`ICRA`」か「`IROS`」で始まるディレクトリが見たいとします。このときに、
+
+```
+$ ls -d IROS* ICRA*
+ICRA2002  ICRA2004     ICRA2005cam_ready  ICRA2008DP  IROS2003  IROS2004ppt        IROS2006
+ICRA2003  ICRA2004ppt  ICRA2007DP         ICRA2015    IROS2004  IROS2005cam_ready  IROS2007JITSUKAWA
+$ ls | grep -e ^ICRA -e ^IROS
+ICRA2002
+ICRA2003
+ICRA2004
+ICRA2004ppt
+ICRA2005cam_ready
+ICRA2007DP
+ICRA2008DP
+ICRA2015
+IROS2003
+IROS2004
+IROS2004ppt
+IROS2005cam_ready
+IROS2006
+IROS2007JITSUKAWA
+```
+
+みたいなコマンドが出てこないと、面倒くさいでしょうからできるようになりましょう、という単純な呼びかけのためにこの本を書いたり、シェル芸勉強会を開いたりしています。
+
