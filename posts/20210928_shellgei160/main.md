@@ -17,4 +17,31 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## 「プログラミング」の学習について
 
-　この本がどんな本かというと、普段からLinuxを使う人の場合、端末の上でいろいろできると便利なので、ちょっと難しい問題を解いて、自由自在に使えるようになろうという本です。
+　この本がどんな本かというと、普段からLinuxを使う人の場合、端末の上でいろいろできると便利なので、ちょっと難しい問題を解いて、自由自在に使えるようになろうという本です。例えば、`ls`を打って、
+
+```
+ueda@uedap1:~/ARCHIVE/PAPER_and_PRESENTATION$ ls
+ 20000425発表資料４.doc         IROS2005cam_ready                        jspe2003
+ 20000922研究会..doc            IROS2006                                 masterthesis
+ 20001130ミーティング資料       IROS2007JITSUKAWA                        mini2000.doc
+ 20001214ミーティング資料       ISCIE_PROBROBO                           mini2001
+ 20010508ミーティング資料.doc   JRSJ_SamplingQMDP                        mini2002
+ 20011023研究会資料             JSAI2015                                 mini2003
+ 20011207ミーティング資料       NikkeiLinux.tar.gz                       mini2004
+ 20011211研究会資料            'Playing Soccer with Legged Robots.ppt'   mini2005
+ 20020225勉強会資料             ROBOMEC2001                              mini2006
+ 20020423研究会資料             ROBOMEC2005                              mini2007
+ 20020529勉強会資料             ROBOMEC2006                              mini2008
+ 20020702研究会資料             RSJ2003                                  not_submitted
+ 20021022研究会資料             RSJ2004RESET                             ob2007
+ 20021023勉強会                 RSJ2004VQ                                rejected
+ 20021203研究会資料             RSJ2004ppt                               robosym2003
+ 20030218作業報告書             RSJ2005                                  rsj2003ppt
+ 20030409meeting                RSJ2006                                  rsj2007ppt
+ 20030422研究会資料             RSJ2007                                  smc2003abst
+ 20030611勉強会資料             RSJ2008                                  spie_ie_2004
+ 20030617研究会資料             RSJ2015                                  ssi2007_ppt
+ ・・・
+```
+
+みたいに
