@@ -14,4 +14,6 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## ROSのパッケージのバグ取り
 
+
+
 　昨日のことですが、価値反復パッケージ（https://github.com/ryuichiueda/value_iteration）のバグを取りました。ロボットが動いている途中で目的地をRVizで変更しても、ロボットが元の目的地に行ってしまうバグで、actionのクライアント側のPythonのコードをゴニョゴニョ直したら取れました。ただ、コードにはたくさんの`global`が追加されました。むずい。
