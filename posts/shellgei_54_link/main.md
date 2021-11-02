@@ -18,7 +18,7 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 * 開催日: 2021年6月26日土曜日
 * 共催: [日本UNIXユーザ会](https://www.jus.or.jp/)
-
+* 最大同時接続数: 36
 
 ## 出題
 
