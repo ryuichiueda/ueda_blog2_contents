@@ -33,11 +33,13 @@ Copyright: (C) Ryuichi Ueda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ESh2KqMDnCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+* [リンク集](/?post=shellgei_56_link)
 
 ### 第55回
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLbUh9y6MXvjf-FW4iv6iXYguSL7h3Zg0s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+* [リンク集](/?post=shellgei_55_link)
 
 * [第54回](/?post=shellgei_54_link)
 * [第53回](/?post=shellgei_53_link)
