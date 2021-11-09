@@ -54,9 +54,14 @@ Copyright: (C) Ryuichi Ueda
 
 * [リンク集](/?post=shellgei_53_link)
 
-### 第52〜33回
+### 第52回
 
-* [第52回](/?post=shellgei_52_links)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLbUh9y6MXvjfW71kLOQRcJSYDutz-T1f8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+* [リンク集](/?post=shellgei_52_links)
+
+### 第51〜33回
+
 * [第51回](/?post=shellgei_51_links)
 * [第50回](/?post=20201107_shellgei_50_links)
 * [第49回](/?post=20200815_shellgei_49_links)
