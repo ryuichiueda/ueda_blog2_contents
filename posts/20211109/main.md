@@ -21,3 +21,12 @@ Copyright: (C) 2021 Ryuichi Ueda
 ## 愚痴というか気になること
 
 　大学の先生が、「自分は難しい/重要な/オリジナルな/ことをやってるのにあんまり注目されない」みたいなツイートしているのは、気持ちは分かるんですけど、気難しい印象を与えるので逆効果なんじゃないかなと・・・。なんか味方になってもらえるような表現が欲しいかなと。
+
+## 今日のシェル芸
+
+
+　最近、雑なのしかシェル芸botに食わせてない・・・
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">オー言語はシワコン <a href="https://t.co/MdUCKdSlI4">https://t.co/MdUCKdSlI4</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1458005513002569734?ref_src=twsrc%5Etfw">November 9, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
