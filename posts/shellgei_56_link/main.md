@@ -64,6 +64,8 @@ Copyright: (C) 2021 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a><br> 第56回シェル芸勉強会に参加しました - たいちょーの雑記 <a href="https://t.co/6Sssyuzq4B">https://t.co/6Sssyuzq4B</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1455195511560888330?ref_src=twsrc%5Etfw">November 1, 2021</a></blockquote>
 
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">Q6とQ7を宿題として解きましたが、終盤の問題ということもあってかなり難しかったです。<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><br><br>【参加記録】「第56回シェル芸勉強会」の解答例 - KEEP CALM AND rm -rf /* <a href="https://t.co/YqzaYV0smD">https://t.co/YqzaYV0smD</a></p>&mdash; 日柳 光久 💉💉 (@mikkun_jp) <a href="https://twitter.com/mikkun_jp/status/1457645330275586048?ref_src=twsrc%5Etfw">November 8, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ## 反省点
