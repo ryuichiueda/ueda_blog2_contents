@@ -5,12 +5,31 @@ Copyright: (C) Ryuichi Ueda
 
 # シェル芸勉強会問題一覧
 
-シェル芸についてもっと<del>深みに嵌りたい</del>知りたいならば・・・シェルプログラミング実用テクニックをどうぞ。（宣伝）
-
-<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;/zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774173444/ryuichiueda-22/" target="_blank" ><img src="https://images-fe.ssl-images-amazon.com/images/I/51RK9eRR0PL._SL160_.jpg" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;/zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774173444/ryuichiueda-22/" target="_blank" >シェルプログラミング実用テクニック (Software Design plus)</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="http://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;">上田 隆一 技術評論社 2015-05-15    </div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkamazon" style="margin-right:5px;background: url('//img.yomereba.com/simple5.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="http://www.amazon.co.jp/gp/search?keywords=%E3%82%B7%E3%82%A7%E3%83%AB%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=ryuichiueda-22" target="_blank" >Amazonで調べる</a></div><div class="shoplinkrakuten" style="margin-right:5px;background: url('//img.yomereba.com/simple5.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="https://hb.afl.rakuten.co.jp/hgc/160ef62b.67679dda.160ef62c.1fcc3769/?pc=http%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2582%25B7%25E3%2582%25A7%25E3%2583%25AB%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%259F%25E3%2583%25B3%25E3%2582%25B0%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0%26scid%3Daf_ich_link_urltxt%26m%3Dhttp%3A%2F%2Fm.rakuten.co.jp%2F" target="_blank" >楽天市場で調べる</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
+シェル芸についてもっと<del>深みに嵌りたい</del>知りたいならば・・・シェル・ワンライナー160本ノックをどうぞ。（宣伝）
 
 
-第33回以降はまとめのページにリンクを貼りました。ページ上の方に問題へのリンクがあります。
+<div class="card">
+  <div class="row no-gutters">
+    <div class="col-md-2">
+      <a class="item url" href="https://www.amazon.co.jp/dp/4297122677?tag=ryuichiueda-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51F6w9FoosL._SL500_.jpg" width="395" alt="photo"></a>
+    </div>
+    <div class="col-md-10">
+      <div class="card-body">
+        <dl class="fn" style="font-size:80%">
+          <dt><a href="https://www.amazon.co.jp/dp/4297122677?tag=ryuichiueda-22&linkCode=ogi&th=1&psc=1">1日1問、半年以内に習得 シェル・ワンライナー160本ノック (Software Design plusシリーズ)</a></dt>
+          <dd>上田 隆一, 山田 泰宏, 田代 勝也, 中村 壮一, 今泉 光之, 上杉 尚史</dd>
+          <dd>技術評論社 2021-09-27</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ESh2KqMDnCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLbUh9y6MXvjf-FW4iv6iXYguSL7h3Zg0s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 * [第54回](/?post=shellgei_54_link)
