@@ -54,7 +54,7 @@ Copyright: (C) Ryuichi Ueda
 
 * [リンク集](/?post=shellgei_53_link)
 
-### 第52回以前
+### 第52〜33回
 
 * [第52回](/?post=shellgei_52_links)
 * [第51回](/?post=shellgei_51_links)
@@ -77,6 +77,7 @@ Copyright: (C) Ryuichi Ueda
 * [第34回](/?post=2018325_shellgei_34_summary)
 * [第33回](/?post=20180128_shellgei_33_summary)
 
+### 第32〜24回
 
 | 回 | 問題のみのページ | 解答付きのページ |
 |:---------|:-------------|:--------------|
@@ -89,6 +90,9 @@ Copyright: (C) Ryuichi Ueda
 | 26 | [問題のみ](/?post=09226) | [解答付き](/?post=08833)|
 | 25 | [問題のみ](/?post=08764) | [解答付き](/?post=08737)|
 | 24 | [問題のみ](/?post=08639) | [解答付き](/?post=08592)|
+
+
+### 第23回以前
 
 <h2>第23回</h2>
 <ul>
