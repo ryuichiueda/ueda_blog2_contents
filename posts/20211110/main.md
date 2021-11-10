@@ -70,7 +70,7 @@ C言語での実装を参考にして前後を付け足し、次のようなコ�
 
 
 
-<script src="https://gist-it.appspot.com/https://github.com/ryuichiueda/my_cuda_practice/blob/master/hoge.cu"></script>
+<script src="https://gist-it.appspot.com/ryuichiueda/my_cuda_practice/blob/master/hoge.cu"></script>
 
 
 
