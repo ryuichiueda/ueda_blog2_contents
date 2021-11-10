@@ -66,10 +66,52 @@ $ sudo apt install nvidia-cuda-*
 
 
 ただ、見ると分かるんですけどGPUに処理をさせる前後のコードが省略されており（なんで省略するんだろ？）、予想して書かないといけません。で、https://qiita.com/wazakkyd/items/8a5694e7a001465b6025 の
-C言語での実装を参考にして前後を付け足し、次のようなコードを書きました。
+C言語での実装を参考にして前後を付け足し、次のようなコードになりました。
+
+```hoge.cu
+#include <iostream>
+
+__global__ void VecAdd(float* A, float* B, float* C)
+{
+    int i = threadIdx.x;
+    C[i] = A[i] + B[i];
+}
+
+int main()
+{
+    float A[] = {1,2,3};
+    float B[] = {2,3,4};
+    float C[] = {0,0,0};
+
+    float *a, *b, *c;
+    cudaMalloc(&a, 3*sizeof(float));
+    cudaMalloc(&b, 3*sizeof(float));
+    cudaMalloc(&c, 3*sizeof(float));
+
+    cudaMemcpy(a, A, 3*sizeof(float), cudaMemcpyHostToDevice);
+    cudaMemcpy(b, B, 3*sizeof(float), cudaMemcpyHostToDevice);
+    cudaMemcpy(c, C, 3*sizeof(float), cudaMemcpyHostToDevice);
+
+    // Kernel invocation with N threads
+    VecAdd<<<1, 3>>>(a, b, c);
+
+    cudaMemcpy(C, c, 3*sizeof(float), cudaMemcpyDeviceToHost);
+
+    std::cout << C[0] << " " << C[1] << " " << C[2] << std::endl;
+
+    cudaFree(a);
+    cudaFree(b);
+    cudaFree(c);
+
+    return 0;
+}
 
 
+/* reference */
+// https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#programming-model
+// https://qiita.com/wazakkyd/items/8a5694e7a001465b6025
+```
 
-https://github.com/ryuichiueda/my_cuda_practice/blob/master/hoge.cu#:~:text=%23include%20%3Ciostream%3E,wazakkyd/items/8a5694e7a001465b6025
+
 
 
