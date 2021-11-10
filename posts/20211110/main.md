@@ -133,7 +133,9 @@ $ ./a.out
 　とりあえず自分のPCで動いたので、あとは少しずつコードを変えながら勘をつかんでいきます。練習用リポジトリは[これ](https://github.com/ryuichiueda/my_cuda_practice)です。
 
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://t.co/ILe9pfonQ3">https://t.co/ILe9pfonQ3</a><br><br>と<a href="https://t.co/RbPcfHfk1I">https://t.co/RbPcfHfk1I</a><br><br>を参考にしてコード書いたら動いた。 <a href="https://t.co/PSB1g7Q5qV">pic.twitter.com/PSB1g7Q5qV</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1458346805490782208?ref_src=twsrc%5Etfw">November 10, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-寝る。
 
+ありがとうございました。寝る。 
 
