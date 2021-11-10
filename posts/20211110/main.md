@@ -70,7 +70,6 @@ C言語での実装を参考にして前後を付け足し、次のようなコ�
 
 
 
-<script src="https://gist-it.appspot.com/ryuichiueda/my_cuda_practice/blob/master/hoge.cu"></script>
-
+https://github.com/ryuichiueda/my_cuda_practice/blob/master/hoge.cu#:~:text=%23include%20%3Ciostream%3E,wazakkyd/items/8a5694e7a001465b6025
 
 
