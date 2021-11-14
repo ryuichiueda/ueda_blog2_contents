@@ -13,7 +13,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 * 開催日: 2021年10月30日土曜日
 * 共催: [日本UNIXユーザ会](https://www.jus.or.jp/)
-* 最大同時接続数: 36
+* 最大同時接続数: 39
 
 
 ## 出題
