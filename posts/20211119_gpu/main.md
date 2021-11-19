@@ -94,3 +94,6 @@ int main(int argc, char **argv)
 
 
 ## まとめ
+
+
+　正直、CPUが相当速いので、GPU使ってもなあと今まで考えていたのですが、
