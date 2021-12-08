@@ -1,5 +1,5 @@
 ---
-Keywords: 日記
+Keywords: 研究, メモ
 Copyright: (C) 2021 Ryuichi Ueda
 ---
 
