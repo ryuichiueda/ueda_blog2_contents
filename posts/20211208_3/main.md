@@ -17,3 +17,4 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dqS7KgGxwBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+　原稿、英語で書いてるんだけど、これだと学生が読んでくれないので悩み中。
