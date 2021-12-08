@@ -13,5 +13,5 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 $$
 	\newcommand{\V}[1]{\boldsymbol{#1}}
-	b_i(\V{x} | \V{z}_i) 
+	b_i(\V{x} | \V{z}_i)  \qquad \{i=1,2,\dots,N_b \}
 $$
