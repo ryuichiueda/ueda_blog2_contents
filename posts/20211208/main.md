@@ -11,7 +11,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 * 推定器
 
-\[
+$$
 	\newcommand{\V}[1]{\boldsymbol{#1}}
 	b_i(\V{x} | \V{z}_i) 
-\]
+$$
