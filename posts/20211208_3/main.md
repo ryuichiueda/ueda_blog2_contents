@@ -20,3 +20,9 @@ Copyright: (C) 2021 Ryuichi Ueda
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dqS7KgGxwBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 　原稿、英語で書いてるんだけど、これだと学生が読んでくれないので悩み中。
+
+## ROSシェル芸続報
+
+　闇豚さんが記事執筆。もっと掘り下げると面白いかもしれないので追っかける。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">書きました<br><br>ROS コマンドラインツールシェル芸 <a href="https://t.co/MXp7phMhba">https://t.co/MXp7phMhba</a> <a href="https://twitter.com/hashtag/Qiita?src=hash&amp;ref_src=twsrc%5Etfw">#Qiita</a> <a href="https://twitter.com/yami_buta?ref_src=twsrc%5Etfw">@yami_buta</a>より</p>&mdash; 闇ときどき豚 (@yami_buta) <a href="https://twitter.com/yami_buta/status/1468353570789793793?ref_src=twsrc%5Etfw">December 7, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
