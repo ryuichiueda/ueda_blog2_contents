@@ -15,7 +15,6 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 * 開催日: 2021年12月30日土曜日
 * 共催: [日本UNIXユーザ会](https://www.jus.or.jp/)
-* 共催: [日本UNIXユーザ会](https://www.jus.or.jp/)
 * 午前の部: 視聴数78（2022年1月9日現在）
 * 午後の部: 最大同時接続数20、視聴数85+98（2022年1月9日現在。[編集版](https://www.youtube.com/watch?v=xEXhi7XcJNI)+[ライブ動画](https://www.youtube.com/watch?v=tH5wOs0_lTw)）
 
@@ -29,7 +28,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ### 午前の部
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qTAJEh2J7IA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+URL: https://www.youtube.com/embed/qTAJEh2J7IA
 
 ### 午後の部
 
