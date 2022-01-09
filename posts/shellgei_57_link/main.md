@@ -50,7 +50,7 @@ URL: https://www.youtube.com/embed/qTAJEh2J7IA
 
 ## ブログなど
 
-
+　出題した問題のページの掲載が遅れたからか、まだありません。すんません！
 
 ## 反省点
 
