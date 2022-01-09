@@ -50,9 +50,13 @@ URL: https://www.youtube.com/embed/qTAJEh2J7IA
 
 ## ブログなど
 
+解説多めでありがとうございます。
+
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿してました<br><br>第57回シェル芸勉強会に参加しました<a href="https://t.co/LOwlkmc7fP">https://t.co/LOwlkmc7fP</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1479987998779666435?ref_src=twsrc%5Etfw">January 9, 2022</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">シェル芸勉強会振り返り書いた<a href="https://t.co/0YdupLvTCO">https://t.co/0YdupLvTCO</a></p>&mdash; 次郎☁️13:04:20 (@jiro_saburomaru) <a href="https://twitter.com/jiro_saburomaru/status/1480020722072580100?ref_src=twsrc%5Etfw">January 9, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## 反省点
 
