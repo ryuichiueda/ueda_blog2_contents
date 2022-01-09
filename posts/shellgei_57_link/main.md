@@ -50,7 +50,9 @@ URL: https://www.youtube.com/embed/qTAJEh2J7IA
 
 ## ブログなど
 
-　出題した問題のページの掲載が遅れたからか、まだありません。すんません！
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿してました<br><br>第57回シェル芸勉強会に参加しました<a href="https://t.co/LOwlkmc7fP">https://t.co/LOwlkmc7fP</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1479987998779666435?ref_src=twsrc%5Etfw">January 9, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## 反省点
 
