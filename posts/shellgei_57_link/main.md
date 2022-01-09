@@ -42,8 +42,11 @@ URL: https://www.youtube.com/embed/qTAJEh2J7IA
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-### LT
+## LT
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">LTこちらです<a href="https://t.co/TyRBm7s0WM">https://t.co/TyRBm7s0WM</a><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1476450884431548416?ref_src=twsrc%5Etfw">December 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/sickleaf3?ref_src=twsrc%5Etfw">@sickleaf3</a> さんのLTはじまりまーす。<a href="https://t.co/vfwqNEizsx">https://t.co/vfwqNEizsx</a><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1476458700911312901?ref_src=twsrc%5Etfw">December 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## ブログなど
 
@@ -51,5 +54,5 @@ URL: https://www.youtube.com/embed/qTAJEh2J7IA
 
 ## 反省点
 
-　今回は、午後の部の参加人数が普段の半分くらいになってしまいました。午前、午後の参加募集を分けなかったからか、ちょっと参加を躊躇した人が多かったのかなと考えています。次回は分けよう・・・。
+　今回は、午後の部の参加人数が普段の半分くらいになってしまいました。午前、午後の参加募集を分けなかったからか、ちょっと参加を躊躇した人が多かったのかなと考えています。次回は分けよう・・・。あと、自分が引きこもり研究者モードになっていて、ちょっとSNS上でそっけなくなっているような気がしないでもないので、もうちょっと人に関心を持つようにしないといけないかなと、反省しきりです。
 
