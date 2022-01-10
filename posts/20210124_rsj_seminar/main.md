@@ -1,5 +1,5 @@
 ---
-Keywords: 日記
+Keywords: 講演
 Copyright: (C) 2021 Ryuichi Ueda
 ---
 
