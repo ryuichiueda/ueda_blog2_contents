@@ -3,7 +3,7 @@ Keywords: 報告
 Copyright: (C) 2021 Ryuichi Ueda
 ---
 
-# 久しぶりに投稿論文（うっそうとした畑で作物の茎を認識するためのニューラルネットに関するもの）が出ます
+# 久しぶりに投稿論文（うっそうとした畑で作物の茎を認識するための深層学習に関するもの）が出ます
 
 　ITエンジニア本大賞同様、ここに書くのが遅れました（もしかしたら書いて忘れてるかもしれません）が、
 久々に投稿論文が採択されて、掲載待ちです。
@@ -17,6 +17,17 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## 内容
 
-　論文の内容については、共同研究なので論文以上の情報をここには書けないのですが、
+　論文の内容については、共同研究なので論文以上の情報をここには書けないのですが、[ここ](https://github.com/ryuichiueda/jrsj_color_figs)から画像を持ってきて説明すると、上田研のCG職人石川さん（すでに卒業）の作った、
 
 ![](https://raw.githubusercontent.com/ryuichiueda/jrsj_color_figs/main/vol_40_no_2/fig_2.png)
+
+のようなリアルなCG画像（背景は実写）でニューラルネットワークを学習すると、
+
+![](https://raw.githubusercontent.com/ryuichiueda/jrsj_color_figs/main/vol_40_no_2/fig_11.png)
+
+というように、ちょっとノイズがあるけど、手前の葉っぱや茎を検出するニューラルネットワークや、
+
+![](https://raw.githubusercontent.com/ryuichiueda/jrsj_color_figs/main/vol_40_no_2/fig_12.png)
+
+というように、手前の茎を（葉っぱに隠れたものも含めて）検出できるニューラルネットワークができるよ、というものです。
+
