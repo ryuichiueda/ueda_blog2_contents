@@ -24,11 +24,11 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ![](https://raw.githubusercontent.com/ryuichiueda/jrsj_color_figs/main/vol_40_no_2/fig_2.png)
 
-すると次のように、（ちょっとノイズがあるけど）手前の葉っぱや茎を検出するニューラルネットワークができます。
+すると、（ちょっとノイズがあるけど）手前の葉っぱや茎を検出するニューラルネットワークができます。このニューラルネットワークは、下図の左のような写真を入力すると、右のような塗り絵を出力します。
 
 ![](https://raw.githubusercontent.com/ryuichiueda/jrsj_color_figs/main/vol_40_no_2/fig_11.png)
 
-らにもう一つ、手前の茎を（葉っぱに隠れたものも含めて）検出できるニューラルネットワークができます。
+らにもう一つ、手前の茎を（葉っぱに隠れたものも含めて）検出できるニューラルネットワークができます。下図では、上の写真が入力で、下の白黒画像が出力です。
 
 ![](https://raw.githubusercontent.com/ryuichiueda/jrsj_color_figs/main/vol_40_no_2/fig_12.png)
 
