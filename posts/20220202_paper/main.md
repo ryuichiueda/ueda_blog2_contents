@@ -17,18 +17,19 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 ## 内容
 
-　論文の内容については、共同研究なので論文以上の情報をここには書けないのですが、[ここ](https://github.com/ryuichiueda/jrsj_color_figs)から画像を持ってきて説明すると、上田研のCG職人石川さん（すでに卒業）の作った、
+　論文の内容については、共同研究なので論文以上の情報をここには書けないのですが、[ここ](https://github.com/ryuichiueda/jrsj_color_figs)から画像を持ってきて説明します。
+
+　まず、次ようなリアルなCG画像（背景は実写）を準備します。
+このCGと、どこが葉でどこが茎なのかを指示したデータで、ニューラルネットワークをトレーニングします。
 
 ![](https://raw.githubusercontent.com/ryuichiueda/jrsj_color_figs/main/vol_40_no_2/fig_2.png)
 
-のようなリアルなCG画像（背景は実写）でニューラルネットワークを学習すると、
-次のように、（ちょっとノイズがあるけど）手前の葉っぱや茎を検出するニューラルネットワークや、
+すると次のように、（ちょっとノイズがあるけど）手前の葉っぱや茎を検出するニューラルネットワークができます。
 
 ![](https://raw.githubusercontent.com/ryuichiueda/jrsj_color_figs/main/vol_40_no_2/fig_11.png)
 
-次のように、手前の茎を（葉っぱに隠れたものも含めて）検出できるニューラルネットワークができるよ、
+らにもう一つ、手前の茎を（葉っぱに隠れたものも含めて）検出できるニューラルネットワークができます。
 
 ![](https://raw.githubusercontent.com/ryuichiueda/jrsj_color_figs/main/vol_40_no_2/fig_12.png)
 
-というものです。
-
+CG画像は、上田研のCG職人石川さん（すでに卒業）が作りました。
