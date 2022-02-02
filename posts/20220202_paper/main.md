@@ -22,12 +22,13 @@ Copyright: (C) 2021 Ryuichi Ueda
 ![](https://raw.githubusercontent.com/ryuichiueda/jrsj_color_figs/main/vol_40_no_2/fig_2.png)
 
 のようなリアルなCG画像（背景は実写）でニューラルネットワークを学習すると、
+次のように、（ちょっとノイズがあるけど）手前の葉っぱや茎を検出するニューラルネットワークや、
 
 ![](https://raw.githubusercontent.com/ryuichiueda/jrsj_color_figs/main/vol_40_no_2/fig_11.png)
 
-というように、ちょっとノイズがあるけど、手前の葉っぱや茎を検出するニューラルネットワークや、
+次のように、手前の茎を（葉っぱに隠れたものも含めて）検出できるニューラルネットワークができるよ、
 
 ![](https://raw.githubusercontent.com/ryuichiueda/jrsj_color_figs/main/vol_40_no_2/fig_12.png)
 
-というように、手前の茎を（葉っぱに隠れたものも含めて）検出できるニューラルネットワークができるよ、というものです。
+というものです。
 
