@@ -11,5 +11,5 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 
 　さらに、1冊の大賞を決めるための最終選考に残りました。
-2/17の[Developers Summit 2022](https://event.shoeisha.jp/devsumi/20220217/)でプレゼンテーションをしてきます。
+2/17の[Developers Summit 2022](https://event.shoeisha.jp/devsumi/20220217/)でプレゼンテーションをしてきます。現在、プレゼン資料の準備中・・・
 
