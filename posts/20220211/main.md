@@ -23,7 +23,7 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 ## ラズパイだけで屋外で自律移動ロボットを走らせるやつ
 
-　これも人にやってもらってるだけで恐縮なやつなんですが、ラズパイだけで自律移動ロボットを走らせる実験をしています。この前、はじめて屋外で走らせたそうで、そのときの動画がアップされました。動画のなかで、ロボットの上にノートPCが載っていますが、これはモニタリングだけに使用しているとのことです。
+　これも人にやってもらってるだけで恐縮なやつなんですが、[ラズパイだけで自律移動ロボットを走らせる実験をしています](https://lab.ueda.tech/?post=20211210)。この前、はじめて屋外で走らせたそうで、そのときの動画がアップされました。動画のなかで、ロボットの上にノートPCが載っていますが、これはモニタリングだけに使用しているとのことです。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">「ナビゲーションだけならラズパイだけでできるやろプロジェクト（今考えた名前）」で、ロボットを屋外で走らせました。計算をラズパイ3だけでやってます。<br><br>ラズパイ3の制御だけでロボットに屋外自律移動をさせる <a href="https://t.co/vEEhg4qtFV">https://t.co/vEEhg4qtFV</a> <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a>より</p>&mdash; 千葉工大未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1491651664742592512?ref_src=twsrc%5Etfw">February 10, 2022</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
