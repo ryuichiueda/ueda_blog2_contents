@@ -30,3 +30,18 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 
 　ラズパイ4でもうまくいった（というかラズパイ4の方がスペックが高くて簡単なんですが）とのことなので、動画アップ待ちです。
+
+## とりあえず出版するかどうかわからんけど統計のテキスト書く
+
+　宣言したので、これからリポジトリ作ります・・・。あくまでロボットを扱うときに最低限知っておくことだけ書きます。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">なんかロボットシステム学の講義資料もまだできてないけど、統計の教科書もなんとなく書いてみようかという気になってきた。</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1492032638554898433?ref_src=twsrc%5Etfw">February 11, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+　↓自分にプレッシャーをかけていきます。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">自分自身、未だに大学生用の教科書読んでも、「なんでそこ飛ばして説明するの？分かんないよ」と泣きそうになることがあるので、世の中の教科書は刷新されなきゃいけないと思うんだよなあ。<br><br>書いてる人の解釈がないものが多いような。みんなそこ知りたいのに。</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1492033710899994624?ref_src=twsrc%5Etfw">February 11, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+リポジトリ作る前に寝る。
