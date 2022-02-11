@@ -21,3 +21,12 @@ Copyright: (C) 2022 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">林原研の樋高さんも、SI2021の優秀講演賞をしていることが判明しました。（なんで今分かったんだろ・・・）<br><br>つくばチャレンジチーム、驚異の優秀講演賞率5割（3/6）です。 <a href="https://t.co/48TINrVxgL">pic.twitter.com/48TINrVxgL</a></p>&mdash; 千葉工大 未来ロボティクス学科 (@robo_cit) <a href="https://twitter.com/robo_cit/status/1490946580354318339?ref_src=twsrc%5Etfw">February 8, 2022</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+## ラズパイだけで屋外で自律移動ロボットを走らせるやつ
+
+　これも人にやってもらってるだけで恐縮なやつなんですが、ラズパイだけで自律移動ロボットを走らせる実験をしています。この前、はじめて屋外で走らせたそうで、そのときの動画がアップされました。動画のなかで、ロボットの上にノートPCが載っていますが、これはモニタリングだけに使用しているとのことです。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">「ナビゲーションだけならラズパイだけでできるやろプロジェクト（今考えた名前）」で、ロボットを屋外で走らせました。計算をラズパイ3だけでやってます。<br><br>ラズパイ3の制御だけでロボットに屋外自律移動をさせる <a href="https://t.co/vEEhg4qtFV">https://t.co/vEEhg4qtFV</a> <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a>より</p>&mdash; 千葉工大未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1491651664742592512?ref_src=twsrc%5Etfw">February 10, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+　ラズパイ4でもうまくいった（というかラズパイ4の方がスペックが高くて簡単なんですが）とのことなので、動画アップ待ちです。
