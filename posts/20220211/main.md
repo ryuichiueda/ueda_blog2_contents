@@ -7,6 +7,12 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 　本日は祝日。午前に確定申告で源泉徴収票と支払調書を書類に反映する作業。源泉徴収票、本務先のサイトからダウンロードができず、一番大きな金額が調書に入らず中途半端に終わる。午後はリモートミーティング一件。学生さんたちに図々しくもいろいろ指示。
 
+　猫氏はこんな感じだった。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">入らんのかーい！ <a href="https://t.co/fXR90lRpzh">pic.twitter.com/fXR90lRpzh</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1492076939318022148?ref_src=twsrc%5Etfw">February 11, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 
 ## SIでの優秀講演賞
 
