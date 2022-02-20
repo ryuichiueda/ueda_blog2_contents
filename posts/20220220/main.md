@@ -39,7 +39,7 @@ ITエンジニア本大賞技術書部門の候補3冊に選ばれましたの�
 
 ## 宣伝
 
-　全国の書店や電子書店で本賞のフェアを開催予定とのことです。
+　全国の書店や電子書店で本賞のフェアを開催予定/開催中とのことです。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">【再掲】フェア情報：6F上りエスカレータ前にて『ITエンジニア本大賞2022』フェアを開催中。ITエンジニアがWeb投票した“おすすめ書籍”から、上位10冊ずつの「技術書・ビジネス書各ベスト10」と特別ゲストのおすすめ本、そして先日発表された2022大賞の書籍を集めました。 <a href="https://t.co/YQsSLxSvjQ">pic.twitter.com/YQsSLxSvjQ</a></p>&mdash; ジュンク堂書店池袋本店 PC書担当 (@junkudo_ike_pc) <a href="https://twitter.com/junkudo_ike_pc/status/1494856584996225028?ref_src=twsrc%5Etfw">February 19, 2022</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
