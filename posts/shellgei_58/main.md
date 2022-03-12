@@ -78,7 +78,7 @@ $ cat 13.json | yq -o xml | yq -p xml -o yaml
 
 次のような出力を得てください。
 
-![](unko_move.mp4)
+![](unko_move.gif)
 
 
 ### 解答例
