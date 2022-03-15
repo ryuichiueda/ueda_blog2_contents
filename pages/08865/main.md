@@ -5,8 +5,6 @@ Copyright: (C) Ryuichi Ueda
 # シェル芸の歴史
 
 
-https://shellgei.github.io/info/history.html に引っ越しました。以下の表は今後更新されません。
-
 ## 2019年
 
 |日付       |出来事           |コメント              |
