@@ -54,6 +54,25 @@ Unix系OSのシェル上でのワンライナーのことです。勝手に名�
   </div>
 </div>
 
+### 「シェル芸」に効く！AWK処方箋
+
+<div class="card">
+  <div class="row no-gutters">
+    <div class="col-md-2">
+      <a class="item url" href="https://www.amazon.co.jp/dp/B01MYDZ55O?tag=ryuichiueda-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/51tblGImaML._SL500_.jpg" width="354" alt="photo"></a>
+    </div>
+    <div class="col-md-10">
+      <div class="card-body">
+        <dl class="fn" style="font-size:80%">
+          <dt><a href="https://www.amazon.co.jp/dp/B01MYDZ55O?tag=ryuichiueda-22&linkCode=ogi&th=1&psc=1">「シェル芸」に効く！AWK処方箋</a></dt>
+          <dd>斉藤博文</dd>
+          <dd>翔泳社 2017-01-31T00:00:00.000Z</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 ### シェルプログラミング実用テクニック
