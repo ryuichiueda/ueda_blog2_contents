@@ -74,6 +74,25 @@ Unix系OSのシェル上でのワンライナーのことです。勝手に名�
 </div>
 
 
+### 難読化シェル芸の世界
+
+<div class="card">
+  <div class="row no-gutters">
+    <div class="col-md-2">
+      <a class="item url" href="https://www.amazon.co.jp/dp/B07QRT9776?tag=ryuichiueda-22&linkCode=ogi&th=1&psc=1"><img src="https://m.media-amazon.com/images/I/5145jNWpDnL._SL500_.jpg" width="354" alt="photo"></a>
+    </div>
+    <div class="col-md-10">
+      <div class="card-body">
+        <dl class="fn" style="font-size:80%">
+          <dt><a href="https://www.amazon.co.jp/dp/B07QRT9776?tag=ryuichiueda-22&linkCode=ogi&th=1&psc=1">難読化シェル芸の世界 (プレミアムブックス)</a></dt>
+          <dd>kanata</dd>
+          <dd>マイナビ出版 2019-04-24T00:00:00.000Z</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 ### シェルプログラミング実用テクニック
 
