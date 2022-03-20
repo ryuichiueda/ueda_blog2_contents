@@ -27,7 +27,7 @@ C++のコードでnamespaceを分けておけば大丈夫かと思ってたら�
 
 https://github.com/ryuichiueda/emcl2/commit/8b9919352e0951185df451d5a33be6a041c0bbdc#diff-1e7de1ae2d059d21e1dd75d5812d5a34b0222cef273b7c3a2af62eb747f9d20a
 
-例えば上のリンクの例では、`add_library(Mcl src/Mcl.cpp)`の`Mcl`を`add_library(Mcl_emcl2 src/Mcl.cpp)`というように、`Mcl_emcl2`という固有の名前に変更しています。
+例えば上のリンクの例では、`add_library(Mcl src/Mcl.cpp)`の`Mcl`を`add_library(Mcl_emcl2 src/Mcl.cpp)`というように、`Mcl_emcl2`という固有の名前に変更しています。`target_link_libraries`では、`add_library`でつけた名前で当該のライブラリ（というよりは`src/Mcl.cpp`をコンパイルしたオブジェクト？）を参照します。
 
 
 　本まで書いてるのに、ここらへんグダグダで大変申し訳なく・・・。
