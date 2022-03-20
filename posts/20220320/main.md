@@ -49,6 +49,19 @@ https://github.com/ryuichiueda/emcl2/commit/8b9919352e0951185df451d5a33be6a041c0
 シェルさっぱり分からんけど出るものは仕方ない。よろしくお願いいたしまーす。
 
 
+## 縦の猫動画が人気
+
+　48時間で2000viewsいきそうです。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gU0_HxXAJF4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+こっちのほうが面白いと思うんですが・・・、かなり前からアップされているのに抜かれました。やっぱり縦長のショート動画だとよさげ・・・。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MwvZJDlkmK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+昔の猫動画を縦長に編集してアップしてみるか・・・。
+
 ## その他
 
 　今日はなぜかいろいろ仕事が進んで、マンションのある会から依頼されていたポスターを完成させて提出。なぜか明日（祝日なんですけど）を締め切りにご指定いただいた報告書も完成。明日はなにをしよう・・・。
