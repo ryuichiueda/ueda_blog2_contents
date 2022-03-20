@@ -30,8 +30,15 @@ https://github.com/ryuichiueda/emcl2/commit/8b9919352e0951185df451d5a33be6a041c0
 例えば上のリンクの例では、`add_library(Mcl src/Mcl.cpp)`の`Mcl`を`add_library(Mcl_emcl2 src/Mcl.cpp)`というように、`Mcl_emcl2`という固有の名前に変更しています。`target_link_libraries`では、`add_library`でつけた名前で当該のライブラリ（というよりは`src/Mcl.cpp`をコンパイルしたオブジェクト？）を参照します。
 
 
-　本まで書いてるのに、ここらへんグダグダで大変申し訳なく・・・。
 
+　さらに、Twitterで見ず知らず（ **ではない** ）方から情報いただきました。他のパッケージと切り離す設定もできるとのこと。
+
+<blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="ja" dir="ltr">CMP002はlibraryの名前をワークスペース内でユニークにする以外にもビルド方法をcatkin_make_isolatedコマンドにするという選択肢もあります（ROSパッケージごとにCMakeが実行されるのでパッケージ内でユニークになっていればよくなります）<a href="https://t.co/2rbMztY16r">https://t.co/2rbMztY16r</a></p>&mdash; たいりょーくん (@Tiryoh) <a href="https://twitter.com/Tiryoh/status/1505431317516718082?ref_src=twsrc%5Etfw">March 20, 2022</a></blockquote>
+
+ただ、ライブラリ名はユニークに、というルールは悪くないと思うので、とりあえず上記の方法を選択ということで・・・。ありがとうございます。
+
+
+　本まで書いてるのに、ここらへんグダグダで大変申し訳なく・・・。
 
 ## シェル・ワンライナー160本ノック増刷
 
