@@ -31,3 +31,15 @@ https://github.com/ryuichiueda/emcl2/commit/8b9919352e0951185df451d5a33be6a041c0
 
 
 　本まで書いてるのに、ここらへんグダグダで大変申し訳なく・・・。
+
+
+## シェル・ワンライナー160本ノック増刷
+
+　ROSだけでなく、シェル芸人としても、本まで書いているのにシェルさっぱり分からんと日々悩んでますが、第4刷が出ます！
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">【ご報告】4刷出まーす！！🎉<br><br>1日1問、半年以内に習得 シェル・ワンライナー160本ノック (Software Design plusシリーズ)   上田 隆一 <a href="https://t.co/tl68IPNE7d">https://t.co/tl68IPNE7d</a> <a href="https://twitter.com/AmazonJP?ref_src=twsrc%5Etfw">@amazonJP</a>より</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1503691071464751110?ref_src=twsrc%5Etfw">March 15, 2022</a></blockquote>
+
+シェルさっぱり分からんけど出るものは仕方ない。よろしくお願いいたしまーす。
+
+
+　以上です。
