@@ -5,7 +5,7 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 # 日記（2022年3月20日）
 
-　自己位置推定の[emclパッケージ](https://github.com/ryuichiueda/emcl)がごちゃごちゃしたので整理。
+　本日は細々としたタスクを片付けて、その後、自己位置推定の[emclパッケージ](https://github.com/ryuichiueda/emcl)が混乱していたので整理。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">emclパッケージ、性能を改善しようとしてゴチャゴチャになっていたのですが、屋内用と屋外用にパッケージを分けました。<br><br>屋内用: <a href="https://t.co/u6MQhjRRuN">https://t.co/u6MQhjRRuN</a><br><br>屋外用: <a href="https://t.co/i6adtf1wQq">https://t.co/i6adtf1wQq</a><a href="https://twitter.com/hashtag/emcl?src=hash&amp;ref_src=twsrc%5Etfw">#emcl</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1505416920396275716?ref_src=twsrc%5Etfw">March 20, 2022</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
