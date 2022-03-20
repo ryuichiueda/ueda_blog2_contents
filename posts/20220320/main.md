@@ -31,7 +31,7 @@ https://github.com/ryuichiueda/emcl2/commit/8b9919352e0951185df451d5a33be6a041c0
 
 
 
-　さらに、Twitterで見ず知らず **ではない** 方から情報いただきました。他のパッケージと切り離す設定もできるとのこと。
+　さらにTwitterで、元研究室メンバーのたいりょー氏から情報いただきました。他のパッケージと切り離す設定もできるとのこと。
 
 <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="ja" dir="ltr">CMP002はlibraryの名前をワークスペース内でユニークにする以外にもビルド方法をcatkin_make_isolatedコマンドにするという選択肢もあります（ROSパッケージごとにCMakeが実行されるのでパッケージ内でユニークになっていればよくなります）<a href="https://t.co/2rbMztY16r">https://t.co/2rbMztY16r</a></p>&mdash; たいりょーくん (@Tiryoh) <a href="https://twitter.com/Tiryoh/status/1505431317516718082?ref_src=twsrc%5Etfw">March 20, 2022</a></blockquote>
 
