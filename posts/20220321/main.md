@@ -22,6 +22,6 @@ Copyright: (C) 2022 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-　早く誰かに使ってもらえるようにしなければ意味がないので、試したい方には、GitHubかTwitterでつきっきりで対応いたします。
+　早く誰かに使ってもらえるようにしなければ意味がないので、<span style="color:red">試したい方がいらっしゃれば、GitHubかTwitterで付きっきりで対応いたします。</span>
 
 
