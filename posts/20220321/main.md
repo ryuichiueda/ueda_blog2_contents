@@ -16,7 +16,7 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 ## [ナビゲーション用バカ価値反復パッケージ](https://github.com/ryuichiueda/value_iteration)の改良
 
-　ロボティクスシンポジアで発表したアルゴリズムが、発表直前に無駄の多いことに気づき、本日修正。具体的には、大域計画中に発見した未知障害物を、そのまま大域計画に織り込んでしまうようにしました。これまでは局所計画でしか未知障害物を扱っておらず、この無意味な制約でアルゴリズムが複雑で効率悪くなっていました。この修正で、計算量もコードの量も減りました。詳しくは・・・そのうち学会で発表します。
+　バカ価値反復パッケージというのは[この前ロボティクスシンポジアで発表したやつ](https://speakerdeck.com/ryuichiueda/di-27hui-roboteikususinpozia)のことなんですが、発表直前に無駄の多いことに気づき、本日修正しました。具体的には、大域計画中に発見した未知障害物を、そのまま大域計画に織り込んでしまうようにしました。これまでは局所計画でしか未知障害物を扱っておらず、この無意味な制約でアルゴリズムが複雑で効率悪くなっていました。この修正で、計算量もコードの量も減りました。詳しくは・・・そのうち学会で発表します。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">価値反復を無理やりリアルタイムで使って経路計画するパッケージ、しつこく障害物を置いてもさっと迂回できるように改良しました。<a href="https://t.co/aYasSFfwXH">https://t.co/aYasSFfwXH</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1505871029360480257?ref_src=twsrc%5Etfw">March 21, 2022</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
