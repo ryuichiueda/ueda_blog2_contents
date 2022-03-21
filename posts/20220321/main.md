@@ -14,7 +14,7 @@ Copyright: (C) 2022 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ロボット学会誌の論文、正式に公表されました。葉っぱボサボサの畑で作物の茎を検出できるようになったよという研究。（なんかフリーで見れるっぽい）<br><br>J-STAGE Articles - 密生した圃場における一部が隠れた果菜類の主茎の検出 <a href="https://t.co/G2ax1jK7Bj">https://t.co/G2ax1jK7Bj</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1505897188877955073?ref_src=twsrc%5Etfw">March 21, 2022</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## ナビゲーション用バカ価値反復パッケージの改良
+## [ナビゲーション用バカ価値反復パッケージ](https://github.com/ryuichiueda/value_iteration)の改良
 
 　ロボティクスシンポジアで発表したアルゴリズムが、発表直前に無駄の多いことに気づき、本日修正。具体的には、大域計画中に発見した未知障害物を、そのまま大域計画に織り込んでしまうようにしました。これまでは局所計画でしか未知障害物を扱っておらず、この無意味な制約でアルゴリズムが複雑で効率悪くなっていました。この修正で、計算量もコードの量も減りました。詳しくは・・・そのうち学会で発表します。
 
