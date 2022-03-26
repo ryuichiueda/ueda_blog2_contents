@@ -17,6 +17,21 @@ Copyright: (C) Ryuichi Ueda
 
 Unix系OSのシェル上でのワンライナーのことです。勝手に名前つけてすんません。
 
+
+<div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <a href="/?page=08865"><img class="card-img-top" src="./sh-minsai.png" alt="sh民祭"></a>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">歴史<i class="fa fa-external-link"></i></h5>
+        <p class="card-text">シェル芸4000年の歴史（嘘）の解説</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 ## このサイト内のコンテンツ
 
 * [シェル芸の歴史](/?page=08865)
