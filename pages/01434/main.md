@@ -40,7 +40,7 @@ Unix系OSのシェル上でのワンライナーのことです。勝手に名�
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title">シェル芸勉強会問題一欄</h5>
-        <p class="card-text">たくさんあります。</p>
+        <p class="card-text">もりもりもりだくさん。</p>
       </div>
     </div>
   </div>
