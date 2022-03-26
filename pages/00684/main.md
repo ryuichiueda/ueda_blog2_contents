@@ -92,6 +92,7 @@ Copyright: (C) Ryuichi Ueda
 
 * [リンク集](/?post=20200627_shellgei_48_links)
 
+
 ### 第47〜33回
 
 * [第47回](/?post=20200425_shellgei_47_links)
