@@ -51,6 +51,10 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 お待ちしてまーす。
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">とりあえず全問解いてみて、個人的にはQ1・Q2・Q4がお気に入りです。<br><br>【自習】「第58回シェル芸勉強会」の解答例 - KEEP CALM AND rm -rf /* <a href="https://t.co/eMHboGefSm">https://t.co/eMHboGefSm</a> <a href="https://twitter.com/mikkun_jp?ref_src=twsrc%5Etfw">@mikkun_jp</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; 日柳 光久 💉💉 (@mikkun_jp) <a href="https://twitter.com/mikkun_jp/status/1507660349558112268?ref_src=twsrc%5Etfw">March 26, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ## 反省点
 
 　午前の部の配信にDiscordの会話をのっけようとして鳥海さんと1時間格闘したら・・・
@@ -59,3 +63,4 @@ Copyright: (C) 2022 Ryuichi Ueda
 * 私は逆にテンションあがって変なギアが入ってしまい、鳥海さんの講義後に激しいツッコミを入れまくり
 
 で、大変よろしくなかったです。無理はいかん・・・。鳥海さん申し訳ございません。
+
