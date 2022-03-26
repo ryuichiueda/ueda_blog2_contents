@@ -17,6 +17,7 @@ Copyright: (C) Ryuichi Ueda
 
 Unix系OSのシェル上でのワンライナーのことです。勝手に名前つけてすんません。
 
+## このサイト内のコンテンツ
 
 <div class="card mb-3">
   <div class="row no-gutters">
@@ -25,16 +26,14 @@ Unix系OSのシェル上でのワンライナーのことです。勝手に名�
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">歴史<i class="fa fa-external-link"></i></h5>
+        <h5 class="card-title">歴史</h5>
         <p class="card-text">シェル芸4000年の歴史（嘘）の解説</p>
       </div>
     </div>
   </div>
 </div>
 
-## このサイト内のコンテンツ
 
-* [シェル芸の歴史](/?page=08865)
 * [シェル芸勉強会問題一覧](/?page=00684)
 * [シェル芸勉強会の動画](/?page=09678)
 * [シェル芸練習用データ集](/?page=05649)
