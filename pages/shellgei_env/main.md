@@ -7,7 +7,7 @@ Copyright: (C) Ryuichi Ueda
 [シェル芸](/?page=01434)入門にあたって、最初にして最も難しい「環境をどうやって準備するか」について、ためになるリンクや動画を紹介します。
 
 
-## Linux環境なしでシェル芸のできるサービスやウェブサイト
+## なにもインストールせずにシェル芸のできるサービスやウェブサイト
 
 Linuxをインストールしなくてもコマンドを試せる環境です。
 
@@ -18,6 +18,14 @@ Linuxをインストールしなくてもコマンドを試せる環境です。
 * ウェブサイト
     * [websh <i class="fa fa-external-link"></i>](https://websh.jiro4989.com/) by [@jiro_saburomaru](https://twitter.com/jiro_saburomaru)
         * テキストボックスにコマンドを入力して実行できる
+
+## ひとつインストールするとシェル芸できるソフト
+
+* [websh-prompt](https://github.com/sheepla/websh-prompt)
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">【朗報】 websh-pomptを使うとCygwinやらWSLやらが入っていなくても<a href="https://t.co/zuMrTckkqT">https://t.co/zuMrTckkqT</a>できる<a href="https://t.co/IYNELBqDUT">https://t.co/IYNELBqDUT</a> <a href="https://t.co/yaDkEc4y9P">pic.twitter.com/yaDkEc4y9P</a></p>&mdash; ((🐑++)) (@Sheeeeepla) <a href="https://twitter.com/Sheeeeepla/status/1507633307785510916?ref_src=twsrc%5Etfw">March 26, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## Linux環境の構築
 
