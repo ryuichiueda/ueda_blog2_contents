@@ -9,6 +9,8 @@ Copyright: (C) Ryuichi Ueda
 
 ## シェル芸のできるサービスやウェブサイト
 
+Linuxをインストールしなくてもコマンドを試せる環境です。
+
 * Twitter bot
     * [シェル芸bot <i class="fa fa-external-link"></i>](https://twitter.com/minyoruminyon) by [@theoremoon](https://twitter.com/theoremoon)
         * フォローしてもらえると利用可能
@@ -19,11 +21,12 @@ Copyright: (C) Ryuichi Ueda
 
 ## Linux環境の準備
 
-* WSL
-    * [Windows Subsystem for Linux（WSL1）のインストール手順](WSL20200328.html)
-    * [WSL1のインストール実演動画 <i class="fa fa-external-link"></i>](https://youtu.be/JAszcQ8IEwg)
-    * WSL2については何かいい記事があればお願いします。
-* Raspberry Pi
-    * [Ubuntu 20.04 Serverのインストール実演動画 <i class="fa fa-external-link"></i>](https://youtu.be/78tRID_3VVw)
-    * デフォルトの環境（Raspberry Pi OS）でもほとんどUbuntuと操作方法は同じです。（[Raspberry Pi公式のOSの案内ページ <i class="fa fa-external-link"></i>](https://www.raspberrypi.org/software/operating-systems/)）
+### WSL 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fm9uH5QH8QA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Raspberry Pi
+
+* [Ubuntu 20.04 Serverのインストール実演動画 <i class="fa fa-external-link"></i>](https://youtu.be/78tRID_3VVw)
+* デフォルトの環境（Raspberry Pi OS）でもほとんどUbuntuと操作方法は同じです。（[Raspberry Pi公式のOSの案内ページ <i class="fa fa-external-link"></i>](https://www.raspberrypi.org/software/operating-systems/)）
 
