@@ -63,6 +63,11 @@ Copyright: (C) Ryuichi Ueda
   </div>
 </div>
 
+## CyberChefとシェル芸
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E6%8A%80%E8%A1%93%E6%9B%B8%E5%85%B8?src=hash&amp;ref_src=twsrc%5Etfw">#技術書典</a> 10に参加しています<br>既刊ですが「CyberChefとシェル芸」は興味があったら!<a href="https://t.co/82PD3J1Y7Z">https://t.co/82PD3J1Y7Z</a></p>&mdash; kanata (@kanata201612) <a href="https://twitter.com/kanata201612/status/1342744832712658946?ref_src=twsrc%5Etfw">December 26, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## シェルプログラミング実用テクニック
 
