@@ -67,6 +67,8 @@ Unix系OSのシェル上でのワンライナーのことです。勝手に名�
 * [シェル芸練習用データ集](/?page=05649)
 * [シェル芸勉強会参加者数（もう多くなりすぎて数えてません）](/?page=05567)
 * [危険シェル芸の定義（笑）](/?page=03752)
+* シェル芸人からの挑戦状のデータ
+    * [https://github.com/ryuichiueda/ShellGeiData <i class="fa fa-external-link"></i>](https://github.com/ryuichiueda/ShellGeiData) のsd...にあります。
 
 ## リンク
 
