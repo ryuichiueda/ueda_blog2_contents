@@ -22,9 +22,7 @@ Linuxをインストールしなくてもコマンドを試せる環境です。
 ## ひとつインストールするとシェル芸できるソフト
 
 * [websh-prompt<i class="fa fa-external-link"></i>](https://github.com/sheepla/websh-prompt)
-
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">【朗報】 websh-pomptを使うとCygwinやらWSLやらが入っていなくても<a href="https://t.co/zuMrTckkqT">https://t.co/zuMrTckkqT</a>できる<a href="https://t.co/IYNELBqDUT">https://t.co/IYNELBqDUT</a> <a href="https://t.co/yaDkEc4y9P">pic.twitter.com/yaDkEc4y9P</a></p>&mdash; ((🐑++)) (@Sheeeeepla) <a href="https://twitter.com/Sheeeeepla/status/1507633307785510916?ref_src=twsrc%5Etfw">March 26, 2022</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    * 上記webshを手元のPCで呼び出して使うソフトです。
 
 
 ## Linux環境の構築
