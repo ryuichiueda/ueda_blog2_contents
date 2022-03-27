@@ -50,7 +50,7 @@ Unix系OSのシェル上でのワンライナーのことです。勝手に名�
 <div class="card mb-3">
   <div class="row no-gutters">
     <div class="col-md-4">
-      <a href="/?page=00684"><img class="card-img-top" src="/pages/01434/smile-unko.png" alt="うんこ"></a>
+      <a href="/?page=00684"><img class="card-img-top" src="/posts/20181222_shellgei_39/yabatanien.gif" alt="やばたにえん"></a>
     </div>
     <div class="col-md-8">
       <div class="card-body">
