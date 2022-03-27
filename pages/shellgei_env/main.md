@@ -7,7 +7,7 @@ Copyright: (C) Ryuichi Ueda
 [シェル芸](/?page=01434)入門にあたって、最初にして最も難しい「環境をどうやって準備するか」について、ためになるリンクや動画を紹介します。
 
 
-## シェル芸のできるサービスやウェブサイト
+## Linux環境なしでシェル芸のできるサービスやウェブサイト
 
 Linuxをインストールしなくてもコマンドを試せる環境です。
 
@@ -19,7 +19,9 @@ Linuxをインストールしなくてもコマンドを試せる環境です。
     * [websh <i class="fa fa-external-link"></i>](https://websh.jiro4989.com/) by [@jiro_saburomaru](https://twitter.com/jiro_saburomaru)
         * テキストボックスにコマンドを入力して実行できる
 
-## Linux環境の準備
+## Linux環境の構築
+
+Linux環境を手元のPCやラズパイに作る方法です。
 
 ### WSL 
 
