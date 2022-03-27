@@ -22,6 +22,20 @@ Unix系OSのシェル上でのワンライナーのことです。勝手に名�
 <div class="card mb-3">
   <div class="row no-gutters">
     <div class="col-md-4">
+      <a href="/?page=shellgei_env"><img class="card-img-top" src="/pages/01434/smile-unko.png" alt="うんこ"></a>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">シェル芸の環境整備</h5>
+        <p class="card-text">シェル芸できる環境を整えましょう（ビギナー向け）</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4">
       <a href="/?page=08865"><img class="card-img-top" src="/pages/01434/shellgei-emblem.png" alt="sh民祭"></a>
     </div>
     <div class="col-md-8">
