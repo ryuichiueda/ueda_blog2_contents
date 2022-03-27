@@ -27,7 +27,7 @@ Unix系OSのシェル上でのワンライナーのことです。勝手に名�
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title">シェル芸の環境整備</h5>
-        <p class="card-text">シェル芸できる環境を整えましょう（ビギナー向け）</p>
+        <p class="card-text">シェル芸できる環境を整えましょう<span style="color:red">（ビギナー向け）</span></p>
       </div>
     </div>
   </div>
