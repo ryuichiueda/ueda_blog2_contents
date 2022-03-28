@@ -88,5 +88,6 @@ Unix系OSのシェル上でのワンライナーのことです。勝手に名�
 
 * [シェル芸の情報を集めるサイト](https://shellgei.github.io/info/)
   * GitHub上にあるのでプルリクください。
-
+* [sheepla/awsome-for-oneliner](https://github.com/sheepla/awesome-for-oneliner)
+  * ワンライナーに便利なコマンドリスト 
 
