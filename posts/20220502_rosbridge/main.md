@@ -41,6 +41,7 @@ Connected (press CTRL+C to quit)
 Client connected.  1 clients total.
 ```
 
+　`curl`や`telnet`の使用も考えましたが、WebSocketでの通信の方法は調べがつきませんでした。
 
 ## JSONを書く
 
