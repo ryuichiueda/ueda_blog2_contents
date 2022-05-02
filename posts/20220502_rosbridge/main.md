@@ -37,7 +37,8 @@ Connected (press CTRL+C to quit)
 サーバ側には、このようにログが出ます。
 
 ```bash
-2022-05-02 15:41:37+0900 [-] [INFO] [1651473697.993877, 1363.184000]: Client connected.  1 clients total.
+2022-05-02 15:41:37+0900 [-] [INFO] [1651473697.993877, 1363.184000]: 
+Client connected.  1 clients total.
 ```
 
 
@@ -47,7 +48,8 @@ Connected (press CTRL+C to quit)
 
 
 ```bash
-Received a rosbridge v1.0 message.  Please refer to rosbridge.org for the correct format of rosbridge v2.0 messages. 
+Received a rosbridge v1.0 message.  Please refer to rosbridge.org
+for the correct format of rosbridge v2.0 messages. 
 ```
 
 と怒られます。v2.0でのsubscribe、puslishの例を書いておきます。`wscat`の出すプロンプト「`>`」の横に書きます。例が見当たらず、正解を当てるまで疲れました・・・。
@@ -61,7 +63,8 @@ Received a rosbridge v1.0 message.  Please refer to rosbridge.org for the correc
 * publishの例
 
 ```json
-{"op": "publish", "topic":"/cmd_vel","msg":{"linear":{"x":0.1,"y":0,"z":0},"angular":{"x":0,"y":0,"z":0}},"type":"geometry_msgs/Twist"}
+{"op": "publish", "topic":"/cmd_vel","msg":{"linear":{"x":0.1,"y":0,"z":0},
+"angular":{"x":0,"y":0,"z":0}},"type":"geometry_msgs/Twist"}
 ```
 
 subscribeの場合はJSONでrosbridgeからデータが送られてきます。puslishの場合も、受け付けた内容をrosbridgeが返してきます。
