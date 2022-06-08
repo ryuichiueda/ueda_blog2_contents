@@ -23,7 +23,7 @@ Copyright: (C) 2022 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">この努力を誰か買ってほしい💩<br><br>（上の出力が <a href="https://twitter.com/hashtag/rusty_bash?src=hash&amp;ref_src=twsrc%5Etfw">#rusty_bash</a> の出力で、下のが本家bashの出力。）<a href="https://twitter.com/hashtag/rusty_bash?src=hash&amp;ref_src=twsrc%5Etfw">#rusty_bash</a> <a href="https://t.co/CajIWopNnP">pic.twitter.com/CajIWopNnP</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1534505977768095744?ref_src=twsrc%5Etfw">June 8, 2022</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-以前にもC++でオレオレシェルを作ったことがあるんですが、 **そのときはパイプラインの実装ばっかりこだわっていたので、シェルの引数の凶悪さには気づいてませんでした** 。こういうのって、結局自分で実装しないと分かんないですよね・・・。
+以前にもC++でオレオレシェルを作ったことがあるんですが、 **そのときはパイプラインの実装ばっかりこだわっていたので、引数のバリエーションの凶悪さには気づいてませんでした** 。こういうのって、結局自分で実装しないと分かんないですよね・・・。
 
 　bashの引数については、今度またシェル芸勉強会のLTででも話をしたいと思います。あと、一緒に作ってくれる人募集中です。今後とも、「シェル評論家」ではなく「シェル実践者」であるよう、精進するのみです。
 
