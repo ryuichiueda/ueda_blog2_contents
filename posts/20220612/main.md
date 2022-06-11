@@ -3,14 +3,14 @@ Keywords: 日記, Rusty Bash
 Copyright: (C) 2022 Ryuichi Ueda
 ---
 
-# bashの謎挙動
+# bashの代入とリダイレクトの変態挙動
 
 　昨日、自作のbashクローンである[Rusty Bash](https://github.com/shellgei/rusty_bash)にパイプを実装しました。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">パイプつかえるようになりましたー！<a href="https://twitter.com/hashtag/rusty_bash?src=hash&amp;ref_src=twsrc%5Etfw">#rusty_bash</a><a href="https://t.co/EmMlWYGhsi">https://t.co/EmMlWYGhsi</a> <a href="https://t.co/iwjaubInSR">pic.twitter.com/iwjaubInSR</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1535245265979854848?ref_src=twsrc%5Etfw">June 10, 2022</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-で、それはいいんですが、今日、コードを整理していて、bashについて気づいたことをメモしておきます。私の書いてるシェルじゃなくて、本家bashの話です。
+で、それはいいんですが、今日、コードを整理していて、bashのリダイレクトと変数の代入について気づいたことをメモしておきます。私の書いてるシェルじゃなくて、本家bashの話です。
 
 ## 変数の代入の行に無意味なリダイレクトを入れることが可能
 
