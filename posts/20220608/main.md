@@ -1,5 +1,5 @@
 ---
-Keywords: 日記, ROS, CMake
+Keywords: 日記, Rusty Bash
 Copyright: (C) 2022 Ryuichi Ueda
 ---
 
