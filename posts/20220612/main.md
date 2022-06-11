@@ -3,7 +3,7 @@ Keywords: 日記, Rusty Bash
 Copyright: (C) 2022 Ryuichi Ueda
 ---
 
-# bashの文法辛い
+# bashの謎挙動
 
 　昨日、自作のbashクローンである[Rusty Bash](https://github.com/shellgei/rusty_bash)にパイプを実装しました。
 
