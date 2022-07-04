@@ -34,6 +34,13 @@ URL: https://www.youtube.com/embed/qTAJEh2J7IA
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xEXhi7XcJNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+## ウェブ記事
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">シェル芸とは…<br><br>主にUNIX系オペレーティングシステムにおいて「マウスも使わず、ソースコードも残さず、GUIツールを立ち上げる間もなく、あらゆる調査・計算・テキスト処理をCLI端末へのコマンド入力一撃で終わらせること」。<br><br>ディープな世界をご覧あれ🙌<br><br> <a href="https://twitter.com/hourin?ref_src=twsrc%5Etfw">@hourin</a> <a href="https://t.co/SQwzfnzj9r">https://t.co/SQwzfnzj9r</a></p>&mdash; 『エンジニアtype』編集部 (@Etype_mag) <a href="https://twitter.com/Etype_mag/status/1526372714227052544?ref_src=twsrc%5Etfw">May 17, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ## Twitterまとめ
 
 毎度ありがとうございます！
