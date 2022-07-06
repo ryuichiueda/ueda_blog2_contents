@@ -17,7 +17,7 @@ Copyright: (C) 2022 Ryuichi Ueda
 * YouTube視聴数: 92（2022年7月4日14時現在）
 
 
-## YouTube
+## 当日の様子（＋出題）
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Zyk110aaiLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
