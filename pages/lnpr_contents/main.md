@@ -17,7 +17,7 @@ Copyright: (C) Ryuichi Ueda
 
 ## 書籍の内容と関係のあるROSリポジトリ
 
-### [ryuichiueda/amcl](https://github.com/ryuichiueda/emcl)
+### [ryuichiueda/emcl](https://github.com/ryuichiueda/emcl)
 
 
 * amclの代替の自己位置推定パッケージ
