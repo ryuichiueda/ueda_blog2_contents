@@ -1,6 +1,6 @@
 protocol: 'https:'
 host: 'b.ueda.tech'
-sitetitle: '上田隆一の仕事とか'
+sitetitle: '上田ブログ'
 subtitle: 'なお、このサイトはbashでできている。'
 headline:
 - text: '<a href="https://gihyo.jp/book/2021/978-4-297-12267-6">シェル・ワンライナー160本ノック増刷<i class="fa fa-external-link"></i></a>'
