@@ -5,13 +5,13 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 # トップページ
 
-* [最新の記事](#latest)
+* [最近の記事](#latest)
 * [告知など](#info)
 * [やり散らかし一覧](#activity)
 
 <div class="row">
     <div class="col-md-6">
-        <h2 id="latest">最新の記事</h2>
+        <h2 id="latest">最近の記事</h2>
         <!--TOP10-->
     </div>
     <div class="col-md-6">
