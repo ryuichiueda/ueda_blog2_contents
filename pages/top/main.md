@@ -8,6 +8,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 * [最近の記事](#latest)
 * [告知など](#info)
 * [やり散らかし一覧](#activity)
+* [お前誰？](/?page=news)
 
 <div class="row">
     <div class="col-md-6">
