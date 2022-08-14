@@ -5,7 +5,7 @@ subtitle: 'なお、このサイトはbashでできている。'
 headline:
 - text: '<a href="https://github.com/shellgei/rusty_bash">Bashのクローン作ってるので誰か手伝って！</a>'
 - text: '<a href="/?page=lnpr">詳解確率ロボティクスは第6刷突入</a>'
-- text: '<a href="/?page=shellgei160">シェル・ワンライナー160本ノックはなんか知らんけどすごく売れてます。</a>'
+- text: '<a href="/?page=shellgei160">シェル・ワンライナー160本ノックはなんか知らんけどすごく売れてます。現在第4刷</a>'
 twitter:
 - account: 'ryuichiueda'
 #facebook: '@'
