@@ -14,8 +14,8 @@ Copyright: (C) 2021 Ryuichi Ueda
 
     </div>
 <div class="col-md-6">
-    </div>
     <a class="twitter-timeline" href="https://twitter.com/ryuichiueda/timelines/1558674800767221761?ref_src=twsrc%5Etfw">大きなニュース - Curated tweets by ryuichiueda</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
     </div>
 
 ## お知らせ
