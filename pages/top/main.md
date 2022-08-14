@@ -7,7 +7,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 * [最新の記事](#latest)
 * [告知など](#info)
-* [研究、執筆、その他の活動](#activity)
+* [やり散らかし一覧](#activity)
 
 <div class="row">
     <div class="col-md-6">
