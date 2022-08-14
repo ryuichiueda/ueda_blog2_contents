@@ -7,7 +7,7 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 <div class="row">
     <div class="col-md-6">
-###TOP10###
+<!--TOP10-->
     </div>
     <div class="col-md-6">
 
