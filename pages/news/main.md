@@ -13,6 +13,7 @@ Copyright: (C) 2021 Ryuichi Ueda
     </div>
 <div class="col-md-6">
     </div>
+    </div>
 
 ## お知らせ
 
