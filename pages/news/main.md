@@ -5,6 +5,8 @@ Copyright: (C) 2021 Ryuichi Ueda
 
 # 自身に関すること
 
+<a class="twitter-timeline" href="https://twitter.com/ryuichiueda/timelines/1558672669226110976?ref_src=twsrc%5Etfw">近況 - Curated tweets by ryuichiueda</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## お知らせ
 
 <div class="row">
