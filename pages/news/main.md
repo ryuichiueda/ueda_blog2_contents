@@ -15,17 +15,12 @@ Copyright: (C) 2021 Ryuichi Ueda
 * [出版物リスト（書籍・商業誌等）](/?page=06030)
 * [出版物リスト（予稿・論文・学術誌への寄稿等）](/?page=06033)
 
-## お知らせ
+## 関連サイト
 
-<div class="row">
-    <div class="col-md-6">
-
-<a class="twitter-timeline" href="https://twitter.com/ryuichiueda/timelines/1558672669226110976?ref_src=twsrc%5Etfw">近況 - Curated tweets by ryuichiueda</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-    </div>
-<div class="col-md-6">
-    <a class="twitter-timeline" href="https://twitter.com/ryuichiueda/timelines/1558674800767221761?ref_src=twsrc%5Etfw">大きなニュース - Curated tweets by ryuichiueda</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-    </div>
-
-
+* 当ブログ: https://b.ueda.tech/?page=news
+* YouTubeチャンネル: https://www.youtube.com/c/ryuichiueda
+* CIT自律ロボット研究室（上田研究室）: https://lab.ueda.tech/
+* シェル・ワンライナー160本ノック: https://gihyo.jp/book/2021/978-4-297-12267-6?trflg=1
+* Wikipedia: https://ja.wikipedia.org/wiki/上田隆一
+* 研究業績: https://b.ueda.tech/?page=06033
+* 著書・商業誌記事: https://b.ueda.tech/?page=06030 
