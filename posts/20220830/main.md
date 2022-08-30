@@ -11,7 +11,7 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 　今書いている本で数理最適化の話をちょっとだけ書くんですが、
 原稿を読み返しているときに「目的関数」のことを「評価関数」と書いているのを見つけ、
-何か違和感を覚えて間違いに気づいて顔が真っ青になったということが昨日ありました。
+何か違和感を覚えて間違いに気づいて顔が真っ青になるということが昨日ありました。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">最適化問題の「目的関数」を自分は「評価関数」と言っていて、間違ってるのかなと思っていろいろ調べたら、変分法とか最適制御だと、「評価関数」になるっぽい。<br><br>そして、ニューラルネットワーク界隈では「目的関数」と「評価関数」を使い分けていて、ますます分からん。</p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1564057817660768262?ref_src=twsrc%5Etfw">August 29, 2022</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
