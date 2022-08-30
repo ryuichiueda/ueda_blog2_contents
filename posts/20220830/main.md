@@ -1,0 +1,30 @@
+---
+Keywords: 日記, ThinkPad, 取材, ご報告
+Copyright: (C) 2022 Ryuichi Ueda
+---
+
+# 日記（2022年8月30日）
+
+子供と一緒に9時過ぎに寝たら10時前に起きてしまったので一筆。
+
+## 目的関数 v.s. 評価関数
+
+今書いている本で数理最適化の話をちょっとだけ書いていて、
+「目的関数」のことを「評価関数」と書いていて、
+何か違和感を覚えて間違いに気づいて顔が真っ青になったということが昨日ありました。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">最適化問題の「目的関数」を自分は「評価関数」と言っていて、間違ってるのかなと思っていろいろ調べたら、変分法とか最適制御だと、「評価関数」になるっぽい。<br><br>そして、ニューラルネットワーク界隈では「目的関数」と「評価関数」を使い分けていて、ますます分からん。</p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1564057817660768262?ref_src=twsrc%5Etfw">August 29, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+んで、なんで自分が間違えて覚えていたかというのをいろいろ調べたところ、
+最適制御だと最適化対象の汎関数（\\[J\\]と表記されるやつ）のことを「評価関数」というので、
+そっちに引きずられていた模様です。
+
+
+梅谷先生から目的関数と評価関数のニュアンスの違いについて教えていただいたので、
+紛失しないように貼り付けておきます。ありがとうございます。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">数理最適化では，最適化問題の目的関数を評価関数とは呼びませんが，「評価関数」を使わないわけではなくアルゴリズムやシステムの挙動の決定に用いる関数を評価関数と呼ぶことがあります．例えば，目的関数＋ペナルティ関数を，最適化問題の目的関数と区別して評価関数と呼ぶことはあります． <a href="https://t.co/2i6ln6ftqM">https://t.co/2i6ln6ftqM</a></p>&mdash; Umepon (@shunji_umetani) <a href="https://twitter.com/shunji_umetani/status/1564083311055478785?ref_src=twsrc%5Etfw">August 29, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
