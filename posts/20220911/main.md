@@ -31,7 +31,7 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 ## [科研費](https://www.jsps.go.jp/j-grantsinaid/03_keikaku/index.html)
 
-　[つくばチャレンジ](https://tsukubachallenge.jp/2022/)というか屋外移動ロボットのネタで書きました。学会と並行して準備が必要で疲れました（ので、発表がグダグダでも仕方ないと言い訳）。
+　[つくばチャレンジ](https://tsukubachallenge.jp/2022/)というか屋外移動ロボットのネタで書いて、今日学内提出しました。学会と並行して準備が必要で疲れました（ので、発表がグダグダでも仕方ないと言い訳）。
 
 ## [ICRA](https://www.icra2023.org/)の原稿
 
