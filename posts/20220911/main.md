@@ -47,4 +47,6 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QuZAFST2zYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-ということで、この1週間めっちゃ働いたので、今週はICRAの原稿をちんたらいじろうと思います。
+　ということで、この1週間めっちゃ働いたので、今週はICRAの原稿をちんたらいじろうと思います。B4とM1の中間発表がありますし、講義も始まりますが、9月5日の週よりは余裕があるはず・・・。
+
+　時間がたっぷりあればどの仕事も楽しいんですけど、プロでやっていくにはそういうわけにもいかず、です。
