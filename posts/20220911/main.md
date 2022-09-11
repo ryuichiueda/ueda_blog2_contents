@@ -7,9 +7,9 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 　9月5日からロボット学会（研究発表+セミナー）で、講義が今週から始まり、科研費（予算の書類）の締め切りが今日で、さらにICRA（国際学会）の原稿の締め切りが今週15日でかなりテンパってたけど、あとはICRAだけになった。風呂掃除のため待期中に書いてる。
 
-## ロボット学会の発表
+## [ロボット学会](https://ac.rsj-web.org/2022/)の発表
 
-価値反復の速いコードを書いたよという発表でした。
+　価値反復の速いコードを書いたよという発表でした。
 
 <script async class="docswell-embed" src="https://www.docswell.com/assets/libs/docswell-embed/docswell-embed.min.js" data-src="https://www.docswell.com/slide/KMPR6K/embed" data-aspect="0.5625"></script><div class="docswell-link"><a href="https://www.docswell.com/s/ryuichiueda/KMPR6K-2022-09-06-rsj">RSJ2022 by @ryuichiueda</a></div>
 
