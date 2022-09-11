@@ -29,9 +29,9 @@ Copyright: (C) 2022 Ryuichi Ueda
 <script async class="docswell-embed" src="https://www.docswell.com/assets/libs/docswell-embed/docswell-embed.min.js" data-src="https://www.docswell.com/slide/ZRPRWK/embed" data-aspect="0.5625"></script><div class="docswell-link"><a href="https://www.docswell.com/s/ryuichiueda/ZRPRWK-2022-09-10-robosemi-143">日本ロボット学会第143回ロボット工学セミナー by @ryuichiueda</a></div>
 
 
-## 科研費
+## [科研費](https://www.jsps.go.jp/j-grantsinaid/03_keikaku/index.html)
 
-　つくばチャレンジというか屋外移動ロボットのネタで書きました。学会と並行して準備が必要で疲れました（ので、発表がグダグダでも仕方ないと言い訳）。
+　[つくばチャレンジ](https://tsukubachallenge.jp/2022/)というか屋外移動ロボットのネタで書きました。学会と並行して準備が必要で疲れました（ので、発表がグダグダでも仕方ないと言い訳）。
 
 ## [ICRA](https://www.icra2023.org/)の原稿
 
