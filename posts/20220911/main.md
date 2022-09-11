@@ -20,7 +20,7 @@ Copyright: (C) 2022 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">なんかロボットのプログラムの高速化という学会のセッションというか、研究の切り口でいろいろ発表してもらうと、互いに速いプログラムを書く勉強になってよさそう。</p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1568936352288485376?ref_src=twsrc%5Etfw">September 11, 2022</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## ロボット工学セミナー
+## [ロボット工学セミナー](https://www.rsj.or.jp/event/seminar/news/2022/S142.html)
 
 　こちらは「シェル芸勉強会の確率計算版」みたいな感じでやりました。15分オーバーしてしまいました・・・。そもそも、スライドの5問目、たぶん30分くらいかけて解く問題なので元から無理があったとかないとか。
 
