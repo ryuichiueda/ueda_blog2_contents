@@ -39,7 +39,7 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">自分が筆頭でないやつで自分が直接いろいろ加筆修正したやつ，いままで投稿論文も国際学会も落ちたことがないんだが，連勝記録続くかな？</p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1568792806512279552?ref_src=twsrc%5Etfw">September 11, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-　ロンドン行きたい。
+　ロンドン行きたい。遠回りするならビジネスで（無理）。
 
 ## 講義の準備
 
