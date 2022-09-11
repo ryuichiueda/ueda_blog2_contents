@@ -33,12 +33,13 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 　つくばチャレンジというか屋外移動ロボットのネタで書きました。学会と並行して準備が必要で疲れました（ので、発表がグダグダでも仕方ないと言い訳）。
 
-## ICRAの原稿
+## [ICRA](https://www.icra2023.org/)の原稿
 
 　学生さんと一緒に書いてます。↓こんなこと言ってるけど大丈夫でしょうか。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">自分が筆頭でないやつで自分が直接いろいろ加筆修正したやつ，いままで投稿論文も国際学会も落ちたことがないんだが，連勝記録続くかな？</p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1568792806512279552?ref_src=twsrc%5Etfw">September 11, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+　ロンドン行きたい。
 
 ## 講義の準備
 
