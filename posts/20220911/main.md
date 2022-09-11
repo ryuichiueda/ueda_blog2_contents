@@ -22,7 +22,7 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 ## [ロボット工学セミナー](https://www.rsj.or.jp/event/seminar/news/2022/S142.html)
 
-　こちらは「シェル芸勉強会の確率計算版」みたいな感じでやりました。15分オーバーしてしまいました・・・。そもそも、スライドの5問目、たぶん30分くらいかけて解く問題なので元から無理があったとかないとか。
+　実習中の講義の講師としてお声がかかったので、「シェル芸勉強会の確率計算版」みたいな感じでやりました。15分オーバーしてしまいました・・・。そもそも、スライドの5問目、たぶん30分くらいかけて解く問題なので元から無理があったとかないとか。
 
 <script async class="docswell-embed" src="https://www.docswell.com/assets/libs/docswell-embed/docswell-embed.min.js" data-src="https://www.docswell.com/slide/ZRPRWK/embed" data-aspect="0.5625"></script><div class="docswell-link"><a href="https://www.docswell.com/s/ryuichiueda/ZRPRWK-2022-09-10-robosemi-143">日本ロボット学会第143回ロボット工学セミナー by @ryuichiueda</a></div>
 
