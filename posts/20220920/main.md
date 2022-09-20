@@ -1,5 +1,5 @@
 ---
-Keywords: 日記
+Keywords: 日記, YouTube, 執筆, PCRE
 Copyright: (C) 2022 Ryuichi Ueda
 ---
 
