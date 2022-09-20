@@ -12,7 +12,7 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 ## PCREの.（ドット）
 
-シェル・ワンライナー160本ノックへの https://github.com/shellgei/shellgei160/issues/52 の指摘について、ebanさんから「`grep -zP`」としたときに改行は「`.`」でマッチしないと教えてもらいました。これがミニマムな例でしょうか。
+シェル・ワンライナー160本ノックへの https://github.com/shellgei/shellgei160/issues/52 の指摘について、ebanさんから「`grep -zP`」としたときに、改行は「`.`」でマッチしないと教えてもらいました。これがミニマムな例でしょうか。
 
 
 ```bash
