@@ -40,7 +40,7 @@ $ seq 5 | grep -zoE 1.   #.が1のうしろの改行にマッチ
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-## YouTubeの視聴回数20万回超え
+## [YouTube](https://www.youtube.com/c/ryuichiueda)の視聴回数20万回超え
 
 ご視聴いただきありがとうございます。
 
