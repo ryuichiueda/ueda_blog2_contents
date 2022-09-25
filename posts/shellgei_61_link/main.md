@@ -17,7 +17,7 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 ## 当日の様子（＋出題）
 
-現在編集中。
+YouTubeの動画を現在編集中。
 
 ## Twitterまとめ
 
@@ -30,6 +30,8 @@ Copyright: (C) 2022 Ryuichi Ueda
 ## LT
 
 [ぷる](https://twitter.com/butackle66)さんと[taka](https://twitter.com/amanoese)さんがdiscord内、[たいちょー](https://twitter.com/xztaityozx_001)さんがYouTubeで配信しました。今回も激しかったです。takaさんのは、一部配信がうまくいかなかったので、次回改めてということになりました。
+
+### 呪符式高速詠唱シェル芸2
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/shCKTn12Le0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
