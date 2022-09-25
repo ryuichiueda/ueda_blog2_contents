@@ -46,6 +46,6 @@ YouTubeの動画を現在編集中。
 ## ブログなど
 
 
-## 今回の偽初心者
+## 今回の偽初心者情報
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今日13:00から「第61回シェル芸勉強会」に初参加します💪<br>初めての参加で不安ですが…きっと大丈夫なはず😅<br><br>参加登録してなくてもyoutubeのライブ見ながらTweetするだけで参加できるみたい<br>みんな一緒に楽しんで勉強しよ😆<a href="https://t.co/Ioou7QaOcK">https://t.co/Ioou7QaOcK</a><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; taka@SIではたらくフレンズ (@amanoese) <a href="https://twitter.com/amanoese/status/1573515356056195072?ref_src=twsrc%5Etfw">September 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
