@@ -45,6 +45,9 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 ## ブログなど
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> シェル芸勉強会の参加者様、お疲れ様でした。上田会長、問題作成とワンオペ開催を毎度ありがとうございます。リモート参加レポート書きました。リンク集や動画リンクは後ほど追記予定。<a href="https://t.co/W6fLdAUceA">https://t.co/W6fLdAUceA</a></p>&mdash; ぱぴろんちゃん😱 (@papiron) <a href="https://twitter.com/papiron/status/1573975969194717185?ref_src=twsrc%5Etfw">September 25, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## 今回の偽初心者情報
 
