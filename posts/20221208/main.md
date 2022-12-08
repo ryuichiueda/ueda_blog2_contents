@@ -5,6 +5,8 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 # 日記と告知（2022年12月8日）
 
+イベント登壇とネットの賑わいの話。
+
 ## 12/13（火）オンラインイベントで話をします
 
 さくらの全国行脚オンラインイベントの富山編ということで、富山のツラ汚し上田が指名されました。で、なにを話しようかなと思ったのですが、ちょっと本業のロボットの話をしたいと思ってます。ということで、19時から参加、よろしくお願いいたします。
@@ -26,10 +28,6 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">某国で日本料理屋に入ったら、店員さんがビックリして厨房に入っていって「本物の日本人来たどうするどうする？」とやり出して、コント感溢れたのでそういうお店ほしい</p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1599687757294886912?ref_src=twsrc%5Etfw">December 5, 2022</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">某国で日本料理屋に入ったら、店員が驚き「本物の日本人来たどうする？」とやり出した→「各国解釈による日本料理屋」経験談が集まる<a href="https://t.co/ZAGZ4gO0FU">https://t.co/ZAGZ4gO0FU</a>.</p>&mdash; Togetter（トゥギャッター） (@togetter_jp) <a href="https://twitter.com/togetter_jp/status/1600621213981679617?ref_src=twsrc%5Etfw">December 7, 2022</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 
 リプ欄、こういう場合は殺伐とするんですが、和気あいあいとしていると指摘をいただきました。たぶん、その理由は **私がクソリプしそうな人をあらかじめ5万人以上ブロックしているから** だと思われます。でも、やっとくとTLがかなり平和になります。今回、2つぐらいひどいクソリプがありましたが、リプを非表示の上、5万人のリストに加えました。
 
