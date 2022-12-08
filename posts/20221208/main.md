@@ -9,7 +9,7 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 ## 12/13（火）オンラインイベントで話をします
 
-　さくらの全国行脚オンラインイベントの富山編ということで、富山のツラ汚し上田が指名されました。で、なにを話しようかなと思ったのですが、ちょっと本業のロボットの話をしたいと思ってます。ということで、19時から参加、よろしくお願いいたします。
+　さくらの全国行脚オンラインイベントの富山編ということで、富山のツラ汚し上田が指名されました。で、なにを話しようかなと思ったのですが、ちょっと本業のロボットの話（なんだけど、ロボット関係ない業界関係者にも耳寄りな話）をしたいと思ってます。ということで、19時から参加、よろしくお願いいたします。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">話をしますよ <a href="https://t.co/k9HJUwrtgq">https://t.co/k9HJUwrtgq</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1600749958168444928?ref_src=twsrc%5Etfw">December 8, 2022</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
