@@ -43,3 +43,5 @@ Copyright: (C) 2022 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">某国で日本料理屋に入ったら、店員が驚き「本物の日本人来たどうする？」とやり出した→「各国解釈による日本料理屋」経験談が集まる<a href="https://t.co/ZAGZ4gO0FU">https://t.co/ZAGZ4gO0FU</a>.</p>&mdash; Togetter（トゥギャッター） (@togetter_jp) <a href="https://twitter.com/togetter_jp/status/1600621213981679617?ref_src=twsrc%5Etfw">December 7, 2022</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+以上です。仕事がたまりまくっている。
