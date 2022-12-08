@@ -29,7 +29,7 @@ Copyright: (C) 2022 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">某国で日本料理屋に入ったら、店員さんがビックリして厨房に入っていって「本物の日本人来たどうするどうする？」とやり出して、コント感溢れたのでそういうお店ほしい</p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1599687757294886912?ref_src=twsrc%5Etfw">December 5, 2022</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-　リプ欄、こういう場合は殺伐とするんですが、和気あいあいとしていると指摘をいただきました。たぶん、その理由は私がクソリプしそうな人をあらかじめ5万人以上ブロックしているからだと思われます。でも、やっとくとTLがかなり平和になります。今回、2つぐらいひどいクソリプがありましたが、リプを非表示の上、5万人のリストに加えました。
+　リプ欄、こういう場合は殺伐とするんですが、和気あいあいとしていると指摘をいただきました。たぶん、その理由は私がクソリプしそうな人をあらかじめ5万人以上ブロックしているからだと思われます。ちょっと神経質すぎる行動で自分の闇を表しているとも言えますが、やっとくとTLがかなり平和になります。今回、2つぐらいひどいクソリプがありましたが、リプを非表示の上、5万人のリストに加えました。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">証拠・・・<br><br>（自分でもどうかしてると思っております） <a href="https://t.co/e3UI5jErdi">pic.twitter.com/e3UI5jErdi</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1600079285519544320?ref_src=twsrc%5Etfw">December 6, 2022</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
