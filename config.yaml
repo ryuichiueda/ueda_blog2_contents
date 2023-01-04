@@ -96,6 +96,8 @@ links:
   sublinks:
   - text: 'シェル芸'
     href: '/?page=01434'
+  - text: '自作シェル'
+    href: '/?page=rusty_bash'
   - text: 'bashcms2'
     href: '/?page=bashcms2_dev'
   - text: 'opy（ワンライナー用Python）'
