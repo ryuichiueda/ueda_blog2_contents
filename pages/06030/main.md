@@ -7,7 +7,7 @@ Copyright: (C) Ryuichi Ueda
 
 ## 連載中
 
-* 魅惑の自作シェルの世界, Software Design, 技術評論社, 2022年12月号〜
+* [魅惑の自作シェルの世界](/?page=rusty_bash), Software Design, 技術評論社, 2022年12月号〜
 
 ## 著書・翻訳書
 
