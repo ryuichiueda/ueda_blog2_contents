@@ -15,4 +15,6 @@ Copyright: (C) Ryuichi Ueda
 
 ## 連載
 
-　SoftwareDesignで
+　SoftwareDesignで「魅惑の自作シェルの世界」を連載中。
+
+* SoftwareDesign: https://gihyo.jp/magazine/SD
