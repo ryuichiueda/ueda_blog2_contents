@@ -17,4 +17,5 @@ Copyright: (C) Ryuichi Ueda
 
 　SoftwareDesignで「魅惑の自作シェルの世界」を連載中。
 
+* [連載の情報](/?page=sd_rusty_bash)
 * SoftwareDesign: https://gihyo.jp/magazine/SD
