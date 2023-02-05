@@ -5,6 +5,9 @@ Copyright: (C) Ryuichi Ueda
 
 # 出版物リスト（書籍・商業誌等）
 
+## 連載中
+
+* [魅惑の自作シェルの世界](/?page=rusty_bash), Software Design, 技術評論社, 2022年12月号〜
 
 ## 著書・翻訳書
 
