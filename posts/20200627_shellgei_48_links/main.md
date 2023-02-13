@@ -28,6 +28,10 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">LTやります。<br>配信できたらツイートいただけると幸いです？<a href="https://t.co/UBB0Q4WjlJ">https://t.co/UBB0Q4WjlJ</a><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; taka@SIではたらくフレンズ (@amanoese) <a href="https://twitter.com/amanoese/status/1276774107535695873?ref_src=twsrc%5Etfw">June 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">Technopop shell-gei(テクノポップシェル芸)のスライドです<br>第48回 シェル芸LT 2020/08/17に発表してたのですが公開忘れてました…てよりもう二年以上前なのか…… <a href="https://t.co/p6PMZ81Gfr">https://t.co/p6PMZ81Gfr</a></p>&mdash; taka@SIではたらくフレンズ (@amanoese) <a href="https://twitter.com/amanoese/status/1622142087314681856?ref_src=twsrc%5Etfw">February 5, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">では、次のLTいきますー。こちらのURLになります。<a href="https://t.co/V1iwCeD7uj">https://t.co/V1iwCeD7uj</a><br><br>音声と映像大丈夫そうでしたらお伝え下さいー。<a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; ぐれさん😉 (@grethlen) <a href="https://twitter.com/grethlen/status/1276781570364444672?ref_src=twsrc%5Etfw">June 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## ブログなど
