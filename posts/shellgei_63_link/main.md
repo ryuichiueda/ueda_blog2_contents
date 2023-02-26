@@ -17,7 +17,6 @@ Copyright: (C) 2023 Ryuichi Ueda
 * YouTube最大同時接続数18
 * YouTube視聴数: 72（2023年2月26日10:56現在）
 
-
 ## 当日の様子（＋出題）
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zEmqu1UP3SY?start=498" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -30,7 +29,8 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 ## サテライト会場の様子
 
-たぶんできたと連絡くる（ご無理なさらず）
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ブログ投稿しました <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><br>第63回シェル芸勉強会 大阪サテライト レポート<a href="https://t.co/fdO5ibGkMf">https://t.co/fdO5ibGkMf</a></p>&mdash; so (@3socha) <a href="https://twitter.com/3socha/status/1629838078163718144?ref_src=twsrc%5Etfw">February 26, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## LT
 
