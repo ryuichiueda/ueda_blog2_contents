@@ -45,5 +45,8 @@ Copyright: (C) 2023 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><br>邪道ですが、一応記事にまとめました（すみません）。シェルのワンライナーも頑張ります。<br><br>第63回シェル芸勉強会の問題をPythonワンライナーで解く｜Yusuke Kato <a href="https://t.co/ux0wqpF5CJ">https://t.co/ux0wqpF5CJ</a> <a href="https://twitter.com/hashtag/zenn?src=hash&amp;ref_src=twsrc%5Etfw">#zenn</a></p>&mdash; Kato (@y_kato222) <a href="https://twitter.com/y_kato222/status/1629627949749252096?ref_src=twsrc%5Etfw">February 25, 2023</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a><br>第63回シェル芸勉強会に参加しました - たいちょーの雑記 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <a href="https://t.co/JCqAU8IHyS">https://t.co/JCqAU8IHyS</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1629770203491090432?ref_src=twsrc%5Etfw">February 26, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
