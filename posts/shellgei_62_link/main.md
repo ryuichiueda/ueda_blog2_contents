@@ -44,5 +44,3 @@ Copyright: (C) 2023 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-## 今回の偽初心者情報
-
