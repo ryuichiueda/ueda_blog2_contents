@@ -49,4 +49,5 @@ Copyright: (C) 2023 Ryuichi Ueda
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><br>記事を投稿しました。<br><br>タイトル : 第63回シェル芸勉強会を勉強させていただく<a href="https://t.co/WWhZbENBCV">https://t.co/WWhZbENBCV</a></p>&mdash; ShellGeiBlog (@ShellGeiBlog) <a href="https://twitter.com/ShellGeiBlog/status/1630026934083264512?ref_src=twsrc%5Etfw">February 27, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
