@@ -17,6 +17,6 @@ Copyright: (C) 2022 Ryuichi Ueda
     </div>
     <div class="col-md-6">
         <h2 id="info">告知など</h2>
-        <a class="twitter-timeline" href="https://twitter.com/ryuichiueda/timelines/1558672669226110976?ref_src=twsrc%5Etfw">近況 - Curated tweets by ryuichiueda</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<a class="twitter-timeline" href="https://twitter.com/ryuichiueda?ref_src=twsrc%5Etfw">Tweets by ryuichiueda</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 </div>
