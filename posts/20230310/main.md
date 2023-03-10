@@ -26,3 +26,12 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 
 　やめろと言われるまでがんばります。
+
+## Twitterの使い方を変えました
+
+　もう日々の咆哮は[Misskey.io](https://misskey.io/)や
+[シェル芸Misskeyサーバー](https://mi.shellgei.org/)でやってます。
+[Twitterのほう](https://twitter.com/ryuichiueda)
+は仕事の報告とかになると思うので、
+そういう情報がほしい人には「うんこ！」とか見なくてよくなるので、
+いいんじゃないかと思います。
