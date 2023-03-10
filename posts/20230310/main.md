@@ -15,7 +15,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 ## 連載なんとかやってます
 
-　「[魅惑の自作シェルの世界](/?page=sd_rusty_bash)」、来週発売のSoftware Designに第5回が掲載されています。この回で、`echo a ; echo b`のように、セミコロンでコマンドを3つ以上つなぐことができるようになります。
+　RustでBashのクローンを作っていく連載「[魅惑の自作シェルの世界](/?page=sd_rusty_bash)」、来週発売のSoftware Designに第5回が掲載されています。この回で、`echo a ; echo b`のように、セミコロンでコマンドを3つ以上つなぐことができるようになります。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">魅惑の自作シェルの世界⁰【5】パーサーを書く…… 上田 隆一<br><br>載ってますー（書くと言ってもまだ入り口なので今後もずっと前に書きます） <a href="https://t.co/yB1y5TbhGD">https://t.co/yB1y5TbhGD</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1632694159021854720?ref_src=twsrc%5Etfw">March 6, 2023</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
