@@ -35,3 +35,10 @@ Copyright: (C) 2023 Ryuichi Ueda
 は仕事の報告とかになると思うので、
 そういう情報がほしい人には「うんこ！」とか見なくてよくなるので、
 いいんじゃないかと思います。
+
+　わたしのうんこ発言が見たい人は、
+こちらにどうぞ・・・
+
+* シェル芸Misskeyサーバーのアカウント: https://mi.shellgei.org/@ru
+* Misskey.ioのアカウント: https://misskey.io/@ryuichiueda
+
