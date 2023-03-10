@@ -21,6 +21,10 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zEmqu1UP3SY?start=498" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">第63回ビッグハンドタウンシェル芸勉強会の問題と解説 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><a href="https://t.co/GBoP2Ue5Fp">https://t.co/GBoP2Ue5Fp</a></p>&mdash; やべえ (@yabeenico) <a href="https://twitter.com/yabeenico/status/1633636120067182592?ref_src=twsrc%5Etfw">March 9, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ## Twitterまとめ
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> 問題作成運営配信の上田会長、毎度のことながら本当にありがとうございます。参加者の皆様お疲れ様でした。昨日開催された第63回のツイートまとめ作成しました。配信動画などのリンクは後ほど。<a href="https://t.co/ZEhVVEnxkH">https://t.co/ZEhVVEnxkH</a></p>&mdash; ぱぴろんちゃん😱🙀 (@papiron) <a href="https://twitter.com/papiron/status/1629723180700151808?ref_src=twsrc%5Etfw">February 26, 2023</a></blockquote>
