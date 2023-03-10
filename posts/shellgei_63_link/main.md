@@ -7,6 +7,8 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 　リンク集です。2023年2月15日（土）に東京、大手町のNTTコミュニケーションズさんで開催しました。大阪・長崎ではサテライト会場を準備していただきました。ありがとうございました。特にやべえさんありがとうございました！
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">第63回ビッグハンドタウンシェル芸勉強会の問題と解説 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><a href="https://t.co/GBoP2Ue5Fp">https://t.co/GBoP2Ue5Fp</a></p>&mdash; やべえ (@yabeenico) <a href="https://twitter.com/yabeenico/status/1633636120067182592?ref_src=twsrc%5Etfw">March 9, 2023</a></blockquote>
+
 ## 記録
 
 * 開催日: 2022年12月3日土曜日
@@ -21,8 +23,6 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zEmqu1UP3SY?start=498" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">第63回ビッグハンドタウンシェル芸勉強会の問題と解説 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><a href="https://t.co/GBoP2Ue5Fp">https://t.co/GBoP2Ue5Fp</a></p>&mdash; やべえ (@yabeenico) <a href="https://twitter.com/yabeenico/status/1633636120067182592?ref_src=twsrc%5Etfw">March 9, 2023</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ## Twitterまとめ
