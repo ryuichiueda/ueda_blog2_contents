@@ -85,7 +85,7 @@ ARG NODE_VERSION=18.13.0-bullseye    # <- もとからあるやつ
 ARG BUILDPLATFORM=x86_64             # <- 追加
 ```
 
-### `DOCKER_BUILDKIT=1`
+### DOCKER_BUILDKIT=1
 
 　これでビルドが通るかな・・・と思ったら、次のようなエラーが出ました。
 
