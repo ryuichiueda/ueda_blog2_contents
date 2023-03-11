@@ -38,7 +38,7 @@ https://misskey-hub.net/docs/install/docker.html の記述に沿ってやって�
 の記述にしたがって、「全ユーザ向け」で`docker-compose`をインストールします。そのままコマンドを打っていけば大丈夫です。
 
 
-### `COPY --link`
+### COPY --link
 
 　GitHubからもってきたMisskeyの`Dockerfile`には、`COPY --link`という記述がありますが、たぶんPCのDockerのバージョンの関係からか、`--link`が使えません。こんなエラーが出ます。
 
@@ -63,7 +63,7 @@ $ git diff
 
 たぶん大丈夫でしょう。たぶん・・・。だってビルドしないと先にすすめないんですもの・・・
 
-### `ARG BUILDPLATFORM`
+### ARG BUILDPLATFORM
 
 　次に、このようなエラーが出ました。
 
