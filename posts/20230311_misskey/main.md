@@ -79,11 +79,10 @@ Step 2/40 : FROM --platform=$BUILDPLATFORM node:${NODE_VERSION} AS native-builde
 
 これは、シェルスクリプトが読めれば分かりますが（←しつこい）、「`BUILDPLATFORM`がないから空になる」というエラーです。
 ということで、`Dockerfile`に（x86_64のCPUなら）、`ARG NODE_VERSION`の下あたりに次のように追加します。なんとなく勘で`x86_64`と書いたら通りました。
-
-<pre>
+```bash
 ARG NODE_VERSION=18.13.0-bullseye    # <- もとからあるやつ
 ARG BUILDPLATFORM=x86_64             # <- 追加
-</pre>
+```
 
 ### DOCKER_BUILDKIT=1
 
