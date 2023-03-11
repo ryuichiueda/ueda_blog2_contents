@@ -44,7 +44,7 @@ https://misskey-hub.net/docs/install/docker.html の記述（2023年3月11日現
 
 　~~GitHubからもってきたMisskeyの`Dockerfile`には、`COPY --link`という記述がありますが、たぶんPCのDockerのバージョンの関係からか、`--link`が使えません。こんなエラーが出ます。~~
 
-　訂正: これはあとから説明する`DOCKER_BUILDKIT=1`を指定すると、`--link`ついてても大丈夫です。`@eban`さんからツッコミが入りましたごめんなさい。
+　訂正: これはあとから説明する`DOCKER_BUILDKIT=1`を指定すると、`--link`ついてても大丈夫です。`[@eban](https://twitter.com/@eban)`さんからツッコミが入りましたごめんなさい。つけないと、↓のようなエラーが出ます。
 
 
 ```
