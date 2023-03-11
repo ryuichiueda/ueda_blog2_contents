@@ -16,6 +16,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 ## 環境
 
 * OS: Ubuntu 22.04
+* CPU: intel Core i9
 * Docker version 20.10.21（ふつうに`apt install`でインストールしたもの）
 
 標準環境ですが、Dockerに慣れてないと難しいです。あと`grep`に慣れてないと辛いとおもうので、ぜひ[シェル芸本](https://amzn.to/3T9tsDL)のご購入をご検討ください（宣伝）。
