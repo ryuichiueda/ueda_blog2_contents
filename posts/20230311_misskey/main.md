@@ -23,7 +23,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 ## 見ているマニュアル
 
-https://misskey-hub.net/docs/install/docker.html の記述に沿ってやっていきます。
+https://misskey-hub.net/docs/install/docker.html の記述（2023年3月11日現在）に沿ってやってました。
 
 ## つまづきポイント
 
