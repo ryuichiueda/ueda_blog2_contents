@@ -54,19 +54,7 @@ Sending build context to Docker daemon  149.6MB
 	* Error response from daemon: dockerfile parse error line 22: Unknown flag: link
 ```
 
-ということで、`--link`を消します。
-
-```diff
-$ git diff
-・・・
--COPY --link ["pnpm-lock.yaml", "pnpm-workspace.yaml", "package.json", "./"]
-・・・
-+COPY  ["pnpm-lock.yaml", "pnpm-workspace.yaml", "package.json", "./"]
-・・・
-（他にもCOPY --linkの記述があるのでCOPYだけにする。）
-```
-
-たぶん大丈夫でしょう。たぶん・・・。だってビルドしないと先にすすめないんですもの・・・
+ということで、~~`--link`を消します。~~あとから説明するように`DOCKER_BUILDKIT=1`をつけます。
 
 ### ARG BUILDPLATFORM
 
