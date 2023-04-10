@@ -13,7 +13,20 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 「なにしくさんねん」ってどこの方言なんだろう？でも学生さんにはいいですよね。本が研究室や自宅にあって、たまに手元で読みたい人が買ってくださったみたいで、それもありがたいです。
 
-　で、よほど高いけど自分では買わない本だったのか、Amazonでのランキングが急上昇して、全Kindleの出版物中、しばらく2位でした。1位と3位は女性ファッション誌だったので、めでたく女性ファッション誌の仲間入りをしました。（ちがう）。
+## 4290円→499円でバカ売れ
+
+　で、よほど高いけど自分では買わない本だったのか、Amazonでのランキングが急上昇して、全Kindleの出版物中、売れ筋ランキングがしばらく2位でした。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">【あと6時間だけ、499円（税込）】    <br><br>『詳解　確率ロボティクス　Ｐｙｔｈｏｎによる基礎アルゴリズムの実装』がKindle日替わりセールに取り上げられ、現在Kindleランキング2位です😆<a href="https://t.co/vKqvo7T7n5">https://t.co/vKqvo7T7n5</a><br><br>セールもあと6時間弱です。この機会にぜひ💪<a href="https://twitter.com/hashtag/Kindle%E6%97%A5%E6%9B%BF%E3%82%8F%E3%82%8A%E3%82%BB%E3%83%BC%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#Kindle日替わりセール</a> <a href="https://t.co/v7HJ8u5tX9">pic.twitter.com/v7HJ8u5tX9</a></p>&mdash; 講談社サイエンティフィク (@kspub_kodansha) <a href="https://twitter.com/kspub_kodansha/status/1643542915237675009?ref_src=twsrc%5Etfw">April 5, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+1位と3位は女性ファッション誌だったので、めでたく女性ファッション誌の仲間入りをしました。（ちがう）。つまり雑誌以外では1位だったことになります。また、人気度ランキングという謎のランキングでは **アサヒ芸能を2位に従えて堂々の1位** でした。日本一！
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">人気ランキング（定義謎）で全体の1位になったよーーー！！！<br><br>受験の前日に息抜きに買って読んでたアサヒ芸能に勝ったぞー！！（アカン） <a href="https://t.co/S7IcsnMcJJ">pic.twitter.com/S7IcsnMcJJ</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1643464316199522304?ref_src=twsrc%5Etfw">April 5, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+受験の前日になに読んでるんでしょう。そのときの結果は合格でした。
 
 ## 電子書籍の印税について
 
