@@ -1,5 +1,5 @@
 ---
-Keywords: 日記
+Keywords: 日記, 詳解確率ロボティクス, 執筆
 Copyright: (C) 2023 Ryuichi Ueda
 ---
 
