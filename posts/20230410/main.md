@@ -49,4 +49,11 @@ Copyright: (C) 2023 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">「500円だったから買った」もビミョーな傷が心につくのでやめてくだしあ</p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1643501989169614848?ref_src=twsrc%5Etfw">April 5, 2023</a></blockquote>
 
 
+↓これも悲しいですね・・・
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">確率ロボティクス、セールだったのか…(逃した)</p>&mdash; のんろそ4 (@HpnG194) <a href="https://twitter.com/HpnG194/status/1643748422565101568?ref_src=twsrc%5Etfw">April 5, 2023</a></blockquote>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">確率ロボティクス買い忘れたので完</p>&mdash; ぺんぎん＠ (@pengin_) <a href="https://twitter.com/pengin_/status/1643759303436926976?ref_src=twsrc%5Etfw">April 5, 2023</a></blockquote>
+
+
 現場からは以上です。他に告知事項があるんで、明日もブログ書くぞ。
