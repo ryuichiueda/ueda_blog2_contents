@@ -36,9 +36,15 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 ## 悲喜こもごも
 
-↓こういうことがあるので、急な安売りは本当にいいのかという問題が。どこかでお会いできたらサインいたします。
+↓こういうことがあるので、急な安売りは本当にいいのかという問題が。どこかでお会いできたらサインくらいでお許しください。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">おれが4000円くらい出して買った本が、日替わりセールで499円に……<br><br>詳解　確率ロボティクス　Ｐｙｔｈｏｎによる基礎アルゴリズムの実装 (ＫＳ理工学専門書) Kindle版 <a href="https://t.co/jKlUPUyAhe">https://t.co/jKlUPUyAhe</a></p>&mdash; 人間が大好き (@hito_horobe) <a href="https://twitter.com/hito_horobe/status/1643475588743860224?ref_src=twsrc%5Etfw">April 5, 2023</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+↓みんなから「500円なら買う」と散々言われました。ものの価値とはなんなのでしょうか。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">「500円なのでみなさん買いましょう」は作者の心に細かい傷ができるのでやめてくだしあ<br><br>（いや間違ってないんですけど）</p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1643458014408765441?ref_src=twsrc%5Etfw">April 5, 2023</a></blockquote>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">「500円だったから買った」もビミョーな傷が心につくのでやめてくだしあ</p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1643501989169614848?ref_src=twsrc%5Etfw">April 5, 2023</a></blockquote>
 
 
+現場からは以上です。他に告知事項があるんで、明日もブログ書くぞ。
