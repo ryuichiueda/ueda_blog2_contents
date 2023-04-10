@@ -18,8 +18,9 @@ Copyright: (C) 2023 Ryuichi Ueda
 　で、よほど高いけど自分では買わない本だったのか、Amazonでのランキングが急上昇して、全Kindleの出版物中、売れ筋ランキングがしばらく2位でした。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">【あと6時間だけ、499円（税込）】    <br><br>『詳解　確率ロボティクス　Ｐｙｔｈｏｎによる基礎アルゴリズムの実装』がKindle日替わりセールに取り上げられ、現在Kindleランキング2位です😆<a href="https://t.co/vKqvo7T7n5">https://t.co/vKqvo7T7n5</a><br><br>セールもあと6時間弱です。この機会にぜひ💪<a href="https://twitter.com/hashtag/Kindle%E6%97%A5%E6%9B%BF%E3%82%8F%E3%82%8A%E3%82%BB%E3%83%BC%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#Kindle日替わりセール</a> <a href="https://t.co/v7HJ8u5tX9">pic.twitter.com/v7HJ8u5tX9</a></p>&mdash; 講談社サイエンティフィク (@kspub_kodansha) <a href="https://twitter.com/kspub_kodansha/status/1643542915237675009?ref_src=twsrc%5Etfw">April 5, 2023</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">よし！ジゼル抜いた。あとはオッジのみ！（何と戦ってるんだ俺は） <a href="https://t.co/EtcrPPptS4">pic.twitter.com/EtcrPPptS4</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1643499421823545344?ref_src=twsrc%5Etfw">April 5, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 1位と3位は女性ファッション誌だったので、めでたく女性ファッション誌の仲間入りをしました。（ちがう）。つまり雑誌以外では1位だったことになります。また、人気度ランキングという謎のランキングでは **アサヒ芸能を2位に従えて堂々の1位** でした。日本一！
 
