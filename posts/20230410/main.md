@@ -26,7 +26,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">人気ランキング（定義謎）で全体の1位になったよーーー！！！<br><br>受験の前日に息抜きに買って読んでたアサヒ芸能に勝ったぞー！！（アカン） <a href="https://t.co/S7IcsnMcJJ">pic.twitter.com/S7IcsnMcJJ</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1643464316199522304?ref_src=twsrc%5Etfw">April 5, 2023</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-受験の前日になに読んでるんでしょう。そのときの結果は合格でした。
+この時点ではアサヒ芸能は4位です。受験の前日になに読んでるんでしょう。そのときの結果は合格でした。
 
 ## 電子書籍の印税について
 
