@@ -35,6 +35,9 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GgI4kHztypY?start=119" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">concat を実装した (rfc9402) <a href="https://t.co/I16gWE5Bh3">https://t.co/I16gWE5Bh3</a> <a href="https://twitter.com/hashtag/Qiita?src=hash&amp;ref_src=twsrc%5Etfw">#Qiita</a><a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> 勉強会64 LT</p>&mdash; やべえ (@yabeenico) <a href="https://twitter.com/yabeenico/status/1649675709269565443?ref_src=twsrc%5Etfw">April 22, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## ブログなど
 
