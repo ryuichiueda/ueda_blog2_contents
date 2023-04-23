@@ -52,10 +52,9 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">🌸４月は新しいことを始めるチャンス🌸<br>駆け出しの初心者エンジニア🐣ですが前から気になっていたシェル芸勉強会に13:00から参加してみます✨✨✨<br>直接会場には行けないですが😢ライブ配信見ながらツイートするだけでも参加できるみたい😊<br>みんなも一緒にさんかしよー🤗<a href="https://t.co/PPgRUan2P2">https://t.co/PPgRUan2P2</a></p>&mdash; taka@SIではたらくフレンズ (@amanoese) <a href="https://twitter.com/amanoese/status/1649609442852491266?ref_src=twsrc%5Etfw">April 22, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">逮捕 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <a href="https://t.co/kQNe1QYovv">https://t.co/kQNe1QYovv</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1649616196277506050?ref_src=twsrc%5Etfw">April 22, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">今日のシェル芸勉強会楽しかったけど😆私よりAIのほうが問題解くの上手いみたい😱<br>なのでシェル芸初心者は引退👨‍🎓してこれからは別の道で頑張っていこうと思います😤<br>関係者の方々今日はどうもありがとうございました🙇‍♂🙇🙇‍♀</p>&mdash; taka@SIではたらくフレンズ (@amanoese) <a href="https://twitter.com/amanoese/status/1649693107925942274?ref_src=twsrc%5Etfw">April 22, 2023</a></blockquote>
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">逮捕 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <a href="https://t.co/kQNe1QYovv">https://t.co/kQNe1QYovv</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1649616196277506050?ref_src=twsrc%5Etfw">April 22, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">死刑 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <a href="https://t.co/Cu2pJDWgMO">https://t.co/Cu2pJDWgMO</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1649765752092905474?ref_src=twsrc%5Etfw">April 22, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
