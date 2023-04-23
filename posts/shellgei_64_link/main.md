@@ -13,7 +13,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 ## 記録
 
-* 開催日: 2022年12月3日土曜日
+* 開催日: 2023年4月22日土曜日
 * 共催: [日本UNIXユーザ会](https://www.jus.or.jp/)
 * 東京会場参加者: 11人
 * YouTube最大同時接続数22
