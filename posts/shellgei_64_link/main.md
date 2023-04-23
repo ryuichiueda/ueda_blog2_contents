@@ -5,11 +5,11 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 # jus共催 第64回シェル芸勉強会リンク集
 
-　リンク集です。2023年4月22日（土）に東京、大手町の[NTTコミュニケーションズ](https://www.ntt.com/index.html)さんで開催しました。今回は大阪サテライトの2人がこちらにいらっしゃるとのことで、日を合わせて現地で参加していただきました。
+　リンク集です。2023年4月22日（土）に東京、大手町の[NTTコミュニケーションズ](https://www.ntt.com/index.html)さんで開催しました。今回は大阪サテライトの2人も本会場にいらっしゃいました。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">NTTコミュニケーションズさんたいへんありがとうございました！ <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <a href="https://t.co/EhBPBNAV4p">pic.twitter.com/EhBPBNAV4p</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1649683505285337088?ref_src=twsrc%5Etfw">April 22, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-　そして、前回に引き続き、やべえさんありがとうございました！
+　やべえさんはじめ運営にご協力いただいた皆様、参加された皆様、ありがとうございました！
 
 ## 記録
 
