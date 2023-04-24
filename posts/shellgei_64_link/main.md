@@ -41,7 +41,8 @@ Copyright: (C) 2023 Ryuichi Ueda
 補足: シェル芸botでも使えるようになってます。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="zxx" dir="ltr"><a href="https://t.co/jF1wEbfKXR">https://t.co/jF1wEbfKXR</a> <a href="https://t.co/drYwYEj098">pic.twitter.com/drYwYEj098</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1650119013467574273?ref_src=twsrc%5Etfw">April 23, 2023</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="zxx" dir="ltr"><a href="https://t.co/1UfmyV2zdl">https://t.co/1UfmyV2zdl</a> <a href="https://t.co/nECm5DPAGR">pic.twitter.com/nECm5DPAGR</a></p>&mdash; シェル芸bot (@minyoruminyon) <a href="https://twitter.com/minyoruminyon/status/1650146195451543552?ref_src=twsrc%5Etfw">April 23, 2023</a></blockquote>
 
 
 ## ブログなど
