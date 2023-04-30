@@ -44,6 +44,16 @@ p_z.plot()
 p_z.transpose()
 ```
 
+### [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[13]
+
+上の訂正と同じ理由。
+
+```python
+cond_z_t = (probs/p_t[0]).sort_values("lidar")  #列（時間）ごとにP(t)で割るとP(x|t)となる   ###lidar600cond #旧バージョン: cond_z_t = probs/p_t[0]
+cond_z_t
+```
+
+
 ### [section_sensor/multi_gauss1.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/multi_gauss1.ipynb)セル[1]最後から2行目
 
 seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。
