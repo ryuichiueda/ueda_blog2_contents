@@ -9,7 +9,7 @@ Copyright: (C) Ryuichi Ueda
 
 こちらはGitHubのコードに随時反映しています。本の内容については、もし第2版が出たらそのときにアップデートします。
 
-* [section_sensor/lidar_200.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_200.ipynb)セル[9]
+### [section_sensor/lidar_200.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_200.ipynb)セル[9]
 
 前のセルの`value_count`がPandas 2.x系で、集計した列に`count`と名前をつけるようになったことに対する訂正。
 
@@ -17,8 +17,6 @@ Copyright: (C) Ryuichi Ueda
 freqs["probs"] = freqs["count"]/len(freqs["count"]) # 古いバージョン: freqs["probs"] = freqs["lidar"]/len(data["lidar"]) ###addprobs###
 freqs.transpose()
 ```
-
-### 情報提供いただいたときの記録
 
 ありがとうございます。
 
