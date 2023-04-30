@@ -5,6 +5,27 @@ Copyright: (C) Ryuichi Ueda
 
 # 詳解確率ロボティクスの訂正・コードのアップデート
 
+## コードのアップデート
+
+こちらはGitHubのコードに随時反映しています。本の内容については、もし第2版が出たらそのときにアップデートします。
+
+* [section_sensor/lidar_200.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_200.ipynb)セル[9]
+
+前のセルの`value_count`がPandas 2.x系で、集計した列に`count`と名前をつけるようになったことに対する訂正。
+
+```python
+freqs["probs"] = freqs["count"]/len(freqs["count"]) # 古いバージョン: freqs["probs"] = freqs["lidar"]/len(data["lidar"]) ###addprobs###
+freqs.transpose()
+```
+
+### 情報提供いただいたときの記録
+
+ありがとうございます。
+
+<blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="ja" dir="ltr">lidar_200.ipynbの9のfreq[“lidar”]で失敗します。<br>8のDataframeを作る際にvalue_countからの返り値を渡してますが、これにcountという名前がつくようになったためっぽいです。</p>&mdash; 女児 (@YuK_Ota) <a href="https://twitter.com/YuK_Ota/status/1652485372444803072?ref_src=twsrc%5Etfw">April 30, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ## 訂正事項
 
 |場所|訂正事項|発見者|一言|
