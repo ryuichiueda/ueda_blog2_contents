@@ -36,12 +36,31 @@ plt.show()
 
 ### [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[11]
 
-pandas（2.x）でデータが自動でソートされなくなったことへの対応。
+pandas（2.x）でデータが自動でソートされなくなったことへの対応。`sort_values`をくっつけました。
 
 ```python
 p_z = pd.DataFrame(probs.transpose().sum()).sort_values("lidar")  #行と列を転置して各列を合計 #旧バージョン: p_z = pd.DataFrame(probs.transpose().sum())
 p_z.plot()
 p_z.transpose()
+```
+
+### [section_sensor/multi_gauss1.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/multi_gauss1.ipynb)セル[1]最後から2行目
+
+seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。
+
+```python
+（略）
+sns.jointplot(d, x="ir", y="lidar", kind="kde") #旧バージョン: sns.jointplot(d["ir"], d["lidar"], d, kind="kde")
+plt.show()
+```
+
+### [section_sensor/multi_gauss2.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/multi_gauss2.ipynb)セル[2]
+
+seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。
+
+```python
+sns.jointplot(d, x="ir", y="lidar", kind="kde") #度数分布を描画 #旧バージョン: sns.jointplot(d["ir"], d["lidar"], d, kind="kde")
+d.cov()
 ```
 
 ## 訂正事項
