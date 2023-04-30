@@ -27,13 +27,22 @@ freqs.transpose()
 
 ### [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[8]
 
-seabornの`jointplot`の引数が変わったことへの対応。
+seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。
 
 ```python
 sns.jointplot(data, x="hour", y="lidar", kind="kde") #古いバージョン: sns.jointplot(data["hour"], data["lidar"], data, kind="kde")
 plt.show()
 ```
 
+### [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[11]
+
+pandas（2.x）でデータが自動でソートされなくなったことへの対応。
+
+```python
+p_z = pd.DataFrame(probs.transpose().sum()).sort_values("lidar")  #行と列を転置して各列を合計 #旧バージョン: p_z = pd.DataFrame(probs.transpose().sum())
+p_z.plot()
+p_z.transpose()
+```
 
 ## 訂正事項
 
