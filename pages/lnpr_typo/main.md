@@ -7,21 +7,32 @@ Copyright: (C) Ryuichi Ueda
 
 ## コードのアップデート
 
-こちらはGitHubのコードに随時反映しています。本の内容については、もし第2版が出たらそのときにアップデートします。
+こちらはGitHubのコードに随時反映しています。本の内容については、もし第2版が出たらそのときにアップデートします。アップデート前のコードについては、横にコメントアウトして残してあるので、もし動かないときは、そちらのコードを試してみてください。
 
 ### [section_sensor/lidar_200.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_200.ipynb)セル[9]
 
-前のセルの`value_count`がPandas 2.x系で、集計した列に`count`と名前をつけるようになったことに対する訂正。
+前のセルの`value_count`がPandas 2.x系で、集計した列に`count`と名前をつけるようになったことに対するコードの修正。
 
 ```python
 freqs["probs"] = freqs["count"]/len(freqs["count"]) # 古いバージョン: freqs["probs"] = freqs["lidar"]/len(data["lidar"]) ###addprobs###
 freqs.transpose()
 ```
 
-ありがとうございます。
+#### 情報提供
 
 <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="ja" dir="ltr">lidar_200.ipynbの9のfreq[“lidar”]で失敗します。<br>8のDataframeを作る際にvalue_countからの返り値を渡してますが、これにcountという名前がつくようになったためっぽいです。</p>&mdash; 女児 (@YuK_Ota) <a href="https://twitter.com/YuK_Ota/status/1652485372444803072?ref_src=twsrc%5Etfw">April 30, 2023</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+ありがとうございます。
+
+### [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[8]
+
+seabornの`jointplot`の引数が変わったことへの対応。
+
+```python
+sns.jointplot(data, x="hour", y="lidar", kind="kde") #古いバージョン: sns.jointplot(data["hour"], data["lidar"], data, kind="kde")
+plt.show()
+```
 
 
 ## 訂正事項
