@@ -11,7 +11,7 @@ Copyright: (C) Ryuichi Ueda
 
 ### [section_sensor/lidar_200.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_200.ipynb)セル[9]
 
-前のセルの`value_count`がPandas 2.x系で、集計した列に`count`と名前をつけるようになったことに対するコードの修正。
+Pandas 2.x系で、前のセルの`value_count`が集計した列に`count`と名前をつけるようになったことに対するコードの修正。
 
 ```python
 freqs["probs"] = freqs["count"]/len(freqs["count"]) # 古いバージョン: freqs["probs"] = freqs["lidar"]/len(data["lidar"]) ###addprobs###
