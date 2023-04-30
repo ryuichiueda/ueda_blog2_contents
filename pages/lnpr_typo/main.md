@@ -27,7 +27,7 @@ freqs.transpose()
 
 ### [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[8]
 
-seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。
+seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。このコードで動かない場合は、`matplotlib`もアップデートが必要。
 
 ```python
 sns.jointplot(data, x="hour", y="lidar", kind="kde") #古いバージョン: sns.jointplot(data["hour"], data["lidar"], data, kind="kde")
@@ -56,7 +56,7 @@ cond_z_t
 
 ### [section_sensor/multi_gauss1.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/multi_gauss1.ipynb)セル[1]最後から2行目
 
-seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。
+seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。このコードで動かない場合は、`matplotlib`もアップデートが必要。
 
 ```python
 （略）
@@ -66,7 +66,7 @@ plt.show()
 
 ### [section_sensor/multi_gauss2.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/multi_gauss2.ipynb)セル[2]
 
-seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。
+seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。このコードで動かない場合は、`matplotlib`もアップデートが必要。
 
 ```python
 sns.jointplot(d, x="ir", y="lidar", kind="kde") #度数分布を描画 #旧バージョン: sns.jointplot(d["ir"], d["lidar"], d, kind="kde")
