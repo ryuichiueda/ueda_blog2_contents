@@ -5,7 +5,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 # ロボット界隈用Misskeyサーバーの運用を始めました
 
-　そろそろついったやばそうなのと、せっかくなら興味のある人が固まっていたほうが、界隈じゃない友達の目を気にせずにロボットの話ができるので、ロボット界隈用のMisskeyサーバー（https://mi0.robotician.jp/ ）を立てました。下のツイートでは90人になっていますが、現在125人です。ロボットに興味があれば、どなたでも参加いただけます。（ただし私が「うわっ！」と思ったらお断りすることもあります。）
+　そろそろついったやばそうなのと、せっかくなら同じ興味の人が固まっていたほうが、界隈じゃない友達の目を気にせずにロボットの話ができるので、ロボット界隈用のMisskeyサーバー（https://mi0.robotician.jp/ ）を立てました。下のツイートでは90人になっていますが、現在125人です。ロボットに興味があれば、どなたでも参加いただけます。（ただし私が「うわっ！」と思ったらお断りすることもあります。）
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">これしか言ってないような気がしますがロボット屋さんMisskeyサーバー、現在90名です。<br><br>ぽつぽつと自然な情報交換が始まってます。<a href="https://t.co/6pQVoGuJN6">https://t.co/6pQVoGuJN6</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1676934670154629120?ref_src=twsrc%5Etfw">July 6, 2023</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
