@@ -1,5 +1,5 @@
 ---
-Keywords:  寄稿, 執筆
+Keywords:  寄稿, 執筆, ロボット学会
 Copyright: (C) 2023 Ryuichi Ueda
 ---
 
