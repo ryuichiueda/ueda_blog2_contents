@@ -12,7 +12,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 ## なにそれ？
 
-　[Misskey](https://github.com/misskey-dev/misskey)というのは、（長い話はほかの人におまかせして）要は自分で運営できるTwitter的な（Twitterより高機能な）なにかです。一般公開できるSlackという感じでもあります。現在、Misskeyのサーバーは(Misskey )[https://misskey.io]様々なものが立ち上がっており、
+　[Misskey](https://github.com/misskey-dev/misskey)というのは、（長い話はほかの人におまかせして）要は自分で運営できるTwitter的な（Twitterより高機能な）なにかです。一般公開できるSlackという感じでもあります。現在、Misskeyのサーバーは[Misskey io](https://misskey.io)など様々なものが立ち上がっており、
 
 ## なんでMisskeyなの？
 
