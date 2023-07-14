@@ -8,7 +8,14 @@ Copyright: (C) Ryuichi Ueda
 |場所|訂正事項|発見者|一言|
 |:---|:-----|------|:-----|
 |p.143 式(6.15)の真ん中の行列の2行目|\\( \omega \Longrightarrow \omega_t \\)|<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/ryuichiueda?ref_src=twsrc%5Etfw">@ryuichiueda</a><br>上田先生，突然のリプライすみません．読み進めるには支障がない些細なことですが，詳解確率ロボティクス(第5刷)p.143の式(6.15)で添字のtが1カ所抜けていました． <a href="https://t.co/XkSqBuvN7E">pic.twitter.com/XkSqBuvN7E</a></p>&mdash; Camellia-W (@MT20107) <a href="https://twitter.com/MT20107/status/1633085389186682880?ref_src=twsrc%5Etfw">March 7, 2023</a></blockquote>|見落としてました・・・|
-|p.247 本文10行目|消費電力量を0からマイナスしたものに-1をかけたものを \\( \Longrightarrow \\)消費電力量に-1をかけたものを|<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/ryuichiueda?ref_src=twsrc%5Etfw">@ryuichiueda</a> 様、<br> 『詳解確率ロボティクス』(第1刷)について質問です。<br><br>第10章 p.247 の赤線部分（写真）。ここは、<br>「消費電力量を0からマイナスしたものを r に使うと」<br>もしくは、<br>「消費電力量に-1をかけたものを r に使うと」<br>の間違いではないでしょうか？<br><br> <a href="https://twitter.com/hashtag/%E8%A9%B3%E8%A7%A3%E7%A2%BA%E7%8E%87%E3%83%AD%E3%83%9C%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9?src=hash&amp;ref_src=twsrc%5Etfw">#詳解確率ロボティクス</a> <a href="https://t.co/y7NnKGVg6p">pic.twitter.com/y7NnKGVg6p</a></p>&mdash; Shuuji Kajita (@s_kajita) <a href="https://twitter.com/s_kajita/status/1485847884314537988?ref_src=twsrc%5Etfw">January 25, 2022</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>|いとこのいとこは自分だみたいな文になってますね・・・|
+|p.334 セル[8]の2行目| beta_0 \\(  \Longrightarrow \\) zeta_0 | https://github.com/ryuichiueda/LNPR/issues/1 |すみません！下の計算結果は、運の良いことにわずかに違うだけになります。|
+
+## 第6刷で訂正済み
+
+
+|場所|訂正事項|発見者|一言|
+|:---|:-----|------|:-----|
+|p.247 12行目|消費電力量を0からマイナスしたものに-1をかけたものを \\( \Longrightarrow \\)消費電力量に-1をかけたものを|<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/ryuichiueda?ref_src=twsrc%5Etfw">@ryuichiueda</a> 様、<br> 『詳解確率ロボティクス』(第1刷)について質問です。<br><br>第10章 p.247 の赤線部分（写真）。ここは、<br>「消費電力量を0からマイナスしたものを r に使うと」<br>もしくは、<br>「消費電力量に-1をかけたものを r に使うと」<br>の間違いではないでしょうか？<br><br> <a href="https://twitter.com/hashtag/%E8%A9%B3%E8%A7%A3%E7%A2%BA%E7%8E%87%E3%83%AD%E3%83%9C%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9?src=hash&amp;ref_src=twsrc%5Etfw">#詳解確率ロボティクス</a> <a href="https://t.co/y7NnKGVg6p">pic.twitter.com/y7NnKGVg6p</a></p>&mdash; Shuuji Kajita (@s_kajita) <a href="https://twitter.com/s_kajita/status/1485847884314537988?ref_src=twsrc%5Etfw">January 25, 2022</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>|いとこのいとこは自分だみたいな文になってますね・・・|
 
 ## 第5刷で訂正済み
 
