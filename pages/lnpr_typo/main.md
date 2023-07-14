@@ -3,7 +3,77 @@ Keywords: 詳解確率ロボティクス
 Copyright: (C) Ryuichi Ueda
 ---
 
-# 詳解確率ロボティクスの訂正
+# 詳解確率ロボティクスの訂正・コードのアップデート
+
+## コードのアップデート
+
+こちらはGitHubのコードに随時反映しています。本の内容については、もし第2版が出たらそのときにアップデートします。アップデート前のコードについては、横にコメントアウトして残してあるので、もし動かないときは、そちらのコードを試してみてください。
+
+### [section_sensor/lidar_200.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_200.ipynb)セル[9]
+
+Pandas 2.x系で、前のセルの`value_count`が集計した列に`count`と名前をつけるようになったことに対するコードの修正。
+
+```python
+freqs["probs"] = freqs["count"]/len(freqs["count"]) # 古いバージョン: freqs["probs"] = freqs["lidar"]/len(data["lidar"]) ###addprobs###
+freqs.transpose()
+```
+
+#### 情報提供
+
+<blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="ja" dir="ltr">lidar_200.ipynbの9のfreq[“lidar”]で失敗します。<br>8のDataframeを作る際にvalue_countからの返り値を渡してますが、これにcountという名前がつくようになったためっぽいです。</p>&mdash; 女児 (@YuK_Ota) <a href="https://twitter.com/YuK_Ota/status/1652485372444803072?ref_src=twsrc%5Etfw">April 30, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+ありがとうございます。
+
+### [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[8]
+
+seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。このコードで動かない場合は、`matplotlib`もアップデートが必要。
+
+```python
+sns.jointplot(data, x="hour", y="lidar", kind="kde") #古いバージョン: sns.jointplot(data["hour"], data["lidar"], data, kind="kde")
+plt.show()
+```
+
+### [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[11]
+
+pandas（2.x）でデータが自動でソートされなくなったことへの対応。`sort_values`をくっつけました。
+
+```python
+p_z = pd.DataFrame(probs.transpose().sum()).sort_values("lidar")  #行と列を転置して各列を合計 #旧バージョン: p_z = pd.DataFrame(probs.transpose().sum())
+p_z.plot()
+p_z.transpose()
+```
+
+### [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[13]
+
+上の訂正と同じ理由。
+
+```python
+cond_z_t = (probs/p_t[0]).sort_values("lidar")  #列（時間）ごとにP(t)で割るとP(x|t)となる   ###lidar600cond #旧バージョン: cond_z_t = probs/p_t[0]
+cond_z_t
+```
+
+
+### [section_sensor/multi_gauss1.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/multi_gauss1.ipynb)セル[1]最後から2行目
+
+seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。このコードで動かない場合は、`matplotlib`もアップデートが必要。
+
+```python
+（略）
+sns.jointplot(d, x="ir", y="lidar", kind="kde") #旧バージョン: sns.jointplot(d["ir"], d["lidar"], d, kind="kde")
+plt.show()
+```
+
+### [section_sensor/multi_gauss2.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/multi_gauss2.ipynb)セル[2]
+
+seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。このコードで動かない場合は、`matplotlib`もアップデートが必要。
+
+```python
+sns.jointplot(d, x="ir", y="lidar", kind="kde") #度数分布を描画 #旧バージョン: sns.jointplot(d["ir"], d["lidar"], d, kind="kde")
+d.cov()
+```
+
+## 訂正事項
 
 |場所|訂正事項|発見者|一言|
 |:---|:-----|------|:-----|
@@ -17,7 +87,7 @@ Copyright: (C) Ryuichi Ueda
 |:---|:-----|------|:-----|
 |p.247 12行目|消費電力量を0からマイナスしたものに-1をかけたものを \\( \Longrightarrow \\)消費電力量に-1をかけたものを|<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/ryuichiueda?ref_src=twsrc%5Etfw">@ryuichiueda</a> 様、<br> 『詳解確率ロボティクス』(第1刷)について質問です。<br><br>第10章 p.247 の赤線部分（写真）。ここは、<br>「消費電力量を0からマイナスしたものを r に使うと」<br>もしくは、<br>「消費電力量に-1をかけたものを r に使うと」<br>の間違いではないでしょうか？<br><br> <a href="https://twitter.com/hashtag/%E8%A9%B3%E8%A7%A3%E7%A2%BA%E7%8E%87%E3%83%AD%E3%83%9C%E3%83%86%E3%82%A3%E3%82%AF%E3%82%B9?src=hash&amp;ref_src=twsrc%5Etfw">#詳解確率ロボティクス</a> <a href="https://t.co/y7NnKGVg6p">pic.twitter.com/y7NnKGVg6p</a></p>&mdash; Shuuji Kajita (@s_kajita) <a href="https://twitter.com/s_kajita/status/1485847884314537988?ref_src=twsrc%5Etfw">January 25, 2022</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>|いとこのいとこは自分だみたいな文になってますね・・・|
 
-## 第5刷で訂正済み
+### 第5刷で訂正済み
 
 |場所|訂正事項|発見者|一言|
 |:---|:-----|------|:-----|
@@ -27,7 +97,7 @@ Copyright: (C) Ryuichi Ueda
 |p.96 `noise_simulation7` `.ipynb [3]` 19行目、p.97 `noise_simulation8` `.ipynb [3]` 26行目、p.98 `noise_simulation9` `.ipynb [3]` 31、38行目、p.99 `noise_simulation10` `.ipynb [3]` 47行目、p.127 `mcl11.ipynb [2]` 19行目| `relative_polar_pos` $$\longrightarrow$$ `observation_function`|<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">p.96: noise_simulation7.ipynb [3] 19行目、p.97: noise_simulation8.ipynb [3] 26行目、p.98: noise_simulation9.ipynb [3] 31行目, 38行目、p.99: noise_simulation10.ipynb [3] 47行目、p.100: noise_simulation11.ipynb [3] 55行目。</p>&mdash; Usk Tamura (@slx01) <a href="https://twitter.com/slx01/status/1300956652661665792?ref_src=twsrc%5Etfw">September 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>|コードの差し替えミスでした。|
 |p.173 式(7.33)、式(7.35)|\\( (1-\tilde{N})/N \\) \\( \Longrightarrow \\)  \\( (N-\tilde{N})/N \\)|<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">詳解確率ロボティクスのp173のP(Υ=1)とP(Υ=0)の和が1にならないのはなんでや…<br>誰か有能な方教えてください</p>&mdash; M (@p_x9) <a href="https://twitter.com/p_x9/status/1303375562061176833?ref_src=twsrc%5Etfw">September 8, 2020</a></blockquote>|算数は苦手です。|
 
-## 第4刷で訂正済み
+### 第4刷で訂正済み
 
 |場所|訂正事項|発見者|一言|
 |:---|:-----|------|:-----|
@@ -45,7 +115,7 @@ Copyright: (C) Ryuichi Ueda
 |p.364 脚注2|共分散行列 \\( \Longrightarrow \\) 半正定値対称行列|<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/ryuichiueda?ref_src=twsrc%5Etfw">@ryuichiueda</a>  唐突なツイート失礼します詳解確率ロボティクスの内容について質問です。<br>P364の注2に「B.1.5項の結果から共分散行列と解釈できます」と記載されてますが、半正定値対称行列ではないでしょうか？<br>そうなるとΨが対称行列になるので納得します。</p>&mdash; と雷 (@chmod_x_akasit) <a href="https://twitter.com/chmod_x_akasit/status/1272103493101223936?ref_src=twsrc%5Etfw">June 14, 2020</a></blockquote>|もう少し補足すると共分散行列ではなくて精度行列です。|
 
 
-## 第3刷で訂正済み
+### 第3刷で訂正済み
 
 |場所|訂正事項|発見者|一言|
 |:---|:-----|------|:-----|
@@ -71,7 +141,7 @@ Copyright: (C) Ryuichi Ueda
 |p.380 [Kalman 1960]|Roudolf$$\longrightarrow$$Rudolf||すみません！|
 |p.382 [Sutton 1996]|Advannces$$\longrightarrow$$Advances||Macのキーボードが・・・|
 
-## 第2刷で訂正済み
+### 第2刷で訂正済み
 
 |場所|訂正事項|発見者|一言  |
 |:---|:-----|------|:-----|
