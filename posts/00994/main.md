@@ -8,7 +8,7 @@ Copyright: (C) 2017 Ryuichi Ueda
 全部まわったわけではないですが、一人で自転車をこぐというネクラな趣味を持っている同志にはオススメなので、写真を貼付けます。
 <h2>順路</h2>
 鶴見駅を出発し、八丁畷まで反時計回りで巡りました。鶴見駅から八丁畷まで1時間半程度でゆっくり移動。道路の上は確実に40℃超。自転車に乗っていると爽快でしたが、カゴに入れたスポーツドリンクは熱い飲み物になり、iPhoneも放熱が進まず、やけどしそうなくらい蓄熱しておりました。
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="/posts/00994https://maps.google.co.jp/?ie=UTF8&amp;ll=35.508055,139.695625&amp;spn=0.051004,0.090466&amp;t=m&amp;z=13&amp;brcurrent=3,0x60185defe614082f:0xffe94e0a864405f3,1&amp;output=embed"></iframe><br /><small><a href="/posts/00994https://maps.google.co.jp/?ie=UTF8&amp;ll=35.508055,139.695625&amp;spn=0.051004,0.090466&amp;t=m&amp;z=13&amp;brcurrent=3,0x60185defe614082f:0xffe94e0a864405f3,1&amp;source=embed" style="color:#0000FF;text-align:left">大きな地図で見る</a></small>
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.jp/?ie=UTF8&amp;ll=35.508055,139.695625&amp;spn=0.051004,0.090466&amp;t=m&amp;z=13&amp;brcurrent=3,0x60185defe614082f:0xffe94e0a864405f3,1&amp;output=embed"></iframe><br /><small><a href="https://maps.google.co.jp/?ie=UTF8&amp;ll=35.508055,139.695625&amp;spn=0.051004,0.090466&amp;t=m&amp;z=13&amp;brcurrent=3,0x60185defe614082f:0xffe94e0a864405f3,1&amp;source=embed" style="color:#0000FF;text-align:left">大きな地図で見る</a></small>
 <h2>国道駅</h2>
 国道沿いにあるから国道駅。安直である。
 [caption id="attachment_1001" align="aligncenter" width="3264"]<a href="/posts/00994/写真-2013-08-10-15-12-54.jpg"><img src="/posts/00994/写真-2013-08-10-15-12-54.jpg" alt="国道駅" width="3264" height="2448" class="size-full wp-image-1001" /></a> 国道駅[/caption]
