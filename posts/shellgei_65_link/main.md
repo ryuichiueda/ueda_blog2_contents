@@ -39,6 +39,10 @@ Discordで開発の報告をいただきました。そのあとみんなでbot�
 
 ## ブログなど
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a><br>第65回シェル芸勉強会に参加しました - たいちょーの雑記 <a href="https://t.co/QOfH0KhdTY">https://t.co/QOfH0KhdTY</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1683024193351450625?ref_src=twsrc%5Etfw">July 23, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ## 今回のtakaさん
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">シェル芸勉強会参加登録しただけで偽初心者扱いされて酷い……第65回の参加はこれが初めてなのに…</p>&mdash; taka@SIではたらいてたフレンズ (@amanoese) <a href="https://twitter.com/amanoese/status/1678819252143529984?ref_src=twsrc%5Etfw">July 11, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
