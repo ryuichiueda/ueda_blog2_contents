@@ -5,7 +5,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 # jus共催 第65回シェル芸勉強会リンク集
 
-　2023年7月22日（土）に東京、大手町の[NTTコミュニケーションズ](https://www.ntt.com/index.html)さんで開催しました。やべえさんはじめ、会場担当の皆様、ありがとうございました！大阪サテライトは主催者のsoさん体調不良のため、中止になりました。
+　2023年7月22日（土）に東京、大手町の[NTTコミュニケーションズ](https://www.ntt.com/index.html)さんで開催しました。[やべえ](https://mi.shellgei.org/@yabeenico)さん、[@kmhr](https://mi.shellgei.org/@kmhr)さん、ありがとうございました！大阪サテライトは主催者のsoさん体調不良のため、中止になりました。
 
 ## 記録
 
