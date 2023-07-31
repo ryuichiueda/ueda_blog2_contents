@@ -42,6 +42,10 @@ Discordで開発の報告をいただきました。そのあとみんなでbot�
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">はてなブログに投稿しました <a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a><br>第65回シェル芸勉強会に参加しました - たいちょーの雑記 <a href="https://t.co/QOfH0KhdTY">https://t.co/QOfH0KhdTY</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1683024193351450625?ref_src=twsrc%5Etfw">July 23, 2023</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">デフォルトで`/usr/share/dict/words`を見に行くという`look`コマンドの使いみちが今一つよく分からないのだが……<br><br>【自習】第65回シェル芸勉強会【この夏はsed、awk、grepに強くなる】 - KEEP CALM AND rm -rf /* <a href="https://t.co/AI46gOWpIX">https://t.co/AI46gOWpIX</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; 日柳 光久 (要介護5在宅介護中) (@mikkun_jp) <a href="https://twitter.com/mikkun_jp/status/1685688909513285632?ref_src=twsrc%5Etfw">July 30, 2023</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 
 ## 今回のtakaさん
 
