@@ -5,13 +5,16 @@ Copyright: (C) Ryuichi Ueda
 
 # 出版物リスト（書籍・商業誌等）
 
-[<i class="fa fa-book fa-beat"></i>購入はこちらから。<i class="fa fa-book fa-beat"></i><i class="fa fa-external-link"></i>](https://www.amazon.co.jp/shop/ryuichiueda)
 
 ## 連載中
+
+[<i class="fa fa-book"> </i>購入はこちらから。<i class="fa fa-external-link"></i>](https://www.amazon.co.jp/shop/ryuichiueda/list/7MLC9JANITU0?ref_=aip_sf_list_spv_ofs_mixed_d)
 
 * [魅惑の自作シェルの世界](/?page=rusty_bash), Software Design, 技術評論社, 2022年12月号〜
 
 ## 著書・翻訳書
+
+[<i class="fa fa-book"> </i>購入はこちらから。<i class="fa fa-external-link"></i>](https://www.amazon.co.jp/shop/ryuichiueda)
 
 ### 2021
 
