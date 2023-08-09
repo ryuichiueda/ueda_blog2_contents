@@ -5,9 +5,7 @@ Copyright: (C) Ryuichi Ueda
 
 # 出版物リスト（書籍・商業誌等）
 
-<span style="color:red;font-size:150%">
-[購入はこちらから。](https://www.amazon.co.jp/shop/ryuichiueda)
-</span>
+[<i class="fa-solid fa-book fa-beat"></i>購入はこちらから。<i class="fa-solid fa-book fa-beat"></i>](https://www.amazon.co.jp/shop/ryuichiueda)
 
 ## 連載中
 
