@@ -5,8 +5,7 @@ Copyright: (C) Ryuichi Ueda
 
 # 魅惑の自作シェルの世界
 
-　技術評論社Software Designにて2022年12月号より連載中。
-
+　技術評論社Software Designにて2022年12月号より連載中。[購入はこちらからできます！](https://www.amazon.co.jp/shop/ryuichiueda/list/7MLC9JANITU0?ref_=aip_sf_list_spv_ofs_mixed_d)
 
 ## 記事に出てくる用語集
 
