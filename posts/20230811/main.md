@@ -16,7 +16,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 　[このページのアップデート方法](https://misskey-hub.net/docs/install/manual.html#misskey%E3%81%AE%E3%82%A2%E3%83%83%E3%83%95%E3%82%9A%E3%83%86%E3%82%99%E3%83%BC%E3%83%88%E6%96%B9%E6%B3%95)の`NODE_ENV=production pnpm run build`をしているときに、次のようなエラーが出ました。
 
-<iframe src="https://embed.misskey.io/notes/9i9xcoi9kp"></iframe>
+<iframe src="https://misskey.io/notes/9i9xcoi9kp"></iframe>
 https://misskey.io/notes/9i9xcoi9kp
 
 
