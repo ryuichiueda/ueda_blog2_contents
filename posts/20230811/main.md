@@ -3,7 +3,7 @@ Keywords: 日記, Misskey
 Copyright: (C) 2023 Ryuichi Ueda
 ---
 
-# 日記（2023年8月11日。書きかけ）
+# 日記（2023年8月11日）
 
 　Misskeyのサーバーいじりと小銭稼ぎの話。
 
