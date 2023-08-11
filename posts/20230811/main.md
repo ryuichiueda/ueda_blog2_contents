@@ -16,8 +16,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 　[このページのアップデート方法](https://misskey-hub.net/docs/install/manual.html#misskey%E3%81%AE%E3%82%A2%E3%83%83%E3%83%95%E3%82%9A%E3%83%86%E3%82%99%E3%83%BC%E3%83%88%E6%96%B9%E6%B3%95)の`NODE_ENV=production pnpm run build`をしているときに、次のようなエラーが出ました。
 
-<iframe src="https://misskey.io/notes/9i9xcoi9kp"></iframe>
-https://misskey.io/notes/9i9xcoi9kp
+* https://misskey.io/notes/9i9xcoi9kp
 
 
 `FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory`ということなので、ビルドのためのメモリが足らないと。そりゃ最近のメモリバカ食いシステムだと1GBは辛いですね・・・。
@@ -34,3 +33,6 @@ https://misskey.io/notes/9i9xcoi9kp
 キャッシュ自体は`misskey`のリポジトリの`files`の下にできます。
 
 
+## Amazonの自分のページ
+
+　アフィリエイトのせこい話ですが、[Amazonから自分のページを作れと言われて作りました](https://www.amazon.co.jp/shop/ryuichiueda)。どうやってこのページに誘導するのか謎すぎるのですが、いろいろなくくりで本を紹介するときに便利そうです。
