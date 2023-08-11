@@ -22,7 +22,7 @@ https://misskey.io/notes/9i9xcoi9kp
 
 `FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory`ということなので、ビルドのためのメモリが足らないと。そりゃ最近のメモリバカ食いシステムだと1GBは辛いですね・・・。
 
-　でhttps://github.com/vitejs/vite/issues/2433 に、このエラーに関する記述があったので、`export NODE_OPTIONS=--max-old-space-size=メモリの容量（単位: MB）`と打ってから`pnpm run build`すればよいと分かりました。
+　で https://github.com/vitejs/vite/issues/2433 に、このエラーに関する記述があったので、`export NODE_OPTIONS=--max-old-space-size=メモリの容量（単位: MB）`と打ってから`pnpm run build`すればよいと分かりました。
 
 　で、512MBとか制限してやればいいのかなーと思って試したら駄目だったので、スワップ合わせてもそんなにメモリはないのに`export NODE_OPTIONS=--max-old-space-size=4000`（4GB弱）とハッタリをかましたら、ビルドがうまくいきました。なんじゃそりゃ。
 
