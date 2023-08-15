@@ -11,6 +11,10 @@ Copyright: (C) Ryuichi Ueda
 
 ## インタビューのようなもの
 
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">びじねすりーだーです。<br><br>ビジネスリーダーに聞いた「私とThinkPad」(4) ロボット研究とともに、常に手元にあったThinkPad――千葉工業大学 先進工学部 准教授 上田 隆一 氏 | TECH+（テックプラス） <a href="https://t.co/DESllsI0Zx">https://t.co/DESllsI0Zx</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1562622118570823681?ref_src=twsrc%5Etfw">August 25, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">インタビュー　上田先生に訊く」上田先生と上田研は謎が多いのですが I – トピックス | CIT未来ロボティクス学科 <a href="https://t.co/CXeL7xwupV">https://t.co/CXeL7xwupV</a> <a href="https://twitter.com/robo_cit">@robo_cit</a>さんから</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/884945498255183873">July 12, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
