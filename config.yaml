@@ -16,7 +16,7 @@ facebook: '@'
 hatena: '@'
 pocket: '@'
 favicon: '/pages/top/favicon.ico'
-#line: '@'
+line: '@'
 sidecards:
 - title: '研究室 <i class="fa fa-external-link"></i>'
   image: '/pages/top/lab.jpg'
