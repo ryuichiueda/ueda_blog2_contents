@@ -22,7 +22,13 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 他の人にもちらほら使っていただいているので、論文が出たらこっそりおしえていただければ幸いです。
 
+## Misskeyへのシェアボタン
+
+　自分のサイトに、[MisskeyShare](https://misskeyshare.link/introduce.html)のボタンを置きました。このページにもある、右上の<img src="https://misskeyshare.link/image/mi.webp" />がそれです。
+
 ## ads.txt置いた
+
+　もうひとつサイトのテコ入れの話です。
 
 　数年前までこのサイトには広告（AdSense）がついていたのですが、最近は`ads.txt`問題があって掲載をやめていました。`ads.txt`というのは、広告を載せるサイトが公正なものか確認するためのテキストファイルで、Googleにサイトの **トップレベルドメイン** （この場合はjpとかcomとかのことではなく、b.ueda.techの場合はueda.techなどホスト名のつかないドメイン） に置けと言われていて、どうやってやるのかよく分からず放置していました。
 
