@@ -5,7 +5,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 # 日記（2023年8月15日）
 
-　科研費の申請書を書いて、本の校正をして、読書をして、疲れて自分のサイトのテコ入れをしました。
+　科研費の申請書を書いて、本の校正をして、読書をして、疲れて自分のサイトのテコ入れをしました。終戦記念日だったのですが、あまり自分にはできることもないので、本の脚注に「独裁者は個々の人の人生を覆い隠すように統計を使うので、その歴史を学んで過ちは繰り返さないように」と書いておきました。
 
 ## 読書
 
@@ -24,7 +24,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 ## Misskeyへのシェアボタン
 
-　自分のサイトに、[MisskeyShare](https://misskeyshare.link/introduce.html)のボタンを置きました。このページにもある、右上の<img src="https://misskeyshare.link/image/mi.webp" />がそれです。
+　自分のサイトに、[MisskeyShare](https://misskeyshare.link/introduce.html)のボタンを置きました。このページにもある、右上の「Miノート」と書いてあるボタンがそれです。
 
 ## ads.txt置いた
 
