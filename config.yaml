@@ -10,7 +10,9 @@ headline:
 - text: '<a href="/?page=shellgei160">シェル・ワンライナー160本ノックはなんか知らんけどすごく売れてます。現在第4刷</a>'
 twitter:
 - account: 'ryuichiueda'
-#facebook: '@'
+misskey:
+- account: '@ryuichiueda@misskey.io'
+facebook: '@'
 hatena: '@'
 pocket: '@'
 favicon: '/pages/top/favicon.ico'
