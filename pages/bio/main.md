@@ -20,8 +20,7 @@ Copyright: (C) Ryuichi Ueda
 
 ## イベントに参加したときの動画
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">イベント等の動画 <a href="https://t.co/dFMAkQFW7A">https://t.co/dFMAkQFW7A</a> <a href="https://twitter.com/ryuichiueda">@ryuichiueda</a>さんから</p>&mdash; Ryuichi Ueda (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/884946431416557568">July 12, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">イベント等の動画 | 上田ブログ <a href="https://t.co/HQIfZAT4q4">https://t.co/HQIfZAT4q4</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1691413391267766272?ref_src=twsrc%5Etfw">August 15, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## 各種プロフィール
 
