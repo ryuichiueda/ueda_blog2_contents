@@ -33,7 +33,7 @@ sidecards:
 - title: '売店 <i class="fa fa-external-link"></i>'
   image: '/pages/top/books.png'
   href: 'https://www.amazon.co.jp/shop/ryuichiueda'
-  text: '関わったものや好きなものの販売（Amazonの個人ショップ）'
+  text: '関わったものや好きなもの（Amazonの個人ショップ）'
 - title: '自作シェル'
   image: '/pages/top/ku_the_cat.jpg'
   href: '/?page=rusty_bash'
