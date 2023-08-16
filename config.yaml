@@ -31,7 +31,7 @@ sidecards:
   href: '/?page=01434'
   text: '過去問、過去のビデオ、書籍など'
 - title: '売店 <i class="fa fa-external-link"></i>'
-  image: '/pages/top/blackbd.jpg'
+  image: '/pages/top/books.png'
   href: 'https://www.amazon.co.jp/shop/ryuichiueda'
   text: '自分のものや気に入ったものを売ってます（Amazonの個人ショップ）'
 - title: '自作シェル'
