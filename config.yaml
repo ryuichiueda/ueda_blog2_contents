@@ -1,7 +1,7 @@
 protocol: 'https:'
 host: 'b.ueda.tech'
 sitetitle: '上田ブログ'
-subtitle: '研究者、ライターの上田隆一のサイト（Bash製）です。'
+subtitle: '研究者兼物書きの上田隆一のサイト（Bash製）です。'
 headline:
 - text: '<a href="/?page=rusty_bash">SoftwareDesign誌で連載を再開しました。</a>'
 - text: '<a href="https://news.mynavi.jp/techplus/kikaku/leaders_thinkpad-4/">ThinkPadの広告記事に出ました。</a>'
