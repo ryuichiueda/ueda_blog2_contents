@@ -10,10 +10,10 @@ Copyright: (C) 2022 Ryuichi Ueda
 * [お前誰？](/?page=news)
 
 <div class="row">
-    <!-- <div class="col-md-6"> -->
+    <div class="col-md-12">
         <h2 id="latest">最近の記事</h2>
         <!--TOP10-->
-    <!-- </div> -->
+    </div>
     <!--
     <div class="col-md-6">
         <h2 id="info">告知など</h2>
