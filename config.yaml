@@ -3,7 +3,7 @@ host: 'b.ueda.tech'
 sitetitle: '上田ブログ'
 subtitle: '研究者兼物書きの上田隆一のサイト（Bash製）です。'
 headline:
-- text: '<a href="https://amazon.com/shop/ryuichiueda">Amazonで本を売ってます。<i class="fa fa-external-link"></i></a>'
+- text: '<a href="https://amazon.co.jp/shop/ryuichiueda">Amazonで本を売ってます。<i class="fa fa-external-link"></i></a>'
 - text: '<a href="/?page=rusty_bash">SoftwareDesign誌で連載を再開しました。</a>'
 - text: '<a href="https://news.mynavi.jp/techplus/kikaku/leaders_thinkpad-4/">ThinkPadの広告記事に出ました。<i class="fa fa-external-link"></i></a>'
 - text: '<a href="https://github.com/shellgei/rusty_bash">Bashのクローン作ってるので誰か手伝って！</a>'
