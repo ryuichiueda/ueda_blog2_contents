@@ -5,7 +5,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 # Software Design9月号自作シェルの世界
 
-　発売されました。自分の連載「[魅惑の自作シェルの世界](/?page=sd_rusty_bash)」が載ってます。・・・と、いつもブログがこの程度の情報量で終わってるような気がするので、今回は真面目に記事の説明をします。
+　Software Design 9月号が発売されました。自分の連載「[魅惑の自作シェルの世界](/?page=sd_rusty_bash)」が載ってます。・・・と、いつもブログがこの程度の情報量で終わってるような気がするので、今回は真面目に記事の説明をします。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">「魅惑の自作シェルの世界」もちろん今月も載っています！（Software Design 2023年9月号）<br>前号につづき、パイプライン処理を実装していきます。<a href="https://t.co/Vtpd0ebk9v">https://t.co/Vtpd0ebk9v</a> <a href="https://t.co/lfY8PiGwku">https://t.co/lfY8PiGwku</a> <a href="https://t.co/r9jS9iPdhK">pic.twitter.com/r9jS9iPdhK</a></p>&mdash; SoftwareDesign (@gihyosd) <a href="https://twitter.com/gihyosd/status/1692356276611887474?ref_src=twsrc%5Etfw">August 18, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
