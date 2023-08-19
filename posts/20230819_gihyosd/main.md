@@ -3,7 +3,7 @@ Keywords: 自作シェル, bash, 連載, Software Design
 Copyright: (C) 2023 Ryuichi Ueda
 ---
 
-# Software Design 9月号
+# Software Design9月号自作シェルの世界
 
 　発売されました。自分の連載「[魅惑の自作シェルの世界](/?page=sd_rusty_bash)」が載ってます。・・・と、いつもブログがこの程度の情報量で終わってるような気がするので、今回は真面目に記事の説明をします。
 
