@@ -1,5 +1,5 @@
 ---
-Keywords: 執筆, 書籍, 増版
+Keywords: 日記, 執筆, 書籍, 増版
 Copyright: (C) 2023 Ryuichi Ueda
 ---
 
