@@ -9,7 +9,7 @@ Copyright: (C) Ryuichi Ueda
 
 ## どんな連載なのか？
 
-* [説明書きました](/?=post=20230819_gihyosd)
+* [説明書きました](/?post=20230819_gihyosd)
 
 ## 記事に出てくる用語集
 
