@@ -7,4 +7,5 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 　見本をいただきました。
 
-![](https://mi.shellgei.org/files/webpublic-867f0c19-4f5d-4dcf-a2ac-41e5870269fchttps://mi.shellgei.org/files/webpublic-867f0c19-4f5d-4dcf-a2ac-41e5870269fc)
+
+![](https://mi.shellgei.org/files/webpublic-867f0c19-4f5d-4dcf-a2ac-41e5870269fc)
