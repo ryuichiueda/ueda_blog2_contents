@@ -7,6 +7,10 @@ Copyright: (C) Ryuichi Ueda
 
 　技術評論社Software Designにて2022年12月号より連載中。[購入はこちらからできます！](https://www.amazon.co.jp/shop/ryuichiueda/list/7MLC9JANITU0?ref_=aip_sf_list_spv_ofs_mixed_d)
 
+## どんな連載なのか？
+
+* [説明書きました](/?=post=20230819_gihyosd)
+
 ## 記事に出てくる用語集
 
 ### シェルの用語
