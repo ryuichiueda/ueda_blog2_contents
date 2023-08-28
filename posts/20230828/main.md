@@ -26,6 +26,6 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 ## サイトのGDPRのメッセージをオレオレメッセージからAdSenseのものにした
 
-　[GDPR](https://www.ppc.go.jp/enforcement/infoprovision/EU/)対応（ナンチャッテ）でいままでこのサイトにCookieを使うぞという旨のワーニングを出していたのを、AdSenseの機能に切り替えました。[かなり文面がギョウギョウしい](https://misskey.io/notes/9iyechk7c7)もので躊躇したんですが、国内からアクセスしても出ないとどこかに書いてあったので、じゃあこっちのほうがいいやということで設定しました。
+　[GDPR](https://www.ppc.go.jp/enforcement/infoprovision/EU/)対応（ナンチャッテ）でいままでこのサイトにCookieを使うぞという旨のワーニングを出していたのを、AdSenseの機能に切り替えました。自分のサイトをいじらなくても、Googleがワーニングの画面を然るべき状況で挿入してくれます。[かなり文面がギョウギョウしい](https://misskey.io/notes/9iyechk7c7)もので躊躇したんですが、国内からアクセスしても出ないとどこかに書いてあったので、じゃあこっちのほうがいいやということで設定しました。
 
 ・・・しかし、本当に設定したとおりワーニングが出るのか、国内からだと確認できない・・・
