@@ -1,5 +1,5 @@
 ---
-Keywords: 日記, コンテスト
+Keywords: 日記, コンテスト, GDPR, サイト管理
 Copyright: (C) 2023 Ryuichi Ueda
 ---
 
