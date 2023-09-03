@@ -73,7 +73,29 @@ cat: /dev/fd/9: そのようなファイルやディレクトリはありませ�
 
 ### どういうこと？
 
+* 既存のファイルに入力用のFD割当
 
+```bash
+$ exec {hoge}</etc/hostname #bashのプロセスで/etc/hostnameにFD割当て
+$ echo $hoge                #hogeに番号が入る
+13
+$ cat /dev/fd/$hoge         #使ってみる
+uedap1
+$ exec {hoge}<&-            #閉じる
+$ cat /dev/fd/$hoge
+cat: /dev/fd/13: そのようなファイルやディレクトリはありません
+```
+
+* 出力用のファイルにFD割当
+
+```bash
+$ exec {fuge}>~/file  #~/fileというファイルにFD割当
+$ echo $fuge          #fugeにFDが入る
+13
+$ echo aaaa >&$fuge  #FD使う
+$ cat ~/file         #ファイルに字が入る
+aaaa
+```
 
 * https://mi.shellgei.org/notes/9h0kg95jdv
 
