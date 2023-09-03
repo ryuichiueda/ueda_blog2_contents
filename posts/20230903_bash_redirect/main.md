@@ -57,17 +57,25 @@ cba
 ### ファイル記述子を閉じる例
 
 ```bash
-### 標準出力を閉じて出力してみる（エラー） ###
-$ ls >&-                               
-ls: 書き込みエラー: 不正なファイル記述子です
-### 標準出力を閉じてエラーだけ出力してみる（OK） ###
-$ ls aaaa >&-
-ls: 'aaaa' にアクセスできません: そのようなファイルやディレクトリはありません
-### 標準エラー出力を閉じてエラーを出力してみる（出力が消える） ###
-### エラーにならないのはlsがエラー出力を諦めるからかもしれない ###
-$ ls aaaa /etc/passwd 2>&-
-/etc/passwd
+$ exec 9</etc/hostname
+$ cat /dev/fd/9
+uedap1
+$ exec 9<&-
+$ cat /dev/fd/9
+cat: /dev/fd/9: そのようなファイルやディレクトリはありません
 ```
+
+## {varname}の使い方
+
+| 用法             | 文字                     |
+|:-----------------|:-------------------------|
+| {hoge}<file, {hoge}>file | fileにファイル記述子を与えてhogeにその番号を格納 |
+
+### どういうこと？
+
+
+
+* https://mi.shellgei.org/notes/9h0kg95jdv
 
 参考: https://unix.stackexchange.com/questions/70963/difference-between-2-2-dev-null-dev-null-and-dev-null-21
 
