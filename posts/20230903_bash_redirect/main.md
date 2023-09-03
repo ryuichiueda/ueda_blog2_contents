@@ -3,7 +3,7 @@ Keywords: Bash, 連載
 Copyright: (C) 2023 Ryuichi Ueda
 ---
 
-# Bashのリダイレクトに関するメモ
+# Bashのリダイレクト（ニッチなもの含む）に関するメモ
 
 　連載のための調べものです。
 
