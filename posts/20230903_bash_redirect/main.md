@@ -18,4 +18,19 @@ Copyright: (C) 2023 Ryuichi Ueda
 | <<< | ヒアストリング |
 | <> | 読み書き |
 
+### <>の使い方
+
+[シェル・ワンライナー160本ノック](https://amzn.to/3P0UxaS)に、次のような利用例が示されている。
+
+```bash
+$ exec 3<> /dev/tcp/f.ueda.tech/80        #このBashのプロセスのFD3を読み書きモードで開く
+$ echo -ne "GET /eki/ HTTP/1.0\\n\\n" >&3 # http://f.ueda.techにリクエストを送信
+$ cat <&3                                 #送られてきたデータを表示
+HTTP/1.1 200 OK
+Server: nginx/1.19.6
+（略）
+<!DOCTYPE html>
+（略。HTMLのデータが出力される）
+```
+
 
