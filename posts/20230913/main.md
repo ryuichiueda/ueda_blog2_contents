@@ -12,4 +12,5 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 　出回ってます。
 
-<img width="50%" src="https://mi0.robotician.jp/files/webpublic-dd626754-1068-4140-9720-2ab0bfc9e0ec" />
+<a href="https://mi0.robotician.jp/notes/9je59sajaf">
+<img width="50%" src="https://mi0.robotician.jp/files/webpublic-dd626754-1068-4140-9720-2ab0bfc9e0ec" /></a>
