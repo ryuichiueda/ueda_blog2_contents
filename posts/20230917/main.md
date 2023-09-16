@@ -31,3 +31,13 @@ Copyright: (C) 2023 Ryuichi Ueda
 どんまい。
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">外野から失礼します。<br>他の方のツイートにもリプしたのですが、パチンコ屋では「お約束」となっています。 <a href="https://t.co/wQYwlFLdkU">pic.twitter.com/wQYwlFLdkU</a></p>&mdash; ムッツリ商会🇺🇦 (@Muttsurishoukai) <a href="https://twitter.com/Muttsurishoukai/status/1310041553608626176?ref_src=twsrc%5Etfw">September 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+## コードの良し悪し
+
+　現場にいるとイライラする「他人のコードが汚い」問題なんですが、愚痴りたくなるのはとてもわかるし、愚痴ってほしいところです。が、愚痴に便乗して持論を展開する人は、自分より能力が高い人間を現場から排除するような方向に話を持っていきたいというのが心の奥底にあるみたいに見えます。少なくともそうでないということが分かるくらいの客観性は必要かなと。
+
+　というのは自分の心が汚いからそう思うのかもしれません。しかし、他人のことをああだこうだ言うようなことは、基本、他者を排除することにつながりかねないので、慎重さは必要ではないかなと。労働者側がマネージメントのしやすさを全面に押し出して排斥運動をした例は、ポルポト派とか紅衛兵とか、いろいろ例がありますし。
+
+
+ということで、良い休日を。
