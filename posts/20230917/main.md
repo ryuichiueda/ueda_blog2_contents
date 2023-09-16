@@ -30,5 +30,4 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 どんまい。
 
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">外野から失礼します。<br>他の方のツイートにもリプしたのですが、パチンコ屋では「お約束」となっています。 <a href="https://t.co/wQYwlFLdkU">pic.twitter.com/wQYwlFLdkU</a></p>&mdash; ムッツリ商会🇺🇦 (@Muttsurishoukai) <a href="https://twitter.com/Muttsurishoukai/status/1310041553608626176?ref_src=twsrc%5Etfw">September 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">外野から失礼します。<br>他の方のツイートにもリプしたのですが、パチンコ屋では「お約束」となっています。 <a href="https://t.co/wQYwlFLdkU">pic.twitter.com/wQYwlFLdkU</a></p>&mdash; ムッツリ商会🇺🇦 (@Muttsurishoukai) <a href="https://twitter.com/Muttsurishoukai/status/1310041553608626176?ref_src=twsrc%5Etfw">September 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
