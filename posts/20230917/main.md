@@ -33,6 +33,9 @@ Copyright: (C) 2023 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">外野から失礼します。<br>他の方のツイートにもリプしたのですが、パチンコ屋では「お約束」となっています。 <a href="https://t.co/wQYwlFLdkU">pic.twitter.com/wQYwlFLdkU</a></p>&mdash; ムッツリ商会🇺🇦 (@Muttsurishoukai) <a href="https://twitter.com/Muttsurishoukai/status/1310041553608626176?ref_src=twsrc%5Etfw">September 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+　そういえば金の玉のパチンコ玉が家にひとつだけあって、それは私の宝物でした。家に父親がなんかのはずみで家に持ち帰ってきたものと思われます。
+
+
 ## コードの良し悪し
 
 　現場にいるとイライラする「他人のコードが汚い」問題なんですが、愚痴りたくなるのはとてもわかるし、愚痴ってほしいところです。が、愚痴に便乗して持論を展開する人は、自分より能力が高い人間を現場から排除するような方向に話を持っていきたいというのが心の奥底にあるみたいに見えます。たぶん本人も、自身の潜在意識に気づいてないと思いますが。自分の優秀さを上司にアピールするのに一番簡単な方法は決まりを守ることで、それはそれでいいんですけど、そういう人間が他者への敬意を忘れて「ルールを守れ」と暴れだした組織の行く末はどうなるんでしょう。
