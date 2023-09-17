@@ -19,7 +19,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 ## 金の玉が潰れた
 
-　小学生くらいのときにできて、富山県下の小学生の下ネタの提供元になってた「パチンコ金の玉」の新湊店（ほかにあるのかな？）が潰れてしまった模様です。金の玉が潰れた・・・金の玉が潰れた・・・
+　小学生くらいのときにできて、富山県下の小学生の下ネタの提供元になってた「パチンコ金の玉」の新湊店（ほかにあるのかな？）が潰れてしまった模様です。金の玉が潰れた・・・金の玉が潰れた・・・痛い・・・
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">富山の小学生にその名だけ轟いていたパチンコ金の玉が潰れたとの報を聞いて夜汽車に飛び乗った私は<a href="https://t.co/qBIEsJCFYx">https://t.co/qBIEsJCFYx</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1703187426125263296?ref_src=twsrc%5Etfw">September 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
