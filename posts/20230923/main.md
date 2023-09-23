@@ -16,7 +16,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 ## 投稿論文通った
 
-　自分が筆頭著者で、本の執筆を平行で進めつつ血反吐を吐きながら書いた論文が通りました。
+　自分が筆頭著者で、本と連載の執筆を平行で進めつつ血反吐を吐きながら書いた論文が通りました。
 
 * 著者: Ryuichi Ueda, Leon Tonouchi, Tatsuhiro Ikebe, and Yasuo Hayashibara
 * タイトル: Implementation of brute-force value iteration for mobile robot path planning and obstacle bypassing
