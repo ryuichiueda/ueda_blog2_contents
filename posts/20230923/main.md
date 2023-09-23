@@ -1,5 +1,5 @@
 ---
-Keywords: 日記, 自作シェル, 研究
+Keywords: 日記, 自作シェル, 研究, ぼやき
 Copyright: (C) 2023 Ryuichi Ueda
 ---
 

@@ -1,5 +1,5 @@
 ---
-Keywords: 日記
+Keywords: 日記, ぼやき
 Copyright: (C) 2023 Ryuichi Ueda
 ---
 
