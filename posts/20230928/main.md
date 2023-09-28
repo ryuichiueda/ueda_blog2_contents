@@ -18,7 +18,6 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 まだ余裕がありますので、ぜひ参加を〜
 
-https://x.com/ryuichiueda/status/1707162264976117812?s=46&t=NPmevaix_FjdAu8RZJ07Ug
-
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">席余裕だらけです～<br><br>jus共催 第66回過去10年で最高と言われた01年を上回る出来栄えで1995年以来の出来のシェル芸勉強会（大嘘） <a href="https://t.co/6RlAiPPtoq">https://t.co/6RlAiPPtoq</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1707162264976117812?ref_src=twsrc%5Etfw">September 27, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 朝早かったしラグビー見れるかもしれないので寝る。
