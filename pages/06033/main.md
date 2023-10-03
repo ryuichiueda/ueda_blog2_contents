@@ -35,6 +35,10 @@ Copyright: (C) Ryuichi Ueda
 
 ## 投稿論文
 
+### 2023
+
+* Ryuichi Ueda, Leon Tonouchi, Tatsuhiro Ikebe, and Yasuo Hayashibara: Implementation of brute-force value iteration for mobile robot path planning and obstacle bypassing," Journal of Robotics and Mechatronics, Vol.35, No.6, 2023 (to appear)
+
 ### 2022
 
 * Ryuichi Ueda: Generation of search behavior of robots by an extended probabilistic ﬂow control, International Journal of iRobotics, Vol. 5, No. 2, pp. 29-35, 2022. 
@@ -147,6 +151,7 @@ Copyright: (C) Ryuichi Ueda
 
 ### 2023
 
+* Haruki Shimotori, Ping Jiang, Jun'ichiro Ooga, Atsushi Sugahara, Shun Ito, Atsuya Koike, Ryuichi Ueda: Robotic grasp detection toward unknown objects using 3D edge detection and Gaussian mixture model for clustering candidates, IEEE International Conference on Robotics and Biomimetics (ROBIO2023), Koh Samui, Surat Thani Province, Thailand, December, 2023. (to appear)
 * 上田隆一, 登内リオン, 池邉龍宏, 林原靖男: 移動ロボットのための自己位置の不確かさを考慮したセンシングできない固定障害物の回避手法 ---価値反復を用いたナビゲーションにおける状態空間の局所拡張---, 第28回ロボティクスシンポジア講演論文集, pp. 118-123, 2023.
 
 ### 2022
