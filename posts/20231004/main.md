@@ -1,5 +1,5 @@
 ---
-Keywords: 日記, ぼやき
+Keywords: 日記, Misskey, PC, 連載
 Copyright: (C) 2023 Ryuichi Ueda
 ---
 
