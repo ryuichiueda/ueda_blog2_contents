@@ -7,9 +7,9 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 　査読早うせいと突っつかれながら日記といふものをしてみむとてするなり。
 
-## 自分の運営するMisskeyのサーバの評論・驚き屋禁止に関する問題
+## 自分の運営するMisskeyのサーバの評論・驚き屋禁止ルールに関して
 
-　「問題」ということではないんですが、わたしの運営する[roboticskey](https://mi0.robotician.jp/)と[しぇるげいすきー](https://mi.shellgei.org/)では、
+　わたしの運営している[roboticskey](https://mi0.robotician.jp/)と[しぇるげいすきー](https://mi.shellgei.org/)では、どちらにも、
 
 * **「自身の関わっていないニュースや動画のURLを貼って評論する行為（一言物申す系・驚き屋）も禁止です。内容について具体的な質問をするのは可です。」**
 
