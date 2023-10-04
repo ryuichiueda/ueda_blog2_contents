@@ -7,6 +7,29 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 　査読早うせいと突っつかれながら日記といふものをしてみむとてするなり。
 
+## 自分の運営するMisskeyのサーバのURL問題
+
+　「問題」ということではないんですが、わたしの運営する[roboticskey](https://mi0.robotician.jp/)と[しぇるげいすきー](https://mi.shellgei.org/)では、
+
+「自身の関わっていないニュースや動画のURLを貼って評論する行為（一言物申す系・驚き屋）も禁止です。内容について具体的な質問をするのは可です。」
+
+という決まりがあり、結果、ニュースに対してみんなでガヤガヤするということがやりにくくなっています。理由は、
+
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">自分の運営してるMisskeyサーバーでURL貼るのに厳しいルールがある理由、言ってなかったことのひとつに、「見たくなくてもURL貼ってあると人間は開いて見てしまう」ということもある。 TwitterでもFacebookでも、これで精神的な負担が増えてしまう人は多いと思われ。</p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1708642913507487820?ref_src=twsrc%5Etfw">October 2, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+です。それからコミュニティーは放置しておくと、Facebookの中年の会話みたいにニュースに群がってああでもないこうでもないと生産性のない評論をするためだけのサークルになってしまいます。また、ブログの記事には喧嘩腰のものが多く、そういう人の記事のリンクを残しておくと、そういう人がMisskeyに寄ってくるかもしれません。
+
+　ということで、そういうことはとにかく避けたいので、ちょっとでも火の元になるようなものはヒステリックに除去しています。ただまあ・・・これだとやっぱりワイワイ感がないんですよね・・・。
+
+　この話長くなるので今日はもうやめておきますが、
+
+* いちおうこういう決まりにしているけどベストとは全く考えていない
+* 2回目以降の返信でURLを貼るのは（その人たち同士の会話になっていて第三者は少し気を楽に傍観できるので）、問題ない
+
+ということだけ書いて今日は終わります。
+
 ## SSDのお引越し
 
 　買ったノートPCのSSD（Windows入り）、256GBなので2TBのものと交換。
@@ -30,16 +53,3 @@ Copyright: (C) 2023 Ryuichi Ueda
 とにかくクソ忙しいので、無事に済んでよかったです。
 
 
-## 自分の運営するMisskeyのサーバのURL問題
-
-　「問題」ということではないんですが、わたしの運営する[roboticskey](https://mi0.robotician.jp/)と[しぇるげいすきー](https://mi.shellgei.org/)では、
-
-「自身の関わっていないニュースや動画のURLを貼って評論する行為（一言物申す系・驚き屋）も禁止です。内容について具体的な質問をするのは可です。」
-
-という決まりがあり、結果、ニュースに対してみんなでガヤガヤするということがやりにくくなっています。理由は、
-
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">自分の運営してるMisskeyサーバーでURL貼るのに厳しいルールがある理由、言ってなかったことのひとつに、「見たくなくてもURL貼ってあると人間は開いて見てしまう」ということもある。 TwitterでもFacebookでも、これで精神的な負担が増えてしまう人は多いと思われ。</p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1708642913507487820?ref_src=twsrc%5Etfw">October 2, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-です。
