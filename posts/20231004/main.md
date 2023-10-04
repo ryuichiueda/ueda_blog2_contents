@@ -7,7 +7,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 　査読早うせいと突っつかれながら日記といふものをしてみむとてするなり。
 
-## 自分の運営するMisskeyのサーバのURL問題
+## 自分の運営するMisskeyのサーバの評論・驚き屋禁止に関する問題
 
 　「問題」ということではないんですが、わたしの運営する[roboticskey](https://mi0.robotician.jp/)と[しぇるげいすきー](https://mi.shellgei.org/)では、
 
