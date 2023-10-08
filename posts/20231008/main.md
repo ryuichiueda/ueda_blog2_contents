@@ -193,5 +193,6 @@ $ jobs
 [1]   停止                  ls --color=auto | sleep 20000
 [2]-  停止                  ls --color=auto | sleep 30000
 [4]+  停止                  sleep 20000
+### 他もfgしていくと止まっているのが分かる（割愛） ###
 ```
 
