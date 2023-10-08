@@ -105,3 +105,30 @@ $ jobs
 ## ジョブ番号
 
 ジョブが増えると、現状の最大番号のジョブ番号の次の番号が、そのジョブに与えられる。停止したジョブのジョブ番号は、`jobs`で見たときに回収される。
+
+```bash
+$ jobs
+[1]   停止                  ls --color=auto | sleep 200
+[2]   停止                  ls --color=auto | sleep 300
+[3]-  停止                  sleep 100
+[4]+  停止                  sleep 200
+$ kill -SIGTERM %3 #3番目のジョブを止める
+
+[3]-  停止                  sleep 100
+$ jobs
+[1]   停止                  ls --color=auto | sleep 200
+[2]   停止                  ls --color=auto | sleep 300
+[3]-  Terminated              sleep 100 #この時点ではまだジョブ番号が残留
+[4]+  停止                  sleep 200
+$ jobs #もう一度jobsを実行すると3番は消滅
+[1]   停止                  ls --color=auto | sleep 200
+[2]-  停止                  ls --color=auto | sleep 300
+[4]+  停止                  sleep 200 
+$ sleep 300 & #もう一個ジョブ投入
+[5] 15576
+$ jobs
+[1]   停止                  ls --color=auto | sleep 200
+[2]-  停止                  ls --color=auto | sleep 300
+[4]+  停止                  sleep 200
+[5]   実行中               sleep 300 & #3番ではなく5番に
+```
