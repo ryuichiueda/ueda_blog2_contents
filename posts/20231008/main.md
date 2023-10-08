@@ -45,3 +45,15 @@ $ echo $?
 128
 ```
 
+　つぎのような場合は、ふたつのジョブに分解される。
+
+```bash
+$ ls | sleep 20 || ls | sleep 30
+^Z
+[1]+  停止                  ls --color=auto | sleep 20
+^Z
+[2]+  停止                  ls --color=auto | sleep 30
+$ jobs
+[1]-  停止                  ls --color=auto | sleep 20
+[2]+  停止                  ls --color=auto | sleep 30
+```
