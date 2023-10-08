@@ -58,6 +58,33 @@ $ jobs
 [2]+  停止                  ls --color=auto | sleep 30
 ```
 
+## `&&`、`||`でつながれたバックグラウンドジョブはフォークする
+
+　次のように、基本的にバックグラウンドジョブは表のシェルで直接実行される。
+
+```bash
+$ ls | sleep 10 &
+[1] 16205
+$ ps --forest
+    PID TTY          TIME CMD
+   9001 pts/1    00:00:00 bash
+  16205 pts/1    00:00:00  \_ sleep #表のbashのプロセスでsleepを実行
+  16206 pts/1    00:00:00  \_ ps
+```
+
+　ところが、パイプラインが複数あるとフォークが起こり、サブシェルで実行される。
+
+```bash
+$ ls | sleep 10 || ls | sleep 20 &
+[1] 16231
+$ ps --forest
+    PID TTY          TIME CMD
+   9001 pts/1    00:00:00 bash
+  16231 pts/1    00:00:00  \_ bash      #ひとつbashが挟まる
+  16233 pts/1    00:00:00  |   \_ sleep
+  16234 pts/1    00:00:00  \_ ps
+```
+
 
 ## `jobs`の表示
 
