@@ -95,5 +95,12 @@ $ jobs
 [1]   実行中               ls --color=auto | sleep 200 &
 [2]+  停止                  ls --color=auto | sleep 300
 [3]-  実行中               sleep 50 &  #停止中のジョブの次の優先度になる
+$ kill -SIGSTOP 15082
+$ jobs
+[1]   停止                  ls --color=auto | sleep 200
+[2]-  停止                  ls --color=auto | sleep 300
+[3]+  停止                  sleep 50  #止めるとカレントジョブになる
 ```
+
+
 
