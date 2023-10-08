@@ -160,19 +160,38 @@ $ jobs         #jobsするとすでに表示されない
 
 ### シグナルへの反応
 
-　上記の例でもそうだけど、`killall`で引っかかるのは実行中のジョブだけ。
-
-今のところ以上。
-
+　`kill -KILL`以外のコマンドを止めるシグナルで素直にプロセスがなくなるのは、実行中のプロセスだけ。停止中のコマンドの場合、実行が再開された瞬間に、送られたシグナルが実行されて止まる。
 
 ```bash
+### 4つジョブを作る ###
+$ ls | sleep 20000 || ls | sleep 30000 || sleep 10000 || sleep 20000
+^Z
+[1]+  停止                  ls --color=auto | sleep 20000
+^Z
+[2]+  停止                  ls --color=auto | sleep 30000
+^Z
+[3]+  停止                  sleep 10000
+^Z
+[4]+  停止                  sleep 20000
+### sleepにSIGTERM一斉送信 ###
+$ killall -SIGTERM sleep
+### jobsをしてもSIGTERMの効果は分からない ###
 $ jobs
-[1]   停止                  ls --color=auto | sleep 200
-[2]-  停止                  ls --color=auto | sleep 300
-[4]+  停止                  sleep 200
-$ killall sleep
+[1]   停止                  ls --color=auto | sleep 20000
+[2]   停止                  ls --color=auto | sleep 30000
+[3]-  停止                  sleep 10000
+[4]+  停止                  sleep 20000
+### 3番を再開してみる ###
+$ kill -SIGCONT %3
+### 3番すぐ止まる ###
 $ jobs
-[1]   停止                  ls --color=auto | sleep 200
-[2]-  停止                  ls --color=auto | sleep 300
-[4]+  停止                  sleep 200
+[1]   停止                  ls --color=auto | sleep 20000
+[2]   停止                  ls --color=auto | sleep 30000
+[3]-  Terminated              sleep 10000
+[4]+  停止                  sleep 20000
+$ jobs
+[1]   停止                  ls --color=auto | sleep 20000
+[2]-  停止                  ls --color=auto | sleep 30000
+[4]+  停止                  sleep 20000
 ```
+
