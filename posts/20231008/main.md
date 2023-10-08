@@ -104,7 +104,7 @@ $ jobs
 
 ## ジョブ番号
 
-ジョブが増えると、現状の最大番号のジョブ番号の次の番号が、そのジョブに与えられる。停止したジョブのジョブ番号は、`jobs`で見たときに回収される。
+ジョブが増えると、現状の最大番号のジョブ番号の次の番号が、そのジョブに与えられる。停止中に終了させられたジョブのジョブ番号は、`jobs`で見たときに回収される。
 
 ```bash
 $ jobs
@@ -134,4 +134,45 @@ $ jobs
 ```
 
 
+実行中に終了させられると、その時点で回収される。
+
+```bash
+$ jobs
+[1]   停止                  ls --color=auto | sleep 200
+[2]   停止                  ls --color=auto | sleep 300
+[3]-  停止                  sleep 100
+[4]+  停止                  sleep 200
+$ bg %2
+[2] ls --color=auto | sleep 300 & #2番のjobを再開
+$ jobs
+[1]   停止                  ls --color=auto | sleep 200
+[2]   実行中               ls --color=auto | sleep 300 &
+[3]-  停止                  sleep 100
+[4]+  停止                  sleep 200
+$ killall sleep #killallで2番のjobを狙い撃ち
+[2]   Terminated              ls --color=auto | sleep 300
+$ jobs         #jobsするとすでに表示されない
+[1]   停止                  ls --color=auto | sleep 200
+[3]-  停止                  sleep 100
+[4]+  停止                  sleep 200
+```
+
+
+### シグナルへの反応
+
+　上記の例でもそうだけど、`killall`で引っかかるのは実行中のジョブだけ。
+
 今のところ以上。
+
+
+```bash
+$ jobs
+[1]   停止                  ls --color=auto | sleep 200
+[2]-  停止                  ls --color=auto | sleep 300
+[4]+  停止                  sleep 200
+$ killall sleep
+$ jobs
+[1]   停止                  ls --color=auto | sleep 200
+[2]-  停止                  ls --color=auto | sleep 300
+[4]+  停止                  sleep 200
+```
