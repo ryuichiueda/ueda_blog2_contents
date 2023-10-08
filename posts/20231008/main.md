@@ -5,7 +5,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 # シェルのジョブまわりのメモ 
 
-　[連載](/?page=rusty_bash)のためのおさらいと予習です。
+　[連載](/?page=sd_rusty_bash)のためのおさらいと予習です。
 
 ## ジョブの単位
 
@@ -33,6 +33,7 @@ $ fg
 ls --color=auto | sleep 20
 $ echo $?            #実行後はふつうに最後のコマンドの終了ステータスが入る
 0
+```
 
 `Ctrl+Z`された直後の終了ステータスは128。
 
