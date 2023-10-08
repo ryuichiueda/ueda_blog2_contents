@@ -57,3 +57,23 @@ $ jobs
 [1]-  停止                  ls --color=auto | sleep 20
 [2]+  停止                  ls --color=auto | sleep 30
 ```
+
+
+## `jobs`の表示
+
+　`+`のついているものはカレントジョブ（最後にバックグラウンドに行ったジョブ）。`-`はその一つ前。（上のコードの例を参照のこと）。`fg`でカレントジョブを表に持ってくると、`-`だったものが`+`に昇格する。
+
+```bash
+$ jobs
+[1]   停止                  ls --color=auto | sleep 20
+[2]-  停止                  ls --color=auto | sleep 30
+[3]+  停止                  ls --color=auto | sleep 40
+### カレントジョブをfgしてCtrl+Cする ###
+$ fg
+ls --color=auto | sleep 40
+^C
+### sleep 30のジョブがカレントジョブに昇格 ###
+$ jobs
+[1]-  停止                  ls --color=auto | sleep 20
+[2]+  停止                  ls --color=auto | sleep 30
+```
