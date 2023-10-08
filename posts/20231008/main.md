@@ -1,5 +1,5 @@
 ---
-Keywords: シェル, bash
+Keywords: シェル, bash, 連載
 Copyright: (C) 2023 Ryuichi Ueda
 ---
 
@@ -95,12 +95,13 @@ $ jobs
 [1]   実行中               ls --color=auto | sleep 200 &
 [2]+  停止                  ls --color=auto | sleep 300
 [3]-  実行中               sleep 50 &  #停止中のジョブの次の優先度になる
-$ kill -SIGSTOP 15082
+$ kill -SIGSTOP 15082  # sleep 50 &を止める
 $ jobs
 [1]   停止                  ls --color=auto | sleep 200
 [2]-  停止                  ls --color=auto | sleep 300
 [3]+  停止                  sleep 50  #止めるとカレントジョブになる
 ```
 
+## ジョブ番号
 
-
+ジョブが増えると、現状の最大番号のジョブ番号の次の番号が、そのジョブに与えられる。停止したジョブのジョブ番号は、`jobs`で見たときに回収される。
