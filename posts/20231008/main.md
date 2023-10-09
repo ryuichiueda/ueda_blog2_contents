@@ -6,6 +6,17 @@ Copyright: (C) 2023 Ryuichi Ueda
 # シェルのジョブまわりのメモ 
 
 　[連載](/?page=sd_rusty_bash)のためのおさらいと予習です。
+環境はこんな感じ。
+
+```bash
+ueda@x1:~$ echo $BASH_VERSION
+5.1.16(1)-release
+ueda@x1:~$ cat /etc/lsb-release
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=22.04
+DISTRIB_CODENAME=jammy
+DISTRIB_DESCRIPTION="Ubuntu 22.04.3 LTS"
+```
 
 ## ジョブの単位
 
