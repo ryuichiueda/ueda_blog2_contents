@@ -10,8 +10,10 @@ Copyright: (C) 2023 Ryuichi Ueda
 ```bash
 $ echo $BASH_VERSION
 5.1.16(1)-release
+### これはファイル記述子扱い ###
 $ echo 2147483647>aaaa
-bash: 2147483647: 不正なファイル記述子です
+bash: 2147483647: 不正なファイル記述子です 
+### これはechoの引数扱い ###
 $ echo 2147483648>aaaa
 $ cat aaaa
 2147483648
