@@ -138,4 +138,4 @@ Bashは第1引数が`-1`でなければ第2引数、そうでなければ第1引
 個人的には納得しました。
 
 
-　現場からは以上です。やべえさん、議論にお付き合いいただきありがとうございます！細かい話が好きな人は、[Software Design](https://www.amazon.co.jp/shop/ryuichiueda)でやってる連載もどうぞー。
+　現場からは以上です。やべえさん、議論にお付き合いいただきありがとうございます！細かい話が好きな人は、[Software Design](https://www.amazon.co.jp/shop/ryuichiueda/list/7MLC9JANITU0?ref_=aip_sf_list_spv_ofs_mixed_d)でやってる連載もどうぞー。
