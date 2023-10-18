@@ -1,5 +1,5 @@
 ---
-Keywords: シェル, bash, 連載
+Keywords: 自作シェル, bash, 連載
 Copyright: (C) 2023 Ryuichi Ueda
 ---
 
@@ -9,6 +9,9 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 ## パイプライン処理の実装漏れ
 
-　で、やらかしですが、2023年8月号で
+　で、やらかしですが、2023年8月号の最後で、パイプラインが動作するか検証していますが、実はこのパイプラインは動いても、データが大きいとうまく動きません。コマンドを実行している部分を見ると、
+
+https://github.com/shellgei/rusty_bash/blob/eea4e06473f9caf1a09be7428f53393007972cbc/src/elements/command/simple.rs#L20C1-L55C2
+
 と宣言している
 「パイプラインのコマンドが一斉に実行されていない」
