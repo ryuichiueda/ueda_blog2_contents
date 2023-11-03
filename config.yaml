@@ -51,10 +51,6 @@ sidecards:
   image: '/pages/top/bashcms2.png'
   href: '/?page=bashcms2'
   text: 'このサイト（bash製）の作り方と解説本'
-- title: 'Raspberry Piで学ぶ ROSロボット入門'
-  image: '/pages/top/rosrobot.png'
-  href: '/?page=09461'
-  text: 'ROSの入門書'
 links:
 - text: 'publications'
   href: '/?page=00728'
