@@ -55,10 +55,6 @@ sidecards:
   image: '/pages/top/rosrobot.png'
   href: '/?page=09461'
   text: 'ROSの入門書'
-- title: 'GlueLang'
-  image: '/pages/top/glue.png'
-  href: '/?page=GlueLang'
-  text: 'スクリプティング用シェル'
 links:
 - text: 'publications'
   href: '/?page=00728'
