@@ -15,6 +15,6 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 　最近の一番の悩みで、[ctrlc](https://crates.io/crates/ctrlc)を使っても、[signal-hook](https://crates.io/crates/signal-hook)を使っても、非同期処理でパイプやソケットを使ってしまうため、3番や4番のファイル記述子を使ってしまいます。[シェルを作っているのに](/page=sd_rusty_bash)、そんな若い番号のファイル記述子を勝手に使ってもらっては困るんですが、ほかによい方法が見つかりません。たぶん`main`に入ってすぐに3〜9を使い潰してからスレッドを動かして、3〜9を閉じればなんとかなりそうですが、それでもユーザーの知らないファイル記述子が`/proc/$$/fd`の下に見えたら嫌なわけで、どうしようかと。Rustだとどうしてもそうしないとだめなんですかね？
 
-　一応、[これが](https://github.com/shellgei/rusty_bash/tree/sd/202405_async)連載で作っているシェルを`SIGCHLD`に非同期で反応できるようにしたバージョンのリンクです。なにかピンと来たらご一報を。
+　一応、[これが](https://github.com/shellgei/rusty_bash/blob/sd/202405_async/src/main.rs)連載で作っているシェルを`SIGCHLD`に非同期で反応できるようにしたバージョンの`main.rs`のリンクです。なにかピンと来たらご一報を。
 
 
