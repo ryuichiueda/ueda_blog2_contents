@@ -22,3 +22,47 @@ Copyright: (C) 2023 Ryuichi Ueda
 　先人が全く同じことで悩まれておりました。後追いで似たことをしてしまっておりいつも恐縮しておりますです。
 
 * reddish-shell v0.11.0-beta4 開発進捗 | パイプライン、バックグラウンド実行、コマンド置換の実装 | ぶていのログでぶログ: https://tech.buty4649.net/entry/2021/11/11/000845
+
+### 追記2
+
+　上記の「たぶん`main`に入ってすぐに3〜9を使い潰してからスレッドを動かして、3〜9を閉じればなんとかなりそうですが、」をやってみました。
+
+```rust
+44 fn run_childcare(core: &mut ShellCore) { //SIGCHLDを補足するスレッドを立ち上げる関数
+45     for fd in 3..10 { // FD3〜9を使って塞いでしまう。
+46         unistd::dup2(2, fd).expect("sush(fatal): init error");
+47     }
+48
+49     let jt = Arc::clone(&core.job_table);
+50     thread::spawn(move || {
+51         let mut signals = Signals::new(vec![SIGCHLD])
+52                           .expect("sush(fatal): cannot prepare signal data");
+53
+54         for fd in 3..10 { // 無限ループに入る前にFD3〜9を開放
+55             unistd::close(fd).expect("sush(fatal): init error");
+56         }
+57
+58         loop {
+59             thread::sleep(time::Duration::from_secs(1));
+60             for signal in signals.pending() {
+61                 check_signal(signal, &jt);
+62             }
+63         }
+64     });
+65 }
+```
+
+
+　できました。`signal-hook`のファイル記述子が10と11になってます。
+
+```bash
+🍣 ls -l /proc/112159/fd
+合計 0
+lrwx------ 1 ueda ueda 64 11月 11 17:13 0 -> /dev/pts/2
+lrwx------ 1 ueda ueda 64 11月 11 17:13 1 -> /dev/pts/2
+lrwx------ 1 ueda ueda 64 11月 11 17:13 10 -> 'socket:[1070478]'
+lrwx------ 1 ueda ueda 64 11月 11 17:13 11 -> 'socket:[1070479]'
+lrwx------ 1 ueda ueda 64 11月 11 17:13 2 -> /dev/pts/2
+lrwx------ 1 ueda ueda 64 11月 11 17:13 255 -> /dev/pts/2
+```
+
