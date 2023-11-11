@@ -17,4 +17,8 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 　一応、[これが](https://github.com/shellgei/rusty_bash/blob/sd/202405_async/src/main.rs)連載で作っているシェルを`SIGCHLD`に非同期で反応できるようにしたバージョンへのリンクです（正確には`main.rs`へのリンクで、ここに`SIGCHLD`を待っている記述があります。）。なにかピンと来たらご一報を。
 
+### 追記
 
+　先人が全く同じことで悩まれておりました。
+
+* reddish-shell v0.11.0-beta4 開発進捗 | パイプライン、バックグラウンド実行、コマンド置換の実装 | ぶていのログでぶログ: https://tech.buty4649.net/entry/2021/11/11/000845
