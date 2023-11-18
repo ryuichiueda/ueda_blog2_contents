@@ -22,7 +22,12 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 ## シグナルやスレッドに頼らずに無限ループを止める
 
-　自作シェル関係で、ビルトインコマンドだけで構成されたwhileをCtrl+Dで止める実験をやってました。readをノンブロックで読んでCtrl+Dを読み取れば止められる・・・とおもってたけど、ループ内で出力が多いと止まってしまう。なんのことやらという感じだけど、まだちゃんと説明できない上に、数日潰しちゃったかもしれない。
+　自作シェル関係で、ビルトインコマンドだけで構成されたwhileをCtrl+Dで止める実験をやってました。実験をまとめたリポジトリはこちら。
 
+https://github.com/ryuichiueda/stop_inf_loop_with_ctrl_d
+
+このリポジトリの`main.rs`のコードはつぎのGistのとおりです。
+
+<script src="https://gist.github.com/ryuichiueda/1bd19c9d7d63e4943e6b313878ff134f.js"></script>
 
 以上。
