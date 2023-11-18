@@ -30,4 +30,17 @@ https://github.com/ryuichiueda/stop_inf_loop_with_ctrl_d
 
 <script src="https://gist.github.com/ryuichiueda/1bd19c9d7d63e4943e6b313878ff134f.js"></script>
 
+これで、Ctrl+Dすると、ループを抜け出すことができます。
+
+```bash
+わはははは
+わはははは
+わはははは
+わはははは
+わはははは
+^D
+ループから出た
+$
+```
+
 以上。
