@@ -7,9 +7,9 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 　11月が〜おわるるる〜〜〜
 
-## SoftwareDesign 12月号
+## [SoftwareDesign](https://www.amazon.co.jp/shop/ryuichiueda/list/7MLC9JANITU0?tag=onamzryuichiu-22&ref_=aip_sf_list_spv_ofs_mixed_d) 12月号
 
-　改めて宣伝です。この号での私の連載は、「フォークしないリダイレクトをstraceで観察しながら実装する」というニッチなことをやってます。
+　改めて宣伝です。この号での[私の連載](/?page=sd_rusty_bash)は、「フォークしないリダイレクトをstraceで観察しながら実装する」というニッチなことをやってます。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">FD_CLOEXECって何？という人は買った方がいい。うん。（ほんまか？） <a href="https://twitter.com/hashtag/gihyosd?src=hash&amp;ref_src=twsrc%5Etfw">#gihyosd</a> <a href="https://t.co/XiviB1SHI4">https://t.co/XiviB1SHI4</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1730163911339786717?ref_src=twsrc%5Etfw">November 30, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
