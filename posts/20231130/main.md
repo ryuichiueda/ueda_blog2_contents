@@ -1,5 +1,5 @@
 ---
-Keywords: 日記
+Keywords: 日記, 連載, 執筆, 講義
 Copyright: (C) 2023 Ryuichi Ueda
 ---
 
