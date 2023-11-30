@@ -13,6 +13,9 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">FD_CLOEXECって何？という人は買った方がいい。うん。（ほんまか？） <a href="https://twitter.com/hashtag/gihyosd?src=hash&amp;ref_src=twsrc%5Etfw">#gihyosd</a> <a href="https://t.co/XiviB1SHI4">https://t.co/XiviB1SHI4</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1730163911339786717?ref_src=twsrc%5Etfw">November 30, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+ぜひ読んでやってください！
+
 ## 学生さんへの課題
 
 　「GitHubにPythonのコマンドをアップしてREADMEを書く」という課題を165人が受講している講義で課しました。現在、採点で死んでます。ちょうど100人に点数をつけたところです。
