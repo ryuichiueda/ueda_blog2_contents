@@ -18,3 +18,5 @@ Copyright: (C) 2023 Ryuichi Ueda
 * このサイト: https://mastofeed.kmy.blue/ で指示にしたがって作ってみました。
 
 <iframe allowfullscreen sandbox="allow-top-navigation allow-scripts allow-popups allow-popups-to-escape-sandbox" width="400" height="800" src="https://mastofeed.kmy.blue/apiv2/feed?userurl=https%3A%2F%2Fmisskey.io%2Fusers%2F9bijtwpmxa&theme=dark&size=100&header=true&replies=false&boosts=false"></iframe>
+
+できてますね。ありがとうございます。どうやって使うかなあ。
