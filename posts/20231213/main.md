@@ -22,7 +22,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 ### 使ったコード
 
-こんな感じ。8行目でArc（参照カウンタ）とMutex（排他制御のための型）にくるんだ文字列をひとつ作って、これを
+こんな感じ。[リポジトリはここです](https://github.com/ryuichiueda/thread_fork/blob/main/src/main.rs)。8行目でArc（参照カウンタ）とMutex（排他制御のための型）にくるんだ文字列をひとつ作って、これを
 
 * サブのスレッド
 * 親のメインスレッド
