@@ -37,20 +37,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 　次のような出力が得られました。
 
-
-```text
-$ cargo run
-・・・
-1秒後 Child: ""  #子のメインスレッドではロックがはずれて出力
-2秒後 Child: ""  #親のメインスレッドはロックに阻まれて出てこない
-3秒後 Child: ""
-4秒後 Child: ""
-5秒後 Parent { child: Pid(50794) }: "written" #サブのスレッドがロックを解除
-5秒後 Child: ""       #子のほうはサブのスレッドが止まったままなので空文字のまま
-6秒後 Parent { child: Pid(50794) }: "written" #以後おなじ
-6秒後 Child: ""
-・・・
-```
+<script src="https://gist.github.com/ryuichiueda/c12f607ec3b118eb06f6f80d2f00f7b9.js"></script>
 
 　要点を整理すると、
 
