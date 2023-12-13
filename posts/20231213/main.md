@@ -11,7 +11,7 @@ Copyright: (C) 2023 Ryuichi Ueda
     * あるプログラムでサブのスレッドをひとつ作って、ある変数に対してロックをかけっぱなしにする（もとのスレッドは「メインのスレッド」と呼びましょう。）
     * メインのスレッドでフォークをかける
         * このとき、子のプロセスでサブのスレッドは止まる（[参考](https://amzn.to/3NkC0X2)） 
-* <span style="text-color:red">疑念: 子のサブのスレッドがロックをかけたまま止まるので、子でロックが外れないのではないか？</span>
+* <span style="color:red">疑念: 子のサブのスレッドがロックをかけたまま止まるので、子でロックが外れないのではないか？</span>
 
 ## 先に結論
 
@@ -28,9 +28,24 @@ Copyright: (C) 2023 Ryuichi Ueda
 * 親のメインスレッド
 * 子のメインスレッド
 
-で読み書きしています。
+で読み書きしています。サブのスレッドが5秒間ロックをかけたあと、おもむろに`written`と書き込みます。嫌がらせです。メインスレッドの親子は、この嫌がらせが終わるまで、文字列を読み書きできなくなります。
 
 <script src="https://gist.github.com/ryuichiueda/a05823182d1a0c8f09fb44ceaf3ad8ad.js"></script>
 
 
+### コードの実行結果
+
+```text
+$ cargo run
+・・・
+1秒後 Child: ""  #親が
+2秒後 Child: ""
+3秒後 Child: ""
+4秒後 Child: ""
+5秒後 Parent { child: Pid(50794) }: "written"
+5秒後 Child: ""
+6秒後 Parent { child: Pid(50794) }: "written"
+6秒後 Child: ""
+・・・
+```
 
