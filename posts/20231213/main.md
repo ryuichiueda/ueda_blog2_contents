@@ -3,7 +3,7 @@ Keywords: Rust, thread, fork
 Copyright: (C) 2023 Ryuichi Ueda
 ---
 
-# RustでスレッドがMutexのロックをかけた状態でプロセスがフォークしたら？
+# 【Rust】傍らで走らせたスレッドがMutexのロックをかけた状態でプロセスがフォークしたら？
 
 [連載](/?page=sd_rusty_bash)のため、表題のようなケースで、子のプロセスでロックが外れるのかどうか実験してみました。もう少し詳しく書くと、こういう実験です。
 
