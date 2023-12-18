@@ -13,6 +13,8 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xqd9UoAft2Q?si=3qi5ErqPaD6xZnml" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+動画に関して補足ですが、「40人でやっている」というのは、林原先生の研究室に上田研がくっついてやっていて、両方あわせて40人くらいということです。林原研が主体です。
+
 
 ## シェル芸勉強会の動画
 
