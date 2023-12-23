@@ -9,7 +9,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 ## 論文見ろと煽ったら見られすぎた
 
-　[この論文](https://www.fujipress.jp/jrm/rb/robot003500061489/)についてこういうツイートをしたら、[論文のページのview数のランキング（60日通算）](https://www.fujipress.jp/most-viewed/)に1日で6位になってしまいました。2日目は5位でした。
+　[この論文](https://www.fujipress.jp/jrm/rb/robot003500061489/)についてこういうツイートをしたら、[この論文誌のview数ランキング（60日通算）](https://www.fujipress.jp/most-viewed/)に1日で6位になってしまいました。2日目は5位でした。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">変態論文が出ました。CPUぶん回して単純計算で経路計画と障害物回避をやる頭の悪いやつで、他の賢い方法を軒並み葬り去る可能性アリ<br><br>「スケーラビリティーみせろや！」と査読で言われて（速くならんけど）ノートPCで120スレッドまわしたり、とにかくアホで個人的に大満足<a href="https://t.co/fIz6lNaow0">https://t.co/fIz6lNaow0</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1737241838321553868?ref_src=twsrc%5Etfw">December 19, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
