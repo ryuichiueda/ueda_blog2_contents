@@ -13,7 +13,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">変態論文が出ました。CPUぶん回して単純計算で経路計画と障害物回避をやる頭の悪いやつで、他の賢い方法を軒並み葬り去る可能性アリ<br><br>「スケーラビリティーみせろや！」と査読で言われて（速くならんけど）ノートPCで120スレッドまわしたり、とにかくアホで個人的に大満足<a href="https://t.co/fIz6lNaow0">https://t.co/fIz6lNaow0</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1737241838321553868?ref_src=twsrc%5Etfw">December 19, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-　研究者はこういうことせずに真面目に良い研究をしたほうがいいのですが、宣伝も大事なのでよかったとします。論文を紹介する動画でも作ろうかな・・・。
+　研究者はこういうことせずに真面目に良い研究をしたほうがいいのですが、宣伝も大事なのでよかったとします。論文を紹介する動画でも作ろうかな・・・。なんか巷では、「40万くれたら動画作ってやる」と寄ってくる人もいるらしい。ちなみに、この論文の掲載には（カラーページが多い関係で）38万円かかりました。研究室、もうおかねが1万5千円しかないぞと事務から連絡がきました。やべえ。
 
 
 ## Bashのブレース展開とコマンド置換に関する実験
