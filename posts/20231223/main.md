@@ -7,7 +7,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 　シェル芸勉強会のまとめはもうちょいお待ちください。
 
-## 論文見ろと煽る
+## 論文見ろと煽ったら見られすぎた
 
 　[この論文](https://www.fujipress.jp/jrm/rb/robot003500061489/)についてこういうツイートをしたら、[論文のページのview数のランキング（60日通算）](https://www.fujipress.jp/most-viewed/)に1日で6位になってしまいました。2日目は5位でした。
 
