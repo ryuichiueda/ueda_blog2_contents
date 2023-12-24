@@ -26,7 +26,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 <a href="https://github.com/shellgei/rusty_bash/branches"><img width="50%" src="https://mi.shellgei.org/files/fd605cc7-8c22-48a9-8a23-48402dcaa58e" /></a>
 
-で、きゃろさんからdev-builtinsにさっそく2回プルリクをいただきました。ありがとうございます。早めに連載のコードに取り込んで謝辞を書きたいです。（7月号まで原稿が進んじゃっているんですが・・・）
+で、[きゃろさん](https://mi.shellgei.org/@caro)からdev-builtinsにさっそく2回プルリクをいただきました。ありがとうございます。早めに連載のコードに取り込んで謝辞を書きたいです。（7月号まで原稿が進んじゃっているんですが・・・）
 
 　他、dev-argsでブレース展開のきれいな実装を模索したり、dev-compoundsでifを実装したりと、将来の連載の内容を試しているので、先のことを知りたい人は、覗いてみると良いかと思います。
 
