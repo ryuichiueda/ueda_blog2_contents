@@ -24,6 +24,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 というルールを作りました。たとえば、dev-builtinsではビルトインコマンドを作るとか、dev-argsでは引数に関する実装を進めるとか。現在の一覧です。
 
-<img width="25%" src="https://mi.shellgei.org/files/fd605cc7-8c22-48a9-8a23-48402dcaa58e" />
+<img width="50%" src="https://mi.shellgei.org/files/fd605cc7-8c22-48a9-8a23-48402dcaa58e" />
 
+で、きゃろさんからdev-builtinsにさっそく2回プルリクをいただきました。ありがとうございます。早めに連載のコードに取り込んで謝辞を書きたいです。（7月号まで原稿が進んじゃっているんですが・・・）
 
