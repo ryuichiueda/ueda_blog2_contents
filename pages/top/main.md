@@ -18,9 +18,11 @@ Copyright: (C) 2022 Ryuichi Ueda
     <div class="col-md-12">
       <h2>工事中</h2>
       <script>
+      	window.onload = function() {
         $('#tree').treeview({
           data: [先頭のノード]
         });
+	}
       </script>
       <div id="tree"></div>
       </div>
