@@ -1,6 +1,6 @@
 ---
 Keywords: 近況
-Copyright: (C) 2022 Ryuichi Ueda
+Copyright: (C) 2022-2024 Ryuichi Ueda
 ---
 
 # トップページ
