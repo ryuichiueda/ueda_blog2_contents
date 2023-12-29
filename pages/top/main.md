@@ -17,8 +17,6 @@ Copyright: (C) 2022 Ryuichi Ueda
     </div>
     <div class="col-md-12">
       <h2>工事中</h2>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-treeview/1.2.0/bootstrap-treeview.min.css">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-treeview/1.2.0/bootstrap-treeview.min.js"></script>
       <script>
         $('#tree').treeview({
           data: [先頭のノード]
