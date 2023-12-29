@@ -16,6 +16,8 @@ Copyright: (C) 2022 Ryuichi Ueda
         <!--TOP10-->
     </div>
     <div class="col-md-6">
+      <h2>最近のなにか</h2>
+      <h3> 芸人さんとYouTubeの動画に出ました</h3>
       <div class="ratio" style="--bs-aspect-ratio: 50%; width: 300px;">
         <iframe src="https://www.youtube.com/embed/xqd9UoAft2Q"></iframe>
       </div>
