@@ -17,7 +17,7 @@ Copyright: (C) 2022 Ryuichi Ueda
     </div>
     <div class="col-md-6">
       <h2>最近のなにか</h2>
-      <h3> 芸人さんとYouTubeの動画に出ました</h3>
+      <h3 id="dokoiku">芸人さんとYouTubeの動画に出ました</h3>
       <div class="ratio" style="--bs-aspect-ratio: 50%; width: 300px;">
         <iframe src="https://www.youtube.com/embed/xqd9UoAft2Q"></iframe>
       </div>

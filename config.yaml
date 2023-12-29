@@ -3,7 +3,7 @@ host: 'b.ueda.tech'
 sitetitle: '上田ブログ'
 subtitle: '研究者兼物書きの上田隆一のサイトです。なお、このサイトはBash製です。'
 headline:
-- text: '<a href="https://www.youtube.com/watch?v=xqd9UoAft2Q">芸人さんとYouTubeの動画に出ました<i class="fa fa-external-link"></i></a>'
+- text: '<a href="#dokoiku">芸人さんとYouTubeの動画に出ました</a>'
 - text: '<a href="https://www.fujipress.jp/jrm/rb/robot003500061489/">筆頭論文書きました<i class="fa fa-external-link"></i></a>'
 - text: '<a href="https://mi0.robotician.jp/">ロボット屋さんMisskeyサーバー立てたのでアカウント作って！<i class="fa fa-external-link"></i></a>'
 - text: '<a href="/?page=rusty_bash">SoftwareDesign誌で連載を再開しました</a>'
