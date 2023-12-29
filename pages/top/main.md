@@ -20,7 +20,7 @@ Copyright: (C) 2022 Ryuichi Ueda
       <script src="/pages/top/sitemap.js"></script>
       <script>
       	window.onload = function() {
-	$('#tree').treeview({data: agetTree()});
+	$('#tree').treeview({data: getTree()});
 	}
       </script>
       <div id="tree"></div>

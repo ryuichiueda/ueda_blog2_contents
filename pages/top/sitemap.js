@@ -31,9 +31,3 @@ var tree = [
     text: "Parent 5"
   }
 ];
-
-function getTree() {
-  // Some logic to retrieve, or generate tree structure
-  return data;
-}
-
