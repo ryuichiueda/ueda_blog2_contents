@@ -1,4 +1,4 @@
-var tree = [
+var sitemap = [
   {
     text: "Parent 1",
     nodes: [
