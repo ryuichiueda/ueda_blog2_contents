@@ -15,14 +15,4 @@ Copyright: (C) 2022 Ryuichi Ueda
         <h2 id="latest">最近の記事</h2>
         <!--TOP10-->
     </div>
-    <div class="col-md-12">
-      <h2>工事中</h2>
-      <script src="/pages/top/sitemap.js"></script>
-      <script>
-      	window.onload = function() {
-	$('#tree').treeview({data: getTree()});
-	}
-      </script>
-      <div id="tree"></div>
-      </div>
 </div>
