@@ -10,11 +10,8 @@ Copyright: (C) 2022 Ryuichi Ueda
 * [お前誰？](/?page=news)
 
 
-<script>
-// Treeview Initialization
-$(document).ready(function() {
-  $('.treeview').mdbTreeview();
-});
+<script type="text/javascript">
+$(document).ready(function() { $('.treeview').mdbTreeview(); });
 </script>
 
 <div class="row">
