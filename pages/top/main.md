@@ -11,7 +11,9 @@ Copyright: (C) 2022 Ryuichi Ueda
 
 
 <script type="text/javascript">
-$(document).ready(function() { $('.treeview').mdbTreeview(); });
+window.onload = function () {
+  $(document).ready(function() { $('.treeview').mdbTreeview(); });
+}
 </script>
 
 <div class="row">
@@ -19,12 +21,6 @@ $(document).ready(function() { $('.treeview').mdbTreeview(); });
         <h2 id="latest">最近の記事</h2>
         <!--TOP10-->
     </div>
-    <!--
-    <div class="col-md-6">
-        <h2 id="info">告知など</h2>
-	<a class="twitter-timeline" href="https://twitter.com/ryuichiueda?ref_src=twsrc%5Etfw">Tweets by ryuichiueda</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-    -->
     <div class="col-md-12">
       <h2>工事中</h2>
       <div class="treeview w-20 border">
