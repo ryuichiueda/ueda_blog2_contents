@@ -5,7 +5,7 @@ subtitle: '研究者兼物書きの<a href="https://ja.wikipedia.org/wiki/%E4%B8
 headline:
 - text: '<a href="/?page=top#dokoiku"><i class="fa-brands fa-youtube"></i> 芸人さんとYouTubeの動画に出ました</a>'
 - text: '<a href="/?page=top#journal"><i class="fa-solid fa-graduation-cap"></i> 筆頭論文書きました</a>'
-- text: '<a href="https://mi0.robotician.jp/"><img width="22" src="/pages/top/misskey.png" />ロボット屋さんMisskeyサーバー立てたのでアカウント作って！<i class="fa fa-external-link"></i> </a>'
+- text: '<a href="https://mi0.robotician.jp/"><img width="24" src="/pages/top/misskey.png" />ロボット屋さんMisskeyサーバー立てたのでアカウント作って！<i class="fa fa-external-link"></i> </a>'
 - text: '<a href="/?page=rusty_bash"><i class="fa-solid fa-newspaper"></i> SoftwareDesign誌で連載を再開しました</a>'
 - text: '<a href="https://news.mynavi.jp/techplus/kikaku/leaders_thinkpad-4/"><i class="fa-solid fa-laptop"></i> ThinkPadの広告記事に出ました。<i class="fa fa-external-link"></i> </a>'
 - text: '<a href="/?page=lnpr"><i class="fa-solid fa-robot"></i> 詳解確率ロボティクスは第7刷突入</a>'
@@ -167,11 +167,11 @@ links:
 - text: 'eng'
   href: 'https://e.ueda.tech'
 sociallinks:
-- icon: '<img width="22" src="/pages/top/misskey.png" />（Misskey.io）'
+- icon: '<img width="24" src="/pages/top/misskey.png" />（Misskey.io）'
   href: 'https://misskey.io/@ryuichiueda'
-- icon: '<img width="22" src="/pages/top/misskey.png" />（しぇるげいすきー）'
+- icon: '<img width="24" src="/pages/top/misskey.png" />（しぇるげいすきー）'
   href: 'https://mi.shellgei.org/@ru'
-- icon: '<img width="22" src="/pages/top/misskey.png" />（roboticskey）'
+- icon: '<img width="24" src="/pages/top/misskey.png" />（roboticskey）'
   href: 'https://mi.shellgei.org/@ru'
 - icon: '<i class="fa-brands fa-twitter"></i>'
   href: 'https://twitter.com/ryuichiueda'
