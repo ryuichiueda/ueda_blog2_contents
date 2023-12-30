@@ -1,7 +1,7 @@
 protocol: 'https:'
 host: 'b.ueda.tech'
 sitetitle: '上田ブログ'
-subtitle: '研究者兼物書きの上田隆一のサイトです。なお、このサイトはBash製です。'
+subtitle: '研究者兼物書きの<a href="https://ja.wikipedia.org/wiki/%E4%B8%8A%E7%94%B0%E9%9A%86%E4%B8%80">上田隆一<i class="fa fa-external-link"></i></a>のサイトです。なお、このサイトはBash製です。'
 headline:
 - text: '<a href="/?page=top#dokoiku">芸人さんとYouTubeの動画に出ました</a>'
 - text: '<a href="/?page=top#journal">筆頭論文書きました</a>'
@@ -167,8 +167,6 @@ links:
 - text: 'eng'
   href: 'https://e.ueda.tech'
 sociallinks:
-- icon: 'fa-wikipedia-w'
-  href: 'https://ja.wikipedia.org/wiki/%E4%B8%8A%E7%94%B0%E9%9A%86%E4%B8%80'
 - icon: 'fa-twitter-square'
   href: 'https://twitter.com/ryuichiueda'
 - icon: 'fa-github-square'
