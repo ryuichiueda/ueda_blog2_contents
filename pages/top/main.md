@@ -6,6 +6,7 @@ Copyright: (C) 2022-2024 Ryuichi Ueda
 # トップページ
 
 * [最近の記事](#latest)
+* [最近のなにか](#news)
 * [やり散らかし一覧](#activity)
 * [お前誰？](/?page=news)
 
