@@ -167,6 +167,8 @@ links:
 - text: 'eng'
   href: 'https://e.ueda.tech'
 sociallinks:
+- icon: '<img width="20" src="/pages/top/misskey.png" />（Misskey.io）'
+  href: 'https://misskey.io/@ryuichiueda'
 - icon: '<i class="fa-brands fa-twitter"></i>'
   href: 'https://twitter.com/ryuichiueda'
 - icon: '<i class="fa-brands fa-github"></i>'
