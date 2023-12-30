@@ -167,7 +167,7 @@ links:
 - text: 'eng'
   href: 'https://e.ueda.tech'
 sociallinks:
-- icon: '<i class="fa-brands fa-twitter">'
+- icon: '<i class="fa-brands fa-twitter"></i>'
   href: 'https://twitter.com/ryuichiueda'
-- icon: '<i class="fa-brands fa-github">'
+- icon: '<i class="fa-brands fa-github"></i>'
   href: 'https://github.com/ryuichiueda'
