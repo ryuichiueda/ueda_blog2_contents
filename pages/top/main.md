@@ -5,9 +5,9 @@ Copyright: (C) 2022-2024 Ryuichi Ueda
 
 # トップページ
 
-* [<i class="fa-solid fa-user"></i>このサイトについて](#thissite)
-* [<i class="fa-solid fa-pen"></i>最近の記事](#latest)
-* [<i class="fa-solid fa-newspaper"></i>話題](#news)
+* [<i class="fa-solid fa-user"></i> このサイトについて](#thissite)
+* [<i class="fa-solid fa-pen"></i> 最近の記事](#latest)
+* [<i class="fa-solid fa-newspaper"></i> 話題](#news)
 * [やり散らかし一覧](#activity)
 * [お前誰？](/?page=news)
 
