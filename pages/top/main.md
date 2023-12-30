@@ -16,7 +16,7 @@ Copyright: (C) 2022-2024 Ryuichi Ueda
         <!--TOP10-->
     </div>
     <div class="col-md-6">
-     ## 最近のなにか
+      <h2 id="news">最近のなにか</h2>
       <h3 id="dokoiku">芸人さんとYouTubeの動画に出ました（2023年12月）</h3>
       <div class="ratio" style="--bs-aspect-ratio: 50%; width: 300px;">
         <iframe src="https://www.youtube.com/embed/xqd9UoAft2Q"></iframe>
