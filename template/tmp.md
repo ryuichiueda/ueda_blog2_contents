@@ -22,6 +22,10 @@ Twitterについては、2022年どころかその数年も前から、
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">世のおっさんたちが小難しいことを言わずに「今日、パフェ食べたよ」と気軽にSNSに書ける日はいつ来るのやら。</p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1552642242200109057?ref_src=twsrc%5Etfw">July 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+ で、そういうところはないものかと探していたのですが、
+あったのに気づいていないだけでした。
+Misskey.ioがそのままそんな感じで、
+今もTwitterのようにはならず、そんな感じです。
 
 
 ## 9.自分でMisskeyのサーバー立てた
