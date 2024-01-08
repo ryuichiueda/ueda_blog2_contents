@@ -8,21 +8,21 @@
 
 ## 10. TwitterからMisskey.ioに引っ越し
 
-なんとなく2022年暮れからTwitterが怪しかったので、
+　なんとなく2022年暮れからTwitterが怪しかったので、
 日々の雑多な書き込みはMisskey.ioですることにしました。
 Twitterについては、2022年どころかその数年も前から、
 初期の「うんこなう」みたいな雰囲気が失われ、
 行き場所のない説教を披露する場になっており、
 自分も居心地悪くなっておりました。
-また、自分の知り合いも若さを失ってそんな感じになってきたし、
+別に知らん人が吠えてたら放置しておけばよいのですが、
+自分の知り合いも若さを失ってそんな感じになってきたし、
 フォロー外すわけにもいかんしで、
 さらに地獄のグツグツ感が増しておりました。
 そこで孤軍奮闘して「お前ら！面白くないぞ！」
 とやったら、自分も地獄の構成部品になってしまいます。
 
 
-若干気持ち悪いかもしれませんが、
-こういうことを言ってました。
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">世のおっさんたちが小難しいことを言わずに「今日、パフェ食べたよ」と気軽にSNSに書ける日はいつ来るのやら。</p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1552642242200109057?ref_src=twsrc%5Etfw">July 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 
