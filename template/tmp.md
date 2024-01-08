@@ -18,17 +18,11 @@ Twitterについては、2022年どころかその数年も前から、
 自分の知り合いも若さを失ってそんな感じになってきたし、
 フォロー外すわけにもいかんしで、
 さらに地獄のグツグツ感が増しておりました。
-そこで孤軍奮闘して「お前ら！面白くないぞ！」
-とやったら、自分も地獄の構成部品になってしまいます。
-
+2022年7月にこんなことを言っています。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">世のおっさんたちが小難しいことを言わずに「今日、パフェ食べたよ」と気軽にSNSに書ける日はいつ来るのやら。</p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1552642242200109057?ref_src=twsrc%5Etfw">July 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-
-「お前に教えてもらうことは何もない」
-
-自分も
 
 ## 9.自分でMisskeyのサーバー立てた
 
