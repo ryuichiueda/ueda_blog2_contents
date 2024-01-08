@@ -1,8 +1,8 @@
 ## 10. 5年ぶりに国際学会行った
 
-## 9. TwitterからMisskey.ioに引っ越した
+## 9. TwitterからMisskey.ioに引っ越し、さらに自分でMisskeyのサーバー立てた
 
-## 8. Misskeyのサーバー立てた
+## 8. SoftwareDesignの連載が1年間なんとか続いた
 
 ## 7. YouTubeの登録者数3000になった
 
