@@ -3,6 +3,7 @@ host: 'b.ueda.tech'
 sitetitle: '上田ブログ'
 subtitle: '研究者兼物書きの<a href="https://ja.wikipedia.org/wiki/%E4%B8%8A%E7%94%B0%E9%9A%86%E4%B8%80">上田隆一<i class="fa fa-external-link"></i></a>のサイトです。なお、このサイトはBash製です。'
 headline:
+- text: '<a href="/?post=20240114"><i class="fa-solid fa-book"></i>ロボットの確率・統計という本を出します</a>'
 - text: '<a href="/?page=top#dokoiku"><i class="fa-brands fa-youtube"></i> 芸人さんとYouTubeの動画に出ました</a>'
 - text: '<a href="/?page=top#journal"><i class="fa-solid fa-graduation-cap"></i> 筆頭論文書きました</a>'
 - text: '<a href="https://mi0.robotician.jp/"><img width="24" src="/pages/top/misskey.png" />ロボット屋さんMisskeyサーバー立てたのでアカウント作って！<i class="fa fa-external-link"></i> </a>'
