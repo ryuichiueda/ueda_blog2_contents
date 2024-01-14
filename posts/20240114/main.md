@@ -5,7 +5,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 # ロボットの確率・統計という本を出します
 
-　2月中旬に自著[「ロボットの確率・統計 ―製作・競技・知能研究で役立つ考え方と計算法―」](https://www.coronasha.co.jp/np/isbn/9784339046878/)という本が出ます。自分が確率・統計の専門家かと言われると疑問なのですが、とりあえずロボットをいじる側から、「これくらい理解しておけばいいんじゃないか」という内容を書きました。
+　2月中旬に自著[「ロボットの確率・統計 ―製作・競技・知能研究で役立つ考え方と計算法―」](https://www.coronasha.co.jp/np/isbn/9784339046878/)という本が出ます。自分が確率・統計の専門家かと言われると疑問なのですが、とりあえずロボットをいじる側から、「これくらいのトピックがあると把握しておくといいんじゃないか」という内容を書きました。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">近刊🔜2月中旬発行予定<br><br>ロボットの確率・統計<br>- 製作・競技・知能研究で役立つ考え方と計算法 - <a href="https://t.co/dFJ5ac629M">https://t.co/dFJ5ac629M</a><br>上田隆一 著<br><br>ロボット分野だけに限定した，様々な確率・統計の知識を学ぶことができる書籍</p>&mdash; コロナ社☉自然科学専門書の出版社 (@coronasha) <a href="https://twitter.com/coronasha/status/1745235389865205874?ref_src=twsrc%5Etfw">January 11, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
