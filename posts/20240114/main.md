@@ -1,5 +1,5 @@
 ---
-Keywords: 執筆, ロボットの確率・統計
+Keywords: 執筆, ロボットの確率・統計, 告知
 Copyright: (C) 2024 Ryuichi Ueda
 ---
 
