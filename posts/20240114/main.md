@@ -1,5 +1,5 @@
 ---
-Keywords: 自作シェル
+Keywords: 執筆, ロボットの確率・統計
 Copyright: (C) 2024 Ryuichi Ueda
 ---
 
