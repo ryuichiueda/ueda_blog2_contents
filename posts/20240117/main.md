@@ -17,4 +17,4 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 * Ryuichi Ueda: "Small Implementation of Decision Making Policy for the Height Task of the Acrobot", Advanced Robotics, Vol. 30, No. 11-12, pp. 744-757, 2016. 
 
-これ、うちの研究室だと「3年のときから何回も言ってませんか?」という余計な一言と共に赤を入れられます。入れられる場所は「the Acrobot",」の「",」の部分で、「,"」と書けと指示されます。
+これ、うちの研究室だと「3年のときから何回も言ってませんか?」という余計な一言と共に赤を入れられます。入れられる場所は「the Acrobot",」の「",」の部分で、「,"」と書け（カンマが先）と指示されます。イギリス英語だと「",」なんですが、上田研（やロボット界隈）はアメリカ英語で統一されているので、アメリカ英語の「,"」が正しい順になります。
