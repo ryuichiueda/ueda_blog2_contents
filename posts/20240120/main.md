@@ -26,6 +26,6 @@ example 4$ echo $PPID{x,y}
 
 ## ということで
 
-stack overflowに投げておきました。
+Stack Overflowに投げておきました。
 
 * https://stackoverflow.com/questions/77850130/bash-parse-of-x-y
