@@ -23,3 +23,9 @@ example 4$ echo $PPID{x,y}
 
 とりあえずこういう現象があるという報告だけですが、メモということで。
 英語でも書いたほうがいいかな？？？
+
+## ということで
+
+stack overflowに投げておきました。
+
+* https://stackoverflow.com/questions/77850130/bash-parse-of-x-y
