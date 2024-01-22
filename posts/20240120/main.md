@@ -29,3 +29,7 @@ example 4$ echo $PPID{x,y}
 Stack Overflowに投げておきました。
 
 * https://stackoverflow.com/questions/77850130/bash-parse-of-x-y
+
+## 追伸
+
+解決しました。記事書きます。
