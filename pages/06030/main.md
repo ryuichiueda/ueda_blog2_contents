@@ -20,6 +20,8 @@ Copyright: (C) Ryuichi Ueda
 
 * 上田 隆一: ロボットの確率・統計 ---製作・競技・知能研究で役立つ考え方と計算法, コロナ社, 2024. 
 
+<div class="kaerebalink-box" style="text-align:left;padding-bottom:20px;font-size:small;zoom: 1;overflow: hidden;"><div class="kaerebalink-image" style="float:left;margin:0 15px 10px 0;"><a href="https://hb.afl.rakuten.co.jp/hgc/g0000015.awxh2d4b.g0000015.awxh36b1/kaereba_main_202401272102376835?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2Fe9d6860ff28aa2cb6f475f60f2c70acb%2F&m=http%3A%2F%2Fm.product.rakuten.co.jp%2Fproduct%2Fe9d6860ff28aa2cb6f475f60f2c70acb%2F" target="_blank" ><img src="https://thumbnail.image.rakuten.co.jp/ran/img/2001/0009/784/339/046/878/20010009784339046878_1.jpg?_ex=320x320" style="border: none;" /></a></div><div class="kaerebalink-info" style="line-height:120%;zoom: 1;overflow: hidden;"><div class="kaerebalink-name" style="margin-bottom:10px;line-height:120%"><a href="https://hb.afl.rakuten.co.jp/hgc/g0000015.awxh2d4b.g0000015.awxh36b1/kaereba_main_202401272102376835?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2Fe9d6860ff28aa2cb6f475f60f2c70acb%2F&m=http%3A%2F%2Fm.product.rakuten.co.jp%2Fproduct%2Fe9d6860ff28aa2cb6f475f60f2c70acb%2F" target="_blank" >ロボットの確率・統計</a><div class="kaerebalink-powered-date" style="font-size:8pt;margin-top:5px;font-family:verdana;line-height:120%">posted with <a href="https://kaereba.com" rel="nofollow" target="_blank">カエレバ</a></div></div><div class="kaerebalink-detail" style="margin-bottom:5px;"></div><div class="kaerebalink-link1" style="margin-top:10px;"><div class="shoplinkrakuten" style="display:inline;margin-right:5px;background: url('//img.yomereba.com/kl.gif') 0 -50px no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="https://hb.afl.rakuten.co.jp/hgc/g0000015.awxh2d4b.g0000015.awxh36b1/kaereba_main_202401272102376835?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2Fe9d6860ff28aa2cb6f475f60f2c70acb%2F&m=http%3A%2F%2Fm.product.rakuten.co.jp%2Fproduct%2Fe9d6860ff28aa2cb6f475f60f2c70acb%2F" target="_blank" >楽天市場で購入</a></div><div class="shoplinkamazon" style="display:inline;margin-right:5px;background: url('//img.yomereba.com/kl.gif') 0 0 no-repeat;padding: 2px 0 2px 18px;white-space: nowrap;"><a href="https://www.amazon.co.jp/gp/search?keywords=%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E3%81%AE%E7%A2%BA%E7%8E%87%E3%83%BB%E7%B5%B1%E8%A8%88&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&tag=ryuichiueda-22" target="_blank" >Amazonで購入</a></div></div></div><div class="booklink-footer" style="clear: left"></div></div>
+
 ### 2021
 
 * 上田 隆一, 山田 泰宏, 田代 勝也, 中村 壮一, 今泉 光之, 上杉 尚史: 1日1問、半年以内に習得 シェル・ワンライナー160本ノック, 技術評論社, 2021.
@@ -33,8 +35,6 @@ Copyright: (C) Ryuichi Ueda
       <div class="card-body">
         <dl class="fn" style="font-size:80%">
           <dt><a href="https://www.amazon.co.jp/dp/4297122677?tag=ryuichiueda-22&linkCode=ogi&th=1&psc=1">1日1問、半年以内に習得 シェル・ワンライナー160本ノック (Software Design plusシリーズ)</a></dt>
-          <dd>上田 隆一, 山田 泰宏, 田代 勝也, 中村 壮一, 今泉 光之, 上杉 尚史</dd>
-          <dd>技術評論社 2021-09-27</dd>
         </dl>
       </div>
     </div>
