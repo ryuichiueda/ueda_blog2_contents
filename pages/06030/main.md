@@ -99,6 +99,7 @@ Copyright: (C) Ryuichi Ueda
 ### 2017
 上田隆一: <a href="http://ec.nikkeibp.co.jp/item/books/261040.html" target="_blank" rel="noopener">Raspberry Piで学ぶ ROSロボット入門</a>, 日経BP, 2017.
 
+<div class="krb-amzlt-box" style="margin-bottom:0px;"><div class="krb-amzlt-image" style="float:left;margin:0px 12px 1px 0px;"><a href="https://amzn.to/42jNoZh"><img width="160px" src="https://images-na.ssl-images-amazon.com/images/P/4339046876.09.LZZZZZZZ"></a></div><div class="krb-amzlt-info" style="line-height:120%; margin-bottom: 10px"><div class="krb-amzlt-name" style="margin-bottom:10px;line-height:120%"><a href="https://amzn.to/42jNoZh" name="amazletlink" target="_blank" rel="nofollow" rel="nofollow">ロボットの確率・統計: 製作・競技・知能研究で役立つ考え方と計算法 単行本 – 2024/3/4</a><div class="krb-amzlt-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="https://kaereba.com/wind/" title="amazlet" target="_blank" rel="nofollow" rel="nofollow">カエレバ</a></div></div><div class="krb-amzlt-detail"></div><div class="krb-amzlt-sub-info" style="float: left;"><div class="krb-amzlt-link" style="margin-top: 5px"><a href="https://amzn.to/42jNoZh" name="amazletlink" target="_blank" rel="nofollow" rel="nofollow">Amazon.co.jpで詳細を見る</a></div></div></div><div class="krb-amzlt-footer" style="clear: left"></div></div>
 
 
 ### 2015
