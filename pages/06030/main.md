@@ -16,6 +16,10 @@ Copyright: (C) Ryuichi Ueda
 
 [<i class="fa fa-book"> </i>購入はこちらから。<i class="fa fa-external-link"></i>](https://www.amazon.co.jp/shop/ryuichiueda)
 
+### 2024
+
+* 上田 隆一: ロボットの確率・統計 ---製作・競技・知能研究で役立つ考え方と計算法, コロナ社, 2024. 
+
 ### 2021
 
 * 上田 隆一, 山田 泰宏, 田代 勝也, 中村 壮一, 今泉 光之, 上杉 尚史: 1日1問、半年以内に習得 シェル・ワンライナー160本ノック, 技術評論社, 2021.
