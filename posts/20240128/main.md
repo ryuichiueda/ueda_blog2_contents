@@ -18,3 +18,15 @@ Copyright: (C) 2024 Ryuichi Ueda
 　電子書籍が2/8まで半額！だそうです。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">◇紀伊國屋書店さんはこちらから↓<a href="https://t.co/zuXH2t3tSI">https://t.co/zuXH2t3tSI</a><br><br>◇Reader Storeさんはこちらから↓<a href="https://t.co/Y7pAtEuRYL">https://t.co/Y7pAtEuRYL</a><br><br>◇BOOK☆WALKERさんはこちらから↓<a href="https://t.co/aneSa21Y9w">https://t.co/aneSa21Y9w</a> <a href="https://t.co/m5q1PJpFOq">pic.twitter.com/m5q1PJpFOq</a></p>&mdash; 講談社サイエンティフィク🖋️📔 (@kspub_kodansha) <a href="https://twitter.com/kspub_kodansha/status/1748219268460916870?ref_src=twsrc%5Etfw">January 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## 「ロボットの確率・統計」は予約はじまりましたー
+
+　よろしくおねがいします！
+
+### コロナ社のページ
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">近刊　ご予約受付中<br><br>ロボットの確率・統計 <br>- 製作・競技・知能研究で役立つ考え方と計算法 - <a href="https://t.co/dFJ5ac629M">https://t.co/dFJ5ac629M</a><br>上田 隆一 千葉工大准教授 博士（工学） 著<br><br>ロボット分野だけに限定した，様々な確率・統計の知識を学ぶことができる書籍 <a href="https://t.co/VFp3NTr1U7">https://t.co/VFp3NTr1U7</a></p>&mdash; コロナ社☉自然科学専門書の出版社 (@coronasha) <a href="https://twitter.com/coronasha/status/1749636576148410696?ref_src=twsrc%5Etfw">January 23, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### Amazon
+
+<p><a href="https://amzn.to/4be2aET"><img width="160px" src="https://images-na.ssl-images-amazon.com/images/P/4339046876.09.LZZZZZZZ"></a></p> <p><a href="https://amzn.to/4be2aET" target="_blank" rel="nofollow">ロボットの確率・統計: 製作・競技・知能研究で役立つ考え方と計算法 単行本 – 2024/3/4</a></p>
