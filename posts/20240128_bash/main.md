@@ -7,7 +7,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 　Bashのコードが長すぎて事実上ブラックボックスなので、はっきり言ってルールがさっぱりわかりません。構文解析（最近、LL法と思われる方法しか使ってないのでLR法）をたぶんイチからおさらいしないと理解できない模様ですが、ヒントください（泣）
 
-* Bashのbison/yacc用と思われるコード: https://github.com/bminor/bash/blob/f3b6bd19457e260b65d11f2712ec3da56cef463f/parse.y
+* 参考: （自分には参考にしようにもわけがわかんない）[Bashのbison/yacc用と思われるコード](https://github.com/bminor/bash/blob/f3b6bd19457e260b65d11f2712ec3da56cef463f/parse.y)
 
 　明日あたり構文木を紙に書いてみますか・・・
 
