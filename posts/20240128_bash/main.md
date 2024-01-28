@@ -11,6 +11,8 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">うーんうーん<br><br>```<br>$ echo {b{c},c}<br>b{c} c<br>$ echo {}b{c},c}<br>{}bc} {}bc<br>$ echo a{}b{c},c}<br>a}b{c} ac<br>$ echo {a}{b{c},e}<br>{a}b{c} {a}e<br>$ echo {a}b{c},e}<br>a}b{c} e<br>$ echo {a}b{c,d},e}<br>a}bc a}bd e<br>```</p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1751594409676906939?ref_src=twsrc%5Etfw">January 28, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+特に2番目と3番目、あたまにaがついただけで解釈変わるのなんで？私は何を見落としているんでしょうか？？？
+
 
 * Bashのbison/yacc用と思われるコード: https://github.com/bminor/bash/blob/f3b6bd19457e260b65d11f2712ec3da56cef463f/parse.y
 
