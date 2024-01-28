@@ -18,3 +18,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 とりあえず仕事に支障が出るので寝る。
 
 * 参考: （自分には参考にしようにもわけがわかんない）[Bashのbison/yacc用と思われるコード](https://github.com/bminor/bash/blob/f3b6bd19457e260b65d11f2712ec3da56cef463f/parse.y)
+
+## 20240129メモ
+
+オートマトンで考えたほうがいいかもしれない。
