@@ -15,7 +15,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ## 講談社サイエンティフィク高額理系専門書フェア
 
-　電子書籍が2/8まで半額！だそうです。
+　電子書籍が2/8まで半額！だそうです。[詳解確率ロボティクス](https://amzn.to/4bpykO6)も対象です。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">◇紀伊國屋書店さんはこちらから↓<a href="https://t.co/zuXH2t3tSI">https://t.co/zuXH2t3tSI</a><br><br>◇Reader Storeさんはこちらから↓<a href="https://t.co/Y7pAtEuRYL">https://t.co/Y7pAtEuRYL</a><br><br>◇BOOK☆WALKERさんはこちらから↓<a href="https://t.co/aneSa21Y9w">https://t.co/aneSa21Y9w</a> <a href="https://t.co/m5q1PJpFOq">pic.twitter.com/m5q1PJpFOq</a></p>&mdash; 講談社サイエンティフィク🖋️📔 (@kspub_kodansha) <a href="https://twitter.com/kspub_kodansha/status/1748219268460916870?ref_src=twsrc%5Etfw">January 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -29,4 +29,4 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ### Amazon
 
-<p><a href="https://amzn.to/4be2aET"><img width="160px" src="https://images-na.ssl-images-amazon.com/images/P/4339046876.09.LZZZZZZZ"></a></p> <p><a href="https://amzn.to/4be2aET" target="_blank" rel="nofollow">ロボットの確率・統計: 製作・競技・知能研究で役立つ考え方と計算法 単行本 – 2024/3/4</a></p>
+<div class="krb-amzlt-box" style="margin-bottom:0px;"><div class="krb-amzlt-image" style="float:left;margin:0px 12px 1px 0px;"><a href="https://amzn.to/4be2aET"><img width="160px" src="https://images-na.ssl-images-amazon.com/images/P/4339046876.09.LZZZZZZZ"></a></div><div class="krb-amzlt-info" style="line-height:120%; margin-bottom: 10px"><div class="krb-amzlt-name" style="margin-bottom:10px;line-height:120%"><a href="https://amzn.to/4be2aET" name="amazletlink" target="_blank" rel="nofollow" rel="nofollow">ロボットの確率・統計: 製作・競技・知能研究で役立つ考え方と計算法 単行本 – 2024/3/4</a><div class="krb-amzlt-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="https://kaereba.com/wind/" title="amazlet" target="_blank" rel="nofollow" rel="nofollow">カエレバ</a></div></div><div class="krb-amzlt-detail"></div><div class="krb-amzlt-sub-info" style="float: left;"><div class="krb-amzlt-link" style="margin-top: 5px"><a href="https://amzn.to/4be2aET" name="amazletlink" target="_blank" rel="nofollow" rel="nofollow">Amazon.co.jpで詳細を見る</a></div></div></div><div class="krb-amzlt-footer" style="clear: left"></div></div>
