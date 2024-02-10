@@ -85,5 +85,7 @@ $ echo $\${a,b} #エスケープするとブレース展開する
 $$a $$b
 ```
 
+参考: https://stackoverflow.com/questions/77850130/bash-parse-of-x-y
+
 現場からは以上です。
 
