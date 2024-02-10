@@ -5,7 +5,10 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 # Bashのブレース展開のルール
 
-　[このまえ](/?post=20240128_bash)悩みまくってましたが、やっと解決したようなのでまとめます。
+　[このまえ](/?post=20240128_bash)悩みまくってましたが、やっと解決したようなのでまとめます。その前に宣伝ですが、シェル芸勉強会やるのできてくださーい。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">大手町でやります〜 <br><br>jus共催第68回3月2日でございますシェル芸勉強会 <a href="https://t.co/7DRG4ygrAb">https://t.co/7DRG4ygrAb</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1755915952439640318?ref_src=twsrc%5Etfw">February 9, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## 基本ルール
 
