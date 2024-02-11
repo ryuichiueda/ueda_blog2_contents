@@ -120,7 +120,7 @@ links:
 - text: '問い合わせ'
   sublinks:
   - text: '講演依頼'
-    href: '/?page=request_for_speaking
+    href: '/?page=request_for_speaking'
   href: '#'
 - text: 'その他'
   href: '/?page=01242'
