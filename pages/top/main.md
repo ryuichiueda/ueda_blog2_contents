@@ -16,7 +16,11 @@ Copyright: (C) 2022-2024 Ryuichi Ueda
     <div class="col-md-6">
       <h2 id="news"><i class="fa-solid fa-circle-info"></i> 最近の話題</h2>
       <h3 id="prob_book">本が出ます（2024年2月予定）</h3>
-      <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">こんど出る本（ロボットの確率・統計 ―製作・競技・知能研究で役立つ考え方と計算法―）の紹介です〜<a href="https://t.co/UDQmT2Xd5x">https://t.co/UDQmT2Xd5x</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1746355483290841336?ref_src=twsrc%5Etfw">January 14, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      いろいろアレ。
+
+      <blockquote class="twitter-tweet"><p lang="zxx" dir="ltr"><a href="https://t.co/fTrG7viYN5">https://t.co/fTrG7viYN5</a> <a href="https://t.co/pUWRo0veBH">pic.twitter.com/pUWRo0veBH</a></p>&mdash; コロナ社☉自然科学専門書の出版社 (@coronasha) <a href="https://twitter.com/coronasha/status/1755772365294928141?ref_src=twsrc%5Etfw">February 9, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
       <h3 id="dokoiku">芸人さんとYouTubeの動画に出ました（2023年12月）</h3>
       <div class="ratio" style="--bs-aspect-ratio: 50%; width: 300px;">
         <iframe src="https://www.youtube.com/embed/xqd9UoAft2Q"></iframe>
