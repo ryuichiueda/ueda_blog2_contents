@@ -17,7 +17,7 @@ Copyright: (C) 2022-2024 Ryuichi Ueda
       <h2 id="news"><i class="fa-solid fa-circle-info"></i> 最近の話題</h2>
       <h3 id="prob_book">本が出ます（2024年2月予定）</h3>
 
-      いろいろアレ。
+      いろいろアレ
 
       <blockquote class="twitter-tweet"><p lang="zxx" dir="ltr"><a href="https://t.co/fTrG7viYN5">https://t.co/fTrG7viYN5</a> <a href="https://t.co/pUWRo0veBH">pic.twitter.com/pUWRo0veBH</a></p>&mdash; コロナ社☉自然科学専門書の出版社 (@coronasha) <a href="https://twitter.com/coronasha/status/1755772365294928141?ref_src=twsrc%5Etfw">February 9, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
