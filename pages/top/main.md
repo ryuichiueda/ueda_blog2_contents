@@ -15,7 +15,7 @@ Copyright: (C) 2022-2024 Ryuichi Ueda
     </div>
     <div class="col-md-6">
       <h2 id="news"><i class="fa-solid fa-circle-info"></i> 最近の話題</h2>
-      <h3 id="prob_book">本が出ます（2024年2月予定）</h3>
+      <h3 id="prob_book">本が出ます（2024年2月20日ごろ）</h3>
 
       いろいろアレ
 
