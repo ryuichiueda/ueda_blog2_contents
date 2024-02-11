@@ -119,6 +119,8 @@ links:
     href: '/?page=02317'
 - text: '問い合わせ'
   sublinks:
+  - text: '執筆依頼'
+    href: '/?page=request_for_writing'
   - text: '講演依頼'
     href: '/?page=request_for_speaking'
   href: '#'
