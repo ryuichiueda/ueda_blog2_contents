@@ -1,3 +1,7 @@
+---
+Copyright: (C) Ryuichi Ueda
+---
+
 # 講演依頼の前に
 
 ## この文章なに？

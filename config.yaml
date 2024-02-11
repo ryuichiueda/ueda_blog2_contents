@@ -119,8 +119,8 @@ links:
     href: '/?page=02317'
 - text: '問い合わせ'
   sublinks:
-  - text: '@@@'
-    href: '/?page=@@@'
+  - text: '講演依頼'
+    href: '/?page=request_for_speaking
   href: '#'
 - text: 'その他'
   href: '/?page=01242'
@@ -159,7 +159,7 @@ links:
     href: '/?page=09678'
   - text: 'エクソペリエンス一覧'
     href: '/?page=neta'
-- text: 'links'
+- text: '他のサイト'
   href: '/?page=00811'
   sublinks:
   - text: '千葉工大上田研究室'
