@@ -55,7 +55,7 @@ sidecards:
   href: '/?page=bashcms2'
   text: 'このサイト（bash製）の作り方と解説本'
 links:
-- text: 'publications'
+- text: '出版物'
   href: '/?page=00728'
   sublinks:
   - text: 'Publication List (English)'
@@ -94,7 +94,7 @@ links:
     href: '/?page=02949'
   - text: '著作物の購入'
     href: '/?page=mybookstore'
-- text: 'projects'
+- text: 'プロジェクト'
   sublinks:
   - text: 'シェル芸'
     href: '/?page=01434'
@@ -108,7 +108,7 @@ links:
     href: '/?page=GlueLang'
   - text: '研究 <i class="fa fa-external-link"></i>'
     href: 'https://lab.ueda.tech/?page_id=60'
-- text: 'records'
+- text: '記録室'
   href: './'
   sublinks:
   - text: '受賞等'
@@ -117,7 +117,12 @@ links:
     href: '/?page=01746'
   - text: '外部獲得資金'
     href: '/?page=02317'
-- text: 'misc'
+- text: '問い合わせ'
+  sublinks:
+  - text: '@@@'
+    href: '/?page=@@@'
+  href: '#'
+- text: 'その他'
   href: '/?page=01242'
   sublinks:
   - text: '資料室'
