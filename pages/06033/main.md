@@ -37,7 +37,7 @@ Copyright: (C) Ryuichi Ueda
 
 ### 2023
 
-* Ryuichi Ueda, Leon Tonouchi, Tatsuhiro Ikebe, and Yasuo Hayashibara: Implementation of brute-force value iteration for mobile robot path planning and obstacle bypassing," Journal of Robotics and Mechatronics, Vol.35, No.6, 2023 (to appear)
+* Ryuichi Ueda, Leon Tonouchi, Tatsuhiro Ikebe, and Yasuo Hayashibara: [Implementation of brute-force value iteration for mobile robot path planning and obstacle bypassing](https://www.fujipress.jp/jrm/rb/robot003500061489/), Journal of Robotics and Mechatronics, Vol.35, No.6, pp.1489-1502, 2023.
 
 ### 2022
 
