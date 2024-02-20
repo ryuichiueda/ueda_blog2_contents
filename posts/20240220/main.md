@@ -23,10 +23,22 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ## ロボットの確率・統計が刷り上がった模様
 
-　大学に見本が何冊か届いているみたいなので、明日対面します。見本は査読いただいた先生がたに送付します。
+　大学に見本が何冊か届いているみたいなので、明日対面します。見本は査読いただいた先生がたに送付します。公式な発売日は3/4の模様です。
 
 <div class="card">
 <div class="krb-amzlt-box" style="margin-bottom:0px;"><div class="krb-amzlt-image" style="float:left;margin:0px 12px 1px 0px;"><a href="https://amzn.to/42jNoZh"><img width="160px" src="https://images-na.ssl-images-amazon.com/images/P/4339046876.09.LZZZZZZZ"></a></div><div class="krb-amzlt-info" style="line-height:120%; margin-bottom: 10px"><div class="krb-amzlt-name" style="margin-bottom:10px;line-height:120%"><a href="https://amzn.to/42jNoZh" name="amazletlink" target="_blank" rel="nofollow" rel="nofollow">ロボットの確率・統計: 製作・競技・知能研究で役立つ考え方と計算法 単
 行本 – 2024/3/4</a><div class="krb-amzlt-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="https://kaereba.com/wind/" title="amazlet" target="_blank" rel="nofollow" rel="nofollow">カエレバ</a></div></div><div class="krb-amzlt-detail"></div><div class="krb-amzlt-sub-info" style="float: left;"><div class="krb-amzlt-link" style="margin-top: 5px"><a href="https://amzn.to/42jNoZh" name="amazletlink" target="_blank" rel="nofollow" rel="nofollow">Amazon.co.jpで詳細を見る</a></div></div></div><div class="krb-amzlt-footer" style="clear: left"></div></div>
 </div>
 
+## シェル芸勉強会の準備
+
+　募集ページ作りました。参加者募集中〜〜〜。今回は問題づくりに時間かけたいです。というか明日から原稿は中断して問題づくりに注力します。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">やりますよー<br><br>jus共催第68回3月2日でございますシェル芸勉強会 <a href="https://t.co/7DRG4ygrAb">https://t.co/7DRG4ygrAb</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1756832275269050694?ref_src=twsrc%5Etfw">February 12, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+　大阪サテライトも準備していただきました。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">3/2 第68回シェル芸勉強会 大阪サテライト 募集ページを公開しました <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a><a href="https://t.co/ChIibzTTdP">https://t.co/ChIibzTTdP</a></p>&mdash; so (@3socha) <a href="https://twitter.com/3socha/status/1755933302421393630?ref_src=twsrc%5Etfw">February 9, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+以上です。
