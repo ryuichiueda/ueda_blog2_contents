@@ -13,7 +13,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ## 映像の世紀の感想
 
-　珍しく自分のことでなくて政治的な話ですが、19日の映像の世紀は見応えありました。オッペンハイマーさんがこんなことを言ってました。工学部の立場はいったい・・・
+　珍しく自分のことでなくて政治的な話ですが、19日の映像の世紀は見応えありました。見応えがあったものの、悲しかったです。オッペンハイマーさんがこんなことを言ってました。工学部の立場はいったい・・・
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">「私にはよい答えがないのです」<br>“原爆の父”オッペンハイマーは、死の間際まで苦しみ続けていました。<br><br>▼見逃した方も、もう一度の方も配信で<a href="https://t.co/rvs5TW9fZb">https://t.co/rvs5TW9fZb</a><a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%83%E3%83%9A%E3%83%B3%E3%83%8F%E3%82%A4%E3%83%9E%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#オッペンハイマー</a> <a href="https://twitter.com/hashtag/%E6%98%A0%E5%83%8F%E3%81%AE%E4%B8%96%E7%B4%80?src=hash&amp;ref_src=twsrc%5Etfw">#映像の世紀</a> <a href="https://twitter.com/hashtag/%E3%83%90%E3%82%BF%E3%83%95%E3%83%A9%E3%82%A4%E3%82%A8%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88?src=hash&amp;ref_src=twsrc%5Etfw">#バタフライエフェクト</a> <a href="https://t.co/TTYOCnigbN">pic.twitter.com/TTYOCnigbN</a></p>&mdash; 映像の世紀バタフライエフェクト (@nhk_butterfly) <a href="https://twitter.com/nhk_butterfly/status/1759574559643042300?ref_src=twsrc%5Etfw">February 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
