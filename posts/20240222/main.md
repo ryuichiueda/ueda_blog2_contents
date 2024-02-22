@@ -1,5 +1,5 @@
 ---
-Keywords: bash
+Keywords: 日記, 出版
 Copyright: (C) 2024 Ryuichi Ueda
 ---
 
