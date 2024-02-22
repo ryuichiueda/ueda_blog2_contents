@@ -1,5 +1,5 @@
 ---
-Keywords: bash
+Keywords: 日記, 研究, シェル芸勉強会
 Copyright: (C) 2024 Ryuichi Ueda
 ---
 
