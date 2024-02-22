@@ -1,0 +1,21 @@
+---
+Keywords: bash
+Copyright: (C) 2024 Ryuichi Ueda
+---
+
+# 日記（2024年2月22日）
+
+　4年の担任なので卒業に関する書類とかを準備する日々。ひとつ学科で決めることがあるんだけど、なかなかまとまらず、時間を費やしています。うちはこういうことはめったになく、かなり良い方なので、（自分のことは棚に上げて）ヘラヘラ笑いながら仕方ねえなあという感じでさばいているんですが、久々にサラリーマンやったなあと・・・。
+
+　人間の脳細胞も、情報のやりとりだけやって何かを直接動かしてはいないけど重要なわけですが、会社とかの大きな組織の場合も、そういう人たちが重要です。が、でかい組織のなかでそれを忠実にやってストレスを溜めない人間って、どれくらいいるんでしょう？自分はなにか作ってないと死ぬ人間なので、脳細胞のような殿上人ではなく、せいぜい鳥肌のブツブツを作る筋肉くらいの役割しかできません無念。
+
+
+## 本が刷り上がってきた
+
+　[ロボットの確率・統計](https://amzn.to/3T6tJce)、印刷されたてのものが届きました。また、同じ日に、講談社の[「イラストで学ぶ 制御工学」](https://amzn.to/3ORmy5m)をご恵投いただきました。ということで床にならべてみました。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">あそんでる <a href="https://t.co/Y2CbJA9CCd">pic.twitter.com/Y2CbJA9CCd</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1760272160881561613?ref_src=twsrc%5Etfw">February 21, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+本屋でも並ぶと思いますので、ぜひ、両方を手にとっていただければと。
+
+
