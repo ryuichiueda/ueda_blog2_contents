@@ -5,7 +5,9 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 # ディレクトリ関係のチルダ展開の使い方
 
-　Bashの場合のメモです。
+　Bashの場合のメモです。自分は使ったことがないのですが、Bashではチルダ展開で`PWD, OLDPWD`にあるディレクトリや`pushd`で記録したディレクトリを参照できます。
+
+## やってみた
 
 ```bash
 $ echo $BASH_VERSION
