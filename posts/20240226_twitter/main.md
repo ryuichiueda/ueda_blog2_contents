@@ -53,7 +53,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ### 結果1: 本気で心配される
 
-　研究の背景で述べた懸念のとおり、心配の声が寄せられた。
+　冒頭で述べた懸念のとおり、心配の声が寄せられた。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">先生、ひょっとしてアカウント乗っ取られてませんか？心配しています</p>&mdash; ふらいと(今西洋介)@小児科医・新生児科医 (@doctor_nw) <a href="https://twitter.com/doctor_nw/status/1761961085807313260?ref_src=twsrc%5Etfw">February 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
