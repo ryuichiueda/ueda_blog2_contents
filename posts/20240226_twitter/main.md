@@ -84,7 +84,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 　最後についったーの使い方について意見を述べると、スポーツでは「力みすぎるとかえって力が出ない」というのは常識であり、私は、このことはあらゆることに通用する真理だと考えている。うまく力が伝わっている時ほど手応えがないというのも真理であろう。SNSで変に目立ったり、相手をやり込めて意見を通そうとするのではなく、まずは周りを見て、どうやったら自分を受け入れてくれるんだろうと考え抜き、かつ脱力して使う人が増えればギスギスもなくなるんだろうと考えている。
 
-　あと、 [misskey.io](https://misskey.io) 楽しいし、ロボットに人には [mi0.robotician.jp](https://mi0.robotician.jp) 、シェル芸の人には [mi.shellgei.org](https://mi.shellgei.org) を私が運営してますので、ぜひお越しください。
+　あと、 [misskey.io](https://misskey.io) 楽しいし、ロボットの人には [mi0.robotician.jp](https://mi0.robotician.jp) 、シェル芸の人には [mi.shellgei.org](https://mi.shellgei.org) を私が運営してますので、ぜひお越しください。
 
 ## 結論
 
