@@ -25,7 +25,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ## LT
 
-捜索中
+捜索中（なかった？？？）
 
 ## ブログなど
 
