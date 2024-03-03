@@ -21,10 +21,13 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ow7kh5Eetco?si=5Zm0HVCpyLfr0H1W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">jus共催 第67回今年もお疲れシェルでしたシェル芸勉強会 大手町プレイス現地参加 <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8%E5%8B%89%E5%BC%B7%E4%BC%9A?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸勉強会</a> <a href="https://t.co/kL2eMSSjYB">pic.twitter.com/kL2eMSSjYB</a></p>&mdash; やべえ (@yabeenico) <a href="https://twitter.com/yabeenico/status/1735872845606244725?ref_src=twsrc%5Etfw">December 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## LT
 
 捜索中
 
 ## ブログなど
 
-捜索中
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">はてなブログに投稿しました<br>第67回シェル芸勉強会に参加しました - たいちょーの雑記 <a href="https://t.co/MZsdBx18GP">https://t.co/MZsdBx18GP</a><a href="https://twitter.com/hashtag/%E3%81%AF%E3%81%A6%E3%81%AA%E3%83%96%E3%83%AD%E3%82%B0?src=hash&amp;ref_src=twsrc%5Etfw">#はてなブログ</a></p>&mdash; たいちょー (@xztaityozx_001) <a href="https://twitter.com/xztaityozx_001/status/1736283984672493911?ref_src=twsrc%5Etfw">December 17, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
