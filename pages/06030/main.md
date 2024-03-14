@@ -24,6 +24,11 @@ Copyright: (C) Ryuichi Ueda
 <div class="krb-amzlt-box" style="margin-bottom:0px;"><div class="krb-amzlt-image" style="float:left;margin:0px 12px 1px 0px;"><a href="https://amzn.to/42jNoZh"><img width="160px" src="https://images-na.ssl-images-amazon.com/images/P/4339046876.09.LZZZZZZZ"></a></div><div class="krb-amzlt-info" style="line-height:120%; margin-bottom: 10px"><div class="krb-amzlt-name" style="margin-bottom:10px;line-height:120%"><a href="https://amzn.to/42jNoZh" name="amazletlink" target="_blank" rel="nofollow" rel="nofollow">ロボットの確率・統計: 製作・競技・知能研究で役立つ考え方と計算法 単行本 – 2024/3/4</a><div class="krb-amzlt-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="https://kaereba.com/wind/" title="amazlet" target="_blank" rel="nofollow" rel="nofollow">カエレバ</a></div></div><div class="krb-amzlt-detail"></div><div class="krb-amzlt-sub-info" style="float: left;"><div class="krb-amzlt-link" style="margin-top: 5px"><a href="https://amzn.to/42jNoZh" name="amazletlink" target="_blank" rel="nofollow" rel="nofollow">Amazon.co.jpで詳細を見る</a></div></div></div><div class="krb-amzlt-footer" style="clear: left"></div></div>
 </div>
 
+### 2023
+
+* 上田 隆一, 山田 泰宏, 田代 勝也, 中村 壮一, 今泉 光之, 上杉 尚史: 아트 오브 셸 원라이너 160제 --- 텍스트 한 줄의 마법, 파워 유저를 위한 리눅스/유닉스 커맨드, Jpup（제이펍）, 2023.
+    * シェル・ワンライナー160本ノックの韓国語版です。[情報（あんまりない）](/?post=20230504_shellgei160_korea)。
+
 ### 2021
 
 * 上田 隆一, 山田 泰宏, 田代 勝也, 中村 壮一, 今泉 光之, 上杉 尚史: 1日1問、半年以内に習得 シェル・ワンライナー160本ノック, 技術評論社, 2021.
