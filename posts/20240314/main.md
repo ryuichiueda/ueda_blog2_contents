@@ -5,7 +5,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 # 日記（〜2024年3月14日）
 
-　大学の大きな仕事が一段落して、新学期に向けていろいろ準備中です。あと、なんとか[ロボットの確率・統計](https://amzn.to/3wPWJMR)を売ろう（+あんまりウザがられないようにしよう）とネット上で右往左往してます。
+　大学の大きな仕事が一段落して、新学期に向けていろいろ準備中です。あと、なんとか[ロボットの確率・統計](/?page=robot_and_stats)を売ろう（+あんまりウザがられないようにしよう）とネット上で右往左往してます。
 
 ## ロボットの確率・統計に書評をいただきました
 
@@ -15,7 +15,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ## 自分で紹介動画も作った
 
-　どうでしょう？買いたくなるでしょうか？
+　どうでしょう？買いたくなるでしょうか？（もちろんそれ以外の人にも読んでもらいたいのですが）特に大学1年生に読んでもらいたいというのがちょっと強く出すぎているような気もします。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fwxxyeigJfs?si=p1xh_izPm4US1ZvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
