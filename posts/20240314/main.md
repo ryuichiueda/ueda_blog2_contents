@@ -20,3 +20,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fwxxyeigJfs?si=p1xh_izPm4US1ZvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
+　あと、[こっちのページ](/?page=robot_and_stats)も充実させて、1冊でも多く売るようにがんばります。とにかく、書いた売らんといかんのです（謎の義務感）。
+
+
+現場からは以上です。
