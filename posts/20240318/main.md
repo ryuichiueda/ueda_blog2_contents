@@ -3,11 +3,19 @@ Keywords: 日記
 Copyright: (C) 2024 Ryuichi Ueda
 ---
 
-# 日記（2024年3月18日）
+# 日記（〜2024年3月18日）
 
-　砂と花粉の激しい日でした。
+　今日は砂と花粉の激しい日でした。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今日の砂塵+花粉地獄は大丈夫でしたでしょうか？<br><br>（中の人は目と鼻をフガフガしながら仕事してました） <a href="https://t.co/n2wSsKYfel">pic.twitter.com/n2wSsKYfel</a></p>&mdash; 千葉工大 未来ロボティクス学科 (@robo_cit) <a href="https://twitter.com/robo_cit/status/1769698811285250390?ref_src=twsrc%5Etfw">March 18, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## 土日に大阪、京都に行ってきた
+
+　子供が「グリコの看板見たい」、「清水寺見たい」と言ったので1泊2日で行ってきました。実況は[Misskey.io](https://misskey.io/@ryuichiueda)でやったのですが、Twitterのほうはこんな感じに2つだけ写真を投稿しました。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Cなの？C#なの？C++なの？どれ？ <a href="https://t.co/q0bXvy8cT0">pic.twitter.com/q0bXvy8cT0</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1768853130169737596?ref_src=twsrc%5Etfw">March 16, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">最高によい <a href="https://t.co/x87qYhS0mU">pic.twitter.com/x87qYhS0mU</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1768919670290251964?ref_src=twsrc%5Etfw">March 16, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## ロボットの確率・統計の練習問題を作ると宣言
 
