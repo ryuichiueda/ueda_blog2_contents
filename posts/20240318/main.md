@@ -17,7 +17,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 　ただ、自分で言うのもなんですが、ロボットの確率・統計は前の2冊と比較しても、たとえ練習問題がなくても良い本だと自分でも思います。よろしくお願いいたします🙏🙏🙏
 
-## SoftwareDesign 4月号
+## [SoftwareDesign](https://www.amazon.co.jp/shop/ryuichiueda/list/7MLC9JANITU0?ref_=aip_sf_list_spv_ofs_mixed_d) 4月号
 
 　うちにも届きました。（先月はいろいろあってかなり遅配になっちゃったんですが、今月はちゃんと・・・。）
 特集はLinux基礎知識ということで、ロボットの人にもおすすめです。
