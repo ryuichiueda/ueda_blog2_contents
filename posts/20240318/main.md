@@ -9,7 +9,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今日の砂塵+花粉地獄は大丈夫でしたでしょうか？<br><br>（中の人は目と鼻をフガフガしながら仕事してました） <a href="https://t.co/n2wSsKYfel">pic.twitter.com/n2wSsKYfel</a></p>&mdash; 千葉工大 未来ロボティクス学科 (@robo_cit) <a href="https://twitter.com/robo_cit/status/1769698811285250390?ref_src=twsrc%5Etfw">March 18, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### ロボットの確率・統計の練習問題を作ると宣言
+## ロボットの確率・統計の練習問題を作ると宣言
 
 　「ロボットの確率・統計」、まだ評判が出揃う前なので前評判で売らなきゃいけない苦しい時期なんですが、Amazonでの本の売れ行きちょっと止まってて焦ってます。んで、やっぱり自分の書きたいことをただ書くだけじゃなくて、利便性も追求せねばならんと痛感しましたので、大変だけど練習問題を作っていこうと思います。前の2冊はそのへんが抜かりがなくてずーっと売れ続けているので、さぼってはいかんなと。
 
@@ -17,7 +17,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 　ただ、自分で言うのもなんですが、ロボットの確率・統計は前の2冊と比較しても、たとえ練習問題がなくても良い本だと自分でも思います。よろしくお願いいたします🙏🙏🙏
 
-### SoftwareDesign 4月号
+## SoftwareDesign 4月号
 
 　うちにも届きました。（先月はいろいろあってかなり遅配になっちゃったんですが、今月はちゃんと・・・。）
 特集はLinux基礎知識ということで、ロボットの人にもおすすめです。
