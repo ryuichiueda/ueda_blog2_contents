@@ -24,7 +24,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">こんにちは。本日（3月18日）は、「Software Design 2024年4月号」の発売日です。<br>今一度、自分の基礎力を見直し、気持ちよく新年度のスタートを切りましょう。<br><br>1特　Linux基礎知識60<br>2特　今から始めるテクニカルライティング<br>新連載　Databricksで勝つデータ活用<a href="https://t.co/QNDAvzfcwt">https://t.co/QNDAvzfcwt</a></p>&mdash; SoftwareDesign (@gihyosd) <a href="https://twitter.com/gihyosd/status/1769551317557801331?ref_src=twsrc%5Etfw">March 18, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-　私の連載は、Linux変態知識なので、うわぁぁぁぁ！！！と叫びながらお楽しみください。業界にはもっと変態な人たちがゴロゴロいるので、あまり生意気なことを言ってるとシェルで殴られそうですが。
+　私の連載は、Linux変態知識なので、うわぁぁぁぁ！！！と叫びながらお楽しみください。業界にはもっと変態な人たちがゴロゴロいるので、あまり生意気なことを言ってるとシェルで殴られそうですが。第2特集のテクニカルライティングも、すべての人が一読するとよいかと。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今月のSoftwareDesignのあたくしの連載「魅惑の自作シェルの世界」は、ジョブのバックグラウンド実行の実装です。<br><br>で、相変わらずシェルの細か〜い話を書いてるんですが、2つ目の画像の「場合は」の続きは分かるでしょうか？<br><br>分からなければ買いましょう（圧）<a href="https://t.co/OCckaKNweu">https://t.co/OCckaKNweu</a> <a href="https://t.co/XnYQY8tFg0">pic.twitter.com/XnYQY8tFg0</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1769647541522739301?ref_src=twsrc%5Etfw">March 18, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
