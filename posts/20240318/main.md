@@ -11,7 +11,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ## ロボットの確率・統計の練習問題を作ると宣言
 
-　「ロボットの確率・統計」、まだ評判が出揃う前なので前評判で売らなきゃいけない苦しい時期なんですが、Amazonでの本の売れ行きちょっと止まってて焦ってます。んで、やっぱり自分の書きたいことをただ書くだけじゃなくて、利便性も追求せねばならんと痛感しましたので、大変だけど練習問題を作っていこうと思います。前の2冊はそのへんが抜かりがなくてずーっと売れ続けているので、さぼってはいかんなと。
+　[「ロボットの確率・統計」](/?page=robot_and_stats)、まだ評判が出揃う前なので前評判で売らなきゃいけない苦しい時期なんですが、Amazonでの本の売れ行きちょっと止まってて焦ってます。んで、やっぱり自分の書きたいことをただ書くだけじゃなくて、利便性も追求せねばならんと痛感しましたので、大変だけど練習問題を作っていこうと思います。前の2冊はそのへんが抜かりがなくてずーっと売れ続けているので、さぼってはいかんなと。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">練習問題を・・・作っていこうと思います・・・（大変だ・・・） <a href="https://t.co/pQgHHENfKH">https://t.co/pQgHHENfKH</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1769514538255437858?ref_src=twsrc%5Etfw">March 18, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
