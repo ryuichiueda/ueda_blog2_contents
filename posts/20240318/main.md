@@ -11,11 +11,21 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ## 土日に大阪、京都に行ってきた
 
-　子供が「グリコの看板見たい」、「清水寺見たい」と言ったので1泊2日で行ってきました。実況は[Misskey.io](https://misskey.io/@ryuichiueda)でやったのですが、Twitterのほうはこんな感じに2つだけ写真を投稿しました。
+　子供が「グリコの看板見たい、銀閣見たい、清水寺見たい」と言ったので1泊2日で行ってきました。
+
+* 1日目、大阪: お初天神通りの裏のホテルに荷物預ける、心斎橋、道頓堀（戎橋）、千日前、なんばウォーク、新世界、茶臼山の横を通って天王寺から大阪城、ホテル、鶴橋、ホテル
+* 2日目、京都: 京都駅で荷物をコインロッカーに、銀閣、清水寺、雨が降って打ち切って京都駅
+
+大阪京都間は阪急で行きたかったんですが、帰りの新幹線のことを考えるとコインロッカーは京都駅がよかったので、新快速で移動しました。混んでました。
+
+　実況は[Misskey.io](https://misskey.io/@ryuichiueda)でやったのですが、Twitterのほうはこんな感じに2つだけ写真を投稿しました。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Cなの？C#なの？C++なの？どれ？ <a href="https://t.co/q0bXvy8cT0">pic.twitter.com/q0bXvy8cT0</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1768853130169737596?ref_src=twsrc%5Etfw">March 16, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">最高によい <a href="https://t.co/x87qYhS0mU">pic.twitter.com/x87qYhS0mU</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1768919670290251964?ref_src=twsrc%5Etfw">March 16, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+　鶴橋の1度行ったことのあるお店で焼肉を食べましたが、安定してうまかったです。
+
 
 ## ロボットの確率・統計の練習問題を作ると宣言
 
