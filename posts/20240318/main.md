@@ -11,7 +11,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ## ロボットの確率・統計の練習問題を作ると宣言
 
-　[「ロボットの確率・統計」](/?page=robot_and_stats)、まだ評判が出揃う前なので前評判で売らなきゃいけない苦しい時期なんですが、Amazonでの本の売れ行きちょっと止まってて焦ってます。んで、やっぱり自分の書きたいことをただ書くだけじゃなくて、利便性も追求せねばならんと痛感しましたので、大変だけど練習問題を作っていこうと思います。前の2冊はそのへんが抜かりがなくてずーっと売れ続けているので、さぼってはいかんなと。
+　[「ロボットの確率・統計」](/?page=robot_and_stats)、まだ評判が固まる前なので前評判と、いただいた書評で売らなきゃいけない苦しい時期なんですが、Amazonでの本の売れ行きちょっと止まってて焦ってます。んで、やっぱり自分の書きたいことをただ書くだけじゃなくて、利便性も追求せねばならんと痛感しましたので、大変だけど練習問題を作っていこうと思います。前の2冊はそのへんが抜かりがなくてずーっと売れ続けているので、さぼってはいかんなと。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">練習問題を・・・作っていこうと思います・・・（大変だ・・・） <a href="https://t.co/pQgHHENfKH">https://t.co/pQgHHENfKH</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1769514538255437858?ref_src=twsrc%5Etfw">March 18, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -29,4 +29,6 @@ Copyright: (C) 2024 Ryuichi Ueda
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今月のSoftwareDesignのあたくしの連載「魅惑の自作シェルの世界」は、ジョブのバックグラウンド実行の実装です。<br><br>で、相変わらずシェルの細か〜い話を書いてるんですが、2つ目の画像の「場合は」の続きは分かるでしょうか？<br><br>分からなければ買いましょう（圧）<a href="https://t.co/OCckaKNweu">https://t.co/OCckaKNweu</a> <a href="https://t.co/XnYQY8tFg0">pic.twitter.com/XnYQY8tFg0</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1769647541522739301?ref_src=twsrc%5Etfw">March 18, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+## 資料とか執筆とか
 
+　5月末締め切りで本の1章分を書くのですが、そのワードのフォーマットを準備して、LaTeXの原稿を流し込みました。写経しているように心が洗われました（ほんとか？）。また、連載の原稿をひとつにまとめようと思ってて、そのLaTeXのフォーマットを用意しました。マークダウンをLaTeXに流し込んでいきます。心が洗われる予定です（ほんとか2回目）。
