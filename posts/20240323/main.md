@@ -1,5 +1,5 @@
 ---
-Keywords: 日記
+Keywords: 日記, 出版, 動画
 Copyright: (C) 2024 Ryuichi Ueda
 ---
 
