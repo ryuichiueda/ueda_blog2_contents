@@ -95,7 +95,7 @@ $ explorer.exe .
 ```bash
 （platexは2回実行します。）
 $ platex howtouse.tex        #dviファイルを作ります
-$ platex howtouse.tex        #図版とか引用を正しくするにはもう1回必要
+$ platex howtouse.tex        #図番とか引用を正しくするにはもう1回必要
 $ dvipdfmx howtouse.dvi      #これがpdfを作るコマンド
 howtouse.dvi -> howtouse.pdf
 [1][2][3][4][5][6][7]
