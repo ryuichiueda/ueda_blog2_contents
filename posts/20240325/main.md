@@ -45,7 +45,7 @@ Processing triggers for libgdk-pixbuf2.0-0:amd64 (2.40.0+dfsg-3ubuntu0.4) ...
 Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
 /sbin/ldconfig.real: /usr/lib/wsl/lib/libcuda.so.1 is not a symbolic link
 
-ueda@uedaP1Gen6:~$
+$
 ```
 
 
@@ -131,6 +131,9 @@ $ evince howtouse.pdf
 ## おわりに
 
 　あとはフォントをごにょごにょしたりコマンドたくさん打つのを楽にしたりといろいろやることがありますが、それはまたあとでということにします。
+それから、LaTeXで論文書くような人がコマンド使えないというの、単なる食わず嫌いだと思うんですよね・・・。あ、シェル芸界隈でおせわになっているkanataさんが本を書いたので、これ買いましょう。
+
+<p><a href="https://amzn.to/4aoU0bJ"><img width="160px" src="https://images-na.ssl-images-amazon.com/images/P/479818229X.09.LZZZZZZZ"></a></p> <p><a href="https://amzn.to/4aoU0bJ" target="_blank" rel="nofollow">【Amazon.co.jp限定】コマンドラインの黒い画面が怖いんです。 新人エンジニアのためのコマンドが使いこなせる本（特典: 収録コマンド一覧チートシート） 単行本（ソフトカバー） – 2024/4/19</a></p>
 
 
 現場からは以上です。
