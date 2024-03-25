@@ -3,7 +3,7 @@ Keywords: LaTeX, TDP
 Copyright: (C) 2024 Ryuichi Ueda
 ---
 
-# WindowsにWSL（とevince）でLaTeX使う環境を整える
+# WindowsにWSLでLaTeX使う環境を整える（たぶんevinceがキモ）
 
 　なんかよう知らんのですが、IEEEでOverleafがタダで使えねーとかいうツイートがあふれたので、
 そんなもん使わないロートルのわたくしが、ローカルでLaTeXで書き物する環境の設定方法を書いておきます。
