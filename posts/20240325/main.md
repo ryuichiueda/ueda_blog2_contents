@@ -115,4 +115,19 @@ $ sudo apt install evince
 $ evince howtouse.pdf
 ```
 
+これで次のように、pdfが閲覧できるようになります。
+
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">WSLでevinceを使っている図 <a href="https://t.co/VEC4x6zXLU">pic.twitter.com/VEC4x6zXLU</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1772206504189243438?ref_src=twsrc%5Etfw">March 25, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+これでhowtouse.texファイルを適当にいじって、再度`platex, platex, dvipdfmx`してみましょう。
+自動的にpdfの表示が更新されるはずです。
+
+
+## おわりに
+
+　あとはフォントをごにょごにょしたりコマンドたくさん打つのを楽にしたりといろいろやることがありますが、それはまたあとでということにします。
+
+
+現場からは以上です。
+
+
