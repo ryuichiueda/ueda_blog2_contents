@@ -136,6 +136,6 @@ $ evince howtouse.pdf
 <p><a href="https://amzn.to/4aoU0bJ"><img width="160px" src="https://images-na.ssl-images-amazon.com/images/P/479818229X.09.LZZZZZZZ"></a></p> <p><a href="https://amzn.to/4aoU0bJ" target="_blank" rel="nofollow">【Amazon.co.jp限定】コマンドラインの黒い画面が怖いんです。 新人エンジニアのためのコマンドが使いこなせる本（特典: 収録コマンド一覧チートシート） 単行本（ソフトカバー） – 2024/4/19</a></p>
 
 
-現場からは以上です。
+ということで、アフィブログでした。現場からは以上です。
 
 
