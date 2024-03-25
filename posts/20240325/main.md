@@ -53,7 +53,7 @@ ueda@uedaP1Gen6:~$
 OverleafでネットワークとデータセンタのCPU無駄づかいしてた人が言ってはいけません。
 
 
-## platexを使ってみる
+## 環境を試す準備
 
 　[ロボット学会誌のテンプレートのページ](https://www.rsj.or.jp/pub/jrsj/info/stylefile.html)
 から、「LaTeX2e クラスファイル（論文／一般記事両用）」にある
