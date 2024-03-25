@@ -26,7 +26,6 @@ evinceがなにか分からない人は読むといいと思います。
 落ち着いて次のように **全部インストールします** 。
 
 ```bash
-
 $ sudo apt update
 （パスワード打ってね）
 $ sudo apt install texlive*
