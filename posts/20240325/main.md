@@ -33,6 +33,15 @@ $ sudo apt install texlive*
 （なんか聞かれるのでYと答えましょう）
 （もうひとつWSLでUbuntuを開いて、先に下の「テンプレートを落としてくる」をやってもいいです）
 （ひたすら待つ）
+・・・
+Building format(s) --all.
+        This may take some time... done.
+Processing triggers for sgml-base (1.29.1) ...
+Processing triggers for libgdk-pixbuf2.0-0:amd64 (2.40.0+dfsg-3ubuntu0.4) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+/sbin/ldconfig.real: /usr/lib/wsl/lib/libcuda.so.1 is not a symbolic link
+
+ueda@uedaP1Gen6:~$    ↑エラーが出てたらもう一度
 ```
 
 
