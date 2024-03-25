@@ -41,7 +41,7 @@ Processing triggers for libgdk-pixbuf2.0-0:amd64 (2.40.0+dfsg-3ubuntu0.4) ...
 Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
 /sbin/ldconfig.real: /usr/lib/wsl/lib/libcuda.so.1 is not a symbolic link
 
-ueda@uedaP1Gen6:~$    ↑エラーが出てたらもう一度
+ueda@uedaP1Gen6:~$
 ```
 
 
@@ -108,4 +108,11 @@ howtouse.pdf
 
 　そこで、WSLにevinceをインストールして使いましょう。
 
+```bash
 
+$ sudo apt install evince
+（インストール作業）
+$ evince howtouse.pdf
+```
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">WSLでevinceを使っている図 <a href="https://t.co/VEC4x6zXLU">pic.twitter.com/VEC4x6zXLU</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1772206504189243438?ref_src=twsrc%5Etfw">March 25, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
