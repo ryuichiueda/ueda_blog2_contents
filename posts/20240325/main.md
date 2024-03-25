@@ -131,7 +131,7 @@ $ evince howtouse.pdf
 ## おわりに
 
 　あとはフォントをごにょごにょしたりコマンドたくさん打つのを楽にしたりといろいろやることがありますが、それはまたあとでということにします。
-それから、LaTeXで論文書くような人がコマンド使えないというの、単なる食わず嫌いだと思うんですよね・・・。あ、シェル芸界隈でおせわになっているkanataさんが本を書いたので、これ買いましょう。
+それから、LaTeXで論文書くような人がコマンド使えないというの、単なる食わず嫌いだと思うんですよね・・・。あ、シェル芸界隈でおせわになっている[kanataさん](https://raintrees.net/projects/a-painter-and-a-black-cat)が本を書いたので、これ買いましょう。
 
 <p><a href="https://amzn.to/4aoU0bJ"><img width="160px" src="https://images-na.ssl-images-amazon.com/images/P/479818229X.09.LZZZZZZZ"></a></p> <p><a href="https://amzn.to/4aoU0bJ" target="_blank" rel="nofollow">【Amazon.co.jp限定】コマンドラインの黒い画面が怖いんです。 新人エンジニアのためのコマンドが使いこなせる本（特典: 収録コマンド一覧チートシート） 単行本（ソフトカバー） – 2024/4/19</a></p>
 
