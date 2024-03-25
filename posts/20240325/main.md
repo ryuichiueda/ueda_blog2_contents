@@ -3,12 +3,14 @@ Keywords: LaTeX, TDP
 Copyright: (C) 2024 Ryuichi Ueda
 ---
 
-# WindowsにWSLでLaTeX使う環境を整える
+# WindowsにWSL（とevince）でLaTeX使う環境を整える
 
 　なんかよう知らんのですが、IEEEでOverleafがタダで使えねーとかいうツイートがあふれたので、
 そんなもん使わないロートルのわたくしが、ローカルでLaTeXで書き物する環境の設定方法を書いておきます。
 WSLとTeX Liveとevinceを使います。evinceが快適に開発するキモです。
 evinceがなにか分からない人は読むといいと思います。
+
+　「効率わりーよ」という文句については、上田がどれだけ筆が早いか、何冊LaTeXで本を書いているのか、よく考えてから言ってください。（なんでけんか腰なんだ？？？）
 
 
 ## 準備
