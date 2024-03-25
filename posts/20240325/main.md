@@ -70,16 +70,18 @@ howtouse.tex  jrsj.cls  rsjarrow.eps
 $ explorer.exe .
 ```
 
-でWSLのホームをエクスプローラで開けますので、コマンドの操作が不安ならお使いください。
+でWSLのホームをエクスプローラで開けますので、コマンドの操作が不安ならお使いください。エクスプローラ上で、上の3つのファイルを保存してもよいでしょう。
 
 ## とりあえずpdfファイルを作ってみる
 
+　`test`の中で、次のようにコマンドを打ちます。
+面倒なので、これをコマンド一発にする方法は、また後日説明します。
 
 ```bash
 （platexは2回実行します。）
-$ platex howtouse.tex
-$ platex howtouse.tex
-t$ dvipdfmx howtouse.dvi
+$ platex howtouse.tex        #dviファイルを作ります
+$ platex howtouse.tex        #図版とか引用を正しくするにはもう1回必要
+$ dvipdfmx howtouse.dvi      #これがpdfを作るコマンド
 howtouse.dvi -> howtouse.pdf
 [1][2][3][4][5][6][7]
 308238 bytes written
@@ -87,3 +89,13 @@ howtouse.dvi -> howtouse.pdf
 $ ls howtouse.pdf
 howtouse.pdf
 ```
+
+## evince
+
+　これで「どうやってpdfファイル見るの？」となると思います。
+ひとつの方法は`explorer.exe .`して、ダブルクリックでWindows側のビューワーを使うものです。
+ただ、pdfが更新されても、自動的に表示を更新してくれないビューワーがほとんどだと思われます。
+
+　そこで、WSLにevinceをインストールして使いましょう。
+
+
