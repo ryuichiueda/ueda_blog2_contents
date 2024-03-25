@@ -31,10 +31,59 @@ $ sudo apt update
 （パスワード打ってね）
 $ sudo apt install texlive*
 （なんか聞かれるのでYと答えましょう）
+（もうひとつWSLでUbuntuを開いて、先に下の「テンプレートを落としてくる」をやってもいいです）
 （ひたすら待つ）
-（ただひたすらに、ひたすらに）
 ```
 
 
 「全部インストールしたらSSDもったいない」は、
 OverleafでネットワークとデータセンタのCPU無駄づかいしてた人が言ってはいけません。
+
+
+## テンプレートを落としてくる
+
+　[ロボット学会誌のテンプレートのページ](https://www.rsj.or.jp/pub/jrsj/info/stylefile.html)
+から、「LaTeX2e クラスファイル（論文／一般記事両用）」にある
+
+* クラスファイル (UTF)
+* クラスファイルの解説 (UTF)
+* 「一般記事」の見出しの飾り(eps)
+
+をダウンロードします。
+次のように操作して、`test`の下に3つのファイルを置きましょう。
+```sh
+
+$ mkdir test
+$ cd test
+$ wget https://www.rsj.or.jp/content/files/pub/jrsj/stylefile/JRSJ-latex2eutf/jrsj.cls
+$ wget https://www.rsj.or.jp/content/files/pub/jrsj/stylefile/JRSJ-latex2eutf/howtouse.tex
+$ wget https://www.rsj.or.jp/content/files/pub/jrsj/stylefile/JRSJ-latex2e/rsjarrow.eps
+### lsして3つのファイルがあるか確認しましょう ###
+$ ls
+howtouse.tex  jrsj.cls  rsjarrow.eps
+```
+
+
+　また、
+
+```sh
+$ explorer.exe .
+```
+
+でWSLのホームをエクスプローラで開けますので、コマンドの操作が不安ならお使いください。
+
+## とりあえずpdfファイルを作ってみる
+
+
+```bash
+（platexは2回実行します。）
+$ platex howtouse.tex
+$ platex howtouse.tex
+t$ dvipdfmx howtouse.dvi
+howtouse.dvi -> howtouse.pdf
+[1][2][3][4][5][6][7]
+308238 bytes written
+### pdfができた！！！###
+$ ls howtouse.pdf
+howtouse.pdf
+```
