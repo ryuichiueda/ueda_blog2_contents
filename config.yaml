@@ -66,6 +66,8 @@ links:
     href: '/?page=06033'
   - text: '書籍の情報'
     href: '/?page=05535'
+  - text: '- ロボットの確率・統計'
+    href: '/?page=robot_and_stats'
   - text: '- シェル・ワンライナー160本ノック'
     href: '/?page=shellgei160'
   - text: '- 詳解確率ロボティクス'
