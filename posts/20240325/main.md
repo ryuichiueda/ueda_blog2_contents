@@ -1,5 +1,5 @@
 ---
-Keywords: LaTeX, TDP
+Keywords: LaTeX, WSL
 Copyright: (C) 2024 Ryuichi Ueda
 ---
 
