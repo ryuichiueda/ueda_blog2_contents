@@ -5,6 +5,8 @@ Copyright: (C) Ryuichi Ueda
 
 # ロボットの確率・統計
 
+## どんな本か
+
 * [コロナ社の公式サイト](https://www.coronasha.co.jp/np/isbn/9784339046878/)
     * まえがき全文のほか、内容紹介、目次、読者レビューが読めます
 
