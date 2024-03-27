@@ -5,10 +5,12 @@ Copyright: (C) Ryuichi Ueda
 
 # ロボットの確率・統計
 
+* [コロナ社の公式サイト](https://www.coronasha.co.jp/np/isbn/9784339046878/)
+    * まえがき全文のほか、内容紹介、目次、読者レビューが読めます
+
 ## 買えるところ
 
 * [コロナ社のサイト](https://www.coronasha.co.jp/np/isbn/9784339046878/)
-    * まえがき全文のほか、内容紹介、目次、読者レビューが読めます
 * [honto](https://honto.jp/netstore/pd-book_33121980.html)
 * [アマゾン](https://amzn.to/49YYoho)
 * [アマゾン（個人販売サイト）](https://www.amazon.co.jp/shop/ryuichiueda)
