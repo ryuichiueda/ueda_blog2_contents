@@ -23,6 +23,8 @@ Copyright: (C) Ryuichi Ueda
 
 * 直接私のMisskeyとかXのアカウントにどうぞ
 
+### 初版の間違い
+
 |場所|訂正事項|発見者|一言|
 |:---|:-----|------|:-----|
 |p.218 3行目|犬を猫をいったら「あれはニャンニャンね」 \\( \Longrightarrow \\) 猫を犬といったら「あれはニャンニャンね」|コロナ社の依頼したレビューワーの方|にゃーん|
@@ -30,6 +32,7 @@ Copyright: (C) Ryuichi Ueda
 ## 書評とか紹介とか
 
 ### コロナ社さんの読者レビュー
+
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">🆕2024年3月刊<br>ロボットの確率・統計<br>-製作・競技・知能研究で役立つ考え方と計算法-<br>上田隆一 千葉工大 著　<br><br>ロボットを扱う上で知ると役に立つ確率・統計について、基礎から哲学のような話題まで、ひととおり扱ったものです。<br><br>読者モニタレビュー4件<a href="https://t.co/Em19pka3jA">https://t.co/Em19pka3jA</a> <a href="https://t.co/aIZMU2YLvw">pic.twitter.com/aIZMU2YLvw</a></p>&mdash; コロナ社☉自然科学専門書の出版社 (@coronasha) <a href="https://twitter.com/coronasha/status/1767709676496720379?ref_src=twsrc%5Etfw">March 13, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
