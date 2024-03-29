@@ -3,7 +3,7 @@ Keywords: 執筆, 連載, 出版
 Copyright: (C) 2024 Ryuichi Ueda
 ---
 
-# 土下座訂正2連発
+# 訂正2連発大土下座祭り
 
 　「[ロボットの確率・統計](/?page=robot_and_stats)」と「[魅惑の自作シェルの世界](/?page=sd_rusty_bash)」でひとつずつやらかしました。
 
