@@ -24,7 +24,6 @@ Copyright: (C) 2024 Ryuichi Ueda
 　まだRustが下手くそなときに書いた汚いコードだったので、
 0から書き直しました。
 
-* コード: https://github.com/shellgei/rusty_bash/tree/terminal_16
-    * 端末の部分: https://github.com/shellgei/rusty_bash/blob/terminal_16/src/feeder/terminal.rs
+* [端末とやりとりする部分のコード](https://github.com/shellgei/rusty_bash/blob/terminal_16/src/feeder/terminal.rs)
 
 コード中にコメントがありませんが、書籍にすることを想定（あくまで想定）してドキュメントを書きました。数年以内にはパブリックになるものと思われます。
