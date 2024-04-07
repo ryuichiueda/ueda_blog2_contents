@@ -106,7 +106,7 @@ $ ls howtouse.pdf
 howtouse.pdf
 ```
 
-## evince
+## evinceをインストールして使う
 
 　これで「どうやってpdfファイル見るの？」となると思います。
 ひとつの方法は`explorer.exe .`して、ダブルクリックでWindows側のビューワーを使うものです。
