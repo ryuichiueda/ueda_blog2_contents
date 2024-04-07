@@ -12,6 +12,12 @@ Copyright: (C) Ryuichi Ueda
 
 ## 買えるところ
 
+### 電子書籍
+
+* [Kinoppy](https://www.kinokuniya.co.jp/kinoppystore/detail.php?itemId=ID-EK-1754145100)
+
+### 紙の本
+
 * [コロナ社のサイト](https://www.coronasha.co.jp/np/isbn/9784339046878/)
 * [honto](https://honto.jp/netstore/pd-book_33121980.html)
 * [アマゾン](https://amzn.to/49YYoho)
