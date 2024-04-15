@@ -23,7 +23,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 * [かつての私のように](/?post=20211003_shellgei160)、未経験で端末と対峙する業務に配属された方々
 * 周囲の優しさが足りていない方々
     * 大学でいきなり「[プログラム作成に使用するエディタとしてはviあるいは mule(emacs like)しかない．](https://www.gsic.titech.ac.jp/supercon/supercon2003/tutorial/unix-text-html/mule.htm)」と言われた方々（ネタにしてすんません）
-    * [シェル・ワンライナー160本ノック](https://amzn.to/3U0Cvrt)の最初で業火に焼かれてしまった方々
+    * [シェル・ワンライナー160本ノック](https://amzn.to/3U0Cvrt)の業火に焼かれてしまった方々
     * コマンドの使い方やシェルスクリプトの書き方だけ教えられて、whyを教えてもらえない方々
 * [シェル・ワンライナー160本ノック](https://amzn.to/3U0Cvrt)をいつか読みたい方
 
