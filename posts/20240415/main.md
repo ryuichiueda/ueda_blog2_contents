@@ -15,4 +15,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 　さらに、最初に身につけるとよい操作であるファイルの一覧表示や操作、テキスト操作、シェルスクリプトの作り方が解説されています。その後はワンライナーを扱っていますが、[160本ノック](https://amzn.to/3U0Cvrt)と違い、そのまま深みに行かずに、トラブルシューティングや転ばぬ先の杖的な解説が入っており、優しさが溢れています。
 
-　ということで、[160本ノック](https://amzn.to/3U0Cvrt)のスパルタ
+　ということで、こんな方々におすすめしておきます。
+
+* 大学でいきなり「[プログラム作成に使用するエディタとしてはviあるいは mule(emacs like)しかない．](https://www.gsic.titech.ac.jp/supercon/supercon2003/tutorial/unix-text-html/mule.htm)」と言われた方
+* [シェル・ワンライナー160本ノック](https://amzn.to/3U0Cvrt)の業火に焼き尽くされた人
