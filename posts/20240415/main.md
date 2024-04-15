@@ -31,5 +31,6 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 <p><a href="https://amzn.to/3VUfUzC"><img width="160px" src="https://images-na.ssl-images-amazon.com/images/P/479818229X.09.LZZZZZZZ"></a></p> <p><a href="https://amzn.to/3VUfUzC" target="_blank" rel="nofollow">【Amazon.co.jp限定】コマンドラインの黒い画面が怖いんです。 新人エンジニアのためのコマンドが使いこなせる本（特典: 収録コマンド一覧チートシート） 単行本（ソフトカバー） – 2024/4/19</a></p>
 
+<p><a href="https://amzn.to/3vIaE7H"><img width="160px" src="https://images-na.ssl-images-amazon.com/images/P/4297122677.09.LZZZZZZZ"></a></p> <p><a href="https://amzn.to/3vIaE7H" target="_blank" rel="nofollow">1日1問、半年以内に習得 シェル・ワンライナー160本ノック (Software Design plusシリーズ) 単行本（ソフトカバー） – 2021/9/27</a></p>
 
 現場からは以上です。
