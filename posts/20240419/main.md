@@ -51,7 +51,7 @@ export TURTLEBOT3_MODEL=burger #burgerのところに使いたい機種を書く
 
 * https://github.com/ROBOTIS-GIT/turtlebot3/issues/884
 
-　ということで、次のように`/opt/`で`grep`して
+　ということで、次のように`/opt/`で`grep`して修正すべきファイルを探し、
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">grep使えないと死ぬやつ <a href="https://t.co/xqMClfMtc5">pic.twitter.com/xqMClfMtc5</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1781203280355570079?ref_src=twsrc%5Etfw">April 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
