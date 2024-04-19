@@ -3,7 +3,7 @@ Keywords: ROS 2
 Copyright: (C) 2024 Ryuichi Ueda
 ---
 
-# ROS 2でTurtleBot3のナビゲーションを動かすまでのつまづき
+# ROS 2でTurtleBot3のナビゲーションのサンプルを動かすまでのつまづき
 
 　科研費で「[位置情報の不足や誤りに強い自律移動ロボット用次世代ナビゲーションソフトウェア群](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24K15127/)」
 を作ると大風呂敷を広げてしまったので泣きながら作業を開始しました。
