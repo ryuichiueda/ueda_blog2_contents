@@ -1,5 +1,5 @@
 ---
-Keywords: 日記, 報告
+Keywords: 書籍
 Copyright: (C) 2024 Ryuichi Ueda
 ---
 
