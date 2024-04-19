@@ -57,4 +57,4 @@ ueda@uedaP1g6:/opt$ vi ros/humble/share/turtlebot3_navigation2/param/burger.yaml
 
 ## マップ作るのめんどくさい
 
-ROS 1のやつで大丈夫でした。[私の作ったのがここにあります](https://github.com/ryuichiueda/value_iteration/tree/main/maps)。冒頭の亀型の環境なら`map.yaml`と`map.pgm`を使うといいです。
+ROS 1のやつで大丈夫でした。[私の作ったのがここにあります](https://github.com/ryuichiueda/value_iteration/tree/main/maps)。冒頭の亀型の環境なら`map.yaml`と`map.pgm`を使うといいです。マップ（yamlファイルとpgmファイル）をダウンロードしたディレクトリで、`ros2 launch turtlebot3_navigation2`の立ち上げ時に`map:=map.yaml`を指定すると使えます。
