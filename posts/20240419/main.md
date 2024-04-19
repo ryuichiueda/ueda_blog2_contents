@@ -29,6 +29,16 @@ $ rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map my_frame 10
 
 がROS 2でも必要になったので、調べたけど分からなくて死にました。が、[roboticskey](https://mi0.robotician.jp/)で聞いたら[としぞーさんにおしえていただけました](https://mi0.robotician.jp/notes/9s8mz0m7q2)。ありがとうございました。
 
+## 機種の指定
+
+　これは久々にやると忘れるやつですが、`~/.bashrc`に
+
+```bash
+export TURTLEBOT3_MODEL=burger #burgerのところに使いたい機種を書く
+```
+
+と1行書いて、`source ~/.bashrc`しましょう。
+
 ## amclが`nav2_amcl::MotionModel does not exist`と言う
 
 　カンチョーしてもまだ動かなかったのでログを真面目に読んだらこんなエラーが出てました。
@@ -58,3 +68,7 @@ ueda@uedaP1g6:/opt$ vi ros/humble/share/turtlebot3_navigation2/param/burger.yaml
 ## マップ作るのめんどくさい
 
 ROS 1のやつで大丈夫でした。[私の作ったのがここにあります](https://github.com/ryuichiueda/value_iteration/tree/main/maps)。冒頭の亀型の環境なら`map.yaml`と`map.pgm`を使うといいです。マップ（yamlファイルとpgmファイル）をダウンロードしたディレクトリで、`ros2 launch turtlebot3_navigation2`の立ち上げ時に`map:=map.yaml`を指定すると使えます。
+
+## 立ち上がったら
+
+RVizでロボットの位置とゴールの位置を指定すると、ロボットが動き出します。
