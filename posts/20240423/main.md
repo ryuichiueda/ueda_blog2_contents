@@ -74,6 +74,7 @@ vi_node:
 　ちなみにYAMLファイル自体は`config`ディレクトリを作って次のように書くとよいみたいです。
 
 ```yaml
+
 vi_node:
   ros__parameters:              #この項目が必要になる（なんでアンダースコア2個なん？？）
     global_thread_num: 2
