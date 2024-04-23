@@ -106,7 +106,7 @@ int thread_num = get_parameter("global_thread_num").as_int(); //読み込み
 ## パブリッシャ、サブスクライバの型
 
 　こんなふうに変わるみたいです。なげーよ。
-ROS 2のほうの`Subsription`を`Subscriber`にして10分くらい死んでました。
+ROS 2のほうの`Subscription`を`Subscriber`にして10分くらい死んでました。
 Rustみたいにuse（using）を多用しないといけないのかもしれません。
 
 ```cpp
