@@ -86,6 +86,21 @@ vi_node:
 #        onestep_rotation_deg: 0.0
 ```
 
+　YAMLファイル（というかパラメータ）自体の読み込み方もいろいろ変わってます。
+ROS 2のコードをのせときます。
+
+```cpp
+/* ROS 2 */
+declare_parameter("global_thread_num", 1); //パラメータを宣言しないとアカンらしい（1はデフォルト値）
+int thread_num = get_parameter("global_thread_num").as_int(); //読み込み
+```
+
+YAMLファイルは次のように指定します。
+
+```bash
+$ ros2 run value_iteration2 vi_node --ros-args --params-file ./config/params.yaml
+```
+
 
 ## パブリッシャ、サブスクライバの型
 
