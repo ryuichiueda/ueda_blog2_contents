@@ -90,7 +90,8 @@ void scanReceived(const sensor_msgs::msg::LaserScan::ConstSharedPtr msg);
 になるんだろうなーと思ったけどビルドが通らず、
 そこそこ時間を消耗しました。`u`のうしろにもアンダースコアがいりました。
 死にました。[ここらへん](https://docs.ros.org/en/ros2_packages/rolling/api/io_context/generated/program_listing_file__tmp_ws_src_transport_drivers_io_context_include_msg_converters_std_msgs.hpp.html) が参考になります。
-ていうかおじさんが学生のころはhppという拡張子を見たことがなったんですが、なんですかこれは。
+ていうかおじさんが学生のころはhppという拡張子を見たことがなったんですが、
+いつごろみんな使い始めたんでしょう？
 
 ```cpp
 
