@@ -73,6 +73,7 @@ vi_node:
 
 　ちなみにYAMLファイル自体は`config`ディレクトリを作って次のように書くとよいみたいです。
 
+```yaml
 vi_node:
   ros__parameters:              #この項目が必要になる（なんでアンダースコア2個なん？？）
     global_thread_num: 2
@@ -82,7 +83,7 @@ vi_node:
 #      - name: "forward"
 #        onestep_forward_m: 0.3
 #        onestep_rotation_deg: 0.0
-
+```
 
 
 ## パブリッシャ、サブスクライバの型
