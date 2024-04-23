@@ -49,7 +49,41 @@ if(BUILD_TESTING)                          #あとはたぶんデフォルト
 　ヘッダファイルを探す命令も書いていませんが、
 `include/<パッケージ名>/`に入れておけば探してくれる模様です。
 
-　emcl2_ros2パッケージについては`package.xml`も参考になると思います。
+　emcl2_ros2パッケージについては`package.xml`やディレクトリ構成も参考になると思います。
+
+## YAMLに制限
+
+　次のような、型のちがうYAMLファイルの読み込みには対応していないとのこと。
+
+```yaml
+
+vi_node:
+  action_list:
+    - name: forward                #文字列
+      onestep_forward_m: 0.3       #浮動小数点（ここでエラーが出る）
+      onestep_rotation_deg: 0.0
+  ・・・
+```
+
+↓ここらへんにこの問題への言及があります。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">違う型のものをyamlに並べられないのね・・・<a href="https://t.co/SGNWTZ1Gfo">https://t.co/SGNWTZ1Gfo</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1782553556224229407?ref_src=twsrc%5Etfw">April 22, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+たぶん、YAMLのデータを流用したければ、すべて文字列型で読み込んで変換すればいいんじゃないっすかね？（投げやり）
+
+　ちなみにYAMLファイル自体は`config`ディレクトリを作って次のように書くとよいみたいです。
+
+vi_node:
+  ros__parameters:              #この項目が必要になる（なんでアンダースコア2個なん？？）
+    global_thread_num: 2
+    local_thread_num: 1
+    online: true
+#    action_list:                  #以下、ROS 1時代の残骸（よみこめねえ）
+#      - name: "forward"
+#        onestep_forward_m: 0.3
+#        onestep_rotation_deg: 0.0
+
+
 
 ## パブリッシャ、サブスクライバの型
 
