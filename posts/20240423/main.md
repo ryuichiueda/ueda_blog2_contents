@@ -5,7 +5,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 # C++で作ったROS 1のパッケージをROS 2に移植するときのつまづきポイント ―その1（2があるかどうかは不明）
 
-https://github.com/ryuichiueda/value_iteration
+　https://github.com/ryuichiueda/value_iteration
 を
 https://github.com/ryuichiueda/value_iteration2
 に移植中です。[前回](/?post=20240419)に引き続き、困った点についてメモ。
@@ -83,3 +83,21 @@ void scanReceived(const sensor_msgs::msg::LaserScan::ConstSharedPtr msg);
 
 事情は[ここらへん](https://design.ros2.org/articles/generated_interfaces_cpp.html)
 にちょろっとだけ書いてあります。
+
+### std_msgsのヘッダファイル
+
+　`std_msgs/UInt32MultiArray.h`は`std_msgs/msg/uint32_multi_array.hpp`
+になるんだろうなーと思ったけどビルドが通らず、
+そこそこ時間を消耗しました。`u`のうしろにもアンダースコアがいりました。
+死にました。[ここらへん](https://docs.ros.org/en/ros2_packages/rolling/api/io_context/generated/program_listing_file__tmp_ws_src_transport_drivers_io_context_include_msg_converters_std_msgs.hpp.html) が参考になります。
+ていうかおじさんが学生のころはhppという拡張子を見たことがなったんですが、なんですかこれは。
+
+```cpp
+
+/* ROS 1 */
+#include "std_msgs/UInt32MultiArray.h"
+#include "std_msgs/Float32MultiArray.h"
+/* ROS 2 */
+#include <std_msgs/msg/u_int32_multi_array.hpp>
+#include <std_msgs/msg/float32_multi_array.hpp>
+```
