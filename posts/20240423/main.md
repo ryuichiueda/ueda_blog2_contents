@@ -86,7 +86,7 @@ vi_node:
 #        onestep_rotation_deg: 0.0
 ```
 
-YAMLファイルは次のように指定します。
+実行時、YAMLファイルは次のように指定します。
 
 ```bash
 $ ros2 run value_iteration2 vi_node --ros-args --params-file ./config/params.yaml
