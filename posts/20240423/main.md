@@ -67,3 +67,19 @@ rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr sub_laser_scan_; //
 ```
 
 
+## ConstSharedPtr
+
+　`ConstPtr`がdeprecatedだと叱られました。
+次のように`ConstSharedPtr`を使えとのことです。
+・・・なげーよ。
+
+```cpp
+
+/* ROS 1 */
+void scanReceived(const sensor_msgs::LaserScan::ConstPtr &msg);
+/* ROS 2 */
+void scanReceived(const sensor_msgs::msg::LaserScan::ConstSharedPtr msg);
+```
+
+事情は[ここらへん](https://design.ros2.org/articles/generated_interfaces_cpp.html)
+にちょろっとだけ書いてあります。
