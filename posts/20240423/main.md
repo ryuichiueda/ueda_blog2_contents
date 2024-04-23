@@ -107,4 +107,6 @@ void scanReceived(const sensor_msgs::msg::LaserScan::ConstSharedPtr msg);
 
 ## おわりに
 
+　また作業進めていて気づいたら書きます。最後に一言。
+
 なげーよ
