@@ -12,7 +12,7 @@ https://github.com/ryuichiueda/value_iteration2
 
 ## launchファイルの書き方
 
-　launchファイルもちょっと面倒です。
+　ROS 2になるとlaunchファイルもちょっと面倒です。
 XMLでもyamlでもいいということになっていますが、
 基本はPythonでノードの実行方法や手順を書いていくことになります。
 （それは講義でPythonのパッケージを作っていたので知ってた。）
