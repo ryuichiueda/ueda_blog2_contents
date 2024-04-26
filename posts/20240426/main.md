@@ -31,9 +31,9 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     config = os.path.join( #ここでparams.yamlを探す
-      get_package_share_directory('value_iteration2'),
-      'config',
-      'params.yaml'
+      get_package_share_directory('value_iteration2'), #パッケージのディレクトリ
+      'config',     #パラメータのyamlファイルのあるディレクトリ名
+      'params.yaml' #ファイル名
     )
 
     vi_node = Node(
