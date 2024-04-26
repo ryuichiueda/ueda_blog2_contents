@@ -10,6 +10,8 @@ Copyright: (C) 2024 Ryuichi Ueda
 https://github.com/ryuichiueda/value_iteration2
 に移植中です。[前回](/?post=20240423)に引き続き、困った点についてメモします。今回はlaunchファイルです。たぶんこういうのはアドホックにやらずにちゃんとマニュアル読んだほうがいいんですが、そういうタイプの人間じゃないのでごめんなしゃい。
 
+　この記事にあるコードは、[このコミット](https://github.com/ryuichiueda/value_iteration2/tree/222d640988c47aaaa125b441635405aacc9e7224)にあります。
+
 ## launchファイルの書き方
 
 　ROS 2になるとlaunchファイルもちょっと面倒です。
