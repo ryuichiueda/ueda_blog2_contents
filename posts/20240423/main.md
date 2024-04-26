@@ -13,7 +13,7 @@ https://github.com/ryuichiueda/value_iteration2
 
 ## CMakeLists.txt どうやって書くの？
 
-　上田研の有志一同がROS 2に移植したemcl2（emcl2_ros2: https://github.com/CIT-Autonomous-Robot-Lab/emcl2_ros2 ）
+　上田研の有志のみなさんがROS 2に移植したemcl2（emcl2_ros2: https://github.com/CIT-Autonomous-Robot-Lab/emcl2_ros2 ）
 の[CMakeLists.txt](https://github.com/CIT-Autonomous-Robot-Lab/emcl2_ros2/blob/main/CMakeLists.txt)
 が参考になりました。無茶振りして知見だけもらって申し訳ないですありがとうございます。
 転載してコメントいれさせてもらいます。これ見てたらメシ代請求してください。
@@ -106,7 +106,7 @@ int thread_num = get_parameter("global_thread_num").as_int(); //読み込み
 ## パブリッシャ、サブスクライバの型
 
 　こんなふうに変わるみたいです。なげーよ。
-ROS 2のほうの`Subsription`を`Subscriber`にして10分くらい死んでました。
+ROS 2のほうの`Subscription`を`Subscriber`にして10分くらい死んでました。
 Rustみたいにuse（using）を多用しないといけないのかもしれません。
 
 ```cpp
