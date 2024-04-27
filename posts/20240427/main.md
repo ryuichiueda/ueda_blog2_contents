@@ -40,7 +40,7 @@ $ cat /tmp/file
 
 ## 某組織からキーボード届いた
 
-　モニターやってとのこと。[ThinkPad教](https://news.mynavi.jp/techplus/kikaku/leaders_thinkpad-4/)から改宗させられるのかと思って最初反射的に抵抗したんですが、「そういうことではない落ち着け」となだめられて（？）、お引き受けしました。[お金はもらっておりません](https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%8B%E3%83%BC%E3%82%AA%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E8%A9%90%E6%AC%BA%E4%BA%8B%E4%BB%B6)。ThinkPadの宣伝のほうはいただいております（書く必要があるのかどうかよくわかりませんが）。
+　モニターやってとのこと。ThinkPad教から改宗させられるのかと思って最初反射的に抵抗したんですが、「そういうことではない落ち着け」となだめられて（？）、お引き受けしました。[お金はもらっておりません](https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%8B%E3%83%BC%E3%82%AA%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E8%A9%90%E6%AC%BA%E4%BA%8B%E4%BB%B6)。[ThinkPadの宣伝](https://news.mynavi.jp/techplus/kikaku/leaders_thinkpad-4/)のほうはいただいております（書く必要があるのかどうかよくわかりませんが）。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">学生がキーボードの話してると「道具の話じゃなくて自分の作ってるものの話をしろ」と長年チクチク言ってたのがバレてて、某組織から悔い改めよと送付されてきたのでモニターやります・・・ステマじゃないです<br><br>当時、和田先生の影響なのか全部HHKBだった本郷の計算機センター以来ですね（👈トラウマ） <a href="https://t.co/o3CirLvUid">pic.twitter.com/o3CirLvUid</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1782329765229457727?ref_src=twsrc%5Etfw">April 22, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
