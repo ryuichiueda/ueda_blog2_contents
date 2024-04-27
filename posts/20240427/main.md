@@ -48,3 +48,5 @@ $ cat /tmp/file
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">昼休みなのでモニターしてるキーボードに合わせて環境構築しとる<br><br>mac側は自分が昔書いたウェブ記事を参考にしてて、とても参考になるので自分に感謝中 <a href="https://t.co/Q6bxT9s3jD">pic.twitter.com/Q6bxT9s3jD</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1782974316596097522?ref_src=twsrc%5Etfw">April 24, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+現場からは以上です。
