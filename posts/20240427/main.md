@@ -44,5 +44,8 @@ $ cat /tmp/file
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">学生がキーボードの話してると「道具の話じゃなくて自分の作ってるものの話をしろ」と長年チクチク言ってたのがバレてて、某組織から悔い改めよと送付されてきたのでモニターやります・・・ステマじゃないです<br><br>当時、和田先生の影響なのか全部HHKBだった本郷の計算機センター以来ですね（👈トラウマ） <a href="https://t.co/o3CirLvUid">pic.twitter.com/o3CirLvUid</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1782329765229457727?ref_src=twsrc%5Etfw">April 22, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+送られてきたのは[これ](https://amzn.to/3UC8W0U)（いま値段知ってドン引き中）で、ThinkPadユーザー狙い撃ちのポッチつきです。とりあえずMacさわるときにWindows（ThinkPad）とキーボードが違いすぎる問題が解決されましたので、感謝感謝です。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">昼休みなのでモニターしてるキーボードに合わせて環境構築しとる<br><br>mac側は自分が昔書いたウェブ記事を参考にしてて、とても参考になるので自分に感謝中 <a href="https://t.co/Q6bxT9s3jD">pic.twitter.com/Q6bxT9s3jD</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1782974316596097522?ref_src=twsrc%5Etfw">April 24, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+んでモニターなんですが、世間の声のでかい人たちが言ってるようなことはよく分からんのですがいい感じです。
