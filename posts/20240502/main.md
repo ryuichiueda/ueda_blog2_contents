@@ -42,6 +42,19 @@ RCUTILS_LOG_INFO("SET STATES START");
 
 　ちまたではゴールデンウィークらしいのですが、水曜に講義で名古屋というか春日井に行ってきました。発表資料を掲載しておきます。大学に復帰したときは「私の話は古いので〜」とよく言ってましたが、最近は機械学習の勉強も進んで新しくできているかなと思ってます。ただ、まだまだですかね。
 
+
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">はい。本日の講義資料です（アップしなおし）<br><br>どうやって確率ロボティクスを紹介するかいつも悩むんですが、今回は制御の延長線上にあるものとして紹介しました<a href="https://t.co/WXoLfSmLEI">https://t.co/WXoLfSmLEI</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1785586392875331791?ref_src=twsrc%5Etfw">May 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## ゴールデンウィークに読むといい本の案内
+
+　私の本はとにかく読むのに時間がかかるので、休みのときにどうぞどうぞ
+
+<p><a href="https://amzn.to/3JPeSgR"><img width="160px" src="https://images-na.ssl-images-amazon.com/images/P/4339046876.09.LZZZZZZZ"></a></p> <p><a href="https://amzn.to/3JPeSgR" target="_blank" rel="nofollow">ロボットの確率・統計: 製作・競技・知能研究で役立つ考え方と計算法 単行本（ソフトカバー） – 2024/3/4</a></p>
+
+<p><a href="https://amzn.to/3Qt6rLU"><img width="160px" src="https://images-na.ssl-images-amazon.com/images/P/4297122677.09.LZZZZZZZ"></a></p> <p><a href="https://amzn.to/3Qt6rLU" target="_blank" rel="nofollow">1日1問、半年以内に習得 シェル・ワンライナー160本ノック (Software Design plusシリーズ) 単行本（ソフトカバー） – 2021/9/27</a></p>
+
+<p><a href="https://amzn.to/3UEIdky"><img width="160px" src="https://images-na.ssl-images-amazon.com/images/P/4065170060.09.LZZZZZZZ"></a></p> <p><a href="https://amzn.to/3UEIdky" target="_blank" rel="nofollow">詳解 確率ロボティクス Pythonによる基礎アルゴリズムの実装 (KS理工学専門書) 単行本（ソフトカバー） – 2019/10/27</a></p>
+
+<p><a href="https://amzn.to/3Qr6190"><img width="160px" src="https://images-na.ssl-images-amazon.com/images/P/B07TSZZPWN.09.LZZZZZZZ"></a></p> <p><a href="https://amzn.to/3Qr6190" target="_blank" rel="nofollow">フルスクラッチから1日でCMSを作る_シェルスクリプト高速開発手法入門 改訂2版 (アスキードワンゴ) Kindle版</a></p>
 
 現場からは以上です。
