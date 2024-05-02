@@ -12,11 +12,10 @@ Copyright: (C) 2024 Ryuichi Ueda
 　[mainブランチ](https://github.com/shellgei/rusty_bash)のコードに
 
 * Gitのリポジトリ内ではブランチが表示されるようにする
-* ビルトインコマンドの`source`（`.`）を実装
+* ビルトインコマンドの`source`（`.`）、`alias`を実装
 * ホーム（or リポジトリにある）`.sushrc`を読み込むようにする
-* aliasが使えるようにする
 
-という拡張をして、とうとう普段遣いできるまでになりました。現在の外観↓
+という拡張をして、とうとう普段使いできるまでになりました。現在の外観↓
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">自作シェル、いい感じで使えてるんだけどbash-completionほしいなあ・・・（遠い道のり） <a href="https://t.co/YyvNQiBULL">pic.twitter.com/YyvNQiBULL</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1785985897458180437?ref_src=twsrc%5Etfw">May 2, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
