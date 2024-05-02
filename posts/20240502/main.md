@@ -57,4 +57,8 @@ RCUTILS_LOG_INFO("SET STATES START");
 
 <p><a href="https://amzn.to/3Qr6190"><img width="160px" src="https://images-na.ssl-images-amazon.com/images/P/B07TSZZPWN.09.LZZZZZZZ"></a></p> <p><a href="https://amzn.to/3Qr6190" target="_blank" rel="nofollow">フルスクラッチから1日でCMSを作る_シェルスクリプト高速開発手法入門 改訂2版 (アスキードワンゴ) Kindle版</a></p>
 
+## 査読
+
+　おわんねー
+
 現場からは以上です。
