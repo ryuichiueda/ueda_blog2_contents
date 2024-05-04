@@ -14,7 +14,7 @@ https://github.com/ryuichiueda/value_iteration2
 
 ## なにがどうしてどうなった
 
-　RVizの画面の「ゴールを矢印を引いて指定するやつ」の出力を扱う正しい方法を探していたところ、「nav2_utilでActionサーバーを作れ」とのこと。ただ、それだとNav2にいろいろ縛られるのでやだなと思って、RVizからトピックをとって勝手にやろうと思いました。が、RVizがトピックを出している形跡がありません。
+　RVizの画面の「ゴールを矢印を引いて指定するやつ」の出力を扱う正しい方法を探していたところ、「[nav2_util](https://github.com/open-navigation/navigation2/blob/main/nav2_util/include/nav2_util/simple_action_server.hpp)でActionサーバーを作れ（あるいは[SimpleActionServer](https://wiki.ros.org/ja/actionlib_tutorials/Tutorials/SimpleActionServer%28GoalCallbackMethod%29/groovy)なしで自分で作れ）」とのこと。ただ、それだとNav2にいろいろ縛られるのでやだなと思って、RVizからトピックをとって勝手にやろうと思いました。が、RVizがトピックを出している形跡がありません。
 
 　で、何時間かいろいろ調べたんですが、たどり着いたのは、私の環境ではRVizにNav2用のプラグインが使われてて、それがトピックを出さないということでした。たどり着いたのは、中国語のサイトでした。英訳して読みました。
 
