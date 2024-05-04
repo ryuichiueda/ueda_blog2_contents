@@ -13,4 +13,6 @@ https://github.com/ryuichiueda/value_iteration2
 
 ## Nav2用のRVizのプラグインがあるらしい（ので葬らんした）
 
-
+RVizの画面の「ゴールを矢印を引いて指定するやつ」
+の出力を取得する方法を探していたところ、
+「nav2_utilで
