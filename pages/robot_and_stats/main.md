@@ -34,7 +34,8 @@ Copyright: (C) Ryuichi Ueda
 |場所|訂正事項|発見者|一言|
 |:---|:-----|------|:-----|
 |p.218 3行目|犬を猫をいったら「あれはニャンニャンね」 \\( \Longrightarrow \\) 猫を犬といったら「あれはニャンニャンね」|コロナ社の依頼したレビューワーの方|にゃーん|
-|p.59 式(3.11)| \\( \cdot x \Longrightarrow  \cdot n \\) | [@s_kajita](https://x.com/s_kajita)先生 |ありがとうございます！|
+|p.59 例3.3 5行目| \\( x \Longrightarrow  n \\) | [@s_kajita](https://x.com/s_kajita)先生 |ありがとうございます！|
+|p.59 式(3.11)| \\( \cdot x \Longrightarrow  \cdot n \\)（上の訂正にともない、\\( x\\)をかけているところをすべて\\(n\\)に） | [@s_kajita](https://x.com/s_kajita)先生 ||
 
 ## 書評とか紹介とか
 
