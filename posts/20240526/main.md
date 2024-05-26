@@ -38,7 +38,7 @@ $ case 田 in *(山田|上田)田) echo マッチ ;; *) echo マッチせず ;; 
 
 　で、[寿司シェル](https://github.com/shellgei/rusty_bash)のmainブランチにも同じものが実装されています。バグがなければいいなあ・・・（あれば指摘は大歓迎です）。
 
-　マッチングの処理は、 https://github.com/shellgei/rusty_bash/blob/main/src/elements/command/case/tools.rs にありますが、まだ整理していません。
+現時点でのマッチングの処理は、[ココ](https://github.com/shellgei/rusty_bash/blob/main/src/elements/command/case/tools.rs)にありますが、まだ整理していません。
 
 ## 今後
 
