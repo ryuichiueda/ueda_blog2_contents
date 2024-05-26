@@ -6,7 +6,7 @@ Copyright: (C) Ryuichi Ueda
 # 自作シェルプロジェクト
 
 　3条項BSDライセンス版のBashを作ろうということでRusty Bashという名前のBashのクローンを作っています。
-コードを使って連載もしています。
+コードを使って[連載](/?page=sd_rusty_bash)もしています。
 
 ## リポジトリ
 
