@@ -5,7 +5,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 # 自作シェルの進捗とBashの細かい話（2024年5月26日）
 
-　前回に引き続き自作シェルの開発が暴走気味なのでドキュメントを残すための記事です。case文のためにBashのグロブの拡張を実装していました。こんな機能、自分では使わないのですが、[bash-completionの巨大スクリプト](https://github.com/scop/bash-completion/blob/main/bash_completion)が使ってるので泣きながら実装していました。
+　前回に引き続き[自作シェル](/?page=rusty_bash)の開発が暴走気味なのでドキュメントを残すための記事です。case文のためにBashのグロブの拡張を実装していました。こんな機能、自分では使わないのですが、[bash-completionの巨大スクリプト](https://github.com/scop/bash-completion/blob/main/bash_completion)が使ってるので泣きながら実装していました。
 
 　で、だいたいできました。たぶん連載で扱うのは2年後でしょうか・・・
 
