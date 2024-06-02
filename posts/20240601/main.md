@@ -75,3 +75,22 @@ ueda@uedaP1g6:main🌵~/GIT/rusty_bash🍣 git diff
 .gitignore        sd/202406_0       sd/202410_0       sd/202501_3       sd/202504_3       terminal_13 
 （以下略）
 ```
+
+仕事しながらもうちょっと`~/.sushrc`を充実させてみようと思います。
+
+
+## SIGPIPEとPIPESTATUSへの対応
+
+　しました。パイプが詰まるとコマンドが終了ステータス141を出します。いままでの実装だと`SIGPIPE`をシェルが受け取ってコマンドに行かないという現象が見られたので、寿司シェル側では`SIGPIPE`を無視するようにしました。サブシェルでは無視しないように設定を戻します。
+
+```bash
+
+ueda@uedaP1g6:main🌵~/GIT/rusty_bash🍣 seq 10 | true
+Pid: Pid(296910), Signal: SIGPIPE
+ueda@uedaP1g6:main🌵~/GIT/rusty_bash🍣 echo ${PIPESTATUS[@]}
+141 0
+```
+
+まだまだBashに比べると機能が少ないのですが、普段使う分にはいい感じになってきました。
+
+　現場からは以上です。
