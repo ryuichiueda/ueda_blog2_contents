@@ -37,16 +37,41 @@ alias ls='ls --color=auto'
 
 alias git-writing='git add -A ; git commit -m Writing; git push'
 
-_git_comp () {
-	if [ "$COMP_CWORD" = 1 ] ; then
-		CANDS=( $( git |& grep '^  *[a-z]' | awk '{print $1}') )
-		COMPREPLY=( $(compgen -W "${CANDS[@]}" -- "${cur}") )
-	elif [ "$COMP_CWORD" = 2 -a "$prev" = switch ] ; then
-		COMPREPLY=( $(compgen -W "$( git branch | tr -d '*' )" -- "${cur}" ) )
-	elif [ "$COMP_CWORD" = 2 -a "$prev" = merge ] ; then
-		COMPREPLY=( $(compgen -W "$( git branch | tr -d '*' )" -- "${cur}" ) )
-	elif [ "$COMP_CWORD" = 2 -a "$prev" = diff ] ; then
-		COMPREPLY=( $(compgen -W "$( git branch | tr -d '*' ) $(compgen -f)" -- "${cur}" ) )
-	fi
-} && complete -F _git_comp git
+_git_comp () {   #これ以下がgitに対する補完の仕掛け
+	if [ "$COMP_CWORD" = 1 ] ; then #git と打った後にサブコマンドを打つ前か打っている途中
+		CANDS=( $( git |& grep '^  *[a-z]' | awk '{print $1}') ) #ヘルプからサブコマンドのリストを作る
+		COMPREPLY=( $(compgen -W "${CANDS[@]}" -- "${cur}") )    # ${cur}（打っている途中の文字列）と一致するものを補完候補に
+	elif [ "$COMP_CWORD" = 2 -a "$prev" = switch ] ; then #git switchのとき
+		COMPREPLY=( $(compgen -W "$( git branch | tr -d '*' )" -- "${cur}" ) ) #ブランチの一覧を${cur}でフィルタをかけて補完候補に
+	elif [ "$COMP_CWORD" = 2 -a "$prev" = merge ] ; then  #git mergeのとき
+		COMPREPLY=( $(compgen -W "$( git branch | tr -d '*' )" -- "${cur}" ) ) #同上
+        elif [ "$COMP_CWORD" = 2 -a "$prev" = diff ] ; then  #git diffのとき
+                COMPREPLY=( $(compgen -W "$(compgen -f) $( git branch | tr -d '*' )"  -- "${cur}" ) )  #ファイルとブランチの両方を補完候補に
+	fi #ほんとはもっと分岐する 
+} && complete -F _git_comp git  #関数の定義がうまくいったらgitの補完関数として_git_compを登録
+```
+
+　これで、次のように状況に応じて補完候補が切り替わります（候補が1つしかないときは補完されます）。
+
+```bash
+
+### git <tab><tab>と打ったとき ###
+ueda@uedaP1g6:main🌵~/GIT/rusty_bash🍣 git
+clone   add     restore bisect  grep    show    branch  merge   reset   tag     pull
+init    mv      rm      diff    log     status  commit  rebase  switch  fetch   push
+### git r<tab><tab>と打ったとき ###
+ueda@uedaP1g6:main🌵~/GIT/rusty_bash🍣 git r 
+restore rm      rebase  reset
+### git switch <tab><tab>と打ったとき ###
+ueda@uedaP1g6:main🌵~/GIT/rusty_bash🍣 git switch
+dev-completion sd/202407_5    sd/202411_1    sd/202502_1    sd/202504_5    terminal_13
+main           sd/202408_0    sd/202411_2    sd/202502_2    sd/202504_ref  terminal_14
+prepare_1      sd/202408_1    sd/202411_3    sd/202502_3    sd/202505_0    terminal_15
+（以下略）
+### git switch <tab><tab>と打ったとき（ブランチの他、ファイルも補完候補に） ###
+ueda@uedaP1g6:main🌵~/GIT/rusty_bash🍣 git diff 
+.git              sd/202405_2       sd/202409_3       sd/202501_1       sd/202504_1       terminal_11       
+.github           sd/202405_3       sd/202409_4       sd/202501_2       sd/202504_2       terminal_12       
+.gitignore        sd/202406_0       sd/202410_0       sd/202501_3       sd/202504_3       terminal_13 
+（以下略）
 ```
