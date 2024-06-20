@@ -13,8 +13,7 @@ Pythonやライブラリ、Jupyterなどの仕様変更によるコードの修�
 
 * [section_kalman_filter/kf3.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_kalman_filter/kf3.ipynb) 
 * [section_kalman_filter/kf4.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_kalman_filter/kf4.ipynb) 
-
-どのバージョンからかは調べてませんが、`scipy.stats.multivariate_normal`の`cov`を直接書き換えられなくなりました。`kf3.ipynb`で書き直した`motion_update`、`kf4.ipynb`で書き直した`observation_update`を掲載します。
+    * どのバージョンからかは調べてませんが、`scipy.stats.multivariate_normal`の`cov`を直接書き換えられなくなりました。`kf3.ipynb`で書き直した`motion_update`、`kf4.ipynb`で書き直した`observation_update`を掲載します。
 
 ```python
     def motion_update(self, nu, omega, time): #追加
