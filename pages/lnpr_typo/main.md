@@ -55,29 +55,26 @@ Pythonやライブラリ、Jupyterなどの仕様変更によるコードの修�
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-* [section_sensor/lidar_200.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_200.ipynb)セル[9]
-
-Pandas 2.x系で、前のセルの`value_count`が集計した列に`count`と名前をつけるようになったことに対するコードの修正。
+* [section_sensor/lidar_200.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_200.ipynb)セル[9]: Pandas 2.x系で、前のセルの`value_count`が集計した列に`count`と名前をつけるようになったことに対するコードの修正。
 
 ```python
+
 freqs["probs"] = freqs["count"]/len(freqs["count"]) # 古いバージョン: freqs["probs"] = freqs["lidar"]/len(data["lidar"]) ###addprobs###
 freqs.transpose()
 ```
 
 
-* [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[8]
-
-seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。このコードで動かない場合は、`matplotlib`もアップデートが必要。
+* [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[8]: seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。このコードで動かない場合は、`matplotlib`もアップデートが必要。
 
 ```python
+
 sns.jointplot(data, x="hour", y="lidar", kind="kde") #古いバージョン: sns.jointplot(data["hour"], data["lidar"], data, kind="kde")
 plt.show()
 ```
 
 * [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[11]
 * [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[13]
-
-pandas（2.x）でデータが自動でソートされなくなったことへの対応。`sort_values`をくっつけました。
+    * pandas（2.x）でデータが自動でソートされなくなったことへの対応。`sort_values`をくっつけました。
 
 ```python
 
