@@ -87,7 +87,7 @@ cond_z_t
 ### lidar_600.ipynb ###
 sns.jointplot(data, x="hour", y="lidar", kind="kde") #古いバージョン: sns.jointplot(data["hour"], data["lidar"], data, kind="kde")
 plt.show()
-```
+
 ### multi_gauss1.ipynb ###
 sns.jointplot(d, x="ir", y="lidar", kind="kde") #旧バージョン: sns.jointplot(d["ir"], d["lidar"], d, kind="kde")
 plt.show()
