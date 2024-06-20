@@ -44,8 +44,6 @@ Pythonやライブラリ、Jupyterなどの仕様変更によるコードの修�
         self.pose = self.belief.mean
 ```
 
-参考: https://github.com/ryuichiueda/LNPR_BOOK_CODES/commit/671e144d81389b0fea17a26e9d5a4515a6b88ce2
-
 ### 2023年4月更新分
 
 情報提供いただきました。ありがとうございます。
