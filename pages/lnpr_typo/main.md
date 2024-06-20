@@ -80,6 +80,7 @@ plt.show()
 pandas（2.x）でデータが自動でソートされなくなったことへの対応。`sort_values`をくっつけました。
 
 ```python
+
 ### lidar_600.ipynbセル[11] ###
 p_z = pd.DataFrame(probs.transpose().sum()).sort_values("lidar")  #行と列を転置して各列を合計 #旧バージョン: p_z = pd.DataFrame(probs.transpose().sum())
 p_z.plot()
