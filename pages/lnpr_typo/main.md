@@ -14,7 +14,7 @@ Pythonやライブラリ、Jupyterなどの仕様変更によるコードの修�
 * [section_kalman_filter/kf3.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_kalman_filter/kf3.ipynb) 
 * [section_kalman_filter/kf4.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_kalman_filter/kf4.ipynb) 
 
-どのバージョンからかは調べてませんが、`scipy.stats.multivariate_normal`の`cov`を直接書き換えられなくなりました。
+どのバージョンからかは調べてませんが、`scipy.stats.multivariate_normal`の`cov`を直接書き換えられなくなりました。`kf3.ipynb`で書き直した`motion_update`、`kf4.ipynb`で書き直した`observation_update`を掲載します。
 
 ```python
     def motion_update(self, nu, omega, time): #追加
@@ -27,6 +27,22 @@ Pythonやライブラリ、Jupyterなどの仕様変更によるコードの修�
         mean = IdealRobot.state_transition(nu, omega, time, self.belief.mean) #旧バージョンではself.belef.meanに直接代入
         self.belief = multivariate_normal(mean=mean, cov=cov)                 #旧バージョンではこの行なし
         self.pose = self.belief.mean #他のクラスで使う
+
+    def observation_update(self, observation):  #追加
+        mean, cov = self.belief.mean, self.belief.cov #旧バージョンではこの行なし
+        for d in observation:
+            z = d[0]
+            obs_id = d[1]
+            
+            H = matH(mean, self.map.landmarks[obs_id].pos)
+            estimated_z = IdealCamera.observation_function(mean, self.map.landmarks[obs_id].pos)
+            Q = matQ(estimated_z[0]*self.distance_dev_rate, self.direction_dev)
+            K = cov.dot(H.T).dot(np.linalg.inv(Q + H.dot(cov).dot(H.T)))
+            mean += K.dot(z - estimated_z)          #旧バージョンではself.belief.meanを直接更新
+            cov = (np.eye(3) - K.dot(H)).dot(cov)  #旧バージョンではself.belief.covを直接更新 
+            
+        self.belief = multivariate_normal(mean=mean, cov=cov) #旧バージョンではこの行なし
+        self.pose = self.belief.mean
 ```
 
 参考: https://github.com/ryuichiueda/LNPR_BOOK_CODES/commit/671e144d81389b0fea17a26e9d5a4515a6b88ce2
