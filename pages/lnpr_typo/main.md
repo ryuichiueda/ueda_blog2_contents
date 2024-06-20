@@ -9,7 +9,9 @@ Copyright: (C) Ryuichi Ueda
 
 こちらはGitHubのコードに随時反映しています。本の内容については、もし第2版が出たらそのときにアップデートします。アップデート前のコードについては、横にコメントアウトして残してあるので、もし動かないときは、そちらのコードを試してみてください。
 
-### [section_sensor/lidar_200.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_200.ipynb)セル[9]
+### 2023年4月更新分
+
+#### [section_sensor/lidar_200.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_200.ipynb)セル[9]
 
 Pandas 2.x系で、前のセルの`value_count`が集計した列に`count`と名前をつけるようになったことに対するコードの修正。
 
@@ -18,14 +20,14 @@ freqs["probs"] = freqs["count"]/len(freqs["count"]) # 古いバージョン: fre
 freqs.transpose()
 ```
 
-#### 情報提供
+##### 情報提供
 
 <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="ja" dir="ltr">lidar_200.ipynbの9のfreq[“lidar”]で失敗します。<br>8のDataframeを作る際にvalue_countからの返り値を渡してますが、これにcountという名前がつくようになったためっぽいです。</p>&mdash; 女児 (@YuK_Ota) <a href="https://twitter.com/YuK_Ota/status/1652485372444803072?ref_src=twsrc%5Etfw">April 30, 2023</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ありがとうございます。
 
-### [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[8]
+#### [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[8]
 
 seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。このコードで動かない場合は、`matplotlib`もアップデートが必要。
 
@@ -34,7 +36,7 @@ sns.jointplot(data, x="hour", y="lidar", kind="kde") #古いバージョン: sns
 plt.show()
 ```
 
-### [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[11]
+#### [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[11]
 
 pandas（2.x）でデータが自動でソートされなくなったことへの対応。`sort_values`をくっつけました。
 
@@ -44,7 +46,7 @@ p_z.plot()
 p_z.transpose()
 ```
 
-### [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[13]
+#### [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[13]
 
 上の訂正と同じ理由。
 
@@ -54,7 +56,7 @@ cond_z_t
 ```
 
 
-### [section_sensor/multi_gauss1.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/multi_gauss1.ipynb)セル[1]最後から2行目
+#### [section_sensor/multi_gauss1.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/multi_gauss1.ipynb)セル[1]最後から2行目
 
 seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。このコードで動かない場合は、`matplotlib`もアップデートが必要。
 
@@ -64,7 +66,7 @@ sns.jointplot(d, x="ir", y="lidar", kind="kde") #旧バージョン: sns.jointpl
 plt.show()
 ```
 
-### [section_sensor/multi_gauss2.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/multi_gauss2.ipynb)セル[2]
+#### [section_sensor/multi_gauss2.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/multi_gauss2.ipynb)セル[2]
 
 seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。このコードで動かない場合は、`matplotlib`もアップデートが必要。
 
