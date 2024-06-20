@@ -7,7 +7,29 @@ Copyright: (C) Ryuichi Ueda
 
 ## コードのアップデート
 
-こちらはGitHubのコードに随時反映しています。本の内容については、もし第2版が出たらそのときにアップデートします。アップデート前のコードについては、横にコメントアウトして残してあるので、もし動かないときは、そちらのコードを試してみてください。
+Pythonやライブラリ、Jupyterなどの仕様変更によるコードの修正です。こちらはGitHubのコードに随時反映しています。本の内容については、もし第2版が出たらそのときにアップデートします。アップデート前のコードについては、横にコメントアウトして残してあるので、もし動かないときは、そちらのコードを試してみてください。
+
+### 2024年6月更新分
+
+* [section_kalman_filter/kf3.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_kalman_filter/kf3.ipynb) 
+* [section_kalman_filter/kf4.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_kalman_filter/kf4.ipynb) 
+
+どのバージョンからかは調べてませんが、`scipy.stats.multivariate_normal`の`cov`を直接書き換えられなくなりました。
+
+```python
+    def motion_update(self, nu, omega, time): #追加
+        if abs(omega) < 1e-5: omega = 1e-5 #値が0になるとゼロ割りになって計算ができないのでわずかに値を持たせる
+
+        M = matM(nu, omega, time, self.motion_noise_stds)
+        A = matA(nu, omega, time, self.belief.mean[2])
+        F = matF(nu, omega, time, self.belief.mean[2])
+        cov = F.dot(self.belief.cov).dot(F.T) + A.dot(M).dot(A.T)             #旧バージョンではself.belef.covに直接代入
+        mean = IdealRobot.state_transition(nu, omega, time, self.belief.mean) #旧バージョンではself.belef.meanに直接代入
+        self.belief = multivariate_normal(mean=mean, cov=cov)                 #旧バージョンではこの行なし
+        self.pose = self.belief.mean #他のクラスで使う
+```
+
+参考: https://github.com/ryuichiueda/LNPR_BOOK_CODES/commit/671e144d81389b0fea17a26e9d5a4515a6b88ce2
 
 ### 2023年4月更新分
 
