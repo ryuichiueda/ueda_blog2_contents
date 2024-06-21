@@ -18,6 +18,12 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 　でもまあ、うんこちんちん先生のまま死んだほうが幸せかもしんない。
 
+## 日曜はオープンキャンパスです遊びに来てね
+
+　当日雨っぽくて屋外でロボットを動かすのがピンチになってますが、屋内展示がんばります。詳しくは下の記事からどうぞー。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">日曜はオープンキャンパスです！<a href="https://t.co/Npmjqi8S56">https://t.co/Npmjqi8S56</a></p>&mdash; 千葉工大 未来ロボティクス学科 (@robo_cit) <a href="https://twitter.com/robo_cit/status/1803780526974837040?ref_src=twsrc%5Etfw">June 20, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## シェル芸勉強会来週やりますよ
 
 　ただいま自分を含めて14人のご参加承っております。まだまだ募集中！今回は午前の部もあって、Rustと自作シェルの話をわたしがします。
