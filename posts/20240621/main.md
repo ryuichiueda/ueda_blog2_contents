@@ -33,6 +33,11 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 　このご指摘を受けてJupyterの入ってないマシンにJupyter入れて検証していたら、ライブラリが新しくなった影響で動かないノートをいくつか発見して直しました。
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">昨年いただいたこの鋭い指摘、あああああと思ってるうちに忘却してしまい今見てるんですが・・・<br><br>なぜ存在しないオブジェクトdpを使っていてエラーが出ないのかわかりませんでしたが、下でグローバルにdpというこのクラスのオブジェクトを作ってたからですねあああ<br><br>切腹！<a href="https://t.co/V1vrs74gdO">https://t.co/V1vrs74gdO</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1803638049148117433?ref_src=twsrc%5Etfw">June 20, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+　で、紆余曲折の末、なんとか直しました。詳しくは[正誤表のページ](/?page=lnpr_typo)をごらんください。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">えー、全部修正と正誤表への反映がおわりました<a href="https://t.co/BNrrJCx2B5">https://t.co/BNrrJCx2B5</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1803735031636214246?ref_src=twsrc%5Etfw">June 20, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ## 学会で宇都宮行ってきました
