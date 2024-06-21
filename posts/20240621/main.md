@@ -20,7 +20,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ## シェル芸勉強会来週やりますよ
 
-　ただいま自分を含めて14人のご参加承っております。まだまだ募集中！
+　ただいま自分を含めて14人のご参加承っております。まだまだ募集中！今回は午前の部もあって、Rustと自作シェルの話をわたしがします。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">参加者向け情報を少し書きました。今回のLTはビアバッシュ（久しぶりにこの言葉使った）を兼ねてますので参加費のなかから🍺orソフトドリンク出ます。<a href="https://t.co/6OIBOBL8wa">https://t.co/6OIBOBL8wa</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1804041006192693640?ref_src=twsrc%5Etfw">June 21, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
