@@ -24,6 +24,17 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">参加者向け情報を少し書きました。今回のLTはビアバッシュ（久しぶりにこの言葉使った）を兼ねてますので参加費のなかから🍺orソフトドリンク出ます。<a href="https://t.co/6OIBOBL8wa">https://t.co/6OIBOBL8wa</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1804041006192693640?ref_src=twsrc%5Etfw">June 21, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+　↓午前の部のスライドのチラ見せです。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">シェル芸勉強会の準備してます（シェル芸どこいった？？？）<a href="https://t.co/6OIBOBKAGC">https://t.co/6OIBOBKAGC</a> <a href="https://t.co/8ipWuzsOA4">pic.twitter.com/8ipWuzsOA4</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1803990919915450834?ref_src=twsrc%5Etfw">June 21, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## 詳解確率ロボティクスのコードのアップデート
+
+　このご指摘を受けてJupyterの入ってないマシンにJupyter入れて検証していたら、ライブラリが新しくなった影響で動かないノートをいくつか発見して直しました。
+
+
+
 ## 学会で宇都宮行ってきました
 
 　これ書いている時点で大昔なような気がしていますが、上田研から学生さんの発表が2件ありました。
