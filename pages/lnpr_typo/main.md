@@ -7,68 +7,92 @@ Copyright: (C) Ryuichi Ueda
 
 ## コードのアップデート
 
-こちらはGitHubのコードに随時反映しています。本の内容については、もし第2版が出たらそのときにアップデートします。アップデート前のコードについては、横にコメントアウトして残してあるので、もし動かないときは、そちらのコードを試してみてください。
+Pythonやライブラリ、Jupyterなどの仕様変更によるコードの修正です。こちらはGitHubのコードに随時反映しています。本の内容については、もし第2版が出たらそのときにアップデートします。アップデート前のコードについては、横にコメントアウトして残してあるので、もし動かないときは、そちらのコードを試してみてください。
 
-### [section_sensor/lidar_200.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_200.ipynb)セル[9]
+### 2024年6月更新分
 
-Pandas 2.x系で、前のセルの`value_count`が集計した列に`count`と名前をつけるようになったことに対するコードの修正。
+* [section_kalman_filter/kf3.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_kalman_filter/kf3.ipynb) 
+* [section_kalman_filter/kf4.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_kalman_filter/kf4.ipynb) 
+    * どのバージョンからかは調べてませんが、`scipy.stats.multivariate_normal`の`cov`を直接書き換えられなくなりました。`kf3.ipynb`で書き直した`motion_update`、`kf4.ipynb`で書き直した`observation_update`を掲載します。
 
 ```python
-freqs["probs"] = freqs["count"]/len(freqs["count"]) # 古いバージョン: freqs["probs"] = freqs["lidar"]/len(data["lidar"]) ###addprobs###
-freqs.transpose()
+    def motion_update(self, nu, omega, time): #追加
+        if abs(omega) < 1e-5: omega = 1e-5 #値が0になるとゼロ割りになって計算ができないのでわずかに値を持たせる
+
+        M = matM(nu, omega, time, self.motion_noise_stds)
+        A = matA(nu, omega, time, self.belief.mean[2])
+        F = matF(nu, omega, time, self.belief.mean[2])
+        cov = F.dot(self.belief.cov).dot(F.T) + A.dot(M).dot(A.T)             #旧バージョンではself.belef.covに直接代入
+        mean = IdealRobot.state_transition(nu, omega, time, self.belief.mean) #旧バージョンではself.belef.meanに直接代入
+        self.belief = multivariate_normal(mean=mean, cov=cov)                 #旧バージョンではこの行なし
+        self.pose = self.belief.mean #他のクラスで使う
+
+    def observation_update(self, observation):  #追加
+        mean, cov = self.belief.mean, self.belief.cov #旧バージョンではこの行なし
+        for d in observation:
+            z = d[0]
+            obs_id = d[1]
+            
+            H = matH(mean, self.map.landmarks[obs_id].pos)
+            estimated_z = IdealCamera.observation_function(mean, self.map.landmarks[obs_id].pos)
+            Q = matQ(estimated_z[0]*self.distance_dev_rate, self.direction_dev)
+            K = cov.dot(H.T).dot(np.linalg.inv(Q + H.dot(cov).dot(H.T)))
+            mean += K.dot(z - estimated_z)          #旧バージョンではself.belief.meanを直接更新
+            cov = (np.eye(3) - K.dot(H)).dot(cov)  #旧バージョンではself.belief.covを直接更新 
+            
+        self.belief = multivariate_normal(mean=mean, cov=cov) #旧バージョンではこの行なし
+        self.pose = self.belief.mean
 ```
 
-#### 情報提供
+### 2023年4月更新分
+
+情報提供いただきました。ありがとうございます。
 
 <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="ja" dir="ltr">lidar_200.ipynbの9のfreq[“lidar”]で失敗します。<br>8のDataframeを作る際にvalue_countからの返り値を渡してますが、これにcountという名前がつくようになったためっぽいです。</p>&mdash; 女児 (@YuK_Ota) <a href="https://twitter.com/YuK_Ota/status/1652485372444803072?ref_src=twsrc%5Etfw">April 30, 2023</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-ありがとうございます。
 
-### [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[8]
-
-seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。このコードで動かない場合は、`matplotlib`もアップデートが必要。
+* [section_sensor/lidar_200.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_200.ipynb)セル[9]: Pandas 2.x系で、前のセルの`value_count`が集計した列に`count`と名前をつけるようになったことに対するコードの修正。
 
 ```python
-sns.jointplot(data, x="hour", y="lidar", kind="kde") #古いバージョン: sns.jointplot(data["hour"], data["lidar"], data, kind="kde")
-plt.show()
+
+freqs["probs"] = freqs["count"]/len(freqs["count"]) # 古いバージョン: freqs["probs"] = freqs["lidar"]/len(data["lidar"]) ###addprobs###
+freqs.transpose()
 ```
 
-### [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[11]
 
-pandas（2.x）でデータが自動でソートされなくなったことへの対応。`sort_values`をくっつけました。
+
+* [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[11]
+* [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[13]
+    * pandas（2.x）でデータが自動でソートされなくなったことへの対応。`sort_values`をくっつけました。
 
 ```python
+
+### lidar_600.ipynbセル[11] ###
 p_z = pd.DataFrame(probs.transpose().sum()).sort_values("lidar")  #行と列を転置して各列を合計 #旧バージョン: p_z = pd.DataFrame(probs.transpose().sum())
 p_z.plot()
 p_z.transpose()
-```
-
-### [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[13]
-
-上の訂正と同じ理由。
-
-```python
+### lidar_600.ipynbセル[13] ###
 cond_z_t = (probs/p_t[0]).sort_values("lidar")  #列（時間）ごとにP(t)で割るとP(x|t)となる   ###lidar600cond #旧バージョン: cond_z_t = probs/p_t[0]
 cond_z_t
 ```
 
-
-### [section_sensor/multi_gauss1.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/multi_gauss1.ipynb)セル[1]最後から2行目
-
-seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。このコードで動かない場合は、`matplotlib`もアップデートが必要。
+* [section_sensor/lidar_600.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_600.ipynb)セル[8]
+* [section_sensor/multi_gauss1.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/multi_gauss1.ipynb)セル[1]最後から2行目
+* [section_sensor/multi_gauss2.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/multi_gauss2.ipynb)セル[2]
+    * seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。このコードで動かない場合は、`matplotlib`もアップデートが必要。
 
 ```python
-（略）
+
+### lidar_600.ipynb ###
+sns.jointplot(data, x="hour", y="lidar", kind="kde") #古いバージョン: sns.jointplot(data["hour"], data["lidar"], data, kind="kde")
+plt.show()
+
+### multi_gauss1.ipynb ###
 sns.jointplot(d, x="ir", y="lidar", kind="kde") #旧バージョン: sns.jointplot(d["ir"], d["lidar"], d, kind="kde")
 plt.show()
-```
 
-### [section_sensor/multi_gauss2.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/multi_gauss2.ipynb)セル[2]
-
-seaborn（0.12以降？）の`jointplot`の引数が変わったことへの対応。このコードで動かない場合は、`matplotlib`もアップデートが必要。
-
-```python
+### multi_gauss2.ipynb ###
 sns.jointplot(d, x="ir", y="lidar", kind="kde") #度数分布を描画 #旧バージョン: sns.jointplot(d["ir"], d["lidar"], d, kind="kde")
 d.cov()
 ```
@@ -78,6 +102,10 @@ d.cov()
 |場所|訂正事項|発見者|一言|
 |:---|:-----|------|:-----|
 |p.143 式(6.15)の真ん中の行列の2行目|\\( \omega \Longrightarrow \omega_t \\)|<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr"><a href="https://twitter.com/ryuichiueda?ref_src=twsrc%5Etfw">@ryuichiueda</a><br>上田先生，突然のリプライすみません．読み進めるには支障がない些細なことですが，詳解確率ロボティクス(第5刷)p.143の式(6.15)で添字のtが1カ所抜けていました． <a href="https://t.co/XkSqBuvN7E">pic.twitter.com/XkSqBuvN7E</a></p>&mdash; Camellia-W (@MT20107) <a href="https://twitter.com/MT20107/status/1633085389186682880?ref_src=twsrc%5Etfw">March 7, 2023</a></blockquote>|見落としてました・・・|
+|p.254 コード2行目のコメント|KfAgent \\(\Longrightarrow\\) EstimationAgent|上田|コメントなので油断しました。|
+|p.262 2行目|角度と角速度 \\(\Longrightarrow\\) 速度と角速度|<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">写真の10.3.2のヒートマップの後の３行目の文章で「制御指令値の角度と角速度を足す」も「〜速度と角速度を足す」ですかね？（kindle版なんでページ数はわかりません） <a href="https://t.co/ZEgTCJsHWl">pic.twitter.com/ZEgTCJsHWl</a></p>&mdash; sumeragiagito (@sumeragiagito) <a href="https://twitter.com/sumeragiagito/status/1798003548325888370?ref_src=twsrc%5Etfw">June 4, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>|第5刷で訂正したp.91のと同じです🙏|
+|p.321 amdp6.ipynbの102行目| dp.obs_... \\(\Longrightarrow\\) self.obs_... | https://github.com/ryuichiueda/LNPR_BOOK_CODES/issues/6 |一応これでも動きますが、申し訳ないっ！|
+|p.325 amdp7.ipynbの116行目| dp.obs_... \\(\Longrightarrow\\) self.obs_... | https://github.com/ryuichiueda/LNPR_BOOK_CODES/issues/6 |同上|
 |p.334 セル[8]の2行目| beta_0 \\(  \Longrightarrow \\) zeta_0 | https://github.com/ryuichiueda/LNPR/issues/1 |すみません！下の計算結果は、運の良いことにわずかに違うだけになります。|
 
 ## 第6刷で訂正済み
