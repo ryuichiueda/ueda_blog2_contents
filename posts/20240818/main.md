@@ -41,7 +41,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ## 他の更新
 
-　ぜひ[リリースノート（適当）](https://github.com/shellgei/rusty_bash/releases)をみてくださいっ！なにかBashにない機能追加してって言われたら前向きに検討いたしますので言ってみてください！
+　ぜひ[リリースノート（適当）](https://github.com/shellgei/rusty_bash/releases)をみてくださいっ！なにかBashにない機能追加してって言われたら前向きに検討いたしますので[issue](https://github.com/shellgei/rusty_bash/issues)とかSNSとかで言ってみてください！いまなら好き勝手言っても対応できる可能性高いです。
 
 
 以上！
