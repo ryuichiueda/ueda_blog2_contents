@@ -43,6 +43,9 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 　ぜひ[リリースノート（適当）](https://github.com/shellgei/rusty_bash/releases)をみてくださいっ！なにかBashにない機能追加してって言われたら前向きに検討いたしますので[issue](https://github.com/shellgei/rusty_bash/issues)とかSNSとかで言ってみてください！いまなら好き勝手言っても対応できる可能性高いです。
 
+## 今後
+
+　ネイピア数とか円周率とかもなんかシェルの中に持っとくといいかもしんない。肥大化するけど。
 
 以上！
 
