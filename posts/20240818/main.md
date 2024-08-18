@@ -33,6 +33,11 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 　まだ自分で使っていて便利な場面はないのですが、たぶんそのうち来るでしょう。
 
+## デモ動画
+
+　前回YouTubeにのせたら海外からも反応来たので今回も真面目にのっけてみました。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1DgArjRYzVk?si=kV7ocRT4gMb3Id7e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 他の更新
 
