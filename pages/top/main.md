@@ -16,6 +16,12 @@ Copyright: (C) 2022-2024 Ryuichi Ueda
     <div class="col-md-6">
       <h2 id="news"><i class="fa-solid fa-circle-info"></i> 最近の話題</h2>
 
+      <h3 id="prob_book">日本ロボット学会 学会誌論文賞</h3>
+
+      筆頭の三上さんをはじめCGを作成した石川さん、共著者のみなさま、おめでとうございました。
+
+      <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ヤンマーさんとのNEDOの共同研究に関する論文で、日本ロボット学会第38回学会誌論文賞をいただきました。代表で賞状を拝受しました。<a href="https://twitter.com/hashtag/RSJ2024?src=hash&amp;ref_src=twsrc%5Etfw">#RSJ2024</a> <a href="https://t.co/mj1ITPapdd">pic.twitter.com/mj1ITPapdd</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1831593413638328577?ref_src=twsrc%5Etfw">September 5, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
       <h3 id="prob_book">「ロボットの確率・統計」の発売開始</h3>
 
       書評、ありがとうございます。
