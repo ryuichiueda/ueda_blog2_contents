@@ -53,7 +53,7 @@ Copyright: (C) Ryuichi Ueda
 
 * Ryuichi Ueda: Generation of search behavior of robots by an extended probabilistic ﬂow control, International Journal of iRobotics, Vol. 5, No. 2, pp. 29-35, 2022. 
 * 三上泰史, 石川弘也, 原直裕, 夏迫和也, 空閑融, 大和田恭平, 北浦勇人, 上田隆一: 密生した圃場における一部が隠れた果菜類の主茎の検出 ―写実的なCG画像で学習した深層畳み込みニューラルネットワークによるImage-to-Image変換―, 日本ロボット学会誌, Vol. 40, No. 2, pp. 143-153, 2022. 
-    * [日本ロボット学会 第38回学会誌論文賞 受賞](https://www.rsj.or.jp/info/awards/category/best_paper/)
+    * <span style="color:red">[日本ロボット学会 第38回学会誌論文賞 受賞](https://www.rsj.or.jp/info/awards/category/best_paper/)</span>
     * [早期公開原稿（pdf）](https://www.rsj.or.jp/pub/jrsj/advpub/400201.html)
 
 
