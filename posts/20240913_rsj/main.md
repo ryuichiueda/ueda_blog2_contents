@@ -68,4 +68,12 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ![](hotel1.jpg)
 
+## コマツさんのブース
+
+　研究室卒業生のHさんに宣伝を頼まれました。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">背後の人に宣伝しろ言われたので<br><br>ジャンカラではないです<a href="https://twitter.com/hashtag/RSJ2024?src=hash&amp;ref_src=twsrc%5Etfw">#RSJ2024</a> <a href="https://t.co/TUWEbC1WmW">pic.twitter.com/TUWEbC1WmW</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1831495467567644771?ref_src=twsrc%5Etfw">September 5, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+ほんとにいい会社だと思います。
 
