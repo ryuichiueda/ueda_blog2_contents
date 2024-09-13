@@ -32,7 +32,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">こんな発表したらもう企業に再就職できないのではないか（さすがに当日はこのスライド使わないかも） <a href="https://t.co/REUrx2cKjE">pic.twitter.com/REUrx2cKjE</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1829435040738197869?ref_src=twsrc%5Etfw">August 30, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-## 3次会のいい感じの居酒屋
+## 3次会のいい感じの居酒屋とプロの酔っ払い
 
 　その後、ROS JAPAN UGの方々とファンクのかかるお店で打ち上げをやってホテルに戻ったところ、別の飲み会で完璧に仕上がった状態のHSN先生に、 **どこのどの店なのかノーヒントで** 呼び出されました。
 
