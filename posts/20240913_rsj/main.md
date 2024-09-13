@@ -1,5 +1,5 @@
 ---
-Keywords: 受賞, 日記, 学会
+Keywords: 受賞, 日記, 学会, 食ってばっかり
 Copyright: (C) 2024 Ryuichi Ueda
 ---
 
