@@ -88,3 +88,12 @@ Copyright: (C) 2024 Ryuichi Ueda
 　学会誌論文賞をいただけたので、代表でステージに上がりました。写真は共著者のNさんです。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ヤンマーさんとのNEDOの共同研究に関する論文で、日本ロボット学会第38回学会誌論文賞をいただきました。代表で賞状を拝受しました。<a href="https://twitter.com/hashtag/RSJ2024?src=hash&amp;ref_src=twsrc%5Etfw">#RSJ2024</a> <a href="https://t.co/mj1ITPapdd">pic.twitter.com/mj1ITPapdd</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1831593413638328577?ref_src=twsrc%5Etfw">September 5, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## 学会の懇親会
+
+　受賞者だったので8000円キャッシュバックがありました。タダ飯なのに真っ先に料理をとってしまいましたが、料理はたっぷりありました。
+
+
+![](banquet.jpg)
+
+
