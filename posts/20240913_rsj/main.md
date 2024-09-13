@@ -18,3 +18,9 @@ Copyright: (C) 2024 Ryuichi Ueda
 　発表前に腹が減ったので、会場近くの地下街のカレー屋で2回目の昼飯。特に下調べしたわけではないんですけど関東では見ないので入りました。おいしかったです。
 
 ![](curry1.jpg)
+
+## 発表
+
+　今回の発表は学術講演でなくてオープンフォーラム（なにか特定のテーマで自由に発表する会）でROSについて話をしました。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fUapRRTlhtM?si=R00NogcsyrqDeW0O&amp;start=2396" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
