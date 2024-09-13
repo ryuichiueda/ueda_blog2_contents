@@ -21,7 +21,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ## 発表
 
-　今回の発表は学術講演でなくてオープンフォーラム（なにか特定のテーマで自由に発表する会）でROSについて話をしました。内容は「ROS 2大丈夫？」という挑発的なもので、オープンフォーラムを主催したROS JAPANユーザーグループのみなさまには懐深く受け入れてもらえて命が助かりました。
+　今回の発表は学術講演でなくてオープンフォーラム（なにか特定のテーマで自由に発表する会）でROSについて話をしました。内容は「ROS 2大丈夫？」という挑発的なもので、オープンフォーラムを主催した[ROS JAPANユーザーグループ](https://rosjp.connpass.com/)のみなさまには懐深く受け入れてもらえて命が助かりました。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fUapRRTlhtM?si=R00NogcsyrqDeW0O&amp;start=2396" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
