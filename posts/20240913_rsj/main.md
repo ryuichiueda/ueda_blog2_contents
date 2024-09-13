@@ -96,7 +96,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ![](banquet1.jpg)
 
-謎のシャレオツレモンもありました（謎）。
+謎シャレオツレモンもありました（謎）。
 
 ![](banquet2.jpg)
 
