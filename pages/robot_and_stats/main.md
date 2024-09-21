@@ -10,6 +10,10 @@ Copyright: (C) Ryuichi Ueda
 * [コロナ社の公式サイト](https://www.coronasha.co.jp/np/isbn/9784339046878/)
     * まえがき全文のほか、内容紹介、目次、読者レビューが読めます
 
+## 問題集
+
+* [こちら](/?page=robot_and_stats_questions)
+
 ## 買えるところ
 
 ### 電子書籍
