@@ -14,7 +14,7 @@ Copyright: (C) Ryuichi Ueda
 
 ### 20240921_1
 
-　シェルを使う例を挙げておきます．
+　シェルを使う例を挙げておきます．答えは`209.7`です．
 
 ```bash
 $ curl https://raw.githubusercontent.com/ryuichiueda/LNPR_BOOK_CODES/refs/heads/master/sensor_data/sensor_data_200.txt > a
