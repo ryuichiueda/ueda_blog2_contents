@@ -12,6 +12,8 @@ Copyright: (C) Ryuichi Ueda
 
 ## 問題集
 
+少しずつ書いてます．
+
 * [こちら](/?page=robot_and_stats_questions)
 
 ## 買えるところ
