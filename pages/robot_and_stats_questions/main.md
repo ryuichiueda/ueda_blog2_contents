@@ -14,4 +14,6 @@ Copyright: (C) Ryuichi Ueda
 
 ### 20240921_1
 
+　[このデータ](https://raw.githubusercontent.com/ryuichiueda/LNPR_BOOK_CODES/refs/heads/master/sensor_data/sensor_data_200.txt)の4列目の平均値を求めてください．道具はなんでもよいです．
+
 [（答え）](/?page=robot_and_stats_answers#20240921_1)
