@@ -10,8 +10,8 @@ Copyright: (C) Ryuichi Ueda
 
 　本書の筆者はたびたびAmazonのランキングの某部門で本書が1位になっているとSNSに挙げていますが、この「1位」という情報について、注意すべき点を議論してください。
 
-[（答え）](/?page=robot_and_stats_questions#20240527_1)
+[（答え）](/?page=robot_and_stats_answers#20240527_1)
 
 ### 20240921_1
 
-[（答え）](/?page=robot_and_stats_questions#20240921_1)
+[（答え）](/?page=robot_and_stats_answers#20240921_1)
