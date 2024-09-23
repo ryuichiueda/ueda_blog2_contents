@@ -24,6 +24,12 @@ Copyright: (C) Ryuichi Ueda
 
 [（答え）](/?page=robot_and_stats_answers#20240924_1)
 
+### 20240924_3
+
+　代表値を計算できるようになると，どのような場面でどのように役に立つでしょうか？具体例を挙げてみてください．
+
+[（答え）](/?page=robot_and_stats_answers#20240924_3)
+
 ## 4章
 
 ### 20240924_2

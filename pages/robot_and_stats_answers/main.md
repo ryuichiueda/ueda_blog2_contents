@@ -42,6 +42,12 @@ $ cat a | tr ' ' '\t' | datamash svar 4 sstdev 4
 
 [（戻る）](/?page=robot_and_stats_questions#20240924_1)
 
+### 20240924_3
+
+* 
+
+[（戻る）](/?page=robot_and_stats_questions#20240924_3)
+
 ## 4章
 
 ### 20240924_2
