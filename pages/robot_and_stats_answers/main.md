@@ -44,4 +44,4 @@ $ cat a | tr ' ' '\t' | datamash svar 4 sstdev 4
 
 ### 20240924_2
 
-　\[z\]の値が
+　\\(z\\)の値が
