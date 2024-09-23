@@ -32,6 +32,6 @@ Copyright: (C) Ryuichi Ueda
 
 $$p(z | \mu, \sigma^2 ) = \frac{1}{\sqrt{2\pi}\sigma} e^{ - \frac{(z - \mu)^2}{2\sigma^2}}$$
 
-の値は確率にはなりません．その理由を説明してください．（密度という言葉を知っていても使わないこと．）
+の値は確率ではありません．その理由を説明してください．（密度という言葉を知っていても使わないこと．）
 
 [（答え）](/?page=robot_and_stats_answers#20240924_2)
