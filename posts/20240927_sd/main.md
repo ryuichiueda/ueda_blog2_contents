@@ -3,7 +3,7 @@ Keywords: 宣伝, 自作シェル
 Copyright: (C) 2024 Ryuichi Ueda
 ---
 
-# Software Designの総集編を買うと変態自作シェル連載が第1回から読めるっぽい
+# Software Designの総集編を買うと変態自作シェル連載が第1回から読めるっぽい（シェル芸人からの挑戦状もほぼ読めるっぽい）
 
 　ついったで言われて思い出したんですが、
 2018〜2023年に出た[Software Design](https://gihyo.jp/magazine/SD)の
