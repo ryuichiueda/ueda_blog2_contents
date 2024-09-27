@@ -68,7 +68,7 @@ $$\bar{x} = \frac{1}{N}\sum_{i=1}^N x_i $$
 
 ### 20240927_2
 
-$$p(x | \mu, \sigma^2 ) = \frac{1}{\sqrt{2\pi\sigma}} e^{ - \frac{(x - \mu)^2}{2\sigma^2}}$$
+$$p(x | \mu, \sigma^2 ) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{ - \frac{(x - \mu)^2}{2\sigma^2}}$$
 
 となります。ここで\\(\mu\\)は\\(x\\)の平均値、\\(\sigma^2\\)は分散です。
 
