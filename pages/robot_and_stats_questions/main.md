@@ -26,7 +26,7 @@ Copyright: (C) Ryuichi Ueda
 
 ### 20240927_1
 
-　データ\\(x_1, x_2, \dots, x_N (N\ge 2)\\)の不偏分散を計算する式を書いてください。
+　データ\\(x_1, x_2, \dots, x_N \  (N\ge 2)\\)の不偏分散を計算する式を書いてください。
 
 [（答え）](/?page=robot_and_stats_answers#20240927_1)
 
