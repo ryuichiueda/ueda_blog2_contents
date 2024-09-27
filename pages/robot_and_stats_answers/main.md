@@ -46,7 +46,7 @@ $ cat a | tr ' ' '\t' | datamash svar 4 sstdev 4
 
 \\(\sigma^2\\)を不偏分散とすると、
 
-$$\sigma^2 = \frac{1}{N-1}\sum_{i=1}^N (x_i - \bar{x})^2 \quad (N>1)$$
+$$\sigma^2 = \frac{1}{N-1}\sum_{i=1}^N (x_i - \bar{x})^2$$
 
 となります。ここで
 
