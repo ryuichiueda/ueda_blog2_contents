@@ -42,6 +42,20 @@ $ cat a | tr ' ' '\t' | datamash svar 4 sstdev 4
 
 [（戻る）](/?page=robot_and_stats_questions#20240924_1)
 
+### 20240927_1
+
+\\(\sigma^2\\)を不偏分散とすると、
+
+$$\sigma^2 = \frac{1}{N-1}\sum_{i=1}^N (x_i - \bar{x})^2 \quad (N>1)$$
+
+となります。ここで
+
+$$\bar{x} = \frac{1}{N}\sum_{i=1}^N x_i $$
+
+です。
+
+[（戻る）](/?page=robot_and_stats_questions#20240927_1)
+
 ### 20240924_3
 
 例です．（問題にも書きましたが代表値は万能ではないので，必ず異議が生じることを考慮する必要があります．）
