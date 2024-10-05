@@ -68,12 +68,7 @@ $$\bar{x} = \frac{1}{N}\sum_{i=1}^N x_i $$
 
 ### 20241005_1
 
-$$
-\begin{align}
-\sigma^2 &= \langle (z - \mu)^2 \rangle_{p(z)} \\
-&= \langle z^2 -2 z\mu -\mu^2 \rangle_{p(z)} \\
-&= \langle z^2 \rangle_{p(z)} -2\mu\langle z \rangle_{p(z)} - \langle \mu^2 \rangle_{p(z)}
-\end{align}
+$$ \sigma^2 = \langle (z - \mu)^2 \rangle_{p(z)} = \langle z^2 -2 z\mu -\mu^2 \rangle_{p(z)} = \langle z^2 \rangle_{p(z)} -2\mu\langle z \rangle_{p(z)} - \langle \mu^2 \rangle_{p(z)}
 $$
 
 [（戻る）](/?page=robot_and_stats_questions#20241005_1)
