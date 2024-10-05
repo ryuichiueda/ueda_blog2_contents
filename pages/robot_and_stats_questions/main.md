@@ -36,6 +36,16 @@ Copyright: (C) Ryuichi Ueda
 
 [（答え）](/?page=robot_and_stats_answers#20240924_3)
 
+## 2章
+
+### 20241004_3
+
+※執筆中
+
+$$\text{Pr}\{ X \cap Y  | Z \} = \text{Pr}\{ Y | X \cap Z \}\text{Pr}\{ X \cap Z \}$$
+
+[（答え）](/?page=robot_and_stats_answers#20241003_3)
+
 ## 3章
 
 ### 20241005_2
