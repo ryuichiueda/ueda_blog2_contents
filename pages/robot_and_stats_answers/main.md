@@ -66,6 +66,14 @@ $$\bar{x} = \frac{1}{N}\sum_{i=1}^N x_i $$
 
 ## 3章
 
+### 20241005_2
+
+\begin{align}
+\langle f \rangle_p &= \langle ax + b \rangle_{p(x)} 
+\end{align}
+
+[（戻る）](/?page=robot_and_stats_questions#20241005_2)
+
 ### 20241005_1
 
 \begin{eqnarray}
