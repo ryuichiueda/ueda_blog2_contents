@@ -40,9 +40,9 @@ Copyright: (C) Ryuichi Ueda
 
 ### 20241004_3
 
-※執筆中
+条件つきの乗法定理を、条件なしの乗法定理から証明してください。
 
-$$\text{Pr}\\{ X \cap Y  | Z \\} = \text{Pr}\\{ Y | X \cap Z \\}\text{Pr}\\{ X \cap Z \\}$$
+$$P(X, Y | Z) = P(Y | X, Z)P(X | Z)$$
 
 [（答え）](/?page=robot_and_stats_answers#20241003_3)
 
