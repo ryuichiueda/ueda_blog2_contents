@@ -69,8 +69,8 @@ $$\bar{x} = \frac{1}{N}\sum_{i=1}^N x_i $$
 
 ### 20241005_3
 
-$$P(X, Y, Z) = P(X, Y | Z)P(Z) ---\circ{1}$$
-$$P(Y, Z | X) = P(Y , Z| X)P(X) ---\circ{2}$$
+$$P(X, Y, Z) = P(X, Y | Z)P(Z) \text{---} \textcircled{\scriptsize 1}$$
+$$P(Y, Z | X) = P(Y , Z| X)P(X) \text{---} \textcircled{\scriptsize 2}$$
 
 [（戻る）](/?page=robot_and_stats_questions#20241005_3)
 
