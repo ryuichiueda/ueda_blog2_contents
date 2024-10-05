@@ -69,7 +69,9 @@ $$\bar{x} = \frac{1}{N}\sum_{i=1}^N x_i $$
 ### 20241005_2
 
 \begin{align}
-\langle f \rangle_p &= \langle ax + b \rangle_{p(x)} 
+\langle f \rangle_p &= \langle ax + b \rangle_{p(x)} \\\\
+&= a \langle x  \rangle_{p(x)} + b \quad (\because \text{期待値の線型性}) \\\\ 
+&= a \mu + b \quad (\because \mu = \langle x \rangle_{p(x)}) 
 \end{align}
 
 [（戻る）](/?page=robot_and_stats_questions#20241005_2)
