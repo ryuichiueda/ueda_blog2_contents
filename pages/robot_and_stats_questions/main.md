@@ -42,7 +42,7 @@ Copyright: (C) Ryuichi Ueda
 
 ※執筆中
 
-$$\text{Pr}\{ X \cap Y  | Z \} = \text{Pr}\{ Y | X \cap Z \}\text{Pr}\{ X \cap Z \}$$
+$$\text{Pr}\\{ X \cap Y  | Z \\} = \text{Pr}\\{ Y | X \cap Z \\}\text{Pr}\\{ X \cap Z \\}$$
 
 [（答え）](/?page=robot_and_stats_answers#20241003_3)
 
