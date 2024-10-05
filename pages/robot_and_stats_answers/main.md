@@ -67,10 +67,12 @@ $$\bar{x} = \frac{1}{N}\sum_{i=1}^N x_i $$
 
 ## 2章
 
-### 20241004_3
+### 20241005_3
 
-$$P(X, Y, Z) = P(X, Y | Z)$$
-$$P(Y, Z | X) = P(Y , Z| X)$$
+$$P(X, Y, Z) = P(X, Y | Z)P(Z) ---\circ{1}$$
+$$P(Y, Z | X) = P(Y , Z| X)P(X) ---\circ{2}$$
+
+[（戻る）](/?page=robot_and_stats_questions#20241005_3)
 
 ## 3章
 
