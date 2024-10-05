@@ -38,9 +38,20 @@ Copyright: (C) Ryuichi Ueda
 
 ## 3章
 
+### 20241005_2
+
+分布\\(p(x)\\)に対して、\\(x\\)の平均値が\\(\mu\\)であるとき、
+$$f(x) = ax + b$$
+の期待値が
+$$a \mu + b$$
+となることを示してください。
+
+[（答え）](/?page=robot_and_stats_answers#20241005_2)
+
+
 ### 20241005_1
 
-確率分布に対する期待値の式
+確率分布に対する分散の式
 $$\sigma^2 = \langle (x - \mu)^2 \rangle_{p(x)}$$
 から、
 $$\sigma^2 = \langle x^2 \rangle_{p(x)} - \mu^2$$
