@@ -70,8 +70,9 @@ $$\bar{x} = \frac{1}{N}\sum_{i=1}^N x_i $$
 
 $$ \sigma^2 = \langle (x - \mu)^2 \rangle_{p(x)}$$
 $$= \langle x^2 -2 x\mu -\mu^2 \rangle_{p(x)}$$
-$$= \langle x^2 \rangle_{p(x)} -2\mu\langle x \rangle_{p(x)} - \langle \mu^2 \rangle_{p(x)}$$
-$$= \langle x^2 \rangle_{p(x)} -2\mu^2 - \mu^2  \quad (\langle x \rangle_{p(x)}\text{は平均値なので}) $$ 
+$$= \langle x^2 \rangle_{p(x)} -2\mu\langle x \rangle_{p(x)} + \langle \mu^2 \rangle_{p(x)}$$
+$$= \langle x^2 \rangle_{p(x)} -2\mu^2 + \mu^2  \quad (\langle x \rangle_{p(x)}\text{は平均値なので}) $$ 
+$$= \langle x^2 \rangle_{p(x)} - \mu^2$$
 
 [（戻る）](/?page=robot_and_stats_questions#20241005_1)
 
