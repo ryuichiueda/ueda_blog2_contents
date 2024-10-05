@@ -69,7 +69,7 @@ $$\bar{x} = \frac{1}{N}\sum_{i=1}^N x_i $$
 ### 20241005_1
 
 \begin{eqnarray}
-\sigma^2 &=& \langle (x - \mu)^2 \rangle_{p(x)} \\
+\sigma^2 &=& \langle (x - \mu)^2 \rangle_{p(x)} \\\\
 &=& \langle x^2 -2 x\mu -\mu^2 \rangle_{p(x)}
 \end{eqnarray}
 
