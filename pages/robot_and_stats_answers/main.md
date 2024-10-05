@@ -70,11 +70,11 @@ $$\bar{x} = \frac{1}{N}\sum_{i=1}^N x_i $$
 ### 20241005_3
 
 \\(X,Y\\)をまとめて\\(P(X, Y, Z)\\)に乗法定理を適用すると、
-$$P(X, Y, Z) = P(X, Y | Z)P(Z) \textemdash(1)$$
+$$P(X, Y, Z) = P(X, Y | Z)P(Z) ・・・(1)$$
 が得られる。また、\\(X,Z\\)をまとめて\\(P(X, Y, Z)\\)に乗法定理を適用すると、
 \begin{align}
 P(X, Y, Z) &= P(Y | X, Z)P(X, Z) \\\\
-&= P(Y|X,Z)P(X|Z)P(Z) \textemdash(2)
+&= P(Y|X,Z)P(X|Z)P(Z) ・・・(2)
 \end{align}
 が得られる。
 
