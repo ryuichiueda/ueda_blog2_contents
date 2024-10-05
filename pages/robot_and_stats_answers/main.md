@@ -64,6 +64,18 @@ $$\bar{x} = \frac{1}{N}\sum_{i=1}^N x_i $$
 
 [（戻る）](/?page=robot_and_stats_questions#20240924_3)
 
+## 3章
+
+### 20241005_1
+
+$$
+\begin{align}
+\sigma^2 = \langle (z - \mu)^2 \rangle_{p(z)}
+\end{align}
+$$
+
+[（戻る）](/?page=robot_and_stats_questions#20241005_1)
+
 ## 4章
 
 ### 20240927_2
