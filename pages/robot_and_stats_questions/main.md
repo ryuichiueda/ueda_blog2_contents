@@ -41,10 +41,10 @@ Copyright: (C) Ryuichi Ueda
 ### 20241005_1
 
 確率分布に対する期待値の式
-$$\sigma^2 = \langle (z - \mu)^2 \rangle_{p(z)}$$
+$$\sigma^2 = \langle (x - \mu)^2 \rangle_{p(x)}$$
 から、
-$$\sigma^2 = \langle z^2 \rangle_{p(z)} - \mu^2$$
-を導いてください。
+$$\sigma^2 = \langle x^2 \rangle_{p(x)} - \mu^2$$
+を導いてください。\\(\mu\\)は\\(x\\)の平均値です。
 
 [（答え）](/?page=robot_and_stats_answers#20241005_1)
 

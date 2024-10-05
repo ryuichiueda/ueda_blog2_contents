@@ -71,6 +71,7 @@ $$\bar{x} = \frac{1}{N}\sum_{i=1}^N x_i $$
 $$
 \begin{align}
 \sigma^2 = \langle (z - \mu)^2 \rangle_{p(z)}
+= \langle z^2 -2 z\mu \rangle_{p(z)}
 \end{align}
 $$
 
