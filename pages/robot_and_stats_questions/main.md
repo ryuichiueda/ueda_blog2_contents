@@ -36,6 +36,18 @@ Copyright: (C) Ryuichi Ueda
 
 [（答え）](/?page=robot_and_stats_answers#20240924_3)
 
+## 3章
+
+### 20241005_1
+
+確率分布に対する期待値の式
+$$\sigma^2 = \langle (z - \mu)^2 \rangle_{p(z)}$$
+から、
+$$\sigma^2 = \langle z^2 \rangle_{p(z)} - \mu^2$$
+を導いてください。
+
+[（答え）](/?page=robot_and_stats_answers#20241005_1)
+
 ## 4章
 
 ### 20240927_2
