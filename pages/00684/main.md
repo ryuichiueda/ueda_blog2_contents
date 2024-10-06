@@ -29,6 +29,10 @@ Copyright: (C) Ryuichi Ueda
 
 ## 各回の出題
 
+### 第69回
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Plp_sMyYdw8?si=0q78dmK9PsppOQm_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### 第68回
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UHpuKWiiHsc?si=b_S_K4jwvUlz3BIz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
