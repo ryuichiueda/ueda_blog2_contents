@@ -4,6 +4,8 @@ Copyright: (C) Ryuichi Ueda
 
 # ロボットの確率・統計問題集（答え）
 
+$$\newcommand{\indep}{\mathop{\perp\!\!\!\perp}}$$
+
 ## 1章
 
 ### 統計のリテラシー
