@@ -97,6 +97,8 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 = -3700 &+ 1000\cdot 3.5 = -200円
 \end{align}
 
+[（戻る）](/?page=robot_and_stats_questions#賭け事と期待値)
+
 ### 期待値の線形性
 
 \begin{align}
