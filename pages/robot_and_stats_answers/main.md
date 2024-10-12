@@ -106,7 +106,8 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 サイコロに1番2番と番号をつけて、それぞれの目を\\(x_1\\)、\\(x_2\\)とする。
 
 \begin{align}
-&\text{Pr}\\{(x_1 + x_2) %2=0 \\} \\\\
+\text{Pr}\\{(x_1 + x_2) %2=0 \\}
+\end{align}
 &= \sum_{y=0}^1 \text{Pr}\\{ (x_1 + x_2) \mod 2 == 0 \\}
 \end{align}
 $$\text{Pr} \{ x_1 \mod 2 == y \}$$
