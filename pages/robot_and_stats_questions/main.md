@@ -61,7 +61,7 @@ $$a \mu + b$$
 [（答え）](/?page=robot_and_stats_answers#期待値の線形性)
 
 
-### 20241005_1
+### 分散の性質と期待値
 
 確率分布に対する分散の式
 $$\sigma^2 = \langle (x - \mu)^2 \rangle_{p(x)}$$
@@ -69,7 +69,7 @@ $$\sigma^2 = \langle (x - \mu)^2 \rangle_{p(x)}$$
 $$\sigma^2 = \langle x^2 \rangle_{p(x)} - \mu^2$$
 を導いてください。\\(\mu\\)は\\(x\\)の平均値です。
 
-[（答え）](/?page=robot_and_stats_answers#20241005_1)
+[（答え）](/?page=robot_and_stats_answers#分散の性質と期待値)
 
 ## 4章
 

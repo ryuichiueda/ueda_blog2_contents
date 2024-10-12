@@ -88,7 +88,7 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 
 ## 3章
 
-### 20241005_2
+### 期待値の線形性
 
 \begin{align}
 \langle f \rangle_p &= \langle ax + b \rangle_{p(x)} \\\\
@@ -96,9 +96,9 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 &= a \mu + b \quad (\because \mu = \langle x \rangle_{p(x)}) 
 \end{align}
 
-[（戻る）](/?page=robot_and_stats_questions#20241005_2)
+[（戻る）](/?page=robot_and_stats_questions#期待値の線形性)
 
-### 20241005_1
+### 分散の性質と期待値
 
 \begin{eqnarray}
 \sigma^2 &=& \langle (x - \mu)^2 \rangle_{p(x)} \\\\
@@ -108,7 +108,7 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 &=& \langle x^2 \rangle_{p(x)} - \mu^2
 \end{eqnarray}
 
-[（戻る）](/?page=robot_and_stats_questions#20241005_1)
+[（戻る）](/?page=robot_and_stats_questions#分散の性質と期待値)
 
 ## 4章
 
