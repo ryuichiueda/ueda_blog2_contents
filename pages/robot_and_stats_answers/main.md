@@ -71,7 +71,11 @@ $$\bar{x} = \frac{1}{N}\sum_{i=1}^N x_i $$
 
 \begin{align}
 P(偶数) &= \sum_{X=A,B} P(偶数, X) \\\\
-&= \sum_{X=A,B} P(偶数| X)P(X) 
+&= \sum_{X=A,B} P(偶数| X)P(X)  \\\\
+&= P(偶数| A)P(A) P(偶数| B)P(B) \\\\ 
+&= 1/2 \cdot 2/3 + 1/3 \cdot 1/3 \\\\ 
+&= 1/3 + 1/9 \\\\ 
+&= 4/9 
 \end{align}
 
 ### 条件つきの乗法定理
