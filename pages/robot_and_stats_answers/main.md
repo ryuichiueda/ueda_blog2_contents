@@ -102,7 +102,11 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 
 ### 期待値の式
 
-$$-a + bP(1) + bP(2) + \dots + bP(6) = - a + \sum_{i=1}^6 bP(i) = - a + b\sum_{i=1}^6 P(i)$$
+\begin{align}
+&-a + bP(1) + bP(2) + \dots + bP(6)  \\\\
+=& - a + \sum_{i=1}^6 bP(i) \\\\ 
+=& - a + b\sum_{i=1}^6 P(i)
+\end{align}
 
 [（戻る）](/?page=robot_and_stats_questions#期待値の式)
 
