@@ -103,8 +103,6 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 
 ### 独立
 
-#### 解答例1
-
 サイコロに1番2番と番号をつけて、それぞれの目を\\(x_1\\)、\\(x_2\\)とする。
 
 \begin{align}
@@ -112,17 +110,10 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 &= \sum_{y=0}^1 \text{Pr} \\{ (x_1 + x_2) \equiv 0 \ (\text{mod} 2) \cap x_2  \equiv y \ (\text{mod} 2) \\} \\\\
 &= \sum_{y=0}^1 \text{Pr} \\{ (x_1 + x_2) \equiv 0 \ (\text{mod} 2) | x_2  \equiv y \ (\text{mod} 2) \\} \text{Pr} \\{ x_2  \equiv y \ (\text{mod} 2) \\} \\\\
 &= \sum_{y=0}^1 \text{Pr} \\{ x_1  \equiv y \ (\text{mod} 2) |  x_2  \equiv y \ (\text{mod} 2) \\} \text{Pr} \\{ x_2  \equiv y \ (\text{mod} 2) \\} \\\\
-&= \sum_{y=0}^1 \text{Pr} \\{ x_1  \equiv y \ (\text{mod} 2) \\} \text{Pr} \\{ x_2  \equiv y \ (\text{mod} 2) \\} (\because x_1 \indep x_2) \\\\
-&= \text{Pr} \\{ x_1  \equiv 0 \ (\text{mod} 2) \\} \text{Pr} \\{ x_2  \equiv 0 \ (\text{mod} 2) \\} + \text{Pr} \\{ x_1  \equiv 0 \ (\text{mod} 2) \\} \text{Pr} \\{ x_2  \equiv 0 \ (\text{mod} 2) \\}  \\\\
+&= \sum_{y=0}^1 \text{Pr} \\{ x_1  \equiv y \ (\text{mod} 2) \\} \text{Pr} \\{ x_2  \equiv y \ (\text{mod} 2) \\} \qquad (\because x_1 \indep x_2) \\\\
+&= \text{Pr} \\{ x_1  \equiv 0 \ (\text{mod} 2) \\} \text{Pr} \\{ x_2  \equiv 0 \ (\text{mod} 2) \\} + \text{Pr} \\{ x_1  \equiv 1 \ (\text{mod} 2) \\} \text{Pr} \\{ x_2  \equiv 1 \ (\text{mod} 2) \\}  \\\\
 &= 1/4 + 1/4 = 1/2
 \end{align}
-
-\\{(x_1 + x_2) %2=0 \\}
-&= \sum_{y=0}^1 \text{Pr}\\{ (x_1 + x_2) \mod 2 == 0 \\}
-\end{align}
-$$\text{Pr} \{ x_1 \mod 2 == y \}$$
-
-ひとつのサイコロの目が偶数、奇数になる確率はそれぞれ1/2。他方のサイコロの目はもう一方の目と独立なので、片方のサイコロを振ってからもう一方のサイコロを振っても良い。
 
 
 ## 3章
