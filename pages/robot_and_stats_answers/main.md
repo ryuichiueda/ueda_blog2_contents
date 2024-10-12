@@ -107,7 +107,7 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 
 \begin{align}
 &\text{Pr} \\{ (x_1 + x_y) \equiv 0 \ (\text{mod} 2) \\} \\\\
-&= aaa
+&= \sum_{y=0}^1 
 \end{align}
 \\{(x_1 + x_2) %2=0 \\}
 &= \sum_{y=0}^1 \text{Pr}\\{ (x_1 + x_2) \mod 2 == 0 \\}
