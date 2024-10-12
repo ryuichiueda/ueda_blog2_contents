@@ -103,8 +103,6 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 
 ### 独立
 
-サイコロに1番2番と番号をつけて、それぞれの目を\\(x_1\\)、\\(x_2\\)とする。
-
 \begin{align}
 &\text{Pr} \\{ (x_1 + x_2) \equiv 0 \ (\text{mod} 2) \\} \\\\
 &= \sum_{y=0}^1 \text{Pr} \\{ (x_1 + x_2) \equiv 0 \ (\text{mod} 2) \cap x_2  \equiv y \ (\text{mod} 2) \\} \\\\
@@ -115,6 +113,7 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 &= 1/4 + 1/4 = 1/2
 \end{align}
 
+[（戻る）](/?page=robot_and_stats_questions#独立)
 
 ## 3章
 
