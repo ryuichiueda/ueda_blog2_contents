@@ -109,8 +109,8 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 &\text{Pr} \\{ (x_1 + x_2) \equiv 0 \ (\text{mod} 2) \\} \\\\
 &= \sum_{y=0}^1 \text{Pr} \\{ (x_1 + x_2) \equiv 0 \ (\text{mod} 2) \cap x_2  \equiv y \ (\text{mod} 2) \\} \\\\
 &= \sum_{y=0}^1 \text{Pr} \\{ (x_1 + x_2) \equiv 0 \ (\text{mod} 2) | x_2  \equiv y \ (\text{mod} 2) \\} \text{Pr} \\{ x_2  \equiv y \ (\text{mod} 2) \\} \\\\
-&= \sum_{y=0}^1 \text{Pr} \\{ x_1  \equiv y \ (\text{mod} 2) | \underline{ x_2  \equiv y \ (\text{mod} 2) } \\} \text{Pr} \\{ x_2  \equiv y \ (\text{mod} 2) \\} \\\\
-&= \sum_{y=0}^1 \text{Pr} \\{ x_1  \equiv y \ (\text{mod} 2) \\} \text{Pr} \\{ x_2  \equiv y \ (\text{mod} 2) \\}  \\\\
+&= \sum_{y=0}^1 \text{Pr} \\{ x_1  \equiv y \ (\text{mod} 2) |  x_2  \equiv y \ (\text{mod} 2) \\} \text{Pr} \\{ x_2  \equiv y \ (\text{mod} 2) \\} \\\\
+&= \sum_{y=0}^1 \text{Pr} \\{ x_1  \equiv y \ (\text{mod} 2) \\} \text{Pr} \\{ x_2  \equiv y \ (\text{mod} 2) \\} (\because x_1 \indep x_2) \\\\
 &= \text{Pr} \\{ x_1  \equiv 0 \ (\text{mod} 2) \\} \text{Pr} \\{ x_2  \equiv 0 \ (\text{mod} 2) \\} + \text{Pr} \\{ x_1  \equiv 0 \ (\text{mod} 2) \\} \text{Pr} \\{ x_2  \equiv 0 \ (\text{mod} 2) \\}  \\\\
 &= 1/4 + 1/4 = 1/2
 \end{align}
