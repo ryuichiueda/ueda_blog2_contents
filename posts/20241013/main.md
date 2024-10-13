@@ -16,7 +16,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 　まず、分布の平均値が\\(\mu\\)のある分布\\(p\\)から独立同分布でサンプリングされた標本\\(x_{1:N} = \{ x_i | i=1,2,\dots,N \} \))を考えます。この標本から、
 
-* $\delta_N = \left\langle (x_1 + x_2 + \dots + x_N - N \mu )^2 \right\rangle_{p(x)}$・・・(1)
+$$\delta_N = \left\langle (x_1 + x_2 + \dots + x_N - N \mu )^2 \right\rangle_{p(x)}\text{・・・(1)}$$
  
 という変数を考えます。ここで\\(\langle f \rangle_{p(x)}\\)は、\\(x\\)が分布\\(p\\)にしたがうときの\\(f\\)の期待値です。式(1)の場合、\\(x_1, x_2, x_N\\)はそれぞれ分布\\(p\\)にしたがっていることになります。
 
