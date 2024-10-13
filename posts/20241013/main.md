@@ -16,5 +16,5 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 まず、ある分布\\(p\\)から独立同分布でサンプリングされた標本\\(x_{1:N} = \{ x_i | i=1,2,\dots,N \} \))を考えます。この標本から、
 
-$$\delta_N = N \langle x_1 + x_2 + \dots + x_N - N \mu \rangle_p$$
+$$\delta_N = \langle x_1 + x_2 + \dots + x_N - N \mu \rangle_p$$
  
