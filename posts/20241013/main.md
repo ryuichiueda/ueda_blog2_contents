@@ -30,6 +30,6 @@ $$\delta_N = \left\langle (x_1 + x_2 + \dots + x_N - N \mu )^2 \right\rangle_{p(
 
 \begin{align}
 \delta_N &= \left\langle (x_1 + x_2 + \dots + x_N - N \mu )^2 \right\rangle_{p(x)} \\\\
-&= \left\langle \left\\{ (x_1 + x_2 + \dots + x_{N-1} - [N-1]\mu) + (x_N - \mu ) \right\\}^2 \right\rangle_{p(x)}
+&= \left\langle \left\\{ \left(x_1 + x_2 + \dots + x_{N-1} - [N-1]\mu \right) + (x_N - \mu ) \right\\}^2 \right\rangle_{p(x)}
 \end{align}
 
