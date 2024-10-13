@@ -43,7 +43,7 @@ $$\sum_{i=1}^M ( x_i - \bar{x} )^2 - \sum_{i=1}^M (x_i - \mu )^2$$
 $$=\sum_{i=1}^M (x_i^2 -2x_i\bar{x} - x_i^2 +2x_i\mu - \mu^2)$$
 $$=\sum_{i=1}^M (-2x_i\bar{x} +2x_i\mu - \mu^2)$$
 $$= -2 M\bar{x}^2 +2M\bar{x}\mu - M\mu^2$$ 
-$$= -M(\mu - \bar{x})^2 - \bar{x}^2$$ 
+$$= -M(\mu - \bar{x})^2 - M\bar{x}^2$$ 
 
 ## 式(1)の変形
 
