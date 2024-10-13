@@ -7,7 +7,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 　「分散はNでなくてN-1で割れ」と統計の授業とか研究室とかで言われた人は多いと思いますが、その証明となると結構ややこしいです。
 
-　証明については(「高校数学の美しい物語」)[https://manabitimes.jp/math/1035]に
+　証明については(「高校数学の美しい物語」)[https://manabitimes.jp/math/1035] に
 
 
 
