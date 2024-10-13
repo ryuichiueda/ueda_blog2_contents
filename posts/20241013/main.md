@@ -39,7 +39,7 @@ $$\alpha_N = \left\langle (x_1 + x_2 + \dots + x_N - N \mu )^2 \right\rangle_{p(
 ## 式(1)の変形
 
 
-$$\left\langle ( x - \bar{x} )^2 \right\rangle_{p(x)}- \left\langle (\bar{x} - \mu )^2 \right\rangle_{p(x)}$$
+$$\sum_{i=1}^M ( x_i - \bar{x} )^2 - \sum_{i=1}^M (x_i - \mu )^2$$
 
 ## 式(1)の変形
 
