@@ -40,7 +40,7 @@ $$\alpha_N = \left\langle (x_1 + x_2 + \dots + x_N - N \mu )^2 \right\rangle_{p(
 
 
 $$\dfrac{1}{M-1}\sum_{i=1}^M ( x_i - \bar{x} )^2 - \dfrac{1}{M}\sum_{i=1}^M (x_i - \mu )^2$$
-$$=\dfrac{1}{M(M-1)}\sum_{i=1}^M \left(M(x_i^2 -2x_i\bar{x} + \bar{x}^2) - (M-1)(x_i^2 -2x_i\mu + \mu^2}) \right)$$
+$$=\dfrac{1}{M(M-1)}\sum_{i=1}^M \left( M(x_i^2 -2x_i\bar{x} + \bar{x}^2) - (M-1)(x_i^2 -2x_i\mu + \mu^2) \right)$$
 $$=\sum_{i=1}^M (-2x_i\bar{x} +2x_i\mu - \mu^2)$$
 $$= -2 M\bar{x}^2 +2M\bar{x}\mu - M\mu^2$$ 
 $$= -M(\mu - \bar{x})^2 - M\bar{x}^2$$ 
