@@ -11,6 +11,18 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 　ただ、この証明方法だと証明の解釈が難しいので、もうひとつ別解を考えてみましたのでメモしておきます。
 
+## 分布の定義
+
+　まず、ある分布\\(p\\)を考えます。この分布の平均（母平均）\\(\mu\\)と分散（母分散）\\(\sigma\\)は、
+
+\begin{align}
+\mu &= \langle x \rangle_{p(x)}\text{・・・(1)} \\\\
+\sigma &= \langle (x - \mu)^2 \rangle_{p(x)}\text{・・・(2)} 
+\end{align}
+
+で定義できます。
+
+
 ## \\(\alpha_N\\)の定義
 
 
