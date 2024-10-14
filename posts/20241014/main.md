@@ -35,8 +35,7 @@ $$\sigma_N^2 = \left\langle (\overline{x_N} - \mu )^2 \right\rangle_{p(x)}$$
 
 $$\sigma_{N+1}^2 = \left\langle (\overline{x_{N+1}} - \mu )^2 \right\rangle_{p(x)}$$
 
-を変形していきましょう。
-
+を変形していきましょう。\\(x_1, x_2, \dots, x_N\\)と\\(x_{N+1}\\)を分けるように変形すると、
 
 \begin{align}
 \sigma_{N+1}^2 &= \left\langle (\overline{x_{N+1}} - \mu )^2 \right\rangle_{p(x)}\\\\
@@ -47,4 +46,6 @@ $$\sigma_{N+1}^2 = \left\langle (\overline{x_{N+1}} - \mu )^2 \right\rangle_{p(x
 &+ \Big\langle 2(x_1 + x_2 + \dots + x_N - N \mu )(x_{N+1} - \mu) \big\\} \Big\rangle_{p(x)} \Big\\} \\\\
 &= 
 \end{align}
+
+と、3つの期待値に分解できます。
 
