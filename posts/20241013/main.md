@@ -63,11 +63,20 @@ $$x_{1:N} = \\{ x_i | i=1,2,\dots,N \\}$$
 \begin{align}
 \langle (\bar{x} - \mu)^2 \rangle_{p(x)}
 \end{align}
-となります。このカッコの中身を、標本に\\(N\\)個のデータがあるということを明記して\\(\alpha_N\\)とすると、
+となります。このカッコの中の\\(\bar{x} - \mu\\)について、標本に\\(N\\)個のデータがあるということを明記して
+\begin{align}
+\alpha_N = \bar{x}_N - \mu
+\end{align}
+としましょう。
+
+身を、
+\\(\alpha_N\\)とすると、
 \begin{align}
 \alpha_N &= \left\\{ \dfrac{x_1 + x_2 + \dots + x_N}{N} - \mu  \right\\}^2 \\\\
 &= \left( \dfrac{N-1}{N}\right)^2 \left\\{ \dfrac{x_1 + x_2 + \dots + x_N - N \mu}{N-1}  \right\\}^2 \\\\
-&= \left( \dfrac{N-1}{N}\right)^2 \left\\{ \dfrac{x_1 + x_2 + \dots + x_{N-1} - (N-1) \mu}{N-1}  + \dfrac{x_N - \mu}{N-1} \right\\}^2 
+&= \left( \dfrac{N-1}{N}\right)^2 \left\\{ \dfrac{x_1 + x_2 + \dots + x_{N-1} - (N-1) \mu}{N-1}  + \dfrac{x_N - \mu}{N-1} \right\\}^2 \\\\
+&= \left( \dfrac{N-1}{N}\right)^2 \left\\{ \bar{x}_{N-1}  + \dfrac{x_N - \mu}{N-1} \right\\}^2 \\\\
+&= 
 \end{align}
 
 
