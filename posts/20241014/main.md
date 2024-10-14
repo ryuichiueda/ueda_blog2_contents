@@ -29,7 +29,7 @@ $$\overline{x_N} = (x_1 + x_2 + \dots + x_N)/N$$
 
 $$\sigma_N^2 = \left\langle (\overline{x_N} - \mu )^2 \right\rangle_{p(x)}$$
 
-となります。また、\\(p\\)の分散（母分散）は、
+となります。また、分布\\(p\\)自体の分散（母分散）は、
 
 $$\sigma^2 = \left\langle (x - \mu )^2 \right\rangle_{p(x)}\text{・・・(1)}$$
 
@@ -75,9 +75,11 @@ $$\sigma_{N+1}^2 = \left\langle (\overline{x_{N+1}} - \mu )^2 \right\rangle_{p(x
 
 
 したがって、
+$$\sigma_{N+1}^2 = \dfrac{N^2}{(N+1)^2} \sigma_N^2  + \dfrac{1}{(N+1)^2} \sigma^2$$ 
+となります。
+
 \begin{align}
-\sigma_{N+1}^2 
-&= \dfrac{N^2}{(N+1)^2} \sigma_N^2  + \dfrac{1}{(N+1)^2} \sigma^2 
+(N+1)^2 \sigma_{N+1}^2 &= N^2 \sigma_N^2  +  \sigma^2 \\\\
+&= (N-1)^2 \sigma_{N-1}^2  +  2\sigma^2 \\\\
+&= 
 \end{align}
-となり、
-$$(N+1)^2 \sigma_{N+1}^2 = N^2 \sigma_N^2  +  \sigma^2$$
