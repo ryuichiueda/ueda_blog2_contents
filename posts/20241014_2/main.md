@@ -113,7 +113,7 @@ $$s^2 - \sigma_x^2  = \dfrac{\sigma_x^2}{N-1} - \dfrac{N}{N-1}(\bar{x} - \mu )^2
 &= 0
 \end{align}
 したがって、
-$$\langle s^2 - \sigma_x^2 \rangle_{p(x)}  &= 0$$
+$$\langle s^2 - \sigma_x^2 \rangle_{p(x)} = 0$$
 となり、さらに(6)から
 \begin{align}
 \langle s^2 \rangle_{p(x)} - \sigma^2  &= 0 \\\\
