@@ -13,11 +13,11 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ## 分布の定義
 
-　まず、ある分布\\(p\\)を考えます。この分布の平均（母平均）\\(\mu\\)と分散（母分散）\\(\sigma\\)は、\\(p\\)にしたがう変数\\(x\\)を使って、
+　まず、ある分布\\(p\\)を考えます。この分布の平均（母平均）\\(\mu\\)と分散（母分散）\\(\sigma^2\\)は、\\(p\\)にしたがう変数\\(x\\)を使って、
 
 \begin{align}
 \mu &= \langle x \rangle_{p(x)}\text{・・・(1)} \\\\
-\sigma &= \langle (x - \mu)^2 \rangle_{p(x)}\text{・・・(2)} 
+\sigma^2 &= \langle (x - \mu)^2 \rangle_{p(x)}\text{・・・(2)} 
 \end{align}
 
 で定義できます。ここで\\(\langle f(x) \rangle_{p(x)}\\)は、\\(x\\)が分布\\(p\\)にしたがうときの関数\\(f\\)の期待値です。
