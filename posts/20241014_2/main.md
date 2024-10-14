@@ -119,7 +119,7 @@ $$\langle s^2 - \sigma_x^2 \rangle_{p(x)} = 0$$
 \langle s^2 \rangle_{p(x)} - \sigma^2  &= 0 \\\\
 \langle s^2 \rangle_{p(x)} &= \sigma^2
 \end{align}
-が成り立ちます。
+が成り立ち、不偏分散の期待値が母分散と一致します。（証明おわり）
 
 
 
