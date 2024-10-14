@@ -29,10 +29,9 @@ $$\overline{x_N} = (x_1 + x_2 + \dots + x_N)/N$$
 　問題については、\\(x_1/N, x_2/N, \dots, x_N/N \\)は互いに独立（\\(p\\)に対して独立同分布）だと暗に仮定されているので、これらの和の分散は、\\(\overline{x_N}\\)の分散と一致する。したがって、計算すべき分散の値は、
 
 \begin{align}
-\sum_{i=1}^N \langle (x_i/N - \mu/N)^2 \rangle_p \\\\
-&= \dfrac{1}{N^2} \sum_{i=1}^N \langle (x_i - \mu)^2 \rangle_p  \\\\
+\sum_{i=1}^N \langle (x_i/N - \mu/N)^2 \rangle_p &= \dfrac{1}{N^2} \sum_{i=1}^N \langle (x_i - \mu)^2 \rangle_p  \\\\
 &= \dfrac{1}{N^2} N \sigma^2  \\\\
-&= \dfrac{1}{N} N \sigma^2 
+&= \dfrac{1}{N} \sigma^2 
 \end{align}
 
 ## 別解（長い）
