@@ -40,7 +40,7 @@ $$x_{1:N} = \\{ x_i | i=1,2,\dots,N \\}$$
 となります。また、標本を何回も取り直して\\(\sigma_x^2\\)の平均値をとると、それは母分散と一致するので、
 
 \begin{align}
-\langle \sigma_x^2 \rangle &= \sigma^2 \text{・・・(5)}
+\langle \sigma_x^2 \rangle_{p(x)} &= \sigma^2 \text{・・・(5)}
 \end{align}
 
 となります。
