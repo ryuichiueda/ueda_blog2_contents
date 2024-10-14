@@ -52,20 +52,20 @@ $$s^2 = \dfrac{1}{N-1}\sum_{i=1}^N ( x_i - \bar{x} )^2$$
 
 
 \begin{align}
-\sigma_x^2 &= \dfrac{1}{N}\sum_{i=1}^N (x_i - \mu)^2
+\sigma_x^2 &= \dfrac{1}{N}\sum_{i=1}^N (x_i - \mu)^2\text{・・・(5)}
 \end{align}
 
 と表しましょう。この期待値は母分散と一致するので、
 
 \begin{align}
-\langle \sigma_x^2 \rangle_{p(x)} &= \sigma^2 \text{・・・(5)}
+\langle \sigma_x^2 \rangle_{p(x)} &= \sigma^2 \text{・・・(6)}
 \end{align}
 
 となります。
 
 　別の話として、[この記事](/?post=20241014)から、標本の平均値\\(\bar{x}\\)の分散は、
 
-$$\sigma_{\bar{x}}^2 = \dfrac{1}{N} \sigma^2\text{・・・(6)}$$
+$$\sigma_{\bar{x}}^2 = \dfrac{1}{N} \sigma^2\text{・・・(7)}$$
 
 が得られます。（[この記事](/?post=20241014)の\\(\sigma_N^2\\)が式(6)の\\(\sigma_{\bar{x}}^2\\)に相当します。）
 
@@ -79,19 +79,20 @@ $$\sigma_{\bar{x}}^2 = \dfrac{1}{N} \sigma^2\text{・・・(6)}$$
 
 つまり
 \begin{align}
-\sum_{i=1}^N x_i = \sum_{i=1}^N \bar{x} \text{・・・(6)}
+\sum_{i=1}^N x_i = \sum_{i=1}^N \bar{x} \text{・・・(8)}
 \end{align}
 
 となります。
 
-## 標本の平均値のばらつき
-
-
 ## 変形
 
+不偏分散と(6)の分散の差を計算していきます。
 
-$$\dfrac{1}{N-1}\sum_{i=1}^N ( x_i - \bar{x} )^2 - \dfrac{1}{N}\sum_{i=1}^N (x_i - \mu )^2$$
-$$=\dfrac{1}{N(N-1)}\sum_{i=1}^N \left\\{ N(x_i^2 -2x_i\bar{x} + \bar{x}^2) - (N-1)(x_i^2 -2x_i\mu + \mu^2) \right\\}$$
+
+\begin{align}
+s^2 - \sigma_x^2 &= \dfrac{1}{N-1}\sum_{i=1}^N ( x_i - \bar{x} )^2 - \dfrac{1}{N}\sum_{i=1}^N (x_i - \mu )^2 \\\\
+&=\dfrac{1}{N(N-1)}\sum_{i=1}^N \left\\{ N(x_i^2 -2x_i\bar{x} + \bar{x}^2) - (N-1)(x_i^2 -2x_i\mu + \mu^2) \right\\}
+\end{align}
 $$=\dfrac{1}{N(N-1)}\sum_{i=1}^N \left\\{ x_i^2 -2N x_i\bar{x} + N\bar{x}^2 + 2(N-1)x_i\mu - (N-1)\mu^2\right\\}$$
 $$=\dfrac{1}{N(N-1)}\sum_{i=1}^N \left\\{ x_i^2 -2N \bar{x}^2 + N\bar{x}^2 + 2(N-1)\bar{x}\mu - (N-1)\mu^2\right\\}$$
 $$=\dfrac{1}{N(N-1)}\sum_{i=1}^N \left\\{ x_i^2 -N \bar{x}^2 + 2(N-1)\bar{x}\mu - (N-1)\mu^2\right\\}$$
