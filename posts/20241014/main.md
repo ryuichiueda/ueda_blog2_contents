@@ -44,6 +44,9 @@ $$\sigma_{N+1}^2 = \left\langle (\overline{x_{N+1}} - \mu )^2 \right\rangle_{p(x
 &= \dfrac{1}{(N+1)^2} \Big\\{ \Big\langle (x_1 + x_2 + \dots + x_N - N \mu )^2 \Big\rangle_{p(x)} \\\\
 &+ \Big\langle (x_{N+1} - \mu)^2 \Big\rangle_{p(x)} \\\\
 &+ \Big\langle 2(x_1 + x_2 + \dots + x_N - N \mu )(x_{N+1} - \mu) \big\\} \Big\rangle_{p(x)} \Big\\} \\\\
+&= \dfrac{1}{(N+1)^2} \Big\\{ N^2 \Big\langle (\overline{x_N} - \mu )^2 \Big\rangle_{p(x)} \\\\
+&+ \Big\langle (x_{N+1} - \mu)^2 \Big\rangle_{p(x)} \\\\
+&+ 2N \Big\langle (\overline{x_N} -  \mu )(x_{N+1} - \mu) \big\\} \Big\rangle_{p(x)} \Big\\} \\\\
 &= 
 \end{align}
 
