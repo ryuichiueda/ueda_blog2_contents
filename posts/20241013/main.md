@@ -65,7 +65,9 @@ $$x_{1:N} = \\{ x_i | i=1,2,\dots,N \\}$$
 \end{align}
 となります。このカッコの中身を、標本に\\(N\\)個のデータがあるということを明記して\\(\alpha_N\\)とすると、
 \begin{align}
-\alpha_N &= \left\\{ \dfrac{x_1 + x_2 + \dots + x_N}{N} - \mu  \right\\}^2
+\alpha_N &= \left\\{ \dfrac{x_1 + x_2 + \dots + x_N}{N} - \mu  \right\\}^2 \\\\
+&= \left\\{ \dfrac{N-1}{N}\dfrac{x_1 + x_2 + \dots + x_N}{N-1} - \mu  \right\\}^2 \\\\
+&= 
 \end{align}
 
 
