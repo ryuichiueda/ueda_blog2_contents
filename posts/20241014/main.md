@@ -87,4 +87,5 @@ $$\sigma_{N+1}^2 = \dfrac{N^2}{(N+1)^2} \sigma_N^2  + \dfrac{1}{(N+1)^2} \sigma^
 &= (N+1)\sigma^2
 \end{align}
 となり、
-
+$$\sigma_N^2 = \dfrac{1}{N}\sigma^2$$
+が得られます。
