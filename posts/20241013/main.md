@@ -80,7 +80,7 @@ $$=\dfrac{1}{N(N-1)}\sum_{i=1}^N \left\\{ x_i^2 -N \bar{x}^2 + 2(N-1)\bar{x}\mu 
 $$=\dfrac{1}{N(N-1)}\sum_{i=1}^N \left\\{ x_i^2 - 2\bar{x}\mu + \mu^2 - N\bar{x}^2 + 2N\bar{x}\mu - N \mu^2 \right\\}$$
 $$=\dfrac{1}{N(N-1)}\sum_{i=1}^N \left\\{ x_i^2 - 2x_i\mu + \mu^2 - N\bar{x}^2 + 2N\bar{x}\mu - N \mu^2 \right\\}$$
 $$=\dfrac{1}{N(N-1)}\sum_{i=1}^N  (x_i - \mu )^2 - \dfrac{1}{N-1}\sum_{i=1}^N  (\bar{x} - \mu )^2$$
-$$=\dfrac{1}{N(N-1)}\sum_{i=1}^N  (x_i - \mu )^2 - \dfrac{N}{N-1}(\bar{x} - \mu )^2$$
+$$=\dfrac{\sigma_x^2}{N(N-1)} - \dfrac{N}{N-1}(\bar{x} - \mu )^2$$
 
 
 
