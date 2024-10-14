@@ -64,9 +64,11 @@ $$x_{1:N} = \\{ x_i | i=1,2,\dots,N \\}$$
 \langle (\bar{x} - \mu)^2 \rangle_{p(x)}
 \end{align}
 となります。このカッコの中の\\(\bar{x} - \mu\\)について、標本に\\(N\\)個のデータがあるということを明記して
+
 \begin{align}
-\alpha_N &= {\bar{x}}_N - \mu
+\alpha_N &= {\bar{x}} - \mu
 \end{align}
+
 としましょう。このとき、
 \begin{align}
 \alpha_N^2 &= \left\\{ \dfrac{x_1 + x_2 + \dots + x_N}{N} - \mu  \right\\}^2 \\\\
