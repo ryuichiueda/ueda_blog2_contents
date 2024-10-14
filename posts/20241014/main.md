@@ -35,5 +35,11 @@ $$\sigma_N^2 = \left\langle (\overline{x_N} - \mu )^2 \right\rangle_{p(x)}$$
 
 $$\sigma_{N+1}^2 = \left\langle (\overline{x_{N+1}} - \mu )^2 \right\rangle_{p(x)}$$
 
-の右辺を変形していきましょう。
+を変形していきましょう。
+
+
+\begin{align}
+\sigma_{N+1}^2 &= \left\langle (\overline{x_{N+1}} - \mu )^2 \right\rangle_{p(x)}\\\\
+&= 
+\end{align}
 
