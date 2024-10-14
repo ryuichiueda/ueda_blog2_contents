@@ -49,6 +49,14 @@ $$x_{1:N} = \\{ x_i | i=1,2,\dots,N \\}$$
 \bar{x} &= \dfrac{1}{N}\sum_{i=1}^N x_i = \dfrac{1}{N}\sum_{i=1}^N \bar{x}
 \end{align}
 
+つまり
+\begin{align}
+\sum_{i=1}^N x_i = \sum_{i=1}^N \bar{x} \text{・・・(6)}
+\end{align}
+
+となります。
+
+
 ## 式(1)の変形
 
 
