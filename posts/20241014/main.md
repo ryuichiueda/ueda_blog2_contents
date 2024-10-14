@@ -33,6 +33,19 @@ $$\sigma_N^2 = \left\langle (\overline{x_N} - \mu )^2 \right\rangle_{p(x)}$$
 
 $$\sigma^2 = \left\langle (x - \mu )^2 \right\rangle_{p(x)}\text{・・・(1)}$$
 
+です。
+
+　また、\\(N=1\\)のとき、\\(\overline{x_N}\\)は\\(x_1\\)に一致するので、
+
+
+$$\sigma_1^2 = \left\langle (x_1 - \mu )^2 \right\rangle_{p(x)}$$
+
+となりますが、\\(x_1\\)と\\(p(x)\\)の\\(x\\)は同じものなので、
+
+$$\sigma_1^2 = \left\langle (x - \mu )^2 \right\rangle_{p(x)} = \sigma^2\text{・・・(2)}$$
+
+が成り立ちます。
+
 ## 解き方
 
 \\(N\\)を1つ増やして、
