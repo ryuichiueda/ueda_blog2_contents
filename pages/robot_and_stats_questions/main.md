@@ -109,6 +109,13 @@ $$\sigma^2 = \langle x^2 \rangle_{p(x)} - \mu^2$$
 
 [（答え）](/?page=robot_and_stats_answers#分散の性質と期待値)
 
+
+### 独立した変数の和の分散
+
+ふたつの独立した変数\\(x,y\\)の和\\(z = x+y\\)の分散を求めてください。
+
+[（答え）](/?page=robot_and_stats_answers#独立した変数の和の分散)
+
 ## 4章
 
 ### ガウス分布の式

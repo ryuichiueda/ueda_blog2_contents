@@ -161,6 +161,19 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 
 [（戻る）](/?page=robot_and_stats_questions#分散の性質と期待値)
 
+### 独立した変数の和の分散
+
+\\(\mu_x, \mu_y\\)を、それぞれ\\(x,y\\)の平均値とすると、
+
+\begin{eqnarray}
+\langle z^2 - \mu_z \rangle_{p(z)} &= \langle x + y - \mu_x - \mu_y \rangle_{p(x,y)} \\\\ 
+\langle z \rangle_{p(z)} &= \langle (x-\mu_x)^2 + (y-\mu_y)^2 + 2(x-\mu_x)(y-\mu_y) \rangle_{p(x,y)} \\\\ 
+&=
+\end{eqnarray}
+
+[（答え）](/?page=robot_and_stats_questions#独立した変数の和の分散)
+
+
 ## 4章
 
 ### ガウス分布の式
