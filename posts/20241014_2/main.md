@@ -112,9 +112,12 @@ $$s^2 - \sigma_x^2  = \dfrac{\sigma_x^2}{N-1} - \dfrac{N}{N-1}(\bar{x} - \mu )^2
 &= \dfrac{1}{N-1}\sigma^2 - \dfrac{N}{N-1}\dfrac{1}{N}\sigma^2 \\\\
 &= 0
 \end{align}
+したがって
 
-
-
+\begin{align}
+\langle s^2 - \sigma_x^2 \rangle_{p(x)}  &= 0 \\\\
+\langle s^2 \rangle_{p(x)}  &= \langle \sigma_x^2 \rangle_{p(x)}\\\\
+\end{align}
 
 
 
