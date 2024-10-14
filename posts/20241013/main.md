@@ -75,10 +75,16 @@ $$x_{1:N} = \\{ x_i | i=1,2,\dots,N \\}$$
 &= \left( \dfrac{N-1}{N}\right)^2 \left\\{ \dfrac{x_1 + x_2 + \dots + x_N - N \mu}{N-1}  \right\\}^2 \\\\
 &= \left( \dfrac{N-1}{N}\right)^2 \left\\{ \dfrac{x_1 + x_2 + \dots + x_{N-1} - (N-1) \mu}{N-1}  + \dfrac{x_N - \mu}{N-1} \right\\}^2 \\\\
 &= \left( \dfrac{N-1}{N}\right)^2 \left\\{ \alpha_{N-1} + \dfrac{x_N - \mu}{N-1} \right\\}^2 \\\\
-&= \left( \dfrac{N-1}{N}\right)^2 \left\\{ \alpha_{N-1}^2 + \left(\dfrac{x_N - \mu}{N-1}\right)^2 + 2 \alpha_{N-1}\dfrac{x_N - \mu}{N-1} \right\\} \\\\
-&=
+&= \left( \dfrac{N-1}{N}\right)^2 \left\\{ \alpha_{N-1}^2 + \left(\dfrac{x_N - \mu}{N-1}\right)^2 + 2 \alpha_{N-1}\dfrac{x_N - \mu}{N-1} \right\\} 
 \end{align}
 
+となります。
+
+　両辺を\\(p\\)の期待値にすると、
+\begin{align}
+\langle \alpha_N^2 \rangle_p
+&= \left( \dfrac{N-1}{N}\right)^2 \left\\{ \langle \alpha_{N-1}^2 \rangle_p + \langle \left(\dfrac{x_N - \mu}{N-1}\right)^2 \rangle_p + 2 \langle \alpha_{N-1}\dfrac{x_N - \mu}{N-1} \rangle_p \right\\} 
+\end{align}
 
 ## 変形
 
