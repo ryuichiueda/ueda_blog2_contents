@@ -86,6 +86,8 @@ $$x_{1:N} = \\{ x_i | i=1,2,\dots,N \\}$$
 &= \left( \dfrac{N-1}{N}\right)^2 \left\\{ \langle \alpha_{N-1}^2 \rangle_p + \langle \left(\dfrac{x_N - \mu}{N-1}\right)^2 \rangle_p + 2 \langle \alpha_{N-1}\dfrac{x_N - \mu}{N-1} \rangle_p \right\\} 
 \end{align}
 
+ここで、\\(\\{\\}\\)のなかの
+
 ## 変形
 
 
