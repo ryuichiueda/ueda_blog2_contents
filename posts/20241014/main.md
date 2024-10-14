@@ -42,7 +42,7 @@ $$\sigma_{N+1}^2 = \left\langle (\overline{x_{N+1}} - \mu )^2 \right\rangle_{p(x
 \sigma_{N+1}^2 &= \left\langle (\overline{x_{N+1}} - \mu )^2 \right\rangle_{p(x)}\\\\
 &= \dfrac{1}{(N+1)^2} \left\langle \left\\{ x_1 + x_2 + \dots + x_{N+1} - (N+1)\mu \right\\}^2  \right\rangle_{p(x)}\\\\
 &= \dfrac{1}{(N+1)^2} \left\langle \left\\{ (x_1 + x_2 + \dots + x_N - N \mu ) + x_{N+1} - \mu \right\\}^2 \right\rangle_{p(x)}\\\\
-&= \dfrac{1}{(N+1)^2} \left\langle \left\\{ (x_1 + x_2 + \dots + x_N - N \mu )^2  \right\\}^2 \right\rangle_{p(x)}\\\\
+&= \dfrac{1}{(N+1)^2} \left\\{ \left\langle  (x_1 + x_2 + \dots + x_N - N \mu )^2  \right\rangle_{p(x)} \right\\} \\\\
 &= 
 \end{align}
 
