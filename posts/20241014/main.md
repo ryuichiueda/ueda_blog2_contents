@@ -22,15 +22,16 @@ $$\overline{x_N} = (x_1 + x_2 + \dots + x_N)/N$$
 は、\\(p\\)の平均（母平均）\\(\mu\\)からどれだけばらつくでしょうか。分散を求めてみましょう。
 
 
-## 分散の式
-
-
-　まず分散の式は、
+　分散の式は、
 
 
 $$\sigma_N^2 = \left\langle (\overline{x_N} - \mu )^2 \right\rangle_{p(x)}$$
 
-となります。\\(N\\)を1つ増やして、
+となります。
+
+## 解き方
+
+\\(N\\)を1つ増やして、
 
 $$\sigma_{N+1}^2 = \left\langle (\overline{x_{N+1}} - \mu )^2 \right\rangle_{p(x)}$$
 
