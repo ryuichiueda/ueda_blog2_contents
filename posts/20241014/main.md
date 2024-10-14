@@ -64,5 +64,6 @@ $$\sigma_{N+1}^2 = \left\langle (\overline{x_{N+1}} - \mu )^2 \right\rangle_{p(x
 したがって、
 \begin{align}
 \sigma_{N+1}^2 
-&= \dfrac{N}{(N+1)^2} \sigma_N^2  + \dfrac{1}{(N+1)^2} \sigma^2 
+&= \dfrac{N^2}{(N+1)^2} \sigma_N^2  + \dfrac{1}{(N+1)^2} \sigma^2 
 \end{align}
+となり、
