@@ -71,7 +71,7 @@ $$\sigma_{\bar{x}}^2 = \dfrac{1}{N} \sigma^2\text{・・・(6)}$$
 
 ### 標本の和と標本の平均値の関係
 
-そして、(3)について、
+　ほぼ自明ですが、(3)について、
 
 \begin{align}
 \bar{x} &= \dfrac{1}{N}\sum_{i=1}^N x_i = \dfrac{1}{N}\sum_{i=1}^N \bar{x}
