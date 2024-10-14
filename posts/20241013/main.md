@@ -83,7 +83,7 @@ $$x_{1:N} = \\{ x_i | i=1,2,\dots,N \\}$$
 　両辺を\\(p\\)の期待値にすると、
 \begin{align}
 \langle \alpha_N^2 \rangle_p
-&= \left( \dfrac{N-1}{N}\right)^2 \left\\{ \langle \alpha_{N-1}^2 \rangle_p + \left(\dfrac{\langle (x_N - \mu)^2 \rangle_p}{(N-1)^2} + 2 \langle \alpha_{N-1}\dfrac{x_N - \mu}{N-1} \rangle_p \right\\} 
+&= \left( \dfrac{N-1}{N}\right)^2 \left\\{ \langle \alpha_{N-1}^2 \rangle_p + \dfrac{\langle (x_N - \mu)^2 \rangle_p}{(N-1)^2} + \dfrac{2 }{N-1}\langle { \alpha_{N-1} (x_N - \mu) \rangle_p \right\\} 
 \end{align}
 
 ここで、\\(\\{\\}\\)のなかの第2項
