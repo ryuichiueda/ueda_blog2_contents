@@ -58,12 +58,18 @@ $$x_{1:N} = \\{ x_i | i=1,2,\dots,N \\}$$
 
 ## 標本の平均値のばらつき
 
-　次に、標本の平均値\\(\bar{x}\\)がどれだけばらつくかを計算しましょう。標本を何度もとりなおして平均値を平均すると母平均\\(\mu\\)になるので、\\(\bar{x}\\)分散は、
+　次に、標本の平均値\\(\bar{x}\\)がどれだけばらつくかを計算しましょう。標本を何度もとりなおして平均値を平均すると母平均\\(\mu\\)になるので、\\(\bar{x}\\)の分散は、
 
 \begin{align}
 \langle (\bar{x} - \mu)^2 \rangle_{p(x)}
 \end{align}
-となります。このカッコの中の\\(\bar{x} - \mu\\)について、標本に\\(N\\)個のデータがあるということを明記して
+となります。また、\\(\bar{x}\\)が\\(N\\)個のデータから得られた値だと明記すると、
+\begin{align}
+\sigma_{\bar{x}_N}^2 = \langle (\bar{x}_N - \mu)^2 \rangle_{p(x)}
+\end{align}
+
+
+このカッコの中の\\(\bar{x} - \mu\\)について、標本に\\(N\\)個のデータがあるということを明記して
 
 \begin{align}
 \alpha_N &= {\bar{x}}_N - \mu
@@ -85,7 +91,9 @@ $$x_{1:N} = \\{ x_i | i=1,2,\dots,N \\}$$
 \langle \alpha_N^2 \rangle_p &= \left( \dfrac{N-1}{N}\right)^2 \left\\{ \langle \alpha_{N-1}^2 \rangle_p + \dfrac{\langle (x_N - \mu)^2 \rangle_p}{(N-1)^2} + \dfrac{2}{N-1}\langle \alpha_{N-1} (x_N - \mu) \rangle_p \right\\} 
 \end{align}
 
-ここで、\\(\\{\\}\\)のなかの第2項
+ここで\\(x_N\\)というのは\\(p\\)にしたがう変数の1つなので、
+
+* \\(\\{\\}\\)のなかの第2項について、
 
 ## 変形
 
