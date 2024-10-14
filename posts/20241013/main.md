@@ -45,6 +45,8 @@ $$=\dfrac{1}{M(M-1)}\sum_{i=1}^M \left\\{ x_i^2 -2M x_i\bar{x} + M\bar{x}^2 + 2(
 $$=\dfrac{1}{M(M-1)}\sum_{i=1}^M \left\\{ x_i^2 -2M \bar{x}^2 + M\bar{x}^2 + 2(M-1)\bar{x}\mu - (M-1)\mu^2\right\\}$$
 $$=\dfrac{1}{M(M-1)}\sum_{i=1}^M \left\\{ x_i^2 -M \bar{x}^2 + 2(M-1)\bar{x}\mu - (M-1)\mu^2\right\\}$$
 $$=\dfrac{1}{M(M-1)}\sum_{i=1}^M \left\\{ x_i^2 - 2\bar{x}\mu + \mu^2 - M\bar{x}^2 + 2M\bar{x}\mu - M \mu^2 \right\\}$$
+$$=\dfrac{1}{M(M-1)}\sum_{i=1}^M \left\\{ x_i^2 - 2x_i\mu + \mu^2 - M\bar{x}^2 + 2M\bar{x}\mu - M \mu^2 \right\\}$$
+$$=\dfrac{1}{M(M-1)}\sum_{i=1}^M  (x_i - \mu )^2 - \dfrac{1}{M-1}\sum_{i=1}^M  (\bar{x} - \mu )^2$$
 
 ## 式(1)の変形
 
