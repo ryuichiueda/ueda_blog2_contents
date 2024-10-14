@@ -30,10 +30,5 @@ $$\overline{x_N} = (x_1 + x_2 + \dots + x_N)/N$$
 
 $$\sigma_N^2 = \left\langle (\overline{x_N} - \mu )^2 \right\rangle_{p(x)}\text{・・・(1)}$$
 
+となります。この式の期待値のカッコ内を、\((x_1, x_2, \dots, x_{N-1}\\)と\\(x_N\\)に
 
-となります。ドローする数をひとつ増やして\\(x_{N+1}\\)を追加すると、
-
-$$\sigma_{N+1}^2 = \left\langle (\overline{x_{N+1}} - \mu )^2 \right\rangle_{p(x)}\text{・・・(2)}$$
-
-
-となります。
