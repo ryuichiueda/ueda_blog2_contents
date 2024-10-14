@@ -29,13 +29,21 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 $$x_{1:N} = \\{ x_i | i=1,2,\dots,N \\}$$
 
-この標本について、平均と分散の期待値を考えると、
+この標本の平均と分散を母平均\\(\mu\\)を使って考えると、
 
 \begin{align}
-\bar{x} &= \dfrac{1}{N}\sum_{i=1}^N x_i \\\\
-\sigma_x^2 &= \dfrac{1}{N}\sum_{i=1}^N (x_i - \mu)^2
+\bar{x} &= \dfrac{1}{N}\sum_{i=1}^N x_i \text{・・・(3)} \\\\
+\sigma_x^2 &= \dfrac{1}{N}\sum_{i=1}^N (x_i - \mu)^2 \text{・・・(4)}
 \end{align}
 
+
+となります。また、標本を何回も取り直して\\(\sigma_x^2\\)の平均値をとると、それは母分散と一致するので、
+
+\begin{align}
+\langle \sigma_x^2 \rangle &= \sigma^2 \text{・・・(5)}
+\end{align}
+
+となります。
 
 ## 式(1)の変形
 
