@@ -43,6 +43,7 @@ $$\dfrac{1}{M-1}\sum_{i=1}^M ( x_i - \bar{x} )^2 - \dfrac{1}{M}\sum_{i=1}^M (x_i
 $$=\dfrac{1}{M(M-1)}\sum_{i=1}^M \left\\{ M(x_i^2 -2x_i\bar{x} + \bar{x}^2) - (M-1)(x_i^2 -2x_i\mu + \mu^2) \right\\}$$
 $$=\dfrac{1}{M(M-1)}\sum_{i=1}^M \left\\{ x_i^2 -2M x_i\bar{x} + M\bar{x}^2 + 2(M-1)x_i\mu - (M-1)\mu^2\right\\}$$
 $$=\dfrac{1}{M(M-1)}\sum_{i=1}^M \left\\{ x_i^2 -2M \bar{x}^2 + M\bar{x}^2 + 2(M-1)\bar{x}\mu - (M-1)\mu^2\right\\}$$
+$$=\dfrac{1}{M(M-1)}\sum_{i=1}^M \left\\{ x_i^2 -M \bar{x}^2 + 2(M-1)\bar{x}\mu - (M-1)\mu^2\right\\}$$
 
 ## 式(1)の変形
 
