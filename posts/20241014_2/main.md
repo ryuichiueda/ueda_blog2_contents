@@ -104,11 +104,11 @@ s^2 - \sigma_x^2 &= \dfrac{1}{N-1}\sum_{i=1}^N ( x_i - \bar{x} )^2 - \dfrac{1}{N
 
 $$s^2 - \sigma_x^2  = \dfrac{\sigma_x^2}{N-1} - \dfrac{N}{N-1}(\bar{x} - \mu )^2$$
 
-となり両辺を期待値にすると、
+となり両辺を期待値にすると、(6)、(7)から
 
 \begin{align}
 \langle s^2 - \sigma_x^2 \rangle_{p(x)}  &= \dfrac{1}{N-1}\langle \sigma_x^2 \rangle_{p(x)} - \dfrac{N}{N-1} \langle (\bar{x} - \mu )^2 \rangle_{p(x)} \\\\
-&= 
+&= \dfrac{1}{N-1}\sigma^2 - \dfrac{N}{N-1}\sigma_{\bar{x}}^2
 \end{align}
 
 
