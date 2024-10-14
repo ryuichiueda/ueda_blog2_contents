@@ -63,9 +63,9 @@ $$x_{1:N} = \\{ x_i | i=1,2,\dots,N \\}$$
 \begin{align}
 \langle (\bar{x} - \mu)^2 \rangle_{p(x)}
 \end{align}
-となります。このカッコの中身を\\(\alpha\\)とすると、
+となります。このカッコの中身を、標本に\\(N\\)個のデータがあるということを明記して\\(\alpha_N\\)とすると、
 \begin{align}
-\alpha &= \left\\{ \dfrac{x_1 + x_2 + \dots + x_N}{N} - \mu  \right\\}^2
+\alpha_N &= \left\\{ \dfrac{x_1 + x_2 + \dots + x_N}{N} - \mu  \right\\}^2
 \end{align}
 
 
