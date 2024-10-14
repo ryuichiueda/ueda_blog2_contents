@@ -43,7 +43,11 @@ $$x_{1:N} = \\{ x_i | i=1,2,\dots,N \\}$$
 \langle \sigma_x^2 \rangle_{p(x)} &= \sigma^2 \text{・・・(5)}
 \end{align}
 
-となります。
+となります。そして、(3)について、
+
+\begin{align}
+\bar{x} &= \dfrac{1}{N}\sum_{i=1}^N x_i = \dfrac{1}{N}\sum_{i=1}^N \bar{x}
+\end{align}
 
 ## 式(1)の変形
 
