@@ -23,10 +23,15 @@ $$\overline{x_N} = (x_1 + x_2 + \dots + x_N)/N$$
 
 ## 解答
 
-互いに独立な変数\\(y_1, y_2,\dots, y_M\\)を足した値\\(y_1 + y_2 +\dots + y_M\\)の分散は、それぞれの変数の分散\\(\sigma_{y_1}^2, \sigma_{y_2}^2, \dots, \sigma_{y_M}^2\\)の和\\(\sigma_{y_1}^2 + \sigma_{y_2}^2 + \dots + \sigma_{y_M}^2\\)の和になる。
+　互いに独立な変数\\(y_1, y_2,\dots, y_M\\)を足した値\\(y_1 + y_2 +\dots + y_M\\)の分散は、それぞれの変数の分散\\(\sigma_{y_1}^2, \sigma_{y_2}^2, \dots, \sigma_{y_M}^2\\)の和\\(\sigma_{y_1}^2 + \sigma_{y_2}^2 + \dots + \sigma_{y_M}^2\\)の和になる。
 
 
-問題について、\\(x_1/N, x_2/N, \dots, x_N/N \\)をそれぞれ
+　問題については、\\(x_1/N, x_2/N, \dots, x_N/N \\)は互いに独立（\\(p\\)に対して独立同分布）だと暗に仮定されているので、これらの和の分散は、\\(\overline{x_N}\\)の分散と一致する。したがって、計算すべき分散の値は、
+
+\begin{align}
+\sum_{i=1}^N \langle x_i/N - \mu \rangle_p \\\\
+&= 
+\end{align}
 
 ## 別解（長い）
 
