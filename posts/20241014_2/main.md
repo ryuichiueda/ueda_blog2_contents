@@ -106,7 +106,13 @@ $$s^2 - \sigma_x^2  = \dfrac{\sigma_x^2}{N-1} - \dfrac{N}{N-1}(\bar{x} - \mu )^2
 
 となり両辺を期待値にすると、
 
-$$ \langle s^2 - \sigma_x^2 \rangle_p  = \langle \dfrac{\sigma_x^2}{N-1} \rangle_p - \dfrac{N}{N-1} \langle (\bar{x} - \mu )^2 \rangle_p$$
+\begin{align}
+\langle s^2 - \sigma_x^2 \rangle_{p(x)}  &= \langle \dfrac{\sigma_x^2}{N-1} \rangle_{p(x)} - \dfrac{N}{N-1} \langle (\bar{x} - \mu )^2 \rangle_{p(x)} \\\\
+&= 
+\end{align}
+
+
+
 
 
 
