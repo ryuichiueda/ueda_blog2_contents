@@ -48,23 +48,5 @@ $$=\dfrac{1}{M(M-1)}\sum_{i=1}^M \left\\{ x_i^2 - 2\bar{x}\mu + \mu^2 - M\bar{x}
 $$=\dfrac{1}{M(M-1)}\sum_{i=1}^M \left\\{ x_i^2 - 2x_i\mu + \mu^2 - M\bar{x}^2 + 2M\bar{x}\mu - M \mu^2 \right\\}$$
 $$=\dfrac{1}{M(M-1)}\sum_{i=1}^M  (x_i - \mu )^2 - \dfrac{1}{M-1}\sum_{i=1}^M  (\bar{x} - \mu )^2$$
 
-## 式(1)の変形
 
-　次に(1)を変形していきます。
-
-\begin{align}
-\alpha_N &= \left\langle (x_1 + x_2 + \dots + x_N - N \mu )^2 \right\rangle_{p(x)} \\\\
-&= \left\langle \left\\{ \left(x_1 + x_2 + \dots + x_{N-1} - [N-1]\mu \right) + (x_N - \mu ) \right\\}^2 \right\rangle_{p(x)}\\\\
-&= \left\langle  \left(x_1 + x_2 + \dots + x_{N-1} - [N-1]\mu \right)^2 \right\rangle_{p(x)} \\\\
-&\quad+ 2\left\langle \left(x_1 + x_2 + \dots + x_{N-1} - [N-1]\mu \right)(x_N - \mu ) \right\rangle_{p(x)} \\\\
-&\quad+ \left\langle (x_N - \mu )^2 \right\rangle_{p(x)}
-\end{align}
-
-このように3つの期待値に分解できますが、ひとつめの期待値は(1)から\\(\alpha_{N-1}\\)となります。また、ふたつめの期待値は、\\(x_1 + x_2 + \dots + x_{N-1}\\)と\\(x_N\\)の共分散になりますが、\\(x_N\\)と、他の\\(x_i \ (i=1,2,\dots,N-1)\\)は独立なので、これは0になります。みっつめの期待値は、\\(x_N\\)が\\(p(x)\\)から選ばれる値なので、これは分散\\(\sigma^2\\)になります。
-
-　ということで、
-
-$$ \alpha_N = \alpha_{N-1} + \sigma^2\text{・・・(2)}$$
-
-が成り立ちます。
 
