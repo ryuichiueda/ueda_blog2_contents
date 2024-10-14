@@ -60,3 +60,9 @@ $$\sigma_{N+1}^2 = \left\langle (\overline{x_{N+1}} - \mu )^2 \right\rangle_{p(x
 * 2番目のもの: \\(x_{N+1}\\)が単に\\(p\\)からドローされた変数でしかないので、(1)の式と同じ。つまり母分散になる。
 * 3番目のもの: \\(\overline{x_N}\\)と\\(x_{N+1}\\)の共分散になりますが、\\(x_{N+1}\\)は\\(x_1, x_2, \dots, x_N\\)からはなにも影響を受けず独立なので、0になる。
 
+
+したがって、
+\begin{align}
+\sigma_{N+1}^2 
+&= \dfrac{N}{(N+1)^2} \sigma_N^2  + \dfrac{1}{(N+1)^2} \sigma^2 
+\end{align}
