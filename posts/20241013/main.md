@@ -64,9 +64,7 @@ $$x_{1:N} = \\{ x_i | i=1,2,\dots,N \\}$$
 \langle (\bar{x} - \mu)^2 \rangle_{p(x)}
 \end{align}
 となります。また、\\(\bar{x}\\)が\\(N\\)個のデータから得られた値だと明記すると、
-\begin{align}
-&= \langle (\bar{x}_N - \mu)^2 \rangle_{p(x)}
-\end{align}
+$$= \langle (\bar{x}_N - \mu)^2 \rangle_{p(x)}$$
 
 
 
