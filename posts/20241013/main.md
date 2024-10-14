@@ -61,9 +61,12 @@ $$x_{1:N} = \\{ x_i | i=1,2,\dots,N \\}$$
 　次に、標本の平均値\\(\bar{x}\\)がどれだけばらつくかを計算しましょう。標本を何度もとりなおして平均値を平均すると母平均\\(\mu\\)になるので、\\(\bar{x}\\)分散は、
 
 \begin{align}
-\langle (\bar{x} - \mu)^2 \rangle 
+\langle (\bar{x} - \mu)^2 \rangle_{p(x)}
 \end{align}
-となります。
+となります。このカッコの中身を\\(\alpha\\)とすると、
+\begin{align}
+\alpha &= \left\\{ \dfrac{x_1 + x_2 + \dots + x_N}{N} - \mu  \right\\}^2
+\end{align}
 
 
 ## 変形
