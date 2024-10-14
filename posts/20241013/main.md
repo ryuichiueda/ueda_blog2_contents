@@ -72,15 +72,15 @@ $$x_{1:N} = \\{ x_i | i=1,2,\dots,N \\}$$
 ## 変形
 
 
-$$\dfrac{1}{M-1}\sum_{i=1}^M ( x_i - \bar{x} )^2 - \dfrac{1}{M}\sum_{i=1}^M (x_i - \mu )^2$$
-$$=\dfrac{1}{M(M-1)}\sum_{i=1}^M \left\\{ M(x_i^2 -2x_i\bar{x} + \bar{x}^2) - (M-1)(x_i^2 -2x_i\mu + \mu^2) \right\\}$$
-$$=\dfrac{1}{M(M-1)}\sum_{i=1}^M \left\\{ x_i^2 -2M x_i\bar{x} + M\bar{x}^2 + 2(M-1)x_i\mu - (M-1)\mu^2\right\\}$$
-$$=\dfrac{1}{M(M-1)}\sum_{i=1}^M \left\\{ x_i^2 -2M \bar{x}^2 + M\bar{x}^2 + 2(M-1)\bar{x}\mu - (M-1)\mu^2\right\\}$$
-$$=\dfrac{1}{M(M-1)}\sum_{i=1}^M \left\\{ x_i^2 -M \bar{x}^2 + 2(M-1)\bar{x}\mu - (M-1)\mu^2\right\\}$$
-$$=\dfrac{1}{M(M-1)}\sum_{i=1}^M \left\\{ x_i^2 - 2\bar{x}\mu + \mu^2 - M\bar{x}^2 + 2M\bar{x}\mu - M \mu^2 \right\\}$$
-$$=\dfrac{1}{M(M-1)}\sum_{i=1}^M \left\\{ x_i^2 - 2x_i\mu + \mu^2 - M\bar{x}^2 + 2M\bar{x}\mu - M \mu^2 \right\\}$$
-$$=\dfrac{1}{M(M-1)}\sum_{i=1}^M  (x_i - \mu )^2 - \dfrac{1}{M-1}\sum_{i=1}^M  (\bar{x} - \mu )^2$$
-$$=\dfrac{1}{M(M-1)}\sum_{i=1}^M  (x_i - \mu )^2 - \dfrac{M}{M-1}(\bar{x} - \mu )^2$$
+$$\dfrac{1}{N-1}\sum_{i=1}^N ( x_i - \bar{x} )^2 - \dfrac{1}{N}\sum_{i=1}^N (x_i - \mu )^2$$
+$$=\dfrac{1}{N(N-1)}\sum_{i=1}^N \left\\{ N(x_i^2 -2x_i\bar{x} + \bar{x}^2) - (N-1)(x_i^2 -2x_i\mu + \mu^2) \right\\}$$
+$$=\dfrac{1}{N(N-1)}\sum_{i=1}^N \left\\{ x_i^2 -2N x_i\bar{x} + N\bar{x}^2 + 2(N-1)x_i\mu - (N-1)\mu^2\right\\}$$
+$$=\dfrac{1}{N(N-1)}\sum_{i=1}^N \left\\{ x_i^2 -2N \bar{x}^2 + N\bar{x}^2 + 2(N-1)\bar{x}\mu - (N-1)\mu^2\right\\}$$
+$$=\dfrac{1}{N(N-1)}\sum_{i=1}^N \left\\{ x_i^2 -N \bar{x}^2 + 2(N-1)\bar{x}\mu - (N-1)\mu^2\right\\}$$
+$$=\dfrac{1}{N(N-1)}\sum_{i=1}^N \left\\{ x_i^2 - 2\bar{x}\mu + \mu^2 - N\bar{x}^2 + 2N\bar{x}\mu - N \mu^2 \right\\}$$
+$$=\dfrac{1}{N(N-1)}\sum_{i=1}^N \left\\{ x_i^2 - 2x_i\mu + \mu^2 - N\bar{x}^2 + 2N\bar{x}\mu - N \mu^2 \right\\}$$
+$$=\dfrac{1}{N(N-1)}\sum_{i=1}^N  (x_i - \mu )^2 - \dfrac{1}{N-1}\sum_{i=1}^N  (\bar{x} - \mu )^2$$
+$$=\dfrac{1}{N(N-1)}\sum_{i=1}^N  (x_i - \mu )^2 - \dfrac{N}{N-1}(\bar{x} - \mu )^2$$
 
 
 
