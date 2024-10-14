@@ -31,6 +31,7 @@ $$\bar{x}_N = (x_1 + x_2 + \dots + x_N)/N$$
 \begin{align}
 \sigma_N^2 
 \end{align}
+
  =\left\langle (x_N - \mu )^2 \right\rangle_{p(x)}\text{・・・(1)}
 
 
