@@ -3,7 +3,7 @@ Keywords: ロボットの確率・統計
 Copyright: (C) 2024 Ryuichi Ueda
 ---
 
-# 不偏分散で二乗誤差の和ををNでなくN-1で割る理由の証明の別解（書きかけ）
+# 不偏分散で二乗誤差の和ををNでなくN-1で割る理由の証明の別解
 
 　「分散はNでなくてN-1で割れ」と統計の授業とか研究室とかで言われた人は多いと思いますが、その証明となると結構ややこしいです。
 
@@ -112,12 +112,14 @@ $$s^2 - \sigma_x^2  = \dfrac{\sigma_x^2}{N-1} - \dfrac{N}{N-1}(\bar{x} - \mu )^2
 &= \dfrac{1}{N-1}\sigma^2 - \dfrac{N}{N-1}\dfrac{1}{N}\sigma^2 \\\\
 &= 0
 \end{align}
-したがって
-
+したがって、
+$$\langle s^2 - \sigma_x^2 \rangle_{p(x)}  &= 0$$
+となり、さらに(6)から
 \begin{align}
-\langle s^2 - \sigma_x^2 \rangle_{p(x)}  &= 0 \\\\
-\langle s^2 \rangle_{p(x)}  &= \langle \sigma_x^2 \rangle_{p(x)}\\\\
+\langle s^2 \rangle_{p(x)} - \sigma^2  &= 0 \\\\
+\langle s^2 \rangle_{p(x)} &= \sigma^2
 \end{align}
+が成り立ちます。
 
 
 
