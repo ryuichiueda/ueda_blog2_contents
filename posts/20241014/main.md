@@ -28,7 +28,8 @@ $$\bar{x}_N = (x_1 + x_2 + \dots + x_N)/N$$
 　まず分散の式は、
 
 
-$$\sigma_N^2 = \left\langle (\bar{x}_N - \mu )^2 \right\rangle_{p(x)}\text{・・・(1)}$$
+$$\sigma_N^2 =$$
+$$\left\langle (\bar{x}_N - \mu )^2 \right\rangle_{p(x)}\text{・・・(1)}$$
  
 となります。ドローする数をひとつ増やして\\(x_{N+1}\\)を追加すると、
 
