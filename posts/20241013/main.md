@@ -65,7 +65,7 @@ $$x_{1:N} = \\{ x_i | i=1,2,\dots,N \\}$$
 \end{align}
 となります。このカッコの中の\\(\bar{x} - \mu\\)について、標本に\\(N\\)個のデータがあるということを明記して
 \begin{align}
-\alpha_N = \bar{x}_N - \mu
+\alpha_N &= \bar{x}_N - \mu
 \end{align}
 としましょう。このとき、
 \begin{align}
@@ -73,6 +73,7 @@ $$x_{1:N} = \\{ x_i | i=1,2,\dots,N \\}$$
 &= \left( \dfrac{N-1}{N}\right)^2 \left\\{ \dfrac{x_1 + x_2 + \dots + x_N - N \mu}{N-1}  \right\\}^2 \\\\
 &= \left( \dfrac{N-1}{N}\right)^2 \left\\{ \dfrac{x_1 + x_2 + \dots + x_{N-1} - (N-1) \mu}{N-1}  + \dfrac{x_N - \mu}{N-1} \right\\}^2 \\\\
 \end{align}
+
 &= \left( \dfrac{N-1}{N}\right)^2 \left\\{ \alpha_{N-1} + \dfrac{x_N - \mu}{N-1} \right\\}^2 \\\\
 &= aaa
 
