@@ -82,5 +82,9 @@ $$\sigma_{N+1}^2 = \dfrac{N^2}{(N+1)^2} \sigma_N^2  + \dfrac{1}{(N+1)^2} \sigma^
 (N+1)^2 \sigma_{N+1}^2 &= N^2 \sigma_N^2  +  \sigma^2 \\\\
 &= (N-1)^2 \sigma_{N-1}^2  +  2\sigma^2 \\\\
 &= \cdots \\\\
-&= \sigma_1^2  +  N\sigma^2
+&= 1^2\sigma_1^2  +  N\sigma^2 \\\\
+&= 1^2\sigma^2  +  N\sigma^2 \quad (\because (2) )\\\\
+&= (N+1)\sigma^2
 \end{align}
+となり、
+
