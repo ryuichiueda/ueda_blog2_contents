@@ -244,6 +244,19 @@ $$p(x | \mu, \sigma^2 ) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{ - \frac{(x - \mu)^2}
 
 ### ベイズの定理の導出
 
-書きかけ
+　\\(P(X,Y)\\)について、乗法定理より、
+
+\begin{align}
+P(X,Y) &= P(X|Y)P(Y) \text{・・・(1)}\\\\
+P(X,Y) &= P(Y|X)P(X) \text{・・・(2)}
+\end{align}
+
+となる。(1)、(2)の右辺より、
+
+\begin{align}
+P(X|Y)P(Y) &= P(Y|X)P(X)\\\\
+P(X|Y) &= \dfrac{P(Y|X)P(X)}{P(Y)}
+\end{align}
+となる。
 
 [（答え）](/?page=robot_and_stats_questions#ベイズの定理の導出)
