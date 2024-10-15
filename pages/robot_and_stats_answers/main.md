@@ -255,8 +255,20 @@ P(X,Y) &= P(Y|X)P(X) \text{・・・(2)}
 
 \begin{align}
 P(X|Y)P(Y) &= P(Y|X)P(X)\\\\
-P(X|Y) &= \dfrac{P(Y|X)P(X)}{P(Y)}
+P(X|Y) &= \dfrac{P(Y|X)P(X)}{P(Y)}\text{・・・(3)}
 \end{align}
-となり、これはベイズの定理の一形態である。
+となり、(3)はベイズの定理の一形態である。
+
+　さらに(3)右辺の分母の周辺尤度は、下方定理で変数\\(X\\)を組み入れると、
+
+$$P(Y) = \langle P(Y|X) \rangle_{P(X)}$$
+
+となる。したがって、題意を満たすベイズの定理の式
+
+\begin{align}
+P(X|Y) &= \dfrac{P(Y|X)P(X)}{\langle P(Y|X) \rangle_{P(X)}}
+\end{align}
+
+が得られる。
 
 [（答え）](/?page=robot_and_stats_questions#ベイズの定理の導出)
