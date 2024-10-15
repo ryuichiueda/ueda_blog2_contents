@@ -188,7 +188,7 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 \end{align}
 となります。つまり、\\(z\\)の分散は、\\(x,y\\)それぞれの分散の和になります。
 
-[（答え）](/?page=robot_and_stats_questions#独立した変数の和の分散)
+[（戻る）](/?page=robot_and_stats_questions#独立した変数の和の分散)
 
 
 ## 4章
