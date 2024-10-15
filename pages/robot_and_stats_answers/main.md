@@ -167,11 +167,13 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 \\(\sigma_x^2, \mu_y^2\\)を、それぞれ\\(x,y\\)の分散とすると、
 * \\(\sigma_x^2 = \langle (x-\mu_x)^2 \rangle_{p(x)}\\)
 * \\(\sigma_y^2 = \langle (y-\mu_y)^2 \rangle_{p(y)}\\)
+
 となります。
 
 　また、\\(x \indep y\\)なので、
 * \\(p(x,y) = p(x)p(y)\\)
 * \\(\langle (x-\mu_x)(y-\mu_y) \rangle_{p(x,y)}\\)
+
 が成り立ちます。
 
 
