@@ -215,6 +215,12 @@ $$\bar{x} = (x_1 + x_2)/2 = x_1/2 + x_2/2$$
 \langle (x/2 - 3.5/2)^2 \rangle_P = \dfrac{1}{4}\langle (x - 3.5)^2 \rangle_P = \dfrac{1}{4}\sigma^2
 \end{align}
 
+と、\\(\sigma^2\\)の1/4となる。したがって、求める値は、
+
+$$\sigma^2/4 \cdot 2 = 35/24$$
+
+となる。
+
 ## 4章
 
 ### ガウス分布の式
