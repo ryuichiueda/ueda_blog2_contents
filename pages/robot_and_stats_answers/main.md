@@ -251,12 +251,12 @@ P(X,Y) &= P(X|Y)P(Y) \text{・・・(1)}\\\\
 P(X,Y) &= P(Y|X)P(X) \text{・・・(2)}
 \end{align}
 
-となる。(1)、(2)の右辺より、
+となる。(1)、(2)の右辺より、\\(P(Y) \neq 0\\)ならば、
 
 \begin{align}
 P(X|Y)P(Y) &= P(Y|X)P(X)\\\\
 P(X|Y) &= \dfrac{P(Y|X)P(X)}{P(Y)}
 \end{align}
-となる。
+となり、これはベイズの定理の一形態である。
 
 [（答え）](/?page=robot_and_stats_questions#ベイズの定理の導出)
