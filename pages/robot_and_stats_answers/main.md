@@ -179,15 +179,9 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 \begin{align}
 \langle (z - \mu_z)^2 \rangle_{p(z)} &= \langle (x + y - \mu_x - \mu_y)^2 \rangle_{p(x,y)} \\\\ 
 &= \langle (x-\mu_x)^2 + (y-\mu_y)^2 + 2(x-\mu_x)(y-\mu_y) \rangle_{p(x,y)} \\\\ 
-&= \langle (x-\mu_x)^2 \rangle_{p(x,y)} \\\\ 
-&+ \langle (y-\mu_y)^2 \rangle_{p(x,y)} \\\\ 
-&+ \langle 2(x-\mu_x)(y-\mu_y) \rangle_{p(x,y)} \\\\ 
-&= \langle (x-\mu_x)^2 \rangle_{p(x)p(y)} \\\\ 
-&+ \langle (y-\mu_y)^2 \rangle_{p(x)p(y)} \\\\ 
-&+ \langle 2(x-\mu_x)(y-\mu_y) \rangle_{p(x,y)} \\\\ 
-&= \langle (x-\mu_x)^2 \rangle_{p(x)} \\\\ 
-&+ \langle (y-\mu_y)^2 \rangle_{p(y)} \\\\ 
-&+ 0 \\\\
+&= \langle (x-\mu_x)^2 \rangle_{p(x,y)} + \langle (y-\mu_y)^2 \rangle_{p(x,y)} + \langle 2(x-\mu_x)(y-\mu_y) \rangle_{p(x,y)} \\\\ 
+&= \langle (x-\mu_x)^2 \rangle_{p(x)p(y)} + \langle (y-\mu_y)^2 \rangle_{p(x)p(y)} + \langle 2(x-\mu_x)(y-\mu_y) \rangle_{p(x,y)} \\\\ 
+&= \langle (x-\mu_x)^2 \rangle_{p(x)} + \langle (y-\mu_y)^2 \rangle_{p(y)} + 0 \\\\
 &= \sigma_x^2 + \sigma_y^2 
 \end{align}
 となります。
