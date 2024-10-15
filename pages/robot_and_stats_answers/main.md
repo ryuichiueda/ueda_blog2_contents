@@ -186,7 +186,7 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 &= \langle (x-\mu_x)^2 \rangle_{p(x)} + \langle (y-\mu_y)^2 \rangle_{p(y)} + 0 \\\\
 &= \sigma_x^2 + \sigma_y^2 
 \end{align}
-となります。
+となります。つまり、\\(z\\)の分散は、\\(x,y\\)それぞれの分散の和になります。
 
 [（答え）](/?page=robot_and_stats_questions#独立した変数の和の分散)
 
