@@ -172,7 +172,7 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 
 　また、\\(x \indep y\\)なので、
 * \\(p(x,y) = p(x)p(y)\\)
-* \\(\langle (x-\mu_x)(y-\mu_y) \rangle_{p(x,y)}\\)
+* \\(\langle (x-\mu_x)(y-\mu_y) \rangle_{p(x,y)} = 0\\)
 
 が成り立ちます。
 
