@@ -163,13 +163,34 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 
 ### 独立した変数の和の分散
 
-\\(\mu_x, \mu_y\\)を、それぞれ\\(x,y\\)の平均値とすると、
+　\\(\mu_x, \mu_y\\)を、それぞれ\\(x,y\\)の平均値、
+\\(\sigma_x^2, \mu_y^2\\)を、それぞれ\\(x,y\\)の分散とすると、
+* \\(\sigma_x^2 = \langle (x-\mu_x)^2 \rangle_{p(x)}\\)
+* \\(\sigma_y^2 = \langle (y-\mu_y)^2 \rangle_{p(y)}\\)
+となります。
 
+　また、\\(x \indep y\\)なので、
+* \\(p(x,y) = p(x)p(y)\\)
+* \\(\langle (x-\mu_x)(y-\mu_y) \rangle_{p(x,y)}\\)
+が成り立ちます。
+
+
+　したがって、
 \begin{eqnarray}
-\langle z^2 - \mu_z \rangle_{p(z)} &= \langle x + y - \mu_x - \mu_y \rangle_{p(x,y)} \\\\ 
-\langle z \rangle_{p(z)} &= \langle (x-\mu_x)^2 + (y-\mu_y)^2 + 2(x-\mu_x)(y-\mu_y) \rangle_{p(x,y)} \\\\ 
-&=
+\langle (z - \mu_z)^2 \rangle_{p(z)} &= \langle (x + y - \mu_x - \mu_y)^2 \rangle_{p(x,y)} \\\\ 
+&= \langle (x-\mu_x)^2 + (y-\mu_y)^2 + 2(x-\mu_x)(y-\mu_y) \rangle_{p(x,y)} \\\\ 
+&= \langle (x-\mu_x)^2 \rangle_{p(x,y)} \\\\ 
+&+ \langle (y-\mu_y)^2 \rangle_{p(x,y)} \\\\ 
+&+ \langle 2(x-\mu_x)(y-\mu_y) \rangle_{p(x,y)} \\\\ 
+&= \langle (x-\mu_x)^2 \rangle_{p(x)p(y)} \\\\ 
+&+ \langle (y-\mu_y)^2 \rangle_{p(x)p(y)} \\\\ 
+&+ \langle 2(x-\mu_x)(y-\mu_y) \rangle_{p(x,y)} \\\\ 
+&= \langle (x-\mu_x)^2 \rangle_{p(x)} \\\\ 
+&+ \langle (y-\mu_y)^2 \rangle_{p(y)} \\\\ 
+&+ 0 \\\\
+&= \sigma_x^2 + \sigma_y^2 
 \end{eqnarray}
+となります。
 
 [（答え）](/?page=robot_and_stats_questions#独立した変数の和の分散)
 
