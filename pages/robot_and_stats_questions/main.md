@@ -127,6 +127,11 @@ $$\sigma^2 = \langle x^2 \rangle_{p(x)} - \mu^2$$
 
 [（答え）](/?page=robot_and_stats_answers#2つのサイコロの目の分散)
 
+### 不偏分散の定義
+
+ある確率分布\\(p\\)からドローした\\(N\\)個のデータ\\(x_1,x_2,\dots,x_N\\)の不偏分散を求める式を記述してください。
+
+[（答え）](/?page=robot_and_stats_answers#不偏分散の定義)
 
 ## 4章
 
