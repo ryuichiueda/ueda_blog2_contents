@@ -265,7 +265,7 @@ P(X|Y) &= \dfrac{P(Y|X)P(X)}{P(Y)}\text{・・・(3)}
 
 ### ベイズの定理からの推定
 
-　[Pythonでのコードの例](/pages/robot_and_stats_questions/coin.py)を示します。
+　[Pythonでのコードの例](/pages/robot_and_stats_questions/coin.py)を示します。（表示の関係でインデントがずれているかもしれません。）
 
 ```python3
 #!/usr/bin/python3
