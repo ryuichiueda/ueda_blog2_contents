@@ -223,17 +223,6 @@ $$2\sigma^2/4 = 35/24$$
 
 [（戻る）](/?page=robot_and_stats_questions#2つのサイコロの目の分散)
 
-### 不偏分散の定義
-
-$$s^2 = \dfrac{1}{N-1}\sum_{i=1}^N (x_i - \bar{x})^2$$
-
-ここで、
-
-$$\bar{x} = (x_1 + x_2 + \dots + x_N)/N$$
-
-です。
-
-[（戻る）](/?page=robot_and_stats_questions#不偏分散の定義)
 
 ## 4章
 
