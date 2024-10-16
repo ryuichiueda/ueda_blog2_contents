@@ -314,6 +314,6 @@ $ seq 10 | while read i ;do head -$i coin.txt | tr ' ' \\n | ./coin.py ;done
 0.0027473967158593666
 ```
 
-となり、だんだんAである確率が下がっていくことが分かります。
+となり、Aである確率がだんだん下がっていくことが分かります。
 
 [（答え）](/?page=robot_and_stats_questions#ベイズの定理からの推定)
