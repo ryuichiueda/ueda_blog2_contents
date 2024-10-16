@@ -261,3 +261,59 @@ P(X|Y) &= \dfrac{P(Y|X)P(X)}{P(Y)}\text{・・・(3)}
 
 
 [（答え）](/?page=robot_and_stats_questions#ベイズの定理の導出)
+
+
+### ベイズの定理からの推定
+
+　[Pythonでのコードの例](/pages/robot_and_stats_questions/coin.py)を示します。
+
+```python3
+#!/usr/bin/python3
+
+import sys
+
+prob_a = 0.5     #Aである確率（初期値1/2）
+
+A_TOP = 0.5      #Aを投げたら表が出る確率
+A_BACK = 0.5     #Aを投げたら裏が出る確率
+B_TOP = 1.0/3    #Bを投げたら表が出る確率
+B_BACK = 2.0/3   #Bを投げたら裏が出る確率
+
+for c in sys.stdin:
+    c = c.strip()
+    if c == "表":   #↓ベイズの定理（P(A|表) = P(表|A)*P(A)/(P(表|A)P(A)+P(表|B)P(B)) ）
+        prob_a = A_TOP*prob_a/(A_TOP*prob_a + B_TOP*(1.0 - prob_a))
+    if c == "裏":   #↓ベイズの定理（P(A|裏) = P(裏|A)*P(A)/(P(裏|A)P(A)+P(裏|B)P(B)) ）
+        prob_a = A_BACK*prob_a/(A_BACK*prob_a + B_BACK*(1.0 - prob_a))
+
+print(prob_a)
+```
+
+実行するとこうなります。
+
+```bash
+$ cat coin.txt | tr ' ' \\n | ./coin.py
+0.0027473967158593666
+```
+
+したがって、Aである確率は0.27%ということになります。投げたのはBである確率が極めて高いのですが、Aである可能性も1000に2, 3はあるということになります。
+
+　なお、10回ごとにAである確率を記録していくと、
+
+```bash
+$ seq 10 | while read i ;do head -$i coin.txt | tr ' ' \\n | ./coin.py ;done
+0.3105864160192721
+0.0921295840646165
+0.022347673087940438
+0.03956213821246428
+0.035786268196507195
+0.03235863131847253
+0.02924933718877189
+0.006741295095506945
+0.006078072096803084
+0.0027473967158593666
+```
+
+となり、だんだんAである確率が下がっていくことが分かります。
+
+[（答え）](/?page=robot_and_stats_questions#ベイズの定理からの推定)

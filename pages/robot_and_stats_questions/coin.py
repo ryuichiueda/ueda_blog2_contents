@@ -16,4 +16,4 @@ for c in sys.stdin:
     if c == "裏":
         prob_a = A_BACK*prob_a/(A_BACK*prob_a + B_BACK*(1.0 - prob_a))
 
-print(prob_a, 1.0-prob_a)
+print(prob_a)
