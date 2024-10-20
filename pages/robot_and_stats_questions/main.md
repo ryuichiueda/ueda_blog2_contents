@@ -144,11 +144,11 @@ $$\sigma^2 = \langle x^2 \rangle_{p(x)} - \mu^2$$
 
 [（答え）](/?page=robot_and_stats_answers#ガウス分布の式)
 
-### 多変量ガウス分布の式
+### 2次元ガウス分布の式
 
 ベクトル\\(\boldsymbol{x} = (x_1 \  x_2)^\top \\)がガウス分布にしたがうとき、その確率密度関数を書いてください。必要な記号は自身で定義すること。
 
-[（答え）](/?page=robot_and_stats_answers#多変量ガウス分布の式)
+[（答え）](/?page=robot_and_stats_answers#2次元ガウス分布の式)
 
 ### 連続値と確率
 

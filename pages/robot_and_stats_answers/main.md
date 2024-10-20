@@ -234,13 +234,21 @@ $$p(x | \mu, \sigma^2 ) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{ - \frac{(x - \mu)^2}
 
 [（戻る）](/?page=robot_and_stats_questions#ガウス分布の式)
 
-### 多変量ガウス分布の式
+### 2次元ガウス分布の式
 
 $$p(\boldsymbol{x} | \boldsymbol{\mu}, \Sigma ) = \dfrac{1}{\sqrt{(2\pi)^2|\Sigma|}} \exp \left\\{ - \dfrac{1}{2} {(\boldsymbol{x} - \boldsymbol{\mu}})^\top \Sigma^{-1}(\boldsymbol{x} - \boldsymbol{\mu}) \right\\}$$
 
 ここで
 
-[（戻る）](/?page=robot_and_stats_questions#多変量ガウス分布の式)
+\begin{align}
+\boldsymbol{\mu} &= (\boldsymbol{\mu}_x \ \boldsymbol{\mu}_y )^\top \\\\
+\Sigma &= \begin{pmatrix}
+\sigma_1^2 \ \sigma_{12} \\
+\sigma_{12} \ \sigma_2^2 
+\end{pmatrix}
+\end{align}
+
+[（戻る）](/?page=robot_and_stats_questions#2次元ガウス分布の式)
 
 ### 連続値と確率
 
