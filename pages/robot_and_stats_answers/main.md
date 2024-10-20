@@ -238,6 +238,8 @@ $$p(x | \mu, \sigma^2 ) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{ - \frac{(x - \mu)^2}
 
 $$p(\boldsymbol{x} | \boldsymbol{\mu}, \Sigma ) = \dfrac{1}{\sqrt{(2\pi)^2|\Sigma|}} \exp \left\\{ - \dfrac{1}{2} {(\boldsymbol{x} - \boldsymbol{\mu}})^\top \Sigma^{-1}(\boldsymbol{x} - \boldsymbol{\mu}) \right\\}$$
 
+ここで
+
 [（戻る）](/?page=robot_and_stats_questions#多変量ガウス分布の式)
 
 ### 連続値と確率
