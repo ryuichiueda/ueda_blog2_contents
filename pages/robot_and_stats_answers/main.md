@@ -241,7 +241,7 @@ $$p(\boldsymbol{x} | \boldsymbol{\mu}, \Sigma ) = \dfrac{1}{\sqrt{(2\pi)^2|\Sigm
 ここで
 
 \begin{align}
-\boldsymbol{\mu} &= (\boldsymbol{\mu}_x \ \boldsymbol{\mu}_y )^\top \\\\
+\boldsymbol{\mu} &= (\mu_x \ \mu_y )^\top \\\\
 \Sigma &= \begin{pmatrix} \sigma_1^2 \ \sigma_{12} \\ \sigma_{12} \ \sigma_2^2 \end{pmatrix}
 \end{align}
 
