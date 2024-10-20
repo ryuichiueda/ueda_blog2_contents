@@ -241,9 +241,11 @@ $$p(\boldsymbol{x} | \boldsymbol{\mu}, \Sigma ) = \dfrac{1}{\sqrt{(2\pi)^2|\Sigm
 ここで
 
 \begin{align}
-\boldsymbol{\mu} &= \begin{pmatrix} \mu_x \\\\ \mu_y \end{pmatrix}\\\\
+\boldsymbol{\mu} &= \begin{pmatrix} \mu_1 \\\\ \mu_2 \end{pmatrix}\\\\
 \Sigma &= \begin{pmatrix} \sigma_1^2 & \sigma_{12} \\\\ \sigma_{12} & \sigma_2^2 \end{pmatrix}
 \end{align}
+
+であり、\\(\mu_1, \mu_2\\)はそれぞれ\\(x_1, x_2\\)の平均値、\\(\sigma_1^2, \sigma_2^2 \\)はそれぞれ\\(x_1, x_2\\)の分散である。また、\\(\sigma_{12}\\)は\\(x_1, x_2\\)の共分散である。
 
 [（戻る）](/?page=robot_and_stats_questions#2次元ガウス分布の式)
 
