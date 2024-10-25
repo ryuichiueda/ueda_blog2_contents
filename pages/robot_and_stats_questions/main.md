@@ -14,6 +14,12 @@ Copyright: (C) Ryuichi Ueda
 
 [（答え）](/?page=robot_and_stats_answers#統計のリテラシー)
 
+### 統計のリテラシー2
+
+　「○○に決まっている」と断言して、その後実は違ってたという経験があったら書き出してみてください。世の中に絶対はあるでしょうか？議論してください。
+
+（答え）: 自分の胸に手を当てて考えましょう。
+
 ### 大量データの平均値
 
 　[このデータ](https://raw.githubusercontent.com/ryuichiueda/LNPR_BOOK_CODES/refs/heads/master/sensor_data/sensor_data_200.txt)の4列目の平均値を求めてください．道具はなんでもよいです．
