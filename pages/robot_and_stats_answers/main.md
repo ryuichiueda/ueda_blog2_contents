@@ -266,7 +266,7 @@ $$\mathcal{N}(\boldsymbol{\mu}_1 + \boldsymbol{\mu}_2, \Sigma_1 + \Sigma_2)$$に
 
 ### ガウス分布の積
 
-$$\mathcal{N}\left[ (\Lambda_1 + \Lambda_2)^{-1}(\Lambda_1 \boldsymbol{\mu}_1 + \Lambda_2 \boldsymbol{\mu}_2), \Lambda_1 + \Lambda_2 \right]$$
+$$\mathcal{N}\left[ (\Lambda_1 + \Lambda_2)^{-1}(\Lambda_1 \boldsymbol{\mu}_1 + \Lambda_2 \boldsymbol{\mu}_2), (\Lambda_1 + \Lambda_2)^{-1} \right]$$
 
 となります。ただし、\\(\Lambda_n \ (n=1,2) \\)は\\(\Sigma_n\\)の逆行列（精度行列）です。
 
