@@ -268,6 +268,8 @@ $$\mathcal{N}(\boldsymbol{\mu}_1 + \boldsymbol{\mu}_2, \Sigma_1 + \Sigma_2)$$に
 
 $$\mathcal{N}((\Lambda_1 + \Lambda_2)^{-1}(\Lambda_1 \boldsymbol{\mu}_1 + \Lambda_2 \boldsymbol{\mu}_2), \Lambda_1 + \Lambda_2)$$
 
+となります。ただし、\\(\Lambda_n \ (n=1,2) \\)は\\(\Sigma_n\\)の逆行列（精度行列）です。
+
 
 [（戻る）](/?page=robot_and_stats_questions#ガウス分布の積)
 
