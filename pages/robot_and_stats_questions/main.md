@@ -164,7 +164,7 @@ $$\sigma^2 = \langle x^2 \rangle_{p(x)} - \mu^2$$
 
 ### ガウス分布に従う2変数の和の分布
 
-　\\(\boldsymbol{x}_1\\)と\\(\boldsymbol{x}_2\\)が、それぞれガウス分布\\(\mathcal{N}(\boldsymbol{\mu}_1, \Sigma_1)\\)、\\(\mathcal{N}(\boldsymbol{\mu}_2, \Sigma_2)\\)、にしたがうとき、\\(\boldsymbol{x}_3 = \boldsymbol{x}_1 + \boldsymbol{x}_2\\)の分布はどうなるでしょうか？計算しないで知識で答えてください。
+　\\(\boldsymbol{x}_1\\)と\\(\boldsymbol{x}_2\\)が互いに独立で、それぞれガウス分布\\(\mathcal{N}(\boldsymbol{\mu}_1, \Sigma_1)\\)、\\(\mathcal{N}(\boldsymbol{\mu}_2, \Sigma_2)\\)、にしたがうとき、\\(\boldsymbol{x}_3 = \boldsymbol{x}_1 + \boldsymbol{x}_2\\)の分布はどうなるでしょうか？計算しないで知識で答えてください。
 
 [（答え）](/?page=robot_and_stats_answers#ガウス分布に従う2変数の和の分布)
 
