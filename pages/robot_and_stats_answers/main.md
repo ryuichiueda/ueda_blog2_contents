@@ -258,6 +258,14 @@ $$p(\boldsymbol{x} | \boldsymbol{\mu}, \Sigma ) = \dfrac{1}{\sqrt{(2\pi)^2|\Sigm
 [（戻る）](/?page=robot_and_stats_questions#連続値と確率)
 
 
+### ガウス分布に従う2変数の和の分布
+
+$$\mathcal{N}(\boldsymbol{\mu}_1 + \boldsymbol{\mu}_2, \Sigma_1 + \Sigma_2)$$になります。
+
+[（答え）](/?page=robot_and_stats_questions#ガウス分布に従う2変数の和の分布)
+
+## 5章
+
 ### ベイズの定理の導出
 
 　\\(P(X,Y)\\)について、乗法定理より、
