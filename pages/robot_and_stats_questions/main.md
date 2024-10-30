@@ -154,7 +154,7 @@ $$\sigma^2 = \langle x^2 \rangle_{p(x)} - \mu^2$$
 
 ベクトル\\(\boldsymbol{x} = (x_1 \ \ x_2)^\top \\)がガウス分布にしたがうとき、その確率密度関数を書いてください。必要な記号は自身で定義すること。
 
-[（答え）](/?page=robot_and_stats_answers#2次元ガウス分布の式)
+1[（答え）](/?page=robot_and_stats_answers#2次元ガウス分布の式)
 
 ### 連続値と確率
 
@@ -167,6 +167,12 @@ $$\sigma^2 = \langle x^2 \rangle_{p(x)} - \mu^2$$
 　\\(\boldsymbol{x}_1\\)と\\(\boldsymbol{x}_2\\)が、それぞれガウス分布\\(\mathcal{N}(\boldsymbol{\mu}_1, \Sigma_1)\\)、\\(\mathcal{N}(\boldsymbol{\mu}_2, \Sigma_2)\\)、にしたがうとき、\\(\boldsymbol{x}_3 = \boldsymbol{x}_1 + \boldsymbol{x}_2\\)の分布はどうなるでしょうか？計算しないで知識で答えてください。
 
 [（答え）](/?page=robot_and_stats_answers#ガウス分布に従う2変数の和の分布)
+
+### ガウス分布の積
+
+　\\(\boldsymbol{x}\\)を変数とするふたつのガウス分布\\(\mathcal{N}(\boldsymbol{\mu}_1, \Sigma_1)\\)、\\(\mathcal{N}(\boldsymbol{\mu}_2, \Sigma_2)\\)を掛け算して正規化すると、分布はどうなるでしょうか？計算しないで知識で答えてください。
+
+[（答え）](/?page=robot_and_stats_answers#ガウス分布の積)
 
 ## 5章
 
