@@ -266,7 +266,7 @@ $$\mathcal{N}(\boldsymbol{\mu}_1 + \boldsymbol{\mu}_2, \Sigma_1 + \Sigma_2)$$に
 
 ### ガウス分布の積
 
-$$\mathcal{N}((\Lambda_1 + \Lambda_2)^{-1}(\Lambda_1 \V{\mu}_1 + \Lambda_2 \V{\mu}_2), \Lambda_1 + \Lambda_2)$$
+$$\mathcal{N}((\Lambda_1 + \Lambda_2)^{-1}(\Lambda_1 \boldsymbol{\mu}_1 + \Lambda_2 \boldsymbol{\mu}_2), \Lambda_1 + \Lambda_2)$$
 
 
 [（戻る）](/?page=robot_and_stats_questions#ガウス分布の積)
