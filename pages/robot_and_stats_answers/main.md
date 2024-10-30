@@ -262,7 +262,14 @@ $$p(\boldsymbol{x} | \boldsymbol{\mu}, \Sigma ) = \dfrac{1}{\sqrt{(2\pi)^2|\Sigm
 
 $$\mathcal{N}(\boldsymbol{\mu}_1 + \boldsymbol{\mu}_2, \Sigma_1 + \Sigma_2)$$になります。
 
-[（答え）](/?page=robot_and_stats_questions#ガウス分布に従う2変数の和の分布)
+[（戻る）](/?page=robot_and_stats_questions#ガウス分布に従う2変数の和の分布)
+
+### ガウス分布の積
+
+$$\mathcal{N}((\Lambda_1 + \Lambda_2)^{-1}(\Lambda_1 \V{\mu}_1 + \Lambda_2 \V{\mu}_2), \Lambda_1 + \Lambda_2)$$
+
+
+[（戻る）](/?page=robot_and_stats_questions#ガウス分布の積)
 
 ## 5章
 
