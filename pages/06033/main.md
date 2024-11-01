@@ -10,7 +10,7 @@ Copyright: (C) Ryuichi Ueda
 
 ### 2024 
 
-* 上田隆一: 育児休業に関する二つのケースと考察, 日本ロボット学会誌, Vol. 42, No. 4, pp. 352-255, 2024.
+* 上田隆一: [育児休業に関する二つのケースと考察](https://www.jstage.jst.go.jp/article/jrsj/42/4/42_42_352/_article/-char/ja), 日本ロボット学会誌, Vol. 42, No. 4, pp. 352-355, 2024.
 
 ### 2023 
 
