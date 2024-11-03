@@ -5,6 +5,8 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 # Software Designの総集編を買うと変態自作シェル連載が第1回から読めるっぽい（シェル芸人からの挑戦状も）
 
+<a style="color:red" href="/?post=20241103">ちょっと状況が変わりましたので先にこのリンク先を読んでください!!</a>
+
 　ついったで言われて思い出したんですが、
 2018〜2023年に出た[Software Design](https://gihyo.jp/magazine/SD)の
 バックナンバーを集めた[総集編](https://amzn.to/3ZH7PAa)が出ます。
