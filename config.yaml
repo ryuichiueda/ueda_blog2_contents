@@ -12,6 +12,7 @@ headline:
 - text: '<a href="/?page=lnpr"><i class="fa-solid fa-robot"></i> 詳解確率ロボティクスは第7刷突入</a>'
 - text: '<a href="/?page=shellgei160"><i class="fa-solid fa-terminal"></i> シェル・ワンライナー160本ノック第5刷でました</a>'
 - text: '<a href="https://amazon.co.jp/shop/ryuichiueda"><i class="fa-solid fa-book"></i> Amazonで本を売ってます<i class="fa fa-external-link"></i> </a>'
+- text: '<a href="/rss/rss20.xml"><i class="fa-solid fa-rss"></i>RSS機能をつけました</a>'
 twitter:
 - account: 'ryuichiueda'
 misskey:
