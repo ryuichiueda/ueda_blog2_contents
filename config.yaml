@@ -188,5 +188,5 @@ sociallinks:
   href: 'https://twitter.com/ryuichiueda'
 - icon: '<i class="fa-brands fa-github"></i>'
   href: 'https://github.com/ryuichiueda'
-- icon: '<i class="fa-solid fa-rss" style="color:orange"></i>'
+- icon: '<i class="fa-solid fa-rss" style="color:orange"></i> '
   href: 'https://ueda.tech/rss/rss20.xml'
