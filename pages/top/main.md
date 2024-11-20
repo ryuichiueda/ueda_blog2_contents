@@ -16,6 +16,12 @@ Copyright: (C) 2022-2024 Ryuichi Ueda
     <div class="col-md-6">
       <h2 id="news"><i class="fa-solid fa-circle-info"></i> 最近の話題</h2>
 
+      <h3 id="prob_book">Amazonでソフトウェアデザイン12月号紙版を買いましょう</h3>
+
+      わたしの自作シェルの連載の初回〜24回のPDFがついてきますー
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ですです。いつもは書店でと言ってますが、pdfほしい人はAmazonでどうぞー<br><br>シェルを作る言語はRustです。作者はRustのエキスパートではないのですが、トレイトを使ったりマルチスレッド化したりとそれなりに複雑なことをしてるので、Rustのコードを書く題材としてもご利用ください <a href="https://t.co/bjUa9TV3Kb">https://t.co/bjUa9TV3Kb</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1858842217605128679?ref_src=twsrc%5Etfw">November 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
       <h3 id="prob_book">日本ロボット学会 学会誌論文賞（2024年9月）</h3>
 
       筆頭の三上さんをはじめCGを作成した石川さん、共著者のみなさま、おめでとうございました。
