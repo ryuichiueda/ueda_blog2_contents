@@ -184,7 +184,7 @@ sociallinks:
   href: 'https://mi.shellgei.org/@ru'
 - icon: '<img width="24" src="/pages/top/misskey.png" />（roboticskey）'
   href: 'https://mi.shellgei.org/@ru'
-- icon: '<i class="fa-brands fa-square-bluesky"></i>'
+- icon: '<i class="fa-brands fa-bluesky"></i>'
   href: 'https://bsky.app/profile/ueda.tech'
 - icon: '<i class="fa-brands fa-twitter"></i>'
   href: 'https://twitter.com/ryuichiueda'
