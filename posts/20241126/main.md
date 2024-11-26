@@ -10,7 +10,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ## アカウント名について
 
-　[Misskey.io](https://misskey.io)で誰かに「自分のドメインでアカウントを作れる」と教えてもらったので、このサイトと同じ`@ueda.tech`というアカウントにしました。
+　[Misskey.io](https://misskey.io)で誰かに「自分のドメインでアカウントを作れる」と教えてもらったので、このサイトと同じ[@ueda.tech](https://bsky.app/profile/ueda.tech)というアカウントにしました。
 
 　やり方なんですが、DNSのレコードにTXTで文字列をおいて、それをBlueskyから見に来てもらって認証するようです。DNSの設定をいじれないひとには、サイトにテキストファイルを置いて、それをBlueskyに見に来てもらう方法もあるようです。
 
