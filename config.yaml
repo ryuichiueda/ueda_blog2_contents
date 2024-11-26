@@ -177,7 +177,7 @@ links:
     href: '/?page=00851'
 - text: 'eng'
   href: 'https://e.ueda.tech'
-- text: 'RSS<i class="fa-solid fa-rss" style="color:orange"></i> '
+- text: 'RSS <i class="fa-solid fa-rss" style="color:orange"></i> '
   href: 'https://ueda.tech/rss/rss20.xml'
 sociallinks:
 - icon: '<img width="24" src="/pages/top/misskey.png" />（Misskey.io）'
