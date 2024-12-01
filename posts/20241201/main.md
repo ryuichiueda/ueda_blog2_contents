@@ -5,7 +5,9 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 # 12/21にシェル芸勉強会やります
 
-　ということで、ぜひご参加ください。東京（新宿）の会場と、大阪サテライト会場があります。71回目です。
+　ということで、ぜひご参加ください。東京（新宿）の会場と、大阪サテライト会場があります。71回目です。長年にわたって参加いただき誠にありがとうございます。
+
+## 募集ページ
 
 <blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:eha6t6k5cy5oj33pvunkhdrg/app.bsky.feed.post/3lbrdqonmvc2x" data-bluesky-cid="bafyreiepbxxho274di7wjlu3ha5vrsujr3mroicfvolyjdsgfhrso4c5hq"><p lang="ja">さっそくシェル芸勉強会の告知ですー #シェル芸
 
