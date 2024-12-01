@@ -18,6 +18,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 　[リリースノート](https://github.com/shellgei/rusty_bash/releases)を見ると、こんな感じです（忘れてる）。
 
 
+* v0.8.7: 動画にもありましたがcommand-not-found（インストールされていないコマンドを打つとインストール方法を教えてくれるアレ）が動くようになりました。
 * v0.8.9: Bashで変数として実装されているRANDOMが寿司シェルでも使えるようになりました。
     * [きゃろさん](https://mi.shellgei.org/@caro)が実装してくださいました大感謝。たぶんBashよりも質の高い乱数になってるような気がします。
 * v0.8.10: 変数の値の削除機能を実装
