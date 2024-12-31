@@ -3,7 +3,7 @@ Keywords: ROS 2, Rust
 Copyright: (C) 2024 Ryuichi Ueda
 ---
 
-# ros2_rustでLiDARと地図を扱ってみた
+# ros2_rustでスキャンデータと地図を扱ってみた
 
 　この前学会（SI2024）で発表した[これ](https://www.docswell.com/s/ryuichiueda/ZEX11D-si2024)の[コード](https://github.com/ryuichiueda/flow_estimator)をROS 2のパッケージにしようということで、[ros2_rust](https://github.com/ros2-rust/ros2_rust)について調べて一昨日からいじってました。
 
