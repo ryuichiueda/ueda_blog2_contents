@@ -58,7 +58,13 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ## 所感
 
-`main.rs`はパブリッシャ、サブスクライバをマルチスレッドで動かすために仰々しいプログラムになっていますが、基本、なにかサブスクライバからデータを取り込んでひとつのパブリッシャから加工したデータを出す処理は、ひとつのスレッドの中で完結するので、特にややこしいことはないかなと思いました。Rustのプログラムは不可解な挙動をしないので慣れてしまうと楽です。
+　`main.rs`はパブリッシャ、サブスクライバをマルチスレッドで動かすために仰々しいプログラムになっていますが、基本、なにかサブスクライバからデータを取り込んでひとつのパブリッシャから加工したデータを出す処理は、ひとつのスレッドの中で完結するので、特にややこしいことはないかなと思いました。Rustのプログラムは不可解な挙動をしないので慣れてしまうと楽です。
+
+　ただ、バージョンはhumble（Ubuntu 22.04）までのようです。24.04のがないか[リポジトリ](https://github.com/ros2-rust/ros2_rust)を探しに行ったら、ブランチがmainしかありませんでした。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ブランチがmainしかないの、お前、漢だな <a href="https://t.co/oEZJFLO8w2">pic.twitter.com/oEZJFLO8w2</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1873563826433802377?ref_src=twsrc%5Etfw">December 30, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 
 　明日は一気にC++のコードをRustにしてパッケージを作ってしまいたいところです。
 
