@@ -38,7 +38,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ## 地図のデータをパブリッシュする
 
-　こちらはコードを書かなければいけないので数時間かかったのですが、どっちかというとROS 2のセットアップのほうが大変でした。
+　こちらはコードを書かなければいけないので数時間かかったのですが、どっちかというとros2_rustと関係ないROS 2のごちゃごちゃのほうが大変でした。
 
 * コード: https://github.com/ryuichiueda/my_first_rclrs/blob/map/src/main.rs
 
