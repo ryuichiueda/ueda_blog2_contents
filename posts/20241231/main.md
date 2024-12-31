@@ -18,7 +18,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 　ros2_rustについては上で紹介した記事を読むとよいので続きを書くと、まず、TurtleBot3 Burger（シミュレータのやつ）の吐くスキャンデータをサブスクライバで読んで、別のパブリッシャからパブリッシュすることに挑戦しました。できました。
 
-<iframe src="https://mi0.robotician.jp/embed/notes/a2dycyfksg?colorMode=light" data-misskey-embed-id="v1_2c100fd1-0841-4487-8a5a-7be11e456310" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" style="border: none; width: 100%; max-width: 500px; height: 300px; color-scheme: light dark;"></iframe>
+<iframe src="https://mi0.robotician.jp/embed/notes/a2dycyfksg?colorMode=light" data-misskey-embed-id="v1_8c622967-46df-4a8f-9555-bea5144c045a" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" style="border: none; width: 100%; max-width: 500px; height: 300px; color-scheme: light dark;"></iframe>
 <script defer src="https://mi0.robotician.jp/embed.js"></script>
 
 
