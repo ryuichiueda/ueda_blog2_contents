@@ -89,7 +89,7 @@ Copyright: (C) 2025 Ryuichi Ueda
 　自分で書いてて思ったんですが、自分の20代って、かなり特殊な状況にいたんだなと。お金にはあんまりなりませんでしたが、光栄なことです。ただ、そういう殊勝なことをここに書いていても、 **国に対するブチ切れが混入しています。**
 
 
-## ○○〇〇（2/26陳述）
+## 〇〇〇〇（2/26陳述）
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ちんちん</p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1761957604706939061?ref_src=twsrc%5Etfw">February 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
