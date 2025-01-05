@@ -75,27 +75,27 @@ Copyright: (C) 2025 Ryuichi Ueda
 
 ## 学会の予稿（12/18発表）
 
-久々に単著でなんかしました。やったことは、ロボットの周りで動いてるものの将来の位置を推測する方法の提案です。みんなニューラルネット使いすぎだと思ってるので、使わない簡単で速い方法を提案しました。学会のポスターを埋め込んどきます。
+　久々に単著でなんかしました。やったことは、ロボットの周りで動いてるものの将来の位置を推測する方法の提案です。みんなニューラルネット使いすぎだと思ってるので、使わない簡単で速い方法を提案しました。学会のポスターを埋め込んどきます。
 
 <script async class="docswell-embed" src="https://www.docswell.com/assets/libs/docswell-embed/docswell-embed.min.js" data-src="https://www.docswell.com/slide/ZEX11D/embed" data-aspect="1.4128"></script><div class="docswell-link"><a href="https://www.docswell.com/s/ryuichiueda/ZEX11D-si2024">SI2024ポスター by @ryuichiueda</a></div>
 
-「最近の研究、なんか凝りすぎてるけどほんとにそんなに凝るのが大事か？」と喧嘩を売る内容ですが、まだ未完成なのでいま改良中です。
+　「最近の研究、なんか凝りすぎてるけどほんとにそんなに凝るのが大事か？」と喧嘩を売る内容ですが、まだ未完成なのでいま改良中です。
 
 
 ## 横幹連合の本（12/20出版）
 
-学会を横断した活動をしている横幹連合という組織があるんですが、そこからロボット学会経由で依頼があり、配膳ロボットとか車の自動運転で重要な位置計測の技術の黎明期から今日までの流れを1章分書かせてもらえました。[この本です。](https://amzn.to/3BXO7qw)どういうふうに技術が広がっていったか、なんで日本は少し停滞してしまったのかを当事者として書きました。元の作文は[2023年のロボット学会誌での解説](https://www.jstage.jst.go.jp/article/jrsj/41/5/41_41_443/_article/-char/ja/)で自由に読めますが、一般の人向けにかなり内容を簡単にしました。
+　学会を横断した活動をしている横幹連合という組織があるんですが、そこからロボット学会経由で依頼があり、配膳ロボットとか車の自動運転で重要な位置計測の技術の黎明期から今日までの流れを1章分書かせてもらえました。[この本です。](https://amzn.to/3BXO7qw)どういうふうに技術が広がっていったか、なんで日本は少し停滞してしまったのかを当事者として書きました。元の作文は[2023年のロボット学会誌での解説](https://www.jstage.jst.go.jp/article/jrsj/41/5/41_41_443/_article/-char/ja/)で自由に読めますが、一般の人向けにかなり内容を簡単にしました。
 
-自分で書いてて思ったんですが、自分の20代って、かなり特殊な状況にいたんだなと。お金にはあんまりなりませんでしたが、光栄なことです。ただ、そういう殊勝なことをここに書いていても、 **国に対するブチ切れが混入しています。**
+　自分で書いてて思ったんですが、自分の20代って、かなり特殊な状況にいたんだなと。お金にはあんまりなりませんでしたが、光栄なことです。ただ、そういう殊勝なことをここに書いていても、 **国に対するブチ切れが混入しています。**
 
 
 ## ちんちん（2/26陳述）
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ちんちん</p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1761957604706939061?ref_src=twsrc%5Etfw">February 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-たぶん病気だと思うんですけど、なんでちんちんってマイクロブログに書くのって楽しいんですかね？ちんちんがマイクロブクロという意味ではありません。
+　たぶん病気だと思うんですけど、なんでちんちんってマイクロブログに書くのって楽しいんですかね？ちんちんがマイクロブクロという意味ではありません。
 
-↓考察（？）してみた。
+　↓考察（？）してみた。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">論文書いた<br><br>ついったで1年ぶりにちんちんと書き込むとどうなるか | 上田ブログ <a href="https://t.co/A2RSsOcQJa">https://t.co/A2RSsOcQJa</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1762123747975463146?ref_src=twsrc%5Etfw">February 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -103,7 +103,7 @@ Copyright: (C) 2025 Ryuichi Ueda
 
 ## おわりに
 
-以上、7つ挙げてみました。まだなにかありそうですが、思い出したら追加します。最後ちんちんかよ。
+　以上、7つ挙げてみました。まだなにかありそうですが、思い出したら追加します。最後ちんちんかよ。
 
 
-現場からは以上です。
+　現場からは以上です。
