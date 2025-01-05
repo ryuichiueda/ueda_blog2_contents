@@ -79,7 +79,7 @@ Copyright: (C) 2025 Ryuichi Ueda
 
 <script async class="docswell-embed" src="https://www.docswell.com/assets/libs/docswell-embed/docswell-embed.min.js" data-src="https://www.docswell.com/slide/ZEX11D/embed" data-aspect="1.4128"></script><div class="docswell-link"><a href="https://www.docswell.com/s/ryuichiueda/ZEX11D-si2024">SI2024ポスター by @ryuichiueda</a></div>
 
-　「最近の研究、なんか凝りすぎてるけどほんとにそんなに凝るのが大事か？」と喧嘩を売る内容ですが、まだ未完成なのでいま改良中です。
+　「最近の研究、なんか凝りすぎてるけどほんとにそんなに凝るのが大事か？」と喧嘩を売る内容ですが、まだ未完成なのでいま改良中です。[ここ](https://github.com/ryuichiueda/ogm_flow_estimator_static)で作ってます。
 
 
 ## 横幹連合の本（12/20出版）
