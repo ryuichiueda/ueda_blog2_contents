@@ -63,9 +63,9 @@ fed
     pub fn parse(feeder: &mut Feeder, core: &mut ShellCore, substitution: bool) -> Result<Option<Self>, ParseError> {
         let mut ans = Self::default();                                            //↑Result型の導入
         if command::eat_inner_script(feeder, core, "(", vec![")"], &mut ans.script, substitution)? { //?をつける
-            Ok(Some(ans))
+            Ok(Some(ans)) //Okで囲む
         }else{
-            Ok(None)
+            Ok(None) //Okで囲む
         }
     }
     ```
