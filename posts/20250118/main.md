@@ -40,6 +40,7 @@ fed
 * 図1: Result使う前（説明に不要な部分はカット）
 
 ```rust
+//Result使ってないやつ
 pub fn parse(feeder: &mut Feeder, core: &mut ShellCore, substitution: bool) -> Option<Self> {
     let mut ans = Self::default();
     if command::eat_inner_script(feeder, core, "(", vec![")"], &mut ans.script, substitution) { //カッコの中身を取り出す関数
