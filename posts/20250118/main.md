@@ -38,16 +38,17 @@ fed
 
 
 * 図1: Result使う前（説明に不要な部分はカット）
-    ```rust
-    pub fn parse(feeder: &mut Feeder, core: &mut ShellCore, substitution: bool) -> Option<Self> {
-        let mut ans = Self::default();
-        if command::eat_inner_script(feeder, core, "(", vec![")"], &mut ans.script, substitution) { //カッコの中身を取り出す関数
-            Some(ans) //中身に文法エラーがなかったら、パース結果をなにかあったという印のSomeにくるんで返す。
-        }else{
-            None //エラーがあったら「何もない」を返す。
-        }
+
+```rust
+pub fn parse(feeder: &mut Feeder, core: &mut ShellCore, substitution: bool) -> Option<Self> {
+    let mut ans = Self::default();
+    if command::eat_inner_script(feeder, core, "(", vec![")"], &mut ans.script, substitution) { //カッコの中身を取り出す関数
+        Some(ans) //中身に文法エラーがなかったら、パース結果をなにかあったという印のSomeにくるんで返す。
+    }else{
+        None //エラーがあったら「何もない」を返す。
     }
-    ```
+}
+```
 
 　これを図2のように関数の戻り値の型を変えました。元々の型`Option`は、結果（`ans`）がある場合に`Some(結果)`、ない場合に`None`を返す型ですが、それをさらに`Result`でくるんで、次の値を返すように変えています。`eat_inner_script`の戻り値の型も`Result`を使うように書き換えてあります。
 
@@ -58,17 +59,18 @@ fed
 これで、エラーがこのパースの関数の呼び出し元に伝わるようになります。コードについてはそんなに変更点がなく、返り値を`Ok`でくるみ、さらに`eat_inner_script`関数の呼び出しのうしろに`?`をつけるだけです。`?`があると、関数が`Err(...)`を返してきたときに、即座に関数が終わって`Err(...)`が返るようになります。`Ok(...)`の場合は`Ok`を剥がしてくれます。便利です。
 
 * 図2: Result使った後
-    ```rust
-    //Result使ったやつ
-    pub fn parse(feeder: &mut Feeder, core: &mut ShellCore, substitution: bool) -> Result<Option<Self>, ParseError> {
-        let mut ans = Self::default();                                            //↑Result型の導入
-        if command::eat_inner_script(feeder, core, "(", vec![")"], &mut ans.script, substitution)? { //?をつける
-            Ok(Some(ans)) //Okで囲む
-        }else{
-            Ok(None) //Okで囲む
-        }
+
+```rust
+//Result使ったやつ
+pub fn parse(feeder: &mut Feeder, core: &mut ShellCore, substitution: bool) -> Result<Option<Self>, ParseError> {
+    let mut ans = Self::default();                                            //↑Result型の導入
+    if command::eat_inner_script(feeder, core, "(", vec![")"], &mut ans.script, substitution)? { //?をつける
+        Ok(Some(ans)) //Okで囲む
+    }else{
+        Ok(None) //Okで囲む
     }
-    ```
+}
+```
 
 　ただ、「コードについてはそんなに変更点がなく」と書きましたが、パーサーを構成する全部の関数の型を変更して、かつ整合性があるようにコードを書き換えなければならなかったので地獄でした。でしたというか継続中です。話がややこしくなると思って連載当初に使うのを躊躇したのを後悔してます。
 
