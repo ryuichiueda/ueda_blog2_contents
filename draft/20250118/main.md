@@ -16,6 +16,8 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 C++で画像ファイルを読み込んで画像ファイルを出力するコマンドとして作っていたのを、[RustでROS 2のパッケージとして](https://github.com/ryuichiueda/ogm_flow_estimator_static)実装しなおしています。
 
-READMEを作っていますが、まだちょっと直すのでついった上ではできたといってません。また、ロボットが静止していることを前提にして作っていて、ロボットが動けるものは別のパッケージにしようと思います。いまのところ出力はこんな感じです。
+READMEを作っていますが、まだちょっと直すのでついった上ではできたといってません。また、ロボットが静止していることを前提にして作っていて、ロボットが動けるものは別のパッケージにしようと思います。いまのところ出力はこんな感じです。2〜10秒後に移動しているものがいそうな位置の分布がグレースケールで表示されています。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">仮想マシンの機嫌で計算時間が1msになったり10msになったりするけどたぶん1msで計算できとる <a href="https://t.co/1zogabgCtc">https://t.co/1zogabgCtc</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1879829299538297237?ref_src=twsrc%5Etfw">January 16, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+これでも歩いてる人に雪玉投げるときの目標位置の計算くらいには使えるような気がします。（ダメです。）
