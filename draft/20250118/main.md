@@ -21,3 +21,58 @@ READMEを作っていますが、まだちょっと直すのでついった上�
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">仮想マシンの機嫌で計算時間が1msになったり10msになったりするけどたぶん1msで計算できとる <a href="https://t.co/1zogabgCtc">https://t.co/1zogabgCtc</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1879829299538297237?ref_src=twsrc%5Etfw">January 16, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 これでも歩いてる人に雪玉投げるときの目標位置の計算くらいには使えるような気がします。（ダメです。）
+
+## 自作シェル
+
+　自作シェルのほうは、年末辺りからBashのヘビー級補完機能パッケージの[bash-completion](https://heartbeats.jp/hbblog/2013/06/bash-completion.html)を動かそうと格闘中してました。この作業は遅いながらも少しずつ進んでいます。bash-completionはニッチな機能を使いまくってるシェルスクリプトの塊なので、ニッチな機能を少しずつ実装して動作確認しながら作業を進めています。
+
+　もうひとつの作業として、エラーハンドリングをちゃんとしようということで、いままでboolで成否を返していたのをRustのResult型を真面目に使うように変更中です。例として、
+
+```bash
+$ ( echo abc ; echo def ) | rev
+cba
+fed
+```
+
+のような`()`で複数のコマンドをまとめるサブシェルをパースする関数を図1に示します。Resultを使う前は、図1のように、カッコの中身に文法エラーがあったら「`None`」を返すだけでしたが、これだと中身にどんなエラーがあったかまでは返せません。そのため、このコードの場合は`eat_inner_script`のなか（あるいはさらにそこから呼ばれている関数）でエラー処理せざるを得ず、エラー処理のコードが散らばってました。
+
+
+* 図1: Result使う前（説明に不要な部分はカット）
+    ```rust
+    pub fn parse(feeder: &mut Feeder, core: &mut ShellCore, substitution: bool) -> Option<Self> {
+        let mut ans = Self::default();
+        if command::eat_inner_script(feeder, core, "(", vec![")"], &mut ans.script, substitution) { //カッコの中身を取り出す関数
+            Some(ans) //中身に文法エラーがなかったら、パース結果をなにかあったという印のSomeにくるんで返す。
+        }else{
+            None //エラーがあったら「何もない」を返す。
+        }
+    }
+    ```
+
+　これを図2のように関数の戻り値の型を変えました。元々の型`Option`は、結果（`ans`）がある場合に`Some(結果)`、ない場合に`None`を返す型ですが、それをさらに`Result`でくるんで、次の値を返すように変えています。`eat_inner_script`の戻り値の型も`Result`を使うように書き換えてあります。
+
+* カッコの中身に文法エラーがない: `Ok(Some(ans))`
+* カッコの中身に文法エラーがある: `Err(エラーの原因)`
+* カッコの中身に文法エラーがないけど`eat_inner_script`が`None`（正確には`Ok(None)`）を返してきた: `Ok(None)`
+
+これで、エラーがこのパースの関数の呼び出し元に伝わるようになります。コードについてはそんなに変更点がなく、返り値を`Ok`でくるみ、さらに`eat_inner_script`関数の呼び出しのうしろに`?`をつけるだけです。`?`があると、関数が`Err(...)`を返してきたときに、即座に関数が終わって`Err(...)`が返るようになります。`Ok(...)`の場合は`Ok`を剥がしてくれます。便利です。
+
+* 図2: Result使った後
+    ```rust
+    //Result使ったやつ
+    pub fn parse(feeder: &mut Feeder, core: &mut ShellCore, substitution: bool) -> Result<Option<Self>, ParseError> {
+        let mut ans = Self::default();
+        if command::eat_inner_script(feeder, core, "(", vec![")"], &mut ans.script, substitution)? { //?をつける
+            Ok(Some(ans))
+        }else{
+            Ok(None)
+        }
+    }
+    ```
+
+　ただ、「コードについてはそんなに変更点がなく」と書きましたが、パーサーを構成する全部の関数の型を代えて、かつ整合性があるようにコードを変更しなければならなかったので地獄でした。連載当初に使うのを躊躇したのを公開してます。
+
+　連載については、たぶん6月号あたりから`?`を使ったコードに移行すると思われます。
+
+
+とりあえず現場からは以上です。
