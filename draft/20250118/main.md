@@ -61,7 +61,7 @@ fed
     ```rust
     //Result使ったやつ
     pub fn parse(feeder: &mut Feeder, core: &mut ShellCore, substitution: bool) -> Result<Option<Self>, ParseError> {
-        let mut ans = Self::default();
+        let mut ans = Self::default();                                            //↑Result型の導入
         if command::eat_inner_script(feeder, core, "(", vec![")"], &mut ans.script, substitution)? { //?をつける
             Ok(Some(ans))
         }else{
