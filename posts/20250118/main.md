@@ -9,7 +9,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ## 学会で発表した動く物体の位置予測アルゴリズムのROS 2移植
 
-　↓このときに発表したアルゴリズムをROS 2で使えるようにしています。ロボットから見えてるものが数秒後にどこにいくか予測するアルゴリズムです。[モザイクかかってるポスターはこちら](https://www.docswell.com/s/ryuichiueda/ZEX11D-si2024)。
+　↓このときに発表したアルゴリズムをROS 2で使えるようにしています。ロボットから見えてるものが数秒後にどこにいくか予測するアルゴリズムです。[写真中でモザイクかかってるポスターはこちらで公開中](https://www.docswell.com/s/ryuichiueda/ZEX11D-si2024)。
 
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">えーとですね、初心者すぎてポスター貼るところを間違えてて、本当の持ち主の方が貼り直してくださいました。<br><br>大変申し訳ございませんでした・・・ <a href="https://t.co/eelpATwUM6">https://t.co/eelpATwUM6</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1869205420386193502?ref_src=twsrc%5Etfw">December 18, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
