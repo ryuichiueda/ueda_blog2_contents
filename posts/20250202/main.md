@@ -7,8 +7,13 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ぜひ遊びに来てください。
 
-<iframe src="https://mi.shellgei.org/embed/notes/a3p1exzmkd" data-misskey-embed-id="v1_a80a4bdf-4d7f-4c95-a7aa-600d467f41a9" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" style="border: none; width: 100%; max-width: 500px; height: 300px; color-scheme: light dark;"></iframe>
-<script defer src="https://mi.shellgei.org/embed.js"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">2025/02/15 jus共催第72回シェルの勉強をするためのシェル芸勉強会 <a href="https://t.co/mlgly6Ph1y">https://t.co/mlgly6Ph1y</a></p>&mdash; Connpass 東京近郊イベント (@cp_tokyo_events) <a href="https://twitter.com/cp_tokyo_events/status/1885266816110633079?ref_src=twsrc%5Etfw">January 31, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## サテライト会場
+
+　ありがとうございます🙏
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">第72回シェル芸勉強会：福岡サテライト<br>2/15 12:00～17:00<br>みんなの貸会議室 博多駅前301会議室<br>福岡県福岡市博多区博多駅前1丁目3-22　かき善ビル3階<a href="https://t.co/ujBj76EN0v">https://t.co/ujBj76EN0v</a></p>&mdash; 福岡新着ITイベント (@ITEventFukuoka) <a href="https://twitter.com/ITEventFukuoka/status/1885692088832135633?ref_src=twsrc%5Etfw">February 1, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## 今回の試み
 
