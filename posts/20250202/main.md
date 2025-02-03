@@ -13,6 +13,8 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 　ありがとうございます🙏
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">第72回シェル芸勉強会 大阪サテライト<br>募集開始しました。<a href="https://t.co/zOfkddpWJR">https://t.co/zOfkddpWJR</a></p>&mdash; so (@3socha) <a href="https://twitter.com/3socha/status/1886054441050312911?ref_src=twsrc%5Etfw">February 2, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">第72回シェル芸勉強会：福岡サテライト<br>2/15 12:00～17:00<br>みんなの貸会議室 博多駅前301会議室<br>福岡県福岡市博多区博多駅前1丁目3-22　かき善ビル3階<a href="https://t.co/ujBj76EN0v">https://t.co/ujBj76EN0v</a></p>&mdash; 福岡新着ITイベント (@ITEventFukuoka) <a href="https://twitter.com/ITEventFukuoka/status/1885692088832135633?ref_src=twsrc%5Etfw">February 1, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## 今回の試み
