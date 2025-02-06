@@ -24,6 +24,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 * macOSの場合
     * 何かコマンドを立ち上げると`SIGTTIN`が飛んできてシェルが終わる
         * 上の`ESC+[+文字`だと思われ（なぜかコマンドにフォアグラウンドを譲ってから飛ぶ）
+        * 飛ばしているのは[cursor.rs](https://github.com/redox-os/termion/blob/master/src/cursor.rs)っぽい
     * 端末のサイズを変えるとtermionの`cursor.rs`でpanicが起こる
         * エラーを見るとカーソルの位置がとれてない
     * 端末にEnterを入力し続けると`cursor.rs`でpanicが起こる
