@@ -20,7 +20,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 * Linuxの場合
     * Vimを立ち上げると画面がバグったり、「指定の位置にカーソルがありません」と出る。（何かキーを押すと直る）
-        * たぶんVimに`ESC+[+何か文字`が飛んでる（[参考](https://mattn.kaoriya.net/software/vim/20121119204213.htm）)
+        * たぶんVimに`ESC+[+何か文字`が飛んでる（[参考](https://mattn.kaoriya.net/software/vim/20121119204213.htm)）
 * macOSの場合
     * 何かコマンドを立ち上げると`SIGTTIN`が飛んできてシェルが終わる
         * 上の`ESC+[+文字`だと思われ（なぜかコマンドにフォアグラウンドを譲ってから飛ぶ）
