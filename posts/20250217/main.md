@@ -10,7 +10,7 @@ Copyright: (C) 2024 Ryuichi Ueda
 
 ## bash-completionってなに
 
-　bash-completionというのはメジャーなほうのLinux環境のBashならデフォルトで動いている、シェルの補完機能です。たとえばBashで`ls --`と打ってタブを押すと、
+　bash-completionというのはメジャーどころのLinux環境のBashならデフォルトで動いている、シェルの補完機能です。たとえばBashで`ls --`と打ってタブを押すと、
 ```bash
 
 ueda@x1gen13:~$ ls --
