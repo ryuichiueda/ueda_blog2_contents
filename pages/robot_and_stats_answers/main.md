@@ -128,6 +128,15 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 
 [（戻る）](/?page=robot_and_stats_questions#賭け事と期待値)
 
+### 賭け事と期待値2
+
+コインの表が出る確率が1/2とすると、儲けの期待値は、
+\begin{align}
+-100 + 100,000,000 (1/2)^{100} = -100 + \dfrac{1000 \cdot 10 \cdot 100}{1024^{10}}
+\end{align}
+
+
+[（戻る）](/?page=robot_and_stats_questions#賭け事と期待値2)
 
 ### 期待値の式
 
