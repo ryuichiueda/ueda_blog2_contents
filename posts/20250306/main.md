@@ -73,11 +73,12 @@ complete -F _comp_complete_load -D
 $ sush
 Rusty Bash (a.k.a. Sushi shell), version 1.0.4 - release
 🍣 complete | grep git
-🍣 git a
+🍣 git a                          #なんか補完してみる
 add      am       archive  apply
                       ^C
 🍣 complete | grep git
 complete -F __git_wrap__gitk_main gitk
-complete -F __git_wrap__git_main git
+complete -F __git_wrap__git_main git    #セットされている
+#今後の課題: ほんとはもうひとつ読み込まれるはずだけど読み込まれていない#
 ```
 
