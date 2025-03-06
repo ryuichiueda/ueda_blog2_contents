@@ -20,7 +20,7 @@ complete -F _root_command gksudo
 complete -F _command nice
 ```
 
-出力の読み方は、たとえば「`mv`は`_longopt`という関数をつかって補完候補を見つける」というふうに読みます。`_longopt`というのはコマンドのロングオプション（とファイル）を探す関数で、Bashがbash-completionを読み込んだときに一緒に読み込まれます。
+出力の読み方は、たとえば1行目については「`mv`は`_longopt`という関数をつかって補完候補を見つける」というふうに読みます。`_longopt`というのはコマンドのロングオプション（とファイル）を探す関数で、Bashがbash-completionを読み込んだときに一緒に読み込まれます。
 
 　ということは、`git`の補完方法については`complete | grep git`とすれば探せるはずですが、立ち上げたばかりのBashの場合、
 
@@ -60,7 +60,7 @@ complete -F _comp_complete_load -D
 
 ## ということで
 
-　自作シェルでも`complete -D`の関数が呼ばれるようにして、このたびめでたく`git`の補完ができるようになりました褒めて褒めて。
+　自作シェルでも`complete -D`の関数が呼ばれるようにして、このたびめでたく`git`の補完ができるようになりました。やってることがまともではないので誰も褒めてくれませんが褒めて褒めて。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">これでgitのサブコマンドの補完と、そのあとの補完がエラーなく動くようになりました <a href="https://twitter.com/hashtag/%E8%87%AA%E4%BD%9C%E3%82%B7%E3%82%A7%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#自作シェル</a> <a href="https://t.co/pNkgzxTt6U">pic.twitter.com/pNkgzxTt6U</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1894594926652125561?ref_src=twsrc%5Etfw">February 26, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
