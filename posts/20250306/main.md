@@ -55,7 +55,27 @@ $ complete | grep 'complete .* -D'
 complete -F _comp_complete_load -D
 ```
 
-これは「補完対象に対応する補完機能が見当たらない場合、`_comp_complete_load`で補完しろ」ということを意味します。で、`_comp_complete_load`がなにかやってるなということになります。実際、コマンドに対応する機能をロードしているのはこの関数から呼ばれている`_comp_load`です。`_comp_load`のコードは[ここ](https://github.com/scop/bash-completion/blob/2f87ac492c375fd2a3a76a087fcaf92e363f911a/bash_completion#L3238)で読めます。めっちゃ長いですが。わたしは読みましたよ。読んだというか自分の作っているシェルでエラーなく動かせるようにしましたよ。ええ。死ぬ。
+これは「補完対象に対応する補完機能が見当たらない場合、`_comp_complete_load`で補完しろ」ということを意味します。で、`_comp_complete_load`がなにかやってるなということになります。実際、コマンドに対応する機能をロードしているのはこの関数から呼ばれている`_comp_load`です。`_comp_load`のコードは[ここ](https://github.com/scop/bash-completion/blob/2f87ac492c375fd2a3a76a087fcaf92e363f911a/bash_completion#L3238)で読めます。めっちゃ長いですが。わたしは読みましたよ。読んだというか自分の作っているシェルに文法全部理解させましたよ。ええ。死ぬ。
 
 
-##
+## ということで
+
+　自作シェルでも`complete -D`の関数が呼ばれるようにして、このたびめでたく`git`の補完ができるようになりました褒めて褒めて。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">これでgitのサブコマンドの補完と、そのあとの補完がエラーなく動くようになりました <a href="https://twitter.com/hashtag/%E8%87%AA%E4%BD%9C%E3%82%B7%E3%82%A7%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#自作シェル</a> <a href="https://t.co/pNkgzxTt6U">pic.twitter.com/pNkgzxTt6U</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1894594926652125561?ref_src=twsrc%5Etfw">February 26, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+　`_comp_complete_load`が呼ばれている様子です。
+
+```bash
+### 自作シェルの例 ###
+$ sush
+Rusty Bash (a.k.a. Sushi shell), version 1.0.4 - release
+🍣 complete | grep git
+🍣 git a
+add      am       archive  apply
+                      ^C
+🍣 complete | grep git
+complete -F __git_wrap__gitk_main gitk
+complete -F __git_wrap__git_main git
+```
+
