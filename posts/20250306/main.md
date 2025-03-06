@@ -64,6 +64,8 @@ complete -F _comp_complete_load -D
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">これでgitのサブコマンドの補完と、そのあとの補完がエラーなく動くようになりました <a href="https://twitter.com/hashtag/%E8%87%AA%E4%BD%9C%E3%82%B7%E3%82%A7%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#自作シェル</a> <a href="https://t.co/pNkgzxTt6U">pic.twitter.com/pNkgzxTt6U</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1894594926652125561?ref_src=twsrc%5Etfw">February 26, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ブランチの補完もうごきましたー🎉 <a href="https://twitter.com/hashtag/%E8%87%AA%E4%BD%9C%E3%82%B7%E3%82%A7%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#自作シェル</a> <a href="https://t.co/7vzBG6zWT8">pic.twitter.com/7vzBG6zWT8</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1894595123935416708?ref_src=twsrc%5Etfw">February 26, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 　`_comp_complete_load`が呼ばれている様子です。
 
 ```bash
