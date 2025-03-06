@@ -57,7 +57,6 @@ complete -F _comp_complete_load -D
 
 これは「補完対象に対応する補完機能が見当たらない場合、`_comp_complete_load`で補完しろ」ということを意味します。で、`_comp_complete_load`がなにかやってるなということになります。実際、コマンドに対応する機能をロードしているのはこの関数から呼ばれている`_comp_load`です。`_comp_load`のコードは[ここ](https://github.com/scop/bash-completion/blob/2f87ac492c375fd2a3a76a087fcaf92e363f911a/bash_completion#L3238)で読めます。めっちゃ長いですが。わたしは読みましたよ。読んだというか自分の作っているシェルに文法全部理解させましたよ。ええ。死ぬ。
 
-
 ## ということで
 
 　自作シェルでも`complete -D`の関数が呼ばれるようにして、このたびめでたく`git`の補完ができるようになりました。やってることがまともではないので誰も褒めてくれませんが褒めて褒めて。
@@ -81,4 +80,12 @@ complete -F __git_wrap__gitk_main gitk
 complete -F __git_wrap__git_main git    #セットされている
 #今後の課題: ほんとはもうひとつ読み込まれるはずだけど読み込まれていない#
 ```
+
+## さらにその後
+
+`git`に気をとられてたら`cd`とか`vim`とかの補完がうまく動かなくなったことに気づいて直してました。いまは直したものが[最新のリリース](https://github.com/shellgei/rusty_bash/releases/tag/v1.0.4)になっているので使ってみてissueに文句でも書いていただければ幸いです。
+
+
+現場からは以上です。
+
 
