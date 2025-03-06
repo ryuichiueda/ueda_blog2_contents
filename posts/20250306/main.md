@@ -55,4 +55,7 @@ $ complete | grep 'complete .* -D'
 complete -F _comp_complete_load -D
 ```
 
-これは「補完対象に対応する補完機能が見当たらない場合、`_comp_complete_load`で補完しろ」ということを意味します。
+これは「補完対象に対応する補完機能が見当たらない場合、`_comp_complete_load`で補完しろ」ということを意味します。で、`_comp_complete_load`がなにかやってるなということになります。実際、コマンドに対応する機能をロードしているのはこの関数から呼ばれている`_comp_load`です。`_comp_load`のコードは[ここ](https://github.com/scop/bash-completion/blob/2f87ac492c375fd2a3a76a087fcaf92e363f911a/bash_completion#L3238)で読めます。めっちゃ長いですが。わたしは読みましたよ。ええ。死ぬ。
+
+
+##
