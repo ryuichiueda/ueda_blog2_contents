@@ -161,6 +161,11 @@ Copyright: (C) Ryuichi Ueda
 
 ## 査読つき講演論文
 
+### 2025
+
+* 髙澤怜里, 上田隆一, 山野辺夏樹, 藤井浩光: 編み物における技能理解のためのLSTMによる手先動作の解析, 第30回ロボティクスシンポジア講演論文集, pp.173-178, 2025.
+* 吉越 誠, 林原 靖男, 上田 隆一: 移動ロボットのための彷徨しながらの衛星測位によるLiDARベースの自己位置推定の破綻からの復帰法とナビゲーションの継続, 第30回ロボティクスシンポジア講演論文集, pp.107-112, 2025.
+
 ### 2023
 
 * Haruki Shimotori, Ping Jiang, Jun'ichiro Ooga, Atsushi Sugahara, Shun Ito, Atsuya Koike, Ryuichi Ueda: Robotic grasp detection toward unknown objects using 3D edge detection and Gaussian mixture model for clustering candidates, IEEE International Conference on Robotics and Biomimetics (ROBIO2023), Koh Samui, Surat Thani Province, Thailand, December, 2023. (to appear)
