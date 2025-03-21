@@ -39,6 +39,10 @@ Copyright: (C) Ryuichi Ueda
 
 ## 投稿論文
 
+### 2025
+
+* 下鳥晴己, 姜平, 大賀淳一郎, 菅原淳, 伊藤駿, 小池篤哉, 藤﨑賢蔵, 小塚凌, 上田隆一: 2指ハンドとハンドアイカメラを持つ多自由度マニピュレータのための3次元点群からの把持位置検出, 日本ロボット学会誌, Vol. 42, 2025. (to appear)
+
 ### 2023
 
 * Ryuichi Ueda, Leon Tonouchi, Tatsuhiro Ikebe, and Yasuo Hayashibara: [Implementation of brute-force value iteration for mobile robot path planning and obstacle bypassing](https://www.fujipress.jp/jrm/rb/robot003500061489/), Journal of Robotics and Mechatronics, Vol.35, No.6, pp.1489-1502, 2023.
