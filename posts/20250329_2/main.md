@@ -13,7 +13,7 @@ bash-completion並みに変態なので、
 
 ## Bashではfunctionと書けば`()`が省略できる
 
-テストスクリプトを自作シェルに読み込ませると
+　テストスクリプトを自作シェルに読み込ませると
 「`function`なんてコマンドねえよ」
 （=`function`というキーワードで始まると、
 関数の定義部分が認識できない）
@@ -21,14 +21,30 @@ bash-completion並みに変態なので、
 テストスクリプトの当該のところを見たら関数の定義に`()`
 がついてません。
 
-@@@
+* [当該部分](https://github.com/ryuichiueda/bash_for_sush_test/blob/80e51650daea4ce8b444b75e0a960dc08e724075/tests/nameref8.sub#L14-L19)
+    ```bash
+    ### ./tests/nameref8.sub ###
+    function f1
+    {
+    	typeset -n v=$1
+    
+    
+    	v=inside
+    }
+    ```
 
 どうやら`function`と明示的に書いて関数を定義すると
 `()`が要らんようです。確かにシェルの関数の`()`
 はなんの意味もない飾りなので合理的ではあるけど、
 そんなこと知るか。
 
-ということで自作シェルも`()`なしで大丈夫なように直しました。
+　ということで自作シェルも`()`なしで大丈夫なように直しました。
+
+```bash
+### alphaブランチ ###
+🍣 function oniku { echo 肉 ; } ; oniku
+肉
+```
 
 そんなこと知るか（重要でないけど2回言う）。
 
