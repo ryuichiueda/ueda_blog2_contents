@@ -29,6 +29,14 @@ Copyright: (C) Ryuichi Ueda
 
 ## 各回の出題
 
+### 第71回
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x0H28Jaql6o?si=1i4EgPCOetrUdsto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### 第70回
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sljy4gnyfU4?si=QTIHCn_b-RpUKPI7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### 第69回
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Plp_sMyYdw8?si=0q78dmK9PsppOQm_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

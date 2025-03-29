@@ -16,6 +16,12 @@ Copyright: (C) 2022-2024 Ryuichi Ueda
     <div class="col-md-6">
       <h2 id="news"><i class="fa-solid fa-circle-info"></i> 最近の話題</h2>
 
+      <h3 id="shellgei72">2/15にシェル芸勉強会やります</h3>
+
+      登録おねがいします🙏
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">リモート参加の意思表示登録枠つくっときましたので少しでも見る意思ある人は押してもらえるとやるきが増します <a href="https://twitter.com/hashtag/%E3%82%B7%E3%82%A7%E3%83%AB%E8%8A%B8?src=hash&amp;ref_src=twsrc%5Etfw">#シェル芸</a> <a href="https://t.co/b4QEn86BTx">https://t.co/b4QEn86BTx</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1885490341933191610?ref_src=twsrc%5Etfw">February 1, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
       <h3 id="prob_book">日本ロボット学会 学会誌論文賞（2024年9月）</h3>
 
       筆頭の三上さんをはじめCGを作成した石川さん、共著者のみなさま、おめでとうございました。
