@@ -165,7 +165,7 @@ ueda@p1gen6:~/GIT/bash_for_sush_test/tests$ THIS_SH=bash bash ./ifs-posix.tests
 　テストスクリプトで使われていたのでヒアドキュメントを実装しました。
 まだちょっと雑です。
 
-　また、自作シェルは一部Bashより機能が多いのですが、
+　また、自作シェルはBashを一部拡張した部分があるんですが、
 それが発動するとテストが通らなくなるので新たに`-b`
 （bash compatibility）というオプションをつけました。
 上のログに`THIS IS BASH COMPATIBILITY TEST MODE`と出ているのはそれです。
