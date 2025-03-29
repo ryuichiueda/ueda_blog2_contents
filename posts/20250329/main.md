@@ -11,7 +11,7 @@ Copyright: (C) 2025 Ryuichi Ueda
 
 ## Bashの公式リポジトリのテスト
 
-　海外から「ちゃんと公式のテストを使え。グラフも描け」と言われで、対応しました。
+　海外から「ちゃんと公式のテストを使え。グラフも描け」と言われて対応しました。
 
 * これ: https://github.com/shellgei/rusty_bash/issues/124#issue-2888738573
 
