@@ -23,7 +23,7 @@ Bashの公式リポジトリは[ココ](https://savannah.gnu.org/git/?group=bash
 
 みなさんも手持ちの自作シェルで試してみてください（？）
 
-　で、このリポジトリをフォークして、[自作シェルのテスト用のリポジトリ](https://github.com/ryuichiueda/bash_for_sush_test)を作りました。このなかの`sush_test`というディレクトリのなかに、Bashと自作シェルを比較するためのシェルスクリプトと、gnuplotでグラフを描くシェルスクリプトを置きました。本日のグラフはこんな感じです。
+　で、このリポジトリをフォークして、[自作シェルのテスト用のリポジトリ](https://github.com/ryuichiueda/bash_for_sush_test)を作りました。このなかの`sush_test`というディレクトリのなかに、Bashと自作シェルを比較するためのシェルスクリプトと、gnuplotでグラフを描くシェルスクリプトを置きました。本日時点でのグラフはこんな感じです。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">本日の進捗 <a href="https://twitter.com/hashtag/%E8%87%AA%E4%BD%9C%E3%82%B7%E3%82%A7%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#自作シェル</a> <a href="https://t.co/lkv4e6JcZd">pic.twitter.com/lkv4e6JcZd</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1905883207775744183?ref_src=twsrc%5Etfw">March 29, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -46,4 +46,5 @@ Bashの公式リポジトリは[ココ](https://savannah.gnu.org/git/?group=bash
 　最後に宣伝ですが、[Software Design](https://www.amazon.co.jp/shop/ryuichiueda/list/7MLC9JANITU0?ref_=aipsflist)で3年にわたって連載している「魅惑の自作シェルの世界」もよろしくおねがいしまーす。
 
 
+　余力があれば今日中に技術面での話も書きます。
 
