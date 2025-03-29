@@ -170,7 +170,8 @@ ueda@p1gen6:~/GIT/bash_for_sush_test/tests$ THIS_SH=bash bash ./ifs-posix.tests
 それが発動するとテストが通らなくなるので新たに`-b`
 （bash compatibility）というオプションをつけました。
 上のログに`THIS IS BASH COMPATIBILITY TEST MODE`と出ているのはそれです。
-本家Bashにも`--compat〇〇`というオプションがあるんですが、
+本家Bashにも各バージョンの挙動を再現するための
+`--compat〇〇`というオプションがあるんですが、
 これもおいおい（数年後）サポートしようと思います。
 
 　明日は`printf`の実装が雑なのを修正し、
