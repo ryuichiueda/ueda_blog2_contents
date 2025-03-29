@@ -41,9 +41,7 @@ Bashの公式リポジトリは[ココ](https://savannah.gnu.org/git/?group=bash
 
 ## グラフを掲載するようにした結果・・・
 
-　更新するのが楽しいのでつい開発してしまい、冒頭のように研究そっちのけになってます。いかん。
-
-　最後に宣伝ですが、[Software Design](https://www.amazon.co.jp/shop/ryuichiueda/list/7MLC9JANITU0?ref_=aipsflist)で3年にわたって連載している「魅惑の自作シェルの世界」もよろしくおねがいしまーす。
+　更新するのが楽しいのでつい開発してしまい、冒頭のように研究そっちのけになってます。いかん。最後に宣伝ですが、[Software Design](https://www.amazon.co.jp/shop/ryuichiueda/list/7MLC9JANITU0?ref_=aipsflist)で3年にわたって連載している「魅惑の自作シェルの世界」もよろしくおねがいしまーす。
 
 
 　余力があれば今日中に技術面での話も書きます。
