@@ -27,8 +27,7 @@ bash-completion並みに変態なので、
 ### 上のリンクの部分 ###
 function f1
 {
-	typeset -n v=$1
-
+	typeset -n v=$1 #そういえばtypesetもまだ実装してない
 
 	v=inside
 }
