@@ -39,12 +39,3 @@ Bashの公式リポジトリは[ココ](https://savannah.gnu.org/git/?group=bash
 
 　`sush_test`の中身は、最初`rusty_bash`のリポジトリの中に置いていました。しかしこれだと、これだとあるブランチでテストをした結果を`main`ブランチのREADMEに反映するのがめちゃくちゃ面倒なので、分けました。
 
-## Bashのテストへの対応
-
-　Bashのテスト、エッジケースが多い上にテストスクリプト自体がbash-completion並みに変態なので、それに対応せねばならずいろいろ調べてました。
-
-### functionと書けば`()`が省略できる
-
-### Bashのglobstarは同じパスを何回も出す
-
-### IFS地獄
