@@ -29,12 +29,12 @@ Bashの公式リポジトリは[ココ](https://savannah.gnu.org/git/?group=bash
 
 各折れ線グラフは
 
-* `PASSED`: 全84のテストスクリプト中でBashと違いが出なかったものの数
-* `NOT PASSED`: `bash`と`sush`で違いが出たスクリプトの数
-* `DNF`: 途中で止まったスクリプトの数（面倒なので`NOT PASSED`には入れてません）
-* `TOTAL LINES of DIFF`: 全スクリプトに対して`bash`の出力と`sush`の出力を`diff`で比較したときの`diff`の出力の行数
+* PASSED: 全84のテストスクリプト中でBashと違いが出なかったものの数
+* NOT PASSED: `bash`と`sush`で違いが出たスクリプトの数
+* DNF: 途中で止まったスクリプトの数（面倒なので`NOT PASSED`には入れてません）
+* TOTAL LINES of DIFF: 全スクリプトに対して`bash`の出力と`sush`の出力を`diff`で比較したときの`diff`の出力の行数
 
-を表してます。`TOTAL...`の行数が減っていたり、`PASSED`の数が増えていたりすれば、「上田研究さぼってるなあ」ということになります。グラフは[自作シェルのリポジトリのトップページ](https://github.com/shellgei/rusty_bash/)に掲載していますので、毎日気にしていただけると幸いです。
+を表してます。TOTAL LINESが減っていたり、PASSEDの数が増えていたりすれば、「上田研究さぼってるなあ」ということになります。グラフは[自作シェルのリポジトリのトップページ](https://github.com/shellgei/rusty_bash/)に掲載していますので、毎日気にしていただけると幸いです。
 
 
 　`sush_test`の中身は、最初`rusty_bash`のリポジトリの中に置いていました。しかしこれだと、開発用のalphaブランチでテストをした結果をmainブランチのREADMEに反映するのがめちゃくちゃ面倒なので、分けました。
