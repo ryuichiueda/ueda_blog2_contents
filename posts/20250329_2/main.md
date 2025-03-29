@@ -21,10 +21,7 @@ bash-completion並みに変態なので、
 テストスクリプトの当該のところを見たら関数の定義に`()`
 がついてません。
 
-* [当該部分](https://github.com/ryuichiueda/bash_for_sush_test/blob/80e51650daea4ce8b444b75e0a960dc08e724075/tests/nameref8.sub#L14-L19)
-
 ```bash
-### 上のリンクの部分 ###
 function f1
 {
 	typeset -n v=$1 #そういえばtypesetもまだ実装してない
@@ -32,6 +29,8 @@ function f1
 	v=inside
 }
 ```
+
+* [当該部分](https://github.com/ryuichiueda/bash_for_sush_test/blob/80e51650daea4ce8b444b75e0a960dc08e724075/tests/nameref8.sub#L14-L19)
 
 どうやら`function`と明示的に書いて関数を定義すると
 `()`が要らんようです。確かにシェルの関数の`()`
@@ -82,10 +81,7 @@ a a/a a/a a/b b/a
 
 　テストスクリプトにこう書いてあるので、
 
-* [当該部分](https://github.com/ryuichiueda/bash_for_sush_test/blob/80e51650daea4ce8b444b75e0a960dc08e724075/tests/globstar2.sub#L80-L90)
-
 ```bash
-### 上のリンクの部分 ###
 # same as ksh93
 s '**/a/**'
 p **/a/**
@@ -100,6 +96,8 @@ p **/a/**/**
 s '**/a/**/**/**'
 p **/a/**/**/**
 ```
+
+* [当該部分](https://github.com/ryuichiueda/bash_for_sush_test/blob/80e51650daea4ce8b444b75e0a960dc08e724075/tests/globstar2.sub#L80-L90)
 
 kshに互換性を持たせているか、
 同じ実装になっているようです。
