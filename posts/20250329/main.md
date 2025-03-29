@@ -15,10 +15,18 @@ Copyright: (C) 2025 Ryuichi Ueda
 
 * これ: https://github.com/shellgei/rusty_bash/issues/124#issue-2888738573
 
-## Bashのテスト中のシェルスクリプトへの対応
+Bashの公式リポジトリは[ココ](https://savannah.gnu.org/git/?group=bash)にありますが、そのリポジトリの中に`tests`というディレクトリがあり、そのなかにテストスクリプトが入ってます。使い方はこんな感じ。（手練れ向けで、細かいトラップまで考慮してないのでご容赦ください。）
 
-Bashのテストにもbash-completion並みの変態スクリプトがあるので、それに対応せねばならずいろいろ調べてました。
+1. リポジトリのなかで`./configure`して`make`
+2. 最新のUbuntuだと一箇所「ヘッダファイルが明示的に指定されていない」とエラーが出るので修正
+3. `tests`のなかで、`THIS_SH=<テストしたいシェル> ./hogehoge.test`を実行
+
+## Bashのテストへの対応
+
+Bashのテスト、エッジケースが多い上にテストスクリプト自体がbash-completion並みに変態なので、それに対応せねばならずいろいろ調べてました。
 
 ### functionと書けば`()`が省略できる
 
 ### Bashのglobstarは同じパスを何回も出す
+
+### IFS地獄
