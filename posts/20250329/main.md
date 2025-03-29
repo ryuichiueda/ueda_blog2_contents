@@ -13,6 +13,7 @@ Copyright: (C) 2025 Ryuichi Ueda
 
 海外から「ちゃんとBashのリポジトリにあるテストを使え。グラフも描け」と言われで、対応しました。
 
+* これ: https://github.com/shellgei/rusty_bash/issues/124#issue-2888738573
 
 ## Bashのテスト中のシェルスクリプトへの対応
 
