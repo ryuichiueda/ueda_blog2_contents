@@ -19,4 +19,6 @@ Copyright: (C) 2025 Ryuichi Ueda
 
 Bashのテストにもbash-completion並みの変態スクリプトがあるので、それに対応せねばならずいろいろ調べてました。
 
-### functionと書けば
+### functionと書けば`()`が省略できる
+
+### Bashのglobstarは同じパスを何回も出す
