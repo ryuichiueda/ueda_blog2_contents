@@ -147,7 +147,7 @@ ueda@p1gen6:~/GIT/bash_for_sush_test/sush_test$ ./single_test run-ifs-posix
 
 ### Bashで検証してみる ###
 $ IFS=": "; x="  :"; set x $x; shift; echo "[$#]($1)($2)"
-[1]()()  #←寿司シェルと同じ（()がひとつ多いのは無視で大丈夫です）
+[1]()()  #←自作シェルと同じ（()がひとつ多いのは無視で大丈夫です）
 
 ### Bashでテストスクリプトを実行 ###
 ueda@p1gen6:~/GIT/bash_for_sush_test/tests$ THIS_SH=bash bash ./ifs-posix.tests
