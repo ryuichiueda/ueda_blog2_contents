@@ -9,7 +9,7 @@ Copyright: (C) 2025 Ryuichi Ueda
 
 ## macOSでの補完
 
-　alphaブランチのコードでほぼ動くようになりました。ただし、bash-completionを読み込むときにいくつかエラーが出ます。これについてはもうちょっと整理してから改めてここに書きたいと思ってます。
+　[alphaブランチ](https://github.com/shellgei/rusty_bash/tree/alpha)のコードでほぼ動くようになりました。ただし、bash-completionを読み込むときにいくつかエラーが出ます。これについてはもうちょっと整理してから改めてここに書きたいと思ってます。
 
 ## Bashの公式リポジトリのテスト
 
