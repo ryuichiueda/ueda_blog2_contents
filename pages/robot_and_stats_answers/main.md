@@ -124,7 +124,8 @@ $$\text{Pr} ( a=b \text{ or } b=c \text{ or } c=a ) + \text{Pr} ( a=b \text{ and
 したがって
 
 \begin{align}
-\text{Pr} ( a=b \text{ or } b=c \text{ or } c=a ) &= 1 -  \text{Pr} ( a=b \text{ and } b=c \text{ and } c=a )
+\text{Pr} ( a=b \text{ or } b=c \text{ or } c=a ) &= 1 -  \text{Pr} ( a=b \text{ and } b=c \text{ and } c=a ) \\\\
+&= 
 \end{align}
 
 $$\text{Pr} \{ a=b \text{ or } b=c \text{ or } c=a \}$$
