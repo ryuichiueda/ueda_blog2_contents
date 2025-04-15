@@ -115,6 +115,24 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 
 [（戻る）](/?page=robot_and_stats_questions#独立)
 
+### 確率の雑多な問題1
+
+各サイコロの目を$a, b, c$とおきましょう。加法定理より
+
+\begin{align}
+&\text{Pr} \\{ a=b \text{or} b=c \text{or} c=a \\}  + \text{Pr} \\{ a=b \text{or} b=c \text{or} c=a \\}  = 1
+\begin{end}
+
+$$\text{Pr} \{ a=b \text{ or } b=c \text{ or } c=a \}$$
+$$=1 - \text{Pr} \{ a \neq b \text{ and } b \neq c \text{ and } c \neq a \}$$
+$$=1 - \text{Pr} \{ b \neq c \text{ and } c \neq a | a \neq b \}\text{Pr}(a \neq b)$$
+$$=1 - 4/6 \cdot 5/6$$
+$$= 16/36 = 4/9$$
+
+
+
+[（戻る）](/?page=robot_and_stats_questions#確率の雑多な問題1)
+
 ## 3章
 
 

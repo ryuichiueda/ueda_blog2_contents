@@ -80,6 +80,12 @@ $$\text{Pr} \\{ (x_1 + x_2) \equiv 0 \ (\text{mod} 2) \\}$$
 
 [（答え）](/?page=robot_and_stats_answers#独立)
 
+### 確率の雑多な問題1
+
+サイコロを3つ振ったときに2つ以上のサイコロが同じ目になる確率を求めてください。
+
+[（答え）](/?page=robot_and_stats_answers#確率の雑多な問題1)
+
 ## 3章
 
 ### 賭け事と期待値
