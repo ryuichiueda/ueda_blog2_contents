@@ -133,7 +133,7 @@ $$\text{Pr} ( a=b \text{ or } b=c \text{ or } c=a ) + \text{Pr} ( a\neq b \text{
 \end{align}
 となります。
 
-　\\(\text{Pr} ( b \neq c \text{ and } c \neq a | a \neq b )\\)は、\\(c\\)の目が他の2つと異なる確率なので、4/6になり、\\(\text{Pr}(a \neq b)\\)は、2つのサイコロの目がゾロ目にならない確率なので1/5となります。
+　\\(\text{Pr} ( b \neq c \text{ and } c \neq a | a \neq b )\\)は、\\(c\\)の目が他の2つと異なる確率なので4/6になります。また、\\(\text{Pr}(a \neq b)\\)は、2つのサイコロの目がゾロ目にならない確率なので1/5となります。
 
 　したがって答えは、
 \begin{align}
