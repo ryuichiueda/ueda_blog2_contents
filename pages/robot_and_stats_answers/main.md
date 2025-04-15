@@ -115,6 +115,36 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 
 [（戻る）](/?page=robot_and_stats_questions#独立)
 
+### 確率の雑多な問題1
+
+　各サイコロの目を\\(a, b, c\\)とおきましょう。求める確率は
+$$\text{Pr} ( a=b \text{ or } b=c \text{ or } c=a )$$
+となります。
+
+　これらの2個以上が一致するという事象の排反事象は、\\(a, b, c\\)がすべて異なるということなので、加法定理より
+
+$$\text{Pr} ( a=b \text{ or } b=c \text{ or } c=a ) + \text{Pr} ( a\neq b \text{ and } b \neq c \text{ and } c \neq a ) = 1$$
+
+となり、したがって
+
+\begin{align}
+\text{Pr} ( a=b \text{ or } b=c \text{ or } c=a ) &= 1 -  \text{Pr} ( a \neq b \text{ and } b\neq c \text{ and } c \neq a ) \\\\
+&= 1 - \text{Pr} ( b \neq c \text{ and } c \neq a | a \neq b )\text{Pr}(a \neq b)
+\end{align}
+となります。
+
+　\\(\text{Pr} ( b \neq c \text{ and } c \neq a | a \neq b )\\)は、\\(c\\)の目が他の2つと異なる確率なので4/6になります。また、\\(\text{Pr}(a \neq b)\\)は、2つのサイコロの目がゾロ目にならない確率なので5/6となります。
+
+　したがって答えは、
+\begin{align}
+\text{Pr} ( a=b \text{ or } b=c \text{ or } c=a ) &= 1 - 4/6 \cdot 5/6 \\\\
+&= 4/9
+\end{align}
+
+となります。
+
+[（戻る）](/?page=robot_and_stats_questions#確率の雑多な問題1)
+
 ## 3章
 
 

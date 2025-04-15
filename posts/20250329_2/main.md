@@ -21,17 +21,16 @@ bash-completion並みに変態なので、
 テストスクリプトの当該のところを見たら関数の定義に`()`
 がついてません。
 
+```bash
+function f1
+{
+	typeset -n v=$1 #そういえばtypesetもまだ実装してない
+
+	v=inside
+}
+```
+
 * [当該部分](https://github.com/ryuichiueda/bash_for_sush_test/blob/80e51650daea4ce8b444b75e0a960dc08e724075/tests/nameref8.sub#L14-L19)
-    ```bash
-    ### 上のリンクの部分 ###
-    function f1
-    {
-    	typeset -n v=$1
-    
-    
-    	v=inside
-    }
-    ```
 
 どうやら`function`と明示的に書いて関数を定義すると
 `()`が要らんようです。確かにシェルの関数の`()`
@@ -58,7 +57,7 @@ Bashで`shopt -s globstar`を実行すると、
 それ以下にあるファイルやディレクトリのパスを
 すべて列挙できるという機能です。
 
-　で、自作シェルでは辛いので実装を後回しにしてたのですが、
+　で、実装は辛そうなので後回しにしてたのですが、
 Bashの公式テストに叱られるので実装しました。
 ビビってた割には簡単に実装できたのですが、
 うまく動いているはずなのになぜかテストが通りません。
@@ -82,23 +81,23 @@ a a/a a/a a/b b/a
 
 　テストスクリプトにこう書いてあるので、
 
+```bash
+# same as ksh93
+s '**/a/**'
+p **/a/**
+
+
+# same as ksh93
+s '**/a/**/**'
+p **/a/**/**
+
+
+# same as ksh93
+s '**/a/**/**/**'
+p **/a/**/**/**
+```
+
 * [当該部分](https://github.com/ryuichiueda/bash_for_sush_test/blob/80e51650daea4ce8b444b75e0a960dc08e724075/tests/globstar2.sub#L80-L90)
-    ```bash
-    ### 上のリンクの部分 ###
-    # same as ksh93
-    s '**/a/**'
-    p **/a/**
-    
-    
-    # same as ksh93
-    s '**/a/**/**'
-    p **/a/**/**
-    
-    
-    # same as ksh93
-    s '**/a/**/**/**'
-    p **/a/**/**/**
-    ```
 
 kshに互換性を持たせているか、
 同じ実装になっているようです。
@@ -116,9 +115,9 @@ kshに互換性を持たせているか、
 ```bash
 ### Bashの例です ###
 
-### : で'A:A:::'を区切るので、###
-### 5個に分割されるが、変数が2つなので、 ###
-### ふたつめのA以降はbにくっつく ###
+### : で'A:A:::'を区切るので           ###
+### 5個に分割されるが、変数が2つなので ###
+### ふたつめのA以降はbにくっつく       ###
 $ IFS=":" ; read a b <<< 'A:A:::' ; echo "($a)($b)"
 (A)(A:::)
 ### 区切りがひとつ減るのでコロンも1つ減る ###
@@ -148,7 +147,7 @@ ueda@p1gen6:~/GIT/bash_for_sush_test/sush_test$ ./single_test run-ifs-posix
 
 ### Bashで検証してみる ###
 $ IFS=": "; x="  :"; set x $x; shift; echo "[$#]($1)($2)"
-[1]()()  #←寿司シェルと同じ（()がひとつ多いのは無視で大丈夫です）
+[1]()()  #←自作シェルと同じ（()がひとつ多いのは無視で大丈夫です）
 
 ### Bashでテストスクリプトを実行 ###
 ueda@p1gen6:~/GIT/bash_for_sush_test/tests$ THIS_SH=bash bash ./ifs-posix.tests
@@ -158,7 +157,8 @@ ueda@p1gen6:~/GIT/bash_for_sush_test/tests$ THIS_SH=bash bash ./ifs-posix.tests
 
 何が原因なのか調査中と言いたいところですが、
 他のことを優先すべきということで放置してます。
-自作シェルのほうは6856中504が失敗と出ていますが、
+（と書いたけどテストが全部できてないのでなんかパースエラーがあるっぽいので調べます。）
+自作シェルのほうは3712中504が失敗と出ていますが、
 ほとんどは端末上のBashとは一致しているっぽいです。
 
 ## その他
@@ -166,7 +166,7 @@ ueda@p1gen6:~/GIT/bash_for_sush_test/tests$ THIS_SH=bash bash ./ifs-posix.tests
 　テストスクリプトで使われていたのでヒアドキュメントを実装しました。
 まだちょっと雑です。
 
-　また、自作シェルは一部Bashより機能が多いのですが、
+　また、自作シェルはBashを一部拡張した部分があるんですが、
 それが発動するとテストが通らなくなるので新たに`-b`
 （bash compatibility）というオプションをつけました。
 上のログに`THIS IS BASH COMPATIBILITY TEST MODE`と出ているのはそれです。
@@ -180,6 +180,6 @@ ueda@p1gen6:~/GIT/bash_for_sush_test/tests$ THIS_SH=bash bash ./ifs-posix.tests
 
 　自分で実装しているとほんとに分からんことだらけになります。
 たぶんこれでもBashについてはよく理解しているほうだとは思うのですが、
-お前そんなことも知らないのかみたいなことを書くクソブロガーには永久になれそうもありません・・・
+偉そうなクソブロガーには永久になれそうもありません・・・
 
 現場からは以上です。
