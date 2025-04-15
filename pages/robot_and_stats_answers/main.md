@@ -119,7 +119,11 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 
 各サイコロの目を$a, b, c$とおきましょう。加法定理より
 
-$$\text{Pr} ( a=b \text{or} b=c \text{or} c=a ) + \text{Pr} ( a=b \text{or} b=c \text{or} c=a ) = 1$$
+$$\text{Pr} ( a=b \text{ or } b=c \text{ or } c=a ) + \text{Pr} ( a=b \text{ or } b=c \text{ or } c=a ) = 1$$
+
+したがって
+
+$$\text{Pr} ( a=b \text{ or } b=c \text{ or } c=a ) = 1 -  \text{Pr} ( a=b \text{ or } b=c \text{ or } c=a )$$
 
 $$\text{Pr} \{ a=b \text{ or } b=c \text{ or } c=a \}$$
 $$=1 - \text{Pr} \{ a \neq b \text{ and } b \neq c \text{ and } c \neq a \}$$
