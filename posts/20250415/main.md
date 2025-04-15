@@ -11,6 +11,9 @@ Copyright: (C) 2025 Ryuichi Ueda
 
 　[alphaブランチ](https://github.com/shellgei/rusty_bash/tree/alpha)のコードでほぼ動くようになりました。ただし、bash-completionを読み込むときにいくつかエラーが出ます。これについてはもうちょっと整理してから改めてここに書きたいと思ってます。
 
+<iframe src="https://mi.shellgei.org/embed/notes/a6h0bho72l" data-misskey-embed-id="v1_6b2cca45-a37e-462b-97be-8645d4f35bb9" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" style="border: none; width: 100%; max-width: 500px; height: 300px; color-scheme: light dark;"></iframe>
+<script defer src="https://mi.shellgei.org/embed.js"></script>
+
 ## Bashの公式リポジトリのテスト
 
 　とりあえずこんな感じでじわじわ対応中です。
