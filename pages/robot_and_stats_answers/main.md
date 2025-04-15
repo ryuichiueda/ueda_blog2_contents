@@ -117,7 +117,7 @@ $$P(X, Y | Z) = P(Y|X,Z)P(X|Z)$$
 
 ### 確率の雑多な問題1
 
-各サイコロの目を$a, b, c$とおきましょう。加法定理より
+各サイコロの目を\\(a, b, c\\)とおきましょう。加法定理より
 
 $$\text{Pr} ( a=b \text{ or } b=c \text{ or } c=a ) + \text{Pr} ( a=b \text{ and } b=c \text{ and } c=a ) = 1$$
 
