@@ -125,7 +125,7 @@ $$\text{Pr} ( a=b \text{ or } b=c \text{ or } c=a )$$
 
 $$\text{Pr} ( a=b \text{ or } b=c \text{ or } c=a ) + \text{Pr} ( a\neq b \text{ and } b \neq c \text{ and } c \neq a ) = 1$$
 
-したがって
+となり、したがって
 
 \begin{align}
 \text{Pr} ( a=b \text{ or } b=c \text{ or } c=a ) &= 1 -  \text{Pr} ( a \neq b \text{ and } b\neq c \text{ and } c \neq a ) \\\\
