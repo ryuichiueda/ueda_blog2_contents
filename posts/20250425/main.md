@@ -23,7 +23,7 @@ Bashの場合、`cat改行OH`というスクリプトを標準入力から受け
 
 Rustの標準入力を1行読むやつ（`std::io::stdin().read_line()`）が勝手に何行も読んでバッファリングしてました。いや、勝手にって書きましたがちゃんと https://doc.rust-lang.org/std/io/fn.stdin.html に書いてありますごめんなさいごめんなさい。
 
-　ということで、バッファしないようにしたら`sush`でもBashの挙動が再現できました。
+　ということで、バッファしないようにしたら`sush`でもBashの挙動が再現できました。パフォーマンスはちょっと落ちるような気がしますが、パイプ自体がバッファしているのをシェル側でまたバッファするのもなんとなく変なので、これでいいと思います。
 
 <iframe src="https://mi.shellgei.org/embed/notes/a700zqafw3" data-misskey-embed-id="v1_f5a83526-a4d4-40b0-b6c9-9e0327f82c97" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" style="border: none; width: 100%; max-width: 500px; height: 300px; color-scheme: light dark;"></iframe>
 <script defer src="https://mi.shellgei.org/embed.js"></script>
