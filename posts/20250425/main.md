@@ -28,7 +28,7 @@ Bashの場合、`cat改行OH`というスクリプトを標準入力から受け
 <iframe src="https://mi.shellgei.org/embed/notes/a700zqafw3" data-misskey-embed-id="v1_f5a83526-a4d4-40b0-b6c9-9e0327f82c97" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" style="border: none; width: 100%; max-width: 500px; height: 300px; color-scheme: light dark;"></iframe>
 <script defer src="https://mi.shellgei.org/embed.js"></script>
 
-　ただ、Rustでバッファなしで標準入力を扱う方法がよくわからず、結局、[このクレート](https://crates.io/crates/io-streams)を使うことにしました。なんで便利でなくすためにクレートを追加せねばならぬのか分からん・・・のですが、過保護な言語にはよくある話ではあります。
+　ただ、Rustでバッファなしで標準入力を扱う方法がよくわからず、結局、[このクレート](https://crates.io/crates/io-streams)を使うことにしました。なんで先祖返りするためにクレートを追加せねばならぬのか分からん・・・のですが、過保護な言語にはよくある話ではあります。
 
 
 ## インデックスを指定した配列、連想配列の初期化
