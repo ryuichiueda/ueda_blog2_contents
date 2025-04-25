@@ -45,7 +45,7 @@ Bashの場合、`cat改行OH`というスクリプトを標準入力から受け
 
 ## その他
 
-　`${hoge[@]/a/b}`、`${hoge[@]%%a}`など、配列の各要素を置換したり、削除したりする機能を実装し忘れていたので、実装を追加しました。また、ヒアドキュメントの実装が雑だったので少しまともにしました。現在のBashとの互換性テストはこんな感じです。前回から通ったテストスクリプトの数が$7$から$14$に倍増しました。
+　`${hoge[@]/a/b}`、`${hoge[@]%%a}`など、配列の各要素を置換したり、削除したりする機能を実装し忘れていたので、実装を追加しました。また、ヒアドキュメントの実装が雑だったので少しまともにしました。現在のBashとの互換性テストはこんな感じです。前回から通ったテストスクリプトの数が7から14に倍増しました。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ここ数日実装漏れとかI/O関係の不備とかが次々と見つかって、Bashとの互換性テストの結果が一気に14/85（16%）まで向上しました <a href="https://twitter.com/hashtag/%E8%87%AA%E4%BD%9C%E3%82%B7%E3%82%A7%E3%83%AB?src=hash&amp;ref_src=twsrc%5Etfw">#自作シェル</a> <a href="https://twitter.com/hashtag/bash?src=hash&amp;ref_src=twsrc%5Etfw">#bash</a><a href="https://t.co/EmMlWYpeqi">https://t.co/EmMlWYpeqi</a> <a href="https://t.co/CYtO9eVA4s">pic.twitter.com/CYtO9eVA4s</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1915670184528142632?ref_src=twsrc%5Etfw">April 25, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
