@@ -359,14 +359,14 @@ L(Y|晴) &= 2a
 ということで、まず雨の日の時点で、
 
 \begin{align}
-P(X|雨) &= \eta L(X|雨) P(X) = \eta 2a 0.5 =a\eta
+P(X|雨) &= \eta L(X|雨) P(X) = \eta 2a 0.5 =a\eta\\\\
 P(Y|雨) &= \eta L(Y|雨) P(Y) = \eta a 0.5 =a\eta/2
 \end{align}
 
 なので、正規化して
 
 \begin{align}
-P(X|雨) &= 2/3
+P(X|雨) &= 2/3\\\\
 P(Y|雨) &= 1/3
 \end{align}
 
