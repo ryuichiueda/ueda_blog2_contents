@@ -356,6 +356,14 @@ L(X|晴) &= a\\\\
 L(Y|晴) &= 2a
 \end{align}
 
+
+ということで
+
+
+\begin{align}
+P(X|雨) = \eta L(X|雨) P(X) = \eta 2a 0.5 =a
+\end{align}
+
 [（戻る）](/?page=robot_and_stats_questions#どこにいるのかを当てるゲーム)
 
 
