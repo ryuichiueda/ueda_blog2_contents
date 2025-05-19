@@ -377,6 +377,14 @@ P(X|雨、晴) &= \eta L(X|晴) P(X|雨) = \eta a 2/3\\\\
 P(Y|雨、晴) &= \eta L(Y|晴) P(Y|雨) = \eta 2a 1/3
 \end{align}
 
+となる（要は同じ確率になる）ので、
+
+\begin{align}
+P(X|雨、晴) &= 1/2\\\\
+P(Y|雨、晴) &= 1/2
+\end{align}
+
+となります。
 
 [（戻る）](/?page=robot_and_stats_questions#どこにいるのかを当てるゲーム)
 
