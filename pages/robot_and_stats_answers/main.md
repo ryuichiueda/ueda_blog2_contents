@@ -350,10 +350,10 @@ P(X|Y) &= \dfrac{P(Y|X)P(X)}{P(Y)}\text{・・・(3)}
 　尤度はこうなります。
 
 \begin{align}
-L(X|雨) = 2a\\\\
-L(Y|雨) = a\\\\
-L(X|晴) = a\\\\
-L(Y|晴) = 2a
+L(X|雨) &= 2a\\\\
+L(Y|雨) &= a\\\\
+L(X|晴) &= a\\\\
+L(Y|晴) &= 2a
 \end{align}
 
 [（戻る）](/?page=robot_and_stats_questions#どこにいるのかを当てるゲーム)
