@@ -43,7 +43,7 @@ Copyright: (C) 2025 Ryuichi Ueda
 * [bash-completionが動くようになって](/?post=20250217)十分実用に耐えうるようになり、自分でもBashから乗り換えることに成功
 * Bashとの互換性のテストを導入して進捗をグラフに
 
-![](https://github.com/ryuichiueda/bash_for_sush_test/blob/master/sush_test/graph.png)
+![](graph.png)
 
 ## 画像処理（と言いつつニューラルネットワーク）の講義資料
 
