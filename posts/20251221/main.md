@@ -145,6 +145,17 @@ Copyright: (C) 2025 Ryuichi Ueda
 * 馬場琉生, 上田隆一, 林原靖男: 物体追跡導入によるリアルタイム・ゼロショットセグメンテーション —自律走行モビリティにおける認識・判断タスクへの応用—, 第26回SICE SI, pp.1033-1037, 2025.
 * 佐々木新平, 吉越誠, 林原靖男, 上田隆一: 自律移動ロボットの自己位置推定におけるVisual Positioning Systemを用いたリセット手法, 第26回SICE SI, pp.1674-1676, 2025.
 
+## 歩いてるオッサンの動きの予測
+
+　1月ごろはまだ自分でも研究していて、2024年12月の学会（SI2024）で発表した、ロボットのまわりの動いてるものの動きを予測するアルゴリズムを改良していました。細かい話は抜きでデモ動画を置いときます。シミュレータのオッサンがロボットを蹴ってしまうので、ロボットは床にくくりつけました。たぶんオッサン痛いと思います。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PaUjYknkfbM?si=ZEnQpbiiWjyqmpzO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+　この研究、いまは学生さんが動いているロボットで動作させるという難しい課題に取り組んでいます。そのうち発表できるといいなあと。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4KCgPyFKZNI?si=MxUB2D7ZFTk4bLF6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+この動画でもオッサンがロボットを蹴ってて、ロボットが吹っ飛んでます。
 
 ## まだ出てないけど頑張ったやつ
 
