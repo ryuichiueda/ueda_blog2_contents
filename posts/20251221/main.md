@@ -50,6 +50,24 @@ Copyright: (C) 2025 Ryuichi Ueda
 
 ## 画像処理（と言いつつニューラルネットワーク）の講義資料
 
+　本年度は急遽、大学院の画像処理の講義を追加で受け持つことになりました。後期の講義で5月ごろに担当が決まったので、すぐに構成をどうするか考え始めたんですが、今はVLM（vision-language model）の時代なので、思い切って全編人工ニューラルネットワークだけで構成してみました。といっても自分はここらへんの経験がないので、文献を読みまくって勉強しながらだったので、今年一番時間をかけた仕事になりました。
+
+- [第1回: ガイダンス・イントロダクション](https://ryuichiueda.github.io/slides_marp/advanced_vision/lesson1.html)
+- [第2回: 人工ニューラルネットワークの学習](https://ryuichiueda.github.io/slides_marp/advanced_vision/lesson2.html)
+- [第3回: 画像の識別と生成の基礎I](https://ryuichiueda.github.io/slides_marp/advanced_vision/lesson3.html)
+- [第4回: 画像の識別と生成の基礎II](https://ryuichiueda.github.io/slides_marp/advanced_vision/lesson4.html)
+- [第4.5回: 画像の識別と生成の基礎II（の補足）](https://ryuichiueda.github.io/slides_marp/advanced_vision/lesson4-2.html)
+- [第5回: 埋め込みと文脈の付加](https://ryuichiueda.github.io/slides_marp/advanced_vision/lesson5.html)
+- [第6回: Transformerの構造](https://ryuichiueda.github.io/slides_marp/advanced_vision/lesson6.html)
+- [第7回: Transformerの応用](https://ryuichiueda.github.io/slides_marp/advanced_vision/lesson7.html)
+- [第8回: 画像処理と言語処理の融合](https://ryuichiueda.github.io/slides_marp/advanced_vision/lesson8.html)
+- [第9回: 画像と言語、ロボット制御の融合I](https://ryuichiueda.github.io/slides_marp/advanced_vision/lesson9.html)
+- [第10回: 画像と言語、ロボット制御の融合II](https://ryuichiueda.github.io/slides_marp/advanced_vision/lesson10.html)
+- [第11回: NeRFと3DGS](https://ryuichiueda.github.io/slides_marp/advanced_vision/lesson11.html)
+
+
+
+
 ## 確率ロボティクスの講義資料
 
 ## シェル芸勉強会
