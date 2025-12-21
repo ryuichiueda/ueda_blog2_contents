@@ -161,7 +161,7 @@ VLA関係のものは論文を読むだけで済んだので、[河原塚先生�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PaUjYknkfbM?si=ZEnQpbiiWjyqmpzO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-　この研究、いまは学生さんが動いているロボットで動作させるという難しい課題に取り組んでいます。そのうち発表できるといいなあと。
+　この研究、いまは学生さんに丸投げして、その学生さんが動いているロボットで動作させるという難しい課題に取り組んでいます。そのうち発表できるといいなあと。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4KCgPyFKZNI?si=MxUB2D7ZFTk4bLF6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
