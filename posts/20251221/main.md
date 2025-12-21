@@ -65,6 +65,15 @@ Copyright: (C) 2025 Ryuichi Ueda
 - [第10回: 画像と言語、ロボット制御の融合II](https://ryuichiueda.github.io/slides_marp/advanced_vision/lesson10.html)
 - [第11回: NeRFと3DGS](https://ryuichiueda.github.io/slides_marp/advanced_vision/lesson11.html)
 
+　講義資料を書くにあたって、論文だけだと難しいのでいろんな本も参考にさせていただきました。全然意識はなかったのですが、連載でもお世話になってる技術評論社さんの本ばっかりになりました。力を入れてるんだろうなと。（自分もいつかVLAでなんか書けるように頑張ろう・・・）
+
+* [山本晋太郎, 他: Vision Transformer入門, 技術評論社, 2022.](https://amzn.to/4s92cGK)
+* [山田育矢, 他: 大規模言語モデル入門, 技術評論社, 2023.](https://amzn.to/48O3wHt)
+* [山田育矢, 他: 大規模言語モデル入門II, 技術評論社, 2024.](https://amzn.to/494xbea)
+* [中井悦司: 仕組みから学ぶ生成AI入門, 技術評論社, 2025.](https://amzn.to/4sfGTn5)
+* [菊田遥平: 原論文から解き明かす生成AI, 2025.](https://amzn.to/3Le8lkj)
+
+洋書も買ったんですけど、格調高くてそれなら論文読んだほうがいいかなーという感じでした。本も論文も書く身としては、本はやっぱり読む人に寄り添ってナンボだと思います。
 
 ## 確率ロボティクスの講義資料
 
