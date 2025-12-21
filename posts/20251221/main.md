@@ -103,6 +103,29 @@ Copyright: (C) 2025 Ryuichi Ueda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tp4mrLqFLgA?si=ouRzgLWPJ5OLZHpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## 機械学習の講義
+
+　実はもう1件、前期に新規の講義をやってました。他大の非常勤講師で機械学習がテーマでした。この資料を先述の2つの講義に転用できたので、結果オーライで・・・。ニューラルネットワークのところはリサーチが足りないです。
+
+# 機械学習講義
+
+- 第1回: [ガイダンス・イントロダクション](https://ryuichiueda.github.io/slides_marp/machine_learning_and_stats/lesson1.html)
+- 第2回: [確率と期待値による判断や決定](https://ryuichiueda.github.io/slides_marp/machine_learning_and_stats/lesson2.html)
+- 第3回: [様々な分布I](https://ryuichiueda.github.io/slides_marp/machine_learning_and_stats/lesson3.html)
+- 第4回: [様々な分布II](https://ryuichiueda.github.io/slides_marp/machine_learning_and_stats/lesson4.html)
+- 第5回: [連想ゲームとベイズの定理](https://ryuichiueda.github.io/slides_marp/machine_learning_and_stats/lesson5.html)
+- 第6回: [自信のなさの見積もりとベイズ推論](https://ryuichiueda.github.io/slides_marp/machine_learning_and_stats/lesson6.html)
+- 第7回: [法則性の発見: 最小二乗法と回帰](https://ryuichiueda.github.io/slides_marp/machine_learning_and_stats/lesson7.html)
+- 第8回: [法則性の発見+自信のなさの見積もり: ベイズ線形回帰](https://ryuichiueda.github.io/slides_marp/machine_learning_and_stats/lesson8.html)
+- 第9回: [動物におけるクラスタリングの役割と古典的手法](https://ryuichiueda.github.io/slides_marp/machine_learning_and_stats/lesson9.html)
+- 第10回: [クラスタリングとベイズ推論](https://ryuichiueda.github.io/slides_marp/machine_learning_and_stats/lesson10.html)
+- 第11回: [人工ニューラルネットワークの基礎](https://ryuichiueda.github.io/slides_marp/machine_learning_and_stats/lesson11.html)
+- 第12回: [画像と人工ニューラルネットワーク](https://ryuichiueda.github.io/slides_marp/machine_learning_and_stats/lesson12.html)
+- 第13回: [言語と人工ニューラルネットワーク](https://ryuichiueda.github.io/slides_marp/machine_learning_and_stats/lesson13.html)
+- 第14回: [強化学習](https://ryuichiueda.github.io/slides_marp/machine_learning_and_stats/lesson14.html)
+
+
+
 ## 横幹連合での発表
 
 ## 学生さんの予稿
