@@ -65,7 +65,7 @@ Copyright: (C) 2025 Ryuichi Ueda
 - [第10回: 画像と言語、ロボット制御の融合II](https://ryuichiueda.github.io/slides_marp/advanced_vision/lesson10.html)
 - [第11回: NeRFと3DGS](https://ryuichiueda.github.io/slides_marp/advanced_vision/lesson11.html)
 
-　講義資料を書くにあたって、論文だけだと難しいのでいろんな本も参考にさせていただきました。全然意識はなかったのですが、連載でもお世話になってる技術評論社さんの本ばっかりになりました。力を入れてるんだろうなと。（自分もいつかVLAでなんか書けるように頑張ろう・・・）
+　講義資料を書くにあたって、論文だけだと難しいのでいろんな本も参考にさせていただきました。全然意識はなかったのですが、ド定番である「[ゼロから作るDeep Learning](https://amzn.to/4s9F6zC)」以外は、連載でもお世話になってる技術評論社さんの本ばっかりになりました。力を入れてるんだろうなと。（自分もいつかVLAでなんか書けるように頑張ろう・・・）
 
 * [山本晋太郎, 他: Vision Transformer入門, 技術評論社, 2022.](https://amzn.to/4s92cGK)
 * [山田育矢, 他: 大規模言語モデル入門, 技術評論社, 2023.](https://amzn.to/48O3wHt)
