@@ -140,7 +140,7 @@ VLA関係のものは論文を読むだけで済んだので、[河原塚先生�
 
 <script async class="docswell-embed" src="https://www.docswell.com/assets/libs/docswell-embed/docswell-embed.min.js" data-src="https://www.docswell.com/slide/KVMRPE/embed" data-aspect="0.5625"></script><div class="docswell-link"><a href="https://www.docswell.com/s/ryuichiueda/KVMRPE-oukan2025">第16回横幹連合コンファレンスの発表資料（2025年12月13日@金沢工業大学） by @ryuichiueda</a></div>
 
-## 学生さんの予稿
+## 学生さんの学会発表・予稿
 
 　学生さんの成果は学生さん自身のものですが、協力して世に出しているので書いておきます。いつもは年度でリスト化してますが、ここでは2025年というくくりで。林原先生が共著の4件は口出しだけでちゃんと添削できなかったので反省です。他のものについては添削しつこすぎて反省。
 
