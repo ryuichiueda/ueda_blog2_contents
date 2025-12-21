@@ -38,7 +38,12 @@ Copyright: (C) 2025 Ryuichi Ueda
 
 ## 寿司シェル
 
-bash-completionが動くようになって自分でもBashから乗り換えることに成功しました。
+　連載のもとになっている[自作シェル](https://github.com/shellgei/rusty_bash)の実装については、今年はこんなことがありました。
+
+* [bash-completionが動くようになって](/?post=20250217)十分実用に耐えうるようになり、自分でもBashから乗り換えることに成功
+* Bashとの互換性のテストを導入して進捗をグラフに
+
+![](https://github.com/ryuichiueda/bash_for_sush_test/blob/master/sush_test/graph.png)
 
 ## 画像処理（と言いつつニューラルネットワーク）の講義資料
 
