@@ -97,6 +97,12 @@ Copyright: (C) 2025 Ryuichi Ueda
 
 ## シェル芸勉強会
 
+　これも画像処理の講義の関係で止まっちゃいましたが（どんだけ影響出てるんだ・・・）、今年はシェル芸勉強会を2回やりました。これも来春復活で。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c_JHGiuTex4?si=l3nqFhItYuRBN2tC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tp4mrLqFLgA?si=ouRzgLWPJ5OLZHpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## 横幹連合での発表
 
 ## 学生さんの予稿
