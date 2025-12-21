@@ -91,6 +91,10 @@ Copyright: (C) 2025 Ryuichi Ueda
 
 ## 確率ロボティクスの講義動画
 
+　これも画像処理の講義の関係で中断しているのですが、今年前半は確率ロボティクスの講義動画も撮っていました。いま第3回（[灰色の本](https://amzn.to/49mhD6Z)の3章）まで撮ってあるので、そのうち再開します。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=XKxEklU50wrDhOIS&amp;list=PLbUh9y6MXvjflQMIMsaayJk3-WToisBzN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## シェル芸勉強会
 
 ## 横幹連合での発表
