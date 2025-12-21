@@ -10,8 +10,9 @@ Copyright: (C) 2025 Ryuichi Ueda
 
 ## ロボット学会のセミナーの物騒なスライド
 
-　[昨年のロボット学会学術講演会でのROS 2に関するブチギレ発表](https://www.docswell.com/s/ryuichiueda/54VVYD-2024-09-03-ros-ug)に次いで、
-2年連続でブチギレ発表をしました。研究者は研究発表をしなければという自身の思いとは裏腹にそういうキャラクターに堕ちてしまって
+　[昨年のロボット学会学術講演会でのROS 2に関するブチギレ発表](https://www.docswell.com/s/ryuichiueda/54VVYD-2024-09-03-ros-ug)に次いで、2年連続でブチギレ発表をしました。研究者は研究発表をしなければという自身の思いとは裏腹にそういうキャラクターに成り果てていて涙も枯れ果てました。
+
+<script async class="docswell-embed" src="https://www.docswell.com/assets/libs/docswell-embed/docswell-embed.min.js" data-src="https://www.docswell.com/slide/K37XMM/embed" data-aspect="0.5625"></script><div class="docswell-link"><a href="https://www.docswell.com/s/ryuichiueda/K37XMM-2025-12-02-rsj-seminar">自律移動と最適制御 by @ryuichiueda</a></div>
 
 ## ソフトウェアデザインの連載（26回〜37回）
 
