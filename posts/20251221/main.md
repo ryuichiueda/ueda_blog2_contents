@@ -125,7 +125,7 @@ Copyright: (C) 2025 Ryuichi Ueda
 
 ## 横幹連合での発表
 
-　結局、講義の関係で学会にもほとんど行ってないんですが、1件だけ、自分で発表がありました。[昨年出版された「イノベーションの創出」本](https://amzn.to/4jepBTg)の関係の発表で、第3章の著者として発表してきました。予稿も書きましたが、「本の通りです」と書くしかなく、あとは愚痴みたいなものを書いて大変申し訳ございませんでした。
+　結局、講義の関係で学会にもほとんど行ってないんですが、1件だけ、自分で発表がありました。[昨年出版された「イノベーションの創出」本](https://amzn.to/4jepBTg)の関係の発表で、第3章の著者として発表してきました。予稿も書きましたが、「本の通りです」と書くしかなく、あとは愚痴みたいなものを書いて大変申し訳ございませんでした。あと、ついでに実家に寄りました（SIのあった広島から直行）。
 
 <script async class="docswell-embed" src="https://www.docswell.com/assets/libs/docswell-embed/docswell-embed.min.js" data-src="https://www.docswell.com/slide/KVMRPE/embed" data-aspect="0.5625"></script><div class="docswell-link"><a href="https://www.docswell.com/s/ryuichiueda/KVMRPE-oukan2025">第16回横幹連合コンファレンスの発表資料（2025年12月13日@金沢工業大学） by @ryuichiueda</a></div>
 
