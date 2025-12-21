@@ -105,7 +105,7 @@ Copyright: (C) 2025 Ryuichi Ueda
 
 ## 機械学習の講義
 
-　実はもう1件、前期に新規の講義をやってました。他大の非常勤講師で機械学習がテーマでした。この資料を先述の2つの講義に転用できたので、結果オーライで・・・。ニューラルネットワークのところはリサーチが足りないです。
+　実はもう1件、前期に新規の講義をやってました。他大の非常勤講師で機械学習がテーマでした。この資料を先述の2つの講義に転用できたので、多少負荷が減りました。結果オーライで・・・。ニューラルネットワークのところはリサーチが足りないです。
 
 - 第1回: [ガイダンス・イントロダクション](https://ryuichiueda.github.io/slides_marp/machine_learning_and_stats/lesson1.html)
 - 第2回: [確率と期待値による判断や決定](https://ryuichiueda.github.io/slides_marp/machine_learning_and_stats/lesson2.html)
