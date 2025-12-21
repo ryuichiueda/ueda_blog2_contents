@@ -14,7 +14,7 @@ Copyright: (C) 2025 Ryuichi Ueda
 
 <script async class="docswell-embed" src="https://www.docswell.com/assets/libs/docswell-embed/docswell-embed.min.js" data-src="https://www.docswell.com/slide/K37XMM/embed" data-aspect="0.5625"></script><div class="docswell-link"><a href="https://www.docswell.com/s/ryuichiueda/K37XMM-2025-12-02-rsj-seminar">自律移動と最適制御 by @ryuichiueda</a></div>
 
-## ソフトウェアデザインの連載（26回〜37回）
+## [ソフトウェアデザイン](https://gihyo.jp/magazine/SD)の連載（26回〜37回）
 
 　2022年12月から始まった「[魅惑の自作シェルの世界](/?page=sd_rusty_bash)」が今年も打ち切りにならず続いてます。シェル芸で各回のタイトルを抜き出すとこんな感じです。コマンドの引数、関数、変数についてひたすら実装を進めていたようです（覚えてない）。
 
