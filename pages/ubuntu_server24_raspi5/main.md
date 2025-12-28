@@ -9,5 +9,5 @@ Copyright: (C) Ryuichi Ueda 2025
 
 ## Raspberry Pi Imagerのインストール
 
-　[Raspberry Pi 財団のページ](https://www.raspberrypi.com/software/)から、「Raspberry Pi Imager」をインストールします。macOS用、Windows用、Linux用がありますが、以下ではmacOS用をもとに説明します。
+　[Raspberry Pi 財団のページ](https://www.raspberrypi.com/software/)から、「Raspberry Pi Imager」をインストールします。macOS用、Windows用、Linux用がありますが、以下ではmacOS用をもとに説明します。Windows版もほとんど同じものと思われます。
 
