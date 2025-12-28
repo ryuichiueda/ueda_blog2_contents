@@ -41,7 +41,7 @@ Copyright: (C) Ryuichi Ueda 2025
 
 ## ホスト名
 
-　好きな名前をどうぞ。書籍では「raspi5」です。
+　ラズパイに名前をつけます。好きな名前をどうぞ。書籍では「raspi5」です。（上級や向け）もちろん、フルドメイン名で書いてもいいと思います。
 
 ![](./hostname.png)
 
@@ -51,3 +51,9 @@ Copyright: (C) Ryuichi Ueda 2025
 
 ![](./localization.png)
 
+## Choose username
+
+　ログインに使う名前を選択します。特にこだわりがなければ姓名のどちらかで。長いと疲れます。厨二病っぽいとあとで後悔します。
+
+
+![](./username.png)
