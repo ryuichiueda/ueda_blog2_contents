@@ -80,7 +80,7 @@ Copyright: (C) Ryuichi Ueda 2025
 
 ## 書き込み完了後
 
-　書き込みが終わると次の画面が出ますので、
+　書き込みが終わると次の画面が出ますので、FINISHを押してmicroSDを外します。
 
 ![](./finish.png)
 
