@@ -57,3 +57,9 @@ Copyright: (C) Ryuichi Ueda 2025
 
 
 ![](./username.png)
+
+## Choose Wi-Fi
+
+　SSID（アクセスポイントの名前）とパスワードを入力しましょう。必要に応じてステルスSSIDなどにチェックを入れないといけませんが、よく分からないなら、おそらくチェックは不要です。あと、上のSECURE/OPEN NETWORKの選択ですが、OPEN NETWORKはたぶん危険なので、ご家庭のSECURE NETWORKを選択してください。
+
+![](./wifi.png)
