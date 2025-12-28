@@ -15,8 +15,10 @@ Copyright: (C) Ryuichi Ueda 2025
 * 普段使っているPC（次に説明するRaspberry Pi Imagerをインストールします）
     * microSDカードが読み書きできるようにカードリーダーも用意しましょう
 * Raspberry Pi（このページではRaspberry Pi 5を想定）
+    * キーボードやケーブル類、モニタ（テレビ）も
 
 ## Raspberry Pi Imagerのインストール
 
 　[Raspberry Pi 財団のページ](https://www.raspberrypi.com/software/)から、「Raspberry Pi Imager」をインストールします。macOS用、Windows用、Linux用がありますが、以下ではmacOS用をもとに説明します。Windows版もほとんど同じものと思われます。
 
+![](./app.top)
