@@ -9,5 +9,5 @@ Copyright: (C) Ryuichi Ueda
 ## Linux環境の整備
 
 - ラズパイのセットアップ
-    - [Ubuntu Server 24.04 LTS](/?page=ubuntu_server24_raspi5)
+    - [Ubuntu Server 24.04 LTS](/?page=raspi_ubuntu_server_setup)
 
