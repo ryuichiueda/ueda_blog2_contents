@@ -5,7 +5,7 @@ Copyright: (C) Ryuichi Ueda 2025
 
 # Ubuntu Server 24.04 LTSをラズパイ5にインストールする方法
 
-　書籍のための情報です。基本、ラズパイ財団のツールを使うだけです。
+　書籍のための情報です。基本、ラズパイ財団のツールを使うだけです。ユーザー情報やWiFiの設定もツールでできて便利です。
 
 ## 用意するもの
 
@@ -21,4 +21,4 @@ Copyright: (C) Ryuichi Ueda 2025
 
 　[Raspberry Pi 財団のページ](https://www.raspberrypi.com/software/)から、「Raspberry Pi Imager」をインストールします。macOS用、Windows用、Linux用がありますが、以下ではmacOS用をもとに説明します。Windows版もほとんど同じものと思われます。
 
-![](./app.top)
+![](./app_top.png)
