@@ -21,4 +21,8 @@ Copyright: (C) Ryuichi Ueda 2025
 
 　[Raspberry Pi 財団のページ](https://www.raspberrypi.com/software/)から、「Raspberry Pi Imager」をインストールします。macOS用、Windows用、Linux用がありますが、以下ではmacOS用をもとに説明します。Windows版もほとんど同じものと思われます。
 
+## Raspberry Pi Imagerの立ち上げ+ラズパイの選択
+
+　通常のアプリの立ち上げ方でRaspberry Pi Imagerを立ち上げると、次のような画面が出るので、セットアップ対象のRaspberry Piのバージョンを選択します。
+
 ![](./app_top.png)
