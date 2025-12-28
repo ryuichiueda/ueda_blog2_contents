@@ -72,3 +72,8 @@ Copyright: (C) Ryuichi Ueda 2025
 
 ![](./ssh.png)
 
+## Write image
+
+これまで設定した内容を確認してWRITEボタンを押しましょう。microSDの中身を消していいかという確認の画面が出ますが、大丈夫ならI UNDERSTAND, ERASE AND WRITEを押します。macOSの場合、macOSでログインに使っているパスワードの入力を促されます。
+
+![](./write.png)
