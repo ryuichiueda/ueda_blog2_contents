@@ -9,5 +9,6 @@ Copyright: (C) Ryuichi Ueda 2025
 
 ## Raspberry Pi Imagerのインストール
 
-https://www.raspberrypi.com/software/
+　[Raspberry Pi 財団のページ](https://www.raspberrypi.com/software/)から、
+「Raspberry Pi Imager」をインストールします。
 
