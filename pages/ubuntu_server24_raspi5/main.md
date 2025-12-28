@@ -63,3 +63,12 @@ Copyright: (C) Ryuichi Ueda 2025
 　SSID（アクセスポイントの名前）とパスワードを入力しましょう。必要に応じてステルスSSIDなどにチェックを入れないといけませんが、よく分からないなら、おそらくチェックは不要です。あと、上のSECURE/OPEN NETWORKの選択ですが、OPEN NETWORKはたぶん危険なので、ご家庭のSECURE NETWORKを選択してください。
 
 ![](./wifi.png)
+
+
+## SSH authentication
+
+　SSHを有効化します。初心者はパスワード認証で十分です。ただし、ご家庭のネットワーク以外には接続しないようにしましょう。
+
+
+![](./ssh.png)
+
