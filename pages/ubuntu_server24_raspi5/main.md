@@ -26,3 +26,9 @@ Copyright: (C) Ryuichi Ueda 2025
 　通常のアプリの立ち上げ方でRaspberry Pi Imagerを立ち上げると、次のような画面が出るので、セットアップ対象のRaspberry Piのバージョンを選択します。
 
 ![](./app_top.png)
+
+## OSの選択
+
+　右側の画面をスクロールして「Other general-purpose OS」を選び、さらに「Ubuntu」を選びます。そして、「Ubuntu Server 24.04.x LTS（64-bit）」を選びます。xの数字は変わるかもしれません。執筆時点では24.04.3が選べました。下の図は、当該のバージョンを選択しているところです。「コンピュータにキャッシュ」とありますが、初回は「Online xx GB download」となっているはずです。
+
+![](./choose_ubuntu.png)
