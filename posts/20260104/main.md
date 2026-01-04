@@ -76,4 +76,4 @@ ueda@raspi5:~$ ps -eo pid,command,priority,nice,cls,rtprio | grep -e some -e PID
 最初、`--sched-runtime`をもっと小さい値にしていてうまくいかなかったのですが、案外ループが遅いんだなって思いました。
 
 
-　現場からは以上です。
+　現場からは以上です。みなさんあけまちんこ、のどちんこ。
