@@ -18,13 +18,11 @@ ueda@raspi5:~$ cat some_task.bash
 #!/bin/bash
 
 n=1
-
 while true ; do
         if [[ "$SECONDS" != "$PREV" ]] ; then
                 echo $SECONDS $n
                 PREV=$SECONDS
         fi
-
         ((n++))
 done
 ```
