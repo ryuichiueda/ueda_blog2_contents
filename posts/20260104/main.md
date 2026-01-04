@@ -5,7 +5,7 @@ Copyright: (C) 2026 Ryuichi Ueda
 
 # LinuxのSCHED_DEADLINEの動作確認
 
-　書籍のために作りましたのでなぐり書きです。SCHED_DEADLINEというのは原稿のLinuxのタスクスケジューラ
+　書籍のための備忘録なのでなぐり書きです。SCHED_DEADLINEというのは原稿のLinuxのタスクスケジューラ
 （Earliest Eligible Virtual Deadline First、EEVDF）で定義されているプロセスの動かし方で、「一定周期内に必ずこのタスクやる（やれなかったら切腹）」というものです。
 
 
