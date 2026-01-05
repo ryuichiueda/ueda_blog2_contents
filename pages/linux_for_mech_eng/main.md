@@ -16,3 +16,4 @@ Copyright: (C) Ryuichi Ueda
 - https://rheb.hatenablog.com/entry/2023/03/13/135419
 - https://eng-blog.iij.ad.jp/archives/27285
 - https://medium.com/@joseagustin.barra/understanding-priority-levels-in-linux-cd8c82eb4dd
+- https://qiita.com/nhiroki/items/2fa7bb048118145b00cd
