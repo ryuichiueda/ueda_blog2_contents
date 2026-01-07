@@ -20,3 +20,4 @@ Copyright: (C) Ryuichi Ueda
 - https://bootlin.com/doc/training/preempt-rt/preempt-rt-slides.pdf
 - https://www.valinux.co.jp/blog/entry/20250303
 - https://www.global.toshiba/jp/company/digitalsolution/articles/tsoul/tech/t0902.html
+- https://gihyo.jp/article/2024/10/daily-linux-241016
