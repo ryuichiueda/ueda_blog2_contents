@@ -57,9 +57,11 @@ ueda@raspi5:~$ ./some_task_read.bash
 
 　他の端末で見たところ、CPUはほとんど使ってませんでした。
 
+```bash
 ueda@raspi5:~$ ps u -C some_task_read.bash
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 ueda        9431  0.0  0.0   5216  3200 pts/0    S+   18:51   0:00 /bin/bash ./some_task_read.bash
+```
 
 　ちなみに`read`の行がないと、CPUの使用率は100%になります。
 
