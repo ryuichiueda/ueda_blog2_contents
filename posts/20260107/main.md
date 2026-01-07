@@ -55,7 +55,7 @@ ueda@raspi5:~$ ./some_task_read.bash
 ・・・
 ```
 
-　他の端末で見たところ、CPUはほとんど使ってませんでした。
+　他の端末で見たところ、CPUはほとんど使ってませんでした。`STAT`が`S+`になってるので、寝たまま端末をガメているという状態になっています。
 
 ```bash
 ueda@raspi5:~$ ps u -C some_task_read.bash
