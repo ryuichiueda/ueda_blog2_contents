@@ -10,7 +10,7 @@ Copyright: (C) 2026 Ryuichi Ueda
 ということを書きました。
 なので、3秒ごとに1ミリ秒間リアルタイムで動かすシェルスクリプトでは`sleep`コマンドを使わず、CPUを100%使わせてました。
 
-　ただ、`sleep`なしでもBashを眠らせられないかと疑問に思ったので調べたところ、[stack overflowに、readにタイムアウトを設定して使う方法](https://stackoverflow.com/questions/32425457/bash-unix-how-can-i-pause-a-process-without-using-sleep-command)がありました。
+　ただ、`sleep`なしでもBashを眠らせられないかと疑問に思ったので調べたところ、[stack overflowに、readにタイムアウトを設定するとできる](https://stackoverflow.com/questions/32425457/bash-unix-how-can-i-pause-a-process-without-using-sleep-command)と書いてありました。
 ということでやってみました。`read`はビルトインコマンドなので、フォークしません。
 
 ## 実験
