@@ -17,3 +17,4 @@ Copyright: (C) Ryuichi Ueda
 - https://eng-blog.iij.ad.jp/archives/27285
 - https://medium.com/@joseagustin.barra/understanding-priority-levels-in-linux-cd8c82eb4dd
 - https://qiita.com/nhiroki/items/2fa7bb048118145b00cd
+- https://bootlin.com/doc/training/preempt-rt/preempt-rt-slides.pdf
