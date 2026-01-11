@@ -21,3 +21,5 @@ Copyright: (C) Ryuichi Ueda
 - https://www.valinux.co.jp/blog/entry/20250303
 - https://www.global.toshiba/jp/company/digitalsolution/articles/tsoul/tech/t0902.html
 - https://gihyo.jp/article/2024/10/daily-linux-241016
+- https://qiita.com/rarul/items/7ac832563d935dd7ab88
+    - fsfreeze
