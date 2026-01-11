@@ -23,3 +23,5 @@ Copyright: (C) Ryuichi Ueda
 - https://gihyo.jp/article/2024/10/daily-linux-241016
 - https://qiita.com/rarul/items/7ac832563d935dd7ab88
     - fsfreeze
+- https://leavatail.hatenablog.com/entry/2022/01/01/000000#writeback-kthread%E3%81%AE%E6%A6%82%E8%A6%81
+    - writebackについて
