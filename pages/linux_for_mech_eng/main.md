@@ -25,3 +25,5 @@ Copyright: (C) Ryuichi Ueda
     - fsfreeze
 - https://leavatail.hatenablog.com/entry/2022/01/01/000000#writeback-kthread%E3%81%AE%E6%A6%82%E8%A6%81
     - writebackについて
+- https://atmarkit.itmedia.co.jp/ait/articles/1703/01/news171.html
+    - システムコール
