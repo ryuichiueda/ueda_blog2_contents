@@ -9,6 +9,10 @@ Copyright: (C) Ryuichi Ueda
 
 Pythonやライブラリ、Jupyterなどの仕様変更によるコードの修正です。こちらはGitHubのコードに随時反映しています。本の内容については、もし第2版が出たらそのときにアップデートします。アップデート前のコードについては、横にコメントアウトして残してあるので、もし動かないときは、そちらのコードを試してみてください。
 
+### 2026年1月更新分
+
+* [section_sensor/lidar_200.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_sensor/lidar_200.ipynb)セル[6]: Pandasで標本分散を計算しているところの引数のddof、整数を指定するように仕様が変更されたようです。（Pandas 2.2.3で確認）
+
 ### 2024年6月更新分
 
 * [section_kalman_filter/kf3.ipynb](https://github.com/ryuichiueda/LNPR_BOOK_CODES/blob/master/section_kalman_filter/kf3.ipynb) 
