@@ -56,7 +56,7 @@ Pythonやライブラリ、Jupyterなどの仕様変更によるコードの修�
 
 ```python
 
-freqs["probs"] = freqs["count"]/len(freqs["count"]) # 古いバージョン: freqs["probs"] = freqs["lidar"]/len(data["lidar"]) ###addprobs###
+freqs["probs"] = freqs["count"]/sum(freqs["count"]) # 古いバージョン: freqs["probs"] = freqs["lidar"]/len(data["lidar"]) ###addprobs###
 freqs.transpose()
 ```
 
