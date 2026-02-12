@@ -27,3 +27,5 @@ Copyright: (C) Ryuichi Ueda
     - writebackについて
 - https://atmarkit.itmedia.co.jp/ait/articles/1703/01/news171.html
     - システムコール
+- https://pingcap.co.jp/blog/linux-kernel-vs-memory-fragmentation-1/
+    - メモリのフラグメンテーションについて
