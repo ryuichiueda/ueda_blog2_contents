@@ -29,3 +29,4 @@ Copyright: (C) Ryuichi Ueda
     - システムコール
 - https://pingcap.co.jp/blog/linux-kernel-vs-memory-fragmentation-1/
     - メモリのフラグメンテーションについて
+- [全プロセスが一秒止まる不具合、原因はLinuxカーネルにあり？](https://zenn.dev/turing_motors/articles/a460fe08b54253)
