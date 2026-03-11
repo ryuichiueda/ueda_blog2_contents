@@ -29,8 +29,12 @@ Copyright: (C) Ryuichi Ueda
     - システムコール
 - https://pingcap.co.jp/blog/linux-kernel-vs-memory-fragmentation-1/
     - メモリのフラグメンテーションについて
+
+
+### TASK_IDLEについて
+
 - https://hiboma.hatenadiary.jp/entry/2017/11/02/102713
-    - TASK_IDLE
+- https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=80ed87c8a9ca0cad7ca66cf3bbdfb17559a66dcf
 
 ### スワップに関する話題
 
