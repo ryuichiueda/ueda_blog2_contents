@@ -29,5 +29,12 @@ Copyright: (C) Ryuichi Ueda
     - システムコール
 - https://pingcap.co.jp/blog/linux-kernel-vs-memory-fragmentation-1/
     - メモリのフラグメンテーションについて
+<<<<<<< HEAD
 - https://hiboma.hatenadiary.jp/entry/2017/11/02/102713
     - TASK_IDLE
+=======
+
+### スワップに関する話題
+
+- [全プロセスが一秒止まる不具合、原因はLinuxカーネルにあり？](https://zenn.dev/turing_motors/articles/a460fe08b54253)
+>>>>>>> b7bacb53a8d6bccb55c18890d3f23efc4568a9d9
