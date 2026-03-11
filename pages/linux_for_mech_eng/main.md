@@ -29,3 +29,5 @@ Copyright: (C) Ryuichi Ueda
     - システムコール
 - https://pingcap.co.jp/blog/linux-kernel-vs-memory-fragmentation-1/
     - メモリのフラグメンテーションについて
+- https://hiboma.hatenadiary.jp/entry/2017/11/02/102713
+    - TASK_IDLE
