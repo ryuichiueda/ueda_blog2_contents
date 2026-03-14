@@ -39,4 +39,8 @@ Copyright: (C) Ryuichi Ueda
 ### スワップに関する話題
 
 - [全プロセスが一秒止まる不具合、原因はLinuxカーネルにあり？](https://zenn.dev/turing_motors/articles/a460fe08b54253)
->>>>>>> b7bacb53a8d6bccb55c18890d3f23efc4568a9d9
+
+### ゾンビに関する話題
+
+- https://stackoverflow.com/questions/26996201/zombie-process-even-though-threads-are-still-running
+- https://www.sourceware.org/bugzilla/show_bug.cgi?id=9804
