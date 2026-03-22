@@ -5,7 +5,7 @@ Copyright: (C) 2026 Ryuichi Ueda
 
 # 近況（2026年3月22日）
 
-　子供の学校関係の手続きや超絶苦手な式典、来年度の準備とかで大変です。毎年3月は自由な割に絶対に忘れてはいけない手続きが多くてメンタルが良くないんですが、今年は身の回りに入試が重なって特に良くないです。入試、学校側に無限にリソースがあれば、別に席を競って争わないでいい（=競ってる時点で必要悪）ってことにもう少し多くの人が気付けばいいんですが・・・。
+　子供の学校関係の手続きや超絶苦手な式典、来年度の準備とかで大変です。毎年3月は自由な割に絶対に忘れてはいけない手続きが多くて気持ちが落ち着かないんですが、今年は身の回りに入試が重なって特に良くないです。
 
 ## いまやってること
 
@@ -28,3 +28,5 @@ Copyright: (C) 2026 Ryuichi Ueda
 　いま5月号（第42回）の原稿のゲラ待ち、6月号（第43回）の執筆中です。いま書店にあるのは4月号（第41回）です。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">連載41回目です書店にどぞ <a href="https://twitter.com/hashtag/SoftwareDesign?src=hash&amp;ref_src=twsrc%5Etfw">#SoftwareDesign</a> <a href="https://t.co/MJR2NZT85O">pic.twitter.com/MJR2NZT85O</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/2035240042109837335?ref_src=twsrc%5Etfw">March 21, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+他にもいろいろありそうだけど思い出せないので今日はこの辺で。もうちょい書く頻度上げたい。
