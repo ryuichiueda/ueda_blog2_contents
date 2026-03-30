@@ -34,6 +34,8 @@ Copyright: (C) Ryuichi Ueda
 
 - SCHED_BATCHについて
     - https://zenn.dev/tmsn/articles/af8116d7ba13da
+- スケジューリングクラス
+    - https://qiita.com/ueba/items/0e8fe57a4b421eb5622d
 
 ### TASK_IDLEについて
 
