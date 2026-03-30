@@ -32,10 +32,11 @@ Copyright: (C) Ryuichi Ueda
 
 ### スケジューラ
 
+- スケジューリングクラス
+    - https://qiita.com/ueba/items/749e8da79b49fc0bc932
+    - https://qiita.com/ueba/items/0e8fe57a4b421eb5622d
 - SCHED_BATCHについて
     - https://zenn.dev/tmsn/articles/af8116d7ba13da
-- スケジューリングクラス
-    - https://qiita.com/ueba/items/0e8fe57a4b421eb5622d
 
 ### TASK_IDLEについて
 
