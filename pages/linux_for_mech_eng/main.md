@@ -30,6 +30,10 @@ Copyright: (C) Ryuichi Ueda
 - https://pingcap.co.jp/blog/linux-kernel-vs-memory-fragmentation-1/
     - メモリのフラグメンテーションについて
 
+### スケジューラ
+
+- SCHED_BATCHについて
+    - https://zenn.dev/tmsn/articles/af8116d7ba13da
 
 ### TASK_IDLEについて
 
