@@ -40,6 +40,9 @@ Copyright: (C) Ryuichi Ueda
     - https://zenn.dev/tmsn/articles/af8116d7ba13da
 - RTクラスの優先度について
     - https://qiita.com/rarul/items/88d3e803d8456f50db01
+- スロットリング
+    - https://docs.redhat.com/ja/documentation/red_hat_enterprise_linux_for_real_time/7/html/tuning_guide/real_time_throttling
+    - https://lwn.net/Articles/296419/
 
 ### TASK_IDLEについて
 
