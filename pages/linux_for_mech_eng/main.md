@@ -43,6 +43,7 @@ Copyright: (C) Ryuichi Ueda
 - スロットリング
     - https://docs.redhat.com/ja/documentation/red_hat_enterprise_linux_for_real_time/7/html/tuning_guide/real_time_throttling
     - https://lwn.net/Articles/296419/
+    - https://eng-blog.iij.ad.jp/archives/27285
 
 ### TASK_IDLEについて
 
