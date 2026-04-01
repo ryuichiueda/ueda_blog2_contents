@@ -38,6 +38,8 @@ Copyright: (C) Ryuichi Ueda
     - https://qiita.com/ueba/items/d3e69e047f71a2b52207
 - SCHED_BATCHについて
     - https://zenn.dev/tmsn/articles/af8116d7ba13da
+- RTクラスの優先度について
+    - https://qiita.com/rarul/items/88d3e803d8456f50db01
 
 ### TASK_IDLEについて
 
