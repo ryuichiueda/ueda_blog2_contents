@@ -45,6 +45,7 @@ Copyright: (C) Ryuichi Ueda
     - https://lwn.net/Articles/296419/
     - https://eng-blog.iij.ad.jp/archives/27285
 - DEADLINEクラス
+    - https://www.kernel.org/doc/html/latest/scheduler/sched-deadline.html
     - https://tech.tier4.jp/entry/2021/02/10/160000
 
 ### TASK_IDLEについて
