@@ -44,6 +44,8 @@ Copyright: (C) Ryuichi Ueda
     - https://docs.redhat.com/ja/documentation/red_hat_enterprise_linux_for_real_time/7/html/tuning_guide/real_time_throttling
     - https://lwn.net/Articles/296419/
     - https://eng-blog.iij.ad.jp/archives/27285
+- DEADLINEクラス
+    - https://tech.tier4.jp/entry/2021/02/10/160000
 
 ### TASK_IDLEについて
 
