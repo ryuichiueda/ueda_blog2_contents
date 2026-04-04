@@ -15,7 +15,7 @@ Copyright: (C) 2026 Ryuichi Ueda
 
 ## 使う環境
 
-　RAMが4GBのラズパイ5を使いました。リアルタイムLinux（`PREEMPT_RT`）で試す前に、今回は`PREEMPT_DYNAMIC`で試しました。2GBのスワップファイルが使えるように設定されています。
+　RAMが4GBのラズパイ5を使いました。リアルタイムカーネル（`PREEMPT_RT`）で試す前に、今回は`PREEMPT_DYNAMIC`で試しました。2GBのスワップファイルが使えるように設定されています。
 
 ```bash
 ueda@raspi5:~$ uname -a
