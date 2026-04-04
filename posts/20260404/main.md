@@ -5,9 +5,11 @@ Copyright: (C) 2026 Ryuichi Ueda
 
 # SCHED_DEADLINEで処理の不履行を起こす
 
-　いま機械系の学生さん向けのLinuxの本を書いてるんですが、本の中でこの興味深い例をなるべくシンプルな形で再現できないか、とふと考えて、本のためのコードを使い回してやってみました。
+　いま機械系の学生さん向けのLinuxの本を書いてるんですが、本の中で次のブログ記事
 
-Katsuhiro Suzuki: [全プロセスが一秒止まる不具合続編: カーネル内部で何が起きたか？](https://zenn.dev/turing_motors/articles/fdfb70b7a9d90b), Tech Blog - Turing
+* Katsuhiro Suzuki: [全プロセスが一秒止まる不具合続編: カーネル内部で何が起きたか？](https://zenn.dev/turing_motors/articles/fdfb70b7a9d90b), Tech Blog - Turing
+
+の現象をなるべくシンプルな形で再現できないか、とふと考えて、本のためのコードを使い回してやってみました。
 
 　事前知識がいろいろ必要な記事で、ちゃんと説明できていませんが、とりあえずふーんという感じで読んでいただければと。
 
