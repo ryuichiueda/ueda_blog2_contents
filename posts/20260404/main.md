@@ -5,10 +5,19 @@ Copyright: (C) 2026 Ryuichi Ueda
 
 # SCHED_DEADLINEで処理の不履行を起こす
 
-　いま機械系の学生さん向けのLinuxの本を書いてるんですが、本の中でこの興味深い例をなるべくシンプルな形で再現できないか、とふと考えて、本のためのコードを使い回してやってみました。ラズパイ5を使いました。
+　いま機械系の学生さん向けのLinuxの本を書いてるんですが、本の中でこの興味深い例をなるべくシンプルな形で再現できないか、とふと考えて、本のためのコードを使い回してやってみました。
 
 Katsuhiro Suzuki: [全プロセスが一秒止まる不具合続編: カーネル内部で何が起きたか？](https://zenn.dev/turing_motors/articles/fdfb70b7a9d90b), Tech Blog - Turing
 
+## 使う環境
+
+　ラズパイ5を使いました。リアルタイムLinux（`PREEMPT_RT`）で試す前に、今回は`PREEMPT_DYNAMIC`で試しました。
+
+```bash
+ueda@raspi5:~$ uname -a
+Linux raspi5 6.8.0-1051-raspi #55-Ubuntu SMP PREEMPT_DYNAMIC
+Thu Mar 19 11:43:53 UTC 2026 aarch64 aarch64 aarch64 GNU/Linux
+```
 
 ## 使うコード
 
@@ -54,7 +63,7 @@ ueda@raspi5:~$ sudo chrt -d --sched-runtime 1000000 \
 
 ### その2: メモリとスワップファイルを食い潰すC言語のコード
 
-　今度は、引数の分だけ実メモリやスワップファイルを消費していくコードを書きます。
+　今度は、引数の分だけ実メモリやスワップファイルを消費していくコードを書きます。他の実験に使ったコードなので、目的に比べて回りくどいかもしれません。
 
 ```c
 #include <stdlib.h>
@@ -67,11 +76,11 @@ int main(int argc, char const *argv[]) {
                 for(int i=0;i<1024*1024;i+=4096)
                         p[i] = 111; //各ページの先頭に値を入れて実メモリを食う
         }
-        exit(0);
+        exit(0); //メモリの後始末はカーネルに任せます
 }
 ```
 
-名前は`swap.c`にしましょう。
+名前は`swap.c`にしましょう。次のように実行すると、6000MiBメモリを食ってくれます。
 
 ```bash
 1775294574.927951
