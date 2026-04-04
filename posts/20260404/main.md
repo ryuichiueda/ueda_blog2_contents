@@ -1,5 +1,5 @@
 ---
-Keywords: Linux
+Keywords: Linux, SCHED_DEADLINE
 Copyright: (C) 2026 Ryuichi Ueda
 ---
 
@@ -84,7 +84,7 @@ int main(int argc, char const *argv[]) {
 }
 ```
 
-名前は`swap.c`にしましょう。次のように実行すると、6000MiBメモリを食ってくれます。`top`の表示を見ていくと、Swapのfreeの値が減っていきます。
+名前は`swap.c`にしましょう。次のように実行すると、6000MiBメモリを食ってくれます。`top`の表示を見ていくと、Swapのfreeの値が減っていきます（何分かかかります）。
 
 ```bash
 （端末2）ueda@raspi5:~$ gcc -O0 swap.c -o swap
@@ -100,11 +100,17 @@ MiB Swap:   2048.0 total,   1616.9 free,    431.0 used.     38.6 avail Mem
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
    4181 ueda      20   0 4186212   3.6g    848 R   3.7  92.7   0:04.02 ./swap 6000
 ・・・
+### topを出るとスワップがなくなって「強制終了」と表示されています。###
+[1]+  強制終了            ./swap 6000
 ```
+
+　上で示したブログの記事では、メモリが食い潰されたときにkswapd0の処理が長時間ロックをかけてしまうということです。このときにSCHED_DEADLINEのプロセスに何か起こると実験成功ということになります。
 
 ## 実験
 
-　`clock.bash`を先に立ち上げて、あとから`swap`を立ちあげてしばらく待ちます。
+　`clock.bash`を先に立ち上げて、あとから`swap`を立ちあげてしばらく待ちます。上に書いたように、前者、後者を立ち上げた端末をそれぞれ「端末1」、「端末2」とします。
+
+　端末2でSwapのfreeが`0`になったあとすぐ2GBに戻るので、そのときに端末1を見てみましょう。2秒か4秒、処理が飛ぶのが観測できます。
 
 ```bash
 1775294574.927951
@@ -113,9 +119,12 @@ MiB Swap:   2048.0 total,   1616.9 free,    431.0 used.     38.6 avail Mem
 1775294584.931808  #飛んだ！！！
 1775294586.927980
 ```
+10回くらい実験しましたが、全部飛びました。やったぜ（？）
 
+　スワップがなくなる瞬間の`top`の出力をうまく採取できたので示します。`kswapd0`と`swap`というカーネルスレッドが結構激しく動いているのが確認できました。
 
 ```bash
+### 端末2のtop ###
 Tasks: 160 total,   3 running, 154 sleeping,   0 stopped,   3 zombie
 %Cpu(s):  0.0 us, 43.6 sy,  0.0 ni, 12.4 id, 44.0 wa,  0.0 hi,  0.0 si,  0.0 st
 MiB Mem :   3984.1 total,   2137.6 free,   1864.4 used,     30.1 buff/cache
@@ -126,3 +135,5 @@ MiB Swap:   2048.0 total,      0.1 free,   2047.9 used.   2119.7 avail Mem
    4058 ueda      20   0       0      0      0 R  54.2   0.0   0:09.91 [swap]
 ・・・
 ```
+
+面白い。以上です。
