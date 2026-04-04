@@ -38,6 +38,15 @@ Copyright: (C) Ryuichi Ueda
     - https://qiita.com/ueba/items/d3e69e047f71a2b52207
 - SCHED_BATCHについて
     - https://zenn.dev/tmsn/articles/af8116d7ba13da
+- RTクラスの優先度について
+    - https://qiita.com/rarul/items/88d3e803d8456f50db01
+- スロットリング
+    - https://docs.redhat.com/ja/documentation/red_hat_enterprise_linux_for_real_time/7/html/tuning_guide/real_time_throttling
+    - https://lwn.net/Articles/296419/
+    - https://eng-blog.iij.ad.jp/archives/27285
+- DEADLINEクラス
+    - https://www.kernel.org/doc/html/latest/scheduler/sched-deadline.html
+    - https://tech.tier4.jp/entry/2021/02/10/160000
 
 ### TASK_IDLEについて
 
