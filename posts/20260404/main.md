@@ -9,6 +9,8 @@ Copyright: (C) 2026 Ryuichi Ueda
 
 Katsuhiro Suzuki: [全プロセスが一秒止まる不具合続編: カーネル内部で何が起きたか？](https://zenn.dev/turing_motors/articles/fdfb70b7a9d90b), Tech Blog - Turing
 
+　事前知識がいろいろ必要な記事で、ちゃんと説明できていませんが、とりあえずふーんという感じで読んでいただければと。
+
 ## 使う環境
 
 　ラズパイ5を使いました。リアルタイムLinux（`PREEMPT_RT`）で試す前に、今回は`PREEMPT_DYNAMIC`で試しました。2GBのスワップファイルが使えるように設定されています。
@@ -136,4 +138,6 @@ MiB Swap:   2048.0 total,      0.1 free,   2047.9 used.   2119.7 avail Mem
 ・・・
 ```
 
-面白い。以上です。
+　明日あたり`PREEMPT_RT`でも試してみようと思います。ロックの問題なので、たぶん`PREEMPT_RT`でも起こりそうだと予想してますが、どうでしょう？
+
+　面白い。以上です。
