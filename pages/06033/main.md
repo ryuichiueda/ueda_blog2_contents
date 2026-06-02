@@ -457,6 +457,11 @@ Proc. of IEEE International Conference on Robotics and Automation, pp. 1353-1358
 
 ## 口頭発表
 
+### 2026
+
+* Washio Yusaku, Daiki Usami, Yusuke Kumagai, Anju Sasaki, Yosuke Sadasue, Tomonori Sekiguchi, Ryo Mizuochi, Haruki Ito, Ko Ishibashi, Ryo Ishimaru, Kobayashi Masanori, Hiroki Senshu, Tetsuro Harada, Manabu Yamada, Mengu Cho,, Daisuke Nakayama,, Schulz Victor Hugo, Corodova-Alarcon Jose Rodrigo, Ryuichi Ueda, Tomoko Arai: CubeLander: 6U CubeSat-Based Lander Design for Apophis, JpGU-AGU Joint Meeting, PPS09-P04, 2026. 
+* *Tomoko Arai, Tetsuro Harada, Ko Ishibashi, Manabu Yamada, Hiroki Senshu, Masanori Kobayashi, Ryo Ishimaru, Daisuke Nakayama,, Tomonori Sekiguchi, Yosuke Sadasue, Yusaku Washio, Ryo Mizuochi, Daiki Usami, Haruki Ito, Anju Sasaki, Schulz Victor Hugo, Corodova-Alarcon Jose Rodrigo, Ryuichi Ueda, Mengu Cho: Project Apophis: the world's first Academic-Commercial collaboration asteroid mission, JpGU-AGU Joint Meeting, PPS09-P06, 2026. 
+
 ### 2025
 
 * 今井悠月, 上田隆一, 林原靖男: 視覚と行動のend-to-end 学習による経路追従行動の模倣 ―教師データの自己情報量に基づく重みづけ学習手法の提案―, 計測自動制御学会第26回システムインテグレーション部門講演会, pp.1875-1880, 2025.
