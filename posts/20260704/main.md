@@ -54,7 +54,7 @@ elif [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
 fi
 
-complete -d cd
+#complete -d cd #昔はこれがないとcdの補完が効かなかったが今は大丈夫っぽい
 ```
 
 ### パスの通っているところに`sush`を置く
