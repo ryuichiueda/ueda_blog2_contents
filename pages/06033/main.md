@@ -163,7 +163,7 @@ Copyright: (C) Ryuichi Ueda
 
 ### 2026
 
-* 船井 涼, 林原 靖男, 上田 隆一: 移動ロボットの自己位置推定のためのベクトル量子化による3次元占有格子地図の圧縮, 第31回ロボティクスシンポジア講演論文集, pp.107-112, 2026.<span style="color:red"><a href="https://www.robotics-symposia.org/31st/files/RS31_award.pdf">ロボティクスシンポジア賞ファイナリスト</a></span>
+* 船井 涼, 林原 靖男, 上田 隆一: 移動ロボットの自己位置推定のためのベクトル量子化による3次元占有格子地図の圧縮, 第31回ロボティクスシンポジア講演論文集, pp.15-21, 2026.<span style="color:red"><a href="https://www.robotics-symposia.org/31st/files/RS31_award.pdf">ロボティクスシンポジア賞ファイナリスト</a></span>
 
 ### 2025
 
