@@ -105,6 +105,7 @@ d.cov()
 
 |場所|訂正事項|発見者|一言|
 |:---|:-----|------|:-----|
+|p.192 式(8.34)|\\(\sim \hat{m} +\\) \\(\Longrightarrow\\) \\(\sim \boldsymbol{h}(\hat{m}) + \\)| https://github.com/ryuichiueda/LNPR_SLIDES/pull/29 |コードに関係ないところで油断しました|
 |p.25 セル[9]コード1行目と下の表の値|len(freqs["count"]) \\(\Longrightarrow\\) sum(freqs["count"])|</blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ただしくはこうです <a href="https://t.co/B3Fwjad7kO">pic.twitter.com/B3Fwjad7kO</a></p>&mdash; 上田隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/2014962550274973890?ref_src=twsrc%5Etfw">January 24, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>|ひどい間違いです・・・|
 |p.254 コード2行目のコメント|KfAgent \\(\Longrightarrow\\) EstimationAgent|上田|コメントなので油断しました。|
 |p.262 2行目|角度と角速度 \\(\Longrightarrow\\) 速度と角速度|<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">写真の10.3.2のヒートマップの後の３行目の文章で「制御指令値の角度と角速度を足す」も「〜速度と角速度を足す」ですかね？（kindle版なんでページ数はわかりません） <a href="https://t.co/ZEgTCJsHWl">pic.twitter.com/ZEgTCJsHWl</a></p>&mdash; sumeragiagito (@sumeragiagito) <a href="https://twitter.com/sumeragiagito/status/1798003548325888370?ref_src=twsrc%5Etfw">June 4, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>|第5刷で訂正したp.91のと同じです🙏|
